@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Lee. How are you feeling today?",
+    "Client: I'm... okay, I suppose. A bit nervous about what we're going to do today. I've been having more anxiety lately, especially after our last session when you mentioned we'd be doing something called imaginal exposure.",
+    "Therapist: I understand. Let's talk about that. What concerns you most?",
+    "Client: Well, I'm worried about having to relive those painful experiences of being bullied because of my race. It's been years, but thinking about it still makes my heart race. I'm not sure I can handle it.",
+    "Therapist: Your concerns are valid. Imaginal exposure can be challenging, but it's a powerful tool for healing. Shall I explain more?",
+    "Client: Yes, please. I want to understand why we need to do this. It seems... counterintuitive to deliberately bring up painful memories.",
+    "Therapist: The goal is to process the trauma in a safe environment. By facing these memories, we can reduce their power over you.",
+    "Client: I see. But won't it make my anxiety worse? I've worked so hard to keep these memories at bay.",
+    "Therapist: It may be uncomfortable initially, but over time, it often leads to decreased anxiety. How does that sound to you?",
+    "Client: It makes sense, but I'm still scared. What if I panic during the session? Or what if I can't stop crying?",
+    "Therapist: Those reactions are normal. I'll be here to support you throughout. We can pause anytime you need.",
+    "Client: That's reassuring. I appreciate your patience with me. It's just... being a 60-year-old woman, I sometimes feel silly still struggling with things that happened so long ago. And now, being divorced and living alone, these memories seem to creep up more often.",
+    "Therapist: Your feelings are valid, regardless of your age or life circumstances. Trauma doesn't have an expiration date.",
+    "Client: Thank you for saying that. It helps to hear it. So, what exactly will we be doing in this imaginal exposure?",
+    "Therapist: We'll revisit a specific memory related to your racial trauma. You'll describe it in detail, in the present tense.",
+    "Client: Oh, that sounds intense. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+    "Therapist: You can keep your eyes open if you prefer. The most important thing is that you feel safe.",
+    "Client: Okay, that's good to know. And you mentioned we can pause if it gets too overwhelming?",
+    "Therapist: Absolutely. We'll go at your pace. Your comfort and safety are my top priorities.",
+    "Client: Alright. I think I'm starting to feel a bit better about this. It's still scary, but I understand why it might be helpful. Is there anything I should do to prepare myself?",
+    "Therapist: Just bring your courage, which you've already demonstrated. Are you ready to begin?",
+    "Client: I... I think so. Yes, let's do this. I want to heal and move forward. Thank you for guiding me through this process.",
+    "Therapist: You're welcome. Your bravery is commendable. Shall we start with a breathing exercise?",
+    "Client: Yes, that would be helpful. I can already feel my heart starting to race a bit. A breathing exercise sounds perfect right now."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Lee. How are you feeling today?",
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do today. I've been having more anxiety lately, especially after our last session when you mentioned we'd be doing something called imaginal exposure.",
+      "Therapist: I understand. Let's talk about that. What concerns you most?"
+    ],
+    [
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do today. I've been having more anxiety lately, especially after our last session when you mentioned we'd be doing something called imaginal exposure.",
+      "Therapist: I understand. Let's talk about that. What concerns you most?",
+      "Client: Well, I'm worried about having to relive those painful experiences of being bullied because of my race. It's been years, but thinking about it still makes my heart race. I'm not sure I can handle it."
+    ],
+    [
+      "Therapist: I understand. Let's talk about that. What concerns you most?",
+      "Client: Well, I'm worried about having to relive those painful experiences of being bullied because of my race. It's been years, but thinking about it still makes my heart race. I'm not sure I can handle it.",
+      "Therapist: Your concerns are valid. Imaginal exposure can be challenging, but it's a powerful tool for healing. Shall I explain more?"
+    ],
+    [
+      "Client: Well, I'm worried about having to relive those painful experiences of being bullied because of my race. It's been years, but thinking about it still makes my heart race. I'm not sure I can handle it.",
+      "Therapist: Your concerns are valid. Imaginal exposure can be challenging, but it's a powerful tool for healing. Shall I explain more?",
+      "Client: Yes, please. I want to understand why we need to do this. It seems... counterintuitive to deliberately bring up painful memories."
+    ],
+    [
+      "Therapist: Your concerns are valid. Imaginal exposure can be challenging, but it's a powerful tool for healing. Shall I explain more?",
+      "Client: Yes, please. I want to understand why we need to do this. It seems... counterintuitive to deliberately bring up painful memories.",
+      "Therapist: The goal is to process the trauma in a safe environment. By facing these memories, we can reduce their power over you."
+    ],
+    [
+      "Client: Yes, please. I want to understand why we need to do this. It seems... counterintuitive to deliberately bring up painful memories.",
+      "Therapist: The goal is to process the trauma in a safe environment. By facing these memories, we can reduce their power over you.",
+      "Client: I see. But won't it make my anxiety worse? I've worked so hard to keep these memories at bay."
+    ],
+    [
+      "Therapist: The goal is to process the trauma in a safe environment. By facing these memories, we can reduce their power over you.",
+      "Client: I see. But won't it make my anxiety worse? I've worked so hard to keep these memories at bay.",
+      "Therapist: It may be uncomfortable initially, but over time, it often leads to decreased anxiety. How does that sound to you?"
+    ],
+    [
+      "Client: I see. But won't it make my anxiety worse? I've worked so hard to keep these memories at bay.",
+      "Therapist: It may be uncomfortable initially, but over time, it often leads to decreased anxiety. How does that sound to you?",
+      "Client: It makes sense, but I'm still scared. What if I panic during the session? Or what if I can't stop crying?"
+    ],
+    [
+      "Therapist: It may be uncomfortable initially, but over time, it often leads to decreased anxiety. How does that sound to you?",
+      "Client: It makes sense, but I'm still scared. What if I panic during the session? Or what if I can't stop crying?",
+      "Therapist: Those reactions are normal. I'll be here to support you throughout. We can pause anytime you need."
+    ],
+    [
+      "Client: It makes sense, but I'm still scared. What if I panic during the session? Or what if I can't stop crying?",
+      "Therapist: Those reactions are normal. I'll be here to support you throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I appreciate your patience with me. It's just... being a 60-year-old woman, I sometimes feel silly still struggling with things that happened so long ago. And now, being divorced and living alone, these memories seem to creep up more often."
+    ],
+    [
+      "Therapist: Those reactions are normal. I'll be here to support you throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I appreciate your patience with me. It's just... being a 60-year-old woman, I sometimes feel silly still struggling with things that happened so long ago. And now, being divorced and living alone, these memories seem to creep up more often.",
+      "Therapist: Your feelings are valid, regardless of your age or life circumstances. Trauma doesn't have an expiration date."
+    ],
+    [
+      "Client: That's reassuring. I appreciate your patience with me. It's just... being a 60-year-old woman, I sometimes feel silly still struggling with things that happened so long ago. And now, being divorced and living alone, these memories seem to creep up more often.",
+      "Therapist: Your feelings are valid, regardless of your age or life circumstances. Trauma doesn't have an expiration date.",
+      "Client: Thank you for saying that. It helps to hear it. So, what exactly will we be doing in this imaginal exposure?"
+    ],
+    [
+      "Therapist: Your feelings are valid, regardless of your age or life circumstances. Trauma doesn't have an expiration date.",
+      "Client: Thank you for saying that. It helps to hear it. So, what exactly will we be doing in this imaginal exposure?",
+      "Therapist: We'll revisit a specific memory related to your racial trauma. You'll describe it in detail, in the present tense."
+    ],
+    [
+      "Client: Thank you for saying that. It helps to hear it. So, what exactly will we be doing in this imaginal exposure?",
+      "Therapist: We'll revisit a specific memory related to your racial trauma. You'll describe it in detail, in the present tense.",
+      "Client: Oh, that sounds intense. Will I have to close my eyes? I'm not sure I'd be comfortable with that."
+    ],
+    [
+      "Therapist: We'll revisit a specific memory related to your racial trauma. You'll describe it in detail, in the present tense.",
+      "Client: Oh, that sounds intense. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+      "Therapist: You can keep your eyes open if you prefer. The most important thing is that you feel safe."
+    ],
+    [
+      "Client: Oh, that sounds intense. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+      "Therapist: You can keep your eyes open if you prefer. The most important thing is that you feel safe.",
+      "Client: Okay, that's good to know. And you mentioned we can pause if it gets too overwhelming?"
+    ],
+    [
+      "Therapist: You can keep your eyes open if you prefer. The most important thing is that you feel safe.",
+      "Client: Okay, that's good to know. And you mentioned we can pause if it gets too overwhelming?",
+      "Therapist: Absolutely. We'll go at your pace. Your comfort and safety are my top priorities."
+    ],
+    [
+      "Client: Okay, that's good to know. And you mentioned we can pause if it gets too overwhelming?",
+      "Therapist: Absolutely. We'll go at your pace. Your comfort and safety are my top priorities.",
+      "Client: Alright. I think I'm starting to feel a bit better about this. It's still scary, but I understand why it might be helpful. Is there anything I should do to prepare myself?"
+    ],
+    [
+      "Therapist: Absolutely. We'll go at your pace. Your comfort and safety are my top priorities.",
+      "Client: Alright. I think I'm starting to feel a bit better about this. It's still scary, but I understand why it might be helpful. Is there anything I should do to prepare myself?",
+      "Therapist: Just bring your courage, which you've already demonstrated. Are you ready to begin?"
+    ],
+    [
+      "Client: Alright. I think I'm starting to feel a bit better about this. It's still scary, but I understand why it might be helpful. Is there anything I should do to prepare myself?",
+      "Therapist: Just bring your courage, which you've already demonstrated. Are you ready to begin?",
+      "Client: I... I think so. Yes, let's do this. I want to heal and move forward. Thank you for guiding me through this process."
+    ],
+    [
+      "Therapist: Just bring your courage, which you've already demonstrated. Are you ready to begin?",
+      "Client: I... I think so. Yes, let's do this. I want to heal and move forward. Thank you for guiding me through this process.",
+      "Therapist: You're welcome. Your bravery is commendable. Shall we start with a breathing exercise?"
+    ],
+    [
+      "Client: I... I think so. Yes, let's do this. I want to heal and move forward. Thank you for guiding me through this process.",
+      "Therapist: You're welcome. Your bravery is commendable. Shall we start with a breathing exercise?",
+      "Client: Yes, that would be helpful. I can already feel my heart starting to race a bit. A breathing exercise sounds perfect right now."
+    ]
+  ]
+}

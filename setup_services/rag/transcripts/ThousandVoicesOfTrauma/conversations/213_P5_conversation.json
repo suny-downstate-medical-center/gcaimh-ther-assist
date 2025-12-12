@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Rahul, how are you feeling today?",
+    "Client: Hi Dr. Singh. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about my brother and... you know, the other stuff we've talked about.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+    "Client: Not really. Is it like... reliving the trauma? That sounds scary.",
+    "Therapist: It involves recounting the experience, but you're safe here. Shall I explain more?",
+    "Client: Yeah, please do. I'm feeling a bit anxious about it.",
+    "Therapist: It helps process traumatic memories. We'll go slowly, and you're in control. Any questions?",
+    "Client: Will it make things worse? I'm worried about feeling overwhelmed or losing control.",
+    "Therapist: Your concerns are valid. We'll go at your pace. It may be challenging, but it's a step towards healing.",
+    "Client: Okay... I trust you, Dr. Singh. It's just... talking about my brother's death and the violence at home, it's all so intertwined and painful. Sometimes I feel like using again just to numb it all.",
+    "Therapist: I appreciate your honesty. Remember, you're stronger than you think. How are you feeling now?",
+    "Client: A mix of emotions, really. Scared, but also... maybe a little hopeful? I want to get better, for myself and my family.",
+    "Therapist: That's a great attitude. Shall we begin? Remember, you can pause anytime.",
+    "Client: Alright, I'm ready. Or as ready as I'll ever be, I guess. What do I need to do?",
+    "Therapist: Just close your eyes, breathe deeply, and describe the event. I'll guide you through it.",
+    "Client: Okay... here goes. [Takes a deep breath] It was a Tuesday evening..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Rahul, how are you feeling today?",
+      "Client: Hi Dr. Singh. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about my brother and... you know, the other stuff we've talked about.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?"
+    ],
+    [
+      "Client: Hi Dr. Singh. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about my brother and... you know, the other stuff we've talked about.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. Is it like... reliving the trauma? That sounds scary."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. Is it like... reliving the trauma? That sounds scary.",
+      "Therapist: It involves recounting the experience, but you're safe here. Shall I explain more?"
+    ],
+    [
+      "Client: Not really. Is it like... reliving the trauma? That sounds scary.",
+      "Therapist: It involves recounting the experience, but you're safe here. Shall I explain more?",
+      "Client: Yeah, please do. I'm feeling a bit anxious about it."
+    ],
+    [
+      "Therapist: It involves recounting the experience, but you're safe here. Shall I explain more?",
+      "Client: Yeah, please do. I'm feeling a bit anxious about it.",
+      "Therapist: It helps process traumatic memories. We'll go slowly, and you're in control. Any questions?"
+    ],
+    [
+      "Client: Yeah, please do. I'm feeling a bit anxious about it.",
+      "Therapist: It helps process traumatic memories. We'll go slowly, and you're in control. Any questions?",
+      "Client: Will it make things worse? I'm worried about feeling overwhelmed or losing control."
+    ],
+    [
+      "Therapist: It helps process traumatic memories. We'll go slowly, and you're in control. Any questions?",
+      "Client: Will it make things worse? I'm worried about feeling overwhelmed or losing control.",
+      "Therapist: Your concerns are valid. We'll go at your pace. It may be challenging, but it's a step towards healing."
+    ],
+    [
+      "Client: Will it make things worse? I'm worried about feeling overwhelmed or losing control.",
+      "Therapist: Your concerns are valid. We'll go at your pace. It may be challenging, but it's a step towards healing.",
+      "Client: Okay... I trust you, Dr. Singh. It's just... talking about my brother's death and the violence at home, it's all so intertwined and painful. Sometimes I feel like using again just to numb it all."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace. It may be challenging, but it's a step towards healing.",
+      "Client: Okay... I trust you, Dr. Singh. It's just... talking about my brother's death and the violence at home, it's all so intertwined and painful. Sometimes I feel like using again just to numb it all.",
+      "Therapist: I appreciate your honesty. Remember, you're stronger than you think. How are you feeling now?"
+    ],
+    [
+      "Client: Okay... I trust you, Dr. Singh. It's just... talking about my brother's death and the violence at home, it's all so intertwined and painful. Sometimes I feel like using again just to numb it all.",
+      "Therapist: I appreciate your honesty. Remember, you're stronger than you think. How are you feeling now?",
+      "Client: A mix of emotions, really. Scared, but also... maybe a little hopeful? I want to get better, for myself and my family."
+    ],
+    [
+      "Therapist: I appreciate your honesty. Remember, you're stronger than you think. How are you feeling now?",
+      "Client: A mix of emotions, really. Scared, but also... maybe a little hopeful? I want to get better, for myself and my family.",
+      "Therapist: That's a great attitude. Shall we begin? Remember, you can pause anytime."
+    ],
+    [
+      "Client: A mix of emotions, really. Scared, but also... maybe a little hopeful? I want to get better, for myself and my family.",
+      "Therapist: That's a great attitude. Shall we begin? Remember, you can pause anytime.",
+      "Client: Alright, I'm ready. Or as ready as I'll ever be, I guess. What do I need to do?"
+    ],
+    [
+      "Therapist: That's a great attitude. Shall we begin? Remember, you can pause anytime.",
+      "Client: Alright, I'm ready. Or as ready as I'll ever be, I guess. What do I need to do?",
+      "Therapist: Just close your eyes, breathe deeply, and describe the event. I'll guide you through it."
+    ],
+    [
+      "Client: Alright, I'm ready. Or as ready as I'll ever be, I guess. What do I need to do?",
+      "Therapist: Just close your eyes, breathe deeply, and describe the event. I'll guide you through it.",
+      "Client: Okay... here goes. [Takes a deep breath] It was a Tuesday evening..."
+    ]
+  ]
+}

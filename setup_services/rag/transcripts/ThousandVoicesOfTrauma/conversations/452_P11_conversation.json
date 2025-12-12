@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. Going through that memory of the cyclone hitting our island... it's like I was right back there. The wind, the noise, the fear... it all felt so real again.",
+    "Therapist: What stood out most?",
+    "Client: The sound. The constant, deafening roar of the wind. It was like nothing I'd ever heard before. And the way our house just... crumbled. One minute we were huddled together, and the next, everything was just... gone. I keep seeing my little sister's face, how terrified she looked.",
+    "Therapist: How did reliving that feel?",
+    "Client: Scary. Really scary. But... also different this time. I mean, I knew I was here, safe, even while remembering. That's new. Usually, when I think about it, I feel completely lost in the memory.",
+    "Therapist: That's an important observation.",
+    "Client: Yeah, I guess it is. It's like... I could see it happening, but I also knew it wasn't happening right now. Does that make sense? It's still awful, but maybe... maybe a little less overwhelming?",
+    "Therapist: How does this connect to your daily life?",
+    "Client: Well, I've been having these panic attacks, especially when it's windy or during storms. And I've been avoiding the beach, which is hard living here. But going through this memory... I don't know, maybe it's helping me realize that I survived it once, and I can face those reminders now?",
+    "Therapist: That's a powerful insight.",
+    "Client: Thanks. It's hard work, but I think it's helping. I still get anxious, especially about my family back home. But I'm starting to believe that maybe I can handle those feelings better now.",
+    "Therapist: What's challenging about this process?",
+    "Client: Honestly? Everything. Facing these memories, dealing with the guilt of being here while my family is still there... It's exhausting. Sometimes I wonder if it's worth it. But then I have moments like this, where I can see a tiny bit of progress, and it gives me hope.",
+    "Therapist: How do you feel about continuing?",
+    "Client: I... I think I want to. It's tough, and sometimes I feel like I'm not getting anywhere. But today, being able to go through that memory without completely falling apart... it feels like maybe I'm stronger than I thought. I want to keep trying.",
+    "Therapist: That's commendable. Any final thoughts?",
+    "Client: Just... thank you. For guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe, just maybe, I can get through this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. Going through that memory of the cyclone hitting our island... it's like I was right back there. The wind, the noise, the fear... it all felt so real again.",
+      "Therapist: What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. Going through that memory of the cyclone hitting our island... it's like I was right back there. The wind, the noise, the fear... it all felt so real again.",
+      "Therapist: What stood out most?",
+      "Client: The sound. The constant, deafening roar of the wind. It was like nothing I'd ever heard before. And the way our house just... crumbled. One minute we were huddled together, and the next, everything was just... gone. I keep seeing my little sister's face, how terrified she looked."
+    ],
+    [
+      "Therapist: What stood out most?",
+      "Client: The sound. The constant, deafening roar of the wind. It was like nothing I'd ever heard before. And the way our house just... crumbled. One minute we were huddled together, and the next, everything was just... gone. I keep seeing my little sister's face, how terrified she looked.",
+      "Therapist: How did reliving that feel?"
+    ],
+    [
+      "Client: The sound. The constant, deafening roar of the wind. It was like nothing I'd ever heard before. And the way our house just... crumbled. One minute we were huddled together, and the next, everything was just... gone. I keep seeing my little sister's face, how terrified she looked.",
+      "Therapist: How did reliving that feel?",
+      "Client: Scary. Really scary. But... also different this time. I mean, I knew I was here, safe, even while remembering. That's new. Usually, when I think about it, I feel completely lost in the memory."
+    ],
+    [
+      "Therapist: How did reliving that feel?",
+      "Client: Scary. Really scary. But... also different this time. I mean, I knew I was here, safe, even while remembering. That's new. Usually, when I think about it, I feel completely lost in the memory.",
+      "Therapist: That's an important observation."
+    ],
+    [
+      "Client: Scary. Really scary. But... also different this time. I mean, I knew I was here, safe, even while remembering. That's new. Usually, when I think about it, I feel completely lost in the memory.",
+      "Therapist: That's an important observation.",
+      "Client: Yeah, I guess it is. It's like... I could see it happening, but I also knew it wasn't happening right now. Does that make sense? It's still awful, but maybe... maybe a little less overwhelming?"
+    ],
+    [
+      "Therapist: That's an important observation.",
+      "Client: Yeah, I guess it is. It's like... I could see it happening, but I also knew it wasn't happening right now. Does that make sense? It's still awful, but maybe... maybe a little less overwhelming?",
+      "Therapist: How does this connect to your daily life?"
+    ],
+    [
+      "Client: Yeah, I guess it is. It's like... I could see it happening, but I also knew it wasn't happening right now. Does that make sense? It's still awful, but maybe... maybe a little less overwhelming?",
+      "Therapist: How does this connect to your daily life?",
+      "Client: Well, I've been having these panic attacks, especially when it's windy or during storms. And I've been avoiding the beach, which is hard living here. But going through this memory... I don't know, maybe it's helping me realize that I survived it once, and I can face those reminders now?"
+    ],
+    [
+      "Therapist: How does this connect to your daily life?",
+      "Client: Well, I've been having these panic attacks, especially when it's windy or during storms. And I've been avoiding the beach, which is hard living here. But going through this memory... I don't know, maybe it's helping me realize that I survived it once, and I can face those reminders now?",
+      "Therapist: That's a powerful insight."
+    ],
+    [
+      "Client: Well, I've been having these panic attacks, especially when it's windy or during storms. And I've been avoiding the beach, which is hard living here. But going through this memory... I don't know, maybe it's helping me realize that I survived it once, and I can face those reminders now?",
+      "Therapist: That's a powerful insight.",
+      "Client: Thanks. It's hard work, but I think it's helping. I still get anxious, especially about my family back home. But I'm starting to believe that maybe I can handle those feelings better now."
+    ],
+    [
+      "Therapist: That's a powerful insight.",
+      "Client: Thanks. It's hard work, but I think it's helping. I still get anxious, especially about my family back home. But I'm starting to believe that maybe I can handle those feelings better now.",
+      "Therapist: What's challenging about this process?"
+    ],
+    [
+      "Client: Thanks. It's hard work, but I think it's helping. I still get anxious, especially about my family back home. But I'm starting to believe that maybe I can handle those feelings better now.",
+      "Therapist: What's challenging about this process?",
+      "Client: Honestly? Everything. Facing these memories, dealing with the guilt of being here while my family is still there... It's exhausting. Sometimes I wonder if it's worth it. But then I have moments like this, where I can see a tiny bit of progress, and it gives me hope."
+    ],
+    [
+      "Therapist: What's challenging about this process?",
+      "Client: Honestly? Everything. Facing these memories, dealing with the guilt of being here while my family is still there... It's exhausting. Sometimes I wonder if it's worth it. But then I have moments like this, where I can see a tiny bit of progress, and it gives me hope.",
+      "Therapist: How do you feel about continuing?"
+    ],
+    [
+      "Client: Honestly? Everything. Facing these memories, dealing with the guilt of being here while my family is still there... It's exhausting. Sometimes I wonder if it's worth it. But then I have moments like this, where I can see a tiny bit of progress, and it gives me hope.",
+      "Therapist: How do you feel about continuing?",
+      "Client: I... I think I want to. It's tough, and sometimes I feel like I'm not getting anywhere. But today, being able to go through that memory without completely falling apart... it feels like maybe I'm stronger than I thought. I want to keep trying."
+    ],
+    [
+      "Therapist: How do you feel about continuing?",
+      "Client: I... I think I want to. It's tough, and sometimes I feel like I'm not getting anywhere. But today, being able to go through that memory without completely falling apart... it feels like maybe I'm stronger than I thought. I want to keep trying.",
+      "Therapist: That's commendable. Any final thoughts?"
+    ],
+    [
+      "Client: I... I think I want to. It's tough, and sometimes I feel like I'm not getting anywhere. But today, being able to go through that memory without completely falling apart... it feels like maybe I'm stronger than I thought. I want to keep trying.",
+      "Therapist: That's commendable. Any final thoughts?",
+      "Client: Just... thank you. For guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe, just maybe, I can get through this."
+    ]
+  ]
+}

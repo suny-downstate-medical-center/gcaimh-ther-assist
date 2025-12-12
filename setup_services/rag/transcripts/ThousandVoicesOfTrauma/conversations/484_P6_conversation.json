@@ -1,0 +1,278 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: Um, probably around a 40 right now. Just thinking about it makes me tense up a bit.",
+    "Therapist: Okay. Take a deep breath and begin describing the memory.",
+    "Client: Alright... I'm back in that dingy room. The walls are this sickly yellow color, and there's a musty smell. I can hear muffled voices from the next room. My heart's racing, and I feel so trapped.",
+    "Therapist: Stay with that feeling. What happens next?",
+    "Client: The door opens, and this big guy comes in. He's got this mean look on his face. I remember feeling so small, so helpless. My stomach's in knots, and I'm trembling.",
+    "Therapist: SUDS rating now?",
+    "Client: It's gone up to about 60. My palms are getting sweaty just thinking about it.",
+    "Therapist: You're doing well. Continue.",
+    "Client: He starts yelling at me in broken English. Something about not working hard enough. I can smell alcohol on his breath. Then he... he raises his hand, and I flinch, knowing what's coming.",
+    "Therapist: How are you feeling right now?",
+    "Client: Scared. Really scared. My chest feels tight, and I'm having trouble breathing normally.",
+    "Therapist: Take a moment. Breathe deeply. What's your SUDS?",
+    "Client: It's... it's around 75 now. This is harder than I thought it would be.",
+    "Therapist: You're doing great. Keep going when you're ready.",
+    "Client: Okay... He slaps me hard across the face. The sting is so sharp, and I taste blood in my mouth. I want to fight back, but I'm too afraid. I just curl up, trying to protect myself.",
+    "Therapist: Stay with that moment. What are you thinking?",
+    "Client: I'm thinking... why me? How did I end up here? I feel so ashamed and angry at myself for not being stronger.",
+    "Therapist: SUDS rating?",
+    "Client: It's up to 85. My heart's pounding so hard, I can hear it in my ears.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: He keeps hitting me, kicks me a few times. I'm in so much pain, but I try not to make a sound. I don't want to give him the satisfaction. Eventually, he stops and leaves the room. I'm left there, hurting all over, feeling so alone and scared.",
+    "Therapist: How are you feeling now?",
+    "Client: I feel... I don't know. Sad, angry, helpless. My body feels heavy, like I can't move.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's still around 85. Maybe even 90. This memory... it's so vivid.",
+    "Therapist: You're doing incredibly well. What happens next?",
+    "Client: I just lie there for what feels like hours. My whole body aches. I'm thinking about my family, wondering if I'll ever see them again. I feel so hopeless.",
+    "Therapist: Stay with those emotions. How does your body feel?",
+    "Client: It feels weak, sore. I can almost feel the bruises forming. My face is swollen, and I taste blood. I'm shaking, partly from pain, partly from fear.",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's starting to come down a bit. Maybe 75? I'm feeling drained.",
+    "Therapist: That's normal. You're processing a lot. Continue when you're ready.",
+    "Client: Eventually, I manage to sit up. I crawl to the corner of the room, as far from the door as possible. I'm so thirsty, but there's no water. I just sit there, hugging my knees, trying to make myself as small as possible.",
+    "Therapist: How are you feeling in this moment?",
+    "Client: Vulnerable. Scared. But also... a tiny bit relieved that it's over for now. I'm exhausted, both in the memory and right now talking about it.",
+    "Therapist: Your SUDS rating?",
+    "Client: It's down to about 65 now. I'm feeling less tense, but still pretty shaken up.",
+    "Therapist: You've done incredibly well. Let's start winding down.",
+    "Client: Okay. Yeah, I think I need that. This was... intense.",
+    "Therapist: How are you feeling now that we're ending?",
+    "Client: I'm feeling drained, but also... I don't know, maybe a little stronger? Like I faced something big today.",
+    "Therapist: That's a common reaction. Final SUDS rating?",
+    "Client: I'd say about 50. I'm calming down, but it'll take a while to fully shake this off.",
+    "Therapist: That's normal. You've made great progress today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: Um, probably around a 40 right now. Just thinking about it makes me tense up a bit."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: Um, probably around a 40 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory."
+    ],
+    [
+      "Client: Um, probably around a 40 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory.",
+      "Client: Alright... I'm back in that dingy room. The walls are this sickly yellow color, and there's a musty smell. I can hear muffled voices from the next room. My heart's racing, and I feel so trapped."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin describing the memory.",
+      "Client: Alright... I'm back in that dingy room. The walls are this sickly yellow color, and there's a musty smell. I can hear muffled voices from the next room. My heart's racing, and I feel so trapped.",
+      "Therapist: Stay with that feeling. What happens next?"
+    ],
+    [
+      "Client: Alright... I'm back in that dingy room. The walls are this sickly yellow color, and there's a musty smell. I can hear muffled voices from the next room. My heart's racing, and I feel so trapped.",
+      "Therapist: Stay with that feeling. What happens next?",
+      "Client: The door opens, and this big guy comes in. He's got this mean look on his face. I remember feeling so small, so helpless. My stomach's in knots, and I'm trembling."
+    ],
+    [
+      "Therapist: Stay with that feeling. What happens next?",
+      "Client: The door opens, and this big guy comes in. He's got this mean look on his face. I remember feeling so small, so helpless. My stomach's in knots, and I'm trembling.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: The door opens, and this big guy comes in. He's got this mean look on his face. I remember feeling so small, so helpless. My stomach's in knots, and I'm trembling.",
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to about 60. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to about 60. My palms are getting sweaty just thinking about it.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: It's gone up to about 60. My palms are getting sweaty just thinking about it.",
+      "Therapist: You're doing well. Continue.",
+      "Client: He starts yelling at me in broken English. Something about not working hard enough. I can smell alcohol on his breath. Then he... he raises his hand, and I flinch, knowing what's coming."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: He starts yelling at me in broken English. Something about not working hard enough. I can smell alcohol on his breath. Then he... he raises his hand, and I flinch, knowing what's coming.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: He starts yelling at me in broken English. Something about not working hard enough. I can smell alcohol on his breath. Then he... he raises his hand, and I flinch, knowing what's coming.",
+      "Therapist: How are you feeling right now?",
+      "Client: Scared. Really scared. My chest feels tight, and I'm having trouble breathing normally."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Scared. Really scared. My chest feels tight, and I'm having trouble breathing normally.",
+      "Therapist: Take a moment. Breathe deeply. What's your SUDS?"
+    ],
+    [
+      "Client: Scared. Really scared. My chest feels tight, and I'm having trouble breathing normally.",
+      "Therapist: Take a moment. Breathe deeply. What's your SUDS?",
+      "Client: It's... it's around 75 now. This is harder than I thought it would be."
+    ],
+    [
+      "Therapist: Take a moment. Breathe deeply. What's your SUDS?",
+      "Client: It's... it's around 75 now. This is harder than I thought it would be.",
+      "Therapist: You're doing great. Keep going when you're ready."
+    ],
+    [
+      "Client: It's... it's around 75 now. This is harder than I thought it would be.",
+      "Therapist: You're doing great. Keep going when you're ready.",
+      "Client: Okay... He slaps me hard across the face. The sting is so sharp, and I taste blood in my mouth. I want to fight back, but I'm too afraid. I just curl up, trying to protect myself."
+    ],
+    [
+      "Therapist: You're doing great. Keep going when you're ready.",
+      "Client: Okay... He slaps me hard across the face. The sting is so sharp, and I taste blood in my mouth. I want to fight back, but I'm too afraid. I just curl up, trying to protect myself.",
+      "Therapist: Stay with that moment. What are you thinking?"
+    ],
+    [
+      "Client: Okay... He slaps me hard across the face. The sting is so sharp, and I taste blood in my mouth. I want to fight back, but I'm too afraid. I just curl up, trying to protect myself.",
+      "Therapist: Stay with that moment. What are you thinking?",
+      "Client: I'm thinking... why me? How did I end up here? I feel so ashamed and angry at myself for not being stronger."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you thinking?",
+      "Client: I'm thinking... why me? How did I end up here? I feel so ashamed and angry at myself for not being stronger.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I'm thinking... why me? How did I end up here? I feel so ashamed and angry at myself for not being stronger.",
+      "Therapist: SUDS rating?",
+      "Client: It's up to 85. My heart's pounding so hard, I can hear it in my ears."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's up to 85. My heart's pounding so hard, I can hear it in my ears.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: It's up to 85. My heart's pounding so hard, I can hear it in my ears.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: He keeps hitting me, kicks me a few times. I'm in so much pain, but I try not to make a sound. I don't want to give him the satisfaction. Eventually, he stops and leaves the room. I'm left there, hurting all over, feeling so alone and scared."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: He keeps hitting me, kicks me a few times. I'm in so much pain, but I try not to make a sound. I don't want to give him the satisfaction. Eventually, he stops and leaves the room. I'm left there, hurting all over, feeling so alone and scared.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: He keeps hitting me, kicks me a few times. I'm in so much pain, but I try not to make a sound. I don't want to give him the satisfaction. Eventually, he stops and leaves the room. I'm left there, hurting all over, feeling so alone and scared.",
+      "Therapist: How are you feeling now?",
+      "Client: I feel... I don't know. Sad, angry, helpless. My body feels heavy, like I can't move."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I feel... I don't know. Sad, angry, helpless. My body feels heavy, like I can't move.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: I feel... I don't know. Sad, angry, helpless. My body feels heavy, like I can't move.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's still around 85. Maybe even 90. This memory... it's so vivid."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's still around 85. Maybe even 90. This memory... it's so vivid.",
+      "Therapist: You're doing incredibly well. What happens next?"
+    ],
+    [
+      "Client: It's still around 85. Maybe even 90. This memory... it's so vivid.",
+      "Therapist: You're doing incredibly well. What happens next?",
+      "Client: I just lie there for what feels like hours. My whole body aches. I'm thinking about my family, wondering if I'll ever see them again. I feel so hopeless."
+    ],
+    [
+      "Therapist: You're doing incredibly well. What happens next?",
+      "Client: I just lie there for what feels like hours. My whole body aches. I'm thinking about my family, wondering if I'll ever see them again. I feel so hopeless.",
+      "Therapist: Stay with those emotions. How does your body feel?"
+    ],
+    [
+      "Client: I just lie there for what feels like hours. My whole body aches. I'm thinking about my family, wondering if I'll ever see them again. I feel so hopeless.",
+      "Therapist: Stay with those emotions. How does your body feel?",
+      "Client: It feels weak, sore. I can almost feel the bruises forming. My face is swollen, and I taste blood. I'm shaking, partly from pain, partly from fear."
+    ],
+    [
+      "Therapist: Stay with those emotions. How does your body feel?",
+      "Client: It feels weak, sore. I can almost feel the bruises forming. My face is swollen, and I taste blood. I'm shaking, partly from pain, partly from fear.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: It feels weak, sore. I can almost feel the bruises forming. My face is swollen, and I taste blood. I'm shaking, partly from pain, partly from fear.",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's starting to come down a bit. Maybe 75? I'm feeling drained."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's starting to come down a bit. Maybe 75? I'm feeling drained.",
+      "Therapist: That's normal. You're processing a lot. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe 75? I'm feeling drained.",
+      "Therapist: That's normal. You're processing a lot. Continue when you're ready.",
+      "Client: Eventually, I manage to sit up. I crawl to the corner of the room, as far from the door as possible. I'm so thirsty, but there's no water. I just sit there, hugging my knees, trying to make myself as small as possible."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot. Continue when you're ready.",
+      "Client: Eventually, I manage to sit up. I crawl to the corner of the room, as far from the door as possible. I'm so thirsty, but there's no water. I just sit there, hugging my knees, trying to make myself as small as possible.",
+      "Therapist: How are you feeling in this moment?"
+    ],
+    [
+      "Client: Eventually, I manage to sit up. I crawl to the corner of the room, as far from the door as possible. I'm so thirsty, but there's no water. I just sit there, hugging my knees, trying to make myself as small as possible.",
+      "Therapist: How are you feeling in this moment?",
+      "Client: Vulnerable. Scared. But also... a tiny bit relieved that it's over for now. I'm exhausted, both in the memory and right now talking about it."
+    ],
+    [
+      "Therapist: How are you feeling in this moment?",
+      "Client: Vulnerable. Scared. But also... a tiny bit relieved that it's over for now. I'm exhausted, both in the memory and right now talking about it.",
+      "Therapist: Your SUDS rating?"
+    ],
+    [
+      "Client: Vulnerable. Scared. But also... a tiny bit relieved that it's over for now. I'm exhausted, both in the memory and right now talking about it.",
+      "Therapist: Your SUDS rating?",
+      "Client: It's down to about 65 now. I'm feeling less tense, but still pretty shaken up."
+    ],
+    [
+      "Therapist: Your SUDS rating?",
+      "Client: It's down to about 65 now. I'm feeling less tense, but still pretty shaken up.",
+      "Therapist: You've done incredibly well. Let's start winding down."
+    ],
+    [
+      "Client: It's down to about 65 now. I'm feeling less tense, but still pretty shaken up.",
+      "Therapist: You've done incredibly well. Let's start winding down.",
+      "Client: Okay. Yeah, I think I need that. This was... intense."
+    ],
+    [
+      "Therapist: You've done incredibly well. Let's start winding down.",
+      "Client: Okay. Yeah, I think I need that. This was... intense.",
+      "Therapist: How are you feeling now that we're ending?"
+    ],
+    [
+      "Client: Okay. Yeah, I think I need that. This was... intense.",
+      "Therapist: How are you feeling now that we're ending?",
+      "Client: I'm feeling drained, but also... I don't know, maybe a little stronger? Like I faced something big today."
+    ],
+    [
+      "Therapist: How are you feeling now that we're ending?",
+      "Client: I'm feeling drained, but also... I don't know, maybe a little stronger? Like I faced something big today.",
+      "Therapist: That's a common reaction. Final SUDS rating?"
+    ],
+    [
+      "Client: I'm feeling drained, but also... I don't know, maybe a little stronger? Like I faced something big today.",
+      "Therapist: That's a common reaction. Final SUDS rating?",
+      "Client: I'd say about 50. I'm calming down, but it'll take a while to fully shake this off."
+    ],
+    [
+      "Therapist: That's a common reaction. Final SUDS rating?",
+      "Client: I'd say about 50. I'm calming down, but it'll take a while to fully shake this off.",
+      "Therapist: That's normal. You've made great progress today."
+    ]
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Rodriguez?",
+    "Client: I... I'm feeling a bit shaken up, to be honest. It's like I was right back there, you know? The sounds of the wind, the crashing... it all felt so real again. I could almost smell the rain and debris.",
+    "Therapist: That sounds intense. What stood out most to you?",
+    "Client: The helplessness, I think. I remembered how I couldn't do anything to stop the hurricane from destroying our home. I just... stood there, frozen, watching everything we'd built get torn apart. It's hard to shake that feeling of powerlessness.",
+    "Therapist: How did reliving that memory feel different today?",
+    "Client: Well, um, it's still difficult, but... I noticed I could breathe through it better this time. I didn't feel like I was drowning in panic like before. There were moments when I could step back a little, if that makes sense?",
+    "Therapist: That's a significant observation. How do you make sense of that change?",
+    "Client: I guess... maybe I'm starting to see it as a memory rather than reliving it entirely? It's still painful, don't get me wrong, but there's a tiny bit of distance now. It's like... I'm watching it happen instead of being completely consumed by it.",
+    "Therapist: That's an important shift. How might this relate to your day-to-day experiences?",
+    "Client: Hmm... You know, I've noticed I'm not as jumpy when it rains heavily anymore. I used to immediately go into panic mode, but now I can sometimes remind myself that it's just rain, not another hurricane. It's still hard, but... there's a glimmer of hope, I suppose.",
+    "Therapist: That's excellent progress. What else have you noticed?",
+    "Client: Well, I've been able to talk about it a bit more with my wife. Before, I'd just shut down or get angry when she tried to discuss it. Now, I can share some of what I'm feeling without completely losing it. It's... it's helping us connect again, I think.",
+    "Therapist: How does that feel, being able to open up more?",
+    "Client: It's... liberating, in a way. Scary too, but mostly good. I felt so alone before, like no one could understand. But sharing it, even just a little, it's like... it lightens the load, you know?",
+    "Therapist: That's a powerful realization. What's helping you push through the fear?",
+    "Client: I guess... I'm tired of letting this control my life. I want to be there for my family, to enjoy my retirement. And these sessions, they're tough, but I can see they're making a difference. It's like... I'm reclaiming pieces of myself, bit by bit.",
+    "Therapist: That's a great perspective. How can we build on this progress?",
+    "Client: I think... maybe I could try talking about it more outside of therapy? Not all at once, but gradually. And perhaps... I could start looking at some of the photos we salvaged. I've been avoiding them, but maybe it's time to face those memories too.",
+    "Therapist: Those sound like thoughtful next steps. How do you feel about continuing this work?",
+    "Client: I'm... cautiously optimistic, I'd say. It's not easy, and some days are still really tough. But for the first time in a long while, I feel like there's a path forward. I'm ready to keep going, even if it's difficult.",
+    "Therapist: Your commitment is admirable. Shall we plan our next session?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Rodriguez?",
+      "Client: I... I'm feeling a bit shaken up, to be honest. It's like I was right back there, you know? The sounds of the wind, the crashing... it all felt so real again. I could almost smell the rain and debris.",
+      "Therapist: That sounds intense. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken up, to be honest. It's like I was right back there, you know? The sounds of the wind, the crashing... it all felt so real again. I could almost smell the rain and debris.",
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The helplessness, I think. I remembered how I couldn't do anything to stop the hurricane from destroying our home. I just... stood there, frozen, watching everything we'd built get torn apart. It's hard to shake that feeling of powerlessness."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The helplessness, I think. I remembered how I couldn't do anything to stop the hurricane from destroying our home. I just... stood there, frozen, watching everything we'd built get torn apart. It's hard to shake that feeling of powerlessness.",
+      "Therapist: How did reliving that memory feel different today?"
+    ],
+    [
+      "Client: The helplessness, I think. I remembered how I couldn't do anything to stop the hurricane from destroying our home. I just... stood there, frozen, watching everything we'd built get torn apart. It's hard to shake that feeling of powerlessness.",
+      "Therapist: How did reliving that memory feel different today?",
+      "Client: Well, um, it's still difficult, but... I noticed I could breathe through it better this time. I didn't feel like I was drowning in panic like before. There were moments when I could step back a little, if that makes sense?"
+    ],
+    [
+      "Therapist: How did reliving that memory feel different today?",
+      "Client: Well, um, it's still difficult, but... I noticed I could breathe through it better this time. I didn't feel like I was drowning in panic like before. There were moments when I could step back a little, if that makes sense?",
+      "Therapist: That's a significant observation. How do you make sense of that change?"
+    ],
+    [
+      "Client: Well, um, it's still difficult, but... I noticed I could breathe through it better this time. I didn't feel like I was drowning in panic like before. There were moments when I could step back a little, if that makes sense?",
+      "Therapist: That's a significant observation. How do you make sense of that change?",
+      "Client: I guess... maybe I'm starting to see it as a memory rather than reliving it entirely? It's still painful, don't get me wrong, but there's a tiny bit of distance now. It's like... I'm watching it happen instead of being completely consumed by it."
+    ],
+    [
+      "Therapist: That's a significant observation. How do you make sense of that change?",
+      "Client: I guess... maybe I'm starting to see it as a memory rather than reliving it entirely? It's still painful, don't get me wrong, but there's a tiny bit of distance now. It's like... I'm watching it happen instead of being completely consumed by it.",
+      "Therapist: That's an important shift. How might this relate to your day-to-day experiences?"
+    ],
+    [
+      "Client: I guess... maybe I'm starting to see it as a memory rather than reliving it entirely? It's still painful, don't get me wrong, but there's a tiny bit of distance now. It's like... I'm watching it happen instead of being completely consumed by it.",
+      "Therapist: That's an important shift. How might this relate to your day-to-day experiences?",
+      "Client: Hmm... You know, I've noticed I'm not as jumpy when it rains heavily anymore. I used to immediately go into panic mode, but now I can sometimes remind myself that it's just rain, not another hurricane. It's still hard, but... there's a glimmer of hope, I suppose."
+    ],
+    [
+      "Therapist: That's an important shift. How might this relate to your day-to-day experiences?",
+      "Client: Hmm... You know, I've noticed I'm not as jumpy when it rains heavily anymore. I used to immediately go into panic mode, but now I can sometimes remind myself that it's just rain, not another hurricane. It's still hard, but... there's a glimmer of hope, I suppose.",
+      "Therapist: That's excellent progress. What else have you noticed?"
+    ],
+    [
+      "Client: Hmm... You know, I've noticed I'm not as jumpy when it rains heavily anymore. I used to immediately go into panic mode, but now I can sometimes remind myself that it's just rain, not another hurricane. It's still hard, but... there's a glimmer of hope, I suppose.",
+      "Therapist: That's excellent progress. What else have you noticed?",
+      "Client: Well, I've been able to talk about it a bit more with my wife. Before, I'd just shut down or get angry when she tried to discuss it. Now, I can share some of what I'm feeling without completely losing it. It's... it's helping us connect again, I think."
+    ],
+    [
+      "Therapist: That's excellent progress. What else have you noticed?",
+      "Client: Well, I've been able to talk about it a bit more with my wife. Before, I'd just shut down or get angry when she tried to discuss it. Now, I can share some of what I'm feeling without completely losing it. It's... it's helping us connect again, I think.",
+      "Therapist: How does that feel, being able to open up more?"
+    ],
+    [
+      "Client: Well, I've been able to talk about it a bit more with my wife. Before, I'd just shut down or get angry when she tried to discuss it. Now, I can share some of what I'm feeling without completely losing it. It's... it's helping us connect again, I think.",
+      "Therapist: How does that feel, being able to open up more?",
+      "Client: It's... liberating, in a way. Scary too, but mostly good. I felt so alone before, like no one could understand. But sharing it, even just a little, it's like... it lightens the load, you know?"
+    ],
+    [
+      "Therapist: How does that feel, being able to open up more?",
+      "Client: It's... liberating, in a way. Scary too, but mostly good. I felt so alone before, like no one could understand. But sharing it, even just a little, it's like... it lightens the load, you know?",
+      "Therapist: That's a powerful realization. What's helping you push through the fear?"
+    ],
+    [
+      "Client: It's... liberating, in a way. Scary too, but mostly good. I felt so alone before, like no one could understand. But sharing it, even just a little, it's like... it lightens the load, you know?",
+      "Therapist: That's a powerful realization. What's helping you push through the fear?",
+      "Client: I guess... I'm tired of letting this control my life. I want to be there for my family, to enjoy my retirement. And these sessions, they're tough, but I can see they're making a difference. It's like... I'm reclaiming pieces of myself, bit by bit."
+    ],
+    [
+      "Therapist: That's a powerful realization. What's helping you push through the fear?",
+      "Client: I guess... I'm tired of letting this control my life. I want to be there for my family, to enjoy my retirement. And these sessions, they're tough, but I can see they're making a difference. It's like... I'm reclaiming pieces of myself, bit by bit.",
+      "Therapist: That's a great perspective. How can we build on this progress?"
+    ],
+    [
+      "Client: I guess... I'm tired of letting this control my life. I want to be there for my family, to enjoy my retirement. And these sessions, they're tough, but I can see they're making a difference. It's like... I'm reclaiming pieces of myself, bit by bit.",
+      "Therapist: That's a great perspective. How can we build on this progress?",
+      "Client: I think... maybe I could try talking about it more outside of therapy? Not all at once, but gradually. And perhaps... I could start looking at some of the photos we salvaged. I've been avoiding them, but maybe it's time to face those memories too."
+    ],
+    [
+      "Therapist: That's a great perspective. How can we build on this progress?",
+      "Client: I think... maybe I could try talking about it more outside of therapy? Not all at once, but gradually. And perhaps... I could start looking at some of the photos we salvaged. I've been avoiding them, but maybe it's time to face those memories too.",
+      "Therapist: Those sound like thoughtful next steps. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I think... maybe I could try talking about it more outside of therapy? Not all at once, but gradually. And perhaps... I could start looking at some of the photos we salvaged. I've been avoiding them, but maybe it's time to face those memories too.",
+      "Therapist: Those sound like thoughtful next steps. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I'd say. It's not easy, and some days are still really tough. But for the first time in a long while, I feel like there's a path forward. I'm ready to keep going, even if it's difficult."
+    ],
+    [
+      "Therapist: Those sound like thoughtful next steps. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I'd say. It's not easy, and some days are still really tough. But for the first time in a long while, I feel like there's a path forward. I'm ready to keep going, even if it's difficult.",
+      "Therapist: Your commitment is admirable. Shall we plan our next session?"
+    ]
+  ]
+}

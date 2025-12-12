@@ -1,0 +1,152 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Thompson?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting those memories of the domestic violence I witnessed as a child. I can still hear the shouting, the sound of objects breaking... It's like I'm right back there in that moment.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The fear, I think. I remember feeling so helpless, hiding in my room, afraid to make a sound. I was always on edge, never knowing when the next outburst would happen. It's strange, but I can almost smell the alcohol on my father's breath even now.",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... difficult. My heart was racing, and I felt that familiar tightness in my chest. But, um, it wasn't as overwhelming as I expected. I think... I think I'm starting to see it from a different perspective now.",
+    "Therapist: Mm-hmm. Can you tell me more about that?",
+    "Client: Well, I've always blamed myself, you know? Thought if I'd been a better kid, maybe things would've been different. But going through it again, I realize I was just a child. There was nothing I could've done to stop it.",
+    "Therapist: That's a powerful realization. How does it make you feel?",
+    "Client: It's... liberating, in a way. But also sad. I've spent so many years carrying this guilt. It's shaped so much of my life, my relationships. I wonder how things might have been different if I'd understood this earlier.",
+    "Therapist: Change is possible at any age. What do you think this means for your future?",
+    "Client: I... I'm not sure. Maybe I can start being kinder to myself? It's hard to imagine, but perhaps I can work on my anxiety, try to form closer relationships. I've always kept people at arm's length, afraid they'd see how broken I felt inside.",
+    "Therapist: Those sound like meaningful goals. How can we build on this insight?",
+    "Client: I think... I need to keep reminding myself that I wasn't responsible. And maybe... maybe I could try opening up more to my housemates? I've always been so guarded, but perhaps it's time to let people in a little.",
+    "Therapist: That's brave. How do you feel about continuing with the exposures?",
+    "Client: They're tough, no doubt about it. But I'm starting to see their value. It's like... like I'm finally facing the monster under the bed and realizing it's not as big as I thought. I want to keep going.",
+    "Therapist: I'm glad to hear that. What else came up for you during the exposure?",
+    "Client: I remembered something I'd forgotten. After particularly bad fights, my mother would come to my room and sing to me. It was... comforting. I don't know why I blocked that out for so long.",
+    "Therapist: How does that memory affect your overall perspective?",
+    "Client: It's... complicated. On one hand, it's a bright spot in a dark time. On the other, it makes me angry that she didn't do more to protect us. But I suppose... I suppose it shows that even in the worst times, there can be moments of love and comfort.",
+    "Therapist: That's a nuanced way of looking at it. How might this impact your daily life?",
+    "Client: I think... I might try to find more of those moments of comfort in my current life. Maybe take up singing again, or find other small ways to soothe myself when I'm anxious. And perhaps... perhaps I can try to be that source of comfort for others sometimes.",
+    "Therapist: Those sound like wonderful ideas. Shall we wrap up for today?",
+    "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I feel... I feel like I'm finally starting to make some progress.",
+    "Therapist: You're doing great work. See you next week?",
+    "Client: Absolutely. I'll be here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Thompson?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting those memories of the domestic violence I witnessed as a child. I can still hear the shouting, the sound of objects breaking... It's like I'm right back there in that moment.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting those memories of the domestic violence I witnessed as a child. I can still hear the shouting, the sound of objects breaking... It's like I'm right back there in that moment.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear, I think. I remember feeling so helpless, hiding in my room, afraid to make a sound. I was always on edge, never knowing when the next outburst would happen. It's strange, but I can almost smell the alcohol on my father's breath even now."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear, I think. I remember feeling so helpless, hiding in my room, afraid to make a sound. I was always on edge, never knowing when the next outburst would happen. It's strange, but I can almost smell the alcohol on my father's breath even now.",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The fear, I think. I remember feeling so helpless, hiding in my room, afraid to make a sound. I was always on edge, never knowing when the next outburst would happen. It's strange, but I can almost smell the alcohol on my father's breath even now.",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... difficult. My heart was racing, and I felt that familiar tightness in my chest. But, um, it wasn't as overwhelming as I expected. I think... I think I'm starting to see it from a different perspective now."
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... difficult. My heart was racing, and I felt that familiar tightness in my chest. But, um, it wasn't as overwhelming as I expected. I think... I think I'm starting to see it from a different perspective now.",
+      "Therapist: Mm-hmm. Can you tell me more about that?"
+    ],
+    [
+      "Client: It was... difficult. My heart was racing, and I felt that familiar tightness in my chest. But, um, it wasn't as overwhelming as I expected. I think... I think I'm starting to see it from a different perspective now.",
+      "Therapist: Mm-hmm. Can you tell me more about that?",
+      "Client: Well, I've always blamed myself, you know? Thought if I'd been a better kid, maybe things would've been different. But going through it again, I realize I was just a child. There was nothing I could've done to stop it."
+    ],
+    [
+      "Therapist: Mm-hmm. Can you tell me more about that?",
+      "Client: Well, I've always blamed myself, you know? Thought if I'd been a better kid, maybe things would've been different. But going through it again, I realize I was just a child. There was nothing I could've done to stop it.",
+      "Therapist: That's a powerful realization. How does it make you feel?"
+    ],
+    [
+      "Client: Well, I've always blamed myself, you know? Thought if I'd been a better kid, maybe things would've been different. But going through it again, I realize I was just a child. There was nothing I could've done to stop it.",
+      "Therapist: That's a powerful realization. How does it make you feel?",
+      "Client: It's... liberating, in a way. But also sad. I've spent so many years carrying this guilt. It's shaped so much of my life, my relationships. I wonder how things might have been different if I'd understood this earlier."
+    ],
+    [
+      "Therapist: That's a powerful realization. How does it make you feel?",
+      "Client: It's... liberating, in a way. But also sad. I've spent so many years carrying this guilt. It's shaped so much of my life, my relationships. I wonder how things might have been different if I'd understood this earlier.",
+      "Therapist: Change is possible at any age. What do you think this means for your future?"
+    ],
+    [
+      "Client: It's... liberating, in a way. But also sad. I've spent so many years carrying this guilt. It's shaped so much of my life, my relationships. I wonder how things might have been different if I'd understood this earlier.",
+      "Therapist: Change is possible at any age. What do you think this means for your future?",
+      "Client: I... I'm not sure. Maybe I can start being kinder to myself? It's hard to imagine, but perhaps I can work on my anxiety, try to form closer relationships. I've always kept people at arm's length, afraid they'd see how broken I felt inside."
+    ],
+    [
+      "Therapist: Change is possible at any age. What do you think this means for your future?",
+      "Client: I... I'm not sure. Maybe I can start being kinder to myself? It's hard to imagine, but perhaps I can work on my anxiety, try to form closer relationships. I've always kept people at arm's length, afraid they'd see how broken I felt inside.",
+      "Therapist: Those sound like meaningful goals. How can we build on this insight?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe I can start being kinder to myself? It's hard to imagine, but perhaps I can work on my anxiety, try to form closer relationships. I've always kept people at arm's length, afraid they'd see how broken I felt inside.",
+      "Therapist: Those sound like meaningful goals. How can we build on this insight?",
+      "Client: I think... I need to keep reminding myself that I wasn't responsible. And maybe... maybe I could try opening up more to my housemates? I've always been so guarded, but perhaps it's time to let people in a little."
+    ],
+    [
+      "Therapist: Those sound like meaningful goals. How can we build on this insight?",
+      "Client: I think... I need to keep reminding myself that I wasn't responsible. And maybe... maybe I could try opening up more to my housemates? I've always been so guarded, but perhaps it's time to let people in a little.",
+      "Therapist: That's brave. How do you feel about continuing with the exposures?"
+    ],
+    [
+      "Client: I think... I need to keep reminding myself that I wasn't responsible. And maybe... maybe I could try opening up more to my housemates? I've always been so guarded, but perhaps it's time to let people in a little.",
+      "Therapist: That's brave. How do you feel about continuing with the exposures?",
+      "Client: They're tough, no doubt about it. But I'm starting to see their value. It's like... like I'm finally facing the monster under the bed and realizing it's not as big as I thought. I want to keep going."
+    ],
+    [
+      "Therapist: That's brave. How do you feel about continuing with the exposures?",
+      "Client: They're tough, no doubt about it. But I'm starting to see their value. It's like... like I'm finally facing the monster under the bed and realizing it's not as big as I thought. I want to keep going.",
+      "Therapist: I'm glad to hear that. What else came up for you during the exposure?"
+    ],
+    [
+      "Client: They're tough, no doubt about it. But I'm starting to see their value. It's like... like I'm finally facing the monster under the bed and realizing it's not as big as I thought. I want to keep going.",
+      "Therapist: I'm glad to hear that. What else came up for you during the exposure?",
+      "Client: I remembered something I'd forgotten. After particularly bad fights, my mother would come to my room and sing to me. It was... comforting. I don't know why I blocked that out for so long."
+    ],
+    [
+      "Therapist: I'm glad to hear that. What else came up for you during the exposure?",
+      "Client: I remembered something I'd forgotten. After particularly bad fights, my mother would come to my room and sing to me. It was... comforting. I don't know why I blocked that out for so long.",
+      "Therapist: How does that memory affect your overall perspective?"
+    ],
+    [
+      "Client: I remembered something I'd forgotten. After particularly bad fights, my mother would come to my room and sing to me. It was... comforting. I don't know why I blocked that out for so long.",
+      "Therapist: How does that memory affect your overall perspective?",
+      "Client: It's... complicated. On one hand, it's a bright spot in a dark time. On the other, it makes me angry that she didn't do more to protect us. But I suppose... I suppose it shows that even in the worst times, there can be moments of love and comfort."
+    ],
+    [
+      "Therapist: How does that memory affect your overall perspective?",
+      "Client: It's... complicated. On one hand, it's a bright spot in a dark time. On the other, it makes me angry that she didn't do more to protect us. But I suppose... I suppose it shows that even in the worst times, there can be moments of love and comfort.",
+      "Therapist: That's a nuanced way of looking at it. How might this impact your daily life?"
+    ],
+    [
+      "Client: It's... complicated. On one hand, it's a bright spot in a dark time. On the other, it makes me angry that she didn't do more to protect us. But I suppose... I suppose it shows that even in the worst times, there can be moments of love and comfort.",
+      "Therapist: That's a nuanced way of looking at it. How might this impact your daily life?",
+      "Client: I think... I might try to find more of those moments of comfort in my current life. Maybe take up singing again, or find other small ways to soothe myself when I'm anxious. And perhaps... perhaps I can try to be that source of comfort for others sometimes."
+    ],
+    [
+      "Therapist: That's a nuanced way of looking at it. How might this impact your daily life?",
+      "Client: I think... I might try to find more of those moments of comfort in my current life. Maybe take up singing again, or find other small ways to soothe myself when I'm anxious. And perhaps... perhaps I can try to be that source of comfort for others sometimes.",
+      "Therapist: Those sound like wonderful ideas. Shall we wrap up for today?"
+    ],
+    [
+      "Client: I think... I might try to find more of those moments of comfort in my current life. Maybe take up singing again, or find other small ways to soothe myself when I'm anxious. And perhaps... perhaps I can try to be that source of comfort for others sometimes.",
+      "Therapist: Those sound like wonderful ideas. Shall we wrap up for today?",
+      "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I feel... I feel like I'm finally starting to make some progress."
+    ],
+    [
+      "Therapist: Those sound like wonderful ideas. Shall we wrap up for today?",
+      "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I feel... I feel like I'm finally starting to make some progress.",
+      "Therapist: You're doing great work. See you next week?"
+    ],
+    [
+      "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I feel... I feel like I'm finally starting to make some progress.",
+      "Therapist: You're doing great work. See you next week?",
+      "Client: Absolutely. I'll be here."
+    ]
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand this is part of the process.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My hands are a little clammy, and my heart is beating a bit faster than usual.",
+    "Therapist: Okay. Begin describing the memory when you're ready.",
+    "Client: Alright... I was walking home from work, it was late evening. The streets were quiet, and I remember feeling uneasy. Suddenly, I heard shouting and saw flashing lights. There was a commotion down the street - police cars everywhere. I froze, unsure what to do. Then I saw them... officers surrounding a man on the ground. They were... they were hitting him. I couldn't believe what I was seeing. My heart started racing, and I felt sick to my stomach.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's gone up to a 6. My palms are sweating more, and I feel a tightness in my chest.",
+    "Therapist: Thank you for sharing. Continue when you're ready.",
+    "Client: The man on the ground was crying out for help, begging them to stop. But they didn't. I wanted to do something, anything, but I was paralyzed with fear. I could hear the sound of batons hitting flesh, and... and I just stood there, watching. I felt so helpless, so ashamed for not intervening. The violence seemed to go on forever.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't catch my breath. It's like I'm right back there, watching it all happen again.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (takes a shaky breath) I... I can still hear his screams. The officers were shouting too, but I couldn't make out what they were saying. Everything was so chaotic. I remember thinking, \"This can't be happening. This isn't real.\" But it was. And I just stood there, frozen, unable to help.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's still an 8. My hands are shaking, and I feel nauseous. It's so vivid, like I'm reliving it all over again.",
+    "Therapist: You're doing well. Keep going if you can.",
+    "Client: Eventually, more police cars arrived. The man was handcuffed and thrown into a police van. The street cleared quickly, like nothing had happened. But I couldn't move. I stood there for what felt like hours, trying to process what I'd seen. When I finally got home, I broke down. I couldn't stop crying, couldn't shake the images from my mind. I felt so guilty, so angry, so... powerless.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone down a bit. Maybe a 7? I still feel shaky, but talking about it... it's helping, I think. My breathing is a little steadier now.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: Drained, mostly. But also... I don't know, maybe a little relieved? It's hard to explain. Reliving it was intense, but I feel like I'm starting to process it better. Is that normal?",
+    "Therapist: Yes, that's a common experience. Well done today.",
+    "Client: Thank you. It was tough, but I'm glad we did this. I think... I think it's helping me face what happened, instead of just trying to forget it.",
+    "Therapist: That's great progress. Let's end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand this is part of the process.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand this is part of the process.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy, and my heart is beating a bit faster than usual."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy, and my heart is beating a bit faster than usual.",
+      "Therapist: Okay. Begin describing the memory when you're ready."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy, and my heart is beating a bit faster than usual.",
+      "Therapist: Okay. Begin describing the memory when you're ready.",
+      "Client: Alright... I was walking home from work, it was late evening. The streets were quiet, and I remember feeling uneasy. Suddenly, I heard shouting and saw flashing lights. There was a commotion down the street - police cars everywhere. I froze, unsure what to do. Then I saw them... officers surrounding a man on the ground. They were... they were hitting him. I couldn't believe what I was seeing. My heart started racing, and I felt sick to my stomach."
+    ],
+    [
+      "Therapist: Okay. Begin describing the memory when you're ready.",
+      "Client: Alright... I was walking home from work, it was late evening. The streets were quiet, and I remember feeling uneasy. Suddenly, I heard shouting and saw flashing lights. There was a commotion down the street - police cars everywhere. I froze, unsure what to do. Then I saw them... officers surrounding a man on the ground. They were... they were hitting him. I couldn't believe what I was seeing. My heart started racing, and I felt sick to my stomach.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: Alright... I was walking home from work, it was late evening. The streets were quiet, and I remember feeling uneasy. Suddenly, I heard shouting and saw flashing lights. There was a commotion down the street - police cars everywhere. I froze, unsure what to do. Then I saw them... officers surrounding a man on the ground. They were... they were hitting him. I couldn't believe what I was seeing. My heart started racing, and I felt sick to my stomach.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 6. My palms are sweating more, and I feel a tightness in my chest."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 6. My palms are sweating more, and I feel a tightness in my chest.",
+      "Therapist: Thank you for sharing. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My palms are sweating more, and I feel a tightness in my chest.",
+      "Therapist: Thank you for sharing. Continue when you're ready.",
+      "Client: The man on the ground was crying out for help, begging them to stop. But they didn't. I wanted to do something, anything, but I was paralyzed with fear. I could hear the sound of batons hitting flesh, and... and I just stood there, watching. I felt so helpless, so ashamed for not intervening. The violence seemed to go on forever."
+    ],
+    [
+      "Therapist: Thank you for sharing. Continue when you're ready.",
+      "Client: The man on the ground was crying out for help, begging them to stop. But they didn't. I wanted to do something, anything, but I was paralyzed with fear. I could hear the sound of batons hitting flesh, and... and I just stood there, watching. I felt so helpless, so ashamed for not intervening. The violence seemed to go on forever.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: The man on the ground was crying out for help, begging them to stop. But they didn't. I wanted to do something, anything, but I was paralyzed with fear. I could hear the sound of batons hitting flesh, and... and I just stood there, watching. I felt so helpless, so ashamed for not intervening. The violence seemed to go on forever.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't catch my breath. It's like I'm right back there, watching it all happen again."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't catch my breath. It's like I'm right back there, watching it all happen again.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't catch my breath. It's like I'm right back there, watching it all happen again.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) I... I can still hear his screams. The officers were shouting too, but I couldn't make out what they were saying. Everything was so chaotic. I remember thinking, \"This can't be happening. This isn't real.\" But it was. And I just stood there, frozen, unable to help."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) I... I can still hear his screams. The officers were shouting too, but I couldn't make out what they were saying. Everything was so chaotic. I remember thinking, \"This can't be happening. This isn't real.\" But it was. And I just stood there, frozen, unable to help.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: (takes a shaky breath) I... I can still hear his screams. The officers were shouting too, but I couldn't make out what they were saying. Everything was so chaotic. I remember thinking, \"This can't be happening. This isn't real.\" But it was. And I just stood there, frozen, unable to help.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's still an 8. My hands are shaking, and I feel nauseous. It's so vivid, like I'm reliving it all over again."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's still an 8. My hands are shaking, and I feel nauseous. It's so vivid, like I'm reliving it all over again.",
+      "Therapist: You're doing well. Keep going if you can."
+    ],
+    [
+      "Client: It's still an 8. My hands are shaking, and I feel nauseous. It's so vivid, like I'm reliving it all over again.",
+      "Therapist: You're doing well. Keep going if you can.",
+      "Client: Eventually, more police cars arrived. The man was handcuffed and thrown into a police van. The street cleared quickly, like nothing had happened. But I couldn't move. I stood there for what felt like hours, trying to process what I'd seen. When I finally got home, I broke down. I couldn't stop crying, couldn't shake the images from my mind. I felt so guilty, so angry, so... powerless."
+    ],
+    [
+      "Therapist: You're doing well. Keep going if you can.",
+      "Client: Eventually, more police cars arrived. The man was handcuffed and thrown into a police van. The street cleared quickly, like nothing had happened. But I couldn't move. I stood there for what felt like hours, trying to process what I'd seen. When I finally got home, I broke down. I couldn't stop crying, couldn't shake the images from my mind. I felt so guilty, so angry, so... powerless.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Eventually, more police cars arrived. The man was handcuffed and thrown into a police van. The street cleared quickly, like nothing had happened. But I couldn't move. I stood there for what felt like hours, trying to process what I'd seen. When I finally got home, I broke down. I couldn't stop crying, couldn't shake the images from my mind. I felt so guilty, so angry, so... powerless.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I still feel shaky, but talking about it... it's helping, I think. My breathing is a little steadier now."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I still feel shaky, but talking about it... it's helping, I think. My breathing is a little steadier now.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's gone down a bit. Maybe a 7? I still feel shaky, but talking about it... it's helping, I think. My breathing is a little steadier now.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Drained, mostly. But also... I don't know, maybe a little relieved? It's hard to explain. Reliving it was intense, but I feel like I'm starting to process it better. Is that normal?"
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Drained, mostly. But also... I don't know, maybe a little relieved? It's hard to explain. Reliving it was intense, but I feel like I'm starting to process it better. Is that normal?",
+      "Therapist: Yes, that's a common experience. Well done today."
+    ],
+    [
+      "Client: Drained, mostly. But also... I don't know, maybe a little relieved? It's hard to explain. Reliving it was intense, but I feel like I'm starting to process it better. Is that normal?",
+      "Therapist: Yes, that's a common experience. Well done today.",
+      "Client: Thank you. It was tough, but I'm glad we did this. I think... I think it's helping me face what happened, instead of just trying to forget it."
+    ],
+    [
+      "Therapist: Yes, that's a common experience. Well done today.",
+      "Client: Thank you. It was tough, but I'm glad we did this. I think... I think it's helping me face what happened, instead of just trying to forget it.",
+      "Therapist: That's great progress. Let's end here for today."
+    ]
+  ]
+}

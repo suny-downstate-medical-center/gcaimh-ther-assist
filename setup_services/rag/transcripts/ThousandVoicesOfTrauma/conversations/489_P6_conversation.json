@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Mr. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the day of the flood.",
+    "Client: (Takes a deep breath) Okay... I'm there. It's early morning, and I hear the rain pounding on the roof. The sound is deafening, and I can feel my heart racing already. The news had warned about potential flooding, but I didn't think it would be this bad.",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: I'd say about a 4 out of 10. The memory is clear, but I'm not too distressed yet.",
+    "Therapist: Okay. Continue.",
+    "Client: As I look out the window, I see the water rising rapidly. It's already reaching the porch. I start to panic, realizing I need to get out. My hands are shaking as I try to gather some belongings. The power goes out, and suddenly I'm in darkness. My breathing becomes rapid, and I feel dizzy.",
+    "Therapist: SUDS?",
+    "Client: It's gone up to a 6 now. My palms are sweating just thinking about it.",
+    "Therapist: That's understandable. You're doing well. Keep going.",
+    "Client: I hear a loud crash outside. A tree has fallen, blocking my front door. I'm trapped. The water is seeping in under the door now. I can feel the cold wetness on my feet. My chest tightens, and I'm struggling to breathe. I feel so helpless, so alone.",
+    "Therapist: And your SUDS now?",
+    "Client: (Voice shaking) It's an 8. This is really hard.",
+    "Therapist: You're being very brave. Take a deep breath. Remember, you're safe now.",
+    "Client: (Inhales deeply) The water is rising fast. It's up to my knees now. I manage to climb onto a table, but I know it won't be enough. The room is dark, and I can hear things floating around me. I'm terrified of what might be in the water. Snakes, maybe? I start to cry, thinking I might die here.",
+    "Therapist: SUDS level?",
+    "Client: (Choked up) It's a 9. I feel like I'm there again.",
+    "Therapist: You're doing great. Stay with it if you can.",
+    "Client: I hear helicopters in the distance, but will they find me in time? The water keeps rising. It's at my waist now, even on the table. I'm shivering, both from fear and the cold water. I start shouting for help, but my voice seems so small against the roar of the flood.",
+    "Therapist: And your SUDS?",
+    "Client: Still a 9. My heart is pounding so hard.",
+    "Therapist: You're handling this well. Remember, you survived this.",
+    "Client: Suddenly, I hear voices outside. Rescuers in a boat! They break a window and help me out. As they pull me into the boat, I see my neighborhood completely submerged. Houses, cars, everything underwater. I feel relief, but also immense sadness and shock.",
+    "Therapist: SUDS now?",
+    "Client: It's come down to a 7. The relief of being rescued is tempering the fear.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: Exhausted, drained. But also... I don't know, maybe a little proud that I made it through remembering all that.",
+    "Therapist: You should be proud. You did excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Mr. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day of the flood."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day of the flood.",
+      "Client: (Takes a deep breath) Okay... I'm there. It's early morning, and I hear the rain pounding on the roof. The sound is deafening, and I can feel my heart racing already. The news had warned about potential flooding, but I didn't think it would be this bad."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day of the flood.",
+      "Client: (Takes a deep breath) Okay... I'm there. It's early morning, and I hear the rain pounding on the roof. The sound is deafening, and I can feel my heart racing already. The news had warned about potential flooding, but I didn't think it would be this bad.",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I'm there. It's early morning, and I hear the rain pounding on the roof. The sound is deafening, and I can feel my heart racing already. The news had warned about potential flooding, but I didn't think it would be this bad.",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: I'd say about a 4 out of 10. The memory is clear, but I'm not too distressed yet."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: I'd say about a 4 out of 10. The memory is clear, but I'm not too distressed yet.",
+      "Therapist: Okay. Continue."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. The memory is clear, but I'm not too distressed yet.",
+      "Therapist: Okay. Continue.",
+      "Client: As I look out the window, I see the water rising rapidly. It's already reaching the porch. I start to panic, realizing I need to get out. My hands are shaking as I try to gather some belongings. The power goes out, and suddenly I'm in darkness. My breathing becomes rapid, and I feel dizzy."
+    ],
+    [
+      "Therapist: Okay. Continue.",
+      "Client: As I look out the window, I see the water rising rapidly. It's already reaching the porch. I start to panic, realizing I need to get out. My hands are shaking as I try to gather some belongings. The power goes out, and suddenly I'm in darkness. My breathing becomes rapid, and I feel dizzy.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: As I look out the window, I see the water rising rapidly. It's already reaching the porch. I start to panic, realizing I need to get out. My hands are shaking as I try to gather some belongings. The power goes out, and suddenly I'm in darkness. My breathing becomes rapid, and I feel dizzy.",
+      "Therapist: SUDS?",
+      "Client: It's gone up to a 6 now. My palms are sweating just thinking about it."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's gone up to a 6 now. My palms are sweating just thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6 now. My palms are sweating just thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: I hear a loud crash outside. A tree has fallen, blocking my front door. I'm trapped. The water is seeping in under the door now. I can feel the cold wetness on my feet. My chest tightens, and I'm struggling to breathe. I feel so helpless, so alone."
+    ],
+    [
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: I hear a loud crash outside. A tree has fallen, blocking my front door. I'm trapped. The water is seeping in under the door now. I can feel the cold wetness on my feet. My chest tightens, and I'm struggling to breathe. I feel so helpless, so alone.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I hear a loud crash outside. A tree has fallen, blocking my front door. I'm trapped. The water is seeping in under the door now. I can feel the cold wetness on my feet. My chest tightens, and I'm struggling to breathe. I feel so helpless, so alone.",
+      "Therapist: And your SUDS now?",
+      "Client: (Voice shaking) It's an 8. This is really hard."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: (Voice shaking) It's an 8. This is really hard.",
+      "Therapist: You're being very brave. Take a deep breath. Remember, you're safe now."
+    ],
+    [
+      "Client: (Voice shaking) It's an 8. This is really hard.",
+      "Therapist: You're being very brave. Take a deep breath. Remember, you're safe now.",
+      "Client: (Inhales deeply) The water is rising fast. It's up to my knees now. I manage to climb onto a table, but I know it won't be enough. The room is dark, and I can hear things floating around me. I'm terrified of what might be in the water. Snakes, maybe? I start to cry, thinking I might die here."
+    ],
+    [
+      "Therapist: You're being very brave. Take a deep breath. Remember, you're safe now.",
+      "Client: (Inhales deeply) The water is rising fast. It's up to my knees now. I manage to climb onto a table, but I know it won't be enough. The room is dark, and I can hear things floating around me. I'm terrified of what might be in the water. Snakes, maybe? I start to cry, thinking I might die here.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: (Inhales deeply) The water is rising fast. It's up to my knees now. I manage to climb onto a table, but I know it won't be enough. The room is dark, and I can hear things floating around me. I'm terrified of what might be in the water. Snakes, maybe? I start to cry, thinking I might die here.",
+      "Therapist: SUDS level?",
+      "Client: (Choked up) It's a 9. I feel like I'm there again."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: (Choked up) It's a 9. I feel like I'm there again.",
+      "Therapist: You're doing great. Stay with it if you can."
+    ],
+    [
+      "Client: (Choked up) It's a 9. I feel like I'm there again.",
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: I hear helicopters in the distance, but will they find me in time? The water keeps rising. It's at my waist now, even on the table. I'm shivering, both from fear and the cold water. I start shouting for help, but my voice seems so small against the roar of the flood."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: I hear helicopters in the distance, but will they find me in time? The water keeps rising. It's at my waist now, even on the table. I'm shivering, both from fear and the cold water. I start shouting for help, but my voice seems so small against the roar of the flood.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I hear helicopters in the distance, but will they find me in time? The water keeps rising. It's at my waist now, even on the table. I'm shivering, both from fear and the cold water. I start shouting for help, but my voice seems so small against the roar of the flood.",
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. My heart is pounding so hard.",
+      "Therapist: You're handling this well. Remember, you survived this."
+    ],
+    [
+      "Client: Still a 9. My heart is pounding so hard.",
+      "Therapist: You're handling this well. Remember, you survived this.",
+      "Client: Suddenly, I hear voices outside. Rescuers in a boat! They break a window and help me out. As they pull me into the boat, I see my neighborhood completely submerged. Houses, cars, everything underwater. I feel relief, but also immense sadness and shock."
+    ],
+    [
+      "Therapist: You're handling this well. Remember, you survived this.",
+      "Client: Suddenly, I hear voices outside. Rescuers in a boat! They break a window and help me out. As they pull me into the boat, I see my neighborhood completely submerged. Houses, cars, everything underwater. I feel relief, but also immense sadness and shock.",
+      "Therapist: SUDS now?"
+    ],
+    [
+      "Client: Suddenly, I hear voices outside. Rescuers in a boat! They break a window and help me out. As they pull me into the boat, I see my neighborhood completely submerged. Houses, cars, everything underwater. I feel relief, but also immense sadness and shock.",
+      "Therapist: SUDS now?",
+      "Client: It's come down to a 7. The relief of being rescued is tempering the fear."
+    ],
+    [
+      "Therapist: SUDS now?",
+      "Client: It's come down to a 7. The relief of being rescued is tempering the fear.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's come down to a 7. The relief of being rescued is tempering the fear.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted, drained. But also... I don't know, maybe a little proud that I made it through remembering all that."
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted, drained. But also... I don't know, maybe a little proud that I made it through remembering all that.",
+      "Therapist: You should be proud. You did excellent work today."
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Nguyen, today we'll start imaginal exposure. How are you feeling about this?",
+    "Client: I'm... I'm not sure, doctor. To be honest, I'm a bit nervous. The idea of revisiting those memories from the refugee camp... it's not easy. I've spent years trying to forget.",
+    "Therapist: Your apprehension is natural. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will bring back all those terrible feelings. The fear, the helplessness... I saw things no one should see. What if I can't handle it? What if I break down?",
+    "Therapist: Those are valid concerns. How do you think revisiting might help?",
+    "Client: I... I suppose it might help me process what happened. Maybe it could reduce the nightmares I've been having. But it's scary to think about facing it all again.",
+    "Therapist: Exactly. It's about processing. What questions do you have about the process?",
+    "Client: How long will we spend on this? And what happens if I become overwhelmed? I'm not as young as I used to be, you know. My heart isn't as strong.",
+    "Therapist: We'll go at your pace. What support do you need to feel safe?",
+    "Client: Could we maybe have some breaks? And... is it okay if I stop if it becomes too much? I want to try, but I'm scared of losing control.",
+    "Therapist: Absolutely. Your comfort is crucial. What else might help you feel secure?",
+    "Client: Maybe... could I hold something? I have this small Buddha statue my wife gave me before we left Vietnam. It's always been comforting.",
+    "Therapist: That's a great idea. Are you ready to begin?",
+    "Client: I... I think so. I'm still nervous, but I understand why we're doing this. It's for my own good, right? To help me move past the trauma and maybe finally find some peace. I've carried this burden for so long... maybe it's time to start letting it go.",
+    "Therapist: Your courage is admirable. Shall we start?",
+    "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I trust you, doctor. Let's see where this takes us."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Nguyen, today we'll start imaginal exposure. How are you feeling about this?",
+      "Client: I'm... I'm not sure, doctor. To be honest, I'm a bit nervous. The idea of revisiting those memories from the refugee camp... it's not easy. I've spent years trying to forget.",
+      "Therapist: Your apprehension is natural. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... I'm not sure, doctor. To be honest, I'm a bit nervous. The idea of revisiting those memories from the refugee camp... it's not easy. I've spent years trying to forget.",
+      "Therapist: Your apprehension is natural. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those terrible feelings. The fear, the helplessness... I saw things no one should see. What if I can't handle it? What if I break down?"
+    ],
+    [
+      "Therapist: Your apprehension is natural. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those terrible feelings. The fear, the helplessness... I saw things no one should see. What if I can't handle it? What if I break down?",
+      "Therapist: Those are valid concerns. How do you think revisiting might help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will bring back all those terrible feelings. The fear, the helplessness... I saw things no one should see. What if I can't handle it? What if I break down?",
+      "Therapist: Those are valid concerns. How do you think revisiting might help?",
+      "Client: I... I suppose it might help me process what happened. Maybe it could reduce the nightmares I've been having. But it's scary to think about facing it all again."
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you think revisiting might help?",
+      "Client: I... I suppose it might help me process what happened. Maybe it could reduce the nightmares I've been having. But it's scary to think about facing it all again.",
+      "Therapist: Exactly. It's about processing. What questions do you have about the process?"
+    ],
+    [
+      "Client: I... I suppose it might help me process what happened. Maybe it could reduce the nightmares I've been having. But it's scary to think about facing it all again.",
+      "Therapist: Exactly. It's about processing. What questions do you have about the process?",
+      "Client: How long will we spend on this? And what happens if I become overwhelmed? I'm not as young as I used to be, you know. My heart isn't as strong."
+    ],
+    [
+      "Therapist: Exactly. It's about processing. What questions do you have about the process?",
+      "Client: How long will we spend on this? And what happens if I become overwhelmed? I'm not as young as I used to be, you know. My heart isn't as strong.",
+      "Therapist: We'll go at your pace. What support do you need to feel safe?"
+    ],
+    [
+      "Client: How long will we spend on this? And what happens if I become overwhelmed? I'm not as young as I used to be, you know. My heart isn't as strong.",
+      "Therapist: We'll go at your pace. What support do you need to feel safe?",
+      "Client: Could we maybe have some breaks? And... is it okay if I stop if it becomes too much? I want to try, but I'm scared of losing control."
+    ],
+    [
+      "Therapist: We'll go at your pace. What support do you need to feel safe?",
+      "Client: Could we maybe have some breaks? And... is it okay if I stop if it becomes too much? I want to try, but I'm scared of losing control.",
+      "Therapist: Absolutely. Your comfort is crucial. What else might help you feel secure?"
+    ],
+    [
+      "Client: Could we maybe have some breaks? And... is it okay if I stop if it becomes too much? I want to try, but I'm scared of losing control.",
+      "Therapist: Absolutely. Your comfort is crucial. What else might help you feel secure?",
+      "Client: Maybe... could I hold something? I have this small Buddha statue my wife gave me before we left Vietnam. It's always been comforting."
+    ],
+    [
+      "Therapist: Absolutely. Your comfort is crucial. What else might help you feel secure?",
+      "Client: Maybe... could I hold something? I have this small Buddha statue my wife gave me before we left Vietnam. It's always been comforting.",
+      "Therapist: That's a great idea. Are you ready to begin?"
+    ],
+    [
+      "Client: Maybe... could I hold something? I have this small Buddha statue my wife gave me before we left Vietnam. It's always been comforting.",
+      "Therapist: That's a great idea. Are you ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I understand why we're doing this. It's for my own good, right? To help me move past the trauma and maybe finally find some peace. I've carried this burden for so long... maybe it's time to start letting it go."
+    ],
+    [
+      "Therapist: That's a great idea. Are you ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I understand why we're doing this. It's for my own good, right? To help me move past the trauma and maybe finally find some peace. I've carried this burden for so long... maybe it's time to start letting it go.",
+      "Therapist: Your courage is admirable. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. I'm still nervous, but I understand why we're doing this. It's for my own good, right? To help me move past the trauma and maybe finally find some peace. I've carried this burden for so long... maybe it's time to start letting it go.",
+      "Therapist: Your courage is admirable. Shall we start?",
+      "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I trust you, doctor. Let's see where this takes us."
+    ]
+  ]
+}

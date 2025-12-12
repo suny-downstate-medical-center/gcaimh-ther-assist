@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there in that moment, you know? I could feel the tension in my shoulders, the knot in my stomach. It's strange how vivid it all becomes when I really focus on it.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The looks on their faces. The way they... they sneered at me. It wasn't just words, it was their expressions, their body language. They made me feel so small, so... different. I remember thinking, \"Why me? What did I do wrong?\" But I know now it wasn't about me, it was their ignorance, their prejudice.",
+    "Therapist: How did reliving that affect you today?",
+    "Client: It's... it's hard. My heart's still racing a bit. But, um, I also feel a strange sense of... I don't know, maybe strength? Like, I survived that. I'm here, talking about it. That's something, right?",
+    "Therapist: Absolutely. What else are you noticing?",
+    "Client: I'm realizing how much those experiences shaped me. The constant anxiety, always being on guard, expecting the worst from people... it all stems from those moments. But I'm also seeing how far I've come. I have a good job, a loving partner. I've built a life despite all that trauma.",
+    "Therapist: How does this connect to your recovery goals?",
+    "Client: Well, I think... I think it's helping me understand myself better. Why I react the way I do in certain situations. And maybe, by facing these memories head-on, I can start to... I don't know, rewire my brain? Stop letting those past experiences control my present.",
+    "Therapist: That's insightful. What's challenging about this process?",
+    "Client: The emotions, definitely. They feel so raw, so real. Sometimes I worry that by digging into these memories, I'm just reopening old wounds. But then I remind myself that this is different. I'm not that helpless kid anymore. I have support, I have tools to cope.",
+    "Therapist: How do you feel about continuing?",
+    "Client: It's tough, but... I want to keep going. I feel like I'm finally addressing something that's been holding me back for years. It's scary, but also... liberating? Like I'm reclaiming parts of myself that I lost.",
+    "Therapist: That's courageous. Any strategies helping you?",
+    "Client: The breathing exercises help a lot. And reminding myself that I'm safe now, that these are just memories. Oh, and writing in my journal after our sessions - it helps me process everything.",
+    "Therapist: Great observations. Anything else you'd like to share?",
+    "Client: I just... I want to thank you. For guiding me through this. It's not easy, but I feel like I'm making progress. Slowly, but surely. And that gives me hope, you know?",
+    "Therapist: You're doing the hard work. How shall we proceed?",
+    "Client: I think... I think I'm ready to dive deeper. Maybe explore some of the more challenging memories? It's scary, but I feel like I'm building the strength to face them now."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there in that moment, you know? I could feel the tension in my shoulders, the knot in my stomach. It's strange how vivid it all becomes when I really focus on it.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there in that moment, you know? I could feel the tension in my shoulders, the knot in my stomach. It's strange how vivid it all becomes when I really focus on it.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The looks on their faces. The way they... they sneered at me. It wasn't just words, it was their expressions, their body language. They made me feel so small, so... different. I remember thinking, \"Why me? What did I do wrong?\" But I know now it wasn't about me, it was their ignorance, their prejudice."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The looks on their faces. The way they... they sneered at me. It wasn't just words, it was their expressions, their body language. They made me feel so small, so... different. I remember thinking, \"Why me? What did I do wrong?\" But I know now it wasn't about me, it was their ignorance, their prejudice.",
+      "Therapist: How did reliving that affect you today?"
+    ],
+    [
+      "Client: The looks on their faces. The way they... they sneered at me. It wasn't just words, it was their expressions, their body language. They made me feel so small, so... different. I remember thinking, \"Why me? What did I do wrong?\" But I know now it wasn't about me, it was their ignorance, their prejudice.",
+      "Therapist: How did reliving that affect you today?",
+      "Client: It's... it's hard. My heart's still racing a bit. But, um, I also feel a strange sense of... I don't know, maybe strength? Like, I survived that. I'm here, talking about it. That's something, right?"
+    ],
+    [
+      "Therapist: How did reliving that affect you today?",
+      "Client: It's... it's hard. My heart's still racing a bit. But, um, I also feel a strange sense of... I don't know, maybe strength? Like, I survived that. I'm here, talking about it. That's something, right?",
+      "Therapist: Absolutely. What else are you noticing?"
+    ],
+    [
+      "Client: It's... it's hard. My heart's still racing a bit. But, um, I also feel a strange sense of... I don't know, maybe strength? Like, I survived that. I'm here, talking about it. That's something, right?",
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I'm realizing how much those experiences shaped me. The constant anxiety, always being on guard, expecting the worst from people... it all stems from those moments. But I'm also seeing how far I've come. I have a good job, a loving partner. I've built a life despite all that trauma."
+    ],
+    [
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I'm realizing how much those experiences shaped me. The constant anxiety, always being on guard, expecting the worst from people... it all stems from those moments. But I'm also seeing how far I've come. I have a good job, a loving partner. I've built a life despite all that trauma.",
+      "Therapist: How does this connect to your recovery goals?"
+    ],
+    [
+      "Client: I'm realizing how much those experiences shaped me. The constant anxiety, always being on guard, expecting the worst from people... it all stems from those moments. But I'm also seeing how far I've come. I have a good job, a loving partner. I've built a life despite all that trauma.",
+      "Therapist: How does this connect to your recovery goals?",
+      "Client: Well, I think... I think it's helping me understand myself better. Why I react the way I do in certain situations. And maybe, by facing these memories head-on, I can start to... I don't know, rewire my brain? Stop letting those past experiences control my present."
+    ],
+    [
+      "Therapist: How does this connect to your recovery goals?",
+      "Client: Well, I think... I think it's helping me understand myself better. Why I react the way I do in certain situations. And maybe, by facing these memories head-on, I can start to... I don't know, rewire my brain? Stop letting those past experiences control my present.",
+      "Therapist: That's insightful. What's challenging about this process?"
+    ],
+    [
+      "Client: Well, I think... I think it's helping me understand myself better. Why I react the way I do in certain situations. And maybe, by facing these memories head-on, I can start to... I don't know, rewire my brain? Stop letting those past experiences control my present.",
+      "Therapist: That's insightful. What's challenging about this process?",
+      "Client: The emotions, definitely. They feel so raw, so real. Sometimes I worry that by digging into these memories, I'm just reopening old wounds. But then I remind myself that this is different. I'm not that helpless kid anymore. I have support, I have tools to cope."
+    ],
+    [
+      "Therapist: That's insightful. What's challenging about this process?",
+      "Client: The emotions, definitely. They feel so raw, so real. Sometimes I worry that by digging into these memories, I'm just reopening old wounds. But then I remind myself that this is different. I'm not that helpless kid anymore. I have support, I have tools to cope.",
+      "Therapist: How do you feel about continuing?"
+    ],
+    [
+      "Client: The emotions, definitely. They feel so raw, so real. Sometimes I worry that by digging into these memories, I'm just reopening old wounds. But then I remind myself that this is different. I'm not that helpless kid anymore. I have support, I have tools to cope.",
+      "Therapist: How do you feel about continuing?",
+      "Client: It's tough, but... I want to keep going. I feel like I'm finally addressing something that's been holding me back for years. It's scary, but also... liberating? Like I'm reclaiming parts of myself that I lost."
+    ],
+    [
+      "Therapist: How do you feel about continuing?",
+      "Client: It's tough, but... I want to keep going. I feel like I'm finally addressing something that's been holding me back for years. It's scary, but also... liberating? Like I'm reclaiming parts of myself that I lost.",
+      "Therapist: That's courageous. Any strategies helping you?"
+    ],
+    [
+      "Client: It's tough, but... I want to keep going. I feel like I'm finally addressing something that's been holding me back for years. It's scary, but also... liberating? Like I'm reclaiming parts of myself that I lost.",
+      "Therapist: That's courageous. Any strategies helping you?",
+      "Client: The breathing exercises help a lot. And reminding myself that I'm safe now, that these are just memories. Oh, and writing in my journal after our sessions - it helps me process everything."
+    ],
+    [
+      "Therapist: That's courageous. Any strategies helping you?",
+      "Client: The breathing exercises help a lot. And reminding myself that I'm safe now, that these are just memories. Oh, and writing in my journal after our sessions - it helps me process everything.",
+      "Therapist: Great observations. Anything else you'd like to share?"
+    ],
+    [
+      "Client: The breathing exercises help a lot. And reminding myself that I'm safe now, that these are just memories. Oh, and writing in my journal after our sessions - it helps me process everything.",
+      "Therapist: Great observations. Anything else you'd like to share?",
+      "Client: I just... I want to thank you. For guiding me through this. It's not easy, but I feel like I'm making progress. Slowly, but surely. And that gives me hope, you know?"
+    ],
+    [
+      "Therapist: Great observations. Anything else you'd like to share?",
+      "Client: I just... I want to thank you. For guiding me through this. It's not easy, but I feel like I'm making progress. Slowly, but surely. And that gives me hope, you know?",
+      "Therapist: You're doing the hard work. How shall we proceed?"
+    ],
+    [
+      "Client: I just... I want to thank you. For guiding me through this. It's not easy, but I feel like I'm making progress. Slowly, but surely. And that gives me hope, you know?",
+      "Therapist: You're doing the hard work. How shall we proceed?",
+      "Client: I think... I think I'm ready to dive deeper. Maybe explore some of the more challenging memories? It's scary, but I feel like I'm building the strength to face them now."
+    ]
+  ]
+}

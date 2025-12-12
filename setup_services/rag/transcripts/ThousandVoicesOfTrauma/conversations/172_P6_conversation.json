@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the severe illness you experienced.",
+    "Client: Alright... I'm back in the hospital room. The beeping of machines is constant. I feel so weak, like I can barely lift my arm. The doctors are talking in hushed tones outside my door. I'm... I'm scared.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: I'd say about a 6. My heart's starting to race a bit.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: The doctor comes in. His face is grim. He tells me they've found something on my scan. A mass. I feel like the room is spinning. My mouth goes dry. I can't seem to focus on what he's saying after that.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I'm feeling really anxious, like I can't catch my breath.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: I remember thinking about my late wife. How I wished she was there to hold my hand. The loneliness was overwhelming. I felt so helpless, like my life was slipping away. The nurse comes in to adjust my IV, and I barely notice her. Everything feels surreal.",
+    "Therapist: How's your distress level?",
+    "Client: It's still at an 8. My palms are sweaty, and I feel a tightness in my chest.",
+    "Therapist: You're handling this well. Continue with the memory.",
+    "Client: Days blur together. Tests, more tests. I'm poked and prodded. The uncertainty is killing me. I overhear a nurse mention \"stage 4,\" and I feel like I've been punched in the gut. I start to think about all the things I haven't done, the places I haven't seen.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's gone up to a 9. I feel like I'm right back there, helpless and afraid.",
+    "Therapist: You're safe here. Take a deep breath. You're doing great.",
+    "Client: Thank you. It's hard, but... okay. The day of my surgery arrives. I'm wheeled into the operating room. The lights are so bright. I'm shaking, terrified I might not wake up. The anesthesiologist tells me to count backward from 10. I only make it to 8...",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's still at a 9. My heart is pounding so hard.",
+    "Therapist: You're doing really well. Keep going.",
+    "Client: I... I wake up in recovery. Everything hurts. But the doctor is smiling. They got it all, he says. I feel relief wash over me, but I'm so weak. I can't even cry. I just lie there, overwhelmed by it all.",
+    "Therapist: And your SUDS level now?",
+    "Client: It's coming down a bit. Maybe a 7. I'm starting to feel a little calmer.",
+    "Therapist: That's good. You're processing this well. Continue.",
+    "Client: The recovery is slow. Some days I feel like I'm improving, others I feel worse than ever. But gradually, I start to regain my strength. I remember the first day I was able to walk down the hospital corridor without assistance. It felt like a miracle.",
+    "Therapist: How about your SUDS now?",
+    "Client: It's down to a 5. I'm feeling more in control, remembering that I survived this.",
+    "Therapist: Excellent. You're doing great. Let's wrap up the exercise.",
+    "Client: Okay. As I open my eyes, I feel... drained, but also a bit lighter. It's still hard to think about, but maybe a little less overwhelming now.",
+    "Therapist: That's normal. How do you feel overall?",
+    "Client: Tired, but... okay. It wasn't easy, but I'm glad we did this.",
+    "Therapist: You showed great courage. We'll discuss this more next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the severe illness you experienced."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the severe illness you experienced.",
+      "Client: Alright... I'm back in the hospital room. The beeping of machines is constant. I feel so weak, like I can barely lift my arm. The doctors are talking in hushed tones outside my door. I'm... I'm scared."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the severe illness you experienced.",
+      "Client: Alright... I'm back in the hospital room. The beeping of machines is constant. I feel so weak, like I can barely lift my arm. The doctors are talking in hushed tones outside my door. I'm... I'm scared.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Alright... I'm back in the hospital room. The beeping of machines is constant. I feel so weak, like I can barely lift my arm. The doctors are talking in hushed tones outside my door. I'm... I'm scared.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: I'd say about a 6. My heart's starting to race a bit."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: I'd say about a 6. My heart's starting to race a bit.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: I'd say about a 6. My heart's starting to race a bit.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The doctor comes in. His face is grim. He tells me they've found something on my scan. A mass. I feel like the room is spinning. My mouth goes dry. I can't seem to focus on what he's saying after that."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The doctor comes in. His face is grim. He tells me they've found something on my scan. A mass. I feel like the room is spinning. My mouth goes dry. I can't seem to focus on what he's saying after that.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The doctor comes in. His face is grim. He tells me they've found something on my scan. A mass. I feel like the room is spinning. My mouth goes dry. I can't seem to focus on what he's saying after that.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, like I can't catch my breath."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, like I can't catch my breath.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm feeling really anxious, like I can't catch my breath.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I remember thinking about my late wife. How I wished she was there to hold my hand. The loneliness was overwhelming. I felt so helpless, like my life was slipping away. The nurse comes in to adjust my IV, and I barely notice her. Everything feels surreal."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I remember thinking about my late wife. How I wished she was there to hold my hand. The loneliness was overwhelming. I felt so helpless, like my life was slipping away. The nurse comes in to adjust my IV, and I barely notice her. Everything feels surreal.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: I remember thinking about my late wife. How I wished she was there to hold my hand. The loneliness was overwhelming. I felt so helpless, like my life was slipping away. The nurse comes in to adjust my IV, and I barely notice her. Everything feels surreal.",
+      "Therapist: How's your distress level?",
+      "Client: It's still at an 8. My palms are sweaty, and I feel a tightness in my chest."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's still at an 8. My palms are sweaty, and I feel a tightness in my chest.",
+      "Therapist: You're handling this well. Continue with the memory."
+    ],
+    [
+      "Client: It's still at an 8. My palms are sweaty, and I feel a tightness in my chest.",
+      "Therapist: You're handling this well. Continue with the memory.",
+      "Client: Days blur together. Tests, more tests. I'm poked and prodded. The uncertainty is killing me. I overhear a nurse mention \"stage 4,\" and I feel like I've been punched in the gut. I start to think about all the things I haven't done, the places I haven't seen."
+    ],
+    [
+      "Therapist: You're handling this well. Continue with the memory.",
+      "Client: Days blur together. Tests, more tests. I'm poked and prodded. The uncertainty is killing me. I overhear a nurse mention \"stage 4,\" and I feel like I've been punched in the gut. I start to think about all the things I haven't done, the places I haven't seen.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: Days blur together. Tests, more tests. I'm poked and prodded. The uncertainty is killing me. I overhear a nurse mention \"stage 4,\" and I feel like I've been punched in the gut. I start to think about all the things I haven't done, the places I haven't seen.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there, helpless and afraid."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there, helpless and afraid.",
+      "Therapist: You're safe here. Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there, helpless and afraid.",
+      "Therapist: You're safe here. Take a deep breath. You're doing great.",
+      "Client: Thank you. It's hard, but... okay. The day of my surgery arrives. I'm wheeled into the operating room. The lights are so bright. I'm shaking, terrified I might not wake up. The anesthesiologist tells me to count backward from 10. I only make it to 8..."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath. You're doing great.",
+      "Client: Thank you. It's hard, but... okay. The day of my surgery arrives. I'm wheeled into the operating room. The lights are so bright. I'm shaking, terrified I might not wake up. The anesthesiologist tells me to count backward from 10. I only make it to 8...",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: Thank you. It's hard, but... okay. The day of my surgery arrives. I'm wheeled into the operating room. The lights are so bright. I'm shaking, terrified I might not wake up. The anesthesiologist tells me to count backward from 10. I only make it to 8...",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still at a 9. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still at a 9. My heart is pounding so hard.",
+      "Therapist: You're doing really well. Keep going."
+    ],
+    [
+      "Client: It's still at a 9. My heart is pounding so hard.",
+      "Therapist: You're doing really well. Keep going.",
+      "Client: I... I wake up in recovery. Everything hurts. But the doctor is smiling. They got it all, he says. I feel relief wash over me, but I'm so weak. I can't even cry. I just lie there, overwhelmed by it all."
+    ],
+    [
+      "Therapist: You're doing really well. Keep going.",
+      "Client: I... I wake up in recovery. Everything hurts. But the doctor is smiling. They got it all, he says. I feel relief wash over me, but I'm so weak. I can't even cry. I just lie there, overwhelmed by it all.",
+      "Therapist: And your SUDS level now?"
+    ],
+    [
+      "Client: I... I wake up in recovery. Everything hurts. But the doctor is smiling. They got it all, he says. I feel relief wash over me, but I'm so weak. I can't even cry. I just lie there, overwhelmed by it all.",
+      "Therapist: And your SUDS level now?",
+      "Client: It's coming down a bit. Maybe a 7. I'm starting to feel a little calmer."
+    ],
+    [
+      "Therapist: And your SUDS level now?",
+      "Client: It's coming down a bit. Maybe a 7. I'm starting to feel a little calmer.",
+      "Therapist: That's good. You're processing this well. Continue."
+    ],
+    [
+      "Client: It's coming down a bit. Maybe a 7. I'm starting to feel a little calmer.",
+      "Therapist: That's good. You're processing this well. Continue.",
+      "Client: The recovery is slow. Some days I feel like I'm improving, others I feel worse than ever. But gradually, I start to regain my strength. I remember the first day I was able to walk down the hospital corridor without assistance. It felt like a miracle."
+    ],
+    [
+      "Therapist: That's good. You're processing this well. Continue.",
+      "Client: The recovery is slow. Some days I feel like I'm improving, others I feel worse than ever. But gradually, I start to regain my strength. I remember the first day I was able to walk down the hospital corridor without assistance. It felt like a miracle.",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: The recovery is slow. Some days I feel like I'm improving, others I feel worse than ever. But gradually, I start to regain my strength. I remember the first day I was able to walk down the hospital corridor without assistance. It felt like a miracle.",
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 5. I'm feeling more in control, remembering that I survived this."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 5. I'm feeling more in control, remembering that I survived this.",
+      "Therapist: Excellent. You're doing great. Let's wrap up the exercise."
+    ],
+    [
+      "Client: It's down to a 5. I'm feeling more in control, remembering that I survived this.",
+      "Therapist: Excellent. You're doing great. Let's wrap up the exercise.",
+      "Client: Okay. As I open my eyes, I feel... drained, but also a bit lighter. It's still hard to think about, but maybe a little less overwhelming now."
+    ],
+    [
+      "Therapist: Excellent. You're doing great. Let's wrap up the exercise.",
+      "Client: Okay. As I open my eyes, I feel... drained, but also a bit lighter. It's still hard to think about, but maybe a little less overwhelming now.",
+      "Therapist: That's normal. How do you feel overall?"
+    ],
+    [
+      "Client: Okay. As I open my eyes, I feel... drained, but also a bit lighter. It's still hard to think about, but maybe a little less overwhelming now.",
+      "Therapist: That's normal. How do you feel overall?",
+      "Client: Tired, but... okay. It wasn't easy, but I'm glad we did this."
+    ],
+    [
+      "Therapist: That's normal. How do you feel overall?",
+      "Client: Tired, but... okay. It wasn't easy, but I'm glad we did this.",
+      "Therapist: You showed great courage. We'll discuss this more next time."
+    ]
+  ]
+}

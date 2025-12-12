@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Rahul. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+    "Therapist: That's normal. Let's start with your baseline SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+    "Therapist: Okay. Close your eyes and describe the scene.",
+    "Client: I'm walking home from work. It's dark, and I see flashing lights. A police car pulls up beside me. Two officers get out, looking... aggressive. My palms are sweating now.",
+    "Therapist: What's happening in your body?",
+    "Client: My chest feels tight. I'm starting to breathe faster. The officers are approaching me, hands on their holsters. I feel... I feel like I'm frozen in place.",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's gone up to a 6. Maybe even a 7.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: They're demanding ID. Their voices are so loud, so angry. I'm fumbling with my wallet, my hands are shaking. I can't... I can't seem to get my ID out. One officer grabs my arm roughly. I'm terrified they'll hurt me.",
+    "Therapist: What are you feeling right now?",
+    "Client: Panic. Pure panic. My heart's racing, I feel dizzy. I want to run but I'm paralyzed with fear. The grip on my arm is so tight, it hurts.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's a 9. This is really hard.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: They're yelling at me now. Calling me names, racial slurs. I feel so small, so helpless. My throat is tight, I can barely breathe. I'm trying to explain, but words won't come out.",
+    "Therapist: What do you notice around you?",
+    "Client: Other people are watching. No one's helping. I feel so alone, so exposed. The officers are getting angrier. One of them pushes me against the car. The metal is cold against my face.",
+    "Therapist: SUDS rating now?",
+    "Client: Still a 9. Maybe even a 10. I'm shaking uncontrollably.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: They're twisting my arm behind my back. It hurts so much. I hear the click of handcuffs. I'm crying now, begging them to stop. I feel so humiliated, so powerless.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: \"Why me? What did I do wrong? Is this because of my skin color?\" I feel rage building up, but I'm too scared to show it. I just want it to be over.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's coming down a bit. Maybe an 8 now.",
+    "Therapist: That's good. You're processing it.",
+    "Client: They're running my ID now. I'm still against the car, handcuffed. My shoulder aches. I'm trying to calm my breathing, but it's so hard. I keep thinking about my family, how worried they'd be if they knew.",
+    "Therapist: What do you need in this moment?",
+    "Client: I need someone to believe me, to see me as a person. I need this to end. I'm exhausted, emotionally drained.",
+    "Therapist: SUDS rating now?",
+    "Client: It's down to a 6. I'm starting to feel numb.",
+    "Therapist: You're doing really well. How does the scene end?",
+    "Client: They finally let me go. No apology, just a curt \"You're free to leave.\" I'm trembling as I walk away. I feel... violated. Angry. Scared it could happen again at any moment.",
+    "Therapist: And now, as you're back in this room?",
+    "Client: I'm... I'm okay. My heart's still racing a bit, but I'm here. Safe.",
+    "Therapist: Final SUDS rating?",
+    "Client: It's back down to a 4. I'm drained, but... I got through it.",
+    "Therapist: You did incredibly well. Let's take a moment to breathe."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Rahul. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start with your baseline SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start with your baseline SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your baseline SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and describe the scene."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and describe the scene.",
+      "Client: I'm walking home from work. It's dark, and I see flashing lights. A police car pulls up beside me. Two officers get out, looking... aggressive. My palms are sweating now."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and describe the scene.",
+      "Client: I'm walking home from work. It's dark, and I see flashing lights. A police car pulls up beside me. Two officers get out, looking... aggressive. My palms are sweating now.",
+      "Therapist: What's happening in your body?"
+    ],
+    [
+      "Client: I'm walking home from work. It's dark, and I see flashing lights. A police car pulls up beside me. Two officers get out, looking... aggressive. My palms are sweating now.",
+      "Therapist: What's happening in your body?",
+      "Client: My chest feels tight. I'm starting to breathe faster. The officers are approaching me, hands on their holsters. I feel... I feel like I'm frozen in place."
+    ],
+    [
+      "Therapist: What's happening in your body?",
+      "Client: My chest feels tight. I'm starting to breathe faster. The officers are approaching me, hands on their holsters. I feel... I feel like I'm frozen in place.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: My chest feels tight. I'm starting to breathe faster. The officers are approaching me, hands on their holsters. I feel... I feel like I'm frozen in place.",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's gone up to a 6. Maybe even a 7."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's gone up to a 6. Maybe even a 7.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. Maybe even a 7.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: They're demanding ID. Their voices are so loud, so angry. I'm fumbling with my wallet, my hands are shaking. I can't... I can't seem to get my ID out. One officer grabs my arm roughly. I'm terrified they'll hurt me."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: They're demanding ID. Their voices are so loud, so angry. I'm fumbling with my wallet, my hands are shaking. I can't... I can't seem to get my ID out. One officer grabs my arm roughly. I'm terrified they'll hurt me.",
+      "Therapist: What are you feeling right now?"
+    ],
+    [
+      "Client: They're demanding ID. Their voices are so loud, so angry. I'm fumbling with my wallet, my hands are shaking. I can't... I can't seem to get my ID out. One officer grabs my arm roughly. I'm terrified they'll hurt me.",
+      "Therapist: What are you feeling right now?",
+      "Client: Panic. Pure panic. My heart's racing, I feel dizzy. I want to run but I'm paralyzed with fear. The grip on my arm is so tight, it hurts."
+    ],
+    [
+      "Therapist: What are you feeling right now?",
+      "Client: Panic. Pure panic. My heart's racing, I feel dizzy. I want to run but I'm paralyzed with fear. The grip on my arm is so tight, it hurts.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Panic. Pure panic. My heart's racing, I feel dizzy. I want to run but I'm paralyzed with fear. The grip on my arm is so tight, it hurts.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9. This is really hard."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9. This is really hard.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's a 9. This is really hard.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: They're yelling at me now. Calling me names, racial slurs. I feel so small, so helpless. My throat is tight, I can barely breathe. I'm trying to explain, but words won't come out."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: They're yelling at me now. Calling me names, racial slurs. I feel so small, so helpless. My throat is tight, I can barely breathe. I'm trying to explain, but words won't come out.",
+      "Therapist: What do you notice around you?"
+    ],
+    [
+      "Client: They're yelling at me now. Calling me names, racial slurs. I feel so small, so helpless. My throat is tight, I can barely breathe. I'm trying to explain, but words won't come out.",
+      "Therapist: What do you notice around you?",
+      "Client: Other people are watching. No one's helping. I feel so alone, so exposed. The officers are getting angrier. One of them pushes me against the car. The metal is cold against my face."
+    ],
+    [
+      "Therapist: What do you notice around you?",
+      "Client: Other people are watching. No one's helping. I feel so alone, so exposed. The officers are getting angrier. One of them pushes me against the car. The metal is cold against my face.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: Other people are watching. No one's helping. I feel so alone, so exposed. The officers are getting angrier. One of them pushes me against the car. The metal is cold against my face.",
+      "Therapist: SUDS rating now?",
+      "Client: Still a 9. Maybe even a 10. I'm shaking uncontrollably."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: Still a 9. Maybe even a 10. I'm shaking uncontrollably.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: Still a 9. Maybe even a 10. I'm shaking uncontrollably.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: They're twisting my arm behind my back. It hurts so much. I hear the click of handcuffs. I'm crying now, begging them to stop. I feel so humiliated, so powerless."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: They're twisting my arm behind my back. It hurts so much. I hear the click of handcuffs. I'm crying now, begging them to stop. I feel so humiliated, so powerless.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: They're twisting my arm behind my back. It hurts so much. I hear the click of handcuffs. I'm crying now, begging them to stop. I feel so humiliated, so powerless.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: \"Why me? What did I do wrong? Is this because of my skin color?\" I feel rage building up, but I'm too scared to show it. I just want it to be over."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: \"Why me? What did I do wrong? Is this because of my skin color?\" I feel rage building up, but I'm too scared to show it. I just want it to be over.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: \"Why me? What did I do wrong? Is this because of my skin color?\" I feel rage building up, but I'm too scared to show it. I just want it to be over.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now.",
+      "Therapist: That's good. You're processing it."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe an 8 now.",
+      "Therapist: That's good. You're processing it.",
+      "Client: They're running my ID now. I'm still against the car, handcuffed. My shoulder aches. I'm trying to calm my breathing, but it's so hard. I keep thinking about my family, how worried they'd be if they knew."
+    ],
+    [
+      "Therapist: That's good. You're processing it.",
+      "Client: They're running my ID now. I'm still against the car, handcuffed. My shoulder aches. I'm trying to calm my breathing, but it's so hard. I keep thinking about my family, how worried they'd be if they knew.",
+      "Therapist: What do you need in this moment?"
+    ],
+    [
+      "Client: They're running my ID now. I'm still against the car, handcuffed. My shoulder aches. I'm trying to calm my breathing, but it's so hard. I keep thinking about my family, how worried they'd be if they knew.",
+      "Therapist: What do you need in this moment?",
+      "Client: I need someone to believe me, to see me as a person. I need this to end. I'm exhausted, emotionally drained."
+    ],
+    [
+      "Therapist: What do you need in this moment?",
+      "Client: I need someone to believe me, to see me as a person. I need this to end. I'm exhausted, emotionally drained.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: I need someone to believe me, to see me as a person. I need this to end. I'm exhausted, emotionally drained.",
+      "Therapist: SUDS rating now?",
+      "Client: It's down to a 6. I'm starting to feel numb."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's down to a 6. I'm starting to feel numb.",
+      "Therapist: You're doing really well. How does the scene end?"
+    ],
+    [
+      "Client: It's down to a 6. I'm starting to feel numb.",
+      "Therapist: You're doing really well. How does the scene end?",
+      "Client: They finally let me go. No apology, just a curt \"You're free to leave.\" I'm trembling as I walk away. I feel... violated. Angry. Scared it could happen again at any moment."
+    ],
+    [
+      "Therapist: You're doing really well. How does the scene end?",
+      "Client: They finally let me go. No apology, just a curt \"You're free to leave.\" I'm trembling as I walk away. I feel... violated. Angry. Scared it could happen again at any moment.",
+      "Therapist: And now, as you're back in this room?"
+    ],
+    [
+      "Client: They finally let me go. No apology, just a curt \"You're free to leave.\" I'm trembling as I walk away. I feel... violated. Angry. Scared it could happen again at any moment.",
+      "Therapist: And now, as you're back in this room?",
+      "Client: I'm... I'm okay. My heart's still racing a bit, but I'm here. Safe."
+    ],
+    [
+      "Therapist: And now, as you're back in this room?",
+      "Client: I'm... I'm okay. My heart's still racing a bit, but I'm here. Safe.",
+      "Therapist: Final SUDS rating?"
+    ],
+    [
+      "Client: I'm... I'm okay. My heart's still racing a bit, but I'm here. Safe.",
+      "Therapist: Final SUDS rating?",
+      "Client: It's back down to a 4. I'm drained, but... I got through it."
+    ],
+    [
+      "Therapist: Final SUDS rating?",
+      "Client: It's back down to a 4. I'm drained, but... I got through it.",
+      "Therapist: You did incredibly well. Let's take a moment to breathe."
+    ]
+  ]
+}

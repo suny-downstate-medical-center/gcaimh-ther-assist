@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Carlos?",
+    "Client: I... I'm not sure, Dr. Thompson. It was intense. My heart's still racing a bit. Going through that memory of the police brutality incident... it brought back so many emotions I've been trying to push down. The fear, the helplessness, the anger... it all came flooding back.",
+    "Therapist: That's understandable. What stood out most?",
+    "Client: The sounds. The shouting, the sirens... and the silence after. It was deafening. I keep hearing it echo in my head, you know? And the faces of the officers... they looked so... cold. Uncaring. Like I wasn't even human to them.",
+    "Therapist: How did reliving that make you feel?",
+    "Client: Scared. Angry. But also... I don't know... maybe a little stronger? Like, I survived it once, I can face it again. But it's hard, doc. Really hard.",
+    "Therapist: You're showing incredible courage, Carlos.",
+    "Client: Thanks. It doesn't always feel that way. Sometimes I feel like I'm barely holding it together. Especially when I see police cars in my neighborhood. My heart starts pounding, and I feel like I can't breathe. It's like I'm right back there, you know?",
+    "Therapist: How does that relate to your daily life?",
+    "Client: It's affecting everything. I lost my job because I couldn't handle being around people. I'm pushing my wife away. I feel... broken. Like that incident took something from me that I can't get back.",
+    "Therapist: What do you think that is?",
+    "Client: My sense of safety, I guess. My trust in the world. Before, I thought if you followed the rules, you'd be okay. Now... I don't know what to believe anymore.",
+    "Therapist: That's a profound realization. How can we work on rebuilding that?",
+    "Client: I... I'm not sure. Part of me wants to hide away forever. But another part... I don't know, maybe wants to fight back? Not violently, but... make a change somehow. So this doesn't happen to others.",
+    "Therapist: That sounds like a positive direction. What's one small step you could take?",
+    "Client: Maybe... maybe I could share my story? Start small, like in a support group or something? I've been avoiding talking about it, but keeping it inside isn't helping either.",
+    "Therapist: That's an excellent idea. How does that make you feel?",
+    "Client: Scared. But also... maybe a little hopeful? Like maybe my pain could mean something, you know? Help someone else. It's terrifying, but... maybe it's time.",
+    "Therapist: You're showing real growth, Carlos. What's next?",
+    "Client: I think... I think I want to try that. Find a support group. And... maybe work on talking to my wife about it too. She's been so patient, but I've shut her out. It's not fair to her.",
+    "Therapist: Those sound like powerful next steps.",
+    "Client: Yeah... yeah, they do. It's not going to be easy, but... I'm tired of letting that night control my life. I want to take it back, you know? Even if it's just a little bit at a time.",
+    "Therapist: That's a strong commitment. How can I support you?",
+    "Client: Just... keep pushing me, I guess? Don't let me back down when it gets hard. And maybe... maybe help me figure out how to talk to my wife? I don't even know where to start.",
+    "Therapist: We can definitely work on that. Any other thoughts?",
+    "Client: I... I think I'm good for now. This session was tough, but... I feel like I've turned a corner somehow. Like maybe there's a light at the end of this tunnel after all.",
+    "Therapist: That's significant progress, Carlos. Well done today.",
+    "Client: Thanks, doc. I... I appreciate it. More than you know. See you next week?",
+    "Therapist: Absolutely. Take care, Carlos."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Carlos?",
+      "Client: I... I'm not sure, Dr. Thompson. It was intense. My heart's still racing a bit. Going through that memory of the police brutality incident... it brought back so many emotions I've been trying to push down. The fear, the helplessness, the anger... it all came flooding back.",
+      "Therapist: That's understandable. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure, Dr. Thompson. It was intense. My heart's still racing a bit. Going through that memory of the police brutality incident... it brought back so many emotions I've been trying to push down. The fear, the helplessness, the anger... it all came flooding back.",
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The sounds. The shouting, the sirens... and the silence after. It was deafening. I keep hearing it echo in my head, you know? And the faces of the officers... they looked so... cold. Uncaring. Like I wasn't even human to them."
+    ],
+    [
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The sounds. The shouting, the sirens... and the silence after. It was deafening. I keep hearing it echo in my head, you know? And the faces of the officers... they looked so... cold. Uncaring. Like I wasn't even human to them.",
+      "Therapist: How did reliving that make you feel?"
+    ],
+    [
+      "Client: The sounds. The shouting, the sirens... and the silence after. It was deafening. I keep hearing it echo in my head, you know? And the faces of the officers... they looked so... cold. Uncaring. Like I wasn't even human to them.",
+      "Therapist: How did reliving that make you feel?",
+      "Client: Scared. Angry. But also... I don't know... maybe a little stronger? Like, I survived it once, I can face it again. But it's hard, doc. Really hard."
+    ],
+    [
+      "Therapist: How did reliving that make you feel?",
+      "Client: Scared. Angry. But also... I don't know... maybe a little stronger? Like, I survived it once, I can face it again. But it's hard, doc. Really hard.",
+      "Therapist: You're showing incredible courage, Carlos."
+    ],
+    [
+      "Client: Scared. Angry. But also... I don't know... maybe a little stronger? Like, I survived it once, I can face it again. But it's hard, doc. Really hard.",
+      "Therapist: You're showing incredible courage, Carlos.",
+      "Client: Thanks. It doesn't always feel that way. Sometimes I feel like I'm barely holding it together. Especially when I see police cars in my neighborhood. My heart starts pounding, and I feel like I can't breathe. It's like I'm right back there, you know?"
+    ],
+    [
+      "Therapist: You're showing incredible courage, Carlos.",
+      "Client: Thanks. It doesn't always feel that way. Sometimes I feel like I'm barely holding it together. Especially when I see police cars in my neighborhood. My heart starts pounding, and I feel like I can't breathe. It's like I'm right back there, you know?",
+      "Therapist: How does that relate to your daily life?"
+    ],
+    [
+      "Client: Thanks. It doesn't always feel that way. Sometimes I feel like I'm barely holding it together. Especially when I see police cars in my neighborhood. My heart starts pounding, and I feel like I can't breathe. It's like I'm right back there, you know?",
+      "Therapist: How does that relate to your daily life?",
+      "Client: It's affecting everything. I lost my job because I couldn't handle being around people. I'm pushing my wife away. I feel... broken. Like that incident took something from me that I can't get back."
+    ],
+    [
+      "Therapist: How does that relate to your daily life?",
+      "Client: It's affecting everything. I lost my job because I couldn't handle being around people. I'm pushing my wife away. I feel... broken. Like that incident took something from me that I can't get back.",
+      "Therapist: What do you think that is?"
+    ],
+    [
+      "Client: It's affecting everything. I lost my job because I couldn't handle being around people. I'm pushing my wife away. I feel... broken. Like that incident took something from me that I can't get back.",
+      "Therapist: What do you think that is?",
+      "Client: My sense of safety, I guess. My trust in the world. Before, I thought if you followed the rules, you'd be okay. Now... I don't know what to believe anymore."
+    ],
+    [
+      "Therapist: What do you think that is?",
+      "Client: My sense of safety, I guess. My trust in the world. Before, I thought if you followed the rules, you'd be okay. Now... I don't know what to believe anymore.",
+      "Therapist: That's a profound realization. How can we work on rebuilding that?"
+    ],
+    [
+      "Client: My sense of safety, I guess. My trust in the world. Before, I thought if you followed the rules, you'd be okay. Now... I don't know what to believe anymore.",
+      "Therapist: That's a profound realization. How can we work on rebuilding that?",
+      "Client: I... I'm not sure. Part of me wants to hide away forever. But another part... I don't know, maybe wants to fight back? Not violently, but... make a change somehow. So this doesn't happen to others."
+    ],
+    [
+      "Therapist: That's a profound realization. How can we work on rebuilding that?",
+      "Client: I... I'm not sure. Part of me wants to hide away forever. But another part... I don't know, maybe wants to fight back? Not violently, but... make a change somehow. So this doesn't happen to others.",
+      "Therapist: That sounds like a positive direction. What's one small step you could take?"
+    ],
+    [
+      "Client: I... I'm not sure. Part of me wants to hide away forever. But another part... I don't know, maybe wants to fight back? Not violently, but... make a change somehow. So this doesn't happen to others.",
+      "Therapist: That sounds like a positive direction. What's one small step you could take?",
+      "Client: Maybe... maybe I could share my story? Start small, like in a support group or something? I've been avoiding talking about it, but keeping it inside isn't helping either."
+    ],
+    [
+      "Therapist: That sounds like a positive direction. What's one small step you could take?",
+      "Client: Maybe... maybe I could share my story? Start small, like in a support group or something? I've been avoiding talking about it, but keeping it inside isn't helping either.",
+      "Therapist: That's an excellent idea. How does that make you feel?"
+    ],
+    [
+      "Client: Maybe... maybe I could share my story? Start small, like in a support group or something? I've been avoiding talking about it, but keeping it inside isn't helping either.",
+      "Therapist: That's an excellent idea. How does that make you feel?",
+      "Client: Scared. But also... maybe a little hopeful? Like maybe my pain could mean something, you know? Help someone else. It's terrifying, but... maybe it's time."
+    ],
+    [
+      "Therapist: That's an excellent idea. How does that make you feel?",
+      "Client: Scared. But also... maybe a little hopeful? Like maybe my pain could mean something, you know? Help someone else. It's terrifying, but... maybe it's time.",
+      "Therapist: You're showing real growth, Carlos. What's next?"
+    ],
+    [
+      "Client: Scared. But also... maybe a little hopeful? Like maybe my pain could mean something, you know? Help someone else. It's terrifying, but... maybe it's time.",
+      "Therapist: You're showing real growth, Carlos. What's next?",
+      "Client: I think... I think I want to try that. Find a support group. And... maybe work on talking to my wife about it too. She's been so patient, but I've shut her out. It's not fair to her."
+    ],
+    [
+      "Therapist: You're showing real growth, Carlos. What's next?",
+      "Client: I think... I think I want to try that. Find a support group. And... maybe work on talking to my wife about it too. She's been so patient, but I've shut her out. It's not fair to her.",
+      "Therapist: Those sound like powerful next steps."
+    ],
+    [
+      "Client: I think... I think I want to try that. Find a support group. And... maybe work on talking to my wife about it too. She's been so patient, but I've shut her out. It's not fair to her.",
+      "Therapist: Those sound like powerful next steps.",
+      "Client: Yeah... yeah, they do. It's not going to be easy, but... I'm tired of letting that night control my life. I want to take it back, you know? Even if it's just a little bit at a time."
+    ],
+    [
+      "Therapist: Those sound like powerful next steps.",
+      "Client: Yeah... yeah, they do. It's not going to be easy, but... I'm tired of letting that night control my life. I want to take it back, you know? Even if it's just a little bit at a time.",
+      "Therapist: That's a strong commitment. How can I support you?"
+    ],
+    [
+      "Client: Yeah... yeah, they do. It's not going to be easy, but... I'm tired of letting that night control my life. I want to take it back, you know? Even if it's just a little bit at a time.",
+      "Therapist: That's a strong commitment. How can I support you?",
+      "Client: Just... keep pushing me, I guess? Don't let me back down when it gets hard. And maybe... maybe help me figure out how to talk to my wife? I don't even know where to start."
+    ],
+    [
+      "Therapist: That's a strong commitment. How can I support you?",
+      "Client: Just... keep pushing me, I guess? Don't let me back down when it gets hard. And maybe... maybe help me figure out how to talk to my wife? I don't even know where to start.",
+      "Therapist: We can definitely work on that. Any other thoughts?"
+    ],
+    [
+      "Client: Just... keep pushing me, I guess? Don't let me back down when it gets hard. And maybe... maybe help me figure out how to talk to my wife? I don't even know where to start.",
+      "Therapist: We can definitely work on that. Any other thoughts?",
+      "Client: I... I think I'm good for now. This session was tough, but... I feel like I've turned a corner somehow. Like maybe there's a light at the end of this tunnel after all."
+    ],
+    [
+      "Therapist: We can definitely work on that. Any other thoughts?",
+      "Client: I... I think I'm good for now. This session was tough, but... I feel like I've turned a corner somehow. Like maybe there's a light at the end of this tunnel after all.",
+      "Therapist: That's significant progress, Carlos. Well done today."
+    ],
+    [
+      "Client: I... I think I'm good for now. This session was tough, but... I feel like I've turned a corner somehow. Like maybe there's a light at the end of this tunnel after all.",
+      "Therapist: That's significant progress, Carlos. Well done today.",
+      "Client: Thanks, doc. I... I appreciate it. More than you know. See you next week?"
+    ],
+    [
+      "Therapist: That's significant progress, Carlos. Well done today.",
+      "Client: Thanks, doc. I... I appreciate it. More than you know. See you next week?",
+      "Therapist: Absolutely. Take care, Carlos."
+    ]
+  ]
+}

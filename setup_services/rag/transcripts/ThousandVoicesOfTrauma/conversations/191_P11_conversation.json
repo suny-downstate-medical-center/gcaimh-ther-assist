@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back to that moment, you know? The sirens, the shouting, the chaos... It's like I'm right back there in the emergency room, watching everything unfold all over again.",
+    "Therapist: That sounds intense. What stood out to you this time?",
+    "Client: The sounds, definitely. I could hear the policeman's voice so clearly, barking orders at the young man. And then... the gunshot. It was so loud in that small space. I remember thinking, \"This can't be happening. Not here, not in a place of healing.\" I felt so helpless, so... violated, I guess. Like the safety of the hospital had been completely shattered.",
+    "Therapist: How did your body react during the exposure?",
+    "Client: My heart was racing, and I felt this tightness in my chest. My hands were clammy, and I noticed I was gripping the armrests of the chair. It's funny, I didn't realize I was doing that until just now. I also felt this urge to run, to get out of there, even though I know I'm safe here with you.",
+    "Therapist: You're very observant of your physical responses. How do these compare to your day-to-day experiences?",
+    "Client: Well, it's... it's similar, I suppose. Especially when I hear sirens or see police cars. I get that same feeling of panic, that urge to escape. But it's not just that. I've been avoiding hospitals altogether, which is problematic given my age. I know I need regular check-ups, but the thought of stepping into a hospital makes me feel sick.",
+    "Therapist: I see. How do you think this avoidance is impacting your life?",
+    "Client: It's... it's not good. I've missed a few important appointments. My husband is worried. He keeps trying to convince me to go, but I just can't bring myself to do it. I know it's irrational, but the fear is so overwhelming. I feel like I'm letting everyone down, including myself.",
+    "Therapist: What would it mean to you to be able to go to the hospital again?",
+    "Client: Oh, it would mean everything. It would mean taking control of my health, my life. It would mean not letting that terrible event dictate my actions anymore. I want to be strong for my family, to show them that I can overcome this. But right now, it feels so far out of reach.",
+    "Therapist: Your desire to overcome this is clear. What small step could you take?",
+    "Client: I... I'm not sure. Maybe... maybe I could start by just driving past the hospital? Or looking at pictures of hospital interiors online? That seems less daunting than actually going inside.",
+    "Therapist: Those are excellent ideas. How does thinking about those steps make you feel?",
+    "Client: Nervous, definitely. But also... a little hopeful? Like maybe, just maybe, I could start to chip away at this fear. It's a tiny step, but it feels like something I could actually do.",
+    "Therapist: That's great progress, Sarah. Shall we set that as a goal for next week?",
+    "Client: Yes, I think I'd like that. It's scary, but I'm tired of feeling trapped by this fear. I want to start moving forward, even if it's just baby steps. Thank you for helping me see that there might be a way through this.",
+    "Therapist: You're doing the hard work here. What else would you like to discuss today?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back to that moment, you know? The sirens, the shouting, the chaos... It's like I'm right back there in the emergency room, watching everything unfold all over again.",
+      "Therapist: That sounds intense. What stood out to you this time?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back to that moment, you know? The sirens, the shouting, the chaos... It's like I'm right back there in the emergency room, watching everything unfold all over again.",
+      "Therapist: That sounds intense. What stood out to you this time?",
+      "Client: The sounds, definitely. I could hear the policeman's voice so clearly, barking orders at the young man. And then... the gunshot. It was so loud in that small space. I remember thinking, \"This can't be happening. Not here, not in a place of healing.\" I felt so helpless, so... violated, I guess. Like the safety of the hospital had been completely shattered."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you this time?",
+      "Client: The sounds, definitely. I could hear the policeman's voice so clearly, barking orders at the young man. And then... the gunshot. It was so loud in that small space. I remember thinking, \"This can't be happening. Not here, not in a place of healing.\" I felt so helpless, so... violated, I guess. Like the safety of the hospital had been completely shattered.",
+      "Therapist: How did your body react during the exposure?"
+    ],
+    [
+      "Client: The sounds, definitely. I could hear the policeman's voice so clearly, barking orders at the young man. And then... the gunshot. It was so loud in that small space. I remember thinking, \"This can't be happening. Not here, not in a place of healing.\" I felt so helpless, so... violated, I guess. Like the safety of the hospital had been completely shattered.",
+      "Therapist: How did your body react during the exposure?",
+      "Client: My heart was racing, and I felt this tightness in my chest. My hands were clammy, and I noticed I was gripping the armrests of the chair. It's funny, I didn't realize I was doing that until just now. I also felt this urge to run, to get out of there, even though I know I'm safe here with you."
+    ],
+    [
+      "Therapist: How did your body react during the exposure?",
+      "Client: My heart was racing, and I felt this tightness in my chest. My hands were clammy, and I noticed I was gripping the armrests of the chair. It's funny, I didn't realize I was doing that until just now. I also felt this urge to run, to get out of there, even though I know I'm safe here with you.",
+      "Therapist: You're very observant of your physical responses. How do these compare to your day-to-day experiences?"
+    ],
+    [
+      "Client: My heart was racing, and I felt this tightness in my chest. My hands were clammy, and I noticed I was gripping the armrests of the chair. It's funny, I didn't realize I was doing that until just now. I also felt this urge to run, to get out of there, even though I know I'm safe here with you.",
+      "Therapist: You're very observant of your physical responses. How do these compare to your day-to-day experiences?",
+      "Client: Well, it's... it's similar, I suppose. Especially when I hear sirens or see police cars. I get that same feeling of panic, that urge to escape. But it's not just that. I've been avoiding hospitals altogether, which is problematic given my age. I know I need regular check-ups, but the thought of stepping into a hospital makes me feel sick."
+    ],
+    [
+      "Therapist: You're very observant of your physical responses. How do these compare to your day-to-day experiences?",
+      "Client: Well, it's... it's similar, I suppose. Especially when I hear sirens or see police cars. I get that same feeling of panic, that urge to escape. But it's not just that. I've been avoiding hospitals altogether, which is problematic given my age. I know I need regular check-ups, but the thought of stepping into a hospital makes me feel sick.",
+      "Therapist: I see. How do you think this avoidance is impacting your life?"
+    ],
+    [
+      "Client: Well, it's... it's similar, I suppose. Especially when I hear sirens or see police cars. I get that same feeling of panic, that urge to escape. But it's not just that. I've been avoiding hospitals altogether, which is problematic given my age. I know I need regular check-ups, but the thought of stepping into a hospital makes me feel sick.",
+      "Therapist: I see. How do you think this avoidance is impacting your life?",
+      "Client: It's... it's not good. I've missed a few important appointments. My husband is worried. He keeps trying to convince me to go, but I just can't bring myself to do it. I know it's irrational, but the fear is so overwhelming. I feel like I'm letting everyone down, including myself."
+    ],
+    [
+      "Therapist: I see. How do you think this avoidance is impacting your life?",
+      "Client: It's... it's not good. I've missed a few important appointments. My husband is worried. He keeps trying to convince me to go, but I just can't bring myself to do it. I know it's irrational, but the fear is so overwhelming. I feel like I'm letting everyone down, including myself.",
+      "Therapist: What would it mean to you to be able to go to the hospital again?"
+    ],
+    [
+      "Client: It's... it's not good. I've missed a few important appointments. My husband is worried. He keeps trying to convince me to go, but I just can't bring myself to do it. I know it's irrational, but the fear is so overwhelming. I feel like I'm letting everyone down, including myself.",
+      "Therapist: What would it mean to you to be able to go to the hospital again?",
+      "Client: Oh, it would mean everything. It would mean taking control of my health, my life. It would mean not letting that terrible event dictate my actions anymore. I want to be strong for my family, to show them that I can overcome this. But right now, it feels so far out of reach."
+    ],
+    [
+      "Therapist: What would it mean to you to be able to go to the hospital again?",
+      "Client: Oh, it would mean everything. It would mean taking control of my health, my life. It would mean not letting that terrible event dictate my actions anymore. I want to be strong for my family, to show them that I can overcome this. But right now, it feels so far out of reach.",
+      "Therapist: Your desire to overcome this is clear. What small step could you take?"
+    ],
+    [
+      "Client: Oh, it would mean everything. It would mean taking control of my health, my life. It would mean not letting that terrible event dictate my actions anymore. I want to be strong for my family, to show them that I can overcome this. But right now, it feels so far out of reach.",
+      "Therapist: Your desire to overcome this is clear. What small step could you take?",
+      "Client: I... I'm not sure. Maybe... maybe I could start by just driving past the hospital? Or looking at pictures of hospital interiors online? That seems less daunting than actually going inside."
+    ],
+    [
+      "Therapist: Your desire to overcome this is clear. What small step could you take?",
+      "Client: I... I'm not sure. Maybe... maybe I could start by just driving past the hospital? Or looking at pictures of hospital interiors online? That seems less daunting than actually going inside.",
+      "Therapist: Those are excellent ideas. How does thinking about those steps make you feel?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe... maybe I could start by just driving past the hospital? Or looking at pictures of hospital interiors online? That seems less daunting than actually going inside.",
+      "Therapist: Those are excellent ideas. How does thinking about those steps make you feel?",
+      "Client: Nervous, definitely. But also... a little hopeful? Like maybe, just maybe, I could start to chip away at this fear. It's a tiny step, but it feels like something I could actually do."
+    ],
+    [
+      "Therapist: Those are excellent ideas. How does thinking about those steps make you feel?",
+      "Client: Nervous, definitely. But also... a little hopeful? Like maybe, just maybe, I could start to chip away at this fear. It's a tiny step, but it feels like something I could actually do.",
+      "Therapist: That's great progress, Sarah. Shall we set that as a goal for next week?"
+    ],
+    [
+      "Client: Nervous, definitely. But also... a little hopeful? Like maybe, just maybe, I could start to chip away at this fear. It's a tiny step, but it feels like something I could actually do.",
+      "Therapist: That's great progress, Sarah. Shall we set that as a goal for next week?",
+      "Client: Yes, I think I'd like that. It's scary, but I'm tired of feeling trapped by this fear. I want to start moving forward, even if it's just baby steps. Thank you for helping me see that there might be a way through this."
+    ],
+    [
+      "Therapist: That's great progress, Sarah. Shall we set that as a goal for next week?",
+      "Client: Yes, I think I'd like that. It's scary, but I'm tired of feeling trapped by this fear. I want to start moving forward, even if it's just baby steps. Thank you for helping me see that there might be a way through this.",
+      "Therapist: You're doing the hard work here. What else would you like to discuss today?"
+    ]
+  ]
+}

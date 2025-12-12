@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+    "Client: Morning, Dr. Evans. I'm... I'm not sure, to be honest. A bit anxious, I suppose. This whole therapy process is still new to me, and I'm not quite sure what to expect today.",
+    "Therapist: That's understandable. Today, we'll start imaginal exposure. Ready to learn more?",
+    "Client: Imaginal exposure? That sounds... intense. Can you explain what that means exactly? I'm feeling a bit apprehensive about it.",
+    "Therapist: Of course. It's revisiting your trauma memory in a safe environment. Shall I elaborate?",
+    "Client: Yes, please. I'm not sure how revisiting those painful memories will help. It's been so hard since Sarah left... and then losing my brother shortly after. I've been trying to avoid thinking about it all.",
+    "Therapist: Avoidance can prolong pain. This exercise helps process emotions and reduce symptoms. Thoughts?",
+    "Client: I see the logic, but it's scary. What if I can't handle it? I've been barely keeping it together at work, and I live alone now. What if this makes everything worse?",
+    "Therapist: Your concerns are valid. We'll go at your pace. How does that sound?",
+    "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to relive every detail of those painful events?",
+    "Therapist: We'll revisit memories gradually. You'll describe them aloud. I'll guide and support you throughout.",
+    "Client: Okay... I think I understand. But what if I become overwhelmed? Or if I can't stop crying? I'm not used to being this emotional, especially in front of others.",
+    "Therapist: It's normal to feel emotional. We can pause anytime. How does that feel?",
+    "Client: That helps, knowing we can stop if needed. I guess I'm just worried about losing control. Since everything happened, I've felt like I'm constantly on edge, trying to keep it all together.",
+    "Therapist: Your strength is admirable. This process may be challenging, but it's a step towards healing.",
+    "Client: Thank you, Dr. Evans. I appreciate your understanding. I'm still nervous, but I think I'm ready to try. Can you tell me more about what I might experience during this exercise?",
+    "Therapist: You may feel various emotions. It's all part of processing. Remember, you're safe here.",
+    "Client: I understand. It's just... since Sarah left and my brother passed, I've felt so alone. The idea of facing these memories head-on is daunting. But I know I need to do something. The anxiety and sleepless nights are taking a toll on my work and health.",
+    "Therapist: Your courage is commendable. Shall we begin? We'll start slowly.",
+    "Client: Alright, I think I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy for me, opening up like this. But I trust you, Dr. Evans, and I'm willing to try if you think it will help.",
+    "Therapist: Your trust means a lot. We're in this together. Ready to take the first step?",
+    "Client: Yes, I'm ready. Let's do this. I know it won't be easy, but if it helps me move forward and start feeling like myself again, it'll be worth it. Where do we start?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+      "Client: Morning, Dr. Evans. I'm... I'm not sure, to be honest. A bit anxious, I suppose. This whole therapy process is still new to me, and I'm not quite sure what to expect today.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Ready to learn more?"
+    ],
+    [
+      "Client: Morning, Dr. Evans. I'm... I'm not sure, to be honest. A bit anxious, I suppose. This whole therapy process is still new to me, and I'm not quite sure what to expect today.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Ready to learn more?",
+      "Client: Imaginal exposure? That sounds... intense. Can you explain what that means exactly? I'm feeling a bit apprehensive about it."
+    ],
+    [
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Ready to learn more?",
+      "Client: Imaginal exposure? That sounds... intense. Can you explain what that means exactly? I'm feeling a bit apprehensive about it.",
+      "Therapist: Of course. It's revisiting your trauma memory in a safe environment. Shall I elaborate?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. Can you explain what that means exactly? I'm feeling a bit apprehensive about it.",
+      "Therapist: Of course. It's revisiting your trauma memory in a safe environment. Shall I elaborate?",
+      "Client: Yes, please. I'm not sure how revisiting those painful memories will help. It's been so hard since Sarah left... and then losing my brother shortly after. I've been trying to avoid thinking about it all."
+    ],
+    [
+      "Therapist: Of course. It's revisiting your trauma memory in a safe environment. Shall I elaborate?",
+      "Client: Yes, please. I'm not sure how revisiting those painful memories will help. It's been so hard since Sarah left... and then losing my brother shortly after. I've been trying to avoid thinking about it all.",
+      "Therapist: Avoidance can prolong pain. This exercise helps process emotions and reduce symptoms. Thoughts?"
+    ],
+    [
+      "Client: Yes, please. I'm not sure how revisiting those painful memories will help. It's been so hard since Sarah left... and then losing my brother shortly after. I've been trying to avoid thinking about it all.",
+      "Therapist: Avoidance can prolong pain. This exercise helps process emotions and reduce symptoms. Thoughts?",
+      "Client: I see the logic, but it's scary. What if I can't handle it? I've been barely keeping it together at work, and I live alone now. What if this makes everything worse?"
+    ],
+    [
+      "Therapist: Avoidance can prolong pain. This exercise helps process emotions and reduce symptoms. Thoughts?",
+      "Client: I see the logic, but it's scary. What if I can't handle it? I've been barely keeping it together at work, and I live alone now. What if this makes everything worse?",
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that sound?"
+    ],
+    [
+      "Client: I see the logic, but it's scary. What if I can't handle it? I've been barely keeping it together at work, and I live alone now. What if this makes everything worse?",
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that sound?",
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to relive every detail of those painful events?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that sound?",
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to relive every detail of those painful events?",
+      "Therapist: We'll revisit memories gradually. You'll describe them aloud. I'll guide and support you throughout."
+    ],
+    [
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to relive every detail of those painful events?",
+      "Therapist: We'll revisit memories gradually. You'll describe them aloud. I'll guide and support you throughout.",
+      "Client: Okay... I think I understand. But what if I become overwhelmed? Or if I can't stop crying? I'm not used to being this emotional, especially in front of others."
+    ],
+    [
+      "Therapist: We'll revisit memories gradually. You'll describe them aloud. I'll guide and support you throughout.",
+      "Client: Okay... I think I understand. But what if I become overwhelmed? Or if I can't stop crying? I'm not used to being this emotional, especially in front of others.",
+      "Therapist: It's normal to feel emotional. We can pause anytime. How does that feel?"
+    ],
+    [
+      "Client: Okay... I think I understand. But what if I become overwhelmed? Or if I can't stop crying? I'm not used to being this emotional, especially in front of others.",
+      "Therapist: It's normal to feel emotional. We can pause anytime. How does that feel?",
+      "Client: That helps, knowing we can stop if needed. I guess I'm just worried about losing control. Since everything happened, I've felt like I'm constantly on edge, trying to keep it all together."
+    ],
+    [
+      "Therapist: It's normal to feel emotional. We can pause anytime. How does that feel?",
+      "Client: That helps, knowing we can stop if needed. I guess I'm just worried about losing control. Since everything happened, I've felt like I'm constantly on edge, trying to keep it all together.",
+      "Therapist: Your strength is admirable. This process may be challenging, but it's a step towards healing."
+    ],
+    [
+      "Client: That helps, knowing we can stop if needed. I guess I'm just worried about losing control. Since everything happened, I've felt like I'm constantly on edge, trying to keep it all together.",
+      "Therapist: Your strength is admirable. This process may be challenging, but it's a step towards healing.",
+      "Client: Thank you, Dr. Evans. I appreciate your understanding. I'm still nervous, but I think I'm ready to try. Can you tell me more about what I might experience during this exercise?"
+    ],
+    [
+      "Therapist: Your strength is admirable. This process may be challenging, but it's a step towards healing.",
+      "Client: Thank you, Dr. Evans. I appreciate your understanding. I'm still nervous, but I think I'm ready to try. Can you tell me more about what I might experience during this exercise?",
+      "Therapist: You may feel various emotions. It's all part of processing. Remember, you're safe here."
+    ],
+    [
+      "Client: Thank you, Dr. Evans. I appreciate your understanding. I'm still nervous, but I think I'm ready to try. Can you tell me more about what I might experience during this exercise?",
+      "Therapist: You may feel various emotions. It's all part of processing. Remember, you're safe here.",
+      "Client: I understand. It's just... since Sarah left and my brother passed, I've felt so alone. The idea of facing these memories head-on is daunting. But I know I need to do something. The anxiety and sleepless nights are taking a toll on my work and health."
+    ],
+    [
+      "Therapist: You may feel various emotions. It's all part of processing. Remember, you're safe here.",
+      "Client: I understand. It's just... since Sarah left and my brother passed, I've felt so alone. The idea of facing these memories head-on is daunting. But I know I need to do something. The anxiety and sleepless nights are taking a toll on my work and health.",
+      "Therapist: Your courage is commendable. Shall we begin? We'll start slowly."
+    ],
+    [
+      "Client: I understand. It's just... since Sarah left and my brother passed, I've felt so alone. The idea of facing these memories head-on is daunting. But I know I need to do something. The anxiety and sleepless nights are taking a toll on my work and health.",
+      "Therapist: Your courage is commendable. Shall we begin? We'll start slowly.",
+      "Client: Alright, I think I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy for me, opening up like this. But I trust you, Dr. Evans, and I'm willing to try if you think it will help."
+    ],
+    [
+      "Therapist: Your courage is commendable. Shall we begin? We'll start slowly.",
+      "Client: Alright, I think I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy for me, opening up like this. But I trust you, Dr. Evans, and I'm willing to try if you think it will help.",
+      "Therapist: Your trust means a lot. We're in this together. Ready to take the first step?"
+    ],
+    [
+      "Client: Alright, I think I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy for me, opening up like this. But I trust you, Dr. Evans, and I'm willing to try if you think it will help.",
+      "Therapist: Your trust means a lot. We're in this together. Ready to take the first step?",
+      "Client: Yes, I'm ready. Let's do this. I know it won't be easy, but if it helps me move forward and start feeling like myself again, it'll be worth it. Where do we start?"
+    ]
+  ]
+}

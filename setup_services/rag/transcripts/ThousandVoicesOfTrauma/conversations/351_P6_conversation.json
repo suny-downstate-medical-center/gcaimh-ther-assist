@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, Carlos. Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm a bit nervous, but I'm ready to try.",
+    "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that day in Vietnam.",
+    "Client: (Takes a deep breath) Alright. I'm there. It's hot, so hot. The air is thick with humidity and the smell of jungle. We're on patrol, moving through dense vegetation. I can hear the leaves crunching under our boots and the distant call of unfamiliar birds.",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4. I'm tense, but okay.",
+    "Therapist: Okay. Continue.",
+    "Client: We've been walking for hours. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I drop to the ground, fumbling for my rifle. The sound is deafening. I can't tell where it's coming from. I'm shouting to my buddies, but I can barely hear my own voice over the chaos.",
+    "Therapist: SUDS?",
+    "Client: It's up to a 7 now. My hands are sweating, and I can feel my heart pounding in my chest.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I spot movement to my left. It's Jake, my best friend. He's trying to reach cover, but he's exposed. I yell at him to get down, but it's too late. I see the impact, the red bloom on his chest. He falls. I'm frozen. I can't move. I can't breathe. Jake is lying there, not moving, and I can't do anything.",
+    "Therapist: What's your SUDS now?",
+    "Client: (Voice shaking) It's... it's a 9. I feel like I'm right back there. My chest is tight, and I feel so helpless.",
+    "Therapist: You're safe here, Carlos. Remember, this is a memory. Take a deep breath.",
+    "Client: (Inhales deeply) Okay. I... I crawl over to Jake. His eyes are open, staring at nothing. I've seen that look before, but never on Jake. Never on my friend. I want to scream, but no sound comes out. The gunfire continues around us, but it feels distant now. All I can focus on is Jake's lifeless body.",
+    "Therapist: And your SUDS?",
+    "Client: Still a 9. I feel sick to my stomach.",
+    "Therapist: It's okay to feel this way. You're doing great. Continue when you're ready.",
+    "Client: I don't know how long I stayed there with Jake. Eventually, the firing stopped. Someone's pulling at my arm, telling me we need to move. I can't leave Jake, but I know we have to go. As we retreat, I keep looking back, seeing Jake's body getting smaller in the distance. I feel like I'm abandoning him.",
+    "Therapist: SUDS level?",
+    "Client: It's down to an 8 now. I'm still shaken, but the intensity is lessening a bit.",
+    "Therapist: That's good. Keep going.",
+    "Client: We make it back to base. Everything's a blur. I remember sitting in the mess hall, staring at my food. I can't eat. All I can think about is Jake. How am I going to tell his family? How am I going to live with this? The guilt is overwhelming.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's a 7. I'm feeling drained, but the panic has subsided somewhat.",
+    "Therapist: You're doing really well, Carlos. How are you feeling overall?",
+    "Client: Exhausted. Sad. But... also a little relieved. It's hard to talk about this, but it feels like I'm finally facing it instead of running away.",
+    "Therapist: That's a big step. Let's take a moment to ground ourselves. Look around the room and name three things you see.",
+    "Client: I see... the painting on the wall, your green plant, and my water bottle.",
+    "Therapist: Good. How's your SUDS now?",
+    "Client: It's down to a 5. I'm feeling more present.",
+    "Therapist: Excellent. You've done some hard work today, Carlos. How do you feel about the exercise?",
+    "Client: It was tough, but I think it helped. I've never talked about that day in so much detail before. It's painful, but I feel like I'm starting to process it.",
+    "Therapist: That's great progress. We'll end here for today. Remember to use your coping strategies if you feel overwhelmed later."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, Carlos. Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that day in Vietnam."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that day in Vietnam.",
+      "Client: (Takes a deep breath) Alright. I'm there. It's hot, so hot. The air is thick with humidity and the smell of jungle. We're on patrol, moving through dense vegetation. I can hear the leaves crunching under our boots and the distant call of unfamiliar birds."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that day in Vietnam.",
+      "Client: (Takes a deep breath) Alright. I'm there. It's hot, so hot. The air is thick with humidity and the smell of jungle. We're on patrol, moving through dense vegetation. I can hear the leaves crunching under our boots and the distant call of unfamiliar birds.",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Alright. I'm there. It's hot, so hot. The air is thick with humidity and the smell of jungle. We're on patrol, moving through dense vegetation. I can hear the leaves crunching under our boots and the distant call of unfamiliar birds.",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but okay."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but okay.",
+      "Therapist: Okay. Continue."
+    ],
+    [
+      "Client: Um, I'd say about a 4. I'm tense, but okay.",
+      "Therapist: Okay. Continue.",
+      "Client: We've been walking for hours. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I drop to the ground, fumbling for my rifle. The sound is deafening. I can't tell where it's coming from. I'm shouting to my buddies, but I can barely hear my own voice over the chaos."
+    ],
+    [
+      "Therapist: Okay. Continue.",
+      "Client: We've been walking for hours. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I drop to the ground, fumbling for my rifle. The sound is deafening. I can't tell where it's coming from. I'm shouting to my buddies, but I can barely hear my own voice over the chaos.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: We've been walking for hours. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I drop to the ground, fumbling for my rifle. The sound is deafening. I can't tell where it's coming from. I'm shouting to my buddies, but I can barely hear my own voice over the chaos.",
+      "Therapist: SUDS?",
+      "Client: It's up to a 7 now. My hands are sweating, and I can feel my heart pounding in my chest."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's up to a 7 now. My hands are sweating, and I can feel my heart pounding in my chest.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's up to a 7 now. My hands are sweating, and I can feel my heart pounding in my chest.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I spot movement to my left. It's Jake, my best friend. He's trying to reach cover, but he's exposed. I yell at him to get down, but it's too late. I see the impact, the red bloom on his chest. He falls. I'm frozen. I can't move. I can't breathe. Jake is lying there, not moving, and I can't do anything."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I spot movement to my left. It's Jake, my best friend. He's trying to reach cover, but he's exposed. I yell at him to get down, but it's too late. I see the impact, the red bloom on his chest. He falls. I'm frozen. I can't move. I can't breathe. Jake is lying there, not moving, and I can't do anything.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: I spot movement to my left. It's Jake, my best friend. He's trying to reach cover, but he's exposed. I yell at him to get down, but it's too late. I see the impact, the red bloom on his chest. He falls. I'm frozen. I can't move. I can't breathe. Jake is lying there, not moving, and I can't do anything.",
+      "Therapist: What's your SUDS now?",
+      "Client: (Voice shaking) It's... it's a 9. I feel like I'm right back there. My chest is tight, and I feel so helpless."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: (Voice shaking) It's... it's a 9. I feel like I'm right back there. My chest is tight, and I feel so helpless.",
+      "Therapist: You're safe here, Carlos. Remember, this is a memory. Take a deep breath."
+    ],
+    [
+      "Client: (Voice shaking) It's... it's a 9. I feel like I'm right back there. My chest is tight, and I feel so helpless.",
+      "Therapist: You're safe here, Carlos. Remember, this is a memory. Take a deep breath.",
+      "Client: (Inhales deeply) Okay. I... I crawl over to Jake. His eyes are open, staring at nothing. I've seen that look before, but never on Jake. Never on my friend. I want to scream, but no sound comes out. The gunfire continues around us, but it feels distant now. All I can focus on is Jake's lifeless body."
+    ],
+    [
+      "Therapist: You're safe here, Carlos. Remember, this is a memory. Take a deep breath.",
+      "Client: (Inhales deeply) Okay. I... I crawl over to Jake. His eyes are open, staring at nothing. I've seen that look before, but never on Jake. Never on my friend. I want to scream, but no sound comes out. The gunfire continues around us, but it feels distant now. All I can focus on is Jake's lifeless body.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: (Inhales deeply) Okay. I... I crawl over to Jake. His eyes are open, staring at nothing. I've seen that look before, but never on Jake. Never on my friend. I want to scream, but no sound comes out. The gunfire continues around us, but it feels distant now. All I can focus on is Jake's lifeless body.",
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. I feel sick to my stomach.",
+      "Therapist: It's okay to feel this way. You're doing great. Continue when you're ready."
+    ],
+    [
+      "Client: Still a 9. I feel sick to my stomach.",
+      "Therapist: It's okay to feel this way. You're doing great. Continue when you're ready.",
+      "Client: I don't know how long I stayed there with Jake. Eventually, the firing stopped. Someone's pulling at my arm, telling me we need to move. I can't leave Jake, but I know we have to go. As we retreat, I keep looking back, seeing Jake's body getting smaller in the distance. I feel like I'm abandoning him."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're doing great. Continue when you're ready.",
+      "Client: I don't know how long I stayed there with Jake. Eventually, the firing stopped. Someone's pulling at my arm, telling me we need to move. I can't leave Jake, but I know we have to go. As we retreat, I keep looking back, seeing Jake's body getting smaller in the distance. I feel like I'm abandoning him.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I don't know how long I stayed there with Jake. Eventually, the firing stopped. Someone's pulling at my arm, telling me we need to move. I can't leave Jake, but I know we have to go. As we retreat, I keep looking back, seeing Jake's body getting smaller in the distance. I feel like I'm abandoning him.",
+      "Therapist: SUDS level?",
+      "Client: It's down to an 8 now. I'm still shaken, but the intensity is lessening a bit."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's down to an 8 now. I'm still shaken, but the intensity is lessening a bit.",
+      "Therapist: That's good. Keep going."
+    ],
+    [
+      "Client: It's down to an 8 now. I'm still shaken, but the intensity is lessening a bit.",
+      "Therapist: That's good. Keep going.",
+      "Client: We make it back to base. Everything's a blur. I remember sitting in the mess hall, staring at my food. I can't eat. All I can think about is Jake. How am I going to tell his family? How am I going to live with this? The guilt is overwhelming."
+    ],
+    [
+      "Therapist: That's good. Keep going.",
+      "Client: We make it back to base. Everything's a blur. I remember sitting in the mess hall, staring at my food. I can't eat. All I can think about is Jake. How am I going to tell his family? How am I going to live with this? The guilt is overwhelming.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: We make it back to base. Everything's a blur. I remember sitting in the mess hall, staring at my food. I can't eat. All I can think about is Jake. How am I going to tell his family? How am I going to live with this? The guilt is overwhelming.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's a 7. I'm feeling drained, but the panic has subsided somewhat."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's a 7. I'm feeling drained, but the panic has subsided somewhat.",
+      "Therapist: You're doing really well, Carlos. How are you feeling overall?"
+    ],
+    [
+      "Client: It's a 7. I'm feeling drained, but the panic has subsided somewhat.",
+      "Therapist: You're doing really well, Carlos. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... also a little relieved. It's hard to talk about this, but it feels like I'm finally facing it instead of running away."
+    ],
+    [
+      "Therapist: You're doing really well, Carlos. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... also a little relieved. It's hard to talk about this, but it feels like I'm finally facing it instead of running away.",
+      "Therapist: That's a big step. Let's take a moment to ground ourselves. Look around the room and name three things you see."
+    ],
+    [
+      "Client: Exhausted. Sad. But... also a little relieved. It's hard to talk about this, but it feels like I'm finally facing it instead of running away.",
+      "Therapist: That's a big step. Let's take a moment to ground ourselves. Look around the room and name three things you see.",
+      "Client: I see... the painting on the wall, your green plant, and my water bottle."
+    ],
+    [
+      "Therapist: That's a big step. Let's take a moment to ground ourselves. Look around the room and name three things you see.",
+      "Client: I see... the painting on the wall, your green plant, and my water bottle.",
+      "Therapist: Good. How's your SUDS now?"
+    ],
+    [
+      "Client: I see... the painting on the wall, your green plant, and my water bottle.",
+      "Therapist: Good. How's your SUDS now?",
+      "Client: It's down to a 5. I'm feeling more present."
+    ],
+    [
+      "Therapist: Good. How's your SUDS now?",
+      "Client: It's down to a 5. I'm feeling more present.",
+      "Therapist: Excellent. You've done some hard work today, Carlos. How do you feel about the exercise?"
+    ],
+    [
+      "Client: It's down to a 5. I'm feeling more present.",
+      "Therapist: Excellent. You've done some hard work today, Carlos. How do you feel about the exercise?",
+      "Client: It was tough, but I think it helped. I've never talked about that day in so much detail before. It's painful, but I feel like I'm starting to process it."
+    ],
+    [
+      "Therapist: Excellent. You've done some hard work today, Carlos. How do you feel about the exercise?",
+      "Client: It was tough, but I think it helped. I've never talked about that day in so much detail before. It's painful, but I feel like I'm starting to process it.",
+      "Therapist: That's great progress. We'll end here for today. Remember to use your coping strategies if you feel overwhelmed later."
+    ]
+  ]
+}

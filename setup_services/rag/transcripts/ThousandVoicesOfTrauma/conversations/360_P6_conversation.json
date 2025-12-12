@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10 right now.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that day of the car accident.",
+    "Client: (Takes a deep breath) I'm there. It's a sunny afternoon, and I'm driving home from work. The radio is playing softly...",
+    "Therapist: Good. Continue describing what you see and feel.",
+    "Client: I see the intersection ahead. The light is green for me. I'm thinking about what to make for dinner... Suddenly, there's a flash of red to my left. My heart starts racing as I realize a car is speeding towards me...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's jumped to a 7. My palms are sweating, and I feel tense all over.",
+    "Therapist: That's understandable. Keep going, you're doing well.",
+    "Client: The impact is deafening. Metal crunching, glass shattering. I'm jerked violently to the side. There's a sharp pain in my chest. I can't breathe. I'm panicking, thinking I might die...",
+    "Therapist: And your SUDS rating at this moment?",
+    "Client: It's... it's a 9. I feel like I'm right back there. My chest is tight, and I'm trembling.",
+    "Therapist: You're safe here. Take a deep breath. What happens next?",
+    "Client: I hear people shouting. Someone's asking if I'm okay. I smell gasoline and burnt rubber. I'm disoriented, trying to focus... Oh God, I remember seeing the other driver. He's not moving...",
+    "Therapist: Stay with that memory. What are you feeling?",
+    "Client: Guilt. Overwhelming guilt. Even though I know it wasn't my fault, I can't help but think... if I had been more alert, maybe...",
+    "Therapist: SUDS rating?",
+    "Client: Still a 9. My stomach is in knots.",
+    "Therapist: It's normal to feel this way. Remember, you're safe now.",
+    "Client: (Nods) The paramedics arrive. They're checking me over, asking questions. I can barely focus. I keep looking at the other car, praying the driver is okay...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... dropping a bit. Maybe an 8? I'm starting to feel less panicked, but still shaken.",
+    "Therapist: That's good. You're processing the memory. Continue.",
+    "Client: They take me to the hospital. Everything's a blur of tests and questions. I keep asking about the other driver, but no one will tell me anything. The uncertainty is killing me...",
+    "Therapist: And your SUDS?",
+    "Client: Back up to a 9. The thought of potentially being responsible for someone's death... it's overwhelming.",
+    "Therapist: I understand. This is a difficult memory. You're doing great.",
+    "Client: Hours later, a doctor finally tells me the other driver survived. The relief is... indescribable. But then the guilt hits again. His injuries were severe. I know his life will never be the same...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's down to a 6. I feel drained, but less panicked.",
+    "Therapist: That's progress. How do you feel physically?",
+    "Client: My shoulders are relaxed a bit. I'm not trembling anymore, but I feel exhausted.",
+    "Therapist: That's normal. You've done excellent work today.",
+    "Client: Thank you. It's still hard, but... I think it's getting easier to face this memory.",
+    "Therapist: That's the goal. Let's end here. Final SUDS rating?",
+    "Client: I'd say a 5. I feel... raw, but also a bit lighter.",
+    "Therapist: Well done. Let's debrief..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day of the car accident."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day of the car accident.",
+      "Client: (Takes a deep breath) I'm there. It's a sunny afternoon, and I'm driving home from work. The radio is playing softly..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that day of the car accident.",
+      "Client: (Takes a deep breath) I'm there. It's a sunny afternoon, and I'm driving home from work. The radio is playing softly...",
+      "Therapist: Good. Continue describing what you see and feel."
+    ],
+    [
+      "Client: (Takes a deep breath) I'm there. It's a sunny afternoon, and I'm driving home from work. The radio is playing softly...",
+      "Therapist: Good. Continue describing what you see and feel.",
+      "Client: I see the intersection ahead. The light is green for me. I'm thinking about what to make for dinner... Suddenly, there's a flash of red to my left. My heart starts racing as I realize a car is speeding towards me..."
+    ],
+    [
+      "Therapist: Good. Continue describing what you see and feel.",
+      "Client: I see the intersection ahead. The light is green for me. I'm thinking about what to make for dinner... Suddenly, there's a flash of red to my left. My heart starts racing as I realize a car is speeding towards me...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: I see the intersection ahead. The light is green for me. I'm thinking about what to make for dinner... Suddenly, there's a flash of red to my left. My heart starts racing as I realize a car is speeding towards me...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's jumped to a 7. My palms are sweating, and I feel tense all over."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's jumped to a 7. My palms are sweating, and I feel tense all over.",
+      "Therapist: That's understandable. Keep going, you're doing well."
+    ],
+    [
+      "Client: It's jumped to a 7. My palms are sweating, and I feel tense all over.",
+      "Therapist: That's understandable. Keep going, you're doing well.",
+      "Client: The impact is deafening. Metal crunching, glass shattering. I'm jerked violently to the side. There's a sharp pain in my chest. I can't breathe. I'm panicking, thinking I might die..."
+    ],
+    [
+      "Therapist: That's understandable. Keep going, you're doing well.",
+      "Client: The impact is deafening. Metal crunching, glass shattering. I'm jerked violently to the side. There's a sharp pain in my chest. I can't breathe. I'm panicking, thinking I might die...",
+      "Therapist: And your SUDS rating at this moment?"
+    ],
+    [
+      "Client: The impact is deafening. Metal crunching, glass shattering. I'm jerked violently to the side. There's a sharp pain in my chest. I can't breathe. I'm panicking, thinking I might die...",
+      "Therapist: And your SUDS rating at this moment?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My chest is tight, and I'm trembling."
+    ],
+    [
+      "Therapist: And your SUDS rating at this moment?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My chest is tight, and I'm trembling.",
+      "Therapist: You're safe here. Take a deep breath. What happens next?"
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there. My chest is tight, and I'm trembling.",
+      "Therapist: You're safe here. Take a deep breath. What happens next?",
+      "Client: I hear people shouting. Someone's asking if I'm okay. I smell gasoline and burnt rubber. I'm disoriented, trying to focus... Oh God, I remember seeing the other driver. He's not moving..."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath. What happens next?",
+      "Client: I hear people shouting. Someone's asking if I'm okay. I smell gasoline and burnt rubber. I'm disoriented, trying to focus... Oh God, I remember seeing the other driver. He's not moving...",
+      "Therapist: Stay with that memory. What are you feeling?"
+    ],
+    [
+      "Client: I hear people shouting. Someone's asking if I'm okay. I smell gasoline and burnt rubber. I'm disoriented, trying to focus... Oh God, I remember seeing the other driver. He's not moving...",
+      "Therapist: Stay with that memory. What are you feeling?",
+      "Client: Guilt. Overwhelming guilt. Even though I know it wasn't my fault, I can't help but think... if I had been more alert, maybe..."
+    ],
+    [
+      "Therapist: Stay with that memory. What are you feeling?",
+      "Client: Guilt. Overwhelming guilt. Even though I know it wasn't my fault, I can't help but think... if I had been more alert, maybe...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Guilt. Overwhelming guilt. Even though I know it wasn't my fault, I can't help but think... if I had been more alert, maybe...",
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. My stomach is in knots."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. My stomach is in knots.",
+      "Therapist: It's normal to feel this way. Remember, you're safe now."
+    ],
+    [
+      "Client: Still a 9. My stomach is in knots.",
+      "Therapist: It's normal to feel this way. Remember, you're safe now.",
+      "Client: (Nods) The paramedics arrive. They're checking me over, asking questions. I can barely focus. I keep looking at the other car, praying the driver is okay..."
+    ],
+    [
+      "Therapist: It's normal to feel this way. Remember, you're safe now.",
+      "Client: (Nods) The paramedics arrive. They're checking me over, asking questions. I can barely focus. I keep looking at the other car, praying the driver is okay...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (Nods) The paramedics arrive. They're checking me over, asking questions. I can barely focus. I keep looking at the other car, praying the driver is okay...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... dropping a bit. Maybe an 8? I'm starting to feel less panicked, but still shaken."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... dropping a bit. Maybe an 8? I'm starting to feel less panicked, but still shaken.",
+      "Therapist: That's good. You're processing the memory. Continue."
+    ],
+    [
+      "Client: It's... dropping a bit. Maybe an 8? I'm starting to feel less panicked, but still shaken.",
+      "Therapist: That's good. You're processing the memory. Continue.",
+      "Client: They take me to the hospital. Everything's a blur of tests and questions. I keep asking about the other driver, but no one will tell me anything. The uncertainty is killing me..."
+    ],
+    [
+      "Therapist: That's good. You're processing the memory. Continue.",
+      "Client: They take me to the hospital. Everything's a blur of tests and questions. I keep asking about the other driver, but no one will tell me anything. The uncertainty is killing me...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: They take me to the hospital. Everything's a blur of tests and questions. I keep asking about the other driver, but no one will tell me anything. The uncertainty is killing me...",
+      "Therapist: And your SUDS?",
+      "Client: Back up to a 9. The thought of potentially being responsible for someone's death... it's overwhelming."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Back up to a 9. The thought of potentially being responsible for someone's death... it's overwhelming.",
+      "Therapist: I understand. This is a difficult memory. You're doing great."
+    ],
+    [
+      "Client: Back up to a 9. The thought of potentially being responsible for someone's death... it's overwhelming.",
+      "Therapist: I understand. This is a difficult memory. You're doing great.",
+      "Client: Hours later, a doctor finally tells me the other driver survived. The relief is... indescribable. But then the guilt hits again. His injuries were severe. I know his life will never be the same..."
+    ],
+    [
+      "Therapist: I understand. This is a difficult memory. You're doing great.",
+      "Client: Hours later, a doctor finally tells me the other driver survived. The relief is... indescribable. But then the guilt hits again. His injuries were severe. I know his life will never be the same...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: Hours later, a doctor finally tells me the other driver survived. The relief is... indescribable. But then the guilt hits again. His injuries were severe. I know his life will never be the same...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 6. I feel drained, but less panicked."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 6. I feel drained, but less panicked.",
+      "Therapist: That's progress. How do you feel physically?"
+    ],
+    [
+      "Client: It's down to a 6. I feel drained, but less panicked.",
+      "Therapist: That's progress. How do you feel physically?",
+      "Client: My shoulders are relaxed a bit. I'm not trembling anymore, but I feel exhausted."
+    ],
+    [
+      "Therapist: That's progress. How do you feel physically?",
+      "Client: My shoulders are relaxed a bit. I'm not trembling anymore, but I feel exhausted.",
+      "Therapist: That's normal. You've done excellent work today."
+    ],
+    [
+      "Client: My shoulders are relaxed a bit. I'm not trembling anymore, but I feel exhausted.",
+      "Therapist: That's normal. You've done excellent work today.",
+      "Client: Thank you. It's still hard, but... I think it's getting easier to face this memory."
+    ],
+    [
+      "Therapist: That's normal. You've done excellent work today.",
+      "Client: Thank you. It's still hard, but... I think it's getting easier to face this memory.",
+      "Therapist: That's the goal. Let's end here. Final SUDS rating?"
+    ],
+    [
+      "Client: Thank you. It's still hard, but... I think it's getting easier to face this memory.",
+      "Therapist: That's the goal. Let's end here. Final SUDS rating?",
+      "Client: I'd say a 5. I feel... raw, but also a bit lighter."
+    ],
+    [
+      "Therapist: That's the goal. Let's end here. Final SUDS rating?",
+      "Client: I'd say a 5. I feel... raw, but also a bit lighter.",
+      "Therapist: Well done. Let's debrief..."
+    ]
+  ]
+}

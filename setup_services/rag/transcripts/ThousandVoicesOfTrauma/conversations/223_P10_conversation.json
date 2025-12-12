@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Johnson. How are you feeling about today's session?",
+    "Client: Oh, hello Dr. Thompson. I'm... well, I'm a bit uneasy, to be honest. These sessions always stir up so much. But I suppose that's the point, isn't it?",
+    "Therapist: It is. Are you ready to begin our imaginal exposure?",
+    "Client: I think so. Yes, let's do it. I know it's important, even if it's difficult.",
+    "Therapist: Alright. Close your eyes and take us back to that day at the cult compound.",
+    "Client: (Takes a deep breath) Okay... I'm there. It's a warm summer day, and I can smell the dust in the air. The compound is bustling with activity. People are moving about, preparing for the evening ceremony. I'm in the main hall, helping to set up chairs. My hands are shaking a little as I work.",
+    "Therapist: What are you feeling right now?",
+    "Client: I'm... anxious. There's this knot in my stomach. I know something isn't right, but I can't put my finger on it. The leader, he's been acting strange lately. More erratic. I keep telling myself it's fine, but deep down, I know it's not.",
+    "Therapist: Stay with that feeling. What's happening next?",
+    "Client: (Voice quivering) The leader comes in. He's... he's shouting about how we need to prepare for the \"ascension.\" My heart starts racing. I've heard this kind of talk before, but never like this. He's wild-eyed, almost manic. I want to run, but where would I go? This has been my home for years now.",
+    "Therapist: On a scale of 0 to 100, how distressed are you feeling?",
+    "Client: I'd say... about a 70. It's intense, reliving this.",
+    "Therapist: You're doing well. Keep going. What happens next?",
+    "Client: (Breathing quickens) He's... he's telling us we need to drink something. To \"purify\" ourselves. I can see the fear in everyone's eyes, but no one's moving. We're all frozen. I... I can't believe this is happening. My mind is screaming at me to do something, anything, but I'm paralyzed.",
+    "Therapist: Stay present. You're safe here.",
+    "Client: (Nods) Right, I'm... I'm here. (Pauses) Someone starts passing out cups. The liquid inside is dark, almost purple. The smell is sickly sweet. I take one, my hands trembling so much I nearly spill it. I'm looking around, hoping someone will stand up, say this is crazy. But everyone's silent.",
+    "Therapist: What are you feeling in your body?",
+    "Client: My chest is so tight. I can barely breathe. My legs feel weak, like they might give out any moment. And I'm... I'm so cold. Why am I so cold on a summer day?",
+    "Therapist: That's the fear. Keep breathing. What happens next?",
+    "Client: (Voice breaking) The leader starts a chant. People are drinking. I... I raise the cup to my lips, but I can't do it. I just can't. Suddenly, there's commotion at the back of the hall. Someone's collapsed. Then another. People start screaming, panicking. It's chaos.",
+    "Therapist: Stay with it. You're doing great.",
+    "Client: (Crying) I drop my cup. The liquid spills across the floor. I'm pushing through the crowd, trying to get to the door. People are falling all around me. The smell of vomit fills the air. I make it outside, gasping for breath. I can still hear the screams from inside. I... I start running. I don't know where I'm going, I just know I have to get away.",
+    "Therapist: How distressed are you feeling now?",
+    "Client: It's... it's about 90. This is so hard.",
+    "Therapist: You're very brave. Take a deep breath. Continue when you're ready.",
+    "Client: (Takes several deep breaths) Okay... I'm running down the dirt road leading away from the compound. My lungs are burning. I can hear sirens in the distance. I collapse by the side of the road, and that's... that's where the police find me later. I'm the only one who didn't drink. The only survivor.",
+    "Therapist: You made it through. You're safe now.",
+    "Client: (Sobbing) Yes, I... I made it. But so many didn't. I should have done something sooner. I should have seen the signs.",
+    "Therapist: It wasn't your fault. You survived.",
+    "Client: (Wiping tears) I know, logically. But the guilt... it's overwhelming sometimes. And the nightmares... they never really go away.",
+    "Therapist: How are you feeling now?",
+    "Client: Drained. Sad. But... also a little relieved? It's like... like I've let out a breath I've been holding for years.",
+    "Therapist: That's normal. You did well today.",
+    "Client: Thank you. It's still so vivid, you know? The sounds, the smells... I can still taste the fear in my mouth. But talking about it... it helps. It's like each time, it loses a little of its power over me.",
+    "Therapist: That's the goal. Shall we end here?",
+    "Client: Yes, I think that's enough for today. I'm exhausted, but... I'm glad we did this. It's hard, but I know it's helping me heal.",
+    "Therapist: You've shown incredible strength. We'll continue next week.",
+    "Client: (Nodding) Next week. I'll be ready. Thank you, Dr. Thompson. For everything.",
+    "Therapist: You're welcome, Mrs. Johnson. Take care of yourself this week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Johnson. How are you feeling about today's session?",
+      "Client: Oh, hello Dr. Thompson. I'm... well, I'm a bit uneasy, to be honest. These sessions always stir up so much. But I suppose that's the point, isn't it?",
+      "Therapist: It is. Are you ready to begin our imaginal exposure?"
+    ],
+    [
+      "Client: Oh, hello Dr. Thompson. I'm... well, I'm a bit uneasy, to be honest. These sessions always stir up so much. But I suppose that's the point, isn't it?",
+      "Therapist: It is. Are you ready to begin our imaginal exposure?",
+      "Client: I think so. Yes, let's do it. I know it's important, even if it's difficult."
+    ],
+    [
+      "Therapist: It is. Are you ready to begin our imaginal exposure?",
+      "Client: I think so. Yes, let's do it. I know it's important, even if it's difficult.",
+      "Therapist: Alright. Close your eyes and take us back to that day at the cult compound."
+    ],
+    [
+      "Client: I think so. Yes, let's do it. I know it's important, even if it's difficult.",
+      "Therapist: Alright. Close your eyes and take us back to that day at the cult compound.",
+      "Client: (Takes a deep breath) Okay... I'm there. It's a warm summer day, and I can smell the dust in the air. The compound is bustling with activity. People are moving about, preparing for the evening ceremony. I'm in the main hall, helping to set up chairs. My hands are shaking a little as I work."
+    ],
+    [
+      "Therapist: Alright. Close your eyes and take us back to that day at the cult compound.",
+      "Client: (Takes a deep breath) Okay... I'm there. It's a warm summer day, and I can smell the dust in the air. The compound is bustling with activity. People are moving about, preparing for the evening ceremony. I'm in the main hall, helping to set up chairs. My hands are shaking a little as I work.",
+      "Therapist: What are you feeling right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I'm there. It's a warm summer day, and I can smell the dust in the air. The compound is bustling with activity. People are moving about, preparing for the evening ceremony. I'm in the main hall, helping to set up chairs. My hands are shaking a little as I work.",
+      "Therapist: What are you feeling right now?",
+      "Client: I'm... anxious. There's this knot in my stomach. I know something isn't right, but I can't put my finger on it. The leader, he's been acting strange lately. More erratic. I keep telling myself it's fine, but deep down, I know it's not."
+    ],
+    [
+      "Therapist: What are you feeling right now?",
+      "Client: I'm... anxious. There's this knot in my stomach. I know something isn't right, but I can't put my finger on it. The leader, he's been acting strange lately. More erratic. I keep telling myself it's fine, but deep down, I know it's not.",
+      "Therapist: Stay with that feeling. What's happening next?"
+    ],
+    [
+      "Client: I'm... anxious. There's this knot in my stomach. I know something isn't right, but I can't put my finger on it. The leader, he's been acting strange lately. More erratic. I keep telling myself it's fine, but deep down, I know it's not.",
+      "Therapist: Stay with that feeling. What's happening next?",
+      "Client: (Voice quivering) The leader comes in. He's... he's shouting about how we need to prepare for the \"ascension.\" My heart starts racing. I've heard this kind of talk before, but never like this. He's wild-eyed, almost manic. I want to run, but where would I go? This has been my home for years now."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's happening next?",
+      "Client: (Voice quivering) The leader comes in. He's... he's shouting about how we need to prepare for the \"ascension.\" My heart starts racing. I've heard this kind of talk before, but never like this. He's wild-eyed, almost manic. I want to run, but where would I go? This has been my home for years now.",
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling?"
+    ],
+    [
+      "Client: (Voice quivering) The leader comes in. He's... he's shouting about how we need to prepare for the \"ascension.\" My heart starts racing. I've heard this kind of talk before, but never like this. He's wild-eyed, almost manic. I want to run, but where would I go? This has been my home for years now.",
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling?",
+      "Client: I'd say... about a 70. It's intense, reliving this."
+    ],
+    [
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling?",
+      "Client: I'd say... about a 70. It's intense, reliving this.",
+      "Therapist: You're doing well. Keep going. What happens next?"
+    ],
+    [
+      "Client: I'd say... about a 70. It's intense, reliving this.",
+      "Therapist: You're doing well. Keep going. What happens next?",
+      "Client: (Breathing quickens) He's... he's telling us we need to drink something. To \"purify\" ourselves. I can see the fear in everyone's eyes, but no one's moving. We're all frozen. I... I can't believe this is happening. My mind is screaming at me to do something, anything, but I'm paralyzed."
+    ],
+    [
+      "Therapist: You're doing well. Keep going. What happens next?",
+      "Client: (Breathing quickens) He's... he's telling us we need to drink something. To \"purify\" ourselves. I can see the fear in everyone's eyes, but no one's moving. We're all frozen. I... I can't believe this is happening. My mind is screaming at me to do something, anything, but I'm paralyzed.",
+      "Therapist: Stay present. You're safe here."
+    ],
+    [
+      "Client: (Breathing quickens) He's... he's telling us we need to drink something. To \"purify\" ourselves. I can see the fear in everyone's eyes, but no one's moving. We're all frozen. I... I can't believe this is happening. My mind is screaming at me to do something, anything, but I'm paralyzed.",
+      "Therapist: Stay present. You're safe here.",
+      "Client: (Nods) Right, I'm... I'm here. (Pauses) Someone starts passing out cups. The liquid inside is dark, almost purple. The smell is sickly sweet. I take one, my hands trembling so much I nearly spill it. I'm looking around, hoping someone will stand up, say this is crazy. But everyone's silent."
+    ],
+    [
+      "Therapist: Stay present. You're safe here.",
+      "Client: (Nods) Right, I'm... I'm here. (Pauses) Someone starts passing out cups. The liquid inside is dark, almost purple. The smell is sickly sweet. I take one, my hands trembling so much I nearly spill it. I'm looking around, hoping someone will stand up, say this is crazy. But everyone's silent.",
+      "Therapist: What are you feeling in your body?"
+    ],
+    [
+      "Client: (Nods) Right, I'm... I'm here. (Pauses) Someone starts passing out cups. The liquid inside is dark, almost purple. The smell is sickly sweet. I take one, my hands trembling so much I nearly spill it. I'm looking around, hoping someone will stand up, say this is crazy. But everyone's silent.",
+      "Therapist: What are you feeling in your body?",
+      "Client: My chest is so tight. I can barely breathe. My legs feel weak, like they might give out any moment. And I'm... I'm so cold. Why am I so cold on a summer day?"
+    ],
+    [
+      "Therapist: What are you feeling in your body?",
+      "Client: My chest is so tight. I can barely breathe. My legs feel weak, like they might give out any moment. And I'm... I'm so cold. Why am I so cold on a summer day?",
+      "Therapist: That's the fear. Keep breathing. What happens next?"
+    ],
+    [
+      "Client: My chest is so tight. I can barely breathe. My legs feel weak, like they might give out any moment. And I'm... I'm so cold. Why am I so cold on a summer day?",
+      "Therapist: That's the fear. Keep breathing. What happens next?",
+      "Client: (Voice breaking) The leader starts a chant. People are drinking. I... I raise the cup to my lips, but I can't do it. I just can't. Suddenly, there's commotion at the back of the hall. Someone's collapsed. Then another. People start screaming, panicking. It's chaos."
+    ],
+    [
+      "Therapist: That's the fear. Keep breathing. What happens next?",
+      "Client: (Voice breaking) The leader starts a chant. People are drinking. I... I raise the cup to my lips, but I can't do it. I just can't. Suddenly, there's commotion at the back of the hall. Someone's collapsed. Then another. People start screaming, panicking. It's chaos.",
+      "Therapist: Stay with it. You're doing great."
+    ],
+    [
+      "Client: (Voice breaking) The leader starts a chant. People are drinking. I... I raise the cup to my lips, but I can't do it. I just can't. Suddenly, there's commotion at the back of the hall. Someone's collapsed. Then another. People start screaming, panicking. It's chaos.",
+      "Therapist: Stay with it. You're doing great.",
+      "Client: (Crying) I drop my cup. The liquid spills across the floor. I'm pushing through the crowd, trying to get to the door. People are falling all around me. The smell of vomit fills the air. I make it outside, gasping for breath. I can still hear the screams from inside. I... I start running. I don't know where I'm going, I just know I have to get away."
+    ],
+    [
+      "Therapist: Stay with it. You're doing great.",
+      "Client: (Crying) I drop my cup. The liquid spills across the floor. I'm pushing through the crowd, trying to get to the door. People are falling all around me. The smell of vomit fills the air. I make it outside, gasping for breath. I can still hear the screams from inside. I... I start running. I don't know where I'm going, I just know I have to get away.",
+      "Therapist: How distressed are you feeling now?"
+    ],
+    [
+      "Client: (Crying) I drop my cup. The liquid spills across the floor. I'm pushing through the crowd, trying to get to the door. People are falling all around me. The smell of vomit fills the air. I make it outside, gasping for breath. I can still hear the screams from inside. I... I start running. I don't know where I'm going, I just know I have to get away.",
+      "Therapist: How distressed are you feeling now?",
+      "Client: It's... it's about 90. This is so hard."
+    ],
+    [
+      "Therapist: How distressed are you feeling now?",
+      "Client: It's... it's about 90. This is so hard.",
+      "Therapist: You're very brave. Take a deep breath. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's about 90. This is so hard.",
+      "Therapist: You're very brave. Take a deep breath. Continue when you're ready.",
+      "Client: (Takes several deep breaths) Okay... I'm running down the dirt road leading away from the compound. My lungs are burning. I can hear sirens in the distance. I collapse by the side of the road, and that's... that's where the police find me later. I'm the only one who didn't drink. The only survivor."
+    ],
+    [
+      "Therapist: You're very brave. Take a deep breath. Continue when you're ready.",
+      "Client: (Takes several deep breaths) Okay... I'm running down the dirt road leading away from the compound. My lungs are burning. I can hear sirens in the distance. I collapse by the side of the road, and that's... that's where the police find me later. I'm the only one who didn't drink. The only survivor.",
+      "Therapist: You made it through. You're safe now."
+    ],
+    [
+      "Client: (Takes several deep breaths) Okay... I'm running down the dirt road leading away from the compound. My lungs are burning. I can hear sirens in the distance. I collapse by the side of the road, and that's... that's where the police find me later. I'm the only one who didn't drink. The only survivor.",
+      "Therapist: You made it through. You're safe now.",
+      "Client: (Sobbing) Yes, I... I made it. But so many didn't. I should have done something sooner. I should have seen the signs."
+    ],
+    [
+      "Therapist: You made it through. You're safe now.",
+      "Client: (Sobbing) Yes, I... I made it. But so many didn't. I should have done something sooner. I should have seen the signs.",
+      "Therapist: It wasn't your fault. You survived."
+    ],
+    [
+      "Client: (Sobbing) Yes, I... I made it. But so many didn't. I should have done something sooner. I should have seen the signs.",
+      "Therapist: It wasn't your fault. You survived.",
+      "Client: (Wiping tears) I know, logically. But the guilt... it's overwhelming sometimes. And the nightmares... they never really go away."
+    ],
+    [
+      "Therapist: It wasn't your fault. You survived.",
+      "Client: (Wiping tears) I know, logically. But the guilt... it's overwhelming sometimes. And the nightmares... they never really go away.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (Wiping tears) I know, logically. But the guilt... it's overwhelming sometimes. And the nightmares... they never really go away.",
+      "Therapist: How are you feeling now?",
+      "Client: Drained. Sad. But... also a little relieved? It's like... like I've let out a breath I've been holding for years."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Drained. Sad. But... also a little relieved? It's like... like I've let out a breath I've been holding for years.",
+      "Therapist: That's normal. You did well today."
+    ],
+    [
+      "Client: Drained. Sad. But... also a little relieved? It's like... like I've let out a breath I've been holding for years.",
+      "Therapist: That's normal. You did well today.",
+      "Client: Thank you. It's still so vivid, you know? The sounds, the smells... I can still taste the fear in my mouth. But talking about it... it helps. It's like each time, it loses a little of its power over me."
+    ],
+    [
+      "Therapist: That's normal. You did well today.",
+      "Client: Thank you. It's still so vivid, you know? The sounds, the smells... I can still taste the fear in my mouth. But talking about it... it helps. It's like each time, it loses a little of its power over me.",
+      "Therapist: That's the goal. Shall we end here?"
+    ],
+    [
+      "Client: Thank you. It's still so vivid, you know? The sounds, the smells... I can still taste the fear in my mouth. But talking about it... it helps. It's like each time, it loses a little of its power over me.",
+      "Therapist: That's the goal. Shall we end here?",
+      "Client: Yes, I think that's enough for today. I'm exhausted, but... I'm glad we did this. It's hard, but I know it's helping me heal."
+    ],
+    [
+      "Therapist: That's the goal. Shall we end here?",
+      "Client: Yes, I think that's enough for today. I'm exhausted, but... I'm glad we did this. It's hard, but I know it's helping me heal.",
+      "Therapist: You've shown incredible strength. We'll continue next week."
+    ],
+    [
+      "Client: Yes, I think that's enough for today. I'm exhausted, but... I'm glad we did this. It's hard, but I know it's helping me heal.",
+      "Therapist: You've shown incredible strength. We'll continue next week.",
+      "Client: (Nodding) Next week. I'll be ready. Thank you, Dr. Thompson. For everything."
+    ],
+    [
+      "Therapist: You've shown incredible strength. We'll continue next week.",
+      "Client: (Nodding) Next week. I'll be ready. Thank you, Dr. Thompson. For everything.",
+      "Therapist: You're welcome, Mrs. Johnson. Take care of yourself this week."
+    ]
+  ]
+}

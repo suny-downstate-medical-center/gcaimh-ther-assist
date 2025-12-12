@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, John. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about revisiting those memories, to be honest.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Right, safe... It's just hard to feel that way sometimes. Especially when I think about what happened in Afghanistan.",
+    "Therapist: I'm here with you. Whenever you're ready, close your eyes and take us back to that day.",
+    "Client: Okay... *deep breath* We were on patrol. It was hot, dusty. I remember the weight of my gear, the sweat trickling down my back. We'd been walking for hours, and everyone was on edge.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: Suddenly, there was this deafening explosion. I was thrown to the ground, my ears ringing. When I looked up, I saw... I saw Jake. He was just lying there, not moving.",
+    "Therapist: Stay with it. You're safe here.",
+    "Client: I... I crawled over to him. There was so much blood. I called out for a medic, but deep down, I knew it was too late. Jake, he was my best friend. We'd known each other since basic training.",
+    "Therapist: It's okay to feel this way. Keep going.",
+    "Client: I held him, trying to stop the bleeding, but he was already gone. His eyes were open, staring blankly. I couldn't believe it. We'd just been joking around that morning, and now...",
+    "Therapist: You're doing well. Take a deep breath.",
+    "Client: I felt so helpless, so angry. Why him? Why not me? I keep replaying that moment in my head, wondering if I could have done something differently.",
+    "Therapist: It's natural to have those thoughts. You're handling this bravely.",
+    "Client: After that, everything's a blur. I remember the chaos, the shouting, the smell of smoke and blood. But mostly, I remember Jake's face. It haunts me.",
+    "Therapist: You're processing this well. How are you feeling right now?",
+    "Client: I feel... overwhelmed. Sad. Angry. It's like I'm right back there, you know? My heart's racing, and I feel this tightness in my chest.",
+    "Therapist: That's normal. You're safe here, John.",
+    "Client: I know, logically. But emotionally, it's like I never left that place. I miss Jake so much. We had plans, you know? We were going to start a business together when we got back.",
+    "Therapist: It's okay to grieve. You're doing great.",
+    "Client: Sometimes I feel guilty for surviving. Like maybe I should have been the one... But then I think about my family, and I feel guilty for feeling that way too.",
+    "Therapist: Your feelings are valid. Keep going.",
+    "Client: I just... I don't know how to move past this. It's been years, but it feels like yesterday. I see his parents sometimes, and it's so hard. They lost their only son.",
+    "Therapist: You're showing incredible strength. How do you feel now?",
+    "Client: Exhausted. Drained. But also... maybe a little lighter? I don't know. It's still painful, but talking about it... it helps, I think.",
+    "Therapist: That's progress. You did well today, John.",
+    "Client: Thanks. It's not easy, but I'm trying. I want to get better, for Jake's memory if nothing else. He'd want me to live my life, I think.",
+    "Therapist: That's a positive perspective. We'll end here for today.",
+    "Client: Okay. Thank you for listening and... for helping me through this. It means a lot.",
+    "Therapist: You're welcome, John. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, John. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about revisiting those memories, to be honest.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about revisiting those memories, to be honest.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Right, safe... It's just hard to feel that way sometimes. Especially when I think about what happened in Afghanistan."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Right, safe... It's just hard to feel that way sometimes. Especially when I think about what happened in Afghanistan.",
+      "Therapist: I'm here with you. Whenever you're ready, close your eyes and take us back to that day."
+    ],
+    [
+      "Client: Right, safe... It's just hard to feel that way sometimes. Especially when I think about what happened in Afghanistan.",
+      "Therapist: I'm here with you. Whenever you're ready, close your eyes and take us back to that day.",
+      "Client: Okay... *deep breath* We were on patrol. It was hot, dusty. I remember the weight of my gear, the sweat trickling down my back. We'd been walking for hours, and everyone was on edge."
+    ],
+    [
+      "Therapist: I'm here with you. Whenever you're ready, close your eyes and take us back to that day.",
+      "Client: Okay... *deep breath* We were on patrol. It was hot, dusty. I remember the weight of my gear, the sweat trickling down my back. We'd been walking for hours, and everyone was on edge.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Okay... *deep breath* We were on patrol. It was hot, dusty. I remember the weight of my gear, the sweat trickling down my back. We'd been walking for hours, and everyone was on edge.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: Suddenly, there was this deafening explosion. I was thrown to the ground, my ears ringing. When I looked up, I saw... I saw Jake. He was just lying there, not moving."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: Suddenly, there was this deafening explosion. I was thrown to the ground, my ears ringing. When I looked up, I saw... I saw Jake. He was just lying there, not moving.",
+      "Therapist: Stay with it. You're safe here."
+    ],
+    [
+      "Client: Suddenly, there was this deafening explosion. I was thrown to the ground, my ears ringing. When I looked up, I saw... I saw Jake. He was just lying there, not moving.",
+      "Therapist: Stay with it. You're safe here.",
+      "Client: I... I crawled over to him. There was so much blood. I called out for a medic, but deep down, I knew it was too late. Jake, he was my best friend. We'd known each other since basic training."
+    ],
+    [
+      "Therapist: Stay with it. You're safe here.",
+      "Client: I... I crawled over to him. There was so much blood. I called out for a medic, but deep down, I knew it was too late. Jake, he was my best friend. We'd known each other since basic training.",
+      "Therapist: It's okay to feel this way. Keep going."
+    ],
+    [
+      "Client: I... I crawled over to him. There was so much blood. I called out for a medic, but deep down, I knew it was too late. Jake, he was my best friend. We'd known each other since basic training.",
+      "Therapist: It's okay to feel this way. Keep going.",
+      "Client: I held him, trying to stop the bleeding, but he was already gone. His eyes were open, staring blankly. I couldn't believe it. We'd just been joking around that morning, and now..."
+    ],
+    [
+      "Therapist: It's okay to feel this way. Keep going.",
+      "Client: I held him, trying to stop the bleeding, but he was already gone. His eyes were open, staring blankly. I couldn't believe it. We'd just been joking around that morning, and now...",
+      "Therapist: You're doing well. Take a deep breath."
+    ],
+    [
+      "Client: I held him, trying to stop the bleeding, but he was already gone. His eyes were open, staring blankly. I couldn't believe it. We'd just been joking around that morning, and now...",
+      "Therapist: You're doing well. Take a deep breath.",
+      "Client: I felt so helpless, so angry. Why him? Why not me? I keep replaying that moment in my head, wondering if I could have done something differently."
+    ],
+    [
+      "Therapist: You're doing well. Take a deep breath.",
+      "Client: I felt so helpless, so angry. Why him? Why not me? I keep replaying that moment in my head, wondering if I could have done something differently.",
+      "Therapist: It's natural to have those thoughts. You're handling this bravely."
+    ],
+    [
+      "Client: I felt so helpless, so angry. Why him? Why not me? I keep replaying that moment in my head, wondering if I could have done something differently.",
+      "Therapist: It's natural to have those thoughts. You're handling this bravely.",
+      "Client: After that, everything's a blur. I remember the chaos, the shouting, the smell of smoke and blood. But mostly, I remember Jake's face. It haunts me."
+    ],
+    [
+      "Therapist: It's natural to have those thoughts. You're handling this bravely.",
+      "Client: After that, everything's a blur. I remember the chaos, the shouting, the smell of smoke and blood. But mostly, I remember Jake's face. It haunts me.",
+      "Therapist: You're processing this well. How are you feeling right now?"
+    ],
+    [
+      "Client: After that, everything's a blur. I remember the chaos, the shouting, the smell of smoke and blood. But mostly, I remember Jake's face. It haunts me.",
+      "Therapist: You're processing this well. How are you feeling right now?",
+      "Client: I feel... overwhelmed. Sad. Angry. It's like I'm right back there, you know? My heart's racing, and I feel this tightness in my chest."
+    ],
+    [
+      "Therapist: You're processing this well. How are you feeling right now?",
+      "Client: I feel... overwhelmed. Sad. Angry. It's like I'm right back there, you know? My heart's racing, and I feel this tightness in my chest.",
+      "Therapist: That's normal. You're safe here, John."
+    ],
+    [
+      "Client: I feel... overwhelmed. Sad. Angry. It's like I'm right back there, you know? My heart's racing, and I feel this tightness in my chest.",
+      "Therapist: That's normal. You're safe here, John.",
+      "Client: I know, logically. But emotionally, it's like I never left that place. I miss Jake so much. We had plans, you know? We were going to start a business together when we got back."
+    ],
+    [
+      "Therapist: That's normal. You're safe here, John.",
+      "Client: I know, logically. But emotionally, it's like I never left that place. I miss Jake so much. We had plans, you know? We were going to start a business together when we got back.",
+      "Therapist: It's okay to grieve. You're doing great."
+    ],
+    [
+      "Client: I know, logically. But emotionally, it's like I never left that place. I miss Jake so much. We had plans, you know? We were going to start a business together when we got back.",
+      "Therapist: It's okay to grieve. You're doing great.",
+      "Client: Sometimes I feel guilty for surviving. Like maybe I should have been the one... But then I think about my family, and I feel guilty for feeling that way too."
+    ],
+    [
+      "Therapist: It's okay to grieve. You're doing great.",
+      "Client: Sometimes I feel guilty for surviving. Like maybe I should have been the one... But then I think about my family, and I feel guilty for feeling that way too.",
+      "Therapist: Your feelings are valid. Keep going."
+    ],
+    [
+      "Client: Sometimes I feel guilty for surviving. Like maybe I should have been the one... But then I think about my family, and I feel guilty for feeling that way too.",
+      "Therapist: Your feelings are valid. Keep going.",
+      "Client: I just... I don't know how to move past this. It's been years, but it feels like yesterday. I see his parents sometimes, and it's so hard. They lost their only son."
+    ],
+    [
+      "Therapist: Your feelings are valid. Keep going.",
+      "Client: I just... I don't know how to move past this. It's been years, but it feels like yesterday. I see his parents sometimes, and it's so hard. They lost their only son.",
+      "Therapist: You're showing incredible strength. How do you feel now?"
+    ],
+    [
+      "Client: I just... I don't know how to move past this. It's been years, but it feels like yesterday. I see his parents sometimes, and it's so hard. They lost their only son.",
+      "Therapist: You're showing incredible strength. How do you feel now?",
+      "Client: Exhausted. Drained. But also... maybe a little lighter? I don't know. It's still painful, but talking about it... it helps, I think."
+    ],
+    [
+      "Therapist: You're showing incredible strength. How do you feel now?",
+      "Client: Exhausted. Drained. But also... maybe a little lighter? I don't know. It's still painful, but talking about it... it helps, I think.",
+      "Therapist: That's progress. You did well today, John."
+    ],
+    [
+      "Client: Exhausted. Drained. But also... maybe a little lighter? I don't know. It's still painful, but talking about it... it helps, I think.",
+      "Therapist: That's progress. You did well today, John.",
+      "Client: Thanks. It's not easy, but I'm trying. I want to get better, for Jake's memory if nothing else. He'd want me to live my life, I think."
+    ],
+    [
+      "Therapist: That's progress. You did well today, John.",
+      "Client: Thanks. It's not easy, but I'm trying. I want to get better, for Jake's memory if nothing else. He'd want me to live my life, I think.",
+      "Therapist: That's a positive perspective. We'll end here for today."
+    ],
+    [
+      "Client: Thanks. It's not easy, but I'm trying. I want to get better, for Jake's memory if nothing else. He'd want me to live my life, I think.",
+      "Therapist: That's a positive perspective. We'll end here for today.",
+      "Client: Okay. Thank you for listening and... for helping me through this. It means a lot."
+    ],
+    [
+      "Therapist: That's a positive perspective. We'll end here for today.",
+      "Client: Okay. Thank you for listening and... for helping me through this. It means a lot.",
+      "Therapist: You're welcome, John. Take care, and I'll see you next week."
+    ]
+  ]
+}

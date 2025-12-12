@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Abboud?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my imprisonment. The darkness of that cell, the isolation... it all came flooding back. I could almost smell the damp concrete and feel the cold seeping into my bones.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The silence. It was deafening. In that tiny cell, time seemed to stretch endlessly. I remember counting the cracks on the wall, over and over, just to keep my mind occupied. And the constant fear... not knowing if I'd ever see my family again or if each footstep in the hallway meant more interrogation.",
+    "Therapist: How did reliving that affect you physically?",
+    "Client: My heart was racing, and I felt this tightness in my chest. My palms were sweaty, and I noticed I was clenching my jaw. It's remarkable how vivid these sensations still are after all these years.",
+    "Therapist: You're very observant of your reactions.",
+    "Client: I suppose I am. It's a habit I developed in there - being hyper-aware of every little thing. I guess it was a survival mechanism. But now, it's exhausting. Always being on edge, you know? It's like I never fully left that cell.",
+    "Therapist: How does this connect to your daily life now?",
+    "Client: Well, I... I still struggle with enclosed spaces. Even elevators can be challenging. And loud, sudden noises? They send me right back there. It's affected my social life too. I find it hard to trust people, to let them get close. It's like I'm still protecting myself from potential threats.",
+    "Therapist: That makes sense. What did you learn today?",
+    "Client: I realized that while the experience was traumatic, I survived it. I'm here, talking about it. That's... that's something, isn't it? And maybe, just maybe, by facing these memories head-on, I can start to loosen their grip on me.",
+    "Therapist: That's a powerful insight. How do you feel about continuing?",
+    "Client: It's difficult, no doubt. But I think... I think I need to do this. For my grandchildren, you know? I want to be present with them, not constantly haunted by the past. It's time I reclaimed my life from these memories.",
+    "Therapist: Your commitment is admirable. What's your takeaway?",
+    "Client: That I'm stronger than I thought. And that maybe, with time and work, I can learn to live with these memories without letting them control me. It's a long road ahead, but for the first time in years, I feel a glimmer of hope.",
+    "Therapist: That's excellent progress. How will you care for yourself today?",
+    "Client: I think I'll call my daughter. Her voice always grounds me. And maybe take a walk in the park - being in open spaces helps. Oh, and I'll try that breathing exercise you taught me. It really does help when the anxiety starts creeping in.",
+    "Therapist: Sounds like a good plan. Any final thoughts?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I'm starting to believe that maybe, just maybe, I can heal from this. And that's... that's everything."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Abboud?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my imprisonment. The darkness of that cell, the isolation... it all came flooding back. I could almost smell the damp concrete and feel the cold seeping into my bones.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my imprisonment. The darkness of that cell, the isolation... it all came flooding back. I could almost smell the damp concrete and feel the cold seeping into my bones.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The silence. It was deafening. In that tiny cell, time seemed to stretch endlessly. I remember counting the cracks on the wall, over and over, just to keep my mind occupied. And the constant fear... not knowing if I'd ever see my family again or if each footstep in the hallway meant more interrogation."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The silence. It was deafening. In that tiny cell, time seemed to stretch endlessly. I remember counting the cracks on the wall, over and over, just to keep my mind occupied. And the constant fear... not knowing if I'd ever see my family again or if each footstep in the hallway meant more interrogation.",
+      "Therapist: How did reliving that affect you physically?"
+    ],
+    [
+      "Client: The silence. It was deafening. In that tiny cell, time seemed to stretch endlessly. I remember counting the cracks on the wall, over and over, just to keep my mind occupied. And the constant fear... not knowing if I'd ever see my family again or if each footstep in the hallway meant more interrogation.",
+      "Therapist: How did reliving that affect you physically?",
+      "Client: My heart was racing, and I felt this tightness in my chest. My palms were sweaty, and I noticed I was clenching my jaw. It's remarkable how vivid these sensations still are after all these years."
+    ],
+    [
+      "Therapist: How did reliving that affect you physically?",
+      "Client: My heart was racing, and I felt this tightness in my chest. My palms were sweaty, and I noticed I was clenching my jaw. It's remarkable how vivid these sensations still are after all these years.",
+      "Therapist: You're very observant of your reactions."
+    ],
+    [
+      "Client: My heart was racing, and I felt this tightness in my chest. My palms were sweaty, and I noticed I was clenching my jaw. It's remarkable how vivid these sensations still are after all these years.",
+      "Therapist: You're very observant of your reactions.",
+      "Client: I suppose I am. It's a habit I developed in there - being hyper-aware of every little thing. I guess it was a survival mechanism. But now, it's exhausting. Always being on edge, you know? It's like I never fully left that cell."
+    ],
+    [
+      "Therapist: You're very observant of your reactions.",
+      "Client: I suppose I am. It's a habit I developed in there - being hyper-aware of every little thing. I guess it was a survival mechanism. But now, it's exhausting. Always being on edge, you know? It's like I never fully left that cell.",
+      "Therapist: How does this connect to your daily life now?"
+    ],
+    [
+      "Client: I suppose I am. It's a habit I developed in there - being hyper-aware of every little thing. I guess it was a survival mechanism. But now, it's exhausting. Always being on edge, you know? It's like I never fully left that cell.",
+      "Therapist: How does this connect to your daily life now?",
+      "Client: Well, I... I still struggle with enclosed spaces. Even elevators can be challenging. And loud, sudden noises? They send me right back there. It's affected my social life too. I find it hard to trust people, to let them get close. It's like I'm still protecting myself from potential threats."
+    ],
+    [
+      "Therapist: How does this connect to your daily life now?",
+      "Client: Well, I... I still struggle with enclosed spaces. Even elevators can be challenging. And loud, sudden noises? They send me right back there. It's affected my social life too. I find it hard to trust people, to let them get close. It's like I'm still protecting myself from potential threats.",
+      "Therapist: That makes sense. What did you learn today?"
+    ],
+    [
+      "Client: Well, I... I still struggle with enclosed spaces. Even elevators can be challenging. And loud, sudden noises? They send me right back there. It's affected my social life too. I find it hard to trust people, to let them get close. It's like I'm still protecting myself from potential threats.",
+      "Therapist: That makes sense. What did you learn today?",
+      "Client: I realized that while the experience was traumatic, I survived it. I'm here, talking about it. That's... that's something, isn't it? And maybe, just maybe, by facing these memories head-on, I can start to loosen their grip on me."
+    ],
+    [
+      "Therapist: That makes sense. What did you learn today?",
+      "Client: I realized that while the experience was traumatic, I survived it. I'm here, talking about it. That's... that's something, isn't it? And maybe, just maybe, by facing these memories head-on, I can start to loosen their grip on me.",
+      "Therapist: That's a powerful insight. How do you feel about continuing?"
+    ],
+    [
+      "Client: I realized that while the experience was traumatic, I survived it. I'm here, talking about it. That's... that's something, isn't it? And maybe, just maybe, by facing these memories head-on, I can start to loosen their grip on me.",
+      "Therapist: That's a powerful insight. How do you feel about continuing?",
+      "Client: It's difficult, no doubt. But I think... I think I need to do this. For my grandchildren, you know? I want to be present with them, not constantly haunted by the past. It's time I reclaimed my life from these memories."
+    ],
+    [
+      "Therapist: That's a powerful insight. How do you feel about continuing?",
+      "Client: It's difficult, no doubt. But I think... I think I need to do this. For my grandchildren, you know? I want to be present with them, not constantly haunted by the past. It's time I reclaimed my life from these memories.",
+      "Therapist: Your commitment is admirable. What's your takeaway?"
+    ],
+    [
+      "Client: It's difficult, no doubt. But I think... I think I need to do this. For my grandchildren, you know? I want to be present with them, not constantly haunted by the past. It's time I reclaimed my life from these memories.",
+      "Therapist: Your commitment is admirable. What's your takeaway?",
+      "Client: That I'm stronger than I thought. And that maybe, with time and work, I can learn to live with these memories without letting them control me. It's a long road ahead, but for the first time in years, I feel a glimmer of hope."
+    ],
+    [
+      "Therapist: Your commitment is admirable. What's your takeaway?",
+      "Client: That I'm stronger than I thought. And that maybe, with time and work, I can learn to live with these memories without letting them control me. It's a long road ahead, but for the first time in years, I feel a glimmer of hope.",
+      "Therapist: That's excellent progress. How will you care for yourself today?"
+    ],
+    [
+      "Client: That I'm stronger than I thought. And that maybe, with time and work, I can learn to live with these memories without letting them control me. It's a long road ahead, but for the first time in years, I feel a glimmer of hope.",
+      "Therapist: That's excellent progress. How will you care for yourself today?",
+      "Client: I think I'll call my daughter. Her voice always grounds me. And maybe take a walk in the park - being in open spaces helps. Oh, and I'll try that breathing exercise you taught me. It really does help when the anxiety starts creeping in."
+    ],
+    [
+      "Therapist: That's excellent progress. How will you care for yourself today?",
+      "Client: I think I'll call my daughter. Her voice always grounds me. And maybe take a walk in the park - being in open spaces helps. Oh, and I'll try that breathing exercise you taught me. It really does help when the anxiety starts creeping in.",
+      "Therapist: Sounds like a good plan. Any final thoughts?"
+    ],
+    [
+      "Client: I think I'll call my daughter. Her voice always grounds me. And maybe take a walk in the park - being in open spaces helps. Oh, and I'll try that breathing exercise you taught me. It really does help when the anxiety starts creeping in.",
+      "Therapist: Sounds like a good plan. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I'm starting to believe that maybe, just maybe, I can heal from this. And that's... that's everything."
+    ]
+  ]
+}

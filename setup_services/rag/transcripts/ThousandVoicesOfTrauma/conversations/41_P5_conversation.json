@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. Last night, I had trouble sleeping, thinking about this session.",
+    "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. But I'm not entirely sure what that means. Can you explain it to me? I'm feeling a bit apprehensive about the whole thing.",
+    "Therapist: Of course. Imaginal exposure involves revisiting your trauma memory in a safe environment. It helps process the event.",
+    "Client: Revisit the memory? You mean... I have to talk about what happened during the hostage situation at the hospital? I don't know if I can do that. Just thinking about it makes my heart race.",
+    "Therapist: I understand your hesitation. It's a challenging but crucial step. What concerns you most?",
+    "Client: I'm worried that talking about it will make me feel like I'm right back there. What if I can't handle it? What if I have a panic attack? I've worked so hard to avoid thinking about that day.",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that sound?",
+    "Client: It's reassuring to know you'll be there with me. But I'm still scared. Will this really help? I've been trying so hard to forget everything about that day.",
+    "Therapist: Avoidance can actually maintain PTSD symptoms. Facing the memory helps reduce its power over you.",
+    "Client: I never thought of it that way. It's just... every time I remember being trapped in that room, hearing gunshots outside, I feel so helpless and terrified. Will I have to relive all of those feelings?",
+    "Therapist: You may experience some distress, but it typically decreases with each retelling. Your safety here is paramount.",
+    "Client: Okay... I think I understand. So, what exactly will we do? How does this process work?",
+    "Therapist: You'll recount the event in detail, in the present tense. I'll guide you through it gently.",
+    "Client: In the present tense? As if it's happening now? That sounds intense. How long will we do this for? And what if it becomes too much for me?",
+    "Therapist: We'll start with about 30 minutes. You can pause anytime. Remember, you're in control here.",
+    "Client: Alright. I appreciate your guidance. I'm still nervous, but I think I'm ready to try. Is there anything else I should know or prepare for?",
+    "Therapist: Just be open to the experience. Your courage in facing this is commendable. Shall we begin?",
+    "Client: Yes, let's do it. I'm scared, but I trust you. And if this can help me move past the trauma and anxiety I've been living with, then it's worth trying. I'm ready.",
+    "Therapist: Excellent. Take a deep breath. We'll start when you're comfortable."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. Last night, I had trouble sleeping, thinking about this session.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. Last night, I had trouble sleeping, thinking about this session.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But I'm not entirely sure what that means. Can you explain it to me? I'm feeling a bit apprehensive about the whole thing."
+    ],
+    [
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But I'm not entirely sure what that means. Can you explain it to me? I'm feeling a bit apprehensive about the whole thing.",
+      "Therapist: Of course. Imaginal exposure involves revisiting your trauma memory in a safe environment. It helps process the event."
+    ],
+    [
+      "Client: I think so. But I'm not entirely sure what that means. Can you explain it to me? I'm feeling a bit apprehensive about the whole thing.",
+      "Therapist: Of course. Imaginal exposure involves revisiting your trauma memory in a safe environment. It helps process the event.",
+      "Client: Revisit the memory? You mean... I have to talk about what happened during the hostage situation at the hospital? I don't know if I can do that. Just thinking about it makes my heart race."
+    ],
+    [
+      "Therapist: Of course. Imaginal exposure involves revisiting your trauma memory in a safe environment. It helps process the event.",
+      "Client: Revisit the memory? You mean... I have to talk about what happened during the hostage situation at the hospital? I don't know if I can do that. Just thinking about it makes my heart race.",
+      "Therapist: I understand your hesitation. It's a challenging but crucial step. What concerns you most?"
+    ],
+    [
+      "Client: Revisit the memory? You mean... I have to talk about what happened during the hostage situation at the hospital? I don't know if I can do that. Just thinking about it makes my heart race.",
+      "Therapist: I understand your hesitation. It's a challenging but crucial step. What concerns you most?",
+      "Client: I'm worried that talking about it will make me feel like I'm right back there. What if I can't handle it? What if I have a panic attack? I've worked so hard to avoid thinking about that day."
+    ],
+    [
+      "Therapist: I understand your hesitation. It's a challenging but crucial step. What concerns you most?",
+      "Client: I'm worried that talking about it will make me feel like I'm right back there. What if I can't handle it? What if I have a panic attack? I've worked so hard to avoid thinking about that day.",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that sound?"
+    ],
+    [
+      "Client: I'm worried that talking about it will make me feel like I'm right back there. What if I can't handle it? What if I have a panic attack? I've worked so hard to avoid thinking about that day.",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that sound?",
+      "Client: It's reassuring to know you'll be there with me. But I'm still scared. Will this really help? I've been trying so hard to forget everything about that day."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that sound?",
+      "Client: It's reassuring to know you'll be there with me. But I'm still scared. Will this really help? I've been trying so hard to forget everything about that day.",
+      "Therapist: Avoidance can actually maintain PTSD symptoms. Facing the memory helps reduce its power over you."
+    ],
+    [
+      "Client: It's reassuring to know you'll be there with me. But I'm still scared. Will this really help? I've been trying so hard to forget everything about that day.",
+      "Therapist: Avoidance can actually maintain PTSD symptoms. Facing the memory helps reduce its power over you.",
+      "Client: I never thought of it that way. It's just... every time I remember being trapped in that room, hearing gunshots outside, I feel so helpless and terrified. Will I have to relive all of those feelings?"
+    ],
+    [
+      "Therapist: Avoidance can actually maintain PTSD symptoms. Facing the memory helps reduce its power over you.",
+      "Client: I never thought of it that way. It's just... every time I remember being trapped in that room, hearing gunshots outside, I feel so helpless and terrified. Will I have to relive all of those feelings?",
+      "Therapist: You may experience some distress, but it typically decreases with each retelling. Your safety here is paramount."
+    ],
+    [
+      "Client: I never thought of it that way. It's just... every time I remember being trapped in that room, hearing gunshots outside, I feel so helpless and terrified. Will I have to relive all of those feelings?",
+      "Therapist: You may experience some distress, but it typically decreases with each retelling. Your safety here is paramount.",
+      "Client: Okay... I think I understand. So, what exactly will we do? How does this process work?"
+    ],
+    [
+      "Therapist: You may experience some distress, but it typically decreases with each retelling. Your safety here is paramount.",
+      "Client: Okay... I think I understand. So, what exactly will we do? How does this process work?",
+      "Therapist: You'll recount the event in detail, in the present tense. I'll guide you through it gently."
+    ],
+    [
+      "Client: Okay... I think I understand. So, what exactly will we do? How does this process work?",
+      "Therapist: You'll recount the event in detail, in the present tense. I'll guide you through it gently.",
+      "Client: In the present tense? As if it's happening now? That sounds intense. How long will we do this for? And what if it becomes too much for me?"
+    ],
+    [
+      "Therapist: You'll recount the event in detail, in the present tense. I'll guide you through it gently.",
+      "Client: In the present tense? As if it's happening now? That sounds intense. How long will we do this for? And what if it becomes too much for me?",
+      "Therapist: We'll start with about 30 minutes. You can pause anytime. Remember, you're in control here."
+    ],
+    [
+      "Client: In the present tense? As if it's happening now? That sounds intense. How long will we do this for? And what if it becomes too much for me?",
+      "Therapist: We'll start with about 30 minutes. You can pause anytime. Remember, you're in control here.",
+      "Client: Alright. I appreciate your guidance. I'm still nervous, but I think I'm ready to try. Is there anything else I should know or prepare for?"
+    ],
+    [
+      "Therapist: We'll start with about 30 minutes. You can pause anytime. Remember, you're in control here.",
+      "Client: Alright. I appreciate your guidance. I'm still nervous, but I think I'm ready to try. Is there anything else I should know or prepare for?",
+      "Therapist: Just be open to the experience. Your courage in facing this is commendable. Shall we begin?"
+    ],
+    [
+      "Client: Alright. I appreciate your guidance. I'm still nervous, but I think I'm ready to try. Is there anything else I should know or prepare for?",
+      "Therapist: Just be open to the experience. Your courage in facing this is commendable. Shall we begin?",
+      "Client: Yes, let's do it. I'm scared, but I trust you. And if this can help me move past the trauma and anxiety I've been living with, then it's worth trying. I'm ready."
+    ],
+    [
+      "Therapist: Just be open to the experience. Your courage in facing this is commendable. Shall we begin?",
+      "Client: Yes, let's do it. I'm scared, but I trust you. And if this can help me move past the trauma and anxiety I've been living with, then it's worth trying. I'm ready.",
+      "Therapist: Excellent. Take a deep breath. We'll start when you're comfortable."
+    ]
+  ]
+}

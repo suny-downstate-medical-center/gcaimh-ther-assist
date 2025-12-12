@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure. Close your eyes and take us back to that day in combat.",
+    "Client: Okay... I'm there. It's hot, really hot. The sun is beating down on us. We're on patrol in a small village. The streets are narrow, and there are mud-brick buildings on both sides. It's quiet... too quiet.",
+    "Therapist: You're doing well. Continue describing what you see and feel.",
+    "Client: I can smell dust and something burning in the distance. My uniform is sticking to my skin from the sweat. We're all on high alert, weapons ready. Suddenly, there's a loud explosion to our right. My ears are ringing, and I can't hear anything for a moment.",
+    "Therapist: Stay with that moment. What happens next?",
+    "Client: Chaos erupts. People are screaming, but it sounds muffled. I see my squad leader motioning for us to take cover. I dive behind a low wall, my heart pounding so hard I can feel it in my throat.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: I'm trying to steady my breathing, but it's coming in short gasps. I peek over the wall and see smoke billowing from a building. There are people running, civilians mixed with potential hostiles. I can't tell who's who. My hands are shaking as I grip my rifle tighter.",
+    "Therapist: It's okay to feel this way. You're safe here.",
+    "Client: I... I'm not sure I can continue. This is really hard.",
+    "Therapist: I understand. Take a deep breath. You're handling this well.",
+    "Client: Okay... okay. I force myself to focus. Through the smoke, I see a figure emerge. He's carrying something. My training kicks in, and I shout a warning. But it's too late. There's another explosion, closer this time. The blast throws me back, and I feel a sharp pain in my leg.",
+    "Therapist: You're being very brave. Keep going if you can.",
+    "Client: The pain is intense, burning. I look down and see blood soaking through my pants. I'm trying to call for help, but my voice is drowned out by gunfire and more explosions. I feel so helpless, so scared. I don't want to die here.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: I drag myself behind a concrete barrier. My buddy, Johnson, he's there. He's applying a tourniquet to my leg. The pain is excruciating, but I'm relieved to see a friendly face. He's saying something, but I can't hear him over the ringing in my ears.",
+    "Therapist: You're doing an excellent job describing this. How are you feeling right now?",
+    "Client: I'm... I'm shaking. My heart is racing, just like it was then. But I also feel... I don't know, maybe a bit proud? I survived that. It was horrible, but I made it through.",
+    "Therapist: That's a very valid feeling. You showed immense strength.",
+    "Client: Yeah, I guess I did. The memory is still scary, but talking about it... it feels different now. Like I have some control over it.",
+    "Therapist: That's great progress. How do you feel about ending the exposure here?",
+    "Client: I think that would be good. It's exhausting, but I feel like I've accomplished something today.",
+    "Therapist: You absolutely have. Let's take some deep breaths together as we bring you back to the present."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure. Close your eyes and take us back to that day in combat.",
+      "Client: Okay... I'm there. It's hot, really hot. The sun is beating down on us. We're on patrol in a small village. The streets are narrow, and there are mud-brick buildings on both sides. It's quiet... too quiet.",
+      "Therapist: You're doing well. Continue describing what you see and feel."
+    ],
+    [
+      "Client: Okay... I'm there. It's hot, really hot. The sun is beating down on us. We're on patrol in a small village. The streets are narrow, and there are mud-brick buildings on both sides. It's quiet... too quiet.",
+      "Therapist: You're doing well. Continue describing what you see and feel.",
+      "Client: I can smell dust and something burning in the distance. My uniform is sticking to my skin from the sweat. We're all on high alert, weapons ready. Suddenly, there's a loud explosion to our right. My ears are ringing, and I can't hear anything for a moment."
+    ],
+    [
+      "Therapist: You're doing well. Continue describing what you see and feel.",
+      "Client: I can smell dust and something burning in the distance. My uniform is sticking to my skin from the sweat. We're all on high alert, weapons ready. Suddenly, there's a loud explosion to our right. My ears are ringing, and I can't hear anything for a moment.",
+      "Therapist: Stay with that moment. What happens next?"
+    ],
+    [
+      "Client: I can smell dust and something burning in the distance. My uniform is sticking to my skin from the sweat. We're all on high alert, weapons ready. Suddenly, there's a loud explosion to our right. My ears are ringing, and I can't hear anything for a moment.",
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: Chaos erupts. People are screaming, but it sounds muffled. I see my squad leader motioning for us to take cover. I dive behind a low wall, my heart pounding so hard I can feel it in my throat."
+    ],
+    [
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: Chaos erupts. People are screaming, but it sounds muffled. I see my squad leader motioning for us to take cover. I dive behind a low wall, my heart pounding so hard I can feel it in my throat.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Chaos erupts. People are screaming, but it sounds muffled. I see my squad leader motioning for us to take cover. I dive behind a low wall, my heart pounding so hard I can feel it in my throat.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: I'm trying to steady my breathing, but it's coming in short gasps. I peek over the wall and see smoke billowing from a building. There are people running, civilians mixed with potential hostiles. I can't tell who's who. My hands are shaking as I grip my rifle tighter."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: I'm trying to steady my breathing, but it's coming in short gasps. I peek over the wall and see smoke billowing from a building. There are people running, civilians mixed with potential hostiles. I can't tell who's who. My hands are shaking as I grip my rifle tighter.",
+      "Therapist: It's okay to feel this way. You're safe here."
+    ],
+    [
+      "Client: I'm trying to steady my breathing, but it's coming in short gasps. I peek over the wall and see smoke billowing from a building. There are people running, civilians mixed with potential hostiles. I can't tell who's who. My hands are shaking as I grip my rifle tighter.",
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I... I'm not sure I can continue. This is really hard."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I... I'm not sure I can continue. This is really hard.",
+      "Therapist: I understand. Take a deep breath. You're handling this well."
+    ],
+    [
+      "Client: I... I'm not sure I can continue. This is really hard.",
+      "Therapist: I understand. Take a deep breath. You're handling this well.",
+      "Client: Okay... okay. I force myself to focus. Through the smoke, I see a figure emerge. He's carrying something. My training kicks in, and I shout a warning. But it's too late. There's another explosion, closer this time. The blast throws me back, and I feel a sharp pain in my leg."
+    ],
+    [
+      "Therapist: I understand. Take a deep breath. You're handling this well.",
+      "Client: Okay... okay. I force myself to focus. Through the smoke, I see a figure emerge. He's carrying something. My training kicks in, and I shout a warning. But it's too late. There's another explosion, closer this time. The blast throws me back, and I feel a sharp pain in my leg.",
+      "Therapist: You're being very brave. Keep going if you can."
+    ],
+    [
+      "Client: Okay... okay. I force myself to focus. Through the smoke, I see a figure emerge. He's carrying something. My training kicks in, and I shout a warning. But it's too late. There's another explosion, closer this time. The blast throws me back, and I feel a sharp pain in my leg.",
+      "Therapist: You're being very brave. Keep going if you can.",
+      "Client: The pain is intense, burning. I look down and see blood soaking through my pants. I'm trying to call for help, but my voice is drowned out by gunfire and more explosions. I feel so helpless, so scared. I don't want to die here."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going if you can.",
+      "Client: The pain is intense, burning. I look down and see blood soaking through my pants. I'm trying to call for help, but my voice is drowned out by gunfire and more explosions. I feel so helpless, so scared. I don't want to die here.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: The pain is intense, burning. I look down and see blood soaking through my pants. I'm trying to call for help, but my voice is drowned out by gunfire and more explosions. I feel so helpless, so scared. I don't want to die here.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I drag myself behind a concrete barrier. My buddy, Johnson, he's there. He's applying a tourniquet to my leg. The pain is excruciating, but I'm relieved to see a friendly face. He's saying something, but I can't hear him over the ringing in my ears."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I drag myself behind a concrete barrier. My buddy, Johnson, he's there. He's applying a tourniquet to my leg. The pain is excruciating, but I'm relieved to see a friendly face. He's saying something, but I can't hear him over the ringing in my ears.",
+      "Therapist: You're doing an excellent job describing this. How are you feeling right now?"
+    ],
+    [
+      "Client: I drag myself behind a concrete barrier. My buddy, Johnson, he's there. He's applying a tourniquet to my leg. The pain is excruciating, but I'm relieved to see a friendly face. He's saying something, but I can't hear him over the ringing in my ears.",
+      "Therapist: You're doing an excellent job describing this. How are you feeling right now?",
+      "Client: I'm... I'm shaking. My heart is racing, just like it was then. But I also feel... I don't know, maybe a bit proud? I survived that. It was horrible, but I made it through."
+    ],
+    [
+      "Therapist: You're doing an excellent job describing this. How are you feeling right now?",
+      "Client: I'm... I'm shaking. My heart is racing, just like it was then. But I also feel... I don't know, maybe a bit proud? I survived that. It was horrible, but I made it through.",
+      "Therapist: That's a very valid feeling. You showed immense strength."
+    ],
+    [
+      "Client: I'm... I'm shaking. My heart is racing, just like it was then. But I also feel... I don't know, maybe a bit proud? I survived that. It was horrible, but I made it through.",
+      "Therapist: That's a very valid feeling. You showed immense strength.",
+      "Client: Yeah, I guess I did. The memory is still scary, but talking about it... it feels different now. Like I have some control over it."
+    ],
+    [
+      "Therapist: That's a very valid feeling. You showed immense strength.",
+      "Client: Yeah, I guess I did. The memory is still scary, but talking about it... it feels different now. Like I have some control over it.",
+      "Therapist: That's great progress. How do you feel about ending the exposure here?"
+    ],
+    [
+      "Client: Yeah, I guess I did. The memory is still scary, but talking about it... it feels different now. Like I have some control over it.",
+      "Therapist: That's great progress. How do you feel about ending the exposure here?",
+      "Client: I think that would be good. It's exhausting, but I feel like I've accomplished something today."
+    ],
+    [
+      "Therapist: That's great progress. How do you feel about ending the exposure here?",
+      "Client: I think that would be good. It's exhausting, but I feel like I've accomplished something today.",
+      "Therapist: You absolutely have. Let's take some deep breaths together as we bring you back to the present."
+    ]
+  ]
+}

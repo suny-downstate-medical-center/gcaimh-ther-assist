@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after today's imaginal exposure, Mrs. Johnson?",
+    "Client: Oh, it's... it's a lot to process, Dr. Williams. I'm feeling drained, but also... I don't know, maybe a bit lighter? It's hard to explain. Going through that memory of fleeing our village, it brought back so many vivid details I hadn't thought about in years. The sounds of the gunfire in the distance, the smell of smoke... it was all so real again.",
+    "Therapist: What stood out most to you?",
+    "Client: I think... the fear. The overwhelming fear. But also, I noticed something I hadn't before. Despite how terrified we all were, I remember my husband squeezing my hand as we ran. It was like a small moment of... connection, I guess? In all that chaos.",
+    "Therapist: How did that realization make you feel?",
+    "Client: It made me feel... grateful, I suppose. And a little stronger. Like maybe we weren't as helpless as I've always thought. We had each other, at least.",
+    "Therapist: That's a powerful insight. How does it relate to your life now?",
+    "Client: Well, I... I've always felt so alone with these memories, you know? Like no one could understand. But maybe I'm not as alone as I thought. My husband was there too. He understands, even if we don't talk about it much. And here I am, sharing it with you. It's... it's oddly comforting.",
+    "Therapist: You're making important connections. What else?",
+    "Client: I noticed that... well, my heart was racing during the exposure, just like it does when I have those awful nightmares. But this time, I knew I was safe here in your office. It's like... like my body is learning the difference between then and now.",
+    "Therapist: That's excellent progress. How might this help you moving forward?",
+    "Client: I think... maybe I can use that when I'm having a flashback? Remind myself that I'm safe now, that it's just a memory. It's hard, but... maybe it'll get easier with practice?",
+    "Therapist: That's a great strategy. How are you feeling about continuing the exposures?",
+    "Client: I'm... nervous, honestly. It's not easy. But I can see how it might be helping. I want to keep trying. I want to feel... normal again, you know? To not jump at every loud noise or panic when I see crowds. I want to enjoy life with my grandkids without always being on edge.",
+    "Therapist: Your commitment is admirable. Any final thoughts?",
+    "Client: Just... thank you, I guess. For listening, for guiding me through this. It's tough, but... I think I'm starting to see a glimmer of hope. Like maybe I won't always feel this way. That's... that's something worth fighting for, isn't it?",
+    "Therapist: Absolutely. You're doing great work, Mrs. Johnson.",
+    "Client: Thank you, Dr. Williams. I... I'll keep at it. One step at a time, right?",
+    "Therapist: That's right. How about we wrap up for today?",
+    "Client: Yes, that sounds good. I think I need some time to process all of this. It's a lot, but... I'm glad I came. Same time next week?",
+    "Therapist: Yes, see you then. Take care, Mrs. Johnson.",
+    "Client: You too, Dr. Williams. And... thanks again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after today's imaginal exposure, Mrs. Johnson?",
+      "Client: Oh, it's... it's a lot to process, Dr. Williams. I'm feeling drained, but also... I don't know, maybe a bit lighter? It's hard to explain. Going through that memory of fleeing our village, it brought back so many vivid details I hadn't thought about in years. The sounds of the gunfire in the distance, the smell of smoke... it was all so real again.",
+      "Therapist: What stood out most to you?"
+    ],
+    [
+      "Client: Oh, it's... it's a lot to process, Dr. Williams. I'm feeling drained, but also... I don't know, maybe a bit lighter? It's hard to explain. Going through that memory of fleeing our village, it brought back so many vivid details I hadn't thought about in years. The sounds of the gunfire in the distance, the smell of smoke... it was all so real again.",
+      "Therapist: What stood out most to you?",
+      "Client: I think... the fear. The overwhelming fear. But also, I noticed something I hadn't before. Despite how terrified we all were, I remember my husband squeezing my hand as we ran. It was like a small moment of... connection, I guess? In all that chaos."
+    ],
+    [
+      "Therapist: What stood out most to you?",
+      "Client: I think... the fear. The overwhelming fear. But also, I noticed something I hadn't before. Despite how terrified we all were, I remember my husband squeezing my hand as we ran. It was like a small moment of... connection, I guess? In all that chaos.",
+      "Therapist: How did that realization make you feel?"
+    ],
+    [
+      "Client: I think... the fear. The overwhelming fear. But also, I noticed something I hadn't before. Despite how terrified we all were, I remember my husband squeezing my hand as we ran. It was like a small moment of... connection, I guess? In all that chaos.",
+      "Therapist: How did that realization make you feel?",
+      "Client: It made me feel... grateful, I suppose. And a little stronger. Like maybe we weren't as helpless as I've always thought. We had each other, at least."
+    ],
+    [
+      "Therapist: How did that realization make you feel?",
+      "Client: It made me feel... grateful, I suppose. And a little stronger. Like maybe we weren't as helpless as I've always thought. We had each other, at least.",
+      "Therapist: That's a powerful insight. How does it relate to your life now?"
+    ],
+    [
+      "Client: It made me feel... grateful, I suppose. And a little stronger. Like maybe we weren't as helpless as I've always thought. We had each other, at least.",
+      "Therapist: That's a powerful insight. How does it relate to your life now?",
+      "Client: Well, I... I've always felt so alone with these memories, you know? Like no one could understand. But maybe I'm not as alone as I thought. My husband was there too. He understands, even if we don't talk about it much. And here I am, sharing it with you. It's... it's oddly comforting."
+    ],
+    [
+      "Therapist: That's a powerful insight. How does it relate to your life now?",
+      "Client: Well, I... I've always felt so alone with these memories, you know? Like no one could understand. But maybe I'm not as alone as I thought. My husband was there too. He understands, even if we don't talk about it much. And here I am, sharing it with you. It's... it's oddly comforting.",
+      "Therapist: You're making important connections. What else?"
+    ],
+    [
+      "Client: Well, I... I've always felt so alone with these memories, you know? Like no one could understand. But maybe I'm not as alone as I thought. My husband was there too. He understands, even if we don't talk about it much. And here I am, sharing it with you. It's... it's oddly comforting.",
+      "Therapist: You're making important connections. What else?",
+      "Client: I noticed that... well, my heart was racing during the exposure, just like it does when I have those awful nightmares. But this time, I knew I was safe here in your office. It's like... like my body is learning the difference between then and now."
+    ],
+    [
+      "Therapist: You're making important connections. What else?",
+      "Client: I noticed that... well, my heart was racing during the exposure, just like it does when I have those awful nightmares. But this time, I knew I was safe here in your office. It's like... like my body is learning the difference between then and now.",
+      "Therapist: That's excellent progress. How might this help you moving forward?"
+    ],
+    [
+      "Client: I noticed that... well, my heart was racing during the exposure, just like it does when I have those awful nightmares. But this time, I knew I was safe here in your office. It's like... like my body is learning the difference between then and now.",
+      "Therapist: That's excellent progress. How might this help you moving forward?",
+      "Client: I think... maybe I can use that when I'm having a flashback? Remind myself that I'm safe now, that it's just a memory. It's hard, but... maybe it'll get easier with practice?"
+    ],
+    [
+      "Therapist: That's excellent progress. How might this help you moving forward?",
+      "Client: I think... maybe I can use that when I'm having a flashback? Remind myself that I'm safe now, that it's just a memory. It's hard, but... maybe it'll get easier with practice?",
+      "Therapist: That's a great strategy. How are you feeling about continuing the exposures?"
+    ],
+    [
+      "Client: I think... maybe I can use that when I'm having a flashback? Remind myself that I'm safe now, that it's just a memory. It's hard, but... maybe it'll get easier with practice?",
+      "Therapist: That's a great strategy. How are you feeling about continuing the exposures?",
+      "Client: I'm... nervous, honestly. It's not easy. But I can see how it might be helping. I want to keep trying. I want to feel... normal again, you know? To not jump at every loud noise or panic when I see crowds. I want to enjoy life with my grandkids without always being on edge."
+    ],
+    [
+      "Therapist: That's a great strategy. How are you feeling about continuing the exposures?",
+      "Client: I'm... nervous, honestly. It's not easy. But I can see how it might be helping. I want to keep trying. I want to feel... normal again, you know? To not jump at every loud noise or panic when I see crowds. I want to enjoy life with my grandkids without always being on edge.",
+      "Therapist: Your commitment is admirable. Any final thoughts?"
+    ],
+    [
+      "Client: I'm... nervous, honestly. It's not easy. But I can see how it might be helping. I want to keep trying. I want to feel... normal again, you know? To not jump at every loud noise or panic when I see crowds. I want to enjoy life with my grandkids without always being on edge.",
+      "Therapist: Your commitment is admirable. Any final thoughts?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's tough, but... I think I'm starting to see a glimmer of hope. Like maybe I won't always feel this way. That's... that's something worth fighting for, isn't it?"
+    ],
+    [
+      "Therapist: Your commitment is admirable. Any final thoughts?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's tough, but... I think I'm starting to see a glimmer of hope. Like maybe I won't always feel this way. That's... that's something worth fighting for, isn't it?",
+      "Therapist: Absolutely. You're doing great work, Mrs. Johnson."
+    ],
+    [
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's tough, but... I think I'm starting to see a glimmer of hope. Like maybe I won't always feel this way. That's... that's something worth fighting for, isn't it?",
+      "Therapist: Absolutely. You're doing great work, Mrs. Johnson.",
+      "Client: Thank you, Dr. Williams. I... I'll keep at it. One step at a time, right?"
+    ],
+    [
+      "Therapist: Absolutely. You're doing great work, Mrs. Johnson.",
+      "Client: Thank you, Dr. Williams. I... I'll keep at it. One step at a time, right?",
+      "Therapist: That's right. How about we wrap up for today?"
+    ],
+    [
+      "Client: Thank you, Dr. Williams. I... I'll keep at it. One step at a time, right?",
+      "Therapist: That's right. How about we wrap up for today?",
+      "Client: Yes, that sounds good. I think I need some time to process all of this. It's a lot, but... I'm glad I came. Same time next week?"
+    ],
+    [
+      "Therapist: That's right. How about we wrap up for today?",
+      "Client: Yes, that sounds good. I think I need some time to process all of this. It's a lot, but... I'm glad I came. Same time next week?",
+      "Therapist: Yes, see you then. Take care, Mrs. Johnson."
+    ],
+    [
+      "Client: Yes, that sounds good. I think I need some time to process all of this. It's a lot, but... I'm glad I came. Same time next week?",
+      "Therapist: Yes, see you then. Take care, Mrs. Johnson.",
+      "Client: You too, Dr. Williams. And... thanks again."
+    ]
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+    "Therapist: I understand. It's natural to feel apprehensive. Today, we'll begin imaginal exposure. How familiar are you with this?",
+    "Client: Not very. I mean, I know we've talked about it before, but I'm still not entirely sure what to expect. Is it going to be like reliving everything? Because I don't know if I can handle that right now.",
+    "Therapist: It's a gradual process. We'll start slowly. Can you share your main concerns?",
+    "Client: I'm afraid of losing control. What if I completely break down? Or what if I can't stop thinking about it afterward? I've worked so hard to keep these memories at bay, and now it feels like we're deliberately bringing them back.",
+    "Therapist: Those are valid concerns. How would you feel about discussing some coping strategies first?",
+    "Client: That would help, I think. I've been trying some breathing exercises at home, but sometimes they're not enough when the memories get really intense. Do you have any other suggestions?",
+    "Therapist: Grounding techniques can be helpful. Shall we practice one now?",
+    "Client: Yes, please. I'm willing to try anything that might make this easier. It's just... the idea of purposely thinking about what happened makes me feel so vulnerable. I've spent years trying to be strong, you know?",
+    "Therapist: I appreciate your courage. Remember, you're in control here. Ready to learn a quick grounding exercise?",
+    "Client: Okay, I'm ready. And thank you for saying that about being in control. It helps to hear that, even if I don't fully believe it yet. What's the exercise?",
+    "Therapist: Focus on five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste.",
+    "Client: (Takes a deep breath) Alright, I see your plant, the painting, my shoes, the clock, and the tissue box. I can touch the armchair, my necklace, my clothes, and my hair. I hear the clock ticking, cars outside, and... my own breathing. I smell coffee and maybe some kind of air freshener. And I can taste... the mint from the gum I had earlier. Wow, that actually does help a bit. It's like it brings me back to the present.",
+    "Therapist: Excellent. How do you feel now?",
+    "Client: A little calmer, actually. It's like it shifted my focus away from the anxiety for a moment. Is this something we'll be using during the exposure?",
+    "Therapist: Yes, we can use this anytime you need. Shall we discuss the exposure process?",
+    "Client: Okay, I think I'm ready now. Can you tell me exactly what's going to happen? And... will you be there the whole time?",
+    "Therapist: I'll be here throughout. We'll start with a brief recounting of the event. You're in control of the pace.",
+    "Client: That's reassuring. I'm still scared, but knowing you'll be here helps. How long will it last? And what if I need to stop?",
+    "Therapist: We'll aim for about 30 minutes, but can adjust. You can pause anytime. How does that sound?",
+    "Client: Thirty minutes sounds like a long time, but I guess we need that to really work through it. It's good to know I can pause if it gets too overwhelming. Will we be doing this every session from now on?",
+    "Therapist: Not every session, but regularly. We'll gradually increase exposure time. Any other questions?",
+    "Client: I think I understand the process better now. I'm still nervous, but I also feel a bit more prepared. One last thing - will this really help with my nightmares and anxiety? It's hard to believe that talking about it more will make it better.",
+    "Therapist: Many find it reduces symptoms over time. It's challenging but often effective. Ready to begin?",
+    "Client: (Takes a deep breath) Okay. I'm as ready as I'll ever be. Let's do this. Just... please remind me to breathe if I look like I'm getting too overwhelmed, alright?",
+    "Therapist: Absolutely. Your bravery is commendable. Let's start with a deep breath together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+      "Therapist: I understand. It's natural to feel apprehensive. Today, we'll begin imaginal exposure. How familiar are you with this?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+      "Therapist: I understand. It's natural to feel apprehensive. Today, we'll begin imaginal exposure. How familiar are you with this?",
+      "Client: Not very. I mean, I know we've talked about it before, but I'm still not entirely sure what to expect. Is it going to be like reliving everything? Because I don't know if I can handle that right now."
+    ],
+    [
+      "Therapist: I understand. It's natural to feel apprehensive. Today, we'll begin imaginal exposure. How familiar are you with this?",
+      "Client: Not very. I mean, I know we've talked about it before, but I'm still not entirely sure what to expect. Is it going to be like reliving everything? Because I don't know if I can handle that right now.",
+      "Therapist: It's a gradual process. We'll start slowly. Can you share your main concerns?"
+    ],
+    [
+      "Client: Not very. I mean, I know we've talked about it before, but I'm still not entirely sure what to expect. Is it going to be like reliving everything? Because I don't know if I can handle that right now.",
+      "Therapist: It's a gradual process. We'll start slowly. Can you share your main concerns?",
+      "Client: I'm afraid of losing control. What if I completely break down? Or what if I can't stop thinking about it afterward? I've worked so hard to keep these memories at bay, and now it feels like we're deliberately bringing them back."
+    ],
+    [
+      "Therapist: It's a gradual process. We'll start slowly. Can you share your main concerns?",
+      "Client: I'm afraid of losing control. What if I completely break down? Or what if I can't stop thinking about it afterward? I've worked so hard to keep these memories at bay, and now it feels like we're deliberately bringing them back.",
+      "Therapist: Those are valid concerns. How would you feel about discussing some coping strategies first?"
+    ],
+    [
+      "Client: I'm afraid of losing control. What if I completely break down? Or what if I can't stop thinking about it afterward? I've worked so hard to keep these memories at bay, and now it feels like we're deliberately bringing them back.",
+      "Therapist: Those are valid concerns. How would you feel about discussing some coping strategies first?",
+      "Client: That would help, I think. I've been trying some breathing exercises at home, but sometimes they're not enough when the memories get really intense. Do you have any other suggestions?"
+    ],
+    [
+      "Therapist: Those are valid concerns. How would you feel about discussing some coping strategies first?",
+      "Client: That would help, I think. I've been trying some breathing exercises at home, but sometimes they're not enough when the memories get really intense. Do you have any other suggestions?",
+      "Therapist: Grounding techniques can be helpful. Shall we practice one now?"
+    ],
+    [
+      "Client: That would help, I think. I've been trying some breathing exercises at home, but sometimes they're not enough when the memories get really intense. Do you have any other suggestions?",
+      "Therapist: Grounding techniques can be helpful. Shall we practice one now?",
+      "Client: Yes, please. I'm willing to try anything that might make this easier. It's just... the idea of purposely thinking about what happened makes me feel so vulnerable. I've spent years trying to be strong, you know?"
+    ],
+    [
+      "Therapist: Grounding techniques can be helpful. Shall we practice one now?",
+      "Client: Yes, please. I'm willing to try anything that might make this easier. It's just... the idea of purposely thinking about what happened makes me feel so vulnerable. I've spent years trying to be strong, you know?",
+      "Therapist: I appreciate your courage. Remember, you're in control here. Ready to learn a quick grounding exercise?"
+    ],
+    [
+      "Client: Yes, please. I'm willing to try anything that might make this easier. It's just... the idea of purposely thinking about what happened makes me feel so vulnerable. I've spent years trying to be strong, you know?",
+      "Therapist: I appreciate your courage. Remember, you're in control here. Ready to learn a quick grounding exercise?",
+      "Client: Okay, I'm ready. And thank you for saying that about being in control. It helps to hear that, even if I don't fully believe it yet. What's the exercise?"
+    ],
+    [
+      "Therapist: I appreciate your courage. Remember, you're in control here. Ready to learn a quick grounding exercise?",
+      "Client: Okay, I'm ready. And thank you for saying that about being in control. It helps to hear that, even if I don't fully believe it yet. What's the exercise?",
+      "Therapist: Focus on five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste."
+    ],
+    [
+      "Client: Okay, I'm ready. And thank you for saying that about being in control. It helps to hear that, even if I don't fully believe it yet. What's the exercise?",
+      "Therapist: Focus on five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste.",
+      "Client: (Takes a deep breath) Alright, I see your plant, the painting, my shoes, the clock, and the tissue box. I can touch the armchair, my necklace, my clothes, and my hair. I hear the clock ticking, cars outside, and... my own breathing. I smell coffee and maybe some kind of air freshener. And I can taste... the mint from the gum I had earlier. Wow, that actually does help a bit. It's like it brings me back to the present."
+    ],
+    [
+      "Therapist: Focus on five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste.",
+      "Client: (Takes a deep breath) Alright, I see your plant, the painting, my shoes, the clock, and the tissue box. I can touch the armchair, my necklace, my clothes, and my hair. I hear the clock ticking, cars outside, and... my own breathing. I smell coffee and maybe some kind of air freshener. And I can taste... the mint from the gum I had earlier. Wow, that actually does help a bit. It's like it brings me back to the present.",
+      "Therapist: Excellent. How do you feel now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Alright, I see your plant, the painting, my shoes, the clock, and the tissue box. I can touch the armchair, my necklace, my clothes, and my hair. I hear the clock ticking, cars outside, and... my own breathing. I smell coffee and maybe some kind of air freshener. And I can taste... the mint from the gum I had earlier. Wow, that actually does help a bit. It's like it brings me back to the present.",
+      "Therapist: Excellent. How do you feel now?",
+      "Client: A little calmer, actually. It's like it shifted my focus away from the anxiety for a moment. Is this something we'll be using during the exposure?"
+    ],
+    [
+      "Therapist: Excellent. How do you feel now?",
+      "Client: A little calmer, actually. It's like it shifted my focus away from the anxiety for a moment. Is this something we'll be using during the exposure?",
+      "Therapist: Yes, we can use this anytime you need. Shall we discuss the exposure process?"
+    ],
+    [
+      "Client: A little calmer, actually. It's like it shifted my focus away from the anxiety for a moment. Is this something we'll be using during the exposure?",
+      "Therapist: Yes, we can use this anytime you need. Shall we discuss the exposure process?",
+      "Client: Okay, I think I'm ready now. Can you tell me exactly what's going to happen? And... will you be there the whole time?"
+    ],
+    [
+      "Therapist: Yes, we can use this anytime you need. Shall we discuss the exposure process?",
+      "Client: Okay, I think I'm ready now. Can you tell me exactly what's going to happen? And... will you be there the whole time?",
+      "Therapist: I'll be here throughout. We'll start with a brief recounting of the event. You're in control of the pace."
+    ],
+    [
+      "Client: Okay, I think I'm ready now. Can you tell me exactly what's going to happen? And... will you be there the whole time?",
+      "Therapist: I'll be here throughout. We'll start with a brief recounting of the event. You're in control of the pace.",
+      "Client: That's reassuring. I'm still scared, but knowing you'll be here helps. How long will it last? And what if I need to stop?"
+    ],
+    [
+      "Therapist: I'll be here throughout. We'll start with a brief recounting of the event. You're in control of the pace.",
+      "Client: That's reassuring. I'm still scared, but knowing you'll be here helps. How long will it last? And what if I need to stop?",
+      "Therapist: We'll aim for about 30 minutes, but can adjust. You can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: That's reassuring. I'm still scared, but knowing you'll be here helps. How long will it last? And what if I need to stop?",
+      "Therapist: We'll aim for about 30 minutes, but can adjust. You can pause anytime. How does that sound?",
+      "Client: Thirty minutes sounds like a long time, but I guess we need that to really work through it. It's good to know I can pause if it gets too overwhelming. Will we be doing this every session from now on?"
+    ],
+    [
+      "Therapist: We'll aim for about 30 minutes, but can adjust. You can pause anytime. How does that sound?",
+      "Client: Thirty minutes sounds like a long time, but I guess we need that to really work through it. It's good to know I can pause if it gets too overwhelming. Will we be doing this every session from now on?",
+      "Therapist: Not every session, but regularly. We'll gradually increase exposure time. Any other questions?"
+    ],
+    [
+      "Client: Thirty minutes sounds like a long time, but I guess we need that to really work through it. It's good to know I can pause if it gets too overwhelming. Will we be doing this every session from now on?",
+      "Therapist: Not every session, but regularly. We'll gradually increase exposure time. Any other questions?",
+      "Client: I think I understand the process better now. I'm still nervous, but I also feel a bit more prepared. One last thing - will this really help with my nightmares and anxiety? It's hard to believe that talking about it more will make it better."
+    ],
+    [
+      "Therapist: Not every session, but regularly. We'll gradually increase exposure time. Any other questions?",
+      "Client: I think I understand the process better now. I'm still nervous, but I also feel a bit more prepared. One last thing - will this really help with my nightmares and anxiety? It's hard to believe that talking about it more will make it better.",
+      "Therapist: Many find it reduces symptoms over time. It's challenging but often effective. Ready to begin?"
+    ],
+    [
+      "Client: I think I understand the process better now. I'm still nervous, but I also feel a bit more prepared. One last thing - will this really help with my nightmares and anxiety? It's hard to believe that talking about it more will make it better.",
+      "Therapist: Many find it reduces symptoms over time. It's challenging but often effective. Ready to begin?",
+      "Client: (Takes a deep breath) Okay. I'm as ready as I'll ever be. Let's do this. Just... please remind me to breathe if I look like I'm getting too overwhelmed, alright?"
+    ],
+    [
+      "Therapist: Many find it reduces symptoms over time. It's challenging but often effective. Ready to begin?",
+      "Client: (Takes a deep breath) Okay. I'm as ready as I'll ever be. Let's do this. Just... please remind me to breathe if I look like I'm getting too overwhelmed, alright?",
+      "Therapist: Absolutely. Your bravery is commendable. Let's start with a deep breath together."
+    ]
+  ]
+}

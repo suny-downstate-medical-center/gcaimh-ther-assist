@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Johnson, today we'll start imaginal exposure. How are you feeling about this?",
+    "Client: Oh, Dr. Thompson, I'm not sure. The idea of revisiting that awful night... it makes my heart race. I've spent so much time trying to forget it all. Why do we need to bring it up again?",
+    "Therapist: I understand your concern. This technique helps process the memory. Are you ready to try?",
+    "Client: I suppose so, but I'm scared. What if I can't handle it? I'm not as young as I used to be, you know. And with my anxiety... well, it's all a bit overwhelming.",
+    "Therapist: Your feelings are valid. We'll go at your pace. What questions do you have?",
+    "Client: Well, what exactly will happen? Will I have to close my eyes and relive everything? I'm worried I might get too upset or have one of my anxiety attacks. And... I'm a bit embarrassed, but what if I cry? I don't usually like to show such emotions.",
+    "Therapist: It's okay to show emotions. We'll start slowly and can pause anytime. How does that sound?",
+    "Client: That's a relief to hear. I appreciate your patience with me, Dr. Thompson. I know I can be a bit difficult sometimes. It's just... this whole experience has shaken me to my core. I never thought at my age I'd be dealing with something like this. But if you think this will help, I'll give it my best effort.",
+    "Therapist: Your willingness is commendable. Remember, this helps reduce PTSD symptoms over time.",
+    "Client: I hope so. It's been affecting every aspect of my life. My husband tries to understand, but I can see it's wearing on him too. And our grandchildren... I used to love when they'd visit, but now I'm always on edge, worried something might happen. I want to feel safe in my own home again. If this can help with that, then I'm willing to face my fears.",
+    "Therapist: That's a brave attitude. Shall we begin? We can stop anytime you need.",
+    "Client: Alright, I'm as ready as I'll ever be. But please, if you see me getting too distressed, don't hesitate to intervene. I trust you, Dr. Thompson, but I'm still nervous about this whole process. Let's give it a try.",
+    "Therapist: Of course. We'll start gently. Close your eyes when you're comfortable.",
+    "Client: Okay, here goes. My eyes are closed. My goodness, I can feel my heart pounding already. But I'm trying to stay calm. What should I do now?",
+    "Therapist: Take a deep breath. Imagine that night. Describe what you see.",
+    "Client: I... I see our front door. It's late, past midnight. The house is dark and quiet. My husband is asleep upstairs. I'm in the kitchen, getting a glass of water. Then... then I hear a noise. Oh, Dr. Thompson, I don't know if I can do this...",
+    "Therapist: You're doing well. Remember, you're safe here. Continue when ready.",
+    "Client: Thank you. I'm trying to breathe... Okay. I hear the noise again. It's coming from the back door. I freeze, my glass still in my hand. Then there's a loud crash and I know someone's broken in. I want to run, to scream, but I'm paralyzed with fear. I can hear footsteps..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Johnson, today we'll start imaginal exposure. How are you feeling about this?",
+      "Client: Oh, Dr. Thompson, I'm not sure. The idea of revisiting that awful night... it makes my heart race. I've spent so much time trying to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your concern. This technique helps process the memory. Are you ready to try?"
+    ],
+    [
+      "Client: Oh, Dr. Thompson, I'm not sure. The idea of revisiting that awful night... it makes my heart race. I've spent so much time trying to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your concern. This technique helps process the memory. Are you ready to try?",
+      "Client: I suppose so, but I'm scared. What if I can't handle it? I'm not as young as I used to be, you know. And with my anxiety... well, it's all a bit overwhelming."
+    ],
+    [
+      "Therapist: I understand your concern. This technique helps process the memory. Are you ready to try?",
+      "Client: I suppose so, but I'm scared. What if I can't handle it? I'm not as young as I used to be, you know. And with my anxiety... well, it's all a bit overwhelming.",
+      "Therapist: Your feelings are valid. We'll go at your pace. What questions do you have?"
+    ],
+    [
+      "Client: I suppose so, but I'm scared. What if I can't handle it? I'm not as young as I used to be, you know. And with my anxiety... well, it's all a bit overwhelming.",
+      "Therapist: Your feelings are valid. We'll go at your pace. What questions do you have?",
+      "Client: Well, what exactly will happen? Will I have to close my eyes and relive everything? I'm worried I might get too upset or have one of my anxiety attacks. And... I'm a bit embarrassed, but what if I cry? I don't usually like to show such emotions."
+    ],
+    [
+      "Therapist: Your feelings are valid. We'll go at your pace. What questions do you have?",
+      "Client: Well, what exactly will happen? Will I have to close my eyes and relive everything? I'm worried I might get too upset or have one of my anxiety attacks. And... I'm a bit embarrassed, but what if I cry? I don't usually like to show such emotions.",
+      "Therapist: It's okay to show emotions. We'll start slowly and can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: Well, what exactly will happen? Will I have to close my eyes and relive everything? I'm worried I might get too upset or have one of my anxiety attacks. And... I'm a bit embarrassed, but what if I cry? I don't usually like to show such emotions.",
+      "Therapist: It's okay to show emotions. We'll start slowly and can pause anytime. How does that sound?",
+      "Client: That's a relief to hear. I appreciate your patience with me, Dr. Thompson. I know I can be a bit difficult sometimes. It's just... this whole experience has shaken me to my core. I never thought at my age I'd be dealing with something like this. But if you think this will help, I'll give it my best effort."
+    ],
+    [
+      "Therapist: It's okay to show emotions. We'll start slowly and can pause anytime. How does that sound?",
+      "Client: That's a relief to hear. I appreciate your patience with me, Dr. Thompson. I know I can be a bit difficult sometimes. It's just... this whole experience has shaken me to my core. I never thought at my age I'd be dealing with something like this. But if you think this will help, I'll give it my best effort.",
+      "Therapist: Your willingness is commendable. Remember, this helps reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: That's a relief to hear. I appreciate your patience with me, Dr. Thompson. I know I can be a bit difficult sometimes. It's just... this whole experience has shaken me to my core. I never thought at my age I'd be dealing with something like this. But if you think this will help, I'll give it my best effort.",
+      "Therapist: Your willingness is commendable. Remember, this helps reduce PTSD symptoms over time.",
+      "Client: I hope so. It's been affecting every aspect of my life. My husband tries to understand, but I can see it's wearing on him too. And our grandchildren... I used to love when they'd visit, but now I'm always on edge, worried something might happen. I want to feel safe in my own home again. If this can help with that, then I'm willing to face my fears."
+    ],
+    [
+      "Therapist: Your willingness is commendable. Remember, this helps reduce PTSD symptoms over time.",
+      "Client: I hope so. It's been affecting every aspect of my life. My husband tries to understand, but I can see it's wearing on him too. And our grandchildren... I used to love when they'd visit, but now I'm always on edge, worried something might happen. I want to feel safe in my own home again. If this can help with that, then I'm willing to face my fears.",
+      "Therapist: That's a brave attitude. Shall we begin? We can stop anytime you need."
+    ],
+    [
+      "Client: I hope so. It's been affecting every aspect of my life. My husband tries to understand, but I can see it's wearing on him too. And our grandchildren... I used to love when they'd visit, but now I'm always on edge, worried something might happen. I want to feel safe in my own home again. If this can help with that, then I'm willing to face my fears.",
+      "Therapist: That's a brave attitude. Shall we begin? We can stop anytime you need.",
+      "Client: Alright, I'm as ready as I'll ever be. But please, if you see me getting too distressed, don't hesitate to intervene. I trust you, Dr. Thompson, but I'm still nervous about this whole process. Let's give it a try."
+    ],
+    [
+      "Therapist: That's a brave attitude. Shall we begin? We can stop anytime you need.",
+      "Client: Alright, I'm as ready as I'll ever be. But please, if you see me getting too distressed, don't hesitate to intervene. I trust you, Dr. Thompson, but I'm still nervous about this whole process. Let's give it a try.",
+      "Therapist: Of course. We'll start gently. Close your eyes when you're comfortable."
+    ],
+    [
+      "Client: Alright, I'm as ready as I'll ever be. But please, if you see me getting too distressed, don't hesitate to intervene. I trust you, Dr. Thompson, but I'm still nervous about this whole process. Let's give it a try.",
+      "Therapist: Of course. We'll start gently. Close your eyes when you're comfortable.",
+      "Client: Okay, here goes. My eyes are closed. My goodness, I can feel my heart pounding already. But I'm trying to stay calm. What should I do now?"
+    ],
+    [
+      "Therapist: Of course. We'll start gently. Close your eyes when you're comfortable.",
+      "Client: Okay, here goes. My eyes are closed. My goodness, I can feel my heart pounding already. But I'm trying to stay calm. What should I do now?",
+      "Therapist: Take a deep breath. Imagine that night. Describe what you see."
+    ],
+    [
+      "Client: Okay, here goes. My eyes are closed. My goodness, I can feel my heart pounding already. But I'm trying to stay calm. What should I do now?",
+      "Therapist: Take a deep breath. Imagine that night. Describe what you see.",
+      "Client: I... I see our front door. It's late, past midnight. The house is dark and quiet. My husband is asleep upstairs. I'm in the kitchen, getting a glass of water. Then... then I hear a noise. Oh, Dr. Thompson, I don't know if I can do this..."
+    ],
+    [
+      "Therapist: Take a deep breath. Imagine that night. Describe what you see.",
+      "Client: I... I see our front door. It's late, past midnight. The house is dark and quiet. My husband is asleep upstairs. I'm in the kitchen, getting a glass of water. Then... then I hear a noise. Oh, Dr. Thompson, I don't know if I can do this...",
+      "Therapist: You're doing well. Remember, you're safe here. Continue when ready."
+    ],
+    [
+      "Client: I... I see our front door. It's late, past midnight. The house is dark and quiet. My husband is asleep upstairs. I'm in the kitchen, getting a glass of water. Then... then I hear a noise. Oh, Dr. Thompson, I don't know if I can do this...",
+      "Therapist: You're doing well. Remember, you're safe here. Continue when ready.",
+      "Client: Thank you. I'm trying to breathe... Okay. I hear the noise again. It's coming from the back door. I freeze, my glass still in my hand. Then there's a loud crash and I know someone's broken in. I want to run, to scream, but I'm paralyzed with fear. I can hear footsteps..."
+    ]
+  ]
+}

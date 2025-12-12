@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, John. How are you feeling today?",
+    "Client: Morning, Dr. Sanders. I'm... I'm alright, I suppose. A bit on edge, to be honest. These sessions always make me nervous, even though I know they're meant to help.",
+    "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: I'm not sure. What exactly does that mean? It sounds... intense.",
+    "Therapist: It involves revisiting your combat experience in your mind. We'll go slowly.",
+    "Client: (Takes a deep breath) Okay... I guess I'm as ready as I'll ever be. It's just... thinking about those experiences, it brings everything back so vividly. Sometimes I feel like I'm right back there, you know?",
+    "Therapist: That's normal. We'll work through it together. Any questions?",
+    "Client: Yeah, actually. Will this make my nightmares worse? I've been having trouble sleeping as it is, and I'm worried this might... I don't know, intensify things.",
+    "Therapist: It may be challenging initially, but it often improves sleep long-term.",
+    "Client: I see. That's... that's good to know. I'm willing to try if it means I might finally get some restful sleep. It's been years since I've had a good night's rest without... without seeing their faces or hearing the explosions.",
+    "Therapist: Your courage is admirable. This process helps reduce PTSD symptoms over time.",
+    "Client: Thank you. I appreciate that. It's been a long road since I lost my wife. She was always my rock, you know? Dealing with all this without her has been... well, it's been hell, to be honest. But I'm trying to move forward, for her sake as much as mine.",
+    "Therapist: I understand. We'll take it step by step. Ready to begin?",
+    "Client: (Nods slowly) Yeah, I think so. Just... just promise me you'll be here the whole time? I know it sounds silly, but I don't want to feel alone when I'm... when I'm back there in my mind.",
+    "Therapist: Absolutely. I'll be right here with you throughout the process.",
+    "Client: Okay. (Takes another deep breath) Let's do this then. I trust you, Dr. Sanders. And I guess... I guess I need to start trusting myself too, right? To get through this?",
+    "Therapist: That's right, John. Trust is crucial. Shall we start?",
+    "Client: Yes, let's start. I'm nervous, but I'm also... I don't know, maybe a little hopeful? It's been a while since I've felt that. So, what do I do first?",
+    "Therapist: Close your eyes. Breathe deeply. We'll begin with a recent memory.",
+    "Client: (Closes eyes, breathes deeply) Alright. I'm ready. I'm... I'm thinking of a night last week. I was... I was having a particularly bad flashback. Is that okay to start with?",
+    "Therapist: That's perfect. Describe what you see and feel.",
+    "Client: (Voice trembling slightly) I see... I see the desert. It's night, but there's a full moon. The air is thick with dust and... and the smell of gunpowder. I can hear distant explosions and... and screaming. My heart is racing, just like it was that night..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, John. How are you feeling today?",
+      "Client: Morning, Dr. Sanders. I'm... I'm alright, I suppose. A bit on edge, to be honest. These sessions always make me nervous, even though I know they're meant to help.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: Morning, Dr. Sanders. I'm... I'm alright, I suppose. A bit on edge, to be honest. These sessions always make me nervous, even though I know they're meant to help.",
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that mean? It sounds... intense."
+    ],
+    [
+      "Therapist: That's understandable. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that mean? It sounds... intense.",
+      "Therapist: It involves revisiting your combat experience in your mind. We'll go slowly."
+    ],
+    [
+      "Client: I'm not sure. What exactly does that mean? It sounds... intense.",
+      "Therapist: It involves revisiting your combat experience in your mind. We'll go slowly.",
+      "Client: (Takes a deep breath) Okay... I guess I'm as ready as I'll ever be. It's just... thinking about those experiences, it brings everything back so vividly. Sometimes I feel like I'm right back there, you know?"
+    ],
+    [
+      "Therapist: It involves revisiting your combat experience in your mind. We'll go slowly.",
+      "Client: (Takes a deep breath) Okay... I guess I'm as ready as I'll ever be. It's just... thinking about those experiences, it brings everything back so vividly. Sometimes I feel like I'm right back there, you know?",
+      "Therapist: That's normal. We'll work through it together. Any questions?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I guess I'm as ready as I'll ever be. It's just... thinking about those experiences, it brings everything back so vividly. Sometimes I feel like I'm right back there, you know?",
+      "Therapist: That's normal. We'll work through it together. Any questions?",
+      "Client: Yeah, actually. Will this make my nightmares worse? I've been having trouble sleeping as it is, and I'm worried this might... I don't know, intensify things."
+    ],
+    [
+      "Therapist: That's normal. We'll work through it together. Any questions?",
+      "Client: Yeah, actually. Will this make my nightmares worse? I've been having trouble sleeping as it is, and I'm worried this might... I don't know, intensify things.",
+      "Therapist: It may be challenging initially, but it often improves sleep long-term."
+    ],
+    [
+      "Client: Yeah, actually. Will this make my nightmares worse? I've been having trouble sleeping as it is, and I'm worried this might... I don't know, intensify things.",
+      "Therapist: It may be challenging initially, but it often improves sleep long-term.",
+      "Client: I see. That's... that's good to know. I'm willing to try if it means I might finally get some restful sleep. It's been years since I've had a good night's rest without... without seeing their faces or hearing the explosions."
+    ],
+    [
+      "Therapist: It may be challenging initially, but it often improves sleep long-term.",
+      "Client: I see. That's... that's good to know. I'm willing to try if it means I might finally get some restful sleep. It's been years since I've had a good night's rest without... without seeing their faces or hearing the explosions.",
+      "Therapist: Your courage is admirable. This process helps reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: I see. That's... that's good to know. I'm willing to try if it means I might finally get some restful sleep. It's been years since I've had a good night's rest without... without seeing their faces or hearing the explosions.",
+      "Therapist: Your courage is admirable. This process helps reduce PTSD symptoms over time.",
+      "Client: Thank you. I appreciate that. It's been a long road since I lost my wife. She was always my rock, you know? Dealing with all this without her has been... well, it's been hell, to be honest. But I'm trying to move forward, for her sake as much as mine."
+    ],
+    [
+      "Therapist: Your courage is admirable. This process helps reduce PTSD symptoms over time.",
+      "Client: Thank you. I appreciate that. It's been a long road since I lost my wife. She was always my rock, you know? Dealing with all this without her has been... well, it's been hell, to be honest. But I'm trying to move forward, for her sake as much as mine.",
+      "Therapist: I understand. We'll take it step by step. Ready to begin?"
+    ],
+    [
+      "Client: Thank you. I appreciate that. It's been a long road since I lost my wife. She was always my rock, you know? Dealing with all this without her has been... well, it's been hell, to be honest. But I'm trying to move forward, for her sake as much as mine.",
+      "Therapist: I understand. We'll take it step by step. Ready to begin?",
+      "Client: (Nods slowly) Yeah, I think so. Just... just promise me you'll be here the whole time? I know it sounds silly, but I don't want to feel alone when I'm... when I'm back there in my mind."
+    ],
+    [
+      "Therapist: I understand. We'll take it step by step. Ready to begin?",
+      "Client: (Nods slowly) Yeah, I think so. Just... just promise me you'll be here the whole time? I know it sounds silly, but I don't want to feel alone when I'm... when I'm back there in my mind.",
+      "Therapist: Absolutely. I'll be right here with you throughout the process."
+    ],
+    [
+      "Client: (Nods slowly) Yeah, I think so. Just... just promise me you'll be here the whole time? I know it sounds silly, but I don't want to feel alone when I'm... when I'm back there in my mind.",
+      "Therapist: Absolutely. I'll be right here with you throughout the process.",
+      "Client: Okay. (Takes another deep breath) Let's do this then. I trust you, Dr. Sanders. And I guess... I guess I need to start trusting myself too, right? To get through this?"
+    ],
+    [
+      "Therapist: Absolutely. I'll be right here with you throughout the process.",
+      "Client: Okay. (Takes another deep breath) Let's do this then. I trust you, Dr. Sanders. And I guess... I guess I need to start trusting myself too, right? To get through this?",
+      "Therapist: That's right, John. Trust is crucial. Shall we start?"
+    ],
+    [
+      "Client: Okay. (Takes another deep breath) Let's do this then. I trust you, Dr. Sanders. And I guess... I guess I need to start trusting myself too, right? To get through this?",
+      "Therapist: That's right, John. Trust is crucial. Shall we start?",
+      "Client: Yes, let's start. I'm nervous, but I'm also... I don't know, maybe a little hopeful? It's been a while since I've felt that. So, what do I do first?"
+    ],
+    [
+      "Therapist: That's right, John. Trust is crucial. Shall we start?",
+      "Client: Yes, let's start. I'm nervous, but I'm also... I don't know, maybe a little hopeful? It's been a while since I've felt that. So, what do I do first?",
+      "Therapist: Close your eyes. Breathe deeply. We'll begin with a recent memory."
+    ],
+    [
+      "Client: Yes, let's start. I'm nervous, but I'm also... I don't know, maybe a little hopeful? It's been a while since I've felt that. So, what do I do first?",
+      "Therapist: Close your eyes. Breathe deeply. We'll begin with a recent memory.",
+      "Client: (Closes eyes, breathes deeply) Alright. I'm ready. I'm... I'm thinking of a night last week. I was... I was having a particularly bad flashback. Is that okay to start with?"
+    ],
+    [
+      "Therapist: Close your eyes. Breathe deeply. We'll begin with a recent memory.",
+      "Client: (Closes eyes, breathes deeply) Alright. I'm ready. I'm... I'm thinking of a night last week. I was... I was having a particularly bad flashback. Is that okay to start with?",
+      "Therapist: That's perfect. Describe what you see and feel."
+    ],
+    [
+      "Client: (Closes eyes, breathes deeply) Alright. I'm ready. I'm... I'm thinking of a night last week. I was... I was having a particularly bad flashback. Is that okay to start with?",
+      "Therapist: That's perfect. Describe what you see and feel.",
+      "Client: (Voice trembling slightly) I see... I see the desert. It's night, but there's a full moon. The air is thick with dust and... and the smell of gunpowder. I can hear distant explosions and... and screaming. My heart is racing, just like it was that night..."
+    ]
+  ]
+}

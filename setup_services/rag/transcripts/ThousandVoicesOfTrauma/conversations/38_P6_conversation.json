@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Amira. Let's begin our imaginal exposure exercise. Remember, you can stop at any time. Are you ready to start?",
+    "Client: I... I think so. I'm nervous, but I'll try.",
+    "Therapist: That's understandable. Let's start with your SUDS rating. From 0 to 100, how distressed are you right now?",
+    "Client: Um, probably around 40. My stomach feels a bit tight.",
+    "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+    "Client: (inhales deeply) It was a Friday night. I was 15. My parents were arguing again. I could hear them from my room. The shouting got louder, and then... (voice trembles) I heard a loud crash. I ran downstairs and saw my dad standing over my mom. She was on the floor, crying. There was a broken vase next to her. I... I froze. I didn't know what to do.",
+    "Therapist: How are you feeling now? SUDS rating?",
+    "Client: It's... it's gone up. Maybe 60? My heart is racing.",
+    "Therapist: That's okay. You're doing well. Continue when you're ready.",
+    "Client: (takes a shaky breath) My dad saw me and yelled at me to go back to my room. But I couldn't move. Mom was still on the floor, and she looked so scared. Dad started walking towards me, and I thought... I thought he might hurt me too. I've never seen him so angry before.",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's 75. My hands are shaking. I can almost smell the cologne my dad was wearing that night.",
+    "Therapist: You're doing great, Amira. Stay with the memory.",
+    "Client: (voice quivering) I backed away as he came closer. He grabbed my arm, hard. It hurt so much. I cried out, and that's when mom got up. She... she pushed herself between us. She told me to go to my room, that everything would be okay. But I knew it wouldn't be. I ran upstairs and locked myself in, but I could still hear them. The shouting, the crying... (starts sobbing)",
+    "Therapist: Take a moment. How's your SUDS now?",
+    "Client: (through tears) It's... it's 90. I feel like I can't breathe. My chest hurts.",
+    "Therapist: You're safe here, Amira. Keep breathing. What happened next?",
+    "Client: I... I curled up on my bed, covering my ears. But I could still hear them. It felt like hours. Eventually, it got quiet. Too quiet. I was so scared to leave my room. I kept thinking about mom, if she was okay. I... I felt so helpless.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's still high... maybe 85? My body feels tense all over.",
+    "Therapist: You're doing really well. Keep going.",
+    "Client: I must have fallen asleep at some point. When I woke up the next morning, everything seemed... normal. Like nothing had happened. Mom had bruises, but she smiled and said she fell. Dad acted like nothing was wrong. I... I felt so angry and confused. I wanted to scream, to tell someone, but... I was too afraid.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's... it's coming down a bit. Maybe 70? I feel drained, but the tightness in my chest is easing.",
+    "Therapist: That's good. You've done really well, Amira. How do you feel about the exercise?",
+    "Client: It was... intense. Scary. But... I feel like I got through it. Is... is that normal?",
+    "Therapist: Absolutely. You showed a lot of strength today.",
+    "Client: (sighs) Thank you. I... I think I need a moment to just... breathe.",
+    "Therapist: Of course. Take all the time you need."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Amira. Let's begin our imaginal exposure exercise. Remember, you can stop at any time. Are you ready to start?",
+      "Client: I... I think so. I'm nervous, but I'll try.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. From 0 to 100, how distressed are you right now?"
+    ],
+    [
+      "Client: I... I think so. I'm nervous, but I'll try.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. From 0 to 100, how distressed are you right now?",
+      "Client: Um, probably around 40. My stomach feels a bit tight."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating. From 0 to 100, how distressed are you right now?",
+      "Client: Um, probably around 40. My stomach feels a bit tight.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready."
+    ],
+    [
+      "Client: Um, probably around 40. My stomach feels a bit tight.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+      "Client: (inhales deeply) It was a Friday night. I was 15. My parents were arguing again. I could hear them from my room. The shouting got louder, and then... (voice trembles) I heard a loud crash. I ran downstairs and saw my dad standing over my mom. She was on the floor, crying. There was a broken vase next to her. I... I froze. I didn't know what to do."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+      "Client: (inhales deeply) It was a Friday night. I was 15. My parents were arguing again. I could hear them from my room. The shouting got louder, and then... (voice trembles) I heard a loud crash. I ran downstairs and saw my dad standing over my mom. She was on the floor, crying. There was a broken vase next to her. I... I froze. I didn't know what to do.",
+      "Therapist: How are you feeling now? SUDS rating?"
+    ],
+    [
+      "Client: (inhales deeply) It was a Friday night. I was 15. My parents were arguing again. I could hear them from my room. The shouting got louder, and then... (voice trembles) I heard a loud crash. I ran downstairs and saw my dad standing over my mom. She was on the floor, crying. There was a broken vase next to her. I... I froze. I didn't know what to do.",
+      "Therapist: How are you feeling now? SUDS rating?",
+      "Client: It's... it's gone up. Maybe 60? My heart is racing."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS rating?",
+      "Client: It's... it's gone up. Maybe 60? My heart is racing.",
+      "Therapist: That's okay. You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe 60? My heart is racing.",
+      "Therapist: That's okay. You're doing well. Continue when you're ready.",
+      "Client: (takes a shaky breath) My dad saw me and yelled at me to go back to my room. But I couldn't move. Mom was still on the floor, and she looked so scared. Dad started walking towards me, and I thought... I thought he might hurt me too. I've never seen him so angry before."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Continue when you're ready.",
+      "Client: (takes a shaky breath) My dad saw me and yelled at me to go back to my room. But I couldn't move. Mom was still on the floor, and she looked so scared. Dad started walking towards me, and I thought... I thought he might hurt me too. I've never seen him so angry before.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: (takes a shaky breath) My dad saw me and yelled at me to go back to my room. But I couldn't move. Mom was still on the floor, and she looked so scared. Dad started walking towards me, and I thought... I thought he might hurt me too. I've never seen him so angry before.",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's 75. My hands are shaking. I can almost smell the cologne my dad was wearing that night."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's 75. My hands are shaking. I can almost smell the cologne my dad was wearing that night.",
+      "Therapist: You're doing great, Amira. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's 75. My hands are shaking. I can almost smell the cologne my dad was wearing that night.",
+      "Therapist: You're doing great, Amira. Stay with the memory.",
+      "Client: (voice quivering) I backed away as he came closer. He grabbed my arm, hard. It hurt so much. I cried out, and that's when mom got up. She... she pushed herself between us. She told me to go to my room, that everything would be okay. But I knew it wouldn't be. I ran upstairs and locked myself in, but I could still hear them. The shouting, the crying... (starts sobbing)"
+    ],
+    [
+      "Therapist: You're doing great, Amira. Stay with the memory.",
+      "Client: (voice quivering) I backed away as he came closer. He grabbed my arm, hard. It hurt so much. I cried out, and that's when mom got up. She... she pushed herself between us. She told me to go to my room, that everything would be okay. But I knew it wouldn't be. I ran upstairs and locked myself in, but I could still hear them. The shouting, the crying... (starts sobbing)",
+      "Therapist: Take a moment. How's your SUDS now?"
+    ],
+    [
+      "Client: (voice quivering) I backed away as he came closer. He grabbed my arm, hard. It hurt so much. I cried out, and that's when mom got up. She... she pushed herself between us. She told me to go to my room, that everything would be okay. But I knew it wouldn't be. I ran upstairs and locked myself in, but I could still hear them. The shouting, the crying... (starts sobbing)",
+      "Therapist: Take a moment. How's your SUDS now?",
+      "Client: (through tears) It's... it's 90. I feel like I can't breathe. My chest hurts."
+    ],
+    [
+      "Therapist: Take a moment. How's your SUDS now?",
+      "Client: (through tears) It's... it's 90. I feel like I can't breathe. My chest hurts.",
+      "Therapist: You're safe here, Amira. Keep breathing. What happened next?"
+    ],
+    [
+      "Client: (through tears) It's... it's 90. I feel like I can't breathe. My chest hurts.",
+      "Therapist: You're safe here, Amira. Keep breathing. What happened next?",
+      "Client: I... I curled up on my bed, covering my ears. But I could still hear them. It felt like hours. Eventually, it got quiet. Too quiet. I was so scared to leave my room. I kept thinking about mom, if she was okay. I... I felt so helpless."
+    ],
+    [
+      "Therapist: You're safe here, Amira. Keep breathing. What happened next?",
+      "Client: I... I curled up on my bed, covering my ears. But I could still hear them. It felt like hours. Eventually, it got quiet. Too quiet. I was so scared to leave my room. I kept thinking about mom, if she was okay. I... I felt so helpless.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I... I curled up on my bed, covering my ears. But I could still hear them. It felt like hours. Eventually, it got quiet. Too quiet. I was so scared to leave my room. I kept thinking about mom, if she was okay. I... I felt so helpless.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's still high... maybe 85? My body feels tense all over."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's still high... maybe 85? My body feels tense all over.",
+      "Therapist: You're doing really well. Keep going."
+    ],
+    [
+      "Client: It's still high... maybe 85? My body feels tense all over.",
+      "Therapist: You're doing really well. Keep going.",
+      "Client: I must have fallen asleep at some point. When I woke up the next morning, everything seemed... normal. Like nothing had happened. Mom had bruises, but she smiled and said she fell. Dad acted like nothing was wrong. I... I felt so angry and confused. I wanted to scream, to tell someone, but... I was too afraid."
+    ],
+    [
+      "Therapist: You're doing really well. Keep going.",
+      "Client: I must have fallen asleep at some point. When I woke up the next morning, everything seemed... normal. Like nothing had happened. Mom had bruises, but she smiled and said she fell. Dad acted like nothing was wrong. I... I felt so angry and confused. I wanted to scream, to tell someone, but... I was too afraid.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: I must have fallen asleep at some point. When I woke up the next morning, everything seemed... normal. Like nothing had happened. Mom had bruises, but she smiled and said she fell. Dad acted like nothing was wrong. I... I felt so angry and confused. I wanted to scream, to tell someone, but... I was too afraid.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... it's coming down a bit. Maybe 70? I feel drained, but the tightness in my chest is easing."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... it's coming down a bit. Maybe 70? I feel drained, but the tightness in my chest is easing.",
+      "Therapist: That's good. You've done really well, Amira. How do you feel about the exercise?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe 70? I feel drained, but the tightness in my chest is easing.",
+      "Therapist: That's good. You've done really well, Amira. How do you feel about the exercise?",
+      "Client: It was... intense. Scary. But... I feel like I got through it. Is... is that normal?"
+    ],
+    [
+      "Therapist: That's good. You've done really well, Amira. How do you feel about the exercise?",
+      "Client: It was... intense. Scary. But... I feel like I got through it. Is... is that normal?",
+      "Therapist: Absolutely. You showed a lot of strength today."
+    ],
+    [
+      "Client: It was... intense. Scary. But... I feel like I got through it. Is... is that normal?",
+      "Therapist: Absolutely. You showed a lot of strength today.",
+      "Client: (sighs) Thank you. I... I think I need a moment to just... breathe."
+    ],
+    [
+      "Therapist: Absolutely. You showed a lot of strength today.",
+      "Client: (sighs) Thank you. I... I think I need a moment to just... breathe.",
+      "Therapist: Of course. Take all the time you need."
+    ]
+  ]
+}

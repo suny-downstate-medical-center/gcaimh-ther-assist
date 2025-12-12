@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the flood again, and it's making me nervous.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. It's just... every time I think about it, my heart starts racing. The water was rising so fast, and I couldn't reach my daughter on the phone. I was terrified she might be trapped somewhere.",
+    "Therapist: You're doing great. Can you tell me more about that moment?",
+    "Client: I remember standing by the window, watching the streets turn into rivers. The rain was relentless, pounding against the glass. I kept trying to call my daughter, but the lines were jammed. I felt so helpless, so isolated.",
+    "Therapist: Stay with that feeling. You're safe now.",
+    "Client: It's hard. I can almost hear the sound of the rain, the wind howling. I was shaking, clutching my phone, willing it to ring. The power went out, and suddenly I was in darkness. I... I felt like I was drowning, even though I was on the second floor.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: I couldn't stop imagining the worst. What if my daughter's apartment had flooded? What if she was trapped in her car? The uncertainty was unbearable. I felt like a failure as a mother, unable to protect her.",
+    "Therapist: It's okay to feel this way. You're doing well.",
+    "Client: As the night wore on, I huddled in a corner with my emergency radio. The reports were getting worse - entire neighborhoods underwater, people stranded on rooftops. I kept thinking about all the times I'd told my daughter to move to higher ground, but she loved that apartment by the river...",
+    "Therapist: You're handling this memory bravely. How are you feeling now?",
+    "Client: It's... intense. My hands are shaking a bit. But I think I can continue. Is that okay?",
+    "Therapist: Absolutely. You're in control here.",
+    "Client: Okay. Well, as dawn broke, the rain finally started to ease. But the silence was almost worse. No cars, no voices, just the occasional siren in the distance. I ventured to the window again, and the sight... it was like a war zone. Debris everywhere, abandoned cars half-submerged. I felt so small, so insignificant in the face of nature's power.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: It wasn't until mid-morning that I finally got through to my daughter. Those few seconds before she answered... I've never felt such terror. When I heard her voice, I burst into tears. She was safe, thank goodness, but her apartment was destroyed. Everything she owned, gone. And I... I felt guilty for feeling relieved. So many others weren't as lucky.",
+    "Therapist: It's natural to feel relief. You're processing this well.",
+    "Client: The aftermath was almost as bad as the flood itself. The clean-up, the insurance battles, the nightmares. My daughter moved in with me for a while, and I should have been happy, but I kept reliving that night of uncertainty. Every time it rains now, I feel a knot in my stomach.",
+    "Therapist: You've shown incredible strength. How do you feel now?",
+    "Client: Drained, but... maybe a little lighter? It's still painful to remember, but talking about it... it helps. I just wish I could shake this fear every time the weather turns bad.",
+    "Therapist: That's completely normal. You're making progress.",
+    "Client: Thank you. I know it's a process, but sometimes it feels like I'll never fully recover. The flood took so much from us, not just possessions, but our sense of security. How do I get that back?",
+    "Therapist: It takes time, but you're on the right path.",
+    "Client: I hope so. I want to be strong for my daughter, to show her that we can overcome this. But some days, it's hard to believe it myself. Especially when I see news about climate change and more extreme weather... it makes me feel so vulnerable.",
+    "Therapist: Your awareness is a strength. We'll work through this together.",
+    "Client: I appreciate that. It helps to know I'm not alone in this. Sometimes I feel silly, being so affected by something that happened months ago. But then I remember how close I came to losing everything, and the fear comes rushing back.",
+    "Therapist: Your feelings are valid. You're handling this well.",
+    "Client: Thank you. I think... I think I need a moment. This has been more intense than I expected. Is it okay if we take a short break?",
+    "Therapist: Of course. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the flood again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the flood again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. The water was rising so fast, and I couldn't reach my daughter on the phone. I was terrified she might be trapped somewhere."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. The water was rising so fast, and I couldn't reach my daughter on the phone. I was terrified she might be trapped somewhere.",
+      "Therapist: You're doing great. Can you tell me more about that moment?"
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. The water was rising so fast, and I couldn't reach my daughter on the phone. I was terrified she might be trapped somewhere.",
+      "Therapist: You're doing great. Can you tell me more about that moment?",
+      "Client: I remember standing by the window, watching the streets turn into rivers. The rain was relentless, pounding against the glass. I kept trying to call my daughter, but the lines were jammed. I felt so helpless, so isolated."
+    ],
+    [
+      "Therapist: You're doing great. Can you tell me more about that moment?",
+      "Client: I remember standing by the window, watching the streets turn into rivers. The rain was relentless, pounding against the glass. I kept trying to call my daughter, but the lines were jammed. I felt so helpless, so isolated.",
+      "Therapist: Stay with that feeling. You're safe now."
+    ],
+    [
+      "Client: I remember standing by the window, watching the streets turn into rivers. The rain was relentless, pounding against the glass. I kept trying to call my daughter, but the lines were jammed. I felt so helpless, so isolated.",
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: It's hard. I can almost hear the sound of the rain, the wind howling. I was shaking, clutching my phone, willing it to ring. The power went out, and suddenly I was in darkness. I... I felt like I was drowning, even though I was on the second floor."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: It's hard. I can almost hear the sound of the rain, the wind howling. I was shaking, clutching my phone, willing it to ring. The power went out, and suddenly I was in darkness. I... I felt like I was drowning, even though I was on the second floor.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: It's hard. I can almost hear the sound of the rain, the wind howling. I was shaking, clutching my phone, willing it to ring. The power went out, and suddenly I was in darkness. I... I felt like I was drowning, even though I was on the second floor.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: I couldn't stop imagining the worst. What if my daughter's apartment had flooded? What if she was trapped in her car? The uncertainty was unbearable. I felt like a failure as a mother, unable to protect her."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: I couldn't stop imagining the worst. What if my daughter's apartment had flooded? What if she was trapped in her car? The uncertainty was unbearable. I felt like a failure as a mother, unable to protect her.",
+      "Therapist: It's okay to feel this way. You're doing well."
+    ],
+    [
+      "Client: I couldn't stop imagining the worst. What if my daughter's apartment had flooded? What if she was trapped in her car? The uncertainty was unbearable. I felt like a failure as a mother, unable to protect her.",
+      "Therapist: It's okay to feel this way. You're doing well.",
+      "Client: As the night wore on, I huddled in a corner with my emergency radio. The reports were getting worse - entire neighborhoods underwater, people stranded on rooftops. I kept thinking about all the times I'd told my daughter to move to higher ground, but she loved that apartment by the river..."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're doing well.",
+      "Client: As the night wore on, I huddled in a corner with my emergency radio. The reports were getting worse - entire neighborhoods underwater, people stranded on rooftops. I kept thinking about all the times I'd told my daughter to move to higher ground, but she loved that apartment by the river...",
+      "Therapist: You're handling this memory bravely. How are you feeling now?"
+    ],
+    [
+      "Client: As the night wore on, I huddled in a corner with my emergency radio. The reports were getting worse - entire neighborhoods underwater, people stranded on rooftops. I kept thinking about all the times I'd told my daughter to move to higher ground, but she loved that apartment by the river...",
+      "Therapist: You're handling this memory bravely. How are you feeling now?",
+      "Client: It's... intense. My hands are shaking a bit. But I think I can continue. Is that okay?"
+    ],
+    [
+      "Therapist: You're handling this memory bravely. How are you feeling now?",
+      "Client: It's... intense. My hands are shaking a bit. But I think I can continue. Is that okay?",
+      "Therapist: Absolutely. You're in control here."
+    ],
+    [
+      "Client: It's... intense. My hands are shaking a bit. But I think I can continue. Is that okay?",
+      "Therapist: Absolutely. You're in control here.",
+      "Client: Okay. Well, as dawn broke, the rain finally started to ease. But the silence was almost worse. No cars, no voices, just the occasional siren in the distance. I ventured to the window again, and the sight... it was like a war zone. Debris everywhere, abandoned cars half-submerged. I felt so small, so insignificant in the face of nature's power."
+    ],
+    [
+      "Therapist: Absolutely. You're in control here.",
+      "Client: Okay. Well, as dawn broke, the rain finally started to ease. But the silence was almost worse. No cars, no voices, just the occasional siren in the distance. I ventured to the window again, and the sight... it was like a war zone. Debris everywhere, abandoned cars half-submerged. I felt so small, so insignificant in the face of nature's power.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Okay. Well, as dawn broke, the rain finally started to ease. But the silence was almost worse. No cars, no voices, just the occasional siren in the distance. I ventured to the window again, and the sight... it was like a war zone. Debris everywhere, abandoned cars half-submerged. I felt so small, so insignificant in the face of nature's power.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: It wasn't until mid-morning that I finally got through to my daughter. Those few seconds before she answered... I've never felt such terror. When I heard her voice, I burst into tears. She was safe, thank goodness, but her apartment was destroyed. Everything she owned, gone. And I... I felt guilty for feeling relieved. So many others weren't as lucky."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: It wasn't until mid-morning that I finally got through to my daughter. Those few seconds before she answered... I've never felt such terror. When I heard her voice, I burst into tears. She was safe, thank goodness, but her apartment was destroyed. Everything she owned, gone. And I... I felt guilty for feeling relieved. So many others weren't as lucky.",
+      "Therapist: It's natural to feel relief. You're processing this well."
+    ],
+    [
+      "Client: It wasn't until mid-morning that I finally got through to my daughter. Those few seconds before she answered... I've never felt such terror. When I heard her voice, I burst into tears. She was safe, thank goodness, but her apartment was destroyed. Everything she owned, gone. And I... I felt guilty for feeling relieved. So many others weren't as lucky.",
+      "Therapist: It's natural to feel relief. You're processing this well.",
+      "Client: The aftermath was almost as bad as the flood itself. The clean-up, the insurance battles, the nightmares. My daughter moved in with me for a while, and I should have been happy, but I kept reliving that night of uncertainty. Every time it rains now, I feel a knot in my stomach."
+    ],
+    [
+      "Therapist: It's natural to feel relief. You're processing this well.",
+      "Client: The aftermath was almost as bad as the flood itself. The clean-up, the insurance battles, the nightmares. My daughter moved in with me for a while, and I should have been happy, but I kept reliving that night of uncertainty. Every time it rains now, I feel a knot in my stomach.",
+      "Therapist: You've shown incredible strength. How do you feel now?"
+    ],
+    [
+      "Client: The aftermath was almost as bad as the flood itself. The clean-up, the insurance battles, the nightmares. My daughter moved in with me for a while, and I should have been happy, but I kept reliving that night of uncertainty. Every time it rains now, I feel a knot in my stomach.",
+      "Therapist: You've shown incredible strength. How do you feel now?",
+      "Client: Drained, but... maybe a little lighter? It's still painful to remember, but talking about it... it helps. I just wish I could shake this fear every time the weather turns bad."
+    ],
+    [
+      "Therapist: You've shown incredible strength. How do you feel now?",
+      "Client: Drained, but... maybe a little lighter? It's still painful to remember, but talking about it... it helps. I just wish I could shake this fear every time the weather turns bad.",
+      "Therapist: That's completely normal. You're making progress."
+    ],
+    [
+      "Client: Drained, but... maybe a little lighter? It's still painful to remember, but talking about it... it helps. I just wish I could shake this fear every time the weather turns bad.",
+      "Therapist: That's completely normal. You're making progress.",
+      "Client: Thank you. I know it's a process, but sometimes it feels like I'll never fully recover. The flood took so much from us, not just possessions, but our sense of security. How do I get that back?"
+    ],
+    [
+      "Therapist: That's completely normal. You're making progress.",
+      "Client: Thank you. I know it's a process, but sometimes it feels like I'll never fully recover. The flood took so much from us, not just possessions, but our sense of security. How do I get that back?",
+      "Therapist: It takes time, but you're on the right path."
+    ],
+    [
+      "Client: Thank you. I know it's a process, but sometimes it feels like I'll never fully recover. The flood took so much from us, not just possessions, but our sense of security. How do I get that back?",
+      "Therapist: It takes time, but you're on the right path.",
+      "Client: I hope so. I want to be strong for my daughter, to show her that we can overcome this. But some days, it's hard to believe it myself. Especially when I see news about climate change and more extreme weather... it makes me feel so vulnerable."
+    ],
+    [
+      "Therapist: It takes time, but you're on the right path.",
+      "Client: I hope so. I want to be strong for my daughter, to show her that we can overcome this. But some days, it's hard to believe it myself. Especially when I see news about climate change and more extreme weather... it makes me feel so vulnerable.",
+      "Therapist: Your awareness is a strength. We'll work through this together."
+    ],
+    [
+      "Client: I hope so. I want to be strong for my daughter, to show her that we can overcome this. But some days, it's hard to believe it myself. Especially when I see news about climate change and more extreme weather... it makes me feel so vulnerable.",
+      "Therapist: Your awareness is a strength. We'll work through this together.",
+      "Client: I appreciate that. It helps to know I'm not alone in this. Sometimes I feel silly, being so affected by something that happened months ago. But then I remember how close I came to losing everything, and the fear comes rushing back."
+    ],
+    [
+      "Therapist: Your awareness is a strength. We'll work through this together.",
+      "Client: I appreciate that. It helps to know I'm not alone in this. Sometimes I feel silly, being so affected by something that happened months ago. But then I remember how close I came to losing everything, and the fear comes rushing back.",
+      "Therapist: Your feelings are valid. You're handling this well."
+    ],
+    [
+      "Client: I appreciate that. It helps to know I'm not alone in this. Sometimes I feel silly, being so affected by something that happened months ago. But then I remember how close I came to losing everything, and the fear comes rushing back.",
+      "Therapist: Your feelings are valid. You're handling this well.",
+      "Client: Thank you. I think... I think I need a moment. This has been more intense than I expected. Is it okay if we take a short break?"
+    ],
+    [
+      "Therapist: Your feelings are valid. You're handling this well.",
+      "Client: Thank you. I think... I think I need a moment. This has been more intense than I expected. Is it okay if we take a short break?",
+      "Therapist: Of course. You've done excellent work today."
+    ]
+  ]
+}

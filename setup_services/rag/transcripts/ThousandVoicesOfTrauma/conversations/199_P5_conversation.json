@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Johnson, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm a bit nervous, to be honest. After losing my wife, I've tried to avoid thinking about certain things. The idea of deliberately revisiting those memories is... well, it's unsettling. And with everything else going on in the world, especially the racial tensions we've been seeing, it just feels like a lot to handle.",
+    "Therapist: Your concerns are valid. Can you tell me more about your hesitations?",
+    "Client: Well, doc, I'm worried about opening old wounds. My wife's passing was hard enough, but add to that the constant reminders of how different I am because of my background... It's like a double whammy, you know? I've spent years trying to push these thoughts away, and now you're asking me to face them head-on. It's scary.",
+    "Therapist: I understand. How do you think this might help?",
+    "Client: I suppose... maybe it could help me process things I've been avoiding. But I'm concerned about how I'll react. What if I can't handle it? What if it makes my depression worse? I'm already struggling to find joy in my daily life, and my family has been so supportive. I don't want to burden them more.",
+    "Therapist: Your concerns are normal. How can I support you today?",
+    "Client: I think I need reassurance that we can stop if it becomes too overwhelming. And maybe some guidance on how to ground myself if memories become too intense. I've been feeling so disconnected lately, both from my own emotions and from others around me. It's like I'm watching life happen from behind a glass wall.",
+    "Therapist: We can absolutely pause anytime. What else might help you feel safe?",
+    "Client: Having a clear plan would help. Maybe we could discuss some coping strategies I could use during and after the session? And... I know this might sound silly at my age, but could we have a code word or signal if I need a break? Sometimes when I'm overwhelmed, I find it hard to speak up.",
+    "Therapist: That's not silly at all. Let's establish a signal now.",
+    "Client: Thank you, that means a lot. How about if I raise my hand? It's simple and I don't think I'd forget it even if I'm distressed. I appreciate your patience with me, doctor. This whole process is so new and, frankly, intimidating. But I want to get better, for myself and for my family.",
+    "Therapist: Excellent choice. Remember, you're in control here.",
+    "Client: That's comforting to know. I've felt so out of control since my wife passed, and with all the racial tensions lately, it's like the world is spinning faster than I can keep up. But being here, working on this... it feels like I'm taking a step towards regaining some of that control. It's a small step, but it's something, right?",
+    "Therapist: Absolutely. Your courage is admirable. Shall we begin?",
+    "Client: I think I'm ready. It's strange, I feel nervous but also a bit hopeful. This might be tough, but if it helps me process my grief and the other issues I've been facing, it'll be worth it. I keep thinking about what my wife would say if she were here. She always encouraged me to face challenges head-on. I guess in a way, doing this is honoring her memory too."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Johnson, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm a bit nervous, to be honest. After losing my wife, I've tried to avoid thinking about certain things. The idea of deliberately revisiting those memories is... well, it's unsettling. And with everything else going on in the world, especially the racial tensions we've been seeing, it just feels like a lot to handle.",
+      "Therapist: Your concerns are valid. Can you tell me more about your hesitations?"
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. After losing my wife, I've tried to avoid thinking about certain things. The idea of deliberately revisiting those memories is... well, it's unsettling. And with everything else going on in the world, especially the racial tensions we've been seeing, it just feels like a lot to handle.",
+      "Therapist: Your concerns are valid. Can you tell me more about your hesitations?",
+      "Client: Well, doc, I'm worried about opening old wounds. My wife's passing was hard enough, but add to that the constant reminders of how different I am because of my background... It's like a double whammy, you know? I've spent years trying to push these thoughts away, and now you're asking me to face them head-on. It's scary."
+    ],
+    [
+      "Therapist: Your concerns are valid. Can you tell me more about your hesitations?",
+      "Client: Well, doc, I'm worried about opening old wounds. My wife's passing was hard enough, but add to that the constant reminders of how different I am because of my background... It's like a double whammy, you know? I've spent years trying to push these thoughts away, and now you're asking me to face them head-on. It's scary.",
+      "Therapist: I understand. How do you think this might help?"
+    ],
+    [
+      "Client: Well, doc, I'm worried about opening old wounds. My wife's passing was hard enough, but add to that the constant reminders of how different I am because of my background... It's like a double whammy, you know? I've spent years trying to push these thoughts away, and now you're asking me to face them head-on. It's scary.",
+      "Therapist: I understand. How do you think this might help?",
+      "Client: I suppose... maybe it could help me process things I've been avoiding. But I'm concerned about how I'll react. What if I can't handle it? What if it makes my depression worse? I'm already struggling to find joy in my daily life, and my family has been so supportive. I don't want to burden them more."
+    ],
+    [
+      "Therapist: I understand. How do you think this might help?",
+      "Client: I suppose... maybe it could help me process things I've been avoiding. But I'm concerned about how I'll react. What if I can't handle it? What if it makes my depression worse? I'm already struggling to find joy in my daily life, and my family has been so supportive. I don't want to burden them more.",
+      "Therapist: Your concerns are normal. How can I support you today?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process things I've been avoiding. But I'm concerned about how I'll react. What if I can't handle it? What if it makes my depression worse? I'm already struggling to find joy in my daily life, and my family has been so supportive. I don't want to burden them more.",
+      "Therapist: Your concerns are normal. How can I support you today?",
+      "Client: I think I need reassurance that we can stop if it becomes too overwhelming. And maybe some guidance on how to ground myself if memories become too intense. I've been feeling so disconnected lately, both from my own emotions and from others around me. It's like I'm watching life happen from behind a glass wall."
+    ],
+    [
+      "Therapist: Your concerns are normal. How can I support you today?",
+      "Client: I think I need reassurance that we can stop if it becomes too overwhelming. And maybe some guidance on how to ground myself if memories become too intense. I've been feeling so disconnected lately, both from my own emotions and from others around me. It's like I'm watching life happen from behind a glass wall.",
+      "Therapist: We can absolutely pause anytime. What else might help you feel safe?"
+    ],
+    [
+      "Client: I think I need reassurance that we can stop if it becomes too overwhelming. And maybe some guidance on how to ground myself if memories become too intense. I've been feeling so disconnected lately, both from my own emotions and from others around me. It's like I'm watching life happen from behind a glass wall.",
+      "Therapist: We can absolutely pause anytime. What else might help you feel safe?",
+      "Client: Having a clear plan would help. Maybe we could discuss some coping strategies I could use during and after the session? And... I know this might sound silly at my age, but could we have a code word or signal if I need a break? Sometimes when I'm overwhelmed, I find it hard to speak up."
+    ],
+    [
+      "Therapist: We can absolutely pause anytime. What else might help you feel safe?",
+      "Client: Having a clear plan would help. Maybe we could discuss some coping strategies I could use during and after the session? And... I know this might sound silly at my age, but could we have a code word or signal if I need a break? Sometimes when I'm overwhelmed, I find it hard to speak up.",
+      "Therapist: That's not silly at all. Let's establish a signal now."
+    ],
+    [
+      "Client: Having a clear plan would help. Maybe we could discuss some coping strategies I could use during and after the session? And... I know this might sound silly at my age, but could we have a code word or signal if I need a break? Sometimes when I'm overwhelmed, I find it hard to speak up.",
+      "Therapist: That's not silly at all. Let's establish a signal now.",
+      "Client: Thank you, that means a lot. How about if I raise my hand? It's simple and I don't think I'd forget it even if I'm distressed. I appreciate your patience with me, doctor. This whole process is so new and, frankly, intimidating. But I want to get better, for myself and for my family."
+    ],
+    [
+      "Therapist: That's not silly at all. Let's establish a signal now.",
+      "Client: Thank you, that means a lot. How about if I raise my hand? It's simple and I don't think I'd forget it even if I'm distressed. I appreciate your patience with me, doctor. This whole process is so new and, frankly, intimidating. But I want to get better, for myself and for my family.",
+      "Therapist: Excellent choice. Remember, you're in control here."
+    ],
+    [
+      "Client: Thank you, that means a lot. How about if I raise my hand? It's simple and I don't think I'd forget it even if I'm distressed. I appreciate your patience with me, doctor. This whole process is so new and, frankly, intimidating. But I want to get better, for myself and for my family.",
+      "Therapist: Excellent choice. Remember, you're in control here.",
+      "Client: That's comforting to know. I've felt so out of control since my wife passed, and with all the racial tensions lately, it's like the world is spinning faster than I can keep up. But being here, working on this... it feels like I'm taking a step towards regaining some of that control. It's a small step, but it's something, right?"
+    ],
+    [
+      "Therapist: Excellent choice. Remember, you're in control here.",
+      "Client: That's comforting to know. I've felt so out of control since my wife passed, and with all the racial tensions lately, it's like the world is spinning faster than I can keep up. But being here, working on this... it feels like I'm taking a step towards regaining some of that control. It's a small step, but it's something, right?",
+      "Therapist: Absolutely. Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: That's comforting to know. I've felt so out of control since my wife passed, and with all the racial tensions lately, it's like the world is spinning faster than I can keep up. But being here, working on this... it feels like I'm taking a step towards regaining some of that control. It's a small step, but it's something, right?",
+      "Therapist: Absolutely. Your courage is admirable. Shall we begin?",
+      "Client: I think I'm ready. It's strange, I feel nervous but also a bit hopeful. This might be tough, but if it helps me process my grief and the other issues I've been facing, it'll be worth it. I keep thinking about what my wife would say if she were here. She always encouraged me to face challenges head-on. I guess in a way, doing this is honoring her memory too."
+    ]
+  ]
+}

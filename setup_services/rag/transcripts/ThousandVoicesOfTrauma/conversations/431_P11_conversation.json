@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's strange, you know? I thought I had put that memory behind me, but going through it again... it's like I was right back there, watching that poor dog get attacked by that larger, aggressive dog. I can still hear the yelps and growls, see the blood... (takes a deep breath) It's overwhelming.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The helplessness, I think. I remember feeling frozen, unable to do anything to help. And the guilt... God, the guilt. I keep thinking maybe if I had reacted faster, or if I had been braver, I could have stopped it somehow. But I just stood there, watching it happen. (voice breaks) I feel like such a coward.",
+    "Therapist: How does that feeling of helplessness affect you now?",
+    "Client: It's... it's like a shadow that follows me everywhere. I find myself constantly on edge when I'm out walking, always scanning for potential threats. I've stopped going to the park altogether. It's affecting my life in ways I didn't even realize until now.",
+    "Therapist: I see. What else have you noticed?",
+    "Client: Well, I've been having these nightmares. Not every night, but often enough. Sometimes it's the exact scene I witnessed, other times it's... worse. Like my own dog being attacked, or even my grandchildren. (pauses) I wake up in a cold sweat, heart racing. It takes me hours to calm down sometimes.",
+    "Therapist: How did it feel to revisit the memory today?",
+    "Client: It was... tough. Really tough. But also... I don't know, maybe a little cathartic? Like, I've been carrying this weight for so long, and finally letting it out... it hurts, but there's also a sense of relief? Does that make sense?",
+    "Therapist: Absolutely. What else?",
+    "Client: I noticed something else too. As I was going through it, I realized that while I felt helpless at the moment, I did actually do something. I called for help, I comforted the dog's owner afterwards. I wasn't completely useless. (sighs) I guess I've been so focused on what I didn't do, I forgot about what I did do.",
+    "Therapist: That's an important realization. How does that change things?",
+    "Client: It... it helps, I think. Maybe I'm not as weak as I thought I was. Maybe I did the best I could in a terrible situation. I'm still struggling with the guilt, but... maybe I can start to forgive myself a little?",
+    "Therapist: That's great progress. What's next?",
+    "Client: I... I think I want to try going to the park again. Not alone, not yet. But maybe with my husband? Baby steps, you know? And I want to keep working on this memory, keep processing it. It's hard, but I can feel it's helping. I want to get to a place where I can think about it without feeling like I'm right back there.",
+    "Therapist: Excellent. How can we support that?",
+    "Client: Could we... could we maybe do this again next session? And maybe you could give me some techniques for when I start feeling overwhelmed? I want to be prepared for when the memories hit me outside of our sessions.",
+    "Therapist: Of course. Anything else?",
+    "Client: I just... I want to thank you. This isn't easy, but I feel like I'm finally starting to make progress. For the first time in a long time, I feel hopeful. Like maybe I can get past this, you know?",
+    "Therapist: You're doing great work. See you next week?",
+    "Client: Definitely. Thank you again, doctor. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's strange, you know? I thought I had put that memory behind me, but going through it again... it's like I was right back there, watching that poor dog get attacked by that larger, aggressive dog. I can still hear the yelps and growls, see the blood... (takes a deep breath) It's overwhelming.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's strange, you know? I thought I had put that memory behind me, but going through it again... it's like I was right back there, watching that poor dog get attacked by that larger, aggressive dog. I can still hear the yelps and growls, see the blood... (takes a deep breath) It's overwhelming.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The helplessness, I think. I remember feeling frozen, unable to do anything to help. And the guilt... God, the guilt. I keep thinking maybe if I had reacted faster, or if I had been braver, I could have stopped it somehow. But I just stood there, watching it happen. (voice breaks) I feel like such a coward."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The helplessness, I think. I remember feeling frozen, unable to do anything to help. And the guilt... God, the guilt. I keep thinking maybe if I had reacted faster, or if I had been braver, I could have stopped it somehow. But I just stood there, watching it happen. (voice breaks) I feel like such a coward.",
+      "Therapist: How does that feeling of helplessness affect you now?"
+    ],
+    [
+      "Client: The helplessness, I think. I remember feeling frozen, unable to do anything to help. And the guilt... God, the guilt. I keep thinking maybe if I had reacted faster, or if I had been braver, I could have stopped it somehow. But I just stood there, watching it happen. (voice breaks) I feel like such a coward.",
+      "Therapist: How does that feeling of helplessness affect you now?",
+      "Client: It's... it's like a shadow that follows me everywhere. I find myself constantly on edge when I'm out walking, always scanning for potential threats. I've stopped going to the park altogether. It's affecting my life in ways I didn't even realize until now."
+    ],
+    [
+      "Therapist: How does that feeling of helplessness affect you now?",
+      "Client: It's... it's like a shadow that follows me everywhere. I find myself constantly on edge when I'm out walking, always scanning for potential threats. I've stopped going to the park altogether. It's affecting my life in ways I didn't even realize until now.",
+      "Therapist: I see. What else have you noticed?"
+    ],
+    [
+      "Client: It's... it's like a shadow that follows me everywhere. I find myself constantly on edge when I'm out walking, always scanning for potential threats. I've stopped going to the park altogether. It's affecting my life in ways I didn't even realize until now.",
+      "Therapist: I see. What else have you noticed?",
+      "Client: Well, I've been having these nightmares. Not every night, but often enough. Sometimes it's the exact scene I witnessed, other times it's... worse. Like my own dog being attacked, or even my grandchildren. (pauses) I wake up in a cold sweat, heart racing. It takes me hours to calm down sometimes."
+    ],
+    [
+      "Therapist: I see. What else have you noticed?",
+      "Client: Well, I've been having these nightmares. Not every night, but often enough. Sometimes it's the exact scene I witnessed, other times it's... worse. Like my own dog being attacked, or even my grandchildren. (pauses) I wake up in a cold sweat, heart racing. It takes me hours to calm down sometimes.",
+      "Therapist: How did it feel to revisit the memory today?"
+    ],
+    [
+      "Client: Well, I've been having these nightmares. Not every night, but often enough. Sometimes it's the exact scene I witnessed, other times it's... worse. Like my own dog being attacked, or even my grandchildren. (pauses) I wake up in a cold sweat, heart racing. It takes me hours to calm down sometimes.",
+      "Therapist: How did it feel to revisit the memory today?",
+      "Client: It was... tough. Really tough. But also... I don't know, maybe a little cathartic? Like, I've been carrying this weight for so long, and finally letting it out... it hurts, but there's also a sense of relief? Does that make sense?"
+    ],
+    [
+      "Therapist: How did it feel to revisit the memory today?",
+      "Client: It was... tough. Really tough. But also... I don't know, maybe a little cathartic? Like, I've been carrying this weight for so long, and finally letting it out... it hurts, but there's also a sense of relief? Does that make sense?",
+      "Therapist: Absolutely. What else?"
+    ],
+    [
+      "Client: It was... tough. Really tough. But also... I don't know, maybe a little cathartic? Like, I've been carrying this weight for so long, and finally letting it out... it hurts, but there's also a sense of relief? Does that make sense?",
+      "Therapist: Absolutely. What else?",
+      "Client: I noticed something else too. As I was going through it, I realized that while I felt helpless at the moment, I did actually do something. I called for help, I comforted the dog's owner afterwards. I wasn't completely useless. (sighs) I guess I've been so focused on what I didn't do, I forgot about what I did do."
+    ],
+    [
+      "Therapist: Absolutely. What else?",
+      "Client: I noticed something else too. As I was going through it, I realized that while I felt helpless at the moment, I did actually do something. I called for help, I comforted the dog's owner afterwards. I wasn't completely useless. (sighs) I guess I've been so focused on what I didn't do, I forgot about what I did do.",
+      "Therapist: That's an important realization. How does that change things?"
+    ],
+    [
+      "Client: I noticed something else too. As I was going through it, I realized that while I felt helpless at the moment, I did actually do something. I called for help, I comforted the dog's owner afterwards. I wasn't completely useless. (sighs) I guess I've been so focused on what I didn't do, I forgot about what I did do.",
+      "Therapist: That's an important realization. How does that change things?",
+      "Client: It... it helps, I think. Maybe I'm not as weak as I thought I was. Maybe I did the best I could in a terrible situation. I'm still struggling with the guilt, but... maybe I can start to forgive myself a little?"
+    ],
+    [
+      "Therapist: That's an important realization. How does that change things?",
+      "Client: It... it helps, I think. Maybe I'm not as weak as I thought I was. Maybe I did the best I could in a terrible situation. I'm still struggling with the guilt, but... maybe I can start to forgive myself a little?",
+      "Therapist: That's great progress. What's next?"
+    ],
+    [
+      "Client: It... it helps, I think. Maybe I'm not as weak as I thought I was. Maybe I did the best I could in a terrible situation. I'm still struggling with the guilt, but... maybe I can start to forgive myself a little?",
+      "Therapist: That's great progress. What's next?",
+      "Client: I... I think I want to try going to the park again. Not alone, not yet. But maybe with my husband? Baby steps, you know? And I want to keep working on this memory, keep processing it. It's hard, but I can feel it's helping. I want to get to a place where I can think about it without feeling like I'm right back there."
+    ],
+    [
+      "Therapist: That's great progress. What's next?",
+      "Client: I... I think I want to try going to the park again. Not alone, not yet. But maybe with my husband? Baby steps, you know? And I want to keep working on this memory, keep processing it. It's hard, but I can feel it's helping. I want to get to a place where I can think about it without feeling like I'm right back there.",
+      "Therapist: Excellent. How can we support that?"
+    ],
+    [
+      "Client: I... I think I want to try going to the park again. Not alone, not yet. But maybe with my husband? Baby steps, you know? And I want to keep working on this memory, keep processing it. It's hard, but I can feel it's helping. I want to get to a place where I can think about it without feeling like I'm right back there.",
+      "Therapist: Excellent. How can we support that?",
+      "Client: Could we... could we maybe do this again next session? And maybe you could give me some techniques for when I start feeling overwhelmed? I want to be prepared for when the memories hit me outside of our sessions."
+    ],
+    [
+      "Therapist: Excellent. How can we support that?",
+      "Client: Could we... could we maybe do this again next session? And maybe you could give me some techniques for when I start feeling overwhelmed? I want to be prepared for when the memories hit me outside of our sessions.",
+      "Therapist: Of course. Anything else?"
+    ],
+    [
+      "Client: Could we... could we maybe do this again next session? And maybe you could give me some techniques for when I start feeling overwhelmed? I want to be prepared for when the memories hit me outside of our sessions.",
+      "Therapist: Of course. Anything else?",
+      "Client: I just... I want to thank you. This isn't easy, but I feel like I'm finally starting to make progress. For the first time in a long time, I feel hopeful. Like maybe I can get past this, you know?"
+    ],
+    [
+      "Therapist: Of course. Anything else?",
+      "Client: I just... I want to thank you. This isn't easy, but I feel like I'm finally starting to make progress. For the first time in a long time, I feel hopeful. Like maybe I can get past this, you know?",
+      "Therapist: You're doing great work. See you next week?"
+    ],
+    [
+      "Client: I just... I want to thank you. This isn't easy, but I feel like I'm finally starting to make progress. For the first time in a long time, I feel hopeful. Like maybe I can get past this, you know?",
+      "Therapist: You're doing great work. See you next week?",
+      "Client: Definitely. Thank you again, doctor. I'll see you next week."
+    ]
+  ]
+}

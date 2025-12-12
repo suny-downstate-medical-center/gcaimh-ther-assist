@@ -1,0 +1,74 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, John. Today we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving that car accident... it makes my stomach churn. I know we've talked about it before, but actually going through it in detail feels different.",
+    "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+    "Client: Well, I'm worried that once I start talking about it, I won't be able to stop the flood of memories. What if I completely fall apart? I've been trying so hard to keep it together, especially at work and for my wife. And then there's the guilt... I survived when others didn't. It's just... a lot.",
+    "Therapist: I understand. How do you think this exercise might help?",
+    "Client: I suppose... maybe it could help me process what happened? I've been avoiding thinking about it for so long. But I'm still not sure I can handle it. The nightmares are bad enough, and those are when I'm asleep. Doing this while I'm awake feels terrifying.",
+    "Therapist: Your courage is commendable. What support do you need today?",
+    "Client: I... I'm not sure. Maybe just knowing that I can stop if it gets too overwhelming? And... this might sound silly, but could we have a code word or something? Just in case I freeze up and can't articulate that I need a break?",
+    "Therapist: Absolutely. Let's choose a word together. Any ideas?",
+    "Client: How about \"lighthouse\"? It reminds me of safety, a guiding light in the storm. Is that okay?",
+    "Therapist: Perfect. \"Lighthouse\" it is. Ready to begin?",
+    "Client: I guess so. Just... please be patient with me if I struggle. This is harder than I thought it would be, and we haven't even started yet. But I want to get better, for myself and my family. I'm tired of feeling like I'm constantly on edge, waiting for the next disaster. So, yes, I'm ready. As ready as I'll ever be, anyway.",
+    "Therapist: You're doing great. Let's start slowly. Close your eyes..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, John. Today we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving that car accident... it makes my stomach churn. I know we've talked about it before, but actually going through it in detail feels different.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving that car accident... it makes my stomach churn. I know we've talked about it before, but actually going through it in detail feels different.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried that once I start talking about it, I won't be able to stop the flood of memories. What if I completely fall apart? I've been trying so hard to keep it together, especially at work and for my wife. And then there's the guilt... I survived when others didn't. It's just... a lot."
+    ],
+    [
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried that once I start talking about it, I won't be able to stop the flood of memories. What if I completely fall apart? I've been trying so hard to keep it together, especially at work and for my wife. And then there's the guilt... I survived when others didn't. It's just... a lot.",
+      "Therapist: I understand. How do you think this exercise might help?"
+    ],
+    [
+      "Client: Well, I'm worried that once I start talking about it, I won't be able to stop the flood of memories. What if I completely fall apart? I've been trying so hard to keep it together, especially at work and for my wife. And then there's the guilt... I survived when others didn't. It's just... a lot.",
+      "Therapist: I understand. How do you think this exercise might help?",
+      "Client: I suppose... maybe it could help me process what happened? I've been avoiding thinking about it for so long. But I'm still not sure I can handle it. The nightmares are bad enough, and those are when I'm asleep. Doing this while I'm awake feels terrifying."
+    ],
+    [
+      "Therapist: I understand. How do you think this exercise might help?",
+      "Client: I suppose... maybe it could help me process what happened? I've been avoiding thinking about it for so long. But I'm still not sure I can handle it. The nightmares are bad enough, and those are when I'm asleep. Doing this while I'm awake feels terrifying.",
+      "Therapist: Your courage is commendable. What support do you need today?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? I've been avoiding thinking about it for so long. But I'm still not sure I can handle it. The nightmares are bad enough, and those are when I'm asleep. Doing this while I'm awake feels terrifying.",
+      "Therapist: Your courage is commendable. What support do you need today?",
+      "Client: I... I'm not sure. Maybe just knowing that I can stop if it gets too overwhelming? And... this might sound silly, but could we have a code word or something? Just in case I freeze up and can't articulate that I need a break?"
+    ],
+    [
+      "Therapist: Your courage is commendable. What support do you need today?",
+      "Client: I... I'm not sure. Maybe just knowing that I can stop if it gets too overwhelming? And... this might sound silly, but could we have a code word or something? Just in case I freeze up and can't articulate that I need a break?",
+      "Therapist: Absolutely. Let's choose a word together. Any ideas?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe just knowing that I can stop if it gets too overwhelming? And... this might sound silly, but could we have a code word or something? Just in case I freeze up and can't articulate that I need a break?",
+      "Therapist: Absolutely. Let's choose a word together. Any ideas?",
+      "Client: How about \"lighthouse\"? It reminds me of safety, a guiding light in the storm. Is that okay?"
+    ],
+    [
+      "Therapist: Absolutely. Let's choose a word together. Any ideas?",
+      "Client: How about \"lighthouse\"? It reminds me of safety, a guiding light in the storm. Is that okay?",
+      "Therapist: Perfect. \"Lighthouse\" it is. Ready to begin?"
+    ],
+    [
+      "Client: How about \"lighthouse\"? It reminds me of safety, a guiding light in the storm. Is that okay?",
+      "Therapist: Perfect. \"Lighthouse\" it is. Ready to begin?",
+      "Client: I guess so. Just... please be patient with me if I struggle. This is harder than I thought it would be, and we haven't even started yet. But I want to get better, for myself and my family. I'm tired of feeling like I'm constantly on edge, waiting for the next disaster. So, yes, I'm ready. As ready as I'll ever be, anyway."
+    ],
+    [
+      "Therapist: Perfect. \"Lighthouse\" it is. Ready to begin?",
+      "Client: I guess so. Just... please be patient with me if I struggle. This is harder than I thought it would be, and we haven't even started yet. But I want to get better, for myself and my family. I'm tired of feeling like I'm constantly on edge, waiting for the next disaster. So, yes, I'm ready. As ready as I'll ever be, anyway.",
+      "Therapist: You're doing great. Let's start slowly. Close your eyes..."
+    ]
+  ]
+}

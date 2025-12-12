@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Sarah, how are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and it's making me feel on edge.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. Can you explain what that means exactly? I'm not sure I fully understand what we're going to be doing.",
+    "Therapist: Of course. It involves revisiting your trauma memory in a safe environment. How does that sound?",
+    "Client: That sounds... pretty scary, to be honest. I've been trying so hard not to think about it. Won't talking about it make things worse?",
+    "Therapist: It's normal to feel apprehensive. This approach actually helps reduce symptoms over time. Shall I explain more?",
+    "Client: Yes, please. I want to understand why we're doing this if it's going to be so difficult.",
+    "Therapist: By confronting the memory, we can process it and reduce its power. What are your thoughts on that?",
+    "Client: I guess that makes sense. It's like facing your fears, right? But what if I can't handle it? What if I have a panic attack or something?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that reassurance feel?",
+    "Client: It helps a little. I trust you, Dr. Thompson. I just... I'm scared of feeling out of control. The hurricane was so overwhelming, and I felt so helpless. I don't want to feel that way again.",
+    "Therapist: Your feelings are completely normal. We'll work together to help you feel safe and in control. Ready to discuss what to expect?",
+    "Client: Yes, I think so. What exactly will we be doing? And how long will it take?",
+    "Therapist: We'll revisit the memory for about 30-45 minutes. You'll describe it in present tense. How does that sound?",
+    "Client: That's a long time to talk about something so difficult. Will you be guiding me through it, or do I just... start talking?",
+    "Therapist: I'll guide you with questions. We can pause anytime you need. Does this help ease your concerns?",
+    "Client: A little, yes. It's good to know I won't be alone in this. I'm still nervous, but I think I understand why we're doing it now. It's to help me process what happened, right?",
+    "Therapist: Exactly. It's about processing and reducing the memory's emotional impact. Any other questions?",
+    "Client: I think I'm okay for now. I'm scared, but I'm also... ready, I guess. I want to get better. I'm tired of the nightmares and feeling so anxious all the time. If this will help, then I want to try it.",
+    "Therapist: Your courage is admirable, Sarah. Shall we begin, or do you need a moment?",
+    "Client: Can we just take a few deep breaths together first? I want to calm my nerves a bit before we start.",
+    "Therapist: Of course. Let's breathe together. Ready?",
+    "Client: Ready. Thank you, Dr. Thompson. I'm glad you're here with me for this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Sarah, how are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and it's making me feel on edge.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and it's making me feel on edge.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. Can you explain what that means exactly? I'm not sure I fully understand what we're going to be doing."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. Can you explain what that means exactly? I'm not sure I fully understand what we're going to be doing.",
+      "Therapist: Of course. It involves revisiting your trauma memory in a safe environment. How does that sound?"
+    ],
+    [
+      "Client: I think so. Can you explain what that means exactly? I'm not sure I fully understand what we're going to be doing.",
+      "Therapist: Of course. It involves revisiting your trauma memory in a safe environment. How does that sound?",
+      "Client: That sounds... pretty scary, to be honest. I've been trying so hard not to think about it. Won't talking about it make things worse?"
+    ],
+    [
+      "Therapist: Of course. It involves revisiting your trauma memory in a safe environment. How does that sound?",
+      "Client: That sounds... pretty scary, to be honest. I've been trying so hard not to think about it. Won't talking about it make things worse?",
+      "Therapist: It's normal to feel apprehensive. This approach actually helps reduce symptoms over time. Shall I explain more?"
+    ],
+    [
+      "Client: That sounds... pretty scary, to be honest. I've been trying so hard not to think about it. Won't talking about it make things worse?",
+      "Therapist: It's normal to feel apprehensive. This approach actually helps reduce symptoms over time. Shall I explain more?",
+      "Client: Yes, please. I want to understand why we're doing this if it's going to be so difficult."
+    ],
+    [
+      "Therapist: It's normal to feel apprehensive. This approach actually helps reduce symptoms over time. Shall I explain more?",
+      "Client: Yes, please. I want to understand why we're doing this if it's going to be so difficult.",
+      "Therapist: By confronting the memory, we can process it and reduce its power. What are your thoughts on that?"
+    ],
+    [
+      "Client: Yes, please. I want to understand why we're doing this if it's going to be so difficult.",
+      "Therapist: By confronting the memory, we can process it and reduce its power. What are your thoughts on that?",
+      "Client: I guess that makes sense. It's like facing your fears, right? But what if I can't handle it? What if I have a panic attack or something?"
+    ],
+    [
+      "Therapist: By confronting the memory, we can process it and reduce its power. What are your thoughts on that?",
+      "Client: I guess that makes sense. It's like facing your fears, right? But what if I can't handle it? What if I have a panic attack or something?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that reassurance feel?"
+    ],
+    [
+      "Client: I guess that makes sense. It's like facing your fears, right? But what if I can't handle it? What if I have a panic attack or something?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, Dr. Thompson. I just... I'm scared of feeling out of control. The hurricane was so overwhelming, and I felt so helpless. I don't want to feel that way again."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, Dr. Thompson. I just... I'm scared of feeling out of control. The hurricane was so overwhelming, and I felt so helpless. I don't want to feel that way again.",
+      "Therapist: Your feelings are completely normal. We'll work together to help you feel safe and in control. Ready to discuss what to expect?"
+    ],
+    [
+      "Client: It helps a little. I trust you, Dr. Thompson. I just... I'm scared of feeling out of control. The hurricane was so overwhelming, and I felt so helpless. I don't want to feel that way again.",
+      "Therapist: Your feelings are completely normal. We'll work together to help you feel safe and in control. Ready to discuss what to expect?",
+      "Client: Yes, I think so. What exactly will we be doing? And how long will it take?"
+    ],
+    [
+      "Therapist: Your feelings are completely normal. We'll work together to help you feel safe and in control. Ready to discuss what to expect?",
+      "Client: Yes, I think so. What exactly will we be doing? And how long will it take?",
+      "Therapist: We'll revisit the memory for about 30-45 minutes. You'll describe it in present tense. How does that sound?"
+    ],
+    [
+      "Client: Yes, I think so. What exactly will we be doing? And how long will it take?",
+      "Therapist: We'll revisit the memory for about 30-45 minutes. You'll describe it in present tense. How does that sound?",
+      "Client: That's a long time to talk about something so difficult. Will you be guiding me through it, or do I just... start talking?"
+    ],
+    [
+      "Therapist: We'll revisit the memory for about 30-45 minutes. You'll describe it in present tense. How does that sound?",
+      "Client: That's a long time to talk about something so difficult. Will you be guiding me through it, or do I just... start talking?",
+      "Therapist: I'll guide you with questions. We can pause anytime you need. Does this help ease your concerns?"
+    ],
+    [
+      "Client: That's a long time to talk about something so difficult. Will you be guiding me through it, or do I just... start talking?",
+      "Therapist: I'll guide you with questions. We can pause anytime you need. Does this help ease your concerns?",
+      "Client: A little, yes. It's good to know I won't be alone in this. I'm still nervous, but I think I understand why we're doing it now. It's to help me process what happened, right?"
+    ],
+    [
+      "Therapist: I'll guide you with questions. We can pause anytime you need. Does this help ease your concerns?",
+      "Client: A little, yes. It's good to know I won't be alone in this. I'm still nervous, but I think I understand why we're doing it now. It's to help me process what happened, right?",
+      "Therapist: Exactly. It's about processing and reducing the memory's emotional impact. Any other questions?"
+    ],
+    [
+      "Client: A little, yes. It's good to know I won't be alone in this. I'm still nervous, but I think I understand why we're doing it now. It's to help me process what happened, right?",
+      "Therapist: Exactly. It's about processing and reducing the memory's emotional impact. Any other questions?",
+      "Client: I think I'm okay for now. I'm scared, but I'm also... ready, I guess. I want to get better. I'm tired of the nightmares and feeling so anxious all the time. If this will help, then I want to try it."
+    ],
+    [
+      "Therapist: Exactly. It's about processing and reducing the memory's emotional impact. Any other questions?",
+      "Client: I think I'm okay for now. I'm scared, but I'm also... ready, I guess. I want to get better. I'm tired of the nightmares and feeling so anxious all the time. If this will help, then I want to try it.",
+      "Therapist: Your courage is admirable, Sarah. Shall we begin, or do you need a moment?"
+    ],
+    [
+      "Client: I think I'm okay for now. I'm scared, but I'm also... ready, I guess. I want to get better. I'm tired of the nightmares and feeling so anxious all the time. If this will help, then I want to try it.",
+      "Therapist: Your courage is admirable, Sarah. Shall we begin, or do you need a moment?",
+      "Client: Can we just take a few deep breaths together first? I want to calm my nerves a bit before we start."
+    ],
+    [
+      "Therapist: Your courage is admirable, Sarah. Shall we begin, or do you need a moment?",
+      "Client: Can we just take a few deep breaths together first? I want to calm my nerves a bit before we start.",
+      "Therapist: Of course. Let's breathe together. Ready?"
+    ],
+    [
+      "Client: Can we just take a few deep breaths together first? I want to calm my nerves a bit before we start.",
+      "Therapist: Of course. Let's breathe together. Ready?",
+      "Client: Ready. Thank you, Dr. Thompson. I'm glad you're here with me for this."
+    ]
+  ]
+}

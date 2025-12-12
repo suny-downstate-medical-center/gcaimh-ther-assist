@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I... I think so. I'm feeling nervous, but I'll try my best.",
+    "Therapist: That's understandable. Take a deep breath, and when you're ready, describe the memory.",
+    "Client: Okay... I'm back in that warehouse. It's dark, musty. I can smell the damp concrete. There are other people around me, but we're not allowed to talk. I'm scared... I don't know what's going to happen next.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: It's... it's about a 6. My heart is starting to race.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: The door opens, and this man walks in. He's big, intimidating. I can hear his heavy footsteps echoing. He's shouting something, but I can't understand the language. I'm trembling... I feel so helpless.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweaty.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: He's getting closer to me now. I can smell alcohol on his breath. He grabs my arm, and I... I want to fight back, but I'm too afraid. I feel weak, ashamed. My whole body is tense.",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+    "Therapist: Take a moment. You're safe here.",
+    "Client: (deep breath) Okay... The man is dragging me towards the door. I'm trying to dig my heels in, but he's too strong. I can hear others whimpering around me. I feel so alone, so helpless.",
+    "Therapist: How are you feeling now?",
+    "Client: My SUDS is still at 9. My chest feels tight, and I'm shaking.",
+    "Therapist: You're doing great. Stay with the memory.",
+    "Client: We're outside now. It's cold, and I can see my breath in the air. There's a van waiting. I know once I'm in that van, things will get worse. I'm panicking, but I can't scream. My throat feels closed up.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's a 10 now. I feel overwhelmed, like I'm right back there.",
+    "Therapist: You're safe here. Take a deep breath.",
+    "Client: (breathing heavily) The man shoves me into the van. It's dark inside, and I can hear others crying. The engine starts, and I feel so trapped. I'm terrified of what's going to happen next.",
+    "Therapist: How are you feeling now?",
+    "Client: My SUDS is still at 10. I feel like my heart might burst out of my chest.",
+    "Therapist: You're doing well. Let's pause here. Take some deep breaths.",
+    "Client: (breathing slowly) Okay... I'm trying to calm down. It felt so real.",
+    "Therapist: That's normal. How are you feeling now?",
+    "Client: My SUDS is coming down... maybe to an 8. I still feel shaky, but I'm starting to feel more present.",
+    "Therapist: You did great. We'll work through this together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I... I think so. I'm feeling nervous, but I'll try my best.",
+      "Therapist: That's understandable. Take a deep breath, and when you're ready, describe the memory."
+    ],
+    [
+      "Client: I... I think so. I'm feeling nervous, but I'll try my best.",
+      "Therapist: That's understandable. Take a deep breath, and when you're ready, describe the memory.",
+      "Client: Okay... I'm back in that warehouse. It's dark, musty. I can smell the damp concrete. There are other people around me, but we're not allowed to talk. I'm scared... I don't know what's going to happen next."
+    ],
+    [
+      "Therapist: That's understandable. Take a deep breath, and when you're ready, describe the memory.",
+      "Client: Okay... I'm back in that warehouse. It's dark, musty. I can smell the damp concrete. There are other people around me, but we're not allowed to talk. I'm scared... I don't know what's going to happen next.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in that warehouse. It's dark, musty. I can smell the damp concrete. There are other people around me, but we're not allowed to talk. I'm scared... I don't know what's going to happen next.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's... it's about a 6. My heart is starting to race."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's... it's about a 6. My heart is starting to race.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's... it's about a 6. My heart is starting to race.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The door opens, and this man walks in. He's big, intimidating. I can hear his heavy footsteps echoing. He's shouting something, but I can't understand the language. I'm trembling... I feel so helpless."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The door opens, and this man walks in. He's big, intimidating. I can hear his heavy footsteps echoing. He's shouting something, but I can't understand the language. I'm trembling... I feel so helpless.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: The door opens, and this man walks in. He's big, intimidating. I can hear his heavy footsteps echoing. He's shouting something, but I can't understand the language. I'm trembling... I feel so helpless.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweaty."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweaty.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweaty.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's getting closer to me now. I can smell alcohol on his breath. He grabs my arm, and I... I want to fight back, but I'm too afraid. I feel weak, ashamed. My whole body is tense."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's getting closer to me now. I can smell alcohol on his breath. He grabs my arm, and I... I want to fight back, but I'm too afraid. I feel weak, ashamed. My whole body is tense.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: He's getting closer to me now. I can smell alcohol on his breath. He grabs my arm, and I... I want to fight back, but I'm too afraid. I feel weak, ashamed. My whole body is tense.",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: Take a moment. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: Take a moment. You're safe here.",
+      "Client: (deep breath) Okay... The man is dragging me towards the door. I'm trying to dig my heels in, but he's too strong. I can hear others whimpering around me. I feel so alone, so helpless."
+    ],
+    [
+      "Therapist: Take a moment. You're safe here.",
+      "Client: (deep breath) Okay... The man is dragging me towards the door. I'm trying to dig my heels in, but he's too strong. I can hear others whimpering around me. I feel so alone, so helpless.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (deep breath) Okay... The man is dragging me towards the door. I'm trying to dig my heels in, but he's too strong. I can hear others whimpering around me. I feel so alone, so helpless.",
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is still at 9. My chest feels tight, and I'm shaking."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is still at 9. My chest feels tight, and I'm shaking.",
+      "Therapist: You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: My SUDS is still at 9. My chest feels tight, and I'm shaking.",
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: We're outside now. It's cold, and I can see my breath in the air. There's a van waiting. I know once I'm in that van, things will get worse. I'm panicking, but I can't scream. My throat feels closed up."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: We're outside now. It's cold, and I can see my breath in the air. There's a van waiting. I know once I'm in that van, things will get worse. I'm panicking, but I can't scream. My throat feels closed up.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: We're outside now. It's cold, and I can see my breath in the air. There's a van waiting. I know once I'm in that van, things will get worse. I'm panicking, but I can't scream. My throat feels closed up.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's a 10 now. I feel overwhelmed, like I'm right back there."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's a 10 now. I feel overwhelmed, like I'm right back there.",
+      "Therapist: You're safe here. Take a deep breath."
+    ],
+    [
+      "Client: It's... it's a 10 now. I feel overwhelmed, like I'm right back there.",
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (breathing heavily) The man shoves me into the van. It's dark inside, and I can hear others crying. The engine starts, and I feel so trapped. I'm terrified of what's going to happen next."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (breathing heavily) The man shoves me into the van. It's dark inside, and I can hear others crying. The engine starts, and I feel so trapped. I'm terrified of what's going to happen next.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (breathing heavily) The man shoves me into the van. It's dark inside, and I can hear others crying. The engine starts, and I feel so trapped. I'm terrified of what's going to happen next.",
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is still at 10. I feel like my heart might burst out of my chest."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is still at 10. I feel like my heart might burst out of my chest.",
+      "Therapist: You're doing well. Let's pause here. Take some deep breaths."
+    ],
+    [
+      "Client: My SUDS is still at 10. I feel like my heart might burst out of my chest.",
+      "Therapist: You're doing well. Let's pause here. Take some deep breaths.",
+      "Client: (breathing slowly) Okay... I'm trying to calm down. It felt so real."
+    ],
+    [
+      "Therapist: You're doing well. Let's pause here. Take some deep breaths.",
+      "Client: (breathing slowly) Okay... I'm trying to calm down. It felt so real.",
+      "Therapist: That's normal. How are you feeling now?"
+    ],
+    [
+      "Client: (breathing slowly) Okay... I'm trying to calm down. It felt so real.",
+      "Therapist: That's normal. How are you feeling now?",
+      "Client: My SUDS is coming down... maybe to an 8. I still feel shaky, but I'm starting to feel more present."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling now?",
+      "Client: My SUDS is coming down... maybe to an 8. I still feel shaky, but I'm starting to feel more present.",
+      "Therapist: You did great. We'll work through this together."
+    ]
+  ]
+}

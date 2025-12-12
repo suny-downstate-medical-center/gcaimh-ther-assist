@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+    "Therapist: I'm sorry to hear that. We'll address those concerns today.",
+    "Client: That sounds good. I'm just worried about making things worse. These memories... they're so vivid and overwhelming sometimes. I'm not sure I can handle reliving them.",
+    "Therapist: Your concerns are valid. Let's discuss imaginal exposure.",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? Will I have to go through everything again?",
+    "Therapist: It involves revisiting memories safely. We'll go at your pace.",
+    "Client: My pace? I'm not sure I have any control over these memories once they start. It's like being swept away by a tidal wave. How can I possibly manage that?",
+    "Therapist: You'll be in control. I'll guide you throughout.",
+    "Client: That's a relief to hear. But what if I panic? Or what if I can't stop crying? I'm worried about falling apart in front of you.",
+    "Therapist: It's normal to feel overwhelmed. We'll take breaks as needed.",
+    "Client: Okay, that helps a bit. Can you tell me more about what to expect? Will this really help with my PTSD symptoms?",
+    "Therapist: Yes, it's proven effective. We'll process memories to reduce their impact.",
+    "Client: That sounds promising. I'm tired of feeling controlled by my past. But how long will this take? Will I feel worse before I feel better?",
+    "Therapist: It varies, but improvement often comes gradually. Temporary discomfort is normal.",
+    "Client: I understand. It's just... after witnessing so much violence, especially in my own home, I'm scared of confronting those memories head-on. But I also want to move forward.",
+    "Therapist: Your courage is admirable. We'll face this together.",
+    "Client: Thank you. That means a lot. I've felt so alone with this for so long. It's good to know I have support. So, what's the first step?",
+    "Therapist: We'll start with relaxation techniques. Then gradually approach memories.",
+    "Client: Relaxation techniques sound good. I could definitely use some of those. And approaching memories gradually... that seems less scary than diving right in. I think I can handle that.",
+    "Therapist: Excellent. Your willingness to engage is crucial for healing.",
+    "Client: I appreciate that. I'm still nervous, but I'm also feeling a glimmer of hope. Maybe I can finally start to put some of this behind me and focus on the future.",
+    "Therapist: That's the goal. Shall we begin with a breathing exercise?",
+    "Client: Yes, I think I'm ready. Let's give it a try."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+      "Therapist: I'm sorry to hear that. We'll address those concerns today."
+    ],
+    [
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+      "Therapist: I'm sorry to hear that. We'll address those concerns today.",
+      "Client: That sounds good. I'm just worried about making things worse. These memories... they're so vivid and overwhelming sometimes. I'm not sure I can handle reliving them."
+    ],
+    [
+      "Therapist: I'm sorry to hear that. We'll address those concerns today.",
+      "Client: That sounds good. I'm just worried about making things worse. These memories... they're so vivid and overwhelming sometimes. I'm not sure I can handle reliving them.",
+      "Therapist: Your concerns are valid. Let's discuss imaginal exposure."
+    ],
+    [
+      "Client: That sounds good. I'm just worried about making things worse. These memories... they're so vivid and overwhelming sometimes. I'm not sure I can handle reliving them.",
+      "Therapist: Your concerns are valid. Let's discuss imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? Will I have to go through everything again?"
+    ],
+    [
+      "Therapist: Your concerns are valid. Let's discuss imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? Will I have to go through everything again?",
+      "Therapist: It involves revisiting memories safely. We'll go at your pace."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? Will I have to go through everything again?",
+      "Therapist: It involves revisiting memories safely. We'll go at your pace.",
+      "Client: My pace? I'm not sure I have any control over these memories once they start. It's like being swept away by a tidal wave. How can I possibly manage that?"
+    ],
+    [
+      "Therapist: It involves revisiting memories safely. We'll go at your pace.",
+      "Client: My pace? I'm not sure I have any control over these memories once they start. It's like being swept away by a tidal wave. How can I possibly manage that?",
+      "Therapist: You'll be in control. I'll guide you throughout."
+    ],
+    [
+      "Client: My pace? I'm not sure I have any control over these memories once they start. It's like being swept away by a tidal wave. How can I possibly manage that?",
+      "Therapist: You'll be in control. I'll guide you throughout.",
+      "Client: That's a relief to hear. But what if I panic? Or what if I can't stop crying? I'm worried about falling apart in front of you."
+    ],
+    [
+      "Therapist: You'll be in control. I'll guide you throughout.",
+      "Client: That's a relief to hear. But what if I panic? Or what if I can't stop crying? I'm worried about falling apart in front of you.",
+      "Therapist: It's normal to feel overwhelmed. We'll take breaks as needed."
+    ],
+    [
+      "Client: That's a relief to hear. But what if I panic? Or what if I can't stop crying? I'm worried about falling apart in front of you.",
+      "Therapist: It's normal to feel overwhelmed. We'll take breaks as needed.",
+      "Client: Okay, that helps a bit. Can you tell me more about what to expect? Will this really help with my PTSD symptoms?"
+    ],
+    [
+      "Therapist: It's normal to feel overwhelmed. We'll take breaks as needed.",
+      "Client: Okay, that helps a bit. Can you tell me more about what to expect? Will this really help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective. We'll process memories to reduce their impact."
+    ],
+    [
+      "Client: Okay, that helps a bit. Can you tell me more about what to expect? Will this really help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective. We'll process memories to reduce their impact.",
+      "Client: That sounds promising. I'm tired of feeling controlled by my past. But how long will this take? Will I feel worse before I feel better?"
+    ],
+    [
+      "Therapist: Yes, it's proven effective. We'll process memories to reduce their impact.",
+      "Client: That sounds promising. I'm tired of feeling controlled by my past. But how long will this take? Will I feel worse before I feel better?",
+      "Therapist: It varies, but improvement often comes gradually. Temporary discomfort is normal."
+    ],
+    [
+      "Client: That sounds promising. I'm tired of feeling controlled by my past. But how long will this take? Will I feel worse before I feel better?",
+      "Therapist: It varies, but improvement often comes gradually. Temporary discomfort is normal.",
+      "Client: I understand. It's just... after witnessing so much violence, especially in my own home, I'm scared of confronting those memories head-on. But I also want to move forward."
+    ],
+    [
+      "Therapist: It varies, but improvement often comes gradually. Temporary discomfort is normal.",
+      "Client: I understand. It's just... after witnessing so much violence, especially in my own home, I'm scared of confronting those memories head-on. But I also want to move forward.",
+      "Therapist: Your courage is admirable. We'll face this together."
+    ],
+    [
+      "Client: I understand. It's just... after witnessing so much violence, especially in my own home, I'm scared of confronting those memories head-on. But I also want to move forward.",
+      "Therapist: Your courage is admirable. We'll face this together.",
+      "Client: Thank you. That means a lot. I've felt so alone with this for so long. It's good to know I have support. So, what's the first step?"
+    ],
+    [
+      "Therapist: Your courage is admirable. We'll face this together.",
+      "Client: Thank you. That means a lot. I've felt so alone with this for so long. It's good to know I have support. So, what's the first step?",
+      "Therapist: We'll start with relaxation techniques. Then gradually approach memories."
+    ],
+    [
+      "Client: Thank you. That means a lot. I've felt so alone with this for so long. It's good to know I have support. So, what's the first step?",
+      "Therapist: We'll start with relaxation techniques. Then gradually approach memories.",
+      "Client: Relaxation techniques sound good. I could definitely use some of those. And approaching memories gradually... that seems less scary than diving right in. I think I can handle that."
+    ],
+    [
+      "Therapist: We'll start with relaxation techniques. Then gradually approach memories.",
+      "Client: Relaxation techniques sound good. I could definitely use some of those. And approaching memories gradually... that seems less scary than diving right in. I think I can handle that.",
+      "Therapist: Excellent. Your willingness to engage is crucial for healing."
+    ],
+    [
+      "Client: Relaxation techniques sound good. I could definitely use some of those. And approaching memories gradually... that seems less scary than diving right in. I think I can handle that.",
+      "Therapist: Excellent. Your willingness to engage is crucial for healing.",
+      "Client: I appreciate that. I'm still nervous, but I'm also feeling a glimmer of hope. Maybe I can finally start to put some of this behind me and focus on the future."
+    ],
+    [
+      "Therapist: Excellent. Your willingness to engage is crucial for healing.",
+      "Client: I appreciate that. I'm still nervous, but I'm also feeling a glimmer of hope. Maybe I can finally start to put some of this behind me and focus on the future.",
+      "Therapist: That's the goal. Shall we begin with a breathing exercise?"
+    ],
+    [
+      "Client: I appreciate that. I'm still nervous, but I'm also feeling a glimmer of hope. Maybe I can finally start to put some of this behind me and focus on the future.",
+      "Therapist: That's the goal. Shall we begin with a breathing exercise?",
+      "Client: Yes, I think I'm ready. Let's give it a try."
+    ]
+  ]
+}

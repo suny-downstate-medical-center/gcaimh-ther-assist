@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, John?",
+    "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the abuse... it's like I was right back there, you know? I could almost smell the musty odor of that room, feel the scratchy fabric of the couch. It's overwhelming.",
+    "Therapist: Mm-hmm. What stood out most to you?",
+    "Client: The helplessness, I think. I felt so small and powerless, just like I did back then. But there was also this... anger that I don't remember feeling at the time. It's like I wanted to scream at my younger self to fight back or run away. I know that's not fair, but... God, I wish I could've done something.",
+    "Therapist: How does that anger feel now?",
+    "Client: It's... intense. Like a fire in my chest. But it's also... I don't know, maybe empowering? I've spent so long feeling afraid and ashamed. The anger feels... almost good, in a way. Is that weird?",
+    "Therapist: Not at all. How might this relate to your recovery?",
+    "Client: I guess... maybe it's a sign that I'm starting to see things differently? Like, I'm finally allowing myself to be angry at the person who hurt me, instead of blaming myself. It's exhausting, though. Part of me wants to just forget about all of this and go back to how things were before.",
+    "Therapist: What keeps you engaged in therapy?",
+    "Client: The hope that I can finally move past this, I suppose. I'm tired of the nightmares, the constant anxiety, the way I push people away. I want to feel... normal, whatever that means. And moments like this, as difficult as they are, make me feel like I'm actually doing something about it, you know?",
+    "Therapist: I see. What's been most helpful so far?",
+    "Client: The breathing exercises have been surprisingly effective. When I feel myself starting to panic, being able to focus on my breath... it helps ground me. And talking through the memories, as painful as it is, feels like I'm finally confronting them instead of running away. It's terrifying, but also... I don't know, maybe liberating?",
+    "Therapist: Mm. How has this impacted your daily life?",
+    "Client: It's... a mixed bag, really. Some days are harder than others. I find myself more emotional, which is uncomfortable. But I'm also starting to open up to my flatmate a bit more. I actually told him about the therapy last week. He was really supportive, which was... unexpected, but nice.",
+    "Therapist: That's significant. How do you feel about that?",
+    "Client: Scared, honestly. But also... hopeful? It's like I'm slowly letting my walls down. It's terrifying, but there's a part of me that's excited about the possibility of actually connecting with people again. I've been alone for so long...",
+    "Therapist: What would you like to focus on next time?",
+    "Client: I think... maybe we could talk more about the anger? I'm not sure how to handle it. It feels important, but I'm worried about letting it consume me. And maybe... could we go over those grounding techniques again? I think they could be really helpful when the memories get too intense.",
+    "Therapist: Absolutely. Any final thoughts today?",
+    "Client: Just... thank you, I guess. This is hard, harder than I expected. But for the first time in years, I feel like there might be a light at the end of the tunnel. It's dim and far away, but... it's there. And that means more than I can express.",
+    "Therapist: You're doing great work, John. See you next week.",
+    "Client: Thanks, Doc. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, John?",
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the abuse... it's like I was right back there, you know? I could almost smell the musty odor of that room, feel the scratchy fabric of the couch. It's overwhelming.",
+      "Therapist: Mm-hmm. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the abuse... it's like I was right back there, you know? I could almost smell the musty odor of that room, feel the scratchy fabric of the couch. It's overwhelming.",
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: The helplessness, I think. I felt so small and powerless, just like I did back then. But there was also this... anger that I don't remember feeling at the time. It's like I wanted to scream at my younger self to fight back or run away. I know that's not fair, but... God, I wish I could've done something."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: The helplessness, I think. I felt so small and powerless, just like I did back then. But there was also this... anger that I don't remember feeling at the time. It's like I wanted to scream at my younger self to fight back or run away. I know that's not fair, but... God, I wish I could've done something.",
+      "Therapist: How does that anger feel now?"
+    ],
+    [
+      "Client: The helplessness, I think. I felt so small and powerless, just like I did back then. But there was also this... anger that I don't remember feeling at the time. It's like I wanted to scream at my younger self to fight back or run away. I know that's not fair, but... God, I wish I could've done something.",
+      "Therapist: How does that anger feel now?",
+      "Client: It's... intense. Like a fire in my chest. But it's also... I don't know, maybe empowering? I've spent so long feeling afraid and ashamed. The anger feels... almost good, in a way. Is that weird?"
+    ],
+    [
+      "Therapist: How does that anger feel now?",
+      "Client: It's... intense. Like a fire in my chest. But it's also... I don't know, maybe empowering? I've spent so long feeling afraid and ashamed. The anger feels... almost good, in a way. Is that weird?",
+      "Therapist: Not at all. How might this relate to your recovery?"
+    ],
+    [
+      "Client: It's... intense. Like a fire in my chest. But it's also... I don't know, maybe empowering? I've spent so long feeling afraid and ashamed. The anger feels... almost good, in a way. Is that weird?",
+      "Therapist: Not at all. How might this relate to your recovery?",
+      "Client: I guess... maybe it's a sign that I'm starting to see things differently? Like, I'm finally allowing myself to be angry at the person who hurt me, instead of blaming myself. It's exhausting, though. Part of me wants to just forget about all of this and go back to how things were before."
+    ],
+    [
+      "Therapist: Not at all. How might this relate to your recovery?",
+      "Client: I guess... maybe it's a sign that I'm starting to see things differently? Like, I'm finally allowing myself to be angry at the person who hurt me, instead of blaming myself. It's exhausting, though. Part of me wants to just forget about all of this and go back to how things were before.",
+      "Therapist: What keeps you engaged in therapy?"
+    ],
+    [
+      "Client: I guess... maybe it's a sign that I'm starting to see things differently? Like, I'm finally allowing myself to be angry at the person who hurt me, instead of blaming myself. It's exhausting, though. Part of me wants to just forget about all of this and go back to how things were before.",
+      "Therapist: What keeps you engaged in therapy?",
+      "Client: The hope that I can finally move past this, I suppose. I'm tired of the nightmares, the constant anxiety, the way I push people away. I want to feel... normal, whatever that means. And moments like this, as difficult as they are, make me feel like I'm actually doing something about it, you know?"
+    ],
+    [
+      "Therapist: What keeps you engaged in therapy?",
+      "Client: The hope that I can finally move past this, I suppose. I'm tired of the nightmares, the constant anxiety, the way I push people away. I want to feel... normal, whatever that means. And moments like this, as difficult as they are, make me feel like I'm actually doing something about it, you know?",
+      "Therapist: I see. What's been most helpful so far?"
+    ],
+    [
+      "Client: The hope that I can finally move past this, I suppose. I'm tired of the nightmares, the constant anxiety, the way I push people away. I want to feel... normal, whatever that means. And moments like this, as difficult as they are, make me feel like I'm actually doing something about it, you know?",
+      "Therapist: I see. What's been most helpful so far?",
+      "Client: The breathing exercises have been surprisingly effective. When I feel myself starting to panic, being able to focus on my breath... it helps ground me. And talking through the memories, as painful as it is, feels like I'm finally confronting them instead of running away. It's terrifying, but also... I don't know, maybe liberating?"
+    ],
+    [
+      "Therapist: I see. What's been most helpful so far?",
+      "Client: The breathing exercises have been surprisingly effective. When I feel myself starting to panic, being able to focus on my breath... it helps ground me. And talking through the memories, as painful as it is, feels like I'm finally confronting them instead of running away. It's terrifying, but also... I don't know, maybe liberating?",
+      "Therapist: Mm. How has this impacted your daily life?"
+    ],
+    [
+      "Client: The breathing exercises have been surprisingly effective. When I feel myself starting to panic, being able to focus on my breath... it helps ground me. And talking through the memories, as painful as it is, feels like I'm finally confronting them instead of running away. It's terrifying, but also... I don't know, maybe liberating?",
+      "Therapist: Mm. How has this impacted your daily life?",
+      "Client: It's... a mixed bag, really. Some days are harder than others. I find myself more emotional, which is uncomfortable. But I'm also starting to open up to my flatmate a bit more. I actually told him about the therapy last week. He was really supportive, which was... unexpected, but nice."
+    ],
+    [
+      "Therapist: Mm. How has this impacted your daily life?",
+      "Client: It's... a mixed bag, really. Some days are harder than others. I find myself more emotional, which is uncomfortable. But I'm also starting to open up to my flatmate a bit more. I actually told him about the therapy last week. He was really supportive, which was... unexpected, but nice.",
+      "Therapist: That's significant. How do you feel about that?"
+    ],
+    [
+      "Client: It's... a mixed bag, really. Some days are harder than others. I find myself more emotional, which is uncomfortable. But I'm also starting to open up to my flatmate a bit more. I actually told him about the therapy last week. He was really supportive, which was... unexpected, but nice.",
+      "Therapist: That's significant. How do you feel about that?",
+      "Client: Scared, honestly. But also... hopeful? It's like I'm slowly letting my walls down. It's terrifying, but there's a part of me that's excited about the possibility of actually connecting with people again. I've been alone for so long..."
+    ],
+    [
+      "Therapist: That's significant. How do you feel about that?",
+      "Client: Scared, honestly. But also... hopeful? It's like I'm slowly letting my walls down. It's terrifying, but there's a part of me that's excited about the possibility of actually connecting with people again. I've been alone for so long...",
+      "Therapist: What would you like to focus on next time?"
+    ],
+    [
+      "Client: Scared, honestly. But also... hopeful? It's like I'm slowly letting my walls down. It's terrifying, but there's a part of me that's excited about the possibility of actually connecting with people again. I've been alone for so long...",
+      "Therapist: What would you like to focus on next time?",
+      "Client: I think... maybe we could talk more about the anger? I'm not sure how to handle it. It feels important, but I'm worried about letting it consume me. And maybe... could we go over those grounding techniques again? I think they could be really helpful when the memories get too intense."
+    ],
+    [
+      "Therapist: What would you like to focus on next time?",
+      "Client: I think... maybe we could talk more about the anger? I'm not sure how to handle it. It feels important, but I'm worried about letting it consume me. And maybe... could we go over those grounding techniques again? I think they could be really helpful when the memories get too intense.",
+      "Therapist: Absolutely. Any final thoughts today?"
+    ],
+    [
+      "Client: I think... maybe we could talk more about the anger? I'm not sure how to handle it. It feels important, but I'm worried about letting it consume me. And maybe... could we go over those grounding techniques again? I think they could be really helpful when the memories get too intense.",
+      "Therapist: Absolutely. Any final thoughts today?",
+      "Client: Just... thank you, I guess. This is hard, harder than I expected. But for the first time in years, I feel like there might be a light at the end of the tunnel. It's dim and far away, but... it's there. And that means more than I can express."
+    ],
+    [
+      "Therapist: Absolutely. Any final thoughts today?",
+      "Client: Just... thank you, I guess. This is hard, harder than I expected. But for the first time in years, I feel like there might be a light at the end of the tunnel. It's dim and far away, but... it's there. And that means more than I can express.",
+      "Therapist: You're doing great work, John. See you next week."
+    ],
+    [
+      "Client: Just... thank you, I guess. This is hard, harder than I expected. But for the first time in years, I feel like there might be a light at the end of the tunnel. It's dim and far away, but... it's there. And that means more than I can express.",
+      "Therapist: You're doing great work, John. See you next week.",
+      "Client: Thanks, Doc. See you then."
+    ]
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Rodriguez?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's been years since I've allowed myself to think about that day in such vivid detail. The sounds, the smells... it all came rushing back. I could almost feel the heat on my skin again.",
+    "Therapist: That sounds intense. What stood out most to you?",
+    "Client: The fear. The overwhelming fear. I remember huddling in that makeshift bunker, praying that the shelling would stop. And the smell of gunpowder... it was everywhere. I can still taste it in my mouth.",
+    "Therapist: How did it feel to revisit that memory today?",
+    "Client: It was... difficult. But also, in a strange way, liberating. For so long, I've tried to push these memories away. But facing them head-on, it's like... I'm finally acknowledging what happened to me.",
+    "Therapist: That's a powerful insight. How does this connect to your daily life now?",
+    "Client: Well, I realize that I've been living in a constant state of alertness. Always waiting for the next \"attack,\" you know? Even simple things like fireworks or a car backfiring... they send me right back to that place.",
+    "Therapist: Mm-hmm. What else have you noticed?",
+    "Client: I... I think I've been pushing people away. My husband, especially. I've been afraid to let anyone get too close, afraid they might see how broken I feel inside.",
+    "Therapist: That sounds really tough. How do you think today's session might help with that?",
+    "Client: I... I'm not entirely sure. But maybe... maybe by facing these memories, I can start to separate the past from the present. Maybe I can learn to feel safe again.",
+    "Therapist: That's a great goal. What's one small step you could take towards that?",
+    "Client: I suppose... I could try talking to my husband about some of this. Not everything, but... maybe start small. Let him in a little bit.",
+    "Therapist: That sounds like a brave step. How do you feel about trying that?",
+    "Client: Nervous, but... ready. I think I'm ready to start healing. It's been long enough.",
+    "Therapist: Your courage is admirable. Shall we discuss some strategies for that conversation?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Rodriguez?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's been years since I've allowed myself to think about that day in such vivid detail. The sounds, the smells... it all came rushing back. I could almost feel the heat on my skin again.",
+      "Therapist: That sounds intense. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's been years since I've allowed myself to think about that day in such vivid detail. The sounds, the smells... it all came rushing back. I could almost feel the heat on my skin again.",
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The fear. The overwhelming fear. I remember huddling in that makeshift bunker, praying that the shelling would stop. And the smell of gunpowder... it was everywhere. I can still taste it in my mouth."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The fear. The overwhelming fear. I remember huddling in that makeshift bunker, praying that the shelling would stop. And the smell of gunpowder... it was everywhere. I can still taste it in my mouth.",
+      "Therapist: How did it feel to revisit that memory today?"
+    ],
+    [
+      "Client: The fear. The overwhelming fear. I remember huddling in that makeshift bunker, praying that the shelling would stop. And the smell of gunpowder... it was everywhere. I can still taste it in my mouth.",
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... difficult. But also, in a strange way, liberating. For so long, I've tried to push these memories away. But facing them head-on, it's like... I'm finally acknowledging what happened to me."
+    ],
+    [
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... difficult. But also, in a strange way, liberating. For so long, I've tried to push these memories away. But facing them head-on, it's like... I'm finally acknowledging what happened to me.",
+      "Therapist: That's a powerful insight. How does this connect to your daily life now?"
+    ],
+    [
+      "Client: It was... difficult. But also, in a strange way, liberating. For so long, I've tried to push these memories away. But facing them head-on, it's like... I'm finally acknowledging what happened to me.",
+      "Therapist: That's a powerful insight. How does this connect to your daily life now?",
+      "Client: Well, I realize that I've been living in a constant state of alertness. Always waiting for the next \"attack,\" you know? Even simple things like fireworks or a car backfiring... they send me right back to that place."
+    ],
+    [
+      "Therapist: That's a powerful insight. How does this connect to your daily life now?",
+      "Client: Well, I realize that I've been living in a constant state of alertness. Always waiting for the next \"attack,\" you know? Even simple things like fireworks or a car backfiring... they send me right back to that place.",
+      "Therapist: Mm-hmm. What else have you noticed?"
+    ],
+    [
+      "Client: Well, I realize that I've been living in a constant state of alertness. Always waiting for the next \"attack,\" you know? Even simple things like fireworks or a car backfiring... they send me right back to that place.",
+      "Therapist: Mm-hmm. What else have you noticed?",
+      "Client: I... I think I've been pushing people away. My husband, especially. I've been afraid to let anyone get too close, afraid they might see how broken I feel inside."
+    ],
+    [
+      "Therapist: Mm-hmm. What else have you noticed?",
+      "Client: I... I think I've been pushing people away. My husband, especially. I've been afraid to let anyone get too close, afraid they might see how broken I feel inside.",
+      "Therapist: That sounds really tough. How do you think today's session might help with that?"
+    ],
+    [
+      "Client: I... I think I've been pushing people away. My husband, especially. I've been afraid to let anyone get too close, afraid they might see how broken I feel inside.",
+      "Therapist: That sounds really tough. How do you think today's session might help with that?",
+      "Client: I... I'm not entirely sure. But maybe... maybe by facing these memories, I can start to separate the past from the present. Maybe I can learn to feel safe again."
+    ],
+    [
+      "Therapist: That sounds really tough. How do you think today's session might help with that?",
+      "Client: I... I'm not entirely sure. But maybe... maybe by facing these memories, I can start to separate the past from the present. Maybe I can learn to feel safe again.",
+      "Therapist: That's a great goal. What's one small step you could take towards that?"
+    ],
+    [
+      "Client: I... I'm not entirely sure. But maybe... maybe by facing these memories, I can start to separate the past from the present. Maybe I can learn to feel safe again.",
+      "Therapist: That's a great goal. What's one small step you could take towards that?",
+      "Client: I suppose... I could try talking to my husband about some of this. Not everything, but... maybe start small. Let him in a little bit."
+    ],
+    [
+      "Therapist: That's a great goal. What's one small step you could take towards that?",
+      "Client: I suppose... I could try talking to my husband about some of this. Not everything, but... maybe start small. Let him in a little bit.",
+      "Therapist: That sounds like a brave step. How do you feel about trying that?"
+    ],
+    [
+      "Client: I suppose... I could try talking to my husband about some of this. Not everything, but... maybe start small. Let him in a little bit.",
+      "Therapist: That sounds like a brave step. How do you feel about trying that?",
+      "Client: Nervous, but... ready. I think I'm ready to start healing. It's been long enough."
+    ],
+    [
+      "Therapist: That sounds like a brave step. How do you feel about trying that?",
+      "Client: Nervous, but... ready. I think I'm ready to start healing. It's been long enough.",
+      "Therapist: Your courage is admirable. Shall we discuss some strategies for that conversation?"
+    ]
+  ]
+}

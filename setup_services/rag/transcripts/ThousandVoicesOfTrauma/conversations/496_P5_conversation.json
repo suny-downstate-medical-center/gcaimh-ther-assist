@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Amir. How are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the accident lately.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. But to be honest, I'm not sure what that means exactly. Is it going to be intense? I'm worried about reliving everything again.",
+    "Therapist: It can be challenging, but I'll guide you through it. What questions do you have?",
+    "Client: Well, what exactly am I supposed to do? And... will it make things worse? I'm already struggling with my depression, and I'm not sure if I can handle more stress right now.",
+    "Therapist: You'll recount the accident in detail. It may be difficult, but it's designed to help, not harm. How does that sound?",
+    "Client: That sounds pretty scary, to be honest. I've been trying so hard to avoid thinking about it. The idea of purposely remembering everything... it makes my heart race just thinking about it. But if you think it will help...",
+    "Therapist: Your reaction is normal. Remember, you're safe here. Shall we discuss what to expect?",
+    "Client: Yes, please. I'd like to know what I'm getting into. Will you be there the whole time? And what if I can't handle it and need to stop?",
+    "Therapist: I'll be here throughout. We can pause anytime. Your comfort is important. How does that reassure you?",
+    "Client: That does make me feel a bit better. It's good to know I have some control over the situation. I guess I'm just worried about falling apart or getting too overwhelmed. Sometimes when I think about the accident, it feels like I'm right back there, and it's terrifying.",
+    "Therapist: Those feelings are part of healing. We'll work through them together. What else concerns you?",
+    "Client: I'm worried about how I'll feel afterwards. Will I be able to go to my classes? And... this might sound silly, but will talking about it in detail make it more likely for something like that to happen again?",
+    "Therapist: You might feel drained after, so self-care is important. Talking doesn't increase risks. How else can I address your concerns?",
+    "Client: That makes sense. I appreciate your patience with all my questions. I guess I'm just trying to prepare myself mentally. Is there anything I can do to make this process easier or more effective?",
+    "Therapist: Your engagement is great. Stay present, be honest about your feelings. Anything else you want to know?",
+    "Client: I think I'm okay for now. I'm still nervous, but I feel a bit more prepared. Thank you for explaining everything. I'm ready to try this if you think it will help me move forward.",
+    "Therapist: Your courage is admirable. This process is crucial for healing. Shall we begin?",
+    "Client: Okay, yes. I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy, but I want to get better. I'm tired of letting this control my life.",
+    "Therapist: Your determination is inspiring. Let's start slowly. Remember, you're in control here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Amir. How are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the accident lately.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the accident lately.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But to be honest, I'm not sure what that means exactly. Is it going to be intense? I'm worried about reliving everything again."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But to be honest, I'm not sure what that means exactly. Is it going to be intense? I'm worried about reliving everything again.",
+      "Therapist: It can be challenging, but I'll guide you through it. What questions do you have?"
+    ],
+    [
+      "Client: I think so. But to be honest, I'm not sure what that means exactly. Is it going to be intense? I'm worried about reliving everything again.",
+      "Therapist: It can be challenging, but I'll guide you through it. What questions do you have?",
+      "Client: Well, what exactly am I supposed to do? And... will it make things worse? I'm already struggling with my depression, and I'm not sure if I can handle more stress right now."
+    ],
+    [
+      "Therapist: It can be challenging, but I'll guide you through it. What questions do you have?",
+      "Client: Well, what exactly am I supposed to do? And... will it make things worse? I'm already struggling with my depression, and I'm not sure if I can handle more stress right now.",
+      "Therapist: You'll recount the accident in detail. It may be difficult, but it's designed to help, not harm. How does that sound?"
+    ],
+    [
+      "Client: Well, what exactly am I supposed to do? And... will it make things worse? I'm already struggling with my depression, and I'm not sure if I can handle more stress right now.",
+      "Therapist: You'll recount the accident in detail. It may be difficult, but it's designed to help, not harm. How does that sound?",
+      "Client: That sounds pretty scary, to be honest. I've been trying so hard to avoid thinking about it. The idea of purposely remembering everything... it makes my heart race just thinking about it. But if you think it will help..."
+    ],
+    [
+      "Therapist: You'll recount the accident in detail. It may be difficult, but it's designed to help, not harm. How does that sound?",
+      "Client: That sounds pretty scary, to be honest. I've been trying so hard to avoid thinking about it. The idea of purposely remembering everything... it makes my heart race just thinking about it. But if you think it will help...",
+      "Therapist: Your reaction is normal. Remember, you're safe here. Shall we discuss what to expect?"
+    ],
+    [
+      "Client: That sounds pretty scary, to be honest. I've been trying so hard to avoid thinking about it. The idea of purposely remembering everything... it makes my heart race just thinking about it. But if you think it will help...",
+      "Therapist: Your reaction is normal. Remember, you're safe here. Shall we discuss what to expect?",
+      "Client: Yes, please. I'd like to know what I'm getting into. Will you be there the whole time? And what if I can't handle it and need to stop?"
+    ],
+    [
+      "Therapist: Your reaction is normal. Remember, you're safe here. Shall we discuss what to expect?",
+      "Client: Yes, please. I'd like to know what I'm getting into. Will you be there the whole time? And what if I can't handle it and need to stop?",
+      "Therapist: I'll be here throughout. We can pause anytime. Your comfort is important. How does that reassure you?"
+    ],
+    [
+      "Client: Yes, please. I'd like to know what I'm getting into. Will you be there the whole time? And what if I can't handle it and need to stop?",
+      "Therapist: I'll be here throughout. We can pause anytime. Your comfort is important. How does that reassure you?",
+      "Client: That does make me feel a bit better. It's good to know I have some control over the situation. I guess I'm just worried about falling apart or getting too overwhelmed. Sometimes when I think about the accident, it feels like I'm right back there, and it's terrifying."
+    ],
+    [
+      "Therapist: I'll be here throughout. We can pause anytime. Your comfort is important. How does that reassure you?",
+      "Client: That does make me feel a bit better. It's good to know I have some control over the situation. I guess I'm just worried about falling apart or getting too overwhelmed. Sometimes when I think about the accident, it feels like I'm right back there, and it's terrifying.",
+      "Therapist: Those feelings are part of healing. We'll work through them together. What else concerns you?"
+    ],
+    [
+      "Client: That does make me feel a bit better. It's good to know I have some control over the situation. I guess I'm just worried about falling apart or getting too overwhelmed. Sometimes when I think about the accident, it feels like I'm right back there, and it's terrifying.",
+      "Therapist: Those feelings are part of healing. We'll work through them together. What else concerns you?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go to my classes? And... this might sound silly, but will talking about it in detail make it more likely for something like that to happen again?"
+    ],
+    [
+      "Therapist: Those feelings are part of healing. We'll work through them together. What else concerns you?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go to my classes? And... this might sound silly, but will talking about it in detail make it more likely for something like that to happen again?",
+      "Therapist: You might feel drained after, so self-care is important. Talking doesn't increase risks. How else can I address your concerns?"
+    ],
+    [
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go to my classes? And... this might sound silly, but will talking about it in detail make it more likely for something like that to happen again?",
+      "Therapist: You might feel drained after, so self-care is important. Talking doesn't increase risks. How else can I address your concerns?",
+      "Client: That makes sense. I appreciate your patience with all my questions. I guess I'm just trying to prepare myself mentally. Is there anything I can do to make this process easier or more effective?"
+    ],
+    [
+      "Therapist: You might feel drained after, so self-care is important. Talking doesn't increase risks. How else can I address your concerns?",
+      "Client: That makes sense. I appreciate your patience with all my questions. I guess I'm just trying to prepare myself mentally. Is there anything I can do to make this process easier or more effective?",
+      "Therapist: Your engagement is great. Stay present, be honest about your feelings. Anything else you want to know?"
+    ],
+    [
+      "Client: That makes sense. I appreciate your patience with all my questions. I guess I'm just trying to prepare myself mentally. Is there anything I can do to make this process easier or more effective?",
+      "Therapist: Your engagement is great. Stay present, be honest about your feelings. Anything else you want to know?",
+      "Client: I think I'm okay for now. I'm still nervous, but I feel a bit more prepared. Thank you for explaining everything. I'm ready to try this if you think it will help me move forward."
+    ],
+    [
+      "Therapist: Your engagement is great. Stay present, be honest about your feelings. Anything else you want to know?",
+      "Client: I think I'm okay for now. I'm still nervous, but I feel a bit more prepared. Thank you for explaining everything. I'm ready to try this if you think it will help me move forward.",
+      "Therapist: Your courage is admirable. This process is crucial for healing. Shall we begin?"
+    ],
+    [
+      "Client: I think I'm okay for now. I'm still nervous, but I feel a bit more prepared. Thank you for explaining everything. I'm ready to try this if you think it will help me move forward.",
+      "Therapist: Your courage is admirable. This process is crucial for healing. Shall we begin?",
+      "Client: Okay, yes. I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy, but I want to get better. I'm tired of letting this control my life."
+    ],
+    [
+      "Therapist: Your courage is admirable. This process is crucial for healing. Shall we begin?",
+      "Client: Okay, yes. I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy, but I want to get better. I'm tired of letting this control my life.",
+      "Therapist: Your determination is inspiring. Let's start slowly. Remember, you're in control here."
+    ]
+  ]
+}

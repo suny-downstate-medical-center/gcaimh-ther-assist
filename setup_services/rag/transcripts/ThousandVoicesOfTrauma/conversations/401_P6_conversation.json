@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Sam. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your baseline SUDS.",
+    "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that day. Describe what you see.",
+    "Client: I'm... I'm walking down this dimly lit street. It's late, maybe 11 PM. I hear muffled voices coming from an alley up ahead. As I get closer, I see... oh god... I see two men dragging a young woman. She's struggling, trying to break free. Her eyes are wide with fear. I... I freeze. I don't know what to do.",
+    "Therapist: You're doing well. SUDS rating?",
+    "Client: It's... it's gone up. Maybe a 6 now. My heart's racing.",
+    "Therapist: That's understandable. Continue.",
+    "Client: The woman sees me. She mouths \"help\" but no sound comes out. One of the men notices me and shouts something. I can't make out the words, but his tone is threatening. I... I feel so helpless. I should do something, but I'm paralyzed with fear.",
+    "Therapist: Stay with that feeling. What's happening in your body?",
+    "Client: My chest feels tight. I can barely breathe. My legs are shaking. I want to run, but I can't move.",
+    "Therapist: SUDS?",
+    "Client: It's an 8 now. This is really hard.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The men start dragging the woman towards a van parked nearby. She's crying silently now, her eyes still locked on me. I... I fumble for my phone. My hands are shaking so much I can barely dial 911. The operator answers, but I can barely speak. By the time I manage to explain what's happening, the van is driving away. I... I failed her. I should have done more.",
+    "Therapist: How are you feeling now?",
+    "Client: Terrible. Guilty. Ashamed. My SUDS is probably a 9. I feel sick to my stomach.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: I keep seeing her face. Every night when I try to sleep, I see her eyes begging me for help. I wonder what happened to her. Did she survive? Is she okay? I'll never know, and it's killing me.",
+    "Therapist: SUDS?",
+    "Client: Still a 9. My whole body feels tense. I can't stop shaking.",
+    "Therapist: Take a deep breath. You're doing well.",
+    "Client: I... I need a moment. This is overwhelming.",
+    "Therapist: Of course. Take your time.",
+    "Client: (After a pause) Okay, I think I can continue. The guilt is crushing. I keep thinking of all the things I could have done differently. Maybe if I had yelled or tried to intervene... but I was so scared.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's come down a bit. Maybe a 7. I feel drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: I just... I wish I could go back and change things. Be braver. Do more. But I know I can't. And that helplessness, it haunts me.",
+    "Therapist: SUDS?",
+    "Client: Back up to an 8. My chest feels tight again.",
+    "Therapist: You're doing great. We're almost done.",
+    "Client: (Takes a deep breath) Okay. I remember walking home after. Everything felt surreal. The streets looked the same, but I felt like a different person. I couldn't stop shaking. When I got home, I broke down. I cried for hours. I felt so alone, so useless.",
+    "Therapist: And now? How do you feel?",
+    "Client: Exhausted. Drained. But... also a bit lighter? My SUDS is down to a 5 now.",
+    "Therapist: That's good. Let's end here. You did well today.",
+    "Client: Thank you. It was tough, but... I think it helped.",
+    "Therapist: We'll process this next session. Take care of yourself this week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Sam. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your baseline SUDS."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day. Describe what you see."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day. Describe what you see.",
+      "Client: I'm... I'm walking down this dimly lit street. It's late, maybe 11 PM. I hear muffled voices coming from an alley up ahead. As I get closer, I see... oh god... I see two men dragging a young woman. She's struggling, trying to break free. Her eyes are wide with fear. I... I freeze. I don't know what to do."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that day. Describe what you see.",
+      "Client: I'm... I'm walking down this dimly lit street. It's late, maybe 11 PM. I hear muffled voices coming from an alley up ahead. As I get closer, I see... oh god... I see two men dragging a young woman. She's struggling, trying to break free. Her eyes are wide with fear. I... I freeze. I don't know what to do.",
+      "Therapist: You're doing well. SUDS rating?"
+    ],
+    [
+      "Client: I'm... I'm walking down this dimly lit street. It's late, maybe 11 PM. I hear muffled voices coming from an alley up ahead. As I get closer, I see... oh god... I see two men dragging a young woman. She's struggling, trying to break free. Her eyes are wide with fear. I... I freeze. I don't know what to do.",
+      "Therapist: You're doing well. SUDS rating?",
+      "Client: It's... it's gone up. Maybe a 6 now. My heart's racing."
+    ],
+    [
+      "Therapist: You're doing well. SUDS rating?",
+      "Client: It's... it's gone up. Maybe a 6 now. My heart's racing.",
+      "Therapist: That's understandable. Continue."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 6 now. My heart's racing.",
+      "Therapist: That's understandable. Continue.",
+      "Client: The woman sees me. She mouths \"help\" but no sound comes out. One of the men notices me and shouts something. I can't make out the words, but his tone is threatening. I... I feel so helpless. I should do something, but I'm paralyzed with fear."
+    ],
+    [
+      "Therapist: That's understandable. Continue.",
+      "Client: The woman sees me. She mouths \"help\" but no sound comes out. One of the men notices me and shouts something. I can't make out the words, but his tone is threatening. I... I feel so helpless. I should do something, but I'm paralyzed with fear.",
+      "Therapist: Stay with that feeling. What's happening in your body?"
+    ],
+    [
+      "Client: The woman sees me. She mouths \"help\" but no sound comes out. One of the men notices me and shouts something. I can't make out the words, but his tone is threatening. I... I feel so helpless. I should do something, but I'm paralyzed with fear.",
+      "Therapist: Stay with that feeling. What's happening in your body?",
+      "Client: My chest feels tight. I can barely breathe. My legs are shaking. I want to run, but I can't move."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's happening in your body?",
+      "Client: My chest feels tight. I can barely breathe. My legs are shaking. I want to run, but I can't move.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: My chest feels tight. I can barely breathe. My legs are shaking. I want to run, but I can't move.",
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. This is really hard."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. This is really hard.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: It's an 8 now. This is really hard.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The men start dragging the woman towards a van parked nearby. She's crying silently now, her eyes still locked on me. I... I fumble for my phone. My hands are shaking so much I can barely dial 911. The operator answers, but I can barely speak. By the time I manage to explain what's happening, the van is driving away. I... I failed her. I should have done more."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The men start dragging the woman towards a van parked nearby. She's crying silently now, her eyes still locked on me. I... I fumble for my phone. My hands are shaking so much I can barely dial 911. The operator answers, but I can barely speak. By the time I manage to explain what's happening, the van is driving away. I... I failed her. I should have done more.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The men start dragging the woman towards a van parked nearby. She's crying silently now, her eyes still locked on me. I... I fumble for my phone. My hands are shaking so much I can barely dial 911. The operator answers, but I can barely speak. By the time I manage to explain what's happening, the van is driving away. I... I failed her. I should have done more.",
+      "Therapist: How are you feeling now?",
+      "Client: Terrible. Guilty. Ashamed. My SUDS is probably a 9. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Terrible. Guilty. Ashamed. My SUDS is probably a 9. I feel sick to my stomach.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: Terrible. Guilty. Ashamed. My SUDS is probably a 9. I feel sick to my stomach.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I keep seeing her face. Every night when I try to sleep, I see her eyes begging me for help. I wonder what happened to her. Did she survive? Is she okay? I'll never know, and it's killing me."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I keep seeing her face. Every night when I try to sleep, I see her eyes begging me for help. I wonder what happened to her. Did she survive? Is she okay? I'll never know, and it's killing me.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I keep seeing her face. Every night when I try to sleep, I see her eyes begging me for help. I wonder what happened to her. Did she survive? Is she okay? I'll never know, and it's killing me.",
+      "Therapist: SUDS?",
+      "Client: Still a 9. My whole body feels tense. I can't stop shaking."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: Still a 9. My whole body feels tense. I can't stop shaking.",
+      "Therapist: Take a deep breath. You're doing well."
+    ],
+    [
+      "Client: Still a 9. My whole body feels tense. I can't stop shaking.",
+      "Therapist: Take a deep breath. You're doing well.",
+      "Client: I... I need a moment. This is overwhelming."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing well.",
+      "Client: I... I need a moment. This is overwhelming.",
+      "Therapist: Of course. Take your time."
+    ],
+    [
+      "Client: I... I need a moment. This is overwhelming.",
+      "Therapist: Of course. Take your time.",
+      "Client: (After a pause) Okay, I think I can continue. The guilt is crushing. I keep thinking of all the things I could have done differently. Maybe if I had yelled or tried to intervene... but I was so scared."
+    ],
+    [
+      "Therapist: Of course. Take your time.",
+      "Client: (After a pause) Okay, I think I can continue. The guilt is crushing. I keep thinking of all the things I could have done differently. Maybe if I had yelled or tried to intervene... but I was so scared.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (After a pause) Okay, I think I can continue. The guilt is crushing. I keep thinking of all the things I could have done differently. Maybe if I had yelled or tried to intervene... but I was so scared.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's come down a bit. Maybe a 7. I feel drained."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's come down a bit. Maybe a 7. I feel drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's come down a bit. Maybe a 7. I feel drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: I just... I wish I could go back and change things. Be braver. Do more. But I know I can't. And that helplessness, it haunts me."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: I just... I wish I could go back and change things. Be braver. Do more. But I know I can't. And that helplessness, it haunts me.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I just... I wish I could go back and change things. Be braver. Do more. But I know I can't. And that helplessness, it haunts me.",
+      "Therapist: SUDS?",
+      "Client: Back up to an 8. My chest feels tight again."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: Back up to an 8. My chest feels tight again.",
+      "Therapist: You're doing great. We're almost done."
+    ],
+    [
+      "Client: Back up to an 8. My chest feels tight again.",
+      "Therapist: You're doing great. We're almost done.",
+      "Client: (Takes a deep breath) Okay. I remember walking home after. Everything felt surreal. The streets looked the same, but I felt like a different person. I couldn't stop shaking. When I got home, I broke down. I cried for hours. I felt so alone, so useless."
+    ],
+    [
+      "Therapist: You're doing great. We're almost done.",
+      "Client: (Takes a deep breath) Okay. I remember walking home after. Everything felt surreal. The streets looked the same, but I felt like a different person. I couldn't stop shaking. When I got home, I broke down. I cried for hours. I felt so alone, so useless.",
+      "Therapist: And now? How do you feel?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay. I remember walking home after. Everything felt surreal. The streets looked the same, but I felt like a different person. I couldn't stop shaking. When I got home, I broke down. I cried for hours. I felt so alone, so useless.",
+      "Therapist: And now? How do you feel?",
+      "Client: Exhausted. Drained. But... also a bit lighter? My SUDS is down to a 5 now."
+    ],
+    [
+      "Therapist: And now? How do you feel?",
+      "Client: Exhausted. Drained. But... also a bit lighter? My SUDS is down to a 5 now.",
+      "Therapist: That's good. Let's end here. You did well today."
+    ],
+    [
+      "Client: Exhausted. Drained. But... also a bit lighter? My SUDS is down to a 5 now.",
+      "Therapist: That's good. Let's end here. You did well today.",
+      "Client: Thank you. It was tough, but... I think it helped."
+    ],
+    [
+      "Therapist: That's good. Let's end here. You did well today.",
+      "Client: Thank you. It was tough, but... I think it helped.",
+      "Therapist: We'll process this next session. Take care of yourself this week."
+    ]
+  ]
+}

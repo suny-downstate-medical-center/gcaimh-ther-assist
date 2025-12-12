@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that memory. What do you see?",
+    "Client: I'm... I'm in a dimly lit room. It smells musty, like old cigarettes and sweat. There are other people here, mostly young women. They look scared. I can hear muffled voices from another room. My heart is racing.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: It's about a 6. I can feel my palms getting sweaty.",
+    "Therapist: That's okay. Keep going. What happens next?",
+    "Client: A man enters the room. He's tall, intimidating. He starts speaking in a language I don't understand. I see the other women shrinking back, trying to make themselves invisible. I want to do the same, but I can't move. My legs feel like lead.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up to an 8. I can feel my chest tightening.",
+    "Therapist: You're doing well. Remember, you're safe here. Take a deep breath. What do you notice next?",
+    "Client: The man is pointing at me now. He's gesturing for me to stand up. I don't want to, but I'm afraid of what will happen if I don't. My legs are shaking as I get to my feet. I can hear my heart pounding in my ears.",
+    "Therapist: How's your distress level?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+    "Therapist: That's understandable. You're facing a frightening memory. Remember, you're here now, safe in this room.",
+    "Client: Right... right. I'm trying to remind myself of that. In the memory, the man grabs my arm. His grip is so tight, it hurts. He's pulling me towards the door. I want to resist, but I'm frozen with fear. The other women are watching, their eyes full of pity and relief that it's not them.",
+    "Therapist: And your SUDS?",
+    "Client: Still a 9. My heart is racing so fast.",
+    "Therapist: You're doing great. Stay with the memory. What happens as he pulls you?",
+    "Client: He's dragging me down a hallway. It's dark, and I can hear muffled sounds behind closed doors. I'm terrified of what's going to happen to me. I want to scream, but no sound comes out. My throat feels like it's closing up.",
+    "Therapist: How about your SUDS now?",
+    "Client: It's... it's still at 9. I feel like I'm right back there.",
+    "Therapist: That's okay. You're safe here. Keep going.",
+    "Client: We reach another door. He opens it, and there's a group of men inside. They're all staring at me, and I feel so exposed, so helpless. The man who brought me in starts talking to them, gesturing at me like I'm... like I'm not even human. Just an object. I feel sick to my stomach.",
+    "Therapist: And your SUDS level?",
+    "Client: It's... it's actually gone down a bit. Maybe to an 8. I think I'm starting to feel a little numb.",
+    "Therapist: That's a normal reaction. Can you stay with the memory a little longer?",
+    "Client: Yes, I... I think so. One of the men approaches me. He reaches out to touch my face, and I flinch away. But there's nowhere to go. I'm trapped. I close my eyes, wishing I could disappear. I can feel tears running down my cheeks.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's back up to a 9. I feel so helpless, so afraid.",
+    "Therapist: You're doing incredibly well. Remember, you survived this. You're here now, safe.",
+    "Client: Thank you. It's... it's hard to remember that sometimes. In the memory, I can hear them negotiating. I don't understand the words, but I know they're deciding my fate. I feel like I'm going to pass out from fear.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still at 9. My whole body is tense.",
+    "Therapist: That's okay. You're handling this bravely. What happens next?",
+    "Client: Suddenly, there's a loud noise outside. Shouting, commotion. The men in the room look panicked. They start rushing around, and in the chaos, I see a chance. I run. I don't know where I'm going, but I run as fast as I can. My heart feels like it's going to burst out of my chest.",
+    "Therapist: How about your SUDS level now?",
+    "Client: It's... it's actually dropping. Maybe to a 7. I think because I know I escaped.",
+    "Therapist: That's great. You're processing the memory well. How do you feel now?",
+    "Client: I'm... I'm exhausted. But also relieved. It's over. I made it out.",
+    "Therapist: You did. You're safe now. Let's take a few deep breaths together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory. What do you see?"
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory. What do you see?",
+      "Client: I'm... I'm in a dimly lit room. It smells musty, like old cigarettes and sweat. There are other people here, mostly young women. They look scared. I can hear muffled voices from another room. My heart is racing."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory. What do you see?",
+      "Client: I'm... I'm in a dimly lit room. It smells musty, like old cigarettes and sweat. There are other people here, mostly young women. They look scared. I can hear muffled voices from another room. My heart is racing.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: I'm... I'm in a dimly lit room. It smells musty, like old cigarettes and sweat. There are other people here, mostly young women. They look scared. I can hear muffled voices from another room. My heart is racing.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. I can feel my palms getting sweaty."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. I can feel my palms getting sweaty.",
+      "Therapist: That's okay. Keep going. What happens next?"
+    ],
+    [
+      "Client: It's about a 6. I can feel my palms getting sweaty.",
+      "Therapist: That's okay. Keep going. What happens next?",
+      "Client: A man enters the room. He's tall, intimidating. He starts speaking in a language I don't understand. I see the other women shrinking back, trying to make themselves invisible. I want to do the same, but I can't move. My legs feel like lead."
+    ],
+    [
+      "Therapist: That's okay. Keep going. What happens next?",
+      "Client: A man enters the room. He's tall, intimidating. He starts speaking in a language I don't understand. I see the other women shrinking back, trying to make themselves invisible. I want to do the same, but I can't move. My legs feel like lead.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: A man enters the room. He's tall, intimidating. He starts speaking in a language I don't understand. I see the other women shrinking back, trying to make themselves invisible. I want to do the same, but I can't move. My legs feel like lead.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to an 8. I can feel my chest tightening."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to an 8. I can feel my chest tightening.",
+      "Therapist: You're doing well. Remember, you're safe here. Take a deep breath. What do you notice next?"
+    ],
+    [
+      "Client: It's... it's gone up to an 8. I can feel my chest tightening.",
+      "Therapist: You're doing well. Remember, you're safe here. Take a deep breath. What do you notice next?",
+      "Client: The man is pointing at me now. He's gesturing for me to stand up. I don't want to, but I'm afraid of what will happen if I don't. My legs are shaking as I get to my feet. I can hear my heart pounding in my ears."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're safe here. Take a deep breath. What do you notice next?",
+      "Client: The man is pointing at me now. He's gesturing for me to stand up. I don't want to, but I'm afraid of what will happen if I don't. My legs are shaking as I get to my feet. I can hear my heart pounding in my ears.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: The man is pointing at me now. He's gesturing for me to stand up. I don't want to, but I'm afraid of what will happen if I don't. My legs are shaking as I get to my feet. I can hear my heart pounding in my ears.",
+      "Therapist: How's your distress level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: That's understandable. You're facing a frightening memory. Remember, you're here now, safe in this room."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: That's understandable. You're facing a frightening memory. Remember, you're here now, safe in this room.",
+      "Client: Right... right. I'm trying to remind myself of that. In the memory, the man grabs my arm. His grip is so tight, it hurts. He's pulling me towards the door. I want to resist, but I'm frozen with fear. The other women are watching, their eyes full of pity and relief that it's not them."
+    ],
+    [
+      "Therapist: That's understandable. You're facing a frightening memory. Remember, you're here now, safe in this room.",
+      "Client: Right... right. I'm trying to remind myself of that. In the memory, the man grabs my arm. His grip is so tight, it hurts. He's pulling me towards the door. I want to resist, but I'm frozen with fear. The other women are watching, their eyes full of pity and relief that it's not them.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: Right... right. I'm trying to remind myself of that. In the memory, the man grabs my arm. His grip is so tight, it hurts. He's pulling me towards the door. I want to resist, but I'm frozen with fear. The other women are watching, their eyes full of pity and relief that it's not them.",
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. My heart is racing so fast."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Still a 9. My heart is racing so fast.",
+      "Therapist: You're doing great. Stay with the memory. What happens as he pulls you?"
+    ],
+    [
+      "Client: Still a 9. My heart is racing so fast.",
+      "Therapist: You're doing great. Stay with the memory. What happens as he pulls you?",
+      "Client: He's dragging me down a hallway. It's dark, and I can hear muffled sounds behind closed doors. I'm terrified of what's going to happen to me. I want to scream, but no sound comes out. My throat feels like it's closing up."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory. What happens as he pulls you?",
+      "Client: He's dragging me down a hallway. It's dark, and I can hear muffled sounds behind closed doors. I'm terrified of what's going to happen to me. I want to scream, but no sound comes out. My throat feels like it's closing up.",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: He's dragging me down a hallway. It's dark, and I can hear muffled sounds behind closed doors. I'm terrified of what's going to happen to me. I want to scream, but no sound comes out. My throat feels like it's closing up.",
+      "Therapist: How about your SUDS now?",
+      "Client: It's... it's still at 9. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's... it's still at 9. I feel like I'm right back there.",
+      "Therapist: That's okay. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's still at 9. I feel like I'm right back there.",
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: We reach another door. He opens it, and there's a group of men inside. They're all staring at me, and I feel so exposed, so helpless. The man who brought me in starts talking to them, gesturing at me like I'm... like I'm not even human. Just an object. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: We reach another door. He opens it, and there's a group of men inside. They're all staring at me, and I feel so exposed, so helpless. The man who brought me in starts talking to them, gesturing at me like I'm... like I'm not even human. Just an object. I feel sick to my stomach.",
+      "Therapist: And your SUDS level?"
+    ],
+    [
+      "Client: We reach another door. He opens it, and there's a group of men inside. They're all staring at me, and I feel so exposed, so helpless. The man who brought me in starts talking to them, gesturing at me like I'm... like I'm not even human. Just an object. I feel sick to my stomach.",
+      "Therapist: And your SUDS level?",
+      "Client: It's... it's actually gone down a bit. Maybe to an 8. I think I'm starting to feel a little numb."
+    ],
+    [
+      "Therapist: And your SUDS level?",
+      "Client: It's... it's actually gone down a bit. Maybe to an 8. I think I'm starting to feel a little numb.",
+      "Therapist: That's a normal reaction. Can you stay with the memory a little longer?"
+    ],
+    [
+      "Client: It's... it's actually gone down a bit. Maybe to an 8. I think I'm starting to feel a little numb.",
+      "Therapist: That's a normal reaction. Can you stay with the memory a little longer?",
+      "Client: Yes, I... I think so. One of the men approaches me. He reaches out to touch my face, and I flinch away. But there's nowhere to go. I'm trapped. I close my eyes, wishing I could disappear. I can feel tears running down my cheeks."
+    ],
+    [
+      "Therapist: That's a normal reaction. Can you stay with the memory a little longer?",
+      "Client: Yes, I... I think so. One of the men approaches me. He reaches out to touch my face, and I flinch away. But there's nowhere to go. I'm trapped. I close my eyes, wishing I could disappear. I can feel tears running down my cheeks.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: Yes, I... I think so. One of the men approaches me. He reaches out to touch my face, and I flinch away. But there's nowhere to go. I'm trapped. I close my eyes, wishing I could disappear. I can feel tears running down my cheeks.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's back up to a 9. I feel so helpless, so afraid."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's back up to a 9. I feel so helpless, so afraid.",
+      "Therapist: You're doing incredibly well. Remember, you survived this. You're here now, safe."
+    ],
+    [
+      "Client: It's back up to a 9. I feel so helpless, so afraid.",
+      "Therapist: You're doing incredibly well. Remember, you survived this. You're here now, safe.",
+      "Client: Thank you. It's... it's hard to remember that sometimes. In the memory, I can hear them negotiating. I don't understand the words, but I know they're deciding my fate. I feel like I'm going to pass out from fear."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Remember, you survived this. You're here now, safe.",
+      "Client: Thank you. It's... it's hard to remember that sometimes. In the memory, I can hear them negotiating. I don't understand the words, but I know they're deciding my fate. I feel like I'm going to pass out from fear.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Thank you. It's... it's hard to remember that sometimes. In the memory, I can hear them negotiating. I don't understand the words, but I know they're deciding my fate. I feel like I'm going to pass out from fear.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still at 9. My whole body is tense."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still at 9. My whole body is tense.",
+      "Therapist: That's okay. You're handling this bravely. What happens next?"
+    ],
+    [
+      "Client: It's still at 9. My whole body is tense.",
+      "Therapist: That's okay. You're handling this bravely. What happens next?",
+      "Client: Suddenly, there's a loud noise outside. Shouting, commotion. The men in the room look panicked. They start rushing around, and in the chaos, I see a chance. I run. I don't know where I'm going, but I run as fast as I can. My heart feels like it's going to burst out of my chest."
+    ],
+    [
+      "Therapist: That's okay. You're handling this bravely. What happens next?",
+      "Client: Suddenly, there's a loud noise outside. Shouting, commotion. The men in the room look panicked. They start rushing around, and in the chaos, I see a chance. I run. I don't know where I'm going, but I run as fast as I can. My heart feels like it's going to burst out of my chest.",
+      "Therapist: How about your SUDS level now?"
+    ],
+    [
+      "Client: Suddenly, there's a loud noise outside. Shouting, commotion. The men in the room look panicked. They start rushing around, and in the chaos, I see a chance. I run. I don't know where I'm going, but I run as fast as I can. My heart feels like it's going to burst out of my chest.",
+      "Therapist: How about your SUDS level now?",
+      "Client: It's... it's actually dropping. Maybe to a 7. I think because I know I escaped."
+    ],
+    [
+      "Therapist: How about your SUDS level now?",
+      "Client: It's... it's actually dropping. Maybe to a 7. I think because I know I escaped.",
+      "Therapist: That's great. You're processing the memory well. How do you feel now?"
+    ],
+    [
+      "Client: It's... it's actually dropping. Maybe to a 7. I think because I know I escaped.",
+      "Therapist: That's great. You're processing the memory well. How do you feel now?",
+      "Client: I'm... I'm exhausted. But also relieved. It's over. I made it out."
+    ],
+    [
+      "Therapist: That's great. You're processing the memory well. How do you feel now?",
+      "Client: I'm... I'm exhausted. But also relieved. It's over. I made it out.",
+      "Therapist: You did. You're safe now. Let's take a few deep breaths together."
+    ]
+  ]
+}

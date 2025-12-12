@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: Thank you, Dr. Singh. I'm... I'm a bit nervous, to be honest. Ever since the earthquake last year, I've been struggling with anxiety, especially when I think about what happened. And now, with everything going on at home... it's just been overwhelming.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: Imaginal exposure? What exactly does that mean? It sounds a bit intimidating.",
+    "Therapist: It's revisiting the trauma memory in a safe environment. Shall I explain more?",
+    "Client: Yes, please. I'm not sure I can handle reliving that experience. It was terrifying.",
+    "Therapist: It's controlled and guided. We'll go at your pace. How does that sound?",
+    "Client: I appreciate that, but I'm still scared. Will it make my anxiety worse? And how does this help with what's happening at home?",
+    "Therapist: It may be uncomfortable initially but reduces anxiety over time. Shall we discuss your specific concerns?",
+    "Client: Well, I'm worried about losing control. Sometimes when I think about the earthquake, I feel like I can't breathe. And with the tension at home... I'm not sure I can handle more stress.",
+    "Therapist: Your concerns are valid. We'll take it slow and you're in control. Okay?",
+    "Client: I suppose so. But what if I panic? Or what if I can't stop crying once I start?",
+    "Therapist: I'll be here to support you. We can pause anytime. How does that reassure you?",
+    "Client: That does help a bit. I guess knowing I can stop if it gets too much is comforting. But why do we need to do this? Can't we just talk about coping strategies instead?",
+    "Therapist: Exposure helps process the trauma, reducing its power over you. Interested in learning more?",
+    "Client: I see. Yes, I'd like to know more. I want to feel better, but this seems like a big step.",
+    "Therapist: It is a significant step. Your courage is admirable. Any other questions?",
+    "Client: Thank you. I guess I'm wondering how this will affect my day-to-day life. Will I be able to function normally after these sessions?",
+    "Therapist: Many find daily functioning improves with time. Shall we discuss post-session self-care?",
+    "Client: Yes, that would be helpful. I'm responsible for my family and my business. I need to be able to keep it together.",
+    "Therapist: Understandable. We'll develop a tailored self-care plan. Ready to begin?",
+    "Client: I think so. I'm still nervous, but I trust you, Dr. Singh. And I want to get better... for myself and my family. Let's give it a try.",
+    "Therapist: Your commitment is commendable. Remember, we're in this together. Shall we start?",
+    "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for your patience and understanding, Dr. Singh."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: Thank you, Dr. Singh. I'm... I'm a bit nervous, to be honest. Ever since the earthquake last year, I've been struggling with anxiety, especially when I think about what happened. And now, with everything going on at home... it's just been overwhelming.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: Thank you, Dr. Singh. I'm... I'm a bit nervous, to be honest. Ever since the earthquake last year, I've been struggling with anxiety, especially when I think about what happened. And now, with everything going on at home... it's just been overwhelming.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? What exactly does that mean? It sounds a bit intimidating."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? What exactly does that mean? It sounds a bit intimidating.",
+      "Therapist: It's revisiting the trauma memory in a safe environment. Shall I explain more?"
+    ],
+    [
+      "Client: Imaginal exposure? What exactly does that mean? It sounds a bit intimidating.",
+      "Therapist: It's revisiting the trauma memory in a safe environment. Shall I explain more?",
+      "Client: Yes, please. I'm not sure I can handle reliving that experience. It was terrifying."
+    ],
+    [
+      "Therapist: It's revisiting the trauma memory in a safe environment. Shall I explain more?",
+      "Client: Yes, please. I'm not sure I can handle reliving that experience. It was terrifying.",
+      "Therapist: It's controlled and guided. We'll go at your pace. How does that sound?"
+    ],
+    [
+      "Client: Yes, please. I'm not sure I can handle reliving that experience. It was terrifying.",
+      "Therapist: It's controlled and guided. We'll go at your pace. How does that sound?",
+      "Client: I appreciate that, but I'm still scared. Will it make my anxiety worse? And how does this help with what's happening at home?"
+    ],
+    [
+      "Therapist: It's controlled and guided. We'll go at your pace. How does that sound?",
+      "Client: I appreciate that, but I'm still scared. Will it make my anxiety worse? And how does this help with what's happening at home?",
+      "Therapist: It may be uncomfortable initially but reduces anxiety over time. Shall we discuss your specific concerns?"
+    ],
+    [
+      "Client: I appreciate that, but I'm still scared. Will it make my anxiety worse? And how does this help with what's happening at home?",
+      "Therapist: It may be uncomfortable initially but reduces anxiety over time. Shall we discuss your specific concerns?",
+      "Client: Well, I'm worried about losing control. Sometimes when I think about the earthquake, I feel like I can't breathe. And with the tension at home... I'm not sure I can handle more stress."
+    ],
+    [
+      "Therapist: It may be uncomfortable initially but reduces anxiety over time. Shall we discuss your specific concerns?",
+      "Client: Well, I'm worried about losing control. Sometimes when I think about the earthquake, I feel like I can't breathe. And with the tension at home... I'm not sure I can handle more stress.",
+      "Therapist: Your concerns are valid. We'll take it slow and you're in control. Okay?"
+    ],
+    [
+      "Client: Well, I'm worried about losing control. Sometimes when I think about the earthquake, I feel like I can't breathe. And with the tension at home... I'm not sure I can handle more stress.",
+      "Therapist: Your concerns are valid. We'll take it slow and you're in control. Okay?",
+      "Client: I suppose so. But what if I panic? Or what if I can't stop crying once I start?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll take it slow and you're in control. Okay?",
+      "Client: I suppose so. But what if I panic? Or what if I can't stop crying once I start?",
+      "Therapist: I'll be here to support you. We can pause anytime. How does that reassure you?"
+    ],
+    [
+      "Client: I suppose so. But what if I panic? Or what if I can't stop crying once I start?",
+      "Therapist: I'll be here to support you. We can pause anytime. How does that reassure you?",
+      "Client: That does help a bit. I guess knowing I can stop if it gets too much is comforting. But why do we need to do this? Can't we just talk about coping strategies instead?"
+    ],
+    [
+      "Therapist: I'll be here to support you. We can pause anytime. How does that reassure you?",
+      "Client: That does help a bit. I guess knowing I can stop if it gets too much is comforting. But why do we need to do this? Can't we just talk about coping strategies instead?",
+      "Therapist: Exposure helps process the trauma, reducing its power over you. Interested in learning more?"
+    ],
+    [
+      "Client: That does help a bit. I guess knowing I can stop if it gets too much is comforting. But why do we need to do this? Can't we just talk about coping strategies instead?",
+      "Therapist: Exposure helps process the trauma, reducing its power over you. Interested in learning more?",
+      "Client: I see. Yes, I'd like to know more. I want to feel better, but this seems like a big step."
+    ],
+    [
+      "Therapist: Exposure helps process the trauma, reducing its power over you. Interested in learning more?",
+      "Client: I see. Yes, I'd like to know more. I want to feel better, but this seems like a big step.",
+      "Therapist: It is a significant step. Your courage is admirable. Any other questions?"
+    ],
+    [
+      "Client: I see. Yes, I'd like to know more. I want to feel better, but this seems like a big step.",
+      "Therapist: It is a significant step. Your courage is admirable. Any other questions?",
+      "Client: Thank you. I guess I'm wondering how this will affect my day-to-day life. Will I be able to function normally after these sessions?"
+    ],
+    [
+      "Therapist: It is a significant step. Your courage is admirable. Any other questions?",
+      "Client: Thank you. I guess I'm wondering how this will affect my day-to-day life. Will I be able to function normally after these sessions?",
+      "Therapist: Many find daily functioning improves with time. Shall we discuss post-session self-care?"
+    ],
+    [
+      "Client: Thank you. I guess I'm wondering how this will affect my day-to-day life. Will I be able to function normally after these sessions?",
+      "Therapist: Many find daily functioning improves with time. Shall we discuss post-session self-care?",
+      "Client: Yes, that would be helpful. I'm responsible for my family and my business. I need to be able to keep it together."
+    ],
+    [
+      "Therapist: Many find daily functioning improves with time. Shall we discuss post-session self-care?",
+      "Client: Yes, that would be helpful. I'm responsible for my family and my business. I need to be able to keep it together.",
+      "Therapist: Understandable. We'll develop a tailored self-care plan. Ready to begin?"
+    ],
+    [
+      "Client: Yes, that would be helpful. I'm responsible for my family and my business. I need to be able to keep it together.",
+      "Therapist: Understandable. We'll develop a tailored self-care plan. Ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you, Dr. Singh. And I want to get better... for myself and my family. Let's give it a try."
+    ],
+    [
+      "Therapist: Understandable. We'll develop a tailored self-care plan. Ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you, Dr. Singh. And I want to get better... for myself and my family. Let's give it a try.",
+      "Therapist: Your commitment is commendable. Remember, we're in this together. Shall we start?"
+    ],
+    [
+      "Client: I think so. I'm still nervous, but I trust you, Dr. Singh. And I want to get better... for myself and my family. Let's give it a try.",
+      "Therapist: Your commitment is commendable. Remember, we're in this together. Shall we start?",
+      "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for your patience and understanding, Dr. Singh."
+    ]
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mrs. Johnson. How are you feeling today?",
+    "Client: Oh, hello there. I'm... well, I suppose I'm feeling a bit nervous. My arthritis is acting up, and I've been thinking a lot about our last session. It's been hard to sleep lately, you know? I keep having these flashes of... well, you know. That day at the park.",
+    "Therapist: I understand. Today, we'll focus on imaginal exposure. Are you ready?",
+    "Client: Imaginal exposure? That sounds... I'm not sure I understand. Could you explain it to me? I'm feeling a bit anxious about trying something new at my age.",
+    "Therapist: Of course. It's a technique to process traumatic memories. We'll revisit the event safely.",
+    "Client: Revisit it? Oh my... I don't know if I can do that. The thought alone makes my heart race. What if I panic? I'm not as strong as I used to be, you know.",
+    "Therapist: Your feelings are valid. We'll go at your pace, and I'll support you throughout.",
+    "Client: Well, I suppose if you think it will help... But what exactly will we be doing? Will I have to close my eyes? I don't like feeling vulnerable, especially after what happened.",
+    "Therapist: You'll describe the event in detail. Eyes open or closed\u2014your choice. I'll guide you.",
+    "Client: Describe it? Oh dear... I've tried so hard to forget. But I trust you. You've been so patient with me. Can... can my daughter be here for this? She's been my rock since Harold passed.",
+    "Therapist: I appreciate your trust. Family support is great, but this process is for you alone.",
+    "Client: I see. That makes sense, I suppose. It's just... ever since the attack, I've felt so helpless. Like I can't do anything on my own anymore. Will this really help me feel better? To talk about it all over again?",
+    "Therapist: Yes, it can help reduce PTSD symptoms. Your bravery in facing this is admirable.",
+    "Client: Bravery? Oh, I don't know about that. I'm just an old woman trying to get by. But... I want to feel like myself again. To not jump at every sound or be afraid to go for walks. If this will help... Well, I guess I'm willing to try.",
+    "Therapist: That's the spirit. Remember, you're in control. We can pause anytime.",
+    "Client: Alright, dear. I'll do my best. It's strange, you know. I've lived so long, seen so much, and yet here I am, scared of memories. But I want to be strong for my grandchildren. They worry about me so. What should I expect to feel during this... exposure?",
+    "Therapist: You might feel anxious or upset. That's normal. We'll work through it together.",
+    "Client: I see. Well, I've weathered many storms in my life. I suppose this is just another one. You'll be with me the whole time, right? I find your presence quite comforting, you know. You remind me of my granddaughter - so kind and patient.",
+    "Therapist: Thank you. I'll be here throughout. Your resilience is inspiring. Shall we begin?",
+    "Client: Oh, you're too kind. Alright, I think I'm ready. Or as ready as I'll ever be. Just... promise me one thing? If it gets too much, you'll let me stop? I don't want to let you down, but I'm not as tough as I used to be.",
+    "Therapist: Absolutely. Your well-being comes first. We'll stop if needed. You're in charge.",
+    "Client: Thank you, dear. That means a lot to me. Well then, I suppose we should get started. I'm nervous, but... I'm also hopeful. Maybe after this, I can finally enjoy the park again without fear. Wouldn't that be something?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mrs. Johnson. How are you feeling today?",
+      "Client: Oh, hello there. I'm... well, I suppose I'm feeling a bit nervous. My arthritis is acting up, and I've been thinking a lot about our last session. It's been hard to sleep lately, you know? I keep having these flashes of... well, you know. That day at the park.",
+      "Therapist: I understand. Today, we'll focus on imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: Oh, hello there. I'm... well, I suppose I'm feeling a bit nervous. My arthritis is acting up, and I've been thinking a lot about our last session. It's been hard to sleep lately, you know? I keep having these flashes of... well, you know. That day at the park.",
+      "Therapist: I understand. Today, we'll focus on imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? That sounds... I'm not sure I understand. Could you explain it to me? I'm feeling a bit anxious about trying something new at my age."
+    ],
+    [
+      "Therapist: I understand. Today, we'll focus on imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? That sounds... I'm not sure I understand. Could you explain it to me? I'm feeling a bit anxious about trying something new at my age.",
+      "Therapist: Of course. It's a technique to process traumatic memories. We'll revisit the event safely."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... I'm not sure I understand. Could you explain it to me? I'm feeling a bit anxious about trying something new at my age.",
+      "Therapist: Of course. It's a technique to process traumatic memories. We'll revisit the event safely.",
+      "Client: Revisit it? Oh my... I don't know if I can do that. The thought alone makes my heart race. What if I panic? I'm not as strong as I used to be, you know."
+    ],
+    [
+      "Therapist: Of course. It's a technique to process traumatic memories. We'll revisit the event safely.",
+      "Client: Revisit it? Oh my... I don't know if I can do that. The thought alone makes my heart race. What if I panic? I'm not as strong as I used to be, you know.",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll support you throughout."
+    ],
+    [
+      "Client: Revisit it? Oh my... I don't know if I can do that. The thought alone makes my heart race. What if I panic? I'm not as strong as I used to be, you know.",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll support you throughout.",
+      "Client: Well, I suppose if you think it will help... But what exactly will we be doing? Will I have to close my eyes? I don't like feeling vulnerable, especially after what happened."
+    ],
+    [
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll support you throughout.",
+      "Client: Well, I suppose if you think it will help... But what exactly will we be doing? Will I have to close my eyes? I don't like feeling vulnerable, especially after what happened.",
+      "Therapist: You'll describe the event in detail. Eyes open or closed\u2014your choice. I'll guide you."
+    ],
+    [
+      "Client: Well, I suppose if you think it will help... But what exactly will we be doing? Will I have to close my eyes? I don't like feeling vulnerable, especially after what happened.",
+      "Therapist: You'll describe the event in detail. Eyes open or closed\u2014your choice. I'll guide you.",
+      "Client: Describe it? Oh dear... I've tried so hard to forget. But I trust you. You've been so patient with me. Can... can my daughter be here for this? She's been my rock since Harold passed."
+    ],
+    [
+      "Therapist: You'll describe the event in detail. Eyes open or closed\u2014your choice. I'll guide you.",
+      "Client: Describe it? Oh dear... I've tried so hard to forget. But I trust you. You've been so patient with me. Can... can my daughter be here for this? She's been my rock since Harold passed.",
+      "Therapist: I appreciate your trust. Family support is great, but this process is for you alone."
+    ],
+    [
+      "Client: Describe it? Oh dear... I've tried so hard to forget. But I trust you. You've been so patient with me. Can... can my daughter be here for this? She's been my rock since Harold passed.",
+      "Therapist: I appreciate your trust. Family support is great, but this process is for you alone.",
+      "Client: I see. That makes sense, I suppose. It's just... ever since the attack, I've felt so helpless. Like I can't do anything on my own anymore. Will this really help me feel better? To talk about it all over again?"
+    ],
+    [
+      "Therapist: I appreciate your trust. Family support is great, but this process is for you alone.",
+      "Client: I see. That makes sense, I suppose. It's just... ever since the attack, I've felt so helpless. Like I can't do anything on my own anymore. Will this really help me feel better? To talk about it all over again?",
+      "Therapist: Yes, it can help reduce PTSD symptoms. Your bravery in facing this is admirable."
+    ],
+    [
+      "Client: I see. That makes sense, I suppose. It's just... ever since the attack, I've felt so helpless. Like I can't do anything on my own anymore. Will this really help me feel better? To talk about it all over again?",
+      "Therapist: Yes, it can help reduce PTSD symptoms. Your bravery in facing this is admirable.",
+      "Client: Bravery? Oh, I don't know about that. I'm just an old woman trying to get by. But... I want to feel like myself again. To not jump at every sound or be afraid to go for walks. If this will help... Well, I guess I'm willing to try."
+    ],
+    [
+      "Therapist: Yes, it can help reduce PTSD symptoms. Your bravery in facing this is admirable.",
+      "Client: Bravery? Oh, I don't know about that. I'm just an old woman trying to get by. But... I want to feel like myself again. To not jump at every sound or be afraid to go for walks. If this will help... Well, I guess I'm willing to try.",
+      "Therapist: That's the spirit. Remember, you're in control. We can pause anytime."
+    ],
+    [
+      "Client: Bravery? Oh, I don't know about that. I'm just an old woman trying to get by. But... I want to feel like myself again. To not jump at every sound or be afraid to go for walks. If this will help... Well, I guess I'm willing to try.",
+      "Therapist: That's the spirit. Remember, you're in control. We can pause anytime.",
+      "Client: Alright, dear. I'll do my best. It's strange, you know. I've lived so long, seen so much, and yet here I am, scared of memories. But I want to be strong for my grandchildren. They worry about me so. What should I expect to feel during this... exposure?"
+    ],
+    [
+      "Therapist: That's the spirit. Remember, you're in control. We can pause anytime.",
+      "Client: Alright, dear. I'll do my best. It's strange, you know. I've lived so long, seen so much, and yet here I am, scared of memories. But I want to be strong for my grandchildren. They worry about me so. What should I expect to feel during this... exposure?",
+      "Therapist: You might feel anxious or upset. That's normal. We'll work through it together."
+    ],
+    [
+      "Client: Alright, dear. I'll do my best. It's strange, you know. I've lived so long, seen so much, and yet here I am, scared of memories. But I want to be strong for my grandchildren. They worry about me so. What should I expect to feel during this... exposure?",
+      "Therapist: You might feel anxious or upset. That's normal. We'll work through it together.",
+      "Client: I see. Well, I've weathered many storms in my life. I suppose this is just another one. You'll be with me the whole time, right? I find your presence quite comforting, you know. You remind me of my granddaughter - so kind and patient."
+    ],
+    [
+      "Therapist: You might feel anxious or upset. That's normal. We'll work through it together.",
+      "Client: I see. Well, I've weathered many storms in my life. I suppose this is just another one. You'll be with me the whole time, right? I find your presence quite comforting, you know. You remind me of my granddaughter - so kind and patient.",
+      "Therapist: Thank you. I'll be here throughout. Your resilience is inspiring. Shall we begin?"
+    ],
+    [
+      "Client: I see. Well, I've weathered many storms in my life. I suppose this is just another one. You'll be with me the whole time, right? I find your presence quite comforting, you know. You remind me of my granddaughter - so kind and patient.",
+      "Therapist: Thank you. I'll be here throughout. Your resilience is inspiring. Shall we begin?",
+      "Client: Oh, you're too kind. Alright, I think I'm ready. Or as ready as I'll ever be. Just... promise me one thing? If it gets too much, you'll let me stop? I don't want to let you down, but I'm not as tough as I used to be."
+    ],
+    [
+      "Therapist: Thank you. I'll be here throughout. Your resilience is inspiring. Shall we begin?",
+      "Client: Oh, you're too kind. Alright, I think I'm ready. Or as ready as I'll ever be. Just... promise me one thing? If it gets too much, you'll let me stop? I don't want to let you down, but I'm not as tough as I used to be.",
+      "Therapist: Absolutely. Your well-being comes first. We'll stop if needed. You're in charge."
+    ],
+    [
+      "Client: Oh, you're too kind. Alright, I think I'm ready. Or as ready as I'll ever be. Just... promise me one thing? If it gets too much, you'll let me stop? I don't want to let you down, but I'm not as tough as I used to be.",
+      "Therapist: Absolutely. Your well-being comes first. We'll stop if needed. You're in charge.",
+      "Client: Thank you, dear. That means a lot to me. Well then, I suppose we should get started. I'm nervous, but... I'm also hopeful. Maybe after this, I can finally enjoy the park again without fear. Wouldn't that be something?"
+    ]
+  ]
+}

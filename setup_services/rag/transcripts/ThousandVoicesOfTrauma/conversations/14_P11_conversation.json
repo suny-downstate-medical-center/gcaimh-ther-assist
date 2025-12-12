@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after going through that memory today, Mr. Hernandez?",
+    "Client: I... I'm not sure. It's a lot to process, you know? Reliving that home invasion, it's like I'm right back there. My heart's still racing a bit. I can feel the sweat on my palms. It's intense, doc.",
+    "Therapist: Understandable. What stood out to you most?",
+    "Client: The sounds. The glass breaking, their footsteps... I keep hearing them. And the fear, man. It's overwhelming. I felt so helpless, like I couldn't protect my family. That's what gets me the most.",
+    "Therapist: How does that helplessness relate to your daily life now?",
+    "Client: It's... it's everywhere. I struggle to sleep, always listening for noises. Can't hold a job 'cause I'm always on edge. It's like I'm still there, you know? Still waiting for something bad to happen.",
+    "Therapist: I see. How did it feel sharing that memory today?",
+    "Client: Scary as hell, to be honest. But... also kind of relieving? Like, I've been carrying this weight for so long. Talking about it... it's hard, but it feels like maybe I'm not alone in this anymore.",
+    "Therapist: That's a significant insight. What else did you notice?",
+    "Client: I realized... I've been blaming myself all this time. Like, if I'd been stronger or smarter, maybe it wouldn't have happened. But going through it again... I did everything I could. It wasn't my fault.",
+    "Therapist: That's a powerful realization. How might this change things for you?",
+    "Client: I... I don't know. Maybe I can start forgiving myself? It's been eating me up inside for so long. And maybe... maybe I can start feeling safe again? It's a long shot, but for the first time in years, I feel a glimmer of hope.",
+    "Therapist: That's excellent progress. What's one small step you can take this week?",
+    "Client: I think... maybe I'll try sleeping without the lights on. Just for an hour or two. It's not much, but it's a start, right?",
+    "Therapist: Absolutely. How are you feeling about continuing this work?",
+    "Client: It's tough, no doubt. But I'm starting to see that it might be worth it. I want my life back, you know? I'm tired of living in fear. So yeah, I'm in. It's gonna be hard, but I'm ready to keep going.",
+    "Therapist: Your commitment is admirable. Any final thoughts today?",
+    "Client: Just... thank you, I guess. For listening, for not judging. It means a lot. And... I'm scared about what's next, but I'm also kind of looking forward to it. Is that weird?",
+    "Therapist: Not at all. It's a normal part of the process. Shall we wrap up?",
+    "Client: Yeah, I think I'm good. It's a lot to process, but I feel... lighter somehow. Like maybe there's a way out of this mess after all. I'll see you next week, doc.",
+    "Therapist: Take care, Mr. Hernandez. Remember to use your coping strategies."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after going through that memory today, Mr. Hernandez?",
+      "Client: I... I'm not sure. It's a lot to process, you know? Reliving that home invasion, it's like I'm right back there. My heart's still racing a bit. I can feel the sweat on my palms. It's intense, doc.",
+      "Therapist: Understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process, you know? Reliving that home invasion, it's like I'm right back there. My heart's still racing a bit. I can feel the sweat on my palms. It's intense, doc.",
+      "Therapist: Understandable. What stood out to you most?",
+      "Client: The sounds. The glass breaking, their footsteps... I keep hearing them. And the fear, man. It's overwhelming. I felt so helpless, like I couldn't protect my family. That's what gets me the most."
+    ],
+    [
+      "Therapist: Understandable. What stood out to you most?",
+      "Client: The sounds. The glass breaking, their footsteps... I keep hearing them. And the fear, man. It's overwhelming. I felt so helpless, like I couldn't protect my family. That's what gets me the most.",
+      "Therapist: How does that helplessness relate to your daily life now?"
+    ],
+    [
+      "Client: The sounds. The glass breaking, their footsteps... I keep hearing them. And the fear, man. It's overwhelming. I felt so helpless, like I couldn't protect my family. That's what gets me the most.",
+      "Therapist: How does that helplessness relate to your daily life now?",
+      "Client: It's... it's everywhere. I struggle to sleep, always listening for noises. Can't hold a job 'cause I'm always on edge. It's like I'm still there, you know? Still waiting for something bad to happen."
+    ],
+    [
+      "Therapist: How does that helplessness relate to your daily life now?",
+      "Client: It's... it's everywhere. I struggle to sleep, always listening for noises. Can't hold a job 'cause I'm always on edge. It's like I'm still there, you know? Still waiting for something bad to happen.",
+      "Therapist: I see. How did it feel sharing that memory today?"
+    ],
+    [
+      "Client: It's... it's everywhere. I struggle to sleep, always listening for noises. Can't hold a job 'cause I'm always on edge. It's like I'm still there, you know? Still waiting for something bad to happen.",
+      "Therapist: I see. How did it feel sharing that memory today?",
+      "Client: Scary as hell, to be honest. But... also kind of relieving? Like, I've been carrying this weight for so long. Talking about it... it's hard, but it feels like maybe I'm not alone in this anymore."
+    ],
+    [
+      "Therapist: I see. How did it feel sharing that memory today?",
+      "Client: Scary as hell, to be honest. But... also kind of relieving? Like, I've been carrying this weight for so long. Talking about it... it's hard, but it feels like maybe I'm not alone in this anymore.",
+      "Therapist: That's a significant insight. What else did you notice?"
+    ],
+    [
+      "Client: Scary as hell, to be honest. But... also kind of relieving? Like, I've been carrying this weight for so long. Talking about it... it's hard, but it feels like maybe I'm not alone in this anymore.",
+      "Therapist: That's a significant insight. What else did you notice?",
+      "Client: I realized... I've been blaming myself all this time. Like, if I'd been stronger or smarter, maybe it wouldn't have happened. But going through it again... I did everything I could. It wasn't my fault."
+    ],
+    [
+      "Therapist: That's a significant insight. What else did you notice?",
+      "Client: I realized... I've been blaming myself all this time. Like, if I'd been stronger or smarter, maybe it wouldn't have happened. But going through it again... I did everything I could. It wasn't my fault.",
+      "Therapist: That's a powerful realization. How might this change things for you?"
+    ],
+    [
+      "Client: I realized... I've been blaming myself all this time. Like, if I'd been stronger or smarter, maybe it wouldn't have happened. But going through it again... I did everything I could. It wasn't my fault.",
+      "Therapist: That's a powerful realization. How might this change things for you?",
+      "Client: I... I don't know. Maybe I can start forgiving myself? It's been eating me up inside for so long. And maybe... maybe I can start feeling safe again? It's a long shot, but for the first time in years, I feel a glimmer of hope."
+    ],
+    [
+      "Therapist: That's a powerful realization. How might this change things for you?",
+      "Client: I... I don't know. Maybe I can start forgiving myself? It's been eating me up inside for so long. And maybe... maybe I can start feeling safe again? It's a long shot, but for the first time in years, I feel a glimmer of hope.",
+      "Therapist: That's excellent progress. What's one small step you can take this week?"
+    ],
+    [
+      "Client: I... I don't know. Maybe I can start forgiving myself? It's been eating me up inside for so long. And maybe... maybe I can start feeling safe again? It's a long shot, but for the first time in years, I feel a glimmer of hope.",
+      "Therapist: That's excellent progress. What's one small step you can take this week?",
+      "Client: I think... maybe I'll try sleeping without the lights on. Just for an hour or two. It's not much, but it's a start, right?"
+    ],
+    [
+      "Therapist: That's excellent progress. What's one small step you can take this week?",
+      "Client: I think... maybe I'll try sleeping without the lights on. Just for an hour or two. It's not much, but it's a start, right?",
+      "Therapist: Absolutely. How are you feeling about continuing this work?"
+    ],
+    [
+      "Client: I think... maybe I'll try sleeping without the lights on. Just for an hour or two. It's not much, but it's a start, right?",
+      "Therapist: Absolutely. How are you feeling about continuing this work?",
+      "Client: It's tough, no doubt. But I'm starting to see that it might be worth it. I want my life back, you know? I'm tired of living in fear. So yeah, I'm in. It's gonna be hard, but I'm ready to keep going."
+    ],
+    [
+      "Therapist: Absolutely. How are you feeling about continuing this work?",
+      "Client: It's tough, no doubt. But I'm starting to see that it might be worth it. I want my life back, you know? I'm tired of living in fear. So yeah, I'm in. It's gonna be hard, but I'm ready to keep going.",
+      "Therapist: Your commitment is admirable. Any final thoughts today?"
+    ],
+    [
+      "Client: It's tough, no doubt. But I'm starting to see that it might be worth it. I want my life back, you know? I'm tired of living in fear. So yeah, I'm in. It's gonna be hard, but I'm ready to keep going.",
+      "Therapist: Your commitment is admirable. Any final thoughts today?",
+      "Client: Just... thank you, I guess. For listening, for not judging. It means a lot. And... I'm scared about what's next, but I'm also kind of looking forward to it. Is that weird?"
+    ],
+    [
+      "Therapist: Your commitment is admirable. Any final thoughts today?",
+      "Client: Just... thank you, I guess. For listening, for not judging. It means a lot. And... I'm scared about what's next, but I'm also kind of looking forward to it. Is that weird?",
+      "Therapist: Not at all. It's a normal part of the process. Shall we wrap up?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For listening, for not judging. It means a lot. And... I'm scared about what's next, but I'm also kind of looking forward to it. Is that weird?",
+      "Therapist: Not at all. It's a normal part of the process. Shall we wrap up?",
+      "Client: Yeah, I think I'm good. It's a lot to process, but I feel... lighter somehow. Like maybe there's a way out of this mess after all. I'll see you next week, doc."
+    ],
+    [
+      "Therapist: Not at all. It's a normal part of the process. Shall we wrap up?",
+      "Client: Yeah, I think I'm good. It's a lot to process, but I feel... lighter somehow. Like maybe there's a way out of this mess after all. I'll see you next week, doc.",
+      "Therapist: Take care, Mr. Hernandez. Remember to use your coping strategies."
+    ]
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting that airplane crash. My hands are still trembling a bit. I can almost smell the fuel and hear the screams...",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The chaos. Everything happened so fast. One moment we were in the air, the next... I remember the oxygen masks dropping, and the panic setting in. I keep thinking about the elderly couple next to me. They were holding hands, looking so scared. I wonder if they made it...",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... difficult. But, um, maybe a little easier than last time? I noticed I could breathe through some of the worst parts. Still, my heart was racing, and I felt that familiar tightness in my chest.",
+    "Therapist: I see. What do you make of that difference?",
+    "Client: Well, I suppose it's progress, isn't it? I mean, I'm still scared, but I'm not completely overwhelmed like I used to be. It's like... I'm starting to separate myself from the memory a bit. Does that make sense?",
+    "Therapist: Absolutely. How does this relate to your daily life?",
+    "Client: I think... I'm less jumpy when I hear loud noises now. And I actually considered booking a flight to visit my grandchildren next month. I haven't done that in years. It's still terrifying, but... I'm thinking about it.",
+    "Therapist: That's significant. How do you feel about this progress?",
+    "Client: It's... surprising, actually. I didn't think I'd ever feel differently about flying or loud noises. There's a part of me that feels hopeful, but another part that's scared to hope, you know? What if I backslide?",
+    "Therapist: That's understandable. What helps you keep going?",
+    "Client: I guess... the thought of seeing my grandchildren. And, well, not letting this fear control me anymore. I'm 78, for goodness sake! I want to live what life I have left without this constant dread.",
+    "Therapist: That's a powerful motivation. What's next for you?",
+    "Client: I think... I might actually book that flight. Just thinking about it makes my palms sweat, but I want to try. Maybe I'll start by just going to the airport, watching planes take off and land. Baby steps, right?",
+    "Therapist: Sounds like a plan. How can we support you?",
+    "Client: Could we... maybe go over some more coping strategies for when I'm at the airport? And perhaps discuss how to handle it if I start panicking on the plane? I want to be prepared.",
+    "Therapist: Absolutely. Shall we focus on that next session?",
+    "Client: Yes, please. And... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward.",
+    "Therapist: You're doing great work. See you next week?",
+    "Client: Yes, I'll be here. Thank you again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting that airplane crash. My hands are still trembling a bit. I can almost smell the fuel and hear the screams...",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy revisiting that airplane crash. My hands are still trembling a bit. I can almost smell the fuel and hear the screams...",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The chaos. Everything happened so fast. One moment we were in the air, the next... I remember the oxygen masks dropping, and the panic setting in. I keep thinking about the elderly couple next to me. They were holding hands, looking so scared. I wonder if they made it..."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The chaos. Everything happened so fast. One moment we were in the air, the next... I remember the oxygen masks dropping, and the panic setting in. I keep thinking about the elderly couple next to me. They were holding hands, looking so scared. I wonder if they made it...",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The chaos. Everything happened so fast. One moment we were in the air, the next... I remember the oxygen masks dropping, and the panic setting in. I keep thinking about the elderly couple next to me. They were holding hands, looking so scared. I wonder if they made it...",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... difficult. But, um, maybe a little easier than last time? I noticed I could breathe through some of the worst parts. Still, my heart was racing, and I felt that familiar tightness in my chest."
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... difficult. But, um, maybe a little easier than last time? I noticed I could breathe through some of the worst parts. Still, my heart was racing, and I felt that familiar tightness in my chest.",
+      "Therapist: I see. What do you make of that difference?"
+    ],
+    [
+      "Client: It was... difficult. But, um, maybe a little easier than last time? I noticed I could breathe through some of the worst parts. Still, my heart was racing, and I felt that familiar tightness in my chest.",
+      "Therapist: I see. What do you make of that difference?",
+      "Client: Well, I suppose it's progress, isn't it? I mean, I'm still scared, but I'm not completely overwhelmed like I used to be. It's like... I'm starting to separate myself from the memory a bit. Does that make sense?"
+    ],
+    [
+      "Therapist: I see. What do you make of that difference?",
+      "Client: Well, I suppose it's progress, isn't it? I mean, I'm still scared, but I'm not completely overwhelmed like I used to be. It's like... I'm starting to separate myself from the memory a bit. Does that make sense?",
+      "Therapist: Absolutely. How does this relate to your daily life?"
+    ],
+    [
+      "Client: Well, I suppose it's progress, isn't it? I mean, I'm still scared, but I'm not completely overwhelmed like I used to be. It's like... I'm starting to separate myself from the memory a bit. Does that make sense?",
+      "Therapist: Absolutely. How does this relate to your daily life?",
+      "Client: I think... I'm less jumpy when I hear loud noises now. And I actually considered booking a flight to visit my grandchildren next month. I haven't done that in years. It's still terrifying, but... I'm thinking about it."
+    ],
+    [
+      "Therapist: Absolutely. How does this relate to your daily life?",
+      "Client: I think... I'm less jumpy when I hear loud noises now. And I actually considered booking a flight to visit my grandchildren next month. I haven't done that in years. It's still terrifying, but... I'm thinking about it.",
+      "Therapist: That's significant. How do you feel about this progress?"
+    ],
+    [
+      "Client: I think... I'm less jumpy when I hear loud noises now. And I actually considered booking a flight to visit my grandchildren next month. I haven't done that in years. It's still terrifying, but... I'm thinking about it.",
+      "Therapist: That's significant. How do you feel about this progress?",
+      "Client: It's... surprising, actually. I didn't think I'd ever feel differently about flying or loud noises. There's a part of me that feels hopeful, but another part that's scared to hope, you know? What if I backslide?"
+    ],
+    [
+      "Therapist: That's significant. How do you feel about this progress?",
+      "Client: It's... surprising, actually. I didn't think I'd ever feel differently about flying or loud noises. There's a part of me that feels hopeful, but another part that's scared to hope, you know? What if I backslide?",
+      "Therapist: That's understandable. What helps you keep going?"
+    ],
+    [
+      "Client: It's... surprising, actually. I didn't think I'd ever feel differently about flying or loud noises. There's a part of me that feels hopeful, but another part that's scared to hope, you know? What if I backslide?",
+      "Therapist: That's understandable. What helps you keep going?",
+      "Client: I guess... the thought of seeing my grandchildren. And, well, not letting this fear control me anymore. I'm 78, for goodness sake! I want to live what life I have left without this constant dread."
+    ],
+    [
+      "Therapist: That's understandable. What helps you keep going?",
+      "Client: I guess... the thought of seeing my grandchildren. And, well, not letting this fear control me anymore. I'm 78, for goodness sake! I want to live what life I have left without this constant dread.",
+      "Therapist: That's a powerful motivation. What's next for you?"
+    ],
+    [
+      "Client: I guess... the thought of seeing my grandchildren. And, well, not letting this fear control me anymore. I'm 78, for goodness sake! I want to live what life I have left without this constant dread.",
+      "Therapist: That's a powerful motivation. What's next for you?",
+      "Client: I think... I might actually book that flight. Just thinking about it makes my palms sweat, but I want to try. Maybe I'll start by just going to the airport, watching planes take off and land. Baby steps, right?"
+    ],
+    [
+      "Therapist: That's a powerful motivation. What's next for you?",
+      "Client: I think... I might actually book that flight. Just thinking about it makes my palms sweat, but I want to try. Maybe I'll start by just going to the airport, watching planes take off and land. Baby steps, right?",
+      "Therapist: Sounds like a plan. How can we support you?"
+    ],
+    [
+      "Client: I think... I might actually book that flight. Just thinking about it makes my palms sweat, but I want to try. Maybe I'll start by just going to the airport, watching planes take off and land. Baby steps, right?",
+      "Therapist: Sounds like a plan. How can we support you?",
+      "Client: Could we... maybe go over some more coping strategies for when I'm at the airport? And perhaps discuss how to handle it if I start panicking on the plane? I want to be prepared."
+    ],
+    [
+      "Therapist: Sounds like a plan. How can we support you?",
+      "Client: Could we... maybe go over some more coping strategies for when I'm at the airport? And perhaps discuss how to handle it if I start panicking on the plane? I want to be prepared.",
+      "Therapist: Absolutely. Shall we focus on that next session?"
+    ],
+    [
+      "Client: Could we... maybe go over some more coping strategies for when I'm at the airport? And perhaps discuss how to handle it if I start panicking on the plane? I want to be prepared.",
+      "Therapist: Absolutely. Shall we focus on that next session?",
+      "Client: Yes, please. And... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward."
+    ],
+    [
+      "Therapist: Absolutely. Shall we focus on that next session?",
+      "Client: Yes, please. And... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward.",
+      "Therapist: You're doing great work. See you next week?"
+    ],
+    [
+      "Client: Yes, please. And... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward.",
+      "Therapist: You're doing great work. See you next week?",
+      "Client: Yes, I'll be here. Thank you again."
+    ]
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Sarah. Are you ready to begin our imaginal exposure exercise?",
+    "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating. How distressed are you feeling right now, on a scale of 0 to 100?",
+    "Client: I'd say about a 40. My stomach feels a bit tight, but I'm managing.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that day in the combat zone. Describe what you see and feel.",
+    "Client: I'm... I'm in the makeshift hospital. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to tend to a wounded soldier. His uniform is torn and bloody... Oh god, there's so much blood...",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: I'm terrified. My heart is racing, and I can't seem to catch my breath. I feel so helpless...",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's up to 70. I can feel my palms sweating.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: More wounded are coming in. I can hear their screams. One of them looks just like my brother... I... I can't... This is too much...",
+    "Therapist: Take a deep breath. You're safe here. What's happening now?",
+    "Client: I'm frozen. I can't move. I should be helping, but I can't make my body respond. The guilt is overwhelming...",
+    "Therapist: SUDS level?",
+    "Client: It's... 85. My chest feels so tight.",
+    "Therapist: That's tough. You're very brave for facing this. What do you notice next?",
+    "Client: A nurse is yelling at me to help. But I still can't move. I feel so ashamed... Wait, something's changing. A senior officer is approaching. He puts his hand on my shoulder and tells me to take a moment. His voice is calm...",
+    "Therapist: How does that make you feel?",
+    "Client: A little relieved. Like I'm not alone in this chaos. My breathing is slowing down a bit.",
+    "Therapist: SUDS now?",
+    "Client: It's down to 75. Still high, but not as overwhelming.",
+    "Therapist: That's progress. What happens next?",
+    "Client: I manage to move again. I start helping with triage. It's still chaotic, but I feel more in control. The shame is still there, but it's not paralyzing anymore.",
+    "Therapist: You're doing great. How are you feeling now?",
+    "Client: Better, I think. My heart isn't racing as much. The memory is still vivid, but I feel more... detached from it? Is that normal?",
+    "Therapist: Absolutely. SUDS rating?",
+    "Client: Down to 60. It's... it's actually getting easier to talk about.",
+    "Therapist: That's often part of the process. Let's continue..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Sarah. Are you ready to begin our imaginal exposure exercise?",
+      "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. How distressed are you feeling right now, on a scale of 0 to 100?"
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. How distressed are you feeling right now, on a scale of 0 to 100?",
+      "Client: I'd say about a 40. My stomach feels a bit tight, but I'm managing."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating. How distressed are you feeling right now, on a scale of 0 to 100?",
+      "Client: I'd say about a 40. My stomach feels a bit tight, but I'm managing.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the combat zone. Describe what you see and feel."
+    ],
+    [
+      "Client: I'd say about a 40. My stomach feels a bit tight, but I'm managing.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the combat zone. Describe what you see and feel.",
+      "Client: I'm... I'm in the makeshift hospital. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to tend to a wounded soldier. His uniform is torn and bloody... Oh god, there's so much blood..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the combat zone. Describe what you see and feel.",
+      "Client: I'm... I'm in the makeshift hospital. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to tend to a wounded soldier. His uniform is torn and bloody... Oh god, there's so much blood...",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: I'm... I'm in the makeshift hospital. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to tend to a wounded soldier. His uniform is torn and bloody... Oh god, there's so much blood...",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm terrified. My heart is racing, and I can't seem to catch my breath. I feel so helpless..."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm terrified. My heart is racing, and I can't seem to catch my breath. I feel so helpless...",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: I'm terrified. My heart is racing, and I can't seem to catch my breath. I feel so helpless...",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's up to 70. I can feel my palms sweating."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's up to 70. I can feel my palms sweating.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's up to 70. I can feel my palms sweating.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: More wounded are coming in. I can hear their screams. One of them looks just like my brother... I... I can't... This is too much..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: More wounded are coming in. I can hear their screams. One of them looks just like my brother... I... I can't... This is too much...",
+      "Therapist: Take a deep breath. You're safe here. What's happening now?"
+    ],
+    [
+      "Client: More wounded are coming in. I can hear their screams. One of them looks just like my brother... I... I can't... This is too much...",
+      "Therapist: Take a deep breath. You're safe here. What's happening now?",
+      "Client: I'm frozen. I can't move. I should be helping, but I can't make my body respond. The guilt is overwhelming..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What's happening now?",
+      "Client: I'm frozen. I can't move. I should be helping, but I can't make my body respond. The guilt is overwhelming...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I'm frozen. I can't move. I should be helping, but I can't make my body respond. The guilt is overwhelming...",
+      "Therapist: SUDS level?",
+      "Client: It's... 85. My chest feels so tight."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... 85. My chest feels so tight.",
+      "Therapist: That's tough. You're very brave for facing this. What do you notice next?"
+    ],
+    [
+      "Client: It's... 85. My chest feels so tight.",
+      "Therapist: That's tough. You're very brave for facing this. What do you notice next?",
+      "Client: A nurse is yelling at me to help. But I still can't move. I feel so ashamed... Wait, something's changing. A senior officer is approaching. He puts his hand on my shoulder and tells me to take a moment. His voice is calm..."
+    ],
+    [
+      "Therapist: That's tough. You're very brave for facing this. What do you notice next?",
+      "Client: A nurse is yelling at me to help. But I still can't move. I feel so ashamed... Wait, something's changing. A senior officer is approaching. He puts his hand on my shoulder and tells me to take a moment. His voice is calm...",
+      "Therapist: How does that make you feel?"
+    ],
+    [
+      "Client: A nurse is yelling at me to help. But I still can't move. I feel so ashamed... Wait, something's changing. A senior officer is approaching. He puts his hand on my shoulder and tells me to take a moment. His voice is calm...",
+      "Therapist: How does that make you feel?",
+      "Client: A little relieved. Like I'm not alone in this chaos. My breathing is slowing down a bit."
+    ],
+    [
+      "Therapist: How does that make you feel?",
+      "Client: A little relieved. Like I'm not alone in this chaos. My breathing is slowing down a bit.",
+      "Therapist: SUDS now?"
+    ],
+    [
+      "Client: A little relieved. Like I'm not alone in this chaos. My breathing is slowing down a bit.",
+      "Therapist: SUDS now?",
+      "Client: It's down to 75. Still high, but not as overwhelming."
+    ],
+    [
+      "Therapist: SUDS now?",
+      "Client: It's down to 75. Still high, but not as overwhelming.",
+      "Therapist: That's progress. What happens next?"
+    ],
+    [
+      "Client: It's down to 75. Still high, but not as overwhelming.",
+      "Therapist: That's progress. What happens next?",
+      "Client: I manage to move again. I start helping with triage. It's still chaotic, but I feel more in control. The shame is still there, but it's not paralyzing anymore."
+    ],
+    [
+      "Therapist: That's progress. What happens next?",
+      "Client: I manage to move again. I start helping with triage. It's still chaotic, but I feel more in control. The shame is still there, but it's not paralyzing anymore.",
+      "Therapist: You're doing great. How are you feeling now?"
+    ],
+    [
+      "Client: I manage to move again. I start helping with triage. It's still chaotic, but I feel more in control. The shame is still there, but it's not paralyzing anymore.",
+      "Therapist: You're doing great. How are you feeling now?",
+      "Client: Better, I think. My heart isn't racing as much. The memory is still vivid, but I feel more... detached from it? Is that normal?"
+    ],
+    [
+      "Therapist: You're doing great. How are you feeling now?",
+      "Client: Better, I think. My heart isn't racing as much. The memory is still vivid, but I feel more... detached from it? Is that normal?",
+      "Therapist: Absolutely. SUDS rating?"
+    ],
+    [
+      "Client: Better, I think. My heart isn't racing as much. The memory is still vivid, but I feel more... detached from it? Is that normal?",
+      "Therapist: Absolutely. SUDS rating?",
+      "Client: Down to 60. It's... it's actually getting easier to talk about."
+    ],
+    [
+      "Therapist: Absolutely. SUDS rating?",
+      "Client: Down to 60. It's... it's actually getting easier to talk about.",
+      "Therapist: That's often part of the process. Let's continue..."
+    ]
+  ]
+}

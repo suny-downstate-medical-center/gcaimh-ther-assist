@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Going through that memory of the workplace incident was more intense than I expected. I could almost smell the office air and hear my coworker's voice...",
+    "Therapist: That's understandable. What stood out most?",
+    "Client: The moment when my supervisor dismissed my concerns about the project. I felt so small, so... insignificant. It brought back all those feelings of being neglected as a child, you know? Like my voice didn't matter, my needs weren't important. I felt that same tightness in my chest, that same lump in my throat.",
+    "Therapist: How does that connect to your daily life now?",
+    "Client: I guess... I'm always on edge at work, always expecting to be dismissed or ignored. It affects my confidence, my ability to speak up in meetings. Even at home, I sometimes struggle to express my needs to my partner. It's like I'm constantly bracing for rejection.",
+    "Therapist: What did you learn about yourself today?",
+    "Client: I realized how much that incident still affects me. But also... I made it through the memory without falling apart. That's something, right? I mean, it was tough, but I did it. Maybe I'm stronger than I give myself credit for.",
+    "Therapist: That's an important insight. How might you use this strength?",
+    "Client: I suppose... I could try to remind myself of this moment when I'm feeling overwhelmed at work. Maybe I can practice speaking up more, starting with small things. It's scary, but if I could face this memory, maybe I can face those situations too.",
+    "Therapist: Excellent. What else did you notice?",
+    "Client: I noticed that while the memory was vivid, it didn't last forever. The intense emotions peaked and then... they started to subside. That's new for me. Usually, I feel like the anxiety just keeps building and building. But this time, I could feel it start to ebb away.",
+    "Therapist: How might this observation help you?",
+    "Client: It gives me hope, I think. Maybe if I face these memories and situations instead of avoiding them, the intensity will decrease over time. It's a bit like exposure therapy for my other anxieties, right? The more I face it, the less power it has over me.",
+    "Therapist: That's a great connection. What's your biggest takeaway?",
+    "Client: My biggest takeaway... I think it's that I'm not as helpless as I sometimes feel. Yes, the trauma happened, and yes, it still affects me. But I have the power to work through it, to process it, to learn from it. I'm not that powerless child or that dismissed employee anymore. I'm an adult who's actively working on healing.",
+    "Therapist: Powerful insight. How do you feel about continuing?",
+    "Client: I'm... cautiously optimistic. It's not easy, and part of me is afraid of what other memories might surface. But I also feel a glimmer of hope. If I can make progress with this memory, maybe I can do the same with others. It's like I'm slowly reclaiming parts of myself that I thought were lost.",
+    "Therapist: That's a great attitude. Any final thoughts?",
+    "Client: Just... thank you, I guess. For guiding me through this, for creating a safe space. I know I have a long way to go, but for the first time in a while, I feel like I'm moving forward instead of just treading water. It's scary, but also... exciting? Is that weird to say?",
+    "Therapist: Not at all. It's a positive sign. Ready to wrap up?",
+    "Client: Yes, I think so. I feel drained, but in a good way, if that makes sense. Like I've done something important, something meaningful. I'm looking forward to our next session, even if it's challenging. I feel like I'm finally starting to understand myself better, to see the connections between my past and my present. It's not easy, but it feels necessary."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Going through that memory of the workplace incident was more intense than I expected. I could almost smell the office air and hear my coworker's voice...",
+      "Therapist: That's understandable. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Going through that memory of the workplace incident was more intense than I expected. I could almost smell the office air and hear my coworker's voice...",
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The moment when my supervisor dismissed my concerns about the project. I felt so small, so... insignificant. It brought back all those feelings of being neglected as a child, you know? Like my voice didn't matter, my needs weren't important. I felt that same tightness in my chest, that same lump in my throat."
+    ],
+    [
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The moment when my supervisor dismissed my concerns about the project. I felt so small, so... insignificant. It brought back all those feelings of being neglected as a child, you know? Like my voice didn't matter, my needs weren't important. I felt that same tightness in my chest, that same lump in my throat.",
+      "Therapist: How does that connect to your daily life now?"
+    ],
+    [
+      "Client: The moment when my supervisor dismissed my concerns about the project. I felt so small, so... insignificant. It brought back all those feelings of being neglected as a child, you know? Like my voice didn't matter, my needs weren't important. I felt that same tightness in my chest, that same lump in my throat.",
+      "Therapist: How does that connect to your daily life now?",
+      "Client: I guess... I'm always on edge at work, always expecting to be dismissed or ignored. It affects my confidence, my ability to speak up in meetings. Even at home, I sometimes struggle to express my needs to my partner. It's like I'm constantly bracing for rejection."
+    ],
+    [
+      "Therapist: How does that connect to your daily life now?",
+      "Client: I guess... I'm always on edge at work, always expecting to be dismissed or ignored. It affects my confidence, my ability to speak up in meetings. Even at home, I sometimes struggle to express my needs to my partner. It's like I'm constantly bracing for rejection.",
+      "Therapist: What did you learn about yourself today?"
+    ],
+    [
+      "Client: I guess... I'm always on edge at work, always expecting to be dismissed or ignored. It affects my confidence, my ability to speak up in meetings. Even at home, I sometimes struggle to express my needs to my partner. It's like I'm constantly bracing for rejection.",
+      "Therapist: What did you learn about yourself today?",
+      "Client: I realized how much that incident still affects me. But also... I made it through the memory without falling apart. That's something, right? I mean, it was tough, but I did it. Maybe I'm stronger than I give myself credit for."
+    ],
+    [
+      "Therapist: What did you learn about yourself today?",
+      "Client: I realized how much that incident still affects me. But also... I made it through the memory without falling apart. That's something, right? I mean, it was tough, but I did it. Maybe I'm stronger than I give myself credit for.",
+      "Therapist: That's an important insight. How might you use this strength?"
+    ],
+    [
+      "Client: I realized how much that incident still affects me. But also... I made it through the memory without falling apart. That's something, right? I mean, it was tough, but I did it. Maybe I'm stronger than I give myself credit for.",
+      "Therapist: That's an important insight. How might you use this strength?",
+      "Client: I suppose... I could try to remind myself of this moment when I'm feeling overwhelmed at work. Maybe I can practice speaking up more, starting with small things. It's scary, but if I could face this memory, maybe I can face those situations too."
+    ],
+    [
+      "Therapist: That's an important insight. How might you use this strength?",
+      "Client: I suppose... I could try to remind myself of this moment when I'm feeling overwhelmed at work. Maybe I can practice speaking up more, starting with small things. It's scary, but if I could face this memory, maybe I can face those situations too.",
+      "Therapist: Excellent. What else did you notice?"
+    ],
+    [
+      "Client: I suppose... I could try to remind myself of this moment when I'm feeling overwhelmed at work. Maybe I can practice speaking up more, starting with small things. It's scary, but if I could face this memory, maybe I can face those situations too.",
+      "Therapist: Excellent. What else did you notice?",
+      "Client: I noticed that while the memory was vivid, it didn't last forever. The intense emotions peaked and then... they started to subside. That's new for me. Usually, I feel like the anxiety just keeps building and building. But this time, I could feel it start to ebb away."
+    ],
+    [
+      "Therapist: Excellent. What else did you notice?",
+      "Client: I noticed that while the memory was vivid, it didn't last forever. The intense emotions peaked and then... they started to subside. That's new for me. Usually, I feel like the anxiety just keeps building and building. But this time, I could feel it start to ebb away.",
+      "Therapist: How might this observation help you?"
+    ],
+    [
+      "Client: I noticed that while the memory was vivid, it didn't last forever. The intense emotions peaked and then... they started to subside. That's new for me. Usually, I feel like the anxiety just keeps building and building. But this time, I could feel it start to ebb away.",
+      "Therapist: How might this observation help you?",
+      "Client: It gives me hope, I think. Maybe if I face these memories and situations instead of avoiding them, the intensity will decrease over time. It's a bit like exposure therapy for my other anxieties, right? The more I face it, the less power it has over me."
+    ],
+    [
+      "Therapist: How might this observation help you?",
+      "Client: It gives me hope, I think. Maybe if I face these memories and situations instead of avoiding them, the intensity will decrease over time. It's a bit like exposure therapy for my other anxieties, right? The more I face it, the less power it has over me.",
+      "Therapist: That's a great connection. What's your biggest takeaway?"
+    ],
+    [
+      "Client: It gives me hope, I think. Maybe if I face these memories and situations instead of avoiding them, the intensity will decrease over time. It's a bit like exposure therapy for my other anxieties, right? The more I face it, the less power it has over me.",
+      "Therapist: That's a great connection. What's your biggest takeaway?",
+      "Client: My biggest takeaway... I think it's that I'm not as helpless as I sometimes feel. Yes, the trauma happened, and yes, it still affects me. But I have the power to work through it, to process it, to learn from it. I'm not that powerless child or that dismissed employee anymore. I'm an adult who's actively working on healing."
+    ],
+    [
+      "Therapist: That's a great connection. What's your biggest takeaway?",
+      "Client: My biggest takeaway... I think it's that I'm not as helpless as I sometimes feel. Yes, the trauma happened, and yes, it still affects me. But I have the power to work through it, to process it, to learn from it. I'm not that powerless child or that dismissed employee anymore. I'm an adult who's actively working on healing.",
+      "Therapist: Powerful insight. How do you feel about continuing?"
+    ],
+    [
+      "Client: My biggest takeaway... I think it's that I'm not as helpless as I sometimes feel. Yes, the trauma happened, and yes, it still affects me. But I have the power to work through it, to process it, to learn from it. I'm not that powerless child or that dismissed employee anymore. I'm an adult who's actively working on healing.",
+      "Therapist: Powerful insight. How do you feel about continuing?",
+      "Client: I'm... cautiously optimistic. It's not easy, and part of me is afraid of what other memories might surface. But I also feel a glimmer of hope. If I can make progress with this memory, maybe I can do the same with others. It's like I'm slowly reclaiming parts of myself that I thought were lost."
+    ],
+    [
+      "Therapist: Powerful insight. How do you feel about continuing?",
+      "Client: I'm... cautiously optimistic. It's not easy, and part of me is afraid of what other memories might surface. But I also feel a glimmer of hope. If I can make progress with this memory, maybe I can do the same with others. It's like I'm slowly reclaiming parts of myself that I thought were lost.",
+      "Therapist: That's a great attitude. Any final thoughts?"
+    ],
+    [
+      "Client: I'm... cautiously optimistic. It's not easy, and part of me is afraid of what other memories might surface. But I also feel a glimmer of hope. If I can make progress with this memory, maybe I can do the same with others. It's like I'm slowly reclaiming parts of myself that I thought were lost.",
+      "Therapist: That's a great attitude. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this, for creating a safe space. I know I have a long way to go, but for the first time in a while, I feel like I'm moving forward instead of just treading water. It's scary, but also... exciting? Is that weird to say?"
+    ],
+    [
+      "Therapist: That's a great attitude. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this, for creating a safe space. I know I have a long way to go, but for the first time in a while, I feel like I'm moving forward instead of just treading water. It's scary, but also... exciting? Is that weird to say?",
+      "Therapist: Not at all. It's a positive sign. Ready to wrap up?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For guiding me through this, for creating a safe space. I know I have a long way to go, but for the first time in a while, I feel like I'm moving forward instead of just treading water. It's scary, but also... exciting? Is that weird to say?",
+      "Therapist: Not at all. It's a positive sign. Ready to wrap up?",
+      "Client: Yes, I think so. I feel drained, but in a good way, if that makes sense. Like I've done something important, something meaningful. I'm looking forward to our next session, even if it's challenging. I feel like I'm finally starting to understand myself better, to see the connections between my past and my present. It's not easy, but it feels necessary."
+    ]
+  ]
+}

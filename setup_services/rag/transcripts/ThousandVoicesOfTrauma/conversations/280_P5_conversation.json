@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Singh. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we've been building up to this, but I'm not sure I'm ready to revisit my combat experiences.",
+    "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I've spent years trying to forget those memories. The idea of deliberately bringing them up... it's terrifying. What if I can't handle it? What if it makes everything worse?",
+    "Therapist: Those are valid concerns. How have you been coping with memories so far?",
+    "Client: I've been avoiding them, mostly. Keeping busy, trying not to think about it. But sometimes, especially at night, they come back. The nightmares... they're intense.",
+    "Therapist: I see. How do you think facing these memories might affect you?",
+    "Client: I'm worried it might trigger a breakdown. I've worked hard to maintain some semblance of normalcy since retiring. My wife... she's been so supportive. I don't want to disappoint her by falling apart now.",
+    "Therapist: Your strength is admirable. How do you think this exercise might help?",
+    "Client: I suppose... maybe it could help me process what happened? But it's scary. These memories, they're not just images. They're smells, sounds, feelings. It's like being right back there.",
+    "Therapist: Exactly. That's why this approach can be effective. Are you ready to try?",
+    "Client: I... I think so. But what if it gets too intense? Can we stop if I need to?",
+    "Therapist: Absolutely. You're in control. Shall we begin?",
+    "Client: Okay. Yes, let's do this. I'm nervous, but I trust you. And I want to get better, for myself and my family. Where do we start?",
+    "Therapist: Close your eyes. Take a deep breath. When you're ready, describe the first moment."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Singh. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we've been building up to this, but I'm not sure I'm ready to revisit my combat experiences.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we've been building up to this, but I'm not sure I'm ready to revisit my combat experiences.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I've spent years trying to forget those memories. The idea of deliberately bringing them up... it's terrifying. What if I can't handle it? What if it makes everything worse?"
+    ],
+    [
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I've spent years trying to forget those memories. The idea of deliberately bringing them up... it's terrifying. What if I can't handle it? What if it makes everything worse?",
+      "Therapist: Those are valid concerns. How have you been coping with memories so far?"
+    ],
+    [
+      "Client: Well, I've spent years trying to forget those memories. The idea of deliberately bringing them up... it's terrifying. What if I can't handle it? What if it makes everything worse?",
+      "Therapist: Those are valid concerns. How have you been coping with memories so far?",
+      "Client: I've been avoiding them, mostly. Keeping busy, trying not to think about it. But sometimes, especially at night, they come back. The nightmares... they're intense."
+    ],
+    [
+      "Therapist: Those are valid concerns. How have you been coping with memories so far?",
+      "Client: I've been avoiding them, mostly. Keeping busy, trying not to think about it. But sometimes, especially at night, they come back. The nightmares... they're intense.",
+      "Therapist: I see. How do you think facing these memories might affect you?"
+    ],
+    [
+      "Client: I've been avoiding them, mostly. Keeping busy, trying not to think about it. But sometimes, especially at night, they come back. The nightmares... they're intense.",
+      "Therapist: I see. How do you think facing these memories might affect you?",
+      "Client: I'm worried it might trigger a breakdown. I've worked hard to maintain some semblance of normalcy since retiring. My wife... she's been so supportive. I don't want to disappoint her by falling apart now."
+    ],
+    [
+      "Therapist: I see. How do you think facing these memories might affect you?",
+      "Client: I'm worried it might trigger a breakdown. I've worked hard to maintain some semblance of normalcy since retiring. My wife... she's been so supportive. I don't want to disappoint her by falling apart now.",
+      "Therapist: Your strength is admirable. How do you think this exercise might help?"
+    ],
+    [
+      "Client: I'm worried it might trigger a breakdown. I've worked hard to maintain some semblance of normalcy since retiring. My wife... she's been so supportive. I don't want to disappoint her by falling apart now.",
+      "Therapist: Your strength is admirable. How do you think this exercise might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's scary. These memories, they're not just images. They're smells, sounds, feelings. It's like being right back there."
+    ],
+    [
+      "Therapist: Your strength is admirable. How do you think this exercise might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's scary. These memories, they're not just images. They're smells, sounds, feelings. It's like being right back there.",
+      "Therapist: Exactly. That's why this approach can be effective. Are you ready to try?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? But it's scary. These memories, they're not just images. They're smells, sounds, feelings. It's like being right back there.",
+      "Therapist: Exactly. That's why this approach can be effective. Are you ready to try?",
+      "Client: I... I think so. But what if it gets too intense? Can we stop if I need to?"
+    ],
+    [
+      "Therapist: Exactly. That's why this approach can be effective. Are you ready to try?",
+      "Client: I... I think so. But what if it gets too intense? Can we stop if I need to?",
+      "Therapist: Absolutely. You're in control. Shall we begin?"
+    ],
+    [
+      "Client: I... I think so. But what if it gets too intense? Can we stop if I need to?",
+      "Therapist: Absolutely. You're in control. Shall we begin?",
+      "Client: Okay. Yes, let's do this. I'm nervous, but I trust you. And I want to get better, for myself and my family. Where do we start?"
+    ],
+    [
+      "Therapist: Absolutely. You're in control. Shall we begin?",
+      "Client: Okay. Yes, let's do this. I'm nervous, but I trust you. And I want to get better, for myself and my family. Where do we start?",
+      "Therapist: Close your eyes. Take a deep breath. When you're ready, describe the first moment."
+    ]
+  ]
+}

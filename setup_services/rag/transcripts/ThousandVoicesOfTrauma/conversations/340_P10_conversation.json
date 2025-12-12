@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, James. How are you feeling about today's session?",
+    "Client: I'm... I'm not sure, to be honest. Part of me wants to get this over with, but another part is dreading it. My back's been acting up again, which isn't helping my nerves.",
+    "Therapist: That's understandable. Let's start with a SUDS rating.",
+    "Client: I'd say about a 6 right now. The pain's making me tense.",
+    "Therapist: Okay. Remember, we can pause anytime. Ready to begin?",
+    "Client: Yeah, I guess so. Here goes...",
+    "Therapist: You're doing well. Stay with it. What do you see?",
+    "Client: Smoke. There's smoke coming from somewhere. The windshield is cracked, like a spiderweb. I hear... I hear car horns blaring. People are shouting, but it sounds far away, muffled. My ears are ringing.",
+    "Therapist: Take a deep breath. You're safe here. What's happening now?",
+    "Client: I... I hear sirens in the distance. Getting closer. Someone's at my window, asking if I'm okay. I try to speak, but only a groan comes out. The pain is overwhelming. I feel dizzy, like I might pass out.",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's... it's up to an 8. This is hard.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: They've got me on a stretcher now. The bright sun hurts my eyes. I catch glimpses of the accident scene. My van is crushed. The other car... oh god, the other car is upside down. Is the driver okay? Did I... did I kill someone?",
+    "Therapist: How are you feeling right now?",
+    "Client: I... I'm shaking. My hands are clammy. It feels so real.",
+    "Therapist: Remember, you're safe here. Take a moment if you need to.",
+    "Client: *deep breaths* Okay... okay. I can keep going.",
+    "Therapist: You've done really well. How are you feeling now?",
+    "Client: *exhales shakily* It's... it's intense. My heart's racing. I can almost feel the pain again.",
+    "Therapist: What's your SUDS level?",
+    "Client: It peaked at a 9, but... it's coming down now. Maybe a 7?",
+    "Therapist: Take some deep breaths. Ground yourself in the present.",
+    "Client: *breathes deeply* The room... the room is starting to come back into focus. I can feel the chair beneath me. Hear the clock ticking.",
+    "Therapist: Excellent. How do you feel about what you've accomplished today?",
+    "Client: Drained. Emotionally and physically drained. But... also kind of proud? I didn't think I could face those memories head-on like that. It was tough, but... I did it.",
+    "Therapist: You should be proud. Let's end here and discuss how to care for yourself after this intense session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, James. How are you feeling about today's session?",
+      "Client: I'm... I'm not sure, to be honest. Part of me wants to get this over with, but another part is dreading it. My back's been acting up again, which isn't helping my nerves.",
+      "Therapist: That's understandable. Let's start with a SUDS rating."
+    ],
+    [
+      "Client: I'm... I'm not sure, to be honest. Part of me wants to get this over with, but another part is dreading it. My back's been acting up again, which isn't helping my nerves.",
+      "Therapist: That's understandable. Let's start with a SUDS rating.",
+      "Client: I'd say about a 6 right now. The pain's making me tense."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with a SUDS rating.",
+      "Client: I'd say about a 6 right now. The pain's making me tense.",
+      "Therapist: Okay. Remember, we can pause anytime. Ready to begin?"
+    ],
+    [
+      "Client: I'd say about a 6 right now. The pain's making me tense.",
+      "Therapist: Okay. Remember, we can pause anytime. Ready to begin?",
+      "Client: Yeah, I guess so. Here goes..."
+    ],
+    [
+      "Therapist: Okay. Remember, we can pause anytime. Ready to begin?",
+      "Client: Yeah, I guess so. Here goes...",
+      "Therapist: You're doing well. Stay with it. What do you see?"
+    ],
+    [
+      "Client: Yeah, I guess so. Here goes...",
+      "Therapist: You're doing well. Stay with it. What do you see?",
+      "Client: Smoke. There's smoke coming from somewhere. The windshield is cracked, like a spiderweb. I hear... I hear car horns blaring. People are shouting, but it sounds far away, muffled. My ears are ringing."
+    ],
+    [
+      "Therapist: You're doing well. Stay with it. What do you see?",
+      "Client: Smoke. There's smoke coming from somewhere. The windshield is cracked, like a spiderweb. I hear... I hear car horns blaring. People are shouting, but it sounds far away, muffled. My ears are ringing.",
+      "Therapist: Take a deep breath. You're safe here. What's happening now?"
+    ],
+    [
+      "Client: Smoke. There's smoke coming from somewhere. The windshield is cracked, like a spiderweb. I hear... I hear car horns blaring. People are shouting, but it sounds far away, muffled. My ears are ringing.",
+      "Therapist: Take a deep breath. You're safe here. What's happening now?",
+      "Client: I... I hear sirens in the distance. Getting closer. Someone's at my window, asking if I'm okay. I try to speak, but only a groan comes out. The pain is overwhelming. I feel dizzy, like I might pass out."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What's happening now?",
+      "Client: I... I hear sirens in the distance. Getting closer. Someone's at my window, asking if I'm okay. I try to speak, but only a groan comes out. The pain is overwhelming. I feel dizzy, like I might pass out.",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: I... I hear sirens in the distance. Getting closer. Someone's at my window, asking if I'm okay. I try to speak, but only a groan comes out. The pain is overwhelming. I feel dizzy, like I might pass out.",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's... it's up to an 8. This is hard."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's... it's up to an 8. This is hard.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: It's... it's up to an 8. This is hard.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: They've got me on a stretcher now. The bright sun hurts my eyes. I catch glimpses of the accident scene. My van is crushed. The other car... oh god, the other car is upside down. Is the driver okay? Did I... did I kill someone?"
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: They've got me on a stretcher now. The bright sun hurts my eyes. I catch glimpses of the accident scene. My van is crushed. The other car... oh god, the other car is upside down. Is the driver okay? Did I... did I kill someone?",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: They've got me on a stretcher now. The bright sun hurts my eyes. I catch glimpses of the accident scene. My van is crushed. The other car... oh god, the other car is upside down. Is the driver okay? Did I... did I kill someone?",
+      "Therapist: How are you feeling right now?",
+      "Client: I... I'm shaking. My hands are clammy. It feels so real."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I... I'm shaking. My hands are clammy. It feels so real.",
+      "Therapist: Remember, you're safe here. Take a moment if you need to."
+    ],
+    [
+      "Client: I... I'm shaking. My hands are clammy. It feels so real.",
+      "Therapist: Remember, you're safe here. Take a moment if you need to.",
+      "Client: *deep breaths* Okay... okay. I can keep going."
+    ],
+    [
+      "Therapist: Remember, you're safe here. Take a moment if you need to.",
+      "Client: *deep breaths* Okay... okay. I can keep going.",
+      "Therapist: You've done really well. How are you feeling now?"
+    ],
+    [
+      "Client: *deep breaths* Okay... okay. I can keep going.",
+      "Therapist: You've done really well. How are you feeling now?",
+      "Client: *exhales shakily* It's... it's intense. My heart's racing. I can almost feel the pain again."
+    ],
+    [
+      "Therapist: You've done really well. How are you feeling now?",
+      "Client: *exhales shakily* It's... it's intense. My heart's racing. I can almost feel the pain again.",
+      "Therapist: What's your SUDS level?"
+    ],
+    [
+      "Client: *exhales shakily* It's... it's intense. My heart's racing. I can almost feel the pain again.",
+      "Therapist: What's your SUDS level?",
+      "Client: It peaked at a 9, but... it's coming down now. Maybe a 7?"
+    ],
+    [
+      "Therapist: What's your SUDS level?",
+      "Client: It peaked at a 9, but... it's coming down now. Maybe a 7?",
+      "Therapist: Take some deep breaths. Ground yourself in the present."
+    ],
+    [
+      "Client: It peaked at a 9, but... it's coming down now. Maybe a 7?",
+      "Therapist: Take some deep breaths. Ground yourself in the present.",
+      "Client: *breathes deeply* The room... the room is starting to come back into focus. I can feel the chair beneath me. Hear the clock ticking."
+    ],
+    [
+      "Therapist: Take some deep breaths. Ground yourself in the present.",
+      "Client: *breathes deeply* The room... the room is starting to come back into focus. I can feel the chair beneath me. Hear the clock ticking.",
+      "Therapist: Excellent. How do you feel about what you've accomplished today?"
+    ],
+    [
+      "Client: *breathes deeply* The room... the room is starting to come back into focus. I can feel the chair beneath me. Hear the clock ticking.",
+      "Therapist: Excellent. How do you feel about what you've accomplished today?",
+      "Client: Drained. Emotionally and physically drained. But... also kind of proud? I didn't think I could face those memories head-on like that. It was tough, but... I did it."
+    ],
+    [
+      "Therapist: Excellent. How do you feel about what you've accomplished today?",
+      "Client: Drained. Emotionally and physically drained. But... also kind of proud? I didn't think I could face those memories head-on like that. It was tough, but... I did it.",
+      "Therapist: You should be proud. Let's end here and discuss how to care for yourself after this intense session."
+    ]
+  ]
+}

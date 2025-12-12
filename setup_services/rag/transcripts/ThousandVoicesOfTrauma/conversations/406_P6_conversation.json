@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Today we'll be doing an imaginal exposure exercise. Are you ready to begin?",
+    "Client: I... I think so. I'm a bit nervous, to be honest.",
+    "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+    "Client: Um, probably around 40. My stomach's a bit tight.",
+    "Therapist: Okay. Let's begin. Close your eyes and describe the memory we discussed.",
+    "Client: (takes a deep breath) I'm in the hospital. The lights are so bright, and there's this constant beeping. I'm alone in the room, and I feel so small in this big bed. The smell of disinfectant is overwhelming. I'm scared... so scared.",
+    "Therapist: You're doing well. How's your SUDS now?",
+    "Client: It's... it's gone up. Maybe 60? My hands are getting clammy.",
+    "Therapist: That's normal. Continue describing what you're experiencing.",
+    "Client: A nurse comes in. She barely looks at me as she checks my vitals. I try to ask her when my parents are coming, but my voice is so weak. She just pats my arm and leaves. I feel so... abandoned.",
+    "Therapist: Stay with that feeling. What's your SUDS?",
+    "Client: (voice shaking) It's... 75 now. My chest feels tight.",
+    "Therapist: You're doing great, Sarah. Keep going.",
+    "Client: Hours pass. No one comes. The pain in my abdomen is getting worse, and I'm too weak to reach the call button. I'm crying silently, praying someone will come. But no one does. I've never felt so alone and scared in my life.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: (sniffling) It's... it's 85. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (breathing deeply) The doctor finally comes in. He looks worried. He tells me they need to do emergency surgery. I ask about my parents, but he just says they couldn't reach them. I'm wheeled into the operating room, terrified, with no one to hold my hand.",
+    "Therapist: You're doing really well. SUDS?",
+    "Client: (voice breaking) It's 90. My heart's racing.",
+    "Therapist: Remember, you're here now. You're safe.",
+    "Client: (nodding) After the surgery, I wake up alone again. The pain is worse, and I'm so groggy. A different nurse comes in, and she actually smiles at me. She holds my hand and tells me I'm brave. It's the first time I feel like someone cares.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe 80?",
+    "Therapist: That's good. Let's continue.",
+    "Client: My parents finally show up the next day. They look guilty, but they don't apologize. They just act like everything's normal. I feel so angry and hurt, but I don't say anything. I just lie there, feeling like I don't matter to anyone.",
+    "Therapist: SUDS check?",
+    "Client: (sighing) It's around 70 now. I feel... drained.",
+    "Therapist: You've done really well, Sarah. Let's start winding down.",
+    "Client: (opening eyes slowly) That was... intense.",
+    "Therapist: How are you feeling now?",
+    "Client: Tired, but... lighter somehow. My SUDS is down to about 50.",
+    "Therapist: That's normal. You've shown incredible strength today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Today we'll be doing an imaginal exposure exercise. Are you ready to begin?",
+      "Client: I... I think so. I'm a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?"
+    ],
+    [
+      "Client: I... I think so. I'm a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: Um, probably around 40. My stomach's a bit tight."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: Um, probably around 40. My stomach's a bit tight.",
+      "Therapist: Okay. Let's begin. Close your eyes and describe the memory we discussed."
+    ],
+    [
+      "Client: Um, probably around 40. My stomach's a bit tight.",
+      "Therapist: Okay. Let's begin. Close your eyes and describe the memory we discussed.",
+      "Client: (takes a deep breath) I'm in the hospital. The lights are so bright, and there's this constant beeping. I'm alone in the room, and I feel so small in this big bed. The smell of disinfectant is overwhelming. I'm scared... so scared."
+    ],
+    [
+      "Therapist: Okay. Let's begin. Close your eyes and describe the memory we discussed.",
+      "Client: (takes a deep breath) I'm in the hospital. The lights are so bright, and there's this constant beeping. I'm alone in the room, and I feel so small in this big bed. The smell of disinfectant is overwhelming. I'm scared... so scared.",
+      "Therapist: You're doing well. How's your SUDS now?"
+    ],
+    [
+      "Client: (takes a deep breath) I'm in the hospital. The lights are so bright, and there's this constant beeping. I'm alone in the room, and I feel so small in this big bed. The smell of disinfectant is overwhelming. I'm scared... so scared.",
+      "Therapist: You're doing well. How's your SUDS now?",
+      "Client: It's... it's gone up. Maybe 60? My hands are getting clammy."
+    ],
+    [
+      "Therapist: You're doing well. How's your SUDS now?",
+      "Client: It's... it's gone up. Maybe 60? My hands are getting clammy.",
+      "Therapist: That's normal. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe 60? My hands are getting clammy.",
+      "Therapist: That's normal. Continue describing what you're experiencing.",
+      "Client: A nurse comes in. She barely looks at me as she checks my vitals. I try to ask her when my parents are coming, but my voice is so weak. She just pats my arm and leaves. I feel so... abandoned."
+    ],
+    [
+      "Therapist: That's normal. Continue describing what you're experiencing.",
+      "Client: A nurse comes in. She barely looks at me as she checks my vitals. I try to ask her when my parents are coming, but my voice is so weak. She just pats my arm and leaves. I feel so... abandoned.",
+      "Therapist: Stay with that feeling. What's your SUDS?"
+    ],
+    [
+      "Client: A nurse comes in. She barely looks at me as she checks my vitals. I try to ask her when my parents are coming, but my voice is so weak. She just pats my arm and leaves. I feel so... abandoned.",
+      "Therapist: Stay with that feeling. What's your SUDS?",
+      "Client: (voice shaking) It's... 75 now. My chest feels tight."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's your SUDS?",
+      "Client: (voice shaking) It's... 75 now. My chest feels tight.",
+      "Therapist: You're doing great, Sarah. Keep going."
+    ],
+    [
+      "Client: (voice shaking) It's... 75 now. My chest feels tight.",
+      "Therapist: You're doing great, Sarah. Keep going.",
+      "Client: Hours pass. No one comes. The pain in my abdomen is getting worse, and I'm too weak to reach the call button. I'm crying silently, praying someone will come. But no one does. I've never felt so alone and scared in my life."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. Keep going.",
+      "Client: Hours pass. No one comes. The pain in my abdomen is getting worse, and I'm too weak to reach the call button. I'm crying silently, praying someone will come. But no one does. I've never felt so alone and scared in my life.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: Hours pass. No one comes. The pain in my abdomen is getting worse, and I'm too weak to reach the call button. I'm crying silently, praying someone will come. But no one does. I've never felt so alone and scared in my life.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: (sniffling) It's... it's 85. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: (sniffling) It's... it's 85. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: (sniffling) It's... it's 85. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (breathing deeply) The doctor finally comes in. He looks worried. He tells me they need to do emergency surgery. I ask about my parents, but he just says they couldn't reach them. I'm wheeled into the operating room, terrified, with no one to hold my hand."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (breathing deeply) The doctor finally comes in. He looks worried. He tells me they need to do emergency surgery. I ask about my parents, but he just says they couldn't reach them. I'm wheeled into the operating room, terrified, with no one to hold my hand.",
+      "Therapist: You're doing really well. SUDS?"
+    ],
+    [
+      "Client: (breathing deeply) The doctor finally comes in. He looks worried. He tells me they need to do emergency surgery. I ask about my parents, but he just says they couldn't reach them. I'm wheeled into the operating room, terrified, with no one to hold my hand.",
+      "Therapist: You're doing really well. SUDS?",
+      "Client: (voice breaking) It's 90. My heart's racing."
+    ],
+    [
+      "Therapist: You're doing really well. SUDS?",
+      "Client: (voice breaking) It's 90. My heart's racing.",
+      "Therapist: Remember, you're here now. You're safe."
+    ],
+    [
+      "Client: (voice breaking) It's 90. My heart's racing.",
+      "Therapist: Remember, you're here now. You're safe.",
+      "Client: (nodding) After the surgery, I wake up alone again. The pain is worse, and I'm so groggy. A different nurse comes in, and she actually smiles at me. She holds my hand and tells me I'm brave. It's the first time I feel like someone cares."
+    ],
+    [
+      "Therapist: Remember, you're here now. You're safe.",
+      "Client: (nodding) After the surgery, I wake up alone again. The pain is worse, and I'm so groggy. A different nurse comes in, and she actually smiles at me. She holds my hand and tells me I'm brave. It's the first time I feel like someone cares.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (nodding) After the surgery, I wake up alone again. The pain is worse, and I'm so groggy. A different nurse comes in, and she actually smiles at me. She holds my hand and tells me I'm brave. It's the first time I feel like someone cares.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe 80?"
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe 80?",
+      "Therapist: That's good. Let's continue."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe 80?",
+      "Therapist: That's good. Let's continue.",
+      "Client: My parents finally show up the next day. They look guilty, but they don't apologize. They just act like everything's normal. I feel so angry and hurt, but I don't say anything. I just lie there, feeling like I don't matter to anyone."
+    ],
+    [
+      "Therapist: That's good. Let's continue.",
+      "Client: My parents finally show up the next day. They look guilty, but they don't apologize. They just act like everything's normal. I feel so angry and hurt, but I don't say anything. I just lie there, feeling like I don't matter to anyone.",
+      "Therapist: SUDS check?"
+    ],
+    [
+      "Client: My parents finally show up the next day. They look guilty, but they don't apologize. They just act like everything's normal. I feel so angry and hurt, but I don't say anything. I just lie there, feeling like I don't matter to anyone.",
+      "Therapist: SUDS check?",
+      "Client: (sighing) It's around 70 now. I feel... drained."
+    ],
+    [
+      "Therapist: SUDS check?",
+      "Client: (sighing) It's around 70 now. I feel... drained.",
+      "Therapist: You've done really well, Sarah. Let's start winding down."
+    ],
+    [
+      "Client: (sighing) It's around 70 now. I feel... drained.",
+      "Therapist: You've done really well, Sarah. Let's start winding down.",
+      "Client: (opening eyes slowly) That was... intense."
+    ],
+    [
+      "Therapist: You've done really well, Sarah. Let's start winding down.",
+      "Client: (opening eyes slowly) That was... intense.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (opening eyes slowly) That was... intense.",
+      "Therapist: How are you feeling now?",
+      "Client: Tired, but... lighter somehow. My SUDS is down to about 50."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Tired, but... lighter somehow. My SUDS is down to about 50.",
+      "Therapist: That's normal. You've shown incredible strength today."
+    ]
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+    "Client: I... I'm not sure. It's a lot to process, you know? Going back to that day in Afghanistan... it's like I was right there again. The heat, the dust, the constant tension in my gut. I can still hear the explosion ringing in my ears.",
+    "Therapist: Mm-hmm. What stood out most to you this time?",
+    "Client: The faces. God, the faces of my team. We were just kids, really. Barely out of high school, thinking we were invincible. But in that moment, when the IED went off... I saw the fear in their eyes. It was like looking in a mirror.",
+    "Therapist: How did reliving that affect you physically?",
+    "Client: My heart was racing, palms got sweaty. I felt this tightness in my chest, like I couldn't breathe. It's... it's exhausting, honestly.",
+    "Therapist: That's understandable. How are you coping with those sensations now?",
+    "Client: Better, I think. The breathing exercises help. It's just... sometimes I wonder if I'll ever truly feel safe again, you know?",
+    "Therapist: Many trauma survivors struggle with that. What helps you feel safer?",
+    "Client: Being here with my family, oddly enough. My wife's steady presence, my kids' laughter. It reminds me I'm not in that warzone anymore. But then I feel guilty for being okay when others didn't make it back.",
+    "Therapist: How does that guilt impact your daily life?",
+    "Client: It's... it's always there, lurking. Makes it hard to enjoy simple things. Like, I'll be at my daughter's soccer game, and suddenly I'm thinking about the guys who'll never see their kids grow up. It's not fair.",
+    "Therapist: That's a heavy burden. How do you manage those thoughts?",
+    "Client: I try to remind myself that they'd want me to live, to be there for my family. But it's a constant battle, you know? Some days are better than others.",
+    "Therapist: You're showing remarkable resilience. What's helping you push through?",
+    "Client: My family, definitely. And... well, this therapy, actually. It's tough, but I feel like I'm finally facing things instead of running from them.",
+    "Therapist: That's significant progress. What changes have you noticed?",
+    "Client: I'm sleeping better, for one. The nightmares aren't as frequent. And I'm... I'm starting to open up to my wife more. She's been so patient.",
+    "Therapist: That's excellent. How does that openness feel?",
+    "Client: Scary, but... good. Like I'm not carrying this alone anymore. It's a relief, in a way.",
+    "Therapist: You're doing important work here. What's your takeaway from today's session?",
+    "Client: I guess... that it's okay to feel all these things. The fear, the guilt, the anger. It doesn't make me weak. And maybe... maybe by working through it, I can honor my fallen comrades better than by just suffering in silence.",
+    "Therapist: That's a powerful insight. How will you carry that forward?",
+    "Client: I think... I might try talking to some of my old unit. We've all been dealing with this alone for too long. Maybe it's time we supported each other, you know?",
+    "Therapist: That sounds like a positive step. How do you feel about continuing these exposures?",
+    "Client: It's tough, not gonna lie. But I see the value now. It's like lancing a wound - hurts like hell, but it's the only way to truly heal. I'm... I'm ready to keep going.",
+    "Therapist: Your commitment is commendable. What would you like to focus on next time?",
+    "Client: Maybe... maybe the day we lost Johnson. It's one of the hardest memories, but I think I'm ready to face it. Is that... is that okay?",
+    "Therapist: Absolutely. We'll approach it at your pace. Any final thoughts?",
+    "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with all my anxiety and... well, everything else. But I feel like I'm finally making progress.",
+    "Therapist: You're doing the work, Mr. Chen. See you next week?",
+    "Client: Yeah... yeah, I'll be here. Thanks again, doc."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+      "Client: I... I'm not sure. It's a lot to process, you know? Going back to that day in Afghanistan... it's like I was right there again. The heat, the dust, the constant tension in my gut. I can still hear the explosion ringing in my ears.",
+      "Therapist: Mm-hmm. What stood out most to you this time?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process, you know? Going back to that day in Afghanistan... it's like I was right there again. The heat, the dust, the constant tension in my gut. I can still hear the explosion ringing in my ears.",
+      "Therapist: Mm-hmm. What stood out most to you this time?",
+      "Client: The faces. God, the faces of my team. We were just kids, really. Barely out of high school, thinking we were invincible. But in that moment, when the IED went off... I saw the fear in their eyes. It was like looking in a mirror."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out most to you this time?",
+      "Client: The faces. God, the faces of my team. We were just kids, really. Barely out of high school, thinking we were invincible. But in that moment, when the IED went off... I saw the fear in their eyes. It was like looking in a mirror.",
+      "Therapist: How did reliving that affect you physically?"
+    ],
+    [
+      "Client: The faces. God, the faces of my team. We were just kids, really. Barely out of high school, thinking we were invincible. But in that moment, when the IED went off... I saw the fear in their eyes. It was like looking in a mirror.",
+      "Therapist: How did reliving that affect you physically?",
+      "Client: My heart was racing, palms got sweaty. I felt this tightness in my chest, like I couldn't breathe. It's... it's exhausting, honestly."
+    ],
+    [
+      "Therapist: How did reliving that affect you physically?",
+      "Client: My heart was racing, palms got sweaty. I felt this tightness in my chest, like I couldn't breathe. It's... it's exhausting, honestly.",
+      "Therapist: That's understandable. How are you coping with those sensations now?"
+    ],
+    [
+      "Client: My heart was racing, palms got sweaty. I felt this tightness in my chest, like I couldn't breathe. It's... it's exhausting, honestly.",
+      "Therapist: That's understandable. How are you coping with those sensations now?",
+      "Client: Better, I think. The breathing exercises help. It's just... sometimes I wonder if I'll ever truly feel safe again, you know?"
+    ],
+    [
+      "Therapist: That's understandable. How are you coping with those sensations now?",
+      "Client: Better, I think. The breathing exercises help. It's just... sometimes I wonder if I'll ever truly feel safe again, you know?",
+      "Therapist: Many trauma survivors struggle with that. What helps you feel safer?"
+    ],
+    [
+      "Client: Better, I think. The breathing exercises help. It's just... sometimes I wonder if I'll ever truly feel safe again, you know?",
+      "Therapist: Many trauma survivors struggle with that. What helps you feel safer?",
+      "Client: Being here with my family, oddly enough. My wife's steady presence, my kids' laughter. It reminds me I'm not in that warzone anymore. But then I feel guilty for being okay when others didn't make it back."
+    ],
+    [
+      "Therapist: Many trauma survivors struggle with that. What helps you feel safer?",
+      "Client: Being here with my family, oddly enough. My wife's steady presence, my kids' laughter. It reminds me I'm not in that warzone anymore. But then I feel guilty for being okay when others didn't make it back.",
+      "Therapist: How does that guilt impact your daily life?"
+    ],
+    [
+      "Client: Being here with my family, oddly enough. My wife's steady presence, my kids' laughter. It reminds me I'm not in that warzone anymore. But then I feel guilty for being okay when others didn't make it back.",
+      "Therapist: How does that guilt impact your daily life?",
+      "Client: It's... it's always there, lurking. Makes it hard to enjoy simple things. Like, I'll be at my daughter's soccer game, and suddenly I'm thinking about the guys who'll never see their kids grow up. It's not fair."
+    ],
+    [
+      "Therapist: How does that guilt impact your daily life?",
+      "Client: It's... it's always there, lurking. Makes it hard to enjoy simple things. Like, I'll be at my daughter's soccer game, and suddenly I'm thinking about the guys who'll never see their kids grow up. It's not fair.",
+      "Therapist: That's a heavy burden. How do you manage those thoughts?"
+    ],
+    [
+      "Client: It's... it's always there, lurking. Makes it hard to enjoy simple things. Like, I'll be at my daughter's soccer game, and suddenly I'm thinking about the guys who'll never see their kids grow up. It's not fair.",
+      "Therapist: That's a heavy burden. How do you manage those thoughts?",
+      "Client: I try to remind myself that they'd want me to live, to be there for my family. But it's a constant battle, you know? Some days are better than others."
+    ],
+    [
+      "Therapist: That's a heavy burden. How do you manage those thoughts?",
+      "Client: I try to remind myself that they'd want me to live, to be there for my family. But it's a constant battle, you know? Some days are better than others.",
+      "Therapist: You're showing remarkable resilience. What's helping you push through?"
+    ],
+    [
+      "Client: I try to remind myself that they'd want me to live, to be there for my family. But it's a constant battle, you know? Some days are better than others.",
+      "Therapist: You're showing remarkable resilience. What's helping you push through?",
+      "Client: My family, definitely. And... well, this therapy, actually. It's tough, but I feel like I'm finally facing things instead of running from them."
+    ],
+    [
+      "Therapist: You're showing remarkable resilience. What's helping you push through?",
+      "Client: My family, definitely. And... well, this therapy, actually. It's tough, but I feel like I'm finally facing things instead of running from them.",
+      "Therapist: That's significant progress. What changes have you noticed?"
+    ],
+    [
+      "Client: My family, definitely. And... well, this therapy, actually. It's tough, but I feel like I'm finally facing things instead of running from them.",
+      "Therapist: That's significant progress. What changes have you noticed?",
+      "Client: I'm sleeping better, for one. The nightmares aren't as frequent. And I'm... I'm starting to open up to my wife more. She's been so patient."
+    ],
+    [
+      "Therapist: That's significant progress. What changes have you noticed?",
+      "Client: I'm sleeping better, for one. The nightmares aren't as frequent. And I'm... I'm starting to open up to my wife more. She's been so patient.",
+      "Therapist: That's excellent. How does that openness feel?"
+    ],
+    [
+      "Client: I'm sleeping better, for one. The nightmares aren't as frequent. And I'm... I'm starting to open up to my wife more. She's been so patient.",
+      "Therapist: That's excellent. How does that openness feel?",
+      "Client: Scary, but... good. Like I'm not carrying this alone anymore. It's a relief, in a way."
+    ],
+    [
+      "Therapist: That's excellent. How does that openness feel?",
+      "Client: Scary, but... good. Like I'm not carrying this alone anymore. It's a relief, in a way.",
+      "Therapist: You're doing important work here. What's your takeaway from today's session?"
+    ],
+    [
+      "Client: Scary, but... good. Like I'm not carrying this alone anymore. It's a relief, in a way.",
+      "Therapist: You're doing important work here. What's your takeaway from today's session?",
+      "Client: I guess... that it's okay to feel all these things. The fear, the guilt, the anger. It doesn't make me weak. And maybe... maybe by working through it, I can honor my fallen comrades better than by just suffering in silence."
+    ],
+    [
+      "Therapist: You're doing important work here. What's your takeaway from today's session?",
+      "Client: I guess... that it's okay to feel all these things. The fear, the guilt, the anger. It doesn't make me weak. And maybe... maybe by working through it, I can honor my fallen comrades better than by just suffering in silence.",
+      "Therapist: That's a powerful insight. How will you carry that forward?"
+    ],
+    [
+      "Client: I guess... that it's okay to feel all these things. The fear, the guilt, the anger. It doesn't make me weak. And maybe... maybe by working through it, I can honor my fallen comrades better than by just suffering in silence.",
+      "Therapist: That's a powerful insight. How will you carry that forward?",
+      "Client: I think... I might try talking to some of my old unit. We've all been dealing with this alone for too long. Maybe it's time we supported each other, you know?"
+    ],
+    [
+      "Therapist: That's a powerful insight. How will you carry that forward?",
+      "Client: I think... I might try talking to some of my old unit. We've all been dealing with this alone for too long. Maybe it's time we supported each other, you know?",
+      "Therapist: That sounds like a positive step. How do you feel about continuing these exposures?"
+    ],
+    [
+      "Client: I think... I might try talking to some of my old unit. We've all been dealing with this alone for too long. Maybe it's time we supported each other, you know?",
+      "Therapist: That sounds like a positive step. How do you feel about continuing these exposures?",
+      "Client: It's tough, not gonna lie. But I see the value now. It's like lancing a wound - hurts like hell, but it's the only way to truly heal. I'm... I'm ready to keep going."
+    ],
+    [
+      "Therapist: That sounds like a positive step. How do you feel about continuing these exposures?",
+      "Client: It's tough, not gonna lie. But I see the value now. It's like lancing a wound - hurts like hell, but it's the only way to truly heal. I'm... I'm ready to keep going.",
+      "Therapist: Your commitment is commendable. What would you like to focus on next time?"
+    ],
+    [
+      "Client: It's tough, not gonna lie. But I see the value now. It's like lancing a wound - hurts like hell, but it's the only way to truly heal. I'm... I'm ready to keep going.",
+      "Therapist: Your commitment is commendable. What would you like to focus on next time?",
+      "Client: Maybe... maybe the day we lost Johnson. It's one of the hardest memories, but I think I'm ready to face it. Is that... is that okay?"
+    ],
+    [
+      "Therapist: Your commitment is commendable. What would you like to focus on next time?",
+      "Client: Maybe... maybe the day we lost Johnson. It's one of the hardest memories, but I think I'm ready to face it. Is that... is that okay?",
+      "Therapist: Absolutely. We'll approach it at your pace. Any final thoughts?"
+    ],
+    [
+      "Client: Maybe... maybe the day we lost Johnson. It's one of the hardest memories, but I think I'm ready to face it. Is that... is that okay?",
+      "Therapist: Absolutely. We'll approach it at your pace. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with all my anxiety and... well, everything else. But I feel like I'm finally making progress."
+    ],
+    [
+      "Therapist: Absolutely. We'll approach it at your pace. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with all my anxiety and... well, everything else. But I feel like I'm finally making progress.",
+      "Therapist: You're doing the work, Mr. Chen. See you next week?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with all my anxiety and... well, everything else. But I feel like I'm finally making progress.",
+      "Therapist: You're doing the work, Mr. Chen. See you next week?",
+      "Client: Yeah... yeah, I'll be here. Thanks again, doc."
+    ]
+  ]
+}

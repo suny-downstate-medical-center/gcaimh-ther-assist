@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: I'm... I'm feeling a bit anxious, to be honest. I've been thinking about this session all week, and I'm not sure what to expect. My heart's racing a bit just sitting here.",
+    "Therapist: That's understandable. We'll take it slow.",
+    "Client: Thank you. I appreciate that. It's just... ever since my illness, I've been struggling to feel normal again. Everything seems to remind me of those awful days in the hospital. I can't seem to shake it off, you know?",
+    "Therapist: Today, we'll try imaginal exposure. Are you familiar with it?",
+    "Client: Not really. I've heard the term, but I'm not sure what it involves. Is it... is it going to be difficult?",
+    "Therapist: It can be challenging, but it's very helpful. Shall I explain?",
+    "Client: Yes, please. I want to understand what we're going to do. I'm feeling a bit nervous about it all.",
+    "Therapist: We'll revisit your trauma memory in a safe environment.",
+    "Client: Revisit it? You mean... I have to think about being in the hospital again? I'm not sure I can do that. Just the thought of it makes me feel panicky. My palms are getting sweaty just thinking about it.",
+    "Therapist: It's normal to feel anxious. We'll go at your pace.",
+    "Client: Okay... I trust you. But can you tell me more about why we need to do this? It seems counterintuitive to deliberately think about something I've been trying so hard to forget.",
+    "Therapist: It helps process the memory and reduce its power over you.",
+    "Client: I see. So, by facing it head-on, I might be able to stop these constant flashbacks and nightmares? That would be... that would be incredible. I haven't had a full night's sleep in months.",
+    "Therapist: Exactly. How do you feel about trying it today?",
+    "Client: I'm scared, but I'm also hopeful. If this can help me get my life back, I want to try. Can you tell me what I should expect during the session? Will you be guiding me through it?",
+    "Therapist: Yes, I'll guide you. We'll start slowly and pause if needed.",
+    "Client: That's reassuring. I'm glad you'll be there with me. I'm worried about getting overwhelmed by the memories. Sometimes, when I think about the hospital, it feels so real... like I'm right back there again.",
+    "Therapist: That's normal. We'll work through it together.",
+    "Client: Okay. I appreciate your support. It means a lot to have someone who understands. My family tries, but they don't really get it. They think I should just \"move on.\" But it's not that simple, is it?",
+    "Therapist: It's not. Your feelings are valid. Ready to begin?",
+    "Client: I think so. Yes, I'm ready. Just... please be patient with me if I struggle. This is all new and pretty scary for me. But I want to get better, for myself and for my family.",
+    "Therapist: Of course. Your courage is admirable. Let's start."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: I'm... I'm feeling a bit anxious, to be honest. I've been thinking about this session all week, and I'm not sure what to expect. My heart's racing a bit just sitting here.",
+      "Therapist: That's understandable. We'll take it slow."
+    ],
+    [
+      "Client: I'm... I'm feeling a bit anxious, to be honest. I've been thinking about this session all week, and I'm not sure what to expect. My heart's racing a bit just sitting here.",
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... ever since my illness, I've been struggling to feel normal again. Everything seems to remind me of those awful days in the hospital. I can't seem to shake it off, you know?"
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... ever since my illness, I've been struggling to feel normal again. Everything seems to remind me of those awful days in the hospital. I can't seem to shake it off, you know?",
+      "Therapist: Today, we'll try imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: Thank you. I appreciate that. It's just... ever since my illness, I've been struggling to feel normal again. Everything seems to remind me of those awful days in the hospital. I can't seem to shake it off, you know?",
+      "Therapist: Today, we'll try imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I've heard the term, but I'm not sure what it involves. Is it... is it going to be difficult?"
+    ],
+    [
+      "Therapist: Today, we'll try imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I've heard the term, but I'm not sure what it involves. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain?"
+    ],
+    [
+      "Client: Not really. I've heard the term, but I'm not sure what it involves. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain?",
+      "Client: Yes, please. I want to understand what we're going to do. I'm feeling a bit nervous about it all."
+    ],
+    [
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain?",
+      "Client: Yes, please. I want to understand what we're going to do. I'm feeling a bit nervous about it all.",
+      "Therapist: We'll revisit your trauma memory in a safe environment."
+    ],
+    [
+      "Client: Yes, please. I want to understand what we're going to do. I'm feeling a bit nervous about it all.",
+      "Therapist: We'll revisit your trauma memory in a safe environment.",
+      "Client: Revisit it? You mean... I have to think about being in the hospital again? I'm not sure I can do that. Just the thought of it makes me feel panicky. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: We'll revisit your trauma memory in a safe environment.",
+      "Client: Revisit it? You mean... I have to think about being in the hospital again? I'm not sure I can do that. Just the thought of it makes me feel panicky. My palms are getting sweaty just thinking about it.",
+      "Therapist: It's normal to feel anxious. We'll go at your pace."
+    ],
+    [
+      "Client: Revisit it? You mean... I have to think about being in the hospital again? I'm not sure I can do that. Just the thought of it makes me feel panicky. My palms are getting sweaty just thinking about it.",
+      "Therapist: It's normal to feel anxious. We'll go at your pace.",
+      "Client: Okay... I trust you. But can you tell me more about why we need to do this? It seems counterintuitive to deliberately think about something I've been trying so hard to forget."
+    ],
+    [
+      "Therapist: It's normal to feel anxious. We'll go at your pace.",
+      "Client: Okay... I trust you. But can you tell me more about why we need to do this? It seems counterintuitive to deliberately think about something I've been trying so hard to forget.",
+      "Therapist: It helps process the memory and reduce its power over you."
+    ],
+    [
+      "Client: Okay... I trust you. But can you tell me more about why we need to do this? It seems counterintuitive to deliberately think about something I've been trying so hard to forget.",
+      "Therapist: It helps process the memory and reduce its power over you.",
+      "Client: I see. So, by facing it head-on, I might be able to stop these constant flashbacks and nightmares? That would be... that would be incredible. I haven't had a full night's sleep in months."
+    ],
+    [
+      "Therapist: It helps process the memory and reduce its power over you.",
+      "Client: I see. So, by facing it head-on, I might be able to stop these constant flashbacks and nightmares? That would be... that would be incredible. I haven't had a full night's sleep in months.",
+      "Therapist: Exactly. How do you feel about trying it today?"
+    ],
+    [
+      "Client: I see. So, by facing it head-on, I might be able to stop these constant flashbacks and nightmares? That would be... that would be incredible. I haven't had a full night's sleep in months.",
+      "Therapist: Exactly. How do you feel about trying it today?",
+      "Client: I'm scared, but I'm also hopeful. If this can help me get my life back, I want to try. Can you tell me what I should expect during the session? Will you be guiding me through it?"
+    ],
+    [
+      "Therapist: Exactly. How do you feel about trying it today?",
+      "Client: I'm scared, but I'm also hopeful. If this can help me get my life back, I want to try. Can you tell me what I should expect during the session? Will you be guiding me through it?",
+      "Therapist: Yes, I'll guide you. We'll start slowly and pause if needed."
+    ],
+    [
+      "Client: I'm scared, but I'm also hopeful. If this can help me get my life back, I want to try. Can you tell me what I should expect during the session? Will you be guiding me through it?",
+      "Therapist: Yes, I'll guide you. We'll start slowly and pause if needed.",
+      "Client: That's reassuring. I'm glad you'll be there with me. I'm worried about getting overwhelmed by the memories. Sometimes, when I think about the hospital, it feels so real... like I'm right back there again."
+    ],
+    [
+      "Therapist: Yes, I'll guide you. We'll start slowly and pause if needed.",
+      "Client: That's reassuring. I'm glad you'll be there with me. I'm worried about getting overwhelmed by the memories. Sometimes, when I think about the hospital, it feels so real... like I'm right back there again.",
+      "Therapist: That's normal. We'll work through it together."
+    ],
+    [
+      "Client: That's reassuring. I'm glad you'll be there with me. I'm worried about getting overwhelmed by the memories. Sometimes, when I think about the hospital, it feels so real... like I'm right back there again.",
+      "Therapist: That's normal. We'll work through it together.",
+      "Client: Okay. I appreciate your support. It means a lot to have someone who understands. My family tries, but they don't really get it. They think I should just \"move on.\" But it's not that simple, is it?"
+    ],
+    [
+      "Therapist: That's normal. We'll work through it together.",
+      "Client: Okay. I appreciate your support. It means a lot to have someone who understands. My family tries, but they don't really get it. They think I should just \"move on.\" But it's not that simple, is it?",
+      "Therapist: It's not. Your feelings are valid. Ready to begin?"
+    ],
+    [
+      "Client: Okay. I appreciate your support. It means a lot to have someone who understands. My family tries, but they don't really get it. They think I should just \"move on.\" But it's not that simple, is it?",
+      "Therapist: It's not. Your feelings are valid. Ready to begin?",
+      "Client: I think so. Yes, I'm ready. Just... please be patient with me if I struggle. This is all new and pretty scary for me. But I want to get better, for myself and for my family."
+    ],
+    [
+      "Therapist: It's not. Your feelings are valid. Ready to begin?",
+      "Client: I think so. Yes, I'm ready. Just... please be patient with me if I struggle. This is all new and pretty scary for me. But I want to get better, for myself and for my family.",
+      "Therapist: Of course. Your courage is admirable. Let's start."
+    ]
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after going through that memory today?",
+    "Client: I... I'm not sure. It's a lot to process. I can still see the flashing lights, hear the shouting. My heart's still racing a bit.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The fear. I felt so helpless watching it all unfold. I keep thinking about how quickly everything escalated, you know? One minute we were just walking home from class, and the next... (voice trails off)",
+    "Therapist: Mm-hmm. How does that fear compare to your day-to-day experiences?",
+    "Client: It's... it's similar, I guess. I'm always on edge now, especially in public spaces. But during the memory, it was so much more intense. I felt like I couldn't breathe.",
+    "Therapist: Thank you for sharing that. How are you feeling now, talking about it?",
+    "Client: A little shaky, but... better than I expected. It's weird, but there's almost a sense of relief? Like, I've been carrying this around for so long, and now it's out there.",
+    "Therapist: That's a common experience. What do you make of that relief?",
+    "Client: I guess... maybe it's because I'm finally facing it? For so long, I've tried to push it away, pretend it didn't happen. But now, talking about it, it feels like I'm taking some control back.",
+    "Therapist: That's a powerful insight. How might this affect your daily life?",
+    "Client: I'm not sure yet. Maybe... maybe I'll feel less afraid to go out? Or at least, I'll have some tools to deal with the anxiety when it comes up. It's hard to imagine not being scared all the time, but I think I see a glimmer of hope now.",
+    "Therapist: That's great progress. What helped you get through the exposure today?",
+    "Client: The breathing exercises we practiced, definitely. And... knowing you were here, listening. It made me feel less alone in it all. Oh, and reminding myself that I'm safe now, that it's just a memory.",
+    "Therapist: Those are excellent strategies. How can you apply them moving forward?",
+    "Client: I think I'll try using the breathing exercises more when I'm out in public and feeling anxious. And maybe... maybe I can start talking to my boyfriend about what happened. I've been so afraid to burden him with it, but I'm realizing that sharing might actually help.",
+    "Therapist: That sounds like a good plan. Any concerns about our next session?",
+    "Client: I'm nervous, of course. But... I think I'm ready. It's hard, but I can see how it's helping. I want to keep going, to get better. I'm tired of letting this control my life, you know?",
+    "Therapist: Your determination is admirable. Is there anything else you'd like to discuss?",
+    "Client: I... I've been thinking about my identity a lot. As a Middle Eastern woman, I feel like this experience has made me even more aware of my visibility, my vulnerability. But I'm also starting to feel a kind of strength in my identity. Is that... is that normal?",
+    "Therapist: It's a common and valid response. How does this shift feel for you?",
+    "Client: It feels... empowering, in a way. Like, yes, this horrible thing happened, but I'm still here. I'm still me. And maybe by working through this, I can help other people in my community who've been through similar experiences. It's scary, but also... kind of exciting?",
+    "Therapist: That's a powerful perspective. How can we support this growth?",
+    "Client: Maybe we could explore some ways for me to connect with my community more? Or find resources for other Middle Eastern students who've experienced trauma? I feel like I want to do something positive with all of this.",
+    "Therapist: That's a great idea. We'll definitely look into that. Anything else before we wrap up?",
+    "Client: Just... thank you. For listening, for guiding me through this. I know we have a long way to go, but for the first time in a while, I feel like I might actually be okay someday.",
+    "Therapist: You're welcome. Your courage today was remarkable. We'll continue next week?",
+    "Client: Yes, definitely. I'll be here. Thank you again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after going through that memory today?",
+      "Client: I... I'm not sure. It's a lot to process. I can still see the flashing lights, hear the shouting. My heart's still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. I can still see the flashing lights, hear the shouting. My heart's still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The fear. I felt so helpless watching it all unfold. I keep thinking about how quickly everything escalated, you know? One minute we were just walking home from class, and the next... (voice trails off)"
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The fear. I felt so helpless watching it all unfold. I keep thinking about how quickly everything escalated, you know? One minute we were just walking home from class, and the next... (voice trails off)",
+      "Therapist: Mm-hmm. How does that fear compare to your day-to-day experiences?"
+    ],
+    [
+      "Client: The fear. I felt so helpless watching it all unfold. I keep thinking about how quickly everything escalated, you know? One minute we were just walking home from class, and the next... (voice trails off)",
+      "Therapist: Mm-hmm. How does that fear compare to your day-to-day experiences?",
+      "Client: It's... it's similar, I guess. I'm always on edge now, especially in public spaces. But during the memory, it was so much more intense. I felt like I couldn't breathe."
+    ],
+    [
+      "Therapist: Mm-hmm. How does that fear compare to your day-to-day experiences?",
+      "Client: It's... it's similar, I guess. I'm always on edge now, especially in public spaces. But during the memory, it was so much more intense. I felt like I couldn't breathe.",
+      "Therapist: Thank you for sharing that. How are you feeling now, talking about it?"
+    ],
+    [
+      "Client: It's... it's similar, I guess. I'm always on edge now, especially in public spaces. But during the memory, it was so much more intense. I felt like I couldn't breathe.",
+      "Therapist: Thank you for sharing that. How are you feeling now, talking about it?",
+      "Client: A little shaky, but... better than I expected. It's weird, but there's almost a sense of relief? Like, I've been carrying this around for so long, and now it's out there."
+    ],
+    [
+      "Therapist: Thank you for sharing that. How are you feeling now, talking about it?",
+      "Client: A little shaky, but... better than I expected. It's weird, but there's almost a sense of relief? Like, I've been carrying this around for so long, and now it's out there.",
+      "Therapist: That's a common experience. What do you make of that relief?"
+    ],
+    [
+      "Client: A little shaky, but... better than I expected. It's weird, but there's almost a sense of relief? Like, I've been carrying this around for so long, and now it's out there.",
+      "Therapist: That's a common experience. What do you make of that relief?",
+      "Client: I guess... maybe it's because I'm finally facing it? For so long, I've tried to push it away, pretend it didn't happen. But now, talking about it, it feels like I'm taking some control back."
+    ],
+    [
+      "Therapist: That's a common experience. What do you make of that relief?",
+      "Client: I guess... maybe it's because I'm finally facing it? For so long, I've tried to push it away, pretend it didn't happen. But now, talking about it, it feels like I'm taking some control back.",
+      "Therapist: That's a powerful insight. How might this affect your daily life?"
+    ],
+    [
+      "Client: I guess... maybe it's because I'm finally facing it? For so long, I've tried to push it away, pretend it didn't happen. But now, talking about it, it feels like I'm taking some control back.",
+      "Therapist: That's a powerful insight. How might this affect your daily life?",
+      "Client: I'm not sure yet. Maybe... maybe I'll feel less afraid to go out? Or at least, I'll have some tools to deal with the anxiety when it comes up. It's hard to imagine not being scared all the time, but I think I see a glimmer of hope now."
+    ],
+    [
+      "Therapist: That's a powerful insight. How might this affect your daily life?",
+      "Client: I'm not sure yet. Maybe... maybe I'll feel less afraid to go out? Or at least, I'll have some tools to deal with the anxiety when it comes up. It's hard to imagine not being scared all the time, but I think I see a glimmer of hope now.",
+      "Therapist: That's great progress. What helped you get through the exposure today?"
+    ],
+    [
+      "Client: I'm not sure yet. Maybe... maybe I'll feel less afraid to go out? Or at least, I'll have some tools to deal with the anxiety when it comes up. It's hard to imagine not being scared all the time, but I think I see a glimmer of hope now.",
+      "Therapist: That's great progress. What helped you get through the exposure today?",
+      "Client: The breathing exercises we practiced, definitely. And... knowing you were here, listening. It made me feel less alone in it all. Oh, and reminding myself that I'm safe now, that it's just a memory."
+    ],
+    [
+      "Therapist: That's great progress. What helped you get through the exposure today?",
+      "Client: The breathing exercises we practiced, definitely. And... knowing you were here, listening. It made me feel less alone in it all. Oh, and reminding myself that I'm safe now, that it's just a memory.",
+      "Therapist: Those are excellent strategies. How can you apply them moving forward?"
+    ],
+    [
+      "Client: The breathing exercises we practiced, definitely. And... knowing you were here, listening. It made me feel less alone in it all. Oh, and reminding myself that I'm safe now, that it's just a memory.",
+      "Therapist: Those are excellent strategies. How can you apply them moving forward?",
+      "Client: I think I'll try using the breathing exercises more when I'm out in public and feeling anxious. And maybe... maybe I can start talking to my boyfriend about what happened. I've been so afraid to burden him with it, but I'm realizing that sharing might actually help."
+    ],
+    [
+      "Therapist: Those are excellent strategies. How can you apply them moving forward?",
+      "Client: I think I'll try using the breathing exercises more when I'm out in public and feeling anxious. And maybe... maybe I can start talking to my boyfriend about what happened. I've been so afraid to burden him with it, but I'm realizing that sharing might actually help.",
+      "Therapist: That sounds like a good plan. Any concerns about our next session?"
+    ],
+    [
+      "Client: I think I'll try using the breathing exercises more when I'm out in public and feeling anxious. And maybe... maybe I can start talking to my boyfriend about what happened. I've been so afraid to burden him with it, but I'm realizing that sharing might actually help.",
+      "Therapist: That sounds like a good plan. Any concerns about our next session?",
+      "Client: I'm nervous, of course. But... I think I'm ready. It's hard, but I can see how it's helping. I want to keep going, to get better. I'm tired of letting this control my life, you know?"
+    ],
+    [
+      "Therapist: That sounds like a good plan. Any concerns about our next session?",
+      "Client: I'm nervous, of course. But... I think I'm ready. It's hard, but I can see how it's helping. I want to keep going, to get better. I'm tired of letting this control my life, you know?",
+      "Therapist: Your determination is admirable. Is there anything else you'd like to discuss?"
+    ],
+    [
+      "Client: I'm nervous, of course. But... I think I'm ready. It's hard, but I can see how it's helping. I want to keep going, to get better. I'm tired of letting this control my life, you know?",
+      "Therapist: Your determination is admirable. Is there anything else you'd like to discuss?",
+      "Client: I... I've been thinking about my identity a lot. As a Middle Eastern woman, I feel like this experience has made me even more aware of my visibility, my vulnerability. But I'm also starting to feel a kind of strength in my identity. Is that... is that normal?"
+    ],
+    [
+      "Therapist: Your determination is admirable. Is there anything else you'd like to discuss?",
+      "Client: I... I've been thinking about my identity a lot. As a Middle Eastern woman, I feel like this experience has made me even more aware of my visibility, my vulnerability. But I'm also starting to feel a kind of strength in my identity. Is that... is that normal?",
+      "Therapist: It's a common and valid response. How does this shift feel for you?"
+    ],
+    [
+      "Client: I... I've been thinking about my identity a lot. As a Middle Eastern woman, I feel like this experience has made me even more aware of my visibility, my vulnerability. But I'm also starting to feel a kind of strength in my identity. Is that... is that normal?",
+      "Therapist: It's a common and valid response. How does this shift feel for you?",
+      "Client: It feels... empowering, in a way. Like, yes, this horrible thing happened, but I'm still here. I'm still me. And maybe by working through this, I can help other people in my community who've been through similar experiences. It's scary, but also... kind of exciting?"
+    ],
+    [
+      "Therapist: It's a common and valid response. How does this shift feel for you?",
+      "Client: It feels... empowering, in a way. Like, yes, this horrible thing happened, but I'm still here. I'm still me. And maybe by working through this, I can help other people in my community who've been through similar experiences. It's scary, but also... kind of exciting?",
+      "Therapist: That's a powerful perspective. How can we support this growth?"
+    ],
+    [
+      "Client: It feels... empowering, in a way. Like, yes, this horrible thing happened, but I'm still here. I'm still me. And maybe by working through this, I can help other people in my community who've been through similar experiences. It's scary, but also... kind of exciting?",
+      "Therapist: That's a powerful perspective. How can we support this growth?",
+      "Client: Maybe we could explore some ways for me to connect with my community more? Or find resources for other Middle Eastern students who've experienced trauma? I feel like I want to do something positive with all of this."
+    ],
+    [
+      "Therapist: That's a powerful perspective. How can we support this growth?",
+      "Client: Maybe we could explore some ways for me to connect with my community more? Or find resources for other Middle Eastern students who've experienced trauma? I feel like I want to do something positive with all of this.",
+      "Therapist: That's a great idea. We'll definitely look into that. Anything else before we wrap up?"
+    ],
+    [
+      "Client: Maybe we could explore some ways for me to connect with my community more? Or find resources for other Middle Eastern students who've experienced trauma? I feel like I want to do something positive with all of this.",
+      "Therapist: That's a great idea. We'll definitely look into that. Anything else before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know we have a long way to go, but for the first time in a while, I feel like I might actually be okay someday."
+    ],
+    [
+      "Therapist: That's a great idea. We'll definitely look into that. Anything else before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know we have a long way to go, but for the first time in a while, I feel like I might actually be okay someday.",
+      "Therapist: You're welcome. Your courage today was remarkable. We'll continue next week?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. I know we have a long way to go, but for the first time in a while, I feel like I might actually be okay someday.",
+      "Therapist: You're welcome. Your courage today was remarkable. We'll continue next week?",
+      "Client: Yes, definitely. I'll be here. Thank you again."
+    ]
+  ]
+}

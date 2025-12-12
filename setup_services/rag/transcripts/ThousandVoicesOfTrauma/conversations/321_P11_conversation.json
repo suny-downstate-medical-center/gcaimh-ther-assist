@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+    "Client: Oh, my... It's always tough, you know? Reliving that home invasion... My heart's still racing a bit. I can feel the sweat on my palms. It's like I'm right back there, hearing those footsteps in the hallway. I keep thinking about how vulnerable I felt, how I froze up...",
+    "Therapist: That sounds intense. What stood out most to you this time?",
+    "Client: The sounds, definitely. The creaking floorboards, the rattling of the doorknob... It's funny, I never noticed how loud everything seemed until now. And the fear... it was overwhelming. I felt so helpless, like I couldn't protect myself or my home.",
+    "Therapist: Mm-hmm. How does that connect to your daily life now?",
+    "Client: Well... I guess I'm always on edge, aren't I? Every little noise at night makes me jump. I've been avoiding going out, especially after dark. It's like I'm constantly waiting for something bad to happen. I hadn't realized how much that incident has affected me.",
+    "Therapist: I see. What's your take on that realization?",
+    "Client: It's... eye-opening, I suppose. And a bit frustrating. I've always prided myself on being strong, you know? I survived growing up in a war-torn country, for goodness' sake! But this... this has shaken me to my core. I feel... I feel ashamed that I can't just \"get over it.\"",
+    "Therapist: Many people feel that way. How might we reframe that?",
+    "Client: I... I'm not sure. Maybe... maybe it's okay to be affected? It was a traumatic experience, after all. Perhaps acknowledging that doesn't make me weak, but... human? It's hard to accept, though. I keep thinking I should be stronger, especially at my age.",
+    "Therapist: That's an insightful perspective. How does it feel to consider that?",
+    "Client: It's a relief, in a way. But also scary. If I allow myself to be vulnerable, to really feel all of this... I'm afraid I might fall apart completely. But then again, holding it all in hasn't exactly been working either, has it? I'm tired of being afraid all the time.",
+    "Therapist: What might help you feel more in control?",
+    "Client: Hmm... Maybe... maybe if I could find ways to feel safer at home? And perhaps... talk to my husband about how I'm feeling? He's been so patient, but I've been pushing him away. And... and maybe continuing these sessions, as hard as they are. I do feel like I'm understanding myself better.",
+    "Therapist: Those sound like positive steps. How do you feel about your progress?",
+    "Client: It's... it's a mixed bag, really. Some days I feel like I'm making strides, and others... it's like I'm right back where I started. But I suppose that's normal, isn't it? I'm trying to be patient with myself. It's not easy, but... I think I'm starting to see a glimmer of hope. That counts for something, right?",
+    "Therapist: Absolutely. What would you like to focus on next time?",
+    "Client: I think... I'd like to work on some strategies for managing my anxiety when I'm at home alone. And maybe... maybe we could talk more about how to communicate with my family about what I'm going through? I've been so closed off, and I think it's time I let them in a bit.",
+    "Therapist: That sounds like a good plan. Any final thoughts today?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but... I'm grateful. I feel like I'm slowly reclaiming parts of myself that I thought I'd lost. It's a long road ahead, but... I think I'm ready to keep walking it."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+      "Client: Oh, my... It's always tough, you know? Reliving that home invasion... My heart's still racing a bit. I can feel the sweat on my palms. It's like I'm right back there, hearing those footsteps in the hallway. I keep thinking about how vulnerable I felt, how I froze up...",
+      "Therapist: That sounds intense. What stood out most to you this time?"
+    ],
+    [
+      "Client: Oh, my... It's always tough, you know? Reliving that home invasion... My heart's still racing a bit. I can feel the sweat on my palms. It's like I'm right back there, hearing those footsteps in the hallway. I keep thinking about how vulnerable I felt, how I froze up...",
+      "Therapist: That sounds intense. What stood out most to you this time?",
+      "Client: The sounds, definitely. The creaking floorboards, the rattling of the doorknob... It's funny, I never noticed how loud everything seemed until now. And the fear... it was overwhelming. I felt so helpless, like I couldn't protect myself or my home."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most to you this time?",
+      "Client: The sounds, definitely. The creaking floorboards, the rattling of the doorknob... It's funny, I never noticed how loud everything seemed until now. And the fear... it was overwhelming. I felt so helpless, like I couldn't protect myself or my home.",
+      "Therapist: Mm-hmm. How does that connect to your daily life now?"
+    ],
+    [
+      "Client: The sounds, definitely. The creaking floorboards, the rattling of the doorknob... It's funny, I never noticed how loud everything seemed until now. And the fear... it was overwhelming. I felt so helpless, like I couldn't protect myself or my home.",
+      "Therapist: Mm-hmm. How does that connect to your daily life now?",
+      "Client: Well... I guess I'm always on edge, aren't I? Every little noise at night makes me jump. I've been avoiding going out, especially after dark. It's like I'm constantly waiting for something bad to happen. I hadn't realized how much that incident has affected me."
+    ],
+    [
+      "Therapist: Mm-hmm. How does that connect to your daily life now?",
+      "Client: Well... I guess I'm always on edge, aren't I? Every little noise at night makes me jump. I've been avoiding going out, especially after dark. It's like I'm constantly waiting for something bad to happen. I hadn't realized how much that incident has affected me.",
+      "Therapist: I see. What's your take on that realization?"
+    ],
+    [
+      "Client: Well... I guess I'm always on edge, aren't I? Every little noise at night makes me jump. I've been avoiding going out, especially after dark. It's like I'm constantly waiting for something bad to happen. I hadn't realized how much that incident has affected me.",
+      "Therapist: I see. What's your take on that realization?",
+      "Client: It's... eye-opening, I suppose. And a bit frustrating. I've always prided myself on being strong, you know? I survived growing up in a war-torn country, for goodness' sake! But this... this has shaken me to my core. I feel... I feel ashamed that I can't just \"get over it.\""
+    ],
+    [
+      "Therapist: I see. What's your take on that realization?",
+      "Client: It's... eye-opening, I suppose. And a bit frustrating. I've always prided myself on being strong, you know? I survived growing up in a war-torn country, for goodness' sake! But this... this has shaken me to my core. I feel... I feel ashamed that I can't just \"get over it.\"",
+      "Therapist: Many people feel that way. How might we reframe that?"
+    ],
+    [
+      "Client: It's... eye-opening, I suppose. And a bit frustrating. I've always prided myself on being strong, you know? I survived growing up in a war-torn country, for goodness' sake! But this... this has shaken me to my core. I feel... I feel ashamed that I can't just \"get over it.\"",
+      "Therapist: Many people feel that way. How might we reframe that?",
+      "Client: I... I'm not sure. Maybe... maybe it's okay to be affected? It was a traumatic experience, after all. Perhaps acknowledging that doesn't make me weak, but... human? It's hard to accept, though. I keep thinking I should be stronger, especially at my age."
+    ],
+    [
+      "Therapist: Many people feel that way. How might we reframe that?",
+      "Client: I... I'm not sure. Maybe... maybe it's okay to be affected? It was a traumatic experience, after all. Perhaps acknowledging that doesn't make me weak, but... human? It's hard to accept, though. I keep thinking I should be stronger, especially at my age.",
+      "Therapist: That's an insightful perspective. How does it feel to consider that?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe... maybe it's okay to be affected? It was a traumatic experience, after all. Perhaps acknowledging that doesn't make me weak, but... human? It's hard to accept, though. I keep thinking I should be stronger, especially at my age.",
+      "Therapist: That's an insightful perspective. How does it feel to consider that?",
+      "Client: It's a relief, in a way. But also scary. If I allow myself to be vulnerable, to really feel all of this... I'm afraid I might fall apart completely. But then again, holding it all in hasn't exactly been working either, has it? I'm tired of being afraid all the time."
+    ],
+    [
+      "Therapist: That's an insightful perspective. How does it feel to consider that?",
+      "Client: It's a relief, in a way. But also scary. If I allow myself to be vulnerable, to really feel all of this... I'm afraid I might fall apart completely. But then again, holding it all in hasn't exactly been working either, has it? I'm tired of being afraid all the time.",
+      "Therapist: What might help you feel more in control?"
+    ],
+    [
+      "Client: It's a relief, in a way. But also scary. If I allow myself to be vulnerable, to really feel all of this... I'm afraid I might fall apart completely. But then again, holding it all in hasn't exactly been working either, has it? I'm tired of being afraid all the time.",
+      "Therapist: What might help you feel more in control?",
+      "Client: Hmm... Maybe... maybe if I could find ways to feel safer at home? And perhaps... talk to my husband about how I'm feeling? He's been so patient, but I've been pushing him away. And... and maybe continuing these sessions, as hard as they are. I do feel like I'm understanding myself better."
+    ],
+    [
+      "Therapist: What might help you feel more in control?",
+      "Client: Hmm... Maybe... maybe if I could find ways to feel safer at home? And perhaps... talk to my husband about how I'm feeling? He's been so patient, but I've been pushing him away. And... and maybe continuing these sessions, as hard as they are. I do feel like I'm understanding myself better.",
+      "Therapist: Those sound like positive steps. How do you feel about your progress?"
+    ],
+    [
+      "Client: Hmm... Maybe... maybe if I could find ways to feel safer at home? And perhaps... talk to my husband about how I'm feeling? He's been so patient, but I've been pushing him away. And... and maybe continuing these sessions, as hard as they are. I do feel like I'm understanding myself better.",
+      "Therapist: Those sound like positive steps. How do you feel about your progress?",
+      "Client: It's... it's a mixed bag, really. Some days I feel like I'm making strides, and others... it's like I'm right back where I started. But I suppose that's normal, isn't it? I'm trying to be patient with myself. It's not easy, but... I think I'm starting to see a glimmer of hope. That counts for something, right?"
+    ],
+    [
+      "Therapist: Those sound like positive steps. How do you feel about your progress?",
+      "Client: It's... it's a mixed bag, really. Some days I feel like I'm making strides, and others... it's like I'm right back where I started. But I suppose that's normal, isn't it? I'm trying to be patient with myself. It's not easy, but... I think I'm starting to see a glimmer of hope. That counts for something, right?",
+      "Therapist: Absolutely. What would you like to focus on next time?"
+    ],
+    [
+      "Client: It's... it's a mixed bag, really. Some days I feel like I'm making strides, and others... it's like I'm right back where I started. But I suppose that's normal, isn't it? I'm trying to be patient with myself. It's not easy, but... I think I'm starting to see a glimmer of hope. That counts for something, right?",
+      "Therapist: Absolutely. What would you like to focus on next time?",
+      "Client: I think... I'd like to work on some strategies for managing my anxiety when I'm at home alone. And maybe... maybe we could talk more about how to communicate with my family about what I'm going through? I've been so closed off, and I think it's time I let them in a bit."
+    ],
+    [
+      "Therapist: Absolutely. What would you like to focus on next time?",
+      "Client: I think... I'd like to work on some strategies for managing my anxiety when I'm at home alone. And maybe... maybe we could talk more about how to communicate with my family about what I'm going through? I've been so closed off, and I think it's time I let them in a bit.",
+      "Therapist: That sounds like a good plan. Any final thoughts today?"
+    ],
+    [
+      "Client: I think... I'd like to work on some strategies for managing my anxiety when I'm at home alone. And maybe... maybe we could talk more about how to communicate with my family about what I'm going through? I've been so closed off, and I think it's time I let them in a bit.",
+      "Therapist: That sounds like a good plan. Any final thoughts today?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but... I'm grateful. I feel like I'm slowly reclaiming parts of myself that I thought I'd lost. It's a long road ahead, but... I think I'm ready to keep walking it."
+    ]
+  ]
+}

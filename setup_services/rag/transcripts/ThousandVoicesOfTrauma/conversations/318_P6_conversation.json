@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Carlos. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake.",
+    "Client: Okay... I'm in my dorm room, studying for finals. Suddenly, everything starts shaking. Books are falling off shelves, and I can hear screaming from outside. My heart is racing, and I'm frozen in place.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably a 6 out of 10. I can feel my palms getting sweaty just thinking about it.",
+    "Therapist: Keep going. What happened next?",
+    "Client: The shaking gets worse. I'm trying to get under my desk, but I'm stumbling. The window shatters, and I can smell dust everywhere. I'm terrified I'm going to die.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+    "Therapist: That's okay. You're safe here. Keep describing what you remember.",
+    "Client: I hear a loud crack, and part of the ceiling falls in. I'm curled up under the desk, crying and praying. I can't stop shaking. I'm thinking about my family, wondering if they're okay.",
+    "Therapist: How's your distress level?",
+    "Client: It's still an 8. My hands are trembling now, and I feel sick to my stomach.",
+    "Therapist: You're doing well. Stay with the memory.",
+    "Client: The shaking finally stops, but I'm too scared to move. I can hear sirens and people shouting outside. When I finally look out, the campus is in chaos. Trees are down, cars overturned. It's like a war zone.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... actually gone down a bit. Maybe a 7? I'm still anxious, but talking about it is helping somehow.",
+    "Therapist: That's great progress. Continue with what you recall.",
+    "Client: I stumble outside, and everyone looks shell-shocked. My phone isn't working, and I can't reach my family. I remember feeling so alone and helpless. It's like my whole world had been turned upside down in minutes.",
+    "Therapist: And your SUDS?",
+    "Client: It's back up to an 8. Remembering that isolation... it's overwhelming.",
+    "Therapist: That's a normal reaction. You're doing great. Keep going.",
+    "Client: I spent hours wandering around campus, trying to find familiar faces. When I finally got through to my parents, I broke down crying. The relief was... indescribable.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm at a 6, I think. Talking about it... it's hard, but I feel like I'm processing it better.",
+    "Therapist: Excellent. Let's wrap up. How do you feel overall?",
+    "Client: Drained, but... okay. Like I've faced something I've been avoiding. It's tough, but I think it's helping.",
+    "Therapist: That's the goal. Well done, Carlos. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Carlos. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake.",
+      "Client: Okay... I'm in my dorm room, studying for finals. Suddenly, everything starts shaking. Books are falling off shelves, and I can hear screaming from outside. My heart is racing, and I'm frozen in place."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake.",
+      "Client: Okay... I'm in my dorm room, studying for finals. Suddenly, everything starts shaking. Books are falling off shelves, and I can hear screaming from outside. My heart is racing, and I'm frozen in place.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm in my dorm room, studying for finals. Suddenly, everything starts shaking. Books are falling off shelves, and I can hear screaming from outside. My heart is racing, and I'm frozen in place.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6 out of 10. I can feel my palms getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6 out of 10. I can feel my palms getting sweaty just thinking about it.",
+      "Therapist: Keep going. What happened next?"
+    ],
+    [
+      "Client: Um, probably a 6 out of 10. I can feel my palms getting sweaty just thinking about it.",
+      "Therapist: Keep going. What happened next?",
+      "Client: The shaking gets worse. I'm trying to get under my desk, but I'm stumbling. The window shatters, and I can smell dust everywhere. I'm terrified I'm going to die."
+    ],
+    [
+      "Therapist: Keep going. What happened next?",
+      "Client: The shaking gets worse. I'm trying to get under my desk, but I'm stumbling. The window shatters, and I can smell dust everywhere. I'm terrified I'm going to die.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The shaking gets worse. I'm trying to get under my desk, but I'm stumbling. The window shatters, and I can smell dust everywhere. I'm terrified I'm going to die.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: That's okay. You're safe here. Keep describing what you remember."
+    ],
+    [
+      "Client: It's... it's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: That's okay. You're safe here. Keep describing what you remember.",
+      "Client: I hear a loud crack, and part of the ceiling falls in. I'm curled up under the desk, crying and praying. I can't stop shaking. I'm thinking about my family, wondering if they're okay."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep describing what you remember.",
+      "Client: I hear a loud crack, and part of the ceiling falls in. I'm curled up under the desk, crying and praying. I can't stop shaking. I'm thinking about my family, wondering if they're okay.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: I hear a loud crack, and part of the ceiling falls in. I'm curled up under the desk, crying and praying. I can't stop shaking. I'm thinking about my family, wondering if they're okay.",
+      "Therapist: How's your distress level?",
+      "Client: It's still an 8. My hands are trembling now, and I feel sick to my stomach."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's still an 8. My hands are trembling now, and I feel sick to my stomach.",
+      "Therapist: You're doing well. Stay with the memory."
+    ],
+    [
+      "Client: It's still an 8. My hands are trembling now, and I feel sick to my stomach.",
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: The shaking finally stops, but I'm too scared to move. I can hear sirens and people shouting outside. When I finally look out, the campus is in chaos. Trees are down, cars overturned. It's like a war zone."
+    ],
+    [
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: The shaking finally stops, but I'm too scared to move. I can hear sirens and people shouting outside. When I finally look out, the campus is in chaos. Trees are down, cars overturned. It's like a war zone.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: The shaking finally stops, but I'm too scared to move. I can hear sirens and people shouting outside. When I finally look out, the campus is in chaos. Trees are down, cars overturned. It's like a war zone.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... actually gone down a bit. Maybe a 7? I'm still anxious, but talking about it is helping somehow."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... actually gone down a bit. Maybe a 7? I'm still anxious, but talking about it is helping somehow.",
+      "Therapist: That's great progress. Continue with what you recall."
+    ],
+    [
+      "Client: It's... actually gone down a bit. Maybe a 7? I'm still anxious, but talking about it is helping somehow.",
+      "Therapist: That's great progress. Continue with what you recall.",
+      "Client: I stumble outside, and everyone looks shell-shocked. My phone isn't working, and I can't reach my family. I remember feeling so alone and helpless. It's like my whole world had been turned upside down in minutes."
+    ],
+    [
+      "Therapist: That's great progress. Continue with what you recall.",
+      "Client: I stumble outside, and everyone looks shell-shocked. My phone isn't working, and I can't reach my family. I remember feeling so alone and helpless. It's like my whole world had been turned upside down in minutes.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I stumble outside, and everyone looks shell-shocked. My phone isn't working, and I can't reach my family. I remember feeling so alone and helpless. It's like my whole world had been turned upside down in minutes.",
+      "Therapist: And your SUDS?",
+      "Client: It's back up to an 8. Remembering that isolation... it's overwhelming."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's back up to an 8. Remembering that isolation... it's overwhelming.",
+      "Therapist: That's a normal reaction. You're doing great. Keep going."
+    ],
+    [
+      "Client: It's back up to an 8. Remembering that isolation... it's overwhelming.",
+      "Therapist: That's a normal reaction. You're doing great. Keep going.",
+      "Client: I spent hours wandering around campus, trying to find familiar faces. When I finally got through to my parents, I broke down crying. The relief was... indescribable."
+    ],
+    [
+      "Therapist: That's a normal reaction. You're doing great. Keep going.",
+      "Client: I spent hours wandering around campus, trying to find familiar faces. When I finally got through to my parents, I broke down crying. The relief was... indescribable.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I spent hours wandering around campus, trying to find familiar faces. When I finally got through to my parents, I broke down crying. The relief was... indescribable.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 6, I think. Talking about it... it's hard, but I feel like I'm processing it better."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 6, I think. Talking about it... it's hard, but I feel like I'm processing it better.",
+      "Therapist: Excellent. Let's wrap up. How do you feel overall?"
+    ],
+    [
+      "Client: I'm at a 6, I think. Talking about it... it's hard, but I feel like I'm processing it better.",
+      "Therapist: Excellent. Let's wrap up. How do you feel overall?",
+      "Client: Drained, but... okay. Like I've faced something I've been avoiding. It's tough, but I think it's helping."
+    ],
+    [
+      "Therapist: Excellent. Let's wrap up. How do you feel overall?",
+      "Client: Drained, but... okay. Like I've faced something I've been avoiding. It's tough, but I think it's helping.",
+      "Therapist: That's the goal. Well done, Carlos. We'll continue next session."
+    ]
+  ]
+}

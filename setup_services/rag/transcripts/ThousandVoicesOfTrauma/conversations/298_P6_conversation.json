@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Maria. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start. Close your eyes and describe the memory.",
+    "Client: Okay... I'm back in Vietnam. The air is thick and humid. I can smell the jungle and hear the distant sound of helicopters. My uniform is sticking to my skin. I'm on patrol with my unit...",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4. I'm tense, but okay.",
+    "Therapist: Alright. Continue, Maria.",
+    "Client: We're moving through the dense foliage. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I dive for cover behind a fallen tree. The sounds of shouting and more gunfire fill the air. I'm... I'm terrified.",
+    "Therapist: Stay with it. SUDS?",
+    "Client: It's... it's gone up. Maybe a 7 now. My hands are shaking just thinking about it.",
+    "Therapist: That's okay. You're safe here. Keep going.",
+    "Client: I peek over the log and see one of my teammates get hit. He falls... there's so much blood. I want to help him, but I can't move. I feel frozen. The guilt... it's overwhelming.",
+    "Therapist: You're doing well. SUDS level?",
+    "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+    "Therapist: Take a deep breath, Maria. You're here with me. You're safe.",
+    "Client: *takes a shaky breath* Okay... I'm trying. In the memory, I finally force myself to move. I crawl towards my fallen comrade, bullets whizzing past. I reach him, but... but it's too late. His eyes are blank, staring at nothing. I failed him.",
+    "Therapist: Stay with those feelings. What's your SUDS now?",
+    "Client: Still a 9. I feel so ashamed. I should have been faster, braver.",
+    "Therapist: It's not your fault, Maria. You did your best in an impossible situation.",
+    "Client: *voice breaking* I know that logically, but it still hurts so much. The memory starts to fade after that. The firefight ends, and we're evacuated. But I can't forget his face.",
+    "Therapist: You're doing great. SUDS level?",
+    "Client: It's coming down a bit. Maybe a 7 now. I feel drained.",
+    "Therapist: That's normal. How are you feeling physically?",
+    "Client: My heart is still racing, and I feel a bit shaky. But the tightness in my chest is easing.",
+    "Therapist: Good. Let's take a few deep breaths together.",
+    "Client: *inhales and exhales slowly* That helps. I'm feeling more grounded now.",
+    "Therapist: Excellent. What's your SUDS rating now?",
+    "Client: It's down to a 5. I'm still upset, but I feel more in control.",
+    "Therapist: You did very well, Maria. How was this experience for you?",
+    "Client: It was intense... harder than I expected. But I also feel... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+    "Therapist: That's a common feeling. You showed great courage today.",
+    "Client: Thank you. I'm tired, but I think this is helping. It's like... the memory loses some of its power when I face it head-on.",
+    "Therapist: That's often the case. How are you feeling now? SUDS?",
+    "Client: I'd say about a 3 now. I feel calm, but emotionally drained.",
+    "Therapist: That's normal. Let's end here for today. You did excellent work, Maria."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Maria. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the memory."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the memory.",
+      "Client: Okay... I'm back in Vietnam. The air is thick and humid. I can smell the jungle and hear the distant sound of helicopters. My uniform is sticking to my skin. I'm on patrol with my unit..."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and describe the memory.",
+      "Client: Okay... I'm back in Vietnam. The air is thick and humid. I can smell the jungle and hear the distant sound of helicopters. My uniform is sticking to my skin. I'm on patrol with my unit...",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in Vietnam. The air is thick and humid. I can smell the jungle and hear the distant sound of helicopters. My uniform is sticking to my skin. I'm on patrol with my unit...",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but okay."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but okay.",
+      "Therapist: Alright. Continue, Maria."
+    ],
+    [
+      "Client: Um, I'd say about a 4. I'm tense, but okay.",
+      "Therapist: Alright. Continue, Maria.",
+      "Client: We're moving through the dense foliage. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I dive for cover behind a fallen tree. The sounds of shouting and more gunfire fill the air. I'm... I'm terrified."
+    ],
+    [
+      "Therapist: Alright. Continue, Maria.",
+      "Client: We're moving through the dense foliage. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I dive for cover behind a fallen tree. The sounds of shouting and more gunfire fill the air. I'm... I'm terrified.",
+      "Therapist: Stay with it. SUDS?"
+    ],
+    [
+      "Client: We're moving through the dense foliage. Suddenly, there's a loud crack. Gunfire. My heart starts racing. I dive for cover behind a fallen tree. The sounds of shouting and more gunfire fill the air. I'm... I'm terrified.",
+      "Therapist: Stay with it. SUDS?",
+      "Client: It's... it's gone up. Maybe a 7 now. My hands are shaking just thinking about it."
+    ],
+    [
+      "Therapist: Stay with it. SUDS?",
+      "Client: It's... it's gone up. Maybe a 7 now. My hands are shaking just thinking about it.",
+      "Therapist: That's okay. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 7 now. My hands are shaking just thinking about it.",
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I peek over the log and see one of my teammates get hit. He falls... there's so much blood. I want to help him, but I can't move. I feel frozen. The guilt... it's overwhelming."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I peek over the log and see one of my teammates get hit. He falls... there's so much blood. I want to help him, but I can't move. I feel frozen. The guilt... it's overwhelming.",
+      "Therapist: You're doing well. SUDS level?"
+    ],
+    [
+      "Client: I peek over the log and see one of my teammates get hit. He falls... there's so much blood. I want to help him, but I can't move. I feel frozen. The guilt... it's overwhelming.",
+      "Therapist: You're doing well. SUDS level?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight."
+    ],
+    [
+      "Therapist: You're doing well. SUDS level?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: Take a deep breath, Maria. You're here with me. You're safe."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: Take a deep breath, Maria. You're here with me. You're safe.",
+      "Client: *takes a shaky breath* Okay... I'm trying. In the memory, I finally force myself to move. I crawl towards my fallen comrade, bullets whizzing past. I reach him, but... but it's too late. His eyes are blank, staring at nothing. I failed him."
+    ],
+    [
+      "Therapist: Take a deep breath, Maria. You're here with me. You're safe.",
+      "Client: *takes a shaky breath* Okay... I'm trying. In the memory, I finally force myself to move. I crawl towards my fallen comrade, bullets whizzing past. I reach him, but... but it's too late. His eyes are blank, staring at nothing. I failed him.",
+      "Therapist: Stay with those feelings. What's your SUDS now?"
+    ],
+    [
+      "Client: *takes a shaky breath* Okay... I'm trying. In the memory, I finally force myself to move. I crawl towards my fallen comrade, bullets whizzing past. I reach him, but... but it's too late. His eyes are blank, staring at nothing. I failed him.",
+      "Therapist: Stay with those feelings. What's your SUDS now?",
+      "Client: Still a 9. I feel so ashamed. I should have been faster, braver."
+    ],
+    [
+      "Therapist: Stay with those feelings. What's your SUDS now?",
+      "Client: Still a 9. I feel so ashamed. I should have been faster, braver.",
+      "Therapist: It's not your fault, Maria. You did your best in an impossible situation."
+    ],
+    [
+      "Client: Still a 9. I feel so ashamed. I should have been faster, braver.",
+      "Therapist: It's not your fault, Maria. You did your best in an impossible situation.",
+      "Client: *voice breaking* I know that logically, but it still hurts so much. The memory starts to fade after that. The firefight ends, and we're evacuated. But I can't forget his face."
+    ],
+    [
+      "Therapist: It's not your fault, Maria. You did your best in an impossible situation.",
+      "Client: *voice breaking* I know that logically, but it still hurts so much. The memory starts to fade after that. The firefight ends, and we're evacuated. But I can't forget his face.",
+      "Therapist: You're doing great. SUDS level?"
+    ],
+    [
+      "Client: *voice breaking* I know that logically, but it still hurts so much. The memory starts to fade after that. The firefight ends, and we're evacuated. But I can't forget his face.",
+      "Therapist: You're doing great. SUDS level?",
+      "Client: It's coming down a bit. Maybe a 7 now. I feel drained."
+    ],
+    [
+      "Therapist: You're doing great. SUDS level?",
+      "Client: It's coming down a bit. Maybe a 7 now. I feel drained.",
+      "Therapist: That's normal. How are you feeling physically?"
+    ],
+    [
+      "Client: It's coming down a bit. Maybe a 7 now. I feel drained.",
+      "Therapist: That's normal. How are you feeling physically?",
+      "Client: My heart is still racing, and I feel a bit shaky. But the tightness in my chest is easing."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling physically?",
+      "Client: My heart is still racing, and I feel a bit shaky. But the tightness in my chest is easing.",
+      "Therapist: Good. Let's take a few deep breaths together."
+    ],
+    [
+      "Client: My heart is still racing, and I feel a bit shaky. But the tightness in my chest is easing.",
+      "Therapist: Good. Let's take a few deep breaths together.",
+      "Client: *inhales and exhales slowly* That helps. I'm feeling more grounded now."
+    ],
+    [
+      "Therapist: Good. Let's take a few deep breaths together.",
+      "Client: *inhales and exhales slowly* That helps. I'm feeling more grounded now.",
+      "Therapist: Excellent. What's your SUDS rating now?"
+    ],
+    [
+      "Client: *inhales and exhales slowly* That helps. I'm feeling more grounded now.",
+      "Therapist: Excellent. What's your SUDS rating now?",
+      "Client: It's down to a 5. I'm still upset, but I feel more in control."
+    ],
+    [
+      "Therapist: Excellent. What's your SUDS rating now?",
+      "Client: It's down to a 5. I'm still upset, but I feel more in control.",
+      "Therapist: You did very well, Maria. How was this experience for you?"
+    ],
+    [
+      "Client: It's down to a 5. I'm still upset, but I feel more in control.",
+      "Therapist: You did very well, Maria. How was this experience for you?",
+      "Client: It was intense... harder than I expected. But I also feel... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time."
+    ],
+    [
+      "Therapist: You did very well, Maria. How was this experience for you?",
+      "Client: It was intense... harder than I expected. But I also feel... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+      "Therapist: That's a common feeling. You showed great courage today."
+    ],
+    [
+      "Client: It was intense... harder than I expected. But I also feel... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+      "Therapist: That's a common feeling. You showed great courage today.",
+      "Client: Thank you. I'm tired, but I think this is helping. It's like... the memory loses some of its power when I face it head-on."
+    ],
+    [
+      "Therapist: That's a common feeling. You showed great courage today.",
+      "Client: Thank you. I'm tired, but I think this is helping. It's like... the memory loses some of its power when I face it head-on.",
+      "Therapist: That's often the case. How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: Thank you. I'm tired, but I think this is helping. It's like... the memory loses some of its power when I face it head-on.",
+      "Therapist: That's often the case. How are you feeling now? SUDS?",
+      "Client: I'd say about a 3 now. I feel calm, but emotionally drained."
+    ],
+    [
+      "Therapist: That's often the case. How are you feeling now? SUDS?",
+      "Client: I'd say about a 3 now. I feel calm, but emotionally drained.",
+      "Therapist: That's normal. Let's end here for today. You did excellent work, Maria."
+    ]
+  ]
+}

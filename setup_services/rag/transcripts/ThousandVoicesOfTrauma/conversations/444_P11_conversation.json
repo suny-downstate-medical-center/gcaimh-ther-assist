@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's like my mind is racing but also blank at the same time. That was... intense. I can still feel my heart pounding.",
+    "Therapist: Mm-hmm. What stood out to you most?",
+    "Client: The... the darkness. In the cell. It was so suffocating. I felt like I couldn't breathe, just like back then. And the constant fear, you know? Not knowing if I'd ever get out, if anyone was looking for me. It's... it's overwhelming to relive that.",
+    "Therapist: I see. How does it compare to when it actually happened?",
+    "Client: It's... it's different, but also the same? Like, I know I'm safe here, but my body doesn't. My hands are still shaking. But... I guess it's a little easier to talk about now. Before, I couldn't even think about it without having a full-blown panic attack.",
+    "Therapist: That's progress. What else did you notice?",
+    "Client: I... I remembered more details this time. The smell of the damp walls, the sound of footsteps outside. It's like... like the memory is becoming clearer. Is that normal? I'm not sure if I want it to be clearer, to be honest.",
+    "Therapist: It is. How do you feel about that?",
+    "Client: Scared, I guess. But also... I don't know, maybe a little relieved? Like, facing it head-on is terrifying, but... maybe it'll help me process it better? I just... I want to stop feeling so jumpy all the time, you know?",
+    "Therapist: Understandable. What helps you feel grounded now?",
+    "Client: Um... focusing on my breathing helps. And... and reminding myself that I'm here, in this room, not back there. The texture of this chair... it's nothing like anything in that cell. It helps me stay present.",
+    "Therapist: Good. How does this connect to your daily life?",
+    "Client: I... I guess I'm starting to see how much that experience has affected everything. Like, my fear of small spaces, my trouble sleeping... it all ties back to this. And... and maybe working through this could help with those things?",
+    "Therapist: Exactly. What else have you noticed changing?",
+    "Client: Well... I've been a little less reliant on... you know, substances, to cope. It's still hard, but... facing this head-on makes me feel stronger somehow. Like maybe I can face other things too.",
+    "Therapist: That's significant progress. How do you feel about continuing?",
+    "Client: It's scary, but... I think I need to. I want my life back, you know? I'm tired of feeling like a prisoner in my own mind. So... yeah, I want to keep going. It's hard, but... I think it's worth it.",
+    "Therapist: I'm glad to hear that. What would you like to focus on next time?",
+    "Client: Maybe... maybe we could work on my nightmares? They're still pretty bad, and I think they're connected to all of this. Is that something we can do?",
+    "Therapist: Absolutely. Anything else you want to share?",
+    "Client: I... I just want to say thank you. For listening, for guiding me through this. I know I'm not the easiest patient, with my background and all. But... this feels like it's actually helping. So... yeah, thank you.",
+    "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+    "Client: Yeah, I think so. I'm pretty drained, to be honest. But... in a good way, I think? Like I've actually accomplished something. Is that weird?",
+    "Therapist: Not at all. It's a common feeling after processing trauma.",
+    "Client: Okay, good to know. I... I think I'm ready to face the world again. At least for now. Same time next week?",
+    "Therapist: Yes, see you then. Take care, Sarah.",
+    "Client: Thanks, Doc. You too."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's like my mind is racing but also blank at the same time. That was... intense. I can still feel my heart pounding.",
+      "Therapist: Mm-hmm. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's like my mind is racing but also blank at the same time. That was... intense. I can still feel my heart pounding.",
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The... the darkness. In the cell. It was so suffocating. I felt like I couldn't breathe, just like back then. And the constant fear, you know? Not knowing if I'd ever get out, if anyone was looking for me. It's... it's overwhelming to relive that."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The... the darkness. In the cell. It was so suffocating. I felt like I couldn't breathe, just like back then. And the constant fear, you know? Not knowing if I'd ever get out, if anyone was looking for me. It's... it's overwhelming to relive that.",
+      "Therapist: I see. How does it compare to when it actually happened?"
+    ],
+    [
+      "Client: The... the darkness. In the cell. It was so suffocating. I felt like I couldn't breathe, just like back then. And the constant fear, you know? Not knowing if I'd ever get out, if anyone was looking for me. It's... it's overwhelming to relive that.",
+      "Therapist: I see. How does it compare to when it actually happened?",
+      "Client: It's... it's different, but also the same? Like, I know I'm safe here, but my body doesn't. My hands are still shaking. But... I guess it's a little easier to talk about now. Before, I couldn't even think about it without having a full-blown panic attack."
+    ],
+    [
+      "Therapist: I see. How does it compare to when it actually happened?",
+      "Client: It's... it's different, but also the same? Like, I know I'm safe here, but my body doesn't. My hands are still shaking. But... I guess it's a little easier to talk about now. Before, I couldn't even think about it without having a full-blown panic attack.",
+      "Therapist: That's progress. What else did you notice?"
+    ],
+    [
+      "Client: It's... it's different, but also the same? Like, I know I'm safe here, but my body doesn't. My hands are still shaking. But... I guess it's a little easier to talk about now. Before, I couldn't even think about it without having a full-blown panic attack.",
+      "Therapist: That's progress. What else did you notice?",
+      "Client: I... I remembered more details this time. The smell of the damp walls, the sound of footsteps outside. It's like... like the memory is becoming clearer. Is that normal? I'm not sure if I want it to be clearer, to be honest."
+    ],
+    [
+      "Therapist: That's progress. What else did you notice?",
+      "Client: I... I remembered more details this time. The smell of the damp walls, the sound of footsteps outside. It's like... like the memory is becoming clearer. Is that normal? I'm not sure if I want it to be clearer, to be honest.",
+      "Therapist: It is. How do you feel about that?"
+    ],
+    [
+      "Client: I... I remembered more details this time. The smell of the damp walls, the sound of footsteps outside. It's like... like the memory is becoming clearer. Is that normal? I'm not sure if I want it to be clearer, to be honest.",
+      "Therapist: It is. How do you feel about that?",
+      "Client: Scared, I guess. But also... I don't know, maybe a little relieved? Like, facing it head-on is terrifying, but... maybe it'll help me process it better? I just... I want to stop feeling so jumpy all the time, you know?"
+    ],
+    [
+      "Therapist: It is. How do you feel about that?",
+      "Client: Scared, I guess. But also... I don't know, maybe a little relieved? Like, facing it head-on is terrifying, but... maybe it'll help me process it better? I just... I want to stop feeling so jumpy all the time, you know?",
+      "Therapist: Understandable. What helps you feel grounded now?"
+    ],
+    [
+      "Client: Scared, I guess. But also... I don't know, maybe a little relieved? Like, facing it head-on is terrifying, but... maybe it'll help me process it better? I just... I want to stop feeling so jumpy all the time, you know?",
+      "Therapist: Understandable. What helps you feel grounded now?",
+      "Client: Um... focusing on my breathing helps. And... and reminding myself that I'm here, in this room, not back there. The texture of this chair... it's nothing like anything in that cell. It helps me stay present."
+    ],
+    [
+      "Therapist: Understandable. What helps you feel grounded now?",
+      "Client: Um... focusing on my breathing helps. And... and reminding myself that I'm here, in this room, not back there. The texture of this chair... it's nothing like anything in that cell. It helps me stay present.",
+      "Therapist: Good. How does this connect to your daily life?"
+    ],
+    [
+      "Client: Um... focusing on my breathing helps. And... and reminding myself that I'm here, in this room, not back there. The texture of this chair... it's nothing like anything in that cell. It helps me stay present.",
+      "Therapist: Good. How does this connect to your daily life?",
+      "Client: I... I guess I'm starting to see how much that experience has affected everything. Like, my fear of small spaces, my trouble sleeping... it all ties back to this. And... and maybe working through this could help with those things?"
+    ],
+    [
+      "Therapist: Good. How does this connect to your daily life?",
+      "Client: I... I guess I'm starting to see how much that experience has affected everything. Like, my fear of small spaces, my trouble sleeping... it all ties back to this. And... and maybe working through this could help with those things?",
+      "Therapist: Exactly. What else have you noticed changing?"
+    ],
+    [
+      "Client: I... I guess I'm starting to see how much that experience has affected everything. Like, my fear of small spaces, my trouble sleeping... it all ties back to this. And... and maybe working through this could help with those things?",
+      "Therapist: Exactly. What else have you noticed changing?",
+      "Client: Well... I've been a little less reliant on... you know, substances, to cope. It's still hard, but... facing this head-on makes me feel stronger somehow. Like maybe I can face other things too."
+    ],
+    [
+      "Therapist: Exactly. What else have you noticed changing?",
+      "Client: Well... I've been a little less reliant on... you know, substances, to cope. It's still hard, but... facing this head-on makes me feel stronger somehow. Like maybe I can face other things too.",
+      "Therapist: That's significant progress. How do you feel about continuing?"
+    ],
+    [
+      "Client: Well... I've been a little less reliant on... you know, substances, to cope. It's still hard, but... facing this head-on makes me feel stronger somehow. Like maybe I can face other things too.",
+      "Therapist: That's significant progress. How do you feel about continuing?",
+      "Client: It's scary, but... I think I need to. I want my life back, you know? I'm tired of feeling like a prisoner in my own mind. So... yeah, I want to keep going. It's hard, but... I think it's worth it."
+    ],
+    [
+      "Therapist: That's significant progress. How do you feel about continuing?",
+      "Client: It's scary, but... I think I need to. I want my life back, you know? I'm tired of feeling like a prisoner in my own mind. So... yeah, I want to keep going. It's hard, but... I think it's worth it.",
+      "Therapist: I'm glad to hear that. What would you like to focus on next time?"
+    ],
+    [
+      "Client: It's scary, but... I think I need to. I want my life back, you know? I'm tired of feeling like a prisoner in my own mind. So... yeah, I want to keep going. It's hard, but... I think it's worth it.",
+      "Therapist: I'm glad to hear that. What would you like to focus on next time?",
+      "Client: Maybe... maybe we could work on my nightmares? They're still pretty bad, and I think they're connected to all of this. Is that something we can do?"
+    ],
+    [
+      "Therapist: I'm glad to hear that. What would you like to focus on next time?",
+      "Client: Maybe... maybe we could work on my nightmares? They're still pretty bad, and I think they're connected to all of this. Is that something we can do?",
+      "Therapist: Absolutely. Anything else you want to share?"
+    ],
+    [
+      "Client: Maybe... maybe we could work on my nightmares? They're still pretty bad, and I think they're connected to all of this. Is that something we can do?",
+      "Therapist: Absolutely. Anything else you want to share?",
+      "Client: I... I just want to say thank you. For listening, for guiding me through this. I know I'm not the easiest patient, with my background and all. But... this feels like it's actually helping. So... yeah, thank you."
+    ],
+    [
+      "Therapist: Absolutely. Anything else you want to share?",
+      "Client: I... I just want to say thank you. For listening, for guiding me through this. I know I'm not the easiest patient, with my background and all. But... this feels like it's actually helping. So... yeah, thank you.",
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?"
+    ],
+    [
+      "Client: I... I just want to say thank you. For listening, for guiding me through this. I know I'm not the easiest patient, with my background and all. But... this feels like it's actually helping. So... yeah, thank you.",
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+      "Client: Yeah, I think so. I'm pretty drained, to be honest. But... in a good way, I think? Like I've actually accomplished something. Is that weird?"
+    ],
+    [
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+      "Client: Yeah, I think so. I'm pretty drained, to be honest. But... in a good way, I think? Like I've actually accomplished something. Is that weird?",
+      "Therapist: Not at all. It's a common feeling after processing trauma."
+    ],
+    [
+      "Client: Yeah, I think so. I'm pretty drained, to be honest. But... in a good way, I think? Like I've actually accomplished something. Is that weird?",
+      "Therapist: Not at all. It's a common feeling after processing trauma.",
+      "Client: Okay, good to know. I... I think I'm ready to face the world again. At least for now. Same time next week?"
+    ],
+    [
+      "Therapist: Not at all. It's a common feeling after processing trauma.",
+      "Client: Okay, good to know. I... I think I'm ready to face the world again. At least for now. Same time next week?",
+      "Therapist: Yes, see you then. Take care, Sarah."
+    ],
+    [
+      "Client: Okay, good to know. I... I think I'm ready to face the world again. At least for now. Same time next week?",
+      "Therapist: Yes, see you then. Take care, Sarah.",
+      "Client: Thanks, Doc. You too."
+    ]
+  ]
+}

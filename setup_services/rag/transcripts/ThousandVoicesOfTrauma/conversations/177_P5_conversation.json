@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Mr. Lee. How are you feeling today?",
+    "Client: I'm... okay, I suppose. It's been a difficult week. The memories of my time in prison keep flooding back, especially at night. I've been having trouble sleeping.",
+    "Therapist: I'm sorry to hear that. Today, we'll be starting imaginal exposure. Are you ready to discuss it?",
+    "Client: Imaginal exposure? I'm not sure what that means. It sounds a bit intimidating, to be honest.",
+    "Therapist: It's a technique to help process traumatic memories. Can you share your concerns?",
+    "Client: Well, I'm worried about reliving those painful experiences. The thought of going back there, even in my mind, is frightening. And... I'm not sure I can handle the emotions that might come up.",
+    "Therapist: Those are valid concerns. How do you think facing these memories might help?",
+    "Client: I suppose... maybe it could help me stop avoiding thoughts about my imprisonment? But I'm still scared. What if I break down or can't handle it?",
+    "Therapist: It's normal to feel apprehensive. We'll go at your pace. What questions do you have?",
+    "Client: How exactly does this work? Do I just start talking about what happened? And what if I get overwhelmed or panic?",
+    "Therapist: You'll recount the experience in detail. I'll guide you. If you're overwhelmed, we'll pause. How does that sound?",
+    "Client: It sounds challenging, but I think I understand the purpose now. I want to get better, to move past this trauma. It's affecting my work, my relationships... everything. If this can help, I'm willing to try.",
+    "Therapist: Your courage is admirable. Shall we set some expectations for today's session?",
+    "Client: Yes, please. I'd like to know what I'm getting into and how to prepare myself mentally.",
+    "Therapist: You'll likely experience strong emotions. That's normal and part of healing. How do you feel about that?",
+    "Client: I'm nervous, but I understand it's necessary. Can we have a signal if I need a break? Maybe I could raise my hand?",
+    "Therapist: Absolutely. Raising your hand is perfect. Any other concerns?",
+    "Client: I'm worried about how I'll feel afterwards. Will I be able to go back to work? Will these memories haunt me even more?",
+    "Therapist: It's common to feel drained after. Consider taking it easy today. How can you care for yourself later?",
+    "Client: I could perhaps take a half-day off work, go for a walk in the park nearby. Maybe call my sister; she's always been supportive. Is that a good plan?",
+    "Therapist: That sounds excellent. Are you ready to begin?",
+    "Client: I think so. I'm still nervous, but I feel more prepared now. Thank you for explaining everything and addressing my concerns. Let's do this.",
+    "Therapist: Your readiness is commendable. Remember, we're in this together. Shall we start?",
+    "Client: Yes, I'm ready. Where should I begin? The day I was arrested, or when I first entered the prison?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Mr. Lee. How are you feeling today?",
+      "Client: I'm... okay, I suppose. It's been a difficult week. The memories of my time in prison keep flooding back, especially at night. I've been having trouble sleeping.",
+      "Therapist: I'm sorry to hear that. Today, we'll be starting imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: I'm... okay, I suppose. It's been a difficult week. The memories of my time in prison keep flooding back, especially at night. I've been having trouble sleeping.",
+      "Therapist: I'm sorry to hear that. Today, we'll be starting imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? I'm not sure what that means. It sounds a bit intimidating, to be honest."
+    ],
+    [
+      "Therapist: I'm sorry to hear that. Today, we'll be starting imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? I'm not sure what that means. It sounds a bit intimidating, to be honest.",
+      "Therapist: It's a technique to help process traumatic memories. Can you share your concerns?"
+    ],
+    [
+      "Client: Imaginal exposure? I'm not sure what that means. It sounds a bit intimidating, to be honest.",
+      "Therapist: It's a technique to help process traumatic memories. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving those painful experiences. The thought of going back there, even in my mind, is frightening. And... I'm not sure I can handle the emotions that might come up."
+    ],
+    [
+      "Therapist: It's a technique to help process traumatic memories. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving those painful experiences. The thought of going back there, even in my mind, is frightening. And... I'm not sure I can handle the emotions that might come up.",
+      "Therapist: Those are valid concerns. How do you think facing these memories might help?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving those painful experiences. The thought of going back there, even in my mind, is frightening. And... I'm not sure I can handle the emotions that might come up.",
+      "Therapist: Those are valid concerns. How do you think facing these memories might help?",
+      "Client: I suppose... maybe it could help me stop avoiding thoughts about my imprisonment? But I'm still scared. What if I break down or can't handle it?"
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you think facing these memories might help?",
+      "Client: I suppose... maybe it could help me stop avoiding thoughts about my imprisonment? But I'm still scared. What if I break down or can't handle it?",
+      "Therapist: It's normal to feel apprehensive. We'll go at your pace. What questions do you have?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me stop avoiding thoughts about my imprisonment? But I'm still scared. What if I break down or can't handle it?",
+      "Therapist: It's normal to feel apprehensive. We'll go at your pace. What questions do you have?",
+      "Client: How exactly does this work? Do I just start talking about what happened? And what if I get overwhelmed or panic?"
+    ],
+    [
+      "Therapist: It's normal to feel apprehensive. We'll go at your pace. What questions do you have?",
+      "Client: How exactly does this work? Do I just start talking about what happened? And what if I get overwhelmed or panic?",
+      "Therapist: You'll recount the experience in detail. I'll guide you. If you're overwhelmed, we'll pause. How does that sound?"
+    ],
+    [
+      "Client: How exactly does this work? Do I just start talking about what happened? And what if I get overwhelmed or panic?",
+      "Therapist: You'll recount the experience in detail. I'll guide you. If you're overwhelmed, we'll pause. How does that sound?",
+      "Client: It sounds challenging, but I think I understand the purpose now. I want to get better, to move past this trauma. It's affecting my work, my relationships... everything. If this can help, I'm willing to try."
+    ],
+    [
+      "Therapist: You'll recount the experience in detail. I'll guide you. If you're overwhelmed, we'll pause. How does that sound?",
+      "Client: It sounds challenging, but I think I understand the purpose now. I want to get better, to move past this trauma. It's affecting my work, my relationships... everything. If this can help, I'm willing to try.",
+      "Therapist: Your courage is admirable. Shall we set some expectations for today's session?"
+    ],
+    [
+      "Client: It sounds challenging, but I think I understand the purpose now. I want to get better, to move past this trauma. It's affecting my work, my relationships... everything. If this can help, I'm willing to try.",
+      "Therapist: Your courage is admirable. Shall we set some expectations for today's session?",
+      "Client: Yes, please. I'd like to know what I'm getting into and how to prepare myself mentally."
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we set some expectations for today's session?",
+      "Client: Yes, please. I'd like to know what I'm getting into and how to prepare myself mentally.",
+      "Therapist: You'll likely experience strong emotions. That's normal and part of healing. How do you feel about that?"
+    ],
+    [
+      "Client: Yes, please. I'd like to know what I'm getting into and how to prepare myself mentally.",
+      "Therapist: You'll likely experience strong emotions. That's normal and part of healing. How do you feel about that?",
+      "Client: I'm nervous, but I understand it's necessary. Can we have a signal if I need a break? Maybe I could raise my hand?"
+    ],
+    [
+      "Therapist: You'll likely experience strong emotions. That's normal and part of healing. How do you feel about that?",
+      "Client: I'm nervous, but I understand it's necessary. Can we have a signal if I need a break? Maybe I could raise my hand?",
+      "Therapist: Absolutely. Raising your hand is perfect. Any other concerns?"
+    ],
+    [
+      "Client: I'm nervous, but I understand it's necessary. Can we have a signal if I need a break? Maybe I could raise my hand?",
+      "Therapist: Absolutely. Raising your hand is perfect. Any other concerns?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go back to work? Will these memories haunt me even more?"
+    ],
+    [
+      "Therapist: Absolutely. Raising your hand is perfect. Any other concerns?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go back to work? Will these memories haunt me even more?",
+      "Therapist: It's common to feel drained after. Consider taking it easy today. How can you care for yourself later?"
+    ],
+    [
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to go back to work? Will these memories haunt me even more?",
+      "Therapist: It's common to feel drained after. Consider taking it easy today. How can you care for yourself later?",
+      "Client: I could perhaps take a half-day off work, go for a walk in the park nearby. Maybe call my sister; she's always been supportive. Is that a good plan?"
+    ],
+    [
+      "Therapist: It's common to feel drained after. Consider taking it easy today. How can you care for yourself later?",
+      "Client: I could perhaps take a half-day off work, go for a walk in the park nearby. Maybe call my sister; she's always been supportive. Is that a good plan?",
+      "Therapist: That sounds excellent. Are you ready to begin?"
+    ],
+    [
+      "Client: I could perhaps take a half-day off work, go for a walk in the park nearby. Maybe call my sister; she's always been supportive. Is that a good plan?",
+      "Therapist: That sounds excellent. Are you ready to begin?",
+      "Client: I think so. I'm still nervous, but I feel more prepared now. Thank you for explaining everything and addressing my concerns. Let's do this."
+    ],
+    [
+      "Therapist: That sounds excellent. Are you ready to begin?",
+      "Client: I think so. I'm still nervous, but I feel more prepared now. Thank you for explaining everything and addressing my concerns. Let's do this.",
+      "Therapist: Your readiness is commendable. Remember, we're in this together. Shall we start?"
+    ],
+    [
+      "Client: I think so. I'm still nervous, but I feel more prepared now. Thank you for explaining everything and addressing my concerns. Let's do this.",
+      "Therapist: Your readiness is commendable. Remember, we're in this together. Shall we start?",
+      "Client: Yes, I'm ready. Where should I begin? The day I was arrested, or when I first entered the prison?"
+    ]
+  ]
+}

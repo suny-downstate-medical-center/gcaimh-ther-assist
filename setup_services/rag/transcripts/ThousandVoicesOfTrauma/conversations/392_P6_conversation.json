@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Can you start by describing the moment you learned about your loved one's severe illness?",
+    "Client: (taking a deep breath) Okay... I remember it like it was yesterday. I was at work, sitting at my desk, when my phone rang. It was my sister, and her voice was shaky. She said, \"You need to come to the hospital right away. Mom's collapsed.\" My heart just... stopped. Everything around me seemed to blur.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably around a 6. My palms are starting to sweat just thinking about it.",
+    "Therapist: That's okay. Continue when you're ready.",
+    "Client: I rushed out of the office, barely remembering to grab my keys. The drive to the hospital was a blur. I kept imagining the worst... When I got there, the waiting room was so bright and sterile. The smell of disinfectant was overwhelming. My sister was there, her eyes red from crying. She hugged me, and I felt like I couldn't breathe.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble swallowing.",
+    "Therapist: That's a natural response. You're doing well. Keep going.",
+    "Client: The doctor came out, and time seemed to slow down. He said, \"Your mother has had a massive stroke. We're doing everything we can, but...\" His words faded out. I felt like I was underwater. My legs were weak, and I had to sit down. I remember thinking, \"This can't be happening. Not to my mom. She was fine yesterday.\"",
+    "Therapist: How are you feeling right now?",
+    "Client: I... I'm at a 9. My heart's racing, and I feel like I might be sick. Can we stop?",
+    "Therapist: It's okay to feel overwhelmed. Let's take a few deep breaths together.",
+    "Client: (breathing deeply) Okay... that helps a little.",
+    "Therapist: Good. What's your SUDS now?",
+    "Client: It's down to a 7. Still high, but... I can manage.",
+    "Therapist: You're doing great. Can you continue?",
+    "Client: Yeah... We waited for hours. Every time a nurse walked by, I'd tense up, hoping for news. The uncertainty was killing me. When they finally let us see her, she looked so small in that hospital bed. All these tubes and machines... It didn't even look like my mom anymore.",
+    "Therapist: And your SUDS level?",
+    "Client: It's an 8 again. My throat feels tight, and I'm fighting back tears.",
+    "Therapist: That's a normal reaction. You're safe here.",
+    "Client: (voice breaking) I held her hand, and it was so cold. I kept talking to her, hoping she could hear me. Telling her how much I loved her, begging her to wake up. But she never did. We lost her three days later.",
+    "Therapist: I'm sorry for your loss. How are you feeling now?",
+    "Client: I'm at a 9 again. My chest hurts, and I feel like I can't catch my breath.",
+    "Therapist: Take your time. You're doing really well.",
+    "Client: (after a pause) The worst part was the silence when they turned off the machines. It was like the whole world stopped. I remember thinking, \"This is it. She's really gone.\" And then this wave of grief just... crashed over me.",
+    "Therapist: What's your SUDS level?",
+    "Client: It's still at a 9. I feel drained, but also like there's this pressure building inside me.",
+    "Therapist: That's understandable. You're processing a lot.",
+    "Client: Yeah... I keep replaying those last moments in my head. Wishing I had said more, done more. It's been months, but sometimes it feels like it just happened yesterday.",
+    "Therapist: And now? How are you feeling?",
+    "Client: I'm... I'm actually down to a 7. Talking about it... it's hard, but it also feels like I'm releasing something.",
+    "Therapist: That's great progress. How about we take a break?",
+    "Client: (sighing) Yeah, that would be good. Thank you for... for being here through this.",
+    "Therapist: Of course. You've shown incredible strength today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Can you start by describing the moment you learned about your loved one's severe illness?",
+      "Client: (taking a deep breath) Okay... I remember it like it was yesterday. I was at work, sitting at my desk, when my phone rang. It was my sister, and her voice was shaky. She said, \"You need to come to the hospital right away. Mom's collapsed.\" My heart just... stopped. Everything around me seemed to blur.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: (taking a deep breath) Okay... I remember it like it was yesterday. I was at work, sitting at my desk, when my phone rang. It was my sister, and her voice was shaky. She said, \"You need to come to the hospital right away. Mom's collapsed.\" My heart just... stopped. Everything around me seemed to blur.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 6. My palms are starting to sweat just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 6. My palms are starting to sweat just thinking about it.",
+      "Therapist: That's okay. Continue when you're ready."
+    ],
+    [
+      "Client: Um, probably around a 6. My palms are starting to sweat just thinking about it.",
+      "Therapist: That's okay. Continue when you're ready.",
+      "Client: I rushed out of the office, barely remembering to grab my keys. The drive to the hospital was a blur. I kept imagining the worst... When I got there, the waiting room was so bright and sterile. The smell of disinfectant was overwhelming. My sister was there, her eyes red from crying. She hugged me, and I felt like I couldn't breathe."
+    ],
+    [
+      "Therapist: That's okay. Continue when you're ready.",
+      "Client: I rushed out of the office, barely remembering to grab my keys. The drive to the hospital was a blur. I kept imagining the worst... When I got there, the waiting room was so bright and sterile. The smell of disinfectant was overwhelming. My sister was there, her eyes red from crying. She hugged me, and I felt like I couldn't breathe.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I rushed out of the office, barely remembering to grab my keys. The drive to the hospital was a blur. I kept imagining the worst... When I got there, the waiting room was so bright and sterile. The smell of disinfectant was overwhelming. My sister was there, her eyes red from crying. She hugged me, and I felt like I couldn't breathe.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble swallowing."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble swallowing.",
+      "Therapist: That's a natural response. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble swallowing.",
+      "Therapist: That's a natural response. You're doing well. Keep going.",
+      "Client: The doctor came out, and time seemed to slow down. He said, \"Your mother has had a massive stroke. We're doing everything we can, but...\" His words faded out. I felt like I was underwater. My legs were weak, and I had to sit down. I remember thinking, \"This can't be happening. Not to my mom. She was fine yesterday.\""
+    ],
+    [
+      "Therapist: That's a natural response. You're doing well. Keep going.",
+      "Client: The doctor came out, and time seemed to slow down. He said, \"Your mother has had a massive stroke. We're doing everything we can, but...\" His words faded out. I felt like I was underwater. My legs were weak, and I had to sit down. I remember thinking, \"This can't be happening. Not to my mom. She was fine yesterday.\"",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: The doctor came out, and time seemed to slow down. He said, \"Your mother has had a massive stroke. We're doing everything we can, but...\" His words faded out. I felt like I was underwater. My legs were weak, and I had to sit down. I remember thinking, \"This can't be happening. Not to my mom. She was fine yesterday.\"",
+      "Therapist: How are you feeling right now?",
+      "Client: I... I'm at a 9. My heart's racing, and I feel like I might be sick. Can we stop?"
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I... I'm at a 9. My heart's racing, and I feel like I might be sick. Can we stop?",
+      "Therapist: It's okay to feel overwhelmed. Let's take a few deep breaths together."
+    ],
+    [
+      "Client: I... I'm at a 9. My heart's racing, and I feel like I might be sick. Can we stop?",
+      "Therapist: It's okay to feel overwhelmed. Let's take a few deep breaths together.",
+      "Client: (breathing deeply) Okay... that helps a little."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. Let's take a few deep breaths together.",
+      "Client: (breathing deeply) Okay... that helps a little.",
+      "Therapist: Good. What's your SUDS now?"
+    ],
+    [
+      "Client: (breathing deeply) Okay... that helps a little.",
+      "Therapist: Good. What's your SUDS now?",
+      "Client: It's down to a 7. Still high, but... I can manage."
+    ],
+    [
+      "Therapist: Good. What's your SUDS now?",
+      "Client: It's down to a 7. Still high, but... I can manage.",
+      "Therapist: You're doing great. Can you continue?"
+    ],
+    [
+      "Client: It's down to a 7. Still high, but... I can manage.",
+      "Therapist: You're doing great. Can you continue?",
+      "Client: Yeah... We waited for hours. Every time a nurse walked by, I'd tense up, hoping for news. The uncertainty was killing me. When they finally let us see her, she looked so small in that hospital bed. All these tubes and machines... It didn't even look like my mom anymore."
+    ],
+    [
+      "Therapist: You're doing great. Can you continue?",
+      "Client: Yeah... We waited for hours. Every time a nurse walked by, I'd tense up, hoping for news. The uncertainty was killing me. When they finally let us see her, she looked so small in that hospital bed. All these tubes and machines... It didn't even look like my mom anymore.",
+      "Therapist: And your SUDS level?"
+    ],
+    [
+      "Client: Yeah... We waited for hours. Every time a nurse walked by, I'd tense up, hoping for news. The uncertainty was killing me. When they finally let us see her, she looked so small in that hospital bed. All these tubes and machines... It didn't even look like my mom anymore.",
+      "Therapist: And your SUDS level?",
+      "Client: It's an 8 again. My throat feels tight, and I'm fighting back tears."
+    ],
+    [
+      "Therapist: And your SUDS level?",
+      "Client: It's an 8 again. My throat feels tight, and I'm fighting back tears.",
+      "Therapist: That's a normal reaction. You're safe here."
+    ],
+    [
+      "Client: It's an 8 again. My throat feels tight, and I'm fighting back tears.",
+      "Therapist: That's a normal reaction. You're safe here.",
+      "Client: (voice breaking) I held her hand, and it was so cold. I kept talking to her, hoping she could hear me. Telling her how much I loved her, begging her to wake up. But she never did. We lost her three days later."
+    ],
+    [
+      "Therapist: That's a normal reaction. You're safe here.",
+      "Client: (voice breaking) I held her hand, and it was so cold. I kept talking to her, hoping she could hear me. Telling her how much I loved her, begging her to wake up. But she never did. We lost her three days later.",
+      "Therapist: I'm sorry for your loss. How are you feeling now?"
+    ],
+    [
+      "Client: (voice breaking) I held her hand, and it was so cold. I kept talking to her, hoping she could hear me. Telling her how much I loved her, begging her to wake up. But she never did. We lost her three days later.",
+      "Therapist: I'm sorry for your loss. How are you feeling now?",
+      "Client: I'm at a 9 again. My chest hurts, and I feel like I can't catch my breath."
+    ],
+    [
+      "Therapist: I'm sorry for your loss. How are you feeling now?",
+      "Client: I'm at a 9 again. My chest hurts, and I feel like I can't catch my breath.",
+      "Therapist: Take your time. You're doing really well."
+    ],
+    [
+      "Client: I'm at a 9 again. My chest hurts, and I feel like I can't catch my breath.",
+      "Therapist: Take your time. You're doing really well.",
+      "Client: (after a pause) The worst part was the silence when they turned off the machines. It was like the whole world stopped. I remember thinking, \"This is it. She's really gone.\" And then this wave of grief just... crashed over me."
+    ],
+    [
+      "Therapist: Take your time. You're doing really well.",
+      "Client: (after a pause) The worst part was the silence when they turned off the machines. It was like the whole world stopped. I remember thinking, \"This is it. She's really gone.\" And then this wave of grief just... crashed over me.",
+      "Therapist: What's your SUDS level?"
+    ],
+    [
+      "Client: (after a pause) The worst part was the silence when they turned off the machines. It was like the whole world stopped. I remember thinking, \"This is it. She's really gone.\" And then this wave of grief just... crashed over me.",
+      "Therapist: What's your SUDS level?",
+      "Client: It's still at a 9. I feel drained, but also like there's this pressure building inside me."
+    ],
+    [
+      "Therapist: What's your SUDS level?",
+      "Client: It's still at a 9. I feel drained, but also like there's this pressure building inside me.",
+      "Therapist: That's understandable. You're processing a lot."
+    ],
+    [
+      "Client: It's still at a 9. I feel drained, but also like there's this pressure building inside me.",
+      "Therapist: That's understandable. You're processing a lot.",
+      "Client: Yeah... I keep replaying those last moments in my head. Wishing I had said more, done more. It's been months, but sometimes it feels like it just happened yesterday."
+    ],
+    [
+      "Therapist: That's understandable. You're processing a lot.",
+      "Client: Yeah... I keep replaying those last moments in my head. Wishing I had said more, done more. It's been months, but sometimes it feels like it just happened yesterday.",
+      "Therapist: And now? How are you feeling?"
+    ],
+    [
+      "Client: Yeah... I keep replaying those last moments in my head. Wishing I had said more, done more. It's been months, but sometimes it feels like it just happened yesterday.",
+      "Therapist: And now? How are you feeling?",
+      "Client: I'm... I'm actually down to a 7. Talking about it... it's hard, but it also feels like I'm releasing something."
+    ],
+    [
+      "Therapist: And now? How are you feeling?",
+      "Client: I'm... I'm actually down to a 7. Talking about it... it's hard, but it also feels like I'm releasing something.",
+      "Therapist: That's great progress. How about we take a break?"
+    ],
+    [
+      "Client: I'm... I'm actually down to a 7. Talking about it... it's hard, but it also feels like I'm releasing something.",
+      "Therapist: That's great progress. How about we take a break?",
+      "Client: (sighing) Yeah, that would be good. Thank you for... for being here through this."
+    ],
+    [
+      "Therapist: That's great progress. How about we take a break?",
+      "Client: (sighing) Yeah, that would be good. Thank you for... for being here through this.",
+      "Therapist: Of course. You've shown incredible strength today."
+    ]
+  ]
+}

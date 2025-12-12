@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. My heart's still racing a bit. It's like I'm back there, you know? The screeching tires, the smell of burning rubber... It's all so vivid.",
+    "Therapist: Mm-hmm. What emotions are coming up for you right now?",
+    "Client: Fear, definitely fear. But also... anger? I'm angry that this happened to me. I was just driving home from class, and suddenly my whole life changed. It's not fair.",
+    "Therapist: I see. Can you tell me more about that anger?",
+    "Client: It's like... it's burning in my chest. I keep thinking about how I missed exams, how I had to drop out for a semester. My girlfriend... she tried to be supportive, but I could see the pity in her eyes. I hate that. I don't want to be pitied.",
+    "Therapist: How does that pity make you feel?",
+    "Client: Weak. Helpless. Like I'm not the same person I was before the accident. I used to be confident, you know? Now I'm always second-guessing myself, always anxious.",
+    "Therapist: What physical sensations are you noticing as you talk about this?",
+    "Client: My hands are clammy. There's this tightness in my chest, like I can't get a full breath. And my leg... the one that was injured... it's throbbing. It always does when I think about the accident.",
+    "Therapist: And what thoughts are going through your mind?",
+    "Client: I keep thinking... what if I had left class five minutes later? What if I had taken a different route? Maybe none of this would have happened. And then I think... what if it happens again? What if next time I don't survive?",
+    "Therapist: How do those thoughts affect you?",
+    "Client: They paralyze me. Sometimes I can't even get in a car without having a panic attack. I feel like a burden to my friends, always asking for rides. And the nightmares... they're almost every night now.",
+    "Therapist: Tell me about these nightmares.",
+    "Client: They're always about the accident, but worse. Sometimes I'm trapped in the car, and I can see the other driver coming towards me, but I can't move. Other times, I'm outside the car, watching myself, unable to help. I wake up sweating, heart pounding.",
+    "Therapist: How do you cope with these nightmares?",
+    "Client: I... I don't really. I try to stay awake as long as I can. I've been drinking a lot of coffee, playing video games all night. Anything to avoid sleep. But then I'm exhausted during the day, which makes my anxiety worse.",
+    "Therapist: I see. How has this affected your daily life?",
+    "Client: It's like I'm not living anymore, just... existing. I've stopped going out with friends. I can't concentrate in class. Even simple things like grocery shopping feel overwhelming. I'm always on edge, waiting for something bad to happen.",
+    "Therapist: What do you think about that change in yourself?",
+    "Client: I hate it. I feel like I've lost myself. Before the accident, I had plans, you know? I was going to study abroad, maybe go to grad school. Now I can barely make it through a day without a panic attack. I feel... I feel broken.",
+    "Therapist: Broken. That's a powerful word. Can you expand on that?",
+    "Client: It's like... imagine you have this vase, right? And it's beautiful, perfect. Then it falls and shatters. You can glue it back together, but it's never the same. That's how I feel. I'm trying to put myself back together, but the cracks are always there.",
+    "Therapist: How does sharing this make you feel?",
+    "Client: It's... it's hard. But also, kind of relieving? Like, I've been carrying this weight around for so long, and now I'm finally setting it down. But it's scary too. I don't want to be defined by this accident.",
+    "Therapist: What would it mean to not be defined by the accident?",
+    "Client: I guess... it would mean feeling like myself again. Being able to drive without panicking. Sleeping through the night. Enjoying time with my friends without constantly worrying. Just... living, you know? Not just surviving.",
+    "Therapist: How do you think we might work towards that?",
+    "Client: I... I'm not sure. It feels impossible right now. But I want to try. I want to get better. I'm tired of feeling this way, of letting the accident control my life. I want to take back control, somehow.",
+    "Therapist: That's a great goal. How are you feeling now?",
+    "Client: Drained, honestly. Talking about it... it's exhausting. But also, maybe a little hopeful? Like, maybe there's a way forward that I couldn't see before. It's still scary, but... I don't know. Maybe it's not impossible.",
+    "Therapist: That's a positive step. Shall we wrap up for today?",
+    "Client: Yeah, I think so. This was... intense. But thank you. For listening, for understanding. It means a lot.",
+    "Therapist: You're welcome. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. My heart's still racing a bit. It's like I'm back there, you know? The screeching tires, the smell of burning rubber... It's all so vivid.",
+      "Therapist: Mm-hmm. What emotions are coming up for you right now?"
+    ],
+    [
+      "Client: I... I'm not sure. My heart's still racing a bit. It's like I'm back there, you know? The screeching tires, the smell of burning rubber... It's all so vivid.",
+      "Therapist: Mm-hmm. What emotions are coming up for you right now?",
+      "Client: Fear, definitely fear. But also... anger? I'm angry that this happened to me. I was just driving home from class, and suddenly my whole life changed. It's not fair."
+    ],
+    [
+      "Therapist: Mm-hmm. What emotions are coming up for you right now?",
+      "Client: Fear, definitely fear. But also... anger? I'm angry that this happened to me. I was just driving home from class, and suddenly my whole life changed. It's not fair.",
+      "Therapist: I see. Can you tell me more about that anger?"
+    ],
+    [
+      "Client: Fear, definitely fear. But also... anger? I'm angry that this happened to me. I was just driving home from class, and suddenly my whole life changed. It's not fair.",
+      "Therapist: I see. Can you tell me more about that anger?",
+      "Client: It's like... it's burning in my chest. I keep thinking about how I missed exams, how I had to drop out for a semester. My girlfriend... she tried to be supportive, but I could see the pity in her eyes. I hate that. I don't want to be pitied."
+    ],
+    [
+      "Therapist: I see. Can you tell me more about that anger?",
+      "Client: It's like... it's burning in my chest. I keep thinking about how I missed exams, how I had to drop out for a semester. My girlfriend... she tried to be supportive, but I could see the pity in her eyes. I hate that. I don't want to be pitied.",
+      "Therapist: How does that pity make you feel?"
+    ],
+    [
+      "Client: It's like... it's burning in my chest. I keep thinking about how I missed exams, how I had to drop out for a semester. My girlfriend... she tried to be supportive, but I could see the pity in her eyes. I hate that. I don't want to be pitied.",
+      "Therapist: How does that pity make you feel?",
+      "Client: Weak. Helpless. Like I'm not the same person I was before the accident. I used to be confident, you know? Now I'm always second-guessing myself, always anxious."
+    ],
+    [
+      "Therapist: How does that pity make you feel?",
+      "Client: Weak. Helpless. Like I'm not the same person I was before the accident. I used to be confident, you know? Now I'm always second-guessing myself, always anxious.",
+      "Therapist: What physical sensations are you noticing as you talk about this?"
+    ],
+    [
+      "Client: Weak. Helpless. Like I'm not the same person I was before the accident. I used to be confident, you know? Now I'm always second-guessing myself, always anxious.",
+      "Therapist: What physical sensations are you noticing as you talk about this?",
+      "Client: My hands are clammy. There's this tightness in my chest, like I can't get a full breath. And my leg... the one that was injured... it's throbbing. It always does when I think about the accident."
+    ],
+    [
+      "Therapist: What physical sensations are you noticing as you talk about this?",
+      "Client: My hands are clammy. There's this tightness in my chest, like I can't get a full breath. And my leg... the one that was injured... it's throbbing. It always does when I think about the accident.",
+      "Therapist: And what thoughts are going through your mind?"
+    ],
+    [
+      "Client: My hands are clammy. There's this tightness in my chest, like I can't get a full breath. And my leg... the one that was injured... it's throbbing. It always does when I think about the accident.",
+      "Therapist: And what thoughts are going through your mind?",
+      "Client: I keep thinking... what if I had left class five minutes later? What if I had taken a different route? Maybe none of this would have happened. And then I think... what if it happens again? What if next time I don't survive?"
+    ],
+    [
+      "Therapist: And what thoughts are going through your mind?",
+      "Client: I keep thinking... what if I had left class five minutes later? What if I had taken a different route? Maybe none of this would have happened. And then I think... what if it happens again? What if next time I don't survive?",
+      "Therapist: How do those thoughts affect you?"
+    ],
+    [
+      "Client: I keep thinking... what if I had left class five minutes later? What if I had taken a different route? Maybe none of this would have happened. And then I think... what if it happens again? What if next time I don't survive?",
+      "Therapist: How do those thoughts affect you?",
+      "Client: They paralyze me. Sometimes I can't even get in a car without having a panic attack. I feel like a burden to my friends, always asking for rides. And the nightmares... they're almost every night now."
+    ],
+    [
+      "Therapist: How do those thoughts affect you?",
+      "Client: They paralyze me. Sometimes I can't even get in a car without having a panic attack. I feel like a burden to my friends, always asking for rides. And the nightmares... they're almost every night now.",
+      "Therapist: Tell me about these nightmares."
+    ],
+    [
+      "Client: They paralyze me. Sometimes I can't even get in a car without having a panic attack. I feel like a burden to my friends, always asking for rides. And the nightmares... they're almost every night now.",
+      "Therapist: Tell me about these nightmares.",
+      "Client: They're always about the accident, but worse. Sometimes I'm trapped in the car, and I can see the other driver coming towards me, but I can't move. Other times, I'm outside the car, watching myself, unable to help. I wake up sweating, heart pounding."
+    ],
+    [
+      "Therapist: Tell me about these nightmares.",
+      "Client: They're always about the accident, but worse. Sometimes I'm trapped in the car, and I can see the other driver coming towards me, but I can't move. Other times, I'm outside the car, watching myself, unable to help. I wake up sweating, heart pounding.",
+      "Therapist: How do you cope with these nightmares?"
+    ],
+    [
+      "Client: They're always about the accident, but worse. Sometimes I'm trapped in the car, and I can see the other driver coming towards me, but I can't move. Other times, I'm outside the car, watching myself, unable to help. I wake up sweating, heart pounding.",
+      "Therapist: How do you cope with these nightmares?",
+      "Client: I... I don't really. I try to stay awake as long as I can. I've been drinking a lot of coffee, playing video games all night. Anything to avoid sleep. But then I'm exhausted during the day, which makes my anxiety worse."
+    ],
+    [
+      "Therapist: How do you cope with these nightmares?",
+      "Client: I... I don't really. I try to stay awake as long as I can. I've been drinking a lot of coffee, playing video games all night. Anything to avoid sleep. But then I'm exhausted during the day, which makes my anxiety worse.",
+      "Therapist: I see. How has this affected your daily life?"
+    ],
+    [
+      "Client: I... I don't really. I try to stay awake as long as I can. I've been drinking a lot of coffee, playing video games all night. Anything to avoid sleep. But then I'm exhausted during the day, which makes my anxiety worse.",
+      "Therapist: I see. How has this affected your daily life?",
+      "Client: It's like I'm not living anymore, just... existing. I've stopped going out with friends. I can't concentrate in class. Even simple things like grocery shopping feel overwhelming. I'm always on edge, waiting for something bad to happen."
+    ],
+    [
+      "Therapist: I see. How has this affected your daily life?",
+      "Client: It's like I'm not living anymore, just... existing. I've stopped going out with friends. I can't concentrate in class. Even simple things like grocery shopping feel overwhelming. I'm always on edge, waiting for something bad to happen.",
+      "Therapist: What do you think about that change in yourself?"
+    ],
+    [
+      "Client: It's like I'm not living anymore, just... existing. I've stopped going out with friends. I can't concentrate in class. Even simple things like grocery shopping feel overwhelming. I'm always on edge, waiting for something bad to happen.",
+      "Therapist: What do you think about that change in yourself?",
+      "Client: I hate it. I feel like I've lost myself. Before the accident, I had plans, you know? I was going to study abroad, maybe go to grad school. Now I can barely make it through a day without a panic attack. I feel... I feel broken."
+    ],
+    [
+      "Therapist: What do you think about that change in yourself?",
+      "Client: I hate it. I feel like I've lost myself. Before the accident, I had plans, you know? I was going to study abroad, maybe go to grad school. Now I can barely make it through a day without a panic attack. I feel... I feel broken.",
+      "Therapist: Broken. That's a powerful word. Can you expand on that?"
+    ],
+    [
+      "Client: I hate it. I feel like I've lost myself. Before the accident, I had plans, you know? I was going to study abroad, maybe go to grad school. Now I can barely make it through a day without a panic attack. I feel... I feel broken.",
+      "Therapist: Broken. That's a powerful word. Can you expand on that?",
+      "Client: It's like... imagine you have this vase, right? And it's beautiful, perfect. Then it falls and shatters. You can glue it back together, but it's never the same. That's how I feel. I'm trying to put myself back together, but the cracks are always there."
+    ],
+    [
+      "Therapist: Broken. That's a powerful word. Can you expand on that?",
+      "Client: It's like... imagine you have this vase, right? And it's beautiful, perfect. Then it falls and shatters. You can glue it back together, but it's never the same. That's how I feel. I'm trying to put myself back together, but the cracks are always there.",
+      "Therapist: How does sharing this make you feel?"
+    ],
+    [
+      "Client: It's like... imagine you have this vase, right? And it's beautiful, perfect. Then it falls and shatters. You can glue it back together, but it's never the same. That's how I feel. I'm trying to put myself back together, but the cracks are always there.",
+      "Therapist: How does sharing this make you feel?",
+      "Client: It's... it's hard. But also, kind of relieving? Like, I've been carrying this weight around for so long, and now I'm finally setting it down. But it's scary too. I don't want to be defined by this accident."
+    ],
+    [
+      "Therapist: How does sharing this make you feel?",
+      "Client: It's... it's hard. But also, kind of relieving? Like, I've been carrying this weight around for so long, and now I'm finally setting it down. But it's scary too. I don't want to be defined by this accident.",
+      "Therapist: What would it mean to not be defined by the accident?"
+    ],
+    [
+      "Client: It's... it's hard. But also, kind of relieving? Like, I've been carrying this weight around for so long, and now I'm finally setting it down. But it's scary too. I don't want to be defined by this accident.",
+      "Therapist: What would it mean to not be defined by the accident?",
+      "Client: I guess... it would mean feeling like myself again. Being able to drive without panicking. Sleeping through the night. Enjoying time with my friends without constantly worrying. Just... living, you know? Not just surviving."
+    ],
+    [
+      "Therapist: What would it mean to not be defined by the accident?",
+      "Client: I guess... it would mean feeling like myself again. Being able to drive without panicking. Sleeping through the night. Enjoying time with my friends without constantly worrying. Just... living, you know? Not just surviving.",
+      "Therapist: How do you think we might work towards that?"
+    ],
+    [
+      "Client: I guess... it would mean feeling like myself again. Being able to drive without panicking. Sleeping through the night. Enjoying time with my friends without constantly worrying. Just... living, you know? Not just surviving.",
+      "Therapist: How do you think we might work towards that?",
+      "Client: I... I'm not sure. It feels impossible right now. But I want to try. I want to get better. I'm tired of feeling this way, of letting the accident control my life. I want to take back control, somehow."
+    ],
+    [
+      "Therapist: How do you think we might work towards that?",
+      "Client: I... I'm not sure. It feels impossible right now. But I want to try. I want to get better. I'm tired of feeling this way, of letting the accident control my life. I want to take back control, somehow.",
+      "Therapist: That's a great goal. How are you feeling now?"
+    ],
+    [
+      "Client: I... I'm not sure. It feels impossible right now. But I want to try. I want to get better. I'm tired of feeling this way, of letting the accident control my life. I want to take back control, somehow.",
+      "Therapist: That's a great goal. How are you feeling now?",
+      "Client: Drained, honestly. Talking about it... it's exhausting. But also, maybe a little hopeful? Like, maybe there's a way forward that I couldn't see before. It's still scary, but... I don't know. Maybe it's not impossible."
+    ],
+    [
+      "Therapist: That's a great goal. How are you feeling now?",
+      "Client: Drained, honestly. Talking about it... it's exhausting. But also, maybe a little hopeful? Like, maybe there's a way forward that I couldn't see before. It's still scary, but... I don't know. Maybe it's not impossible.",
+      "Therapist: That's a positive step. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Drained, honestly. Talking about it... it's exhausting. But also, maybe a little hopeful? Like, maybe there's a way forward that I couldn't see before. It's still scary, but... I don't know. Maybe it's not impossible.",
+      "Therapist: That's a positive step. Shall we wrap up for today?",
+      "Client: Yeah, I think so. This was... intense. But thank you. For listening, for understanding. It means a lot."
+    ],
+    [
+      "Therapist: That's a positive step. Shall we wrap up for today?",
+      "Client: Yeah, I think so. This was... intense. But thank you. For listening, for understanding. It means a lot.",
+      "Therapist: You're welcome. We'll continue next week."
+    ]
+  ]
+}

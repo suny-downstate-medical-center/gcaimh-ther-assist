@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Maria. Today we'll continue with our imaginal exposure exercise. Remember, you can stop anytime. Are you ready to begin?",
+    "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's normal. Let's start with your SUDS rating. How distressed are you feeling right now, 0 to 100?",
+    "Client: I'd say about a 40. My stomach feels a bit tight just thinking about it.",
+    "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+    "Client: Alright... I'm sitting at my desk, scrolling through my work emails. Suddenly, I see a message from an unknown sender. I open it, and... oh god, it's filled with horrible insults and threats. My heart starts racing, and I feel like I can't breathe. They've somehow gotten photos of me, doctored them to look... inappropriate. They're threatening to send them to everyone at work if I don't do what they say.",
+    "Therapist: How's your distress level now?",
+    "Client: It's... it's probably around 60. My palms are sweating, and I feel dizzy.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I... I close the email, but my hands are shaking. I can't focus on work. I keep checking my phone, terrified of getting more messages. I feel so alone, so exposed. It's like everyone can see right through me, even though I know that's not true. I want to hide, to disappear.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's up to 75. My chest feels tight, and I'm having trouble catching my breath.",
+    "Therapist: That sounds really difficult. Remember, you're safe here.",
+    "Client: (deep breath) I decide to tell my boss what's happening. As I walk to her office, I feel like everyone's staring at me, judging me. I'm so ashamed, even though I know I didn't do anything wrong. When I finally tell her, I break down crying. I feel so helpless, so violated.",
+    "Therapist: How are you feeling right now?",
+    "Client: I'm at about an 80. My heart is pounding, and I feel nauseous.",
+    "Therapist: You're doing great, Maria. Stay with it if you can.",
+    "Client: My boss is supportive, but I still feel exposed. I can't shake the feeling that everyone knows, that they're all talking about me behind my back. I start avoiding people at work, eating lunch alone in my car. I'm constantly on edge, jumping every time my phone buzzes. It's exhausting, and I feel so alone.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's actually down to about 70. I'm still shaky, but talking about it... it helps somehow.",
+    "Therapist: That's good. You're processing the memory. Keep going.",
+    "Client: The IT department eventually traces the emails, and it turns out it was a former coworker who had a grudge against me. They're arrested, but I still don't feel safe. I have trouble sleeping, and I'm always looking over my shoulder. But... I also feel a strange sense of relief. It's over, even if I don't feel okay yet.",
+    "Therapist: And how do you feel now?",
+    "Client: I'm down to about a 55. I feel drained, but also... lighter? Like I've let go of something heavy.",
+    "Therapist: That's normal. You've done excellent work today, Maria."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Maria. Today we'll continue with our imaginal exposure exercise. Remember, you can stop anytime. Are you ready to begin?",
+      "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's normal. Let's start with your SUDS rating. How distressed are you feeling right now, 0 to 100?"
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's normal. Let's start with your SUDS rating. How distressed are you feeling right now, 0 to 100?",
+      "Client: I'd say about a 40. My stomach feels a bit tight just thinking about it."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your SUDS rating. How distressed are you feeling right now, 0 to 100?",
+      "Client: I'd say about a 40. My stomach feels a bit tight just thinking about it.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready."
+    ],
+    [
+      "Client: I'd say about a 40. My stomach feels a bit tight just thinking about it.",
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+      "Client: Alright... I'm sitting at my desk, scrolling through my work emails. Suddenly, I see a message from an unknown sender. I open it, and... oh god, it's filled with horrible insults and threats. My heart starts racing, and I feel like I can't breathe. They've somehow gotten photos of me, doctored them to look... inappropriate. They're threatening to send them to everyone at work if I don't do what they say."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin describing the memory when you're ready.",
+      "Client: Alright... I'm sitting at my desk, scrolling through my work emails. Suddenly, I see a message from an unknown sender. I open it, and... oh god, it's filled with horrible insults and threats. My heart starts racing, and I feel like I can't breathe. They've somehow gotten photos of me, doctored them to look... inappropriate. They're threatening to send them to everyone at work if I don't do what they say.",
+      "Therapist: How's your distress level now?"
+    ],
+    [
+      "Client: Alright... I'm sitting at my desk, scrolling through my work emails. Suddenly, I see a message from an unknown sender. I open it, and... oh god, it's filled with horrible insults and threats. My heart starts racing, and I feel like I can't breathe. They've somehow gotten photos of me, doctored them to look... inappropriate. They're threatening to send them to everyone at work if I don't do what they say.",
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's probably around 60. My palms are sweating, and I feel dizzy."
+    ],
+    [
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's probably around 60. My palms are sweating, and I feel dizzy.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's probably around 60. My palms are sweating, and I feel dizzy.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I close the email, but my hands are shaking. I can't focus on work. I keep checking my phone, terrified of getting more messages. I feel so alone, so exposed. It's like everyone can see right through me, even though I know that's not true. I want to hide, to disappear."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I close the email, but my hands are shaking. I can't focus on work. I keep checking my phone, terrified of getting more messages. I feel so alone, so exposed. It's like everyone can see right through me, even though I know that's not true. I want to hide, to disappear.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I... I close the email, but my hands are shaking. I can't focus on work. I keep checking my phone, terrified of getting more messages. I feel so alone, so exposed. It's like everyone can see right through me, even though I know that's not true. I want to hide, to disappear.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's up to 75. My chest feels tight, and I'm having trouble catching my breath."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's up to 75. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That sounds really difficult. Remember, you're safe here."
+    ],
+    [
+      "Client: It's up to 75. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That sounds really difficult. Remember, you're safe here.",
+      "Client: (deep breath) I decide to tell my boss what's happening. As I walk to her office, I feel like everyone's staring at me, judging me. I'm so ashamed, even though I know I didn't do anything wrong. When I finally tell her, I break down crying. I feel so helpless, so violated."
+    ],
+    [
+      "Therapist: That sounds really difficult. Remember, you're safe here.",
+      "Client: (deep breath) I decide to tell my boss what's happening. As I walk to her office, I feel like everyone's staring at me, judging me. I'm so ashamed, even though I know I didn't do anything wrong. When I finally tell her, I break down crying. I feel so helpless, so violated.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: (deep breath) I decide to tell my boss what's happening. As I walk to her office, I feel like everyone's staring at me, judging me. I'm so ashamed, even though I know I didn't do anything wrong. When I finally tell her, I break down crying. I feel so helpless, so violated.",
+      "Therapist: How are you feeling right now?",
+      "Client: I'm at about an 80. My heart is pounding, and I feel nauseous."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I'm at about an 80. My heart is pounding, and I feel nauseous.",
+      "Therapist: You're doing great, Maria. Stay with it if you can."
+    ],
+    [
+      "Client: I'm at about an 80. My heart is pounding, and I feel nauseous.",
+      "Therapist: You're doing great, Maria. Stay with it if you can.",
+      "Client: My boss is supportive, but I still feel exposed. I can't shake the feeling that everyone knows, that they're all talking about me behind my back. I start avoiding people at work, eating lunch alone in my car. I'm constantly on edge, jumping every time my phone buzzes. It's exhausting, and I feel so alone."
+    ],
+    [
+      "Therapist: You're doing great, Maria. Stay with it if you can.",
+      "Client: My boss is supportive, but I still feel exposed. I can't shake the feeling that everyone knows, that they're all talking about me behind my back. I start avoiding people at work, eating lunch alone in my car. I'm constantly on edge, jumping every time my phone buzzes. It's exhausting, and I feel so alone.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: My boss is supportive, but I still feel exposed. I can't shake the feeling that everyone knows, that they're all talking about me behind my back. I start avoiding people at work, eating lunch alone in my car. I'm constantly on edge, jumping every time my phone buzzes. It's exhausting, and I feel so alone.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's actually down to about 70. I'm still shaky, but talking about it... it helps somehow."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's actually down to about 70. I'm still shaky, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're processing the memory. Keep going."
+    ],
+    [
+      "Client: It's... it's actually down to about 70. I'm still shaky, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're processing the memory. Keep going.",
+      "Client: The IT department eventually traces the emails, and it turns out it was a former coworker who had a grudge against me. They're arrested, but I still don't feel safe. I have trouble sleeping, and I'm always looking over my shoulder. But... I also feel a strange sense of relief. It's over, even if I don't feel okay yet."
+    ],
+    [
+      "Therapist: That's good. You're processing the memory. Keep going.",
+      "Client: The IT department eventually traces the emails, and it turns out it was a former coworker who had a grudge against me. They're arrested, but I still don't feel safe. I have trouble sleeping, and I'm always looking over my shoulder. But... I also feel a strange sense of relief. It's over, even if I don't feel okay yet.",
+      "Therapist: And how do you feel now?"
+    ],
+    [
+      "Client: The IT department eventually traces the emails, and it turns out it was a former coworker who had a grudge against me. They're arrested, but I still don't feel safe. I have trouble sleeping, and I'm always looking over my shoulder. But... I also feel a strange sense of relief. It's over, even if I don't feel okay yet.",
+      "Therapist: And how do you feel now?",
+      "Client: I'm down to about a 55. I feel drained, but also... lighter? Like I've let go of something heavy."
+    ],
+    [
+      "Therapist: And how do you feel now?",
+      "Client: I'm down to about a 55. I feel drained, but also... lighter? Like I've let go of something heavy.",
+      "Therapist: That's normal. You've done excellent work today, Maria."
+    ]
+  ]
+}

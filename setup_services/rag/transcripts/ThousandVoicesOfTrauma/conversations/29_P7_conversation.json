@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Carlos. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about some difficult things, and I'm not sure if I'm ready.",
+    "Therapist: That's understandable. We'll take it step by step.",
+    "Client: Okay. I appreciate that. It's just... thinking about what happened that night brings back so many memories from the war, too. It's all mixed up in my head.",
+    "Therapist: You're doing great by opening up. Let's start slowly.",
+    "Client: Alright. Well, it was a Friday night. I had come home late from work, feeling stressed and irritable. My wife, Maria, she was in the kitchen. I could smell dinner, but I wasn't hungry. I just wanted a drink.",
+    "Therapist: Good. Continue describing what you remember.",
+    "Client: I grabbed a beer from the fridge. Maria asked me about my day, but I didn't want to talk. I felt the tension building inside me, like a pressure cooker. It reminded me of the constant state of alertness during my deployment.",
+    "Therapist: You're doing well. Stay with that memory.",
+    "Client: I... I snapped at her. Told her to leave me alone. But she persisted, saying we needed to talk about our bills. That's when I lost it. I slammed my beer bottle on the counter, and it shattered. Maria jumped back, looking scared. God, I hate remembering her face in that moment.",
+    "Therapist: It's okay to feel this way. You're safe here.",
+    "Client: (voice trembling) I started yelling. Saying things I knew would hurt her. Bringing up old arguments, blaming her for our financial problems. In my mind, I was back in the war zone, under attack. I couldn't separate the past from the present.",
+    "Therapist: You're being very brave. Keep going.",
+    "Client: I took a step toward her, my fists clenched. She backed away, hitting the wall behind her. I saw fear in her eyes, and for a split second, I enjoyed it. It made me feel powerful, in control. But then... then I saw a flash of the scared civilians we encountered during the war. It was like looking in a mirror, and I hated what I saw.",
+    "Therapist: You're doing great, Carlos. Stay with it.",
+    "Client: (taking a deep breath) I turned away from her and punched the wall. Hard. I felt my knuckles split open, but the pain helped ground me. Maria was crying, begging me to calm down. I wanted to comfort her, but I also wanted to run away. I felt trapped, cornered, just like during ambushes in combat.",
+    "Therapist: You're handling this well. How did you feel then?",
+    "Client: Ashamed. Terrified. Angry at myself. I slid down to the floor, my back against the wall, and just broke down. Maria... she approached me cautiously. When she touched my shoulder, I flinched. But then I let her hold me as I cried. I kept apologizing, over and over.",
+    "Therapist: It's okay. You're doing really well.",
+    "Client: After that night, I knew I needed help. The guilt... it eats at me. I never want to see that fear in Maria's eyes again. But sometimes, I still feel that rage bubbling up inside me, and it scares me.",
+    "Therapist: You're showing great courage in facing this.",
+    "Client: Thank you. It's hard to talk about, but I know I need to. I want to be better for Maria, for myself. I don't want the war to keep controlling my life at home.",
+    "Therapist: That's a powerful realization. How do you feel now?",
+    "Client: Drained, but... also a bit relieved. Talking about it, as painful as it is, feels like lifting a weight off my chest. I just hope I can learn to control these reactions better.",
+    "Therapist: You're making progress. We'll work on that together.",
+    "Client: I appreciate that. I know it's a long road ahead, but I'm committed to this. I can't change what happened in the war, but I can change how I handle things now. I owe it to Maria and to myself.",
+    "Therapist: That's an excellent mindset. We'll end here for today.",
+    "Client: Thank you, doctor. This wasn't easy, but I'm glad we did it. Same time next week?",
+    "Therapist: Yes, I'll see you then. Take care, Carlos."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Carlos. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about some difficult things, and I'm not sure if I'm ready.",
+      "Therapist: That's understandable. We'll take it step by step."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about some difficult things, and I'm not sure if I'm ready.",
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay. I appreciate that. It's just... thinking about what happened that night brings back so many memories from the war, too. It's all mixed up in my head."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay. I appreciate that. It's just... thinking about what happened that night brings back so many memories from the war, too. It's all mixed up in my head.",
+      "Therapist: You're doing great by opening up. Let's start slowly."
+    ],
+    [
+      "Client: Okay. I appreciate that. It's just... thinking about what happened that night brings back so many memories from the war, too. It's all mixed up in my head.",
+      "Therapist: You're doing great by opening up. Let's start slowly.",
+      "Client: Alright. Well, it was a Friday night. I had come home late from work, feeling stressed and irritable. My wife, Maria, she was in the kitchen. I could smell dinner, but I wasn't hungry. I just wanted a drink."
+    ],
+    [
+      "Therapist: You're doing great by opening up. Let's start slowly.",
+      "Client: Alright. Well, it was a Friday night. I had come home late from work, feeling stressed and irritable. My wife, Maria, she was in the kitchen. I could smell dinner, but I wasn't hungry. I just wanted a drink.",
+      "Therapist: Good. Continue describing what you remember."
+    ],
+    [
+      "Client: Alright. Well, it was a Friday night. I had come home late from work, feeling stressed and irritable. My wife, Maria, she was in the kitchen. I could smell dinner, but I wasn't hungry. I just wanted a drink.",
+      "Therapist: Good. Continue describing what you remember.",
+      "Client: I grabbed a beer from the fridge. Maria asked me about my day, but I didn't want to talk. I felt the tension building inside me, like a pressure cooker. It reminded me of the constant state of alertness during my deployment."
+    ],
+    [
+      "Therapist: Good. Continue describing what you remember.",
+      "Client: I grabbed a beer from the fridge. Maria asked me about my day, but I didn't want to talk. I felt the tension building inside me, like a pressure cooker. It reminded me of the constant state of alertness during my deployment.",
+      "Therapist: You're doing well. Stay with that memory."
+    ],
+    [
+      "Client: I grabbed a beer from the fridge. Maria asked me about my day, but I didn't want to talk. I felt the tension building inside me, like a pressure cooker. It reminded me of the constant state of alertness during my deployment.",
+      "Therapist: You're doing well. Stay with that memory.",
+      "Client: I... I snapped at her. Told her to leave me alone. But she persisted, saying we needed to talk about our bills. That's when I lost it. I slammed my beer bottle on the counter, and it shattered. Maria jumped back, looking scared. God, I hate remembering her face in that moment."
+    ],
+    [
+      "Therapist: You're doing well. Stay with that memory.",
+      "Client: I... I snapped at her. Told her to leave me alone. But she persisted, saying we needed to talk about our bills. That's when I lost it. I slammed my beer bottle on the counter, and it shattered. Maria jumped back, looking scared. God, I hate remembering her face in that moment.",
+      "Therapist: It's okay to feel this way. You're safe here."
+    ],
+    [
+      "Client: I... I snapped at her. Told her to leave me alone. But she persisted, saying we needed to talk about our bills. That's when I lost it. I slammed my beer bottle on the counter, and it shattered. Maria jumped back, looking scared. God, I hate remembering her face in that moment.",
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: (voice trembling) I started yelling. Saying things I knew would hurt her. Bringing up old arguments, blaming her for our financial problems. In my mind, I was back in the war zone, under attack. I couldn't separate the past from the present."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: (voice trembling) I started yelling. Saying things I knew would hurt her. Bringing up old arguments, blaming her for our financial problems. In my mind, I was back in the war zone, under attack. I couldn't separate the past from the present.",
+      "Therapist: You're being very brave. Keep going."
+    ],
+    [
+      "Client: (voice trembling) I started yelling. Saying things I knew would hurt her. Bringing up old arguments, blaming her for our financial problems. In my mind, I was back in the war zone, under attack. I couldn't separate the past from the present.",
+      "Therapist: You're being very brave. Keep going.",
+      "Client: I took a step toward her, my fists clenched. She backed away, hitting the wall behind her. I saw fear in her eyes, and for a split second, I enjoyed it. It made me feel powerful, in control. But then... then I saw a flash of the scared civilians we encountered during the war. It was like looking in a mirror, and I hated what I saw."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going.",
+      "Client: I took a step toward her, my fists clenched. She backed away, hitting the wall behind her. I saw fear in her eyes, and for a split second, I enjoyed it. It made me feel powerful, in control. But then... then I saw a flash of the scared civilians we encountered during the war. It was like looking in a mirror, and I hated what I saw.",
+      "Therapist: You're doing great, Carlos. Stay with it."
+    ],
+    [
+      "Client: I took a step toward her, my fists clenched. She backed away, hitting the wall behind her. I saw fear in her eyes, and for a split second, I enjoyed it. It made me feel powerful, in control. But then... then I saw a flash of the scared civilians we encountered during the war. It was like looking in a mirror, and I hated what I saw.",
+      "Therapist: You're doing great, Carlos. Stay with it.",
+      "Client: (taking a deep breath) I turned away from her and punched the wall. Hard. I felt my knuckles split open, but the pain helped ground me. Maria was crying, begging me to calm down. I wanted to comfort her, but I also wanted to run away. I felt trapped, cornered, just like during ambushes in combat."
+    ],
+    [
+      "Therapist: You're doing great, Carlos. Stay with it.",
+      "Client: (taking a deep breath) I turned away from her and punched the wall. Hard. I felt my knuckles split open, but the pain helped ground me. Maria was crying, begging me to calm down. I wanted to comfort her, but I also wanted to run away. I felt trapped, cornered, just like during ambushes in combat.",
+      "Therapist: You're handling this well. How did you feel then?"
+    ],
+    [
+      "Client: (taking a deep breath) I turned away from her and punched the wall. Hard. I felt my knuckles split open, but the pain helped ground me. Maria was crying, begging me to calm down. I wanted to comfort her, but I also wanted to run away. I felt trapped, cornered, just like during ambushes in combat.",
+      "Therapist: You're handling this well. How did you feel then?",
+      "Client: Ashamed. Terrified. Angry at myself. I slid down to the floor, my back against the wall, and just broke down. Maria... she approached me cautiously. When she touched my shoulder, I flinched. But then I let her hold me as I cried. I kept apologizing, over and over."
+    ],
+    [
+      "Therapist: You're handling this well. How did you feel then?",
+      "Client: Ashamed. Terrified. Angry at myself. I slid down to the floor, my back against the wall, and just broke down. Maria... she approached me cautiously. When she touched my shoulder, I flinched. But then I let her hold me as I cried. I kept apologizing, over and over.",
+      "Therapist: It's okay. You're doing really well."
+    ],
+    [
+      "Client: Ashamed. Terrified. Angry at myself. I slid down to the floor, my back against the wall, and just broke down. Maria... she approached me cautiously. When she touched my shoulder, I flinched. But then I let her hold me as I cried. I kept apologizing, over and over.",
+      "Therapist: It's okay. You're doing really well.",
+      "Client: After that night, I knew I needed help. The guilt... it eats at me. I never want to see that fear in Maria's eyes again. But sometimes, I still feel that rage bubbling up inside me, and it scares me."
+    ],
+    [
+      "Therapist: It's okay. You're doing really well.",
+      "Client: After that night, I knew I needed help. The guilt... it eats at me. I never want to see that fear in Maria's eyes again. But sometimes, I still feel that rage bubbling up inside me, and it scares me.",
+      "Therapist: You're showing great courage in facing this."
+    ],
+    [
+      "Client: After that night, I knew I needed help. The guilt... it eats at me. I never want to see that fear in Maria's eyes again. But sometimes, I still feel that rage bubbling up inside me, and it scares me.",
+      "Therapist: You're showing great courage in facing this.",
+      "Client: Thank you. It's hard to talk about, but I know I need to. I want to be better for Maria, for myself. I don't want the war to keep controlling my life at home."
+    ],
+    [
+      "Therapist: You're showing great courage in facing this.",
+      "Client: Thank you. It's hard to talk about, but I know I need to. I want to be better for Maria, for myself. I don't want the war to keep controlling my life at home.",
+      "Therapist: That's a powerful realization. How do you feel now?"
+    ],
+    [
+      "Client: Thank you. It's hard to talk about, but I know I need to. I want to be better for Maria, for myself. I don't want the war to keep controlling my life at home.",
+      "Therapist: That's a powerful realization. How do you feel now?",
+      "Client: Drained, but... also a bit relieved. Talking about it, as painful as it is, feels like lifting a weight off my chest. I just hope I can learn to control these reactions better."
+    ],
+    [
+      "Therapist: That's a powerful realization. How do you feel now?",
+      "Client: Drained, but... also a bit relieved. Talking about it, as painful as it is, feels like lifting a weight off my chest. I just hope I can learn to control these reactions better.",
+      "Therapist: You're making progress. We'll work on that together."
+    ],
+    [
+      "Client: Drained, but... also a bit relieved. Talking about it, as painful as it is, feels like lifting a weight off my chest. I just hope I can learn to control these reactions better.",
+      "Therapist: You're making progress. We'll work on that together.",
+      "Client: I appreciate that. I know it's a long road ahead, but I'm committed to this. I can't change what happened in the war, but I can change how I handle things now. I owe it to Maria and to myself."
+    ],
+    [
+      "Therapist: You're making progress. We'll work on that together.",
+      "Client: I appreciate that. I know it's a long road ahead, but I'm committed to this. I can't change what happened in the war, but I can change how I handle things now. I owe it to Maria and to myself.",
+      "Therapist: That's an excellent mindset. We'll end here for today."
+    ],
+    [
+      "Client: I appreciate that. I know it's a long road ahead, but I'm committed to this. I can't change what happened in the war, but I can change how I handle things now. I owe it to Maria and to myself.",
+      "Therapist: That's an excellent mindset. We'll end here for today.",
+      "Client: Thank you, doctor. This wasn't easy, but I'm glad we did it. Same time next week?"
+    ],
+    [
+      "Therapist: That's an excellent mindset. We'll end here for today.",
+      "Client: Thank you, doctor. This wasn't easy, but I'm glad we did it. Same time next week?",
+      "Therapist: Yes, I'll see you then. Take care, Carlos."
+    ]
+  ]
+}

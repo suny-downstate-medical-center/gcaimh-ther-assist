@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, James. Today we'll be starting imaginal exposure. How are you feeling about this?",
+    "Client: I'm honestly quite nervous, Dr. Thompson. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying. My chronic pain has been flaring up too, probably from the stress. I'm not sure I can handle this.",
+    "Therapist: Your anxiety is understandable. This process can be challenging, but it's a crucial step in your healing.",
+    "Client: I get that, but... what if it makes everything worse? I mean, I'm already struggling to sleep, and the nightmares are bad enough. Won't this just intensify everything?",
+    "Therapist: It may be difficult initially, but over time, it helps reduce PTSD symptoms. We'll go at your pace.",
+    "Client: My pace? That's reassuring, I guess. But what exactly will we be doing? I'm picturing some sort of hypnosis or something.",
+    "Therapist: No hypnosis. You'll recount the traumatic event in detail while I guide you. It helps process the memory.",
+    "Client: Recount it? In detail? Oh man, I don't know if I can do that. Just thinking about it makes my heart race and my pain flare up. What if I panic?",
+    "Therapist: I'll be here to support you throughout. We can pause if needed. Your safety is my priority.",
+    "Client: Okay... I appreciate that. It's just... growing up, I never had anyone to turn to when things got tough. My parents were always absent, and now facing this alone... it's overwhelming. But I guess you'll be there, right?",
+    "Therapist: Absolutely. You're not alone in this. Your courage is admirable, James.",
+    "Client: Thanks, Dr. Thompson. That means a lot. I'm still scared, but... I want to get better. I'm tired of living like this, you know? Always on edge, unable to fly, struggling at work. If this can help... I guess I'm willing to try.",
+    "Therapist: That's a great attitude. Remember, this is about regaining control over your life.",
+    "Client: Control... yeah, that would be nice. I feel like I've lost so much of that since the crash. Okay, so what do I need to do? Just start talking about it?",
+    "Therapist: We'll start slowly. First, close your eyes and focus on your breathing. Then, begin describing the event.",
+    "Client: Alright... I can do this. Deep breaths. (Pauses) Okay, I'm ready. Where should I start? The airport? Or when we first realized something was wrong on the plane?",
+    "Therapist: Start wherever you feel comfortable. There's no wrong place to begin.",
+    "Client: Okay... I guess I'll start with boarding the plane. It was supposed to be a routine flight..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, James. Today we'll be starting imaginal exposure. How are you feeling about this?",
+      "Client: I'm honestly quite nervous, Dr. Thompson. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying. My chronic pain has been flaring up too, probably from the stress. I'm not sure I can handle this.",
+      "Therapist: Your anxiety is understandable. This process can be challenging, but it's a crucial step in your healing."
+    ],
+    [
+      "Client: I'm honestly quite nervous, Dr. Thompson. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying. My chronic pain has been flaring up too, probably from the stress. I'm not sure I can handle this.",
+      "Therapist: Your anxiety is understandable. This process can be challenging, but it's a crucial step in your healing.",
+      "Client: I get that, but... what if it makes everything worse? I mean, I'm already struggling to sleep, and the nightmares are bad enough. Won't this just intensify everything?"
+    ],
+    [
+      "Therapist: Your anxiety is understandable. This process can be challenging, but it's a crucial step in your healing.",
+      "Client: I get that, but... what if it makes everything worse? I mean, I'm already struggling to sleep, and the nightmares are bad enough. Won't this just intensify everything?",
+      "Therapist: It may be difficult initially, but over time, it helps reduce PTSD symptoms. We'll go at your pace."
+    ],
+    [
+      "Client: I get that, but... what if it makes everything worse? I mean, I'm already struggling to sleep, and the nightmares are bad enough. Won't this just intensify everything?",
+      "Therapist: It may be difficult initially, but over time, it helps reduce PTSD symptoms. We'll go at your pace.",
+      "Client: My pace? That's reassuring, I guess. But what exactly will we be doing? I'm picturing some sort of hypnosis or something."
+    ],
+    [
+      "Therapist: It may be difficult initially, but over time, it helps reduce PTSD symptoms. We'll go at your pace.",
+      "Client: My pace? That's reassuring, I guess. But what exactly will we be doing? I'm picturing some sort of hypnosis or something.",
+      "Therapist: No hypnosis. You'll recount the traumatic event in detail while I guide you. It helps process the memory."
+    ],
+    [
+      "Client: My pace? That's reassuring, I guess. But what exactly will we be doing? I'm picturing some sort of hypnosis or something.",
+      "Therapist: No hypnosis. You'll recount the traumatic event in detail while I guide you. It helps process the memory.",
+      "Client: Recount it? In detail? Oh man, I don't know if I can do that. Just thinking about it makes my heart race and my pain flare up. What if I panic?"
+    ],
+    [
+      "Therapist: No hypnosis. You'll recount the traumatic event in detail while I guide you. It helps process the memory.",
+      "Client: Recount it? In detail? Oh man, I don't know if I can do that. Just thinking about it makes my heart race and my pain flare up. What if I panic?",
+      "Therapist: I'll be here to support you throughout. We can pause if needed. Your safety is my priority."
+    ],
+    [
+      "Client: Recount it? In detail? Oh man, I don't know if I can do that. Just thinking about it makes my heart race and my pain flare up. What if I panic?",
+      "Therapist: I'll be here to support you throughout. We can pause if needed. Your safety is my priority.",
+      "Client: Okay... I appreciate that. It's just... growing up, I never had anyone to turn to when things got tough. My parents were always absent, and now facing this alone... it's overwhelming. But I guess you'll be there, right?"
+    ],
+    [
+      "Therapist: I'll be here to support you throughout. We can pause if needed. Your safety is my priority.",
+      "Client: Okay... I appreciate that. It's just... growing up, I never had anyone to turn to when things got tough. My parents were always absent, and now facing this alone... it's overwhelming. But I guess you'll be there, right?",
+      "Therapist: Absolutely. You're not alone in this. Your courage is admirable, James."
+    ],
+    [
+      "Client: Okay... I appreciate that. It's just... growing up, I never had anyone to turn to when things got tough. My parents were always absent, and now facing this alone... it's overwhelming. But I guess you'll be there, right?",
+      "Therapist: Absolutely. You're not alone in this. Your courage is admirable, James.",
+      "Client: Thanks, Dr. Thompson. That means a lot. I'm still scared, but... I want to get better. I'm tired of living like this, you know? Always on edge, unable to fly, struggling at work. If this can help... I guess I'm willing to try."
+    ],
+    [
+      "Therapist: Absolutely. You're not alone in this. Your courage is admirable, James.",
+      "Client: Thanks, Dr. Thompson. That means a lot. I'm still scared, but... I want to get better. I'm tired of living like this, you know? Always on edge, unable to fly, struggling at work. If this can help... I guess I'm willing to try.",
+      "Therapist: That's a great attitude. Remember, this is about regaining control over your life."
+    ],
+    [
+      "Client: Thanks, Dr. Thompson. That means a lot. I'm still scared, but... I want to get better. I'm tired of living like this, you know? Always on edge, unable to fly, struggling at work. If this can help... I guess I'm willing to try.",
+      "Therapist: That's a great attitude. Remember, this is about regaining control over your life.",
+      "Client: Control... yeah, that would be nice. I feel like I've lost so much of that since the crash. Okay, so what do I need to do? Just start talking about it?"
+    ],
+    [
+      "Therapist: That's a great attitude. Remember, this is about regaining control over your life.",
+      "Client: Control... yeah, that would be nice. I feel like I've lost so much of that since the crash. Okay, so what do I need to do? Just start talking about it?",
+      "Therapist: We'll start slowly. First, close your eyes and focus on your breathing. Then, begin describing the event."
+    ],
+    [
+      "Client: Control... yeah, that would be nice. I feel like I've lost so much of that since the crash. Okay, so what do I need to do? Just start talking about it?",
+      "Therapist: We'll start slowly. First, close your eyes and focus on your breathing. Then, begin describing the event.",
+      "Client: Alright... I can do this. Deep breaths. (Pauses) Okay, I'm ready. Where should I start? The airport? Or when we first realized something was wrong on the plane?"
+    ],
+    [
+      "Therapist: We'll start slowly. First, close your eyes and focus on your breathing. Then, begin describing the event.",
+      "Client: Alright... I can do this. Deep breaths. (Pauses) Okay, I'm ready. Where should I start? The airport? Or when we first realized something was wrong on the plane?",
+      "Therapist: Start wherever you feel comfortable. There's no wrong place to begin."
+    ],
+    [
+      "Client: Alright... I can do this. Deep breaths. (Pauses) Okay, I'm ready. Where should I start? The airport? Or when we first realized something was wrong on the plane?",
+      "Therapist: Start wherever you feel comfortable. There's no wrong place to begin.",
+      "Client: Okay... I guess I'll start with boarding the plane. It was supposed to be a routine flight..."
+    ]
+  ]
+}

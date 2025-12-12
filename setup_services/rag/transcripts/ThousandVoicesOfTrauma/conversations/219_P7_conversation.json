@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, John. How are you feeling today?",
+    "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thank you. I've been thinking a lot about what we discussed last time, about my childhood. It's been bringing up a lot of memories I've tried to forget.",
+    "Therapist: You're very brave for facing this. Shall we begin?",
+    "Client: Yes, I think I'm ready. Where should I start?",
+    "Therapist: Close your eyes if you're comfortable. Describe the first memory that comes to mind.",
+    "Client: Okay... I'm... I'm in a dark room. It smells musty, like old clothes and cigarettes. I can hear voices outside, men talking. I'm scared. I don't know where I am or how I got here.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I'm... I'm huddled in a corner. My heart is racing. I want to cry but I'm afraid they'll hear me. I don't know how long I've been here. Days? Weeks? It all blurs together.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: I... I can't. It's too much. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're here, in the present.",
+    "Client: Okay... okay. I'm trying. The door opens, and a man comes in. He's big, intimidating. He tells me to get up, that someone's here to see me. I don't want to go, but I know I have no choice.",
+    "Therapist: You're very brave. Continue when you're ready.",
+    "Client: He grabs my arm, pulls me out of the room. The light hurts my eyes. There are other kids here too, all looking scared and lost. We're lined up like... like merchandise. A well-dressed man walks by, looking us over. I feel sick to my stomach.",
+    "Therapist: It's okay to feel this way. You're doing great.",
+    "Client: I... I can't do this anymore. It's too real. I feel like I'm back there.",
+    "Therapist: You're safe here, John. Take a moment if you need to.",
+    "Client: I'm sorry. I thought I could handle it, but it's overwhelming.",
+    "Therapist: There's no need to apologize. You've shown incredible strength.",
+    "Client: Thank you. It's just... I've never talked about this before. I've kept it locked away for so long.",
+    "Therapist: That's completely understandable. We'll take it slow.",
+    "Client: I appreciate that. It's hard to believe I survived all of that.",
+    "Therapist: You did survive. You're here now, and that's remarkable.",
+    "Client: Sometimes I wonder why I made it when so many others didn't.",
+    "Therapist: Your resilience is extraordinary. How are you feeling now?",
+    "Client: A bit shaky, but... also relieved, in a way. Like a weight's been lifted.",
+    "Therapist: That's a common feeling. You've taken a big step today.",
+    "Client: I have, haven't I? It's scary, but... I think I want to continue with this.",
+    "Therapist: We'll do it at your pace. You're in control here.",
+    "Client: Thank you. I never thought I'd be able to talk about this, but somehow, it feels... necessary.",
+    "Therapist: You're showing great courage. Shall we wrap up for today?",
+    "Client: Yes, I think that would be good. I feel drained, but also... lighter, somehow.",
+    "Therapist: That's normal. Remember to be kind to yourself this week.",
+    "Client: I'll try. Thank you for... for helping me through this.",
+    "Therapist: You're welcome, John. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, John. How are you feeling today?",
+      "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about my childhood. It's been bringing up a lot of memories I've tried to forget."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about my childhood. It's been bringing up a lot of memories I've tried to forget.",
+      "Therapist: You're very brave for facing this. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about my childhood. It's been bringing up a lot of memories I've tried to forget.",
+      "Therapist: You're very brave for facing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?"
+    ],
+    [
+      "Therapist: You're very brave for facing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Close your eyes if you're comfortable. Describe the first memory that comes to mind."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Close your eyes if you're comfortable. Describe the first memory that comes to mind.",
+      "Client: Okay... I'm... I'm in a dark room. It smells musty, like old clothes and cigarettes. I can hear voices outside, men talking. I'm scared. I don't know where I am or how I got here."
+    ],
+    [
+      "Therapist: Close your eyes if you're comfortable. Describe the first memory that comes to mind.",
+      "Client: Okay... I'm... I'm in a dark room. It smells musty, like old clothes and cigarettes. I can hear voices outside, men talking. I'm scared. I don't know where I am or how I got here.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... I'm... I'm in a dark room. It smells musty, like old clothes and cigarettes. I can hear voices outside, men talking. I'm scared. I don't know where I am or how I got here.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I'm... I'm huddled in a corner. My heart is racing. I want to cry but I'm afraid they'll hear me. I don't know how long I've been here. Days? Weeks? It all blurs together."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I'm... I'm huddled in a corner. My heart is racing. I want to cry but I'm afraid they'll hear me. I don't know how long I've been here. Days? Weeks? It all blurs together.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: I'm... I'm huddled in a corner. My heart is racing. I want to cry but I'm afraid they'll hear me. I don't know how long I've been here. Days? Weeks? It all blurs together.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: I... I can't. It's too much. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: I... I can't. It's too much. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're here, in the present."
+    ],
+    [
+      "Client: I... I can't. It's too much. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're here, in the present.",
+      "Client: Okay... okay. I'm trying. The door opens, and a man comes in. He's big, intimidating. He tells me to get up, that someone's here to see me. I don't want to go, but I know I have no choice."
+    ],
+    [
+      "Therapist: Take a deep breath. You're here, in the present.",
+      "Client: Okay... okay. I'm trying. The door opens, and a man comes in. He's big, intimidating. He tells me to get up, that someone's here to see me. I don't want to go, but I know I have no choice.",
+      "Therapist: You're very brave. Continue when you're ready."
+    ],
+    [
+      "Client: Okay... okay. I'm trying. The door opens, and a man comes in. He's big, intimidating. He tells me to get up, that someone's here to see me. I don't want to go, but I know I have no choice.",
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: He grabs my arm, pulls me out of the room. The light hurts my eyes. There are other kids here too, all looking scared and lost. We're lined up like... like merchandise. A well-dressed man walks by, looking us over. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: He grabs my arm, pulls me out of the room. The light hurts my eyes. There are other kids here too, all looking scared and lost. We're lined up like... like merchandise. A well-dressed man walks by, looking us over. I feel sick to my stomach.",
+      "Therapist: It's okay to feel this way. You're doing great."
+    ],
+    [
+      "Client: He grabs my arm, pulls me out of the room. The light hurts my eyes. There are other kids here too, all looking scared and lost. We're lined up like... like merchandise. A well-dressed man walks by, looking us over. I feel sick to my stomach.",
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: I... I can't do this anymore. It's too real. I feel like I'm back there."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: I... I can't do this anymore. It's too real. I feel like I'm back there.",
+      "Therapist: You're safe here, John. Take a moment if you need to."
+    ],
+    [
+      "Client: I... I can't do this anymore. It's too real. I feel like I'm back there.",
+      "Therapist: You're safe here, John. Take a moment if you need to.",
+      "Client: I'm sorry. I thought I could handle it, but it's overwhelming."
+    ],
+    [
+      "Therapist: You're safe here, John. Take a moment if you need to.",
+      "Client: I'm sorry. I thought I could handle it, but it's overwhelming.",
+      "Therapist: There's no need to apologize. You've shown incredible strength."
+    ],
+    [
+      "Client: I'm sorry. I thought I could handle it, but it's overwhelming.",
+      "Therapist: There's no need to apologize. You've shown incredible strength.",
+      "Client: Thank you. It's just... I've never talked about this before. I've kept it locked away for so long."
+    ],
+    [
+      "Therapist: There's no need to apologize. You've shown incredible strength.",
+      "Client: Thank you. It's just... I've never talked about this before. I've kept it locked away for so long.",
+      "Therapist: That's completely understandable. We'll take it slow."
+    ],
+    [
+      "Client: Thank you. It's just... I've never talked about this before. I've kept it locked away for so long.",
+      "Therapist: That's completely understandable. We'll take it slow.",
+      "Client: I appreciate that. It's hard to believe I survived all of that."
+    ],
+    [
+      "Therapist: That's completely understandable. We'll take it slow.",
+      "Client: I appreciate that. It's hard to believe I survived all of that.",
+      "Therapist: You did survive. You're here now, and that's remarkable."
+    ],
+    [
+      "Client: I appreciate that. It's hard to believe I survived all of that.",
+      "Therapist: You did survive. You're here now, and that's remarkable.",
+      "Client: Sometimes I wonder why I made it when so many others didn't."
+    ],
+    [
+      "Therapist: You did survive. You're here now, and that's remarkable.",
+      "Client: Sometimes I wonder why I made it when so many others didn't.",
+      "Therapist: Your resilience is extraordinary. How are you feeling now?"
+    ],
+    [
+      "Client: Sometimes I wonder why I made it when so many others didn't.",
+      "Therapist: Your resilience is extraordinary. How are you feeling now?",
+      "Client: A bit shaky, but... also relieved, in a way. Like a weight's been lifted."
+    ],
+    [
+      "Therapist: Your resilience is extraordinary. How are you feeling now?",
+      "Client: A bit shaky, but... also relieved, in a way. Like a weight's been lifted.",
+      "Therapist: That's a common feeling. You've taken a big step today."
+    ],
+    [
+      "Client: A bit shaky, but... also relieved, in a way. Like a weight's been lifted.",
+      "Therapist: That's a common feeling. You've taken a big step today.",
+      "Client: I have, haven't I? It's scary, but... I think I want to continue with this."
+    ],
+    [
+      "Therapist: That's a common feeling. You've taken a big step today.",
+      "Client: I have, haven't I? It's scary, but... I think I want to continue with this.",
+      "Therapist: We'll do it at your pace. You're in control here."
+    ],
+    [
+      "Client: I have, haven't I? It's scary, but... I think I want to continue with this.",
+      "Therapist: We'll do it at your pace. You're in control here.",
+      "Client: Thank you. I never thought I'd be able to talk about this, but somehow, it feels... necessary."
+    ],
+    [
+      "Therapist: We'll do it at your pace. You're in control here.",
+      "Client: Thank you. I never thought I'd be able to talk about this, but somehow, it feels... necessary.",
+      "Therapist: You're showing great courage. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Thank you. I never thought I'd be able to talk about this, but somehow, it feels... necessary.",
+      "Therapist: You're showing great courage. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I feel drained, but also... lighter, somehow."
+    ],
+    [
+      "Therapist: You're showing great courage. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I feel drained, but also... lighter, somehow.",
+      "Therapist: That's normal. Remember to be kind to yourself this week."
+    ],
+    [
+      "Client: Yes, I think that would be good. I feel drained, but also... lighter, somehow.",
+      "Therapist: That's normal. Remember to be kind to yourself this week.",
+      "Client: I'll try. Thank you for... for helping me through this."
+    ],
+    [
+      "Therapist: That's normal. Remember to be kind to yourself this week.",
+      "Client: I'll try. Thank you for... for helping me through this.",
+      "Therapist: You're welcome, John. I'll see you next week."
+    ]
+  ]
+}

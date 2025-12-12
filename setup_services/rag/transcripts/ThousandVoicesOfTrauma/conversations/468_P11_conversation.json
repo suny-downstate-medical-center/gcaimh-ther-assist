@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. The memory of the cyclone hitting our town... it's still so vivid. I can hear the wind howling, see the trees bending like they're made of rubber. It's intense.",
+    "Therapist: What stood out most?",
+    "Client: The sound. Definitely the sound. It was like a freight train mixed with a banshee's wail. I remember thinking, \"This is it. This is how I die.\" And then... and then I started thinking about the recent news. The police brutality cases. It's weird, I know, but my mind just went there.",
+    "Therapist: How did that connection feel?",
+    "Client: Frightening. Like, in both situations, you're completely powerless. Whether it's nature or... or people who are supposed to protect you. You're just... helpless.",
+    "Therapist: I see. What emotions came up?",
+    "Client: Anger. A lot of anger. And fear. I felt so small during the cyclone, and thinking about those brutality cases... it's the same feeling. Like the world is too big and dangerous, and I'm just... insignificant.",
+    "Therapist: How does this relate to your daily life?",
+    "Client: I guess... I'm always on edge. Always waiting for the next disaster, whether it's natural or... man-made. It's exhausting. My anxiety is through the roof most days.",
+    "Therapist: What helped you cope during the memory?",
+    "Client: I... I tried to focus on my breathing, like we practiced. It helped a little. And I kept reminding myself that I survived. I'm here now, talking about it.",
+    "Therapist: That's excellent. How does this progress feel?",
+    "Client: It's... it's something. I mean, a few weeks ago, I couldn't even think about the cyclone without having a panic attack. Now I can talk about it. It's still hard, but... it's progress, right?",
+    "Therapist: Absolutely. What's your takeaway today?",
+    "Client: I think... I'm stronger than I give myself credit for. And maybe... maybe I need to work on feeling more in control, even when things are chaotic. Is that... is that possible?",
+    "Therapist: It's a great insight. How might you start?",
+    "Client: Um... maybe by practicing more of those breathing exercises? And... and maybe learning more about emergency preparedness? I don't know, it sounds silly, but it might help me feel less helpless.",
+    "Therapist: Those are excellent ideas. Anything else?",
+    "Client: I... I think I want to talk more about the police brutality thing next time. It's not directly related to the cyclone, but it's been weighing on me. Is that okay?",
+    "Therapist: Of course. We'll address that. How are you feeling now?",
+    "Client: Tired. Really tired. But also... kind of relieved? Like I've put down a heavy backpack I've been carrying. It's a strange feeling.",
+    "Therapist: That's normal. What will you do for self-care today?",
+    "Client: I think I'll call my mom. Just hearing her voice always calms me down. And maybe take a long shower. The sound of water... it used to scare me after the cyclone, but now it's starting to feel soothing again.",
+    "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+    "Client: I just... thank you. For listening. For helping me through this. I know I have a long way to go, but... I think I'm starting to see a light at the end of the tunnel. Even if it's just a tiny pinprick right now.",
+    "Therapist: You're doing great. See you next week?",
+    "Client: Yeah, definitely. Thanks again. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. The memory of the cyclone hitting our town... it's still so vivid. I can hear the wind howling, see the trees bending like they're made of rubber. It's intense.",
+      "Therapist: What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. The memory of the cyclone hitting our town... it's still so vivid. I can hear the wind howling, see the trees bending like they're made of rubber. It's intense.",
+      "Therapist: What stood out most?",
+      "Client: The sound. Definitely the sound. It was like a freight train mixed with a banshee's wail. I remember thinking, \"This is it. This is how I die.\" And then... and then I started thinking about the recent news. The police brutality cases. It's weird, I know, but my mind just went there."
+    ],
+    [
+      "Therapist: What stood out most?",
+      "Client: The sound. Definitely the sound. It was like a freight train mixed with a banshee's wail. I remember thinking, \"This is it. This is how I die.\" And then... and then I started thinking about the recent news. The police brutality cases. It's weird, I know, but my mind just went there.",
+      "Therapist: How did that connection feel?"
+    ],
+    [
+      "Client: The sound. Definitely the sound. It was like a freight train mixed with a banshee's wail. I remember thinking, \"This is it. This is how I die.\" And then... and then I started thinking about the recent news. The police brutality cases. It's weird, I know, but my mind just went there.",
+      "Therapist: How did that connection feel?",
+      "Client: Frightening. Like, in both situations, you're completely powerless. Whether it's nature or... or people who are supposed to protect you. You're just... helpless."
+    ],
+    [
+      "Therapist: How did that connection feel?",
+      "Client: Frightening. Like, in both situations, you're completely powerless. Whether it's nature or... or people who are supposed to protect you. You're just... helpless.",
+      "Therapist: I see. What emotions came up?"
+    ],
+    [
+      "Client: Frightening. Like, in both situations, you're completely powerless. Whether it's nature or... or people who are supposed to protect you. You're just... helpless.",
+      "Therapist: I see. What emotions came up?",
+      "Client: Anger. A lot of anger. And fear. I felt so small during the cyclone, and thinking about those brutality cases... it's the same feeling. Like the world is too big and dangerous, and I'm just... insignificant."
+    ],
+    [
+      "Therapist: I see. What emotions came up?",
+      "Client: Anger. A lot of anger. And fear. I felt so small during the cyclone, and thinking about those brutality cases... it's the same feeling. Like the world is too big and dangerous, and I'm just... insignificant.",
+      "Therapist: How does this relate to your daily life?"
+    ],
+    [
+      "Client: Anger. A lot of anger. And fear. I felt so small during the cyclone, and thinking about those brutality cases... it's the same feeling. Like the world is too big and dangerous, and I'm just... insignificant.",
+      "Therapist: How does this relate to your daily life?",
+      "Client: I guess... I'm always on edge. Always waiting for the next disaster, whether it's natural or... man-made. It's exhausting. My anxiety is through the roof most days."
+    ],
+    [
+      "Therapist: How does this relate to your daily life?",
+      "Client: I guess... I'm always on edge. Always waiting for the next disaster, whether it's natural or... man-made. It's exhausting. My anxiety is through the roof most days.",
+      "Therapist: What helped you cope during the memory?"
+    ],
+    [
+      "Client: I guess... I'm always on edge. Always waiting for the next disaster, whether it's natural or... man-made. It's exhausting. My anxiety is through the roof most days.",
+      "Therapist: What helped you cope during the memory?",
+      "Client: I... I tried to focus on my breathing, like we practiced. It helped a little. And I kept reminding myself that I survived. I'm here now, talking about it."
+    ],
+    [
+      "Therapist: What helped you cope during the memory?",
+      "Client: I... I tried to focus on my breathing, like we practiced. It helped a little. And I kept reminding myself that I survived. I'm here now, talking about it.",
+      "Therapist: That's excellent. How does this progress feel?"
+    ],
+    [
+      "Client: I... I tried to focus on my breathing, like we practiced. It helped a little. And I kept reminding myself that I survived. I'm here now, talking about it.",
+      "Therapist: That's excellent. How does this progress feel?",
+      "Client: It's... it's something. I mean, a few weeks ago, I couldn't even think about the cyclone without having a panic attack. Now I can talk about it. It's still hard, but... it's progress, right?"
+    ],
+    [
+      "Therapist: That's excellent. How does this progress feel?",
+      "Client: It's... it's something. I mean, a few weeks ago, I couldn't even think about the cyclone without having a panic attack. Now I can talk about it. It's still hard, but... it's progress, right?",
+      "Therapist: Absolutely. What's your takeaway today?"
+    ],
+    [
+      "Client: It's... it's something. I mean, a few weeks ago, I couldn't even think about the cyclone without having a panic attack. Now I can talk about it. It's still hard, but... it's progress, right?",
+      "Therapist: Absolutely. What's your takeaway today?",
+      "Client: I think... I'm stronger than I give myself credit for. And maybe... maybe I need to work on feeling more in control, even when things are chaotic. Is that... is that possible?"
+    ],
+    [
+      "Therapist: Absolutely. What's your takeaway today?",
+      "Client: I think... I'm stronger than I give myself credit for. And maybe... maybe I need to work on feeling more in control, even when things are chaotic. Is that... is that possible?",
+      "Therapist: It's a great insight. How might you start?"
+    ],
+    [
+      "Client: I think... I'm stronger than I give myself credit for. And maybe... maybe I need to work on feeling more in control, even when things are chaotic. Is that... is that possible?",
+      "Therapist: It's a great insight. How might you start?",
+      "Client: Um... maybe by practicing more of those breathing exercises? And... and maybe learning more about emergency preparedness? I don't know, it sounds silly, but it might help me feel less helpless."
+    ],
+    [
+      "Therapist: It's a great insight. How might you start?",
+      "Client: Um... maybe by practicing more of those breathing exercises? And... and maybe learning more about emergency preparedness? I don't know, it sounds silly, but it might help me feel less helpless.",
+      "Therapist: Those are excellent ideas. Anything else?"
+    ],
+    [
+      "Client: Um... maybe by practicing more of those breathing exercises? And... and maybe learning more about emergency preparedness? I don't know, it sounds silly, but it might help me feel less helpless.",
+      "Therapist: Those are excellent ideas. Anything else?",
+      "Client: I... I think I want to talk more about the police brutality thing next time. It's not directly related to the cyclone, but it's been weighing on me. Is that okay?"
+    ],
+    [
+      "Therapist: Those are excellent ideas. Anything else?",
+      "Client: I... I think I want to talk more about the police brutality thing next time. It's not directly related to the cyclone, but it's been weighing on me. Is that okay?",
+      "Therapist: Of course. We'll address that. How are you feeling now?"
+    ],
+    [
+      "Client: I... I think I want to talk more about the police brutality thing next time. It's not directly related to the cyclone, but it's been weighing on me. Is that okay?",
+      "Therapist: Of course. We'll address that. How are you feeling now?",
+      "Client: Tired. Really tired. But also... kind of relieved? Like I've put down a heavy backpack I've been carrying. It's a strange feeling."
+    ],
+    [
+      "Therapist: Of course. We'll address that. How are you feeling now?",
+      "Client: Tired. Really tired. But also... kind of relieved? Like I've put down a heavy backpack I've been carrying. It's a strange feeling.",
+      "Therapist: That's normal. What will you do for self-care today?"
+    ],
+    [
+      "Client: Tired. Really tired. But also... kind of relieved? Like I've put down a heavy backpack I've been carrying. It's a strange feeling.",
+      "Therapist: That's normal. What will you do for self-care today?",
+      "Client: I think I'll call my mom. Just hearing her voice always calms me down. And maybe take a long shower. The sound of water... it used to scare me after the cyclone, but now it's starting to feel soothing again."
+    ],
+    [
+      "Therapist: That's normal. What will you do for self-care today?",
+      "Client: I think I'll call my mom. Just hearing her voice always calms me down. And maybe take a long shower. The sound of water... it used to scare me after the cyclone, but now it's starting to feel soothing again.",
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?"
+    ],
+    [
+      "Client: I think I'll call my mom. Just hearing her voice always calms me down. And maybe take a long shower. The sound of water... it used to scare me after the cyclone, but now it's starting to feel soothing again.",
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+      "Client: I just... thank you. For listening. For helping me through this. I know I have a long way to go, but... I think I'm starting to see a light at the end of the tunnel. Even if it's just a tiny pinprick right now."
+    ],
+    [
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+      "Client: I just... thank you. For listening. For helping me through this. I know I have a long way to go, but... I think I'm starting to see a light at the end of the tunnel. Even if it's just a tiny pinprick right now.",
+      "Therapist: You're doing great. See you next week?"
+    ],
+    [
+      "Client: I just... thank you. For listening. For helping me through this. I know I have a long way to go, but... I think I'm starting to see a light at the end of the tunnel. Even if it's just a tiny pinprick right now.",
+      "Therapist: You're doing great. See you next week?",
+      "Client: Yeah, definitely. Thanks again. See you next week."
+    ]
+  ]
+}

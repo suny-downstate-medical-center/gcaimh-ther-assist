@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Lee, today we'll be starting imaginal exposure. Are you ready to discuss this?",
+    "Client: I suppose so, Doctor. To be honest, I'm feeling a bit apprehensive. What exactly does imaginal exposure entail?",
+    "Therapist: It involves recounting your combat experience in detail. How are you feeling about that?",
+    "Client: Nervous, I guess. I've spent years trying not to think about those memories. The idea of deliberately bringing them up is... unsettling.",
+    "Therapist: That's understandable. How do you think this might help your PTSD symptoms?",
+    "Client: Well, I'm not entirely sure. I guess it could help me process what happened? But I'm worried it might make things worse.",
+    "Therapist: Your concerns are valid. Can you tell me more about your worries?",
+    "Client: I'm afraid I might lose control of my emotions. What if I can't handle reliving those moments? And... I'm ashamed of some things that happened. I don't know if I can face them.",
+    "Therapist: Thank you for sharing that. How can I support you during this process?",
+    "Client: I think I'd feel better if we could take breaks when needed. And maybe if you could remind me that I'm safe here, in the present. Sometimes I forget that when the memories get intense.",
+    "Therapist: Absolutely. We'll go at your pace. What else might help you feel more comfortable?",
+    "Client: Could we maybe have a code word or signal if I need to stop? And... is it okay if I bring a photo of my sister? She's always been my rock.",
+    "Therapist: Of course. Those are excellent ideas. How are you feeling now about starting?",
+    "Client: Still nervous, but a bit more prepared. I understand this is important for my recovery. It's just... it's been so long since I've allowed myself to really remember.",
+    "Therapist: Your courage is admirable. Shall we begin?",
+    "Client: Yes, I think I'm ready. Let's do this before I change my mind. Where should I start?",
+    "Therapist: Start with the day of the combat experience. Describe what you see, hear, and feel.",
+    "Client: Okay... It was early morning. The air was thick with humidity. I remember the weight of my gear, the smell of sweat and gunpowder..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Lee, today we'll be starting imaginal exposure. Are you ready to discuss this?",
+      "Client: I suppose so, Doctor. To be honest, I'm feeling a bit apprehensive. What exactly does imaginal exposure entail?",
+      "Therapist: It involves recounting your combat experience in detail. How are you feeling about that?"
+    ],
+    [
+      "Client: I suppose so, Doctor. To be honest, I'm feeling a bit apprehensive. What exactly does imaginal exposure entail?",
+      "Therapist: It involves recounting your combat experience in detail. How are you feeling about that?",
+      "Client: Nervous, I guess. I've spent years trying not to think about those memories. The idea of deliberately bringing them up is... unsettling."
+    ],
+    [
+      "Therapist: It involves recounting your combat experience in detail. How are you feeling about that?",
+      "Client: Nervous, I guess. I've spent years trying not to think about those memories. The idea of deliberately bringing them up is... unsettling.",
+      "Therapist: That's understandable. How do you think this might help your PTSD symptoms?"
+    ],
+    [
+      "Client: Nervous, I guess. I've spent years trying not to think about those memories. The idea of deliberately bringing them up is... unsettling.",
+      "Therapist: That's understandable. How do you think this might help your PTSD symptoms?",
+      "Client: Well, I'm not entirely sure. I guess it could help me process what happened? But I'm worried it might make things worse."
+    ],
+    [
+      "Therapist: That's understandable. How do you think this might help your PTSD symptoms?",
+      "Client: Well, I'm not entirely sure. I guess it could help me process what happened? But I'm worried it might make things worse.",
+      "Therapist: Your concerns are valid. Can you tell me more about your worries?"
+    ],
+    [
+      "Client: Well, I'm not entirely sure. I guess it could help me process what happened? But I'm worried it might make things worse.",
+      "Therapist: Your concerns are valid. Can you tell me more about your worries?",
+      "Client: I'm afraid I might lose control of my emotions. What if I can't handle reliving those moments? And... I'm ashamed of some things that happened. I don't know if I can face them."
+    ],
+    [
+      "Therapist: Your concerns are valid. Can you tell me more about your worries?",
+      "Client: I'm afraid I might lose control of my emotions. What if I can't handle reliving those moments? And... I'm ashamed of some things that happened. I don't know if I can face them.",
+      "Therapist: Thank you for sharing that. How can I support you during this process?"
+    ],
+    [
+      "Client: I'm afraid I might lose control of my emotions. What if I can't handle reliving those moments? And... I'm ashamed of some things that happened. I don't know if I can face them.",
+      "Therapist: Thank you for sharing that. How can I support you during this process?",
+      "Client: I think I'd feel better if we could take breaks when needed. And maybe if you could remind me that I'm safe here, in the present. Sometimes I forget that when the memories get intense."
+    ],
+    [
+      "Therapist: Thank you for sharing that. How can I support you during this process?",
+      "Client: I think I'd feel better if we could take breaks when needed. And maybe if you could remind me that I'm safe here, in the present. Sometimes I forget that when the memories get intense.",
+      "Therapist: Absolutely. We'll go at your pace. What else might help you feel more comfortable?"
+    ],
+    [
+      "Client: I think I'd feel better if we could take breaks when needed. And maybe if you could remind me that I'm safe here, in the present. Sometimes I forget that when the memories get intense.",
+      "Therapist: Absolutely. We'll go at your pace. What else might help you feel more comfortable?",
+      "Client: Could we maybe have a code word or signal if I need to stop? And... is it okay if I bring a photo of my sister? She's always been my rock."
+    ],
+    [
+      "Therapist: Absolutely. We'll go at your pace. What else might help you feel more comfortable?",
+      "Client: Could we maybe have a code word or signal if I need to stop? And... is it okay if I bring a photo of my sister? She's always been my rock.",
+      "Therapist: Of course. Those are excellent ideas. How are you feeling now about starting?"
+    ],
+    [
+      "Client: Could we maybe have a code word or signal if I need to stop? And... is it okay if I bring a photo of my sister? She's always been my rock.",
+      "Therapist: Of course. Those are excellent ideas. How are you feeling now about starting?",
+      "Client: Still nervous, but a bit more prepared. I understand this is important for my recovery. It's just... it's been so long since I've allowed myself to really remember."
+    ],
+    [
+      "Therapist: Of course. Those are excellent ideas. How are you feeling now about starting?",
+      "Client: Still nervous, but a bit more prepared. I understand this is important for my recovery. It's just... it's been so long since I've allowed myself to really remember.",
+      "Therapist: Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: Still nervous, but a bit more prepared. I understand this is important for my recovery. It's just... it's been so long since I've allowed myself to really remember.",
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Yes, I think I'm ready. Let's do this before I change my mind. Where should I start?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Yes, I think I'm ready. Let's do this before I change my mind. Where should I start?",
+      "Therapist: Start with the day of the combat experience. Describe what you see, hear, and feel."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Let's do this before I change my mind. Where should I start?",
+      "Therapist: Start with the day of the combat experience. Describe what you see, hear, and feel.",
+      "Client: Okay... It was early morning. The air was thick with humidity. I remember the weight of my gear, the smell of sweat and gunpowder..."
+    ]
+  ]
+}

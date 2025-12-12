@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Ali. How are you feeling today?",
+    "Client: I'm... I'm not sure, to be honest. A bit anxious, I suppose. I've been thinking about our last session and what you mentioned about this imaginal exposure thing. It's been on my mind all week.",
+    "Therapist: I understand. Can you tell me more about your concerns?",
+    "Client: Well, it's just... I've spent so long trying to forget about what happened during my surgery. The idea of purposely reliving it feels terrifying. I mean, I still have nightmares about it sometimes. And with everything going on with my divorce, I'm not sure I can handle more stress right now.",
+    "Therapist: Your feelings are valid. How do you think this might affect you?",
+    "Client: I'm worried I might completely fall apart. What if I can't stop crying? Or worse, what if I have a panic attack right here in your office? It's embarrassing enough talking about this stuff, let alone breaking down in front of you.",
+    "Therapist: I appreciate your honesty. How can I support you today?",
+    "Client: I don't know... Maybe just reassure me that this is actually going to help? And that you won't think less of me if I do lose it? I've always prided myself on being strong, you know. This whole process makes me feel so vulnerable.",
+    "Therapist: Your strength is evident in facing this. What questions do you have?",
+    "Client: Well, how exactly does this work? Do I just start talking about the surgery? And what happens if it gets too intense? Can I stop if I need to? I'm also wondering how this ties into my current situation with the divorce. It feels like I'm juggling too many emotional balls at once.",
+    "Therapist: Good questions. We'll go at your pace. What's your biggest concern?",
+    "Client: I guess... I'm afraid of getting stuck in those memories. What if revisiting the trauma makes my PTSD worse instead of better? And with the stress of the divorce, I'm worried this might push me over the edge. I've been having trouble sleeping and concentrating at work already.",
+    "Therapist: Your concerns are understandable. Shall we start slowly?",
+    "Client: Yes, I think that would be best. Maybe you could walk me through what to expect step by step? And if we could have some sort of signal or word I can use if I need a break, that would be really helpful. I want to try this, I really do. I'm just... scared.",
+    "Therapist: Absolutely. We'll use a safe word. How does \"pause\" sound?",
+    "Client: \"Pause\" sounds perfect. Thank you for being so patient with me. I know I'm probably making this more complicated than it needs to be. It's just... this feels like such a big step. But I trust you, and I want to get better. For myself, and for my kids. They need their dad to be strong, especially with the divorce happening.",
+    "Therapist: Your courage is admirable. Ready to begin?",
+    "Client: I think so. Yes, let's do this. I'm nervous, but I'm also hopeful. Maybe this will help me process not just the medical trauma, but also some of the emotions surrounding my divorce. I've been avoiding dealing with both, and I know that's not healthy. So... where do we start?",
+    "Therapist: Let's start with a deep breath. Close your eyes..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Ali. How are you feeling today?",
+      "Client: I'm... I'm not sure, to be honest. A bit anxious, I suppose. I've been thinking about our last session and what you mentioned about this imaginal exposure thing. It's been on my mind all week.",
+      "Therapist: I understand. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... I'm not sure, to be honest. A bit anxious, I suppose. I've been thinking about our last session and what you mentioned about this imaginal exposure thing. It's been on my mind all week.",
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my surgery. The idea of purposely reliving it feels terrifying. I mean, I still have nightmares about it sometimes. And with everything going on with my divorce, I'm not sure I can handle more stress right now."
+    ],
+    [
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my surgery. The idea of purposely reliving it feels terrifying. I mean, I still have nightmares about it sometimes. And with everything going on with my divorce, I'm not sure I can handle more stress right now.",
+      "Therapist: Your feelings are valid. How do you think this might affect you?"
+    ],
+    [
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my surgery. The idea of purposely reliving it feels terrifying. I mean, I still have nightmares about it sometimes. And with everything going on with my divorce, I'm not sure I can handle more stress right now.",
+      "Therapist: Your feelings are valid. How do you think this might affect you?",
+      "Client: I'm worried I might completely fall apart. What if I can't stop crying? Or worse, what if I have a panic attack right here in your office? It's embarrassing enough talking about this stuff, let alone breaking down in front of you."
+    ],
+    [
+      "Therapist: Your feelings are valid. How do you think this might affect you?",
+      "Client: I'm worried I might completely fall apart. What if I can't stop crying? Or worse, what if I have a panic attack right here in your office? It's embarrassing enough talking about this stuff, let alone breaking down in front of you.",
+      "Therapist: I appreciate your honesty. How can I support you today?"
+    ],
+    [
+      "Client: I'm worried I might completely fall apart. What if I can't stop crying? Or worse, what if I have a panic attack right here in your office? It's embarrassing enough talking about this stuff, let alone breaking down in front of you.",
+      "Therapist: I appreciate your honesty. How can I support you today?",
+      "Client: I don't know... Maybe just reassure me that this is actually going to help? And that you won't think less of me if I do lose it? I've always prided myself on being strong, you know. This whole process makes me feel so vulnerable."
+    ],
+    [
+      "Therapist: I appreciate your honesty. How can I support you today?",
+      "Client: I don't know... Maybe just reassure me that this is actually going to help? And that you won't think less of me if I do lose it? I've always prided myself on being strong, you know. This whole process makes me feel so vulnerable.",
+      "Therapist: Your strength is evident in facing this. What questions do you have?"
+    ],
+    [
+      "Client: I don't know... Maybe just reassure me that this is actually going to help? And that you won't think less of me if I do lose it? I've always prided myself on being strong, you know. This whole process makes me feel so vulnerable.",
+      "Therapist: Your strength is evident in facing this. What questions do you have?",
+      "Client: Well, how exactly does this work? Do I just start talking about the surgery? And what happens if it gets too intense? Can I stop if I need to? I'm also wondering how this ties into my current situation with the divorce. It feels like I'm juggling too many emotional balls at once."
+    ],
+    [
+      "Therapist: Your strength is evident in facing this. What questions do you have?",
+      "Client: Well, how exactly does this work? Do I just start talking about the surgery? And what happens if it gets too intense? Can I stop if I need to? I'm also wondering how this ties into my current situation with the divorce. It feels like I'm juggling too many emotional balls at once.",
+      "Therapist: Good questions. We'll go at your pace. What's your biggest concern?"
+    ],
+    [
+      "Client: Well, how exactly does this work? Do I just start talking about the surgery? And what happens if it gets too intense? Can I stop if I need to? I'm also wondering how this ties into my current situation with the divorce. It feels like I'm juggling too many emotional balls at once.",
+      "Therapist: Good questions. We'll go at your pace. What's your biggest concern?",
+      "Client: I guess... I'm afraid of getting stuck in those memories. What if revisiting the trauma makes my PTSD worse instead of better? And with the stress of the divorce, I'm worried this might push me over the edge. I've been having trouble sleeping and concentrating at work already."
+    ],
+    [
+      "Therapist: Good questions. We'll go at your pace. What's your biggest concern?",
+      "Client: I guess... I'm afraid of getting stuck in those memories. What if revisiting the trauma makes my PTSD worse instead of better? And with the stress of the divorce, I'm worried this might push me over the edge. I've been having trouble sleeping and concentrating at work already.",
+      "Therapist: Your concerns are understandable. Shall we start slowly?"
+    ],
+    [
+      "Client: I guess... I'm afraid of getting stuck in those memories. What if revisiting the trauma makes my PTSD worse instead of better? And with the stress of the divorce, I'm worried this might push me over the edge. I've been having trouble sleeping and concentrating at work already.",
+      "Therapist: Your concerns are understandable. Shall we start slowly?",
+      "Client: Yes, I think that would be best. Maybe you could walk me through what to expect step by step? And if we could have some sort of signal or word I can use if I need a break, that would be really helpful. I want to try this, I really do. I'm just... scared."
+    ],
+    [
+      "Therapist: Your concerns are understandable. Shall we start slowly?",
+      "Client: Yes, I think that would be best. Maybe you could walk me through what to expect step by step? And if we could have some sort of signal or word I can use if I need a break, that would be really helpful. I want to try this, I really do. I'm just... scared.",
+      "Therapist: Absolutely. We'll use a safe word. How does \"pause\" sound?"
+    ],
+    [
+      "Client: Yes, I think that would be best. Maybe you could walk me through what to expect step by step? And if we could have some sort of signal or word I can use if I need a break, that would be really helpful. I want to try this, I really do. I'm just... scared.",
+      "Therapist: Absolutely. We'll use a safe word. How does \"pause\" sound?",
+      "Client: \"Pause\" sounds perfect. Thank you for being so patient with me. I know I'm probably making this more complicated than it needs to be. It's just... this feels like such a big step. But I trust you, and I want to get better. For myself, and for my kids. They need their dad to be strong, especially with the divorce happening."
+    ],
+    [
+      "Therapist: Absolutely. We'll use a safe word. How does \"pause\" sound?",
+      "Client: \"Pause\" sounds perfect. Thank you for being so patient with me. I know I'm probably making this more complicated than it needs to be. It's just... this feels like such a big step. But I trust you, and I want to get better. For myself, and for my kids. They need their dad to be strong, especially with the divorce happening.",
+      "Therapist: Your courage is admirable. Ready to begin?"
+    ],
+    [
+      "Client: \"Pause\" sounds perfect. Thank you for being so patient with me. I know I'm probably making this more complicated than it needs to be. It's just... this feels like such a big step. But I trust you, and I want to get better. For myself, and for my kids. They need their dad to be strong, especially with the divorce happening.",
+      "Therapist: Your courage is admirable. Ready to begin?",
+      "Client: I think so. Yes, let's do this. I'm nervous, but I'm also hopeful. Maybe this will help me process not just the medical trauma, but also some of the emotions surrounding my divorce. I've been avoiding dealing with both, and I know that's not healthy. So... where do we start?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Ready to begin?",
+      "Client: I think so. Yes, let's do this. I'm nervous, but I'm also hopeful. Maybe this will help me process not just the medical trauma, but also some of the emotions surrounding my divorce. I've been avoiding dealing with both, and I know that's not healthy. So... where do we start?",
+      "Therapist: Let's start with a deep breath. Close your eyes..."
+    ]
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after today's imaginal exposure, Mr. Khalil?",
+    "Client: I... I'm not quite sure. It's a mix of emotions, really. Going through that memory of my time in the cult... it's intense. I feel drained, but also... I don't know, maybe a bit lighter? It's hard to explain.",
+    "Therapist: Mm-hmm. What stood out to you most?",
+    "Client: The sense of isolation, I think. Remembering how cut off I felt from the outside world, from my family... It's overwhelming. I could almost feel the walls of that compound closing in on me again. And the constant fear of disappointing the leader... it's like a weight on my chest.",
+    "Therapist: How does that compare to your everyday life now?",
+    "Client: Well, I... I guess I still struggle with feeling isolated sometimes. Even though I'm living with my family now, there are moments when I feel like no one really understands what I've been through. And that fear of disappointing others? It's still there, just... different. Less intense, but it affects my work, my relationships.",
+    "Therapist: I see. How did it feel to share that memory today?",
+    "Client: Terrifying at first. My heart was racing, and I thought I might have a panic attack. But as I kept going, it... it got a bit easier. By the end, I felt like I could breathe a little better. Is that normal?",
+    "Therapist: Yes, that's a common experience. What do you make of that?",
+    "Client: I suppose it's... progress? Maybe facing these memories head-on is helping me process them better. It's still difficult, but I'm starting to see that I can get through it without falling apart completely.",
+    "Therapist: That's an important insight. How might this relate to your recovery goals?",
+    "Client: I think... maybe it's showing me that I'm stronger than I thought. My goal has been to feel more in control of my life, to not let the past dictate my present. And today, even though it was hard, I felt like I had some control over the memory, instead of it controlling me.",
+    "Therapist: Excellent observation. What strategies helped you today?",
+    "Client: The breathing exercises we practiced definitely helped. And reminding myself that I'm safe now, that it's just a memory... that was crucial. Oh, and focusing on sensory details \u2013 it kept me grounded somehow.",
+    "Therapist: Those are valuable tools. How do you feel about continuing this work?",
+    "Client: It's... scary, honestly. But I also feel a glimmer of hope. Like maybe, just maybe, I can work through this and come out stronger on the other side. I want to keep going, even though it's tough.",
+    "Therapist: Your commitment is admirable. Any final thoughts?",
+    "Client: I... I just want to thank you. For guiding me through this, for being patient. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in years, I feel like there might be light at the end of this very dark tunnel.",
+    "Therapist: You're doing great work, Mr. Khalil. See you next week?",
+    "Client: Yes, definitely. Thank you again. I'll be here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after today's imaginal exposure, Mr. Khalil?",
+      "Client: I... I'm not quite sure. It's a mix of emotions, really. Going through that memory of my time in the cult... it's intense. I feel drained, but also... I don't know, maybe a bit lighter? It's hard to explain.",
+      "Therapist: Mm-hmm. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not quite sure. It's a mix of emotions, really. Going through that memory of my time in the cult... it's intense. I feel drained, but also... I don't know, maybe a bit lighter? It's hard to explain.",
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The sense of isolation, I think. Remembering how cut off I felt from the outside world, from my family... It's overwhelming. I could almost feel the walls of that compound closing in on me again. And the constant fear of disappointing the leader... it's like a weight on my chest."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The sense of isolation, I think. Remembering how cut off I felt from the outside world, from my family... It's overwhelming. I could almost feel the walls of that compound closing in on me again. And the constant fear of disappointing the leader... it's like a weight on my chest.",
+      "Therapist: How does that compare to your everyday life now?"
+    ],
+    [
+      "Client: The sense of isolation, I think. Remembering how cut off I felt from the outside world, from my family... It's overwhelming. I could almost feel the walls of that compound closing in on me again. And the constant fear of disappointing the leader... it's like a weight on my chest.",
+      "Therapist: How does that compare to your everyday life now?",
+      "Client: Well, I... I guess I still struggle with feeling isolated sometimes. Even though I'm living with my family now, there are moments when I feel like no one really understands what I've been through. And that fear of disappointing others? It's still there, just... different. Less intense, but it affects my work, my relationships."
+    ],
+    [
+      "Therapist: How does that compare to your everyday life now?",
+      "Client: Well, I... I guess I still struggle with feeling isolated sometimes. Even though I'm living with my family now, there are moments when I feel like no one really understands what I've been through. And that fear of disappointing others? It's still there, just... different. Less intense, but it affects my work, my relationships.",
+      "Therapist: I see. How did it feel to share that memory today?"
+    ],
+    [
+      "Client: Well, I... I guess I still struggle with feeling isolated sometimes. Even though I'm living with my family now, there are moments when I feel like no one really understands what I've been through. And that fear of disappointing others? It's still there, just... different. Less intense, but it affects my work, my relationships.",
+      "Therapist: I see. How did it feel to share that memory today?",
+      "Client: Terrifying at first. My heart was racing, and I thought I might have a panic attack. But as I kept going, it... it got a bit easier. By the end, I felt like I could breathe a little better. Is that normal?"
+    ],
+    [
+      "Therapist: I see. How did it feel to share that memory today?",
+      "Client: Terrifying at first. My heart was racing, and I thought I might have a panic attack. But as I kept going, it... it got a bit easier. By the end, I felt like I could breathe a little better. Is that normal?",
+      "Therapist: Yes, that's a common experience. What do you make of that?"
+    ],
+    [
+      "Client: Terrifying at first. My heart was racing, and I thought I might have a panic attack. But as I kept going, it... it got a bit easier. By the end, I felt like I could breathe a little better. Is that normal?",
+      "Therapist: Yes, that's a common experience. What do you make of that?",
+      "Client: I suppose it's... progress? Maybe facing these memories head-on is helping me process them better. It's still difficult, but I'm starting to see that I can get through it without falling apart completely."
+    ],
+    [
+      "Therapist: Yes, that's a common experience. What do you make of that?",
+      "Client: I suppose it's... progress? Maybe facing these memories head-on is helping me process them better. It's still difficult, but I'm starting to see that I can get through it without falling apart completely.",
+      "Therapist: That's an important insight. How might this relate to your recovery goals?"
+    ],
+    [
+      "Client: I suppose it's... progress? Maybe facing these memories head-on is helping me process them better. It's still difficult, but I'm starting to see that I can get through it without falling apart completely.",
+      "Therapist: That's an important insight. How might this relate to your recovery goals?",
+      "Client: I think... maybe it's showing me that I'm stronger than I thought. My goal has been to feel more in control of my life, to not let the past dictate my present. And today, even though it was hard, I felt like I had some control over the memory, instead of it controlling me."
+    ],
+    [
+      "Therapist: That's an important insight. How might this relate to your recovery goals?",
+      "Client: I think... maybe it's showing me that I'm stronger than I thought. My goal has been to feel more in control of my life, to not let the past dictate my present. And today, even though it was hard, I felt like I had some control over the memory, instead of it controlling me.",
+      "Therapist: Excellent observation. What strategies helped you today?"
+    ],
+    [
+      "Client: I think... maybe it's showing me that I'm stronger than I thought. My goal has been to feel more in control of my life, to not let the past dictate my present. And today, even though it was hard, I felt like I had some control over the memory, instead of it controlling me.",
+      "Therapist: Excellent observation. What strategies helped you today?",
+      "Client: The breathing exercises we practiced definitely helped. And reminding myself that I'm safe now, that it's just a memory... that was crucial. Oh, and focusing on sensory details \u2013 it kept me grounded somehow."
+    ],
+    [
+      "Therapist: Excellent observation. What strategies helped you today?",
+      "Client: The breathing exercises we practiced definitely helped. And reminding myself that I'm safe now, that it's just a memory... that was crucial. Oh, and focusing on sensory details \u2013 it kept me grounded somehow.",
+      "Therapist: Those are valuable tools. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: The breathing exercises we practiced definitely helped. And reminding myself that I'm safe now, that it's just a memory... that was crucial. Oh, and focusing on sensory details \u2013 it kept me grounded somehow.",
+      "Therapist: Those are valuable tools. How do you feel about continuing this work?",
+      "Client: It's... scary, honestly. But I also feel a glimmer of hope. Like maybe, just maybe, I can work through this and come out stronger on the other side. I want to keep going, even though it's tough."
+    ],
+    [
+      "Therapist: Those are valuable tools. How do you feel about continuing this work?",
+      "Client: It's... scary, honestly. But I also feel a glimmer of hope. Like maybe, just maybe, I can work through this and come out stronger on the other side. I want to keep going, even though it's tough.",
+      "Therapist: Your commitment is admirable. Any final thoughts?"
+    ],
+    [
+      "Client: It's... scary, honestly. But I also feel a glimmer of hope. Like maybe, just maybe, I can work through this and come out stronger on the other side. I want to keep going, even though it's tough.",
+      "Therapist: Your commitment is admirable. Any final thoughts?",
+      "Client: I... I just want to thank you. For guiding me through this, for being patient. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in years, I feel like there might be light at the end of this very dark tunnel."
+    ],
+    [
+      "Therapist: Your commitment is admirable. Any final thoughts?",
+      "Client: I... I just want to thank you. For guiding me through this, for being patient. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in years, I feel like there might be light at the end of this very dark tunnel.",
+      "Therapist: You're doing great work, Mr. Khalil. See you next week?"
+    ],
+    [
+      "Client: I... I just want to thank you. For guiding me through this, for being patient. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in years, I feel like there might be light at the end of this very dark tunnel.",
+      "Therapist: You're doing great work, Mr. Khalil. See you next week?",
+      "Client: Yes, definitely. Thank you again. I'll be here."
+    ]
+  ]
+}

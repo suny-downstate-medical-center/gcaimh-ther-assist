@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mrs. Johnson. How are you feeling today?",
+    "Client: Oh, hello Dr. Smith. I'm... I'm a bit nervous, to be honest. I know we're going to talk about that night again, and it's never easy.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: Okay... okay. I was in my old house, the one I lived in before moving to assisted living. It was late, maybe around 11 PM. I was getting ready for bed, had just finished my nightly cup of tea...",
+    "Therapist: Good. Stay with that memory.",
+    "Client: I heard a noise. At first, I thought it was just the house settling, you know? But then there was another noise, louder this time. It sounded like... like glass breaking. I froze. I couldn't move. I just sat there in my armchair, my heart pounding so hard I thought it might burst out of my chest.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I... I wanted to call for help, but my phone was in the kitchen. I was trapped in the living room. I heard footsteps, heavy ones. A man's voice, rough and angry, saying something to someone else. There were at least two of them. I felt so helpless, so scared...",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: I... I can't... It's too much. I feel like I'm back there again. My hands are shaking...",
+    "Therapist: Take a moment. Breathe. You're here with me.",
+    "Client: *deep breath* Okay... okay. I remember thinking about my late husband, wishing he was there to protect me. But he wasn't, and I felt so alone. The intruders, they came into the living room. I tried to make myself as small as possible in my chair, hoping they wouldn't see me in the dark.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: One of them saw me. He yelled, \"Hey! We've got company!\" I was terrified. I thought... I thought they might kill me. The other one turned on the light, and I saw their faces. They were young, probably in their twenties. One had a tattoo on his neck, the other had a scar above his eye.",
+    "Therapist: You're doing great. These details are important.",
+    "Client: They started ransacking the place, throwing things around, demanding to know where I kept my valuables. I couldn't speak, I was so scared. One of them grabbed my arm, shook me hard. It hurt so much. I thought my arm would break. I started crying, begging them not to hurt me.",
+    "Therapist: It's okay. You're safe here. Continue when you're ready.",
+    "Client: I... I told them where my jewelry box was, where I kept some cash. They took everything. But it wasn't enough for them. They kept yelling, asking for more. I didn't have anything else to give them. I felt so helpless, so violated. My home, my safe place, it wasn't safe anymore.",
+    "Therapist: You're doing incredibly well. How are you feeling right now?",
+    "Client: I feel... drained. Scared. But also... I don't know. Maybe a little stronger? It's hard to explain.",
+    "Therapist: That's normal. You're processing difficult emotions.",
+    "Client: Thank you. It's still hard to talk about, but... maybe it's getting a little easier? I don't know. I just know I don't want to feel like a victim forever.",
+    "Therapist: That's a powerful realization. We'll work through this together.",
+    "Client: I appreciate that, Dr. Smith. I really do. It helps to know I'm not alone in this anymore.",
+    "Therapist: You're not. Let's end here for today. You did excellent work.",
+    "Client: Thank you. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mrs. Johnson. How are you feeling today?",
+      "Client: Oh, hello Dr. Smith. I'm... I'm a bit nervous, to be honest. I know we're going to talk about that night again, and it's never easy.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Oh, hello Dr. Smith. I'm... I'm a bit nervous, to be honest. I know we're going to talk about that night again, and it's never easy.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... okay. I was in my old house, the one I lived in before moving to assisted living. It was late, maybe around 11 PM. I was getting ready for bed, had just finished my nightly cup of tea..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... okay. I was in my old house, the one I lived in before moving to assisted living. It was late, maybe around 11 PM. I was getting ready for bed, had just finished my nightly cup of tea...",
+      "Therapist: Good. Stay with that memory."
+    ],
+    [
+      "Client: Okay... okay. I was in my old house, the one I lived in before moving to assisted living. It was late, maybe around 11 PM. I was getting ready for bed, had just finished my nightly cup of tea...",
+      "Therapist: Good. Stay with that memory.",
+      "Client: I heard a noise. At first, I thought it was just the house settling, you know? But then there was another noise, louder this time. It sounded like... like glass breaking. I froze. I couldn't move. I just sat there in my armchair, my heart pounding so hard I thought it might burst out of my chest."
+    ],
+    [
+      "Therapist: Good. Stay with that memory.",
+      "Client: I heard a noise. At first, I thought it was just the house settling, you know? But then there was another noise, louder this time. It sounded like... like glass breaking. I froze. I couldn't move. I just sat there in my armchair, my heart pounding so hard I thought it might burst out of my chest.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: I heard a noise. At first, I thought it was just the house settling, you know? But then there was another noise, louder this time. It sounded like... like glass breaking. I froze. I couldn't move. I just sat there in my armchair, my heart pounding so hard I thought it might burst out of my chest.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I wanted to call for help, but my phone was in the kitchen. I was trapped in the living room. I heard footsteps, heavy ones. A man's voice, rough and angry, saying something to someone else. There were at least two of them. I felt so helpless, so scared..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I wanted to call for help, but my phone was in the kitchen. I was trapped in the living room. I heard footsteps, heavy ones. A man's voice, rough and angry, saying something to someone else. There were at least two of them. I felt so helpless, so scared...",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: I... I wanted to call for help, but my phone was in the kitchen. I was trapped in the living room. I heard footsteps, heavy ones. A man's voice, rough and angry, saying something to someone else. There were at least two of them. I felt so helpless, so scared...",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't... It's too much. I feel like I'm back there again. My hands are shaking..."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't... It's too much. I feel like I'm back there again. My hands are shaking...",
+      "Therapist: Take a moment. Breathe. You're here with me."
+    ],
+    [
+      "Client: I... I can't... It's too much. I feel like I'm back there again. My hands are shaking...",
+      "Therapist: Take a moment. Breathe. You're here with me.",
+      "Client: *deep breath* Okay... okay. I remember thinking about my late husband, wishing he was there to protect me. But he wasn't, and I felt so alone. The intruders, they came into the living room. I tried to make myself as small as possible in my chair, hoping they wouldn't see me in the dark."
+    ],
+    [
+      "Therapist: Take a moment. Breathe. You're here with me.",
+      "Client: *deep breath* Okay... okay. I remember thinking about my late husband, wishing he was there to protect me. But he wasn't, and I felt so alone. The intruders, they came into the living room. I tried to make myself as small as possible in my chair, hoping they wouldn't see me in the dark.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: *deep breath* Okay... okay. I remember thinking about my late husband, wishing he was there to protect me. But he wasn't, and I felt so alone. The intruders, they came into the living room. I tried to make myself as small as possible in my chair, hoping they wouldn't see me in the dark.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: One of them saw me. He yelled, \"Hey! We've got company!\" I was terrified. I thought... I thought they might kill me. The other one turned on the light, and I saw their faces. They were young, probably in their twenties. One had a tattoo on his neck, the other had a scar above his eye."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: One of them saw me. He yelled, \"Hey! We've got company!\" I was terrified. I thought... I thought they might kill me. The other one turned on the light, and I saw their faces. They were young, probably in their twenties. One had a tattoo on his neck, the other had a scar above his eye.",
+      "Therapist: You're doing great. These details are important."
+    ],
+    [
+      "Client: One of them saw me. He yelled, \"Hey! We've got company!\" I was terrified. I thought... I thought they might kill me. The other one turned on the light, and I saw their faces. They were young, probably in their twenties. One had a tattoo on his neck, the other had a scar above his eye.",
+      "Therapist: You're doing great. These details are important.",
+      "Client: They started ransacking the place, throwing things around, demanding to know where I kept my valuables. I couldn't speak, I was so scared. One of them grabbed my arm, shook me hard. It hurt so much. I thought my arm would break. I started crying, begging them not to hurt me."
+    ],
+    [
+      "Therapist: You're doing great. These details are important.",
+      "Client: They started ransacking the place, throwing things around, demanding to know where I kept my valuables. I couldn't speak, I was so scared. One of them grabbed my arm, shook me hard. It hurt so much. I thought my arm would break. I started crying, begging them not to hurt me.",
+      "Therapist: It's okay. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: They started ransacking the place, throwing things around, demanding to know where I kept my valuables. I couldn't speak, I was so scared. One of them grabbed my arm, shook me hard. It hurt so much. I thought my arm would break. I started crying, begging them not to hurt me.",
+      "Therapist: It's okay. You're safe here. Continue when you're ready.",
+      "Client: I... I told them where my jewelry box was, where I kept some cash. They took everything. But it wasn't enough for them. They kept yelling, asking for more. I didn't have anything else to give them. I felt so helpless, so violated. My home, my safe place, it wasn't safe anymore."
+    ],
+    [
+      "Therapist: It's okay. You're safe here. Continue when you're ready.",
+      "Client: I... I told them where my jewelry box was, where I kept some cash. They took everything. But it wasn't enough for them. They kept yelling, asking for more. I didn't have anything else to give them. I felt so helpless, so violated. My home, my safe place, it wasn't safe anymore.",
+      "Therapist: You're doing incredibly well. How are you feeling right now?"
+    ],
+    [
+      "Client: I... I told them where my jewelry box was, where I kept some cash. They took everything. But it wasn't enough for them. They kept yelling, asking for more. I didn't have anything else to give them. I felt so helpless, so violated. My home, my safe place, it wasn't safe anymore.",
+      "Therapist: You're doing incredibly well. How are you feeling right now?",
+      "Client: I feel... drained. Scared. But also... I don't know. Maybe a little stronger? It's hard to explain."
+    ],
+    [
+      "Therapist: You're doing incredibly well. How are you feeling right now?",
+      "Client: I feel... drained. Scared. But also... I don't know. Maybe a little stronger? It's hard to explain.",
+      "Therapist: That's normal. You're processing difficult emotions."
+    ],
+    [
+      "Client: I feel... drained. Scared. But also... I don't know. Maybe a little stronger? It's hard to explain.",
+      "Therapist: That's normal. You're processing difficult emotions.",
+      "Client: Thank you. It's still hard to talk about, but... maybe it's getting a little easier? I don't know. I just know I don't want to feel like a victim forever."
+    ],
+    [
+      "Therapist: That's normal. You're processing difficult emotions.",
+      "Client: Thank you. It's still hard to talk about, but... maybe it's getting a little easier? I don't know. I just know I don't want to feel like a victim forever.",
+      "Therapist: That's a powerful realization. We'll work through this together."
+    ],
+    [
+      "Client: Thank you. It's still hard to talk about, but... maybe it's getting a little easier? I don't know. I just know I don't want to feel like a victim forever.",
+      "Therapist: That's a powerful realization. We'll work through this together.",
+      "Client: I appreciate that, Dr. Smith. I really do. It helps to know I'm not alone in this anymore."
+    ],
+    [
+      "Therapist: That's a powerful realization. We'll work through this together.",
+      "Client: I appreciate that, Dr. Smith. I really do. It helps to know I'm not alone in this anymore.",
+      "Therapist: You're not. Let's end here for today. You did excellent work."
+    ],
+    [
+      "Client: I appreciate that, Dr. Smith. I really do. It helps to know I'm not alone in this anymore.",
+      "Therapist: You're not. Let's end here for today. You did excellent work.",
+      "Client: Thank you. I'll see you next week."
+    ]
+  ]
+}

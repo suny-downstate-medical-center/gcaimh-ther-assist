@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Karim. How are you feeling today?",
+    "Client: I'm... I'm not sure, to be honest. I've been feeling quite anxious about this session. The idea of revisiting that hostage situation... it's making my heart race just thinking about it.",
+    "Therapist: That's understandable. Today, we'll begin imaginal exposure. Are you ready to discuss it?",
+    "Client: I suppose so. But I'm scared. What exactly will this involve?",
+    "Therapist: It's a process where you'll recount the traumatic event in detail. How does that sound to you?",
+    "Client: Terrifying, actually. I've spent years trying to forget that day. Why do I need to relive it?",
+    "Therapist: Facing the memory can help reduce its power over you. What are your thoughts on that?",
+    "Client: I see the logic, but... it's overwhelming. Will I be able to handle it? I'm not as young as I used to be, and with my drinking history...",
+    "Therapist: Your concerns are valid. We'll go at your pace. How does that reassurance feel?",
+    "Client: A little better, I guess. But what if I panic? Or what if it makes things worse instead of better?",
+    "Therapist: We have strategies in place if you feel overwhelmed. Would you like to hear about them?",
+    "Client: Yes, please. I need to know there's a safety net. This whole thing feels like I'm about to jump off a cliff.",
+    "Therapist: We can use grounding techniques or take breaks. How does that sound?",
+    "Client: That's somewhat comforting. But will this really help with my nightmares and flashbacks?",
+    "Therapist: Many find it reduces symptoms over time. What are your hopes for this process?",
+    "Client: I hope to finally feel... free. To not be haunted by those memories anymore. To sleep through the night without waking up in a cold sweat. To be able to go to the bank without feeling like I'm back in that situation again.",
+    "Therapist: Those are excellent goals. Shall we start with a brief relaxation exercise?",
+    "Client: Yes, I think that would help. My hands are shaking a bit. It's strange, I've faced so much in my life - immigrating to a new country, building a career, raising a family - and yet this feels like the scariest thing I've ever done.",
+    "Therapist: Your courage is admirable. Ready to begin the breathing exercise?",
+    "Client: Okay, I'm ready. Just... please don't leave me alone in this, okay?",
+    "Therapist: I'll be right here with you. Let's start. Take a deep breath..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Karim. How are you feeling today?",
+      "Client: I'm... I'm not sure, to be honest. I've been feeling quite anxious about this session. The idea of revisiting that hostage situation... it's making my heart race just thinking about it.",
+      "Therapist: That's understandable. Today, we'll begin imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: I'm... I'm not sure, to be honest. I've been feeling quite anxious about this session. The idea of revisiting that hostage situation... it's making my heart race just thinking about it.",
+      "Therapist: That's understandable. Today, we'll begin imaginal exposure. Are you ready to discuss it?",
+      "Client: I suppose so. But I'm scared. What exactly will this involve?"
+    ],
+    [
+      "Therapist: That's understandable. Today, we'll begin imaginal exposure. Are you ready to discuss it?",
+      "Client: I suppose so. But I'm scared. What exactly will this involve?",
+      "Therapist: It's a process where you'll recount the traumatic event in detail. How does that sound to you?"
+    ],
+    [
+      "Client: I suppose so. But I'm scared. What exactly will this involve?",
+      "Therapist: It's a process where you'll recount the traumatic event in detail. How does that sound to you?",
+      "Client: Terrifying, actually. I've spent years trying to forget that day. Why do I need to relive it?"
+    ],
+    [
+      "Therapist: It's a process where you'll recount the traumatic event in detail. How does that sound to you?",
+      "Client: Terrifying, actually. I've spent years trying to forget that day. Why do I need to relive it?",
+      "Therapist: Facing the memory can help reduce its power over you. What are your thoughts on that?"
+    ],
+    [
+      "Client: Terrifying, actually. I've spent years trying to forget that day. Why do I need to relive it?",
+      "Therapist: Facing the memory can help reduce its power over you. What are your thoughts on that?",
+      "Client: I see the logic, but... it's overwhelming. Will I be able to handle it? I'm not as young as I used to be, and with my drinking history..."
+    ],
+    [
+      "Therapist: Facing the memory can help reduce its power over you. What are your thoughts on that?",
+      "Client: I see the logic, but... it's overwhelming. Will I be able to handle it? I'm not as young as I used to be, and with my drinking history...",
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that reassurance feel?"
+    ],
+    [
+      "Client: I see the logic, but... it's overwhelming. Will I be able to handle it? I'm not as young as I used to be, and with my drinking history...",
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that reassurance feel?",
+      "Client: A little better, I guess. But what if I panic? Or what if it makes things worse instead of better?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace. How does that reassurance feel?",
+      "Client: A little better, I guess. But what if I panic? Or what if it makes things worse instead of better?",
+      "Therapist: We have strategies in place if you feel overwhelmed. Would you like to hear about them?"
+    ],
+    [
+      "Client: A little better, I guess. But what if I panic? Or what if it makes things worse instead of better?",
+      "Therapist: We have strategies in place if you feel overwhelmed. Would you like to hear about them?",
+      "Client: Yes, please. I need to know there's a safety net. This whole thing feels like I'm about to jump off a cliff."
+    ],
+    [
+      "Therapist: We have strategies in place if you feel overwhelmed. Would you like to hear about them?",
+      "Client: Yes, please. I need to know there's a safety net. This whole thing feels like I'm about to jump off a cliff.",
+      "Therapist: We can use grounding techniques or take breaks. How does that sound?"
+    ],
+    [
+      "Client: Yes, please. I need to know there's a safety net. This whole thing feels like I'm about to jump off a cliff.",
+      "Therapist: We can use grounding techniques or take breaks. How does that sound?",
+      "Client: That's somewhat comforting. But will this really help with my nightmares and flashbacks?"
+    ],
+    [
+      "Therapist: We can use grounding techniques or take breaks. How does that sound?",
+      "Client: That's somewhat comforting. But will this really help with my nightmares and flashbacks?",
+      "Therapist: Many find it reduces symptoms over time. What are your hopes for this process?"
+    ],
+    [
+      "Client: That's somewhat comforting. But will this really help with my nightmares and flashbacks?",
+      "Therapist: Many find it reduces symptoms over time. What are your hopes for this process?",
+      "Client: I hope to finally feel... free. To not be haunted by those memories anymore. To sleep through the night without waking up in a cold sweat. To be able to go to the bank without feeling like I'm back in that situation again."
+    ],
+    [
+      "Therapist: Many find it reduces symptoms over time. What are your hopes for this process?",
+      "Client: I hope to finally feel... free. To not be haunted by those memories anymore. To sleep through the night without waking up in a cold sweat. To be able to go to the bank without feeling like I'm back in that situation again.",
+      "Therapist: Those are excellent goals. Shall we start with a brief relaxation exercise?"
+    ],
+    [
+      "Client: I hope to finally feel... free. To not be haunted by those memories anymore. To sleep through the night without waking up in a cold sweat. To be able to go to the bank without feeling like I'm back in that situation again.",
+      "Therapist: Those are excellent goals. Shall we start with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. My hands are shaking a bit. It's strange, I've faced so much in my life - immigrating to a new country, building a career, raising a family - and yet this feels like the scariest thing I've ever done."
+    ],
+    [
+      "Therapist: Those are excellent goals. Shall we start with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. My hands are shaking a bit. It's strange, I've faced so much in my life - immigrating to a new country, building a career, raising a family - and yet this feels like the scariest thing I've ever done.",
+      "Therapist: Your courage is admirable. Ready to begin the breathing exercise?"
+    ],
+    [
+      "Client: Yes, I think that would help. My hands are shaking a bit. It's strange, I've faced so much in my life - immigrating to a new country, building a career, raising a family - and yet this feels like the scariest thing I've ever done.",
+      "Therapist: Your courage is admirable. Ready to begin the breathing exercise?",
+      "Client: Okay, I'm ready. Just... please don't leave me alone in this, okay?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Ready to begin the breathing exercise?",
+      "Client: Okay, I'm ready. Just... please don't leave me alone in this, okay?",
+      "Therapist: I'll be right here with you. Let's start. Take a deep breath..."
+    ]
+  ]
+}

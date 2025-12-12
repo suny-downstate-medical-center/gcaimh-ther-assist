@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Johnson?",
+    "Client: I... I'm not sure, to be honest. It's a lot to process. Reliving Sarah's death, even in my mind, it's... it's overwhelming. I can still hear the phone ringing, you know? That awful moment when I knew something was wrong.",
+    "Therapist: What stood out to you most?",
+    "Client: The silence. After I hung up the phone, there was this... deafening silence. I remember thinking, \"This can't be real.\" But it was. And then... then came the flood of emotions. Grief, anger, disbelief. It's like I was drowning.",
+    "Therapist: How did it feel to revisit that memory today?",
+    "Client: It was... hard. Really hard. But, um, different from before. I noticed I could breathe through it this time. Still painful, but... I didn't feel as overwhelmed as I used to. Is that... is that progress?",
+    "Therapist: It certainly can be. What else did you notice?",
+    "Client: I... I realized how much I've been avoiding anything that reminds me of Sarah. Even happy memories. It's like I've been trying to erase her from my life to avoid the pain. But doing that... it's almost like losing her all over again.",
+    "Therapist: That's an important insight. How does that realization make you feel?",
+    "Client: Guilty, I guess. And sad. But also... maybe a little hopeful? Like maybe I can find a way to remember her without falling apart. I don't know if that makes sense.",
+    "Therapist: It does. How might this affect your day-to-day life?",
+    "Client: I... I think I might try looking at some old photos. Maybe talk to the grandkids about her. They're always asking, and I've been shutting them down. It's not fair to them... or to Sarah's memory.",
+    "Therapist: That sounds like a meaningful step. Any concerns about trying that?",
+    "Client: Yeah, I'm... I'm worried it might be too much. What if I start crying and can't stop? The kids might get scared. And... and there's this fear that if I start remembering, I'll never be able to think about anything else.",
+    "Therapist: Those are valid concerns. How might you address them?",
+    "Client: Well, I... I could start small, maybe? Look at one photo a day. And... and maybe tell my daughter what I'm trying to do, so she can be there if I need support with the kids. Is that... is that okay?",
+    "Therapist: That sounds like a thoughtful approach. How else can you prepare?",
+    "Client: I could... use some of those breathing exercises we've practiced? And maybe set a specific time to look at photos, so I'm not caught off guard. And I could journal after, to process my feelings.",
+    "Therapist: Excellent strategies. How do you feel about your progress?",
+    "Client: It's... it's strange. Part of me feels stronger, like I'm finally facing this. But another part is terrified. It's like I'm standing on the edge of something big, and I'm not sure if I'm ready to jump. But... but I think I need to try.",
+    "Therapist: That's a powerful metaphor. What gives you the courage to try?",
+    "Client: I... I guess it's the thought of Sarah. She always encouraged me to be brave. And... and I want to honor her memory. Plus, I'm tired of feeling stuck. I want to be there for my family again, you know?",
+    "Therapist: That's a strong motivation. How can we build on this in our next session?",
+    "Client: Maybe... maybe we could talk more about ways to incorporate Sarah's memory into my life positively? And... and perhaps discuss how to handle it if I do get overwhelmed when looking at photos or talking about her?",
+    "Therapist: Those are excellent suggestions. Anything else you'd like to add?",
+    "Client: I... I just want to say thank you. This isn't easy, but... but I feel like I'm finally moving forward. It's scary, but... but it feels right. I'm... I'm grateful for your help.",
+    "Therapist: You're doing the hard work. How would you like to close our session?",
+    "Client: I think... I think I'd like to take a few deep breaths. Center myself before I leave. And maybe... maybe make a plan for which photo I'll look at first when I get home. Is that okay?",
+    "Therapist: Absolutely. Let's do that together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Johnson?",
+      "Client: I... I'm not sure, to be honest. It's a lot to process. Reliving Sarah's death, even in my mind, it's... it's overwhelming. I can still hear the phone ringing, you know? That awful moment when I knew something was wrong.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure, to be honest. It's a lot to process. Reliving Sarah's death, even in my mind, it's... it's overwhelming. I can still hear the phone ringing, you know? That awful moment when I knew something was wrong.",
+      "Therapist: What stood out to you most?",
+      "Client: The silence. After I hung up the phone, there was this... deafening silence. I remember thinking, \"This can't be real.\" But it was. And then... then came the flood of emotions. Grief, anger, disbelief. It's like I was drowning."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The silence. After I hung up the phone, there was this... deafening silence. I remember thinking, \"This can't be real.\" But it was. And then... then came the flood of emotions. Grief, anger, disbelief. It's like I was drowning.",
+      "Therapist: How did it feel to revisit that memory today?"
+    ],
+    [
+      "Client: The silence. After I hung up the phone, there was this... deafening silence. I remember thinking, \"This can't be real.\" But it was. And then... then came the flood of emotions. Grief, anger, disbelief. It's like I was drowning.",
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... hard. Really hard. But, um, different from before. I noticed I could breathe through it this time. Still painful, but... I didn't feel as overwhelmed as I used to. Is that... is that progress?"
+    ],
+    [
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... hard. Really hard. But, um, different from before. I noticed I could breathe through it this time. Still painful, but... I didn't feel as overwhelmed as I used to. Is that... is that progress?",
+      "Therapist: It certainly can be. What else did you notice?"
+    ],
+    [
+      "Client: It was... hard. Really hard. But, um, different from before. I noticed I could breathe through it this time. Still painful, but... I didn't feel as overwhelmed as I used to. Is that... is that progress?",
+      "Therapist: It certainly can be. What else did you notice?",
+      "Client: I... I realized how much I've been avoiding anything that reminds me of Sarah. Even happy memories. It's like I've been trying to erase her from my life to avoid the pain. But doing that... it's almost like losing her all over again."
+    ],
+    [
+      "Therapist: It certainly can be. What else did you notice?",
+      "Client: I... I realized how much I've been avoiding anything that reminds me of Sarah. Even happy memories. It's like I've been trying to erase her from my life to avoid the pain. But doing that... it's almost like losing her all over again.",
+      "Therapist: That's an important insight. How does that realization make you feel?"
+    ],
+    [
+      "Client: I... I realized how much I've been avoiding anything that reminds me of Sarah. Even happy memories. It's like I've been trying to erase her from my life to avoid the pain. But doing that... it's almost like losing her all over again.",
+      "Therapist: That's an important insight. How does that realization make you feel?",
+      "Client: Guilty, I guess. And sad. But also... maybe a little hopeful? Like maybe I can find a way to remember her without falling apart. I don't know if that makes sense."
+    ],
+    [
+      "Therapist: That's an important insight. How does that realization make you feel?",
+      "Client: Guilty, I guess. And sad. But also... maybe a little hopeful? Like maybe I can find a way to remember her without falling apart. I don't know if that makes sense.",
+      "Therapist: It does. How might this affect your day-to-day life?"
+    ],
+    [
+      "Client: Guilty, I guess. And sad. But also... maybe a little hopeful? Like maybe I can find a way to remember her without falling apart. I don't know if that makes sense.",
+      "Therapist: It does. How might this affect your day-to-day life?",
+      "Client: I... I think I might try looking at some old photos. Maybe talk to the grandkids about her. They're always asking, and I've been shutting them down. It's not fair to them... or to Sarah's memory."
+    ],
+    [
+      "Therapist: It does. How might this affect your day-to-day life?",
+      "Client: I... I think I might try looking at some old photos. Maybe talk to the grandkids about her. They're always asking, and I've been shutting them down. It's not fair to them... or to Sarah's memory.",
+      "Therapist: That sounds like a meaningful step. Any concerns about trying that?"
+    ],
+    [
+      "Client: I... I think I might try looking at some old photos. Maybe talk to the grandkids about her. They're always asking, and I've been shutting them down. It's not fair to them... or to Sarah's memory.",
+      "Therapist: That sounds like a meaningful step. Any concerns about trying that?",
+      "Client: Yeah, I'm... I'm worried it might be too much. What if I start crying and can't stop? The kids might get scared. And... and there's this fear that if I start remembering, I'll never be able to think about anything else."
+    ],
+    [
+      "Therapist: That sounds like a meaningful step. Any concerns about trying that?",
+      "Client: Yeah, I'm... I'm worried it might be too much. What if I start crying and can't stop? The kids might get scared. And... and there's this fear that if I start remembering, I'll never be able to think about anything else.",
+      "Therapist: Those are valid concerns. How might you address them?"
+    ],
+    [
+      "Client: Yeah, I'm... I'm worried it might be too much. What if I start crying and can't stop? The kids might get scared. And... and there's this fear that if I start remembering, I'll never be able to think about anything else.",
+      "Therapist: Those are valid concerns. How might you address them?",
+      "Client: Well, I... I could start small, maybe? Look at one photo a day. And... and maybe tell my daughter what I'm trying to do, so she can be there if I need support with the kids. Is that... is that okay?"
+    ],
+    [
+      "Therapist: Those are valid concerns. How might you address them?",
+      "Client: Well, I... I could start small, maybe? Look at one photo a day. And... and maybe tell my daughter what I'm trying to do, so she can be there if I need support with the kids. Is that... is that okay?",
+      "Therapist: That sounds like a thoughtful approach. How else can you prepare?"
+    ],
+    [
+      "Client: Well, I... I could start small, maybe? Look at one photo a day. And... and maybe tell my daughter what I'm trying to do, so she can be there if I need support with the kids. Is that... is that okay?",
+      "Therapist: That sounds like a thoughtful approach. How else can you prepare?",
+      "Client: I could... use some of those breathing exercises we've practiced? And maybe set a specific time to look at photos, so I'm not caught off guard. And I could journal after, to process my feelings."
+    ],
+    [
+      "Therapist: That sounds like a thoughtful approach. How else can you prepare?",
+      "Client: I could... use some of those breathing exercises we've practiced? And maybe set a specific time to look at photos, so I'm not caught off guard. And I could journal after, to process my feelings.",
+      "Therapist: Excellent strategies. How do you feel about your progress?"
+    ],
+    [
+      "Client: I could... use some of those breathing exercises we've practiced? And maybe set a specific time to look at photos, so I'm not caught off guard. And I could journal after, to process my feelings.",
+      "Therapist: Excellent strategies. How do you feel about your progress?",
+      "Client: It's... it's strange. Part of me feels stronger, like I'm finally facing this. But another part is terrified. It's like I'm standing on the edge of something big, and I'm not sure if I'm ready to jump. But... but I think I need to try."
+    ],
+    [
+      "Therapist: Excellent strategies. How do you feel about your progress?",
+      "Client: It's... it's strange. Part of me feels stronger, like I'm finally facing this. But another part is terrified. It's like I'm standing on the edge of something big, and I'm not sure if I'm ready to jump. But... but I think I need to try.",
+      "Therapist: That's a powerful metaphor. What gives you the courage to try?"
+    ],
+    [
+      "Client: It's... it's strange. Part of me feels stronger, like I'm finally facing this. But another part is terrified. It's like I'm standing on the edge of something big, and I'm not sure if I'm ready to jump. But... but I think I need to try.",
+      "Therapist: That's a powerful metaphor. What gives you the courage to try?",
+      "Client: I... I guess it's the thought of Sarah. She always encouraged me to be brave. And... and I want to honor her memory. Plus, I'm tired of feeling stuck. I want to be there for my family again, you know?"
+    ],
+    [
+      "Therapist: That's a powerful metaphor. What gives you the courage to try?",
+      "Client: I... I guess it's the thought of Sarah. She always encouraged me to be brave. And... and I want to honor her memory. Plus, I'm tired of feeling stuck. I want to be there for my family again, you know?",
+      "Therapist: That's a strong motivation. How can we build on this in our next session?"
+    ],
+    [
+      "Client: I... I guess it's the thought of Sarah. She always encouraged me to be brave. And... and I want to honor her memory. Plus, I'm tired of feeling stuck. I want to be there for my family again, you know?",
+      "Therapist: That's a strong motivation. How can we build on this in our next session?",
+      "Client: Maybe... maybe we could talk more about ways to incorporate Sarah's memory into my life positively? And... and perhaps discuss how to handle it if I do get overwhelmed when looking at photos or talking about her?"
+    ],
+    [
+      "Therapist: That's a strong motivation. How can we build on this in our next session?",
+      "Client: Maybe... maybe we could talk more about ways to incorporate Sarah's memory into my life positively? And... and perhaps discuss how to handle it if I do get overwhelmed when looking at photos or talking about her?",
+      "Therapist: Those are excellent suggestions. Anything else you'd like to add?"
+    ],
+    [
+      "Client: Maybe... maybe we could talk more about ways to incorporate Sarah's memory into my life positively? And... and perhaps discuss how to handle it if I do get overwhelmed when looking at photos or talking about her?",
+      "Therapist: Those are excellent suggestions. Anything else you'd like to add?",
+      "Client: I... I just want to say thank you. This isn't easy, but... but I feel like I'm finally moving forward. It's scary, but... but it feels right. I'm... I'm grateful for your help."
+    ],
+    [
+      "Therapist: Those are excellent suggestions. Anything else you'd like to add?",
+      "Client: I... I just want to say thank you. This isn't easy, but... but I feel like I'm finally moving forward. It's scary, but... but it feels right. I'm... I'm grateful for your help.",
+      "Therapist: You're doing the hard work. How would you like to close our session?"
+    ],
+    [
+      "Client: I... I just want to say thank you. This isn't easy, but... but I feel like I'm finally moving forward. It's scary, but... but it feels right. I'm... I'm grateful for your help.",
+      "Therapist: You're doing the hard work. How would you like to close our session?",
+      "Client: I think... I think I'd like to take a few deep breaths. Center myself before I leave. And maybe... maybe make a plan for which photo I'll look at first when I get home. Is that okay?"
+    ],
+    [
+      "Therapist: You're doing the hard work. How would you like to close our session?",
+      "Client: I think... I think I'd like to take a few deep breaths. Center myself before I leave. And maybe... maybe make a plan for which photo I'll look at first when I get home. Is that okay?",
+      "Therapist: Absolutely. Let's do that together."
+    ]
+  ]
+}

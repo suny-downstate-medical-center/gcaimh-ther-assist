@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel like I can't catch my breath. The memories... they felt so real, like I was right back there in the middle of it all.",
+    "Therapist: Take a deep breath. What's coming up for you now?",
+    "Client: It's... it's the smell. The acrid smell of smoke and gunpowder. I can still smell it, you know? And the sounds... the constant barrage of explosions and gunfire. It's like it's all happening around me again. I keep seeing flashes of light, and my body feels tense, ready to react at any moment.",
+    "Therapist: How does your body feel as you remember these sensations?",
+    "Client: My muscles are so tight, especially in my shoulders and jaw. I feel this knot in my stomach, and my hands are clammy. It's like my body's stuck in fight-or-flight mode, even though I know I'm safe here. I just can't seem to relax.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: I keep thinking... \"Why me? Why did I survive when others didn't?\" There's this overwhelming sense of guilt. And then there's anger, too. Anger at the situation, at the people who put us there, at myself for not being able to do more. It's all mixed up with this intense fear that something bad is going to happen at any moment.",
+    "Therapist: How do these thoughts and feelings connect to your daily life?",
+    "Client: They... they're always there, lurking in the background. It's why I've struggled to hold down a job or maintain relationships. I'm constantly on edge, waiting for something terrible to happen. And when things get tough, I turn to substances to numb it all. It's like I'm still fighting a war, but now it's inside my head.",
+    "Therapist: What do you notice about sharing this now?",
+    "Client: It's... it's hard, but there's also a sense of relief. Like I'm not carrying this burden alone anymore. I've never really talked about it in such detail before. It's scary, but also... I don't know, maybe a bit liberating? I've kept it bottled up for so long, afraid of what people might think or how they'd react.",
+    "Therapist: How does this experience compare to your expectations?",
+    "Client: I... I thought it would be worse, honestly. I was terrified of reliving those moments, afraid I might completely fall apart. But while it's definitely intense and uncomfortable, I'm still here, still talking. It's almost like... like facing it head-on makes it a little less scary. Don't get me wrong, it's still awful, but maybe not as all-consuming as I feared.",
+    "Therapist: What do you think this means for your recovery?",
+    "Client: I... I'm not sure. Part of me feels a glimmer of hope, like maybe I can learn to live with these memories without them controlling me. But another part is scared. What if it gets worse before it gets better? What if I can't handle it? And then there's the guilt again - do I even deserve to feel better when so many others didn't make it back?",
+    "Therapist: How would you like to move forward from here?",
+    "Client: I... I think I want to keep going. It's terrifying, and I know it's going to be hard, but for the first time in a long time, I feel like there might be a way through this. Maybe if I can face these memories, really process them, I can start to rebuild my life. I want to be able to have relationships, to work, to just... live without constantly looking over my shoulder or numbing myself with substances.",
+    "Therapist: What support do you need to continue this journey?",
+    "Client: I think... I think I need more sessions like this. A safe space to explore these memories and feelings. And maybe... maybe some help with the substance use too. It's been my crutch for so long, but I'm starting to see how it's holding me back. I also think I need to learn some techniques to manage the anxiety and flashbacks when they come up outside of therapy.",
+    "Therapist: How are you feeling now, as we wrap up?",
+    "Client: I'm exhausted, to be honest. Emotionally and physically drained. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for years. I'm scared about what comes next, but I also feel a tiny bit stronger. It's confusing, all these mixed emotions. I just hope I can hold onto this feeling that maybe, just maybe, things can get better.",
+    "Therapist: Thank you for sharing. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel like I can't catch my breath. The memories... they felt so real, like I was right back there in the middle of it all.",
+      "Therapist: Take a deep breath. What's coming up for you now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel like I can't catch my breath. The memories... they felt so real, like I was right back there in the middle of it all.",
+      "Therapist: Take a deep breath. What's coming up for you now?",
+      "Client: It's... it's the smell. The acrid smell of smoke and gunpowder. I can still smell it, you know? And the sounds... the constant barrage of explosions and gunfire. It's like it's all happening around me again. I keep seeing flashes of light, and my body feels tense, ready to react at any moment."
+    ],
+    [
+      "Therapist: Take a deep breath. What's coming up for you now?",
+      "Client: It's... it's the smell. The acrid smell of smoke and gunpowder. I can still smell it, you know? And the sounds... the constant barrage of explosions and gunfire. It's like it's all happening around me again. I keep seeing flashes of light, and my body feels tense, ready to react at any moment.",
+      "Therapist: How does your body feel as you remember these sensations?"
+    ],
+    [
+      "Client: It's... it's the smell. The acrid smell of smoke and gunpowder. I can still smell it, you know? And the sounds... the constant barrage of explosions and gunfire. It's like it's all happening around me again. I keep seeing flashes of light, and my body feels tense, ready to react at any moment.",
+      "Therapist: How does your body feel as you remember these sensations?",
+      "Client: My muscles are so tight, especially in my shoulders and jaw. I feel this knot in my stomach, and my hands are clammy. It's like my body's stuck in fight-or-flight mode, even though I know I'm safe here. I just can't seem to relax."
+    ],
+    [
+      "Therapist: How does your body feel as you remember these sensations?",
+      "Client: My muscles are so tight, especially in my shoulders and jaw. I feel this knot in my stomach, and my hands are clammy. It's like my body's stuck in fight-or-flight mode, even though I know I'm safe here. I just can't seem to relax.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: My muscles are so tight, especially in my shoulders and jaw. I feel this knot in my stomach, and my hands are clammy. It's like my body's stuck in fight-or-flight mode, even though I know I'm safe here. I just can't seem to relax.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking... \"Why me? Why did I survive when others didn't?\" There's this overwhelming sense of guilt. And then there's anger, too. Anger at the situation, at the people who put us there, at myself for not being able to do more. It's all mixed up with this intense fear that something bad is going to happen at any moment."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking... \"Why me? Why did I survive when others didn't?\" There's this overwhelming sense of guilt. And then there's anger, too. Anger at the situation, at the people who put us there, at myself for not being able to do more. It's all mixed up with this intense fear that something bad is going to happen at any moment.",
+      "Therapist: How do these thoughts and feelings connect to your daily life?"
+    ],
+    [
+      "Client: I keep thinking... \"Why me? Why did I survive when others didn't?\" There's this overwhelming sense of guilt. And then there's anger, too. Anger at the situation, at the people who put us there, at myself for not being able to do more. It's all mixed up with this intense fear that something bad is going to happen at any moment.",
+      "Therapist: How do these thoughts and feelings connect to your daily life?",
+      "Client: They... they're always there, lurking in the background. It's why I've struggled to hold down a job or maintain relationships. I'm constantly on edge, waiting for something terrible to happen. And when things get tough, I turn to substances to numb it all. It's like I'm still fighting a war, but now it's inside my head."
+    ],
+    [
+      "Therapist: How do these thoughts and feelings connect to your daily life?",
+      "Client: They... they're always there, lurking in the background. It's why I've struggled to hold down a job or maintain relationships. I'm constantly on edge, waiting for something terrible to happen. And when things get tough, I turn to substances to numb it all. It's like I'm still fighting a war, but now it's inside my head.",
+      "Therapist: What do you notice about sharing this now?"
+    ],
+    [
+      "Client: They... they're always there, lurking in the background. It's why I've struggled to hold down a job or maintain relationships. I'm constantly on edge, waiting for something terrible to happen. And when things get tough, I turn to substances to numb it all. It's like I'm still fighting a war, but now it's inside my head.",
+      "Therapist: What do you notice about sharing this now?",
+      "Client: It's... it's hard, but there's also a sense of relief. Like I'm not carrying this burden alone anymore. I've never really talked about it in such detail before. It's scary, but also... I don't know, maybe a bit liberating? I've kept it bottled up for so long, afraid of what people might think or how they'd react."
+    ],
+    [
+      "Therapist: What do you notice about sharing this now?",
+      "Client: It's... it's hard, but there's also a sense of relief. Like I'm not carrying this burden alone anymore. I've never really talked about it in such detail before. It's scary, but also... I don't know, maybe a bit liberating? I've kept it bottled up for so long, afraid of what people might think or how they'd react.",
+      "Therapist: How does this experience compare to your expectations?"
+    ],
+    [
+      "Client: It's... it's hard, but there's also a sense of relief. Like I'm not carrying this burden alone anymore. I've never really talked about it in such detail before. It's scary, but also... I don't know, maybe a bit liberating? I've kept it bottled up for so long, afraid of what people might think or how they'd react.",
+      "Therapist: How does this experience compare to your expectations?",
+      "Client: I... I thought it would be worse, honestly. I was terrified of reliving those moments, afraid I might completely fall apart. But while it's definitely intense and uncomfortable, I'm still here, still talking. It's almost like... like facing it head-on makes it a little less scary. Don't get me wrong, it's still awful, but maybe not as all-consuming as I feared."
+    ],
+    [
+      "Therapist: How does this experience compare to your expectations?",
+      "Client: I... I thought it would be worse, honestly. I was terrified of reliving those moments, afraid I might completely fall apart. But while it's definitely intense and uncomfortable, I'm still here, still talking. It's almost like... like facing it head-on makes it a little less scary. Don't get me wrong, it's still awful, but maybe not as all-consuming as I feared.",
+      "Therapist: What do you think this means for your recovery?"
+    ],
+    [
+      "Client: I... I thought it would be worse, honestly. I was terrified of reliving those moments, afraid I might completely fall apart. But while it's definitely intense and uncomfortable, I'm still here, still talking. It's almost like... like facing it head-on makes it a little less scary. Don't get me wrong, it's still awful, but maybe not as all-consuming as I feared.",
+      "Therapist: What do you think this means for your recovery?",
+      "Client: I... I'm not sure. Part of me feels a glimmer of hope, like maybe I can learn to live with these memories without them controlling me. But another part is scared. What if it gets worse before it gets better? What if I can't handle it? And then there's the guilt again - do I even deserve to feel better when so many others didn't make it back?"
+    ],
+    [
+      "Therapist: What do you think this means for your recovery?",
+      "Client: I... I'm not sure. Part of me feels a glimmer of hope, like maybe I can learn to live with these memories without them controlling me. But another part is scared. What if it gets worse before it gets better? What if I can't handle it? And then there's the guilt again - do I even deserve to feel better when so many others didn't make it back?",
+      "Therapist: How would you like to move forward from here?"
+    ],
+    [
+      "Client: I... I'm not sure. Part of me feels a glimmer of hope, like maybe I can learn to live with these memories without them controlling me. But another part is scared. What if it gets worse before it gets better? What if I can't handle it? And then there's the guilt again - do I even deserve to feel better when so many others didn't make it back?",
+      "Therapist: How would you like to move forward from here?",
+      "Client: I... I think I want to keep going. It's terrifying, and I know it's going to be hard, but for the first time in a long time, I feel like there might be a way through this. Maybe if I can face these memories, really process them, I can start to rebuild my life. I want to be able to have relationships, to work, to just... live without constantly looking over my shoulder or numbing myself with substances."
+    ],
+    [
+      "Therapist: How would you like to move forward from here?",
+      "Client: I... I think I want to keep going. It's terrifying, and I know it's going to be hard, but for the first time in a long time, I feel like there might be a way through this. Maybe if I can face these memories, really process them, I can start to rebuild my life. I want to be able to have relationships, to work, to just... live without constantly looking over my shoulder or numbing myself with substances.",
+      "Therapist: What support do you need to continue this journey?"
+    ],
+    [
+      "Client: I... I think I want to keep going. It's terrifying, and I know it's going to be hard, but for the first time in a long time, I feel like there might be a way through this. Maybe if I can face these memories, really process them, I can start to rebuild my life. I want to be able to have relationships, to work, to just... live without constantly looking over my shoulder or numbing myself with substances.",
+      "Therapist: What support do you need to continue this journey?",
+      "Client: I think... I think I need more sessions like this. A safe space to explore these memories and feelings. And maybe... maybe some help with the substance use too. It's been my crutch for so long, but I'm starting to see how it's holding me back. I also think I need to learn some techniques to manage the anxiety and flashbacks when they come up outside of therapy."
+    ],
+    [
+      "Therapist: What support do you need to continue this journey?",
+      "Client: I think... I think I need more sessions like this. A safe space to explore these memories and feelings. And maybe... maybe some help with the substance use too. It's been my crutch for so long, but I'm starting to see how it's holding me back. I also think I need to learn some techniques to manage the anxiety and flashbacks when they come up outside of therapy.",
+      "Therapist: How are you feeling now, as we wrap up?"
+    ],
+    [
+      "Client: I think... I think I need more sessions like this. A safe space to explore these memories and feelings. And maybe... maybe some help with the substance use too. It's been my crutch for so long, but I'm starting to see how it's holding me back. I also think I need to learn some techniques to manage the anxiety and flashbacks when they come up outside of therapy.",
+      "Therapist: How are you feeling now, as we wrap up?",
+      "Client: I'm exhausted, to be honest. Emotionally and physically drained. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for years. I'm scared about what comes next, but I also feel a tiny bit stronger. It's confusing, all these mixed emotions. I just hope I can hold onto this feeling that maybe, just maybe, things can get better."
+    ],
+    [
+      "Therapist: How are you feeling now, as we wrap up?",
+      "Client: I'm exhausted, to be honest. Emotionally and physically drained. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for years. I'm scared about what comes next, but I also feel a tiny bit stronger. It's confusing, all these mixed emotions. I just hope I can hold onto this feeling that maybe, just maybe, things can get better.",
+      "Therapist: Thank you for sharing. We'll continue next session."
+    ]
+  ]
+}

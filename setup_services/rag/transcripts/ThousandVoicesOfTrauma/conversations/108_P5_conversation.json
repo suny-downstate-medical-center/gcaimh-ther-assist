@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Today, we'll begin imaginal exposure. How are you feeling about that?",
+    "Client: I'm... not sure. To be honest, I'm a bit nervous. The idea of revisiting that hostage situation makes my stomach churn. I've spent years trying to forget it, you know?",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will bring back all those intense feelings of fear and helplessness. I remember the cold metal of the gun pressed against my temple, the smell of sweat and fear in the air. It's like... it's like I'm right back there sometimes. I don't want to lose control or break down in front of you.",
+    "Therapist: Your feelings are valid. How do you think revisiting might help?",
+    "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. I've managed to keep it locked away for so long. It feels like opening Pandora's box.",
+    "Therapist: That's a good analogy. What do you hope to gain from this?",
+    "Client: I guess... I want to feel normal again. To not jump at every loud noise or feel paranoid in crowded places. To sleep through the night without waking up in a cold sweat. Maybe... maybe facing it head-on could help me regain some control?",
+    "Therapist: Exactly. How can I support you during this process?",
+    "Client: I think... I might need frequent breaks. And maybe some reassurance that I'm safe here. It's silly, I know, but sometimes I forget where I am when I start thinking about it. Oh, and... could you maybe sit where I can see the door? It makes me feel more secure.",
+    "Therapist: Of course. Anything else you'd like to know?",
+    "Client: Yes, actually. What if... what if I can't go through with it? What if it's too much and I just... shut down? I don't want to disappoint you or waste your time.",
+    "Therapist: Your well-being comes first. We'll go at your pace.",
+    "Client: That's... that's reassuring. Thank you. I appreciate your patience with me. It's not easy, you know, being a middle-aged man and feeling so... vulnerable. But I'm willing to try. For my family, for myself. I want to be present again, not constantly looking over my shoulder.",
+    "Therapist: Your courage is admirable. Shall we begin?",
+    "Client: Okay. Yes, let's do this. I'm as ready as I'll ever be, I suppose. Just... just promise me you won't judge me for whatever comes out, alright? Some of the things I did or didn't do during that situation... they still haunt me."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Today, we'll begin imaginal exposure. How are you feeling about that?",
+      "Client: I'm... not sure. To be honest, I'm a bit nervous. The idea of revisiting that hostage situation makes my stomach churn. I've spent years trying to forget it, you know?",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... not sure. To be honest, I'm a bit nervous. The idea of revisiting that hostage situation makes my stomach churn. I've spent years trying to forget it, you know?",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those intense feelings of fear and helplessness. I remember the cold metal of the gun pressed against my temple, the smell of sweat and fear in the air. It's like... it's like I'm right back there sometimes. I don't want to lose control or break down in front of you."
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those intense feelings of fear and helplessness. I remember the cold metal of the gun pressed against my temple, the smell of sweat and fear in the air. It's like... it's like I'm right back there sometimes. I don't want to lose control or break down in front of you.",
+      "Therapist: Your feelings are valid. How do you think revisiting might help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will bring back all those intense feelings of fear and helplessness. I remember the cold metal of the gun pressed against my temple, the smell of sweat and fear in the air. It's like... it's like I'm right back there sometimes. I don't want to lose control or break down in front of you.",
+      "Therapist: Your feelings are valid. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. I've managed to keep it locked away for so long. It feels like opening Pandora's box."
+    ],
+    [
+      "Therapist: Your feelings are valid. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. I've managed to keep it locked away for so long. It feels like opening Pandora's box.",
+      "Therapist: That's a good analogy. What do you hope to gain from this?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. I've managed to keep it locked away for so long. It feels like opening Pandora's box.",
+      "Therapist: That's a good analogy. What do you hope to gain from this?",
+      "Client: I guess... I want to feel normal again. To not jump at every loud noise or feel paranoid in crowded places. To sleep through the night without waking up in a cold sweat. Maybe... maybe facing it head-on could help me regain some control?"
+    ],
+    [
+      "Therapist: That's a good analogy. What do you hope to gain from this?",
+      "Client: I guess... I want to feel normal again. To not jump at every loud noise or feel paranoid in crowded places. To sleep through the night without waking up in a cold sweat. Maybe... maybe facing it head-on could help me regain some control?",
+      "Therapist: Exactly. How can I support you during this process?"
+    ],
+    [
+      "Client: I guess... I want to feel normal again. To not jump at every loud noise or feel paranoid in crowded places. To sleep through the night without waking up in a cold sweat. Maybe... maybe facing it head-on could help me regain some control?",
+      "Therapist: Exactly. How can I support you during this process?",
+      "Client: I think... I might need frequent breaks. And maybe some reassurance that I'm safe here. It's silly, I know, but sometimes I forget where I am when I start thinking about it. Oh, and... could you maybe sit where I can see the door? It makes me feel more secure."
+    ],
+    [
+      "Therapist: Exactly. How can I support you during this process?",
+      "Client: I think... I might need frequent breaks. And maybe some reassurance that I'm safe here. It's silly, I know, but sometimes I forget where I am when I start thinking about it. Oh, and... could you maybe sit where I can see the door? It makes me feel more secure.",
+      "Therapist: Of course. Anything else you'd like to know?"
+    ],
+    [
+      "Client: I think... I might need frequent breaks. And maybe some reassurance that I'm safe here. It's silly, I know, but sometimes I forget where I am when I start thinking about it. Oh, and... could you maybe sit where I can see the door? It makes me feel more secure.",
+      "Therapist: Of course. Anything else you'd like to know?",
+      "Client: Yes, actually. What if... what if I can't go through with it? What if it's too much and I just... shut down? I don't want to disappoint you or waste your time."
+    ],
+    [
+      "Therapist: Of course. Anything else you'd like to know?",
+      "Client: Yes, actually. What if... what if I can't go through with it? What if it's too much and I just... shut down? I don't want to disappoint you or waste your time.",
+      "Therapist: Your well-being comes first. We'll go at your pace."
+    ],
+    [
+      "Client: Yes, actually. What if... what if I can't go through with it? What if it's too much and I just... shut down? I don't want to disappoint you or waste your time.",
+      "Therapist: Your well-being comes first. We'll go at your pace.",
+      "Client: That's... that's reassuring. Thank you. I appreciate your patience with me. It's not easy, you know, being a middle-aged man and feeling so... vulnerable. But I'm willing to try. For my family, for myself. I want to be present again, not constantly looking over my shoulder."
+    ],
+    [
+      "Therapist: Your well-being comes first. We'll go at your pace.",
+      "Client: That's... that's reassuring. Thank you. I appreciate your patience with me. It's not easy, you know, being a middle-aged man and feeling so... vulnerable. But I'm willing to try. For my family, for myself. I want to be present again, not constantly looking over my shoulder.",
+      "Therapist: Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: That's... that's reassuring. Thank you. I appreciate your patience with me. It's not easy, you know, being a middle-aged man and feeling so... vulnerable. But I'm willing to try. For my family, for myself. I want to be present again, not constantly looking over my shoulder.",
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Okay. Yes, let's do this. I'm as ready as I'll ever be, I suppose. Just... just promise me you won't judge me for whatever comes out, alright? Some of the things I did or didn't do during that situation... they still haunt me."
+    ]
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin the imaginal exposure. Can you describe the animal attack and tell me your initial SUDS rating?",
+    "Client: Okay... I was hiking in the bush near my home in Tasmania. It was a sunny day, and I remember feeling at peace. Suddenly, I heard a growl behind me. When I turned, I saw a Tasmanian devil, much larger than I expected. Its teeth were bared, and it lunged at me. I... I froze. My heart started racing, and I couldn't breathe. I think my SUDS is about a 6 right now, just talking about it.",
+    "Therapist: Thank you. Let's continue. What happened next?",
+    "Client: The devil attacked my leg, biting and clawing. The pain was excruciating, and I could feel its teeth tearing through my skin. I screamed, but there was no one around to help. I tried to kick it off, but it was so strong. I... I can feel my heart racing now, just like it did then. My palms are sweating, and I'm feeling dizzy.",
+    "Therapist: I understand. What's your SUDS now?",
+    "Client: It's... it's up to an 8. This feels so real, like I'm back there again.",
+    "Therapist: You're doing well. Keep going. What happened after that?",
+    "Client: I managed to grab a nearby stick and hit the devil repeatedly until it finally let go. But I was bleeding badly, and I was terrified it would attack again. I stumbled away, trying to find help. My leg was throbbing, and I could barely walk. I kept looking over my shoulder, scared it would come back. I... I can almost smell the blood and dirt now.",
+    "Therapist: How are you feeling? SUDS?",
+    "Client: It's still an 8. My chest feels tight, and I'm shaking a bit.",
+    "Therapist: That's normal. You're safe here. Continue when you're ready.",
+    "Client: I somehow made it to a clearing where some tourists found me. They called for help, and I was airlifted to a hospital. But even in the helicopter, I couldn't shake the fear. I kept thinking about what would have happened if I hadn't found help. The pain was horrible, but the fear was worse. I... I still have nightmares about it sometimes.",
+    "Therapist: You're doing great. SUDS now?",
+    "Client: It's... it's down to a 7. Talking about being rescued helps a bit.",
+    "Therapist: Good. How did you feel in the days after?",
+    "Client: I was a mess. I couldn't sleep without reliving the attack. Every little noise made me jump. I felt so vulnerable and weak. The physical pain was bad, but the emotional toll was worse. I started avoiding going outside, even in my own backyard. I felt like a prisoner in my own home.",
+    "Therapist: That sounds challenging. Current SUDS?",
+    "Client: It's back up to an 8. Remembering those days after is almost as bad as the attack itself.",
+    "Therapist: You're handling this well. What helped you cope?",
+    "Client: My partner was incredibly supportive. They helped me with my physical recovery and encouraged me to seek therapy. Slowly, I started venturing outside again, but it was hard. I still get anxious in bushland areas. But I'm trying to reclaim my life, you know?",
+    "Therapist: That's commendable. How are you feeling now?",
+    "Client: I'm... I'm actually feeling a bit better. My SUDS is down to a 6. Talking about recovery gives me some hope.",
+    "Therapist: That's great progress. Let's wrap up. Any final thoughts?",
+    "Client: It's still hard, but I'm glad I'm working through this. I want to enjoy nature again without this fear. It's exhausting, but I feel like I'm making progress, even if it's slow.",
+    "Therapist: Thank you for sharing. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin the imaginal exposure. Can you describe the animal attack and tell me your initial SUDS rating?",
+      "Client: Okay... I was hiking in the bush near my home in Tasmania. It was a sunny day, and I remember feeling at peace. Suddenly, I heard a growl behind me. When I turned, I saw a Tasmanian devil, much larger than I expected. Its teeth were bared, and it lunged at me. I... I froze. My heart started racing, and I couldn't breathe. I think my SUDS is about a 6 right now, just talking about it.",
+      "Therapist: Thank you. Let's continue. What happened next?"
+    ],
+    [
+      "Client: Okay... I was hiking in the bush near my home in Tasmania. It was a sunny day, and I remember feeling at peace. Suddenly, I heard a growl behind me. When I turned, I saw a Tasmanian devil, much larger than I expected. Its teeth were bared, and it lunged at me. I... I froze. My heart started racing, and I couldn't breathe. I think my SUDS is about a 6 right now, just talking about it.",
+      "Therapist: Thank you. Let's continue. What happened next?",
+      "Client: The devil attacked my leg, biting and clawing. The pain was excruciating, and I could feel its teeth tearing through my skin. I screamed, but there was no one around to help. I tried to kick it off, but it was so strong. I... I can feel my heart racing now, just like it did then. My palms are sweating, and I'm feeling dizzy."
+    ],
+    [
+      "Therapist: Thank you. Let's continue. What happened next?",
+      "Client: The devil attacked my leg, biting and clawing. The pain was excruciating, and I could feel its teeth tearing through my skin. I screamed, but there was no one around to help. I tried to kick it off, but it was so strong. I... I can feel my heart racing now, just like it did then. My palms are sweating, and I'm feeling dizzy.",
+      "Therapist: I understand. What's your SUDS now?"
+    ],
+    [
+      "Client: The devil attacked my leg, biting and clawing. The pain was excruciating, and I could feel its teeth tearing through my skin. I screamed, but there was no one around to help. I tried to kick it off, but it was so strong. I... I can feel my heart racing now, just like it did then. My palms are sweating, and I'm feeling dizzy.",
+      "Therapist: I understand. What's your SUDS now?",
+      "Client: It's... it's up to an 8. This feels so real, like I'm back there again."
+    ],
+    [
+      "Therapist: I understand. What's your SUDS now?",
+      "Client: It's... it's up to an 8. This feels so real, like I'm back there again.",
+      "Therapist: You're doing well. Keep going. What happened after that?"
+    ],
+    [
+      "Client: It's... it's up to an 8. This feels so real, like I'm back there again.",
+      "Therapist: You're doing well. Keep going. What happened after that?",
+      "Client: I managed to grab a nearby stick and hit the devil repeatedly until it finally let go. But I was bleeding badly, and I was terrified it would attack again. I stumbled away, trying to find help. My leg was throbbing, and I could barely walk. I kept looking over my shoulder, scared it would come back. I... I can almost smell the blood and dirt now."
+    ],
+    [
+      "Therapist: You're doing well. Keep going. What happened after that?",
+      "Client: I managed to grab a nearby stick and hit the devil repeatedly until it finally let go. But I was bleeding badly, and I was terrified it would attack again. I stumbled away, trying to find help. My leg was throbbing, and I could barely walk. I kept looking over my shoulder, scared it would come back. I... I can almost smell the blood and dirt now.",
+      "Therapist: How are you feeling? SUDS?"
+    ],
+    [
+      "Client: I managed to grab a nearby stick and hit the devil repeatedly until it finally let go. But I was bleeding badly, and I was terrified it would attack again. I stumbled away, trying to find help. My leg was throbbing, and I could barely walk. I kept looking over my shoulder, scared it would come back. I... I can almost smell the blood and dirt now.",
+      "Therapist: How are you feeling? SUDS?",
+      "Client: It's still an 8. My chest feels tight, and I'm shaking a bit."
+    ],
+    [
+      "Therapist: How are you feeling? SUDS?",
+      "Client: It's still an 8. My chest feels tight, and I'm shaking a bit.",
+      "Therapist: That's normal. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's still an 8. My chest feels tight, and I'm shaking a bit.",
+      "Therapist: That's normal. You're safe here. Continue when you're ready.",
+      "Client: I somehow made it to a clearing where some tourists found me. They called for help, and I was airlifted to a hospital. But even in the helicopter, I couldn't shake the fear. I kept thinking about what would have happened if I hadn't found help. The pain was horrible, but the fear was worse. I... I still have nightmares about it sometimes."
+    ],
+    [
+      "Therapist: That's normal. You're safe here. Continue when you're ready.",
+      "Client: I somehow made it to a clearing where some tourists found me. They called for help, and I was airlifted to a hospital. But even in the helicopter, I couldn't shake the fear. I kept thinking about what would have happened if I hadn't found help. The pain was horrible, but the fear was worse. I... I still have nightmares about it sometimes.",
+      "Therapist: You're doing great. SUDS now?"
+    ],
+    [
+      "Client: I somehow made it to a clearing where some tourists found me. They called for help, and I was airlifted to a hospital. But even in the helicopter, I couldn't shake the fear. I kept thinking about what would have happened if I hadn't found help. The pain was horrible, but the fear was worse. I... I still have nightmares about it sometimes.",
+      "Therapist: You're doing great. SUDS now?",
+      "Client: It's... it's down to a 7. Talking about being rescued helps a bit."
+    ],
+    [
+      "Therapist: You're doing great. SUDS now?",
+      "Client: It's... it's down to a 7. Talking about being rescued helps a bit.",
+      "Therapist: Good. How did you feel in the days after?"
+    ],
+    [
+      "Client: It's... it's down to a 7. Talking about being rescued helps a bit.",
+      "Therapist: Good. How did you feel in the days after?",
+      "Client: I was a mess. I couldn't sleep without reliving the attack. Every little noise made me jump. I felt so vulnerable and weak. The physical pain was bad, but the emotional toll was worse. I started avoiding going outside, even in my own backyard. I felt like a prisoner in my own home."
+    ],
+    [
+      "Therapist: Good. How did you feel in the days after?",
+      "Client: I was a mess. I couldn't sleep without reliving the attack. Every little noise made me jump. I felt so vulnerable and weak. The physical pain was bad, but the emotional toll was worse. I started avoiding going outside, even in my own backyard. I felt like a prisoner in my own home.",
+      "Therapist: That sounds challenging. Current SUDS?"
+    ],
+    [
+      "Client: I was a mess. I couldn't sleep without reliving the attack. Every little noise made me jump. I felt so vulnerable and weak. The physical pain was bad, but the emotional toll was worse. I started avoiding going outside, even in my own backyard. I felt like a prisoner in my own home.",
+      "Therapist: That sounds challenging. Current SUDS?",
+      "Client: It's back up to an 8. Remembering those days after is almost as bad as the attack itself."
+    ],
+    [
+      "Therapist: That sounds challenging. Current SUDS?",
+      "Client: It's back up to an 8. Remembering those days after is almost as bad as the attack itself.",
+      "Therapist: You're handling this well. What helped you cope?"
+    ],
+    [
+      "Client: It's back up to an 8. Remembering those days after is almost as bad as the attack itself.",
+      "Therapist: You're handling this well. What helped you cope?",
+      "Client: My partner was incredibly supportive. They helped me with my physical recovery and encouraged me to seek therapy. Slowly, I started venturing outside again, but it was hard. I still get anxious in bushland areas. But I'm trying to reclaim my life, you know?"
+    ],
+    [
+      "Therapist: You're handling this well. What helped you cope?",
+      "Client: My partner was incredibly supportive. They helped me with my physical recovery and encouraged me to seek therapy. Slowly, I started venturing outside again, but it was hard. I still get anxious in bushland areas. But I'm trying to reclaim my life, you know?",
+      "Therapist: That's commendable. How are you feeling now?"
+    ],
+    [
+      "Client: My partner was incredibly supportive. They helped me with my physical recovery and encouraged me to seek therapy. Slowly, I started venturing outside again, but it was hard. I still get anxious in bushland areas. But I'm trying to reclaim my life, you know?",
+      "Therapist: That's commendable. How are you feeling now?",
+      "Client: I'm... I'm actually feeling a bit better. My SUDS is down to a 6. Talking about recovery gives me some hope."
+    ],
+    [
+      "Therapist: That's commendable. How are you feeling now?",
+      "Client: I'm... I'm actually feeling a bit better. My SUDS is down to a 6. Talking about recovery gives me some hope.",
+      "Therapist: That's great progress. Let's wrap up. Any final thoughts?"
+    ],
+    [
+      "Client: I'm... I'm actually feeling a bit better. My SUDS is down to a 6. Talking about recovery gives me some hope.",
+      "Therapist: That's great progress. Let's wrap up. Any final thoughts?",
+      "Client: It's still hard, but I'm glad I'm working through this. I want to enjoy nature again without this fear. It's exhausting, but I feel like I'm making progress, even if it's slow."
+    ],
+    [
+      "Therapist: That's great progress. Let's wrap up. Any final thoughts?",
+      "Client: It's still hard, but I'm glad I'm working through this. I want to enjoy nature again without this fear. It's exhausting, but I feel like I'm making progress, even if it's slow.",
+      "Therapist: Thank you for sharing. You've done excellent work today."
+    ]
+  ]
+}

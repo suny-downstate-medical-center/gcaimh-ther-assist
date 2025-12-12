@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the earthquake, and I'm not sure I'm ready to face it all again.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+    "Client: Not really. It sounds a bit scary, to be honest. What exactly does it involve?",
+    "Therapist: It's a way to process your trauma memories safely. Can you tell me more about your concerns?",
+    "Client: Well, I'm worried about reliving the earthquake. What if I panic? Or what if it makes my depression worse? I've been struggling enough as it is, trying to keep my business afloat and dealing with my roommates.",
+    "Therapist: Those are valid concerns. How do you typically cope with difficult emotions?",
+    "Client: I usually try to distract myself. Sometimes I work more, or I'll go for a long walk. But lately, it feels like nothing really helps.",
+    "Therapist: I see. Imaginal exposure can actually help reduce those intrusive thoughts and nightmares. How does that sound?",
+    "Client: I guess that could be helpful. But how does it work? Do I just... talk about what happened?",
+    "Therapist: Essentially, yes. You'll recount the experience in detail. I'll guide you through it. How do you feel about trying?",
+    "Client: I'm still nervous, but if you think it will help... I trust you. Can you tell me more about what to expect?",
+    "Therapist: Of course. You might feel anxious or upset during the exercise. That's normal. I'll be here to support you throughout. Any questions?",
+    "Client: What if I can't get through it? Or if I start crying and can't stop? I'm worried about losing control.",
+    "Therapist: Those reactions are common. We can pause anytime you need. Your safety is my priority. How does that reassurance feel?",
+    "Client: It helps a bit. I appreciate your support. I just hope this works. I'm tired of feeling so... broken.",
+    "Therapist: You're incredibly brave for facing this. Are you ready to begin?",
+    "Client: I think so. Yes, let's do it. I want to get better, for myself and for my business. I can't keep living like this, constantly on edge and afraid of my own memories.",
+    "Therapist: Excellent. Let's start by finding a comfortable position. Take a deep breath. When you're ready, describe the day of the earthquake."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the earthquake, and I'm not sure I'm ready to face it all again.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the earthquake, and I'm not sure I'm ready to face it all again.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. It sounds a bit scary, to be honest. What exactly does it involve?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. It sounds a bit scary, to be honest. What exactly does it involve?",
+      "Therapist: It's a way to process your trauma memories safely. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Not really. It sounds a bit scary, to be honest. What exactly does it involve?",
+      "Therapist: It's a way to process your trauma memories safely. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about reliving the earthquake. What if I panic? Or what if it makes my depression worse? I've been struggling enough as it is, trying to keep my business afloat and dealing with my roommates."
+    ],
+    [
+      "Therapist: It's a way to process your trauma memories safely. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about reliving the earthquake. What if I panic? Or what if it makes my depression worse? I've been struggling enough as it is, trying to keep my business afloat and dealing with my roommates.",
+      "Therapist: Those are valid concerns. How do you typically cope with difficult emotions?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving the earthquake. What if I panic? Or what if it makes my depression worse? I've been struggling enough as it is, trying to keep my business afloat and dealing with my roommates.",
+      "Therapist: Those are valid concerns. How do you typically cope with difficult emotions?",
+      "Client: I usually try to distract myself. Sometimes I work more, or I'll go for a long walk. But lately, it feels like nothing really helps."
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you typically cope with difficult emotions?",
+      "Client: I usually try to distract myself. Sometimes I work more, or I'll go for a long walk. But lately, it feels like nothing really helps.",
+      "Therapist: I see. Imaginal exposure can actually help reduce those intrusive thoughts and nightmares. How does that sound?"
+    ],
+    [
+      "Client: I usually try to distract myself. Sometimes I work more, or I'll go for a long walk. But lately, it feels like nothing really helps.",
+      "Therapist: I see. Imaginal exposure can actually help reduce those intrusive thoughts and nightmares. How does that sound?",
+      "Client: I guess that could be helpful. But how does it work? Do I just... talk about what happened?"
+    ],
+    [
+      "Therapist: I see. Imaginal exposure can actually help reduce those intrusive thoughts and nightmares. How does that sound?",
+      "Client: I guess that could be helpful. But how does it work? Do I just... talk about what happened?",
+      "Therapist: Essentially, yes. You'll recount the experience in detail. I'll guide you through it. How do you feel about trying?"
+    ],
+    [
+      "Client: I guess that could be helpful. But how does it work? Do I just... talk about what happened?",
+      "Therapist: Essentially, yes. You'll recount the experience in detail. I'll guide you through it. How do you feel about trying?",
+      "Client: I'm still nervous, but if you think it will help... I trust you. Can you tell me more about what to expect?"
+    ],
+    [
+      "Therapist: Essentially, yes. You'll recount the experience in detail. I'll guide you through it. How do you feel about trying?",
+      "Client: I'm still nervous, but if you think it will help... I trust you. Can you tell me more about what to expect?",
+      "Therapist: Of course. You might feel anxious or upset during the exercise. That's normal. I'll be here to support you throughout. Any questions?"
+    ],
+    [
+      "Client: I'm still nervous, but if you think it will help... I trust you. Can you tell me more about what to expect?",
+      "Therapist: Of course. You might feel anxious or upset during the exercise. That's normal. I'll be here to support you throughout. Any questions?",
+      "Client: What if I can't get through it? Or if I start crying and can't stop? I'm worried about losing control."
+    ],
+    [
+      "Therapist: Of course. You might feel anxious or upset during the exercise. That's normal. I'll be here to support you throughout. Any questions?",
+      "Client: What if I can't get through it? Or if I start crying and can't stop? I'm worried about losing control.",
+      "Therapist: Those reactions are common. We can pause anytime you need. Your safety is my priority. How does that reassurance feel?"
+    ],
+    [
+      "Client: What if I can't get through it? Or if I start crying and can't stop? I'm worried about losing control.",
+      "Therapist: Those reactions are common. We can pause anytime you need. Your safety is my priority. How does that reassurance feel?",
+      "Client: It helps a bit. I appreciate your support. I just hope this works. I'm tired of feeling so... broken."
+    ],
+    [
+      "Therapist: Those reactions are common. We can pause anytime you need. Your safety is my priority. How does that reassurance feel?",
+      "Client: It helps a bit. I appreciate your support. I just hope this works. I'm tired of feeling so... broken.",
+      "Therapist: You're incredibly brave for facing this. Are you ready to begin?"
+    ],
+    [
+      "Client: It helps a bit. I appreciate your support. I just hope this works. I'm tired of feeling so... broken.",
+      "Therapist: You're incredibly brave for facing this. Are you ready to begin?",
+      "Client: I think so. Yes, let's do it. I want to get better, for myself and for my business. I can't keep living like this, constantly on edge and afraid of my own memories."
+    ],
+    [
+      "Therapist: You're incredibly brave for facing this. Are you ready to begin?",
+      "Client: I think so. Yes, let's do it. I want to get better, for myself and for my business. I can't keep living like this, constantly on edge and afraid of my own memories.",
+      "Therapist: Excellent. Let's start by finding a comfortable position. Take a deep breath. When you're ready, describe the day of the earthquake."
+    ]
+  ]
+}

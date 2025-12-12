@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Rodriguez, today we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: Oh, Dr. Thompson, I'm not sure. I've been dreading this part. The idea of reliving that awful day at work... it makes my stomach churn. Can you tell me more about what to expect?",
+    "Therapist: Of course. It's natural to feel apprehensive. Can you share your main concerns?",
+    "Client: Well, I'm worried it'll be too overwhelming. Since retiring, I've tried so hard to push those memories away. What if I can't handle bringing them back up?",
+    "Therapist: I understand. How do you think revisiting might help?",
+    "Client: I suppose... maybe it could help me process what happened? But I'm scared it'll make my depression worse. Ever since losing my husband last year, I've struggled to cope with anything difficult.",
+    "Therapist: Your concerns are valid. How can I support you today?",
+    "Client: Could you... maybe hold my hand if it gets too intense? And remind me that I'm safe here with you? I know you're much younger than me, but you remind me of my grandson. He always makes me feel secure.",
+    "Therapist: Absolutely. I'm here to support you. What else might help you feel safe?",
+    "Client: Having a glass of water nearby would be good. And maybe if we could open a window? Sometimes I feel trapped when I think about that day.",
+    "Therapist: Certainly. Shall we set those up now?",
+    "Client: Yes, please. Dr. Thompson, how long will this take? I promised my daughter I'd watch her kids this evening. I don't want to let her down if I'm too shaken up after our session.",
+    "Therapist: We'll go at your pace. How about we start with 15 minutes today?",
+    "Client: That sounds manageable. I appreciate your patience with me, Doctor. This isn't easy, but I want to get better. For my family's sake, and for mine.",
+    "Therapist: Your courage is admirable. Ready to begin?",
+    "Client: I think so. Just... please remind me it's just a memory. Sometimes it feels so real, like I'm right back there in that moment. But I'm here now, aren't I? Safe in your office?",
+    "Therapist: Exactly. You're safe here. Shall we start?",
+    "Client: Okay. I'm as ready as I'll ever be. Let's do this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Rodriguez, today we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: Oh, Dr. Thompson, I'm not sure. I've been dreading this part. The idea of reliving that awful day at work... it makes my stomach churn. Can you tell me more about what to expect?",
+      "Therapist: Of course. It's natural to feel apprehensive. Can you share your main concerns?"
+    ],
+    [
+      "Client: Oh, Dr. Thompson, I'm not sure. I've been dreading this part. The idea of reliving that awful day at work... it makes my stomach churn. Can you tell me more about what to expect?",
+      "Therapist: Of course. It's natural to feel apprehensive. Can you share your main concerns?",
+      "Client: Well, I'm worried it'll be too overwhelming. Since retiring, I've tried so hard to push those memories away. What if I can't handle bringing them back up?"
+    ],
+    [
+      "Therapist: Of course. It's natural to feel apprehensive. Can you share your main concerns?",
+      "Client: Well, I'm worried it'll be too overwhelming. Since retiring, I've tried so hard to push those memories away. What if I can't handle bringing them back up?",
+      "Therapist: I understand. How do you think revisiting might help?"
+    ],
+    [
+      "Client: Well, I'm worried it'll be too overwhelming. Since retiring, I've tried so hard to push those memories away. What if I can't handle bringing them back up?",
+      "Therapist: I understand. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But I'm scared it'll make my depression worse. Ever since losing my husband last year, I've struggled to cope with anything difficult."
+    ],
+    [
+      "Therapist: I understand. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But I'm scared it'll make my depression worse. Ever since losing my husband last year, I've struggled to cope with anything difficult.",
+      "Therapist: Your concerns are valid. How can I support you today?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? But I'm scared it'll make my depression worse. Ever since losing my husband last year, I've struggled to cope with anything difficult.",
+      "Therapist: Your concerns are valid. How can I support you today?",
+      "Client: Could you... maybe hold my hand if it gets too intense? And remind me that I'm safe here with you? I know you're much younger than me, but you remind me of my grandson. He always makes me feel secure."
+    ],
+    [
+      "Therapist: Your concerns are valid. How can I support you today?",
+      "Client: Could you... maybe hold my hand if it gets too intense? And remind me that I'm safe here with you? I know you're much younger than me, but you remind me of my grandson. He always makes me feel secure.",
+      "Therapist: Absolutely. I'm here to support you. What else might help you feel safe?"
+    ],
+    [
+      "Client: Could you... maybe hold my hand if it gets too intense? And remind me that I'm safe here with you? I know you're much younger than me, but you remind me of my grandson. He always makes me feel secure.",
+      "Therapist: Absolutely. I'm here to support you. What else might help you feel safe?",
+      "Client: Having a glass of water nearby would be good. And maybe if we could open a window? Sometimes I feel trapped when I think about that day."
+    ],
+    [
+      "Therapist: Absolutely. I'm here to support you. What else might help you feel safe?",
+      "Client: Having a glass of water nearby would be good. And maybe if we could open a window? Sometimes I feel trapped when I think about that day.",
+      "Therapist: Certainly. Shall we set those up now?"
+    ],
+    [
+      "Client: Having a glass of water nearby would be good. And maybe if we could open a window? Sometimes I feel trapped when I think about that day.",
+      "Therapist: Certainly. Shall we set those up now?",
+      "Client: Yes, please. Dr. Thompson, how long will this take? I promised my daughter I'd watch her kids this evening. I don't want to let her down if I'm too shaken up after our session."
+    ],
+    [
+      "Therapist: Certainly. Shall we set those up now?",
+      "Client: Yes, please. Dr. Thompson, how long will this take? I promised my daughter I'd watch her kids this evening. I don't want to let her down if I'm too shaken up after our session.",
+      "Therapist: We'll go at your pace. How about we start with 15 minutes today?"
+    ],
+    [
+      "Client: Yes, please. Dr. Thompson, how long will this take? I promised my daughter I'd watch her kids this evening. I don't want to let her down if I'm too shaken up after our session.",
+      "Therapist: We'll go at your pace. How about we start with 15 minutes today?",
+      "Client: That sounds manageable. I appreciate your patience with me, Doctor. This isn't easy, but I want to get better. For my family's sake, and for mine."
+    ],
+    [
+      "Therapist: We'll go at your pace. How about we start with 15 minutes today?",
+      "Client: That sounds manageable. I appreciate your patience with me, Doctor. This isn't easy, but I want to get better. For my family's sake, and for mine.",
+      "Therapist: Your courage is admirable. Ready to begin?"
+    ],
+    [
+      "Client: That sounds manageable. I appreciate your patience with me, Doctor. This isn't easy, but I want to get better. For my family's sake, and for mine.",
+      "Therapist: Your courage is admirable. Ready to begin?",
+      "Client: I think so. Just... please remind me it's just a memory. Sometimes it feels so real, like I'm right back there in that moment. But I'm here now, aren't I? Safe in your office?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Ready to begin?",
+      "Client: I think so. Just... please remind me it's just a memory. Sometimes it feels so real, like I'm right back there in that moment. But I'm here now, aren't I? Safe in your office?",
+      "Therapist: Exactly. You're safe here. Shall we start?"
+    ],
+    [
+      "Client: I think so. Just... please remind me it's just a memory. Sometimes it feels so real, like I'm right back there in that moment. But I'm here now, aren't I? Safe in your office?",
+      "Therapist: Exactly. You're safe here. Shall we start?",
+      "Client: Okay. I'm as ready as I'll ever be. Let's do this."
+    ]
+  ]
+}

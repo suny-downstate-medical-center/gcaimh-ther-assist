@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling nervous, but I'll try my best.",
+    "Therapist: That's understandable. Let's begin when you're comfortable.",
+    "Client: Okay... I'm back in that room. It's dimly lit, and I can smell incense. The leader is there, his eyes piercing through me. I feel so small, so powerless. My heart is racing, and my palms are sweaty.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6. I'm anxious, but I can handle it.",
+    "Therapist: Good. Continue describing what you're experiencing.",
+    "Client: He's telling me it's time for my \"special blessing.\" I know what that means, and I feel sick to my stomach. I want to run, but my feet won't move. It's like I'm frozen in place.",
+    "Therapist: Stay with that feeling. What else do you notice?",
+    "Client: My mouth is dry, and I'm trembling. I can hear the others chanting outside. It's getting louder, and I feel dizzy. The room seems to be spinning.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's an 8 now. This is really hard.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: He's touching me now. I feel disgusted and ashamed. I want to scream, but no sound comes out. I'm trapped, both physically and mentally. The chanting outside is deafening.",
+    "Therapist: How are you feeling right now?",
+    "Client: Overwhelmed. My chest is tight, and I can barely breathe. I feel like I'm reliving it all over again.",
+    "Therapist: SUDS?",
+    "Client: 9. It's almost unbearable.",
+    "Therapist: You're very brave. Remember, you're safe now.",
+    "Client: I... I need a moment. This is intense. (deep breaths) Okay, I'm trying to continue. The \"blessing\" is over, but I feel hollow inside. Like a part of me has been stolen.",
+    "Therapist: Take your time. How's your SUDS now?",
+    "Client: It's down to a 7. I'm starting to feel a bit more grounded.",
+    "Therapist: That's good. What are you noticing now?",
+    "Client: I'm back in my room. I feel dirty and used. I want to shower, but I'm afraid someone will see me. The shame is overwhelming.",
+    "Therapist: Stay with that feeling. What else?",
+    "Client: I'm angry. At him, at myself for not fighting back. I'm clenching my fists so hard my nails are digging into my palms.",
+    "Therapist: SUDS?",
+    "Client: It's a 6 now. The anger is actually making me feel a bit stronger.",
+    "Therapist: That's interesting. Can you elaborate?",
+    "Client: It's like... the anger is giving me some control back. I'm not just a victim anymore. I'm furious at what happened, and that feels empowering somehow.",
+    "Therapist: I see. Continue.",
+    "Client: I'm planning my escape. It's terrifying, but I know I have to leave. My heart is pounding, but there's a glimmer of hope.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's down to a 5. Focusing on the escape is helping.",
+    "Therapist: Good. Let's wrap up the exercise. How are you feeling?",
+    "Client: Exhausted, but... oddly relieved. Like I've confronted something I've been avoiding for years.",
+    "Therapist: That's common. Well done today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in that room. It's dimly lit, and I can smell incense. The leader is there, his eyes piercing through me. I feel so small, so powerless. My heart is racing, and my palms are sweaty."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in that room. It's dimly lit, and I can smell incense. The leader is there, his eyes piercing through me. I feel so small, so powerless. My heart is racing, and my palms are sweaty.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in that room. It's dimly lit, and I can smell incense. The leader is there, his eyes piercing through me. I feel so small, so powerless. My heart is racing, and my palms are sweaty.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm anxious, but I can handle it."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm anxious, but I can handle it.",
+      "Therapist: Good. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's about a 6. I'm anxious, but I can handle it.",
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: He's telling me it's time for my \"special blessing.\" I know what that means, and I feel sick to my stomach. I want to run, but my feet won't move. It's like I'm frozen in place."
+    ],
+    [
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: He's telling me it's time for my \"special blessing.\" I know what that means, and I feel sick to my stomach. I want to run, but my feet won't move. It's like I'm frozen in place.",
+      "Therapist: Stay with that feeling. What else do you notice?"
+    ],
+    [
+      "Client: He's telling me it's time for my \"special blessing.\" I know what that means, and I feel sick to my stomach. I want to run, but my feet won't move. It's like I'm frozen in place.",
+      "Therapist: Stay with that feeling. What else do you notice?",
+      "Client: My mouth is dry, and I'm trembling. I can hear the others chanting outside. It's getting louder, and I feel dizzy. The room seems to be spinning."
+    ],
+    [
+      "Therapist: Stay with that feeling. What else do you notice?",
+      "Client: My mouth is dry, and I'm trembling. I can hear the others chanting outside. It's getting louder, and I feel dizzy. The room seems to be spinning.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: My mouth is dry, and I'm trembling. I can hear the others chanting outside. It's getting louder, and I feel dizzy. The room seems to be spinning.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's an 8 now. This is really hard."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's an 8 now. This is really hard.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8 now. This is really hard.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: He's touching me now. I feel disgusted and ashamed. I want to scream, but no sound comes out. I'm trapped, both physically and mentally. The chanting outside is deafening."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: He's touching me now. I feel disgusted and ashamed. I want to scream, but no sound comes out. I'm trapped, both physically and mentally. The chanting outside is deafening.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: He's touching me now. I feel disgusted and ashamed. I want to scream, but no sound comes out. I'm trapped, both physically and mentally. The chanting outside is deafening.",
+      "Therapist: How are you feeling right now?",
+      "Client: Overwhelmed. My chest is tight, and I can barely breathe. I feel like I'm reliving it all over again."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Overwhelmed. My chest is tight, and I can barely breathe. I feel like I'm reliving it all over again.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Overwhelmed. My chest is tight, and I can barely breathe. I feel like I'm reliving it all over again.",
+      "Therapist: SUDS?",
+      "Client: 9. It's almost unbearable."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: 9. It's almost unbearable.",
+      "Therapist: You're very brave. Remember, you're safe now."
+    ],
+    [
+      "Client: 9. It's almost unbearable.",
+      "Therapist: You're very brave. Remember, you're safe now.",
+      "Client: I... I need a moment. This is intense. (deep breaths) Okay, I'm trying to continue. The \"blessing\" is over, but I feel hollow inside. Like a part of me has been stolen."
+    ],
+    [
+      "Therapist: You're very brave. Remember, you're safe now.",
+      "Client: I... I need a moment. This is intense. (deep breaths) Okay, I'm trying to continue. The \"blessing\" is over, but I feel hollow inside. Like a part of me has been stolen.",
+      "Therapist: Take your time. How's your SUDS now?"
+    ],
+    [
+      "Client: I... I need a moment. This is intense. (deep breaths) Okay, I'm trying to continue. The \"blessing\" is over, but I feel hollow inside. Like a part of me has been stolen.",
+      "Therapist: Take your time. How's your SUDS now?",
+      "Client: It's down to a 7. I'm starting to feel a bit more grounded."
+    ],
+    [
+      "Therapist: Take your time. How's your SUDS now?",
+      "Client: It's down to a 7. I'm starting to feel a bit more grounded.",
+      "Therapist: That's good. What are you noticing now?"
+    ],
+    [
+      "Client: It's down to a 7. I'm starting to feel a bit more grounded.",
+      "Therapist: That's good. What are you noticing now?",
+      "Client: I'm back in my room. I feel dirty and used. I want to shower, but I'm afraid someone will see me. The shame is overwhelming."
+    ],
+    [
+      "Therapist: That's good. What are you noticing now?",
+      "Client: I'm back in my room. I feel dirty and used. I want to shower, but I'm afraid someone will see me. The shame is overwhelming.",
+      "Therapist: Stay with that feeling. What else?"
+    ],
+    [
+      "Client: I'm back in my room. I feel dirty and used. I want to shower, but I'm afraid someone will see me. The shame is overwhelming.",
+      "Therapist: Stay with that feeling. What else?",
+      "Client: I'm angry. At him, at myself for not fighting back. I'm clenching my fists so hard my nails are digging into my palms."
+    ],
+    [
+      "Therapist: Stay with that feeling. What else?",
+      "Client: I'm angry. At him, at myself for not fighting back. I'm clenching my fists so hard my nails are digging into my palms.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I'm angry. At him, at myself for not fighting back. I'm clenching my fists so hard my nails are digging into my palms.",
+      "Therapist: SUDS?",
+      "Client: It's a 6 now. The anger is actually making me feel a bit stronger."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's a 6 now. The anger is actually making me feel a bit stronger.",
+      "Therapist: That's interesting. Can you elaborate?"
+    ],
+    [
+      "Client: It's a 6 now. The anger is actually making me feel a bit stronger.",
+      "Therapist: That's interesting. Can you elaborate?",
+      "Client: It's like... the anger is giving me some control back. I'm not just a victim anymore. I'm furious at what happened, and that feels empowering somehow."
+    ],
+    [
+      "Therapist: That's interesting. Can you elaborate?",
+      "Client: It's like... the anger is giving me some control back. I'm not just a victim anymore. I'm furious at what happened, and that feels empowering somehow.",
+      "Therapist: I see. Continue."
+    ],
+    [
+      "Client: It's like... the anger is giving me some control back. I'm not just a victim anymore. I'm furious at what happened, and that feels empowering somehow.",
+      "Therapist: I see. Continue.",
+      "Client: I'm planning my escape. It's terrifying, but I know I have to leave. My heart is pounding, but there's a glimmer of hope."
+    ],
+    [
+      "Therapist: I see. Continue.",
+      "Client: I'm planning my escape. It's terrifying, but I know I have to leave. My heart is pounding, but there's a glimmer of hope.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: I'm planning my escape. It's terrifying, but I know I have to leave. My heart is pounding, but there's a glimmer of hope.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's down to a 5. Focusing on the escape is helping."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's down to a 5. Focusing on the escape is helping.",
+      "Therapist: Good. Let's wrap up the exercise. How are you feeling?"
+    ],
+    [
+      "Client: It's down to a 5. Focusing on the escape is helping.",
+      "Therapist: Good. Let's wrap up the exercise. How are you feeling?",
+      "Client: Exhausted, but... oddly relieved. Like I've confronted something I've been avoiding for years."
+    ],
+    [
+      "Therapist: Good. Let's wrap up the exercise. How are you feeling?",
+      "Client: Exhausted, but... oddly relieved. Like I've confronted something I've been avoiding for years.",
+      "Therapist: That's common. Well done today."
+    ]
+  ]
+}

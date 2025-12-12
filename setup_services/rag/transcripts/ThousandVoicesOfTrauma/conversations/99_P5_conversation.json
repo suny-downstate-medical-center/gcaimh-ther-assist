@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Carlos. How are you feeling today?",
+    "Client: I'm... not great, to be honest. I've been having a lot of nightmares lately about that incident with the police. It's making it hard to sleep, and I'm feeling pretty on edge most of the time.",
+    "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: Imaginal exposure? What's that exactly? It sounds a bit intimidating.",
+    "Therapist: It's a technique to process trauma memories. We'll revisit the event in a safe space.",
+    "Client: Revisit it? I don't know if I can handle that. Just thinking about it makes my heart race.",
+    "Therapist: That's normal. We'll go at your pace. How does that sound?",
+    "Client: I guess... if you think it'll help. But what if I panic or can't go through with it?",
+    "Therapist: We can pause anytime. Your safety is priority. What questions do you have?",
+    "Client: Well, how long will it take? And will I have to relive everything in detail? I'm worried about losing control of my emotions.",
+    "Therapist: Sessions last about an hour. We'll focus on key moments. Your reactions are valid.",
+    "Client: Okay... I'm still nervous, but I trust you. I just want these nightmares to stop. Will this really help with that?",
+    "Therapist: It can reduce nightmares and other PTSD symptoms. Your courage is admirable.",
+    "Client: Thank you. I guess I'm as ready as I'll ever be. What do I need to do?",
+    "Therapist: Just sit comfortably and follow my guidance. We'll start slow. Any other concerns?",
+    "Client: No, I think I'm okay for now. Just... please don't let me get too overwhelmed, alright?",
+    "Therapist: Absolutely. We're in this together. Shall we begin?",
+    "Client: Yes, let's do it. I'm taking deep breaths like you taught me. I hope this works.",
+    "Therapist: Good. Close your eyes when ready. We'll start with a calm place first."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Carlos. How are you feeling today?",
+      "Client: I'm... not great, to be honest. I've been having a lot of nightmares lately about that incident with the police. It's making it hard to sleep, and I'm feeling pretty on edge most of the time.",
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: I'm... not great, to be honest. I've been having a lot of nightmares lately about that incident with the police. It's making it hard to sleep, and I'm feeling pretty on edge most of the time.",
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? What's that exactly? It sounds a bit intimidating."
+    ],
+    [
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? What's that exactly? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process trauma memories. We'll revisit the event in a safe space."
+    ],
+    [
+      "Client: Imaginal exposure? What's that exactly? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process trauma memories. We'll revisit the event in a safe space.",
+      "Client: Revisit it? I don't know if I can handle that. Just thinking about it makes my heart race."
+    ],
+    [
+      "Therapist: It's a technique to process trauma memories. We'll revisit the event in a safe space.",
+      "Client: Revisit it? I don't know if I can handle that. Just thinking about it makes my heart race.",
+      "Therapist: That's normal. We'll go at your pace. How does that sound?"
+    ],
+    [
+      "Client: Revisit it? I don't know if I can handle that. Just thinking about it makes my heart race.",
+      "Therapist: That's normal. We'll go at your pace. How does that sound?",
+      "Client: I guess... if you think it'll help. But what if I panic or can't go through with it?"
+    ],
+    [
+      "Therapist: That's normal. We'll go at your pace. How does that sound?",
+      "Client: I guess... if you think it'll help. But what if I panic or can't go through with it?",
+      "Therapist: We can pause anytime. Your safety is priority. What questions do you have?"
+    ],
+    [
+      "Client: I guess... if you think it'll help. But what if I panic or can't go through with it?",
+      "Therapist: We can pause anytime. Your safety is priority. What questions do you have?",
+      "Client: Well, how long will it take? And will I have to relive everything in detail? I'm worried about losing control of my emotions."
+    ],
+    [
+      "Therapist: We can pause anytime. Your safety is priority. What questions do you have?",
+      "Client: Well, how long will it take? And will I have to relive everything in detail? I'm worried about losing control of my emotions.",
+      "Therapist: Sessions last about an hour. We'll focus on key moments. Your reactions are valid."
+    ],
+    [
+      "Client: Well, how long will it take? And will I have to relive everything in detail? I'm worried about losing control of my emotions.",
+      "Therapist: Sessions last about an hour. We'll focus on key moments. Your reactions are valid.",
+      "Client: Okay... I'm still nervous, but I trust you. I just want these nightmares to stop. Will this really help with that?"
+    ],
+    [
+      "Therapist: Sessions last about an hour. We'll focus on key moments. Your reactions are valid.",
+      "Client: Okay... I'm still nervous, but I trust you. I just want these nightmares to stop. Will this really help with that?",
+      "Therapist: It can reduce nightmares and other PTSD symptoms. Your courage is admirable."
+    ],
+    [
+      "Client: Okay... I'm still nervous, but I trust you. I just want these nightmares to stop. Will this really help with that?",
+      "Therapist: It can reduce nightmares and other PTSD symptoms. Your courage is admirable.",
+      "Client: Thank you. I guess I'm as ready as I'll ever be. What do I need to do?"
+    ],
+    [
+      "Therapist: It can reduce nightmares and other PTSD symptoms. Your courage is admirable.",
+      "Client: Thank you. I guess I'm as ready as I'll ever be. What do I need to do?",
+      "Therapist: Just sit comfortably and follow my guidance. We'll start slow. Any other concerns?"
+    ],
+    [
+      "Client: Thank you. I guess I'm as ready as I'll ever be. What do I need to do?",
+      "Therapist: Just sit comfortably and follow my guidance. We'll start slow. Any other concerns?",
+      "Client: No, I think I'm okay for now. Just... please don't let me get too overwhelmed, alright?"
+    ],
+    [
+      "Therapist: Just sit comfortably and follow my guidance. We'll start slow. Any other concerns?",
+      "Client: No, I think I'm okay for now. Just... please don't let me get too overwhelmed, alright?",
+      "Therapist: Absolutely. We're in this together. Shall we begin?"
+    ],
+    [
+      "Client: No, I think I'm okay for now. Just... please don't let me get too overwhelmed, alright?",
+      "Therapist: Absolutely. We're in this together. Shall we begin?",
+      "Client: Yes, let's do it. I'm taking deep breaths like you taught me. I hope this works."
+    ],
+    [
+      "Therapist: Absolutely. We're in this together. Shall we begin?",
+      "Client: Yes, let's do it. I'm taking deep breaths like you taught me. I hope this works.",
+      "Therapist: Good. Close your eyes when ready. We'll start with a calm place first."
+    ]
+  ]
+}

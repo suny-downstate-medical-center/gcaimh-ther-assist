@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, James. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+    "Client: I think so, Dr. Thompson. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Remember, you're in control. Let's start when you're ready.",
+    "Client: Okay, I'm ready. I'll close my eyes and start recounting that day...",
+    "Therapist: Go ahead. I'll check in periodically for your SUDS rating.",
+    "Client: I'm standing outside the grocery store. It's a sunny afternoon, but there's a chill in the air. I see my wife, Sarah, walking towards me with a smile on her face. She's carrying our groceries. Suddenly, I hear tires screeching...",
+    "Therapist: How's your distress level? SUDS rating?",
+    "Client: Um, about a 3 right now. I'm feeling a bit tense, but it's manageable.",
+    "Therapist: Okay. Continue, please.",
+    "Client: The car comes out of nowhere. It's speeding towards the crosswalk. Sarah doesn't see it. I try to shout, but my voice catches in my throat. My heart is racing now. The car slams into her... Oh God, I can see her body flying through the air. There's so much blood...",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's an 8. My palms are sweating, and I feel like I can't breathe.",
+    "Therapist: That's intense. You're doing well. Keep going if you can.",
+    "Client: I run to her. People are screaming, but it sounds muffled. All I can focus on is Sarah. Her eyes are open, but they're... empty. I'm holding her, begging her to stay with me. I can feel her blood soaking through my clothes. Someone's calling an ambulance, but I know it's too late. She's gone. My Sarah is gone...",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's a 9. I feel like I'm right back there. My chest hurts, and I can almost smell the blood.",
+    "Therapist: You're very brave. Remember, you're safe here.",
+    "Client: I keep replaying it in my mind. If I had just reacted faster, maybe I could have saved her. The guilt is overwhelming. I feel so helpless, so angry at myself and that driver. Why did this have to happen to us?",
+    "Therapist: SUDS rating?",
+    "Client: Still a 9. I'm shaking now. It's hard to catch my breath.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: I remember the silence in our house that night. The emptiness. Her side of the bed was cold. I couldn't sleep. I just sat there, staring at her photos, wishing I could turn back time. The loneliness was suffocating.",
+    "Therapist: And now? SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7? I still feel awful, but the intensity is lessening.",
+    "Therapist: That's good. You're processing this. Keep going.",
+    "Client: The days after were a blur. Funeral arrangements, paperwork, people offering condolences. But none of it mattered. I just wanted Sarah back. I'd give anything to see her smile again, to hold her one more time. The world felt colorless without her.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm at a 6. The pain is still there, but it's duller now. I feel drained.",
+    "Therapist: You've done excellent work today, James. Let's start winding down.",
+    "Client: Thank you, Dr. Thompson. It's still hard, but I think it's getting easier to talk about.",
+    "Therapist: That's progress. How do you feel now?",
+    "Client: I'm down to a 4. I'm exhausted, but there's a sense of... I don't know, maybe relief?",
+    "Therapist: That's normal. Let's debrief..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, James. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+      "Client: I think so, Dr. Thompson. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start when you're ready."
+    ],
+    [
+      "Client: I think so, Dr. Thompson. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start when you're ready.",
+      "Client: Okay, I'm ready. I'll close my eyes and start recounting that day..."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're in control. Let's start when you're ready.",
+      "Client: Okay, I'm ready. I'll close my eyes and start recounting that day...",
+      "Therapist: Go ahead. I'll check in periodically for your SUDS rating."
+    ],
+    [
+      "Client: Okay, I'm ready. I'll close my eyes and start recounting that day...",
+      "Therapist: Go ahead. I'll check in periodically for your SUDS rating.",
+      "Client: I'm standing outside the grocery store. It's a sunny afternoon, but there's a chill in the air. I see my wife, Sarah, walking towards me with a smile on her face. She's carrying our groceries. Suddenly, I hear tires screeching..."
+    ],
+    [
+      "Therapist: Go ahead. I'll check in periodically for your SUDS rating.",
+      "Client: I'm standing outside the grocery store. It's a sunny afternoon, but there's a chill in the air. I see my wife, Sarah, walking towards me with a smile on her face. She's carrying our groceries. Suddenly, I hear tires screeching...",
+      "Therapist: How's your distress level? SUDS rating?"
+    ],
+    [
+      "Client: I'm standing outside the grocery store. It's a sunny afternoon, but there's a chill in the air. I see my wife, Sarah, walking towards me with a smile on her face. She's carrying our groceries. Suddenly, I hear tires screeching...",
+      "Therapist: How's your distress level? SUDS rating?",
+      "Client: Um, about a 3 right now. I'm feeling a bit tense, but it's manageable."
+    ],
+    [
+      "Therapist: How's your distress level? SUDS rating?",
+      "Client: Um, about a 3 right now. I'm feeling a bit tense, but it's manageable.",
+      "Therapist: Okay. Continue, please."
+    ],
+    [
+      "Client: Um, about a 3 right now. I'm feeling a bit tense, but it's manageable.",
+      "Therapist: Okay. Continue, please.",
+      "Client: The car comes out of nowhere. It's speeding towards the crosswalk. Sarah doesn't see it. I try to shout, but my voice catches in my throat. My heart is racing now. The car slams into her... Oh God, I can see her body flying through the air. There's so much blood..."
+    ],
+    [
+      "Therapist: Okay. Continue, please.",
+      "Client: The car comes out of nowhere. It's speeding towards the crosswalk. Sarah doesn't see it. I try to shout, but my voice catches in my throat. My heart is racing now. The car slams into her... Oh God, I can see her body flying through the air. There's so much blood...",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: The car comes out of nowhere. It's speeding towards the crosswalk. Sarah doesn't see it. I try to shout, but my voice catches in my throat. My heart is racing now. The car slams into her... Oh God, I can see her body flying through the air. There's so much blood...",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's an 8. My palms are sweating, and I feel like I can't breathe."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's an 8. My palms are sweating, and I feel like I can't breathe.",
+      "Therapist: That's intense. You're doing well. Keep going if you can."
+    ],
+    [
+      "Client: It's... it's an 8. My palms are sweating, and I feel like I can't breathe.",
+      "Therapist: That's intense. You're doing well. Keep going if you can.",
+      "Client: I run to her. People are screaming, but it sounds muffled. All I can focus on is Sarah. Her eyes are open, but they're... empty. I'm holding her, begging her to stay with me. I can feel her blood soaking through my clothes. Someone's calling an ambulance, but I know it's too late. She's gone. My Sarah is gone..."
+    ],
+    [
+      "Therapist: That's intense. You're doing well. Keep going if you can.",
+      "Client: I run to her. People are screaming, but it sounds muffled. All I can focus on is Sarah. Her eyes are open, but they're... empty. I'm holding her, begging her to stay with me. I can feel her blood soaking through my clothes. Someone's calling an ambulance, but I know it's too late. She's gone. My Sarah is gone...",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: I run to her. People are screaming, but it sounds muffled. All I can focus on is Sarah. Her eyes are open, but they're... empty. I'm holding her, begging her to stay with me. I can feel her blood soaking through my clothes. Someone's calling an ambulance, but I know it's too late. She's gone. My Sarah is gone...",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's a 9. I feel like I'm right back there. My chest hurts, and I can almost smell the blood."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's a 9. I feel like I'm right back there. My chest hurts, and I can almost smell the blood.",
+      "Therapist: You're very brave. Remember, you're safe here."
+    ],
+    [
+      "Client: It's a 9. I feel like I'm right back there. My chest hurts, and I can almost smell the blood.",
+      "Therapist: You're very brave. Remember, you're safe here.",
+      "Client: I keep replaying it in my mind. If I had just reacted faster, maybe I could have saved her. The guilt is overwhelming. I feel so helpless, so angry at myself and that driver. Why did this have to happen to us?"
+    ],
+    [
+      "Therapist: You're very brave. Remember, you're safe here.",
+      "Client: I keep replaying it in my mind. If I had just reacted faster, maybe I could have saved her. The guilt is overwhelming. I feel so helpless, so angry at myself and that driver. Why did this have to happen to us?",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I keep replaying it in my mind. If I had just reacted faster, maybe I could have saved her. The guilt is overwhelming. I feel so helpless, so angry at myself and that driver. Why did this have to happen to us?",
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. I'm shaking now. It's hard to catch my breath."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. I'm shaking now. It's hard to catch my breath.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: Still a 9. I'm shaking now. It's hard to catch my breath.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I remember the silence in our house that night. The emptiness. Her side of the bed was cold. I couldn't sleep. I just sat there, staring at her photos, wishing I could turn back time. The loneliness was suffocating."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I remember the silence in our house that night. The emptiness. Her side of the bed was cold. I couldn't sleep. I just sat there, staring at her photos, wishing I could turn back time. The loneliness was suffocating.",
+      "Therapist: And now? SUDS?"
+    ],
+    [
+      "Client: I remember the silence in our house that night. The emptiness. Her side of the bed was cold. I couldn't sleep. I just sat there, staring at her photos, wishing I could turn back time. The loneliness was suffocating.",
+      "Therapist: And now? SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I still feel awful, but the intensity is lessening."
+    ],
+    [
+      "Therapist: And now? SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I still feel awful, but the intensity is lessening.",
+      "Therapist: That's good. You're processing this. Keep going."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7? I still feel awful, but the intensity is lessening.",
+      "Therapist: That's good. You're processing this. Keep going.",
+      "Client: The days after were a blur. Funeral arrangements, paperwork, people offering condolences. But none of it mattered. I just wanted Sarah back. I'd give anything to see her smile again, to hold her one more time. The world felt colorless without her."
+    ],
+    [
+      "Therapist: That's good. You're processing this. Keep going.",
+      "Client: The days after were a blur. Funeral arrangements, paperwork, people offering condolences. But none of it mattered. I just wanted Sarah back. I'd give anything to see her smile again, to hold her one more time. The world felt colorless without her.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The days after were a blur. Funeral arrangements, paperwork, people offering condolences. But none of it mattered. I just wanted Sarah back. I'd give anything to see her smile again, to hold her one more time. The world felt colorless without her.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 6. The pain is still there, but it's duller now. I feel drained."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 6. The pain is still there, but it's duller now. I feel drained.",
+      "Therapist: You've done excellent work today, James. Let's start winding down."
+    ],
+    [
+      "Client: I'm at a 6. The pain is still there, but it's duller now. I feel drained.",
+      "Therapist: You've done excellent work today, James. Let's start winding down.",
+      "Client: Thank you, Dr. Thompson. It's still hard, but I think it's getting easier to talk about."
+    ],
+    [
+      "Therapist: You've done excellent work today, James. Let's start winding down.",
+      "Client: Thank you, Dr. Thompson. It's still hard, but I think it's getting easier to talk about.",
+      "Therapist: That's progress. How do you feel now?"
+    ],
+    [
+      "Client: Thank you, Dr. Thompson. It's still hard, but I think it's getting easier to talk about.",
+      "Therapist: That's progress. How do you feel now?",
+      "Client: I'm down to a 4. I'm exhausted, but there's a sense of... I don't know, maybe relief?"
+    ],
+    [
+      "Therapist: That's progress. How do you feel now?",
+      "Client: I'm down to a 4. I'm exhausted, but there's a sense of... I don't know, maybe relief?",
+      "Therapist: That's normal. Let's debrief..."
+    ]
+  ]
+}

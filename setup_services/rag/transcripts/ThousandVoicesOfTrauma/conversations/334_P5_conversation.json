@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Raj. Today, we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm... nervous, to be honest. I've been dreading this all week. The idea of reliving those moments... it's terrifying. I've spent so long trying to forget.",
+    "Therapist: Your fear is understandable. Can you tell me more about your concerns?",
+    "Client: It's just... I've worked so hard to build this life, you know? My business, my independence. I'm afraid if I go back there, I'll fall apart. What if I can't handle it? What if I start using again to cope?",
+    "Therapist: Those are valid concerns. How can I support you today?",
+    "Client: I don't know... Maybe just remind me why we're doing this? And... promise you won't judge me for what happened?",
+    "Therapist: Absolutely. This exercise helps process trauma memories. There's no judgment here. What else?",
+    "Client: Could you... could you explain what's going to happen? Step by step? I think that might help me feel more in control.",
+    "Therapist: Of course. We'll start with relaxation, then you'll describe the memory. I'll guide you through it.",
+    "Client: Okay... that doesn't sound too bad. But what if I panic? Or if I can't continue?",
+    "Therapist: We can pause anytime. Your safety is priority. How does that sound?",
+    "Client: Better, I guess. It's still scary, but... I trust you. And I want to get better. For myself.",
+    "Therapist: Your courage is admirable. Are you ready to begin?",
+    "Client: I... I think so. Yeah. Let's do this before I change my mind. Just... stay close, okay?",
+    "Therapist: I'm right here with you. Let's start with some deep breaths..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Raj. Today, we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm... nervous, to be honest. I've been dreading this all week. The idea of reliving those moments... it's terrifying. I've spent so long trying to forget.",
+      "Therapist: Your fear is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... nervous, to be honest. I've been dreading this all week. The idea of reliving those moments... it's terrifying. I've spent so long trying to forget.",
+      "Therapist: Your fear is understandable. Can you tell me more about your concerns?",
+      "Client: It's just... I've worked so hard to build this life, you know? My business, my independence. I'm afraid if I go back there, I'll fall apart. What if I can't handle it? What if I start using again to cope?"
+    ],
+    [
+      "Therapist: Your fear is understandable. Can you tell me more about your concerns?",
+      "Client: It's just... I've worked so hard to build this life, you know? My business, my independence. I'm afraid if I go back there, I'll fall apart. What if I can't handle it? What if I start using again to cope?",
+      "Therapist: Those are valid concerns. How can I support you today?"
+    ],
+    [
+      "Client: It's just... I've worked so hard to build this life, you know? My business, my independence. I'm afraid if I go back there, I'll fall apart. What if I can't handle it? What if I start using again to cope?",
+      "Therapist: Those are valid concerns. How can I support you today?",
+      "Client: I don't know... Maybe just remind me why we're doing this? And... promise you won't judge me for what happened?"
+    ],
+    [
+      "Therapist: Those are valid concerns. How can I support you today?",
+      "Client: I don't know... Maybe just remind me why we're doing this? And... promise you won't judge me for what happened?",
+      "Therapist: Absolutely. This exercise helps process trauma memories. There's no judgment here. What else?"
+    ],
+    [
+      "Client: I don't know... Maybe just remind me why we're doing this? And... promise you won't judge me for what happened?",
+      "Therapist: Absolutely. This exercise helps process trauma memories. There's no judgment here. What else?",
+      "Client: Could you... could you explain what's going to happen? Step by step? I think that might help me feel more in control."
+    ],
+    [
+      "Therapist: Absolutely. This exercise helps process trauma memories. There's no judgment here. What else?",
+      "Client: Could you... could you explain what's going to happen? Step by step? I think that might help me feel more in control.",
+      "Therapist: Of course. We'll start with relaxation, then you'll describe the memory. I'll guide you through it."
+    ],
+    [
+      "Client: Could you... could you explain what's going to happen? Step by step? I think that might help me feel more in control.",
+      "Therapist: Of course. We'll start with relaxation, then you'll describe the memory. I'll guide you through it.",
+      "Client: Okay... that doesn't sound too bad. But what if I panic? Or if I can't continue?"
+    ],
+    [
+      "Therapist: Of course. We'll start with relaxation, then you'll describe the memory. I'll guide you through it.",
+      "Client: Okay... that doesn't sound too bad. But what if I panic? Or if I can't continue?",
+      "Therapist: We can pause anytime. Your safety is priority. How does that sound?"
+    ],
+    [
+      "Client: Okay... that doesn't sound too bad. But what if I panic? Or if I can't continue?",
+      "Therapist: We can pause anytime. Your safety is priority. How does that sound?",
+      "Client: Better, I guess. It's still scary, but... I trust you. And I want to get better. For myself."
+    ],
+    [
+      "Therapist: We can pause anytime. Your safety is priority. How does that sound?",
+      "Client: Better, I guess. It's still scary, but... I trust you. And I want to get better. For myself.",
+      "Therapist: Your courage is admirable. Are you ready to begin?"
+    ],
+    [
+      "Client: Better, I guess. It's still scary, but... I trust you. And I want to get better. For myself.",
+      "Therapist: Your courage is admirable. Are you ready to begin?",
+      "Client: I... I think so. Yeah. Let's do this before I change my mind. Just... stay close, okay?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Are you ready to begin?",
+      "Client: I... I think so. Yeah. Let's do this before I change my mind. Just... stay close, okay?",
+      "Therapist: I'm right here with you. Let's start with some deep breaths..."
+    ]
+  ]
+}

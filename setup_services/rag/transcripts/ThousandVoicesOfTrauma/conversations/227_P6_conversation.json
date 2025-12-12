@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's understandable. Let's begin when you're comfortable.",
+    "Client: Okay. I'm back in our old neighborhood. It's late afternoon, and I'm playing outside with my friends. Suddenly, I hear shouting from the house next door. My stomach tightens as I recognize Mr. Johnson's angry voice. I freeze, not sure what to do.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4. I'm tense, but it's manageable.",
+    "Therapist: Alright. Continue.",
+    "Client: The shouting gets louder. I hear something crash inside the house. My friends look scared and start to leave. I want to run too, but my feet won't move. Then I see Mrs. Johnson stumble out the front door, her face bruised and tear-stained. My heart's pounding now.",
+    "Therapist: And your SUDS?",
+    "Client: It's gone up to a 6. I can feel my palms sweating.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: Mr. Johnson follows her out, still yelling. He grabs her arm roughly, and she cries out in pain. I want to help, but I'm terrified. I can't breathe properly. My chest feels so tight.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's an 8 now. This is really hard.",
+    "Therapist: You're doing great. Stay with it if you can.",
+    "Client: I... I see him raise his hand to hit her. I close my eyes, but I can still hear the impact and her scream. I'm shaking all over. I feel so helpless, so guilty for not doing anything.",
+    "Therapist: Your SUDS?",
+    "Client: It's a 9. I feel like I'm right back there. My heart's racing.",
+    "Therapist: That's normal. You're safe here. Keep breathing.",
+    "Client: I open my eyes, and Mrs. Johnson is on the ground. Mr. Johnson storms back inside. I want to run to her, but I'm frozen in place. I feel sick to my stomach. The guilt is overwhelming.",
+    "Therapist: Current SUDS?",
+    "Client: Still a 9. I can't shake this feeling of dread and shame.",
+    "Therapist: You're doing really well. Let's stay with it a bit longer.",
+    "Client: I finally find the courage to move. I run inside my house and tell my mom what happened. She calls the police, but by the time they arrive, Mr. Johnson is gone. I see Mrs. Johnson being taken away in an ambulance. I feel so angry and scared.",
+    "Therapist: And your SUDS now?",
+    "Client: It's starting to come down a bit. Maybe a 7?",
+    "Therapist: That's good. How are you feeling?",
+    "Client: Drained. Sad. But also... I don't know, maybe a little relieved to have talked about it?",
+    "Therapist: That's common. Well done for getting through that.",
+    "Client: Thanks. It was tough, but I'm glad I did it. I didn't think I could face those memories.",
+    "Therapist: You showed great courage. How are you feeling now?",
+    "Client: Better. My heart's slowing down. I feel more... present.",
+    "Therapist: That's excellent. Let's take a few deep breaths together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay. I'm back in our old neighborhood. It's late afternoon, and I'm playing outside with my friends. Suddenly, I hear shouting from the house next door. My stomach tightens as I recognize Mr. Johnson's angry voice. I freeze, not sure what to do."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay. I'm back in our old neighborhood. It's late afternoon, and I'm playing outside with my friends. Suddenly, I hear shouting from the house next door. My stomach tightens as I recognize Mr. Johnson's angry voice. I freeze, not sure what to do.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay. I'm back in our old neighborhood. It's late afternoon, and I'm playing outside with my friends. Suddenly, I hear shouting from the house next door. My stomach tightens as I recognize Mr. Johnson's angry voice. I freeze, not sure what to do.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. I'm tense, but it's manageable.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, I'd say about a 4. I'm tense, but it's manageable.",
+      "Therapist: Alright. Continue.",
+      "Client: The shouting gets louder. I hear something crash inside the house. My friends look scared and start to leave. I want to run too, but my feet won't move. Then I see Mrs. Johnson stumble out the front door, her face bruised and tear-stained. My heart's pounding now."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: The shouting gets louder. I hear something crash inside the house. My friends look scared and start to leave. I want to run too, but my feet won't move. Then I see Mrs. Johnson stumble out the front door, her face bruised and tear-stained. My heart's pounding now.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: The shouting gets louder. I hear something crash inside the house. My friends look scared and start to leave. I want to run too, but my feet won't move. Then I see Mrs. Johnson stumble out the front door, her face bruised and tear-stained. My heart's pounding now.",
+      "Therapist: And your SUDS?",
+      "Client: It's gone up to a 6. I can feel my palms sweating."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's gone up to a 6. I can feel my palms sweating.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. I can feel my palms sweating.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: Mr. Johnson follows her out, still yelling. He grabs her arm roughly, and she cries out in pain. I want to help, but I'm terrified. I can't breathe properly. My chest feels so tight."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: Mr. Johnson follows her out, still yelling. He grabs her arm roughly, and she cries out in pain. I want to help, but I'm terrified. I can't breathe properly. My chest feels so tight.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: Mr. Johnson follows her out, still yelling. He grabs her arm roughly, and she cries out in pain. I want to help, but I'm terrified. I can't breathe properly. My chest feels so tight.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's an 8 now. This is really hard."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's an 8 now. This is really hard.",
+      "Therapist: You're doing great. Stay with it if you can."
+    ],
+    [
+      "Client: It's... it's an 8 now. This is really hard.",
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: I... I see him raise his hand to hit her. I close my eyes, but I can still hear the impact and her scream. I'm shaking all over. I feel so helpless, so guilty for not doing anything."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: I... I see him raise his hand to hit her. I close my eyes, but I can still hear the impact and her scream. I'm shaking all over. I feel so helpless, so guilty for not doing anything.",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: I... I see him raise his hand to hit her. I close my eyes, but I can still hear the impact and her scream. I'm shaking all over. I feel so helpless, so guilty for not doing anything.",
+      "Therapist: Your SUDS?",
+      "Client: It's a 9. I feel like I'm right back there. My heart's racing."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: It's a 9. I feel like I'm right back there. My heart's racing.",
+      "Therapist: That's normal. You're safe here. Keep breathing."
+    ],
+    [
+      "Client: It's a 9. I feel like I'm right back there. My heart's racing.",
+      "Therapist: That's normal. You're safe here. Keep breathing.",
+      "Client: I open my eyes, and Mrs. Johnson is on the ground. Mr. Johnson storms back inside. I want to run to her, but I'm frozen in place. I feel sick to my stomach. The guilt is overwhelming."
+    ],
+    [
+      "Therapist: That's normal. You're safe here. Keep breathing.",
+      "Client: I open my eyes, and Mrs. Johnson is on the ground. Mr. Johnson storms back inside. I want to run to her, but I'm frozen in place. I feel sick to my stomach. The guilt is overwhelming.",
+      "Therapist: Current SUDS?"
+    ],
+    [
+      "Client: I open my eyes, and Mrs. Johnson is on the ground. Mr. Johnson storms back inside. I want to run to her, but I'm frozen in place. I feel sick to my stomach. The guilt is overwhelming.",
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I can't shake this feeling of dread and shame."
+    ],
+    [
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I can't shake this feeling of dread and shame.",
+      "Therapist: You're doing really well. Let's stay with it a bit longer."
+    ],
+    [
+      "Client: Still a 9. I can't shake this feeling of dread and shame.",
+      "Therapist: You're doing really well. Let's stay with it a bit longer.",
+      "Client: I finally find the courage to move. I run inside my house and tell my mom what happened. She calls the police, but by the time they arrive, Mr. Johnson is gone. I see Mrs. Johnson being taken away in an ambulance. I feel so angry and scared."
+    ],
+    [
+      "Therapist: You're doing really well. Let's stay with it a bit longer.",
+      "Client: I finally find the courage to move. I run inside my house and tell my mom what happened. She calls the police, but by the time they arrive, Mr. Johnson is gone. I see Mrs. Johnson being taken away in an ambulance. I feel so angry and scared.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I finally find the courage to move. I run inside my house and tell my mom what happened. She calls the police, but by the time they arrive, Mr. Johnson is gone. I see Mrs. Johnson being taken away in an ambulance. I feel so angry and scared.",
+      "Therapist: And your SUDS now?",
+      "Client: It's starting to come down a bit. Maybe a 7?"
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's starting to come down a bit. Maybe a 7?",
+      "Therapist: That's good. How are you feeling?"
+    ],
+    [
+      "Client: It's starting to come down a bit. Maybe a 7?",
+      "Therapist: That's good. How are you feeling?",
+      "Client: Drained. Sad. But also... I don't know, maybe a little relieved to have talked about it?"
+    ],
+    [
+      "Therapist: That's good. How are you feeling?",
+      "Client: Drained. Sad. But also... I don't know, maybe a little relieved to have talked about it?",
+      "Therapist: That's common. Well done for getting through that."
+    ],
+    [
+      "Client: Drained. Sad. But also... I don't know, maybe a little relieved to have talked about it?",
+      "Therapist: That's common. Well done for getting through that.",
+      "Client: Thanks. It was tough, but I'm glad I did it. I didn't think I could face those memories."
+    ],
+    [
+      "Therapist: That's common. Well done for getting through that.",
+      "Client: Thanks. It was tough, but I'm glad I did it. I didn't think I could face those memories.",
+      "Therapist: You showed great courage. How are you feeling now?"
+    ],
+    [
+      "Client: Thanks. It was tough, but I'm glad I did it. I didn't think I could face those memories.",
+      "Therapist: You showed great courage. How are you feeling now?",
+      "Client: Better. My heart's slowing down. I feel more... present."
+    ],
+    [
+      "Therapist: You showed great courage. How are you feeling now?",
+      "Client: Better. My heart's slowing down. I feel more... present.",
+      "Therapist: That's excellent. Let's take a few deep breaths together."
+    ]
+  ]
+}

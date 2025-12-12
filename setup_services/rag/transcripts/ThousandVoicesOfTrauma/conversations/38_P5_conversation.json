@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Fatima, how are you feeling today?",
+    "Client: Hi Dr. Ahmed. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+    "Therapist: I understand. Can you tell me more about your concerns?",
+    "Client: Well, it's just... the idea of reliving those moments terrifies me. I've spent so long trying to forget, you know? And now you're asking me to remember everything in detail. What if I can't handle it? What if it makes everything worse?",
+    "Therapist: Those are valid concerns. How about we discuss the process?",
+    "Client: Okay, I'd like that. Maybe it'll help me feel more prepared. It's just... every time I think about what happened, I feel like I'm right back there, watching it all happen again. My heart races, I can't breathe properly, and I just want to run away and hide.",
+    "Therapist: I hear you. Let's break down what we'll do today.",
+    "Client: Alright. I'm listening. But I have to be honest, I'm still really scared. I've never talked about this in detail with anyone before. Not even my parents or my boyfriend know everything that happened. What if I start crying and can't stop? Or what if I freeze up and can't say anything at all?",
+    "Therapist: Those reactions are normal. We'll go at your pace.",
+    "Client: Okay... that makes me feel a bit better. Can you tell me more about what exactly we'll be doing? And how long will it take? I want to be prepared.",
+    "Therapist: We'll revisit the memory gradually. It may take 30-45 minutes.",
+    "Client: That sounds like a really long time to be thinking about something so painful. But I guess if it's supposed to help... Can you explain how this is supposed to make things better? Because right now, it feels like it's just going to make everything worse.",
+    "Therapist: It helps process the memory, reducing its power over time.",
+    "Client: I see. So, it's like facing my fears head-on? That makes sense, I guess. But it's still scary. Will you be there the whole time? What if I need to stop?",
+    "Therapist: I'll be here throughout. We can pause anytime you need.",
+    "Client: That's reassuring. I'm glad you'll be here with me. I trust you, Dr. Ahmed. It's just... this is all so overwhelming. I've spent so long trying to push these memories away, and now I'm voluntarily bringing them back. It feels counterintuitive, you know?",
+    "Therapist: I understand. Your bravery is commendable, Fatima.",
+    "Client: Thank you. That means a lot. I'm trying to be brave, but it's hard. Sometimes I wonder if I'll ever feel normal again, you know? Like, will there ever be a time when these memories don't haunt me? When I can just live my life without constantly looking over my shoulder or flinching at loud noises?",
+    "Therapist: This process will help. Shall we begin?",
+    "Client: Okay... I think I'm as ready as I'll ever be. Can you just... can you hold my hand for a moment? I know it's not professional, but I could really use the support right now. And maybe remind me one more time that I'm safe here?",
+    "Therapist: Of course. You're safe here, Fatima. Let's start slowly."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Fatima, how are you feeling today?",
+      "Client: Hi Dr. Ahmed. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+      "Therapist: I understand. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Hi Dr. Ahmed. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately, and I'm not sure if I'm ready for this.",
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... the idea of reliving those moments terrifies me. I've spent so long trying to forget, you know? And now you're asking me to remember everything in detail. What if I can't handle it? What if it makes everything worse?"
+    ],
+    [
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... the idea of reliving those moments terrifies me. I've spent so long trying to forget, you know? And now you're asking me to remember everything in detail. What if I can't handle it? What if it makes everything worse?",
+      "Therapist: Those are valid concerns. How about we discuss the process?"
+    ],
+    [
+      "Client: Well, it's just... the idea of reliving those moments terrifies me. I've spent so long trying to forget, you know? And now you're asking me to remember everything in detail. What if I can't handle it? What if it makes everything worse?",
+      "Therapist: Those are valid concerns. How about we discuss the process?",
+      "Client: Okay, I'd like that. Maybe it'll help me feel more prepared. It's just... every time I think about what happened, I feel like I'm right back there, watching it all happen again. My heart races, I can't breathe properly, and I just want to run away and hide."
+    ],
+    [
+      "Therapist: Those are valid concerns. How about we discuss the process?",
+      "Client: Okay, I'd like that. Maybe it'll help me feel more prepared. It's just... every time I think about what happened, I feel like I'm right back there, watching it all happen again. My heart races, I can't breathe properly, and I just want to run away and hide.",
+      "Therapist: I hear you. Let's break down what we'll do today."
+    ],
+    [
+      "Client: Okay, I'd like that. Maybe it'll help me feel more prepared. It's just... every time I think about what happened, I feel like I'm right back there, watching it all happen again. My heart races, I can't breathe properly, and I just want to run away and hide.",
+      "Therapist: I hear you. Let's break down what we'll do today.",
+      "Client: Alright. I'm listening. But I have to be honest, I'm still really scared. I've never talked about this in detail with anyone before. Not even my parents or my boyfriend know everything that happened. What if I start crying and can't stop? Or what if I freeze up and can't say anything at all?"
+    ],
+    [
+      "Therapist: I hear you. Let's break down what we'll do today.",
+      "Client: Alright. I'm listening. But I have to be honest, I'm still really scared. I've never talked about this in detail with anyone before. Not even my parents or my boyfriend know everything that happened. What if I start crying and can't stop? Or what if I freeze up and can't say anything at all?",
+      "Therapist: Those reactions are normal. We'll go at your pace."
+    ],
+    [
+      "Client: Alright. I'm listening. But I have to be honest, I'm still really scared. I've never talked about this in detail with anyone before. Not even my parents or my boyfriend know everything that happened. What if I start crying and can't stop? Or what if I freeze up and can't say anything at all?",
+      "Therapist: Those reactions are normal. We'll go at your pace.",
+      "Client: Okay... that makes me feel a bit better. Can you tell me more about what exactly we'll be doing? And how long will it take? I want to be prepared."
+    ],
+    [
+      "Therapist: Those reactions are normal. We'll go at your pace.",
+      "Client: Okay... that makes me feel a bit better. Can you tell me more about what exactly we'll be doing? And how long will it take? I want to be prepared.",
+      "Therapist: We'll revisit the memory gradually. It may take 30-45 minutes."
+    ],
+    [
+      "Client: Okay... that makes me feel a bit better. Can you tell me more about what exactly we'll be doing? And how long will it take? I want to be prepared.",
+      "Therapist: We'll revisit the memory gradually. It may take 30-45 minutes.",
+      "Client: That sounds like a really long time to be thinking about something so painful. But I guess if it's supposed to help... Can you explain how this is supposed to make things better? Because right now, it feels like it's just going to make everything worse."
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. It may take 30-45 minutes.",
+      "Client: That sounds like a really long time to be thinking about something so painful. But I guess if it's supposed to help... Can you explain how this is supposed to make things better? Because right now, it feels like it's just going to make everything worse.",
+      "Therapist: It helps process the memory, reducing its power over time."
+    ],
+    [
+      "Client: That sounds like a really long time to be thinking about something so painful. But I guess if it's supposed to help... Can you explain how this is supposed to make things better? Because right now, it feels like it's just going to make everything worse.",
+      "Therapist: It helps process the memory, reducing its power over time.",
+      "Client: I see. So, it's like facing my fears head-on? That makes sense, I guess. But it's still scary. Will you be there the whole time? What if I need to stop?"
+    ],
+    [
+      "Therapist: It helps process the memory, reducing its power over time.",
+      "Client: I see. So, it's like facing my fears head-on? That makes sense, I guess. But it's still scary. Will you be there the whole time? What if I need to stop?",
+      "Therapist: I'll be here throughout. We can pause anytime you need."
+    ],
+    [
+      "Client: I see. So, it's like facing my fears head-on? That makes sense, I guess. But it's still scary. Will you be there the whole time? What if I need to stop?",
+      "Therapist: I'll be here throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I'm glad you'll be here with me. I trust you, Dr. Ahmed. It's just... this is all so overwhelming. I've spent so long trying to push these memories away, and now I'm voluntarily bringing them back. It feels counterintuitive, you know?"
+    ],
+    [
+      "Therapist: I'll be here throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I'm glad you'll be here with me. I trust you, Dr. Ahmed. It's just... this is all so overwhelming. I've spent so long trying to push these memories away, and now I'm voluntarily bringing them back. It feels counterintuitive, you know?",
+      "Therapist: I understand. Your bravery is commendable, Fatima."
+    ],
+    [
+      "Client: That's reassuring. I'm glad you'll be here with me. I trust you, Dr. Ahmed. It's just... this is all so overwhelming. I've spent so long trying to push these memories away, and now I'm voluntarily bringing them back. It feels counterintuitive, you know?",
+      "Therapist: I understand. Your bravery is commendable, Fatima.",
+      "Client: Thank you. That means a lot. I'm trying to be brave, but it's hard. Sometimes I wonder if I'll ever feel normal again, you know? Like, will there ever be a time when these memories don't haunt me? When I can just live my life without constantly looking over my shoulder or flinching at loud noises?"
+    ],
+    [
+      "Therapist: I understand. Your bravery is commendable, Fatima.",
+      "Client: Thank you. That means a lot. I'm trying to be brave, but it's hard. Sometimes I wonder if I'll ever feel normal again, you know? Like, will there ever be a time when these memories don't haunt me? When I can just live my life without constantly looking over my shoulder or flinching at loud noises?",
+      "Therapist: This process will help. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. That means a lot. I'm trying to be brave, but it's hard. Sometimes I wonder if I'll ever feel normal again, you know? Like, will there ever be a time when these memories don't haunt me? When I can just live my life without constantly looking over my shoulder or flinching at loud noises?",
+      "Therapist: This process will help. Shall we begin?",
+      "Client: Okay... I think I'm as ready as I'll ever be. Can you just... can you hold my hand for a moment? I know it's not professional, but I could really use the support right now. And maybe remind me one more time that I'm safe here?"
+    ],
+    [
+      "Therapist: This process will help. Shall we begin?",
+      "Client: Okay... I think I'm as ready as I'll ever be. Can you just... can you hold my hand for a moment? I know it's not professional, but I could really use the support right now. And maybe remind me one more time that I'm safe here?",
+      "Therapist: Of course. You're safe here, Fatima. Let's start slowly."
+    ]
+  ]
+}

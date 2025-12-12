@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Mr. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I suppose so, though I'm feeling a bit anxious already. But yes, I'm ready.",
+    "Therapist: That's understandable. Let's start. Close your eyes and describe the night of the home invasion.",
+    "Client: (Takes a deep breath) It was a quiet evening. I was watching the news, sipping my usual whiskey. The house felt empty without Margaret. Suddenly, I heard a crash from the kitchen. My heart started racing...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Oh, um... I'd say about a 4. My palms are getting a bit sweaty.",
+    "Therapist: Okay, continue.",
+    "Client: I got up, my legs shaking. As I approached the kitchen, I saw a figure. A man, dressed in black. He turned and saw me. I froze. I couldn't move, couldn't breathe. He had a knife...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up. Maybe a 6? My chest feels tight.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: He lunged at me. I stumbled backward, falling onto the floor. I thought, \"This is it. I'm going to die.\" I could smell his breath - alcohol and cigarettes. He demanded money, jewelry. I couldn't speak. I just pointed towards the bedroom.",
+    "Therapist: SUDS?",
+    "Client: (Voice trembling) 8... maybe 9. I feel like I'm back there. My heart's pounding.",
+    "Therapist: You're safe here. Take a deep breath.",
+    "Client: (Inhales shakily) He dragged me to the bedroom. I kept thinking about Margaret's jewelry. Her wedding ring. I couldn't let him take that. As he rummaged through drawers, I spotted Margaret's old tennis racket...",
+    "Therapist: How are you feeling now?",
+    "Client: Still high... 8. My hands are shaking.",
+    "Therapist: That's normal. You're doing great. Continue when you're ready.",
+    "Client: I... I grabbed the racket. Swung it as hard as I could. It connected with his head. There was a sickening crack. He fell. I ran, called the police. I was shaking so badly I could hardly dial...",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... coming down a bit. Maybe a 6? I feel drained.",
+    "Therapist: That's a common response. How are you feeling physically?",
+    "Client: My shoulders are tense. I feel... old. Vulnerable. Like I can't protect myself anymore.",
+    "Therapist: Those feelings are valid. You survived a traumatic event.",
+    "Client: I know, but... I can't shake this fear. Every noise at night... I reach for that damn racket.",
+    "Therapist: Your SUDS now?",
+    "Client: Back up to 7. Talking about it... it brings it all back.",
+    "Therapist: That's normal. You're processing the trauma.",
+    "Client: Will it ever get easier? I'm tired of feeling this way.",
+    "Therapist: It can. That's why we're here. Your SUDS?",
+    "Client: Down to 5. Talking helps, I suppose.",
+    "Therapist: That's good. Let's take a break. You did well today.",
+    "Client: (Sighs) Thank you. It's not easy, but... I want to feel safe again.",
+    "Therapist: That's a great goal. We'll work towards it together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Mr. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I suppose so, though I'm feeling a bit anxious already. But yes, I'm ready.",
+      "Therapist: That's understandable. Let's start. Close your eyes and describe the night of the home invasion."
+    ],
+    [
+      "Client: I suppose so, though I'm feeling a bit anxious already. But yes, I'm ready.",
+      "Therapist: That's understandable. Let's start. Close your eyes and describe the night of the home invasion.",
+      "Client: (Takes a deep breath) It was a quiet evening. I was watching the news, sipping my usual whiskey. The house felt empty without Margaret. Suddenly, I heard a crash from the kitchen. My heart started racing..."
+    ],
+    [
+      "Therapist: That's understandable. Let's start. Close your eyes and describe the night of the home invasion.",
+      "Client: (Takes a deep breath) It was a quiet evening. I was watching the news, sipping my usual whiskey. The house felt empty without Margaret. Suddenly, I heard a crash from the kitchen. My heart started racing...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) It was a quiet evening. I was watching the news, sipping my usual whiskey. The house felt empty without Margaret. Suddenly, I heard a crash from the kitchen. My heart started racing...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Oh, um... I'd say about a 4. My palms are getting a bit sweaty."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Oh, um... I'd say about a 4. My palms are getting a bit sweaty.",
+      "Therapist: Okay, continue."
+    ],
+    [
+      "Client: Oh, um... I'd say about a 4. My palms are getting a bit sweaty.",
+      "Therapist: Okay, continue.",
+      "Client: I got up, my legs shaking. As I approached the kitchen, I saw a figure. A man, dressed in black. He turned and saw me. I froze. I couldn't move, couldn't breathe. He had a knife..."
+    ],
+    [
+      "Therapist: Okay, continue.",
+      "Client: I got up, my legs shaking. As I approached the kitchen, I saw a figure. A man, dressed in black. He turned and saw me. I froze. I couldn't move, couldn't breathe. He had a knife...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I got up, my legs shaking. As I approached the kitchen, I saw a figure. A man, dressed in black. He turned and saw me. I froze. I couldn't move, couldn't breathe. He had a knife...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? My chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? My chest feels tight.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 6? My chest feels tight.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He lunged at me. I stumbled backward, falling onto the floor. I thought, \"This is it. I'm going to die.\" I could smell his breath - alcohol and cigarettes. He demanded money, jewelry. I couldn't speak. I just pointed towards the bedroom."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He lunged at me. I stumbled backward, falling onto the floor. I thought, \"This is it. I'm going to die.\" I could smell his breath - alcohol and cigarettes. He demanded money, jewelry. I couldn't speak. I just pointed towards the bedroom.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: He lunged at me. I stumbled backward, falling onto the floor. I thought, \"This is it. I'm going to die.\" I could smell his breath - alcohol and cigarettes. He demanded money, jewelry. I couldn't speak. I just pointed towards the bedroom.",
+      "Therapist: SUDS?",
+      "Client: (Voice trembling) 8... maybe 9. I feel like I'm back there. My heart's pounding."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: (Voice trembling) 8... maybe 9. I feel like I'm back there. My heart's pounding.",
+      "Therapist: You're safe here. Take a deep breath."
+    ],
+    [
+      "Client: (Voice trembling) 8... maybe 9. I feel like I'm back there. My heart's pounding.",
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (Inhales shakily) He dragged me to the bedroom. I kept thinking about Margaret's jewelry. Her wedding ring. I couldn't let him take that. As he rummaged through drawers, I spotted Margaret's old tennis racket..."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (Inhales shakily) He dragged me to the bedroom. I kept thinking about Margaret's jewelry. Her wedding ring. I couldn't let him take that. As he rummaged through drawers, I spotted Margaret's old tennis racket...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (Inhales shakily) He dragged me to the bedroom. I kept thinking about Margaret's jewelry. Her wedding ring. I couldn't let him take that. As he rummaged through drawers, I spotted Margaret's old tennis racket...",
+      "Therapist: How are you feeling now?",
+      "Client: Still high... 8. My hands are shaking."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Still high... 8. My hands are shaking.",
+      "Therapist: That's normal. You're doing great. Continue when you're ready."
+    ],
+    [
+      "Client: Still high... 8. My hands are shaking.",
+      "Therapist: That's normal. You're doing great. Continue when you're ready.",
+      "Client: I... I grabbed the racket. Swung it as hard as I could. It connected with his head. There was a sickening crack. He fell. I ran, called the police. I was shaking so badly I could hardly dial..."
+    ],
+    [
+      "Therapist: That's normal. You're doing great. Continue when you're ready.",
+      "Client: I... I grabbed the racket. Swung it as hard as I could. It connected with his head. There was a sickening crack. He fell. I ran, called the police. I was shaking so badly I could hardly dial...",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I... I grabbed the racket. Swung it as hard as I could. It connected with his head. There was a sickening crack. He fell. I ran, called the police. I was shaking so badly I could hardly dial...",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... coming down a bit. Maybe a 6? I feel drained."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... coming down a bit. Maybe a 6? I feel drained.",
+      "Therapist: That's a common response. How are you feeling physically?"
+    ],
+    [
+      "Client: It's... coming down a bit. Maybe a 6? I feel drained.",
+      "Therapist: That's a common response. How are you feeling physically?",
+      "Client: My shoulders are tense. I feel... old. Vulnerable. Like I can't protect myself anymore."
+    ],
+    [
+      "Therapist: That's a common response. How are you feeling physically?",
+      "Client: My shoulders are tense. I feel... old. Vulnerable. Like I can't protect myself anymore.",
+      "Therapist: Those feelings are valid. You survived a traumatic event."
+    ],
+    [
+      "Client: My shoulders are tense. I feel... old. Vulnerable. Like I can't protect myself anymore.",
+      "Therapist: Those feelings are valid. You survived a traumatic event.",
+      "Client: I know, but... I can't shake this fear. Every noise at night... I reach for that damn racket."
+    ],
+    [
+      "Therapist: Those feelings are valid. You survived a traumatic event.",
+      "Client: I know, but... I can't shake this fear. Every noise at night... I reach for that damn racket.",
+      "Therapist: Your SUDS now?"
+    ],
+    [
+      "Client: I know, but... I can't shake this fear. Every noise at night... I reach for that damn racket.",
+      "Therapist: Your SUDS now?",
+      "Client: Back up to 7. Talking about it... it brings it all back."
+    ],
+    [
+      "Therapist: Your SUDS now?",
+      "Client: Back up to 7. Talking about it... it brings it all back.",
+      "Therapist: That's normal. You're processing the trauma."
+    ],
+    [
+      "Client: Back up to 7. Talking about it... it brings it all back.",
+      "Therapist: That's normal. You're processing the trauma.",
+      "Client: Will it ever get easier? I'm tired of feeling this way."
+    ],
+    [
+      "Therapist: That's normal. You're processing the trauma.",
+      "Client: Will it ever get easier? I'm tired of feeling this way.",
+      "Therapist: It can. That's why we're here. Your SUDS?"
+    ],
+    [
+      "Client: Will it ever get easier? I'm tired of feeling this way.",
+      "Therapist: It can. That's why we're here. Your SUDS?",
+      "Client: Down to 5. Talking helps, I suppose."
+    ],
+    [
+      "Therapist: It can. That's why we're here. Your SUDS?",
+      "Client: Down to 5. Talking helps, I suppose.",
+      "Therapist: That's good. Let's take a break. You did well today."
+    ],
+    [
+      "Client: Down to 5. Talking helps, I suppose.",
+      "Therapist: That's good. Let's take a break. You did well today.",
+      "Client: (Sighs) Thank you. It's not easy, but... I want to feel safe again."
+    ],
+    [
+      "Therapist: That's good. Let's take a break. You did well today.",
+      "Client: (Sighs) Thank you. It's not easy, but... I want to feel safe again.",
+      "Therapist: That's a great goal. We'll work towards it together."
+    ]
+  ]
+}

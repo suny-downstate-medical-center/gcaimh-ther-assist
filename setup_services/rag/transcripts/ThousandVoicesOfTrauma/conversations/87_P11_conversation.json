@@ -1,0 +1,152 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Thompson?",
+    "Client: I... I'm not quite sure, to be honest. It's all a bit overwhelming. Reliving that home invasion... it's like I was right back there, you know? I could feel my heart racing, just like it did that night. The sound of glass breaking, footsteps... it's all so vivid.",
+    "Therapist: That sounds intense. What stood out most to you?",
+    "Client: The helplessness, I think. I'm not as young as I used to be, and when those men broke in, I just... I froze. I couldn't protect myself or my home. It's embarrassing, really. I've always prided myself on being independent, especially since my wife passed. But in that moment, I felt like a scared child.",
+    "Therapist: How did it feel to revisit that memory today?",
+    "Client: It was tough, really tough. But... maybe a little different this time? I mean, it's still terrifying, but I noticed I could breathe through it a bit better. Is that progress?",
+    "Therapist: Absolutely. What else did you notice?",
+    "Client: Well, I... I realized that even though I felt helpless, I did manage to call the police eventually. I guess I wasn't completely powerless. And... and I survived, didn't I? I'm still here, talking about it.",
+    "Therapist: That's a powerful realization. How does that connect to your everyday life?",
+    "Client: I suppose... maybe I'm stronger than I give myself credit for? It's hard to feel strong when you're dealing with nightmares and jumping at every sound. But if I could survive that, maybe I can handle more than I think.",
+    "Therapist: That's an important insight. How might you apply this?",
+    "Client: I... I'm not sure. Maybe I could try doing more things on my own? I've been relying on my daughter a lot since the incident. Perhaps I could start by going to the shops alone again. Baby steps, you know?",
+    "Therapist: That sounds like a great idea. What else?",
+    "Client: I've been thinking... maybe I should join that veterans' support group you mentioned. I've been hesitant because... well, because of the drinking. But talking about this... it helps. Maybe sharing with others who understand could help too.",
+    "Therapist: How do you feel about that possibility?",
+    "Client: Nervous, definitely. But also... hopeful? I'm tired of feeling isolated. And if I can face this memory here with you, maybe I can face my peers too. It's just... it's hard to let people see you vulnerable, you know?",
+    "Therapist: That's understandable. What gives you hope?",
+    "Client: I guess... the fact that I'm here, doing this therapy. Six months ago, I wouldn't have believed I could talk about the invasion without having a complete breakdown. But here I am. It's still hard, but... I'm doing it.",
+    "Therapist: That's significant progress. How can we build on this?",
+    "Client: I think... I think I need to keep pushing myself. Maybe set small goals each week? Like, going to the shops, or inviting a friend over. And definitely looking into that support group. I know the drinking isn't helping, but it's been a crutch for so long...",
+    "Therapist: Those sound like excellent goals. Anything else?",
+    "Client: I... I'd like to work on feeling safe in my home again. Maybe we could... could we work on some strategies for that? I know logically that I've improved my security, but emotionally, I still feel on edge all the time.",
+    "Therapist: Absolutely. We'll focus on that next session. How are you feeling now?",
+    "Client: Tired, but... okay. Better than I expected, actually. Thank you for guiding me through this. It's not easy, but... I think it's helping. I'm ready to keep working at it.",
+    "Therapist: You're doing great work. See you next week?",
+    "Client: Yes, I'll be here. Thank you again, doctor."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Thompson?",
+      "Client: I... I'm not quite sure, to be honest. It's all a bit overwhelming. Reliving that home invasion... it's like I was right back there, you know? I could feel my heart racing, just like it did that night. The sound of glass breaking, footsteps... it's all so vivid.",
+      "Therapist: That sounds intense. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm not quite sure, to be honest. It's all a bit overwhelming. Reliving that home invasion... it's like I was right back there, you know? I could feel my heart racing, just like it did that night. The sound of glass breaking, footsteps... it's all so vivid.",
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The helplessness, I think. I'm not as young as I used to be, and when those men broke in, I just... I froze. I couldn't protect myself or my home. It's embarrassing, really. I've always prided myself on being independent, especially since my wife passed. But in that moment, I felt like a scared child."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most to you?",
+      "Client: The helplessness, I think. I'm not as young as I used to be, and when those men broke in, I just... I froze. I couldn't protect myself or my home. It's embarrassing, really. I've always prided myself on being independent, especially since my wife passed. But in that moment, I felt like a scared child.",
+      "Therapist: How did it feel to revisit that memory today?"
+    ],
+    [
+      "Client: The helplessness, I think. I'm not as young as I used to be, and when those men broke in, I just... I froze. I couldn't protect myself or my home. It's embarrassing, really. I've always prided myself on being independent, especially since my wife passed. But in that moment, I felt like a scared child.",
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was tough, really tough. But... maybe a little different this time? I mean, it's still terrifying, but I noticed I could breathe through it a bit better. Is that progress?"
+    ],
+    [
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was tough, really tough. But... maybe a little different this time? I mean, it's still terrifying, but I noticed I could breathe through it a bit better. Is that progress?",
+      "Therapist: Absolutely. What else did you notice?"
+    ],
+    [
+      "Client: It was tough, really tough. But... maybe a little different this time? I mean, it's still terrifying, but I noticed I could breathe through it a bit better. Is that progress?",
+      "Therapist: Absolutely. What else did you notice?",
+      "Client: Well, I... I realized that even though I felt helpless, I did manage to call the police eventually. I guess I wasn't completely powerless. And... and I survived, didn't I? I'm still here, talking about it."
+    ],
+    [
+      "Therapist: Absolutely. What else did you notice?",
+      "Client: Well, I... I realized that even though I felt helpless, I did manage to call the police eventually. I guess I wasn't completely powerless. And... and I survived, didn't I? I'm still here, talking about it.",
+      "Therapist: That's a powerful realization. How does that connect to your everyday life?"
+    ],
+    [
+      "Client: Well, I... I realized that even though I felt helpless, I did manage to call the police eventually. I guess I wasn't completely powerless. And... and I survived, didn't I? I'm still here, talking about it.",
+      "Therapist: That's a powerful realization. How does that connect to your everyday life?",
+      "Client: I suppose... maybe I'm stronger than I give myself credit for? It's hard to feel strong when you're dealing with nightmares and jumping at every sound. But if I could survive that, maybe I can handle more than I think."
+    ],
+    [
+      "Therapist: That's a powerful realization. How does that connect to your everyday life?",
+      "Client: I suppose... maybe I'm stronger than I give myself credit for? It's hard to feel strong when you're dealing with nightmares and jumping at every sound. But if I could survive that, maybe I can handle more than I think.",
+      "Therapist: That's an important insight. How might you apply this?"
+    ],
+    [
+      "Client: I suppose... maybe I'm stronger than I give myself credit for? It's hard to feel strong when you're dealing with nightmares and jumping at every sound. But if I could survive that, maybe I can handle more than I think.",
+      "Therapist: That's an important insight. How might you apply this?",
+      "Client: I... I'm not sure. Maybe I could try doing more things on my own? I've been relying on my daughter a lot since the incident. Perhaps I could start by going to the shops alone again. Baby steps, you know?"
+    ],
+    [
+      "Therapist: That's an important insight. How might you apply this?",
+      "Client: I... I'm not sure. Maybe I could try doing more things on my own? I've been relying on my daughter a lot since the incident. Perhaps I could start by going to the shops alone again. Baby steps, you know?",
+      "Therapist: That sounds like a great idea. What else?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe I could try doing more things on my own? I've been relying on my daughter a lot since the incident. Perhaps I could start by going to the shops alone again. Baby steps, you know?",
+      "Therapist: That sounds like a great idea. What else?",
+      "Client: I've been thinking... maybe I should join that veterans' support group you mentioned. I've been hesitant because... well, because of the drinking. But talking about this... it helps. Maybe sharing with others who understand could help too."
+    ],
+    [
+      "Therapist: That sounds like a great idea. What else?",
+      "Client: I've been thinking... maybe I should join that veterans' support group you mentioned. I've been hesitant because... well, because of the drinking. But talking about this... it helps. Maybe sharing with others who understand could help too.",
+      "Therapist: How do you feel about that possibility?"
+    ],
+    [
+      "Client: I've been thinking... maybe I should join that veterans' support group you mentioned. I've been hesitant because... well, because of the drinking. But talking about this... it helps. Maybe sharing with others who understand could help too.",
+      "Therapist: How do you feel about that possibility?",
+      "Client: Nervous, definitely. But also... hopeful? I'm tired of feeling isolated. And if I can face this memory here with you, maybe I can face my peers too. It's just... it's hard to let people see you vulnerable, you know?"
+    ],
+    [
+      "Therapist: How do you feel about that possibility?",
+      "Client: Nervous, definitely. But also... hopeful? I'm tired of feeling isolated. And if I can face this memory here with you, maybe I can face my peers too. It's just... it's hard to let people see you vulnerable, you know?",
+      "Therapist: That's understandable. What gives you hope?"
+    ],
+    [
+      "Client: Nervous, definitely. But also... hopeful? I'm tired of feeling isolated. And if I can face this memory here with you, maybe I can face my peers too. It's just... it's hard to let people see you vulnerable, you know?",
+      "Therapist: That's understandable. What gives you hope?",
+      "Client: I guess... the fact that I'm here, doing this therapy. Six months ago, I wouldn't have believed I could talk about the invasion without having a complete breakdown. But here I am. It's still hard, but... I'm doing it."
+    ],
+    [
+      "Therapist: That's understandable. What gives you hope?",
+      "Client: I guess... the fact that I'm here, doing this therapy. Six months ago, I wouldn't have believed I could talk about the invasion without having a complete breakdown. But here I am. It's still hard, but... I'm doing it.",
+      "Therapist: That's significant progress. How can we build on this?"
+    ],
+    [
+      "Client: I guess... the fact that I'm here, doing this therapy. Six months ago, I wouldn't have believed I could talk about the invasion without having a complete breakdown. But here I am. It's still hard, but... I'm doing it.",
+      "Therapist: That's significant progress. How can we build on this?",
+      "Client: I think... I think I need to keep pushing myself. Maybe set small goals each week? Like, going to the shops, or inviting a friend over. And definitely looking into that support group. I know the drinking isn't helping, but it's been a crutch for so long..."
+    ],
+    [
+      "Therapist: That's significant progress. How can we build on this?",
+      "Client: I think... I think I need to keep pushing myself. Maybe set small goals each week? Like, going to the shops, or inviting a friend over. And definitely looking into that support group. I know the drinking isn't helping, but it's been a crutch for so long...",
+      "Therapist: Those sound like excellent goals. Anything else?"
+    ],
+    [
+      "Client: I think... I think I need to keep pushing myself. Maybe set small goals each week? Like, going to the shops, or inviting a friend over. And definitely looking into that support group. I know the drinking isn't helping, but it's been a crutch for so long...",
+      "Therapist: Those sound like excellent goals. Anything else?",
+      "Client: I... I'd like to work on feeling safe in my home again. Maybe we could... could we work on some strategies for that? I know logically that I've improved my security, but emotionally, I still feel on edge all the time."
+    ],
+    [
+      "Therapist: Those sound like excellent goals. Anything else?",
+      "Client: I... I'd like to work on feeling safe in my home again. Maybe we could... could we work on some strategies for that? I know logically that I've improved my security, but emotionally, I still feel on edge all the time.",
+      "Therapist: Absolutely. We'll focus on that next session. How are you feeling now?"
+    ],
+    [
+      "Client: I... I'd like to work on feeling safe in my home again. Maybe we could... could we work on some strategies for that? I know logically that I've improved my security, but emotionally, I still feel on edge all the time.",
+      "Therapist: Absolutely. We'll focus on that next session. How are you feeling now?",
+      "Client: Tired, but... okay. Better than I expected, actually. Thank you for guiding me through this. It's not easy, but... I think it's helping. I'm ready to keep working at it."
+    ],
+    [
+      "Therapist: Absolutely. We'll focus on that next session. How are you feeling now?",
+      "Client: Tired, but... okay. Better than I expected, actually. Thank you for guiding me through this. It's not easy, but... I think it's helping. I'm ready to keep working at it.",
+      "Therapist: You're doing great work. See you next week?"
+    ],
+    [
+      "Client: Tired, but... okay. Better than I expected, actually. Thank you for guiding me through this. It's not easy, but... I think it's helping. I'm ready to keep working at it.",
+      "Therapist: You're doing great work. See you next week?",
+      "Client: Yes, I'll be here. Thank you again, doctor."
+    ]
+  ]
+}

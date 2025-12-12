@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My heart's beating a bit faster than usual.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. Describe what you see and feel.",
+    "Client: I'm in my bedroom, it's dark. I hear a noise downstairs that wakes me up. My first thought is that it must be my roommate, but then I remember she's away for the weekend. My heart starts racing immediately. I sit up in bed, straining to listen. There it is again \u2013 a definite sound of someone moving around downstairs.",
+    "Therapist: What happens next?",
+    "Client: I'm frozen in place, my whole body tense. I'm trying to decide if I should call for help or try to hide. The floorboard outside my room creaks, and I realize whoever it is, they're coming upstairs. My mouth goes dry, and I can feel sweat forming on my forehead.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's gone up to a 7. My palms are actually sweating right now, just like they did that night.",
+    "Therapist: That's okay. You're safe here. Continue with what happened.",
+    "Client: The doorknob to my room starts to turn slowly. I'm holding my breath, praying they'll think the room is empty and move on. But the door opens, and I see a silhouette in the doorway. It's a man, tall and broad-shouldered. I can't make out his face in the darkness. He takes a step into the room, and I let out an involuntary gasp.",
+    "Therapist: How are you feeling right now?",
+    "Client: My heart is pounding so hard. I feel like I can't breathe properly. It's like I'm right back there in that moment.",
+    "Therapist: Remember, you're safe here. What's your SUDS rating?",
+    "Client: It's... it's a 9 now. This feels so real.",
+    "Therapist: You're doing well. Take a deep breath. What happens next?",
+    "Client: The man freezes when he hears me. There's this moment of terrible stillness. Then he lunges towards the bed. I scream and try to scramble away, but he grabs my arm. His hand is so big, so strong. I can smell alcohol on his breath. I'm hitting him, kicking, doing anything I can to get away.",
+    "Therapist: Stay with it. You're safe here.",
+    "Client: I manage to wrench my arm free and fall off the other side of the bed. I'm scrambling on the floor, trying to get to the door. He's cursing, trying to grab me again. I make it to the hallway and run down the stairs, nearly falling in my panic. I can hear him behind me. I reach the front door, fumbling with the lock. My hands are shaking so badly.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's still a 9. My whole body is shaking. I feel like I can't catch my breath.",
+    "Therapist: You're doing great. Take a moment. Breathe deeply.",
+    "Client: (Takes a deep breath) Okay. I... I get the door open and run out into the street. I'm screaming for help. The man is right behind me, but then I hear sirens in the distance. He hesitates, then turns and runs the other way. I collapse on the sidewalk, sobbing. A neighbor comes out and wraps a blanket around me. The police arrive a few minutes later.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm... I'm starting to calm down a bit. My heart isn't racing as much. But I still feel shaky and vulnerable.",
+    "Therapist: That's normal. What's your SUDS rating?",
+    "Client: It's come down to about a 6. I feel drained, but also relieved that I got through telling it.",
+    "Therapist: You did very well. How are you feeling physically?",
+    "Client: My muscles are really tense, especially in my shoulders and jaw. I have a bit of a headache coming on. But the shaking has mostly stopped.",
+    "Therapist: That's good. Let's take a few deep breaths together.",
+    "Client: (Breathes deeply) That helps. I'm feeling more grounded now.",
+    "Therapist: You showed great courage. How do you feel about the exercise?",
+    "Client: It was intense, but... I feel like I faced something I've been avoiding. There's a sense of accomplishment mixed with the exhaustion.",
+    "Therapist: That's a common reaction. What's your final SUDS rating?",
+    "Client: I'd say it's down to a 4 now. I'm tired, but I feel... lighter, somehow.",
+    "Therapist: You've done excellent work today. Let's end here and discuss some self-care strategies."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a bit faster than usual."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a bit faster than usual.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. Describe what you see and feel."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My heart's beating a bit faster than usual.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. Describe what you see and feel.",
+      "Client: I'm in my bedroom, it's dark. I hear a noise downstairs that wakes me up. My first thought is that it must be my roommate, but then I remember she's away for the weekend. My heart starts racing immediately. I sit up in bed, straining to listen. There it is again \u2013 a definite sound of someone moving around downstairs."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. Describe what you see and feel.",
+      "Client: I'm in my bedroom, it's dark. I hear a noise downstairs that wakes me up. My first thought is that it must be my roommate, but then I remember she's away for the weekend. My heart starts racing immediately. I sit up in bed, straining to listen. There it is again \u2013 a definite sound of someone moving around downstairs.",
+      "Therapist: What happens next?"
+    ],
+    [
+      "Client: I'm in my bedroom, it's dark. I hear a noise downstairs that wakes me up. My first thought is that it must be my roommate, but then I remember she's away for the weekend. My heart starts racing immediately. I sit up in bed, straining to listen. There it is again \u2013 a definite sound of someone moving around downstairs.",
+      "Therapist: What happens next?",
+      "Client: I'm frozen in place, my whole body tense. I'm trying to decide if I should call for help or try to hide. The floorboard outside my room creaks, and I realize whoever it is, they're coming upstairs. My mouth goes dry, and I can feel sweat forming on my forehead."
+    ],
+    [
+      "Therapist: What happens next?",
+      "Client: I'm frozen in place, my whole body tense. I'm trying to decide if I should call for help or try to hide. The floorboard outside my room creaks, and I realize whoever it is, they're coming upstairs. My mouth goes dry, and I can feel sweat forming on my forehead.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: I'm frozen in place, my whole body tense. I'm trying to decide if I should call for help or try to hide. The floorboard outside my room creaks, and I realize whoever it is, they're coming upstairs. My mouth goes dry, and I can feel sweat forming on my forehead.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 7. My palms are actually sweating right now, just like they did that night."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 7. My palms are actually sweating right now, just like they did that night.",
+      "Therapist: That's okay. You're safe here. Continue with what happened."
+    ],
+    [
+      "Client: It's... it's gone up to a 7. My palms are actually sweating right now, just like they did that night.",
+      "Therapist: That's okay. You're safe here. Continue with what happened.",
+      "Client: The doorknob to my room starts to turn slowly. I'm holding my breath, praying they'll think the room is empty and move on. But the door opens, and I see a silhouette in the doorway. It's a man, tall and broad-shouldered. I can't make out his face in the darkness. He takes a step into the room, and I let out an involuntary gasp."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Continue with what happened.",
+      "Client: The doorknob to my room starts to turn slowly. I'm holding my breath, praying they'll think the room is empty and move on. But the door opens, and I see a silhouette in the doorway. It's a man, tall and broad-shouldered. I can't make out his face in the darkness. He takes a step into the room, and I let out an involuntary gasp.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: The doorknob to my room starts to turn slowly. I'm holding my breath, praying they'll think the room is empty and move on. But the door opens, and I see a silhouette in the doorway. It's a man, tall and broad-shouldered. I can't make out his face in the darkness. He takes a step into the room, and I let out an involuntary gasp.",
+      "Therapist: How are you feeling right now?",
+      "Client: My heart is pounding so hard. I feel like I can't breathe properly. It's like I'm right back there in that moment."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: My heart is pounding so hard. I feel like I can't breathe properly. It's like I'm right back there in that moment.",
+      "Therapist: Remember, you're safe here. What's your SUDS rating?"
+    ],
+    [
+      "Client: My heart is pounding so hard. I feel like I can't breathe properly. It's like I'm right back there in that moment.",
+      "Therapist: Remember, you're safe here. What's your SUDS rating?",
+      "Client: It's... it's a 9 now. This feels so real."
+    ],
+    [
+      "Therapist: Remember, you're safe here. What's your SUDS rating?",
+      "Client: It's... it's a 9 now. This feels so real.",
+      "Therapist: You're doing well. Take a deep breath. What happens next?"
+    ],
+    [
+      "Client: It's... it's a 9 now. This feels so real.",
+      "Therapist: You're doing well. Take a deep breath. What happens next?",
+      "Client: The man freezes when he hears me. There's this moment of terrible stillness. Then he lunges towards the bed. I scream and try to scramble away, but he grabs my arm. His hand is so big, so strong. I can smell alcohol on his breath. I'm hitting him, kicking, doing anything I can to get away."
+    ],
+    [
+      "Therapist: You're doing well. Take a deep breath. What happens next?",
+      "Client: The man freezes when he hears me. There's this moment of terrible stillness. Then he lunges towards the bed. I scream and try to scramble away, but he grabs my arm. His hand is so big, so strong. I can smell alcohol on his breath. I'm hitting him, kicking, doing anything I can to get away.",
+      "Therapist: Stay with it. You're safe here."
+    ],
+    [
+      "Client: The man freezes when he hears me. There's this moment of terrible stillness. Then he lunges towards the bed. I scream and try to scramble away, but he grabs my arm. His hand is so big, so strong. I can smell alcohol on his breath. I'm hitting him, kicking, doing anything I can to get away.",
+      "Therapist: Stay with it. You're safe here.",
+      "Client: I manage to wrench my arm free and fall off the other side of the bed. I'm scrambling on the floor, trying to get to the door. He's cursing, trying to grab me again. I make it to the hallway and run down the stairs, nearly falling in my panic. I can hear him behind me. I reach the front door, fumbling with the lock. My hands are shaking so badly."
+    ],
+    [
+      "Therapist: Stay with it. You're safe here.",
+      "Client: I manage to wrench my arm free and fall off the other side of the bed. I'm scrambling on the floor, trying to get to the door. He's cursing, trying to grab me again. I make it to the hallway and run down the stairs, nearly falling in my panic. I can hear him behind me. I reach the front door, fumbling with the lock. My hands are shaking so badly.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: I manage to wrench my arm free and fall off the other side of the bed. I'm scrambling on the floor, trying to get to the door. He's cursing, trying to grab me again. I make it to the hallway and run down the stairs, nearly falling in my panic. I can hear him behind me. I reach the front door, fumbling with the lock. My hands are shaking so badly.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still a 9. My whole body is shaking. I feel like I can't catch my breath."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still a 9. My whole body is shaking. I feel like I can't catch my breath.",
+      "Therapist: You're doing great. Take a moment. Breathe deeply."
+    ],
+    [
+      "Client: It's... it's still a 9. My whole body is shaking. I feel like I can't catch my breath.",
+      "Therapist: You're doing great. Take a moment. Breathe deeply.",
+      "Client: (Takes a deep breath) Okay. I... I get the door open and run out into the street. I'm screaming for help. The man is right behind me, but then I hear sirens in the distance. He hesitates, then turns and runs the other way. I collapse on the sidewalk, sobbing. A neighbor comes out and wraps a blanket around me. The police arrive a few minutes later."
+    ],
+    [
+      "Therapist: You're doing great. Take a moment. Breathe deeply.",
+      "Client: (Takes a deep breath) Okay. I... I get the door open and run out into the street. I'm screaming for help. The man is right behind me, but then I hear sirens in the distance. He hesitates, then turns and runs the other way. I collapse on the sidewalk, sobbing. A neighbor comes out and wraps a blanket around me. The police arrive a few minutes later.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay. I... I get the door open and run out into the street. I'm screaming for help. The man is right behind me, but then I hear sirens in the distance. He hesitates, then turns and runs the other way. I collapse on the sidewalk, sobbing. A neighbor comes out and wraps a blanket around me. The police arrive a few minutes later.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm starting to calm down a bit. My heart isn't racing as much. But I still feel shaky and vulnerable."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm starting to calm down a bit. My heart isn't racing as much. But I still feel shaky and vulnerable.",
+      "Therapist: That's normal. What's your SUDS rating?"
+    ],
+    [
+      "Client: I'm... I'm starting to calm down a bit. My heart isn't racing as much. But I still feel shaky and vulnerable.",
+      "Therapist: That's normal. What's your SUDS rating?",
+      "Client: It's come down to about a 6. I feel drained, but also relieved that I got through telling it."
+    ],
+    [
+      "Therapist: That's normal. What's your SUDS rating?",
+      "Client: It's come down to about a 6. I feel drained, but also relieved that I got through telling it.",
+      "Therapist: You did very well. How are you feeling physically?"
+    ],
+    [
+      "Client: It's come down to about a 6. I feel drained, but also relieved that I got through telling it.",
+      "Therapist: You did very well. How are you feeling physically?",
+      "Client: My muscles are really tense, especially in my shoulders and jaw. I have a bit of a headache coming on. But the shaking has mostly stopped."
+    ],
+    [
+      "Therapist: You did very well. How are you feeling physically?",
+      "Client: My muscles are really tense, especially in my shoulders and jaw. I have a bit of a headache coming on. But the shaking has mostly stopped.",
+      "Therapist: That's good. Let's take a few deep breaths together."
+    ],
+    [
+      "Client: My muscles are really tense, especially in my shoulders and jaw. I have a bit of a headache coming on. But the shaking has mostly stopped.",
+      "Therapist: That's good. Let's take a few deep breaths together.",
+      "Client: (Breathes deeply) That helps. I'm feeling more grounded now."
+    ],
+    [
+      "Therapist: That's good. Let's take a few deep breaths together.",
+      "Client: (Breathes deeply) That helps. I'm feeling more grounded now.",
+      "Therapist: You showed great courage. How do you feel about the exercise?"
+    ],
+    [
+      "Client: (Breathes deeply) That helps. I'm feeling more grounded now.",
+      "Therapist: You showed great courage. How do you feel about the exercise?",
+      "Client: It was intense, but... I feel like I faced something I've been avoiding. There's a sense of accomplishment mixed with the exhaustion."
+    ],
+    [
+      "Therapist: You showed great courage. How do you feel about the exercise?",
+      "Client: It was intense, but... I feel like I faced something I've been avoiding. There's a sense of accomplishment mixed with the exhaustion.",
+      "Therapist: That's a common reaction. What's your final SUDS rating?"
+    ],
+    [
+      "Client: It was intense, but... I feel like I faced something I've been avoiding. There's a sense of accomplishment mixed with the exhaustion.",
+      "Therapist: That's a common reaction. What's your final SUDS rating?",
+      "Client: I'd say it's down to a 4 now. I'm tired, but I feel... lighter, somehow."
+    ],
+    [
+      "Therapist: That's a common reaction. What's your final SUDS rating?",
+      "Client: I'd say it's down to a 4 now. I'm tired, but I feel... lighter, somehow.",
+      "Therapist: You've done excellent work today. Let's end here and discuss some self-care strategies."
+    ]
+  ]
+}

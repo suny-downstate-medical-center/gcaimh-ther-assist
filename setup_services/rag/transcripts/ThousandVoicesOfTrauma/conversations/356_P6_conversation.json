@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, Mrs. Lee, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the moment you learned about your son's passing.",
+    "Client: (takes a deep breath) Alright... I'm sitting in my living room, watching TV. The phone rings, and I answer it. It's the hospital. The nurse's voice is soft, but I can tell something's wrong. She says, \"Mrs. Lee, I'm sorry to inform you...\" and my heart just stops.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, about a 6. My hands are starting to feel clammy.",
+    "Therapist: Okay. Continue, please.",
+    "Client: The nurse tells me my son was in a car accident. They did everything they could, but... he didn't make it. I can't breathe. The room starts spinning, and I drop the phone. I'm screaming, but no sound comes out. My daughter-in-law rushes in, asking what's wrong, but I can't speak. I just... I just can't believe it's real.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's an 8. My chest feels so tight.",
+    "Therapist: That's tough. You're doing well. Keep going.",
+    "Client: (voice shaking) I collapse onto the floor. My daughter-in-law is holding me, crying too. I keep thinking, \"This can't be happening. Not my boy.\" I see his childhood photos on the wall, and it feels like they're mocking me. How can he be gone? I should've called him that morning. I should've told him to be careful. Maybe if I had...",
+    "Therapist: SUDS?",
+    "Client: (sobbing) It's a 9. I can hardly breathe.",
+    "Therapist: Take a deep breath. You're safe here. What happened next?",
+    "Client: I... I remember my husband's funeral. The pain was similar, but this... losing a child... it's unbearable. I wanted to die too. I couldn't imagine living without my son. The guilt, the anger, the emptiness... it was overwhelming.",
+    "Therapist: How's your SUDS level now?",
+    "Client: Still a 9. My whole body is shaking.",
+    "Therapist: That's okay. You're doing great. Keep breathing.",
+    "Client: (taking shaky breaths) The days after were a blur. I couldn't eat or sleep. I'd wake up thinking it was just a nightmare, but then reality would hit me again. I kept expecting him to walk through the door, to call me... but he never did. The silence in the house was deafening.",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's an 8 now. My breathing is a bit easier.",
+    "Therapist: Good. You're processing this. Continue.",
+    "Client: The funeral was the worst. Seeing his body in the casket... it didn't look like my son. I wanted to scream, to shake him awake. His wife was inconsolable. I felt like I had to be strong for her, for my grandchildren, but inside, I was falling apart. I kept thinking about all the things he'll never experience, all the moments we'll never share...",
+    "Therapist: SUDS level?",
+    "Client: Back to a 9. I feel dizzy.",
+    "Therapist: Take a moment. Breathe deeply. You're safe here.",
+    "Client: (after a pause) After the funeral, I couldn't bear to look at his photos or go into his old room. I started drinking to numb the pain. It was the only way I could sleep without nightmares. I knew it wasn't healthy, but I didn't care. I just wanted to escape the constant ache in my heart.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's a 7. I feel exhausted.",
+    "Therapist: That's understandable. You've been very brave. Let's start wrapping up.",
+    "Client: (sighing) Okay. I... I never thought I could talk about this without completely falling apart. It still hurts so much, but... maybe it's a tiny bit less overwhelming now.",
+    "Therapist: You've done incredibly well. How do you feel?",
+    "Client: Drained, but... maybe a little lighter? My SUDS is down to a 5 now.",
+    "Therapist: That's great progress. Let's end here and discuss how you're feeling."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, Mrs. Lee, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the moment you learned about your son's passing."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the moment you learned about your son's passing.",
+      "Client: (takes a deep breath) Alright... I'm sitting in my living room, watching TV. The phone rings, and I answer it. It's the hospital. The nurse's voice is soft, but I can tell something's wrong. She says, \"Mrs. Lee, I'm sorry to inform you...\" and my heart just stops."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the moment you learned about your son's passing.",
+      "Client: (takes a deep breath) Alright... I'm sitting in my living room, watching TV. The phone rings, and I answer it. It's the hospital. The nurse's voice is soft, but I can tell something's wrong. She says, \"Mrs. Lee, I'm sorry to inform you...\" and my heart just stops.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: (takes a deep breath) Alright... I'm sitting in my living room, watching TV. The phone rings, and I answer it. It's the hospital. The nurse's voice is soft, but I can tell something's wrong. She says, \"Mrs. Lee, I'm sorry to inform you...\" and my heart just stops.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 6. My hands are starting to feel clammy."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 6. My hands are starting to feel clammy.",
+      "Therapist: Okay. Continue, please."
+    ],
+    [
+      "Client: Um, about a 6. My hands are starting to feel clammy.",
+      "Therapist: Okay. Continue, please.",
+      "Client: The nurse tells me my son was in a car accident. They did everything they could, but... he didn't make it. I can't breathe. The room starts spinning, and I drop the phone. I'm screaming, but no sound comes out. My daughter-in-law rushes in, asking what's wrong, but I can't speak. I just... I just can't believe it's real."
+    ],
+    [
+      "Therapist: Okay. Continue, please.",
+      "Client: The nurse tells me my son was in a car accident. They did everything they could, but... he didn't make it. I can't breathe. The room starts spinning, and I drop the phone. I'm screaming, but no sound comes out. My daughter-in-law rushes in, asking what's wrong, but I can't speak. I just... I just can't believe it's real.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The nurse tells me my son was in a car accident. They did everything they could, but... he didn't make it. I can't breathe. The room starts spinning, and I drop the phone. I'm screaming, but no sound comes out. My daughter-in-law rushes in, asking what's wrong, but I can't speak. I just... I just can't believe it's real.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. My chest feels so tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. My chest feels so tight.",
+      "Therapist: That's tough. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8. My chest feels so tight.",
+      "Therapist: That's tough. You're doing well. Keep going.",
+      "Client: (voice shaking) I collapse onto the floor. My daughter-in-law is holding me, crying too. I keep thinking, \"This can't be happening. Not my boy.\" I see his childhood photos on the wall, and it feels like they're mocking me. How can he be gone? I should've called him that morning. I should've told him to be careful. Maybe if I had..."
+    ],
+    [
+      "Therapist: That's tough. You're doing well. Keep going.",
+      "Client: (voice shaking) I collapse onto the floor. My daughter-in-law is holding me, crying too. I keep thinking, \"This can't be happening. Not my boy.\" I see his childhood photos on the wall, and it feels like they're mocking me. How can he be gone? I should've called him that morning. I should've told him to be careful. Maybe if I had...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (voice shaking) I collapse onto the floor. My daughter-in-law is holding me, crying too. I keep thinking, \"This can't be happening. Not my boy.\" I see his childhood photos on the wall, and it feels like they're mocking me. How can he be gone? I should've called him that morning. I should've told him to be careful. Maybe if I had...",
+      "Therapist: SUDS?",
+      "Client: (sobbing) It's a 9. I can hardly breathe."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: (sobbing) It's a 9. I can hardly breathe.",
+      "Therapist: Take a deep breath. You're safe here. What happened next?"
+    ],
+    [
+      "Client: (sobbing) It's a 9. I can hardly breathe.",
+      "Therapist: Take a deep breath. You're safe here. What happened next?",
+      "Client: I... I remember my husband's funeral. The pain was similar, but this... losing a child... it's unbearable. I wanted to die too. I couldn't imagine living without my son. The guilt, the anger, the emptiness... it was overwhelming."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What happened next?",
+      "Client: I... I remember my husband's funeral. The pain was similar, but this... losing a child... it's unbearable. I wanted to die too. I couldn't imagine living without my son. The guilt, the anger, the emptiness... it was overwhelming.",
+      "Therapist: How's your SUDS level now?"
+    ],
+    [
+      "Client: I... I remember my husband's funeral. The pain was similar, but this... losing a child... it's unbearable. I wanted to die too. I couldn't imagine living without my son. The guilt, the anger, the emptiness... it was overwhelming.",
+      "Therapist: How's your SUDS level now?",
+      "Client: Still a 9. My whole body is shaking."
+    ],
+    [
+      "Therapist: How's your SUDS level now?",
+      "Client: Still a 9. My whole body is shaking.",
+      "Therapist: That's okay. You're doing great. Keep breathing."
+    ],
+    [
+      "Client: Still a 9. My whole body is shaking.",
+      "Therapist: That's okay. You're doing great. Keep breathing.",
+      "Client: (taking shaky breaths) The days after were a blur. I couldn't eat or sleep. I'd wake up thinking it was just a nightmare, but then reality would hit me again. I kept expecting him to walk through the door, to call me... but he never did. The silence in the house was deafening."
+    ],
+    [
+      "Therapist: That's okay. You're doing great. Keep breathing.",
+      "Client: (taking shaky breaths) The days after were a blur. I couldn't eat or sleep. I'd wake up thinking it was just a nightmare, but then reality would hit me again. I kept expecting him to walk through the door, to call me... but he never did. The silence in the house was deafening.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: (taking shaky breaths) The days after were a blur. I couldn't eat or sleep. I'd wake up thinking it was just a nightmare, but then reality would hit me again. I kept expecting him to walk through the door, to call me... but he never did. The silence in the house was deafening.",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. My breathing is a bit easier."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. My breathing is a bit easier.",
+      "Therapist: Good. You're processing this. Continue."
+    ],
+    [
+      "Client: It's... it's an 8 now. My breathing is a bit easier.",
+      "Therapist: Good. You're processing this. Continue.",
+      "Client: The funeral was the worst. Seeing his body in the casket... it didn't look like my son. I wanted to scream, to shake him awake. His wife was inconsolable. I felt like I had to be strong for her, for my grandchildren, but inside, I was falling apart. I kept thinking about all the things he'll never experience, all the moments we'll never share..."
+    ],
+    [
+      "Therapist: Good. You're processing this. Continue.",
+      "Client: The funeral was the worst. Seeing his body in the casket... it didn't look like my son. I wanted to scream, to shake him awake. His wife was inconsolable. I felt like I had to be strong for her, for my grandchildren, but inside, I was falling apart. I kept thinking about all the things he'll never experience, all the moments we'll never share...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: The funeral was the worst. Seeing his body in the casket... it didn't look like my son. I wanted to scream, to shake him awake. His wife was inconsolable. I felt like I had to be strong for her, for my grandchildren, but inside, I was falling apart. I kept thinking about all the things he'll never experience, all the moments we'll never share...",
+      "Therapist: SUDS level?",
+      "Client: Back to a 9. I feel dizzy."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Back to a 9. I feel dizzy.",
+      "Therapist: Take a moment. Breathe deeply. You're safe here."
+    ],
+    [
+      "Client: Back to a 9. I feel dizzy.",
+      "Therapist: Take a moment. Breathe deeply. You're safe here.",
+      "Client: (after a pause) After the funeral, I couldn't bear to look at his photos or go into his old room. I started drinking to numb the pain. It was the only way I could sleep without nightmares. I knew it wasn't healthy, but I didn't care. I just wanted to escape the constant ache in my heart."
+    ],
+    [
+      "Therapist: Take a moment. Breathe deeply. You're safe here.",
+      "Client: (after a pause) After the funeral, I couldn't bear to look at his photos or go into his old room. I started drinking to numb the pain. It was the only way I could sleep without nightmares. I knew it wasn't healthy, but I didn't care. I just wanted to escape the constant ache in my heart.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: (after a pause) After the funeral, I couldn't bear to look at his photos or go into his old room. I started drinking to numb the pain. It was the only way I could sleep without nightmares. I knew it wasn't healthy, but I didn't care. I just wanted to escape the constant ache in my heart.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's a 7. I feel exhausted."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's a 7. I feel exhausted.",
+      "Therapist: That's understandable. You've been very brave. Let's start wrapping up."
+    ],
+    [
+      "Client: It's... it's a 7. I feel exhausted.",
+      "Therapist: That's understandable. You've been very brave. Let's start wrapping up.",
+      "Client: (sighing) Okay. I... I never thought I could talk about this without completely falling apart. It still hurts so much, but... maybe it's a tiny bit less overwhelming now."
+    ],
+    [
+      "Therapist: That's understandable. You've been very brave. Let's start wrapping up.",
+      "Client: (sighing) Okay. I... I never thought I could talk about this without completely falling apart. It still hurts so much, but... maybe it's a tiny bit less overwhelming now.",
+      "Therapist: You've done incredibly well. How do you feel?"
+    ],
+    [
+      "Client: (sighing) Okay. I... I never thought I could talk about this without completely falling apart. It still hurts so much, but... maybe it's a tiny bit less overwhelming now.",
+      "Therapist: You've done incredibly well. How do you feel?",
+      "Client: Drained, but... maybe a little lighter? My SUDS is down to a 5 now."
+    ],
+    [
+      "Therapist: You've done incredibly well. How do you feel?",
+      "Client: Drained, but... maybe a little lighter? My SUDS is down to a 5 now.",
+      "Therapist: That's great progress. Let's end here and discuss how you're feeling."
+    ]
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Amir. Are you ready to begin our imaginal exposure session today?",
+    "Client: I think so... I'm feeling a bit on edge, to be honest. But I know this is important.",
+    "Therapist: That's understandable. Let's start with a SUDS rating. How would you rate your distress from 0 to 100?",
+    "Client: Um, probably around a 60 right now.",
+    "Therapist: Okay. Take a deep breath, and when you're ready, close your eyes and describe the hostage situation.",
+    "Client: *inhales deeply* Alright... I'm at the bank. It's a Tuesday afternoon, and I'm just there to deposit a check. The line is moving slowly, and I'm getting impatient. I'm tapping my foot, checking my watch... Then suddenly, there's shouting. Three men burst through the doors, waving guns. My heart starts racing...",
+    "Therapist: Stay with that moment. What do you see?",
+    "Client: I see people dropping to the floor. The tellers are raising their hands. One of the men is yelling for everyone to get down. I'm frozen... I can't move. My legs feel like lead.",
+    "Therapist: What are you feeling in your body right now?",
+    "Client: My chest is tight. I can feel my heart pounding. My hands are starting to sweat...",
+    "Therapist: Good. Continue describing what's happening.",
+    "Client: One of the men grabs me by the collar. He's shoving me towards the corner where they're gathering everyone. His breath smells like cigarettes... I can feel the cold metal of his gun pressed against my back. I'm... I'm terrified. I keep thinking about my partner, wondering if I'll ever see them again.",
+    "Therapist: You're doing well. What's your SUDS level now?",
+    "Client: It's... it's up to about 75.",
+    "Therapist: Take a deep breath. Remember, you're safe here. Keep going.",
+    "Client: *breathes shakily* They're shouting at the manager to open the vault. There's a woman next to me crying softly. I want to comfort her, but I'm paralyzed with fear. The minutes feel like hours... I can hear police sirens in the distance, and the robbers are getting agitated. One of them starts pacing, muttering under his breath. I'm trying to make myself as small as possible, praying they don't notice me.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: I... I keep thinking this is it. This is how I die. Over a stupid check deposit. I'm angry at myself for coming to the bank today. I'm worried about my family, about what will happen to them if I don't make it out. The guilt is overwhelming... I should have told my partner I loved them this morning.",
+    "Therapist: Stay with those emotions. What happens next?",
+    "Client: The police are outside now. I can hear them on a megaphone, but I can't make out what they're saying. The robbers are arguing amongst themselves. One wants to surrender, but the leader is adamant about getting the money. I'm... I'm shaking uncontrollably now. My mouth is dry, and I feel like I might throw up.",
+    "Therapist: How's your SUDS level?",
+    "Client: It's... it's about 85 now.",
+    "Therapist: You're doing great, Amir. Remember to breathe. What do you see happening?",
+    "Client: The leader... he's grabbing me. He's pulling me up, using me as a human shield. The gun is pressed against my temple now. I can feel the cold metal, smell the oil... I'm certain I'm going to die. He's shouting demands, but all I can hear is the blood rushing in my ears. My legs are weak... I think I might pass out.",
+    "Therapist: Stay present. What are you feeling in your body?",
+    "Client: I'm... I'm dizzy. My heart is pounding so hard it hurts. I can feel sweat dripping down my back. My hands are numb... I can't stop trembling.",
+    "Therapist: Keep going. What happens next?",
+    "Client: There's a commotion outside. The leader is distracted for a moment, and suddenly, there's a loud bang. Glass shattering... Smoke everywhere. I'm on the ground, someone's on top of me. I can't breathe... I don't know if it's a robber or a cop. People are screaming, running. I'm being dragged... I think I'm safe, but I'm not sure. Everything's a blur...",
+    "Therapist: Take a deep breath. You're safe now. How are you feeling?",
+    "Client: I... *breathes heavily* I feel drained. My heart's still racing, but... I made it through. I'm... I'm okay.",
+    "Therapist: You did very well. What's your SUDS level now?",
+    "Client: It's... it's down to about 70.",
+    "Therapist: That's good. Let's take a moment to ground ourselves. Can you name five things you see in this room?",
+    "Client: Uh... I see the clock, your desk, the bookshelf, the plant in the corner, and the painting on the wall.",
+    "Therapist: Excellent. Now, let's reflect on what you've just described. What stood out to you most about reliving that experience?",
+    "Client: I... I didn't realize how vivid the memories still were. The smells, the sounds... it all came rushing back. But... I also realized I survived. I made it through something I thought would kill me.",
+    "Therapist: That's a powerful realization. How do you feel now, having gone through this exercise?",
+    "Client: I feel... exhausted, but also a bit stronger. Like I've faced something I've been avoiding for a long time.",
+    "Therapist: That's great progress, Amir. Remember, each time we do this, it gets a little easier. You're building resilience.",
+    "Client: Thank you... I hope so. It's still hard, but... I think I'm starting to see the value in this.",
+    "Therapist: You're doing excellent work. Let's end our session here and discuss how you can take care of yourself for the rest of the day."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Amir. Are you ready to begin our imaginal exposure session today?",
+      "Client: I think so... I'm feeling a bit on edge, to be honest. But I know this is important.",
+      "Therapist: That's understandable. Let's start with a SUDS rating. How would you rate your distress from 0 to 100?"
+    ],
+    [
+      "Client: I think so... I'm feeling a bit on edge, to be honest. But I know this is important.",
+      "Therapist: That's understandable. Let's start with a SUDS rating. How would you rate your distress from 0 to 100?",
+      "Client: Um, probably around a 60 right now."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with a SUDS rating. How would you rate your distress from 0 to 100?",
+      "Client: Um, probably around a 60 right now.",
+      "Therapist: Okay. Take a deep breath, and when you're ready, close your eyes and describe the hostage situation."
+    ],
+    [
+      "Client: Um, probably around a 60 right now.",
+      "Therapist: Okay. Take a deep breath, and when you're ready, close your eyes and describe the hostage situation.",
+      "Client: *inhales deeply* Alright... I'm at the bank. It's a Tuesday afternoon, and I'm just there to deposit a check. The line is moving slowly, and I'm getting impatient. I'm tapping my foot, checking my watch... Then suddenly, there's shouting. Three men burst through the doors, waving guns. My heart starts racing..."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath, and when you're ready, close your eyes and describe the hostage situation.",
+      "Client: *inhales deeply* Alright... I'm at the bank. It's a Tuesday afternoon, and I'm just there to deposit a check. The line is moving slowly, and I'm getting impatient. I'm tapping my foot, checking my watch... Then suddenly, there's shouting. Three men burst through the doors, waving guns. My heart starts racing...",
+      "Therapist: Stay with that moment. What do you see?"
+    ],
+    [
+      "Client: *inhales deeply* Alright... I'm at the bank. It's a Tuesday afternoon, and I'm just there to deposit a check. The line is moving slowly, and I'm getting impatient. I'm tapping my foot, checking my watch... Then suddenly, there's shouting. Three men burst through the doors, waving guns. My heart starts racing...",
+      "Therapist: Stay with that moment. What do you see?",
+      "Client: I see people dropping to the floor. The tellers are raising their hands. One of the men is yelling for everyone to get down. I'm frozen... I can't move. My legs feel like lead."
+    ],
+    [
+      "Therapist: Stay with that moment. What do you see?",
+      "Client: I see people dropping to the floor. The tellers are raising their hands. One of the men is yelling for everyone to get down. I'm frozen... I can't move. My legs feel like lead.",
+      "Therapist: What are you feeling in your body right now?"
+    ],
+    [
+      "Client: I see people dropping to the floor. The tellers are raising their hands. One of the men is yelling for everyone to get down. I'm frozen... I can't move. My legs feel like lead.",
+      "Therapist: What are you feeling in your body right now?",
+      "Client: My chest is tight. I can feel my heart pounding. My hands are starting to sweat..."
+    ],
+    [
+      "Therapist: What are you feeling in your body right now?",
+      "Client: My chest is tight. I can feel my heart pounding. My hands are starting to sweat...",
+      "Therapist: Good. Continue describing what's happening."
+    ],
+    [
+      "Client: My chest is tight. I can feel my heart pounding. My hands are starting to sweat...",
+      "Therapist: Good. Continue describing what's happening.",
+      "Client: One of the men grabs me by the collar. He's shoving me towards the corner where they're gathering everyone. His breath smells like cigarettes... I can feel the cold metal of his gun pressed against my back. I'm... I'm terrified. I keep thinking about my partner, wondering if I'll ever see them again."
+    ],
+    [
+      "Therapist: Good. Continue describing what's happening.",
+      "Client: One of the men grabs me by the collar. He's shoving me towards the corner where they're gathering everyone. His breath smells like cigarettes... I can feel the cold metal of his gun pressed against my back. I'm... I'm terrified. I keep thinking about my partner, wondering if I'll ever see them again.",
+      "Therapist: You're doing well. What's your SUDS level now?"
+    ],
+    [
+      "Client: One of the men grabs me by the collar. He's shoving me towards the corner where they're gathering everyone. His breath smells like cigarettes... I can feel the cold metal of his gun pressed against my back. I'm... I'm terrified. I keep thinking about my partner, wondering if I'll ever see them again.",
+      "Therapist: You're doing well. What's your SUDS level now?",
+      "Client: It's... it's up to about 75."
+    ],
+    [
+      "Therapist: You're doing well. What's your SUDS level now?",
+      "Client: It's... it's up to about 75.",
+      "Therapist: Take a deep breath. Remember, you're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's up to about 75.",
+      "Therapist: Take a deep breath. Remember, you're safe here. Keep going.",
+      "Client: *breathes shakily* They're shouting at the manager to open the vault. There's a woman next to me crying softly. I want to comfort her, but I'm paralyzed with fear. The minutes feel like hours... I can hear police sirens in the distance, and the robbers are getting agitated. One of them starts pacing, muttering under his breath. I'm trying to make myself as small as possible, praying they don't notice me."
+    ],
+    [
+      "Therapist: Take a deep breath. Remember, you're safe here. Keep going.",
+      "Client: *breathes shakily* They're shouting at the manager to open the vault. There's a woman next to me crying softly. I want to comfort her, but I'm paralyzed with fear. The minutes feel like hours... I can hear police sirens in the distance, and the robbers are getting agitated. One of them starts pacing, muttering under his breath. I'm trying to make myself as small as possible, praying they don't notice me.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: *breathes shakily* They're shouting at the manager to open the vault. There's a woman next to me crying softly. I want to comfort her, but I'm paralyzed with fear. The minutes feel like hours... I can hear police sirens in the distance, and the robbers are getting agitated. One of them starts pacing, muttering under his breath. I'm trying to make myself as small as possible, praying they don't notice me.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I... I keep thinking this is it. This is how I die. Over a stupid check deposit. I'm angry at myself for coming to the bank today. I'm worried about my family, about what will happen to them if I don't make it out. The guilt is overwhelming... I should have told my partner I loved them this morning."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I... I keep thinking this is it. This is how I die. Over a stupid check deposit. I'm angry at myself for coming to the bank today. I'm worried about my family, about what will happen to them if I don't make it out. The guilt is overwhelming... I should have told my partner I loved them this morning.",
+      "Therapist: Stay with those emotions. What happens next?"
+    ],
+    [
+      "Client: I... I keep thinking this is it. This is how I die. Over a stupid check deposit. I'm angry at myself for coming to the bank today. I'm worried about my family, about what will happen to them if I don't make it out. The guilt is overwhelming... I should have told my partner I loved them this morning.",
+      "Therapist: Stay with those emotions. What happens next?",
+      "Client: The police are outside now. I can hear them on a megaphone, but I can't make out what they're saying. The robbers are arguing amongst themselves. One wants to surrender, but the leader is adamant about getting the money. I'm... I'm shaking uncontrollably now. My mouth is dry, and I feel like I might throw up."
+    ],
+    [
+      "Therapist: Stay with those emotions. What happens next?",
+      "Client: The police are outside now. I can hear them on a megaphone, but I can't make out what they're saying. The robbers are arguing amongst themselves. One wants to surrender, but the leader is adamant about getting the money. I'm... I'm shaking uncontrollably now. My mouth is dry, and I feel like I might throw up.",
+      "Therapist: How's your SUDS level?"
+    ],
+    [
+      "Client: The police are outside now. I can hear them on a megaphone, but I can't make out what they're saying. The robbers are arguing amongst themselves. One wants to surrender, but the leader is adamant about getting the money. I'm... I'm shaking uncontrollably now. My mouth is dry, and I feel like I might throw up.",
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's about 85 now."
+    ],
+    [
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's about 85 now.",
+      "Therapist: You're doing great, Amir. Remember to breathe. What do you see happening?"
+    ],
+    [
+      "Client: It's... it's about 85 now.",
+      "Therapist: You're doing great, Amir. Remember to breathe. What do you see happening?",
+      "Client: The leader... he's grabbing me. He's pulling me up, using me as a human shield. The gun is pressed against my temple now. I can feel the cold metal, smell the oil... I'm certain I'm going to die. He's shouting demands, but all I can hear is the blood rushing in my ears. My legs are weak... I think I might pass out."
+    ],
+    [
+      "Therapist: You're doing great, Amir. Remember to breathe. What do you see happening?",
+      "Client: The leader... he's grabbing me. He's pulling me up, using me as a human shield. The gun is pressed against my temple now. I can feel the cold metal, smell the oil... I'm certain I'm going to die. He's shouting demands, but all I can hear is the blood rushing in my ears. My legs are weak... I think I might pass out.",
+      "Therapist: Stay present. What are you feeling in your body?"
+    ],
+    [
+      "Client: The leader... he's grabbing me. He's pulling me up, using me as a human shield. The gun is pressed against my temple now. I can feel the cold metal, smell the oil... I'm certain I'm going to die. He's shouting demands, but all I can hear is the blood rushing in my ears. My legs are weak... I think I might pass out.",
+      "Therapist: Stay present. What are you feeling in your body?",
+      "Client: I'm... I'm dizzy. My heart is pounding so hard it hurts. I can feel sweat dripping down my back. My hands are numb... I can't stop trembling."
+    ],
+    [
+      "Therapist: Stay present. What are you feeling in your body?",
+      "Client: I'm... I'm dizzy. My heart is pounding so hard it hurts. I can feel sweat dripping down my back. My hands are numb... I can't stop trembling.",
+      "Therapist: Keep going. What happens next?"
+    ],
+    [
+      "Client: I'm... I'm dizzy. My heart is pounding so hard it hurts. I can feel sweat dripping down my back. My hands are numb... I can't stop trembling.",
+      "Therapist: Keep going. What happens next?",
+      "Client: There's a commotion outside. The leader is distracted for a moment, and suddenly, there's a loud bang. Glass shattering... Smoke everywhere. I'm on the ground, someone's on top of me. I can't breathe... I don't know if it's a robber or a cop. People are screaming, running. I'm being dragged... I think I'm safe, but I'm not sure. Everything's a blur..."
+    ],
+    [
+      "Therapist: Keep going. What happens next?",
+      "Client: There's a commotion outside. The leader is distracted for a moment, and suddenly, there's a loud bang. Glass shattering... Smoke everywhere. I'm on the ground, someone's on top of me. I can't breathe... I don't know if it's a robber or a cop. People are screaming, running. I'm being dragged... I think I'm safe, but I'm not sure. Everything's a blur...",
+      "Therapist: Take a deep breath. You're safe now. How are you feeling?"
+    ],
+    [
+      "Client: There's a commotion outside. The leader is distracted for a moment, and suddenly, there's a loud bang. Glass shattering... Smoke everywhere. I'm on the ground, someone's on top of me. I can't breathe... I don't know if it's a robber or a cop. People are screaming, running. I'm being dragged... I think I'm safe, but I'm not sure. Everything's a blur...",
+      "Therapist: Take a deep breath. You're safe now. How are you feeling?",
+      "Client: I... *breathes heavily* I feel drained. My heart's still racing, but... I made it through. I'm... I'm okay."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe now. How are you feeling?",
+      "Client: I... *breathes heavily* I feel drained. My heart's still racing, but... I made it through. I'm... I'm okay.",
+      "Therapist: You did very well. What's your SUDS level now?"
+    ],
+    [
+      "Client: I... *breathes heavily* I feel drained. My heart's still racing, but... I made it through. I'm... I'm okay.",
+      "Therapist: You did very well. What's your SUDS level now?",
+      "Client: It's... it's down to about 70."
+    ],
+    [
+      "Therapist: You did very well. What's your SUDS level now?",
+      "Client: It's... it's down to about 70.",
+      "Therapist: That's good. Let's take a moment to ground ourselves. Can you name five things you see in this room?"
+    ],
+    [
+      "Client: It's... it's down to about 70.",
+      "Therapist: That's good. Let's take a moment to ground ourselves. Can you name five things you see in this room?",
+      "Client: Uh... I see the clock, your desk, the bookshelf, the plant in the corner, and the painting on the wall."
+    ],
+    [
+      "Therapist: That's good. Let's take a moment to ground ourselves. Can you name five things you see in this room?",
+      "Client: Uh... I see the clock, your desk, the bookshelf, the plant in the corner, and the painting on the wall.",
+      "Therapist: Excellent. Now, let's reflect on what you've just described. What stood out to you most about reliving that experience?"
+    ],
+    [
+      "Client: Uh... I see the clock, your desk, the bookshelf, the plant in the corner, and the painting on the wall.",
+      "Therapist: Excellent. Now, let's reflect on what you've just described. What stood out to you most about reliving that experience?",
+      "Client: I... I didn't realize how vivid the memories still were. The smells, the sounds... it all came rushing back. But... I also realized I survived. I made it through something I thought would kill me."
+    ],
+    [
+      "Therapist: Excellent. Now, let's reflect on what you've just described. What stood out to you most about reliving that experience?",
+      "Client: I... I didn't realize how vivid the memories still were. The smells, the sounds... it all came rushing back. But... I also realized I survived. I made it through something I thought would kill me.",
+      "Therapist: That's a powerful realization. How do you feel now, having gone through this exercise?"
+    ],
+    [
+      "Client: I... I didn't realize how vivid the memories still were. The smells, the sounds... it all came rushing back. But... I also realized I survived. I made it through something I thought would kill me.",
+      "Therapist: That's a powerful realization. How do you feel now, having gone through this exercise?",
+      "Client: I feel... exhausted, but also a bit stronger. Like I've faced something I've been avoiding for a long time."
+    ],
+    [
+      "Therapist: That's a powerful realization. How do you feel now, having gone through this exercise?",
+      "Client: I feel... exhausted, but also a bit stronger. Like I've faced something I've been avoiding for a long time.",
+      "Therapist: That's great progress, Amir. Remember, each time we do this, it gets a little easier. You're building resilience."
+    ],
+    [
+      "Client: I feel... exhausted, but also a bit stronger. Like I've faced something I've been avoiding for a long time.",
+      "Therapist: That's great progress, Amir. Remember, each time we do this, it gets a little easier. You're building resilience.",
+      "Client: Thank you... I hope so. It's still hard, but... I think I'm starting to see the value in this."
+    ],
+    [
+      "Therapist: That's great progress, Amir. Remember, each time we do this, it gets a little easier. You're building resilience.",
+      "Client: Thank you... I hope so. It's still hard, but... I think I'm starting to see the value in this.",
+      "Therapist: You're doing excellent work. Let's end our session here and discuss how you can take care of yourself for the rest of the day."
+    ]
+  ]
+}

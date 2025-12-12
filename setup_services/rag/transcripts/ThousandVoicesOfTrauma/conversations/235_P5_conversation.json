@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Singh, today we'll be starting imaginal exposure. How are you feeling about this?",
+    "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting those memories... it's unsettling. I've spent years trying to forget what happened in that prison cell.",
+    "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will make everything feel fresh again. Like I'll be right back there, helpless and scared. What if I can't handle it? What if I break down completely?",
+    "Therapist: Those are valid concerns. How do you think revisiting might help?",
+    "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. It's been 50 years, and I still wake up in cold sweats sometimes.",
+    "Therapist: Exactly. Processing is key. How do you feel about facing it together?",
+    "Client: Together? That does make it sound less daunting. I trust you, Dr. Patel. You've been very understanding so far. But what exactly will this involve? Will I need to describe everything in detail?",
+    "Therapist: Yes, details help. We'll go at your pace. What questions do you have?",
+    "Client: Well, how long will each session last? And what if I start panicking? I'm worried about losing control of my emotions. It's not something I'm comfortable with, especially at my age.",
+    "Therapist: Sessions last about an hour. We can pause anytime. What coping strategies help you?",
+    "Client: Deep breathing has been helpful, and sometimes counting objects in the room. But will that be enough? This feels so much more intense than anything we've done before.",
+    "Therapist: Those are great techniques. We'll use them. What else might help you feel safe?",
+    "Client: Maybe... could I bring a photo of my wife? She's been my rock through everything. And perhaps having a glass of water nearby? My mouth gets dry when I'm anxious.",
+    "Therapist: Absolutely. Those are excellent ideas. How else can I support you?",
+    "Client: Just... be patient with me, I suppose. And remind me that I'm here, in the present, not back there. Sometimes I lose track of that when the memories get intense.",
+    "Therapist: I'll do that. Your courage is admirable. Shall we begin?",
+    "Client: I... I think so. I'm still nervous, but I understand why this is important. And I trust you to guide me through it. Let's give it a try."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Singh, today we'll be starting imaginal exposure. How are you feeling about this?",
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting those memories... it's unsettling. I've spent years trying to forget what happened in that prison cell.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting those memories... it's unsettling. I've spent years trying to forget what happened in that prison cell.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will make everything feel fresh again. Like I'll be right back there, helpless and scared. What if I can't handle it? What if I break down completely?"
+    ],
+    [
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will make everything feel fresh again. Like I'll be right back there, helpless and scared. What if I can't handle it? What if I break down completely?",
+      "Therapist: Those are valid concerns. How do you think revisiting might help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will make everything feel fresh again. Like I'll be right back there, helpless and scared. What if I can't handle it? What if I break down completely?",
+      "Therapist: Those are valid concerns. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. It's been 50 years, and I still wake up in cold sweats sometimes."
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you think revisiting might help?",
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. It's been 50 years, and I still wake up in cold sweats sometimes.",
+      "Therapist: Exactly. Processing is key. How do you feel about facing it together?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? But it's hard to see how reliving that nightmare could be beneficial. It's been 50 years, and I still wake up in cold sweats sometimes.",
+      "Therapist: Exactly. Processing is key. How do you feel about facing it together?",
+      "Client: Together? That does make it sound less daunting. I trust you, Dr. Patel. You've been very understanding so far. But what exactly will this involve? Will I need to describe everything in detail?"
+    ],
+    [
+      "Therapist: Exactly. Processing is key. How do you feel about facing it together?",
+      "Client: Together? That does make it sound less daunting. I trust you, Dr. Patel. You've been very understanding so far. But what exactly will this involve? Will I need to describe everything in detail?",
+      "Therapist: Yes, details help. We'll go at your pace. What questions do you have?"
+    ],
+    [
+      "Client: Together? That does make it sound less daunting. I trust you, Dr. Patel. You've been very understanding so far. But what exactly will this involve? Will I need to describe everything in detail?",
+      "Therapist: Yes, details help. We'll go at your pace. What questions do you have?",
+      "Client: Well, how long will each session last? And what if I start panicking? I'm worried about losing control of my emotions. It's not something I'm comfortable with, especially at my age."
+    ],
+    [
+      "Therapist: Yes, details help. We'll go at your pace. What questions do you have?",
+      "Client: Well, how long will each session last? And what if I start panicking? I'm worried about losing control of my emotions. It's not something I'm comfortable with, especially at my age.",
+      "Therapist: Sessions last about an hour. We can pause anytime. What coping strategies help you?"
+    ],
+    [
+      "Client: Well, how long will each session last? And what if I start panicking? I'm worried about losing control of my emotions. It's not something I'm comfortable with, especially at my age.",
+      "Therapist: Sessions last about an hour. We can pause anytime. What coping strategies help you?",
+      "Client: Deep breathing has been helpful, and sometimes counting objects in the room. But will that be enough? This feels so much more intense than anything we've done before."
+    ],
+    [
+      "Therapist: Sessions last about an hour. We can pause anytime. What coping strategies help you?",
+      "Client: Deep breathing has been helpful, and sometimes counting objects in the room. But will that be enough? This feels so much more intense than anything we've done before.",
+      "Therapist: Those are great techniques. We'll use them. What else might help you feel safe?"
+    ],
+    [
+      "Client: Deep breathing has been helpful, and sometimes counting objects in the room. But will that be enough? This feels so much more intense than anything we've done before.",
+      "Therapist: Those are great techniques. We'll use them. What else might help you feel safe?",
+      "Client: Maybe... could I bring a photo of my wife? She's been my rock through everything. And perhaps having a glass of water nearby? My mouth gets dry when I'm anxious."
+    ],
+    [
+      "Therapist: Those are great techniques. We'll use them. What else might help you feel safe?",
+      "Client: Maybe... could I bring a photo of my wife? She's been my rock through everything. And perhaps having a glass of water nearby? My mouth gets dry when I'm anxious.",
+      "Therapist: Absolutely. Those are excellent ideas. How else can I support you?"
+    ],
+    [
+      "Client: Maybe... could I bring a photo of my wife? She's been my rock through everything. And perhaps having a glass of water nearby? My mouth gets dry when I'm anxious.",
+      "Therapist: Absolutely. Those are excellent ideas. How else can I support you?",
+      "Client: Just... be patient with me, I suppose. And remind me that I'm here, in the present, not back there. Sometimes I lose track of that when the memories get intense."
+    ],
+    [
+      "Therapist: Absolutely. Those are excellent ideas. How else can I support you?",
+      "Client: Just... be patient with me, I suppose. And remind me that I'm here, in the present, not back there. Sometimes I lose track of that when the memories get intense.",
+      "Therapist: I'll do that. Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: Just... be patient with me, I suppose. And remind me that I'm here, in the present, not back there. Sometimes I lose track of that when the memories get intense.",
+      "Therapist: I'll do that. Your courage is admirable. Shall we begin?",
+      "Client: I... I think so. I'm still nervous, but I understand why this is important. And I trust you to guide me through it. Let's give it a try."
+    ]
+  ]
+}

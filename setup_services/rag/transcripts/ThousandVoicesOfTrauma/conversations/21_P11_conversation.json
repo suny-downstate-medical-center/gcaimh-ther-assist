@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my time in the military. The sights, the sounds, the smells... they all came rushing back. It's overwhelming.",
+    "Therapist: That's understandable. What stood out most?",
+    "Client: The fear. The constant, gnawing fear. I remember being on patrol, and every shadow, every rustle of leaves made my heart race. I kept thinking about my wife back home, wondering if I'd ever see her again. And then... the ambush. The chaos. The screams of my fellow soldiers. It's... it's too much.",
+    "Therapist: How are you coping with those feelings now?",
+    "Client: I'm... I'm trying to breathe deeply, like you taught me. But my hands are shaking, and I feel this tightness in my chest. It's like I'm right back there, even though I know I'm here in your office.",
+    "Therapist: That's good awareness. What else?",
+    "Client: I... I feel guilty. So many of my comrades didn't make it back. Why did I survive when they didn't? And now, here I am, an old man, still haunted by these memories while they... they never got the chance to grow old.",
+    "Therapist: How does this connect to your everyday life?",
+    "Client: I suppose... well, I've always had trouble sleeping. Nightmares, you know? And loud noises... they startle me more than they should. My wife, bless her, she's been so patient. But I know it affects her too. I've pushed people away, afraid to get close. It's like... like I'm still in that war zone, always on guard.",
+    "Therapist: What did you learn from today's session?",
+    "Client: I... I realized that maybe I'm not as alone as I thought. Talking about it, even though it's painful, it's... it's helping. And maybe, just maybe, I don't have to carry this burden all by myself anymore.",
+    "Therapist: That's a powerful insight. How do you feel about continuing?",
+    "Client: It's terrifying, to be honest. But... but I think I need to. For myself, for my wife. I want to be present, to enjoy my retirement, to stop jumping at shadows. It's not easy, but... I think I'm ready to keep going.",
+    "Therapist: That's courageous. What's your takeaway?",
+    "Client: I... I think I'm starting to understand that these memories don't have to control me. They're a part of me, yes, but they don't define me. And maybe, by facing them, I can start to heal. It's a long road ahead, but... but for the first time in a long while, I feel a glimmer of hope."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my time in the military. The sights, the sounds, the smells... they all came rushing back. It's overwhelming.",
+      "Therapist: That's understandable. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's been years since I've allowed myself to revisit those memories of my time in the military. The sights, the sounds, the smells... they all came rushing back. It's overwhelming.",
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The fear. The constant, gnawing fear. I remember being on patrol, and every shadow, every rustle of leaves made my heart race. I kept thinking about my wife back home, wondering if I'd ever see her again. And then... the ambush. The chaos. The screams of my fellow soldiers. It's... it's too much."
+    ],
+    [
+      "Therapist: That's understandable. What stood out most?",
+      "Client: The fear. The constant, gnawing fear. I remember being on patrol, and every shadow, every rustle of leaves made my heart race. I kept thinking about my wife back home, wondering if I'd ever see her again. And then... the ambush. The chaos. The screams of my fellow soldiers. It's... it's too much.",
+      "Therapist: How are you coping with those feelings now?"
+    ],
+    [
+      "Client: The fear. The constant, gnawing fear. I remember being on patrol, and every shadow, every rustle of leaves made my heart race. I kept thinking about my wife back home, wondering if I'd ever see her again. And then... the ambush. The chaos. The screams of my fellow soldiers. It's... it's too much.",
+      "Therapist: How are you coping with those feelings now?",
+      "Client: I'm... I'm trying to breathe deeply, like you taught me. But my hands are shaking, and I feel this tightness in my chest. It's like I'm right back there, even though I know I'm here in your office."
+    ],
+    [
+      "Therapist: How are you coping with those feelings now?",
+      "Client: I'm... I'm trying to breathe deeply, like you taught me. But my hands are shaking, and I feel this tightness in my chest. It's like I'm right back there, even though I know I'm here in your office.",
+      "Therapist: That's good awareness. What else?"
+    ],
+    [
+      "Client: I'm... I'm trying to breathe deeply, like you taught me. But my hands are shaking, and I feel this tightness in my chest. It's like I'm right back there, even though I know I'm here in your office.",
+      "Therapist: That's good awareness. What else?",
+      "Client: I... I feel guilty. So many of my comrades didn't make it back. Why did I survive when they didn't? And now, here I am, an old man, still haunted by these memories while they... they never got the chance to grow old."
+    ],
+    [
+      "Therapist: That's good awareness. What else?",
+      "Client: I... I feel guilty. So many of my comrades didn't make it back. Why did I survive when they didn't? And now, here I am, an old man, still haunted by these memories while they... they never got the chance to grow old.",
+      "Therapist: How does this connect to your everyday life?"
+    ],
+    [
+      "Client: I... I feel guilty. So many of my comrades didn't make it back. Why did I survive when they didn't? And now, here I am, an old man, still haunted by these memories while they... they never got the chance to grow old.",
+      "Therapist: How does this connect to your everyday life?",
+      "Client: I suppose... well, I've always had trouble sleeping. Nightmares, you know? And loud noises... they startle me more than they should. My wife, bless her, she's been so patient. But I know it affects her too. I've pushed people away, afraid to get close. It's like... like I'm still in that war zone, always on guard."
+    ],
+    [
+      "Therapist: How does this connect to your everyday life?",
+      "Client: I suppose... well, I've always had trouble sleeping. Nightmares, you know? And loud noises... they startle me more than they should. My wife, bless her, she's been so patient. But I know it affects her too. I've pushed people away, afraid to get close. It's like... like I'm still in that war zone, always on guard.",
+      "Therapist: What did you learn from today's session?"
+    ],
+    [
+      "Client: I suppose... well, I've always had trouble sleeping. Nightmares, you know? And loud noises... they startle me more than they should. My wife, bless her, she's been so patient. But I know it affects her too. I've pushed people away, afraid to get close. It's like... like I'm still in that war zone, always on guard.",
+      "Therapist: What did you learn from today's session?",
+      "Client: I... I realized that maybe I'm not as alone as I thought. Talking about it, even though it's painful, it's... it's helping. And maybe, just maybe, I don't have to carry this burden all by myself anymore."
+    ],
+    [
+      "Therapist: What did you learn from today's session?",
+      "Client: I... I realized that maybe I'm not as alone as I thought. Talking about it, even though it's painful, it's... it's helping. And maybe, just maybe, I don't have to carry this burden all by myself anymore.",
+      "Therapist: That's a powerful insight. How do you feel about continuing?"
+    ],
+    [
+      "Client: I... I realized that maybe I'm not as alone as I thought. Talking about it, even though it's painful, it's... it's helping. And maybe, just maybe, I don't have to carry this burden all by myself anymore.",
+      "Therapist: That's a powerful insight. How do you feel about continuing?",
+      "Client: It's terrifying, to be honest. But... but I think I need to. For myself, for my wife. I want to be present, to enjoy my retirement, to stop jumping at shadows. It's not easy, but... I think I'm ready to keep going."
+    ],
+    [
+      "Therapist: That's a powerful insight. How do you feel about continuing?",
+      "Client: It's terrifying, to be honest. But... but I think I need to. For myself, for my wife. I want to be present, to enjoy my retirement, to stop jumping at shadows. It's not easy, but... I think I'm ready to keep going.",
+      "Therapist: That's courageous. What's your takeaway?"
+    ],
+    [
+      "Client: It's terrifying, to be honest. But... but I think I need to. For myself, for my wife. I want to be present, to enjoy my retirement, to stop jumping at shadows. It's not easy, but... I think I'm ready to keep going.",
+      "Therapist: That's courageous. What's your takeaway?",
+      "Client: I... I think I'm starting to understand that these memories don't have to control me. They're a part of me, yes, but they don't define me. And maybe, by facing them, I can start to heal. It's a long road ahead, but... but for the first time in a long while, I feel a glimmer of hope."
+    ]
+  ]
+}

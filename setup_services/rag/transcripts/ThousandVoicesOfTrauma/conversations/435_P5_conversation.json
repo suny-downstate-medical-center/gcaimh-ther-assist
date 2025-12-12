@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Amir. How are you feeling today?",
+    "Client: I'm... okay, I guess. My back's been acting up again, which doesn't help my mood. And being back at my parents' place... it's a bit stressful. But I'm here, so that's something, right?",
+    "Therapist: Indeed. Your commitment is commendable. Today, we'll begin imaginal exposure. Are you ready?",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready for anything too heavy today.",
+    "Therapist: It's a guided exercise to process your trauma. We'll go at your pace. What are your concerns?",
+    "Client: Well, talking about my time in prison... it's not easy. The medical neglect I experienced there, it still haunts me. I'm worried about reliving those moments. What if I can't handle it?",
+    "Therapist: Your concerns are valid. We'll take it slow. How do you feel about trying?",
+    "Client: I suppose I can try. But what if I panic? Or what if my chronic pain flares up during the session? It tends to get worse when I'm stressed.",
+    "Therapist: We'll pause if needed. Your safety is priority. Shall we discuss coping strategies first?",
+    "Client: Yes, that would help. I've been trying some breathing exercises at home, but I'm not sure if they're enough for something like this. And with my cultural background, there's still some stigma around therapy and talking about these things openly. It's... complicated.",
+    "Therapist: I appreciate your openness. Let's tailor our approach to your needs and background.",
+    "Client: That sounds good. I guess I'm just nervous about dredging up all those memories. The prison, the inadequate medical care, the feeling of helplessness... it's a lot to process. But I also know I can't keep avoiding it forever.",
+    "Therapist: Your insight is valuable. We'll work through this together. Ready to begin?",
+    "Client: I think so. Just... please be patient with me if I struggle. This isn't easy for me, but I want to get better. I want to be able to move out of my parents' place and get back to my career without these memories holding me back.",
+    "Therapist: Of course. Your resilience is admirable. Let's start gently. Close your eyes when ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Amir. How are you feeling today?",
+      "Client: I'm... okay, I guess. My back's been acting up again, which doesn't help my mood. And being back at my parents' place... it's a bit stressful. But I'm here, so that's something, right?",
+      "Therapist: Indeed. Your commitment is commendable. Today, we'll begin imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: I'm... okay, I guess. My back's been acting up again, which doesn't help my mood. And being back at my parents' place... it's a bit stressful. But I'm here, so that's something, right?",
+      "Therapist: Indeed. Your commitment is commendable. Today, we'll begin imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready for anything too heavy today."
+    ],
+    [
+      "Therapist: Indeed. Your commitment is commendable. Today, we'll begin imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready for anything too heavy today.",
+      "Therapist: It's a guided exercise to process your trauma. We'll go at your pace. What are your concerns?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready for anything too heavy today.",
+      "Therapist: It's a guided exercise to process your trauma. We'll go at your pace. What are your concerns?",
+      "Client: Well, talking about my time in prison... it's not easy. The medical neglect I experienced there, it still haunts me. I'm worried about reliving those moments. What if I can't handle it?"
+    ],
+    [
+      "Therapist: It's a guided exercise to process your trauma. We'll go at your pace. What are your concerns?",
+      "Client: Well, talking about my time in prison... it's not easy. The medical neglect I experienced there, it still haunts me. I'm worried about reliving those moments. What if I can't handle it?",
+      "Therapist: Your concerns are valid. We'll take it slow. How do you feel about trying?"
+    ],
+    [
+      "Client: Well, talking about my time in prison... it's not easy. The medical neglect I experienced there, it still haunts me. I'm worried about reliving those moments. What if I can't handle it?",
+      "Therapist: Your concerns are valid. We'll take it slow. How do you feel about trying?",
+      "Client: I suppose I can try. But what if I panic? Or what if my chronic pain flares up during the session? It tends to get worse when I'm stressed."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll take it slow. How do you feel about trying?",
+      "Client: I suppose I can try. But what if I panic? Or what if my chronic pain flares up during the session? It tends to get worse when I'm stressed.",
+      "Therapist: We'll pause if needed. Your safety is priority. Shall we discuss coping strategies first?"
+    ],
+    [
+      "Client: I suppose I can try. But what if I panic? Or what if my chronic pain flares up during the session? It tends to get worse when I'm stressed.",
+      "Therapist: We'll pause if needed. Your safety is priority. Shall we discuss coping strategies first?",
+      "Client: Yes, that would help. I've been trying some breathing exercises at home, but I'm not sure if they're enough for something like this. And with my cultural background, there's still some stigma around therapy and talking about these things openly. It's... complicated."
+    ],
+    [
+      "Therapist: We'll pause if needed. Your safety is priority. Shall we discuss coping strategies first?",
+      "Client: Yes, that would help. I've been trying some breathing exercises at home, but I'm not sure if they're enough for something like this. And with my cultural background, there's still some stigma around therapy and talking about these things openly. It's... complicated.",
+      "Therapist: I appreciate your openness. Let's tailor our approach to your needs and background."
+    ],
+    [
+      "Client: Yes, that would help. I've been trying some breathing exercises at home, but I'm not sure if they're enough for something like this. And with my cultural background, there's still some stigma around therapy and talking about these things openly. It's... complicated.",
+      "Therapist: I appreciate your openness. Let's tailor our approach to your needs and background.",
+      "Client: That sounds good. I guess I'm just nervous about dredging up all those memories. The prison, the inadequate medical care, the feeling of helplessness... it's a lot to process. But I also know I can't keep avoiding it forever."
+    ],
+    [
+      "Therapist: I appreciate your openness. Let's tailor our approach to your needs and background.",
+      "Client: That sounds good. I guess I'm just nervous about dredging up all those memories. The prison, the inadequate medical care, the feeling of helplessness... it's a lot to process. But I also know I can't keep avoiding it forever.",
+      "Therapist: Your insight is valuable. We'll work through this together. Ready to begin?"
+    ],
+    [
+      "Client: That sounds good. I guess I'm just nervous about dredging up all those memories. The prison, the inadequate medical care, the feeling of helplessness... it's a lot to process. But I also know I can't keep avoiding it forever.",
+      "Therapist: Your insight is valuable. We'll work through this together. Ready to begin?",
+      "Client: I think so. Just... please be patient with me if I struggle. This isn't easy for me, but I want to get better. I want to be able to move out of my parents' place and get back to my career without these memories holding me back."
+    ],
+    [
+      "Therapist: Your insight is valuable. We'll work through this together. Ready to begin?",
+      "Client: I think so. Just... please be patient with me if I struggle. This isn't easy for me, but I want to get better. I want to be able to move out of my parents' place and get back to my career without these memories holding me back.",
+      "Therapist: Of course. Your resilience is admirable. Let's start gently. Close your eyes when ready."
+    ]
+  ]
+}

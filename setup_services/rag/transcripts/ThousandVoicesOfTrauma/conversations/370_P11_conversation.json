@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's not easy to revisit those memories of the violence I witnessed back in my home country. The images are so vivid, even after all these years. I can still hear the screams, smell the smoke... it's overwhelming.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The faces. The terrified faces of the people running, especially the children. I keep seeing this little girl, couldn't have been more than five or six, clutching her teddy bear as she ran alongside her mother. Their eyes were so wide with fear... I felt so helpless, you know? I wanted to do something, anything to help, but I was frozen in place.",
+    "Therapist: How did reliving that make you feel?",
+    "Client: Guilty. Ashamed. I should have done more. I keep thinking, what if that was my daughter? My granddaughter? The thought makes me sick to my stomach. And then I feel angry - angry at the people who caused this violence, angry at myself for not doing more, angry at the world for letting these things happen.",
+    "Therapist: Those are valid feelings. How do they connect to your daily life now?",
+    "Client: I guess... I'm always on edge, waiting for something bad to happen. I have trouble trusting people, especially authority figures. And I feel this constant need to protect my family, even though they're grown and have their own lives. It's exhausting, living like this.",
+    "Therapist: I hear you. What did you learn from today's session?",
+    "Client: Well, I realized that even though these memories are painful, I can face them. I'm stronger than I thought. And maybe... maybe it wasn't my fault. I was just one person in a chaotic situation. I couldn't have stopped it all by myself.",
+    "Therapist: That's a powerful insight. How does that feel?",
+    "Client: It's... liberating, in a way. But also scary. If I let go of this guilt, what takes its place? I've been carrying it for so long, it's become a part of me.",
+    "Therapist: Change can be challenging. What helps you cope?",
+    "Client: Talking about it helps, even though it's hard. And... I've been trying that breathing technique you taught me. It doesn't always work, but when it does, it helps ground me in the present.",
+    "Therapist: That's great progress. Any other observations?",
+    "Client: I noticed that as we went through the memory, the intensity of the emotions... they didn't stay at that peak level. They kind of... ebbed and flowed. Is that normal?",
+    "Therapist: Yes, that's a common experience. How do you feel about continuing?",
+    "Client: I'm... cautiously optimistic. It's not easy, but I think it's helping. I want to keep going, to see where this leads. Maybe I can finally find some peace, you know?",
+    "Therapist: That's a great attitude. Anything else you'd like to share?",
+    "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with my age and my stubbornness. But I appreciate your patience and your help. It means a lot to have someone who understands and doesn't judge.",
+    "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+    "Client: Yes, I think I'm ready to end for today. It's been intense, but... good. I feel like I've taken a step forward, even if it's a small one. I'm looking forward to our next session, even though I know it won't be easy. But I'm ready to face it.",
+    "Therapist: Excellent. Take care, and I'll see you next week.",
+    "Client: Thank you, doctor. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy to revisit those memories of the violence I witnessed back in my home country. The images are so vivid, even after all these years. I can still hear the screams, smell the smoke... it's overwhelming.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's not easy to revisit those memories of the violence I witnessed back in my home country. The images are so vivid, even after all these years. I can still hear the screams, smell the smoke... it's overwhelming.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The faces. The terrified faces of the people running, especially the children. I keep seeing this little girl, couldn't have been more than five or six, clutching her teddy bear as she ran alongside her mother. Their eyes were so wide with fear... I felt so helpless, you know? I wanted to do something, anything to help, but I was frozen in place."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The faces. The terrified faces of the people running, especially the children. I keep seeing this little girl, couldn't have been more than five or six, clutching her teddy bear as she ran alongside her mother. Their eyes were so wide with fear... I felt so helpless, you know? I wanted to do something, anything to help, but I was frozen in place.",
+      "Therapist: How did reliving that make you feel?"
+    ],
+    [
+      "Client: The faces. The terrified faces of the people running, especially the children. I keep seeing this little girl, couldn't have been more than five or six, clutching her teddy bear as she ran alongside her mother. Their eyes were so wide with fear... I felt so helpless, you know? I wanted to do something, anything to help, but I was frozen in place.",
+      "Therapist: How did reliving that make you feel?",
+      "Client: Guilty. Ashamed. I should have done more. I keep thinking, what if that was my daughter? My granddaughter? The thought makes me sick to my stomach. And then I feel angry - angry at the people who caused this violence, angry at myself for not doing more, angry at the world for letting these things happen."
+    ],
+    [
+      "Therapist: How did reliving that make you feel?",
+      "Client: Guilty. Ashamed. I should have done more. I keep thinking, what if that was my daughter? My granddaughter? The thought makes me sick to my stomach. And then I feel angry - angry at the people who caused this violence, angry at myself for not doing more, angry at the world for letting these things happen.",
+      "Therapist: Those are valid feelings. How do they connect to your daily life now?"
+    ],
+    [
+      "Client: Guilty. Ashamed. I should have done more. I keep thinking, what if that was my daughter? My granddaughter? The thought makes me sick to my stomach. And then I feel angry - angry at the people who caused this violence, angry at myself for not doing more, angry at the world for letting these things happen.",
+      "Therapist: Those are valid feelings. How do they connect to your daily life now?",
+      "Client: I guess... I'm always on edge, waiting for something bad to happen. I have trouble trusting people, especially authority figures. And I feel this constant need to protect my family, even though they're grown and have their own lives. It's exhausting, living like this."
+    ],
+    [
+      "Therapist: Those are valid feelings. How do they connect to your daily life now?",
+      "Client: I guess... I'm always on edge, waiting for something bad to happen. I have trouble trusting people, especially authority figures. And I feel this constant need to protect my family, even though they're grown and have their own lives. It's exhausting, living like this.",
+      "Therapist: I hear you. What did you learn from today's session?"
+    ],
+    [
+      "Client: I guess... I'm always on edge, waiting for something bad to happen. I have trouble trusting people, especially authority figures. And I feel this constant need to protect my family, even though they're grown and have their own lives. It's exhausting, living like this.",
+      "Therapist: I hear you. What did you learn from today's session?",
+      "Client: Well, I realized that even though these memories are painful, I can face them. I'm stronger than I thought. And maybe... maybe it wasn't my fault. I was just one person in a chaotic situation. I couldn't have stopped it all by myself."
+    ],
+    [
+      "Therapist: I hear you. What did you learn from today's session?",
+      "Client: Well, I realized that even though these memories are painful, I can face them. I'm stronger than I thought. And maybe... maybe it wasn't my fault. I was just one person in a chaotic situation. I couldn't have stopped it all by myself.",
+      "Therapist: That's a powerful insight. How does that feel?"
+    ],
+    [
+      "Client: Well, I realized that even though these memories are painful, I can face them. I'm stronger than I thought. And maybe... maybe it wasn't my fault. I was just one person in a chaotic situation. I couldn't have stopped it all by myself.",
+      "Therapist: That's a powerful insight. How does that feel?",
+      "Client: It's... liberating, in a way. But also scary. If I let go of this guilt, what takes its place? I've been carrying it for so long, it's become a part of me."
+    ],
+    [
+      "Therapist: That's a powerful insight. How does that feel?",
+      "Client: It's... liberating, in a way. But also scary. If I let go of this guilt, what takes its place? I've been carrying it for so long, it's become a part of me.",
+      "Therapist: Change can be challenging. What helps you cope?"
+    ],
+    [
+      "Client: It's... liberating, in a way. But also scary. If I let go of this guilt, what takes its place? I've been carrying it for so long, it's become a part of me.",
+      "Therapist: Change can be challenging. What helps you cope?",
+      "Client: Talking about it helps, even though it's hard. And... I've been trying that breathing technique you taught me. It doesn't always work, but when it does, it helps ground me in the present."
+    ],
+    [
+      "Therapist: Change can be challenging. What helps you cope?",
+      "Client: Talking about it helps, even though it's hard. And... I've been trying that breathing technique you taught me. It doesn't always work, but when it does, it helps ground me in the present.",
+      "Therapist: That's great progress. Any other observations?"
+    ],
+    [
+      "Client: Talking about it helps, even though it's hard. And... I've been trying that breathing technique you taught me. It doesn't always work, but when it does, it helps ground me in the present.",
+      "Therapist: That's great progress. Any other observations?",
+      "Client: I noticed that as we went through the memory, the intensity of the emotions... they didn't stay at that peak level. They kind of... ebbed and flowed. Is that normal?"
+    ],
+    [
+      "Therapist: That's great progress. Any other observations?",
+      "Client: I noticed that as we went through the memory, the intensity of the emotions... they didn't stay at that peak level. They kind of... ebbed and flowed. Is that normal?",
+      "Therapist: Yes, that's a common experience. How do you feel about continuing?"
+    ],
+    [
+      "Client: I noticed that as we went through the memory, the intensity of the emotions... they didn't stay at that peak level. They kind of... ebbed and flowed. Is that normal?",
+      "Therapist: Yes, that's a common experience. How do you feel about continuing?",
+      "Client: I'm... cautiously optimistic. It's not easy, but I think it's helping. I want to keep going, to see where this leads. Maybe I can finally find some peace, you know?"
+    ],
+    [
+      "Therapist: Yes, that's a common experience. How do you feel about continuing?",
+      "Client: I'm... cautiously optimistic. It's not easy, but I think it's helping. I want to keep going, to see where this leads. Maybe I can finally find some peace, you know?",
+      "Therapist: That's a great attitude. Anything else you'd like to share?"
+    ],
+    [
+      "Client: I'm... cautiously optimistic. It's not easy, but I think it's helping. I want to keep going, to see where this leads. Maybe I can finally find some peace, you know?",
+      "Therapist: That's a great attitude. Anything else you'd like to share?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with my age and my stubbornness. But I appreciate your patience and your help. It means a lot to have someone who understands and doesn't judge."
+    ],
+    [
+      "Therapist: That's a great attitude. Anything else you'd like to share?",
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with my age and my stubbornness. But I appreciate your patience and your help. It means a lot to have someone who understands and doesn't judge.",
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. I know I'm not an easy patient, with my age and my stubbornness. But I appreciate your patience and your help. It means a lot to have someone who understands and doesn't judge.",
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+      "Client: Yes, I think I'm ready to end for today. It's been intense, but... good. I feel like I've taken a step forward, even if it's a small one. I'm looking forward to our next session, even though I know it won't be easy. But I'm ready to face it."
+    ],
+    [
+      "Therapist: You're welcome. Your courage is admirable. Shall we wrap up?",
+      "Client: Yes, I think I'm ready to end for today. It's been intense, but... good. I feel like I've taken a step forward, even if it's a small one. I'm looking forward to our next session, even though I know it won't be easy. But I'm ready to face it.",
+      "Therapist: Excellent. Take care, and I'll see you next week."
+    ],
+    [
+      "Client: Yes, I think I'm ready to end for today. It's been intense, but... good. I feel like I've taken a step forward, even if it's a small one. I'm looking forward to our next session, even though I know it won't be easy. But I'm ready to face it.",
+      "Therapist: Excellent. Take care, and I'll see you next week.",
+      "Client: Thank you, doctor. See you then."
+    ]
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm nervous, but I'll try my best.",
+    "Therapist: That's normal. Start when you're ready.",
+    "Client: Okay... I'm back in our apartment. It's late evening, and I can hear the TV in the background. My boyfriend, he's... he's been drinking again. I can smell the alcohol on his breath as he approaches me. My heart is starting to race, and I feel this knot forming in my stomach.",
+    "Therapist: SUDS rating?",
+    "Client: Um, probably a 6 right now. The memory is vivid, but I'm still aware I'm here with you.",
+    "Therapist: Good. Continue.",
+    "Client: He's yelling now, accusing me of cheating. I try to explain, but he won't listen. His face is red, and I can see the veins in his neck bulging. I'm backing away, but I hit the wall. I'm trapped. My palms are sweaty, and I'm trembling. I... I can't breathe properly.",
+    "Therapist: SUDS?",
+    "Client: It's... it's gone up to an 8. I feel like I'm there again. My chest is tight, and I'm shaking.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: He's getting closer, screaming in my face. I can feel his spit on my cheek. I'm frozen, I can't move. Then... then he raises his hand. I flinch, expecting the blow, but it doesn't come. Instead, he punches the wall next to my head. The sound is so loud, and I can feel the vibration through my body. I'm crying now, silently. I don't want to make him angrier.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's a 9. I feel so helpless and scared. My legs are weak, and I'm struggling to stay standing.",
+    "Therapist: You're doing well. Keep breathing.",
+    "Client: I slide down the wall, curling into myself. He's still yelling, but it's like I'm underwater. Everything's muffled. I can taste salt from my tears. I'm praying for it to be over, for him to just leave me alone. I feel so small, so worthless. Why am I not strong enough to stand up to him?",
+    "Therapist: SUDS rating?",
+    "Client: Still a 9. I feel sick to my stomach. My hands are clammy, and I'm having trouble focusing.",
+    "Therapist: That's okay. You're safe here.",
+    "Client: He finally stops yelling and stumbles away. I hear the front door slam. I'm alone, but I can't move. I'm shaking uncontrollably, gasping for air. The silence is deafening. I feel so alone, so ashamed. Why did I let this happen again? Why can't I leave?",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's starting to come down. Maybe a 7? I'm feeling drained, but the immediate panic is subsiding.",
+    "Therapist: That's good. How are you feeling?",
+    "Client: Exhausted. My body feels heavy, and my head is pounding. But... I also feel a bit relieved. Like I've let out something I've been holding in for so long.",
+    "Therapist: That's normal. Well done.",
+    "Client: Thank you. It was hard, but... I think it helped. Can we... can we talk about why I froze? Why I couldn't defend myself?",
+    "Therapist: Of course. That's a common reaction.",
+    "Client: I just... I feel so weak when I think about it. Like I should have done something more.",
+    "Therapist: Your response was normal. It's survival.",
+    "Client: I guess... I just wish I had been stronger. But talking about it... it feels like I'm taking some power back. Does that make sense?",
+    "Therapist: Absolutely. That's part of the healing process.",
+    "Client: I'm grateful for this. It's tough, but I feel like I'm finally facing it instead of running away.",
+    "Therapist: You're showing immense courage. SUDS now?",
+    "Client: I think it's down to a 5. I'm feeling calmer, more grounded.",
+    "Therapist: Excellent progress. How would you like to proceed?",
+    "Client: Can we talk about strategies for when I feel triggered by these memories? I want to feel more in control.",
+    "Therapist: Certainly. Let's explore some coping techniques."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm nervous, but I'll try my best.",
+      "Therapist: That's normal. Start when you're ready."
+    ],
+    [
+      "Client: I think so. I'm nervous, but I'll try my best.",
+      "Therapist: That's normal. Start when you're ready.",
+      "Client: Okay... I'm back in our apartment. It's late evening, and I can hear the TV in the background. My boyfriend, he's... he's been drinking again. I can smell the alcohol on his breath as he approaches me. My heart is starting to race, and I feel this knot forming in my stomach."
+    ],
+    [
+      "Therapist: That's normal. Start when you're ready.",
+      "Client: Okay... I'm back in our apartment. It's late evening, and I can hear the TV in the background. My boyfriend, he's... he's been drinking again. I can smell the alcohol on his breath as he approaches me. My heart is starting to race, and I feel this knot forming in my stomach.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm back in our apartment. It's late evening, and I can hear the TV in the background. My boyfriend, he's... he's been drinking again. I can smell the alcohol on his breath as he approaches me. My heart is starting to race, and I feel this knot forming in my stomach.",
+      "Therapist: SUDS rating?",
+      "Client: Um, probably a 6 right now. The memory is vivid, but I'm still aware I'm here with you."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Um, probably a 6 right now. The memory is vivid, but I'm still aware I'm here with you.",
+      "Therapist: Good. Continue."
+    ],
+    [
+      "Client: Um, probably a 6 right now. The memory is vivid, but I'm still aware I'm here with you.",
+      "Therapist: Good. Continue.",
+      "Client: He's yelling now, accusing me of cheating. I try to explain, but he won't listen. His face is red, and I can see the veins in his neck bulging. I'm backing away, but I hit the wall. I'm trapped. My palms are sweaty, and I'm trembling. I... I can't breathe properly."
+    ],
+    [
+      "Therapist: Good. Continue.",
+      "Client: He's yelling now, accusing me of cheating. I try to explain, but he won't listen. His face is red, and I can see the veins in his neck bulging. I'm backing away, but I hit the wall. I'm trapped. My palms are sweaty, and I'm trembling. I... I can't breathe properly.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: He's yelling now, accusing me of cheating. I try to explain, but he won't listen. His face is red, and I can see the veins in his neck bulging. I'm backing away, but I hit the wall. I'm trapped. My palms are sweaty, and I'm trembling. I... I can't breathe properly.",
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to an 8. I feel like I'm there again. My chest is tight, and I'm shaking."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to an 8. I feel like I'm there again. My chest is tight, and I'm shaking.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to an 8. I feel like I'm there again. My chest is tight, and I'm shaking.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: He's getting closer, screaming in my face. I can feel his spit on my cheek. I'm frozen, I can't move. Then... then he raises his hand. I flinch, expecting the blow, but it doesn't come. Instead, he punches the wall next to my head. The sound is so loud, and I can feel the vibration through my body. I'm crying now, silently. I don't want to make him angrier."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: He's getting closer, screaming in my face. I can feel his spit on my cheek. I'm frozen, I can't move. Then... then he raises his hand. I flinch, expecting the blow, but it doesn't come. Instead, he punches the wall next to my head. The sound is so loud, and I can feel the vibration through my body. I'm crying now, silently. I don't want to make him angrier.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: He's getting closer, screaming in my face. I can feel his spit on my cheek. I'm frozen, I can't move. Then... then he raises his hand. I flinch, expecting the blow, but it doesn't come. Instead, he punches the wall next to my head. The sound is so loud, and I can feel the vibration through my body. I'm crying now, silently. I don't want to make him angrier.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. I feel so helpless and scared. My legs are weak, and I'm struggling to stay standing."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. I feel so helpless and scared. My legs are weak, and I'm struggling to stay standing.",
+      "Therapist: You're doing well. Keep breathing."
+    ],
+    [
+      "Client: It's... it's a 9. I feel so helpless and scared. My legs are weak, and I'm struggling to stay standing.",
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I slide down the wall, curling into myself. He's still yelling, but it's like I'm underwater. Everything's muffled. I can taste salt from my tears. I'm praying for it to be over, for him to just leave me alone. I feel so small, so worthless. Why am I not strong enough to stand up to him?"
+    ],
+    [
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I slide down the wall, curling into myself. He's still yelling, but it's like I'm underwater. Everything's muffled. I can taste salt from my tears. I'm praying for it to be over, for him to just leave me alone. I feel so small, so worthless. Why am I not strong enough to stand up to him?",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I slide down the wall, curling into myself. He's still yelling, but it's like I'm underwater. Everything's muffled. I can taste salt from my tears. I'm praying for it to be over, for him to just leave me alone. I feel so small, so worthless. Why am I not strong enough to stand up to him?",
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. I feel sick to my stomach. My hands are clammy, and I'm having trouble focusing."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Still a 9. I feel sick to my stomach. My hands are clammy, and I'm having trouble focusing.",
+      "Therapist: That's okay. You're safe here."
+    ],
+    [
+      "Client: Still a 9. I feel sick to my stomach. My hands are clammy, and I'm having trouble focusing.",
+      "Therapist: That's okay. You're safe here.",
+      "Client: He finally stops yelling and stumbles away. I hear the front door slam. I'm alone, but I can't move. I'm shaking uncontrollably, gasping for air. The silence is deafening. I feel so alone, so ashamed. Why did I let this happen again? Why can't I leave?"
+    ],
+    [
+      "Therapist: That's okay. You're safe here.",
+      "Client: He finally stops yelling and stumbles away. I hear the front door slam. I'm alone, but I can't move. I'm shaking uncontrollably, gasping for air. The silence is deafening. I feel so alone, so ashamed. Why did I let this happen again? Why can't I leave?",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: He finally stops yelling and stumbles away. I hear the front door slam. I'm alone, but I can't move. I'm shaking uncontrollably, gasping for air. The silence is deafening. I feel so alone, so ashamed. Why did I let this happen again? Why can't I leave?",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's starting to come down. Maybe a 7? I'm feeling drained, but the immediate panic is subsiding."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's starting to come down. Maybe a 7? I'm feeling drained, but the immediate panic is subsiding.",
+      "Therapist: That's good. How are you feeling?"
+    ],
+    [
+      "Client: It's... it's starting to come down. Maybe a 7? I'm feeling drained, but the immediate panic is subsiding.",
+      "Therapist: That's good. How are you feeling?",
+      "Client: Exhausted. My body feels heavy, and my head is pounding. But... I also feel a bit relieved. Like I've let out something I've been holding in for so long."
+    ],
+    [
+      "Therapist: That's good. How are you feeling?",
+      "Client: Exhausted. My body feels heavy, and my head is pounding. But... I also feel a bit relieved. Like I've let out something I've been holding in for so long.",
+      "Therapist: That's normal. Well done."
+    ],
+    [
+      "Client: Exhausted. My body feels heavy, and my head is pounding. But... I also feel a bit relieved. Like I've let out something I've been holding in for so long.",
+      "Therapist: That's normal. Well done.",
+      "Client: Thank you. It was hard, but... I think it helped. Can we... can we talk about why I froze? Why I couldn't defend myself?"
+    ],
+    [
+      "Therapist: That's normal. Well done.",
+      "Client: Thank you. It was hard, but... I think it helped. Can we... can we talk about why I froze? Why I couldn't defend myself?",
+      "Therapist: Of course. That's a common reaction."
+    ],
+    [
+      "Client: Thank you. It was hard, but... I think it helped. Can we... can we talk about why I froze? Why I couldn't defend myself?",
+      "Therapist: Of course. That's a common reaction.",
+      "Client: I just... I feel so weak when I think about it. Like I should have done something more."
+    ],
+    [
+      "Therapist: Of course. That's a common reaction.",
+      "Client: I just... I feel so weak when I think about it. Like I should have done something more.",
+      "Therapist: Your response was normal. It's survival."
+    ],
+    [
+      "Client: I just... I feel so weak when I think about it. Like I should have done something more.",
+      "Therapist: Your response was normal. It's survival.",
+      "Client: I guess... I just wish I had been stronger. But talking about it... it feels like I'm taking some power back. Does that make sense?"
+    ],
+    [
+      "Therapist: Your response was normal. It's survival.",
+      "Client: I guess... I just wish I had been stronger. But talking about it... it feels like I'm taking some power back. Does that make sense?",
+      "Therapist: Absolutely. That's part of the healing process."
+    ],
+    [
+      "Client: I guess... I just wish I had been stronger. But talking about it... it feels like I'm taking some power back. Does that make sense?",
+      "Therapist: Absolutely. That's part of the healing process.",
+      "Client: I'm grateful for this. It's tough, but I feel like I'm finally facing it instead of running away."
+    ],
+    [
+      "Therapist: Absolutely. That's part of the healing process.",
+      "Client: I'm grateful for this. It's tough, but I feel like I'm finally facing it instead of running away.",
+      "Therapist: You're showing immense courage. SUDS now?"
+    ],
+    [
+      "Client: I'm grateful for this. It's tough, but I feel like I'm finally facing it instead of running away.",
+      "Therapist: You're showing immense courage. SUDS now?",
+      "Client: I think it's down to a 5. I'm feeling calmer, more grounded."
+    ],
+    [
+      "Therapist: You're showing immense courage. SUDS now?",
+      "Client: I think it's down to a 5. I'm feeling calmer, more grounded.",
+      "Therapist: Excellent progress. How would you like to proceed?"
+    ],
+    [
+      "Client: I think it's down to a 5. I'm feeling calmer, more grounded.",
+      "Therapist: Excellent progress. How would you like to proceed?",
+      "Client: Can we talk about strategies for when I feel triggered by these memories? I want to feel more in control."
+    ],
+    [
+      "Therapist: Excellent progress. How would you like to proceed?",
+      "Client: Can we talk about strategies for when I feel triggered by these memories? I want to feel more in control.",
+      "Therapist: Certainly. Let's explore some coping techniques."
+    ]
+  ]
+}

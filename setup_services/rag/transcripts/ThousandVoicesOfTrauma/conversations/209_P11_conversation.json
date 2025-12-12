@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+    "Client: I... I'm not sure, Dr. Thompson. It's a lot to process. My heart's still racing a bit, and I feel... I don't know, maybe a little shaky? It's strange to revisit that memory so vividly.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The sounds, I think. The shouting, the crash of furniture... It's like I was right back there in that moment, you know? I could almost smell the alcohol on his breath. It's... it's overwhelming.",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: Honestly? Terrifying. But also... I don't know, maybe a little empowering? Like, I survived that, you know? I'm here, talking about it. That's something, right?",
+    "Therapist: Absolutely. What else are you noticing?",
+    "Client: I keep thinking about my sister. She was so young then. I... I wish I could've protected her better. God, I feel so guilty sometimes. But I was just a kid too, wasn't I?",
+    "Therapist: How does that guilt relate to your current experiences?",
+    "Client: I guess... I still feel responsible for everyone, you know? My ex-wife, my kids. Even though they're grown now. It's exhausting. And when things go wrong, I... I tend to blame myself. Maybe that's why I... why I turned to drinking for so long.",
+    "Therapist: I see. How do you think addressing this might help your recovery?",
+    "Client: Well, maybe if I can let go of some of that guilt, I won't feel the need to... to numb myself so much? It's just... it's hard, you know? This stuff is buried so deep.",
+    "Therapist: It takes courage to confront these memories. How are you managing?",
+    "Client: It's tough, but... I'm here, right? I'm trying. Sometimes I want to run away from all this, but... I know I need to face it. For myself, for my kids. I want to be better for them.",
+    "Therapist: What strategies have you found helpful so far?",
+    "Client: The breathing exercises help a lot. And... talking about it, even though it's hard. It's like... each time I do this, it gets a tiny bit easier. Still scary as hell, but... maybe a little less overwhelming?",
+    "Therapist: That's great progress. What's your takeaway from today's session?",
+    "Client: I think... maybe I'm stronger than I give myself credit for? And... it's okay to feel these things. They're part of me, but they don't define me. At least, that's what I'm trying to believe.",
+    "Therapist: Excellent insight. How do you feel about continuing this work?",
+    "Client: Scared, but... determined, I guess? I want this. I want to get better. It's just... it's a lot, you know? But I'm willing to keep going.",
+    "Therapist: Your commitment is commendable. Shall we schedule our next session?",
+    "Client: Yeah, let's do it. Same time next week? And... thanks, Doc. This isn't easy, but... I think it's helping. I really do."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+      "Client: I... I'm not sure, Dr. Thompson. It's a lot to process. My heart's still racing a bit, and I feel... I don't know, maybe a little shaky? It's strange to revisit that memory so vividly.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure, Dr. Thompson. It's a lot to process. My heart's still racing a bit, and I feel... I don't know, maybe a little shaky? It's strange to revisit that memory so vividly.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sounds, I think. The shouting, the crash of furniture... It's like I was right back there in that moment, you know? I could almost smell the alcohol on his breath. It's... it's overwhelming."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sounds, I think. The shouting, the crash of furniture... It's like I was right back there in that moment, you know? I could almost smell the alcohol on his breath. It's... it's overwhelming.",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The sounds, I think. The shouting, the crash of furniture... It's like I was right back there in that moment, you know? I could almost smell the alcohol on his breath. It's... it's overwhelming.",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: Honestly? Terrifying. But also... I don't know, maybe a little empowering? Like, I survived that, you know? I'm here, talking about it. That's something, right?"
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: Honestly? Terrifying. But also... I don't know, maybe a little empowering? Like, I survived that, you know? I'm here, talking about it. That's something, right?",
+      "Therapist: Absolutely. What else are you noticing?"
+    ],
+    [
+      "Client: Honestly? Terrifying. But also... I don't know, maybe a little empowering? Like, I survived that, you know? I'm here, talking about it. That's something, right?",
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I keep thinking about my sister. She was so young then. I... I wish I could've protected her better. God, I feel so guilty sometimes. But I was just a kid too, wasn't I?"
+    ],
+    [
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I keep thinking about my sister. She was so young then. I... I wish I could've protected her better. God, I feel so guilty sometimes. But I was just a kid too, wasn't I?",
+      "Therapist: How does that guilt relate to your current experiences?"
+    ],
+    [
+      "Client: I keep thinking about my sister. She was so young then. I... I wish I could've protected her better. God, I feel so guilty sometimes. But I was just a kid too, wasn't I?",
+      "Therapist: How does that guilt relate to your current experiences?",
+      "Client: I guess... I still feel responsible for everyone, you know? My ex-wife, my kids. Even though they're grown now. It's exhausting. And when things go wrong, I... I tend to blame myself. Maybe that's why I... why I turned to drinking for so long."
+    ],
+    [
+      "Therapist: How does that guilt relate to your current experiences?",
+      "Client: I guess... I still feel responsible for everyone, you know? My ex-wife, my kids. Even though they're grown now. It's exhausting. And when things go wrong, I... I tend to blame myself. Maybe that's why I... why I turned to drinking for so long.",
+      "Therapist: I see. How do you think addressing this might help your recovery?"
+    ],
+    [
+      "Client: I guess... I still feel responsible for everyone, you know? My ex-wife, my kids. Even though they're grown now. It's exhausting. And when things go wrong, I... I tend to blame myself. Maybe that's why I... why I turned to drinking for so long.",
+      "Therapist: I see. How do you think addressing this might help your recovery?",
+      "Client: Well, maybe if I can let go of some of that guilt, I won't feel the need to... to numb myself so much? It's just... it's hard, you know? This stuff is buried so deep."
+    ],
+    [
+      "Therapist: I see. How do you think addressing this might help your recovery?",
+      "Client: Well, maybe if I can let go of some of that guilt, I won't feel the need to... to numb myself so much? It's just... it's hard, you know? This stuff is buried so deep.",
+      "Therapist: It takes courage to confront these memories. How are you managing?"
+    ],
+    [
+      "Client: Well, maybe if I can let go of some of that guilt, I won't feel the need to... to numb myself so much? It's just... it's hard, you know? This stuff is buried so deep.",
+      "Therapist: It takes courage to confront these memories. How are you managing?",
+      "Client: It's tough, but... I'm here, right? I'm trying. Sometimes I want to run away from all this, but... I know I need to face it. For myself, for my kids. I want to be better for them."
+    ],
+    [
+      "Therapist: It takes courage to confront these memories. How are you managing?",
+      "Client: It's tough, but... I'm here, right? I'm trying. Sometimes I want to run away from all this, but... I know I need to face it. For myself, for my kids. I want to be better for them.",
+      "Therapist: What strategies have you found helpful so far?"
+    ],
+    [
+      "Client: It's tough, but... I'm here, right? I'm trying. Sometimes I want to run away from all this, but... I know I need to face it. For myself, for my kids. I want to be better for them.",
+      "Therapist: What strategies have you found helpful so far?",
+      "Client: The breathing exercises help a lot. And... talking about it, even though it's hard. It's like... each time I do this, it gets a tiny bit easier. Still scary as hell, but... maybe a little less overwhelming?"
+    ],
+    [
+      "Therapist: What strategies have you found helpful so far?",
+      "Client: The breathing exercises help a lot. And... talking about it, even though it's hard. It's like... each time I do this, it gets a tiny bit easier. Still scary as hell, but... maybe a little less overwhelming?",
+      "Therapist: That's great progress. What's your takeaway from today's session?"
+    ],
+    [
+      "Client: The breathing exercises help a lot. And... talking about it, even though it's hard. It's like... each time I do this, it gets a tiny bit easier. Still scary as hell, but... maybe a little less overwhelming?",
+      "Therapist: That's great progress. What's your takeaway from today's session?",
+      "Client: I think... maybe I'm stronger than I give myself credit for? And... it's okay to feel these things. They're part of me, but they don't define me. At least, that's what I'm trying to believe."
+    ],
+    [
+      "Therapist: That's great progress. What's your takeaway from today's session?",
+      "Client: I think... maybe I'm stronger than I give myself credit for? And... it's okay to feel these things. They're part of me, but they don't define me. At least, that's what I'm trying to believe.",
+      "Therapist: Excellent insight. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I think... maybe I'm stronger than I give myself credit for? And... it's okay to feel these things. They're part of me, but they don't define me. At least, that's what I'm trying to believe.",
+      "Therapist: Excellent insight. How do you feel about continuing this work?",
+      "Client: Scared, but... determined, I guess? I want this. I want to get better. It's just... it's a lot, you know? But I'm willing to keep going."
+    ],
+    [
+      "Therapist: Excellent insight. How do you feel about continuing this work?",
+      "Client: Scared, but... determined, I guess? I want this. I want to get better. It's just... it's a lot, you know? But I'm willing to keep going.",
+      "Therapist: Your commitment is commendable. Shall we schedule our next session?"
+    ],
+    [
+      "Client: Scared, but... determined, I guess? I want this. I want to get better. It's just... it's a lot, you know? But I'm willing to keep going.",
+      "Therapist: Your commitment is commendable. Shall we schedule our next session?",
+      "Client: Yeah, let's do it. Same time next week? And... thanks, Doc. This isn't easy, but... I think it's helping. I really do."
+    ]
+  ]
+}

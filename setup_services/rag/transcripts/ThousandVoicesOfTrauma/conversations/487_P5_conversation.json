@@ -1,0 +1,74 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm honestly pretty nervous. I've been dreading this part of therapy. The idea of reliving that hostage situation... it's terrifying. I've spent so much time trying to forget it, and now you want me to remember every detail? I'm not sure I can handle that.",
+    "Therapist: Your anxiety is understandable. This process, while challenging, is crucial for healing. Are you ready to try?",
+    "Client: I guess so. But what if I panic? Or what if it makes everything worse? I've been struggling with depression too, and I'm worried this might push me over the edge. Plus, living with my parents again at 37... it's embarrassing. I feel like I've regressed so much since the incident.",
+    "Therapist: We'll go at your pace. Your safety is my priority. What questions do you have?",
+    "Client: Well, how exactly does this work? Do I just start talking about what happened? And how long does it last? I'm worried I might not be able to stop once I start... it's like opening Pandora's box.",
+    "Therapist: You'll recount the event in present tense. We'll start with 30 minutes today. I'll guide you throughout.",
+    "Client: Okay, that doesn't sound as bad as I thought. But still, 30 minutes feels like a long time to be stuck in that memory. What if I can't make it through? And what about afterwards? I'm worried I'll be a mess and won't be able to face my parents or go to class.",
+    "Therapist: It's okay to pause if needed. We'll debrief after and ensure you're grounded before leaving.",
+    "Client: That's reassuring. I appreciate your support. It's been so hard dealing with this trauma on top of everything else. Sometimes I wonder if I'll ever feel normal again. But I'm here, and I'm willing to try. I just hope it helps.",
+    "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Shall we begin?",
+    "Client: Alright, I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is probably the hardest thing I've ever had to do in therapy. But I trust you, and I'm committed to getting better. Let's do this.",
+    "Therapist: I'm here with you every step. Take a deep breath, and when you're ready, start describing the hostage situation."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm honestly pretty nervous. I've been dreading this part of therapy. The idea of reliving that hostage situation... it's terrifying. I've spent so much time trying to forget it, and now you want me to remember every detail? I'm not sure I can handle that.",
+      "Therapist: Your anxiety is understandable. This process, while challenging, is crucial for healing. Are you ready to try?"
+    ],
+    [
+      "Client: I'm honestly pretty nervous. I've been dreading this part of therapy. The idea of reliving that hostage situation... it's terrifying. I've spent so much time trying to forget it, and now you want me to remember every detail? I'm not sure I can handle that.",
+      "Therapist: Your anxiety is understandable. This process, while challenging, is crucial for healing. Are you ready to try?",
+      "Client: I guess so. But what if I panic? Or what if it makes everything worse? I've been struggling with depression too, and I'm worried this might push me over the edge. Plus, living with my parents again at 37... it's embarrassing. I feel like I've regressed so much since the incident."
+    ],
+    [
+      "Therapist: Your anxiety is understandable. This process, while challenging, is crucial for healing. Are you ready to try?",
+      "Client: I guess so. But what if I panic? Or what if it makes everything worse? I've been struggling with depression too, and I'm worried this might push me over the edge. Plus, living with my parents again at 37... it's embarrassing. I feel like I've regressed so much since the incident.",
+      "Therapist: We'll go at your pace. Your safety is my priority. What questions do you have?"
+    ],
+    [
+      "Client: I guess so. But what if I panic? Or what if it makes everything worse? I've been struggling with depression too, and I'm worried this might push me over the edge. Plus, living with my parents again at 37... it's embarrassing. I feel like I've regressed so much since the incident.",
+      "Therapist: We'll go at your pace. Your safety is my priority. What questions do you have?",
+      "Client: Well, how exactly does this work? Do I just start talking about what happened? And how long does it last? I'm worried I might not be able to stop once I start... it's like opening Pandora's box."
+    ],
+    [
+      "Therapist: We'll go at your pace. Your safety is my priority. What questions do you have?",
+      "Client: Well, how exactly does this work? Do I just start talking about what happened? And how long does it last? I'm worried I might not be able to stop once I start... it's like opening Pandora's box.",
+      "Therapist: You'll recount the event in present tense. We'll start with 30 minutes today. I'll guide you throughout."
+    ],
+    [
+      "Client: Well, how exactly does this work? Do I just start talking about what happened? And how long does it last? I'm worried I might not be able to stop once I start... it's like opening Pandora's box.",
+      "Therapist: You'll recount the event in present tense. We'll start with 30 minutes today. I'll guide you throughout.",
+      "Client: Okay, that doesn't sound as bad as I thought. But still, 30 minutes feels like a long time to be stuck in that memory. What if I can't make it through? And what about afterwards? I'm worried I'll be a mess and won't be able to face my parents or go to class."
+    ],
+    [
+      "Therapist: You'll recount the event in present tense. We'll start with 30 minutes today. I'll guide you throughout.",
+      "Client: Okay, that doesn't sound as bad as I thought. But still, 30 minutes feels like a long time to be stuck in that memory. What if I can't make it through? And what about afterwards? I'm worried I'll be a mess and won't be able to face my parents or go to class.",
+      "Therapist: It's okay to pause if needed. We'll debrief after and ensure you're grounded before leaving."
+    ],
+    [
+      "Client: Okay, that doesn't sound as bad as I thought. But still, 30 minutes feels like a long time to be stuck in that memory. What if I can't make it through? And what about afterwards? I'm worried I'll be a mess and won't be able to face my parents or go to class.",
+      "Therapist: It's okay to pause if needed. We'll debrief after and ensure you're grounded before leaving.",
+      "Client: That's reassuring. I appreciate your support. It's been so hard dealing with this trauma on top of everything else. Sometimes I wonder if I'll ever feel normal again. But I'm here, and I'm willing to try. I just hope it helps."
+    ],
+    [
+      "Therapist: It's okay to pause if needed. We'll debrief after and ensure you're grounded before leaving.",
+      "Client: That's reassuring. I appreciate your support. It's been so hard dealing with this trauma on top of everything else. Sometimes I wonder if I'll ever feel normal again. But I'm here, and I'm willing to try. I just hope it helps.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Shall we begin?"
+    ],
+    [
+      "Client: That's reassuring. I appreciate your support. It's been so hard dealing with this trauma on top of everything else. Sometimes I wonder if I'll ever feel normal again. But I'm here, and I'm willing to try. I just hope it helps.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Shall we begin?",
+      "Client: Alright, I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is probably the hardest thing I've ever had to do in therapy. But I trust you, and I'm committed to getting better. Let's do this."
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Shall we begin?",
+      "Client: Alright, I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is probably the hardest thing I've ever had to do in therapy. But I trust you, and I'm committed to getting better. Let's do this.",
+      "Therapist: I'm here with you every step. Take a deep breath, and when you're ready, start describing the hostage situation."
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Rodriguez, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm... I'm not sure, Doctor. To be honest, I'm a bit nervous. It's been so long since I've talked about my experiences in the military. I've tried to push those memories away for years. The idea of bringing them up again is... well, it's frightening.",
+    "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will make me relive those horrible moments. I've worked so hard to keep those memories locked away. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, you know.",
+    "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+    "Client: I... I'm not sure. Maybe it could help me process what happened? But I'm scared it might make things worse. I've been having more nightmares lately, and I don't want to add fuel to that fire. But then again, I'm tired of living like this, always on edge, always afraid. If there's a chance this could help, maybe it's worth trying?",
+    "Therapist: Your insight is spot-on. How do you feel about giving it a try today?",
+    "Client: I... I think I'm willing to try. But can you tell me more about what to expect? Will you be there to help me if it gets too overwhelming?",
+    "Therapist: Absolutely. I'll guide you through it and we can pause anytime. What else would help you feel safe?",
+    "Client: Maybe... could we have a code word? Something I can say if I need to stop? And... is it okay if I bring my rosary? It helps me feel calm.",
+    "Therapist: Great ideas. Let's choose a code word now. And your rosary is welcome.",
+    "Client: Thank you, Doctor. I think... I think I'm ready. Or as ready as I'll ever be. It's strange, I feel scared but also... maybe a little hopeful? Is that normal?",
+    "Therapist: It's very normal. Your courage is admirable. Shall we begin?",
+    "Client: Yes, let's do this. I trust you, Doctor. And I guess... I need to start trusting myself too. It's time to face these memories head-on, no matter how difficult it might be. I've carried this burden for too long."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Rodriguez, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm... I'm not sure, Doctor. To be honest, I'm a bit nervous. It's been so long since I've talked about my experiences in the military. I've tried to push those memories away for years. The idea of bringing them up again is... well, it's frightening.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... I'm not sure, Doctor. To be honest, I'm a bit nervous. It's been so long since I've talked about my experiences in the military. I've tried to push those memories away for years. The idea of bringing them up again is... well, it's frightening.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will make me relive those horrible moments. I've worked so hard to keep those memories locked away. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, you know."
+    ],
+    [
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will make me relive those horrible moments. I've worked so hard to keep those memories locked away. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, you know.",
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will make me relive those horrible moments. I've worked so hard to keep those memories locked away. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, you know.",
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+      "Client: I... I'm not sure. Maybe it could help me process what happened? But I'm scared it might make things worse. I've been having more nightmares lately, and I don't want to add fuel to that fire. But then again, I'm tired of living like this, always on edge, always afraid. If there's a chance this could help, maybe it's worth trying?"
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+      "Client: I... I'm not sure. Maybe it could help me process what happened? But I'm scared it might make things worse. I've been having more nightmares lately, and I don't want to add fuel to that fire. But then again, I'm tired of living like this, always on edge, always afraid. If there's a chance this could help, maybe it's worth trying?",
+      "Therapist: Your insight is spot-on. How do you feel about giving it a try today?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe it could help me process what happened? But I'm scared it might make things worse. I've been having more nightmares lately, and I don't want to add fuel to that fire. But then again, I'm tired of living like this, always on edge, always afraid. If there's a chance this could help, maybe it's worth trying?",
+      "Therapist: Your insight is spot-on. How do you feel about giving it a try today?",
+      "Client: I... I think I'm willing to try. But can you tell me more about what to expect? Will you be there to help me if it gets too overwhelming?"
+    ],
+    [
+      "Therapist: Your insight is spot-on. How do you feel about giving it a try today?",
+      "Client: I... I think I'm willing to try. But can you tell me more about what to expect? Will you be there to help me if it gets too overwhelming?",
+      "Therapist: Absolutely. I'll guide you through it and we can pause anytime. What else would help you feel safe?"
+    ],
+    [
+      "Client: I... I think I'm willing to try. But can you tell me more about what to expect? Will you be there to help me if it gets too overwhelming?",
+      "Therapist: Absolutely. I'll guide you through it and we can pause anytime. What else would help you feel safe?",
+      "Client: Maybe... could we have a code word? Something I can say if I need to stop? And... is it okay if I bring my rosary? It helps me feel calm."
+    ],
+    [
+      "Therapist: Absolutely. I'll guide you through it and we can pause anytime. What else would help you feel safe?",
+      "Client: Maybe... could we have a code word? Something I can say if I need to stop? And... is it okay if I bring my rosary? It helps me feel calm.",
+      "Therapist: Great ideas. Let's choose a code word now. And your rosary is welcome."
+    ],
+    [
+      "Client: Maybe... could we have a code word? Something I can say if I need to stop? And... is it okay if I bring my rosary? It helps me feel calm.",
+      "Therapist: Great ideas. Let's choose a code word now. And your rosary is welcome.",
+      "Client: Thank you, Doctor. I think... I think I'm ready. Or as ready as I'll ever be. It's strange, I feel scared but also... maybe a little hopeful? Is that normal?"
+    ],
+    [
+      "Therapist: Great ideas. Let's choose a code word now. And your rosary is welcome.",
+      "Client: Thank you, Doctor. I think... I think I'm ready. Or as ready as I'll ever be. It's strange, I feel scared but also... maybe a little hopeful? Is that normal?",
+      "Therapist: It's very normal. Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: Thank you, Doctor. I think... I think I'm ready. Or as ready as I'll ever be. It's strange, I feel scared but also... maybe a little hopeful? Is that normal?",
+      "Therapist: It's very normal. Your courage is admirable. Shall we begin?",
+      "Client: Yes, let's do this. I trust you, Doctor. And I guess... I need to start trusting myself too. It's time to face these memories head-on, no matter how difficult it might be. I've carried this burden for too long."
+    ]
+  ]
+}

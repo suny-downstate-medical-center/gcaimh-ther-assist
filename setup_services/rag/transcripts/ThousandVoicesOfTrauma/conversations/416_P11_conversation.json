@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory of the divorce again, it just brings up so much. I can feel my heart racing a bit, and my hands are a little shaky.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The moment when he told me he was leaving. I could see his face so clearly, the coldness in his eyes. It reminded me of... of how my father used to look at me when I disappointed him as a child. That same distant, unloving gaze. It's like history repeating itself, you know?",
+    "Therapist: How did reliving that make you feel?",
+    "Client: Scared. Abandoned. Like I'm not good enough. It's the same feeling I had when I was little, always trying to please my parents but never quite measuring up. And now, with the divorce, it's like confirmation that I'm unlovable. I... I've been drinking more lately to numb these feelings.",
+    "Therapist: I hear you're struggling. How does this connect to your PTSD symptoms?",
+    "Client: I guess... well, I've been having more nightmares lately. Not just about the divorce, but also about my childhood. And during the day, I'm constantly on edge, waiting for the next person to leave me. It's exhausting, and that's when I turn to alcohol to quiet my mind.",
+    "Therapist: Thank you for sharing. What insights have you gained?",
+    "Client: I'm starting to see how my past trauma is affecting my present. The divorce triggered all these old wounds, and I'm reacting to it in the same way I did as a child - by withdrawing and numbing myself. But... I also realize that I'm stronger now. I survived my childhood, and I can survive this too.",
+    "Therapist: That's a powerful realization. How can we build on this?",
+    "Client: Maybe... maybe I need to work on self-compassion? Instead of beating myself up every time someone leaves, I could try to be kinder to myself. And perhaps find healthier ways to cope with the pain instead of turning to alcohol. It's scary, but I want to try.",
+    "Therapist: Excellent insight. What's one small step you can take?",
+    "Client: I think... maybe I could start a journal? Write down my feelings when I'm tempted to drink, and try to identify the underlying emotions. It might help me process things better and... and maybe even reduce my nightmares?",
+    "Therapist: That's a great idea. How do you feel about continuing this work?",
+    "Client: It's tough, and sometimes I want to give up. But I'm starting to see little improvements. Like, yesterday, I had a moment where I felt anxious, but instead of reaching for a drink, I took a deep breath and called a friend. It's small, but it felt like progress. I want to keep going, even if it's hard.",
+    "Therapist: I'm glad to hear that. What else would you like to discuss?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory of the divorce again, it just brings up so much. I can feel my heart racing a bit, and my hands are a little shaky.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory of the divorce again, it just brings up so much. I can feel my heart racing a bit, and my hands are a little shaky.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The moment when he told me he was leaving. I could see his face so clearly, the coldness in his eyes. It reminded me of... of how my father used to look at me when I disappointed him as a child. That same distant, unloving gaze. It's like history repeating itself, you know?"
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The moment when he told me he was leaving. I could see his face so clearly, the coldness in his eyes. It reminded me of... of how my father used to look at me when I disappointed him as a child. That same distant, unloving gaze. It's like history repeating itself, you know?",
+      "Therapist: How did reliving that make you feel?"
+    ],
+    [
+      "Client: The moment when he told me he was leaving. I could see his face so clearly, the coldness in his eyes. It reminded me of... of how my father used to look at me when I disappointed him as a child. That same distant, unloving gaze. It's like history repeating itself, you know?",
+      "Therapist: How did reliving that make you feel?",
+      "Client: Scared. Abandoned. Like I'm not good enough. It's the same feeling I had when I was little, always trying to please my parents but never quite measuring up. And now, with the divorce, it's like confirmation that I'm unlovable. I... I've been drinking more lately to numb these feelings."
+    ],
+    [
+      "Therapist: How did reliving that make you feel?",
+      "Client: Scared. Abandoned. Like I'm not good enough. It's the same feeling I had when I was little, always trying to please my parents but never quite measuring up. And now, with the divorce, it's like confirmation that I'm unlovable. I... I've been drinking more lately to numb these feelings.",
+      "Therapist: I hear you're struggling. How does this connect to your PTSD symptoms?"
+    ],
+    [
+      "Client: Scared. Abandoned. Like I'm not good enough. It's the same feeling I had when I was little, always trying to please my parents but never quite measuring up. And now, with the divorce, it's like confirmation that I'm unlovable. I... I've been drinking more lately to numb these feelings.",
+      "Therapist: I hear you're struggling. How does this connect to your PTSD symptoms?",
+      "Client: I guess... well, I've been having more nightmares lately. Not just about the divorce, but also about my childhood. And during the day, I'm constantly on edge, waiting for the next person to leave me. It's exhausting, and that's when I turn to alcohol to quiet my mind."
+    ],
+    [
+      "Therapist: I hear you're struggling. How does this connect to your PTSD symptoms?",
+      "Client: I guess... well, I've been having more nightmares lately. Not just about the divorce, but also about my childhood. And during the day, I'm constantly on edge, waiting for the next person to leave me. It's exhausting, and that's when I turn to alcohol to quiet my mind.",
+      "Therapist: Thank you for sharing. What insights have you gained?"
+    ],
+    [
+      "Client: I guess... well, I've been having more nightmares lately. Not just about the divorce, but also about my childhood. And during the day, I'm constantly on edge, waiting for the next person to leave me. It's exhausting, and that's when I turn to alcohol to quiet my mind.",
+      "Therapist: Thank you for sharing. What insights have you gained?",
+      "Client: I'm starting to see how my past trauma is affecting my present. The divorce triggered all these old wounds, and I'm reacting to it in the same way I did as a child - by withdrawing and numbing myself. But... I also realize that I'm stronger now. I survived my childhood, and I can survive this too."
+    ],
+    [
+      "Therapist: Thank you for sharing. What insights have you gained?",
+      "Client: I'm starting to see how my past trauma is affecting my present. The divorce triggered all these old wounds, and I'm reacting to it in the same way I did as a child - by withdrawing and numbing myself. But... I also realize that I'm stronger now. I survived my childhood, and I can survive this too.",
+      "Therapist: That's a powerful realization. How can we build on this?"
+    ],
+    [
+      "Client: I'm starting to see how my past trauma is affecting my present. The divorce triggered all these old wounds, and I'm reacting to it in the same way I did as a child - by withdrawing and numbing myself. But... I also realize that I'm stronger now. I survived my childhood, and I can survive this too.",
+      "Therapist: That's a powerful realization. How can we build on this?",
+      "Client: Maybe... maybe I need to work on self-compassion? Instead of beating myself up every time someone leaves, I could try to be kinder to myself. And perhaps find healthier ways to cope with the pain instead of turning to alcohol. It's scary, but I want to try."
+    ],
+    [
+      "Therapist: That's a powerful realization. How can we build on this?",
+      "Client: Maybe... maybe I need to work on self-compassion? Instead of beating myself up every time someone leaves, I could try to be kinder to myself. And perhaps find healthier ways to cope with the pain instead of turning to alcohol. It's scary, but I want to try.",
+      "Therapist: Excellent insight. What's one small step you can take?"
+    ],
+    [
+      "Client: Maybe... maybe I need to work on self-compassion? Instead of beating myself up every time someone leaves, I could try to be kinder to myself. And perhaps find healthier ways to cope with the pain instead of turning to alcohol. It's scary, but I want to try.",
+      "Therapist: Excellent insight. What's one small step you can take?",
+      "Client: I think... maybe I could start a journal? Write down my feelings when I'm tempted to drink, and try to identify the underlying emotions. It might help me process things better and... and maybe even reduce my nightmares?"
+    ],
+    [
+      "Therapist: Excellent insight. What's one small step you can take?",
+      "Client: I think... maybe I could start a journal? Write down my feelings when I'm tempted to drink, and try to identify the underlying emotions. It might help me process things better and... and maybe even reduce my nightmares?",
+      "Therapist: That's a great idea. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I think... maybe I could start a journal? Write down my feelings when I'm tempted to drink, and try to identify the underlying emotions. It might help me process things better and... and maybe even reduce my nightmares?",
+      "Therapist: That's a great idea. How do you feel about continuing this work?",
+      "Client: It's tough, and sometimes I want to give up. But I'm starting to see little improvements. Like, yesterday, I had a moment where I felt anxious, but instead of reaching for a drink, I took a deep breath and called a friend. It's small, but it felt like progress. I want to keep going, even if it's hard."
+    ],
+    [
+      "Therapist: That's a great idea. How do you feel about continuing this work?",
+      "Client: It's tough, and sometimes I want to give up. But I'm starting to see little improvements. Like, yesterday, I had a moment where I felt anxious, but instead of reaching for a drink, I took a deep breath and called a friend. It's small, but it felt like progress. I want to keep going, even if it's hard.",
+      "Therapist: I'm glad to hear that. What else would you like to discuss?"
+    ]
+  ]
+}

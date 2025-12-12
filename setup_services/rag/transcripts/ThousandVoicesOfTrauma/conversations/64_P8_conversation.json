@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see her face so clearly, you know? My mom, I mean. In the hospital bed. It's... it's overwhelming.",
+    "Therapist: Take your time. What's coming up for you right now?",
+    "Client: It's this heavy feeling in my chest. Like I can't quite catch my breath. And my hands are shaking a little. I keep thinking about how pale she looked, how fragile. It's like... like I'm right back there in that moment, and I feel so helpless all over again.",
+    "Therapist: Mmm. And as you're feeling those sensations, what thoughts are going through your mind?",
+    "Client: I... I keep thinking I should have done more. Maybe if I had noticed something earlier, or if I had convinced her to go to the doctor sooner... God, I don't know. It's just this constant loop of 'what ifs' playing in my head. And then I feel guilty for even thinking that because I know, logically, that it wasn't my fault. But emotionally? It's a whole different story.",
+    "Therapist: How do those thoughts make you feel?",
+    "Client: Frustrated. Angry, even. At myself, at the situation, at... at everything, I guess. But mostly, I just feel sad. Like, this deep, aching sadness that I can't shake off. It's been months, but sometimes it feels as fresh as the day it happened.",
+    "Therapist: That's understandable. How are you coping with these feelings?",
+    "Client: Um, not great, to be honest. I've been throwing myself into work, trying to stay busy. But when I'm alone at night, it all comes flooding back. I've been having trouble sleeping, and when I do sleep, I often have nightmares about that day. Sometimes I... I find myself avoiding places or things that remind me of her. It's like I'm trying to run from the pain, but it always catches up with me.",
+    "Therapist: What do you think about that avoidance?",
+    "Client: I... I guess I know it's not healthy. But it feels easier in the moment, you know? Like, if I don't think about it, maybe it won't hurt so much. But then I feel guilty for trying to avoid memories of her. It's this constant internal struggle.",
+    "Therapist: How does that struggle affect your daily life?",
+    "Client: It's... it's exhausting, really. I feel like I'm always on edge, waiting for something to trigger those memories or feelings. My anxiety has been through the roof. I've been canceling plans with friends, calling in sick to work more often than I should. It's like... like I'm not fully living my life anymore. I'm just... existing.",
+    "Therapist: What do you think your mom would say about that?",
+    "Client: (long pause) She... she'd probably tell me to snap out of it. (chuckles softly) Not in a mean way, but... she was always so practical. She'd want me to keep living, to be happy. But it's hard, you know? It feels almost... disloyal to be happy without her here.",
+    "Therapist: How does that idea of disloyalty sit with you?",
+    "Client: It's... complicated. Part of me knows she'd want me to be happy, to move on. But another part feels like if I start to feel better, if I start to let go of this pain, I'm somehow letting go of her. And I'm not ready for that. I'm afraid of forgetting her, of losing the memories I have.",
+    "Therapist: What might moving forward look like for you?",
+    "Client: I... I'm not sure. I guess it would mean finding a way to honor her memory without letting it consume me. Maybe... maybe finding ways to incorporate the things she loved into my life. Cooking her favorite recipes, visiting the places she enjoyed. But it's scary to think about. It feels like such a big step.",
+    "Therapist: How does talking about this make you feel right now?",
+    "Client: It's... it's a mix of things. There's still that sadness, that heaviness. But there's also... I don't know, maybe a tiny bit of relief? Like, just saying these things out loud, acknowledging them... it feels like I'm not carrying it all alone anymore. It's still painful, but maybe... maybe a little less overwhelming?",
+    "Therapist: That's a significant observation. What do you make of that?",
+    "Client: I guess... maybe it means I'm ready to start processing this more? I've been so focused on just getting through each day, I haven't really allowed myself to really sit with these feelings. It's terrifying, but also... maybe necessary? I don't know. It's all so confusing.",
+    "Therapist: How would you like to proceed from here?",
+    "Client: I... I think I want to keep talking about this. Maybe... maybe try to face some of those memories I've been avoiding. It's not going to be easy, and I'm scared of how it might make me feel. But I also know I can't keep going on like this. Mom wouldn't want that for me. So... yeah, I want to try. Even if it's just small steps at first.",
+    "Therapist: That's very courageous. How are you feeling as we wrap up?",
+    "Client: Drained, honestly. But also... I don't know, maybe a little hopeful? Like maybe there's a way through this that I couldn't see before. It's still overwhelming, but... but maybe not impossible. Thank you for listening, for helping me start to untangle all of this.",
+    "Therapist: You've done great work today. We'll continue next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see her face so clearly, you know? My mom, I mean. In the hospital bed. It's... it's overwhelming.",
+      "Therapist: Take your time. What's coming up for you right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see her face so clearly, you know? My mom, I mean. In the hospital bed. It's... it's overwhelming.",
+      "Therapist: Take your time. What's coming up for you right now?",
+      "Client: It's this heavy feeling in my chest. Like I can't quite catch my breath. And my hands are shaking a little. I keep thinking about how pale she looked, how fragile. It's like... like I'm right back there in that moment, and I feel so helpless all over again."
+    ],
+    [
+      "Therapist: Take your time. What's coming up for you right now?",
+      "Client: It's this heavy feeling in my chest. Like I can't quite catch my breath. And my hands are shaking a little. I keep thinking about how pale she looked, how fragile. It's like... like I'm right back there in that moment, and I feel so helpless all over again.",
+      "Therapist: Mmm. And as you're feeling those sensations, what thoughts are going through your mind?"
+    ],
+    [
+      "Client: It's this heavy feeling in my chest. Like I can't quite catch my breath. And my hands are shaking a little. I keep thinking about how pale she looked, how fragile. It's like... like I'm right back there in that moment, and I feel so helpless all over again.",
+      "Therapist: Mmm. And as you're feeling those sensations, what thoughts are going through your mind?",
+      "Client: I... I keep thinking I should have done more. Maybe if I had noticed something earlier, or if I had convinced her to go to the doctor sooner... God, I don't know. It's just this constant loop of 'what ifs' playing in my head. And then I feel guilty for even thinking that because I know, logically, that it wasn't my fault. But emotionally? It's a whole different story."
+    ],
+    [
+      "Therapist: Mmm. And as you're feeling those sensations, what thoughts are going through your mind?",
+      "Client: I... I keep thinking I should have done more. Maybe if I had noticed something earlier, or if I had convinced her to go to the doctor sooner... God, I don't know. It's just this constant loop of 'what ifs' playing in my head. And then I feel guilty for even thinking that because I know, logically, that it wasn't my fault. But emotionally? It's a whole different story.",
+      "Therapist: How do those thoughts make you feel?"
+    ],
+    [
+      "Client: I... I keep thinking I should have done more. Maybe if I had noticed something earlier, or if I had convinced her to go to the doctor sooner... God, I don't know. It's just this constant loop of 'what ifs' playing in my head. And then I feel guilty for even thinking that because I know, logically, that it wasn't my fault. But emotionally? It's a whole different story.",
+      "Therapist: How do those thoughts make you feel?",
+      "Client: Frustrated. Angry, even. At myself, at the situation, at... at everything, I guess. But mostly, I just feel sad. Like, this deep, aching sadness that I can't shake off. It's been months, but sometimes it feels as fresh as the day it happened."
+    ],
+    [
+      "Therapist: How do those thoughts make you feel?",
+      "Client: Frustrated. Angry, even. At myself, at the situation, at... at everything, I guess. But mostly, I just feel sad. Like, this deep, aching sadness that I can't shake off. It's been months, but sometimes it feels as fresh as the day it happened.",
+      "Therapist: That's understandable. How are you coping with these feelings?"
+    ],
+    [
+      "Client: Frustrated. Angry, even. At myself, at the situation, at... at everything, I guess. But mostly, I just feel sad. Like, this deep, aching sadness that I can't shake off. It's been months, but sometimes it feels as fresh as the day it happened.",
+      "Therapist: That's understandable. How are you coping with these feelings?",
+      "Client: Um, not great, to be honest. I've been throwing myself into work, trying to stay busy. But when I'm alone at night, it all comes flooding back. I've been having trouble sleeping, and when I do sleep, I often have nightmares about that day. Sometimes I... I find myself avoiding places or things that remind me of her. It's like I'm trying to run from the pain, but it always catches up with me."
+    ],
+    [
+      "Therapist: That's understandable. How are you coping with these feelings?",
+      "Client: Um, not great, to be honest. I've been throwing myself into work, trying to stay busy. But when I'm alone at night, it all comes flooding back. I've been having trouble sleeping, and when I do sleep, I often have nightmares about that day. Sometimes I... I find myself avoiding places or things that remind me of her. It's like I'm trying to run from the pain, but it always catches up with me.",
+      "Therapist: What do you think about that avoidance?"
+    ],
+    [
+      "Client: Um, not great, to be honest. I've been throwing myself into work, trying to stay busy. But when I'm alone at night, it all comes flooding back. I've been having trouble sleeping, and when I do sleep, I often have nightmares about that day. Sometimes I... I find myself avoiding places or things that remind me of her. It's like I'm trying to run from the pain, but it always catches up with me.",
+      "Therapist: What do you think about that avoidance?",
+      "Client: I... I guess I know it's not healthy. But it feels easier in the moment, you know? Like, if I don't think about it, maybe it won't hurt so much. But then I feel guilty for trying to avoid memories of her. It's this constant internal struggle."
+    ],
+    [
+      "Therapist: What do you think about that avoidance?",
+      "Client: I... I guess I know it's not healthy. But it feels easier in the moment, you know? Like, if I don't think about it, maybe it won't hurt so much. But then I feel guilty for trying to avoid memories of her. It's this constant internal struggle.",
+      "Therapist: How does that struggle affect your daily life?"
+    ],
+    [
+      "Client: I... I guess I know it's not healthy. But it feels easier in the moment, you know? Like, if I don't think about it, maybe it won't hurt so much. But then I feel guilty for trying to avoid memories of her. It's this constant internal struggle.",
+      "Therapist: How does that struggle affect your daily life?",
+      "Client: It's... it's exhausting, really. I feel like I'm always on edge, waiting for something to trigger those memories or feelings. My anxiety has been through the roof. I've been canceling plans with friends, calling in sick to work more often than I should. It's like... like I'm not fully living my life anymore. I'm just... existing."
+    ],
+    [
+      "Therapist: How does that struggle affect your daily life?",
+      "Client: It's... it's exhausting, really. I feel like I'm always on edge, waiting for something to trigger those memories or feelings. My anxiety has been through the roof. I've been canceling plans with friends, calling in sick to work more often than I should. It's like... like I'm not fully living my life anymore. I'm just... existing.",
+      "Therapist: What do you think your mom would say about that?"
+    ],
+    [
+      "Client: It's... it's exhausting, really. I feel like I'm always on edge, waiting for something to trigger those memories or feelings. My anxiety has been through the roof. I've been canceling plans with friends, calling in sick to work more often than I should. It's like... like I'm not fully living my life anymore. I'm just... existing.",
+      "Therapist: What do you think your mom would say about that?",
+      "Client: (long pause) She... she'd probably tell me to snap out of it. (chuckles softly) Not in a mean way, but... she was always so practical. She'd want me to keep living, to be happy. But it's hard, you know? It feels almost... disloyal to be happy without her here."
+    ],
+    [
+      "Therapist: What do you think your mom would say about that?",
+      "Client: (long pause) She... she'd probably tell me to snap out of it. (chuckles softly) Not in a mean way, but... she was always so practical. She'd want me to keep living, to be happy. But it's hard, you know? It feels almost... disloyal to be happy without her here.",
+      "Therapist: How does that idea of disloyalty sit with you?"
+    ],
+    [
+      "Client: (long pause) She... she'd probably tell me to snap out of it. (chuckles softly) Not in a mean way, but... she was always so practical. She'd want me to keep living, to be happy. But it's hard, you know? It feels almost... disloyal to be happy without her here.",
+      "Therapist: How does that idea of disloyalty sit with you?",
+      "Client: It's... complicated. Part of me knows she'd want me to be happy, to move on. But another part feels like if I start to feel better, if I start to let go of this pain, I'm somehow letting go of her. And I'm not ready for that. I'm afraid of forgetting her, of losing the memories I have."
+    ],
+    [
+      "Therapist: How does that idea of disloyalty sit with you?",
+      "Client: It's... complicated. Part of me knows she'd want me to be happy, to move on. But another part feels like if I start to feel better, if I start to let go of this pain, I'm somehow letting go of her. And I'm not ready for that. I'm afraid of forgetting her, of losing the memories I have.",
+      "Therapist: What might moving forward look like for you?"
+    ],
+    [
+      "Client: It's... complicated. Part of me knows she'd want me to be happy, to move on. But another part feels like if I start to feel better, if I start to let go of this pain, I'm somehow letting go of her. And I'm not ready for that. I'm afraid of forgetting her, of losing the memories I have.",
+      "Therapist: What might moving forward look like for you?",
+      "Client: I... I'm not sure. I guess it would mean finding a way to honor her memory without letting it consume me. Maybe... maybe finding ways to incorporate the things she loved into my life. Cooking her favorite recipes, visiting the places she enjoyed. But it's scary to think about. It feels like such a big step."
+    ],
+    [
+      "Therapist: What might moving forward look like for you?",
+      "Client: I... I'm not sure. I guess it would mean finding a way to honor her memory without letting it consume me. Maybe... maybe finding ways to incorporate the things she loved into my life. Cooking her favorite recipes, visiting the places she enjoyed. But it's scary to think about. It feels like such a big step.",
+      "Therapist: How does talking about this make you feel right now?"
+    ],
+    [
+      "Client: I... I'm not sure. I guess it would mean finding a way to honor her memory without letting it consume me. Maybe... maybe finding ways to incorporate the things she loved into my life. Cooking her favorite recipes, visiting the places she enjoyed. But it's scary to think about. It feels like such a big step.",
+      "Therapist: How does talking about this make you feel right now?",
+      "Client: It's... it's a mix of things. There's still that sadness, that heaviness. But there's also... I don't know, maybe a tiny bit of relief? Like, just saying these things out loud, acknowledging them... it feels like I'm not carrying it all alone anymore. It's still painful, but maybe... maybe a little less overwhelming?"
+    ],
+    [
+      "Therapist: How does talking about this make you feel right now?",
+      "Client: It's... it's a mix of things. There's still that sadness, that heaviness. But there's also... I don't know, maybe a tiny bit of relief? Like, just saying these things out loud, acknowledging them... it feels like I'm not carrying it all alone anymore. It's still painful, but maybe... maybe a little less overwhelming?",
+      "Therapist: That's a significant observation. What do you make of that?"
+    ],
+    [
+      "Client: It's... it's a mix of things. There's still that sadness, that heaviness. But there's also... I don't know, maybe a tiny bit of relief? Like, just saying these things out loud, acknowledging them... it feels like I'm not carrying it all alone anymore. It's still painful, but maybe... maybe a little less overwhelming?",
+      "Therapist: That's a significant observation. What do you make of that?",
+      "Client: I guess... maybe it means I'm ready to start processing this more? I've been so focused on just getting through each day, I haven't really allowed myself to really sit with these feelings. It's terrifying, but also... maybe necessary? I don't know. It's all so confusing."
+    ],
+    [
+      "Therapist: That's a significant observation. What do you make of that?",
+      "Client: I guess... maybe it means I'm ready to start processing this more? I've been so focused on just getting through each day, I haven't really allowed myself to really sit with these feelings. It's terrifying, but also... maybe necessary? I don't know. It's all so confusing.",
+      "Therapist: How would you like to proceed from here?"
+    ],
+    [
+      "Client: I guess... maybe it means I'm ready to start processing this more? I've been so focused on just getting through each day, I haven't really allowed myself to really sit with these feelings. It's terrifying, but also... maybe necessary? I don't know. It's all so confusing.",
+      "Therapist: How would you like to proceed from here?",
+      "Client: I... I think I want to keep talking about this. Maybe... maybe try to face some of those memories I've been avoiding. It's not going to be easy, and I'm scared of how it might make me feel. But I also know I can't keep going on like this. Mom wouldn't want that for me. So... yeah, I want to try. Even if it's just small steps at first."
+    ],
+    [
+      "Therapist: How would you like to proceed from here?",
+      "Client: I... I think I want to keep talking about this. Maybe... maybe try to face some of those memories I've been avoiding. It's not going to be easy, and I'm scared of how it might make me feel. But I also know I can't keep going on like this. Mom wouldn't want that for me. So... yeah, I want to try. Even if it's just small steps at first.",
+      "Therapist: That's very courageous. How are you feeling as we wrap up?"
+    ],
+    [
+      "Client: I... I think I want to keep talking about this. Maybe... maybe try to face some of those memories I've been avoiding. It's not going to be easy, and I'm scared of how it might make me feel. But I also know I can't keep going on like this. Mom wouldn't want that for me. So... yeah, I want to try. Even if it's just small steps at first.",
+      "Therapist: That's very courageous. How are you feeling as we wrap up?",
+      "Client: Drained, honestly. But also... I don't know, maybe a little hopeful? Like maybe there's a way through this that I couldn't see before. It's still overwhelming, but... but maybe not impossible. Thank you for listening, for helping me start to untangle all of this."
+    ],
+    [
+      "Therapist: That's very courageous. How are you feeling as we wrap up?",
+      "Client: Drained, honestly. But also... I don't know, maybe a little hopeful? Like maybe there's a way through this that I couldn't see before. It's still overwhelming, but... but maybe not impossible. Thank you for listening, for helping me start to untangle all of this.",
+      "Therapist: You've done great work today. We'll continue next time."
+    ]
+  ]
+}

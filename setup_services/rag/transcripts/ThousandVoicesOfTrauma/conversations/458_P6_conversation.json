@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin our imaginal exposure exercise. Can you tell me your current SUDS level before we start?",
+    "Client: Um, I'd say about a 4 out of 10. I'm a bit nervous, but not too bad.",
+    "Therapist: Okay, thank you. When you're ready, please start describing the memory.",
+    "Client: (Takes a deep breath) It was a hot day. I remember the sweat on my forehead as I walked into that warehouse. The smell of rust and damp wood hit me immediately. I saw rows of people, mostly women and children, sitting on the floor. Their eyes... God, their eyes were so empty.",
+    "Therapist: How are you feeling right now?",
+    "Client: My heart's racing a bit. I can feel my palms getting sweaty. It's like I'm back there.",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's gone up to about a 6.",
+    "Therapist: That's okay. You're doing well. Please continue.",
+    "Client: (Voice trembling) There was this man, he looked at me and smiled. But it wasn't a kind smile. It was... predatory. He started talking about prices, like these people were just commodities. I felt sick to my stomach, but I had to keep my composure. I was undercover, trying to gather evidence.",
+    "Therapist: How are you feeling as you describe this?",
+    "Client: I feel... angry. So angry. And helpless. My fists are clenched just thinking about it.",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's an 8. I can feel my chest tightening.",
+    "Therapist: You're doing great. Remember, you're safe here. Take a deep breath if you need to.",
+    "Client: (Takes a shaky breath) Okay. I... I remember this little girl. She couldn't have been more than 10. She looked at me, and for a second, I saw a flicker of hope in her eyes. I wanted so badly to grab her and run, to save them all. But I couldn't blow my cover. I had to wait, to gather more information. God, I felt like such a coward.",
+    "Therapist: How are you feeling now?",
+    "Client: I feel... shame. Deep, gut-wrenching shame. My eyes are starting to tear up.",
+    "Therapist: What's your SUDS level?",
+    "Client: It's... it's a 9. I can barely breathe.",
+    "Therapist: You're doing incredibly well. Remember, you're not there anymore. You're here, and you're safe.",
+    "Client: (Crying softly) I know, but it feels so real. I can still see their faces, hear their quiet sobs. I was supposed to help them, but I felt so powerless.",
+    "Therapist: Take a moment. How are you feeling right now?",
+    "Client: I feel drained. My body feels heavy, like I've been carrying this weight for so long.",
+    "Therapist: And your SUDS level?",
+    "Client: It's coming down a bit. Maybe a 7 now.",
+    "Therapist: That's good. You're processing this. Can you tell me more about what happened next?",
+    "Client: (Sighs) I had to leave. I walked out of that warehouse, got into my car, and just... broke down. I cried for hours. But I knew I had to pull myself together. The information I gathered that day led to a major bust a few weeks later. We saved a lot of people. But... but not all of them.",
+    "Therapist: How do you feel now, reflecting on that outcome?",
+    "Client: I feel... conflicted. Proud that we made a difference, but still haunted by those we couldn't save.",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's down to about a 5. I feel exhausted, but also... lighter somehow.",
+    "Therapist: You've done incredibly well today. How about we start wrapping up?",
+    "Client: Yeah, I think that would be good. Thank you for guiding me through this.",
+    "Therapist: You're welcome. You showed great courage today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin our imaginal exposure exercise. Can you tell me your current SUDS level before we start?",
+      "Client: Um, I'd say about a 4 out of 10. I'm a bit nervous, but not too bad.",
+      "Therapist: Okay, thank you. When you're ready, please start describing the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I'm a bit nervous, but not too bad.",
+      "Therapist: Okay, thank you. When you're ready, please start describing the memory.",
+      "Client: (Takes a deep breath) It was a hot day. I remember the sweat on my forehead as I walked into that warehouse. The smell of rust and damp wood hit me immediately. I saw rows of people, mostly women and children, sitting on the floor. Their eyes... God, their eyes were so empty."
+    ],
+    [
+      "Therapist: Okay, thank you. When you're ready, please start describing the memory.",
+      "Client: (Takes a deep breath) It was a hot day. I remember the sweat on my forehead as I walked into that warehouse. The smell of rust and damp wood hit me immediately. I saw rows of people, mostly women and children, sitting on the floor. Their eyes... God, their eyes were so empty.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) It was a hot day. I remember the sweat on my forehead as I walked into that warehouse. The smell of rust and damp wood hit me immediately. I saw rows of people, mostly women and children, sitting on the floor. Their eyes... God, their eyes were so empty.",
+      "Therapist: How are you feeling right now?",
+      "Client: My heart's racing a bit. I can feel my palms getting sweaty. It's like I'm back there."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: My heart's racing a bit. I can feel my palms getting sweaty. It's like I'm back there.",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: My heart's racing a bit. I can feel my palms getting sweaty. It's like I'm back there.",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's gone up to about a 6."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's gone up to about a 6.",
+      "Therapist: That's okay. You're doing well. Please continue."
+    ],
+    [
+      "Client: It's gone up to about a 6.",
+      "Therapist: That's okay. You're doing well. Please continue.",
+      "Client: (Voice trembling) There was this man, he looked at me and smiled. But it wasn't a kind smile. It was... predatory. He started talking about prices, like these people were just commodities. I felt sick to my stomach, but I had to keep my composure. I was undercover, trying to gather evidence."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Please continue.",
+      "Client: (Voice trembling) There was this man, he looked at me and smiled. But it wasn't a kind smile. It was... predatory. He started talking about prices, like these people were just commodities. I felt sick to my stomach, but I had to keep my composure. I was undercover, trying to gather evidence.",
+      "Therapist: How are you feeling as you describe this?"
+    ],
+    [
+      "Client: (Voice trembling) There was this man, he looked at me and smiled. But it wasn't a kind smile. It was... predatory. He started talking about prices, like these people were just commodities. I felt sick to my stomach, but I had to keep my composure. I was undercover, trying to gather evidence.",
+      "Therapist: How are you feeling as you describe this?",
+      "Client: I feel... angry. So angry. And helpless. My fists are clenched just thinking about it."
+    ],
+    [
+      "Therapist: How are you feeling as you describe this?",
+      "Client: I feel... angry. So angry. And helpless. My fists are clenched just thinking about it.",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: I feel... angry. So angry. And helpless. My fists are clenched just thinking about it.",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's an 8. I can feel my chest tightening."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's an 8. I can feel my chest tightening.",
+      "Therapist: You're doing great. Remember, you're safe here. Take a deep breath if you need to."
+    ],
+    [
+      "Client: It's an 8. I can feel my chest tightening.",
+      "Therapist: You're doing great. Remember, you're safe here. Take a deep breath if you need to.",
+      "Client: (Takes a shaky breath) Okay. I... I remember this little girl. She couldn't have been more than 10. She looked at me, and for a second, I saw a flicker of hope in her eyes. I wanted so badly to grab her and run, to save them all. But I couldn't blow my cover. I had to wait, to gather more information. God, I felt like such a coward."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here. Take a deep breath if you need to.",
+      "Client: (Takes a shaky breath) Okay. I... I remember this little girl. She couldn't have been more than 10. She looked at me, and for a second, I saw a flicker of hope in her eyes. I wanted so badly to grab her and run, to save them all. But I couldn't blow my cover. I had to wait, to gather more information. God, I felt like such a coward.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (Takes a shaky breath) Okay. I... I remember this little girl. She couldn't have been more than 10. She looked at me, and for a second, I saw a flicker of hope in her eyes. I wanted so badly to grab her and run, to save them all. But I couldn't blow my cover. I had to wait, to gather more information. God, I felt like such a coward.",
+      "Therapist: How are you feeling now?",
+      "Client: I feel... shame. Deep, gut-wrenching shame. My eyes are starting to tear up."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I feel... shame. Deep, gut-wrenching shame. My eyes are starting to tear up.",
+      "Therapist: What's your SUDS level?"
+    ],
+    [
+      "Client: I feel... shame. Deep, gut-wrenching shame. My eyes are starting to tear up.",
+      "Therapist: What's your SUDS level?",
+      "Client: It's... it's a 9. I can barely breathe."
+    ],
+    [
+      "Therapist: What's your SUDS level?",
+      "Client: It's... it's a 9. I can barely breathe.",
+      "Therapist: You're doing incredibly well. Remember, you're not there anymore. You're here, and you're safe."
+    ],
+    [
+      "Client: It's... it's a 9. I can barely breathe.",
+      "Therapist: You're doing incredibly well. Remember, you're not there anymore. You're here, and you're safe.",
+      "Client: (Crying softly) I know, but it feels so real. I can still see their faces, hear their quiet sobs. I was supposed to help them, but I felt so powerless."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Remember, you're not there anymore. You're here, and you're safe.",
+      "Client: (Crying softly) I know, but it feels so real. I can still see their faces, hear their quiet sobs. I was supposed to help them, but I felt so powerless.",
+      "Therapist: Take a moment. How are you feeling right now?"
+    ],
+    [
+      "Client: (Crying softly) I know, but it feels so real. I can still see their faces, hear their quiet sobs. I was supposed to help them, but I felt so powerless.",
+      "Therapist: Take a moment. How are you feeling right now?",
+      "Client: I feel drained. My body feels heavy, like I've been carrying this weight for so long."
+    ],
+    [
+      "Therapist: Take a moment. How are you feeling right now?",
+      "Client: I feel drained. My body feels heavy, like I've been carrying this weight for so long.",
+      "Therapist: And your SUDS level?"
+    ],
+    [
+      "Client: I feel drained. My body feels heavy, like I've been carrying this weight for so long.",
+      "Therapist: And your SUDS level?",
+      "Client: It's coming down a bit. Maybe a 7 now."
+    ],
+    [
+      "Therapist: And your SUDS level?",
+      "Client: It's coming down a bit. Maybe a 7 now.",
+      "Therapist: That's good. You're processing this. Can you tell me more about what happened next?"
+    ],
+    [
+      "Client: It's coming down a bit. Maybe a 7 now.",
+      "Therapist: That's good. You're processing this. Can you tell me more about what happened next?",
+      "Client: (Sighs) I had to leave. I walked out of that warehouse, got into my car, and just... broke down. I cried for hours. But I knew I had to pull myself together. The information I gathered that day led to a major bust a few weeks later. We saved a lot of people. But... but not all of them."
+    ],
+    [
+      "Therapist: That's good. You're processing this. Can you tell me more about what happened next?",
+      "Client: (Sighs) I had to leave. I walked out of that warehouse, got into my car, and just... broke down. I cried for hours. But I knew I had to pull myself together. The information I gathered that day led to a major bust a few weeks later. We saved a lot of people. But... but not all of them.",
+      "Therapist: How do you feel now, reflecting on that outcome?"
+    ],
+    [
+      "Client: (Sighs) I had to leave. I walked out of that warehouse, got into my car, and just... broke down. I cried for hours. But I knew I had to pull myself together. The information I gathered that day led to a major bust a few weeks later. We saved a lot of people. But... but not all of them.",
+      "Therapist: How do you feel now, reflecting on that outcome?",
+      "Client: I feel... conflicted. Proud that we made a difference, but still haunted by those we couldn't save."
+    ],
+    [
+      "Therapist: How do you feel now, reflecting on that outcome?",
+      "Client: I feel... conflicted. Proud that we made a difference, but still haunted by those we couldn't save.",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: I feel... conflicted. Proud that we made a difference, but still haunted by those we couldn't save.",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's down to about a 5. I feel exhausted, but also... lighter somehow."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's down to about a 5. I feel exhausted, but also... lighter somehow.",
+      "Therapist: You've done incredibly well today. How about we start wrapping up?"
+    ],
+    [
+      "Client: It's down to about a 5. I feel exhausted, but also... lighter somehow.",
+      "Therapist: You've done incredibly well today. How about we start wrapping up?",
+      "Client: Yeah, I think that would be good. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: You've done incredibly well today. How about we start wrapping up?",
+      "Client: Yeah, I think that would be good. Thank you for guiding me through this.",
+      "Therapist: You're welcome. You showed great courage today."
+    ]
+  ]
+}

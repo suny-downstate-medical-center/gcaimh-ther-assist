@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Hi John, how are you feeling today?",
+    "Client: Hey Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about that incident with the police, and it's been affecting my work and relationship. I'm not sure I'm ready for this.",
+    "Therapist: I understand. Your feelings are valid. Shall we discuss the imaginal exposure?",
+    "Client: Yeah, I suppose we should. But can you remind me what exactly we're going to do? I mean, I know you've explained it before, but I'm still a bit confused and, to be honest, scared.",
+    "Therapist: Of course. We'll revisit the traumatic memory in a safe environment. It may be uncomfortable, but it's crucial for healing.",
+    "Client: Revisit the memory? You mean... I have to relive that whole thing again? I don't know if I can do that. Just thinking about it makes my heart race and my palms sweat. It's like I'm right back there, you know?",
+    "Therapist: I know it's challenging. You're incredibly brave for considering this. How can I support you?",
+    "Client: I appreciate that, Dr. Thompson. I guess... I'm worried about losing control. What if I have a panic attack? Or what if I can't stop thinking about it afterward? I'm already struggling with depression, and I'm afraid this might make it worse.",
+    "Therapist: Your concerns are understandable. We'll go at your pace and can stop anytime. This helps process the memory safely.",
+    "Client: Okay, that makes me feel a bit better. Can you tell me more about what to expect during the session? Like, what will you be doing while I'm... reliving it?",
+    "Therapist: I'll guide you through the memory, asking questions to help you process. I'm here to support you throughout.",
+    "Client: That sounds intense, but I guess it's necessary. I'm just so tired of feeling this way, you know? The constant anxiety, the flashbacks, the way it's affecting my relationship with Sarah... I want to get better. I want to be able to walk down the street without fearing every police officer I see.",
+    "Therapist: Your motivation is admirable. This process can significantly reduce PTSD symptoms over time. Ready to begin?",
+    "Client: I... I think so. Yes, let's do it. But can we start slow? Maybe just dip our toes in today? I'm still pretty nervous about the whole thing.",
+    "Therapist: Absolutely. We'll start gradually and adjust as needed. Your comfort is paramount.",
+    "Client: Okay, thank you. I really appreciate your patience with me, Dr. Thompson. I know I'm not the easiest client. This whole thing has just... it's turned my life upside down, you know? But I'm trying. I really am.",
+    "Therapist: You're doing great, John. Your efforts are commendable. Shall we begin with a breathing exercise?",
+    "Client: Yes, that sounds good. I could use something to calm my nerves a bit. And... thank you. For everything. I know I've said it before, but I really don't think I could do this without your support.",
+    "Therapist: You're welcome, John. I'm here to help. Let's start with deep breaths..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hi John, how are you feeling today?",
+      "Client: Hey Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about that incident with the police, and it's been affecting my work and relationship. I'm not sure I'm ready for this.",
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the imaginal exposure?"
+    ],
+    [
+      "Client: Hey Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about that incident with the police, and it's been affecting my work and relationship. I'm not sure I'm ready for this.",
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the imaginal exposure?",
+      "Client: Yeah, I suppose we should. But can you remind me what exactly we're going to do? I mean, I know you've explained it before, but I'm still a bit confused and, to be honest, scared."
+    ],
+    [
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the imaginal exposure?",
+      "Client: Yeah, I suppose we should. But can you remind me what exactly we're going to do? I mean, I know you've explained it before, but I'm still a bit confused and, to be honest, scared.",
+      "Therapist: Of course. We'll revisit the traumatic memory in a safe environment. It may be uncomfortable, but it's crucial for healing."
+    ],
+    [
+      "Client: Yeah, I suppose we should. But can you remind me what exactly we're going to do? I mean, I know you've explained it before, but I'm still a bit confused and, to be honest, scared.",
+      "Therapist: Of course. We'll revisit the traumatic memory in a safe environment. It may be uncomfortable, but it's crucial for healing.",
+      "Client: Revisit the memory? You mean... I have to relive that whole thing again? I don't know if I can do that. Just thinking about it makes my heart race and my palms sweat. It's like I'm right back there, you know?"
+    ],
+    [
+      "Therapist: Of course. We'll revisit the traumatic memory in a safe environment. It may be uncomfortable, but it's crucial for healing.",
+      "Client: Revisit the memory? You mean... I have to relive that whole thing again? I don't know if I can do that. Just thinking about it makes my heart race and my palms sweat. It's like I'm right back there, you know?",
+      "Therapist: I know it's challenging. You're incredibly brave for considering this. How can I support you?"
+    ],
+    [
+      "Client: Revisit the memory? You mean... I have to relive that whole thing again? I don't know if I can do that. Just thinking about it makes my heart race and my palms sweat. It's like I'm right back there, you know?",
+      "Therapist: I know it's challenging. You're incredibly brave for considering this. How can I support you?",
+      "Client: I appreciate that, Dr. Thompson. I guess... I'm worried about losing control. What if I have a panic attack? Or what if I can't stop thinking about it afterward? I'm already struggling with depression, and I'm afraid this might make it worse."
+    ],
+    [
+      "Therapist: I know it's challenging. You're incredibly brave for considering this. How can I support you?",
+      "Client: I appreciate that, Dr. Thompson. I guess... I'm worried about losing control. What if I have a panic attack? Or what if I can't stop thinking about it afterward? I'm already struggling with depression, and I'm afraid this might make it worse.",
+      "Therapist: Your concerns are understandable. We'll go at your pace and can stop anytime. This helps process the memory safely."
+    ],
+    [
+      "Client: I appreciate that, Dr. Thompson. I guess... I'm worried about losing control. What if I have a panic attack? Or what if I can't stop thinking about it afterward? I'm already struggling with depression, and I'm afraid this might make it worse.",
+      "Therapist: Your concerns are understandable. We'll go at your pace and can stop anytime. This helps process the memory safely.",
+      "Client: Okay, that makes me feel a bit better. Can you tell me more about what to expect during the session? Like, what will you be doing while I'm... reliving it?"
+    ],
+    [
+      "Therapist: Your concerns are understandable. We'll go at your pace and can stop anytime. This helps process the memory safely.",
+      "Client: Okay, that makes me feel a bit better. Can you tell me more about what to expect during the session? Like, what will you be doing while I'm... reliving it?",
+      "Therapist: I'll guide you through the memory, asking questions to help you process. I'm here to support you throughout."
+    ],
+    [
+      "Client: Okay, that makes me feel a bit better. Can you tell me more about what to expect during the session? Like, what will you be doing while I'm... reliving it?",
+      "Therapist: I'll guide you through the memory, asking questions to help you process. I'm here to support you throughout.",
+      "Client: That sounds intense, but I guess it's necessary. I'm just so tired of feeling this way, you know? The constant anxiety, the flashbacks, the way it's affecting my relationship with Sarah... I want to get better. I want to be able to walk down the street without fearing every police officer I see."
+    ],
+    [
+      "Therapist: I'll guide you through the memory, asking questions to help you process. I'm here to support you throughout.",
+      "Client: That sounds intense, but I guess it's necessary. I'm just so tired of feeling this way, you know? The constant anxiety, the flashbacks, the way it's affecting my relationship with Sarah... I want to get better. I want to be able to walk down the street without fearing every police officer I see.",
+      "Therapist: Your motivation is admirable. This process can significantly reduce PTSD symptoms over time. Ready to begin?"
+    ],
+    [
+      "Client: That sounds intense, but I guess it's necessary. I'm just so tired of feeling this way, you know? The constant anxiety, the flashbacks, the way it's affecting my relationship with Sarah... I want to get better. I want to be able to walk down the street without fearing every police officer I see.",
+      "Therapist: Your motivation is admirable. This process can significantly reduce PTSD symptoms over time. Ready to begin?",
+      "Client: I... I think so. Yes, let's do it. But can we start slow? Maybe just dip our toes in today? I'm still pretty nervous about the whole thing."
+    ],
+    [
+      "Therapist: Your motivation is admirable. This process can significantly reduce PTSD symptoms over time. Ready to begin?",
+      "Client: I... I think so. Yes, let's do it. But can we start slow? Maybe just dip our toes in today? I'm still pretty nervous about the whole thing.",
+      "Therapist: Absolutely. We'll start gradually and adjust as needed. Your comfort is paramount."
+    ],
+    [
+      "Client: I... I think so. Yes, let's do it. But can we start slow? Maybe just dip our toes in today? I'm still pretty nervous about the whole thing.",
+      "Therapist: Absolutely. We'll start gradually and adjust as needed. Your comfort is paramount.",
+      "Client: Okay, thank you. I really appreciate your patience with me, Dr. Thompson. I know I'm not the easiest client. This whole thing has just... it's turned my life upside down, you know? But I'm trying. I really am."
+    ],
+    [
+      "Therapist: Absolutely. We'll start gradually and adjust as needed. Your comfort is paramount.",
+      "Client: Okay, thank you. I really appreciate your patience with me, Dr. Thompson. I know I'm not the easiest client. This whole thing has just... it's turned my life upside down, you know? But I'm trying. I really am.",
+      "Therapist: You're doing great, John. Your efforts are commendable. Shall we begin with a breathing exercise?"
+    ],
+    [
+      "Client: Okay, thank you. I really appreciate your patience with me, Dr. Thompson. I know I'm not the easiest client. This whole thing has just... it's turned my life upside down, you know? But I'm trying. I really am.",
+      "Therapist: You're doing great, John. Your efforts are commendable. Shall we begin with a breathing exercise?",
+      "Client: Yes, that sounds good. I could use something to calm my nerves a bit. And... thank you. For everything. I know I've said it before, but I really don't think I could do this without your support."
+    ],
+    [
+      "Therapist: You're doing great, John. Your efforts are commendable. Shall we begin with a breathing exercise?",
+      "Client: Yes, that sounds good. I could use something to calm my nerves a bit. And... thank you. For everything. I know I've said it before, but I really don't think I could do this without your support.",
+      "Therapist: You're welcome, John. I'm here to help. Let's start with deep breaths..."
+    ]
+  ]
+}

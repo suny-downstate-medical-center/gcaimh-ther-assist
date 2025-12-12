@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that memory.",
+    "Client: Okay... I'm there. I can see the office, smell the stale coffee. My boss is standing there, his face red with anger.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, about a 4 out of 10.",
+    "Therapist: Okay. Continue.",
+    "Client: He's yelling at me, saying I don't belong here, that I'm not good enough. His words are so harsh, so... racially charged. I feel my chest tightening, my palms are getting sweaty.",
+    "Therapist: Stay with it. What else do you notice?",
+    "Client: My throat feels dry. I want to defend myself, but I'm frozen. I can hear my heart pounding in my ears. The fluorescent lights seem so bright, almost blinding.",
+    "Therapist: SUDS rating now?",
+    "Client: It's gone up to a 6. My hands are shaking a bit.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: He's getting closer, pointing his finger in my face. I can smell his breath. He's saying, \"Your kind doesn't understand how we do things here.\" I feel so small, so... worthless. My eyes are stinging with tears I'm trying to hold back.",
+    "Therapist: How are you feeling right now?",
+    "Client: Scared, angry, humiliated. It's all mixing together.",
+    "Therapist: And your SUDS?",
+    "Client: It's an 8 now. This is really hard.",
+    "Therapist: I know. You're very brave. Keep going.",
+    "Client: I'm trying to speak, but my voice comes out as a whisper. He's laughing now, mocking my accent. I feel like I can't breathe. My legs are weak, I think I might fall.",
+    "Therapist: Stay with those sensations. What else?",
+    "Client: The room feels like it's spinning. I can hear other employees whispering, but no one's helping me. I feel so alone, so... different from everyone else.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's a 9. I feel like I'm right back there.",
+    "Therapist: You're safe here. Keep breathing. What happens next?",
+    "Client: I... I finally find my voice. I tell him he can't speak to me like that. He looks shocked, then even angrier. He threatens to fire me, says he'll make sure I never work in this industry again.",
+    "Therapist: How does your body feel now?",
+    "Client: My fists are clenched. I'm shaking all over, but there's also this surge of... power? Like I'm standing up for myself.",
+    "Therapist: SUDS?",
+    "Client: It's dropped a bit. Maybe a 7 now.",
+    "Therapist: Good. You're doing great. Keep going.",
+    "Client: I turn and walk out of his office. My legs feel like jelly, but I'm moving. I can hear him shouting behind me, but I don't stop. I get to my desk, grab my things, and leave.",
+    "Therapist: And now?",
+    "Client: I'm in my car. I'm crying, but I also feel... proud? Like I've done something important. My heart's still racing, but I can breathe again.",
+    "Therapist: Final SUDS rating?",
+    "Client: It's down to a 5. I feel drained, but also... lighter somehow.",
+    "Therapist: Well done. Let's take a few deep breaths together before we discuss what you experienced."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that memory."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that memory.",
+      "Client: Okay... I'm there. I can see the office, smell the stale coffee. My boss is standing there, his face red with anger."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and bring yourself back to that memory.",
+      "Client: Okay... I'm there. I can see the office, smell the stale coffee. My boss is standing there, his face red with anger.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm there. I can see the office, smell the stale coffee. My boss is standing there, his face red with anger.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, about a 4 out of 10."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, about a 4 out of 10.",
+      "Therapist: Okay. Continue."
+    ],
+    [
+      "Client: Um, about a 4 out of 10.",
+      "Therapist: Okay. Continue.",
+      "Client: He's yelling at me, saying I don't belong here, that I'm not good enough. His words are so harsh, so... racially charged. I feel my chest tightening, my palms are getting sweaty."
+    ],
+    [
+      "Therapist: Okay. Continue.",
+      "Client: He's yelling at me, saying I don't belong here, that I'm not good enough. His words are so harsh, so... racially charged. I feel my chest tightening, my palms are getting sweaty.",
+      "Therapist: Stay with it. What else do you notice?"
+    ],
+    [
+      "Client: He's yelling at me, saying I don't belong here, that I'm not good enough. His words are so harsh, so... racially charged. I feel my chest tightening, my palms are getting sweaty.",
+      "Therapist: Stay with it. What else do you notice?",
+      "Client: My throat feels dry. I want to defend myself, but I'm frozen. I can hear my heart pounding in my ears. The fluorescent lights seem so bright, almost blinding."
+    ],
+    [
+      "Therapist: Stay with it. What else do you notice?",
+      "Client: My throat feels dry. I want to defend myself, but I'm frozen. I can hear my heart pounding in my ears. The fluorescent lights seem so bright, almost blinding.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: My throat feels dry. I want to defend myself, but I'm frozen. I can hear my heart pounding in my ears. The fluorescent lights seem so bright, almost blinding.",
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to a 6. My hands are shaking a bit."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to a 6. My hands are shaking a bit.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My hands are shaking a bit.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's getting closer, pointing his finger in my face. I can smell his breath. He's saying, \"Your kind doesn't understand how we do things here.\" I feel so small, so... worthless. My eyes are stinging with tears I'm trying to hold back."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's getting closer, pointing his finger in my face. I can smell his breath. He's saying, \"Your kind doesn't understand how we do things here.\" I feel so small, so... worthless. My eyes are stinging with tears I'm trying to hold back.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: He's getting closer, pointing his finger in my face. I can smell his breath. He's saying, \"Your kind doesn't understand how we do things here.\" I feel so small, so... worthless. My eyes are stinging with tears I'm trying to hold back.",
+      "Therapist: How are you feeling right now?",
+      "Client: Scared, angry, humiliated. It's all mixing together."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Scared, angry, humiliated. It's all mixing together.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: Scared, angry, humiliated. It's all mixing together.",
+      "Therapist: And your SUDS?",
+      "Client: It's an 8 now. This is really hard."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's an 8 now. This is really hard.",
+      "Therapist: I know. You're very brave. Keep going."
+    ],
+    [
+      "Client: It's an 8 now. This is really hard.",
+      "Therapist: I know. You're very brave. Keep going.",
+      "Client: I'm trying to speak, but my voice comes out as a whisper. He's laughing now, mocking my accent. I feel like I can't breathe. My legs are weak, I think I might fall."
+    ],
+    [
+      "Therapist: I know. You're very brave. Keep going.",
+      "Client: I'm trying to speak, but my voice comes out as a whisper. He's laughing now, mocking my accent. I feel like I can't breathe. My legs are weak, I think I might fall.",
+      "Therapist: Stay with those sensations. What else?"
+    ],
+    [
+      "Client: I'm trying to speak, but my voice comes out as a whisper. He's laughing now, mocking my accent. I feel like I can't breathe. My legs are weak, I think I might fall.",
+      "Therapist: Stay with those sensations. What else?",
+      "Client: The room feels like it's spinning. I can hear other employees whispering, but no one's helping me. I feel so alone, so... different from everyone else."
+    ],
+    [
+      "Therapist: Stay with those sensations. What else?",
+      "Client: The room feels like it's spinning. I can hear other employees whispering, but no one's helping me. I feel so alone, so... different from everyone else.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: The room feels like it's spinning. I can hear other employees whispering, but no one's helping me. I feel so alone, so... different from everyone else.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing. What happens next?"
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing. What happens next?",
+      "Client: I... I finally find my voice. I tell him he can't speak to me like that. He looks shocked, then even angrier. He threatens to fire me, says he'll make sure I never work in this industry again."
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing. What happens next?",
+      "Client: I... I finally find my voice. I tell him he can't speak to me like that. He looks shocked, then even angrier. He threatens to fire me, says he'll make sure I never work in this industry again.",
+      "Therapist: How does your body feel now?"
+    ],
+    [
+      "Client: I... I finally find my voice. I tell him he can't speak to me like that. He looks shocked, then even angrier. He threatens to fire me, says he'll make sure I never work in this industry again.",
+      "Therapist: How does your body feel now?",
+      "Client: My fists are clenched. I'm shaking all over, but there's also this surge of... power? Like I'm standing up for myself."
+    ],
+    [
+      "Therapist: How does your body feel now?",
+      "Client: My fists are clenched. I'm shaking all over, but there's also this surge of... power? Like I'm standing up for myself.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: My fists are clenched. I'm shaking all over, but there's also this surge of... power? Like I'm standing up for myself.",
+      "Therapist: SUDS?",
+      "Client: It's dropped a bit. Maybe a 7 now."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's dropped a bit. Maybe a 7 now.",
+      "Therapist: Good. You're doing great. Keep going."
+    ],
+    [
+      "Client: It's dropped a bit. Maybe a 7 now.",
+      "Therapist: Good. You're doing great. Keep going.",
+      "Client: I turn and walk out of his office. My legs feel like jelly, but I'm moving. I can hear him shouting behind me, but I don't stop. I get to my desk, grab my things, and leave."
+    ],
+    [
+      "Therapist: Good. You're doing great. Keep going.",
+      "Client: I turn and walk out of his office. My legs feel like jelly, but I'm moving. I can hear him shouting behind me, but I don't stop. I get to my desk, grab my things, and leave.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: I turn and walk out of his office. My legs feel like jelly, but I'm moving. I can hear him shouting behind me, but I don't stop. I get to my desk, grab my things, and leave.",
+      "Therapist: And now?",
+      "Client: I'm in my car. I'm crying, but I also feel... proud? Like I've done something important. My heart's still racing, but I can breathe again."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: I'm in my car. I'm crying, but I also feel... proud? Like I've done something important. My heart's still racing, but I can breathe again.",
+      "Therapist: Final SUDS rating?"
+    ],
+    [
+      "Client: I'm in my car. I'm crying, but I also feel... proud? Like I've done something important. My heart's still racing, but I can breathe again.",
+      "Therapist: Final SUDS rating?",
+      "Client: It's down to a 5. I feel drained, but also... lighter somehow."
+    ],
+    [
+      "Therapist: Final SUDS rating?",
+      "Client: It's down to a 5. I feel drained, but also... lighter somehow.",
+      "Therapist: Well done. Let's take a few deep breaths together before we discuss what you experienced."
+    ]
+  ]
+}

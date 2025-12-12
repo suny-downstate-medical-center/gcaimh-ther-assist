@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, Dr. Johnson. Talking about the earthquake still makes me nervous.",
+    "Therapist: That's understandable. We'll take it slow. Are you ready to begin?",
+    "Client: I think so. I'll try my best.",
+    "Therapist: Good. Close your eyes and take us back to that day.",
+    "Client: Okay... It was early morning. I was making breakfast for my family when suddenly the ground started shaking. At first, I thought it was just a small tremor, but then it got stronger. The dishes started falling off the shelves, and I could hear things crashing all around the house. I froze for a moment, not knowing what to do.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: My children started screaming from upstairs. I wanted to run to them, but I couldn't move. The shaking was so violent. I held onto the kitchen counter, trying to stay upright. I could hear the walls cracking, and I thought the house was going to collapse on us. I've never felt so helpless in my life.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: I... I can still hear the sound of glass breaking and my children crying. I finally managed to move, but I was so dizzy. I stumbled towards the stairs, calling out to my kids. The house was creaking and groaning. I was terrified that we wouldn't make it out in time.",
+    "Therapist: You're doing great. Stay with the memory.",
+    "Client: I made it up the stairs, but the hallway was a mess. Picture frames had fallen, and there was broken glass everywhere. I could see my children huddled together in the doorway of their room, just like we had practiced in drills. But seeing their terrified faces... it broke my heart. I wanted to protect them, but I felt so powerless against nature.",
+    "Therapist: That must have been very difficult. How are you feeling now?",
+    "Client: My heart is racing, and I feel a lump in my throat. It's like I'm back there again.",
+    "Therapist: Take a deep breath. You're handling this well.",
+    "Client: Thank you. I... I remember grabbing my children and trying to get them downstairs. The ground was still shaking, and we could barely stand. We made it to the front door, but I was afraid to go outside. What if something fell on us? But staying inside seemed even more dangerous. I felt paralyzed by indecision.",
+    "Therapist: It's normal to feel overwhelmed in such situations.",
+    "Client: We finally made it outside, and the scene was chaotic. Our neighbors were all out on the street, some crying, others looking shell-shocked. The ground kept trembling with aftershocks. I held my children close, trying to comfort them, but I was terrified myself. I kept thinking about my husband, who was at work. I couldn't reach him on the phone, and I was scared something had happened to him.",
+    "Therapist: You're doing an excellent job describing the scene.",
+    "Client: The next few hours were a blur. We huddled with our neighbors in an open area, away from buildings. Every aftershock sent waves of panic through the crowd. I tried to stay strong for my children, but inside, I was falling apart. The uncertainty was unbearable. When we finally got news that my husband's workplace had collapsed... I... I...",
+    "Therapist: It's okay. Take your time.",
+    "Client: I'm sorry, it's still so hard to talk about. That moment when I realized he might not come home... it was like the world stopped. I felt numb, like I was watching everything happen to someone else. How could I tell my children? How could I face a future without him?",
+    "Therapist: You're showing incredible strength by sharing this.",
+    "Client: The days that followed were a nightmare. The relief efforts, the search for survivors, the constant fear of more quakes. And all the while, I had to be there for my children, to help them process what had happened. But I was barely holding it together myself. When they finally confirmed that my husband... that he didn't make it... I felt like I had failed. Failed to protect my family, failed to keep us together.",
+    "Therapist: You didn't fail. You survived an incredibly difficult situation.",
+    "Client: I know that now, but at the time, the guilt was overwhelming. I kept thinking of all the \"what ifs\". What if I had insisted he stay home that day? What if we had moved to a different area? The rational part of me knows these thoughts aren't helpful, but they still creep in sometimes.",
+    "Therapist: It's natural to have those thoughts. How do you feel now?",
+    "Client: Drained, but also... lighter, somehow. Talking about it is hard, but it does help. I still miss my husband terribly, and the fear of another earthquake is always there in the back of my mind. But I'm learning to cope, to be strong for my children. They're my reason to keep going.",
+    "Therapist: You've shown remarkable resilience. We'll end here for today.",
+    "Client: Thank you, Dr. Johnson. This process is difficult, but I think it's helping me.",
+    "Therapist: You're making great progress. Take care, Mrs. Patel."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, Dr. Johnson. Talking about the earthquake still makes me nervous.",
+      "Therapist: That's understandable. We'll take it slow. Are you ready to begin?"
+    ],
+    [
+      "Client: I'm feeling a bit anxious, Dr. Johnson. Talking about the earthquake still makes me nervous.",
+      "Therapist: That's understandable. We'll take it slow. Are you ready to begin?",
+      "Client: I think so. I'll try my best."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow. Are you ready to begin?",
+      "Client: I think so. I'll try my best.",
+      "Therapist: Good. Close your eyes and take us back to that day."
+    ],
+    [
+      "Client: I think so. I'll try my best.",
+      "Therapist: Good. Close your eyes and take us back to that day.",
+      "Client: Okay... It was early morning. I was making breakfast for my family when suddenly the ground started shaking. At first, I thought it was just a small tremor, but then it got stronger. The dishes started falling off the shelves, and I could hear things crashing all around the house. I froze for a moment, not knowing what to do."
+    ],
+    [
+      "Therapist: Good. Close your eyes and take us back to that day.",
+      "Client: Okay... It was early morning. I was making breakfast for my family when suddenly the ground started shaking. At first, I thought it was just a small tremor, but then it got stronger. The dishes started falling off the shelves, and I could hear things crashing all around the house. I froze for a moment, not knowing what to do.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... It was early morning. I was making breakfast for my family when suddenly the ground started shaking. At first, I thought it was just a small tremor, but then it got stronger. The dishes started falling off the shelves, and I could hear things crashing all around the house. I froze for a moment, not knowing what to do.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: My children started screaming from upstairs. I wanted to run to them, but I couldn't move. The shaking was so violent. I held onto the kitchen counter, trying to stay upright. I could hear the walls cracking, and I thought the house was going to collapse on us. I've never felt so helpless in my life."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: My children started screaming from upstairs. I wanted to run to them, but I couldn't move. The shaking was so violent. I held onto the kitchen counter, trying to stay upright. I could hear the walls cracking, and I thought the house was going to collapse on us. I've never felt so helpless in my life.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: My children started screaming from upstairs. I wanted to run to them, but I couldn't move. The shaking was so violent. I held onto the kitchen counter, trying to stay upright. I could hear the walls cracking, and I thought the house was going to collapse on us. I've never felt so helpless in my life.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I... I can still hear the sound of glass breaking and my children crying. I finally managed to move, but I was so dizzy. I stumbled towards the stairs, calling out to my kids. The house was creaking and groaning. I was terrified that we wouldn't make it out in time."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I... I can still hear the sound of glass breaking and my children crying. I finally managed to move, but I was so dizzy. I stumbled towards the stairs, calling out to my kids. The house was creaking and groaning. I was terrified that we wouldn't make it out in time.",
+      "Therapist: You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: I... I can still hear the sound of glass breaking and my children crying. I finally managed to move, but I was so dizzy. I stumbled towards the stairs, calling out to my kids. The house was creaking and groaning. I was terrified that we wouldn't make it out in time.",
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: I made it up the stairs, but the hallway was a mess. Picture frames had fallen, and there was broken glass everywhere. I could see my children huddled together in the doorway of their room, just like we had practiced in drills. But seeing their terrified faces... it broke my heart. I wanted to protect them, but I felt so powerless against nature."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: I made it up the stairs, but the hallway was a mess. Picture frames had fallen, and there was broken glass everywhere. I could see my children huddled together in the doorway of their room, just like we had practiced in drills. But seeing their terrified faces... it broke my heart. I wanted to protect them, but I felt so powerless against nature.",
+      "Therapist: That must have been very difficult. How are you feeling now?"
+    ],
+    [
+      "Client: I made it up the stairs, but the hallway was a mess. Picture frames had fallen, and there was broken glass everywhere. I could see my children huddled together in the doorway of their room, just like we had practiced in drills. But seeing their terrified faces... it broke my heart. I wanted to protect them, but I felt so powerless against nature.",
+      "Therapist: That must have been very difficult. How are you feeling now?",
+      "Client: My heart is racing, and I feel a lump in my throat. It's like I'm back there again."
+    ],
+    [
+      "Therapist: That must have been very difficult. How are you feeling now?",
+      "Client: My heart is racing, and I feel a lump in my throat. It's like I'm back there again.",
+      "Therapist: Take a deep breath. You're handling this well."
+    ],
+    [
+      "Client: My heart is racing, and I feel a lump in my throat. It's like I'm back there again.",
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: Thank you. I... I remember grabbing my children and trying to get them downstairs. The ground was still shaking, and we could barely stand. We made it to the front door, but I was afraid to go outside. What if something fell on us? But staying inside seemed even more dangerous. I felt paralyzed by indecision."
+    ],
+    [
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: Thank you. I... I remember grabbing my children and trying to get them downstairs. The ground was still shaking, and we could barely stand. We made it to the front door, but I was afraid to go outside. What if something fell on us? But staying inside seemed even more dangerous. I felt paralyzed by indecision.",
+      "Therapist: It's normal to feel overwhelmed in such situations."
+    ],
+    [
+      "Client: Thank you. I... I remember grabbing my children and trying to get them downstairs. The ground was still shaking, and we could barely stand. We made it to the front door, but I was afraid to go outside. What if something fell on us? But staying inside seemed even more dangerous. I felt paralyzed by indecision.",
+      "Therapist: It's normal to feel overwhelmed in such situations.",
+      "Client: We finally made it outside, and the scene was chaotic. Our neighbors were all out on the street, some crying, others looking shell-shocked. The ground kept trembling with aftershocks. I held my children close, trying to comfort them, but I was terrified myself. I kept thinking about my husband, who was at work. I couldn't reach him on the phone, and I was scared something had happened to him."
+    ],
+    [
+      "Therapist: It's normal to feel overwhelmed in such situations.",
+      "Client: We finally made it outside, and the scene was chaotic. Our neighbors were all out on the street, some crying, others looking shell-shocked. The ground kept trembling with aftershocks. I held my children close, trying to comfort them, but I was terrified myself. I kept thinking about my husband, who was at work. I couldn't reach him on the phone, and I was scared something had happened to him.",
+      "Therapist: You're doing an excellent job describing the scene."
+    ],
+    [
+      "Client: We finally made it outside, and the scene was chaotic. Our neighbors were all out on the street, some crying, others looking shell-shocked. The ground kept trembling with aftershocks. I held my children close, trying to comfort them, but I was terrified myself. I kept thinking about my husband, who was at work. I couldn't reach him on the phone, and I was scared something had happened to him.",
+      "Therapist: You're doing an excellent job describing the scene.",
+      "Client: The next few hours were a blur. We huddled with our neighbors in an open area, away from buildings. Every aftershock sent waves of panic through the crowd. I tried to stay strong for my children, but inside, I was falling apart. The uncertainty was unbearable. When we finally got news that my husband's workplace had collapsed... I... I..."
+    ],
+    [
+      "Therapist: You're doing an excellent job describing the scene.",
+      "Client: The next few hours were a blur. We huddled with our neighbors in an open area, away from buildings. Every aftershock sent waves of panic through the crowd. I tried to stay strong for my children, but inside, I was falling apart. The uncertainty was unbearable. When we finally got news that my husband's workplace had collapsed... I... I...",
+      "Therapist: It's okay. Take your time."
+    ],
+    [
+      "Client: The next few hours were a blur. We huddled with our neighbors in an open area, away from buildings. Every aftershock sent waves of panic through the crowd. I tried to stay strong for my children, but inside, I was falling apart. The uncertainty was unbearable. When we finally got news that my husband's workplace had collapsed... I... I...",
+      "Therapist: It's okay. Take your time.",
+      "Client: I'm sorry, it's still so hard to talk about. That moment when I realized he might not come home... it was like the world stopped. I felt numb, like I was watching everything happen to someone else. How could I tell my children? How could I face a future without him?"
+    ],
+    [
+      "Therapist: It's okay. Take your time.",
+      "Client: I'm sorry, it's still so hard to talk about. That moment when I realized he might not come home... it was like the world stopped. I felt numb, like I was watching everything happen to someone else. How could I tell my children? How could I face a future without him?",
+      "Therapist: You're showing incredible strength by sharing this."
+    ],
+    [
+      "Client: I'm sorry, it's still so hard to talk about. That moment when I realized he might not come home... it was like the world stopped. I felt numb, like I was watching everything happen to someone else. How could I tell my children? How could I face a future without him?",
+      "Therapist: You're showing incredible strength by sharing this.",
+      "Client: The days that followed were a nightmare. The relief efforts, the search for survivors, the constant fear of more quakes. And all the while, I had to be there for my children, to help them process what had happened. But I was barely holding it together myself. When they finally confirmed that my husband... that he didn't make it... I felt like I had failed. Failed to protect my family, failed to keep us together."
+    ],
+    [
+      "Therapist: You're showing incredible strength by sharing this.",
+      "Client: The days that followed were a nightmare. The relief efforts, the search for survivors, the constant fear of more quakes. And all the while, I had to be there for my children, to help them process what had happened. But I was barely holding it together myself. When they finally confirmed that my husband... that he didn't make it... I felt like I had failed. Failed to protect my family, failed to keep us together.",
+      "Therapist: You didn't fail. You survived an incredibly difficult situation."
+    ],
+    [
+      "Client: The days that followed were a nightmare. The relief efforts, the search for survivors, the constant fear of more quakes. And all the while, I had to be there for my children, to help them process what had happened. But I was barely holding it together myself. When they finally confirmed that my husband... that he didn't make it... I felt like I had failed. Failed to protect my family, failed to keep us together.",
+      "Therapist: You didn't fail. You survived an incredibly difficult situation.",
+      "Client: I know that now, but at the time, the guilt was overwhelming. I kept thinking of all the \"what ifs\". What if I had insisted he stay home that day? What if we had moved to a different area? The rational part of me knows these thoughts aren't helpful, but they still creep in sometimes."
+    ],
+    [
+      "Therapist: You didn't fail. You survived an incredibly difficult situation.",
+      "Client: I know that now, but at the time, the guilt was overwhelming. I kept thinking of all the \"what ifs\". What if I had insisted he stay home that day? What if we had moved to a different area? The rational part of me knows these thoughts aren't helpful, but they still creep in sometimes.",
+      "Therapist: It's natural to have those thoughts. How do you feel now?"
+    ],
+    [
+      "Client: I know that now, but at the time, the guilt was overwhelming. I kept thinking of all the \"what ifs\". What if I had insisted he stay home that day? What if we had moved to a different area? The rational part of me knows these thoughts aren't helpful, but they still creep in sometimes.",
+      "Therapist: It's natural to have those thoughts. How do you feel now?",
+      "Client: Drained, but also... lighter, somehow. Talking about it is hard, but it does help. I still miss my husband terribly, and the fear of another earthquake is always there in the back of my mind. But I'm learning to cope, to be strong for my children. They're my reason to keep going."
+    ],
+    [
+      "Therapist: It's natural to have those thoughts. How do you feel now?",
+      "Client: Drained, but also... lighter, somehow. Talking about it is hard, but it does help. I still miss my husband terribly, and the fear of another earthquake is always there in the back of my mind. But I'm learning to cope, to be strong for my children. They're my reason to keep going.",
+      "Therapist: You've shown remarkable resilience. We'll end here for today."
+    ],
+    [
+      "Client: Drained, but also... lighter, somehow. Talking about it is hard, but it does help. I still miss my husband terribly, and the fear of another earthquake is always there in the back of my mind. But I'm learning to cope, to be strong for my children. They're my reason to keep going.",
+      "Therapist: You've shown remarkable resilience. We'll end here for today.",
+      "Client: Thank you, Dr. Johnson. This process is difficult, but I think it's helping me."
+    ],
+    [
+      "Therapist: You've shown remarkable resilience. We'll end here for today.",
+      "Client: Thank you, Dr. Johnson. This process is difficult, but I think it's helping me.",
+      "Therapist: You're making great progress. Take care, Mrs. Patel."
+    ]
+  ]
+}

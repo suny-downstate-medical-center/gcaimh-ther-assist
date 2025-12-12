@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. Going through that home invasion memory again... it's like I was right back there, you know? I could almost smell the musty air in my parents' house and feel the cold floor under my feet as I hid in the closet. It's so vivid, even now.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The fear, definitely. It was paralyzing. I remember thinking, \"This is it. I'm going to die.\" And the helplessness... I felt so small and powerless. But there was also this weird sense of... I don't know, almost detachment? Like I was watching it happen to someone else. Is that normal?",
+    "Therapist: Many people experience that. How did it compare to previous times?",
+    "Client: It was... easier, I guess? Still awful, but I didn't feel as overwhelmed as before. I was able to stay more present, if that makes sense. I used those grounding techniques we talked about \u2013 focusing on my breathing, reminding myself I'm safe now. They helped a bit.",
+    "Therapist: That's great progress, Sarah. What else did you notice?",
+    "Client: I realized something... The intruder's voice. It wasn't as threatening as I remembered. In my nightmares, it's always this deep, monstrous growl. But going through it again, it was just... a normal voice. Scared, even. That's new.",
+    "Therapist: Interesting observation. How does that realization affect you?",
+    "Client: It's... confusing, honestly. Part of me feels relieved, like maybe it wasn't as bad as I've built it up to be. But then I feel guilty for thinking that. Like I'm minimizing what happened. And there's still so much fear and anger. I'm not sure what to do with all these conflicting feelings.",
+    "Therapist: It's okay to have mixed emotions. What else?",
+    "Client: I keep thinking about how this has affected my life. I dropped out of college, I barely leave my parents' house... I've been using alcohol to cope, which I know isn't healthy. But after today, I feel a tiny bit hopeful. Like maybe I can start to move past this. Is that naive?",
+    "Therapist: Not at all. Hope is important. How might you build on this?",
+    "Client: I... I think I want to try going back to school. Maybe just one class to start. And I've been considering those NA meetings you mentioned. I know the drinking isn't helping, but it's been my crutch for so long. It's scary to think about giving it up.",
+    "Therapist: Those sound like positive steps. What support do you need?",
+    "Client: I'm not sure. Maybe... could we work on more coping strategies? For when the memories hit or when I feel the urge to drink? And I might need help figuring out how to talk to my parents about all this. They've been so worried, and I want them to know I'm trying.",
+    "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+    "Client: Tired, but... okay. Better than I expected. Thank you for guiding me through this. It's hard, but I think it's helping. I just hope I can keep this momentum going.",
+    "Therapist: You're doing great, Sarah. Remember, small steps. See you next week?",
+    "Client: Yeah, I'll be here. Thanks again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. Going through that home invasion memory again... it's like I was right back there, you know? I could almost smell the musty air in my parents' house and feel the cold floor under my feet as I hid in the closet. It's so vivid, even now.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. Going through that home invasion memory again... it's like I was right back there, you know? I could almost smell the musty air in my parents' house and feel the cold floor under my feet as I hid in the closet. It's so vivid, even now.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear, definitely. It was paralyzing. I remember thinking, \"This is it. I'm going to die.\" And the helplessness... I felt so small and powerless. But there was also this weird sense of... I don't know, almost detachment? Like I was watching it happen to someone else. Is that normal?"
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear, definitely. It was paralyzing. I remember thinking, \"This is it. I'm going to die.\" And the helplessness... I felt so small and powerless. But there was also this weird sense of... I don't know, almost detachment? Like I was watching it happen to someone else. Is that normal?",
+      "Therapist: Many people experience that. How did it compare to previous times?"
+    ],
+    [
+      "Client: The fear, definitely. It was paralyzing. I remember thinking, \"This is it. I'm going to die.\" And the helplessness... I felt so small and powerless. But there was also this weird sense of... I don't know, almost detachment? Like I was watching it happen to someone else. Is that normal?",
+      "Therapist: Many people experience that. How did it compare to previous times?",
+      "Client: It was... easier, I guess? Still awful, but I didn't feel as overwhelmed as before. I was able to stay more present, if that makes sense. I used those grounding techniques we talked about \u2013 focusing on my breathing, reminding myself I'm safe now. They helped a bit."
+    ],
+    [
+      "Therapist: Many people experience that. How did it compare to previous times?",
+      "Client: It was... easier, I guess? Still awful, but I didn't feel as overwhelmed as before. I was able to stay more present, if that makes sense. I used those grounding techniques we talked about \u2013 focusing on my breathing, reminding myself I'm safe now. They helped a bit.",
+      "Therapist: That's great progress, Sarah. What else did you notice?"
+    ],
+    [
+      "Client: It was... easier, I guess? Still awful, but I didn't feel as overwhelmed as before. I was able to stay more present, if that makes sense. I used those grounding techniques we talked about \u2013 focusing on my breathing, reminding myself I'm safe now. They helped a bit.",
+      "Therapist: That's great progress, Sarah. What else did you notice?",
+      "Client: I realized something... The intruder's voice. It wasn't as threatening as I remembered. In my nightmares, it's always this deep, monstrous growl. But going through it again, it was just... a normal voice. Scared, even. That's new."
+    ],
+    [
+      "Therapist: That's great progress, Sarah. What else did you notice?",
+      "Client: I realized something... The intruder's voice. It wasn't as threatening as I remembered. In my nightmares, it's always this deep, monstrous growl. But going through it again, it was just... a normal voice. Scared, even. That's new.",
+      "Therapist: Interesting observation. How does that realization affect you?"
+    ],
+    [
+      "Client: I realized something... The intruder's voice. It wasn't as threatening as I remembered. In my nightmares, it's always this deep, monstrous growl. But going through it again, it was just... a normal voice. Scared, even. That's new.",
+      "Therapist: Interesting observation. How does that realization affect you?",
+      "Client: It's... confusing, honestly. Part of me feels relieved, like maybe it wasn't as bad as I've built it up to be. But then I feel guilty for thinking that. Like I'm minimizing what happened. And there's still so much fear and anger. I'm not sure what to do with all these conflicting feelings."
+    ],
+    [
+      "Therapist: Interesting observation. How does that realization affect you?",
+      "Client: It's... confusing, honestly. Part of me feels relieved, like maybe it wasn't as bad as I've built it up to be. But then I feel guilty for thinking that. Like I'm minimizing what happened. And there's still so much fear and anger. I'm not sure what to do with all these conflicting feelings.",
+      "Therapist: It's okay to have mixed emotions. What else?"
+    ],
+    [
+      "Client: It's... confusing, honestly. Part of me feels relieved, like maybe it wasn't as bad as I've built it up to be. But then I feel guilty for thinking that. Like I'm minimizing what happened. And there's still so much fear and anger. I'm not sure what to do with all these conflicting feelings.",
+      "Therapist: It's okay to have mixed emotions. What else?",
+      "Client: I keep thinking about how this has affected my life. I dropped out of college, I barely leave my parents' house... I've been using alcohol to cope, which I know isn't healthy. But after today, I feel a tiny bit hopeful. Like maybe I can start to move past this. Is that naive?"
+    ],
+    [
+      "Therapist: It's okay to have mixed emotions. What else?",
+      "Client: I keep thinking about how this has affected my life. I dropped out of college, I barely leave my parents' house... I've been using alcohol to cope, which I know isn't healthy. But after today, I feel a tiny bit hopeful. Like maybe I can start to move past this. Is that naive?",
+      "Therapist: Not at all. Hope is important. How might you build on this?"
+    ],
+    [
+      "Client: I keep thinking about how this has affected my life. I dropped out of college, I barely leave my parents' house... I've been using alcohol to cope, which I know isn't healthy. But after today, I feel a tiny bit hopeful. Like maybe I can start to move past this. Is that naive?",
+      "Therapist: Not at all. Hope is important. How might you build on this?",
+      "Client: I... I think I want to try going back to school. Maybe just one class to start. And I've been considering those NA meetings you mentioned. I know the drinking isn't helping, but it's been my crutch for so long. It's scary to think about giving it up."
+    ],
+    [
+      "Therapist: Not at all. Hope is important. How might you build on this?",
+      "Client: I... I think I want to try going back to school. Maybe just one class to start. And I've been considering those NA meetings you mentioned. I know the drinking isn't helping, but it's been my crutch for so long. It's scary to think about giving it up.",
+      "Therapist: Those sound like positive steps. What support do you need?"
+    ],
+    [
+      "Client: I... I think I want to try going back to school. Maybe just one class to start. And I've been considering those NA meetings you mentioned. I know the drinking isn't helping, but it's been my crutch for so long. It's scary to think about giving it up.",
+      "Therapist: Those sound like positive steps. What support do you need?",
+      "Client: I'm not sure. Maybe... could we work on more coping strategies? For when the memories hit or when I feel the urge to drink? And I might need help figuring out how to talk to my parents about all this. They've been so worried, and I want them to know I'm trying."
+    ],
+    [
+      "Therapist: Those sound like positive steps. What support do you need?",
+      "Client: I'm not sure. Maybe... could we work on more coping strategies? For when the memories hit or when I feel the urge to drink? And I might need help figuring out how to talk to my parents about all this. They've been so worried, and I want them to know I'm trying.",
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?"
+    ],
+    [
+      "Client: I'm not sure. Maybe... could we work on more coping strategies? For when the memories hit or when I feel the urge to drink? And I might need help figuring out how to talk to my parents about all this. They've been so worried, and I want them to know I'm trying.",
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+      "Client: Tired, but... okay. Better than I expected. Thank you for guiding me through this. It's hard, but I think it's helping. I just hope I can keep this momentum going."
+    ],
+    [
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+      "Client: Tired, but... okay. Better than I expected. Thank you for guiding me through this. It's hard, but I think it's helping. I just hope I can keep this momentum going.",
+      "Therapist: You're doing great, Sarah. Remember, small steps. See you next week?"
+    ],
+    [
+      "Client: Tired, but... okay. Better than I expected. Thank you for guiding me through this. It's hard, but I think it's helping. I just hope I can keep this momentum going.",
+      "Therapist: You're doing great, Sarah. Remember, small steps. See you next week?",
+      "Client: Yeah, I'll be here. Thanks again."
+    ]
+  ]
+}

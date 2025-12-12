@@ -1,0 +1,152 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: (deep breath) It's... it's intense. I feel drained, but also... I don't know, maybe a bit clearer? It's hard to put into words.",
+    "Therapist: Understandable. What stood out to you?",
+    "Client: The sounds. The constant barrage of gunfire and explosions. It's like... it's like they're still echoing in my head, you know? And the smell... (pauses) God, the smell of burning... everything. It's so vivid.",
+    "Therapist: Mm-hmm. How did your body react?",
+    "Client: My heart was racing. I could feel myself tensing up, especially in my shoulders and jaw. It's like... like I was right back there, ready to... to fight or run or... I don't know. It's exhausting.",
+    "Therapist: That's common. What thoughts came up?",
+    "Client: (sighs) Guilt, mostly. Why did I survive when others didn't? And... anger. At the situation, at myself for not doing more. It's... it's a lot to process.",
+    "Therapist: How does this connect to your daily life?",
+    "Client: I... I guess I'm always on edge, aren't I? Always waiting for something bad to happen. It's probably why I... why I turned to drinking. To numb it all out.",
+    "Therapist: I see. What's different now?",
+    "Client: Well, I'm... I'm actually facing it, aren't I? Not running away. It's terrifying, but... maybe it's necessary? I don't know. It's just... it's a lot.",
+    "Therapist: You're showing real courage. How can we build on this?",
+    "Client: I... I think I need to keep going. It's hard, but... maybe if I can face these memories, I can... I can start to live again? Not just survive. I want to be present for my family, you know? They've been so patient with me.",
+    "Therapist: That's a great goal. Anything else?",
+    "Client: Yeah, I... I think I need to find better ways to cope. The drinking, it's... it's not helping. It's just making everything worse. Maybe... maybe I could try some of those grounding techniques we talked about?",
+    "Therapist: Excellent idea. How are you feeling now?",
+    "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? It's like... like I've started to lift this heavy weight I've been carrying. It's still there, but... maybe it's a little lighter now?",
+    "Therapist: That's progress. What's your takeaway today?",
+    "Client: I think... I think I'm stronger than I thought. And maybe... maybe I don't have to face this alone anymore. It's scary, but... I'm ready to keep working on this. I want my life back.",
+    "Therapist: Wonderful insight. Shall we wrap up?",
+    "Client: Yeah, I think so. I'm... I'm exhausted, but... thank you. For listening, for guiding me through this. It means a lot.",
+    "Therapist: You did the hard work. Next week?",
+    "Client: Definitely. I'll be here. And... I'll try those grounding techniques we talked about. Maybe... maybe they'll help with the nightmares.",
+    "Therapist: Great plan. Take care, and remember to be kind to yourself.",
+    "Client: I'll try. Thank you again. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: (deep breath) It's... it's intense. I feel drained, but also... I don't know, maybe a bit clearer? It's hard to put into words.",
+      "Therapist: Understandable. What stood out to you?"
+    ],
+    [
+      "Client: (deep breath) It's... it's intense. I feel drained, but also... I don't know, maybe a bit clearer? It's hard to put into words.",
+      "Therapist: Understandable. What stood out to you?",
+      "Client: The sounds. The constant barrage of gunfire and explosions. It's like... it's like they're still echoing in my head, you know? And the smell... (pauses) God, the smell of burning... everything. It's so vivid."
+    ],
+    [
+      "Therapist: Understandable. What stood out to you?",
+      "Client: The sounds. The constant barrage of gunfire and explosions. It's like... it's like they're still echoing in my head, you know? And the smell... (pauses) God, the smell of burning... everything. It's so vivid.",
+      "Therapist: Mm-hmm. How did your body react?"
+    ],
+    [
+      "Client: The sounds. The constant barrage of gunfire and explosions. It's like... it's like they're still echoing in my head, you know? And the smell... (pauses) God, the smell of burning... everything. It's so vivid.",
+      "Therapist: Mm-hmm. How did your body react?",
+      "Client: My heart was racing. I could feel myself tensing up, especially in my shoulders and jaw. It's like... like I was right back there, ready to... to fight or run or... I don't know. It's exhausting."
+    ],
+    [
+      "Therapist: Mm-hmm. How did your body react?",
+      "Client: My heart was racing. I could feel myself tensing up, especially in my shoulders and jaw. It's like... like I was right back there, ready to... to fight or run or... I don't know. It's exhausting.",
+      "Therapist: That's common. What thoughts came up?"
+    ],
+    [
+      "Client: My heart was racing. I could feel myself tensing up, especially in my shoulders and jaw. It's like... like I was right back there, ready to... to fight or run or... I don't know. It's exhausting.",
+      "Therapist: That's common. What thoughts came up?",
+      "Client: (sighs) Guilt, mostly. Why did I survive when others didn't? And... anger. At the situation, at myself for not doing more. It's... it's a lot to process."
+    ],
+    [
+      "Therapist: That's common. What thoughts came up?",
+      "Client: (sighs) Guilt, mostly. Why did I survive when others didn't? And... anger. At the situation, at myself for not doing more. It's... it's a lot to process.",
+      "Therapist: How does this connect to your daily life?"
+    ],
+    [
+      "Client: (sighs) Guilt, mostly. Why did I survive when others didn't? And... anger. At the situation, at myself for not doing more. It's... it's a lot to process.",
+      "Therapist: How does this connect to your daily life?",
+      "Client: I... I guess I'm always on edge, aren't I? Always waiting for something bad to happen. It's probably why I... why I turned to drinking. To numb it all out."
+    ],
+    [
+      "Therapist: How does this connect to your daily life?",
+      "Client: I... I guess I'm always on edge, aren't I? Always waiting for something bad to happen. It's probably why I... why I turned to drinking. To numb it all out.",
+      "Therapist: I see. What's different now?"
+    ],
+    [
+      "Client: I... I guess I'm always on edge, aren't I? Always waiting for something bad to happen. It's probably why I... why I turned to drinking. To numb it all out.",
+      "Therapist: I see. What's different now?",
+      "Client: Well, I'm... I'm actually facing it, aren't I? Not running away. It's terrifying, but... maybe it's necessary? I don't know. It's just... it's a lot."
+    ],
+    [
+      "Therapist: I see. What's different now?",
+      "Client: Well, I'm... I'm actually facing it, aren't I? Not running away. It's terrifying, but... maybe it's necessary? I don't know. It's just... it's a lot.",
+      "Therapist: You're showing real courage. How can we build on this?"
+    ],
+    [
+      "Client: Well, I'm... I'm actually facing it, aren't I? Not running away. It's terrifying, but... maybe it's necessary? I don't know. It's just... it's a lot.",
+      "Therapist: You're showing real courage. How can we build on this?",
+      "Client: I... I think I need to keep going. It's hard, but... maybe if I can face these memories, I can... I can start to live again? Not just survive. I want to be present for my family, you know? They've been so patient with me."
+    ],
+    [
+      "Therapist: You're showing real courage. How can we build on this?",
+      "Client: I... I think I need to keep going. It's hard, but... maybe if I can face these memories, I can... I can start to live again? Not just survive. I want to be present for my family, you know? They've been so patient with me.",
+      "Therapist: That's a great goal. Anything else?"
+    ],
+    [
+      "Client: I... I think I need to keep going. It's hard, but... maybe if I can face these memories, I can... I can start to live again? Not just survive. I want to be present for my family, you know? They've been so patient with me.",
+      "Therapist: That's a great goal. Anything else?",
+      "Client: Yeah, I... I think I need to find better ways to cope. The drinking, it's... it's not helping. It's just making everything worse. Maybe... maybe I could try some of those grounding techniques we talked about?"
+    ],
+    [
+      "Therapist: That's a great goal. Anything else?",
+      "Client: Yeah, I... I think I need to find better ways to cope. The drinking, it's... it's not helping. It's just making everything worse. Maybe... maybe I could try some of those grounding techniques we talked about?",
+      "Therapist: Excellent idea. How are you feeling now?"
+    ],
+    [
+      "Client: Yeah, I... I think I need to find better ways to cope. The drinking, it's... it's not helping. It's just making everything worse. Maybe... maybe I could try some of those grounding techniques we talked about?",
+      "Therapist: Excellent idea. How are you feeling now?",
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? It's like... like I've started to lift this heavy weight I've been carrying. It's still there, but... maybe it's a little lighter now?"
+    ],
+    [
+      "Therapist: Excellent idea. How are you feeling now?",
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? It's like... like I've started to lift this heavy weight I've been carrying. It's still there, but... maybe it's a little lighter now?",
+      "Therapist: That's progress. What's your takeaway today?"
+    ],
+    [
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? It's like... like I've started to lift this heavy weight I've been carrying. It's still there, but... maybe it's a little lighter now?",
+      "Therapist: That's progress. What's your takeaway today?",
+      "Client: I think... I think I'm stronger than I thought. And maybe... maybe I don't have to face this alone anymore. It's scary, but... I'm ready to keep working on this. I want my life back."
+    ],
+    [
+      "Therapist: That's progress. What's your takeaway today?",
+      "Client: I think... I think I'm stronger than I thought. And maybe... maybe I don't have to face this alone anymore. It's scary, but... I'm ready to keep working on this. I want my life back.",
+      "Therapist: Wonderful insight. Shall we wrap up?"
+    ],
+    [
+      "Client: I think... I think I'm stronger than I thought. And maybe... maybe I don't have to face this alone anymore. It's scary, but... I'm ready to keep working on this. I want my life back.",
+      "Therapist: Wonderful insight. Shall we wrap up?",
+      "Client: Yeah, I think so. I'm... I'm exhausted, but... thank you. For listening, for guiding me through this. It means a lot."
+    ],
+    [
+      "Therapist: Wonderful insight. Shall we wrap up?",
+      "Client: Yeah, I think so. I'm... I'm exhausted, but... thank you. For listening, for guiding me through this. It means a lot.",
+      "Therapist: You did the hard work. Next week?"
+    ],
+    [
+      "Client: Yeah, I think so. I'm... I'm exhausted, but... thank you. For listening, for guiding me through this. It means a lot.",
+      "Therapist: You did the hard work. Next week?",
+      "Client: Definitely. I'll be here. And... I'll try those grounding techniques we talked about. Maybe... maybe they'll help with the nightmares."
+    ],
+    [
+      "Therapist: You did the hard work. Next week?",
+      "Client: Definitely. I'll be here. And... I'll try those grounding techniques we talked about. Maybe... maybe they'll help with the nightmares.",
+      "Therapist: Great plan. Take care, and remember to be kind to yourself."
+    ],
+    [
+      "Client: Definitely. I'll be here. And... I'll try those grounding techniques we talked about. Maybe... maybe they'll help with the nightmares.",
+      "Therapist: Great plan. Take care, and remember to be kind to yourself.",
+      "Client: I'll try. Thank you again. See you next week."
+    ]
+  ]
+}

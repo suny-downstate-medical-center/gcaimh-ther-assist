@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Sam. How are you feeling today?",
+    "Client: Hey, Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the cyberbullying lately, and it's been affecting my studies.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened online.",
+    "Therapist: It's a technique to help process traumatic memories. We'll go through it step-by-step. What concerns do you have?",
+    "Client: Well, I'm worried about feeling overwhelmed. The messages and threats I received were so hurtful. Just thinking about them makes my chest tight and my hands shake. Plus, with my chronic pain flaring up lately, I'm not sure I can handle more stress.",
+    "Therapist: Your concerns are valid. We'll go at your pace and can stop anytime. How does that sound?",
+    "Client: That's a bit reassuring, I guess. But what if I can't handle it? What if I break down or have a panic attack? I've been trying so hard to keep it together, especially with my girlfriend and roommates. I don't want to fall apart.",
+    "Therapist: You're showing great courage. We'll start small and build gradually. What questions do you have?",
+    "Client: Okay, so... what exactly will we be doing? Do I have to close my eyes and picture everything? And how long will this take? I have a group project meeting later, and I don't want to be a mess for that.",
+    "Therapist: We'll revisit memories briefly, eyes open or closed. It typically lasts 30-45 minutes. How does that align with your schedule?",
+    "Client: That should work, I suppose. My meeting isn't until later this evening. I just... I'm scared, Dr. Johnson. What if this makes everything worse instead of better? I've been trying so hard to forget and move on.",
+    "Therapist: Your fear is normal. This process helps reduce PTSD symptoms over time. Shall we begin?",
+    "Client: I... okay. Yeah, let's do it. I trust you, Dr. Johnson. And I know I need to do something because these nightmares and anxiety are really affecting my life. My grades are slipping, and I'm withdrawing from my friends. I want to get better, for myself and for the people who care about me.",
+    "Therapist: Your commitment is admirable. Remember, we're in this together. Ready to start?",
+    "Client: As ready as I'll ever be, I guess. Can you... can you just walk me through what we're going to do one more time? And maybe remind me of those grounding techniques we practiced? I want to make sure I have some tools if things get too intense.",
+    "Therapist: Of course. We'll revisit memories gradually. Grounding techniques are here if needed. Shall we begin?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Sam. How are you feeling today?",
+      "Client: Hey, Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the cyberbullying lately, and it's been affecting my studies.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hey, Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the cyberbullying lately, and it's been affecting my studies.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened online."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened online.",
+      "Therapist: It's a technique to help process traumatic memories. We'll go through it step-by-step. What concerns do you have?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened online.",
+      "Therapist: It's a technique to help process traumatic memories. We'll go through it step-by-step. What concerns do you have?",
+      "Client: Well, I'm worried about feeling overwhelmed. The messages and threats I received were so hurtful. Just thinking about them makes my chest tight and my hands shake. Plus, with my chronic pain flaring up lately, I'm not sure I can handle more stress."
+    ],
+    [
+      "Therapist: It's a technique to help process traumatic memories. We'll go through it step-by-step. What concerns do you have?",
+      "Client: Well, I'm worried about feeling overwhelmed. The messages and threats I received were so hurtful. Just thinking about them makes my chest tight and my hands shake. Plus, with my chronic pain flaring up lately, I'm not sure I can handle more stress.",
+      "Therapist: Your concerns are valid. We'll go at your pace and can stop anytime. How does that sound?"
+    ],
+    [
+      "Client: Well, I'm worried about feeling overwhelmed. The messages and threats I received were so hurtful. Just thinking about them makes my chest tight and my hands shake. Plus, with my chronic pain flaring up lately, I'm not sure I can handle more stress.",
+      "Therapist: Your concerns are valid. We'll go at your pace and can stop anytime. How does that sound?",
+      "Client: That's a bit reassuring, I guess. But what if I can't handle it? What if I break down or have a panic attack? I've been trying so hard to keep it together, especially with my girlfriend and roommates. I don't want to fall apart."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace and can stop anytime. How does that sound?",
+      "Client: That's a bit reassuring, I guess. But what if I can't handle it? What if I break down or have a panic attack? I've been trying so hard to keep it together, especially with my girlfriend and roommates. I don't want to fall apart.",
+      "Therapist: You're showing great courage. We'll start small and build gradually. What questions do you have?"
+    ],
+    [
+      "Client: That's a bit reassuring, I guess. But what if I can't handle it? What if I break down or have a panic attack? I've been trying so hard to keep it together, especially with my girlfriend and roommates. I don't want to fall apart.",
+      "Therapist: You're showing great courage. We'll start small and build gradually. What questions do you have?",
+      "Client: Okay, so... what exactly will we be doing? Do I have to close my eyes and picture everything? And how long will this take? I have a group project meeting later, and I don't want to be a mess for that."
+    ],
+    [
+      "Therapist: You're showing great courage. We'll start small and build gradually. What questions do you have?",
+      "Client: Okay, so... what exactly will we be doing? Do I have to close my eyes and picture everything? And how long will this take? I have a group project meeting later, and I don't want to be a mess for that.",
+      "Therapist: We'll revisit memories briefly, eyes open or closed. It typically lasts 30-45 minutes. How does that align with your schedule?"
+    ],
+    [
+      "Client: Okay, so... what exactly will we be doing? Do I have to close my eyes and picture everything? And how long will this take? I have a group project meeting later, and I don't want to be a mess for that.",
+      "Therapist: We'll revisit memories briefly, eyes open or closed. It typically lasts 30-45 minutes. How does that align with your schedule?",
+      "Client: That should work, I suppose. My meeting isn't until later this evening. I just... I'm scared, Dr. Johnson. What if this makes everything worse instead of better? I've been trying so hard to forget and move on."
+    ],
+    [
+      "Therapist: We'll revisit memories briefly, eyes open or closed. It typically lasts 30-45 minutes. How does that align with your schedule?",
+      "Client: That should work, I suppose. My meeting isn't until later this evening. I just... I'm scared, Dr. Johnson. What if this makes everything worse instead of better? I've been trying so hard to forget and move on.",
+      "Therapist: Your fear is normal. This process helps reduce PTSD symptoms over time. Shall we begin?"
+    ],
+    [
+      "Client: That should work, I suppose. My meeting isn't until later this evening. I just... I'm scared, Dr. Johnson. What if this makes everything worse instead of better? I've been trying so hard to forget and move on.",
+      "Therapist: Your fear is normal. This process helps reduce PTSD symptoms over time. Shall we begin?",
+      "Client: I... okay. Yeah, let's do it. I trust you, Dr. Johnson. And I know I need to do something because these nightmares and anxiety are really affecting my life. My grades are slipping, and I'm withdrawing from my friends. I want to get better, for myself and for the people who care about me."
+    ],
+    [
+      "Therapist: Your fear is normal. This process helps reduce PTSD symptoms over time. Shall we begin?",
+      "Client: I... okay. Yeah, let's do it. I trust you, Dr. Johnson. And I know I need to do something because these nightmares and anxiety are really affecting my life. My grades are slipping, and I'm withdrawing from my friends. I want to get better, for myself and for the people who care about me.",
+      "Therapist: Your commitment is admirable. Remember, we're in this together. Ready to start?"
+    ],
+    [
+      "Client: I... okay. Yeah, let's do it. I trust you, Dr. Johnson. And I know I need to do something because these nightmares and anxiety are really affecting my life. My grades are slipping, and I'm withdrawing from my friends. I want to get better, for myself and for the people who care about me.",
+      "Therapist: Your commitment is admirable. Remember, we're in this together. Ready to start?",
+      "Client: As ready as I'll ever be, I guess. Can you... can you just walk me through what we're going to do one more time? And maybe remind me of those grounding techniques we practiced? I want to make sure I have some tools if things get too intense."
+    ],
+    [
+      "Therapist: Your commitment is admirable. Remember, we're in this together. Ready to start?",
+      "Client: As ready as I'll ever be, I guess. Can you... can you just walk me through what we're going to do one more time? And maybe remind me of those grounding techniques we practiced? I want to make sure I have some tools if things get too intense.",
+      "Therapist: Of course. We'll revisit memories gradually. Grounding techniques are here if needed. Shall we begin?"
+    ]
+  ]
+}

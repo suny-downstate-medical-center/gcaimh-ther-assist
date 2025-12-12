@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Sarah, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's begin. Close your eyes and bring yourself back to that day in the field hospital.",
+    "Client: Okay... I'm there. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to stabilize a young soldier with a severe chest wound. There's so much blood...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: It's about a 6. I can feel my heart racing and my palms are getting sweaty.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: The soldier is gasping for air. I'm trying to insert a chest tube, but my hands won't stop trembling. I'm terrified I'm going to make a mistake and he'll die because of me. I can hear other wounded soldiers crying out for help nearby, but I can't leave this one...",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I feel like I can't breathe properly. My chest feels tight.",
+    "Therapist: That's okay. Take a deep breath. You're safe here.",
+    "Client: I manage to get the tube in, but there's still so much blood. The monitor starts beeping erratically. I'm calling for help, but everyone else is busy with their own patients. I feel so alone and overwhelmed. I don't know if I can save him...",
+    "Therapist: SUDS level?",
+    "Client: It's a 9 now. I feel dizzy and nauseous. My hands are shaking so much.",
+    "Therapist: You're doing great, Sarah. Stay with it.",
+    "Client: The young soldier's eyes are fixed on me, pleading. I'm doing everything I can, but I'm not sure it's enough. Suddenly, the monitor flatlines. I start chest compressions, but deep down, I know it's too late. I failed him. I failed his family. I... I couldn't save him.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's still at a 9. I feel like I'm right back there, covered in his blood, feeling utterly helpless and guilty.",
+    "Therapist: I hear how difficult this is. You're very brave.",
+    "Client: As I step back from the bed, I see his dog tags. He was only 19. Nineteen years old, and I couldn't save him. I can feel tears streaming down my face, but I have to compose myself. There are more wounded coming in. I don't have time to process what just happened...",
+    "Therapist: And your SUDS level now?",
+    "Client: It's starting to come down a bit. Maybe a 7? I still feel shaky and sad, but the intense panic is fading.",
+    "Therapist: That's good. You're processing this memory.",
+    "Client: I remember walking outside the tent for a moment, trying to catch my breath. The sun was setting, casting an orange glow over the desert. It felt surreal, like the world shouldn't be so beautiful after what just happened. I took a few deep breaths, wiped my face, and went back inside to help the next patient.",
+    "Therapist: How about your SUDS now?",
+    "Client: It's down to a 5. I feel drained, but also a little lighter. Like I've shared some of the burden.",
+    "Therapist: You've done excellent work today, Sarah."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Sarah, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and bring yourself back to that day in the field hospital."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and bring yourself back to that day in the field hospital.",
+      "Client: Okay... I'm there. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to stabilize a young soldier with a severe chest wound. There's so much blood..."
+    ],
+    [
+      "Therapist: That's normal. Let's begin. Close your eyes and bring yourself back to that day in the field hospital.",
+      "Client: Okay... I'm there. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to stabilize a young soldier with a severe chest wound. There's so much blood...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm there. The air is thick with dust and the smell of antiseptic. I can hear distant explosions and people shouting. My hands are shaking as I try to stabilize a young soldier with a severe chest wound. There's so much blood...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. I can feel my heart racing and my palms are getting sweaty."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. I can feel my heart racing and my palms are getting sweaty.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's about a 6. I can feel my heart racing and my palms are getting sweaty.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: The soldier is gasping for air. I'm trying to insert a chest tube, but my hands won't stop trembling. I'm terrified I'm going to make a mistake and he'll die because of me. I can hear other wounded soldiers crying out for help nearby, but I can't leave this one..."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: The soldier is gasping for air. I'm trying to insert a chest tube, but my hands won't stop trembling. I'm terrified I'm going to make a mistake and he'll die because of me. I can hear other wounded soldiers crying out for help nearby, but I can't leave this one...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The soldier is gasping for air. I'm trying to insert a chest tube, but my hands won't stop trembling. I'm terrified I'm going to make a mistake and he'll die because of me. I can hear other wounded soldiers crying out for help nearby, but I can't leave this one...",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I feel like I can't breathe properly. My chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I feel like I can't breathe properly. My chest feels tight.",
+      "Therapist: That's okay. Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's gone up to an 8. I feel like I can't breathe properly. My chest feels tight.",
+      "Therapist: That's okay. Take a deep breath. You're safe here.",
+      "Client: I manage to get the tube in, but there's still so much blood. The monitor starts beeping erratically. I'm calling for help, but everyone else is busy with their own patients. I feel so alone and overwhelmed. I don't know if I can save him..."
+    ],
+    [
+      "Therapist: That's okay. Take a deep breath. You're safe here.",
+      "Client: I manage to get the tube in, but there's still so much blood. The monitor starts beeping erratically. I'm calling for help, but everyone else is busy with their own patients. I feel so alone and overwhelmed. I don't know if I can save him...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I manage to get the tube in, but there's still so much blood. The monitor starts beeping erratically. I'm calling for help, but everyone else is busy with their own patients. I feel so alone and overwhelmed. I don't know if I can save him...",
+      "Therapist: SUDS level?",
+      "Client: It's a 9 now. I feel dizzy and nauseous. My hands are shaking so much."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's a 9 now. I feel dizzy and nauseous. My hands are shaking so much.",
+      "Therapist: You're doing great, Sarah. Stay with it."
+    ],
+    [
+      "Client: It's a 9 now. I feel dizzy and nauseous. My hands are shaking so much.",
+      "Therapist: You're doing great, Sarah. Stay with it.",
+      "Client: The young soldier's eyes are fixed on me, pleading. I'm doing everything I can, but I'm not sure it's enough. Suddenly, the monitor flatlines. I start chest compressions, but deep down, I know it's too late. I failed him. I failed his family. I... I couldn't save him."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. Stay with it.",
+      "Client: The young soldier's eyes are fixed on me, pleading. I'm doing everything I can, but I'm not sure it's enough. Suddenly, the monitor flatlines. I start chest compressions, but deep down, I know it's too late. I failed him. I failed his family. I... I couldn't save him.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: The young soldier's eyes are fixed on me, pleading. I'm doing everything I can, but I'm not sure it's enough. Suddenly, the monitor flatlines. I start chest compressions, but deep down, I know it's too late. I failed him. I failed his family. I... I couldn't save him.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's still at a 9. I feel like I'm right back there, covered in his blood, feeling utterly helpless and guilty."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's still at a 9. I feel like I'm right back there, covered in his blood, feeling utterly helpless and guilty.",
+      "Therapist: I hear how difficult this is. You're very brave."
+    ],
+    [
+      "Client: It's still at a 9. I feel like I'm right back there, covered in his blood, feeling utterly helpless and guilty.",
+      "Therapist: I hear how difficult this is. You're very brave.",
+      "Client: As I step back from the bed, I see his dog tags. He was only 19. Nineteen years old, and I couldn't save him. I can feel tears streaming down my face, but I have to compose myself. There are more wounded coming in. I don't have time to process what just happened..."
+    ],
+    [
+      "Therapist: I hear how difficult this is. You're very brave.",
+      "Client: As I step back from the bed, I see his dog tags. He was only 19. Nineteen years old, and I couldn't save him. I can feel tears streaming down my face, but I have to compose myself. There are more wounded coming in. I don't have time to process what just happened...",
+      "Therapist: And your SUDS level now?"
+    ],
+    [
+      "Client: As I step back from the bed, I see his dog tags. He was only 19. Nineteen years old, and I couldn't save him. I can feel tears streaming down my face, but I have to compose myself. There are more wounded coming in. I don't have time to process what just happened...",
+      "Therapist: And your SUDS level now?",
+      "Client: It's starting to come down a bit. Maybe a 7? I still feel shaky and sad, but the intense panic is fading."
+    ],
+    [
+      "Therapist: And your SUDS level now?",
+      "Client: It's starting to come down a bit. Maybe a 7? I still feel shaky and sad, but the intense panic is fading.",
+      "Therapist: That's good. You're processing this memory."
+    ],
+    [
+      "Client: It's starting to come down a bit. Maybe a 7? I still feel shaky and sad, but the intense panic is fading.",
+      "Therapist: That's good. You're processing this memory.",
+      "Client: I remember walking outside the tent for a moment, trying to catch my breath. The sun was setting, casting an orange glow over the desert. It felt surreal, like the world shouldn't be so beautiful after what just happened. I took a few deep breaths, wiped my face, and went back inside to help the next patient."
+    ],
+    [
+      "Therapist: That's good. You're processing this memory.",
+      "Client: I remember walking outside the tent for a moment, trying to catch my breath. The sun was setting, casting an orange glow over the desert. It felt surreal, like the world shouldn't be so beautiful after what just happened. I took a few deep breaths, wiped my face, and went back inside to help the next patient.",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: I remember walking outside the tent for a moment, trying to catch my breath. The sun was setting, casting an orange glow over the desert. It felt surreal, like the world shouldn't be so beautiful after what just happened. I took a few deep breaths, wiped my face, and went back inside to help the next patient.",
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 5. I feel drained, but also a little lighter. Like I've shared some of the burden."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 5. I feel drained, but also a little lighter. Like I've shared some of the burden.",
+      "Therapist: You've done excellent work today, Sarah."
+    ]
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back. Today, we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm... not sure. To be honest, I'm a bit nervous. When you mentioned it last time, I didn't really understand what it entailed. Could you explain it a bit more?",
+    "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe space. What questions do you have?",
+    "Client: Well, I'm worried about reliving those experiences. I've spent so much time trying to forget what happened in the refugee camp. The violence I witnessed... it's not something I want to remember. Won't this make things worse?",
+    "Therapist: I understand your concern. This process actually helps reduce the power of those memories. How does that sound?",
+    "Client: I suppose that makes sense, but it's still scary. I've worked hard to build a life here, away from all that. I'm afraid this might undo all my progress. What if I can't handle it?",
+    "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What else is on your mind?",
+    "Client: I guess I'm wondering what exactly I'll need to do. Do I just... start talking about what happened? And how long will this process take? I have a demanding job, and I'm worried about how this might affect my work performance.",
+    "Therapist: You'll describe the event in detail, in the present tense. We'll do this for about 30-45 minutes. How does that timeframe feel?",
+    "Client: That sounds longer than I expected. I'm not sure I can talk about it for that long. What if I get overwhelmed or can't continue? And why do I need to use the present tense?",
+    "Therapist: If you feel overwhelmed, we'll use coping strategies. The present tense helps process the memory. Shall we discuss some grounding techniques?",
+    "Client: Yes, that would be helpful. I'm still nervous, but I appreciate you taking the time to explain this to me. I want to get better, I really do. It's just... confronting these memories feels like opening Pandora's box. I'm afraid of what might come out.",
+    "Therapist: Your courage is admirable. This process can be challenging, but it's a step towards healing. Ready to learn some grounding techniques?",
+    "Client: Yes, I think that would help me feel more prepared. And thank you for saying that about courage. Sometimes I forget how far I've come since those days in the camp. It's been a long journey, and there are still moments when I feel like that scared person watching helplessly as violence unfolded around me. But I'm here now, and I'm trying. That counts for something, right?",
+    "Therapist: Absolutely. Your resilience is remarkable. Let's start with a simple breathing exercise. Can you take a deep breath with me?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back. Today, we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm... not sure. To be honest, I'm a bit nervous. When you mentioned it last time, I didn't really understand what it entailed. Could you explain it a bit more?",
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe space. What questions do you have?"
+    ],
+    [
+      "Client: I'm... not sure. To be honest, I'm a bit nervous. When you mentioned it last time, I didn't really understand what it entailed. Could you explain it a bit more?",
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe space. What questions do you have?",
+      "Client: Well, I'm worried about reliving those experiences. I've spent so much time trying to forget what happened in the refugee camp. The violence I witnessed... it's not something I want to remember. Won't this make things worse?"
+    ],
+    [
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe space. What questions do you have?",
+      "Client: Well, I'm worried about reliving those experiences. I've spent so much time trying to forget what happened in the refugee camp. The violence I witnessed... it's not something I want to remember. Won't this make things worse?",
+      "Therapist: I understand your concern. This process actually helps reduce the power of those memories. How does that sound?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving those experiences. I've spent so much time trying to forget what happened in the refugee camp. The violence I witnessed... it's not something I want to remember. Won't this make things worse?",
+      "Therapist: I understand your concern. This process actually helps reduce the power of those memories. How does that sound?",
+      "Client: I suppose that makes sense, but it's still scary. I've worked hard to build a life here, away from all that. I'm afraid this might undo all my progress. What if I can't handle it?"
+    ],
+    [
+      "Therapist: I understand your concern. This process actually helps reduce the power of those memories. How does that sound?",
+      "Client: I suppose that makes sense, but it's still scary. I've worked hard to build a life here, away from all that. I'm afraid this might undo all my progress. What if I can't handle it?",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What else is on your mind?"
+    ],
+    [
+      "Client: I suppose that makes sense, but it's still scary. I've worked hard to build a life here, away from all that. I'm afraid this might undo all my progress. What if I can't handle it?",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What else is on your mind?",
+      "Client: I guess I'm wondering what exactly I'll need to do. Do I just... start talking about what happened? And how long will this process take? I have a demanding job, and I'm worried about how this might affect my work performance."
+    ],
+    [
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What else is on your mind?",
+      "Client: I guess I'm wondering what exactly I'll need to do. Do I just... start talking about what happened? And how long will this process take? I have a demanding job, and I'm worried about how this might affect my work performance.",
+      "Therapist: You'll describe the event in detail, in the present tense. We'll do this for about 30-45 minutes. How does that timeframe feel?"
+    ],
+    [
+      "Client: I guess I'm wondering what exactly I'll need to do. Do I just... start talking about what happened? And how long will this process take? I have a demanding job, and I'm worried about how this might affect my work performance.",
+      "Therapist: You'll describe the event in detail, in the present tense. We'll do this for about 30-45 minutes. How does that timeframe feel?",
+      "Client: That sounds longer than I expected. I'm not sure I can talk about it for that long. What if I get overwhelmed or can't continue? And why do I need to use the present tense?"
+    ],
+    [
+      "Therapist: You'll describe the event in detail, in the present tense. We'll do this for about 30-45 minutes. How does that timeframe feel?",
+      "Client: That sounds longer than I expected. I'm not sure I can talk about it for that long. What if I get overwhelmed or can't continue? And why do I need to use the present tense?",
+      "Therapist: If you feel overwhelmed, we'll use coping strategies. The present tense helps process the memory. Shall we discuss some grounding techniques?"
+    ],
+    [
+      "Client: That sounds longer than I expected. I'm not sure I can talk about it for that long. What if I get overwhelmed or can't continue? And why do I need to use the present tense?",
+      "Therapist: If you feel overwhelmed, we'll use coping strategies. The present tense helps process the memory. Shall we discuss some grounding techniques?",
+      "Client: Yes, that would be helpful. I'm still nervous, but I appreciate you taking the time to explain this to me. I want to get better, I really do. It's just... confronting these memories feels like opening Pandora's box. I'm afraid of what might come out."
+    ],
+    [
+      "Therapist: If you feel overwhelmed, we'll use coping strategies. The present tense helps process the memory. Shall we discuss some grounding techniques?",
+      "Client: Yes, that would be helpful. I'm still nervous, but I appreciate you taking the time to explain this to me. I want to get better, I really do. It's just... confronting these memories feels like opening Pandora's box. I'm afraid of what might come out.",
+      "Therapist: Your courage is admirable. This process can be challenging, but it's a step towards healing. Ready to learn some grounding techniques?"
+    ],
+    [
+      "Client: Yes, that would be helpful. I'm still nervous, but I appreciate you taking the time to explain this to me. I want to get better, I really do. It's just... confronting these memories feels like opening Pandora's box. I'm afraid of what might come out.",
+      "Therapist: Your courage is admirable. This process can be challenging, but it's a step towards healing. Ready to learn some grounding techniques?",
+      "Client: Yes, I think that would help me feel more prepared. And thank you for saying that about courage. Sometimes I forget how far I've come since those days in the camp. It's been a long journey, and there are still moments when I feel like that scared person watching helplessly as violence unfolded around me. But I'm here now, and I'm trying. That counts for something, right?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can be challenging, but it's a step towards healing. Ready to learn some grounding techniques?",
+      "Client: Yes, I think that would help me feel more prepared. And thank you for saying that about courage. Sometimes I forget how far I've come since those days in the camp. It's been a long journey, and there are still moments when I feel like that scared person watching helplessly as violence unfolded around me. But I'm here now, and I'm trying. That counts for something, right?",
+      "Therapist: Absolutely. Your resilience is remarkable. Let's start with a simple breathing exercise. Can you take a deep breath with me?"
+    ]
+  ]
+}

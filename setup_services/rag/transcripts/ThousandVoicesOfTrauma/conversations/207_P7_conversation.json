@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Thompson. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the earthquake again, and it still makes me anxious.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. It's just... every time I think about it, my heart starts racing. That day, when the ground started shaking, I was at the grocery store. The shelves began to rattle, and items were falling everywhere. I froze, unable to move.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: People were screaming and running. I remember the sound of glass shattering. I couldn't think straight. All I could focus on was the violent shaking and the fear that the building might collapse on us.",
+    "Therapist: Stay with that moment. You're safe now.",
+    "Client: It's hard... I can still smell the mix of spilled products and dust in the air. My legs were shaking so much, I could barely stand. I kept thinking about my husband at home, wondering if he was okay.",
+    "Therapist: You're handling this well. Continue.",
+    "Client: I... I'm sorry, it's just overwhelming. The aftershocks kept coming, and each time, I thought it was starting all over again. I felt so helpless, so vulnerable.",
+    "Therapist: It's okay to feel this way. You're doing great.",
+    "Client: Thank you. It's still vivid in my mind. When I finally made it out of the store, the scene outside was chaotic. Cars were honking, sirens blaring. I saw a few injured people being helped by others. It was like a war zone.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: I couldn't get in touch with my husband for hours. The uncertainty was torture. When I finally reached home, our neighborhood was a mess. Some houses had partially collapsed. Ours had some damage, but it was still standing.",
+    "Therapist: You're doing well. How are you feeling now?",
+    "Client: It's... it's intense. My heart is racing, just like it did that day. But I also feel a strange sense of relief talking about it. Is that normal?",
+    "Therapist: Absolutely. That's a good sign.",
+    "Client: I see. Well, when I found my husband safe at home, I broke down crying. We hugged for what felt like hours. The relief was overwhelming, but so was the realization of what we'd just been through.",
+    "Therapist: You're handling this memory well.",
+    "Client: Thank you. It's still hard, you know? Even now, loud noises or sudden movements can startle me. I find myself constantly checking for exit routes wherever I go. It's exhausting.",
+    "Therapist: That's a common reaction. You're not alone.",
+    "Client: I appreciate that. I guess what bothers me most is how vulnerable I felt. Nature can be so powerful and unpredictable. It makes me feel small and helpless sometimes.",
+    "Therapist: Those are valid feelings. Continue.",
+    "Client: The aftermath was difficult too. We had to live with relatives for a while as our house was being repaired. The constant news coverage of the destruction and loss of life was overwhelming. I felt guilty for being relatively okay when others had lost so much.",
+    "Therapist: It's okay to have mixed feelings.",
+    "Client: Yes, I suppose so. The community came together in amazing ways, though. Neighbors helping neighbors, strangers offering support. It was beautiful to see, but it also highlighted the magnitude of what had happened.",
+    "Therapist: That's a powerful observation.",
+    "Client: Thank you. I think talking about it like this... it's helping. It's still painful, but it feels less overwhelming. Is that progress?",
+    "Therapist: Absolutely. You're doing great work.",
+    "Client: I'm glad to hear that. It's a relief to be able to discuss this without feeling completely overwhelmed. I know I still have a long way to go, but I feel a bit more hopeful now.",
+    "Therapist: That's excellent progress. How are you feeling?",
+    "Client: I'm feeling... lighter, I think. Tired, but in a good way. Like I've done something difficult but worthwhile. Thank you for guiding me through this.",
+    "Therapist: You've done very well today. Shall we wrap up?",
+    "Client: Yes, I think that would be good. This session has given me a lot to process. I'm looking forward to our next meeting, even though I know it won't be easy.",
+    "Therapist: That's a great attitude. Take care, Mrs. Thompson."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Thompson. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the earthquake again, and it still makes me anxious.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the earthquake again, and it still makes me anxious.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. That day, when the ground started shaking, I was at the grocery store. The shelves began to rattle, and items were falling everywhere. I froze, unable to move."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. That day, when the ground started shaking, I was at the grocery store. The shelves began to rattle, and items were falling everywhere. I froze, unable to move.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing. That day, when the ground started shaking, I was at the grocery store. The shelves began to rattle, and items were falling everywhere. I froze, unable to move.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: People were screaming and running. I remember the sound of glass shattering. I couldn't think straight. All I could focus on was the violent shaking and the fear that the building might collapse on us."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: People were screaming and running. I remember the sound of glass shattering. I couldn't think straight. All I could focus on was the violent shaking and the fear that the building might collapse on us.",
+      "Therapist: Stay with that moment. You're safe now."
+    ],
+    [
+      "Client: People were screaming and running. I remember the sound of glass shattering. I couldn't think straight. All I could focus on was the violent shaking and the fear that the building might collapse on us.",
+      "Therapist: Stay with that moment. You're safe now.",
+      "Client: It's hard... I can still smell the mix of spilled products and dust in the air. My legs were shaking so much, I could barely stand. I kept thinking about my husband at home, wondering if he was okay."
+    ],
+    [
+      "Therapist: Stay with that moment. You're safe now.",
+      "Client: It's hard... I can still smell the mix of spilled products and dust in the air. My legs were shaking so much, I could barely stand. I kept thinking about my husband at home, wondering if he was okay.",
+      "Therapist: You're handling this well. Continue."
+    ],
+    [
+      "Client: It's hard... I can still smell the mix of spilled products and dust in the air. My legs were shaking so much, I could barely stand. I kept thinking about my husband at home, wondering if he was okay.",
+      "Therapist: You're handling this well. Continue.",
+      "Client: I... I'm sorry, it's just overwhelming. The aftershocks kept coming, and each time, I thought it was starting all over again. I felt so helpless, so vulnerable."
+    ],
+    [
+      "Therapist: You're handling this well. Continue.",
+      "Client: I... I'm sorry, it's just overwhelming. The aftershocks kept coming, and each time, I thought it was starting all over again. I felt so helpless, so vulnerable.",
+      "Therapist: It's okay to feel this way. You're doing great."
+    ],
+    [
+      "Client: I... I'm sorry, it's just overwhelming. The aftershocks kept coming, and each time, I thought it was starting all over again. I felt so helpless, so vulnerable.",
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: Thank you. It's still vivid in my mind. When I finally made it out of the store, the scene outside was chaotic. Cars were honking, sirens blaring. I saw a few injured people being helped by others. It was like a war zone."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: Thank you. It's still vivid in my mind. When I finally made it out of the store, the scene outside was chaotic. Cars were honking, sirens blaring. I saw a few injured people being helped by others. It was like a war zone.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: Thank you. It's still vivid in my mind. When I finally made it out of the store, the scene outside was chaotic. Cars were honking, sirens blaring. I saw a few injured people being helped by others. It was like a war zone.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: I couldn't get in touch with my husband for hours. The uncertainty was torture. When I finally reached home, our neighborhood was a mess. Some houses had partially collapsed. Ours had some damage, but it was still standing."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: I couldn't get in touch with my husband for hours. The uncertainty was torture. When I finally reached home, our neighborhood was a mess. Some houses had partially collapsed. Ours had some damage, but it was still standing.",
+      "Therapist: You're doing well. How are you feeling now?"
+    ],
+    [
+      "Client: I couldn't get in touch with my husband for hours. The uncertainty was torture. When I finally reached home, our neighborhood was a mess. Some houses had partially collapsed. Ours had some damage, but it was still standing.",
+      "Therapist: You're doing well. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, just like it did that day. But I also feel a strange sense of relief talking about it. Is that normal?"
+    ],
+    [
+      "Therapist: You're doing well. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, just like it did that day. But I also feel a strange sense of relief talking about it. Is that normal?",
+      "Therapist: Absolutely. That's a good sign."
+    ],
+    [
+      "Client: It's... it's intense. My heart is racing, just like it did that day. But I also feel a strange sense of relief talking about it. Is that normal?",
+      "Therapist: Absolutely. That's a good sign.",
+      "Client: I see. Well, when I found my husband safe at home, I broke down crying. We hugged for what felt like hours. The relief was overwhelming, but so was the realization of what we'd just been through."
+    ],
+    [
+      "Therapist: Absolutely. That's a good sign.",
+      "Client: I see. Well, when I found my husband safe at home, I broke down crying. We hugged for what felt like hours. The relief was overwhelming, but so was the realization of what we'd just been through.",
+      "Therapist: You're handling this memory well."
+    ],
+    [
+      "Client: I see. Well, when I found my husband safe at home, I broke down crying. We hugged for what felt like hours. The relief was overwhelming, but so was the realization of what we'd just been through.",
+      "Therapist: You're handling this memory well.",
+      "Client: Thank you. It's still hard, you know? Even now, loud noises or sudden movements can startle me. I find myself constantly checking for exit routes wherever I go. It's exhausting."
+    ],
+    [
+      "Therapist: You're handling this memory well.",
+      "Client: Thank you. It's still hard, you know? Even now, loud noises or sudden movements can startle me. I find myself constantly checking for exit routes wherever I go. It's exhausting.",
+      "Therapist: That's a common reaction. You're not alone."
+    ],
+    [
+      "Client: Thank you. It's still hard, you know? Even now, loud noises or sudden movements can startle me. I find myself constantly checking for exit routes wherever I go. It's exhausting.",
+      "Therapist: That's a common reaction. You're not alone.",
+      "Client: I appreciate that. I guess what bothers me most is how vulnerable I felt. Nature can be so powerful and unpredictable. It makes me feel small and helpless sometimes."
+    ],
+    [
+      "Therapist: That's a common reaction. You're not alone.",
+      "Client: I appreciate that. I guess what bothers me most is how vulnerable I felt. Nature can be so powerful and unpredictable. It makes me feel small and helpless sometimes.",
+      "Therapist: Those are valid feelings. Continue."
+    ],
+    [
+      "Client: I appreciate that. I guess what bothers me most is how vulnerable I felt. Nature can be so powerful and unpredictable. It makes me feel small and helpless sometimes.",
+      "Therapist: Those are valid feelings. Continue.",
+      "Client: The aftermath was difficult too. We had to live with relatives for a while as our house was being repaired. The constant news coverage of the destruction and loss of life was overwhelming. I felt guilty for being relatively okay when others had lost so much."
+    ],
+    [
+      "Therapist: Those are valid feelings. Continue.",
+      "Client: The aftermath was difficult too. We had to live with relatives for a while as our house was being repaired. The constant news coverage of the destruction and loss of life was overwhelming. I felt guilty for being relatively okay when others had lost so much.",
+      "Therapist: It's okay to have mixed feelings."
+    ],
+    [
+      "Client: The aftermath was difficult too. We had to live with relatives for a while as our house was being repaired. The constant news coverage of the destruction and loss of life was overwhelming. I felt guilty for being relatively okay when others had lost so much.",
+      "Therapist: It's okay to have mixed feelings.",
+      "Client: Yes, I suppose so. The community came together in amazing ways, though. Neighbors helping neighbors, strangers offering support. It was beautiful to see, but it also highlighted the magnitude of what had happened."
+    ],
+    [
+      "Therapist: It's okay to have mixed feelings.",
+      "Client: Yes, I suppose so. The community came together in amazing ways, though. Neighbors helping neighbors, strangers offering support. It was beautiful to see, but it also highlighted the magnitude of what had happened.",
+      "Therapist: That's a powerful observation."
+    ],
+    [
+      "Client: Yes, I suppose so. The community came together in amazing ways, though. Neighbors helping neighbors, strangers offering support. It was beautiful to see, but it also highlighted the magnitude of what had happened.",
+      "Therapist: That's a powerful observation.",
+      "Client: Thank you. I think talking about it like this... it's helping. It's still painful, but it feels less overwhelming. Is that progress?"
+    ],
+    [
+      "Therapist: That's a powerful observation.",
+      "Client: Thank you. I think talking about it like this... it's helping. It's still painful, but it feels less overwhelming. Is that progress?",
+      "Therapist: Absolutely. You're doing great work."
+    ],
+    [
+      "Client: Thank you. I think talking about it like this... it's helping. It's still painful, but it feels less overwhelming. Is that progress?",
+      "Therapist: Absolutely. You're doing great work.",
+      "Client: I'm glad to hear that. It's a relief to be able to discuss this without feeling completely overwhelmed. I know I still have a long way to go, but I feel a bit more hopeful now."
+    ],
+    [
+      "Therapist: Absolutely. You're doing great work.",
+      "Client: I'm glad to hear that. It's a relief to be able to discuss this without feeling completely overwhelmed. I know I still have a long way to go, but I feel a bit more hopeful now.",
+      "Therapist: That's excellent progress. How are you feeling?"
+    ],
+    [
+      "Client: I'm glad to hear that. It's a relief to be able to discuss this without feeling completely overwhelmed. I know I still have a long way to go, but I feel a bit more hopeful now.",
+      "Therapist: That's excellent progress. How are you feeling?",
+      "Client: I'm feeling... lighter, I think. Tired, but in a good way. Like I've done something difficult but worthwhile. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: That's excellent progress. How are you feeling?",
+      "Client: I'm feeling... lighter, I think. Tired, but in a good way. Like I've done something difficult but worthwhile. Thank you for guiding me through this.",
+      "Therapist: You've done very well today. Shall we wrap up?"
+    ],
+    [
+      "Client: I'm feeling... lighter, I think. Tired, but in a good way. Like I've done something difficult but worthwhile. Thank you for guiding me through this.",
+      "Therapist: You've done very well today. Shall we wrap up?",
+      "Client: Yes, I think that would be good. This session has given me a lot to process. I'm looking forward to our next meeting, even though I know it won't be easy."
+    ],
+    [
+      "Therapist: You've done very well today. Shall we wrap up?",
+      "Client: Yes, I think that would be good. This session has given me a lot to process. I'm looking forward to our next meeting, even though I know it won't be easy.",
+      "Therapist: That's a great attitude. Take care, Mrs. Thompson."
+    ]
+  ]
+}

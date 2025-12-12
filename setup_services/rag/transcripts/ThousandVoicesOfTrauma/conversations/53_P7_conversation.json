@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+    "Client: I'm... I'm okay, I suppose. A bit nervous about revisiting that day again.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. It's just... every time I think about it, my heart starts racing.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: Okay... I'll try. It was a warm afternoon. I was walking home from the grocery store. I remember the weight of the bags in my hands...",
+    "Therapist: Good. Stay with that memory.",
+    "Client: I saw the police car turn the corner. At first, I didn't think much of it. But then it slowed down near me. I felt... uneasy.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The officer got out. He was young, probably in his twenties. He asked what I was doing in the neighborhood. I told him I lived there, but he didn't believe me. He... he started getting aggressive.",
+    "Therapist: It's okay to feel emotional. You're safe now.",
+    "Client: He grabbed my arm. It hurt. I dropped my groceries. I tried to explain, but he wouldn't listen. He pushed me against the car. I was so scared...",
+    "Therapist: You're very brave for sharing this. Continue when you're ready.",
+    "Client: I could hear my heart pounding in my ears. He was twisting my arm behind my back. I cried out in pain, but he just told me to shut up. I felt so... helpless.",
+    "Therapist: It's natural to feel that way. You're handling this well.",
+    "Client: My neighbors... they came out when they heard the commotion. They were shouting at the officer, telling him I lived there. But he ignored them. He was so focused on me, so angry...",
+    "Therapist: Stay with it. You're doing great.",
+    "Client: He slammed me against the hood of the car. I hit my head. Everything was spinning. I thought... I thought he might kill me right there on the street.",
+    "Therapist: You're safe now. Take a moment if you need to.",
+    "Client: I... I can't... It's too much...",
+    "Therapist: That's okay. You've done incredibly well. Let's take a break.",
+    "Client: Thank you... I just... I can still feel his hands on me sometimes. It's like I'm right back there.",
+    "Therapist: Your feelings are valid. You're showing immense strength.",
+    "Client: It's hard to believe that. I feel so weak when I remember it.",
+    "Therapist: Facing these memories takes courage. You're anything but weak.",
+    "Client: I suppose... It's just... I've lived in that neighborhood for 40 years. And in a moment, I was made to feel like I didn't belong.",
+    "Therapist: That must have been very painful. How are you feeling now?",
+    "Client: A bit shaky, but... better than I expected. Talking about it... it helps, even though it's hard.",
+    "Therapist: I'm glad it's helping. You're making progress.",
+    "Client: Thank you. I... I think I'm ready to continue. After my neighbors intervened, the officer finally let me go. But he didn't apologize. He just got in his car and drove away.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: I was left there, on the sidewalk, with my groceries scattered everywhere. My neighbors helped me up, got my things. I was trembling so much I could barely stand.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: I felt so... humiliated. Violated. Like my dignity had been stripped away in front of everyone. I've never felt so small in my life.",
+    "Therapist: You're very brave for sharing this. How do you feel now?",
+    "Client: Angry. Sad. But... also a little relieved. Talking about it... it's like letting out a breath I've been holding for a long time.",
+    "Therapist: That's a positive step. You should be proud of yourself.",
+    "Client: Thank you. I... I think I need a moment. This is a lot to process.",
+    "Therapist: Of course. Take all the time you need. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+      "Client: I'm... I'm okay, I suppose. A bit nervous about revisiting that day again.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm... I'm okay, I suppose. A bit nervous about revisiting that day again.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... I'll try. It was a warm afternoon. I was walking home from the grocery store. I remember the weight of the bags in my hands..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... I'll try. It was a warm afternoon. I was walking home from the grocery store. I remember the weight of the bags in my hands...",
+      "Therapist: Good. Stay with that memory."
+    ],
+    [
+      "Client: Okay... I'll try. It was a warm afternoon. I was walking home from the grocery store. I remember the weight of the bags in my hands...",
+      "Therapist: Good. Stay with that memory.",
+      "Client: I saw the police car turn the corner. At first, I didn't think much of it. But then it slowed down near me. I felt... uneasy."
+    ],
+    [
+      "Therapist: Good. Stay with that memory.",
+      "Client: I saw the police car turn the corner. At first, I didn't think much of it. But then it slowed down near me. I felt... uneasy.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: I saw the police car turn the corner. At first, I didn't think much of it. But then it slowed down near me. I felt... uneasy.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The officer got out. He was young, probably in his twenties. He asked what I was doing in the neighborhood. I told him I lived there, but he didn't believe me. He... he started getting aggressive."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The officer got out. He was young, probably in his twenties. He asked what I was doing in the neighborhood. I told him I lived there, but he didn't believe me. He... he started getting aggressive.",
+      "Therapist: It's okay to feel emotional. You're safe now."
+    ],
+    [
+      "Client: The officer got out. He was young, probably in his twenties. He asked what I was doing in the neighborhood. I told him I lived there, but he didn't believe me. He... he started getting aggressive.",
+      "Therapist: It's okay to feel emotional. You're safe now.",
+      "Client: He grabbed my arm. It hurt. I dropped my groceries. I tried to explain, but he wouldn't listen. He pushed me against the car. I was so scared..."
+    ],
+    [
+      "Therapist: It's okay to feel emotional. You're safe now.",
+      "Client: He grabbed my arm. It hurt. I dropped my groceries. I tried to explain, but he wouldn't listen. He pushed me against the car. I was so scared...",
+      "Therapist: You're very brave for sharing this. Continue when you're ready."
+    ],
+    [
+      "Client: He grabbed my arm. It hurt. I dropped my groceries. I tried to explain, but he wouldn't listen. He pushed me against the car. I was so scared...",
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: I could hear my heart pounding in my ears. He was twisting my arm behind my back. I cried out in pain, but he just told me to shut up. I felt so... helpless."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: I could hear my heart pounding in my ears. He was twisting my arm behind my back. I cried out in pain, but he just told me to shut up. I felt so... helpless.",
+      "Therapist: It's natural to feel that way. You're handling this well."
+    ],
+    [
+      "Client: I could hear my heart pounding in my ears. He was twisting my arm behind my back. I cried out in pain, but he just told me to shut up. I felt so... helpless.",
+      "Therapist: It's natural to feel that way. You're handling this well.",
+      "Client: My neighbors... they came out when they heard the commotion. They were shouting at the officer, telling him I lived there. But he ignored them. He was so focused on me, so angry..."
+    ],
+    [
+      "Therapist: It's natural to feel that way. You're handling this well.",
+      "Client: My neighbors... they came out when they heard the commotion. They were shouting at the officer, telling him I lived there. But he ignored them. He was so focused on me, so angry...",
+      "Therapist: Stay with it. You're doing great."
+    ],
+    [
+      "Client: My neighbors... they came out when they heard the commotion. They were shouting at the officer, telling him I lived there. But he ignored them. He was so focused on me, so angry...",
+      "Therapist: Stay with it. You're doing great.",
+      "Client: He slammed me against the hood of the car. I hit my head. Everything was spinning. I thought... I thought he might kill me right there on the street."
+    ],
+    [
+      "Therapist: Stay with it. You're doing great.",
+      "Client: He slammed me against the hood of the car. I hit my head. Everything was spinning. I thought... I thought he might kill me right there on the street.",
+      "Therapist: You're safe now. Take a moment if you need to."
+    ],
+    [
+      "Client: He slammed me against the hood of the car. I hit my head. Everything was spinning. I thought... I thought he might kill me right there on the street.",
+      "Therapist: You're safe now. Take a moment if you need to.",
+      "Client: I... I can't... It's too much..."
+    ],
+    [
+      "Therapist: You're safe now. Take a moment if you need to.",
+      "Client: I... I can't... It's too much...",
+      "Therapist: That's okay. You've done incredibly well. Let's take a break."
+    ],
+    [
+      "Client: I... I can't... It's too much...",
+      "Therapist: That's okay. You've done incredibly well. Let's take a break.",
+      "Client: Thank you... I just... I can still feel his hands on me sometimes. It's like I'm right back there."
+    ],
+    [
+      "Therapist: That's okay. You've done incredibly well. Let's take a break.",
+      "Client: Thank you... I just... I can still feel his hands on me sometimes. It's like I'm right back there.",
+      "Therapist: Your feelings are valid. You're showing immense strength."
+    ],
+    [
+      "Client: Thank you... I just... I can still feel his hands on me sometimes. It's like I'm right back there.",
+      "Therapist: Your feelings are valid. You're showing immense strength.",
+      "Client: It's hard to believe that. I feel so weak when I remember it."
+    ],
+    [
+      "Therapist: Your feelings are valid. You're showing immense strength.",
+      "Client: It's hard to believe that. I feel so weak when I remember it.",
+      "Therapist: Facing these memories takes courage. You're anything but weak."
+    ],
+    [
+      "Client: It's hard to believe that. I feel so weak when I remember it.",
+      "Therapist: Facing these memories takes courage. You're anything but weak.",
+      "Client: I suppose... It's just... I've lived in that neighborhood for 40 years. And in a moment, I was made to feel like I didn't belong."
+    ],
+    [
+      "Therapist: Facing these memories takes courage. You're anything but weak.",
+      "Client: I suppose... It's just... I've lived in that neighborhood for 40 years. And in a moment, I was made to feel like I didn't belong.",
+      "Therapist: That must have been very painful. How are you feeling now?"
+    ],
+    [
+      "Client: I suppose... It's just... I've lived in that neighborhood for 40 years. And in a moment, I was made to feel like I didn't belong.",
+      "Therapist: That must have been very painful. How are you feeling now?",
+      "Client: A bit shaky, but... better than I expected. Talking about it... it helps, even though it's hard."
+    ],
+    [
+      "Therapist: That must have been very painful. How are you feeling now?",
+      "Client: A bit shaky, but... better than I expected. Talking about it... it helps, even though it's hard.",
+      "Therapist: I'm glad it's helping. You're making progress."
+    ],
+    [
+      "Client: A bit shaky, but... better than I expected. Talking about it... it helps, even though it's hard.",
+      "Therapist: I'm glad it's helping. You're making progress.",
+      "Client: Thank you. I... I think I'm ready to continue. After my neighbors intervened, the officer finally let me go. But he didn't apologize. He just got in his car and drove away."
+    ],
+    [
+      "Therapist: I'm glad it's helping. You're making progress.",
+      "Client: Thank you. I... I think I'm ready to continue. After my neighbors intervened, the officer finally let me go. But he didn't apologize. He just got in his car and drove away.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Thank you. I... I think I'm ready to continue. After my neighbors intervened, the officer finally let me go. But he didn't apologize. He just got in his car and drove away.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: I was left there, on the sidewalk, with my groceries scattered everywhere. My neighbors helped me up, got my things. I was trembling so much I could barely stand."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: I was left there, on the sidewalk, with my groceries scattered everywhere. My neighbors helped me up, got my things. I was trembling so much I could barely stand.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: I was left there, on the sidewalk, with my groceries scattered everywhere. My neighbors helped me up, got my things. I was trembling so much I could barely stand.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I felt so... humiliated. Violated. Like my dignity had been stripped away in front of everyone. I've never felt so small in my life."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I felt so... humiliated. Violated. Like my dignity had been stripped away in front of everyone. I've never felt so small in my life.",
+      "Therapist: You're very brave for sharing this. How do you feel now?"
+    ],
+    [
+      "Client: I felt so... humiliated. Violated. Like my dignity had been stripped away in front of everyone. I've never felt so small in my life.",
+      "Therapist: You're very brave for sharing this. How do you feel now?",
+      "Client: Angry. Sad. But... also a little relieved. Talking about it... it's like letting out a breath I've been holding for a long time."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. How do you feel now?",
+      "Client: Angry. Sad. But... also a little relieved. Talking about it... it's like letting out a breath I've been holding for a long time.",
+      "Therapist: That's a positive step. You should be proud of yourself."
+    ],
+    [
+      "Client: Angry. Sad. But... also a little relieved. Talking about it... it's like letting out a breath I've been holding for a long time.",
+      "Therapist: That's a positive step. You should be proud of yourself.",
+      "Client: Thank you. I... I think I need a moment. This is a lot to process."
+    ],
+    [
+      "Therapist: That's a positive step. You should be proud of yourself.",
+      "Client: Thank you. I... I think I need a moment. This is a lot to process.",
+      "Therapist: Of course. Take all the time you need. You've done excellent work today."
+    ]
+  ]
+}

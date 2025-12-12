@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sam?",
+    "Client: I... I'm not sure. It's a lot to process. Going through that memory of being in that cell, it just brought everything back. The darkness, the isolation, the fear... It's like I was right back there.",
+    "Therapist: What stood out most to you?",
+    "Client: The silence. It was deafening. I remember lying on that cold floor, trying to make out any sound, anything to remind me I wasn't completely alone in the world. But there was nothing. Just... emptiness.",
+    "Therapist: How did that emptiness affect you?",
+    "Client: It was suffocating. I felt so small, so insignificant. Like I'd been forgotten by everyone. My family, my friends... it's like I ceased to exist. And that feeling, it's stayed with me even now. Sometimes I still feel invisible, you know?",
+    "Therapist: I hear you. How does this connect to your everyday life now?",
+    "Client: I guess... I still struggle to reach out to people. I isolate myself, even when I know it's not good for me. It's like I'm still in that cell sometimes, unable to break free from the silence.",
+    "Therapist: What helped you get through those moments in the cell?",
+    "Client: I... I tried to remember my mother's voice. She used to sing to me when I was little. I'd close my eyes and try to hear her melody. It didn't always work, but when it did, it was like a tiny light in all that darkness.",
+    "Therapist: That's a powerful coping strategy. How might you use that now?",
+    "Client: I hadn't thought about it like that. Maybe... maybe I could record some of her songs? Listen to them when I'm feeling low or isolated?",
+    "Therapist: That's an excellent idea. What else?",
+    "Client: I could also try to reach out more. Maybe call a friend when I'm feeling that emptiness creeping in. It's scary, but... I think it might help.",
+    "Therapist: How do you feel about your progress today?",
+    "Client: It was tough, really tough. But... I feel like I understand myself a bit better now. Like I can see the connection between then and now more clearly. It's exhausting, but also... I don't know, maybe a little empowering?",
+    "Therapist: That's great insight, Sam. What's your takeaway?",
+    "Client: I think... I'm not alone anymore. I don't have to be. And maybe, just maybe, I can start to break out of that invisible cell I've been carrying with me.",
+    "Therapist: Excellent. How will you care for yourself tonight?",
+    "Client: I think I'll call my sister. We haven't talked in a while, and... well, I miss her voice. And maybe I'll try writing down some of those coping strategies we talked about. Is that okay?",
+    "Therapist: That sounds perfect. Ready to wrap up?",
+    "Client: Yeah, I think so. Thank you for... for helping me through this. It's not easy, but I'm glad I'm doing it.",
+    "Therapist: You're doing great work, Sam. See you next week?",
+    "Client: Definitely. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sam?",
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of being in that cell, it just brought everything back. The darkness, the isolation, the fear... It's like I was right back there.",
+      "Therapist: What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of being in that cell, it just brought everything back. The darkness, the isolation, the fear... It's like I was right back there.",
+      "Therapist: What stood out most to you?",
+      "Client: The silence. It was deafening. I remember lying on that cold floor, trying to make out any sound, anything to remind me I wasn't completely alone in the world. But there was nothing. Just... emptiness."
+    ],
+    [
+      "Therapist: What stood out most to you?",
+      "Client: The silence. It was deafening. I remember lying on that cold floor, trying to make out any sound, anything to remind me I wasn't completely alone in the world. But there was nothing. Just... emptiness.",
+      "Therapist: How did that emptiness affect you?"
+    ],
+    [
+      "Client: The silence. It was deafening. I remember lying on that cold floor, trying to make out any sound, anything to remind me I wasn't completely alone in the world. But there was nothing. Just... emptiness.",
+      "Therapist: How did that emptiness affect you?",
+      "Client: It was suffocating. I felt so small, so insignificant. Like I'd been forgotten by everyone. My family, my friends... it's like I ceased to exist. And that feeling, it's stayed with me even now. Sometimes I still feel invisible, you know?"
+    ],
+    [
+      "Therapist: How did that emptiness affect you?",
+      "Client: It was suffocating. I felt so small, so insignificant. Like I'd been forgotten by everyone. My family, my friends... it's like I ceased to exist. And that feeling, it's stayed with me even now. Sometimes I still feel invisible, you know?",
+      "Therapist: I hear you. How does this connect to your everyday life now?"
+    ],
+    [
+      "Client: It was suffocating. I felt so small, so insignificant. Like I'd been forgotten by everyone. My family, my friends... it's like I ceased to exist. And that feeling, it's stayed with me even now. Sometimes I still feel invisible, you know?",
+      "Therapist: I hear you. How does this connect to your everyday life now?",
+      "Client: I guess... I still struggle to reach out to people. I isolate myself, even when I know it's not good for me. It's like I'm still in that cell sometimes, unable to break free from the silence."
+    ],
+    [
+      "Therapist: I hear you. How does this connect to your everyday life now?",
+      "Client: I guess... I still struggle to reach out to people. I isolate myself, even when I know it's not good for me. It's like I'm still in that cell sometimes, unable to break free from the silence.",
+      "Therapist: What helped you get through those moments in the cell?"
+    ],
+    [
+      "Client: I guess... I still struggle to reach out to people. I isolate myself, even when I know it's not good for me. It's like I'm still in that cell sometimes, unable to break free from the silence.",
+      "Therapist: What helped you get through those moments in the cell?",
+      "Client: I... I tried to remember my mother's voice. She used to sing to me when I was little. I'd close my eyes and try to hear her melody. It didn't always work, but when it did, it was like a tiny light in all that darkness."
+    ],
+    [
+      "Therapist: What helped you get through those moments in the cell?",
+      "Client: I... I tried to remember my mother's voice. She used to sing to me when I was little. I'd close my eyes and try to hear her melody. It didn't always work, but when it did, it was like a tiny light in all that darkness.",
+      "Therapist: That's a powerful coping strategy. How might you use that now?"
+    ],
+    [
+      "Client: I... I tried to remember my mother's voice. She used to sing to me when I was little. I'd close my eyes and try to hear her melody. It didn't always work, but when it did, it was like a tiny light in all that darkness.",
+      "Therapist: That's a powerful coping strategy. How might you use that now?",
+      "Client: I hadn't thought about it like that. Maybe... maybe I could record some of her songs? Listen to them when I'm feeling low or isolated?"
+    ],
+    [
+      "Therapist: That's a powerful coping strategy. How might you use that now?",
+      "Client: I hadn't thought about it like that. Maybe... maybe I could record some of her songs? Listen to them when I'm feeling low or isolated?",
+      "Therapist: That's an excellent idea. What else?"
+    ],
+    [
+      "Client: I hadn't thought about it like that. Maybe... maybe I could record some of her songs? Listen to them when I'm feeling low or isolated?",
+      "Therapist: That's an excellent idea. What else?",
+      "Client: I could also try to reach out more. Maybe call a friend when I'm feeling that emptiness creeping in. It's scary, but... I think it might help."
+    ],
+    [
+      "Therapist: That's an excellent idea. What else?",
+      "Client: I could also try to reach out more. Maybe call a friend when I'm feeling that emptiness creeping in. It's scary, but... I think it might help.",
+      "Therapist: How do you feel about your progress today?"
+    ],
+    [
+      "Client: I could also try to reach out more. Maybe call a friend when I'm feeling that emptiness creeping in. It's scary, but... I think it might help.",
+      "Therapist: How do you feel about your progress today?",
+      "Client: It was tough, really tough. But... I feel like I understand myself a bit better now. Like I can see the connection between then and now more clearly. It's exhausting, but also... I don't know, maybe a little empowering?"
+    ],
+    [
+      "Therapist: How do you feel about your progress today?",
+      "Client: It was tough, really tough. But... I feel like I understand myself a bit better now. Like I can see the connection between then and now more clearly. It's exhausting, but also... I don't know, maybe a little empowering?",
+      "Therapist: That's great insight, Sam. What's your takeaway?"
+    ],
+    [
+      "Client: It was tough, really tough. But... I feel like I understand myself a bit better now. Like I can see the connection between then and now more clearly. It's exhausting, but also... I don't know, maybe a little empowering?",
+      "Therapist: That's great insight, Sam. What's your takeaway?",
+      "Client: I think... I'm not alone anymore. I don't have to be. And maybe, just maybe, I can start to break out of that invisible cell I've been carrying with me."
+    ],
+    [
+      "Therapist: That's great insight, Sam. What's your takeaway?",
+      "Client: I think... I'm not alone anymore. I don't have to be. And maybe, just maybe, I can start to break out of that invisible cell I've been carrying with me.",
+      "Therapist: Excellent. How will you care for yourself tonight?"
+    ],
+    [
+      "Client: I think... I'm not alone anymore. I don't have to be. And maybe, just maybe, I can start to break out of that invisible cell I've been carrying with me.",
+      "Therapist: Excellent. How will you care for yourself tonight?",
+      "Client: I think I'll call my sister. We haven't talked in a while, and... well, I miss her voice. And maybe I'll try writing down some of those coping strategies we talked about. Is that okay?"
+    ],
+    [
+      "Therapist: Excellent. How will you care for yourself tonight?",
+      "Client: I think I'll call my sister. We haven't talked in a while, and... well, I miss her voice. And maybe I'll try writing down some of those coping strategies we talked about. Is that okay?",
+      "Therapist: That sounds perfect. Ready to wrap up?"
+    ],
+    [
+      "Client: I think I'll call my sister. We haven't talked in a while, and... well, I miss her voice. And maybe I'll try writing down some of those coping strategies we talked about. Is that okay?",
+      "Therapist: That sounds perfect. Ready to wrap up?",
+      "Client: Yeah, I think so. Thank you for... for helping me through this. It's not easy, but I'm glad I'm doing it."
+    ],
+    [
+      "Therapist: That sounds perfect. Ready to wrap up?",
+      "Client: Yeah, I think so. Thank you for... for helping me through this. It's not easy, but I'm glad I'm doing it.",
+      "Therapist: You're doing great work, Sam. See you next week?"
+    ],
+    [
+      "Client: Yeah, I think so. Thank you for... for helping me through this. It's not easy, but I'm glad I'm doing it.",
+      "Therapist: You're doing great work, Sam. See you next week?",
+      "Client: Definitely. See you then."
+    ]
+  ]
+}

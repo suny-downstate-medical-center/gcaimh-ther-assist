@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Carlos, let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your severe illness.",
+    "Client: Okay... I'm in the hospital room. The beeping of the machines is constant. I feel so weak, like I can barely lift my arm. The smell of disinfectant is overwhelming. I'm... I'm scared.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, probably a 6 out of 10. My heart is racing a bit.",
+    "Therapist: That's okay. Keep going.",
+    "Client: The doctor comes in. His face is serious. I can tell it's not good news. My wife is holding my hand, but I feel so alone. The doctor starts talking about treatment options, but his words are just a blur. I'm thinking about my kids, wondering if I'll see them grow up.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up. Maybe an 8. I can feel my palms getting sweaty.",
+    "Therapist: You're doing well. Stay with the memory.",
+    "Client: I remember looking at the IV in my arm, thinking about how fragile life is. The nurse comes in to change my medication, and I just feel so helpless. I want to get up and leave, but I can't. I'm trapped in this sick body, and I don't know if I'll ever feel normal again.",
+    "Therapist: How are you feeling now?",
+    "Client: It's... it's intense. My SUDS is probably a 9. I feel like I can't breathe properly.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: *takes a deep breath* Okay... I'm trying to focus. I remember my mom visiting. She looks so worried, and I feel guilty for causing her pain. She's trying to be strong, but I can see the fear in her eyes. It reminds me of when I was a kid, how she wasn't always there when I needed her.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's still high. Maybe an 8.5. My chest feels tight.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The nights were the worst. The hospital is never truly quiet, but it feels so lonely. I'm lying there, staring at the ceiling, wondering if I'll wake up the next morning. The neglect I felt as a child comes rushing back - that feeling of being alone, of not mattering.",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7 now. I feel drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: Yeah... As I lie there, I start to think about all the things I want to do if I get better. I promise myself I'll be a better father, a better husband. I don't want my kids to ever feel the neglect I felt. The sun starts to rise, and I feel a glimmer of hope.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm... I'm okay. My SUDS is down to a 5. I feel tired but also somewhat relieved.",
+    "Therapist: You've done excellent work today, Carlos.",
+    "Client: Thanks. It was tough, but I feel like I've faced something important.",
+    "Therapist: That's great progress. Let's end here and discuss what you've experienced."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Carlos, let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your severe illness."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your severe illness.",
+      "Client: Okay... I'm in the hospital room. The beeping of the machines is constant. I feel so weak, like I can barely lift my arm. The smell of disinfectant is overwhelming. I'm... I'm scared."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your severe illness.",
+      "Client: Okay... I'm in the hospital room. The beeping of the machines is constant. I feel so weak, like I can barely lift my arm. The smell of disinfectant is overwhelming. I'm... I'm scared.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm in the hospital room. The beeping of the machines is constant. I feel so weak, like I can barely lift my arm. The smell of disinfectant is overwhelming. I'm... I'm scared.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6 out of 10. My heart is racing a bit."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6 out of 10. My heart is racing a bit.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: Um, probably a 6 out of 10. My heart is racing a bit.",
+      "Therapist: That's okay. Keep going.",
+      "Client: The doctor comes in. His face is serious. I can tell it's not good news. My wife is holding my hand, but I feel so alone. The doctor starts talking about treatment options, but his words are just a blur. I'm thinking about my kids, wondering if I'll see them grow up."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: The doctor comes in. His face is serious. I can tell it's not good news. My wife is holding my hand, but I feel so alone. The doctor starts talking about treatment options, but his words are just a blur. I'm thinking about my kids, wondering if I'll see them grow up.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The doctor comes in. His face is serious. I can tell it's not good news. My wife is holding my hand, but I feel so alone. The doctor starts talking about treatment options, but his words are just a blur. I'm thinking about my kids, wondering if I'll see them grow up.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe an 8. I can feel my palms getting sweaty."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe an 8. I can feel my palms getting sweaty.",
+      "Therapist: You're doing well. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe an 8. I can feel my palms getting sweaty.",
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: I remember looking at the IV in my arm, thinking about how fragile life is. The nurse comes in to change my medication, and I just feel so helpless. I want to get up and leave, but I can't. I'm trapped in this sick body, and I don't know if I'll ever feel normal again."
+    ],
+    [
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: I remember looking at the IV in my arm, thinking about how fragile life is. The nurse comes in to change my medication, and I just feel so helpless. I want to get up and leave, but I can't. I'm trapped in this sick body, and I don't know if I'll ever feel normal again.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I remember looking at the IV in my arm, thinking about how fragile life is. The nurse comes in to change my medication, and I just feel so helpless. I want to get up and leave, but I can't. I'm trapped in this sick body, and I don't know if I'll ever feel normal again.",
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's intense. My SUDS is probably a 9. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's intense. My SUDS is probably a 9. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's intense. My SUDS is probably a 9. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *takes a deep breath* Okay... I'm trying to focus. I remember my mom visiting. She looks so worried, and I feel guilty for causing her pain. She's trying to be strong, but I can see the fear in her eyes. It reminds me of when I was a kid, how she wasn't always there when I needed her."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *takes a deep breath* Okay... I'm trying to focus. I remember my mom visiting. She looks so worried, and I feel guilty for causing her pain. She's trying to be strong, but I can see the fear in her eyes. It reminds me of when I was a kid, how she wasn't always there when I needed her.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: *takes a deep breath* Okay... I'm trying to focus. I remember my mom visiting. She looks so worried, and I feel guilty for causing her pain. She's trying to be strong, but I can see the fear in her eyes. It reminds me of when I was a kid, how she wasn't always there when I needed her.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still high. Maybe an 8.5. My chest feels tight."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still high. Maybe an 8.5. My chest feels tight.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: It's... it's still high. Maybe an 8.5. My chest feels tight.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The nights were the worst. The hospital is never truly quiet, but it feels so lonely. I'm lying there, staring at the ceiling, wondering if I'll wake up the next morning. The neglect I felt as a child comes rushing back - that feeling of being alone, of not mattering."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The nights were the worst. The hospital is never truly quiet, but it feels so lonely. I'm lying there, staring at the ceiling, wondering if I'll wake up the next morning. The neglect I felt as a child comes rushing back - that feeling of being alone, of not mattering.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: The nights were the worst. The hospital is never truly quiet, but it feels so lonely. I'm lying there, staring at the ceiling, wondering if I'll wake up the next morning. The neglect I felt as a child comes rushing back - that feeling of being alone, of not mattering.",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I feel drained."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I feel drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I feel drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: Yeah... As I lie there, I start to think about all the things I want to do if I get better. I promise myself I'll be a better father, a better husband. I don't want my kids to ever feel the neglect I felt. The sun starts to rise, and I feel a glimmer of hope."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: Yeah... As I lie there, I start to think about all the things I want to do if I get better. I promise myself I'll be a better father, a better husband. I don't want my kids to ever feel the neglect I felt. The sun starts to rise, and I feel a glimmer of hope.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Yeah... As I lie there, I start to think about all the things I want to do if I get better. I promise myself I'll be a better father, a better husband. I don't want my kids to ever feel the neglect I felt. The sun starts to rise, and I feel a glimmer of hope.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm okay. My SUDS is down to a 5. I feel tired but also somewhat relieved."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm okay. My SUDS is down to a 5. I feel tired but also somewhat relieved.",
+      "Therapist: You've done excellent work today, Carlos."
+    ],
+    [
+      "Client: I'm... I'm okay. My SUDS is down to a 5. I feel tired but also somewhat relieved.",
+      "Therapist: You've done excellent work today, Carlos.",
+      "Client: Thanks. It was tough, but I feel like I've faced something important."
+    ],
+    [
+      "Therapist: You've done excellent work today, Carlos.",
+      "Client: Thanks. It was tough, but I feel like I've faced something important.",
+      "Therapist: That's great progress. Let's end here and discuss what you've experienced."
+    ]
+  ]
+}

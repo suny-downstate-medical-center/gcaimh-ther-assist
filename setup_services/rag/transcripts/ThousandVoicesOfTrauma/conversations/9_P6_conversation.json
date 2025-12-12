@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, John. Are you ready to begin our imaginal exposure exercise?",
+    "Client: I... I think so. I'm feeling a bit nervous, to be honest.",
+    "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+    "Client: I'd say about a 40. My stomach's a bit knotted up.",
+    "Therapist: Okay. Let's begin. Close your eyes and bring yourself back to that moment.",
+    "Client: (takes a deep breath) Alright. I'm... I'm in the hospital room. The beeping of the machines is so loud. I can smell the disinfectant. The doctor just walked in with my test results. His face is so serious...",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: My heart is racing. I feel like I can't breathe properly. The room seems to be closing in on me.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's gone up to about 65. I feel so helpless, just like I did back then.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The doctor is speaking, but I can barely hear him over the pounding in my ears. \"Stage 4,\" he says. I feel like I've been punched in the gut. My wife grabs my hand, but I can't feel it. I'm numb.",
+    "Therapist: How's your distress level?",
+    "Client: It's... it's about 80 now. I feel like I'm right back there, receiving that news all over again.",
+    "Therapist: You're handling this bravely. What happens next?",
+    "Client: I... I start to cry. I've never felt so scared and alone, even with my wife right there. The doctor keeps talking about treatment options, but all I can think about is dying. I remember feeling so angry - why me? Why now?",
+    "Therapist: And your SUDS rating?",
+    "Client: It's still around 80. My hands are shaking just thinking about it.",
+    "Therapist: That's okay. You're safe here. Continue.",
+    "Client: I look at my wife, and I see the fear in her eyes. I feel guilty for putting her through this. I start thinking about all the things I might not get to do, might not get to see. Our grandchildren growing up, traveling together...",
+    "Therapist: How are you feeling now?",
+    "Client: The distress is... it's actually gone down a bit. Maybe to a 70? I'm feeling sad, but also... I don't know, maybe a little grateful? We did get more time together.",
+    "Therapist: That's a normal reaction. Keep going.",
+    "Client: As the doctor finishes explaining, I start to feel a strange sense of determination. I decide right then that I'm going to fight this with everything I have. For my wife, for our family.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's down to about 60. I'm feeling emotional, but also... stronger, I guess?",
+    "Therapist: You're doing great. Let's continue for a few more minutes.",
+    "Client: Okay. We leave the doctor's office, and my wife and I just hold each other in the hallway. I can feel her trembling, but her embrace is so comforting. I remember thinking that no matter what happens, at least we have each other.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm at about a 50. I feel drained, but also... I don't know, maybe a little proud? We got through it together.",
+    "Therapist: That's excellent progress. Let's end the exercise here. How are you feeling overall?",
+    "Client: Exhausted, but... okay. It wasn't as overwhelming as I thought it would be.",
+    "Therapist: You did very well. Let's take a few deep breaths together.",
+    "Client: (takes several deep breaths) Thank you. I feel more in control now.",
+    "Therapist: That's great. We'll discuss this more next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, John. Are you ready to begin our imaginal exposure exercise?",
+      "Client: I... I think so. I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?"
+    ],
+    [
+      "Client: I... I think so. I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: I'd say about a 40. My stomach's a bit knotted up."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: I'd say about a 40. My stomach's a bit knotted up.",
+      "Therapist: Okay. Let's begin. Close your eyes and bring yourself back to that moment."
+    ],
+    [
+      "Client: I'd say about a 40. My stomach's a bit knotted up.",
+      "Therapist: Okay. Let's begin. Close your eyes and bring yourself back to that moment.",
+      "Client: (takes a deep breath) Alright. I'm... I'm in the hospital room. The beeping of the machines is so loud. I can smell the disinfectant. The doctor just walked in with my test results. His face is so serious..."
+    ],
+    [
+      "Therapist: Okay. Let's begin. Close your eyes and bring yourself back to that moment.",
+      "Client: (takes a deep breath) Alright. I'm... I'm in the hospital room. The beeping of the machines is so loud. I can smell the disinfectant. The doctor just walked in with my test results. His face is so serious...",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: (takes a deep breath) Alright. I'm... I'm in the hospital room. The beeping of the machines is so loud. I can smell the disinfectant. The doctor just walked in with my test results. His face is so serious...",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: My heart is racing. I feel like I can't breathe properly. The room seems to be closing in on me."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: My heart is racing. I feel like I can't breathe properly. The room seems to be closing in on me.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: My heart is racing. I feel like I can't breathe properly. The room seems to be closing in on me.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to about 65. I feel so helpless, just like I did back then."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to about 65. I feel so helpless, just like I did back then.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to about 65. I feel so helpless, just like I did back then.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The doctor is speaking, but I can barely hear him over the pounding in my ears. \"Stage 4,\" he says. I feel like I've been punched in the gut. My wife grabs my hand, but I can't feel it. I'm numb."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The doctor is speaking, but I can barely hear him over the pounding in my ears. \"Stage 4,\" he says. I feel like I've been punched in the gut. My wife grabs my hand, but I can't feel it. I'm numb.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: The doctor is speaking, but I can barely hear him over the pounding in my ears. \"Stage 4,\" he says. I feel like I've been punched in the gut. My wife grabs my hand, but I can't feel it. I'm numb.",
+      "Therapist: How's your distress level?",
+      "Client: It's... it's about 80 now. I feel like I'm right back there, receiving that news all over again."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's... it's about 80 now. I feel like I'm right back there, receiving that news all over again.",
+      "Therapist: You're handling this bravely. What happens next?"
+    ],
+    [
+      "Client: It's... it's about 80 now. I feel like I'm right back there, receiving that news all over again.",
+      "Therapist: You're handling this bravely. What happens next?",
+      "Client: I... I start to cry. I've never felt so scared and alone, even with my wife right there. The doctor keeps talking about treatment options, but all I can think about is dying. I remember feeling so angry - why me? Why now?"
+    ],
+    [
+      "Therapist: You're handling this bravely. What happens next?",
+      "Client: I... I start to cry. I've never felt so scared and alone, even with my wife right there. The doctor keeps talking about treatment options, but all I can think about is dying. I remember feeling so angry - why me? Why now?",
+      "Therapist: And your SUDS rating?"
+    ],
+    [
+      "Client: I... I start to cry. I've never felt so scared and alone, even with my wife right there. The doctor keeps talking about treatment options, but all I can think about is dying. I remember feeling so angry - why me? Why now?",
+      "Therapist: And your SUDS rating?",
+      "Client: It's still around 80. My hands are shaking just thinking about it."
+    ],
+    [
+      "Therapist: And your SUDS rating?",
+      "Client: It's still around 80. My hands are shaking just thinking about it.",
+      "Therapist: That's okay. You're safe here. Continue."
+    ],
+    [
+      "Client: It's still around 80. My hands are shaking just thinking about it.",
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: I look at my wife, and I see the fear in her eyes. I feel guilty for putting her through this. I start thinking about all the things I might not get to do, might not get to see. Our grandchildren growing up, traveling together..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: I look at my wife, and I see the fear in her eyes. I feel guilty for putting her through this. I start thinking about all the things I might not get to do, might not get to see. Our grandchildren growing up, traveling together...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I look at my wife, and I see the fear in her eyes. I feel guilty for putting her through this. I start thinking about all the things I might not get to do, might not get to see. Our grandchildren growing up, traveling together...",
+      "Therapist: How are you feeling now?",
+      "Client: The distress is... it's actually gone down a bit. Maybe to a 70? I'm feeling sad, but also... I don't know, maybe a little grateful? We did get more time together."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: The distress is... it's actually gone down a bit. Maybe to a 70? I'm feeling sad, but also... I don't know, maybe a little grateful? We did get more time together.",
+      "Therapist: That's a normal reaction. Keep going."
+    ],
+    [
+      "Client: The distress is... it's actually gone down a bit. Maybe to a 70? I'm feeling sad, but also... I don't know, maybe a little grateful? We did get more time together.",
+      "Therapist: That's a normal reaction. Keep going.",
+      "Client: As the doctor finishes explaining, I start to feel a strange sense of determination. I decide right then that I'm going to fight this with everything I have. For my wife, for our family."
+    ],
+    [
+      "Therapist: That's a normal reaction. Keep going.",
+      "Client: As the doctor finishes explaining, I start to feel a strange sense of determination. I decide right then that I'm going to fight this with everything I have. For my wife, for our family.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: As the doctor finishes explaining, I start to feel a strange sense of determination. I decide right then that I'm going to fight this with everything I have. For my wife, for our family.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's down to about 60. I'm feeling emotional, but also... stronger, I guess?"
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's down to about 60. I'm feeling emotional, but also... stronger, I guess?",
+      "Therapist: You're doing great. Let's continue for a few more minutes."
+    ],
+    [
+      "Client: It's down to about 60. I'm feeling emotional, but also... stronger, I guess?",
+      "Therapist: You're doing great. Let's continue for a few more minutes.",
+      "Client: Okay. We leave the doctor's office, and my wife and I just hold each other in the hallway. I can feel her trembling, but her embrace is so comforting. I remember thinking that no matter what happens, at least we have each other."
+    ],
+    [
+      "Therapist: You're doing great. Let's continue for a few more minutes.",
+      "Client: Okay. We leave the doctor's office, and my wife and I just hold each other in the hallway. I can feel her trembling, but her embrace is so comforting. I remember thinking that no matter what happens, at least we have each other.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Okay. We leave the doctor's office, and my wife and I just hold each other in the hallway. I can feel her trembling, but her embrace is so comforting. I remember thinking that no matter what happens, at least we have each other.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm at about a 50. I feel drained, but also... I don't know, maybe a little proud? We got through it together."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm at about a 50. I feel drained, but also... I don't know, maybe a little proud? We got through it together.",
+      "Therapist: That's excellent progress. Let's end the exercise here. How are you feeling overall?"
+    ],
+    [
+      "Client: I'm at about a 50. I feel drained, but also... I don't know, maybe a little proud? We got through it together.",
+      "Therapist: That's excellent progress. Let's end the exercise here. How are you feeling overall?",
+      "Client: Exhausted, but... okay. It wasn't as overwhelming as I thought it would be."
+    ],
+    [
+      "Therapist: That's excellent progress. Let's end the exercise here. How are you feeling overall?",
+      "Client: Exhausted, but... okay. It wasn't as overwhelming as I thought it would be.",
+      "Therapist: You did very well. Let's take a few deep breaths together."
+    ],
+    [
+      "Client: Exhausted, but... okay. It wasn't as overwhelming as I thought it would be.",
+      "Therapist: You did very well. Let's take a few deep breaths together.",
+      "Client: (takes several deep breaths) Thank you. I feel more in control now."
+    ],
+    [
+      "Therapist: You did very well. Let's take a few deep breaths together.",
+      "Client: (takes several deep breaths) Thank you. I feel more in control now.",
+      "Therapist: That's great. We'll discuss this more next time."
+    ]
+  ]
+}

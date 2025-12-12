@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Singh. Today, we'll begin imaginal exposure. How are you feeling?",
+    "Client: Good morning, doctor. I'm feeling a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting that natural disaster... it's unsettling. I've spent years trying to push those memories away, you know? And now you're asking me to deliberately bring them back. It's... it's scary.",
+    "Therapist: I understand. It's normal to feel apprehensive. Can you tell me more about your concerns?",
+    "Client: Well, I'm worried about losing control. What if I can't handle the memories? I've managed to keep my life together, despite everything. I have my job, my routines... I'm afraid this might unravel all of that. And... I'm embarrassed to admit this, but I'm concerned about my substance use. I've been relying on it to cope, and I'm not sure how I'll manage without it during this process.",
+    "Therapist: Thank you for sharing. Your concerns are valid. How can I support you today?",
+    "Client: I appreciate that, doctor. I guess... I need to know that you'll be here with me through this. That if things get too intense, we can stop. And maybe... could you explain why we're doing this again? I know you've told me before, but I think I need to hear it one more time to convince myself this is worth it.",
+    "Therapist: Of course. Imaginal exposure helps process traumatic memories. It's challenging but effective. We'll go at your pace and can pause anytime.",
+    "Client: Okay, that makes sense. I suppose I've been avoiding these memories for so long, it's hard to imagine facing them head-on. But you're right, maybe processing them is the key. I've tried everything else, haven't I? Medication, self-help books, even some alternative therapies. Nothing's really stuck. So, what exactly will happen during this exposure? Will I need to close my eyes? Talk about every detail?",
+    "Therapist: You'll recount the experience with eyes open or closed. Share details you're comfortable with. I'll guide you through it.",
+    "Client: Alright, I can try that. I'm still nervous, but I trust you, doctor. You've been patient with me these past few sessions, especially when I've struggled with my substance use. Speaking of which, how do you think this might affect my recovery? I've been working hard to cut back, but I'm worried this might trigger a relapse.",
+    "Therapist: Your concern is understandable. We'll monitor your urges closely and adjust as needed. Your recovery is a priority.",
+    "Client: Thank you, that's reassuring. I've come this far, I don't want to backslide now. Okay, so if we do this, and I start to feel overwhelmed or panicky, what should I do? Are there any techniques you can teach me to stay grounded?",
+    "Therapist: Absolutely. We'll practice grounding techniques before starting. Deep breathing and present-focused awareness can help. Ready to learn some?",
+    "Client: Yes, I think that would be helpful. I've always been more of a practical person, so having some concrete tools at my disposal might make me feel more in control. And... I appreciate your patience with all my questions. I know I can be a bit verbose sometimes. It's just... this is a big step for me.",
+    "Therapist: Your questions are important. They show your commitment to healing. Shall we start with a grounding exercise?",
+    "Client: Yes, let's do that. I'm ready to give this a try. And doctor? Thank you for understanding. It means a lot, especially given my background and everything I've been through. Not everyone has been this patient with me."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Singh. Today, we'll begin imaginal exposure. How are you feeling?",
+      "Client: Good morning, doctor. I'm feeling a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting that natural disaster... it's unsettling. I've spent years trying to push those memories away, you know? And now you're asking me to deliberately bring them back. It's... it's scary.",
+      "Therapist: I understand. It's normal to feel apprehensive. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Good morning, doctor. I'm feeling a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of revisiting that natural disaster... it's unsettling. I've spent years trying to push those memories away, you know? And now you're asking me to deliberately bring them back. It's... it's scary.",
+      "Therapist: I understand. It's normal to feel apprehensive. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about losing control. What if I can't handle the memories? I've managed to keep my life together, despite everything. I have my job, my routines... I'm afraid this might unravel all of that. And... I'm embarrassed to admit this, but I'm concerned about my substance use. I've been relying on it to cope, and I'm not sure how I'll manage without it during this process."
+    ],
+    [
+      "Therapist: I understand. It's normal to feel apprehensive. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about losing control. What if I can't handle the memories? I've managed to keep my life together, despite everything. I have my job, my routines... I'm afraid this might unravel all of that. And... I'm embarrassed to admit this, but I'm concerned about my substance use. I've been relying on it to cope, and I'm not sure how I'll manage without it during this process.",
+      "Therapist: Thank you for sharing. Your concerns are valid. How can I support you today?"
+    ],
+    [
+      "Client: Well, I'm worried about losing control. What if I can't handle the memories? I've managed to keep my life together, despite everything. I have my job, my routines... I'm afraid this might unravel all of that. And... I'm embarrassed to admit this, but I'm concerned about my substance use. I've been relying on it to cope, and I'm not sure how I'll manage without it during this process.",
+      "Therapist: Thank you for sharing. Your concerns are valid. How can I support you today?",
+      "Client: I appreciate that, doctor. I guess... I need to know that you'll be here with me through this. That if things get too intense, we can stop. And maybe... could you explain why we're doing this again? I know you've told me before, but I think I need to hear it one more time to convince myself this is worth it."
+    ],
+    [
+      "Therapist: Thank you for sharing. Your concerns are valid. How can I support you today?",
+      "Client: I appreciate that, doctor. I guess... I need to know that you'll be here with me through this. That if things get too intense, we can stop. And maybe... could you explain why we're doing this again? I know you've told me before, but I think I need to hear it one more time to convince myself this is worth it.",
+      "Therapist: Of course. Imaginal exposure helps process traumatic memories. It's challenging but effective. We'll go at your pace and can pause anytime."
+    ],
+    [
+      "Client: I appreciate that, doctor. I guess... I need to know that you'll be here with me through this. That if things get too intense, we can stop. And maybe... could you explain why we're doing this again? I know you've told me before, but I think I need to hear it one more time to convince myself this is worth it.",
+      "Therapist: Of course. Imaginal exposure helps process traumatic memories. It's challenging but effective. We'll go at your pace and can pause anytime.",
+      "Client: Okay, that makes sense. I suppose I've been avoiding these memories for so long, it's hard to imagine facing them head-on. But you're right, maybe processing them is the key. I've tried everything else, haven't I? Medication, self-help books, even some alternative therapies. Nothing's really stuck. So, what exactly will happen during this exposure? Will I need to close my eyes? Talk about every detail?"
+    ],
+    [
+      "Therapist: Of course. Imaginal exposure helps process traumatic memories. It's challenging but effective. We'll go at your pace and can pause anytime.",
+      "Client: Okay, that makes sense. I suppose I've been avoiding these memories for so long, it's hard to imagine facing them head-on. But you're right, maybe processing them is the key. I've tried everything else, haven't I? Medication, self-help books, even some alternative therapies. Nothing's really stuck. So, what exactly will happen during this exposure? Will I need to close my eyes? Talk about every detail?",
+      "Therapist: You'll recount the experience with eyes open or closed. Share details you're comfortable with. I'll guide you through it."
+    ],
+    [
+      "Client: Okay, that makes sense. I suppose I've been avoiding these memories for so long, it's hard to imagine facing them head-on. But you're right, maybe processing them is the key. I've tried everything else, haven't I? Medication, self-help books, even some alternative therapies. Nothing's really stuck. So, what exactly will happen during this exposure? Will I need to close my eyes? Talk about every detail?",
+      "Therapist: You'll recount the experience with eyes open or closed. Share details you're comfortable with. I'll guide you through it.",
+      "Client: Alright, I can try that. I'm still nervous, but I trust you, doctor. You've been patient with me these past few sessions, especially when I've struggled with my substance use. Speaking of which, how do you think this might affect my recovery? I've been working hard to cut back, but I'm worried this might trigger a relapse."
+    ],
+    [
+      "Therapist: You'll recount the experience with eyes open or closed. Share details you're comfortable with. I'll guide you through it.",
+      "Client: Alright, I can try that. I'm still nervous, but I trust you, doctor. You've been patient with me these past few sessions, especially when I've struggled with my substance use. Speaking of which, how do you think this might affect my recovery? I've been working hard to cut back, but I'm worried this might trigger a relapse.",
+      "Therapist: Your concern is understandable. We'll monitor your urges closely and adjust as needed. Your recovery is a priority."
+    ],
+    [
+      "Client: Alright, I can try that. I'm still nervous, but I trust you, doctor. You've been patient with me these past few sessions, especially when I've struggled with my substance use. Speaking of which, how do you think this might affect my recovery? I've been working hard to cut back, but I'm worried this might trigger a relapse.",
+      "Therapist: Your concern is understandable. We'll monitor your urges closely and adjust as needed. Your recovery is a priority.",
+      "Client: Thank you, that's reassuring. I've come this far, I don't want to backslide now. Okay, so if we do this, and I start to feel overwhelmed or panicky, what should I do? Are there any techniques you can teach me to stay grounded?"
+    ],
+    [
+      "Therapist: Your concern is understandable. We'll monitor your urges closely and adjust as needed. Your recovery is a priority.",
+      "Client: Thank you, that's reassuring. I've come this far, I don't want to backslide now. Okay, so if we do this, and I start to feel overwhelmed or panicky, what should I do? Are there any techniques you can teach me to stay grounded?",
+      "Therapist: Absolutely. We'll practice grounding techniques before starting. Deep breathing and present-focused awareness can help. Ready to learn some?"
+    ],
+    [
+      "Client: Thank you, that's reassuring. I've come this far, I don't want to backslide now. Okay, so if we do this, and I start to feel overwhelmed or panicky, what should I do? Are there any techniques you can teach me to stay grounded?",
+      "Therapist: Absolutely. We'll practice grounding techniques before starting. Deep breathing and present-focused awareness can help. Ready to learn some?",
+      "Client: Yes, I think that would be helpful. I've always been more of a practical person, so having some concrete tools at my disposal might make me feel more in control. And... I appreciate your patience with all my questions. I know I can be a bit verbose sometimes. It's just... this is a big step for me."
+    ],
+    [
+      "Therapist: Absolutely. We'll practice grounding techniques before starting. Deep breathing and present-focused awareness can help. Ready to learn some?",
+      "Client: Yes, I think that would be helpful. I've always been more of a practical person, so having some concrete tools at my disposal might make me feel more in control. And... I appreciate your patience with all my questions. I know I can be a bit verbose sometimes. It's just... this is a big step for me.",
+      "Therapist: Your questions are important. They show your commitment to healing. Shall we start with a grounding exercise?"
+    ],
+    [
+      "Client: Yes, I think that would be helpful. I've always been more of a practical person, so having some concrete tools at my disposal might make me feel more in control. And... I appreciate your patience with all my questions. I know I can be a bit verbose sometimes. It's just... this is a big step for me.",
+      "Therapist: Your questions are important. They show your commitment to healing. Shall we start with a grounding exercise?",
+      "Client: Yes, let's do that. I'm ready to give this a try. And doctor? Thank you for understanding. It means a lot, especially given my background and everything I've been through. Not everyone has been this patient with me."
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the police brutality incident... it brought back so many intense emotions. I could almost feel the pavement beneath me again, hear the shouting, smell the tear gas. It's like I was right back there in the middle of it all.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The helplessness, I think. I remember feeling so powerless, watching people around me getting hurt and not being able to do anything. There was this moment when I saw an officer push down an elderly man... God, I can still see his face as he hit the ground. I wanted to help him, but I was frozen in place. I've never felt so... useless.",
+    "Therapist: How does recalling that helplessness affect you now?",
+    "Client: It's... it's frustrating. And scary. I've always prided myself on being strong and capable, you know? But in that moment, and even now when I think about it, I feel like a different person. Weak. Vulnerable. It makes me angry at myself, but also terrified that I could be in that position again.",
+    "Therapist: I see. How does this connect to your day-to-day life?",
+    "Client: I guess... I'm always on edge now. I avoid crowds, I'm suspicious of authority figures. Even seeing a police car on the street can send me into a panic. It's like I'm constantly preparing for the worst to happen. I hate living like this, always afraid. But I don't know how to stop.",
+    "Therapist: What did you learn about yourself during this exposure?",
+    "Client: I... I realized I'm stronger than I thought. Even though reliving it was hard, I got through it. And maybe... maybe it wasn't my fault that I couldn't do more that day. I was just one person in a chaotic situation. I'm starting to see that my reaction was... normal, given the circumstances.",
+    "Therapist: That's a powerful insight. How do you feel about that realization?",
+    "Client: It's... liberating, in a way. But also overwhelming. I've been carrying so much guilt and shame about that day. The idea that maybe I don't need to... it's a lot to take in. But it also gives me hope that maybe I can move past this, you know? That maybe I don't have to let this experience define me forever.",
+    "Therapist: What's one thing you'd like to focus on before our next session?",
+    "Client: I think... I want to work on being kinder to myself. Maybe try to catch those moments when I start blaming myself for what happened and challenge those thoughts. It's not going to be easy, but I think it might help me feel less... burdened by all of this.",
+    "Therapist: That's an excellent goal. Is there anything else you'd like to share?",
+    "Client: Just... thank you. For guiding me through this. It's hard, but I think it's helping. I feel like I'm starting to understand my reactions better, and that gives me hope that I can learn to manage them. I know we have a long way to go, but for the first time in a while, I feel like there might be a light at the end of this tunnel.",
+    "Therapist: You're doing great work, Sarah. See you next week?",
+    "Client: Yes, definitely. Thank you again. I'll see you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the police brutality incident... it brought back so many intense emotions. I could almost feel the pavement beneath me again, hear the shouting, smell the tear gas. It's like I was right back there in the middle of it all.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. Going through that memory of the police brutality incident... it brought back so many intense emotions. I could almost feel the pavement beneath me again, hear the shouting, smell the tear gas. It's like I was right back there in the middle of it all.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The helplessness, I think. I remember feeling so powerless, watching people around me getting hurt and not being able to do anything. There was this moment when I saw an officer push down an elderly man... God, I can still see his face as he hit the ground. I wanted to help him, but I was frozen in place. I've never felt so... useless."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The helplessness, I think. I remember feeling so powerless, watching people around me getting hurt and not being able to do anything. There was this moment when I saw an officer push down an elderly man... God, I can still see his face as he hit the ground. I wanted to help him, but I was frozen in place. I've never felt so... useless.",
+      "Therapist: How does recalling that helplessness affect you now?"
+    ],
+    [
+      "Client: The helplessness, I think. I remember feeling so powerless, watching people around me getting hurt and not being able to do anything. There was this moment when I saw an officer push down an elderly man... God, I can still see his face as he hit the ground. I wanted to help him, but I was frozen in place. I've never felt so... useless.",
+      "Therapist: How does recalling that helplessness affect you now?",
+      "Client: It's... it's frustrating. And scary. I've always prided myself on being strong and capable, you know? But in that moment, and even now when I think about it, I feel like a different person. Weak. Vulnerable. It makes me angry at myself, but also terrified that I could be in that position again."
+    ],
+    [
+      "Therapist: How does recalling that helplessness affect you now?",
+      "Client: It's... it's frustrating. And scary. I've always prided myself on being strong and capable, you know? But in that moment, and even now when I think about it, I feel like a different person. Weak. Vulnerable. It makes me angry at myself, but also terrified that I could be in that position again.",
+      "Therapist: I see. How does this connect to your day-to-day life?"
+    ],
+    [
+      "Client: It's... it's frustrating. And scary. I've always prided myself on being strong and capable, you know? But in that moment, and even now when I think about it, I feel like a different person. Weak. Vulnerable. It makes me angry at myself, but also terrified that I could be in that position again.",
+      "Therapist: I see. How does this connect to your day-to-day life?",
+      "Client: I guess... I'm always on edge now. I avoid crowds, I'm suspicious of authority figures. Even seeing a police car on the street can send me into a panic. It's like I'm constantly preparing for the worst to happen. I hate living like this, always afraid. But I don't know how to stop."
+    ],
+    [
+      "Therapist: I see. How does this connect to your day-to-day life?",
+      "Client: I guess... I'm always on edge now. I avoid crowds, I'm suspicious of authority figures. Even seeing a police car on the street can send me into a panic. It's like I'm constantly preparing for the worst to happen. I hate living like this, always afraid. But I don't know how to stop.",
+      "Therapist: What did you learn about yourself during this exposure?"
+    ],
+    [
+      "Client: I guess... I'm always on edge now. I avoid crowds, I'm suspicious of authority figures. Even seeing a police car on the street can send me into a panic. It's like I'm constantly preparing for the worst to happen. I hate living like this, always afraid. But I don't know how to stop.",
+      "Therapist: What did you learn about yourself during this exposure?",
+      "Client: I... I realized I'm stronger than I thought. Even though reliving it was hard, I got through it. And maybe... maybe it wasn't my fault that I couldn't do more that day. I was just one person in a chaotic situation. I'm starting to see that my reaction was... normal, given the circumstances."
+    ],
+    [
+      "Therapist: What did you learn about yourself during this exposure?",
+      "Client: I... I realized I'm stronger than I thought. Even though reliving it was hard, I got through it. And maybe... maybe it wasn't my fault that I couldn't do more that day. I was just one person in a chaotic situation. I'm starting to see that my reaction was... normal, given the circumstances.",
+      "Therapist: That's a powerful insight. How do you feel about that realization?"
+    ],
+    [
+      "Client: I... I realized I'm stronger than I thought. Even though reliving it was hard, I got through it. And maybe... maybe it wasn't my fault that I couldn't do more that day. I was just one person in a chaotic situation. I'm starting to see that my reaction was... normal, given the circumstances.",
+      "Therapist: That's a powerful insight. How do you feel about that realization?",
+      "Client: It's... liberating, in a way. But also overwhelming. I've been carrying so much guilt and shame about that day. The idea that maybe I don't need to... it's a lot to take in. But it also gives me hope that maybe I can move past this, you know? That maybe I don't have to let this experience define me forever."
+    ],
+    [
+      "Therapist: That's a powerful insight. How do you feel about that realization?",
+      "Client: It's... liberating, in a way. But also overwhelming. I've been carrying so much guilt and shame about that day. The idea that maybe I don't need to... it's a lot to take in. But it also gives me hope that maybe I can move past this, you know? That maybe I don't have to let this experience define me forever.",
+      "Therapist: What's one thing you'd like to focus on before our next session?"
+    ],
+    [
+      "Client: It's... liberating, in a way. But also overwhelming. I've been carrying so much guilt and shame about that day. The idea that maybe I don't need to... it's a lot to take in. But it also gives me hope that maybe I can move past this, you know? That maybe I don't have to let this experience define me forever.",
+      "Therapist: What's one thing you'd like to focus on before our next session?",
+      "Client: I think... I want to work on being kinder to myself. Maybe try to catch those moments when I start blaming myself for what happened and challenge those thoughts. It's not going to be easy, but I think it might help me feel less... burdened by all of this."
+    ],
+    [
+      "Therapist: What's one thing you'd like to focus on before our next session?",
+      "Client: I think... I want to work on being kinder to myself. Maybe try to catch those moments when I start blaming myself for what happened and challenge those thoughts. It's not going to be easy, but I think it might help me feel less... burdened by all of this.",
+      "Therapist: That's an excellent goal. Is there anything else you'd like to share?"
+    ],
+    [
+      "Client: I think... I want to work on being kinder to myself. Maybe try to catch those moments when I start blaming myself for what happened and challenge those thoughts. It's not going to be easy, but I think it might help me feel less... burdened by all of this.",
+      "Therapist: That's an excellent goal. Is there anything else you'd like to share?",
+      "Client: Just... thank you. For guiding me through this. It's hard, but I think it's helping. I feel like I'm starting to understand my reactions better, and that gives me hope that I can learn to manage them. I know we have a long way to go, but for the first time in a while, I feel like there might be a light at the end of this tunnel."
+    ],
+    [
+      "Therapist: That's an excellent goal. Is there anything else you'd like to share?",
+      "Client: Just... thank you. For guiding me through this. It's hard, but I think it's helping. I feel like I'm starting to understand my reactions better, and that gives me hope that I can learn to manage them. I know we have a long way to go, but for the first time in a while, I feel like there might be a light at the end of this tunnel.",
+      "Therapist: You're doing great work, Sarah. See you next week?"
+    ],
+    [
+      "Client: Just... thank you. For guiding me through this. It's hard, but I think it's helping. I feel like I'm starting to understand my reactions better, and that gives me hope that I can learn to manage them. I know we have a long way to go, but for the first time in a while, I feel like there might be a light at the end of this tunnel.",
+      "Therapist: You're doing great work, Sarah. See you next week?",
+      "Client: Yes, definitely. Thank you again. I'll see you then."
+    ]
+  ]
+}

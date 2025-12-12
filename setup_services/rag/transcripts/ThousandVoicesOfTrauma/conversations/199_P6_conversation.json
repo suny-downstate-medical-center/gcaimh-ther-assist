@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Just focus on the memory and describe it aloud.",
+    "Client: Okay... I'm back at my wife's funeral. The church is packed, and I can smell the overwhelming scent of lilies. My hands are shaking as I grip the pew in front of me. I can hear the minister's voice, but it's muffled, like I'm underwater. My chest feels tight, and I'm struggling to breathe...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6... maybe 7. My heart's racing.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: I look down at my hands, and they're so pale. I can't stop thinking about how empty the house will be without her. The weight of loneliness is crushing me. I glance around and see all these faces, some familiar, some not. They're all looking at me with pity, and I hate it. I feel so exposed, so... raw.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I'm feeling really overwhelmed.",
+    "Therapist: That's okay. Stay with it. What else do you notice?",
+    "Client: I... I can hear someone crying softly behind me. It reminds me of how my wife used to cry, and suddenly I'm hit with this intense wave of grief. I want to run out of the church, but I'm rooted to the spot. My legs feel like lead. The minister is saying something about her kindness, but all I can think about is how unfair this all is. We were supposed to grow old together...",
+    "Therapist: How's your distress level now?",
+    "Client: It's... it's a 9. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here. Keep going.",
+    "Client: I... I'm trying. The casket is there, right in front of me. It's surreal. I keep expecting her to sit up, to tell me it's all a mistake. But she doesn't. And then I remember how she looked in the hospital, so frail and tired. I should've been there more, should've done more...",
+    "Therapist: What's your SUDS rating at this moment?",
+    "Client: It's still a 9. My chest hurts, and I feel dizzy.",
+    "Therapist: You're doing great. Keep breathing.",
+    "Client: I... I see our children in the front row. They're trying to be strong, but I can see the pain in their eyes. I feel like I've failed them too. I should be comforting them, but I can barely hold myself together. The guilt is overwhelming. I close my eyes, trying to shut it all out, but I can still hear the somber music, the quiet sobs...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone down a bit. Maybe an 8. I feel exhausted.",
+    "Therapist: That's natural. Continue when you're ready.",
+    "Client: The service is ending. People are standing up, coming to offer condolences. I nod mechanically, barely hearing their words. Everything feels distant, like I'm watching it happen to someone else. I keep expecting to wake up from this nightmare, but it just goes on and on...",
+    "Therapist: What's your current SUDS rating?",
+    "Client: It's down to a 7 now. I feel... drained.",
+    "Therapist: You're doing well. How do you feel about continuing?",
+    "Client: I... I think I can go on. As people file out, I'm left alone in the church. The silence is deafening. I approach the casket, my legs barely supporting me. I touch the smooth wood, and it hits me - this is real. She's really gone. I whisper, \"I love you,\" one last time, and it echoes in the empty church. I feel so alone...",
+    "Therapist: And your SUDS now?",
+    "Client: It's back up to an 8. The loneliness is overwhelming.",
+    "Therapist: You're handling this bravely. We're almost done.",
+    "Client: I... I turn to leave, but I can't seem to make my feet move. It feels like leaving her behind. I stand there, torn between staying and going, until my son gently takes my arm. His touch brings me back to reality. We walk out together, into the harsh sunlight. It feels wrong that the world is still turning, still bright, when my world has stopped...",
+    "Therapist: What's your final SUDS rating?",
+    "Client: It's... it's a 6 now. I feel... I don't know. Sad, but also... relieved, I guess?",
+    "Therapist: That's completely normal. Let's start winding down."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Just focus on the memory and describe it aloud."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Just focus on the memory and describe it aloud.",
+      "Client: Okay... I'm back at my wife's funeral. The church is packed, and I can smell the overwhelming scent of lilies. My hands are shaking as I grip the pew in front of me. I can hear the minister's voice, but it's muffled, like I'm underwater. My chest feels tight, and I'm struggling to breathe..."
+    ],
+    [
+      "Therapist: That's normal. Just focus on the memory and describe it aloud.",
+      "Client: Okay... I'm back at my wife's funeral. The church is packed, and I can smell the overwhelming scent of lilies. My hands are shaking as I grip the pew in front of me. I can hear the minister's voice, but it's muffled, like I'm underwater. My chest feels tight, and I'm struggling to breathe...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back at my wife's funeral. The church is packed, and I can smell the overwhelming scent of lilies. My hands are shaking as I grip the pew in front of me. I can hear the minister's voice, but it's muffled, like I'm underwater. My chest feels tight, and I'm struggling to breathe...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6... maybe 7. My heart's racing."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6... maybe 7. My heart's racing.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's about a 6... maybe 7. My heart's racing.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: I look down at my hands, and they're so pale. I can't stop thinking about how empty the house will be without her. The weight of loneliness is crushing me. I glance around and see all these faces, some familiar, some not. They're all looking at me with pity, and I hate it. I feel so exposed, so... raw."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: I look down at my hands, and they're so pale. I can't stop thinking about how empty the house will be without her. The weight of loneliness is crushing me. I glance around and see all these faces, some familiar, some not. They're all looking at me with pity, and I hate it. I feel so exposed, so... raw.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I look down at my hands, and they're so pale. I can't stop thinking about how empty the house will be without her. The weight of loneliness is crushing me. I glance around and see all these faces, some familiar, some not. They're all looking at me with pity, and I hate it. I feel so exposed, so... raw.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really overwhelmed."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really overwhelmed.",
+      "Therapist: That's okay. Stay with it. What else do you notice?"
+    ],
+    [
+      "Client: It's gone up to an 8. I'm feeling really overwhelmed.",
+      "Therapist: That's okay. Stay with it. What else do you notice?",
+      "Client: I... I can hear someone crying softly behind me. It reminds me of how my wife used to cry, and suddenly I'm hit with this intense wave of grief. I want to run out of the church, but I'm rooted to the spot. My legs feel like lead. The minister is saying something about her kindness, but all I can think about is how unfair this all is. We were supposed to grow old together..."
+    ],
+    [
+      "Therapist: That's okay. Stay with it. What else do you notice?",
+      "Client: I... I can hear someone crying softly behind me. It reminds me of how my wife used to cry, and suddenly I'm hit with this intense wave of grief. I want to run out of the church, but I'm rooted to the spot. My legs feel like lead. The minister is saying something about her kindness, but all I can think about is how unfair this all is. We were supposed to grow old together...",
+      "Therapist: How's your distress level now?"
+    ],
+    [
+      "Client: I... I can hear someone crying softly behind me. It reminds me of how my wife used to cry, and suddenly I'm hit with this intense wave of grief. I want to run out of the church, but I'm rooted to the spot. My legs feel like lead. The minister is saying something about her kindness, but all I can think about is how unfair this all is. We were supposed to grow old together...",
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's a 9. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's a 9. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. Keep going.",
+      "Client: I... I'm trying. The casket is there, right in front of me. It's surreal. I keep expecting her to sit up, to tell me it's all a mistake. But she doesn't. And then I remember how she looked in the hospital, so frail and tired. I should've been there more, should've done more..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Keep going.",
+      "Client: I... I'm trying. The casket is there, right in front of me. It's surreal. I keep expecting her to sit up, to tell me it's all a mistake. But she doesn't. And then I remember how she looked in the hospital, so frail and tired. I should've been there more, should've done more...",
+      "Therapist: What's your SUDS rating at this moment?"
+    ],
+    [
+      "Client: I... I'm trying. The casket is there, right in front of me. It's surreal. I keep expecting her to sit up, to tell me it's all a mistake. But she doesn't. And then I remember how she looked in the hospital, so frail and tired. I should've been there more, should've done more...",
+      "Therapist: What's your SUDS rating at this moment?",
+      "Client: It's still a 9. My chest hurts, and I feel dizzy."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this moment?",
+      "Client: It's still a 9. My chest hurts, and I feel dizzy.",
+      "Therapist: You're doing great. Keep breathing."
+    ],
+    [
+      "Client: It's still a 9. My chest hurts, and I feel dizzy.",
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I... I see our children in the front row. They're trying to be strong, but I can see the pain in their eyes. I feel like I've failed them too. I should be comforting them, but I can barely hold myself together. The guilt is overwhelming. I close my eyes, trying to shut it all out, but I can still hear the somber music, the quiet sobs..."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I... I see our children in the front row. They're trying to be strong, but I can see the pain in their eyes. I feel like I've failed them too. I should be comforting them, but I can barely hold myself together. The guilt is overwhelming. I close my eyes, trying to shut it all out, but I can still hear the somber music, the quiet sobs...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I see our children in the front row. They're trying to be strong, but I can see the pain in their eyes. I feel like I've failed them too. I should be comforting them, but I can barely hold myself together. The guilt is overwhelming. I close my eyes, trying to shut it all out, but I can still hear the somber music, the quiet sobs...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe an 8. I feel exhausted."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe an 8. I feel exhausted.",
+      "Therapist: That's natural. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's gone down a bit. Maybe an 8. I feel exhausted.",
+      "Therapist: That's natural. Continue when you're ready.",
+      "Client: The service is ending. People are standing up, coming to offer condolences. I nod mechanically, barely hearing their words. Everything feels distant, like I'm watching it happen to someone else. I keep expecting to wake up from this nightmare, but it just goes on and on..."
+    ],
+    [
+      "Therapist: That's natural. Continue when you're ready.",
+      "Client: The service is ending. People are standing up, coming to offer condolences. I nod mechanically, barely hearing their words. Everything feels distant, like I'm watching it happen to someone else. I keep expecting to wake up from this nightmare, but it just goes on and on...",
+      "Therapist: What's your current SUDS rating?"
+    ],
+    [
+      "Client: The service is ending. People are standing up, coming to offer condolences. I nod mechanically, barely hearing their words. Everything feels distant, like I'm watching it happen to someone else. I keep expecting to wake up from this nightmare, but it just goes on and on...",
+      "Therapist: What's your current SUDS rating?",
+      "Client: It's down to a 7 now. I feel... drained."
+    ],
+    [
+      "Therapist: What's your current SUDS rating?",
+      "Client: It's down to a 7 now. I feel... drained.",
+      "Therapist: You're doing well. How do you feel about continuing?"
+    ],
+    [
+      "Client: It's down to a 7 now. I feel... drained.",
+      "Therapist: You're doing well. How do you feel about continuing?",
+      "Client: I... I think I can go on. As people file out, I'm left alone in the church. The silence is deafening. I approach the casket, my legs barely supporting me. I touch the smooth wood, and it hits me - this is real. She's really gone. I whisper, \"I love you,\" one last time, and it echoes in the empty church. I feel so alone..."
+    ],
+    [
+      "Therapist: You're doing well. How do you feel about continuing?",
+      "Client: I... I think I can go on. As people file out, I'm left alone in the church. The silence is deafening. I approach the casket, my legs barely supporting me. I touch the smooth wood, and it hits me - this is real. She's really gone. I whisper, \"I love you,\" one last time, and it echoes in the empty church. I feel so alone...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I think I can go on. As people file out, I'm left alone in the church. The silence is deafening. I approach the casket, my legs barely supporting me. I touch the smooth wood, and it hits me - this is real. She's really gone. I whisper, \"I love you,\" one last time, and it echoes in the empty church. I feel so alone...",
+      "Therapist: And your SUDS now?",
+      "Client: It's back up to an 8. The loneliness is overwhelming."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's back up to an 8. The loneliness is overwhelming.",
+      "Therapist: You're handling this bravely. We're almost done."
+    ],
+    [
+      "Client: It's back up to an 8. The loneliness is overwhelming.",
+      "Therapist: You're handling this bravely. We're almost done.",
+      "Client: I... I turn to leave, but I can't seem to make my feet move. It feels like leaving her behind. I stand there, torn between staying and going, until my son gently takes my arm. His touch brings me back to reality. We walk out together, into the harsh sunlight. It feels wrong that the world is still turning, still bright, when my world has stopped..."
+    ],
+    [
+      "Therapist: You're handling this bravely. We're almost done.",
+      "Client: I... I turn to leave, but I can't seem to make my feet move. It feels like leaving her behind. I stand there, torn between staying and going, until my son gently takes my arm. His touch brings me back to reality. We walk out together, into the harsh sunlight. It feels wrong that the world is still turning, still bright, when my world has stopped...",
+      "Therapist: What's your final SUDS rating?"
+    ],
+    [
+      "Client: I... I turn to leave, but I can't seem to make my feet move. It feels like leaving her behind. I stand there, torn between staying and going, until my son gently takes my arm. His touch brings me back to reality. We walk out together, into the harsh sunlight. It feels wrong that the world is still turning, still bright, when my world has stopped...",
+      "Therapist: What's your final SUDS rating?",
+      "Client: It's... it's a 6 now. I feel... I don't know. Sad, but also... relieved, I guess?"
+    ],
+    [
+      "Therapist: What's your final SUDS rating?",
+      "Client: It's... it's a 6 now. I feel... I don't know. Sad, but also... relieved, I guess?",
+      "Therapist: That's completely normal. Let's start winding down."
+    ]
+  ]
+}

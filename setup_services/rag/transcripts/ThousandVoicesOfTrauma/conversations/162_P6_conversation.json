@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's understandable. Let's begin when you're comfortable.",
+    "Client: Okay... I'm back in my childhood home. It's the day my grandmother passed away. I can see the old floral wallpaper in the living room, and smell the jasmine incense she always loved. My parents are talking in hushed tones in the kitchen. I'm sitting on the floor, playing with my toys, but I can sense something's wrong.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 4. I'm feeling a little tense, but it's manageable.",
+    "Therapist: Alright. Continue when you're ready.",
+    "Client: My mother comes out of the kitchen, her eyes are red and puffy. She kneels beside me and says, \"Sweetheart, I have some sad news.\" I can feel my heart starting to race now. I... I remember dropping my toy car, and it made this loud clatter on the hardwood floor. My mom flinches at the sound, and I feel guilty, like I've done something wrong.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's... it's gone up to a 6. My palms are getting sweaty, and I can feel that tightness in my chest that I used to get as a kid when I was scared.",
+    "Therapist: That's okay. You're doing well. Take a deep breath if you need to.",
+    "Client: *takes a deep breath* Thanks. So, my mom tells me that grandma has \"gone to sleep and won't wake up.\" I don't fully understand, but I know it's bad. I start crying, and my mom hugs me tight. I can smell her perfume mixed with the scent of her tears. It's... it's overwhelming.",
+    "Therapist: And your SUDS now?",
+    "Client: It's an 8. I feel like I'm right there again, feeling so small and helpless. My throat feels tight, like I can't swallow properly.",
+    "Therapist: You're doing great. Remember, you're safe here.",
+    "Client: *voice shaking* I remember my dad coming out of the kitchen. He looks... broken. I've never seen him cry before, but there are tears in his eyes. He joins our hug, and I'm sandwiched between them. I can feel their bodies shaking as they cry. I'm confused and scared, and I don't know how to make it better.",
+    "Therapist: How are you feeling right now?",
+    "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight, and I... I feel like that helpless child again.",
+    "Therapist: Take a moment. Breathe slowly. You're safe here.",
+    "Client: *takes several deep breaths* Okay... okay. I'm trying to calm down. The memory is so vivid. I can hear my mom's muffled sobs and feel my dad's strong arms around us both. I remember thinking, \"If I'm really good, maybe grandma will come back.\" It's... it's heartbreaking to recall that innocent thought.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's still at 9. I feel a lump in my throat, and my eyes are stinging with tears. But... but I also feel a strange sense of relief, like I'm finally facing this memory head-on.",
+    "Therapist: You're doing incredibly well. Keep going if you can.",
+    "Client: *voice trembling* The days after are a blur of black clothes and somber faces. I remember the funeral, how small grandma looked in the casket. I didn't want to look, but my cousin dared me to touch her hand. It was so cold... so unlike the warm, soft hands that used to give me sweets. That moment... it made it all real.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's actually gone down to a 7. Talking about it... it's hard, but it's like the memory is losing some of its power over me.",
+    "Therapist: That's great progress. How do you feel about continuing?",
+    "Client: I think I can go on. After the funeral, I remember sitting in grandma's favorite chair. It still smelled like her. I found one of her long gray hairs on the armrest, and I kept it, thinking it was magical and could bring her back. I held onto that hair for weeks, wishing and hoping...",
+    "Therapist: And your SUDS now?",
+    "Client: It's a 6. I feel sad, but it's a gentler sadness now. Like... like I'm finally grieving properly.",
+    "Therapist: You're doing excellent work. We'll stop here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in my childhood home. It's the day my grandmother passed away. I can see the old floral wallpaper in the living room, and smell the jasmine incense she always loved. My parents are talking in hushed tones in the kitchen. I'm sitting on the floor, playing with my toys, but I can sense something's wrong."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in my childhood home. It's the day my grandmother passed away. I can see the old floral wallpaper in the living room, and smell the jasmine incense she always loved. My parents are talking in hushed tones in the kitchen. I'm sitting on the floor, playing with my toys, but I can sense something's wrong.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in my childhood home. It's the day my grandmother passed away. I can see the old floral wallpaper in the living room, and smell the jasmine incense she always loved. My parents are talking in hushed tones in the kitchen. I'm sitting on the floor, playing with my toys, but I can sense something's wrong.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4. I'm feeling a little tense, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4. I'm feeling a little tense, but it's manageable.",
+      "Therapist: Alright. Continue when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4. I'm feeling a little tense, but it's manageable.",
+      "Therapist: Alright. Continue when you're ready.",
+      "Client: My mother comes out of the kitchen, her eyes are red and puffy. She kneels beside me and says, \"Sweetheart, I have some sad news.\" I can feel my heart starting to race now. I... I remember dropping my toy car, and it made this loud clatter on the hardwood floor. My mom flinches at the sound, and I feel guilty, like I've done something wrong."
+    ],
+    [
+      "Therapist: Alright. Continue when you're ready.",
+      "Client: My mother comes out of the kitchen, her eyes are red and puffy. She kneels beside me and says, \"Sweetheart, I have some sad news.\" I can feel my heart starting to race now. I... I remember dropping my toy car, and it made this loud clatter on the hardwood floor. My mom flinches at the sound, and I feel guilty, like I've done something wrong.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: My mother comes out of the kitchen, her eyes are red and puffy. She kneels beside me and says, \"Sweetheart, I have some sad news.\" I can feel my heart starting to race now. I... I remember dropping my toy car, and it made this loud clatter on the hardwood floor. My mom flinches at the sound, and I feel guilty, like I've done something wrong.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's gone up to a 6. My palms are getting sweaty, and I can feel that tightness in my chest that I used to get as a kid when I was scared."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's gone up to a 6. My palms are getting sweaty, and I can feel that tightness in my chest that I used to get as a kid when I was scared.",
+      "Therapist: That's okay. You're doing well. Take a deep breath if you need to."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My palms are getting sweaty, and I can feel that tightness in my chest that I used to get as a kid when I was scared.",
+      "Therapist: That's okay. You're doing well. Take a deep breath if you need to.",
+      "Client: *takes a deep breath* Thanks. So, my mom tells me that grandma has \"gone to sleep and won't wake up.\" I don't fully understand, but I know it's bad. I start crying, and my mom hugs me tight. I can smell her perfume mixed with the scent of her tears. It's... it's overwhelming."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Take a deep breath if you need to.",
+      "Client: *takes a deep breath* Thanks. So, my mom tells me that grandma has \"gone to sleep and won't wake up.\" I don't fully understand, but I know it's bad. I start crying, and my mom hugs me tight. I can smell her perfume mixed with the scent of her tears. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: *takes a deep breath* Thanks. So, my mom tells me that grandma has \"gone to sleep and won't wake up.\" I don't fully understand, but I know it's bad. I start crying, and my mom hugs me tight. I can smell her perfume mixed with the scent of her tears. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. I feel like I'm right there again, feeling so small and helpless. My throat feels tight, like I can't swallow properly."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. I feel like I'm right there again, feeling so small and helpless. My throat feels tight, like I can't swallow properly.",
+      "Therapist: You're doing great. Remember, you're safe here."
+    ],
+    [
+      "Client: It's an 8. I feel like I'm right there again, feeling so small and helpless. My throat feels tight, like I can't swallow properly.",
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: *voice shaking* I remember my dad coming out of the kitchen. He looks... broken. I've never seen him cry before, but there are tears in his eyes. He joins our hug, and I'm sandwiched between them. I can feel their bodies shaking as they cry. I'm confused and scared, and I don't know how to make it better."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: *voice shaking* I remember my dad coming out of the kitchen. He looks... broken. I've never seen him cry before, but there are tears in his eyes. He joins our hug, and I'm sandwiched between them. I can feel their bodies shaking as they cry. I'm confused and scared, and I don't know how to make it better.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: *voice shaking* I remember my dad coming out of the kitchen. He looks... broken. I've never seen him cry before, but there are tears in his eyes. He joins our hug, and I'm sandwiched between them. I can feel their bodies shaking as they cry. I'm confused and scared, and I don't know how to make it better.",
+      "Therapist: How are you feeling right now?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight, and I... I feel like that helpless child again."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight, and I... I feel like that helpless child again.",
+      "Therapist: Take a moment. Breathe slowly. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight, and I... I feel like that helpless child again.",
+      "Therapist: Take a moment. Breathe slowly. You're safe here.",
+      "Client: *takes several deep breaths* Okay... okay. I'm trying to calm down. The memory is so vivid. I can hear my mom's muffled sobs and feel my dad's strong arms around us both. I remember thinking, \"If I'm really good, maybe grandma will come back.\" It's... it's heartbreaking to recall that innocent thought."
+    ],
+    [
+      "Therapist: Take a moment. Breathe slowly. You're safe here.",
+      "Client: *takes several deep breaths* Okay... okay. I'm trying to calm down. The memory is so vivid. I can hear my mom's muffled sobs and feel my dad's strong arms around us both. I remember thinking, \"If I'm really good, maybe grandma will come back.\" It's... it's heartbreaking to recall that innocent thought.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: *takes several deep breaths* Okay... okay. I'm trying to calm down. The memory is so vivid. I can hear my mom's muffled sobs and feel my dad's strong arms around us both. I remember thinking, \"If I'm really good, maybe grandma will come back.\" It's... it's heartbreaking to recall that innocent thought.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's still at 9. I feel a lump in my throat, and my eyes are stinging with tears. But... but I also feel a strange sense of relief, like I'm finally facing this memory head-on."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's still at 9. I feel a lump in my throat, and my eyes are stinging with tears. But... but I also feel a strange sense of relief, like I'm finally facing this memory head-on.",
+      "Therapist: You're doing incredibly well. Keep going if you can."
+    ],
+    [
+      "Client: It's... it's still at 9. I feel a lump in my throat, and my eyes are stinging with tears. But... but I also feel a strange sense of relief, like I'm finally facing this memory head-on.",
+      "Therapist: You're doing incredibly well. Keep going if you can.",
+      "Client: *voice trembling* The days after are a blur of black clothes and somber faces. I remember the funeral, how small grandma looked in the casket. I didn't want to look, but my cousin dared me to touch her hand. It was so cold... so unlike the warm, soft hands that used to give me sweets. That moment... it made it all real."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Keep going if you can.",
+      "Client: *voice trembling* The days after are a blur of black clothes and somber faces. I remember the funeral, how small grandma looked in the casket. I didn't want to look, but my cousin dared me to touch her hand. It was so cold... so unlike the warm, soft hands that used to give me sweets. That moment... it made it all real.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: *voice trembling* The days after are a blur of black clothes and somber faces. I remember the funeral, how small grandma looked in the casket. I didn't want to look, but my cousin dared me to touch her hand. It was so cold... so unlike the warm, soft hands that used to give me sweets. That moment... it made it all real.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually gone down to a 7. Talking about it... it's hard, but it's like the memory is losing some of its power over me."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually gone down to a 7. Talking about it... it's hard, but it's like the memory is losing some of its power over me.",
+      "Therapist: That's great progress. How do you feel about continuing?"
+    ],
+    [
+      "Client: It's... it's actually gone down to a 7. Talking about it... it's hard, but it's like the memory is losing some of its power over me.",
+      "Therapist: That's great progress. How do you feel about continuing?",
+      "Client: I think I can go on. After the funeral, I remember sitting in grandma's favorite chair. It still smelled like her. I found one of her long gray hairs on the armrest, and I kept it, thinking it was magical and could bring her back. I held onto that hair for weeks, wishing and hoping..."
+    ],
+    [
+      "Therapist: That's great progress. How do you feel about continuing?",
+      "Client: I think I can go on. After the funeral, I remember sitting in grandma's favorite chair. It still smelled like her. I found one of her long gray hairs on the armrest, and I kept it, thinking it was magical and could bring her back. I held onto that hair for weeks, wishing and hoping...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I think I can go on. After the funeral, I remember sitting in grandma's favorite chair. It still smelled like her. I found one of her long gray hairs on the armrest, and I kept it, thinking it was magical and could bring her back. I held onto that hair for weeks, wishing and hoping...",
+      "Therapist: And your SUDS now?",
+      "Client: It's a 6. I feel sad, but it's a gentler sadness now. Like... like I'm finally grieving properly."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's a 6. I feel sad, but it's a gentler sadness now. Like... like I'm finally grieving properly.",
+      "Therapist: You're doing excellent work. We'll stop here for today."
+    ]
+  ]
+}

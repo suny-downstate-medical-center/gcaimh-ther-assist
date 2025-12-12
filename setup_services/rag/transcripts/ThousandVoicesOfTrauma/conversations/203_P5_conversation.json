@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Carlos. How are you feeling today?",
+    "Client: Hi Dr. Martinez. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, it's just... I've spent so long trying to forget about what happened at the hospital. The idea of purposely bringing those memories back feels... wrong, somehow. Like I'm inviting the nightmares to come back. And then there's the whole race aspect of it. I'm not sure I want to relive those feelings of discrimination and helplessness.",
+    "Therapist: Your hesitation is valid. How about we discuss the purpose of this exercise?",
+    "Client: Okay, that might help. Because right now, I'm struggling to see how this could be beneficial. It feels like we're just stirring up old wounds.",
+    "Therapist: The goal is to process the trauma, not relive it. It's about gaining control over the memories.",
+    "Client: Gaining control? That's... interesting. I've felt so out of control since it happened. Both with the medical issues and the way I was treated. But I'm not sure how talking about it gives me control. Won't it just make me feel worse?",
+    "Therapist: It might be difficult initially, but it often leads to reduced symptoms over time. Shall I explain how?",
+    "Client: Yes, please. I need to understand this better if I'm going to go through with it.",
+    "Therapist: By revisiting the memory in a safe environment, we can reprocess it. This can help reduce its emotional impact.",
+    "Client: Reprocess it? That sounds... clinical. But I guess that's the point, right? To take something that feels so raw and personal and... I don't know, make it less powerful? It's hard to imagine that's possible.",
+    "Therapist: Exactly. It's about changing your relationship with the memory. How do you feel about trying?",
+    "Client: I'm still nervous, but I think I understand the purpose better now. Can you tell me what exactly we'll be doing? What should I expect?",
+    "Therapist: We'll start slowly. I'll guide you through recalling the memory. We can pause anytime you need.",
+    "Client: Okay, that doesn't sound too bad. I appreciate that we can take breaks if needed. I'm worried about getting overwhelmed. Sometimes when I think about what happened, it feels like I can't breathe. Will you help me if that happens?",
+    "Therapist: Absolutely. We'll practice grounding techniques beforehand. Your safety is my priority.",
+    "Client: That's reassuring. I guess... I'm as ready as I'll ever be. But I have one more question. How do we address the racial aspect of my trauma? It's not just about what happened medically, but how I was treated because of my ethnicity.",
+    "Therapist: We'll explore all aspects, including the racial component. Your experiences are valid and important.",
+    "Client: Thank you for saying that. It means a lot to hear you acknowledge it. I've felt so... invisible sometimes. Like my experiences don't matter. But you're right, they are valid. Okay, I think I'm ready to try this. What's the first step?",
+    "Therapist: Let's start with a breathing exercise. Then, we'll begin recalling the memory slowly.",
+    "Client: Alright. I'm nervous, but I'm also... hopeful? Is that weird? To feel hopeful about revisiting something so painful?",
+    "Therapist: Not at all. Hope is a powerful motivator in healing. Shall we begin?",
+    "Client: Yes, let's do this. I'm ready to take back control of my life and my memories. Thank you for guiding me through this, Dr. Martinez."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Carlos. How are you feeling today?",
+      "Client: Hi Dr. Martinez. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Hi Dr. Martinez. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened at the hospital. The idea of purposely bringing those memories back feels... wrong, somehow. Like I'm inviting the nightmares to come back. And then there's the whole race aspect of it. I'm not sure I want to relive those feelings of discrimination and helplessness."
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened at the hospital. The idea of purposely bringing those memories back feels... wrong, somehow. Like I'm inviting the nightmares to come back. And then there's the whole race aspect of it. I'm not sure I want to relive those feelings of discrimination and helplessness.",
+      "Therapist: Your hesitation is valid. How about we discuss the purpose of this exercise?"
+    ],
+    [
+      "Client: Well, it's just... I've spent so long trying to forget about what happened at the hospital. The idea of purposely bringing those memories back feels... wrong, somehow. Like I'm inviting the nightmares to come back. And then there's the whole race aspect of it. I'm not sure I want to relive those feelings of discrimination and helplessness.",
+      "Therapist: Your hesitation is valid. How about we discuss the purpose of this exercise?",
+      "Client: Okay, that might help. Because right now, I'm struggling to see how this could be beneficial. It feels like we're just stirring up old wounds."
+    ],
+    [
+      "Therapist: Your hesitation is valid. How about we discuss the purpose of this exercise?",
+      "Client: Okay, that might help. Because right now, I'm struggling to see how this could be beneficial. It feels like we're just stirring up old wounds.",
+      "Therapist: The goal is to process the trauma, not relive it. It's about gaining control over the memories."
+    ],
+    [
+      "Client: Okay, that might help. Because right now, I'm struggling to see how this could be beneficial. It feels like we're just stirring up old wounds.",
+      "Therapist: The goal is to process the trauma, not relive it. It's about gaining control over the memories.",
+      "Client: Gaining control? That's... interesting. I've felt so out of control since it happened. Both with the medical issues and the way I was treated. But I'm not sure how talking about it gives me control. Won't it just make me feel worse?"
+    ],
+    [
+      "Therapist: The goal is to process the trauma, not relive it. It's about gaining control over the memories.",
+      "Client: Gaining control? That's... interesting. I've felt so out of control since it happened. Both with the medical issues and the way I was treated. But I'm not sure how talking about it gives me control. Won't it just make me feel worse?",
+      "Therapist: It might be difficult initially, but it often leads to reduced symptoms over time. Shall I explain how?"
+    ],
+    [
+      "Client: Gaining control? That's... interesting. I've felt so out of control since it happened. Both with the medical issues and the way I was treated. But I'm not sure how talking about it gives me control. Won't it just make me feel worse?",
+      "Therapist: It might be difficult initially, but it often leads to reduced symptoms over time. Shall I explain how?",
+      "Client: Yes, please. I need to understand this better if I'm going to go through with it."
+    ],
+    [
+      "Therapist: It might be difficult initially, but it often leads to reduced symptoms over time. Shall I explain how?",
+      "Client: Yes, please. I need to understand this better if I'm going to go through with it.",
+      "Therapist: By revisiting the memory in a safe environment, we can reprocess it. This can help reduce its emotional impact."
+    ],
+    [
+      "Client: Yes, please. I need to understand this better if I'm going to go through with it.",
+      "Therapist: By revisiting the memory in a safe environment, we can reprocess it. This can help reduce its emotional impact.",
+      "Client: Reprocess it? That sounds... clinical. But I guess that's the point, right? To take something that feels so raw and personal and... I don't know, make it less powerful? It's hard to imagine that's possible."
+    ],
+    [
+      "Therapist: By revisiting the memory in a safe environment, we can reprocess it. This can help reduce its emotional impact.",
+      "Client: Reprocess it? That sounds... clinical. But I guess that's the point, right? To take something that feels so raw and personal and... I don't know, make it less powerful? It's hard to imagine that's possible.",
+      "Therapist: Exactly. It's about changing your relationship with the memory. How do you feel about trying?"
+    ],
+    [
+      "Client: Reprocess it? That sounds... clinical. But I guess that's the point, right? To take something that feels so raw and personal and... I don't know, make it less powerful? It's hard to imagine that's possible.",
+      "Therapist: Exactly. It's about changing your relationship with the memory. How do you feel about trying?",
+      "Client: I'm still nervous, but I think I understand the purpose better now. Can you tell me what exactly we'll be doing? What should I expect?"
+    ],
+    [
+      "Therapist: Exactly. It's about changing your relationship with the memory. How do you feel about trying?",
+      "Client: I'm still nervous, but I think I understand the purpose better now. Can you tell me what exactly we'll be doing? What should I expect?",
+      "Therapist: We'll start slowly. I'll guide you through recalling the memory. We can pause anytime you need."
+    ],
+    [
+      "Client: I'm still nervous, but I think I understand the purpose better now. Can you tell me what exactly we'll be doing? What should I expect?",
+      "Therapist: We'll start slowly. I'll guide you through recalling the memory. We can pause anytime you need.",
+      "Client: Okay, that doesn't sound too bad. I appreciate that we can take breaks if needed. I'm worried about getting overwhelmed. Sometimes when I think about what happened, it feels like I can't breathe. Will you help me if that happens?"
+    ],
+    [
+      "Therapist: We'll start slowly. I'll guide you through recalling the memory. We can pause anytime you need.",
+      "Client: Okay, that doesn't sound too bad. I appreciate that we can take breaks if needed. I'm worried about getting overwhelmed. Sometimes when I think about what happened, it feels like I can't breathe. Will you help me if that happens?",
+      "Therapist: Absolutely. We'll practice grounding techniques beforehand. Your safety is my priority."
+    ],
+    [
+      "Client: Okay, that doesn't sound too bad. I appreciate that we can take breaks if needed. I'm worried about getting overwhelmed. Sometimes when I think about what happened, it feels like I can't breathe. Will you help me if that happens?",
+      "Therapist: Absolutely. We'll practice grounding techniques beforehand. Your safety is my priority.",
+      "Client: That's reassuring. I guess... I'm as ready as I'll ever be. But I have one more question. How do we address the racial aspect of my trauma? It's not just about what happened medically, but how I was treated because of my ethnicity."
+    ],
+    [
+      "Therapist: Absolutely. We'll practice grounding techniques beforehand. Your safety is my priority.",
+      "Client: That's reassuring. I guess... I'm as ready as I'll ever be. But I have one more question. How do we address the racial aspect of my trauma? It's not just about what happened medically, but how I was treated because of my ethnicity.",
+      "Therapist: We'll explore all aspects, including the racial component. Your experiences are valid and important."
+    ],
+    [
+      "Client: That's reassuring. I guess... I'm as ready as I'll ever be. But I have one more question. How do we address the racial aspect of my trauma? It's not just about what happened medically, but how I was treated because of my ethnicity.",
+      "Therapist: We'll explore all aspects, including the racial component. Your experiences are valid and important.",
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge it. I've felt so... invisible sometimes. Like my experiences don't matter. But you're right, they are valid. Okay, I think I'm ready to try this. What's the first step?"
+    ],
+    [
+      "Therapist: We'll explore all aspects, including the racial component. Your experiences are valid and important.",
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge it. I've felt so... invisible sometimes. Like my experiences don't matter. But you're right, they are valid. Okay, I think I'm ready to try this. What's the first step?",
+      "Therapist: Let's start with a breathing exercise. Then, we'll begin recalling the memory slowly."
+    ],
+    [
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge it. I've felt so... invisible sometimes. Like my experiences don't matter. But you're right, they are valid. Okay, I think I'm ready to try this. What's the first step?",
+      "Therapist: Let's start with a breathing exercise. Then, we'll begin recalling the memory slowly.",
+      "Client: Alright. I'm nervous, but I'm also... hopeful? Is that weird? To feel hopeful about revisiting something so painful?"
+    ],
+    [
+      "Therapist: Let's start with a breathing exercise. Then, we'll begin recalling the memory slowly.",
+      "Client: Alright. I'm nervous, but I'm also... hopeful? Is that weird? To feel hopeful about revisiting something so painful?",
+      "Therapist: Not at all. Hope is a powerful motivator in healing. Shall we begin?"
+    ],
+    [
+      "Client: Alright. I'm nervous, but I'm also... hopeful? Is that weird? To feel hopeful about revisiting something so painful?",
+      "Therapist: Not at all. Hope is a powerful motivator in healing. Shall we begin?",
+      "Client: Yes, let's do this. I'm ready to take back control of my life and my memories. Thank you for guiding me through this, Dr. Martinez."
+    ]
+  ]
+}

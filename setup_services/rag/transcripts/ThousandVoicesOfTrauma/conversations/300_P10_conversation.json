@@ -1,0 +1,290 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling about today's session?",
+    "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be talking about my illness, and just thinking about it makes my stomach churn.",
+    "Therapist: That's understandable. Remember, you're safe here. Let's start with a SUDS rating.",
+    "Client: Um, I'd say about a 6 out of 10. My hands are a bit clammy.",
+    "Therapist: Okay. Take a deep breath. When you're ready, describe the day you received your diagnosis.",
+    "Client: (inhales deeply) Alright... I remember waking up that morning feeling oddly calm. It was a Tuesday, I think. The sun was streaming through my curtains, and for a moment, everything felt normal. But then reality hit me like a truck. Today was the day I'd find out.",
+    "Therapist: Good. Stay with that moment. What were you feeling?",
+    "Client: Anxiety, definitely. But also this... this weird sense of detachment. Like I was watching myself go through the motions.",
+    "Therapist: You're doing well. What's your SUDS now?",
+    "Client: It's... it's creeping up. Maybe a 7?",
+    "Therapist: Take another deep breath. Continue when you're ready.",
+    "Client: (exhales slowly) Okay... I drove to the hospital, gripping the steering wheel so tightly my knuckles turned white. The waiting room was eerily quiet when I arrived. Just the sound of pages turning and the occasional cough.",
+    "Therapist: You're right there in the moment. What do you see? Hear? Smell?",
+    "Client: I... I can smell the antiseptic. It's so strong, almost burning my nostrils. The leather of the chair is cool against my sweaty palms. There's a clock on the wall, ticking so loudly it feels like it's inside my head.",
+    "Therapist: Stay with that feeling. What's happening in your body?",
+    "Client: My chest tightens, like someone's squeezing all the air out of me. My ears are ringing, and I feel dizzy. I'm trying to focus on what he's saying, but it's like he's speaking underwater. Words like \"aggressive\" and \"treatment options\" float around me, but I can't grasp them.",
+    "Therapist: You're doing great, Sarah. What's your SUDS level now?",
+    "Client: It's... it's an 8. Maybe higher. I feel like I'm right back there.",
+    "Therapist: Remember, you're safe here. Take a moment to ground yourself.",
+    "Client: (takes a shaky breath) Right. I'm here. I'm safe. It's just a memory.",
+    "Therapist: How are you feeling right now, in this moment?",
+    "Client: I... I feel exposed. Vulnerable. Like I've been stripped bare and left out in the cold. My throat is tight, and I'm fighting back tears.",
+    "Therapist: You're showing incredible strength. What's your SUDS level?",
+    "Client: It's... it's still high. Maybe a 9. I can feel my heart racing.",
+    "Therapist: Take a moment. Breathe deeply. You're safe here.",
+    "Client: (takes several deep breaths) Okay... I'm okay.",
+    "Therapist: You've done incredibly well, Sarah. How are you feeling now?",
+    "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, relief? Like I've finally let out something I've been holding in for a long time.",
+    "Therapist: That's common. Let's end the exposure here. What's your final SUDS?",
+    "Client: It's coming down. Maybe a 6 or 7 now.",
+    "Therapist: Good. Let's do some grounding exercises before we finish.",
+    "Client: Okay... (takes a deep breath) I'm ready.",
+    "Therapist: Focus on five things you can see in this room.",
+    "Client: I see... the blue painting on the wall, your bookshelf, the potted plant in the corner, the clock, and the tissue box on the table.",
+    "Therapist: Excellent. Now, four things you can touch.",
+    "Client: The softness of this chair, my hair against my neck, the smooth surface of my watch, and the roughness of my jeans.",
+    "Therapist: Great. Three things you can hear?",
+    "Client: The hum of the air conditioner, a car passing outside, and my own breathing.",
+    "Therapist: Two things you can smell?",
+    "Client: The faint scent of your air freshener and... coffee, I think?",
+    "Therapist: And finally, one thing you can taste?",
+    "Client: The mint from the gum I was chewing earlier.",
+    "Therapist: Well done, Sarah. How do you feel now?",
+    "Client: Better. More... present. The memory feels less overwhelming now.",
+    "Therapist: That's great progress. Remember, each time we do this, it gets easier.",
+    "Client: I hope so. It's still hard, but... I think I'm starting to see how this helps.",
+    "Therapist: You've shown incredible courage today. We'll pick this up next session.",
+    "Client: Thank you. I... I appreciate your support through this.",
+    "Therapist: You're welcome, Sarah. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling about today's session?",
+      "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be talking about my illness, and just thinking about it makes my stomach churn.",
+      "Therapist: That's understandable. Remember, you're safe here. Let's start with a SUDS rating."
+    ],
+    [
+      "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be talking about my illness, and just thinking about it makes my stomach churn.",
+      "Therapist: That's understandable. Remember, you're safe here. Let's start with a SUDS rating.",
+      "Client: Um, I'd say about a 6 out of 10. My hands are a bit clammy."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here. Let's start with a SUDS rating.",
+      "Client: Um, I'd say about a 6 out of 10. My hands are a bit clammy.",
+      "Therapist: Okay. Take a deep breath. When you're ready, describe the day you received your diagnosis."
+    ],
+    [
+      "Client: Um, I'd say about a 6 out of 10. My hands are a bit clammy.",
+      "Therapist: Okay. Take a deep breath. When you're ready, describe the day you received your diagnosis.",
+      "Client: (inhales deeply) Alright... I remember waking up that morning feeling oddly calm. It was a Tuesday, I think. The sun was streaming through my curtains, and for a moment, everything felt normal. But then reality hit me like a truck. Today was the day I'd find out."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath. When you're ready, describe the day you received your diagnosis.",
+      "Client: (inhales deeply) Alright... I remember waking up that morning feeling oddly calm. It was a Tuesday, I think. The sun was streaming through my curtains, and for a moment, everything felt normal. But then reality hit me like a truck. Today was the day I'd find out.",
+      "Therapist: Good. Stay with that moment. What were you feeling?"
+    ],
+    [
+      "Client: (inhales deeply) Alright... I remember waking up that morning feeling oddly calm. It was a Tuesday, I think. The sun was streaming through my curtains, and for a moment, everything felt normal. But then reality hit me like a truck. Today was the day I'd find out.",
+      "Therapist: Good. Stay with that moment. What were you feeling?",
+      "Client: Anxiety, definitely. But also this... this weird sense of detachment. Like I was watching myself go through the motions."
+    ],
+    [
+      "Therapist: Good. Stay with that moment. What were you feeling?",
+      "Client: Anxiety, definitely. But also this... this weird sense of detachment. Like I was watching myself go through the motions.",
+      "Therapist: You're doing well. What's your SUDS now?"
+    ],
+    [
+      "Client: Anxiety, definitely. But also this... this weird sense of detachment. Like I was watching myself go through the motions.",
+      "Therapist: You're doing well. What's your SUDS now?",
+      "Client: It's... it's creeping up. Maybe a 7?"
+    ],
+    [
+      "Therapist: You're doing well. What's your SUDS now?",
+      "Client: It's... it's creeping up. Maybe a 7?",
+      "Therapist: Take another deep breath. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's creeping up. Maybe a 7?",
+      "Therapist: Take another deep breath. Continue when you're ready.",
+      "Client: (exhales slowly) Okay... I drove to the hospital, gripping the steering wheel so tightly my knuckles turned white. The waiting room was eerily quiet when I arrived. Just the sound of pages turning and the occasional cough."
+    ],
+    [
+      "Therapist: Take another deep breath. Continue when you're ready.",
+      "Client: (exhales slowly) Okay... I drove to the hospital, gripping the steering wheel so tightly my knuckles turned white. The waiting room was eerily quiet when I arrived. Just the sound of pages turning and the occasional cough.",
+      "Therapist: You're right there in the moment. What do you see? Hear? Smell?"
+    ],
+    [
+      "Client: (exhales slowly) Okay... I drove to the hospital, gripping the steering wheel so tightly my knuckles turned white. The waiting room was eerily quiet when I arrived. Just the sound of pages turning and the occasional cough.",
+      "Therapist: You're right there in the moment. What do you see? Hear? Smell?",
+      "Client: I... I can smell the antiseptic. It's so strong, almost burning my nostrils. The leather of the chair is cool against my sweaty palms. There's a clock on the wall, ticking so loudly it feels like it's inside my head."
+    ],
+    [
+      "Therapist: You're right there in the moment. What do you see? Hear? Smell?",
+      "Client: I... I can smell the antiseptic. It's so strong, almost burning my nostrils. The leather of the chair is cool against my sweaty palms. There's a clock on the wall, ticking so loudly it feels like it's inside my head.",
+      "Therapist: Stay with that feeling. What's happening in your body?"
+    ],
+    [
+      "Client: I... I can smell the antiseptic. It's so strong, almost burning my nostrils. The leather of the chair is cool against my sweaty palms. There's a clock on the wall, ticking so loudly it feels like it's inside my head.",
+      "Therapist: Stay with that feeling. What's happening in your body?",
+      "Client: My chest tightens, like someone's squeezing all the air out of me. My ears are ringing, and I feel dizzy. I'm trying to focus on what he's saying, but it's like he's speaking underwater. Words like \"aggressive\" and \"treatment options\" float around me, but I can't grasp them."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's happening in your body?",
+      "Client: My chest tightens, like someone's squeezing all the air out of me. My ears are ringing, and I feel dizzy. I'm trying to focus on what he's saying, but it's like he's speaking underwater. Words like \"aggressive\" and \"treatment options\" float around me, but I can't grasp them.",
+      "Therapist: You're doing great, Sarah. What's your SUDS level now?"
+    ],
+    [
+      "Client: My chest tightens, like someone's squeezing all the air out of me. My ears are ringing, and I feel dizzy. I'm trying to focus on what he's saying, but it's like he's speaking underwater. Words like \"aggressive\" and \"treatment options\" float around me, but I can't grasp them.",
+      "Therapist: You're doing great, Sarah. What's your SUDS level now?",
+      "Client: It's... it's an 8. Maybe higher. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. What's your SUDS level now?",
+      "Client: It's... it's an 8. Maybe higher. I feel like I'm right back there.",
+      "Therapist: Remember, you're safe here. Take a moment to ground yourself."
+    ],
+    [
+      "Client: It's... it's an 8. Maybe higher. I feel like I'm right back there.",
+      "Therapist: Remember, you're safe here. Take a moment to ground yourself.",
+      "Client: (takes a shaky breath) Right. I'm here. I'm safe. It's just a memory."
+    ],
+    [
+      "Therapist: Remember, you're safe here. Take a moment to ground yourself.",
+      "Client: (takes a shaky breath) Right. I'm here. I'm safe. It's just a memory.",
+      "Therapist: How are you feeling right now, in this moment?"
+    ],
+    [
+      "Client: (takes a shaky breath) Right. I'm here. I'm safe. It's just a memory.",
+      "Therapist: How are you feeling right now, in this moment?",
+      "Client: I... I feel exposed. Vulnerable. Like I've been stripped bare and left out in the cold. My throat is tight, and I'm fighting back tears."
+    ],
+    [
+      "Therapist: How are you feeling right now, in this moment?",
+      "Client: I... I feel exposed. Vulnerable. Like I've been stripped bare and left out in the cold. My throat is tight, and I'm fighting back tears.",
+      "Therapist: You're showing incredible strength. What's your SUDS level?"
+    ],
+    [
+      "Client: I... I feel exposed. Vulnerable. Like I've been stripped bare and left out in the cold. My throat is tight, and I'm fighting back tears.",
+      "Therapist: You're showing incredible strength. What's your SUDS level?",
+      "Client: It's... it's still high. Maybe a 9. I can feel my heart racing."
+    ],
+    [
+      "Therapist: You're showing incredible strength. What's your SUDS level?",
+      "Client: It's... it's still high. Maybe a 9. I can feel my heart racing.",
+      "Therapist: Take a moment. Breathe deeply. You're safe here."
+    ],
+    [
+      "Client: It's... it's still high. Maybe a 9. I can feel my heart racing.",
+      "Therapist: Take a moment. Breathe deeply. You're safe here.",
+      "Client: (takes several deep breaths) Okay... I'm okay."
+    ],
+    [
+      "Therapist: Take a moment. Breathe deeply. You're safe here.",
+      "Client: (takes several deep breaths) Okay... I'm okay.",
+      "Therapist: You've done incredibly well, Sarah. How are you feeling now?"
+    ],
+    [
+      "Client: (takes several deep breaths) Okay... I'm okay.",
+      "Therapist: You've done incredibly well, Sarah. How are you feeling now?",
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, relief? Like I've finally let out something I've been holding in for a long time."
+    ],
+    [
+      "Therapist: You've done incredibly well, Sarah. How are you feeling now?",
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, relief? Like I've finally let out something I've been holding in for a long time.",
+      "Therapist: That's common. Let's end the exposure here. What's your final SUDS?"
+    ],
+    [
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, relief? Like I've finally let out something I've been holding in for a long time.",
+      "Therapist: That's common. Let's end the exposure here. What's your final SUDS?",
+      "Client: It's coming down. Maybe a 6 or 7 now."
+    ],
+    [
+      "Therapist: That's common. Let's end the exposure here. What's your final SUDS?",
+      "Client: It's coming down. Maybe a 6 or 7 now.",
+      "Therapist: Good. Let's do some grounding exercises before we finish."
+    ],
+    [
+      "Client: It's coming down. Maybe a 6 or 7 now.",
+      "Therapist: Good. Let's do some grounding exercises before we finish.",
+      "Client: Okay... (takes a deep breath) I'm ready."
+    ],
+    [
+      "Therapist: Good. Let's do some grounding exercises before we finish.",
+      "Client: Okay... (takes a deep breath) I'm ready.",
+      "Therapist: Focus on five things you can see in this room."
+    ],
+    [
+      "Client: Okay... (takes a deep breath) I'm ready.",
+      "Therapist: Focus on five things you can see in this room.",
+      "Client: I see... the blue painting on the wall, your bookshelf, the potted plant in the corner, the clock, and the tissue box on the table."
+    ],
+    [
+      "Therapist: Focus on five things you can see in this room.",
+      "Client: I see... the blue painting on the wall, your bookshelf, the potted plant in the corner, the clock, and the tissue box on the table.",
+      "Therapist: Excellent. Now, four things you can touch."
+    ],
+    [
+      "Client: I see... the blue painting on the wall, your bookshelf, the potted plant in the corner, the clock, and the tissue box on the table.",
+      "Therapist: Excellent. Now, four things you can touch.",
+      "Client: The softness of this chair, my hair against my neck, the smooth surface of my watch, and the roughness of my jeans."
+    ],
+    [
+      "Therapist: Excellent. Now, four things you can touch.",
+      "Client: The softness of this chair, my hair against my neck, the smooth surface of my watch, and the roughness of my jeans.",
+      "Therapist: Great. Three things you can hear?"
+    ],
+    [
+      "Client: The softness of this chair, my hair against my neck, the smooth surface of my watch, and the roughness of my jeans.",
+      "Therapist: Great. Three things you can hear?",
+      "Client: The hum of the air conditioner, a car passing outside, and my own breathing."
+    ],
+    [
+      "Therapist: Great. Three things you can hear?",
+      "Client: The hum of the air conditioner, a car passing outside, and my own breathing.",
+      "Therapist: Two things you can smell?"
+    ],
+    [
+      "Client: The hum of the air conditioner, a car passing outside, and my own breathing.",
+      "Therapist: Two things you can smell?",
+      "Client: The faint scent of your air freshener and... coffee, I think?"
+    ],
+    [
+      "Therapist: Two things you can smell?",
+      "Client: The faint scent of your air freshener and... coffee, I think?",
+      "Therapist: And finally, one thing you can taste?"
+    ],
+    [
+      "Client: The faint scent of your air freshener and... coffee, I think?",
+      "Therapist: And finally, one thing you can taste?",
+      "Client: The mint from the gum I was chewing earlier."
+    ],
+    [
+      "Therapist: And finally, one thing you can taste?",
+      "Client: The mint from the gum I was chewing earlier.",
+      "Therapist: Well done, Sarah. How do you feel now?"
+    ],
+    [
+      "Client: The mint from the gum I was chewing earlier.",
+      "Therapist: Well done, Sarah. How do you feel now?",
+      "Client: Better. More... present. The memory feels less overwhelming now."
+    ],
+    [
+      "Therapist: Well done, Sarah. How do you feel now?",
+      "Client: Better. More... present. The memory feels less overwhelming now.",
+      "Therapist: That's great progress. Remember, each time we do this, it gets easier."
+    ],
+    [
+      "Client: Better. More... present. The memory feels less overwhelming now.",
+      "Therapist: That's great progress. Remember, each time we do this, it gets easier.",
+      "Client: I hope so. It's still hard, but... I think I'm starting to see how this helps."
+    ],
+    [
+      "Therapist: That's great progress. Remember, each time we do this, it gets easier.",
+      "Client: I hope so. It's still hard, but... I think I'm starting to see how this helps.",
+      "Therapist: You've shown incredible courage today. We'll pick this up next session."
+    ],
+    [
+      "Client: I hope so. It's still hard, but... I think I'm starting to see how this helps.",
+      "Therapist: You've shown incredible courage today. We'll pick this up next session.",
+      "Client: Thank you. I... I appreciate your support through this."
+    ],
+    [
+      "Therapist: You've shown incredible courage today. We'll pick this up next session.",
+      "Client: Thank you. I... I appreciate your support through this.",
+      "Therapist: You're welcome, Sarah. Take care, and I'll see you next week."
+    ]
+  ]
+}

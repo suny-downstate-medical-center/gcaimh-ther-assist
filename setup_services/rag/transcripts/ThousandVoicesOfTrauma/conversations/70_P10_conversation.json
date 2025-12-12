@@ -1,0 +1,266 @@
+{
+  "full_conversation": [
+    "Therapist: Good afternoon. How are you feeling about our imaginal exposure session today?",
+    "Client: I... I'm a bit on edge, to be honest. My hands are a bit clammy, and I can feel my heart racing a bit. But I'm here, and I want to do this.",
+    "Therapist: Thank you for sharing. Let's start with a SUDS rating. On a scale of 0-100, how distressed are you right now?",
+    "Client: I'd say about a 40. It's not overwhelming, but definitely noticeable.",
+    "Therapist: Okay. Let's begin. Close your eyes and take us back to that day.",
+    "Client: (Takes a deep breath) Alright... I'm... I'm 12 years old. It's a sunny day, but I'm in bed. My whole body aches, and I'm burning up with fever. Mom's standing in the doorway, and I can see the worry on her face. She's trying to hide it, but I know something's wrong.",
+    "Therapist: Good. Stay with that moment. What do you see, hear, feel?",
+    "Client: I... I can smell the sharp scent of disinfectant. The sheets are damp with my sweat. My head is pounding, and it hurts to move. I hear Mom on the phone in the hallway, her voice hushed but urgent. \"He's getting worse,\" she says. \"We need to bring him in now.\"",
+    "Therapist: You're doing well. What happens next?",
+    "Client: Everything's a blur. Suddenly, I'm being carried to the car. The sunlight hurts my eyes. I'm shivering despite the heat. Dad's driving, and he keeps glancing back at me, his knuckles white on the steering wheel. I've never seen him look so... scared.",
+    "Therapist: Stay with those feelings. What's your SUDS level now?",
+    "Client: It's... it's up to about 60. My heart's really pounding now.",
+    "Therapist: That's okay. You're safe here. Take a deep breath and continue.",
+    "Client: We're at the hospital now. The fluorescent lights are so bright, they're making me nauseous. There are people rushing around, voices overlapping. Someone's asking my parents questions, but their words sound muffled, like I'm underwater. I'm on a gurney now, being wheeled down a long hallway. Mom's holding my hand, but she has to let go as they push me through some double doors. I... I don't want her to let go. I'm scared.",
+    "Therapist: You're doing great. Stay with that moment.",
+    "Client: There are doctors and nurses all around me now. They're cutting off my clothes, attaching wires and tubes. It hurts, and I'm so confused. I hear beeping machines, urgent voices. Someone says \"sepsis\" and \"critical condition.\" I don't understand what's happening, but I know it's bad. I'm crying now, calling for my parents, but they're not here. I've never felt so alone and terrified in my life.",
+    "Therapist: Take a moment. How are you feeling right now?",
+    "Client: I'm... I'm at about 75. My chest feels tight, and I can feel tears in my eyes.",
+    "Therapist: That's okay. You're safe here. Take a deep breath and continue when you're ready.",
+    "Client: (Takes a shaky breath) I'm in and out of consciousness. Time doesn't make sense anymore. Sometimes I wake up and it's dark, sometimes it's light. The pain comes in waves. I hear the doctors talking about organ failure, about how they're not sure if I'll make it. I want to scream, to tell them I can hear them, but I can't move or speak. I'm trapped in my own body, and I've never been so scared.",
+    "Therapist: You're doing really well. Stay with those feelings.",
+    "Client: Days blur together. I'm aware of my parents' presence sometimes. Mom's crying, Dad's voice is hoarse from talking to doctors. I want to comfort them, but I can't. The pain is constant, and I'm so tired. There's a moment where I feel like I'm floating above my body, looking down at myself. I look so small and pale in that hospital bed. Part of me wants to just let go, to stop fighting. But then I hear Mom's voice, begging me to stay strong, and I know I have to keep fighting.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm... I'm at about 85. My hands are shaking, and I feel a bit lightheaded.",
+    "Therapist: You're doing great. Remember, you're safe here. Take a few deep breaths.",
+    "Client: (Breathes deeply) Okay... I'm starting to feel better. Slowly, very slowly, I start to improve. The pain lessens, and I'm more aware of my surroundings. I can open my eyes for longer periods. The relief on my parents' faces is palpable. But even as I get better physically, I'm different. I'm jumpy, easily startled. I have nightmares about being back in that hospital bed, unable to move or speak. The fear of getting sick again is constant. It's like a shadow that follows me everywhere.",
+    "Therapist: You've come through a lot. How are you feeling now?",
+    "Client: I'm... I'm at about 70. My heart's still racing, but I feel a bit calmer.",
+    "Therapist: That's good. Let's start to bring you back to the present. Can you tell me five things you see in this room?",
+    "Client: (Opens eyes) I see... the blue painting on the wall, your desk lamp, the bookshelf, the clock, and the plant in the corner.",
+    "Therapist: Excellent. Now, four things you can feel.",
+    "Client: I feel the chair beneath me, my feet on the floor, my shirt on my skin, and... and my hands, they're not shaking as much now.",
+    "Therapist: Great. Three things you can hear?",
+    "Client: I hear the clock ticking, traffic outside, and the hum of the air conditioning.",
+    "Therapist: Two things you can smell?",
+    "Client: I smell... coffee, and maybe some kind of air freshener?",
+    "Therapist: And finally, one thing you can taste?",
+    "Client: I can taste... the mint from the gum I had earlier.",
+    "Therapist: Excellent job. How are you feeling now?",
+    "Client: I'm... I'm down to about a 40. That was intense, but I feel... I don't know, maybe a little lighter?",
+    "Therapist: You did very well today. How do you feel about the session?",
+    "Client: It was tough, really tough. But... I think it helped. Talking about it, really facing those memories... it's hard, but I think it's necessary.",
+    "Therapist: I'm glad you feel that way. We'll end our session here. Remember to practice your breathing exercises, and we'll discuss this more next time.",
+    "Client: Thank you. I... I appreciate your guidance through this.",
+    "Therapist: You're welcome. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good afternoon. How are you feeling about our imaginal exposure session today?",
+      "Client: I... I'm a bit on edge, to be honest. My hands are a bit clammy, and I can feel my heart racing a bit. But I'm here, and I want to do this.",
+      "Therapist: Thank you for sharing. Let's start with a SUDS rating. On a scale of 0-100, how distressed are you right now?"
+    ],
+    [
+      "Client: I... I'm a bit on edge, to be honest. My hands are a bit clammy, and I can feel my heart racing a bit. But I'm here, and I want to do this.",
+      "Therapist: Thank you for sharing. Let's start with a SUDS rating. On a scale of 0-100, how distressed are you right now?",
+      "Client: I'd say about a 40. It's not overwhelming, but definitely noticeable."
+    ],
+    [
+      "Therapist: Thank you for sharing. Let's start with a SUDS rating. On a scale of 0-100, how distressed are you right now?",
+      "Client: I'd say about a 40. It's not overwhelming, but definitely noticeable.",
+      "Therapist: Okay. Let's begin. Close your eyes and take us back to that day."
+    ],
+    [
+      "Client: I'd say about a 40. It's not overwhelming, but definitely noticeable.",
+      "Therapist: Okay. Let's begin. Close your eyes and take us back to that day.",
+      "Client: (Takes a deep breath) Alright... I'm... I'm 12 years old. It's a sunny day, but I'm in bed. My whole body aches, and I'm burning up with fever. Mom's standing in the doorway, and I can see the worry on her face. She's trying to hide it, but I know something's wrong."
+    ],
+    [
+      "Therapist: Okay. Let's begin. Close your eyes and take us back to that day.",
+      "Client: (Takes a deep breath) Alright... I'm... I'm 12 years old. It's a sunny day, but I'm in bed. My whole body aches, and I'm burning up with fever. Mom's standing in the doorway, and I can see the worry on her face. She's trying to hide it, but I know something's wrong.",
+      "Therapist: Good. Stay with that moment. What do you see, hear, feel?"
+    ],
+    [
+      "Client: (Takes a deep breath) Alright... I'm... I'm 12 years old. It's a sunny day, but I'm in bed. My whole body aches, and I'm burning up with fever. Mom's standing in the doorway, and I can see the worry on her face. She's trying to hide it, but I know something's wrong.",
+      "Therapist: Good. Stay with that moment. What do you see, hear, feel?",
+      "Client: I... I can smell the sharp scent of disinfectant. The sheets are damp with my sweat. My head is pounding, and it hurts to move. I hear Mom on the phone in the hallway, her voice hushed but urgent. \"He's getting worse,\" she says. \"We need to bring him in now.\""
+    ],
+    [
+      "Therapist: Good. Stay with that moment. What do you see, hear, feel?",
+      "Client: I... I can smell the sharp scent of disinfectant. The sheets are damp with my sweat. My head is pounding, and it hurts to move. I hear Mom on the phone in the hallway, her voice hushed but urgent. \"He's getting worse,\" she says. \"We need to bring him in now.\"",
+      "Therapist: You're doing well. What happens next?"
+    ],
+    [
+      "Client: I... I can smell the sharp scent of disinfectant. The sheets are damp with my sweat. My head is pounding, and it hurts to move. I hear Mom on the phone in the hallway, her voice hushed but urgent. \"He's getting worse,\" she says. \"We need to bring him in now.\"",
+      "Therapist: You're doing well. What happens next?",
+      "Client: Everything's a blur. Suddenly, I'm being carried to the car. The sunlight hurts my eyes. I'm shivering despite the heat. Dad's driving, and he keeps glancing back at me, his knuckles white on the steering wheel. I've never seen him look so... scared."
+    ],
+    [
+      "Therapist: You're doing well. What happens next?",
+      "Client: Everything's a blur. Suddenly, I'm being carried to the car. The sunlight hurts my eyes. I'm shivering despite the heat. Dad's driving, and he keeps glancing back at me, his knuckles white on the steering wheel. I've never seen him look so... scared.",
+      "Therapist: Stay with those feelings. What's your SUDS level now?"
+    ],
+    [
+      "Client: Everything's a blur. Suddenly, I'm being carried to the car. The sunlight hurts my eyes. I'm shivering despite the heat. Dad's driving, and he keeps glancing back at me, his knuckles white on the steering wheel. I've never seen him look so... scared.",
+      "Therapist: Stay with those feelings. What's your SUDS level now?",
+      "Client: It's... it's up to about 60. My heart's really pounding now."
+    ],
+    [
+      "Therapist: Stay with those feelings. What's your SUDS level now?",
+      "Client: It's... it's up to about 60. My heart's really pounding now.",
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue."
+    ],
+    [
+      "Client: It's... it's up to about 60. My heart's really pounding now.",
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue.",
+      "Client: We're at the hospital now. The fluorescent lights are so bright, they're making me nauseous. There are people rushing around, voices overlapping. Someone's asking my parents questions, but their words sound muffled, like I'm underwater. I'm on a gurney now, being wheeled down a long hallway. Mom's holding my hand, but she has to let go as they push me through some double doors. I... I don't want her to let go. I'm scared."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue.",
+      "Client: We're at the hospital now. The fluorescent lights are so bright, they're making me nauseous. There are people rushing around, voices overlapping. Someone's asking my parents questions, but their words sound muffled, like I'm underwater. I'm on a gurney now, being wheeled down a long hallway. Mom's holding my hand, but she has to let go as they push me through some double doors. I... I don't want her to let go. I'm scared.",
+      "Therapist: You're doing great. Stay with that moment."
+    ],
+    [
+      "Client: We're at the hospital now. The fluorescent lights are so bright, they're making me nauseous. There are people rushing around, voices overlapping. Someone's asking my parents questions, but their words sound muffled, like I'm underwater. I'm on a gurney now, being wheeled down a long hallway. Mom's holding my hand, but she has to let go as they push me through some double doors. I... I don't want her to let go. I'm scared.",
+      "Therapist: You're doing great. Stay with that moment.",
+      "Client: There are doctors and nurses all around me now. They're cutting off my clothes, attaching wires and tubes. It hurts, and I'm so confused. I hear beeping machines, urgent voices. Someone says \"sepsis\" and \"critical condition.\" I don't understand what's happening, but I know it's bad. I'm crying now, calling for my parents, but they're not here. I've never felt so alone and terrified in my life."
+    ],
+    [
+      "Therapist: You're doing great. Stay with that moment.",
+      "Client: There are doctors and nurses all around me now. They're cutting off my clothes, attaching wires and tubes. It hurts, and I'm so confused. I hear beeping machines, urgent voices. Someone says \"sepsis\" and \"critical condition.\" I don't understand what's happening, but I know it's bad. I'm crying now, calling for my parents, but they're not here. I've never felt so alone and terrified in my life.",
+      "Therapist: Take a moment. How are you feeling right now?"
+    ],
+    [
+      "Client: There are doctors and nurses all around me now. They're cutting off my clothes, attaching wires and tubes. It hurts, and I'm so confused. I hear beeping machines, urgent voices. Someone says \"sepsis\" and \"critical condition.\" I don't understand what's happening, but I know it's bad. I'm crying now, calling for my parents, but they're not here. I've never felt so alone and terrified in my life.",
+      "Therapist: Take a moment. How are you feeling right now?",
+      "Client: I'm... I'm at about 75. My chest feels tight, and I can feel tears in my eyes."
+    ],
+    [
+      "Therapist: Take a moment. How are you feeling right now?",
+      "Client: I'm... I'm at about 75. My chest feels tight, and I can feel tears in my eyes.",
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue when you're ready."
+    ],
+    [
+      "Client: I'm... I'm at about 75. My chest feels tight, and I can feel tears in my eyes.",
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue when you're ready.",
+      "Client: (Takes a shaky breath) I'm in and out of consciousness. Time doesn't make sense anymore. Sometimes I wake up and it's dark, sometimes it's light. The pain comes in waves. I hear the doctors talking about organ failure, about how they're not sure if I'll make it. I want to scream, to tell them I can hear them, but I can't move or speak. I'm trapped in my own body, and I've never been so scared."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Take a deep breath and continue when you're ready.",
+      "Client: (Takes a shaky breath) I'm in and out of consciousness. Time doesn't make sense anymore. Sometimes I wake up and it's dark, sometimes it's light. The pain comes in waves. I hear the doctors talking about organ failure, about how they're not sure if I'll make it. I want to scream, to tell them I can hear them, but I can't move or speak. I'm trapped in my own body, and I've never been so scared.",
+      "Therapist: You're doing really well. Stay with those feelings."
+    ],
+    [
+      "Client: (Takes a shaky breath) I'm in and out of consciousness. Time doesn't make sense anymore. Sometimes I wake up and it's dark, sometimes it's light. The pain comes in waves. I hear the doctors talking about organ failure, about how they're not sure if I'll make it. I want to scream, to tell them I can hear them, but I can't move or speak. I'm trapped in my own body, and I've never been so scared.",
+      "Therapist: You're doing really well. Stay with those feelings.",
+      "Client: Days blur together. I'm aware of my parents' presence sometimes. Mom's crying, Dad's voice is hoarse from talking to doctors. I want to comfort them, but I can't. The pain is constant, and I'm so tired. There's a moment where I feel like I'm floating above my body, looking down at myself. I look so small and pale in that hospital bed. Part of me wants to just let go, to stop fighting. But then I hear Mom's voice, begging me to stay strong, and I know I have to keep fighting."
+    ],
+    [
+      "Therapist: You're doing really well. Stay with those feelings.",
+      "Client: Days blur together. I'm aware of my parents' presence sometimes. Mom's crying, Dad's voice is hoarse from talking to doctors. I want to comfort them, but I can't. The pain is constant, and I'm so tired. There's a moment where I feel like I'm floating above my body, looking down at myself. I look so small and pale in that hospital bed. Part of me wants to just let go, to stop fighting. But then I hear Mom's voice, begging me to stay strong, and I know I have to keep fighting.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Days blur together. I'm aware of my parents' presence sometimes. Mom's crying, Dad's voice is hoarse from talking to doctors. I want to comfort them, but I can't. The pain is constant, and I'm so tired. There's a moment where I feel like I'm floating above my body, looking down at myself. I look so small and pale in that hospital bed. Part of me wants to just let go, to stop fighting. But then I hear Mom's voice, begging me to stay strong, and I know I have to keep fighting.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm at about 85. My hands are shaking, and I feel a bit lightheaded."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm at about 85. My hands are shaking, and I feel a bit lightheaded.",
+      "Therapist: You're doing great. Remember, you're safe here. Take a few deep breaths."
+    ],
+    [
+      "Client: I'm... I'm at about 85. My hands are shaking, and I feel a bit lightheaded.",
+      "Therapist: You're doing great. Remember, you're safe here. Take a few deep breaths.",
+      "Client: (Breathes deeply) Okay... I'm starting to feel better. Slowly, very slowly, I start to improve. The pain lessens, and I'm more aware of my surroundings. I can open my eyes for longer periods. The relief on my parents' faces is palpable. But even as I get better physically, I'm different. I'm jumpy, easily startled. I have nightmares about being back in that hospital bed, unable to move or speak. The fear of getting sick again is constant. It's like a shadow that follows me everywhere."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here. Take a few deep breaths.",
+      "Client: (Breathes deeply) Okay... I'm starting to feel better. Slowly, very slowly, I start to improve. The pain lessens, and I'm more aware of my surroundings. I can open my eyes for longer periods. The relief on my parents' faces is palpable. But even as I get better physically, I'm different. I'm jumpy, easily startled. I have nightmares about being back in that hospital bed, unable to move or speak. The fear of getting sick again is constant. It's like a shadow that follows me everywhere.",
+      "Therapist: You've come through a lot. How are you feeling now?"
+    ],
+    [
+      "Client: (Breathes deeply) Okay... I'm starting to feel better. Slowly, very slowly, I start to improve. The pain lessens, and I'm more aware of my surroundings. I can open my eyes for longer periods. The relief on my parents' faces is palpable. But even as I get better physically, I'm different. I'm jumpy, easily startled. I have nightmares about being back in that hospital bed, unable to move or speak. The fear of getting sick again is constant. It's like a shadow that follows me everywhere.",
+      "Therapist: You've come through a lot. How are you feeling now?",
+      "Client: I'm... I'm at about 70. My heart's still racing, but I feel a bit calmer."
+    ],
+    [
+      "Therapist: You've come through a lot. How are you feeling now?",
+      "Client: I'm... I'm at about 70. My heart's still racing, but I feel a bit calmer.",
+      "Therapist: That's good. Let's start to bring you back to the present. Can you tell me five things you see in this room?"
+    ],
+    [
+      "Client: I'm... I'm at about 70. My heart's still racing, but I feel a bit calmer.",
+      "Therapist: That's good. Let's start to bring you back to the present. Can you tell me five things you see in this room?",
+      "Client: (Opens eyes) I see... the blue painting on the wall, your desk lamp, the bookshelf, the clock, and the plant in the corner."
+    ],
+    [
+      "Therapist: That's good. Let's start to bring you back to the present. Can you tell me five things you see in this room?",
+      "Client: (Opens eyes) I see... the blue painting on the wall, your desk lamp, the bookshelf, the clock, and the plant in the corner.",
+      "Therapist: Excellent. Now, four things you can feel."
+    ],
+    [
+      "Client: (Opens eyes) I see... the blue painting on the wall, your desk lamp, the bookshelf, the clock, and the plant in the corner.",
+      "Therapist: Excellent. Now, four things you can feel.",
+      "Client: I feel the chair beneath me, my feet on the floor, my shirt on my skin, and... and my hands, they're not shaking as much now."
+    ],
+    [
+      "Therapist: Excellent. Now, four things you can feel.",
+      "Client: I feel the chair beneath me, my feet on the floor, my shirt on my skin, and... and my hands, they're not shaking as much now.",
+      "Therapist: Great. Three things you can hear?"
+    ],
+    [
+      "Client: I feel the chair beneath me, my feet on the floor, my shirt on my skin, and... and my hands, they're not shaking as much now.",
+      "Therapist: Great. Three things you can hear?",
+      "Client: I hear the clock ticking, traffic outside, and the hum of the air conditioning."
+    ],
+    [
+      "Therapist: Great. Three things you can hear?",
+      "Client: I hear the clock ticking, traffic outside, and the hum of the air conditioning.",
+      "Therapist: Two things you can smell?"
+    ],
+    [
+      "Client: I hear the clock ticking, traffic outside, and the hum of the air conditioning.",
+      "Therapist: Two things you can smell?",
+      "Client: I smell... coffee, and maybe some kind of air freshener?"
+    ],
+    [
+      "Therapist: Two things you can smell?",
+      "Client: I smell... coffee, and maybe some kind of air freshener?",
+      "Therapist: And finally, one thing you can taste?"
+    ],
+    [
+      "Client: I smell... coffee, and maybe some kind of air freshener?",
+      "Therapist: And finally, one thing you can taste?",
+      "Client: I can taste... the mint from the gum I had earlier."
+    ],
+    [
+      "Therapist: And finally, one thing you can taste?",
+      "Client: I can taste... the mint from the gum I had earlier.",
+      "Therapist: Excellent job. How are you feeling now?"
+    ],
+    [
+      "Client: I can taste... the mint from the gum I had earlier.",
+      "Therapist: Excellent job. How are you feeling now?",
+      "Client: I'm... I'm down to about a 40. That was intense, but I feel... I don't know, maybe a little lighter?"
+    ],
+    [
+      "Therapist: Excellent job. How are you feeling now?",
+      "Client: I'm... I'm down to about a 40. That was intense, but I feel... I don't know, maybe a little lighter?",
+      "Therapist: You did very well today. How do you feel about the session?"
+    ],
+    [
+      "Client: I'm... I'm down to about a 40. That was intense, but I feel... I don't know, maybe a little lighter?",
+      "Therapist: You did very well today. How do you feel about the session?",
+      "Client: It was tough, really tough. But... I think it helped. Talking about it, really facing those memories... it's hard, but I think it's necessary."
+    ],
+    [
+      "Therapist: You did very well today. How do you feel about the session?",
+      "Client: It was tough, really tough. But... I think it helped. Talking about it, really facing those memories... it's hard, but I think it's necessary.",
+      "Therapist: I'm glad you feel that way. We'll end our session here. Remember to practice your breathing exercises, and we'll discuss this more next time."
+    ],
+    [
+      "Client: It was tough, really tough. But... I think it helped. Talking about it, really facing those memories... it's hard, but I think it's necessary.",
+      "Therapist: I'm glad you feel that way. We'll end our session here. Remember to practice your breathing exercises, and we'll discuss this more next time.",
+      "Client: Thank you. I... I appreciate your guidance through this."
+    ],
+    [
+      "Therapist: I'm glad you feel that way. We'll end our session here. Remember to practice your breathing exercises, and we'll discuss this more next time.",
+      "Client: Thank you. I... I appreciate your guidance through this.",
+      "Therapist: You're welcome. Take care, and I'll see you next week."
+    ]
+  ]
+}

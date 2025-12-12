@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin the imaginal exposure. Close your eyes and bring yourself back to that hospital room. Describe what you see and feel.",
+    "Client: (takes a deep breath) Okay... I'm there. The room is so white, it's almost blinding. The antiseptic smell is overwhelming. I see my grandmother lying in the bed, tubes everywhere. Her breathing is labored, and the machines are beeping steadily. I... I feel my heart racing.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, probably around a 6. It's... it's uncomfortable, but I can handle it.",
+    "Therapist: Good. Keep going.",
+    "Client: I'm standing by her bedside, holding her hand. It feels so frail, like it might break if I squeeze too hard. The doctor comes in, his face grim. He starts talking, but I can barely hear him over the pounding in my ears. I know what he's going to say, but I'm not ready to hear it.",
+    "Therapist: How are you feeling now?",
+    "Client: My palms are sweating, and I feel a lump in my throat. The room seems to be closing in on me. It's... it's getting harder to breathe.",
+    "Therapist: SUDS?",
+    "Client: It's... it's up to an 8 now. This is really tough.",
+    "Therapist: You're doing well. Stay with it.",
+    "Client: (voice trembling) The doctor says there's nothing more they can do. I feel like I'm going to be sick. I look at my grandmother, and her eyes are open, but they're... they're not focusing on anything. I want to run, but I can't leave her. I... I don't know what to do.",
+    "Therapist: How's your distress level?",
+    "Client: It's... it's a 9. I can feel tears running down my face. My chest is so tight.",
+    "Therapist: That's okay. You're safe here. Keep going.",
+    "Client: (takes a shaky breath) Her breathing is getting slower. I'm holding her hand tighter now, willing her to stay. But I can feel her slipping away. The beeping on the machine is getting farther apart. And then... and then it stops. There's just this long, continuous tone. I... I can't...",
+    "Therapist: SUDS?",
+    "Client: (voice breaking) It's a 10. I can't... I can't do this.",
+    "Therapist: You can. You're doing it right now. Stay with the memory.",
+    "Client: (crying) The doctor turns off the machine. The silence is deafening. I'm still holding her hand, but it's... it's getting colder. I can't believe she's gone. I feel so helpless, so alone. I... I failed her.",
+    "Therapist: How are you feeling now?",
+    "Client: I... I don't know. My whole body is shaking. I feel drained, but also... lighter? Is that weird?",
+    "Therapist: Not at all. What's your SUDS now?",
+    "Client: It's... it's down to a 7. I didn't expect that.",
+    "Therapist: That's normal. Let's take a deep breath together.",
+    "Client: (inhales deeply) Okay... I think I'm okay. It's still painful, but... but I got through it.",
+    "Therapist: You did great. How do you feel about the experience?",
+    "Client: It was intense, but... I feel like I faced something I've been avoiding. It hurts, but maybe... maybe it's a good hurt? Like I'm finally processing it.",
+    "Therapist: That's exactly right. Well done today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin the imaginal exposure. Close your eyes and bring yourself back to that hospital room. Describe what you see and feel.",
+      "Client: (takes a deep breath) Okay... I'm there. The room is so white, it's almost blinding. The antiseptic smell is overwhelming. I see my grandmother lying in the bed, tubes everywhere. Her breathing is labored, and the machines are beeping steadily. I... I feel my heart racing.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: (takes a deep breath) Okay... I'm there. The room is so white, it's almost blinding. The antiseptic smell is overwhelming. I see my grandmother lying in the bed, tubes everywhere. Her breathing is labored, and the machines are beeping steadily. I... I feel my heart racing.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably around a 6. It's... it's uncomfortable, but I can handle it."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably around a 6. It's... it's uncomfortable, but I can handle it.",
+      "Therapist: Good. Keep going."
+    ],
+    [
+      "Client: Um, probably around a 6. It's... it's uncomfortable, but I can handle it.",
+      "Therapist: Good. Keep going.",
+      "Client: I'm standing by her bedside, holding her hand. It feels so frail, like it might break if I squeeze too hard. The doctor comes in, his face grim. He starts talking, but I can barely hear him over the pounding in my ears. I know what he's going to say, but I'm not ready to hear it."
+    ],
+    [
+      "Therapist: Good. Keep going.",
+      "Client: I'm standing by her bedside, holding her hand. It feels so frail, like it might break if I squeeze too hard. The doctor comes in, his face grim. He starts talking, but I can barely hear him over the pounding in my ears. I know what he's going to say, but I'm not ready to hear it.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I'm standing by her bedside, holding her hand. It feels so frail, like it might break if I squeeze too hard. The doctor comes in, his face grim. He starts talking, but I can barely hear him over the pounding in my ears. I know what he's going to say, but I'm not ready to hear it.",
+      "Therapist: How are you feeling now?",
+      "Client: My palms are sweating, and I feel a lump in my throat. The room seems to be closing in on me. It's... it's getting harder to breathe."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My palms are sweating, and I feel a lump in my throat. The room seems to be closing in on me. It's... it's getting harder to breathe.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: My palms are sweating, and I feel a lump in my throat. The room seems to be closing in on me. It's... it's getting harder to breathe.",
+      "Therapist: SUDS?",
+      "Client: It's... it's up to an 8 now. This is really tough."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's up to an 8 now. This is really tough.",
+      "Therapist: You're doing well. Stay with it."
+    ],
+    [
+      "Client: It's... it's up to an 8 now. This is really tough.",
+      "Therapist: You're doing well. Stay with it.",
+      "Client: (voice trembling) The doctor says there's nothing more they can do. I feel like I'm going to be sick. I look at my grandmother, and her eyes are open, but they're... they're not focusing on anything. I want to run, but I can't leave her. I... I don't know what to do."
+    ],
+    [
+      "Therapist: You're doing well. Stay with it.",
+      "Client: (voice trembling) The doctor says there's nothing more they can do. I feel like I'm going to be sick. I look at my grandmother, and her eyes are open, but they're... they're not focusing on anything. I want to run, but I can't leave her. I... I don't know what to do.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: (voice trembling) The doctor says there's nothing more they can do. I feel like I'm going to be sick. I look at my grandmother, and her eyes are open, but they're... they're not focusing on anything. I want to run, but I can't leave her. I... I don't know what to do.",
+      "Therapist: How's your distress level?",
+      "Client: It's... it's a 9. I can feel tears running down my face. My chest is so tight."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's... it's a 9. I can feel tears running down my face. My chest is so tight.",
+      "Therapist: That's okay. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's a 9. I can feel tears running down my face. My chest is so tight.",
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: (takes a shaky breath) Her breathing is getting slower. I'm holding her hand tighter now, willing her to stay. But I can feel her slipping away. The beeping on the machine is getting farther apart. And then... and then it stops. There's just this long, continuous tone. I... I can't..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: (takes a shaky breath) Her breathing is getting slower. I'm holding her hand tighter now, willing her to stay. But I can feel her slipping away. The beeping on the machine is getting farther apart. And then... and then it stops. There's just this long, continuous tone. I... I can't...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (takes a shaky breath) Her breathing is getting slower. I'm holding her hand tighter now, willing her to stay. But I can feel her slipping away. The beeping on the machine is getting farther apart. And then... and then it stops. There's just this long, continuous tone. I... I can't...",
+      "Therapist: SUDS?",
+      "Client: (voice breaking) It's a 10. I can't... I can't do this."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: (voice breaking) It's a 10. I can't... I can't do this.",
+      "Therapist: You can. You're doing it right now. Stay with the memory."
+    ],
+    [
+      "Client: (voice breaking) It's a 10. I can't... I can't do this.",
+      "Therapist: You can. You're doing it right now. Stay with the memory.",
+      "Client: (crying) The doctor turns off the machine. The silence is deafening. I'm still holding her hand, but it's... it's getting colder. I can't believe she's gone. I feel so helpless, so alone. I... I failed her."
+    ],
+    [
+      "Therapist: You can. You're doing it right now. Stay with the memory.",
+      "Client: (crying) The doctor turns off the machine. The silence is deafening. I'm still holding her hand, but it's... it's getting colder. I can't believe she's gone. I feel so helpless, so alone. I... I failed her.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (crying) The doctor turns off the machine. The silence is deafening. I'm still holding her hand, but it's... it's getting colder. I can't believe she's gone. I feel so helpless, so alone. I... I failed her.",
+      "Therapist: How are you feeling now?",
+      "Client: I... I don't know. My whole body is shaking. I feel drained, but also... lighter? Is that weird?"
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I... I don't know. My whole body is shaking. I feel drained, but also... lighter? Is that weird?",
+      "Therapist: Not at all. What's your SUDS now?"
+    ],
+    [
+      "Client: I... I don't know. My whole body is shaking. I feel drained, but also... lighter? Is that weird?",
+      "Therapist: Not at all. What's your SUDS now?",
+      "Client: It's... it's down to a 7. I didn't expect that."
+    ],
+    [
+      "Therapist: Not at all. What's your SUDS now?",
+      "Client: It's... it's down to a 7. I didn't expect that.",
+      "Therapist: That's normal. Let's take a deep breath together."
+    ],
+    [
+      "Client: It's... it's down to a 7. I didn't expect that.",
+      "Therapist: That's normal. Let's take a deep breath together.",
+      "Client: (inhales deeply) Okay... I think I'm okay. It's still painful, but... but I got through it."
+    ],
+    [
+      "Therapist: That's normal. Let's take a deep breath together.",
+      "Client: (inhales deeply) Okay... I think I'm okay. It's still painful, but... but I got through it.",
+      "Therapist: You did great. How do you feel about the experience?"
+    ],
+    [
+      "Client: (inhales deeply) Okay... I think I'm okay. It's still painful, but... but I got through it.",
+      "Therapist: You did great. How do you feel about the experience?",
+      "Client: It was intense, but... I feel like I faced something I've been avoiding. It hurts, but maybe... maybe it's a good hurt? Like I'm finally processing it."
+    ],
+    [
+      "Therapist: You did great. How do you feel about the experience?",
+      "Client: It was intense, but... I feel like I faced something I've been avoiding. It hurts, but maybe... maybe it's a good hurt? Like I'm finally processing it.",
+      "Therapist: That's exactly right. Well done today."
+    ]
+  ]
+}

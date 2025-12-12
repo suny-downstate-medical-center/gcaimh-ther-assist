@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, John, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's begin. Close your eyes and describe the combat situation.",
+    "Client: Okay... I'm back in Afghanistan. It's hot, dusty. We're on patrol in a village. The air feels thick with tension. I can hear my boots crunching on the gravel, and the weight of my gear is heavy on my shoulders.",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: Um, probably about a 4 out of 10.",
+    "Therapist: Alright. Continue.",
+    "Client: We turn a corner, and suddenly there's gunfire. It's so loud, like firecrackers right next to my ears. I see my buddy Jake go down. There's blood... oh God, there's so much blood.",
+    "Therapist: Stay with it. What are you feeling?",
+    "Client: My heart's racing. I feel like I can't breathe. My hands are shaking as I try to return fire.",
+    "Therapist: SUDS level now?",
+    "Client: It's... it's up to a 7.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: I'm yelling for a medic, but it feels like my voice is drowned out by the gunfire. I crawl over to Jake. His eyes are open, but... but he's not there anymore. I failed him. I should have been watching more carefully.",
+    "Therapist: Remember, you're safe here. What's happening in your body?",
+    "Client: My chest feels tight. I'm sweating. I feel like I'm back there, like it's happening all over again.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9 now. This is really hard.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: I... I can smell the gunpowder, the blood. I hear someone shouting orders, but it's all a blur. I'm frozen, just staring at Jake. I can't move.",
+    "Therapist: What are you thinking?",
+    "Client: That I'm useless. That I let everyone down. That I don't deserve to be here when Jake isn't.",
+    "Therapist: SUDS level now?",
+    "Client: Still a 9. My hands are shaking so much.",
+    "Therapist: That's okay. You're safe here. Keep breathing.",
+    "Client: The firefight feels like it lasts forever, but it's probably only minutes. When it's over, the silence is deafening. I'm just sitting there, covered in Jake's blood, feeling... empty.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe a 7 again.",
+    "Therapist: Good. You're doing well. What happens next?",
+    "Client: The rest of the team comes over. Someone pulls me away from Jake. I feel numb, disconnected. Like I'm watching everything from outside my body.",
+    "Therapist: And now? How are you feeling?",
+    "Client: Sad. Guilty. My chest isn't as tight, but I feel... heavy.",
+    "Therapist: SUDS level?",
+    "Client: Down to a 5, I think.",
+    "Therapist: You've done really well. Let's start to bring you back to the present.",
+    "Client: Okay. That was... intense. But I got through it.",
+    "Therapist: Yes, you did. How are you feeling now?",
+    "Client: Drained, but... maybe a little relieved? Like I've let something out that's been bottled up for a long time.",
+    "Therapist: That's common. You've shown great courage today.",
+    "Client: Thanks. It's hard, but I think it's helping.",
+    "Therapist: I'm glad to hear that. Let's take a few deep breaths together before we end."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, John, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the combat situation."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the combat situation.",
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. We're on patrol in a village. The air feels thick with tension. I can hear my boots crunching on the gravel, and the weight of my gear is heavy on my shoulders."
+    ],
+    [
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the combat situation.",
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. We're on patrol in a village. The air feels thick with tension. I can hear my boots crunching on the gravel, and the weight of my gear is heavy on my shoulders.",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. We're on patrol in a village. The air feels thick with tension. I can hear my boots crunching on the gravel, and the weight of my gear is heavy on my shoulders.",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably about a 4 out of 10."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably about a 4 out of 10.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, probably about a 4 out of 10.",
+      "Therapist: Alright. Continue.",
+      "Client: We turn a corner, and suddenly there's gunfire. It's so loud, like firecrackers right next to my ears. I see my buddy Jake go down. There's blood... oh God, there's so much blood."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: We turn a corner, and suddenly there's gunfire. It's so loud, like firecrackers right next to my ears. I see my buddy Jake go down. There's blood... oh God, there's so much blood.",
+      "Therapist: Stay with it. What are you feeling?"
+    ],
+    [
+      "Client: We turn a corner, and suddenly there's gunfire. It's so loud, like firecrackers right next to my ears. I see my buddy Jake go down. There's blood... oh God, there's so much blood.",
+      "Therapist: Stay with it. What are you feeling?",
+      "Client: My heart's racing. I feel like I can't breathe. My hands are shaking as I try to return fire."
+    ],
+    [
+      "Therapist: Stay with it. What are you feeling?",
+      "Client: My heart's racing. I feel like I can't breathe. My hands are shaking as I try to return fire.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: My heart's racing. I feel like I can't breathe. My hands are shaking as I try to return fire.",
+      "Therapist: SUDS level now?",
+      "Client: It's... it's up to a 7."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's... it's up to a 7.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's up to a 7.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I'm yelling for a medic, but it feels like my voice is drowned out by the gunfire. I crawl over to Jake. His eyes are open, but... but he's not there anymore. I failed him. I should have been watching more carefully."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I'm yelling for a medic, but it feels like my voice is drowned out by the gunfire. I crawl over to Jake. His eyes are open, but... but he's not there anymore. I failed him. I should have been watching more carefully.",
+      "Therapist: Remember, you're safe here. What's happening in your body?"
+    ],
+    [
+      "Client: I'm yelling for a medic, but it feels like my voice is drowned out by the gunfire. I crawl over to Jake. His eyes are open, but... but he's not there anymore. I failed him. I should have been watching more carefully.",
+      "Therapist: Remember, you're safe here. What's happening in your body?",
+      "Client: My chest feels tight. I'm sweating. I feel like I'm back there, like it's happening all over again."
+    ],
+    [
+      "Therapist: Remember, you're safe here. What's happening in your body?",
+      "Client: My chest feels tight. I'm sweating. I feel like I'm back there, like it's happening all over again.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: My chest feels tight. I'm sweating. I feel like I'm back there, like it's happening all over again.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9 now. This is really hard."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9 now. This is really hard.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's a 9 now. This is really hard.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I... I can smell the gunpowder, the blood. I hear someone shouting orders, but it's all a blur. I'm frozen, just staring at Jake. I can't move."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I... I can smell the gunpowder, the blood. I hear someone shouting orders, but it's all a blur. I'm frozen, just staring at Jake. I can't move.",
+      "Therapist: What are you thinking?"
+    ],
+    [
+      "Client: I... I can smell the gunpowder, the blood. I hear someone shouting orders, but it's all a blur. I'm frozen, just staring at Jake. I can't move.",
+      "Therapist: What are you thinking?",
+      "Client: That I'm useless. That I let everyone down. That I don't deserve to be here when Jake isn't."
+    ],
+    [
+      "Therapist: What are you thinking?",
+      "Client: That I'm useless. That I let everyone down. That I don't deserve to be here when Jake isn't.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: That I'm useless. That I let everyone down. That I don't deserve to be here when Jake isn't.",
+      "Therapist: SUDS level now?",
+      "Client: Still a 9. My hands are shaking so much."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: Still a 9. My hands are shaking so much.",
+      "Therapist: That's okay. You're safe here. Keep breathing."
+    ],
+    [
+      "Client: Still a 9. My hands are shaking so much.",
+      "Therapist: That's okay. You're safe here. Keep breathing.",
+      "Client: The firefight feels like it lasts forever, but it's probably only minutes. When it's over, the silence is deafening. I'm just sitting there, covered in Jake's blood, feeling... empty."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep breathing.",
+      "Client: The firefight feels like it lasts forever, but it's probably only minutes. When it's over, the silence is deafening. I'm just sitting there, covered in Jake's blood, feeling... empty.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: The firefight feels like it lasts forever, but it's probably only minutes. When it's over, the silence is deafening. I'm just sitting there, covered in Jake's blood, feeling... empty.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7 again."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7 again.",
+      "Therapist: Good. You're doing well. What happens next?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7 again.",
+      "Therapist: Good. You're doing well. What happens next?",
+      "Client: The rest of the team comes over. Someone pulls me away from Jake. I feel numb, disconnected. Like I'm watching everything from outside my body."
+    ],
+    [
+      "Therapist: Good. You're doing well. What happens next?",
+      "Client: The rest of the team comes over. Someone pulls me away from Jake. I feel numb, disconnected. Like I'm watching everything from outside my body.",
+      "Therapist: And now? How are you feeling?"
+    ],
+    [
+      "Client: The rest of the team comes over. Someone pulls me away from Jake. I feel numb, disconnected. Like I'm watching everything from outside my body.",
+      "Therapist: And now? How are you feeling?",
+      "Client: Sad. Guilty. My chest isn't as tight, but I feel... heavy."
+    ],
+    [
+      "Therapist: And now? How are you feeling?",
+      "Client: Sad. Guilty. My chest isn't as tight, but I feel... heavy.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: Sad. Guilty. My chest isn't as tight, but I feel... heavy.",
+      "Therapist: SUDS level?",
+      "Client: Down to a 5, I think."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Down to a 5, I think.",
+      "Therapist: You've done really well. Let's start to bring you back to the present."
+    ],
+    [
+      "Client: Down to a 5, I think.",
+      "Therapist: You've done really well. Let's start to bring you back to the present.",
+      "Client: Okay. That was... intense. But I got through it."
+    ],
+    [
+      "Therapist: You've done really well. Let's start to bring you back to the present.",
+      "Client: Okay. That was... intense. But I got through it.",
+      "Therapist: Yes, you did. How are you feeling now?"
+    ],
+    [
+      "Client: Okay. That was... intense. But I got through it.",
+      "Therapist: Yes, you did. How are you feeling now?",
+      "Client: Drained, but... maybe a little relieved? Like I've let something out that's been bottled up for a long time."
+    ],
+    [
+      "Therapist: Yes, you did. How are you feeling now?",
+      "Client: Drained, but... maybe a little relieved? Like I've let something out that's been bottled up for a long time.",
+      "Therapist: That's common. You've shown great courage today."
+    ],
+    [
+      "Client: Drained, but... maybe a little relieved? Like I've let something out that's been bottled up for a long time.",
+      "Therapist: That's common. You've shown great courage today.",
+      "Client: Thanks. It's hard, but I think it's helping."
+    ],
+    [
+      "Therapist: That's common. You've shown great courage today.",
+      "Client: Thanks. It's hard, but I think it's helping.",
+      "Therapist: I'm glad to hear that. Let's take a few deep breaths together before we end."
+    ]
+  ]
+}

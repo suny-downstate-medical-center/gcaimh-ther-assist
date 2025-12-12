@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, John?",
+    "Client: I'm... I'm not sure, to be honest. It was intense, reliving that earthquake. My heart's still racing a bit. I can still feel the ground shaking under my feet, you know? It's like I was right back there in that moment.",
+    "Therapist: Mm-hmm. What stood out most to you?",
+    "Client: The sounds. The rumbling, the crashing of things falling. And the fear. God, the fear was overwhelming. I felt so helpless, like the world was ending and there was nothing I could do.",
+    "Therapist: How does it feel to share that now?",
+    "Client: It's... it's hard. But also, I don't know, maybe a little relieving? Like I'm not carrying it all alone anymore. Does that make sense?",
+    "Therapist: Absolutely. How does this connect to your daily life?",
+    "Client: Well, I guess... I'm always on edge, waiting for the next disaster. It's exhausting. And it feeds into my depression, you know? Like, what's the point of anything if it can all be taken away in an instant?",
+    "Therapist: I see. What have you learned from this experience?",
+    "Client: I think... maybe that I'm stronger than I give myself credit for? I survived that, and I'm here now, talking about it. That's something, right?",
+    "Therapist: It certainly is. How might you use this strength?",
+    "Client: I... I'm not sure. Maybe I could try to be less afraid of taking risks? Or... or maybe I could use my experience to help others who've been through similar things?",
+    "Therapist: Those sound like valuable insights. What's next for you?",
+    "Client: I think... I want to keep working on this. It's hard, but I feel like I'm making progress. Maybe I could try to be more social, too? I've been isolating myself a lot since the earthquake.",
+    "Therapist: That's a great goal. How do you feel about continuing?",
+    "Client: I'm... I'm nervous, but I'm ready. I want my life back, you know? I'm tired of letting fear control me.",
+    "Therapist: Your determination is admirable. Shall we schedule our next session?",
+    "Client: Yes, please. And... thank you. For listening, for helping. It means a lot.",
+    "Therapist: You're welcome, John. Your hard work is paying off."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, John?",
+      "Client: I'm... I'm not sure, to be honest. It was intense, reliving that earthquake. My heart's still racing a bit. I can still feel the ground shaking under my feet, you know? It's like I was right back there in that moment.",
+      "Therapist: Mm-hmm. What stood out most to you?"
+    ],
+    [
+      "Client: I'm... I'm not sure, to be honest. It was intense, reliving that earthquake. My heart's still racing a bit. I can still feel the ground shaking under my feet, you know? It's like I was right back there in that moment.",
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: The sounds. The rumbling, the crashing of things falling. And the fear. God, the fear was overwhelming. I felt so helpless, like the world was ending and there was nothing I could do."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: The sounds. The rumbling, the crashing of things falling. And the fear. God, the fear was overwhelming. I felt so helpless, like the world was ending and there was nothing I could do.",
+      "Therapist: How does it feel to share that now?"
+    ],
+    [
+      "Client: The sounds. The rumbling, the crashing of things falling. And the fear. God, the fear was overwhelming. I felt so helpless, like the world was ending and there was nothing I could do.",
+      "Therapist: How does it feel to share that now?",
+      "Client: It's... it's hard. But also, I don't know, maybe a little relieving? Like I'm not carrying it all alone anymore. Does that make sense?"
+    ],
+    [
+      "Therapist: How does it feel to share that now?",
+      "Client: It's... it's hard. But also, I don't know, maybe a little relieving? Like I'm not carrying it all alone anymore. Does that make sense?",
+      "Therapist: Absolutely. How does this connect to your daily life?"
+    ],
+    [
+      "Client: It's... it's hard. But also, I don't know, maybe a little relieving? Like I'm not carrying it all alone anymore. Does that make sense?",
+      "Therapist: Absolutely. How does this connect to your daily life?",
+      "Client: Well, I guess... I'm always on edge, waiting for the next disaster. It's exhausting. And it feeds into my depression, you know? Like, what's the point of anything if it can all be taken away in an instant?"
+    ],
+    [
+      "Therapist: Absolutely. How does this connect to your daily life?",
+      "Client: Well, I guess... I'm always on edge, waiting for the next disaster. It's exhausting. And it feeds into my depression, you know? Like, what's the point of anything if it can all be taken away in an instant?",
+      "Therapist: I see. What have you learned from this experience?"
+    ],
+    [
+      "Client: Well, I guess... I'm always on edge, waiting for the next disaster. It's exhausting. And it feeds into my depression, you know? Like, what's the point of anything if it can all be taken away in an instant?",
+      "Therapist: I see. What have you learned from this experience?",
+      "Client: I think... maybe that I'm stronger than I give myself credit for? I survived that, and I'm here now, talking about it. That's something, right?"
+    ],
+    [
+      "Therapist: I see. What have you learned from this experience?",
+      "Client: I think... maybe that I'm stronger than I give myself credit for? I survived that, and I'm here now, talking about it. That's something, right?",
+      "Therapist: It certainly is. How might you use this strength?"
+    ],
+    [
+      "Client: I think... maybe that I'm stronger than I give myself credit for? I survived that, and I'm here now, talking about it. That's something, right?",
+      "Therapist: It certainly is. How might you use this strength?",
+      "Client: I... I'm not sure. Maybe I could try to be less afraid of taking risks? Or... or maybe I could use my experience to help others who've been through similar things?"
+    ],
+    [
+      "Therapist: It certainly is. How might you use this strength?",
+      "Client: I... I'm not sure. Maybe I could try to be less afraid of taking risks? Or... or maybe I could use my experience to help others who've been through similar things?",
+      "Therapist: Those sound like valuable insights. What's next for you?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe I could try to be less afraid of taking risks? Or... or maybe I could use my experience to help others who've been through similar things?",
+      "Therapist: Those sound like valuable insights. What's next for you?",
+      "Client: I think... I want to keep working on this. It's hard, but I feel like I'm making progress. Maybe I could try to be more social, too? I've been isolating myself a lot since the earthquake."
+    ],
+    [
+      "Therapist: Those sound like valuable insights. What's next for you?",
+      "Client: I think... I want to keep working on this. It's hard, but I feel like I'm making progress. Maybe I could try to be more social, too? I've been isolating myself a lot since the earthquake.",
+      "Therapist: That's a great goal. How do you feel about continuing?"
+    ],
+    [
+      "Client: I think... I want to keep working on this. It's hard, but I feel like I'm making progress. Maybe I could try to be more social, too? I've been isolating myself a lot since the earthquake.",
+      "Therapist: That's a great goal. How do you feel about continuing?",
+      "Client: I'm... I'm nervous, but I'm ready. I want my life back, you know? I'm tired of letting fear control me."
+    ],
+    [
+      "Therapist: That's a great goal. How do you feel about continuing?",
+      "Client: I'm... I'm nervous, but I'm ready. I want my life back, you know? I'm tired of letting fear control me.",
+      "Therapist: Your determination is admirable. Shall we schedule our next session?"
+    ],
+    [
+      "Client: I'm... I'm nervous, but I'm ready. I want my life back, you know? I'm tired of letting fear control me.",
+      "Therapist: Your determination is admirable. Shall we schedule our next session?",
+      "Client: Yes, please. And... thank you. For listening, for helping. It means a lot."
+    ],
+    [
+      "Therapist: Your determination is admirable. Shall we schedule our next session?",
+      "Client: Yes, please. And... thank you. For listening, for helping. It means a lot.",
+      "Therapist: You're welcome, John. Your hard work is paying off."
+    ]
+  ]
+}

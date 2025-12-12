@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel a bit shaky. That memory of the hospital, it's so vivid. I can still smell the antiseptic and hear the beeping of the machines.",
+    "Therapist: Take a deep breath. What's coming up for you now?",
+    "Client: It's like I'm back there again. I keep seeing the doctor's face when he told me about the complications. His words are echoing in my head. \"We need to prepare for the worst.\" I felt so helpless, you know? Like my whole world was crumbling around me.",
+    "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+    "Client: Tense. Really tense. My shoulders are all bunched up, and there's this knot in my stomach. It's hard to breathe normally. I keep thinking about how I couldn't do anything to help. I was supposed to protect her, you know? But I couldn't do anything.",
+    "Therapist: I hear your pain. What thoughts are going through your mind?",
+    "Client: I... I keep thinking I should've done more. Maybe if I'd pushed for a second opinion earlier, or if I'd noticed something was wrong sooner. God, I feel so guilty. And then I think about how close I came to losing her, and it's terrifying. What if it happens again? What if next time...",
+    "Therapist: It's natural to have these thoughts. How do they impact you now?",
+    "Client: They're exhausting. It's like I can't escape them. Even when things are good, there's always this undercurrent of fear. It's affecting my relationship with my wife too. I find myself being overprotective, always on edge. I think she's getting frustrated with me, but I can't help it.",
+    "Therapist: How do you see this connecting to your broader experience?",
+    "Client: I guess... it's made me realize how fragile everything is. Before this, I thought I had everything under control. Now, I feel like I'm constantly waiting for the other shoe to drop. It's hard to enjoy anything fully because I'm always worried about what might go wrong.",
+    "Therapist: That uncertainty sounds challenging. What else are you noticing?",
+    "Client: I'm angry too. Angry at the doctors for not catching it sooner, angry at myself for not doing more. Sometimes I'm even angry at her for putting us through this, which makes me feel terrible. And then there's this guilt... it's like a constant weight on my chest.",
+    "Therapist: It's okay to have complex emotions. How do you cope with these feelings?",
+    "Client: I try to keep busy, throw myself into work. But it's not really helping. Sometimes I have trouble sleeping, replaying everything in my mind. I've started having nightmares about hospitals. It's like I can't escape it, even in my sleep.",
+    "Therapist: That sounds exhausting. What do you need in those moments?",
+    "Client: I... I don't know. Part of me wants to talk about it, to get it all out. But another part of me is scared that if I start, I won't be able to stop. I'm worried about burdening my wife with all of this. She's been through enough already.",
+    "Therapist: It's important to find healthy ways to express these feelings. How else has this experience affected you?",
+    "Client: It's changed how I see everything. I find myself constantly checking on my wife, making sure she's okay. I'm more cautious about everything now. Sometimes I catch myself thinking about what would happen if I lost her, and it's paralyzing.",
+    "Therapist: That sounds incredibly difficult. What helps you feel grounded?",
+    "Client: Being with my wife, oddly enough. When I can see her, touch her, know she's okay... it helps. But then I feel guilty for needing that reassurance. It's like I can't win. I want to move past this, but I don't know how.",
+    "Therapist: Moving forward is a process. What would that look like for you?",
+    "Client: I guess... being able to think about the experience without feeling overwhelmed. Being able to go to a hospital without panicking. Not constantly worrying about something going wrong. Just... feeling normal again, I suppose.",
+    "Therapist: Those are good goals. How do you feel after sharing all this?",
+    "Client: Drained, but... maybe a little lighter? It's hard to talk about, but I think I needed to get some of it out. I'm still scared and angry and guilty, but... maybe a little less alone with it all now.",
+    "Therapist: That's a significant step. What do you want to focus on next?",
+    "Client: I think... I want to work on communicating better with my wife about all this. And maybe find some ways to manage the anxiety when it gets overwhelming. I don't want this to control my life anymore.",
+    "Therapist: Those are excellent goals. We'll work on those together. How are you feeling now?",
+    "Client: Tired, but... okay, I think. A bit shaky still, but not as bad as before. Thank you for listening. It means a lot to be able to talk about this without feeling judged.",
+    "Therapist: You're welcome. Your strength is admirable. Shall we wrap up for today?",
+    "Client: Yes, I think that would be good. This was intense, but... helpful. I'm looking forward to working on those goals we talked about. Maybe next time we can discuss some specific strategies?",
+    "Therapist: Absolutely. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel a bit shaky. That memory of the hospital, it's so vivid. I can still smell the antiseptic and hear the beeping of the machines.",
+      "Therapist: Take a deep breath. What's coming up for you now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel a bit shaky. That memory of the hospital, it's so vivid. I can still smell the antiseptic and hear the beeping of the machines.",
+      "Therapist: Take a deep breath. What's coming up for you now?",
+      "Client: It's like I'm back there again. I keep seeing the doctor's face when he told me about the complications. His words are echoing in my head. \"We need to prepare for the worst.\" I felt so helpless, you know? Like my whole world was crumbling around me."
+    ],
+    [
+      "Therapist: Take a deep breath. What's coming up for you now?",
+      "Client: It's like I'm back there again. I keep seeing the doctor's face when he told me about the complications. His words are echoing in my head. \"We need to prepare for the worst.\" I felt so helpless, you know? Like my whole world was crumbling around me.",
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?"
+    ],
+    [
+      "Client: It's like I'm back there again. I keep seeing the doctor's face when he told me about the complications. His words are echoing in my head. \"We need to prepare for the worst.\" I felt so helpless, you know? Like my whole world was crumbling around me.",
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+      "Client: Tense. Really tense. My shoulders are all bunched up, and there's this knot in my stomach. It's hard to breathe normally. I keep thinking about how I couldn't do anything to help. I was supposed to protect her, you know? But I couldn't do anything."
+    ],
+    [
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+      "Client: Tense. Really tense. My shoulders are all bunched up, and there's this knot in my stomach. It's hard to breathe normally. I keep thinking about how I couldn't do anything to help. I was supposed to protect her, you know? But I couldn't do anything.",
+      "Therapist: I hear your pain. What thoughts are going through your mind?"
+    ],
+    [
+      "Client: Tense. Really tense. My shoulders are all bunched up, and there's this knot in my stomach. It's hard to breathe normally. I keep thinking about how I couldn't do anything to help. I was supposed to protect her, you know? But I couldn't do anything.",
+      "Therapist: I hear your pain. What thoughts are going through your mind?",
+      "Client: I... I keep thinking I should've done more. Maybe if I'd pushed for a second opinion earlier, or if I'd noticed something was wrong sooner. God, I feel so guilty. And then I think about how close I came to losing her, and it's terrifying. What if it happens again? What if next time..."
+    ],
+    [
+      "Therapist: I hear your pain. What thoughts are going through your mind?",
+      "Client: I... I keep thinking I should've done more. Maybe if I'd pushed for a second opinion earlier, or if I'd noticed something was wrong sooner. God, I feel so guilty. And then I think about how close I came to losing her, and it's terrifying. What if it happens again? What if next time...",
+      "Therapist: It's natural to have these thoughts. How do they impact you now?"
+    ],
+    [
+      "Client: I... I keep thinking I should've done more. Maybe if I'd pushed for a second opinion earlier, or if I'd noticed something was wrong sooner. God, I feel so guilty. And then I think about how close I came to losing her, and it's terrifying. What if it happens again? What if next time...",
+      "Therapist: It's natural to have these thoughts. How do they impact you now?",
+      "Client: They're exhausting. It's like I can't escape them. Even when things are good, there's always this undercurrent of fear. It's affecting my relationship with my wife too. I find myself being overprotective, always on edge. I think she's getting frustrated with me, but I can't help it."
+    ],
+    [
+      "Therapist: It's natural to have these thoughts. How do they impact you now?",
+      "Client: They're exhausting. It's like I can't escape them. Even when things are good, there's always this undercurrent of fear. It's affecting my relationship with my wife too. I find myself being overprotective, always on edge. I think she's getting frustrated with me, but I can't help it.",
+      "Therapist: How do you see this connecting to your broader experience?"
+    ],
+    [
+      "Client: They're exhausting. It's like I can't escape them. Even when things are good, there's always this undercurrent of fear. It's affecting my relationship with my wife too. I find myself being overprotective, always on edge. I think she's getting frustrated with me, but I can't help it.",
+      "Therapist: How do you see this connecting to your broader experience?",
+      "Client: I guess... it's made me realize how fragile everything is. Before this, I thought I had everything under control. Now, I feel like I'm constantly waiting for the other shoe to drop. It's hard to enjoy anything fully because I'm always worried about what might go wrong."
+    ],
+    [
+      "Therapist: How do you see this connecting to your broader experience?",
+      "Client: I guess... it's made me realize how fragile everything is. Before this, I thought I had everything under control. Now, I feel like I'm constantly waiting for the other shoe to drop. It's hard to enjoy anything fully because I'm always worried about what might go wrong.",
+      "Therapist: That uncertainty sounds challenging. What else are you noticing?"
+    ],
+    [
+      "Client: I guess... it's made me realize how fragile everything is. Before this, I thought I had everything under control. Now, I feel like I'm constantly waiting for the other shoe to drop. It's hard to enjoy anything fully because I'm always worried about what might go wrong.",
+      "Therapist: That uncertainty sounds challenging. What else are you noticing?",
+      "Client: I'm angry too. Angry at the doctors for not catching it sooner, angry at myself for not doing more. Sometimes I'm even angry at her for putting us through this, which makes me feel terrible. And then there's this guilt... it's like a constant weight on my chest."
+    ],
+    [
+      "Therapist: That uncertainty sounds challenging. What else are you noticing?",
+      "Client: I'm angry too. Angry at the doctors for not catching it sooner, angry at myself for not doing more. Sometimes I'm even angry at her for putting us through this, which makes me feel terrible. And then there's this guilt... it's like a constant weight on my chest.",
+      "Therapist: It's okay to have complex emotions. How do you cope with these feelings?"
+    ],
+    [
+      "Client: I'm angry too. Angry at the doctors for not catching it sooner, angry at myself for not doing more. Sometimes I'm even angry at her for putting us through this, which makes me feel terrible. And then there's this guilt... it's like a constant weight on my chest.",
+      "Therapist: It's okay to have complex emotions. How do you cope with these feelings?",
+      "Client: I try to keep busy, throw myself into work. But it's not really helping. Sometimes I have trouble sleeping, replaying everything in my mind. I've started having nightmares about hospitals. It's like I can't escape it, even in my sleep."
+    ],
+    [
+      "Therapist: It's okay to have complex emotions. How do you cope with these feelings?",
+      "Client: I try to keep busy, throw myself into work. But it's not really helping. Sometimes I have trouble sleeping, replaying everything in my mind. I've started having nightmares about hospitals. It's like I can't escape it, even in my sleep.",
+      "Therapist: That sounds exhausting. What do you need in those moments?"
+    ],
+    [
+      "Client: I try to keep busy, throw myself into work. But it's not really helping. Sometimes I have trouble sleeping, replaying everything in my mind. I've started having nightmares about hospitals. It's like I can't escape it, even in my sleep.",
+      "Therapist: That sounds exhausting. What do you need in those moments?",
+      "Client: I... I don't know. Part of me wants to talk about it, to get it all out. But another part of me is scared that if I start, I won't be able to stop. I'm worried about burdening my wife with all of this. She's been through enough already."
+    ],
+    [
+      "Therapist: That sounds exhausting. What do you need in those moments?",
+      "Client: I... I don't know. Part of me wants to talk about it, to get it all out. But another part of me is scared that if I start, I won't be able to stop. I'm worried about burdening my wife with all of this. She's been through enough already.",
+      "Therapist: It's important to find healthy ways to express these feelings. How else has this experience affected you?"
+    ],
+    [
+      "Client: I... I don't know. Part of me wants to talk about it, to get it all out. But another part of me is scared that if I start, I won't be able to stop. I'm worried about burdening my wife with all of this. She's been through enough already.",
+      "Therapist: It's important to find healthy ways to express these feelings. How else has this experience affected you?",
+      "Client: It's changed how I see everything. I find myself constantly checking on my wife, making sure she's okay. I'm more cautious about everything now. Sometimes I catch myself thinking about what would happen if I lost her, and it's paralyzing."
+    ],
+    [
+      "Therapist: It's important to find healthy ways to express these feelings. How else has this experience affected you?",
+      "Client: It's changed how I see everything. I find myself constantly checking on my wife, making sure she's okay. I'm more cautious about everything now. Sometimes I catch myself thinking about what would happen if I lost her, and it's paralyzing.",
+      "Therapist: That sounds incredibly difficult. What helps you feel grounded?"
+    ],
+    [
+      "Client: It's changed how I see everything. I find myself constantly checking on my wife, making sure she's okay. I'm more cautious about everything now. Sometimes I catch myself thinking about what would happen if I lost her, and it's paralyzing.",
+      "Therapist: That sounds incredibly difficult. What helps you feel grounded?",
+      "Client: Being with my wife, oddly enough. When I can see her, touch her, know she's okay... it helps. But then I feel guilty for needing that reassurance. It's like I can't win. I want to move past this, but I don't know how."
+    ],
+    [
+      "Therapist: That sounds incredibly difficult. What helps you feel grounded?",
+      "Client: Being with my wife, oddly enough. When I can see her, touch her, know she's okay... it helps. But then I feel guilty for needing that reassurance. It's like I can't win. I want to move past this, but I don't know how.",
+      "Therapist: Moving forward is a process. What would that look like for you?"
+    ],
+    [
+      "Client: Being with my wife, oddly enough. When I can see her, touch her, know she's okay... it helps. But then I feel guilty for needing that reassurance. It's like I can't win. I want to move past this, but I don't know how.",
+      "Therapist: Moving forward is a process. What would that look like for you?",
+      "Client: I guess... being able to think about the experience without feeling overwhelmed. Being able to go to a hospital without panicking. Not constantly worrying about something going wrong. Just... feeling normal again, I suppose."
+    ],
+    [
+      "Therapist: Moving forward is a process. What would that look like for you?",
+      "Client: I guess... being able to think about the experience without feeling overwhelmed. Being able to go to a hospital without panicking. Not constantly worrying about something going wrong. Just... feeling normal again, I suppose.",
+      "Therapist: Those are good goals. How do you feel after sharing all this?"
+    ],
+    [
+      "Client: I guess... being able to think about the experience without feeling overwhelmed. Being able to go to a hospital without panicking. Not constantly worrying about something going wrong. Just... feeling normal again, I suppose.",
+      "Therapist: Those are good goals. How do you feel after sharing all this?",
+      "Client: Drained, but... maybe a little lighter? It's hard to talk about, but I think I needed to get some of it out. I'm still scared and angry and guilty, but... maybe a little less alone with it all now."
+    ],
+    [
+      "Therapist: Those are good goals. How do you feel after sharing all this?",
+      "Client: Drained, but... maybe a little lighter? It's hard to talk about, but I think I needed to get some of it out. I'm still scared and angry and guilty, but... maybe a little less alone with it all now.",
+      "Therapist: That's a significant step. What do you want to focus on next?"
+    ],
+    [
+      "Client: Drained, but... maybe a little lighter? It's hard to talk about, but I think I needed to get some of it out. I'm still scared and angry and guilty, but... maybe a little less alone with it all now.",
+      "Therapist: That's a significant step. What do you want to focus on next?",
+      "Client: I think... I want to work on communicating better with my wife about all this. And maybe find some ways to manage the anxiety when it gets overwhelming. I don't want this to control my life anymore."
+    ],
+    [
+      "Therapist: That's a significant step. What do you want to focus on next?",
+      "Client: I think... I want to work on communicating better with my wife about all this. And maybe find some ways to manage the anxiety when it gets overwhelming. I don't want this to control my life anymore.",
+      "Therapist: Those are excellent goals. We'll work on those together. How are you feeling now?"
+    ],
+    [
+      "Client: I think... I want to work on communicating better with my wife about all this. And maybe find some ways to manage the anxiety when it gets overwhelming. I don't want this to control my life anymore.",
+      "Therapist: Those are excellent goals. We'll work on those together. How are you feeling now?",
+      "Client: Tired, but... okay, I think. A bit shaky still, but not as bad as before. Thank you for listening. It means a lot to be able to talk about this without feeling judged."
+    ],
+    [
+      "Therapist: Those are excellent goals. We'll work on those together. How are you feeling now?",
+      "Client: Tired, but... okay, I think. A bit shaky still, but not as bad as before. Thank you for listening. It means a lot to be able to talk about this without feeling judged.",
+      "Therapist: You're welcome. Your strength is admirable. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Tired, but... okay, I think. A bit shaky still, but not as bad as before. Thank you for listening. It means a lot to be able to talk about this without feeling judged.",
+      "Therapist: You're welcome. Your strength is admirable. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. This was intense, but... helpful. I'm looking forward to working on those goals we talked about. Maybe next time we can discuss some specific strategies?"
+    ],
+    [
+      "Therapist: You're welcome. Your strength is admirable. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. This was intense, but... helpful. I'm looking forward to working on those goals we talked about. Maybe next time we can discuss some specific strategies?",
+      "Therapist: Absolutely. Take care, and I'll see you next week."
+    ]
+  ]
+}

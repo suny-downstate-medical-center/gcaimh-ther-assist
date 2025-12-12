@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Sarah, how are you feeling today?",
+    "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the accident and... well, everything else.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. What exactly is imaginal exposure? It sounds a bit intimidating.",
+    "Therapist: It's a technique to process your trauma. We'll revisit the medical incident in a safe environment.",
+    "Client: Revisit it? I'm not sure I want to do that. It's been hard enough trying to forget about it. And with everything else going on... the breakup... I just don't know if I can handle it.",
+    "Therapist: Your hesitation is normal. How about we discuss your concerns?",
+    "Client: Well, I'm worried it'll make things worse. I've been trying so hard to keep it together, especially with classes and being on my own now. What if I completely fall apart? And... I'm embarrassed about how I might react.",
+    "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+    "Client: Okay... I appreciate that. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+    "Therapist: You'll recount the traumatic event in detail. This helps process emotions and reduce avoidance.",
+    "Client: That sounds really difficult. I've been avoiding thinking about it for so long. How long will we do this for? And what if I can't get through it?",
+    "Therapist: We'll start with 30 minutes. You can pause anytime. Remember, you're in control here.",
+    "Client: Alright, I think I can try that. It's just... with the breakup still so fresh, I feel like I'm already emotionally raw. I'm worried this might push me over the edge.",
+    "Therapist: I understand. We'll monitor your state closely. Your well-being is the priority.",
+    "Client: Thank you, that helps. I guess I'm also wondering... will this help with the nightmares? They've been getting worse lately.",
+    "Therapist: Yes, it often reduces nightmares and flashbacks. It's a step towards healing.",
+    "Client: That would be amazing. The lack of sleep is really affecting my studies. Okay, I think I'm ready to try. What should I expect to feel during this?",
+    "Therapist: You may feel anxious or upset. That's normal. We'll work through it together.",
+    "Client: I appreciate your support. It means a lot, especially since I don't have much support outside of therapy right now. Is there anything I should do to prepare myself?",
+    "Therapist: Just be open and honest. Your courage is admirable, Sarah.",
+    "Client: Thank you, Dr. Johnson. I'll do my best. I'm nervous, but I'm also hopeful that this might help. I'm ready to start whenever you are.",
+    "Therapist: Excellent. Let's begin. Remember, you're safe here. Start when you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Sarah, how are you feeling today?",
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the accident and... well, everything else.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the accident and... well, everything else.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. What exactly is imaginal exposure? It sounds a bit intimidating."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. What exactly is imaginal exposure? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process your trauma. We'll revisit the medical incident in a safe environment."
+    ],
+    [
+      "Client: I think so. What exactly is imaginal exposure? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process your trauma. We'll revisit the medical incident in a safe environment.",
+      "Client: Revisit it? I'm not sure I want to do that. It's been hard enough trying to forget about it. And with everything else going on... the breakup... I just don't know if I can handle it."
+    ],
+    [
+      "Therapist: It's a technique to process your trauma. We'll revisit the medical incident in a safe environment.",
+      "Client: Revisit it? I'm not sure I want to do that. It's been hard enough trying to forget about it. And with everything else going on... the breakup... I just don't know if I can handle it.",
+      "Therapist: Your hesitation is normal. How about we discuss your concerns?"
+    ],
+    [
+      "Client: Revisit it? I'm not sure I want to do that. It's been hard enough trying to forget about it. And with everything else going on... the breakup... I just don't know if I can handle it.",
+      "Therapist: Your hesitation is normal. How about we discuss your concerns?",
+      "Client: Well, I'm worried it'll make things worse. I've been trying so hard to keep it together, especially with classes and being on my own now. What if I completely fall apart? And... I'm embarrassed about how I might react."
+    ],
+    [
+      "Therapist: Your hesitation is normal. How about we discuss your concerns?",
+      "Client: Well, I'm worried it'll make things worse. I've been trying so hard to keep it together, especially with classes and being on my own now. What if I completely fall apart? And... I'm embarrassed about how I might react.",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout."
+    ],
+    [
+      "Client: Well, I'm worried it'll make things worse. I've been trying so hard to keep it together, especially with classes and being on my own now. What if I completely fall apart? And... I'm embarrassed about how I might react.",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: Okay... I appreciate that. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: Okay... I appreciate that. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+      "Therapist: You'll recount the traumatic event in detail. This helps process emotions and reduce avoidance."
+    ],
+    [
+      "Client: Okay... I appreciate that. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+      "Therapist: You'll recount the traumatic event in detail. This helps process emotions and reduce avoidance.",
+      "Client: That sounds really difficult. I've been avoiding thinking about it for so long. How long will we do this for? And what if I can't get through it?"
+    ],
+    [
+      "Therapist: You'll recount the traumatic event in detail. This helps process emotions and reduce avoidance.",
+      "Client: That sounds really difficult. I've been avoiding thinking about it for so long. How long will we do this for? And what if I can't get through it?",
+      "Therapist: We'll start with 30 minutes. You can pause anytime. Remember, you're in control here."
+    ],
+    [
+      "Client: That sounds really difficult. I've been avoiding thinking about it for so long. How long will we do this for? And what if I can't get through it?",
+      "Therapist: We'll start with 30 minutes. You can pause anytime. Remember, you're in control here.",
+      "Client: Alright, I think I can try that. It's just... with the breakup still so fresh, I feel like I'm already emotionally raw. I'm worried this might push me over the edge."
+    ],
+    [
+      "Therapist: We'll start with 30 minutes. You can pause anytime. Remember, you're in control here.",
+      "Client: Alright, I think I can try that. It's just... with the breakup still so fresh, I feel like I'm already emotionally raw. I'm worried this might push me over the edge.",
+      "Therapist: I understand. We'll monitor your state closely. Your well-being is the priority."
+    ],
+    [
+      "Client: Alright, I think I can try that. It's just... with the breakup still so fresh, I feel like I'm already emotionally raw. I'm worried this might push me over the edge.",
+      "Therapist: I understand. We'll monitor your state closely. Your well-being is the priority.",
+      "Client: Thank you, that helps. I guess I'm also wondering... will this help with the nightmares? They've been getting worse lately."
+    ],
+    [
+      "Therapist: I understand. We'll monitor your state closely. Your well-being is the priority.",
+      "Client: Thank you, that helps. I guess I'm also wondering... will this help with the nightmares? They've been getting worse lately.",
+      "Therapist: Yes, it often reduces nightmares and flashbacks. It's a step towards healing."
+    ],
+    [
+      "Client: Thank you, that helps. I guess I'm also wondering... will this help with the nightmares? They've been getting worse lately.",
+      "Therapist: Yes, it often reduces nightmares and flashbacks. It's a step towards healing.",
+      "Client: That would be amazing. The lack of sleep is really affecting my studies. Okay, I think I'm ready to try. What should I expect to feel during this?"
+    ],
+    [
+      "Therapist: Yes, it often reduces nightmares and flashbacks. It's a step towards healing.",
+      "Client: That would be amazing. The lack of sleep is really affecting my studies. Okay, I think I'm ready to try. What should I expect to feel during this?",
+      "Therapist: You may feel anxious or upset. That's normal. We'll work through it together."
+    ],
+    [
+      "Client: That would be amazing. The lack of sleep is really affecting my studies. Okay, I think I'm ready to try. What should I expect to feel during this?",
+      "Therapist: You may feel anxious or upset. That's normal. We'll work through it together.",
+      "Client: I appreciate your support. It means a lot, especially since I don't have much support outside of therapy right now. Is there anything I should do to prepare myself?"
+    ],
+    [
+      "Therapist: You may feel anxious or upset. That's normal. We'll work through it together.",
+      "Client: I appreciate your support. It means a lot, especially since I don't have much support outside of therapy right now. Is there anything I should do to prepare myself?",
+      "Therapist: Just be open and honest. Your courage is admirable, Sarah."
+    ],
+    [
+      "Client: I appreciate your support. It means a lot, especially since I don't have much support outside of therapy right now. Is there anything I should do to prepare myself?",
+      "Therapist: Just be open and honest. Your courage is admirable, Sarah.",
+      "Client: Thank you, Dr. Johnson. I'll do my best. I'm nervous, but I'm also hopeful that this might help. I'm ready to start whenever you are."
+    ],
+    [
+      "Therapist: Just be open and honest. Your courage is admirable, Sarah.",
+      "Client: Thank you, Dr. Johnson. I'll do my best. I'm nervous, but I'm also hopeful that this might help. I'm ready to start whenever you are.",
+      "Therapist: Excellent. Let's begin. Remember, you're safe here. Start when you're ready."
+    ]
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Amir. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to be talking about my breakup, and I'm not sure I'm ready.",
+    "Therapist: It's okay to feel anxious. We'll take it slow.",
+    "Client: Okay, I'll try. Where should I start?",
+    "Therapist: Begin with the day of the breakup. What do you remember?",
+    "Client: I remember it was a Tuesday evening. Sarah came home late from work, and I could tell something was off. She wouldn't look me in the eye, and her body language was closed off. I asked her what was wrong, and she just... she just burst into tears.",
+    "Therapist: You're doing well. Continue.",
+    "Client: She said she couldn't do it anymore. That she felt suffocated in our relationship. I was shocked. I mean, we'd been together for five years. I thought we were happy. I didn't see it coming at all.",
+    "Therapist: Stay with that moment. What were you feeling?",
+    "Client: I felt... I felt like the ground was falling away beneath me. My heart was racing, and I couldn't breathe properly. I wanted to beg her to stay, to tell her we could work it out, but the words wouldn't come.",
+    "Therapist: You're doing great, Amir. Keep going.",
+    "Client: She started packing a bag, and I just stood there, frozen. I couldn't believe it was happening. I kept thinking this must be a nightmare, that I'd wake up and everything would be fine. But it wasn't. It was real.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: I remember her saying something about how she needed to find herself, that she'd lost who she was in our relationship. But all I could think was, \"What about me? What am I supposed to do without you?\" I felt so... so abandoned.",
+    "Therapist: You're handling this well. How did your body feel?",
+    "Client: My stomach was in knots. I felt nauseous, like I might throw up at any moment. My hands were shaking, and I couldn't stop them. I wanted to reach out and touch her, to hold her one last time, but I couldn't move.",
+    "Therapist: Stay with those sensations. You're doing great.",
+    "Client: As she was leaving, she turned to me and said she was sorry. That she never meant to hurt me. But those words... they just made it worse. Because if she cared about not hurting me, why was she leaving? I felt so confused and angry and hurt all at once.",
+    "Therapist: It's natural to have mixed emotions. Keep going.",
+    "Client: After she left, I just collapsed on the floor. I couldn't stop crying. It felt like hours passed, but I couldn't move. The apartment felt so empty, so cold without her. I kept replaying our relationship in my head, wondering what I did wrong, what I could have done differently.",
+    "Therapist: You're being very brave. How are you feeling now?",
+    "Client: Talking about it... it's bringing back all those feelings. My chest feels tight, and I can feel tears coming. I... I don't know if I can keep going.",
+    "Therapist: It's okay to feel overwhelmed. Take a deep breath.",
+    "Client: (Takes a deep breath) Okay... okay. I can do this. After that night, I couldn't sleep. I kept hoping she'd come back, that it was all a mistake. But days turned into weeks, and she didn't. I threw myself into work, trying to distract myself, but nothing helped.",
+    "Therapist: You're doing incredibly well. Keep going.",
+    "Client: The worst part was the loneliness. Coming home to an empty apartment, cooking for one, sleeping alone. It felt like a part of me was missing. I started having anxiety attacks, especially at night. I'd wake up in a cold sweat, feeling like I couldn't breathe.",
+    "Therapist: You're very courageous for sharing this. How are you feeling now?",
+    "Client: It's... it's hard. Talking about it brings back all those feelings of inadequacy and abandonment. But at the same time, I feel... I don't know, maybe a little lighter? Like I'm finally letting some of this out.",
+    "Therapist: That's a positive step. Well done, Amir.",
+    "Client: Thank you. I know we're probably out of time, but I want you to know that even though this was difficult, I think it's helping. I've been carrying this around for so long, and it feels good to finally talk about it.",
+    "Therapist: I'm glad you feel that way. We'll continue next week.",
+    "Client: Okay. Thank you for your patience and support. I'll see you next week.",
+    "Therapist: Take care, Amir. You did great today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Amir. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be talking about my breakup, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel anxious. We'll take it slow."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be talking about my breakup, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel anxious. We'll take it slow.",
+      "Client: Okay, I'll try. Where should I start?"
+    ],
+    [
+      "Therapist: It's okay to feel anxious. We'll take it slow.",
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Begin with the day of the breakup. What do you remember?"
+    ],
+    [
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Begin with the day of the breakup. What do you remember?",
+      "Client: I remember it was a Tuesday evening. Sarah came home late from work, and I could tell something was off. She wouldn't look me in the eye, and her body language was closed off. I asked her what was wrong, and she just... she just burst into tears."
+    ],
+    [
+      "Therapist: Begin with the day of the breakup. What do you remember?",
+      "Client: I remember it was a Tuesday evening. Sarah came home late from work, and I could tell something was off. She wouldn't look me in the eye, and her body language was closed off. I asked her what was wrong, and she just... she just burst into tears.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: I remember it was a Tuesday evening. Sarah came home late from work, and I could tell something was off. She wouldn't look me in the eye, and her body language was closed off. I asked her what was wrong, and she just... she just burst into tears.",
+      "Therapist: You're doing well. Continue.",
+      "Client: She said she couldn't do it anymore. That she felt suffocated in our relationship. I was shocked. I mean, we'd been together for five years. I thought we were happy. I didn't see it coming at all."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: She said she couldn't do it anymore. That she felt suffocated in our relationship. I was shocked. I mean, we'd been together for five years. I thought we were happy. I didn't see it coming at all.",
+      "Therapist: Stay with that moment. What were you feeling?"
+    ],
+    [
+      "Client: She said she couldn't do it anymore. That she felt suffocated in our relationship. I was shocked. I mean, we'd been together for five years. I thought we were happy. I didn't see it coming at all.",
+      "Therapist: Stay with that moment. What were you feeling?",
+      "Client: I felt... I felt like the ground was falling away beneath me. My heart was racing, and I couldn't breathe properly. I wanted to beg her to stay, to tell her we could work it out, but the words wouldn't come."
+    ],
+    [
+      "Therapist: Stay with that moment. What were you feeling?",
+      "Client: I felt... I felt like the ground was falling away beneath me. My heart was racing, and I couldn't breathe properly. I wanted to beg her to stay, to tell her we could work it out, but the words wouldn't come.",
+      "Therapist: You're doing great, Amir. Keep going."
+    ],
+    [
+      "Client: I felt... I felt like the ground was falling away beneath me. My heart was racing, and I couldn't breathe properly. I wanted to beg her to stay, to tell her we could work it out, but the words wouldn't come.",
+      "Therapist: You're doing great, Amir. Keep going.",
+      "Client: She started packing a bag, and I just stood there, frozen. I couldn't believe it was happening. I kept thinking this must be a nightmare, that I'd wake up and everything would be fine. But it wasn't. It was real."
+    ],
+    [
+      "Therapist: You're doing great, Amir. Keep going.",
+      "Client: She started packing a bag, and I just stood there, frozen. I couldn't believe it was happening. I kept thinking this must be a nightmare, that I'd wake up and everything would be fine. But it wasn't. It was real.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: She started packing a bag, and I just stood there, frozen. I couldn't believe it was happening. I kept thinking this must be a nightmare, that I'd wake up and everything would be fine. But it wasn't. It was real.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I remember her saying something about how she needed to find herself, that she'd lost who she was in our relationship. But all I could think was, \"What about me? What am I supposed to do without you?\" I felt so... so abandoned."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I remember her saying something about how she needed to find herself, that she'd lost who she was in our relationship. But all I could think was, \"What about me? What am I supposed to do without you?\" I felt so... so abandoned.",
+      "Therapist: You're handling this well. How did your body feel?"
+    ],
+    [
+      "Client: I remember her saying something about how she needed to find herself, that she'd lost who she was in our relationship. But all I could think was, \"What about me? What am I supposed to do without you?\" I felt so... so abandoned.",
+      "Therapist: You're handling this well. How did your body feel?",
+      "Client: My stomach was in knots. I felt nauseous, like I might throw up at any moment. My hands were shaking, and I couldn't stop them. I wanted to reach out and touch her, to hold her one last time, but I couldn't move."
+    ],
+    [
+      "Therapist: You're handling this well. How did your body feel?",
+      "Client: My stomach was in knots. I felt nauseous, like I might throw up at any moment. My hands were shaking, and I couldn't stop them. I wanted to reach out and touch her, to hold her one last time, but I couldn't move.",
+      "Therapist: Stay with those sensations. You're doing great."
+    ],
+    [
+      "Client: My stomach was in knots. I felt nauseous, like I might throw up at any moment. My hands were shaking, and I couldn't stop them. I wanted to reach out and touch her, to hold her one last time, but I couldn't move.",
+      "Therapist: Stay with those sensations. You're doing great.",
+      "Client: As she was leaving, she turned to me and said she was sorry. That she never meant to hurt me. But those words... they just made it worse. Because if she cared about not hurting me, why was she leaving? I felt so confused and angry and hurt all at once."
+    ],
+    [
+      "Therapist: Stay with those sensations. You're doing great.",
+      "Client: As she was leaving, she turned to me and said she was sorry. That she never meant to hurt me. But those words... they just made it worse. Because if she cared about not hurting me, why was she leaving? I felt so confused and angry and hurt all at once.",
+      "Therapist: It's natural to have mixed emotions. Keep going."
+    ],
+    [
+      "Client: As she was leaving, she turned to me and said she was sorry. That she never meant to hurt me. But those words... they just made it worse. Because if she cared about not hurting me, why was she leaving? I felt so confused and angry and hurt all at once.",
+      "Therapist: It's natural to have mixed emotions. Keep going.",
+      "Client: After she left, I just collapsed on the floor. I couldn't stop crying. It felt like hours passed, but I couldn't move. The apartment felt so empty, so cold without her. I kept replaying our relationship in my head, wondering what I did wrong, what I could have done differently."
+    ],
+    [
+      "Therapist: It's natural to have mixed emotions. Keep going.",
+      "Client: After she left, I just collapsed on the floor. I couldn't stop crying. It felt like hours passed, but I couldn't move. The apartment felt so empty, so cold without her. I kept replaying our relationship in my head, wondering what I did wrong, what I could have done differently.",
+      "Therapist: You're being very brave. How are you feeling now?"
+    ],
+    [
+      "Client: After she left, I just collapsed on the floor. I couldn't stop crying. It felt like hours passed, but I couldn't move. The apartment felt so empty, so cold without her. I kept replaying our relationship in my head, wondering what I did wrong, what I could have done differently.",
+      "Therapist: You're being very brave. How are you feeling now?",
+      "Client: Talking about it... it's bringing back all those feelings. My chest feels tight, and I can feel tears coming. I... I don't know if I can keep going."
+    ],
+    [
+      "Therapist: You're being very brave. How are you feeling now?",
+      "Client: Talking about it... it's bringing back all those feelings. My chest feels tight, and I can feel tears coming. I... I don't know if I can keep going.",
+      "Therapist: It's okay to feel overwhelmed. Take a deep breath."
+    ],
+    [
+      "Client: Talking about it... it's bringing back all those feelings. My chest feels tight, and I can feel tears coming. I... I don't know if I can keep going.",
+      "Therapist: It's okay to feel overwhelmed. Take a deep breath.",
+      "Client: (Takes a deep breath) Okay... okay. I can do this. After that night, I couldn't sleep. I kept hoping she'd come back, that it was all a mistake. But days turned into weeks, and she didn't. I threw myself into work, trying to distract myself, but nothing helped."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. Take a deep breath.",
+      "Client: (Takes a deep breath) Okay... okay. I can do this. After that night, I couldn't sleep. I kept hoping she'd come back, that it was all a mistake. But days turned into weeks, and she didn't. I threw myself into work, trying to distract myself, but nothing helped.",
+      "Therapist: You're doing incredibly well. Keep going."
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... okay. I can do this. After that night, I couldn't sleep. I kept hoping she'd come back, that it was all a mistake. But days turned into weeks, and she didn't. I threw myself into work, trying to distract myself, but nothing helped.",
+      "Therapist: You're doing incredibly well. Keep going.",
+      "Client: The worst part was the loneliness. Coming home to an empty apartment, cooking for one, sleeping alone. It felt like a part of me was missing. I started having anxiety attacks, especially at night. I'd wake up in a cold sweat, feeling like I couldn't breathe."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Keep going.",
+      "Client: The worst part was the loneliness. Coming home to an empty apartment, cooking for one, sleeping alone. It felt like a part of me was missing. I started having anxiety attacks, especially at night. I'd wake up in a cold sweat, feeling like I couldn't breathe.",
+      "Therapist: You're very courageous for sharing this. How are you feeling now?"
+    ],
+    [
+      "Client: The worst part was the loneliness. Coming home to an empty apartment, cooking for one, sleeping alone. It felt like a part of me was missing. I started having anxiety attacks, especially at night. I'd wake up in a cold sweat, feeling like I couldn't breathe.",
+      "Therapist: You're very courageous for sharing this. How are you feeling now?",
+      "Client: It's... it's hard. Talking about it brings back all those feelings of inadequacy and abandonment. But at the same time, I feel... I don't know, maybe a little lighter? Like I'm finally letting some of this out."
+    ],
+    [
+      "Therapist: You're very courageous for sharing this. How are you feeling now?",
+      "Client: It's... it's hard. Talking about it brings back all those feelings of inadequacy and abandonment. But at the same time, I feel... I don't know, maybe a little lighter? Like I'm finally letting some of this out.",
+      "Therapist: That's a positive step. Well done, Amir."
+    ],
+    [
+      "Client: It's... it's hard. Talking about it brings back all those feelings of inadequacy and abandonment. But at the same time, I feel... I don't know, maybe a little lighter? Like I'm finally letting some of this out.",
+      "Therapist: That's a positive step. Well done, Amir.",
+      "Client: Thank you. I know we're probably out of time, but I want you to know that even though this was difficult, I think it's helping. I've been carrying this around for so long, and it feels good to finally talk about it."
+    ],
+    [
+      "Therapist: That's a positive step. Well done, Amir.",
+      "Client: Thank you. I know we're probably out of time, but I want you to know that even though this was difficult, I think it's helping. I've been carrying this around for so long, and it feels good to finally talk about it.",
+      "Therapist: I'm glad you feel that way. We'll continue next week."
+    ],
+    [
+      "Client: Thank you. I know we're probably out of time, but I want you to know that even though this was difficult, I think it's helping. I've been carrying this around for so long, and it feels good to finally talk about it.",
+      "Therapist: I'm glad you feel that way. We'll continue next week.",
+      "Client: Okay. Thank you for your patience and support. I'll see you next week."
+    ],
+    [
+      "Therapist: I'm glad you feel that way. We'll continue next week.",
+      "Client: Okay. Thank you for your patience and support. I'll see you next week.",
+      "Therapist: Take care, Amir. You did great today."
+    ]
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure. Can you describe the scene you remember?",
+    "Client: Okay... I'm in our old house. I'm about 8 years old. My dad just came home, and he seems angry. I can hear him yelling at my mom in the kitchen.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I'm hiding behind the couch in the living room. The yelling is getting louder. I hear something crash \u2013 probably a plate. My heart is racing, and I'm trying not to make any noise.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: (voice trembling) My mom is crying now. I want to help her, but I'm too scared to move. I can hear my dad's heavy footsteps coming closer to the living room.",
+    "Therapist: You're doing great. Keep describing what you're experiencing.",
+    "Client: (breathing quickens) He's in the room now. I can smell the alcohol on him. He's looking around, muttering under his breath. I'm pressing myself against the back of the couch, praying he doesn't see me.",
+    "Therapist: It's okay to feel these emotions. You're handling this well.",
+    "Client: (voice breaks) He... he sees me. His eyes are so angry. He's coming towards me, shouting, asking why I'm hiding. I'm frozen, I can't move.",
+    "Therapist: Take a deep breath. You're here with me, and you're safe.",
+    "Client: (takes a shaky breath) He grabs my arm, pulling me out from behind the couch. It hurts so much. I'm crying, begging him to stop. My mom is in the doorway now, pleading with him to leave me alone.",
+    "Therapist: You're very brave for sharing this. Continue when you're ready.",
+    "Client: (wiping tears) He pushes me towards my mom, telling her to \"deal with this crybaby.\" I run to her, and she holds me tight. We're both shaking. I can hear him stomping around the house, slamming doors.",
+    "Therapist: How are you feeling right now?",
+    "Client: I feel... scared, but also angry. Why did he have to be like that? Why couldn't he just be a normal dad?",
+    "Therapist: It's natural to have those feelings. You're processing this well.",
+    "Client: (sighs) We stay there for what feels like hours, my mom and I, just holding each other. Eventually, the house goes quiet. He must have passed out or left. But the fear... it doesn't go away. It never really did.",
+    "Therapist: You've done an excellent job recounting this memory. How are you feeling now?",
+    "Client: I feel drained, but also... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+    "Therapist: That's a common response. You've shown great courage today.",
+    "Client: Thank you. It's still hard to talk about, but I think it's getting a little easier each time.",
+    "Therapist: That's often the case. Would you like to take a moment before we discuss what you've shared?",
+    "Client: Yes, please. I think I need a minute to collect myself.",
+    "Therapist: Of course. Take all the time you need."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure. Can you describe the scene you remember?",
+      "Client: Okay... I'm in our old house. I'm about 8 years old. My dad just came home, and he seems angry. I can hear him yelling at my mom in the kitchen.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... I'm in our old house. I'm about 8 years old. My dad just came home, and he seems angry. I can hear him yelling at my mom in the kitchen.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I'm hiding behind the couch in the living room. The yelling is getting louder. I hear something crash \u2013 probably a plate. My heart is racing, and I'm trying not to make any noise."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I'm hiding behind the couch in the living room. The yelling is getting louder. I hear something crash \u2013 probably a plate. My heart is racing, and I'm trying not to make any noise.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: I'm hiding behind the couch in the living room. The yelling is getting louder. I hear something crash \u2013 probably a plate. My heart is racing, and I'm trying not to make any noise.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice trembling) My mom is crying now. I want to help her, but I'm too scared to move. I can hear my dad's heavy footsteps coming closer to the living room."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice trembling) My mom is crying now. I want to help her, but I'm too scared to move. I can hear my dad's heavy footsteps coming closer to the living room.",
+      "Therapist: You're doing great. Keep describing what you're experiencing."
+    ],
+    [
+      "Client: (voice trembling) My mom is crying now. I want to help her, but I'm too scared to move. I can hear my dad's heavy footsteps coming closer to the living room.",
+      "Therapist: You're doing great. Keep describing what you're experiencing.",
+      "Client: (breathing quickens) He's in the room now. I can smell the alcohol on him. He's looking around, muttering under his breath. I'm pressing myself against the back of the couch, praying he doesn't see me."
+    ],
+    [
+      "Therapist: You're doing great. Keep describing what you're experiencing.",
+      "Client: (breathing quickens) He's in the room now. I can smell the alcohol on him. He's looking around, muttering under his breath. I'm pressing myself against the back of the couch, praying he doesn't see me.",
+      "Therapist: It's okay to feel these emotions. You're handling this well."
+    ],
+    [
+      "Client: (breathing quickens) He's in the room now. I can smell the alcohol on him. He's looking around, muttering under his breath. I'm pressing myself against the back of the couch, praying he doesn't see me.",
+      "Therapist: It's okay to feel these emotions. You're handling this well.",
+      "Client: (voice breaks) He... he sees me. His eyes are so angry. He's coming towards me, shouting, asking why I'm hiding. I'm frozen, I can't move."
+    ],
+    [
+      "Therapist: It's okay to feel these emotions. You're handling this well.",
+      "Client: (voice breaks) He... he sees me. His eyes are so angry. He's coming towards me, shouting, asking why I'm hiding. I'm frozen, I can't move.",
+      "Therapist: Take a deep breath. You're here with me, and you're safe."
+    ],
+    [
+      "Client: (voice breaks) He... he sees me. His eyes are so angry. He's coming towards me, shouting, asking why I'm hiding. I'm frozen, I can't move.",
+      "Therapist: Take a deep breath. You're here with me, and you're safe.",
+      "Client: (takes a shaky breath) He grabs my arm, pulling me out from behind the couch. It hurts so much. I'm crying, begging him to stop. My mom is in the doorway now, pleading with him to leave me alone."
+    ],
+    [
+      "Therapist: Take a deep breath. You're here with me, and you're safe.",
+      "Client: (takes a shaky breath) He grabs my arm, pulling me out from behind the couch. It hurts so much. I'm crying, begging him to stop. My mom is in the doorway now, pleading with him to leave me alone.",
+      "Therapist: You're very brave for sharing this. Continue when you're ready."
+    ],
+    [
+      "Client: (takes a shaky breath) He grabs my arm, pulling me out from behind the couch. It hurts so much. I'm crying, begging him to stop. My mom is in the doorway now, pleading with him to leave me alone.",
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: (wiping tears) He pushes me towards my mom, telling her to \"deal with this crybaby.\" I run to her, and she holds me tight. We're both shaking. I can hear him stomping around the house, slamming doors."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: (wiping tears) He pushes me towards my mom, telling her to \"deal with this crybaby.\" I run to her, and she holds me tight. We're both shaking. I can hear him stomping around the house, slamming doors.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: (wiping tears) He pushes me towards my mom, telling her to \"deal with this crybaby.\" I run to her, and she holds me tight. We're both shaking. I can hear him stomping around the house, slamming doors.",
+      "Therapist: How are you feeling right now?",
+      "Client: I feel... scared, but also angry. Why did he have to be like that? Why couldn't he just be a normal dad?"
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I feel... scared, but also angry. Why did he have to be like that? Why couldn't he just be a normal dad?",
+      "Therapist: It's natural to have those feelings. You're processing this well."
+    ],
+    [
+      "Client: I feel... scared, but also angry. Why did he have to be like that? Why couldn't he just be a normal dad?",
+      "Therapist: It's natural to have those feelings. You're processing this well.",
+      "Client: (sighs) We stay there for what feels like hours, my mom and I, just holding each other. Eventually, the house goes quiet. He must have passed out or left. But the fear... it doesn't go away. It never really did."
+    ],
+    [
+      "Therapist: It's natural to have those feelings. You're processing this well.",
+      "Client: (sighs) We stay there for what feels like hours, my mom and I, just holding each other. Eventually, the house goes quiet. He must have passed out or left. But the fear... it doesn't go away. It never really did.",
+      "Therapist: You've done an excellent job recounting this memory. How are you feeling now?"
+    ],
+    [
+      "Client: (sighs) We stay there for what feels like hours, my mom and I, just holding each other. Eventually, the house goes quiet. He must have passed out or left. But the fear... it doesn't go away. It never really did.",
+      "Therapist: You've done an excellent job recounting this memory. How are you feeling now?",
+      "Client: I feel drained, but also... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time."
+    ],
+    [
+      "Therapist: You've done an excellent job recounting this memory. How are you feeling now?",
+      "Client: I feel drained, but also... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+      "Therapist: That's a common response. You've shown great courage today."
+    ],
+    [
+      "Client: I feel drained, but also... I don't know, maybe a little stronger? Like I faced something I've been avoiding for a long time.",
+      "Therapist: That's a common response. You've shown great courage today.",
+      "Client: Thank you. It's still hard to talk about, but I think it's getting a little easier each time."
+    ],
+    [
+      "Therapist: That's a common response. You've shown great courage today.",
+      "Client: Thank you. It's still hard to talk about, but I think it's getting a little easier each time.",
+      "Therapist: That's often the case. Would you like to take a moment before we discuss what you've shared?"
+    ],
+    [
+      "Client: Thank you. It's still hard to talk about, but I think it's getting a little easier each time.",
+      "Therapist: That's often the case. Would you like to take a moment before we discuss what you've shared?",
+      "Client: Yes, please. I think I need a minute to collect myself."
+    ],
+    [
+      "Therapist: That's often the case. Would you like to take a moment before we discuss what you've shared?",
+      "Client: Yes, please. I think I need a minute to collect myself.",
+      "Therapist: Of course. Take all the time you need."
+    ]
+  ]
+}

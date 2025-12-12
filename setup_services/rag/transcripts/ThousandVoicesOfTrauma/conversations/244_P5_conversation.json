@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Ali. How are you feeling today?",
+    "Client: Hi Dr. Sarah. I'm... I'm not great, to be honest. My pain's been acting up, and I've been having more nightmares about the dog attack. It's making it hard to sleep, which isn't helping my job search either. I'm feeling pretty overwhelmed.",
+    "Therapist: I'm sorry you're struggling. We'll address that. Ready to discuss today's plan?",
+    "Client: I guess so. What exactly are we doing today? You mentioned something about imaginal exposure last time, but I'm not sure I understand what that means.",
+    "Therapist: It's a technique to process your trauma. We'll revisit the dog attack in your mind. How does that sound?",
+    "Client: Revisit it? I... I don't know if I can do that. Just thinking about it makes my heart race. Won't it make things worse?",
+    "Therapist: I understand your concern. It's a common worry. Can you tell me more about what you're afraid might happen?",
+    "Client: I'm afraid I'll completely fall apart. That I'll get stuck in that moment and won't be able to get out. And... and what if I can't handle it? What if I have a panic attack right here in your office?",
+    "Therapist: Those are valid concerns. Let's address them one by one. First, how can I support you?",
+    "Client: I... I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And maybe... could you stay close by? I know it sounds childish, but having someone near helps me feel safer.",
+    "Therapist: Of course. I'll be right here. We'll go through it step-by-step. Shall I explain more?",
+    "Client: Yes, please. I need to know what I'm getting into.",
+    "Therapist: We'll revisit the memory gradually. You'll describe it aloud while I guide you. We can pause anytime. How's that?",
+    "Client: That sounds a little less scary. But... why do we need to do this? Can't we just talk about it without me having to relive it?",
+    "Therapist: Great question. Reliving helps process the memory, reducing its power over you. It may decrease nightmares and anxiety.",
+    "Client: I see. That makes sense, I guess. But it's still terrifying. How long will we do this for? And what if I can't get through it?",
+    "Therapist: We'll start with 15-20 minutes. We can stop anytime you need. Your comfort is priority. What else concerns you?",
+    "Client: I'm worried about how I'll feel afterwards. Will I be able to drive home? Will the nightmares get worse? And... I'm embarrassed to admit this, but I'm scared I might cry in front of you.",
+    "Therapist: All normal concerns. We'll debrief after and ensure you're stable. Crying is okay. How else can I support you?",
+    "Client: Could we maybe have a code word? Something I can say if it gets too intense and I need to stop? And... is it okay if I bring a comfort object? I have this small stone I like to hold when I'm anxious.",
+    "Therapist: Absolutely. Let's use \"pause\" as our code word. Your stone is welcome. Any other questions?",
+    "Client: I think... I think I'm ready to try. I'm still scared, but I trust you, Dr. Sarah. And I'm tired of letting this control my life. Can we start now, before I lose my nerve?",
+    "Therapist: I admire your courage, Ali. Let's begin. Remember, I'm here with you. Ready?",
+    "Client: Okay. Yes, I'm ready. Let's do this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Ali. How are you feeling today?",
+      "Client: Hi Dr. Sarah. I'm... I'm not great, to be honest. My pain's been acting up, and I've been having more nightmares about the dog attack. It's making it hard to sleep, which isn't helping my job search either. I'm feeling pretty overwhelmed.",
+      "Therapist: I'm sorry you're struggling. We'll address that. Ready to discuss today's plan?"
+    ],
+    [
+      "Client: Hi Dr. Sarah. I'm... I'm not great, to be honest. My pain's been acting up, and I've been having more nightmares about the dog attack. It's making it hard to sleep, which isn't helping my job search either. I'm feeling pretty overwhelmed.",
+      "Therapist: I'm sorry you're struggling. We'll address that. Ready to discuss today's plan?",
+      "Client: I guess so. What exactly are we doing today? You mentioned something about imaginal exposure last time, but I'm not sure I understand what that means."
+    ],
+    [
+      "Therapist: I'm sorry you're struggling. We'll address that. Ready to discuss today's plan?",
+      "Client: I guess so. What exactly are we doing today? You mentioned something about imaginal exposure last time, but I'm not sure I understand what that means.",
+      "Therapist: It's a technique to process your trauma. We'll revisit the dog attack in your mind. How does that sound?"
+    ],
+    [
+      "Client: I guess so. What exactly are we doing today? You mentioned something about imaginal exposure last time, but I'm not sure I understand what that means.",
+      "Therapist: It's a technique to process your trauma. We'll revisit the dog attack in your mind. How does that sound?",
+      "Client: Revisit it? I... I don't know if I can do that. Just thinking about it makes my heart race. Won't it make things worse?"
+    ],
+    [
+      "Therapist: It's a technique to process your trauma. We'll revisit the dog attack in your mind. How does that sound?",
+      "Client: Revisit it? I... I don't know if I can do that. Just thinking about it makes my heart race. Won't it make things worse?",
+      "Therapist: I understand your concern. It's a common worry. Can you tell me more about what you're afraid might happen?"
+    ],
+    [
+      "Client: Revisit it? I... I don't know if I can do that. Just thinking about it makes my heart race. Won't it make things worse?",
+      "Therapist: I understand your concern. It's a common worry. Can you tell me more about what you're afraid might happen?",
+      "Client: I'm afraid I'll completely fall apart. That I'll get stuck in that moment and won't be able to get out. And... and what if I can't handle it? What if I have a panic attack right here in your office?"
+    ],
+    [
+      "Therapist: I understand your concern. It's a common worry. Can you tell me more about what you're afraid might happen?",
+      "Client: I'm afraid I'll completely fall apart. That I'll get stuck in that moment and won't be able to get out. And... and what if I can't handle it? What if I have a panic attack right here in your office?",
+      "Therapist: Those are valid concerns. Let's address them one by one. First, how can I support you?"
+    ],
+    [
+      "Client: I'm afraid I'll completely fall apart. That I'll get stuck in that moment and won't be able to get out. And... and what if I can't handle it? What if I have a panic attack right here in your office?",
+      "Therapist: Those are valid concerns. Let's address them one by one. First, how can I support you?",
+      "Client: I... I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And maybe... could you stay close by? I know it sounds childish, but having someone near helps me feel safer."
+    ],
+    [
+      "Therapist: Those are valid concerns. Let's address them one by one. First, how can I support you?",
+      "Client: I... I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And maybe... could you stay close by? I know it sounds childish, but having someone near helps me feel safer.",
+      "Therapist: Of course. I'll be right here. We'll go through it step-by-step. Shall I explain more?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And maybe... could you stay close by? I know it sounds childish, but having someone near helps me feel safer.",
+      "Therapist: Of course. I'll be right here. We'll go through it step-by-step. Shall I explain more?",
+      "Client: Yes, please. I need to know what I'm getting into."
+    ],
+    [
+      "Therapist: Of course. I'll be right here. We'll go through it step-by-step. Shall I explain more?",
+      "Client: Yes, please. I need to know what I'm getting into.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud while I guide you. We can pause anytime. How's that?"
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud while I guide you. We can pause anytime. How's that?",
+      "Client: That sounds a little less scary. But... why do we need to do this? Can't we just talk about it without me having to relive it?"
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud while I guide you. We can pause anytime. How's that?",
+      "Client: That sounds a little less scary. But... why do we need to do this? Can't we just talk about it without me having to relive it?",
+      "Therapist: Great question. Reliving helps process the memory, reducing its power over you. It may decrease nightmares and anxiety."
+    ],
+    [
+      "Client: That sounds a little less scary. But... why do we need to do this? Can't we just talk about it without me having to relive it?",
+      "Therapist: Great question. Reliving helps process the memory, reducing its power over you. It may decrease nightmares and anxiety.",
+      "Client: I see. That makes sense, I guess. But it's still terrifying. How long will we do this for? And what if I can't get through it?"
+    ],
+    [
+      "Therapist: Great question. Reliving helps process the memory, reducing its power over you. It may decrease nightmares and anxiety.",
+      "Client: I see. That makes sense, I guess. But it's still terrifying. How long will we do this for? And what if I can't get through it?",
+      "Therapist: We'll start with 15-20 minutes. We can stop anytime you need. Your comfort is priority. What else concerns you?"
+    ],
+    [
+      "Client: I see. That makes sense, I guess. But it's still terrifying. How long will we do this for? And what if I can't get through it?",
+      "Therapist: We'll start with 15-20 minutes. We can stop anytime you need. Your comfort is priority. What else concerns you?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to drive home? Will the nightmares get worse? And... I'm embarrassed to admit this, but I'm scared I might cry in front of you."
+    ],
+    [
+      "Therapist: We'll start with 15-20 minutes. We can stop anytime you need. Your comfort is priority. What else concerns you?",
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to drive home? Will the nightmares get worse? And... I'm embarrassed to admit this, but I'm scared I might cry in front of you.",
+      "Therapist: All normal concerns. We'll debrief after and ensure you're stable. Crying is okay. How else can I support you?"
+    ],
+    [
+      "Client: I'm worried about how I'll feel afterwards. Will I be able to drive home? Will the nightmares get worse? And... I'm embarrassed to admit this, but I'm scared I might cry in front of you.",
+      "Therapist: All normal concerns. We'll debrief after and ensure you're stable. Crying is okay. How else can I support you?",
+      "Client: Could we maybe have a code word? Something I can say if it gets too intense and I need to stop? And... is it okay if I bring a comfort object? I have this small stone I like to hold when I'm anxious."
+    ],
+    [
+      "Therapist: All normal concerns. We'll debrief after and ensure you're stable. Crying is okay. How else can I support you?",
+      "Client: Could we maybe have a code word? Something I can say if it gets too intense and I need to stop? And... is it okay if I bring a comfort object? I have this small stone I like to hold when I'm anxious.",
+      "Therapist: Absolutely. Let's use \"pause\" as our code word. Your stone is welcome. Any other questions?"
+    ],
+    [
+      "Client: Could we maybe have a code word? Something I can say if it gets too intense and I need to stop? And... is it okay if I bring a comfort object? I have this small stone I like to hold when I'm anxious.",
+      "Therapist: Absolutely. Let's use \"pause\" as our code word. Your stone is welcome. Any other questions?",
+      "Client: I think... I think I'm ready to try. I'm still scared, but I trust you, Dr. Sarah. And I'm tired of letting this control my life. Can we start now, before I lose my nerve?"
+    ],
+    [
+      "Therapist: Absolutely. Let's use \"pause\" as our code word. Your stone is welcome. Any other questions?",
+      "Client: I think... I think I'm ready to try. I'm still scared, but I trust you, Dr. Sarah. And I'm tired of letting this control my life. Can we start now, before I lose my nerve?",
+      "Therapist: I admire your courage, Ali. Let's begin. Remember, I'm here with you. Ready?"
+    ],
+    [
+      "Client: I think... I think I'm ready to try. I'm still scared, but I trust you, Dr. Sarah. And I'm tired of letting this control my life. Can we start now, before I lose my nerve?",
+      "Therapist: I admire your courage, Ali. Let's begin. Remember, I'm here with you. Ready?",
+      "Client: Okay. Yes, I'm ready. Let's do this."
+    ]
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Jake. How are you feeling today?",
+    "Client: Hey, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about... you know, the incident.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. What exactly is imaginal exposure? It sounds kind of intimidating.",
+    "Therapist: It's a technique to process traumatic memories. We'll revisit the event in a safe environment. How does that sound?",
+    "Client: Honestly? It sounds terrifying. I've been trying so hard to avoid thinking about it. Won't this make things worse?",
+    "Therapist: Your concern is valid. However, avoidance often prolongs suffering. This technique aims to reduce PTSD symptoms over time.",
+    "Client: I see... But how does reliving it help? I mean, I've been using substances to forget, and now you want me to remember?",
+    "Therapist: By facing the memory, we can process it healthily. It may be challenging, but I'll support you throughout. How do you feel about trying?",
+    "Client: I'm scared, but I trust you, Dr. Thompson. I'm tired of the nightmares and the constant fear. If this can help... I want to give it a shot. What should I expect?",
+    "Therapist: You'll describe the traumatic event in detail. It may be emotionally intense, but remember, you're safe here.",
+    "Client: Okay... I think I can do that. Will it be like this every session? And how long will we do this for?",
+    "Therapist: We'll do this regularly, adjusting as needed. The length varies per individual. Your courage is commendable, Jake.",
+    "Client: Thanks, Dr. Thompson. I appreciate that. I'm still nervous, but I'm also hopeful. This might sound odd, but I'm glad you're older and experienced. It makes me feel... safer, I guess.",
+    "Therapist: Thank you, Jake. Your trust means a lot. Shall we begin?",
+    "Client: Yeah, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle or need to stop, okay?",
+    "Therapist: Absolutely. We'll go at your pace. You're in control here.",
+    "Client: Alright. So, where do I start? Do I just... begin talking about what happened?",
+    "Therapist: Start from the beginning. Describe the setting, your feelings, what you saw and heard.",
+    "Client: Okay. Well, it was a Friday night. I was at home, alone in my apartment. I'd just finished a big exam and was planning to relax..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Jake. How are you feeling today?",
+      "Client: Hey, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about... you know, the incident.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hey, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about... you know, the incident.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. What exactly is imaginal exposure? It sounds kind of intimidating."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. What exactly is imaginal exposure? It sounds kind of intimidating.",
+      "Therapist: It's a technique to process traumatic memories. We'll revisit the event in a safe environment. How does that sound?"
+    ],
+    [
+      "Client: I think so. What exactly is imaginal exposure? It sounds kind of intimidating.",
+      "Therapist: It's a technique to process traumatic memories. We'll revisit the event in a safe environment. How does that sound?",
+      "Client: Honestly? It sounds terrifying. I've been trying so hard to avoid thinking about it. Won't this make things worse?"
+    ],
+    [
+      "Therapist: It's a technique to process traumatic memories. We'll revisit the event in a safe environment. How does that sound?",
+      "Client: Honestly? It sounds terrifying. I've been trying so hard to avoid thinking about it. Won't this make things worse?",
+      "Therapist: Your concern is valid. However, avoidance often prolongs suffering. This technique aims to reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: Honestly? It sounds terrifying. I've been trying so hard to avoid thinking about it. Won't this make things worse?",
+      "Therapist: Your concern is valid. However, avoidance often prolongs suffering. This technique aims to reduce PTSD symptoms over time.",
+      "Client: I see... But how does reliving it help? I mean, I've been using substances to forget, and now you want me to remember?"
+    ],
+    [
+      "Therapist: Your concern is valid. However, avoidance often prolongs suffering. This technique aims to reduce PTSD symptoms over time.",
+      "Client: I see... But how does reliving it help? I mean, I've been using substances to forget, and now you want me to remember?",
+      "Therapist: By facing the memory, we can process it healthily. It may be challenging, but I'll support you throughout. How do you feel about trying?"
+    ],
+    [
+      "Client: I see... But how does reliving it help? I mean, I've been using substances to forget, and now you want me to remember?",
+      "Therapist: By facing the memory, we can process it healthily. It may be challenging, but I'll support you throughout. How do you feel about trying?",
+      "Client: I'm scared, but I trust you, Dr. Thompson. I'm tired of the nightmares and the constant fear. If this can help... I want to give it a shot. What should I expect?"
+    ],
+    [
+      "Therapist: By facing the memory, we can process it healthily. It may be challenging, but I'll support you throughout. How do you feel about trying?",
+      "Client: I'm scared, but I trust you, Dr. Thompson. I'm tired of the nightmares and the constant fear. If this can help... I want to give it a shot. What should I expect?",
+      "Therapist: You'll describe the traumatic event in detail. It may be emotionally intense, but remember, you're safe here."
+    ],
+    [
+      "Client: I'm scared, but I trust you, Dr. Thompson. I'm tired of the nightmares and the constant fear. If this can help... I want to give it a shot. What should I expect?",
+      "Therapist: You'll describe the traumatic event in detail. It may be emotionally intense, but remember, you're safe here.",
+      "Client: Okay... I think I can do that. Will it be like this every session? And how long will we do this for?"
+    ],
+    [
+      "Therapist: You'll describe the traumatic event in detail. It may be emotionally intense, but remember, you're safe here.",
+      "Client: Okay... I think I can do that. Will it be like this every session? And how long will we do this for?",
+      "Therapist: We'll do this regularly, adjusting as needed. The length varies per individual. Your courage is commendable, Jake."
+    ],
+    [
+      "Client: Okay... I think I can do that. Will it be like this every session? And how long will we do this for?",
+      "Therapist: We'll do this regularly, adjusting as needed. The length varies per individual. Your courage is commendable, Jake.",
+      "Client: Thanks, Dr. Thompson. I appreciate that. I'm still nervous, but I'm also hopeful. This might sound odd, but I'm glad you're older and experienced. It makes me feel... safer, I guess."
+    ],
+    [
+      "Therapist: We'll do this regularly, adjusting as needed. The length varies per individual. Your courage is commendable, Jake.",
+      "Client: Thanks, Dr. Thompson. I appreciate that. I'm still nervous, but I'm also hopeful. This might sound odd, but I'm glad you're older and experienced. It makes me feel... safer, I guess.",
+      "Therapist: Thank you, Jake. Your trust means a lot. Shall we begin?"
+    ],
+    [
+      "Client: Thanks, Dr. Thompson. I appreciate that. I'm still nervous, but I'm also hopeful. This might sound odd, but I'm glad you're older and experienced. It makes me feel... safer, I guess.",
+      "Therapist: Thank you, Jake. Your trust means a lot. Shall we begin?",
+      "Client: Yeah, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle or need to stop, okay?"
+    ],
+    [
+      "Therapist: Thank you, Jake. Your trust means a lot. Shall we begin?",
+      "Client: Yeah, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle or need to stop, okay?",
+      "Therapist: Absolutely. We'll go at your pace. You're in control here."
+    ],
+    [
+      "Client: Yeah, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle or need to stop, okay?",
+      "Therapist: Absolutely. We'll go at your pace. You're in control here.",
+      "Client: Alright. So, where do I start? Do I just... begin talking about what happened?"
+    ],
+    [
+      "Therapist: Absolutely. We'll go at your pace. You're in control here.",
+      "Client: Alright. So, where do I start? Do I just... begin talking about what happened?",
+      "Therapist: Start from the beginning. Describe the setting, your feelings, what you saw and heard."
+    ],
+    [
+      "Client: Alright. So, where do I start? Do I just... begin talking about what happened?",
+      "Therapist: Start from the beginning. Describe the setting, your feelings, what you saw and heard.",
+      "Client: Okay. Well, it was a Friday night. I was at home, alone in my apartment. I'd just finished a big exam and was planning to relax..."
+    ]
+  ]
+}

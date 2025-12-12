@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Close your eyes and take a deep breath. When you're ready, describe the scene of the animal attack.",
+    "Client: Okay... I'm at the park near my house. It's a sunny day, and I decided to take a walk after work. I see a few people jogging and kids playing on the playground. As I'm walking along the path, I hear barking in the distance. I don't think much of it at first, but then I see a large dog running towards me. It looks angry, and I start to feel scared.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The dog is getting closer, and I can see its teeth. I freeze, not knowing what to do. My heart is racing, and I can feel sweat on my palms. The dog lunges at me, and I put my arms up to protect myself. I feel a sharp pain as its teeth sink into my forearm. I'm screaming, but it feels like no sound is coming out.",
+    "Therapist: Stay with that moment. You're safe here.",
+    "Client: I... I don't know if I can. It's too much. The pain, the fear... I can still feel it so vividly.",
+    "Therapist: I understand it's difficult. Take a deep breath. You're doing great.",
+    "Client: Okay... The dog is still attacking me. I'm on the ground now, trying to curl up and protect myself. I can hear people shouting in the distance, but it feels like they're so far away. The dog is growling, and I can smell its breath. I'm terrified, thinking this might be how I die.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: Finally, someone pulls the dog off me. I'm shaking uncontrollably, and my arm is bleeding badly. People are gathering around, asking if I'm okay, but I can't speak. I just keep staring at my arm, watching the blood drip onto the grass. Someone's calling an ambulance, I think. Everything feels surreal, like I'm watching it happen to someone else.",
+    "Therapist: How are you feeling right now?",
+    "Client: I feel... overwhelmed. My heart is pounding, and I feel a little nauseous. But I also feel... I don't know, maybe a little proud that I managed to talk about it?",
+    "Therapist: That's completely normal. You did excellently.",
+    "Client: Thank you. It's still hard to think about, but talking about it... it feels different this time. Like maybe it doesn't have as much power over me as it used to.",
+    "Therapist: That's a significant insight. How would you like to proceed?",
+    "Client: I think... I'd like to try going through it again. Is that okay?",
+    "Therapist: Absolutely. When you're ready, start from the beginning.",
+    "Client: Alright. I'm back at the park. It's sunny, and I'm walking along the path. I hear the dog barking in the distance..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Close your eyes and take a deep breath. When you're ready, describe the scene of the animal attack.",
+      "Client: Okay... I'm at the park near my house. It's a sunny day, and I decided to take a walk after work. I see a few people jogging and kids playing on the playground. As I'm walking along the path, I hear barking in the distance. I don't think much of it at first, but then I see a large dog running towards me. It looks angry, and I start to feel scared.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... I'm at the park near my house. It's a sunny day, and I decided to take a walk after work. I see a few people jogging and kids playing on the playground. As I'm walking along the path, I hear barking in the distance. I don't think much of it at first, but then I see a large dog running towards me. It looks angry, and I start to feel scared.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The dog is getting closer, and I can see its teeth. I freeze, not knowing what to do. My heart is racing, and I can feel sweat on my palms. The dog lunges at me, and I put my arms up to protect myself. I feel a sharp pain as its teeth sink into my forearm. I'm screaming, but it feels like no sound is coming out."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The dog is getting closer, and I can see its teeth. I freeze, not knowing what to do. My heart is racing, and I can feel sweat on my palms. The dog lunges at me, and I put my arms up to protect myself. I feel a sharp pain as its teeth sink into my forearm. I'm screaming, but it feels like no sound is coming out.",
+      "Therapist: Stay with that moment. You're safe here."
+    ],
+    [
+      "Client: The dog is getting closer, and I can see its teeth. I freeze, not knowing what to do. My heart is racing, and I can feel sweat on my palms. The dog lunges at me, and I put my arms up to protect myself. I feel a sharp pain as its teeth sink into my forearm. I'm screaming, but it feels like no sound is coming out.",
+      "Therapist: Stay with that moment. You're safe here.",
+      "Client: I... I don't know if I can. It's too much. The pain, the fear... I can still feel it so vividly."
+    ],
+    [
+      "Therapist: Stay with that moment. You're safe here.",
+      "Client: I... I don't know if I can. It's too much. The pain, the fear... I can still feel it so vividly.",
+      "Therapist: I understand it's difficult. Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: I... I don't know if I can. It's too much. The pain, the fear... I can still feel it so vividly.",
+      "Therapist: I understand it's difficult. Take a deep breath. You're doing great.",
+      "Client: Okay... The dog is still attacking me. I'm on the ground now, trying to curl up and protect myself. I can hear people shouting in the distance, but it feels like they're so far away. The dog is growling, and I can smell its breath. I'm terrified, thinking this might be how I die."
+    ],
+    [
+      "Therapist: I understand it's difficult. Take a deep breath. You're doing great.",
+      "Client: Okay... The dog is still attacking me. I'm on the ground now, trying to curl up and protect myself. I can hear people shouting in the distance, but it feels like they're so far away. The dog is growling, and I can smell its breath. I'm terrified, thinking this might be how I die.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: Okay... The dog is still attacking me. I'm on the ground now, trying to curl up and protect myself. I can hear people shouting in the distance, but it feels like they're so far away. The dog is growling, and I can smell its breath. I'm terrified, thinking this might be how I die.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: Finally, someone pulls the dog off me. I'm shaking uncontrollably, and my arm is bleeding badly. People are gathering around, asking if I'm okay, but I can't speak. I just keep staring at my arm, watching the blood drip onto the grass. Someone's calling an ambulance, I think. Everything feels surreal, like I'm watching it happen to someone else."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: Finally, someone pulls the dog off me. I'm shaking uncontrollably, and my arm is bleeding badly. People are gathering around, asking if I'm okay, but I can't speak. I just keep staring at my arm, watching the blood drip onto the grass. Someone's calling an ambulance, I think. Everything feels surreal, like I'm watching it happen to someone else.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: Finally, someone pulls the dog off me. I'm shaking uncontrollably, and my arm is bleeding badly. People are gathering around, asking if I'm okay, but I can't speak. I just keep staring at my arm, watching the blood drip onto the grass. Someone's calling an ambulance, I think. Everything feels surreal, like I'm watching it happen to someone else.",
+      "Therapist: How are you feeling right now?",
+      "Client: I feel... overwhelmed. My heart is pounding, and I feel a little nauseous. But I also feel... I don't know, maybe a little proud that I managed to talk about it?"
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I feel... overwhelmed. My heart is pounding, and I feel a little nauseous. But I also feel... I don't know, maybe a little proud that I managed to talk about it?",
+      "Therapist: That's completely normal. You did excellently."
+    ],
+    [
+      "Client: I feel... overwhelmed. My heart is pounding, and I feel a little nauseous. But I also feel... I don't know, maybe a little proud that I managed to talk about it?",
+      "Therapist: That's completely normal. You did excellently.",
+      "Client: Thank you. It's still hard to think about, but talking about it... it feels different this time. Like maybe it doesn't have as much power over me as it used to."
+    ],
+    [
+      "Therapist: That's completely normal. You did excellently.",
+      "Client: Thank you. It's still hard to think about, but talking about it... it feels different this time. Like maybe it doesn't have as much power over me as it used to.",
+      "Therapist: That's a significant insight. How would you like to proceed?"
+    ],
+    [
+      "Client: Thank you. It's still hard to think about, but talking about it... it feels different this time. Like maybe it doesn't have as much power over me as it used to.",
+      "Therapist: That's a significant insight. How would you like to proceed?",
+      "Client: I think... I'd like to try going through it again. Is that okay?"
+    ],
+    [
+      "Therapist: That's a significant insight. How would you like to proceed?",
+      "Client: I think... I'd like to try going through it again. Is that okay?",
+      "Therapist: Absolutely. When you're ready, start from the beginning."
+    ],
+    [
+      "Client: I think... I'd like to try going through it again. Is that okay?",
+      "Therapist: Absolutely. When you're ready, start from the beginning.",
+      "Client: Alright. I'm back at the park. It's sunny, and I'm walking along the path. I hear the dog barking in the distance..."
+    ]
+  ]
+}

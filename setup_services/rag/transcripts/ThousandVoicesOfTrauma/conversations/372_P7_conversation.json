@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Rahul. How are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to talk about my illness again, and it's not easy.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thanks. I guess we should start. It was about two years ago when I first noticed the symptoms. I was in my first year of university, and suddenly I started feeling this intense pain in my joints. At first, I thought it was just from studying too much, you know? But it kept getting worse.",
+    "Therapist: You're doing well. Continue.",
+    "Client: The pain was so bad that I couldn't concentrate on my studies. I remember sitting in class, trying to listen to the professor, but all I could focus on was the throbbing in my hands and knees. It was terrifying because I didn't know what was happening to me.",
+    "Therapist: Stay with that feeling. You're safe now.",
+    "Client: I felt so alone. My parents... they didn't really understand. They kept saying it was probably just stress or that I wasn't eating right. But I knew it was something more. I could feel my body betraying me, and no one seemed to believe me.",
+    "Therapist: That must have been difficult. Keep going.",
+    "Client: It was. I remember one night, I was studying for an exam, and the pain got so bad that I started crying. I couldn't hold my pen, couldn't type on my laptop. I felt so helpless and scared. I thought my dreams of finishing university were slipping away.",
+    "Therapist: You're doing great, Rahul. How did that make you feel?",
+    "Client: Angry. Frustrated. I was angry at my body for failing me, angry at my parents for not believing me, angry at the doctors who couldn't figure out what was wrong. I felt like my life was falling apart, and there was nothing I could do about it.",
+    "Therapist: It's okay to feel those emotions. Continue.",
+    "Client: The worst part was when I finally got diagnosed. The doctor looked at me with this... pity in his eyes. He told me I had a chronic condition, that I'd have to manage it for the rest of my life. I felt like my future was being ripped away from me.",
+    "Therapist: You're handling this well. What happened next?",
+    "Client: I spiraled into depression. I started missing classes, avoiding my friends. I felt like a burden to everyone around me. My girlfriend at the time... she tried to be supportive, but I could see the strain it was putting on our relationship.",
+    "Therapist: That sounds challenging. Keep going.",
+    "Client: It was. There were days when I couldn't even get out of bed because of the pain. I felt so useless, so worthless. I started having these dark thoughts... wondering if life was even worth living if this was how it was going to be.",
+    "Therapist: You're very brave for sharing this. How are you feeling now?",
+    "Client: It's hard to talk about, but... I feel a bit lighter. Like I'm not carrying this burden alone anymore. I still struggle with the pain and the fear of what the future holds, but talking about it... it helps.",
+    "Therapist: You've shown incredible strength. We'll end here for today.",
+    "Client: Thank you, Dr. Thompson. I appreciate your support."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Rahul. How are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to talk about my illness again, and it's not easy.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to talk about my illness again, and it's not easy.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I guess we should start. It was about two years ago when I first noticed the symptoms. I was in my first year of university, and suddenly I started feeling this intense pain in my joints. At first, I thought it was just from studying too much, you know? But it kept getting worse."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I guess we should start. It was about two years ago when I first noticed the symptoms. I was in my first year of university, and suddenly I started feeling this intense pain in my joints. At first, I thought it was just from studying too much, you know? But it kept getting worse.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Thanks. I guess we should start. It was about two years ago when I first noticed the symptoms. I was in my first year of university, and suddenly I started feeling this intense pain in my joints. At first, I thought it was just from studying too much, you know? But it kept getting worse.",
+      "Therapist: You're doing well. Continue.",
+      "Client: The pain was so bad that I couldn't concentrate on my studies. I remember sitting in class, trying to listen to the professor, but all I could focus on was the throbbing in my hands and knees. It was terrifying because I didn't know what was happening to me."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The pain was so bad that I couldn't concentrate on my studies. I remember sitting in class, trying to listen to the professor, but all I could focus on was the throbbing in my hands and knees. It was terrifying because I didn't know what was happening to me.",
+      "Therapist: Stay with that feeling. You're safe now."
+    ],
+    [
+      "Client: The pain was so bad that I couldn't concentrate on my studies. I remember sitting in class, trying to listen to the professor, but all I could focus on was the throbbing in my hands and knees. It was terrifying because I didn't know what was happening to me.",
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: I felt so alone. My parents... they didn't really understand. They kept saying it was probably just stress or that I wasn't eating right. But I knew it was something more. I could feel my body betraying me, and no one seemed to believe me."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: I felt so alone. My parents... they didn't really understand. They kept saying it was probably just stress or that I wasn't eating right. But I knew it was something more. I could feel my body betraying me, and no one seemed to believe me.",
+      "Therapist: That must have been difficult. Keep going."
+    ],
+    [
+      "Client: I felt so alone. My parents... they didn't really understand. They kept saying it was probably just stress or that I wasn't eating right. But I knew it was something more. I could feel my body betraying me, and no one seemed to believe me.",
+      "Therapist: That must have been difficult. Keep going.",
+      "Client: It was. I remember one night, I was studying for an exam, and the pain got so bad that I started crying. I couldn't hold my pen, couldn't type on my laptop. I felt so helpless and scared. I thought my dreams of finishing university were slipping away."
+    ],
+    [
+      "Therapist: That must have been difficult. Keep going.",
+      "Client: It was. I remember one night, I was studying for an exam, and the pain got so bad that I started crying. I couldn't hold my pen, couldn't type on my laptop. I felt so helpless and scared. I thought my dreams of finishing university were slipping away.",
+      "Therapist: You're doing great, Rahul. How did that make you feel?"
+    ],
+    [
+      "Client: It was. I remember one night, I was studying for an exam, and the pain got so bad that I started crying. I couldn't hold my pen, couldn't type on my laptop. I felt so helpless and scared. I thought my dreams of finishing university were slipping away.",
+      "Therapist: You're doing great, Rahul. How did that make you feel?",
+      "Client: Angry. Frustrated. I was angry at my body for failing me, angry at my parents for not believing me, angry at the doctors who couldn't figure out what was wrong. I felt like my life was falling apart, and there was nothing I could do about it."
+    ],
+    [
+      "Therapist: You're doing great, Rahul. How did that make you feel?",
+      "Client: Angry. Frustrated. I was angry at my body for failing me, angry at my parents for not believing me, angry at the doctors who couldn't figure out what was wrong. I felt like my life was falling apart, and there was nothing I could do about it.",
+      "Therapist: It's okay to feel those emotions. Continue."
+    ],
+    [
+      "Client: Angry. Frustrated. I was angry at my body for failing me, angry at my parents for not believing me, angry at the doctors who couldn't figure out what was wrong. I felt like my life was falling apart, and there was nothing I could do about it.",
+      "Therapist: It's okay to feel those emotions. Continue.",
+      "Client: The worst part was when I finally got diagnosed. The doctor looked at me with this... pity in his eyes. He told me I had a chronic condition, that I'd have to manage it for the rest of my life. I felt like my future was being ripped away from me."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. Continue.",
+      "Client: The worst part was when I finally got diagnosed. The doctor looked at me with this... pity in his eyes. He told me I had a chronic condition, that I'd have to manage it for the rest of my life. I felt like my future was being ripped away from me.",
+      "Therapist: You're handling this well. What happened next?"
+    ],
+    [
+      "Client: The worst part was when I finally got diagnosed. The doctor looked at me with this... pity in his eyes. He told me I had a chronic condition, that I'd have to manage it for the rest of my life. I felt like my future was being ripped away from me.",
+      "Therapist: You're handling this well. What happened next?",
+      "Client: I spiraled into depression. I started missing classes, avoiding my friends. I felt like a burden to everyone around me. My girlfriend at the time... she tried to be supportive, but I could see the strain it was putting on our relationship."
+    ],
+    [
+      "Therapist: You're handling this well. What happened next?",
+      "Client: I spiraled into depression. I started missing classes, avoiding my friends. I felt like a burden to everyone around me. My girlfriend at the time... she tried to be supportive, but I could see the strain it was putting on our relationship.",
+      "Therapist: That sounds challenging. Keep going."
+    ],
+    [
+      "Client: I spiraled into depression. I started missing classes, avoiding my friends. I felt like a burden to everyone around me. My girlfriend at the time... she tried to be supportive, but I could see the strain it was putting on our relationship.",
+      "Therapist: That sounds challenging. Keep going.",
+      "Client: It was. There were days when I couldn't even get out of bed because of the pain. I felt so useless, so worthless. I started having these dark thoughts... wondering if life was even worth living if this was how it was going to be."
+    ],
+    [
+      "Therapist: That sounds challenging. Keep going.",
+      "Client: It was. There were days when I couldn't even get out of bed because of the pain. I felt so useless, so worthless. I started having these dark thoughts... wondering if life was even worth living if this was how it was going to be.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?"
+    ],
+    [
+      "Client: It was. There were days when I couldn't even get out of bed because of the pain. I felt so useless, so worthless. I started having these dark thoughts... wondering if life was even worth living if this was how it was going to be.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's hard to talk about, but... I feel a bit lighter. Like I'm not carrying this burden alone anymore. I still struggle with the pain and the fear of what the future holds, but talking about it... it helps."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's hard to talk about, but... I feel a bit lighter. Like I'm not carrying this burden alone anymore. I still struggle with the pain and the fear of what the future holds, but talking about it... it helps.",
+      "Therapist: You've shown incredible strength. We'll end here for today."
+    ],
+    [
+      "Client: It's hard to talk about, but... I feel a bit lighter. Like I'm not carrying this burden alone anymore. I still struggle with the pain and the fear of what the future holds, but talking about it... it helps.",
+      "Therapist: You've shown incredible strength. We'll end here for today.",
+      "Client: Thank you, Dr. Thompson. I appreciate your support."
+    ]
+  ]
+}

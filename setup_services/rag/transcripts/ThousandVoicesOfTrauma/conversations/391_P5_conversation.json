@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Today, we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm not sure, to be honest. I've been dreading this part. The idea of revisiting that animal attack... it's terrifying. I've spent years trying to forget it.",
+    "Therapist: Your apprehension is understandable. Can you tell me more?",
+    "Client: Well, it's just... I've worked so hard to build a life, you know? I have a good job, a family. I'm worried that bringing up these memories will undo all of that. Plus, I've been using substances to cope, and I'm afraid this might trigger a relapse.",
+    "Therapist: Those are valid concerns. How can I support you?",
+    "Client: I guess I need to know that you'll be here with me through it. And maybe some reassurance that this won't make things worse. It's hard enough dealing with the trauma and the substance use issues.",
+    "Therapist: I'll be here every step. This process helps reduce symptoms over time. Shall we discuss what to expect?",
+    "Client: Yes, please. I need to know what I'm getting into.",
+    "Therapist: We'll revisit the memory gradually. You'll describe it in present tense. I'll guide you through.",
+    "Client: Present tense? That sounds intense. Will I be able to stop if it becomes too much? And how long will this take? I have responsibilities at home and work.",
+    "Therapist: You can pause anytime. Sessions last about an hour. Your well-being is the priority.",
+    "Client: Okay, that's somewhat reassuring. I'm still nervous, but I trust you. You've been helpful with my other issues too. I just hope this doesn't interfere with my recovery from substance use.",
+    "Therapist: We'll monitor that closely. Your courage is admirable. Any other questions?",
+    "Client: I think I'm okay for now. Just... please be patient with me. This isn't easy, especially given my background. Growing up, we didn't talk about feelings or trauma. It's all new territory for me.",
+    "Therapist: I appreciate your openness. We'll go at your pace. Ready to begin?",
+    "Client: As ready as I'll ever be, I suppose. Let's do this before I lose my nerve."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Today, we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm not sure, to be honest. I've been dreading this part. The idea of revisiting that animal attack... it's terrifying. I've spent years trying to forget it.",
+      "Therapist: Your apprehension is understandable. Can you tell me more?"
+    ],
+    [
+      "Client: I'm not sure, to be honest. I've been dreading this part. The idea of revisiting that animal attack... it's terrifying. I've spent years trying to forget it.",
+      "Therapist: Your apprehension is understandable. Can you tell me more?",
+      "Client: Well, it's just... I've worked so hard to build a life, you know? I have a good job, a family. I'm worried that bringing up these memories will undo all of that. Plus, I've been using substances to cope, and I'm afraid this might trigger a relapse."
+    ],
+    [
+      "Therapist: Your apprehension is understandable. Can you tell me more?",
+      "Client: Well, it's just... I've worked so hard to build a life, you know? I have a good job, a family. I'm worried that bringing up these memories will undo all of that. Plus, I've been using substances to cope, and I'm afraid this might trigger a relapse.",
+      "Therapist: Those are valid concerns. How can I support you?"
+    ],
+    [
+      "Client: Well, it's just... I've worked so hard to build a life, you know? I have a good job, a family. I'm worried that bringing up these memories will undo all of that. Plus, I've been using substances to cope, and I'm afraid this might trigger a relapse.",
+      "Therapist: Those are valid concerns. How can I support you?",
+      "Client: I guess I need to know that you'll be here with me through it. And maybe some reassurance that this won't make things worse. It's hard enough dealing with the trauma and the substance use issues."
+    ],
+    [
+      "Therapist: Those are valid concerns. How can I support you?",
+      "Client: I guess I need to know that you'll be here with me through it. And maybe some reassurance that this won't make things worse. It's hard enough dealing with the trauma and the substance use issues.",
+      "Therapist: I'll be here every step. This process helps reduce symptoms over time. Shall we discuss what to expect?"
+    ],
+    [
+      "Client: I guess I need to know that you'll be here with me through it. And maybe some reassurance that this won't make things worse. It's hard enough dealing with the trauma and the substance use issues.",
+      "Therapist: I'll be here every step. This process helps reduce symptoms over time. Shall we discuss what to expect?",
+      "Client: Yes, please. I need to know what I'm getting into."
+    ],
+    [
+      "Therapist: I'll be here every step. This process helps reduce symptoms over time. Shall we discuss what to expect?",
+      "Client: Yes, please. I need to know what I'm getting into.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it in present tense. I'll guide you through."
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it in present tense. I'll guide you through.",
+      "Client: Present tense? That sounds intense. Will I be able to stop if it becomes too much? And how long will this take? I have responsibilities at home and work."
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. You'll describe it in present tense. I'll guide you through.",
+      "Client: Present tense? That sounds intense. Will I be able to stop if it becomes too much? And how long will this take? I have responsibilities at home and work.",
+      "Therapist: You can pause anytime. Sessions last about an hour. Your well-being is the priority."
+    ],
+    [
+      "Client: Present tense? That sounds intense. Will I be able to stop if it becomes too much? And how long will this take? I have responsibilities at home and work.",
+      "Therapist: You can pause anytime. Sessions last about an hour. Your well-being is the priority.",
+      "Client: Okay, that's somewhat reassuring. I'm still nervous, but I trust you. You've been helpful with my other issues too. I just hope this doesn't interfere with my recovery from substance use."
+    ],
+    [
+      "Therapist: You can pause anytime. Sessions last about an hour. Your well-being is the priority.",
+      "Client: Okay, that's somewhat reassuring. I'm still nervous, but I trust you. You've been helpful with my other issues too. I just hope this doesn't interfere with my recovery from substance use.",
+      "Therapist: We'll monitor that closely. Your courage is admirable. Any other questions?"
+    ],
+    [
+      "Client: Okay, that's somewhat reassuring. I'm still nervous, but I trust you. You've been helpful with my other issues too. I just hope this doesn't interfere with my recovery from substance use.",
+      "Therapist: We'll monitor that closely. Your courage is admirable. Any other questions?",
+      "Client: I think I'm okay for now. Just... please be patient with me. This isn't easy, especially given my background. Growing up, we didn't talk about feelings or trauma. It's all new territory for me."
+    ],
+    [
+      "Therapist: We'll monitor that closely. Your courage is admirable. Any other questions?",
+      "Client: I think I'm okay for now. Just... please be patient with me. This isn't easy, especially given my background. Growing up, we didn't talk about feelings or trauma. It's all new territory for me.",
+      "Therapist: I appreciate your openness. We'll go at your pace. Ready to begin?"
+    ],
+    [
+      "Client: I think I'm okay for now. Just... please be patient with me. This isn't easy, especially given my background. Growing up, we didn't talk about feelings or trauma. It's all new territory for me.",
+      "Therapist: I appreciate your openness. We'll go at your pace. Ready to begin?",
+      "Client: As ready as I'll ever be, I suppose. Let's do this before I lose my nerve."
+    ]
+  ]
+}

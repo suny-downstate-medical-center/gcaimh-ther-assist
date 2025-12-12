@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. That memory of the animal attack... it felt so real, like I was right back there again.",
+    "Therapist: Take a deep breath. What stood out to you?",
+    "Client: The sounds. The growling, the screaming... my own screaming. I could hear it all so clearly. And the fear. God, the fear was just... it was paralyzing. I felt so helpless, you know?",
+    "Therapist: Mm-hmm. How does it feel to share that now?",
+    "Client: It's... it's actually a bit of a relief. I've never really talked about it in such detail before. It's like... like I'm finally acknowledging what happened, if that makes sense?",
+    "Therapist: That's a big step. What else?",
+    "Client: I noticed something... weird. When I was describing the attack, I had this sudden flash of anger. Not at the animal, but at myself. Like, why didn't I do more? Why couldn't I protect myself better?",
+    "Therapist: How do you think that connects to your everyday life?",
+    "Client: Oh... wow. I guess... I guess I do that a lot, don't I? Always blaming myself, even for things I can't control. It's probably why I've been feeling so down lately, always second-guessing everything I do.",
+    "Therapist: That's an insightful connection. How might we work on that?",
+    "Client: Maybe... maybe I need to be kinder to myself? Recognize that some things are just out of my control? It's hard though. I've always been my own worst critic.",
+    "Therapist: Small steps. What's one way you could start?",
+    "Client: I... I could try to catch myself when I start that negative self-talk. Maybe replace it with something more... I don't know, realistic? Compassionate?",
+    "Therapist: Good idea. How did today's session impact your view of recovery?",
+    "Client: It's... it's tough, but I feel like I'm making progress. Like, talking about it is hard, but it's also making the memory less... powerful, I guess? Less overwhelming. And realizing how it's affecting my day-to-day life... that's huge.",
+    "Therapist: You're showing real courage. Next steps?",
+    "Client: I want to keep going with this. It's hard, but... I think it's helping. And maybe start practicing that self-compassion thing we talked about. Baby steps, right?",
+    "Therapist: Absolutely. You're doing great. Anything else?",
+    "Client: Just... thank you. For listening, for guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe... maybe I can actually get better.",
+    "Therapist: You're welcome. You're stronger than you know. See you next week?",
+    "Client: Definitely. I'll be here. Thanks again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. That memory of the animal attack... it felt so real, like I was right back there again.",
+      "Therapist: Take a deep breath. What stood out to you?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing a bit, and I feel kind of shaky. That memory of the animal attack... it felt so real, like I was right back there again.",
+      "Therapist: Take a deep breath. What stood out to you?",
+      "Client: The sounds. The growling, the screaming... my own screaming. I could hear it all so clearly. And the fear. God, the fear was just... it was paralyzing. I felt so helpless, you know?"
+    ],
+    [
+      "Therapist: Take a deep breath. What stood out to you?",
+      "Client: The sounds. The growling, the screaming... my own screaming. I could hear it all so clearly. And the fear. God, the fear was just... it was paralyzing. I felt so helpless, you know?",
+      "Therapist: Mm-hmm. How does it feel to share that now?"
+    ],
+    [
+      "Client: The sounds. The growling, the screaming... my own screaming. I could hear it all so clearly. And the fear. God, the fear was just... it was paralyzing. I felt so helpless, you know?",
+      "Therapist: Mm-hmm. How does it feel to share that now?",
+      "Client: It's... it's actually a bit of a relief. I've never really talked about it in such detail before. It's like... like I'm finally acknowledging what happened, if that makes sense?"
+    ],
+    [
+      "Therapist: Mm-hmm. How does it feel to share that now?",
+      "Client: It's... it's actually a bit of a relief. I've never really talked about it in such detail before. It's like... like I'm finally acknowledging what happened, if that makes sense?",
+      "Therapist: That's a big step. What else?"
+    ],
+    [
+      "Client: It's... it's actually a bit of a relief. I've never really talked about it in such detail before. It's like... like I'm finally acknowledging what happened, if that makes sense?",
+      "Therapist: That's a big step. What else?",
+      "Client: I noticed something... weird. When I was describing the attack, I had this sudden flash of anger. Not at the animal, but at myself. Like, why didn't I do more? Why couldn't I protect myself better?"
+    ],
+    [
+      "Therapist: That's a big step. What else?",
+      "Client: I noticed something... weird. When I was describing the attack, I had this sudden flash of anger. Not at the animal, but at myself. Like, why didn't I do more? Why couldn't I protect myself better?",
+      "Therapist: How do you think that connects to your everyday life?"
+    ],
+    [
+      "Client: I noticed something... weird. When I was describing the attack, I had this sudden flash of anger. Not at the animal, but at myself. Like, why didn't I do more? Why couldn't I protect myself better?",
+      "Therapist: How do you think that connects to your everyday life?",
+      "Client: Oh... wow. I guess... I guess I do that a lot, don't I? Always blaming myself, even for things I can't control. It's probably why I've been feeling so down lately, always second-guessing everything I do."
+    ],
+    [
+      "Therapist: How do you think that connects to your everyday life?",
+      "Client: Oh... wow. I guess... I guess I do that a lot, don't I? Always blaming myself, even for things I can't control. It's probably why I've been feeling so down lately, always second-guessing everything I do.",
+      "Therapist: That's an insightful connection. How might we work on that?"
+    ],
+    [
+      "Client: Oh... wow. I guess... I guess I do that a lot, don't I? Always blaming myself, even for things I can't control. It's probably why I've been feeling so down lately, always second-guessing everything I do.",
+      "Therapist: That's an insightful connection. How might we work on that?",
+      "Client: Maybe... maybe I need to be kinder to myself? Recognize that some things are just out of my control? It's hard though. I've always been my own worst critic."
+    ],
+    [
+      "Therapist: That's an insightful connection. How might we work on that?",
+      "Client: Maybe... maybe I need to be kinder to myself? Recognize that some things are just out of my control? It's hard though. I've always been my own worst critic.",
+      "Therapist: Small steps. What's one way you could start?"
+    ],
+    [
+      "Client: Maybe... maybe I need to be kinder to myself? Recognize that some things are just out of my control? It's hard though. I've always been my own worst critic.",
+      "Therapist: Small steps. What's one way you could start?",
+      "Client: I... I could try to catch myself when I start that negative self-talk. Maybe replace it with something more... I don't know, realistic? Compassionate?"
+    ],
+    [
+      "Therapist: Small steps. What's one way you could start?",
+      "Client: I... I could try to catch myself when I start that negative self-talk. Maybe replace it with something more... I don't know, realistic? Compassionate?",
+      "Therapist: Good idea. How did today's session impact your view of recovery?"
+    ],
+    [
+      "Client: I... I could try to catch myself when I start that negative self-talk. Maybe replace it with something more... I don't know, realistic? Compassionate?",
+      "Therapist: Good idea. How did today's session impact your view of recovery?",
+      "Client: It's... it's tough, but I feel like I'm making progress. Like, talking about it is hard, but it's also making the memory less... powerful, I guess? Less overwhelming. And realizing how it's affecting my day-to-day life... that's huge."
+    ],
+    [
+      "Therapist: Good idea. How did today's session impact your view of recovery?",
+      "Client: It's... it's tough, but I feel like I'm making progress. Like, talking about it is hard, but it's also making the memory less... powerful, I guess? Less overwhelming. And realizing how it's affecting my day-to-day life... that's huge.",
+      "Therapist: You're showing real courage. Next steps?"
+    ],
+    [
+      "Client: It's... it's tough, but I feel like I'm making progress. Like, talking about it is hard, but it's also making the memory less... powerful, I guess? Less overwhelming. And realizing how it's affecting my day-to-day life... that's huge.",
+      "Therapist: You're showing real courage. Next steps?",
+      "Client: I want to keep going with this. It's hard, but... I think it's helping. And maybe start practicing that self-compassion thing we talked about. Baby steps, right?"
+    ],
+    [
+      "Therapist: You're showing real courage. Next steps?",
+      "Client: I want to keep going with this. It's hard, but... I think it's helping. And maybe start practicing that self-compassion thing we talked about. Baby steps, right?",
+      "Therapist: Absolutely. You're doing great. Anything else?"
+    ],
+    [
+      "Client: I want to keep going with this. It's hard, but... I think it's helping. And maybe start practicing that self-compassion thing we talked about. Baby steps, right?",
+      "Therapist: Absolutely. You're doing great. Anything else?",
+      "Client: Just... thank you. For listening, for guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe... maybe I can actually get better."
+    ],
+    [
+      "Therapist: Absolutely. You're doing great. Anything else?",
+      "Client: Just... thank you. For listening, for guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe... maybe I can actually get better.",
+      "Therapist: You're welcome. You're stronger than you know. See you next week?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. It means a lot to have someone who understands and doesn't judge. I know I have a long way to go, but for the first time in a while, I feel like maybe... maybe I can actually get better.",
+      "Therapist: You're welcome. You're stronger than you know. See you next week?",
+      "Client: Definitely. I'll be here. Thanks again."
+    ]
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+    "Client: I'm... I'm okay, I suppose. A bit nervous, to be honest. I've been thinking about this session all week, and I'm not sure what to expect.",
+    "Therapist: That's understandable. We'll take it step by step.",
+    "Client: Alright. I appreciate that. It's just... ever since that day at the beach, when I saw that shark attack... I can't seem to shake it off. I know it's been months, but it feels like yesterday.",
+    "Therapist: Today, we'll use imaginal exposure. Ready to learn more?",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+    "Therapist: It's revisiting the memory in a safe space.",
+    "Client: Revisit it? I... I don't know if I can do that. Every time I think about it, I feel like I'm right back there, hearing those screams, seeing all that blood in the water. It's terrifying.",
+    "Therapist: I understand. It's challenging, but it helps reduce symptoms.",
+    "Client: Really? How does reliving something so horrible actually help? I'm afraid it might make things worse.",
+    "Therapist: It allows processing and reduces the memory's power over time.",
+    "Client: I see. But what if I panic? Or what if I can't handle it? I'm worried about losing control.",
+    "Therapist: I'll be here to support you throughout. We'll go at your pace.",
+    "Client: Okay... that's somewhat reassuring. I trust you, but I'm still scared. Will this affect my sleep? I've just started to get some decent rest lately.",
+    "Therapist: It might temporarily disrupt sleep, but improves it long-term.",
+    "Client: I understand. It's just... this whole experience has changed me. I used to love the ocean, and now I can't even look at pictures of beaches without feeling anxious. Will this help with that too?",
+    "Therapist: Yes, it can help reduce those anxieties over time.",
+    "Client: That would be wonderful. I miss feeling carefree at the beach. Alright, I think I'm ready to try. What exactly will we be doing?",
+    "Therapist: You'll recount the event in detail. I'll guide you through.",
+    "Client: In detail? Oh my... that's going to be tough. But I suppose that's the point, isn't it? To face it head-on? I'm willing to try if you think it will help.",
+    "Therapist: Your courage is admirable. This is a big step forward.",
+    "Client: Thank you. That means a lot. I'm doing this for myself, but also for my family. They've been so supportive, but I know my anxiety has affected them too. I want to get better for all of us.",
+    "Therapist: That's a powerful motivation. Shall we begin?",
+    "Client: Yes, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I'm committed to working through it.",
+    "Therapist: Of course. Your well-being is the priority here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+      "Client: I'm... I'm okay, I suppose. A bit nervous, to be honest. I've been thinking about this session all week, and I'm not sure what to expect.",
+      "Therapist: That's understandable. We'll take it step by step."
+    ],
+    [
+      "Client: I'm... I'm okay, I suppose. A bit nervous, to be honest. I've been thinking about this session all week, and I'm not sure what to expect.",
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Alright. I appreciate that. It's just... ever since that day at the beach, when I saw that shark attack... I can't seem to shake it off. I know it's been months, but it feels like yesterday."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Alright. I appreciate that. It's just... ever since that day at the beach, when I saw that shark attack... I can't seem to shake it off. I know it's been months, but it feels like yesterday.",
+      "Therapist: Today, we'll use imaginal exposure. Ready to learn more?"
+    ],
+    [
+      "Client: Alright. I appreciate that. It's just... ever since that day at the beach, when I saw that shark attack... I can't seem to shake it off. I know it's been months, but it feels like yesterday.",
+      "Therapist: Today, we'll use imaginal exposure. Ready to learn more?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?"
+    ],
+    [
+      "Therapist: Today, we'll use imaginal exposure. Ready to learn more?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+      "Therapist: It's revisiting the memory in a safe space."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+      "Therapist: It's revisiting the memory in a safe space.",
+      "Client: Revisit it? I... I don't know if I can do that. Every time I think about it, I feel like I'm right back there, hearing those screams, seeing all that blood in the water. It's terrifying."
+    ],
+    [
+      "Therapist: It's revisiting the memory in a safe space.",
+      "Client: Revisit it? I... I don't know if I can do that. Every time I think about it, I feel like I'm right back there, hearing those screams, seeing all that blood in the water. It's terrifying.",
+      "Therapist: I understand. It's challenging, but it helps reduce symptoms."
+    ],
+    [
+      "Client: Revisit it? I... I don't know if I can do that. Every time I think about it, I feel like I'm right back there, hearing those screams, seeing all that blood in the water. It's terrifying.",
+      "Therapist: I understand. It's challenging, but it helps reduce symptoms.",
+      "Client: Really? How does reliving something so horrible actually help? I'm afraid it might make things worse."
+    ],
+    [
+      "Therapist: I understand. It's challenging, but it helps reduce symptoms.",
+      "Client: Really? How does reliving something so horrible actually help? I'm afraid it might make things worse.",
+      "Therapist: It allows processing and reduces the memory's power over time."
+    ],
+    [
+      "Client: Really? How does reliving something so horrible actually help? I'm afraid it might make things worse.",
+      "Therapist: It allows processing and reduces the memory's power over time.",
+      "Client: I see. But what if I panic? Or what if I can't handle it? I'm worried about losing control."
+    ],
+    [
+      "Therapist: It allows processing and reduces the memory's power over time.",
+      "Client: I see. But what if I panic? Or what if I can't handle it? I'm worried about losing control.",
+      "Therapist: I'll be here to support you throughout. We'll go at your pace."
+    ],
+    [
+      "Client: I see. But what if I panic? Or what if I can't handle it? I'm worried about losing control.",
+      "Therapist: I'll be here to support you throughout. We'll go at your pace.",
+      "Client: Okay... that's somewhat reassuring. I trust you, but I'm still scared. Will this affect my sleep? I've just started to get some decent rest lately."
+    ],
+    [
+      "Therapist: I'll be here to support you throughout. We'll go at your pace.",
+      "Client: Okay... that's somewhat reassuring. I trust you, but I'm still scared. Will this affect my sleep? I've just started to get some decent rest lately.",
+      "Therapist: It might temporarily disrupt sleep, but improves it long-term."
+    ],
+    [
+      "Client: Okay... that's somewhat reassuring. I trust you, but I'm still scared. Will this affect my sleep? I've just started to get some decent rest lately.",
+      "Therapist: It might temporarily disrupt sleep, but improves it long-term.",
+      "Client: I understand. It's just... this whole experience has changed me. I used to love the ocean, and now I can't even look at pictures of beaches without feeling anxious. Will this help with that too?"
+    ],
+    [
+      "Therapist: It might temporarily disrupt sleep, but improves it long-term.",
+      "Client: I understand. It's just... this whole experience has changed me. I used to love the ocean, and now I can't even look at pictures of beaches without feeling anxious. Will this help with that too?",
+      "Therapist: Yes, it can help reduce those anxieties over time."
+    ],
+    [
+      "Client: I understand. It's just... this whole experience has changed me. I used to love the ocean, and now I can't even look at pictures of beaches without feeling anxious. Will this help with that too?",
+      "Therapist: Yes, it can help reduce those anxieties over time.",
+      "Client: That would be wonderful. I miss feeling carefree at the beach. Alright, I think I'm ready to try. What exactly will we be doing?"
+    ],
+    [
+      "Therapist: Yes, it can help reduce those anxieties over time.",
+      "Client: That would be wonderful. I miss feeling carefree at the beach. Alright, I think I'm ready to try. What exactly will we be doing?",
+      "Therapist: You'll recount the event in detail. I'll guide you through."
+    ],
+    [
+      "Client: That would be wonderful. I miss feeling carefree at the beach. Alright, I think I'm ready to try. What exactly will we be doing?",
+      "Therapist: You'll recount the event in detail. I'll guide you through.",
+      "Client: In detail? Oh my... that's going to be tough. But I suppose that's the point, isn't it? To face it head-on? I'm willing to try if you think it will help."
+    ],
+    [
+      "Therapist: You'll recount the event in detail. I'll guide you through.",
+      "Client: In detail? Oh my... that's going to be tough. But I suppose that's the point, isn't it? To face it head-on? I'm willing to try if you think it will help.",
+      "Therapist: Your courage is admirable. This is a big step forward."
+    ],
+    [
+      "Client: In detail? Oh my... that's going to be tough. But I suppose that's the point, isn't it? To face it head-on? I'm willing to try if you think it will help.",
+      "Therapist: Your courage is admirable. This is a big step forward.",
+      "Client: Thank you. That means a lot. I'm doing this for myself, but also for my family. They've been so supportive, but I know my anxiety has affected them too. I want to get better for all of us."
+    ],
+    [
+      "Therapist: Your courage is admirable. This is a big step forward.",
+      "Client: Thank you. That means a lot. I'm doing this for myself, but also for my family. They've been so supportive, but I know my anxiety has affected them too. I want to get better for all of us.",
+      "Therapist: That's a powerful motivation. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. That means a lot. I'm doing this for myself, but also for my family. They've been so supportive, but I know my anxiety has affected them too. I want to get better for all of us.",
+      "Therapist: That's a powerful motivation. Shall we begin?",
+      "Client: Yes, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I'm committed to working through it."
+    ],
+    [
+      "Therapist: That's a powerful motivation. Shall we begin?",
+      "Client: Yes, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I'm committed to working through it.",
+      "Therapist: Of course. Your well-being is the priority here."
+    ]
+  ]
+}

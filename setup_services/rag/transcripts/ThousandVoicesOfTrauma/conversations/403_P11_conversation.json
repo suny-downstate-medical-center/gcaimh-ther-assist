@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's a lot to process. The memory of that dog attack felt so vivid, you know? I could almost feel its teeth again, hear the growling. My heart's still racing a bit.",
+    "Therapist: Understandable. What stood out most?",
+    "Client: The fear, definitely. But also... guilt? I keep thinking I should've done something differently. Maybe if I hadn't run, the dog wouldn't have chased me. It's silly, I know, but I can't shake that thought.",
+    "Therapist: How does this connect to your daily life?",
+    "Client: Well, I guess... I'm always on edge, especially around dogs. Even small ones. And I beat myself up a lot about things that aren't really my fault. It's exhausting.",
+    "Therapist: I see. How was sharing this memory today?",
+    "Client: Tough, but... maybe a little easier than last time? I didn't feel like I was completely losing control. There were moments when I could step back a bit, if that makes sense. Like, I knew I was here, in your office, even while remembering.",
+    "Therapist: That's progress. What helped you stay grounded?",
+    "Client: Um, focusing on my breathing helped. And... this might sound weird, but the sound of your voice. It reminded me that I wasn't alone, that I was safe here.",
+    "Therapist: Not weird at all. Very common. Any new insights?",
+    "Client: Yeah, actually. I realized that a lot of my anxiety isn't just about dogs. It's about feeling helpless. Like, in any situation where I'm not in control, I start panicking. Even in my relationship sometimes. I push people away when I feel vulnerable.",
+    "Therapist: Interesting observation. How might you use this?",
+    "Client: I guess... maybe I could practice letting go a little? Like, intentionally putting myself in situations where I'm not totally in control, but it's safe. Maybe that would help with the anxiety?",
+    "Therapist: Sounds promising. Ready to continue our work?",
+    "Client: Yeah, I think so. It's hard, but... I'm starting to see how it might help. And I want to get better, you know? I'm tired of living in fear all the time. It's affecting everything - my studies, my relationship, just... everything. So yeah, I'm ready to keep going.",
+    "Therapist: Excellent. What's your takeaway today?",
+    "Client: Hmm... I think... that I'm stronger than I give myself credit for? Like, reliving that memory was awful, but I got through it. And maybe each time I face it, it loses a little bit of its power over me. Is that... is that how this is supposed to work?",
+    "Therapist: You're on the right track. How will you care for yourself now?",
+    "Client: I think I'll go for a walk in the park. Not the dog park, obviously, but... just somewhere quiet. Maybe call my girlfriend after. I've been avoiding talking to her about this stuff, but... maybe it's time to open up a bit.",
+    "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+    "Client: Just... thank you, I guess. For listening, for guiding me through this. It means a lot. I know I have a long way to go, but for the first time in a while, I feel like maybe I can actually get better.",
+    "Therapist: You're welcome. See you next week?",
+    "Client: Yeah, definitely. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's a lot to process. The memory of that dog attack felt so vivid, you know? I could almost feel its teeth again, hear the growling. My heart's still racing a bit.",
+      "Therapist: Understandable. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. The memory of that dog attack felt so vivid, you know? I could almost feel its teeth again, hear the growling. My heart's still racing a bit.",
+      "Therapist: Understandable. What stood out most?",
+      "Client: The fear, definitely. But also... guilt? I keep thinking I should've done something differently. Maybe if I hadn't run, the dog wouldn't have chased me. It's silly, I know, but I can't shake that thought."
+    ],
+    [
+      "Therapist: Understandable. What stood out most?",
+      "Client: The fear, definitely. But also... guilt? I keep thinking I should've done something differently. Maybe if I hadn't run, the dog wouldn't have chased me. It's silly, I know, but I can't shake that thought.",
+      "Therapist: How does this connect to your daily life?"
+    ],
+    [
+      "Client: The fear, definitely. But also... guilt? I keep thinking I should've done something differently. Maybe if I hadn't run, the dog wouldn't have chased me. It's silly, I know, but I can't shake that thought.",
+      "Therapist: How does this connect to your daily life?",
+      "Client: Well, I guess... I'm always on edge, especially around dogs. Even small ones. And I beat myself up a lot about things that aren't really my fault. It's exhausting."
+    ],
+    [
+      "Therapist: How does this connect to your daily life?",
+      "Client: Well, I guess... I'm always on edge, especially around dogs. Even small ones. And I beat myself up a lot about things that aren't really my fault. It's exhausting.",
+      "Therapist: I see. How was sharing this memory today?"
+    ],
+    [
+      "Client: Well, I guess... I'm always on edge, especially around dogs. Even small ones. And I beat myself up a lot about things that aren't really my fault. It's exhausting.",
+      "Therapist: I see. How was sharing this memory today?",
+      "Client: Tough, but... maybe a little easier than last time? I didn't feel like I was completely losing control. There were moments when I could step back a bit, if that makes sense. Like, I knew I was here, in your office, even while remembering."
+    ],
+    [
+      "Therapist: I see. How was sharing this memory today?",
+      "Client: Tough, but... maybe a little easier than last time? I didn't feel like I was completely losing control. There were moments when I could step back a bit, if that makes sense. Like, I knew I was here, in your office, even while remembering.",
+      "Therapist: That's progress. What helped you stay grounded?"
+    ],
+    [
+      "Client: Tough, but... maybe a little easier than last time? I didn't feel like I was completely losing control. There were moments when I could step back a bit, if that makes sense. Like, I knew I was here, in your office, even while remembering.",
+      "Therapist: That's progress. What helped you stay grounded?",
+      "Client: Um, focusing on my breathing helped. And... this might sound weird, but the sound of your voice. It reminded me that I wasn't alone, that I was safe here."
+    ],
+    [
+      "Therapist: That's progress. What helped you stay grounded?",
+      "Client: Um, focusing on my breathing helped. And... this might sound weird, but the sound of your voice. It reminded me that I wasn't alone, that I was safe here.",
+      "Therapist: Not weird at all. Very common. Any new insights?"
+    ],
+    [
+      "Client: Um, focusing on my breathing helped. And... this might sound weird, but the sound of your voice. It reminded me that I wasn't alone, that I was safe here.",
+      "Therapist: Not weird at all. Very common. Any new insights?",
+      "Client: Yeah, actually. I realized that a lot of my anxiety isn't just about dogs. It's about feeling helpless. Like, in any situation where I'm not in control, I start panicking. Even in my relationship sometimes. I push people away when I feel vulnerable."
+    ],
+    [
+      "Therapist: Not weird at all. Very common. Any new insights?",
+      "Client: Yeah, actually. I realized that a lot of my anxiety isn't just about dogs. It's about feeling helpless. Like, in any situation where I'm not in control, I start panicking. Even in my relationship sometimes. I push people away when I feel vulnerable.",
+      "Therapist: Interesting observation. How might you use this?"
+    ],
+    [
+      "Client: Yeah, actually. I realized that a lot of my anxiety isn't just about dogs. It's about feeling helpless. Like, in any situation where I'm not in control, I start panicking. Even in my relationship sometimes. I push people away when I feel vulnerable.",
+      "Therapist: Interesting observation. How might you use this?",
+      "Client: I guess... maybe I could practice letting go a little? Like, intentionally putting myself in situations where I'm not totally in control, but it's safe. Maybe that would help with the anxiety?"
+    ],
+    [
+      "Therapist: Interesting observation. How might you use this?",
+      "Client: I guess... maybe I could practice letting go a little? Like, intentionally putting myself in situations where I'm not totally in control, but it's safe. Maybe that would help with the anxiety?",
+      "Therapist: Sounds promising. Ready to continue our work?"
+    ],
+    [
+      "Client: I guess... maybe I could practice letting go a little? Like, intentionally putting myself in situations where I'm not totally in control, but it's safe. Maybe that would help with the anxiety?",
+      "Therapist: Sounds promising. Ready to continue our work?",
+      "Client: Yeah, I think so. It's hard, but... I'm starting to see how it might help. And I want to get better, you know? I'm tired of living in fear all the time. It's affecting everything - my studies, my relationship, just... everything. So yeah, I'm ready to keep going."
+    ],
+    [
+      "Therapist: Sounds promising. Ready to continue our work?",
+      "Client: Yeah, I think so. It's hard, but... I'm starting to see how it might help. And I want to get better, you know? I'm tired of living in fear all the time. It's affecting everything - my studies, my relationship, just... everything. So yeah, I'm ready to keep going.",
+      "Therapist: Excellent. What's your takeaway today?"
+    ],
+    [
+      "Client: Yeah, I think so. It's hard, but... I'm starting to see how it might help. And I want to get better, you know? I'm tired of living in fear all the time. It's affecting everything - my studies, my relationship, just... everything. So yeah, I'm ready to keep going.",
+      "Therapist: Excellent. What's your takeaway today?",
+      "Client: Hmm... I think... that I'm stronger than I give myself credit for? Like, reliving that memory was awful, but I got through it. And maybe each time I face it, it loses a little bit of its power over me. Is that... is that how this is supposed to work?"
+    ],
+    [
+      "Therapist: Excellent. What's your takeaway today?",
+      "Client: Hmm... I think... that I'm stronger than I give myself credit for? Like, reliving that memory was awful, but I got through it. And maybe each time I face it, it loses a little bit of its power over me. Is that... is that how this is supposed to work?",
+      "Therapist: You're on the right track. How will you care for yourself now?"
+    ],
+    [
+      "Client: Hmm... I think... that I'm stronger than I give myself credit for? Like, reliving that memory was awful, but I got through it. And maybe each time I face it, it loses a little bit of its power over me. Is that... is that how this is supposed to work?",
+      "Therapist: You're on the right track. How will you care for yourself now?",
+      "Client: I think I'll go for a walk in the park. Not the dog park, obviously, but... just somewhere quiet. Maybe call my girlfriend after. I've been avoiding talking to her about this stuff, but... maybe it's time to open up a bit."
+    ],
+    [
+      "Therapist: You're on the right track. How will you care for yourself now?",
+      "Client: I think I'll go for a walk in the park. Not the dog park, obviously, but... just somewhere quiet. Maybe call my girlfriend after. I've been avoiding talking to her about this stuff, but... maybe it's time to open up a bit.",
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?"
+    ],
+    [
+      "Client: I think I'll go for a walk in the park. Not the dog park, obviously, but... just somewhere quiet. Maybe call my girlfriend after. I've been avoiding talking to her about this stuff, but... maybe it's time to open up a bit.",
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It means a lot. I know I have a long way to go, but for the first time in a while, I feel like maybe I can actually get better."
+    ],
+    [
+      "Therapist: Sounds like a good plan. Anything else before we wrap up?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It means a lot. I know I have a long way to go, but for the first time in a while, I feel like maybe I can actually get better.",
+      "Therapist: You're welcome. See you next week?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It means a lot. I know I have a long way to go, but for the first time in a while, I feel like maybe I can actually get better.",
+      "Therapist: You're welcome. See you next week?",
+      "Client: Yeah, definitely. See you then."
+    ]
+  ]
+}

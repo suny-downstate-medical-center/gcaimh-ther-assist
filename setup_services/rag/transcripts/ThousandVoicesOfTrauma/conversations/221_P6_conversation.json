@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Start when you're ready.",
+    "Client: Okay... I'm back in Kabul. It's a hot day, and I can feel sweat trickling down my back. The air is thick with dust and the smell of exhaust. I'm on patrol with my unit, walking down a narrow street lined with mud-brick buildings. Suddenly, I hear shouting...",
+    "Therapist: How's your distress level?",
+    "Client: Um, about a 4 out of 10. I'm tense, but manageable.",
+    "Therapist: Good. Continue.",
+    "Client: The shouting gets louder. I see a crowd forming ahead. My heart starts racing. There's a local man arguing with two police officers. They're pushing him, and he's trying to resist. I feel my grip tightening on my rifle...",
+    "Therapist: SUDS?",
+    "Client: It's... it's gone up to a 6. My palms are sweaty, and I'm feeling anxious.",
+    "Therapist: That's okay. Keep going.",
+    "Client: One of the officers pulls out his baton. I want to intervene, but I'm frozen. The man is on the ground now, and they're... they're beating him. I can hear his cries, see the blood... Oh god, I should've done something!",
+    "Therapist: Stay with it. SUDS?",
+    "Client: It's an 8 now. I feel sick to my stomach. My chest is tight, and I can't seem to catch my breath.",
+    "Therapist: You're doing well. Keep breathing.",
+    "Client: I... I can't watch anymore. I turn away, but I can still hear the man's pleas. My squadmate grabs my arm, tells me we need to move on. I feel so helpless, so angry at myself for not stepping in...",
+    "Therapist: How are you feeling now?",
+    "Client: It's... it's still an 8. I'm shaking. I feel like such a coward.",
+    "Therapist: It's a difficult memory. You're brave for facing it.",
+    "Client: I just... I keep seeing his face. The fear in his eyes. It haunts me. I should have done more.",
+    "Therapist: SUDS?",
+    "Client: It's... it's starting to come down a bit. Maybe a 7 now. I'm still shaky, but the nausea is fading.",
+    "Therapist: That's good. Keep going.",
+    "Client: We continue our patrol, but I can't shake what I saw. The sounds of the beating echo in my head. I feel disconnected from my body, like I'm watching myself from outside. The guilt is overwhelming...",
+    "Therapist: How's your distress now?",
+    "Client: It's... it's actually dropping. Maybe a 5? I feel drained, but the intense anxiety is lessening.",
+    "Therapist: You're doing great. We'll stop here for today.",
+    "Client: Thank you. It's... it's hard, but I think it helps to talk about it.",
+    "Therapist: You showed a lot of courage. How are you feeling overall?",
+    "Client: Exhausted, but... maybe a little lighter? It's still painful, but facing it feels... important.",
+    "Therapist: That's normal. We'll process this more next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Start when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Start when you're ready.",
+      "Client: Okay... I'm back in Kabul. It's a hot day, and I can feel sweat trickling down my back. The air is thick with dust and the smell of exhaust. I'm on patrol with my unit, walking down a narrow street lined with mud-brick buildings. Suddenly, I hear shouting..."
+    ],
+    [
+      "Therapist: That's normal. Start when you're ready.",
+      "Client: Okay... I'm back in Kabul. It's a hot day, and I can feel sweat trickling down my back. The air is thick with dust and the smell of exhaust. I'm on patrol with my unit, walking down a narrow street lined with mud-brick buildings. Suddenly, I hear shouting...",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: Okay... I'm back in Kabul. It's a hot day, and I can feel sweat trickling down my back. The air is thick with dust and the smell of exhaust. I'm on patrol with my unit, walking down a narrow street lined with mud-brick buildings. Suddenly, I hear shouting...",
+      "Therapist: How's your distress level?",
+      "Client: Um, about a 4 out of 10. I'm tense, but manageable."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: Um, about a 4 out of 10. I'm tense, but manageable.",
+      "Therapist: Good. Continue."
+    ],
+    [
+      "Client: Um, about a 4 out of 10. I'm tense, but manageable.",
+      "Therapist: Good. Continue.",
+      "Client: The shouting gets louder. I see a crowd forming ahead. My heart starts racing. There's a local man arguing with two police officers. They're pushing him, and he's trying to resist. I feel my grip tightening on my rifle..."
+    ],
+    [
+      "Therapist: Good. Continue.",
+      "Client: The shouting gets louder. I see a crowd forming ahead. My heart starts racing. There's a local man arguing with two police officers. They're pushing him, and he's trying to resist. I feel my grip tightening on my rifle...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The shouting gets louder. I see a crowd forming ahead. My heart starts racing. There's a local man arguing with two police officers. They're pushing him, and he's trying to resist. I feel my grip tightening on my rifle...",
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to a 6. My palms are sweaty, and I'm feeling anxious."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to a 6. My palms are sweaty, and I'm feeling anxious.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My palms are sweaty, and I'm feeling anxious.",
+      "Therapist: That's okay. Keep going.",
+      "Client: One of the officers pulls out his baton. I want to intervene, but I'm frozen. The man is on the ground now, and they're... they're beating him. I can hear his cries, see the blood... Oh god, I should've done something!"
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: One of the officers pulls out his baton. I want to intervene, but I'm frozen. The man is on the ground now, and they're... they're beating him. I can hear his cries, see the blood... Oh god, I should've done something!",
+      "Therapist: Stay with it. SUDS?"
+    ],
+    [
+      "Client: One of the officers pulls out his baton. I want to intervene, but I'm frozen. The man is on the ground now, and they're... they're beating him. I can hear his cries, see the blood... Oh god, I should've done something!",
+      "Therapist: Stay with it. SUDS?",
+      "Client: It's an 8 now. I feel sick to my stomach. My chest is tight, and I can't seem to catch my breath."
+    ],
+    [
+      "Therapist: Stay with it. SUDS?",
+      "Client: It's an 8 now. I feel sick to my stomach. My chest is tight, and I can't seem to catch my breath.",
+      "Therapist: You're doing well. Keep breathing."
+    ],
+    [
+      "Client: It's an 8 now. I feel sick to my stomach. My chest is tight, and I can't seem to catch my breath.",
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I... I can't watch anymore. I turn away, but I can still hear the man's pleas. My squadmate grabs my arm, tells me we need to move on. I feel so helpless, so angry at myself for not stepping in..."
+    ],
+    [
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I... I can't watch anymore. I turn away, but I can still hear the man's pleas. My squadmate grabs my arm, tells me we need to move on. I feel so helpless, so angry at myself for not stepping in...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I... I can't watch anymore. I turn away, but I can still hear the man's pleas. My squadmate grabs my arm, tells me we need to move on. I feel so helpless, so angry at myself for not stepping in...",
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's still an 8. I'm shaking. I feel like such a coward."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's still an 8. I'm shaking. I feel like such a coward.",
+      "Therapist: It's a difficult memory. You're brave for facing it."
+    ],
+    [
+      "Client: It's... it's still an 8. I'm shaking. I feel like such a coward.",
+      "Therapist: It's a difficult memory. You're brave for facing it.",
+      "Client: I just... I keep seeing his face. The fear in his eyes. It haunts me. I should have done more."
+    ],
+    [
+      "Therapist: It's a difficult memory. You're brave for facing it.",
+      "Client: I just... I keep seeing his face. The fear in his eyes. It haunts me. I should have done more.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I just... I keep seeing his face. The fear in his eyes. It haunts me. I should have done more.",
+      "Therapist: SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe a 7 now. I'm still shaky, but the nausea is fading."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe a 7 now. I'm still shaky, but the nausea is fading.",
+      "Therapist: That's good. Keep going."
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe a 7 now. I'm still shaky, but the nausea is fading.",
+      "Therapist: That's good. Keep going.",
+      "Client: We continue our patrol, but I can't shake what I saw. The sounds of the beating echo in my head. I feel disconnected from my body, like I'm watching myself from outside. The guilt is overwhelming..."
+    ],
+    [
+      "Therapist: That's good. Keep going.",
+      "Client: We continue our patrol, but I can't shake what I saw. The sounds of the beating echo in my head. I feel disconnected from my body, like I'm watching myself from outside. The guilt is overwhelming...",
+      "Therapist: How's your distress now?"
+    ],
+    [
+      "Client: We continue our patrol, but I can't shake what I saw. The sounds of the beating echo in my head. I feel disconnected from my body, like I'm watching myself from outside. The guilt is overwhelming...",
+      "Therapist: How's your distress now?",
+      "Client: It's... it's actually dropping. Maybe a 5? I feel drained, but the intense anxiety is lessening."
+    ],
+    [
+      "Therapist: How's your distress now?",
+      "Client: It's... it's actually dropping. Maybe a 5? I feel drained, but the intense anxiety is lessening.",
+      "Therapist: You're doing great. We'll stop here for today."
+    ],
+    [
+      "Client: It's... it's actually dropping. Maybe a 5? I feel drained, but the intense anxiety is lessening.",
+      "Therapist: You're doing great. We'll stop here for today.",
+      "Client: Thank you. It's... it's hard, but I think it helps to talk about it."
+    ],
+    [
+      "Therapist: You're doing great. We'll stop here for today.",
+      "Client: Thank you. It's... it's hard, but I think it helps to talk about it.",
+      "Therapist: You showed a lot of courage. How are you feeling overall?"
+    ],
+    [
+      "Client: Thank you. It's... it's hard, but I think it helps to talk about it.",
+      "Therapist: You showed a lot of courage. How are you feeling overall?",
+      "Client: Exhausted, but... maybe a little lighter? It's still painful, but facing it feels... important."
+    ],
+    [
+      "Therapist: You showed a lot of courage. How are you feeling overall?",
+      "Client: Exhausted, but... maybe a little lighter? It's still painful, but facing it feels... important.",
+      "Therapist: That's normal. We'll process this more next time."
+    ]
+  ]
+}

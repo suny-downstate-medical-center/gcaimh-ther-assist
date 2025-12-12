@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, trying to eat my lunch quietly. A group of girls walks by, and I can hear them whispering and giggling. One of them, Sarah, stops and says, \"Hey, why don't you go back to where you came from?\" My chest tightens, and I feel my face getting hot.",
+    "Therapist: How are you feeling right now? What's your SUDS rating?",
+    "Client: I'd say about a 6. My hands are starting to feel clammy.",
+    "Therapist: Thank you. Continue when you're ready.",
+    "Client: I try to ignore them, but Sarah keeps talking. \"We don't want your kind here,\" she says. The other girls laugh. I can feel tears welling up in my eyes, but I'm determined not to cry in front of them. My stomach is in knots, and I can barely breathe. I want to disappear.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I feel so small and helpless, just like I did back then.",
+    "Therapist: That sounds really tough. You're doing well. Keep going.",
+    "Client: I gather my things and start to leave, but Sarah sticks her foot out and trips me. My tray clatters to the floor, and food goes everywhere. The whole cafeteria goes quiet, then erupts in laughter. I'm on the ground, covered in food, and everyone's staring at me. I can hear people shouting slurs and telling me to go home. I've never felt so humiliated and alone.",
+    "Therapist: How's your SUDS rating at this point?",
+    "Client: It's a 9. I feel like I'm right back there, reliving it all over again.",
+    "Therapist: You're very brave. Remember, you're safe here.",
+    "Client: I know, but it feels so real. I can still hear their laughter echoing in my ears. I remember running out of the cafeteria, crying. I locked myself in a bathroom stall and stayed there until the bell rang. I was shaking and couldn't stop crying. I felt so angry and helpless. Why did they hate me just because I looked different?",
+    "Therapist: What's your SUDS now?",
+    "Client: It's still at a 9. My heart is racing, and I feel like I can't catch my breath.",
+    "Therapist: Take a moment. Breathe deeply. You're doing great.",
+    "Client: (Takes a deep breath) I remember calling my grandmother after school. She was the only one who understood. She held me while I cried and told me to be proud of who I am. But it was so hard. For weeks after, I couldn't eat in the cafeteria. I'd hide in the library during lunch, too afraid to face everyone.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's coming down a bit, maybe to a 7. Thinking about my grandmother helps.",
+    "Therapist: That's good. Keep going if you can.",
+    "Client: The worst part was feeling so alone. Even though there were teachers around, no one stepped in to help. I felt like I didn't belong anywhere. It took me years to feel comfortable in my own skin again. Sometimes, even now, when I'm in a crowded place, I get that same feeling of not belonging.",
+    "Therapist: How about your SUDS now?",
+    "Client: It's down to a 6. I'm starting to feel a bit calmer, but still sad.",
+    "Therapist: You've done really well. How are you feeling overall?",
+    "Client: I'm surprised. It was hard, but I feel... I don't know, maybe a little stronger? Like I survived it then, and I can face it now.",
+    "Therapist: That's a great insight. You've shown incredible resilience."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, trying to eat my lunch quietly. A group of girls walks by, and I can hear them whispering and giggling. One of them, Sarah, stops and says, \"Hey, why don't you go back to where you came from?\" My chest tightens, and I feel my face getting hot."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, trying to eat my lunch quietly. A group of girls walks by, and I can hear them whispering and giggling. One of them, Sarah, stops and says, \"Hey, why don't you go back to where you came from?\" My chest tightens, and I feel my face getting hot.",
+      "Therapist: How are you feeling right now? What's your SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, trying to eat my lunch quietly. A group of girls walks by, and I can hear them whispering and giggling. One of them, Sarah, stops and says, \"Hey, why don't you go back to where you came from?\" My chest tightens, and I feel my face getting hot.",
+      "Therapist: How are you feeling right now? What's your SUDS rating?",
+      "Client: I'd say about a 6. My hands are starting to feel clammy."
+    ],
+    [
+      "Therapist: How are you feeling right now? What's your SUDS rating?",
+      "Client: I'd say about a 6. My hands are starting to feel clammy.",
+      "Therapist: Thank you. Continue when you're ready."
+    ],
+    [
+      "Client: I'd say about a 6. My hands are starting to feel clammy.",
+      "Therapist: Thank you. Continue when you're ready.",
+      "Client: I try to ignore them, but Sarah keeps talking. \"We don't want your kind here,\" she says. The other girls laugh. I can feel tears welling up in my eyes, but I'm determined not to cry in front of them. My stomach is in knots, and I can barely breathe. I want to disappear."
+    ],
+    [
+      "Therapist: Thank you. Continue when you're ready.",
+      "Client: I try to ignore them, but Sarah keeps talking. \"We don't want your kind here,\" she says. The other girls laugh. I can feel tears welling up in my eyes, but I'm determined not to cry in front of them. My stomach is in knots, and I can barely breathe. I want to disappear.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I try to ignore them, but Sarah keeps talking. \"We don't want your kind here,\" she says. The other girls laugh. I can feel tears welling up in my eyes, but I'm determined not to cry in front of them. My stomach is in knots, and I can barely breathe. I want to disappear.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I feel so small and helpless, just like I did back then."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I feel so small and helpless, just like I did back then.",
+      "Therapist: That sounds really tough. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I feel so small and helpless, just like I did back then.",
+      "Therapist: That sounds really tough. You're doing well. Keep going.",
+      "Client: I gather my things and start to leave, but Sarah sticks her foot out and trips me. My tray clatters to the floor, and food goes everywhere. The whole cafeteria goes quiet, then erupts in laughter. I'm on the ground, covered in food, and everyone's staring at me. I can hear people shouting slurs and telling me to go home. I've never felt so humiliated and alone."
+    ],
+    [
+      "Therapist: That sounds really tough. You're doing well. Keep going.",
+      "Client: I gather my things and start to leave, but Sarah sticks her foot out and trips me. My tray clatters to the floor, and food goes everywhere. The whole cafeteria goes quiet, then erupts in laughter. I'm on the ground, covered in food, and everyone's staring at me. I can hear people shouting slurs and telling me to go home. I've never felt so humiliated and alone.",
+      "Therapist: How's your SUDS rating at this point?"
+    ],
+    [
+      "Client: I gather my things and start to leave, but Sarah sticks her foot out and trips me. My tray clatters to the floor, and food goes everywhere. The whole cafeteria goes quiet, then erupts in laughter. I'm on the ground, covered in food, and everyone's staring at me. I can hear people shouting slurs and telling me to go home. I've never felt so humiliated and alone.",
+      "Therapist: How's your SUDS rating at this point?",
+      "Client: It's a 9. I feel like I'm right back there, reliving it all over again."
+    ],
+    [
+      "Therapist: How's your SUDS rating at this point?",
+      "Client: It's a 9. I feel like I'm right back there, reliving it all over again.",
+      "Therapist: You're very brave. Remember, you're safe here."
+    ],
+    [
+      "Client: It's a 9. I feel like I'm right back there, reliving it all over again.",
+      "Therapist: You're very brave. Remember, you're safe here.",
+      "Client: I know, but it feels so real. I can still hear their laughter echoing in my ears. I remember running out of the cafeteria, crying. I locked myself in a bathroom stall and stayed there until the bell rang. I was shaking and couldn't stop crying. I felt so angry and helpless. Why did they hate me just because I looked different?"
+    ],
+    [
+      "Therapist: You're very brave. Remember, you're safe here.",
+      "Client: I know, but it feels so real. I can still hear their laughter echoing in my ears. I remember running out of the cafeteria, crying. I locked myself in a bathroom stall and stayed there until the bell rang. I was shaking and couldn't stop crying. I felt so angry and helpless. Why did they hate me just because I looked different?",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: I know, but it feels so real. I can still hear their laughter echoing in my ears. I remember running out of the cafeteria, crying. I locked myself in a bathroom stall and stayed there until the bell rang. I was shaking and couldn't stop crying. I felt so angry and helpless. Why did they hate me just because I looked different?",
+      "Therapist: What's your SUDS now?",
+      "Client: It's still at a 9. My heart is racing, and I feel like I can't catch my breath."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's still at a 9. My heart is racing, and I feel like I can't catch my breath.",
+      "Therapist: Take a moment. Breathe deeply. You're doing great."
+    ],
+    [
+      "Client: It's still at a 9. My heart is racing, and I feel like I can't catch my breath.",
+      "Therapist: Take a moment. Breathe deeply. You're doing great.",
+      "Client: (Takes a deep breath) I remember calling my grandmother after school. She was the only one who understood. She held me while I cried and told me to be proud of who I am. But it was so hard. For weeks after, I couldn't eat in the cafeteria. I'd hide in the library during lunch, too afraid to face everyone."
+    ],
+    [
+      "Therapist: Take a moment. Breathe deeply. You're doing great.",
+      "Client: (Takes a deep breath) I remember calling my grandmother after school. She was the only one who understood. She held me while I cried and told me to be proud of who I am. But it was so hard. For weeks after, I couldn't eat in the cafeteria. I'd hide in the library during lunch, too afraid to face everyone.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: (Takes a deep breath) I remember calling my grandmother after school. She was the only one who understood. She held me while I cried and told me to be proud of who I am. But it was so hard. For weeks after, I couldn't eat in the cafeteria. I'd hide in the library during lunch, too afraid to face everyone.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's coming down a bit, maybe to a 7. Thinking about my grandmother helps."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's coming down a bit, maybe to a 7. Thinking about my grandmother helps.",
+      "Therapist: That's good. Keep going if you can."
+    ],
+    [
+      "Client: It's coming down a bit, maybe to a 7. Thinking about my grandmother helps.",
+      "Therapist: That's good. Keep going if you can.",
+      "Client: The worst part was feeling so alone. Even though there were teachers around, no one stepped in to help. I felt like I didn't belong anywhere. It took me years to feel comfortable in my own skin again. Sometimes, even now, when I'm in a crowded place, I get that same feeling of not belonging."
+    ],
+    [
+      "Therapist: That's good. Keep going if you can.",
+      "Client: The worst part was feeling so alone. Even though there were teachers around, no one stepped in to help. I felt like I didn't belong anywhere. It took me years to feel comfortable in my own skin again. Sometimes, even now, when I'm in a crowded place, I get that same feeling of not belonging.",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: The worst part was feeling so alone. Even though there were teachers around, no one stepped in to help. I felt like I didn't belong anywhere. It took me years to feel comfortable in my own skin again. Sometimes, even now, when I'm in a crowded place, I get that same feeling of not belonging.",
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 6. I'm starting to feel a bit calmer, but still sad."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's down to a 6. I'm starting to feel a bit calmer, but still sad.",
+      "Therapist: You've done really well. How are you feeling overall?"
+    ],
+    [
+      "Client: It's down to a 6. I'm starting to feel a bit calmer, but still sad.",
+      "Therapist: You've done really well. How are you feeling overall?",
+      "Client: I'm surprised. It was hard, but I feel... I don't know, maybe a little stronger? Like I survived it then, and I can face it now."
+    ],
+    [
+      "Therapist: You've done really well. How are you feeling overall?",
+      "Client: I'm surprised. It was hard, but I feel... I don't know, maybe a little stronger? Like I survived it then, and I can face it now.",
+      "Therapist: That's a great insight. You've shown incredible resilience."
+    ]
+  ]
+}

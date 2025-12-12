@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after going through that memory today?",
+    "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there, you know? The sounds, the smells, everything just came flooding back. I could hear the shouting, the crash of things breaking. My heart's still racing a little.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The fear. It was overwhelming. I remember feeling so helpless, like I couldn't do anything to stop what was happening. I keep thinking about my neighbor's face, how terrified she looked when her husband was yelling at her. I... I should've done something, right?",
+    "Therapist: It's common to feel that way. How do you think this connects to your current experiences?",
+    "Client: Well, I guess... I'm always on edge now. Like, I'm constantly waiting for something bad to happen. Even at work, when I hear raised voices, I freeze up. It's affecting my relationships too. I find it hard to trust people, especially men. I'm always looking for signs that they might become violent.",
+    "Therapist: I see. How did it feel to share this memory today compared to previous sessions?",
+    "Client: It was... different. Still difficult, but maybe a little less overwhelming? I didn't feel as trapped in the memory as I have before. There were moments where I could step back a bit, if that makes sense. But it's still hard. I felt guilty, like I was betraying my neighbor by talking about it.",
+    "Therapist: That's a natural reaction. What do you think has changed?",
+    "Client: I think... maybe I'm starting to understand that it wasn't my fault? That I couldn't have known what would happen or how to stop it. It's still hard to accept, but I'm trying. And talking about it, as difficult as it is, seems to make it lose some of its power over me.",
+    "Therapist: That's a significant insight. How might this affect your daily life?",
+    "Client: I'm not sure yet. Maybe... maybe I'll be less afraid of confrontation? Or at least, I might be able to remind myself that not every argument will end in violence. It's a small step, but it feels important.",
+    "Therapist: It is important. What's your takeaway from today's session?",
+    "Client: I think... I'm stronger than I give myself credit for. Reliving that memory is hard, but I'm doing it. And each time, it gets a little easier. I'm not letting it control me anymore. I want to keep working on this, even though it's tough.",
+    "Therapist: That's a powerful realization. How do you feel about continuing this work?",
+    "Client: I'm nervous, but... determined. I want my life back, you know? I don't want to be controlled by fear anymore. It's exhausting always being on guard. If this can help me feel safer and more in control, then I want to keep going. It's not easy, but I think it's worth it.",
+    "Therapist: Your commitment is admirable. What support do you need moving forward?",
+    "Client: I think... maybe some more coping strategies for when the memories hit me outside of our sessions? And... this is hard to ask, but maybe we could work on how I can start trusting people again? Especially in my dating life. I've been avoiding relationships because I'm so scared of getting hurt.",
+    "Therapist: Those are excellent goals. We'll definitely address those. Anything else?",
+    "Client: No, I think that's it for now. Thank you for listening and guiding me through this. It means a lot to have someone who understands and doesn't judge me for what happened.",
+    "Therapist: You're welcome. Your progress is commendable. Shall we wrap up for today?",
+    "Client: Yes, I think I need some time to process everything. But I'm feeling... cautiously optimistic? It's a new feeling, but a good one. Thank you again.",
+    "Therapist: Take care, and we'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after going through that memory today?",
+      "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there, you know? The sounds, the smells, everything just came flooding back. I could hear the shouting, the crash of things breaking. My heart's still racing a little.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. It's like I was right back there, you know? The sounds, the smells, everything just came flooding back. I could hear the shouting, the crash of things breaking. My heart's still racing a little.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear. It was overwhelming. I remember feeling so helpless, like I couldn't do anything to stop what was happening. I keep thinking about my neighbor's face, how terrified she looked when her husband was yelling at her. I... I should've done something, right?"
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear. It was overwhelming. I remember feeling so helpless, like I couldn't do anything to stop what was happening. I keep thinking about my neighbor's face, how terrified she looked when her husband was yelling at her. I... I should've done something, right?",
+      "Therapist: It's common to feel that way. How do you think this connects to your current experiences?"
+    ],
+    [
+      "Client: The fear. It was overwhelming. I remember feeling so helpless, like I couldn't do anything to stop what was happening. I keep thinking about my neighbor's face, how terrified she looked when her husband was yelling at her. I... I should've done something, right?",
+      "Therapist: It's common to feel that way. How do you think this connects to your current experiences?",
+      "Client: Well, I guess... I'm always on edge now. Like, I'm constantly waiting for something bad to happen. Even at work, when I hear raised voices, I freeze up. It's affecting my relationships too. I find it hard to trust people, especially men. I'm always looking for signs that they might become violent."
+    ],
+    [
+      "Therapist: It's common to feel that way. How do you think this connects to your current experiences?",
+      "Client: Well, I guess... I'm always on edge now. Like, I'm constantly waiting for something bad to happen. Even at work, when I hear raised voices, I freeze up. It's affecting my relationships too. I find it hard to trust people, especially men. I'm always looking for signs that they might become violent.",
+      "Therapist: I see. How did it feel to share this memory today compared to previous sessions?"
+    ],
+    [
+      "Client: Well, I guess... I'm always on edge now. Like, I'm constantly waiting for something bad to happen. Even at work, when I hear raised voices, I freeze up. It's affecting my relationships too. I find it hard to trust people, especially men. I'm always looking for signs that they might become violent.",
+      "Therapist: I see. How did it feel to share this memory today compared to previous sessions?",
+      "Client: It was... different. Still difficult, but maybe a little less overwhelming? I didn't feel as trapped in the memory as I have before. There were moments where I could step back a bit, if that makes sense. But it's still hard. I felt guilty, like I was betraying my neighbor by talking about it."
+    ],
+    [
+      "Therapist: I see. How did it feel to share this memory today compared to previous sessions?",
+      "Client: It was... different. Still difficult, but maybe a little less overwhelming? I didn't feel as trapped in the memory as I have before. There were moments where I could step back a bit, if that makes sense. But it's still hard. I felt guilty, like I was betraying my neighbor by talking about it.",
+      "Therapist: That's a natural reaction. What do you think has changed?"
+    ],
+    [
+      "Client: It was... different. Still difficult, but maybe a little less overwhelming? I didn't feel as trapped in the memory as I have before. There were moments where I could step back a bit, if that makes sense. But it's still hard. I felt guilty, like I was betraying my neighbor by talking about it.",
+      "Therapist: That's a natural reaction. What do you think has changed?",
+      "Client: I think... maybe I'm starting to understand that it wasn't my fault? That I couldn't have known what would happen or how to stop it. It's still hard to accept, but I'm trying. And talking about it, as difficult as it is, seems to make it lose some of its power over me."
+    ],
+    [
+      "Therapist: That's a natural reaction. What do you think has changed?",
+      "Client: I think... maybe I'm starting to understand that it wasn't my fault? That I couldn't have known what would happen or how to stop it. It's still hard to accept, but I'm trying. And talking about it, as difficult as it is, seems to make it lose some of its power over me.",
+      "Therapist: That's a significant insight. How might this affect your daily life?"
+    ],
+    [
+      "Client: I think... maybe I'm starting to understand that it wasn't my fault? That I couldn't have known what would happen or how to stop it. It's still hard to accept, but I'm trying. And talking about it, as difficult as it is, seems to make it lose some of its power over me.",
+      "Therapist: That's a significant insight. How might this affect your daily life?",
+      "Client: I'm not sure yet. Maybe... maybe I'll be less afraid of confrontation? Or at least, I might be able to remind myself that not every argument will end in violence. It's a small step, but it feels important."
+    ],
+    [
+      "Therapist: That's a significant insight. How might this affect your daily life?",
+      "Client: I'm not sure yet. Maybe... maybe I'll be less afraid of confrontation? Or at least, I might be able to remind myself that not every argument will end in violence. It's a small step, but it feels important.",
+      "Therapist: It is important. What's your takeaway from today's session?"
+    ],
+    [
+      "Client: I'm not sure yet. Maybe... maybe I'll be less afraid of confrontation? Or at least, I might be able to remind myself that not every argument will end in violence. It's a small step, but it feels important.",
+      "Therapist: It is important. What's your takeaway from today's session?",
+      "Client: I think... I'm stronger than I give myself credit for. Reliving that memory is hard, but I'm doing it. And each time, it gets a little easier. I'm not letting it control me anymore. I want to keep working on this, even though it's tough."
+    ],
+    [
+      "Therapist: It is important. What's your takeaway from today's session?",
+      "Client: I think... I'm stronger than I give myself credit for. Reliving that memory is hard, but I'm doing it. And each time, it gets a little easier. I'm not letting it control me anymore. I want to keep working on this, even though it's tough.",
+      "Therapist: That's a powerful realization. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I think... I'm stronger than I give myself credit for. Reliving that memory is hard, but I'm doing it. And each time, it gets a little easier. I'm not letting it control me anymore. I want to keep working on this, even though it's tough.",
+      "Therapist: That's a powerful realization. How do you feel about continuing this work?",
+      "Client: I'm nervous, but... determined. I want my life back, you know? I don't want to be controlled by fear anymore. It's exhausting always being on guard. If this can help me feel safer and more in control, then I want to keep going. It's not easy, but I think it's worth it."
+    ],
+    [
+      "Therapist: That's a powerful realization. How do you feel about continuing this work?",
+      "Client: I'm nervous, but... determined. I want my life back, you know? I don't want to be controlled by fear anymore. It's exhausting always being on guard. If this can help me feel safer and more in control, then I want to keep going. It's not easy, but I think it's worth it.",
+      "Therapist: Your commitment is admirable. What support do you need moving forward?"
+    ],
+    [
+      "Client: I'm nervous, but... determined. I want my life back, you know? I don't want to be controlled by fear anymore. It's exhausting always being on guard. If this can help me feel safer and more in control, then I want to keep going. It's not easy, but I think it's worth it.",
+      "Therapist: Your commitment is admirable. What support do you need moving forward?",
+      "Client: I think... maybe some more coping strategies for when the memories hit me outside of our sessions? And... this is hard to ask, but maybe we could work on how I can start trusting people again? Especially in my dating life. I've been avoiding relationships because I'm so scared of getting hurt."
+    ],
+    [
+      "Therapist: Your commitment is admirable. What support do you need moving forward?",
+      "Client: I think... maybe some more coping strategies for when the memories hit me outside of our sessions? And... this is hard to ask, but maybe we could work on how I can start trusting people again? Especially in my dating life. I've been avoiding relationships because I'm so scared of getting hurt.",
+      "Therapist: Those are excellent goals. We'll definitely address those. Anything else?"
+    ],
+    [
+      "Client: I think... maybe some more coping strategies for when the memories hit me outside of our sessions? And... this is hard to ask, but maybe we could work on how I can start trusting people again? Especially in my dating life. I've been avoiding relationships because I'm so scared of getting hurt.",
+      "Therapist: Those are excellent goals. We'll definitely address those. Anything else?",
+      "Client: No, I think that's it for now. Thank you for listening and guiding me through this. It means a lot to have someone who understands and doesn't judge me for what happened."
+    ],
+    [
+      "Therapist: Those are excellent goals. We'll definitely address those. Anything else?",
+      "Client: No, I think that's it for now. Thank you for listening and guiding me through this. It means a lot to have someone who understands and doesn't judge me for what happened.",
+      "Therapist: You're welcome. Your progress is commendable. Shall we wrap up for today?"
+    ],
+    [
+      "Client: No, I think that's it for now. Thank you for listening and guiding me through this. It means a lot to have someone who understands and doesn't judge me for what happened.",
+      "Therapist: You're welcome. Your progress is commendable. Shall we wrap up for today?",
+      "Client: Yes, I think I need some time to process everything. But I'm feeling... cautiously optimistic? It's a new feeling, but a good one. Thank you again."
+    ],
+    [
+      "Therapist: You're welcome. Your progress is commendable. Shall we wrap up for today?",
+      "Client: Yes, I think I need some time to process everything. But I'm feeling... cautiously optimistic? It's a new feeling, but a good one. Thank you again.",
+      "Therapist: Take care, and we'll continue next session."
+    ]
+  ]
+}

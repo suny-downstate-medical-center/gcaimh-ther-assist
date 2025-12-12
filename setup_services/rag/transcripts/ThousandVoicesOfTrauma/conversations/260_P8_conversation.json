@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... shaky. Like I'm not fully here.",
+    "Therapist: Take your time. What's coming up for you right now?",
+    "Client: It's like I'm back there, you know? I can still hear the shouting, the explosions. I can smell the smoke and... and the blood. God, there was so much blood. I keep seeing Private Johnson's face, the way he looked at me before... before...",
+    "Therapist: What emotions are you experiencing as you recall this?",
+    "Client: Fear. Guilt. This crushing sense of helplessness. I was supposed to protect them, but I couldn't. I failed them. And now, sitting here, I feel... I feel ashamed. Like I don't deserve to be alive when they're not.",
+    "Therapist: How does your body feel as you express these emotions?",
+    "Client: My chest feels tight, like there's a weight on it. My hands are clammy, and I'm... I'm trembling. It's like my body's preparing for a fight that's not even happening. I feel so on edge, like danger could come from anywhere at any moment.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: I keep thinking, \"Why me? Why did I survive when others didn't?\" And then I feel guilty for even asking that. I should be grateful, right? But instead, I'm just... I'm just angry. Angry at the situation, angry at myself for not doing more. And then there's this voice in my head saying I'm weak for feeling this way, that I should just get over it.",
+    "Therapist: How do these thoughts and feelings compare to when you first experienced the trauma?",
+    "Client: They're... they're intense, but different. Back then, everything was chaos. I was running on pure adrenaline. Now, it's like... like I have time to process it all, and it's almost worse. I'm not just reacting anymore; I'm reliving it, analyzing it. Wondering what I could have done differently.",
+    "Therapist: What do you notice about how you're coping with these memories now?",
+    "Client: I... I guess I'm able to talk about it more. Before, I'd just shut down or try to push it away. Now, even though it's painful, I can at least put it into words. And I'm... I'm here, right? I'm facing it. That's something, isn't it?",
+    "Therapist: Indeed. How does it feel to be able to discuss this?",
+    "Client: It's... it's hard. Really hard. But there's also this tiny sense of... I don't know, relief maybe? Like I'm not carrying this secret anymore. It's out there, and I'm still standing. It doesn't make it okay, but it makes it... bearable, I guess.",
+    "Therapist: What's the most challenging part for you right now?",
+    "Client: The guilt. It's always the guilt. I keep thinking about the families of the soldiers we lost. How do I live with that? How do I move forward knowing that I'm here and they're not? It feels... it feels impossible sometimes.",
+    "Therapist: How would you like to approach that guilt?",
+    "Client: I... I don't know. Part of me wants to hold onto it, like I owe it to them. But another part of me is so tired. So tired of feeling this way. I want to find a way to honor their memory without... without destroying myself in the process. Is that even possible?",
+    "Therapist: What might that look like for you?",
+    "Client: Maybe... maybe finding a way to give back? To help other veterans or... or the families of fallen soldiers. Something that makes their sacrifice mean something. But it's scary. The idea of facing other people who've been through similar things... it makes me feel vulnerable.",
+    "Therapist: How does thinking about that make you feel?",
+    "Client: It's... it's a mix. There's fear, definitely. Fear of not being good enough, of failing again. But there's also this tiny spark of... hope? Like maybe, just maybe, something good could come out of all this pain. It's terrifying, but also... kind of empowering?",
+    "Therapist: What do you think has changed to allow for that spark of hope?",
+    "Client: I think... I think it's being here, doing this work. It's hard, and there are days when I want to give up. But I'm starting to see that I'm not alone in this. That maybe my experiences, as painful as they are, could help someone else. It doesn't erase what happened, but it gives it... purpose, I guess.",
+    "Therapist: How does that realization sit with you?",
+    "Client: It's... it's complicated. There's a part of me that feels guilty for even considering finding something positive in all this. Like I'm betraying the memory of those we lost. But there's another part that feels... lighter? Like maybe there's a way forward that I couldn't see before.",
+    "Therapist: What would you like to focus on in our next session?",
+    "Client: I think... I think I'd like to explore more about how to move forward. How to balance honoring the past with... with living in the present. And maybe... maybe start thinking about what giving back might look like for me. Is that okay?",
+    "Therapist: Absolutely. We'll pick up there next time. How are you feeling now?",
+    "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for so long. It's exhausting, but it also feels... important. Like I'm finally dealing with it instead of letting it control me.",
+    "Therapist: That's significant progress. Take care of yourself this week.",
+    "Client: I will. Thank you... for listening, for guiding me through this. It means more than I can say.",
+    "Therapist: You're welcome. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... shaky. Like I'm not fully here.",
+      "Therapist: Take your time. What's coming up for you right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... shaky. Like I'm not fully here.",
+      "Therapist: Take your time. What's coming up for you right now?",
+      "Client: It's like I'm back there, you know? I can still hear the shouting, the explosions. I can smell the smoke and... and the blood. God, there was so much blood. I keep seeing Private Johnson's face, the way he looked at me before... before..."
+    ],
+    [
+      "Therapist: Take your time. What's coming up for you right now?",
+      "Client: It's like I'm back there, you know? I can still hear the shouting, the explosions. I can smell the smoke and... and the blood. God, there was so much blood. I keep seeing Private Johnson's face, the way he looked at me before... before...",
+      "Therapist: What emotions are you experiencing as you recall this?"
+    ],
+    [
+      "Client: It's like I'm back there, you know? I can still hear the shouting, the explosions. I can smell the smoke and... and the blood. God, there was so much blood. I keep seeing Private Johnson's face, the way he looked at me before... before...",
+      "Therapist: What emotions are you experiencing as you recall this?",
+      "Client: Fear. Guilt. This crushing sense of helplessness. I was supposed to protect them, but I couldn't. I failed them. And now, sitting here, I feel... I feel ashamed. Like I don't deserve to be alive when they're not."
+    ],
+    [
+      "Therapist: What emotions are you experiencing as you recall this?",
+      "Client: Fear. Guilt. This crushing sense of helplessness. I was supposed to protect them, but I couldn't. I failed them. And now, sitting here, I feel... I feel ashamed. Like I don't deserve to be alive when they're not.",
+      "Therapist: How does your body feel as you express these emotions?"
+    ],
+    [
+      "Client: Fear. Guilt. This crushing sense of helplessness. I was supposed to protect them, but I couldn't. I failed them. And now, sitting here, I feel... I feel ashamed. Like I don't deserve to be alive when they're not.",
+      "Therapist: How does your body feel as you express these emotions?",
+      "Client: My chest feels tight, like there's a weight on it. My hands are clammy, and I'm... I'm trembling. It's like my body's preparing for a fight that's not even happening. I feel so on edge, like danger could come from anywhere at any moment."
+    ],
+    [
+      "Therapist: How does your body feel as you express these emotions?",
+      "Client: My chest feels tight, like there's a weight on it. My hands are clammy, and I'm... I'm trembling. It's like my body's preparing for a fight that's not even happening. I feel so on edge, like danger could come from anywhere at any moment.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: My chest feels tight, like there's a weight on it. My hands are clammy, and I'm... I'm trembling. It's like my body's preparing for a fight that's not even happening. I feel so on edge, like danger could come from anywhere at any moment.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"Why me? Why did I survive when others didn't?\" And then I feel guilty for even asking that. I should be grateful, right? But instead, I'm just... I'm just angry. Angry at the situation, angry at myself for not doing more. And then there's this voice in my head saying I'm weak for feeling this way, that I should just get over it."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"Why me? Why did I survive when others didn't?\" And then I feel guilty for even asking that. I should be grateful, right? But instead, I'm just... I'm just angry. Angry at the situation, angry at myself for not doing more. And then there's this voice in my head saying I'm weak for feeling this way, that I should just get over it.",
+      "Therapist: How do these thoughts and feelings compare to when you first experienced the trauma?"
+    ],
+    [
+      "Client: I keep thinking, \"Why me? Why did I survive when others didn't?\" And then I feel guilty for even asking that. I should be grateful, right? But instead, I'm just... I'm just angry. Angry at the situation, angry at myself for not doing more. And then there's this voice in my head saying I'm weak for feeling this way, that I should just get over it.",
+      "Therapist: How do these thoughts and feelings compare to when you first experienced the trauma?",
+      "Client: They're... they're intense, but different. Back then, everything was chaos. I was running on pure adrenaline. Now, it's like... like I have time to process it all, and it's almost worse. I'm not just reacting anymore; I'm reliving it, analyzing it. Wondering what I could have done differently."
+    ],
+    [
+      "Therapist: How do these thoughts and feelings compare to when you first experienced the trauma?",
+      "Client: They're... they're intense, but different. Back then, everything was chaos. I was running on pure adrenaline. Now, it's like... like I have time to process it all, and it's almost worse. I'm not just reacting anymore; I'm reliving it, analyzing it. Wondering what I could have done differently.",
+      "Therapist: What do you notice about how you're coping with these memories now?"
+    ],
+    [
+      "Client: They're... they're intense, but different. Back then, everything was chaos. I was running on pure adrenaline. Now, it's like... like I have time to process it all, and it's almost worse. I'm not just reacting anymore; I'm reliving it, analyzing it. Wondering what I could have done differently.",
+      "Therapist: What do you notice about how you're coping with these memories now?",
+      "Client: I... I guess I'm able to talk about it more. Before, I'd just shut down or try to push it away. Now, even though it's painful, I can at least put it into words. And I'm... I'm here, right? I'm facing it. That's something, isn't it?"
+    ],
+    [
+      "Therapist: What do you notice about how you're coping with these memories now?",
+      "Client: I... I guess I'm able to talk about it more. Before, I'd just shut down or try to push it away. Now, even though it's painful, I can at least put it into words. And I'm... I'm here, right? I'm facing it. That's something, isn't it?",
+      "Therapist: Indeed. How does it feel to be able to discuss this?"
+    ],
+    [
+      "Client: I... I guess I'm able to talk about it more. Before, I'd just shut down or try to push it away. Now, even though it's painful, I can at least put it into words. And I'm... I'm here, right? I'm facing it. That's something, isn't it?",
+      "Therapist: Indeed. How does it feel to be able to discuss this?",
+      "Client: It's... it's hard. Really hard. But there's also this tiny sense of... I don't know, relief maybe? Like I'm not carrying this secret anymore. It's out there, and I'm still standing. It doesn't make it okay, but it makes it... bearable, I guess."
+    ],
+    [
+      "Therapist: Indeed. How does it feel to be able to discuss this?",
+      "Client: It's... it's hard. Really hard. But there's also this tiny sense of... I don't know, relief maybe? Like I'm not carrying this secret anymore. It's out there, and I'm still standing. It doesn't make it okay, but it makes it... bearable, I guess.",
+      "Therapist: What's the most challenging part for you right now?"
+    ],
+    [
+      "Client: It's... it's hard. Really hard. But there's also this tiny sense of... I don't know, relief maybe? Like I'm not carrying this secret anymore. It's out there, and I'm still standing. It doesn't make it okay, but it makes it... bearable, I guess.",
+      "Therapist: What's the most challenging part for you right now?",
+      "Client: The guilt. It's always the guilt. I keep thinking about the families of the soldiers we lost. How do I live with that? How do I move forward knowing that I'm here and they're not? It feels... it feels impossible sometimes."
+    ],
+    [
+      "Therapist: What's the most challenging part for you right now?",
+      "Client: The guilt. It's always the guilt. I keep thinking about the families of the soldiers we lost. How do I live with that? How do I move forward knowing that I'm here and they're not? It feels... it feels impossible sometimes.",
+      "Therapist: How would you like to approach that guilt?"
+    ],
+    [
+      "Client: The guilt. It's always the guilt. I keep thinking about the families of the soldiers we lost. How do I live with that? How do I move forward knowing that I'm here and they're not? It feels... it feels impossible sometimes.",
+      "Therapist: How would you like to approach that guilt?",
+      "Client: I... I don't know. Part of me wants to hold onto it, like I owe it to them. But another part of me is so tired. So tired of feeling this way. I want to find a way to honor their memory without... without destroying myself in the process. Is that even possible?"
+    ],
+    [
+      "Therapist: How would you like to approach that guilt?",
+      "Client: I... I don't know. Part of me wants to hold onto it, like I owe it to them. But another part of me is so tired. So tired of feeling this way. I want to find a way to honor their memory without... without destroying myself in the process. Is that even possible?",
+      "Therapist: What might that look like for you?"
+    ],
+    [
+      "Client: I... I don't know. Part of me wants to hold onto it, like I owe it to them. But another part of me is so tired. So tired of feeling this way. I want to find a way to honor their memory without... without destroying myself in the process. Is that even possible?",
+      "Therapist: What might that look like for you?",
+      "Client: Maybe... maybe finding a way to give back? To help other veterans or... or the families of fallen soldiers. Something that makes their sacrifice mean something. But it's scary. The idea of facing other people who've been through similar things... it makes me feel vulnerable."
+    ],
+    [
+      "Therapist: What might that look like for you?",
+      "Client: Maybe... maybe finding a way to give back? To help other veterans or... or the families of fallen soldiers. Something that makes their sacrifice mean something. But it's scary. The idea of facing other people who've been through similar things... it makes me feel vulnerable.",
+      "Therapist: How does thinking about that make you feel?"
+    ],
+    [
+      "Client: Maybe... maybe finding a way to give back? To help other veterans or... or the families of fallen soldiers. Something that makes their sacrifice mean something. But it's scary. The idea of facing other people who've been through similar things... it makes me feel vulnerable.",
+      "Therapist: How does thinking about that make you feel?",
+      "Client: It's... it's a mix. There's fear, definitely. Fear of not being good enough, of failing again. But there's also this tiny spark of... hope? Like maybe, just maybe, something good could come out of all this pain. It's terrifying, but also... kind of empowering?"
+    ],
+    [
+      "Therapist: How does thinking about that make you feel?",
+      "Client: It's... it's a mix. There's fear, definitely. Fear of not being good enough, of failing again. But there's also this tiny spark of... hope? Like maybe, just maybe, something good could come out of all this pain. It's terrifying, but also... kind of empowering?",
+      "Therapist: What do you think has changed to allow for that spark of hope?"
+    ],
+    [
+      "Client: It's... it's a mix. There's fear, definitely. Fear of not being good enough, of failing again. But there's also this tiny spark of... hope? Like maybe, just maybe, something good could come out of all this pain. It's terrifying, but also... kind of empowering?",
+      "Therapist: What do you think has changed to allow for that spark of hope?",
+      "Client: I think... I think it's being here, doing this work. It's hard, and there are days when I want to give up. But I'm starting to see that I'm not alone in this. That maybe my experiences, as painful as they are, could help someone else. It doesn't erase what happened, but it gives it... purpose, I guess."
+    ],
+    [
+      "Therapist: What do you think has changed to allow for that spark of hope?",
+      "Client: I think... I think it's being here, doing this work. It's hard, and there are days when I want to give up. But I'm starting to see that I'm not alone in this. That maybe my experiences, as painful as they are, could help someone else. It doesn't erase what happened, but it gives it... purpose, I guess.",
+      "Therapist: How does that realization sit with you?"
+    ],
+    [
+      "Client: I think... I think it's being here, doing this work. It's hard, and there are days when I want to give up. But I'm starting to see that I'm not alone in this. That maybe my experiences, as painful as they are, could help someone else. It doesn't erase what happened, but it gives it... purpose, I guess.",
+      "Therapist: How does that realization sit with you?",
+      "Client: It's... it's complicated. There's a part of me that feels guilty for even considering finding something positive in all this. Like I'm betraying the memory of those we lost. But there's another part that feels... lighter? Like maybe there's a way forward that I couldn't see before."
+    ],
+    [
+      "Therapist: How does that realization sit with you?",
+      "Client: It's... it's complicated. There's a part of me that feels guilty for even considering finding something positive in all this. Like I'm betraying the memory of those we lost. But there's another part that feels... lighter? Like maybe there's a way forward that I couldn't see before.",
+      "Therapist: What would you like to focus on in our next session?"
+    ],
+    [
+      "Client: It's... it's complicated. There's a part of me that feels guilty for even considering finding something positive in all this. Like I'm betraying the memory of those we lost. But there's another part that feels... lighter? Like maybe there's a way forward that I couldn't see before.",
+      "Therapist: What would you like to focus on in our next session?",
+      "Client: I think... I think I'd like to explore more about how to move forward. How to balance honoring the past with... with living in the present. And maybe... maybe start thinking about what giving back might look like for me. Is that okay?"
+    ],
+    [
+      "Therapist: What would you like to focus on in our next session?",
+      "Client: I think... I think I'd like to explore more about how to move forward. How to balance honoring the past with... with living in the present. And maybe... maybe start thinking about what giving back might look like for me. Is that okay?",
+      "Therapist: Absolutely. We'll pick up there next time. How are you feeling now?"
+    ],
+    [
+      "Client: I think... I think I'd like to explore more about how to move forward. How to balance honoring the past with... with living in the present. And maybe... maybe start thinking about what giving back might look like for me. Is that okay?",
+      "Therapist: Absolutely. We'll pick up there next time. How are you feeling now?",
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for so long. It's exhausting, but it also feels... important. Like I'm finally dealing with it instead of letting it control me."
+    ],
+    [
+      "Therapist: Absolutely. We'll pick up there next time. How are you feeling now?",
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for so long. It's exhausting, but it also feels... important. Like I'm finally dealing with it instead of letting it control me.",
+      "Therapist: That's significant progress. Take care of yourself this week."
+    ],
+    [
+      "Client: I'm... I'm drained. Emotionally and physically. But there's also this weird sense of... I don't know, accomplishment? Like I've faced something I've been running from for so long. It's exhausting, but it also feels... important. Like I'm finally dealing with it instead of letting it control me.",
+      "Therapist: That's significant progress. Take care of yourself this week.",
+      "Client: I will. Thank you... for listening, for guiding me through this. It means more than I can say."
+    ],
+    [
+      "Therapist: That's significant progress. Take care of yourself this week.",
+      "Client: I will. Thank you... for listening, for guiding me through this. It means more than I can say.",
+      "Therapist: You're welcome. I'll see you next week."
+    ]
+  ]
+}

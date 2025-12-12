@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+    "Client: Morning, Dr. Thompson. I'm... well, I'm a bit nervous, to be honest. My anxiety's been acting up since I woke up. I know we've talked about doing this imaginal exposure thing, but I'm not sure I'm ready. The idea of revisiting that... that time in my life, it's terrifying.",
+    "Therapist: I understand. It's natural to feel anxious. Can you tell me more about your concerns?",
+    "Client: It's just... I've spent so long trying to forget what happened. The thought of deliberately bringing it all back... I'm afraid I might fall apart. What if I can't handle it? What if it makes everything worse? I've already been struggling with my health, and this feels like it might be too much.",
+    "Therapist: Your concerns are valid. How about we discuss the process first?",
+    "Client: Yes, please. I need to know what I'm getting into. Will it be like reliving everything all over again? Because I'm not sure I can do that. It's been haunting me for decades, and the memories... they're still so vivid sometimes.",
+    "Therapist: It's not about reliving, but processing. We'll go at your pace. Ready to hear more?",
+    "Client: I suppose so. But please, explain it to me slowly. My mind's racing a bit, and I want to make sure I understand everything clearly.",
+    "Therapist: Of course. We'll start gradually, focusing on one memory at a time. You're in control throughout.",
+    "Client: That... that does make me feel a bit better. But what exactly will we be doing? And how long will it take? I'm worried about getting overwhelmed and not being able to stop once we start.",
+    "Therapist: We'll recount the memory verbally. You can pause anytime. Sessions last about 30-45 minutes.",
+    "Client: Okay, that doesn't sound as bad as I was imagining. But what if I start to panic? Or if the memories become too intense? I've had some pretty severe anxiety attacks before, and I'm worried about triggering one during this process.",
+    "Therapist: I'll be here to guide you. We have grounding techniques ready if needed. Your safety is priority.",
+    "Client: That's reassuring. I trust you, Dr. Thompson. You've been so patient with me these past months. I just... I want to get better, you know? For my wife, for myself. But it's so hard to face this. Do you really think this will help with my PTSD symptoms?",
+    "Therapist: Yes, it's a proven method. Your courage in facing this is admirable. Shall we begin?",
+    "Client: (Takes a deep breath) Alright. I think I'm ready. Or as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I want to try. For the first time in years, I feel like there might be a chance to move past this. So, yes, let's begin.",
+    "Therapist: Your bravery is commendable. We'll start gently. Remember, you're safe here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+      "Client: Morning, Dr. Thompson. I'm... well, I'm a bit nervous, to be honest. My anxiety's been acting up since I woke up. I know we've talked about doing this imaginal exposure thing, but I'm not sure I'm ready. The idea of revisiting that... that time in my life, it's terrifying.",
+      "Therapist: I understand. It's natural to feel anxious. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Morning, Dr. Thompson. I'm... well, I'm a bit nervous, to be honest. My anxiety's been acting up since I woke up. I know we've talked about doing this imaginal exposure thing, but I'm not sure I'm ready. The idea of revisiting that... that time in my life, it's terrifying.",
+      "Therapist: I understand. It's natural to feel anxious. Can you tell me more about your concerns?",
+      "Client: It's just... I've spent so long trying to forget what happened. The thought of deliberately bringing it all back... I'm afraid I might fall apart. What if I can't handle it? What if it makes everything worse? I've already been struggling with my health, and this feels like it might be too much."
+    ],
+    [
+      "Therapist: I understand. It's natural to feel anxious. Can you tell me more about your concerns?",
+      "Client: It's just... I've spent so long trying to forget what happened. The thought of deliberately bringing it all back... I'm afraid I might fall apart. What if I can't handle it? What if it makes everything worse? I've already been struggling with my health, and this feels like it might be too much.",
+      "Therapist: Your concerns are valid. How about we discuss the process first?"
+    ],
+    [
+      "Client: It's just... I've spent so long trying to forget what happened. The thought of deliberately bringing it all back... I'm afraid I might fall apart. What if I can't handle it? What if it makes everything worse? I've already been struggling with my health, and this feels like it might be too much.",
+      "Therapist: Your concerns are valid. How about we discuss the process first?",
+      "Client: Yes, please. I need to know what I'm getting into. Will it be like reliving everything all over again? Because I'm not sure I can do that. It's been haunting me for decades, and the memories... they're still so vivid sometimes."
+    ],
+    [
+      "Therapist: Your concerns are valid. How about we discuss the process first?",
+      "Client: Yes, please. I need to know what I'm getting into. Will it be like reliving everything all over again? Because I'm not sure I can do that. It's been haunting me for decades, and the memories... they're still so vivid sometimes.",
+      "Therapist: It's not about reliving, but processing. We'll go at your pace. Ready to hear more?"
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into. Will it be like reliving everything all over again? Because I'm not sure I can do that. It's been haunting me for decades, and the memories... they're still so vivid sometimes.",
+      "Therapist: It's not about reliving, but processing. We'll go at your pace. Ready to hear more?",
+      "Client: I suppose so. But please, explain it to me slowly. My mind's racing a bit, and I want to make sure I understand everything clearly."
+    ],
+    [
+      "Therapist: It's not about reliving, but processing. We'll go at your pace. Ready to hear more?",
+      "Client: I suppose so. But please, explain it to me slowly. My mind's racing a bit, and I want to make sure I understand everything clearly.",
+      "Therapist: Of course. We'll start gradually, focusing on one memory at a time. You're in control throughout."
+    ],
+    [
+      "Client: I suppose so. But please, explain it to me slowly. My mind's racing a bit, and I want to make sure I understand everything clearly.",
+      "Therapist: Of course. We'll start gradually, focusing on one memory at a time. You're in control throughout.",
+      "Client: That... that does make me feel a bit better. But what exactly will we be doing? And how long will it take? I'm worried about getting overwhelmed and not being able to stop once we start."
+    ],
+    [
+      "Therapist: Of course. We'll start gradually, focusing on one memory at a time. You're in control throughout.",
+      "Client: That... that does make me feel a bit better. But what exactly will we be doing? And how long will it take? I'm worried about getting overwhelmed and not being able to stop once we start.",
+      "Therapist: We'll recount the memory verbally. You can pause anytime. Sessions last about 30-45 minutes."
+    ],
+    [
+      "Client: That... that does make me feel a bit better. But what exactly will we be doing? And how long will it take? I'm worried about getting overwhelmed and not being able to stop once we start.",
+      "Therapist: We'll recount the memory verbally. You can pause anytime. Sessions last about 30-45 minutes.",
+      "Client: Okay, that doesn't sound as bad as I was imagining. But what if I start to panic? Or if the memories become too intense? I've had some pretty severe anxiety attacks before, and I'm worried about triggering one during this process."
+    ],
+    [
+      "Therapist: We'll recount the memory verbally. You can pause anytime. Sessions last about 30-45 minutes.",
+      "Client: Okay, that doesn't sound as bad as I was imagining. But what if I start to panic? Or if the memories become too intense? I've had some pretty severe anxiety attacks before, and I'm worried about triggering one during this process.",
+      "Therapist: I'll be here to guide you. We have grounding techniques ready if needed. Your safety is priority."
+    ],
+    [
+      "Client: Okay, that doesn't sound as bad as I was imagining. But what if I start to panic? Or if the memories become too intense? I've had some pretty severe anxiety attacks before, and I'm worried about triggering one during this process.",
+      "Therapist: I'll be here to guide you. We have grounding techniques ready if needed. Your safety is priority.",
+      "Client: That's reassuring. I trust you, Dr. Thompson. You've been so patient with me these past months. I just... I want to get better, you know? For my wife, for myself. But it's so hard to face this. Do you really think this will help with my PTSD symptoms?"
+    ],
+    [
+      "Therapist: I'll be here to guide you. We have grounding techniques ready if needed. Your safety is priority.",
+      "Client: That's reassuring. I trust you, Dr. Thompson. You've been so patient with me these past months. I just... I want to get better, you know? For my wife, for myself. But it's so hard to face this. Do you really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's a proven method. Your courage in facing this is admirable. Shall we begin?"
+    ],
+    [
+      "Client: That's reassuring. I trust you, Dr. Thompson. You've been so patient with me these past months. I just... I want to get better, you know? For my wife, for myself. But it's so hard to face this. Do you really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's a proven method. Your courage in facing this is admirable. Shall we begin?",
+      "Client: (Takes a deep breath) Alright. I think I'm ready. Or as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I want to try. For the first time in years, I feel like there might be a chance to move past this. So, yes, let's begin."
+    ],
+    [
+      "Therapist: Yes, it's a proven method. Your courage in facing this is admirable. Shall we begin?",
+      "Client: (Takes a deep breath) Alright. I think I'm ready. Or as ready as I'll ever be. Just... please be patient with me if I struggle. This isn't easy, but I want to try. For the first time in years, I feel like there might be a chance to move past this. So, yes, let's begin.",
+      "Therapist: Your bravery is commendable. We'll start gently. Remember, you're safe here."
+    ]
+  ]
+}

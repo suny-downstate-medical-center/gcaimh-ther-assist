@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start with your baseline SUDS.",
+    "Client: I'd say about a 4 out of 10 right now.",
+    "Therapist: Okay. Close your eyes and describe the memory.",
+    "Client: I'm back in Vietnam, 1968. The air is thick with humidity and the smell of jungle. I can hear the distant sound of choppers. We're on patrol, moving through dense foliage. My uniform is sticking to my skin. I'm on high alert, scanning for any movement...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's gone up to a 6. My heart is beating faster.",
+    "Therapist: That's okay. Continue.",
+    "Client: Suddenly, there's a loud crack. Gunfire erupts all around us. I dive for cover behind a fallen tree. The sound is deafening. I can smell gunpowder and see muzzle flashes in the trees. My hands are shaking as I grip my rifle...",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's an 8 now. I can feel my palms sweating and my chest tightening.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I... I see my buddy, Tom, get hit. He falls next to me, blood spreading across his chest. I'm frozen for a moment, can't believe what I'm seeing. Then training kicks in. I'm yelling for a medic, trying to apply pressure to his wound. But there's so much blood... I can feel it, warm and sticky on my hands...",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (takes a shaky breath) The firefight seems to last forever. I can hear screaming, both English and Vietnamese. The air is filled with smoke and the smell of blood. I'm terrified, but I keep firing, trying to protect Tom. But I know... I know he's not going to make it...",
+    "Therapist: How's your SUDS now?",
+    "Client: Still... still a 9. My hands are shaking. I can almost smell the blood...",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The shooting finally stops. It's eerily quiet except for some moaning. I look down at Tom, but his eyes are empty. I've failed him. I feel numb, disconnected. The medic arrives, but it's too late. I can't stop staring at my blood-covered hands...",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's gone down to an 8. I feel exhausted, drained.",
+    "Therapist: That's normal. How are you feeling overall?",
+    "Client: Tired. Sad. But... also a bit relieved. Like I've let something out that I've been holding in for a long time.",
+    "Therapist: That's a common reaction. Well done today.",
+    "Client: Thank you. It was hard, but... I think it helped.",
+    "Therapist: Let's take a few moments to ground yourself before we end."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start with your baseline SUDS."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10 right now."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and describe the memory."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and describe the memory.",
+      "Client: I'm back in Vietnam, 1968. The air is thick with humidity and the smell of jungle. I can hear the distant sound of choppers. We're on patrol, moving through dense foliage. My uniform is sticking to my skin. I'm on high alert, scanning for any movement..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and describe the memory.",
+      "Client: I'm back in Vietnam, 1968. The air is thick with humidity and the smell of jungle. I can hear the distant sound of choppers. We're on patrol, moving through dense foliage. My uniform is sticking to my skin. I'm on high alert, scanning for any movement...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: I'm back in Vietnam, 1968. The air is thick with humidity and the smell of jungle. I can hear the distant sound of choppers. We're on patrol, moving through dense foliage. My uniform is sticking to my skin. I'm on high alert, scanning for any movement...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's gone up to a 6. My heart is beating faster."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's gone up to a 6. My heart is beating faster.",
+      "Therapist: That's okay. Continue."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My heart is beating faster.",
+      "Therapist: That's okay. Continue.",
+      "Client: Suddenly, there's a loud crack. Gunfire erupts all around us. I dive for cover behind a fallen tree. The sound is deafening. I can smell gunpowder and see muzzle flashes in the trees. My hands are shaking as I grip my rifle..."
+    ],
+    [
+      "Therapist: That's okay. Continue.",
+      "Client: Suddenly, there's a loud crack. Gunfire erupts all around us. I dive for cover behind a fallen tree. The sound is deafening. I can smell gunpowder and see muzzle flashes in the trees. My hands are shaking as I grip my rifle...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: Suddenly, there's a loud crack. Gunfire erupts all around us. I dive for cover behind a fallen tree. The sound is deafening. I can smell gunpowder and see muzzle flashes in the trees. My hands are shaking as I grip my rifle...",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. I can feel my palms sweating and my chest tightening."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. I can feel my palms sweating and my chest tightening.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8 now. I can feel my palms sweating and my chest tightening.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I see my buddy, Tom, get hit. He falls next to me, blood spreading across his chest. I'm frozen for a moment, can't believe what I'm seeing. Then training kicks in. I'm yelling for a medic, trying to apply pressure to his wound. But there's so much blood... I can feel it, warm and sticky on my hands..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I see my buddy, Tom, get hit. He falls next to me, blood spreading across his chest. I'm frozen for a moment, can't believe what I'm seeing. Then training kicks in. I'm yelling for a medic, trying to apply pressure to his wound. But there's so much blood... I can feel it, warm and sticky on my hands...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I... I see my buddy, Tom, get hit. He falls next to me, blood spreading across his chest. I'm frozen for a moment, can't believe what I'm seeing. Then training kicks in. I'm yelling for a medic, trying to apply pressure to his wound. But there's so much blood... I can feel it, warm and sticky on my hands...",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) The firefight seems to last forever. I can hear screaming, both English and Vietnamese. The air is filled with smoke and the smell of blood. I'm terrified, but I keep firing, trying to protect Tom. But I know... I know he's not going to make it..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) The firefight seems to last forever. I can hear screaming, both English and Vietnamese. The air is filled with smoke and the smell of blood. I'm terrified, but I keep firing, trying to protect Tom. But I know... I know he's not going to make it...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (takes a shaky breath) The firefight seems to last forever. I can hear screaming, both English and Vietnamese. The air is filled with smoke and the smell of blood. I'm terrified, but I keep firing, trying to protect Tom. But I know... I know he's not going to make it...",
+      "Therapist: How's your SUDS now?",
+      "Client: Still... still a 9. My hands are shaking. I can almost smell the blood..."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: Still... still a 9. My hands are shaking. I can almost smell the blood...",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Still... still a 9. My hands are shaking. I can almost smell the blood...",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The shooting finally stops. It's eerily quiet except for some moaning. I look down at Tom, but his eyes are empty. I've failed him. I feel numb, disconnected. The medic arrives, but it's too late. I can't stop staring at my blood-covered hands..."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The shooting finally stops. It's eerily quiet except for some moaning. I look down at Tom, but his eyes are empty. I've failed him. I feel numb, disconnected. The medic arrives, but it's too late. I can't stop staring at my blood-covered hands...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: The shooting finally stops. It's eerily quiet except for some moaning. I look down at Tom, but his eyes are empty. I've failed him. I feel numb, disconnected. The medic arrives, but it's too late. I can't stop staring at my blood-covered hands...",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's gone down to an 8. I feel exhausted, drained."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's gone down to an 8. I feel exhausted, drained.",
+      "Therapist: That's normal. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's gone down to an 8. I feel exhausted, drained.",
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Tired. Sad. But... also a bit relieved. Like I've let something out that I've been holding in for a long time."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Tired. Sad. But... also a bit relieved. Like I've let something out that I've been holding in for a long time.",
+      "Therapist: That's a common reaction. Well done today."
+    ],
+    [
+      "Client: Tired. Sad. But... also a bit relieved. Like I've let something out that I've been holding in for a long time.",
+      "Therapist: That's a common reaction. Well done today.",
+      "Client: Thank you. It was hard, but... I think it helped."
+    ],
+    [
+      "Therapist: That's a common reaction. Well done today.",
+      "Client: Thank you. It was hard, but... I think it helped.",
+      "Therapist: Let's take a few moments to ground yourself before we end."
+    ]
+  ]
+}

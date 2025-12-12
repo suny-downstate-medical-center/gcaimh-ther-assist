@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, John. How are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the accident, and I'm not sure I'm ready to face it head-on.",
+    "Therapist: I understand. Can you tell me more about your concerns?",
+    "Client: Well, it's just... every time I think about that day, I feel my heart racing and my palms get sweaty. I'm worried that if we talk about it in detail, I might completely fall apart. I've been trying so hard to keep it together, you know? And with my studies and everything else going on, I'm not sure I can handle reopening that wound.",
+    "Therapist: Your feelings are valid. How do you think this exercise might help?",
+    "Client: I... I'm not sure. I guess maybe it could help me process what happened? But I'm scared it might make things worse. I've been dealing with depression on top of everything else, and I'm worried this might push me over the edge. Is this really necessary?",
+    "Therapist: It's a crucial step in healing. How about we start slowly?",
+    "Client: Okay... I guess that sounds a bit less daunting. Can you explain exactly what we'll be doing? And what if I can't handle it? Will you be able to help me if I start to panic or feel overwhelmed?",
+    "Therapist: We'll revisit the memory gradually. I'll be here to support you throughout.",
+    "Client: Alright, I appreciate that. It's just... being single and living alone, I don't have much of a support system outside of therapy. So, I'm really relying on you to help me through this. Can you tell me more about what I might experience during this exercise?",
+    "Therapist: You may feel intense emotions. Remember, you're safe here.",
+    "Client: That makes sense. I'm still nervous, but I think I understand why we're doing this. It's just... the idea of reliving that moment when I saw the car hit that pedestrian... it's terrifying. I've been trying so hard to forget it. But I guess that's not really working, is it?",
+    "Therapist: Avoidance often prolongs suffering. This exercise aims to help you process the trauma.",
+    "Client: You're right. I know I can't keep running from this forever. It's affecting my studies, my sleep, everything. I want to get better, to move past this. I just hope I'm strong enough to face it. Do you really think this will help with my PTSD symptoms?",
+    "Therapist: Yes, it's proven effective. Your courage in participating is commendable.",
+    "Client: Thank you, that means a lot. I'm still scared, but I'm willing to try. Can we start slowly, like you mentioned? And if it gets too much, can we take a break or stop?",
+    "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+    "Client: Okay. I think I'm ready to give this a try. Thank you for being so patient with me and explaining everything. It helps knowing you'll be here to guide me through it. Let's do this.",
+    "Therapist: You're showing great strength. Shall we begin?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, John. How are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the accident, and I'm not sure I'm ready to face it head-on.",
+      "Therapist: I understand. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the accident, and I'm not sure I'm ready to face it head-on.",
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about that day, I feel my heart racing and my palms get sweaty. I'm worried that if we talk about it in detail, I might completely fall apart. I've been trying so hard to keep it together, you know? And with my studies and everything else going on, I'm not sure I can handle reopening that wound."
+    ],
+    [
+      "Therapist: I understand. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about that day, I feel my heart racing and my palms get sweaty. I'm worried that if we talk about it in detail, I might completely fall apart. I've been trying so hard to keep it together, you know? And with my studies and everything else going on, I'm not sure I can handle reopening that wound.",
+      "Therapist: Your feelings are valid. How do you think this exercise might help?"
+    ],
+    [
+      "Client: Well, it's just... every time I think about that day, I feel my heart racing and my palms get sweaty. I'm worried that if we talk about it in detail, I might completely fall apart. I've been trying so hard to keep it together, you know? And with my studies and everything else going on, I'm not sure I can handle reopening that wound.",
+      "Therapist: Your feelings are valid. How do you think this exercise might help?",
+      "Client: I... I'm not sure. I guess maybe it could help me process what happened? But I'm scared it might make things worse. I've been dealing with depression on top of everything else, and I'm worried this might push me over the edge. Is this really necessary?"
+    ],
+    [
+      "Therapist: Your feelings are valid. How do you think this exercise might help?",
+      "Client: I... I'm not sure. I guess maybe it could help me process what happened? But I'm scared it might make things worse. I've been dealing with depression on top of everything else, and I'm worried this might push me over the edge. Is this really necessary?",
+      "Therapist: It's a crucial step in healing. How about we start slowly?"
+    ],
+    [
+      "Client: I... I'm not sure. I guess maybe it could help me process what happened? But I'm scared it might make things worse. I've been dealing with depression on top of everything else, and I'm worried this might push me over the edge. Is this really necessary?",
+      "Therapist: It's a crucial step in healing. How about we start slowly?",
+      "Client: Okay... I guess that sounds a bit less daunting. Can you explain exactly what we'll be doing? And what if I can't handle it? Will you be able to help me if I start to panic or feel overwhelmed?"
+    ],
+    [
+      "Therapist: It's a crucial step in healing. How about we start slowly?",
+      "Client: Okay... I guess that sounds a bit less daunting. Can you explain exactly what we'll be doing? And what if I can't handle it? Will you be able to help me if I start to panic or feel overwhelmed?",
+      "Therapist: We'll revisit the memory gradually. I'll be here to support you throughout."
+    ],
+    [
+      "Client: Okay... I guess that sounds a bit less daunting. Can you explain exactly what we'll be doing? And what if I can't handle it? Will you be able to help me if I start to panic or feel overwhelmed?",
+      "Therapist: We'll revisit the memory gradually. I'll be here to support you throughout.",
+      "Client: Alright, I appreciate that. It's just... being single and living alone, I don't have much of a support system outside of therapy. So, I'm really relying on you to help me through this. Can you tell me more about what I might experience during this exercise?"
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. I'll be here to support you throughout.",
+      "Client: Alright, I appreciate that. It's just... being single and living alone, I don't have much of a support system outside of therapy. So, I'm really relying on you to help me through this. Can you tell me more about what I might experience during this exercise?",
+      "Therapist: You may feel intense emotions. Remember, you're safe here."
+    ],
+    [
+      "Client: Alright, I appreciate that. It's just... being single and living alone, I don't have much of a support system outside of therapy. So, I'm really relying on you to help me through this. Can you tell me more about what I might experience during this exercise?",
+      "Therapist: You may feel intense emotions. Remember, you're safe here.",
+      "Client: That makes sense. I'm still nervous, but I think I understand why we're doing this. It's just... the idea of reliving that moment when I saw the car hit that pedestrian... it's terrifying. I've been trying so hard to forget it. But I guess that's not really working, is it?"
+    ],
+    [
+      "Therapist: You may feel intense emotions. Remember, you're safe here.",
+      "Client: That makes sense. I'm still nervous, but I think I understand why we're doing this. It's just... the idea of reliving that moment when I saw the car hit that pedestrian... it's terrifying. I've been trying so hard to forget it. But I guess that's not really working, is it?",
+      "Therapist: Avoidance often prolongs suffering. This exercise aims to help you process the trauma."
+    ],
+    [
+      "Client: That makes sense. I'm still nervous, but I think I understand why we're doing this. It's just... the idea of reliving that moment when I saw the car hit that pedestrian... it's terrifying. I've been trying so hard to forget it. But I guess that's not really working, is it?",
+      "Therapist: Avoidance often prolongs suffering. This exercise aims to help you process the trauma.",
+      "Client: You're right. I know I can't keep running from this forever. It's affecting my studies, my sleep, everything. I want to get better, to move past this. I just hope I'm strong enough to face it. Do you really think this will help with my PTSD symptoms?"
+    ],
+    [
+      "Therapist: Avoidance often prolongs suffering. This exercise aims to help you process the trauma.",
+      "Client: You're right. I know I can't keep running from this forever. It's affecting my studies, my sleep, everything. I want to get better, to move past this. I just hope I'm strong enough to face it. Do you really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective. Your courage in participating is commendable."
+    ],
+    [
+      "Client: You're right. I know I can't keep running from this forever. It's affecting my studies, my sleep, everything. I want to get better, to move past this. I just hope I'm strong enough to face it. Do you really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective. Your courage in participating is commendable.",
+      "Client: Thank you, that means a lot. I'm still scared, but I'm willing to try. Can we start slowly, like you mentioned? And if it gets too much, can we take a break or stop?"
+    ],
+    [
+      "Therapist: Yes, it's proven effective. Your courage in participating is commendable.",
+      "Client: Thank you, that means a lot. I'm still scared, but I'm willing to try. Can we start slowly, like you mentioned? And if it gets too much, can we take a break or stop?",
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime."
+    ],
+    [
+      "Client: Thank you, that means a lot. I'm still scared, but I'm willing to try. Can we start slowly, like you mentioned? And if it gets too much, can we take a break or stop?",
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+      "Client: Okay. I think I'm ready to give this a try. Thank you for being so patient with me and explaining everything. It helps knowing you'll be here to guide me through it. Let's do this."
+    ],
+    [
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+      "Client: Okay. I think I'm ready to give this a try. Thank you for being so patient with me and explaining everything. It helps knowing you'll be here to guide me through it. Let's do this.",
+      "Therapist: You're showing great strength. Shall we begin?"
+    ]
+  ]
+}

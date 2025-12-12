@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start. Close your eyes and describe the home invasion.",
+    "Client: Alright... I'm in bed, it's around 2 AM. I hear a crash downstairs. My heart starts racing immediately. I'm instantly alert, like I'm back in combat. I quietly get out of bed, careful not to wake my wife. As I reach for the baseball bat by the door, I hear footsteps on the stairs.",
+    "Therapist: SUDS rating?",
+    "Client: Uh, about a 6 right now.",
+    "Therapist: Okay. Continue.",
+    "Client: The footsteps are getting closer. I'm gripping the bat so tight my knuckles are white. I'm sweating, my mouth is dry. I position myself behind the door, ready to strike. The door handle turns slowly...",
+    "Therapist: How are you feeling now?",
+    "Client: My heart's pounding. I can almost smell the fear, you know? It's like being back in Iraq. SUDS is probably an 8 now.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The door opens, and I see a shadow. Without thinking, I swing the bat. There's a cry of pain, and I realize... it's my teenage son. He'd snuck out and was coming back in. I... I hurt my own kid.",
+    "Therapist: SUDS?",
+    "Client: God, it's a 9. I feel sick remembering this.",
+    "Therapist: That's tough. You're brave for facing this. What happened next?",
+    "Client: I dropped the bat. My son's on the floor, holding his arm. My wife turns on the light. She's screaming. I'm frozen, can't move. Can't believe what I've done. I'm shaking, feeling like the worst father in the world.",
+    "Therapist: How's your distress now?",
+    "Client: Still a 9. I can't... it's hard to breathe thinking about it.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (inhales deeply) Okay... The next few hours are a blur. Hospital, x-rays, my son's arm is broken. He won't look at me. My wife is crying. I feel like a monster.",
+    "Therapist: SUDS rating?",
+    "Client: It's down to about a 7 now. Talking about it... it helps, somehow.",
+    "Therapist: That's good. You're processing it. What else do you remember?",
+    "Client: The guilt. It was overwhelming. I couldn't sleep for days. Kept reliving that moment, seeing my son's face when he realized it was me who hit him. The fear in his eyes... it haunts me.",
+    "Therapist: How are you feeling right now?",
+    "Client: It's... it's actually down to a 6. Talking about it, it's like releasing some pressure.",
+    "Therapist: That's progress. Keep going.",
+    "Client: The aftermath was tough. My son was distant for weeks. My wife suggested therapy. I felt like a failure as a protector, as a father. But slowly, we started to heal. My son forgave me, but I... I'm still working on forgiving myself.",
+    "Therapist: SUDS now?",
+    "Client: It's a 5. I feel drained, but... lighter, I guess?",
+    "Therapist: That's normal. You've done great work today, John.",
+    "Client: Thanks. It's still hard, but I think this is helping.",
+    "Therapist: Let's take a moment to ground ourselves. You're safe now."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the home invasion."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the home invasion.",
+      "Client: Alright... I'm in bed, it's around 2 AM. I hear a crash downstairs. My heart starts racing immediately. I'm instantly alert, like I'm back in combat. I quietly get out of bed, careful not to wake my wife. As I reach for the baseball bat by the door, I hear footsteps on the stairs."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and describe the home invasion.",
+      "Client: Alright... I'm in bed, it's around 2 AM. I hear a crash downstairs. My heart starts racing immediately. I'm instantly alert, like I'm back in combat. I quietly get out of bed, careful not to wake my wife. As I reach for the baseball bat by the door, I hear footsteps on the stairs.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Alright... I'm in bed, it's around 2 AM. I hear a crash downstairs. My heart starts racing immediately. I'm instantly alert, like I'm back in combat. I quietly get out of bed, careful not to wake my wife. As I reach for the baseball bat by the door, I hear footsteps on the stairs.",
+      "Therapist: SUDS rating?",
+      "Client: Uh, about a 6 right now."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Uh, about a 6 right now.",
+      "Therapist: Okay. Continue."
+    ],
+    [
+      "Client: Uh, about a 6 right now.",
+      "Therapist: Okay. Continue.",
+      "Client: The footsteps are getting closer. I'm gripping the bat so tight my knuckles are white. I'm sweating, my mouth is dry. I position myself behind the door, ready to strike. The door handle turns slowly..."
+    ],
+    [
+      "Therapist: Okay. Continue.",
+      "Client: The footsteps are getting closer. I'm gripping the bat so tight my knuckles are white. I'm sweating, my mouth is dry. I position myself behind the door, ready to strike. The door handle turns slowly...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The footsteps are getting closer. I'm gripping the bat so tight my knuckles are white. I'm sweating, my mouth is dry. I position myself behind the door, ready to strike. The door handle turns slowly...",
+      "Therapist: How are you feeling now?",
+      "Client: My heart's pounding. I can almost smell the fear, you know? It's like being back in Iraq. SUDS is probably an 8 now."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My heart's pounding. I can almost smell the fear, you know? It's like being back in Iraq. SUDS is probably an 8 now.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: My heart's pounding. I can almost smell the fear, you know? It's like being back in Iraq. SUDS is probably an 8 now.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The door opens, and I see a shadow. Without thinking, I swing the bat. There's a cry of pain, and I realize... it's my teenage son. He'd snuck out and was coming back in. I... I hurt my own kid."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The door opens, and I see a shadow. Without thinking, I swing the bat. There's a cry of pain, and I realize... it's my teenage son. He'd snuck out and was coming back in. I... I hurt my own kid.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The door opens, and I see a shadow. Without thinking, I swing the bat. There's a cry of pain, and I realize... it's my teenage son. He'd snuck out and was coming back in. I... I hurt my own kid.",
+      "Therapist: SUDS?",
+      "Client: God, it's a 9. I feel sick remembering this."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: God, it's a 9. I feel sick remembering this.",
+      "Therapist: That's tough. You're brave for facing this. What happened next?"
+    ],
+    [
+      "Client: God, it's a 9. I feel sick remembering this.",
+      "Therapist: That's tough. You're brave for facing this. What happened next?",
+      "Client: I dropped the bat. My son's on the floor, holding his arm. My wife turns on the light. She's screaming. I'm frozen, can't move. Can't believe what I've done. I'm shaking, feeling like the worst father in the world."
+    ],
+    [
+      "Therapist: That's tough. You're brave for facing this. What happened next?",
+      "Client: I dropped the bat. My son's on the floor, holding his arm. My wife turns on the light. She's screaming. I'm frozen, can't move. Can't believe what I've done. I'm shaking, feeling like the worst father in the world.",
+      "Therapist: How's your distress now?"
+    ],
+    [
+      "Client: I dropped the bat. My son's on the floor, holding his arm. My wife turns on the light. She's screaming. I'm frozen, can't move. Can't believe what I've done. I'm shaking, feeling like the worst father in the world.",
+      "Therapist: How's your distress now?",
+      "Client: Still a 9. I can't... it's hard to breathe thinking about it."
+    ],
+    [
+      "Therapist: How's your distress now?",
+      "Client: Still a 9. I can't... it's hard to breathe thinking about it.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: Still a 9. I can't... it's hard to breathe thinking about it.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (inhales deeply) Okay... The next few hours are a blur. Hospital, x-rays, my son's arm is broken. He won't look at me. My wife is crying. I feel like a monster."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (inhales deeply) Okay... The next few hours are a blur. Hospital, x-rays, my son's arm is broken. He won't look at me. My wife is crying. I feel like a monster.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: (inhales deeply) Okay... The next few hours are a blur. Hospital, x-rays, my son's arm is broken. He won't look at me. My wife is crying. I feel like a monster.",
+      "Therapist: SUDS rating?",
+      "Client: It's down to about a 7 now. Talking about it... it helps, somehow."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's down to about a 7 now. Talking about it... it helps, somehow.",
+      "Therapist: That's good. You're processing it. What else do you remember?"
+    ],
+    [
+      "Client: It's down to about a 7 now. Talking about it... it helps, somehow.",
+      "Therapist: That's good. You're processing it. What else do you remember?",
+      "Client: The guilt. It was overwhelming. I couldn't sleep for days. Kept reliving that moment, seeing my son's face when he realized it was me who hit him. The fear in his eyes... it haunts me."
+    ],
+    [
+      "Therapist: That's good. You're processing it. What else do you remember?",
+      "Client: The guilt. It was overwhelming. I couldn't sleep for days. Kept reliving that moment, seeing my son's face when he realized it was me who hit him. The fear in his eyes... it haunts me.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: The guilt. It was overwhelming. I couldn't sleep for days. Kept reliving that moment, seeing my son's face when he realized it was me who hit him. The fear in his eyes... it haunts me.",
+      "Therapist: How are you feeling right now?",
+      "Client: It's... it's actually down to a 6. Talking about it, it's like releasing some pressure."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: It's... it's actually down to a 6. Talking about it, it's like releasing some pressure.",
+      "Therapist: That's progress. Keep going."
+    ],
+    [
+      "Client: It's... it's actually down to a 6. Talking about it, it's like releasing some pressure.",
+      "Therapist: That's progress. Keep going.",
+      "Client: The aftermath was tough. My son was distant for weeks. My wife suggested therapy. I felt like a failure as a protector, as a father. But slowly, we started to heal. My son forgave me, but I... I'm still working on forgiving myself."
+    ],
+    [
+      "Therapist: That's progress. Keep going.",
+      "Client: The aftermath was tough. My son was distant for weeks. My wife suggested therapy. I felt like a failure as a protector, as a father. But slowly, we started to heal. My son forgave me, but I... I'm still working on forgiving myself.",
+      "Therapist: SUDS now?"
+    ],
+    [
+      "Client: The aftermath was tough. My son was distant for weeks. My wife suggested therapy. I felt like a failure as a protector, as a father. But slowly, we started to heal. My son forgave me, but I... I'm still working on forgiving myself.",
+      "Therapist: SUDS now?",
+      "Client: It's a 5. I feel drained, but... lighter, I guess?"
+    ],
+    [
+      "Therapist: SUDS now?",
+      "Client: It's a 5. I feel drained, but... lighter, I guess?",
+      "Therapist: That's normal. You've done great work today, John."
+    ],
+    [
+      "Client: It's a 5. I feel drained, but... lighter, I guess?",
+      "Therapist: That's normal. You've done great work today, John.",
+      "Client: Thanks. It's still hard, but I think this is helping."
+    ],
+    [
+      "Therapist: That's normal. You've done great work today, John.",
+      "Client: Thanks. It's still hard, but I think this is helping.",
+      "Therapist: Let's take a moment to ground ourselves. You're safe now."
+    ]
+  ]
+}

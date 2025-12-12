@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today as we begin our session?",
+    "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about the home invasion again, and it still makes me feel uneasy.",
+    "Therapist: That's understandable. Remember, you're safe here. Shall we begin the imaginal exposure?",
+    "Client: Yes, I think I'm ready.",
+    "Therapist: Alright. Close your eyes and bring yourself back to that night. What's the first thing you notice?",
+    "Client: I... I'm in bed. It's dark, but I hear a noise downstairs. My husband is still asleep next to me. My heart starts racing immediately.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, about a 4. I'm tense, but it's manageable.",
+    "Therapist: Okay. Continue describing what happens next.",
+    "Client: I shake my husband awake. We both freeze, listening. Then we hear it clearly - someone's in the house. I'm trembling now, and I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're doing well. What's your SUDS now?",
+    "Client: It's... it's gone up to a 6. My palms are sweaty just thinking about it.",
+    "Therapist: That's normal. You're safe here. What happens next?",
+    "Client: We hear footsteps on the stairs. My husband gets up, telling me to call the police. But I'm paralyzed with fear. I can't move, can't speak. The door handle turns...",
+    "Therapist: Pause there for a moment. How are you feeling now?",
+    "Client: I'm... I'm shaking. My heart is pounding so hard. It feels so real. SUDS is definitely an 8 now.",
+    "Therapist: You're doing great. Remember, this is just a memory. You're safe here with me.",
+    "Client: Right... right. Okay. The door opens, and there's a man there. He has a mask on, and he's holding something... I think it's a crowbar. I want to scream, but no sound comes out.",
+    "Therapist: What's going through your mind at this moment?",
+    "Client: I... I think we're going to die. I'm terrified for my husband, for myself. I feel so helpless, so vulnerable.",
+    "Therapist: That must have been incredibly frightening. What's your SUDS level now?",
+    "Client: It's... it's a 9. I feel like I'm right back there.",
+    "Therapist: You're very brave for facing this memory. Remember, you survived this. You're here now, safe.",
+    "Client: Yes... yes, you're right. I am safe now.",
+    "Therapist: What happens next in the memory?",
+    "Client: My husband... he lunges at the intruder. There's a struggle. I hear shouting, things breaking. I finally find my voice and start screaming. It's chaos, and I'm terrified my husband will be hurt.",
+    "Therapist: How are you feeling as you recall this part?",
+    "Client: My chest feels tight. I'm breathing fast. But... it's not as overwhelming as before. Maybe... maybe a 7 now?",
+    "Therapist: That's good. Your distress is starting to decrease. What happens after the struggle?",
+    "Client: The intruder... he runs. We hear him thundering down the stairs. My husband is okay, just some bruises. We're both shaking, holding each other. The police arrive a few minutes later.",
+    "Therapist: And how do you feel now, thinking about the aftermath?",
+    "Client: Relieved, I guess. But also... angry. And still scared. It's a mix of emotions. My SUDS is probably around a 5 now.",
+    "Therapist: That's a normal reaction. You went through a traumatic experience. How are you feeling overall after going through this memory?",
+    "Client: I'm... I'm okay. It was hard, but I feel like I faced it. My heart rate is slowing down now. I think I'm back to about a 3 or 4 on the SUDS scale.",
+    "Therapist: You did excellently today. How do you feel about the progress you've made?",
+    "Client: I feel... stronger, I think. It's still hard, but it doesn't overwhelm me like it used to. Thank you for guiding me through this.",
+    "Therapist: You're welcome. You should be proud of yourself. We'll end here for today. Well done."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today as we begin our session?",
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about the home invasion again, and it still makes me feel uneasy.",
+      "Therapist: That's understandable. Remember, you're safe here. Shall we begin the imaginal exposure?"
+    ],
+    [
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about the home invasion again, and it still makes me feel uneasy.",
+      "Therapist: That's understandable. Remember, you're safe here. Shall we begin the imaginal exposure?",
+      "Client: Yes, I think I'm ready."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here. Shall we begin the imaginal exposure?",
+      "Client: Yes, I think I'm ready.",
+      "Therapist: Alright. Close your eyes and bring yourself back to that night. What's the first thing you notice?"
+    ],
+    [
+      "Client: Yes, I think I'm ready.",
+      "Therapist: Alright. Close your eyes and bring yourself back to that night. What's the first thing you notice?",
+      "Client: I... I'm in bed. It's dark, but I hear a noise downstairs. My husband is still asleep next to me. My heart starts racing immediately."
+    ],
+    [
+      "Therapist: Alright. Close your eyes and bring yourself back to that night. What's the first thing you notice?",
+      "Client: I... I'm in bed. It's dark, but I hear a noise downstairs. My husband is still asleep next to me. My heart starts racing immediately.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: I... I'm in bed. It's dark, but I hear a noise downstairs. My husband is still asleep next to me. My heart starts racing immediately.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4. I'm tense, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4. I'm tense, but it's manageable.",
+      "Therapist: Okay. Continue describing what happens next."
+    ],
+    [
+      "Client: Um, about a 4. I'm tense, but it's manageable.",
+      "Therapist: Okay. Continue describing what happens next.",
+      "Client: I shake my husband awake. We both freeze, listening. Then we hear it clearly - someone's in the house. I'm trembling now, and I feel like I can't breathe."
+    ],
+    [
+      "Therapist: Okay. Continue describing what happens next.",
+      "Client: I shake my husband awake. We both freeze, listening. Then we hear it clearly - someone's in the house. I'm trembling now, and I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're doing well. What's your SUDS now?"
+    ],
+    [
+      "Client: I shake my husband awake. We both freeze, listening. Then we hear it clearly - someone's in the house. I'm trembling now, and I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're doing well. What's your SUDS now?",
+      "Client: It's... it's gone up to a 6. My palms are sweaty just thinking about it."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing well. What's your SUDS now?",
+      "Client: It's... it's gone up to a 6. My palms are sweaty just thinking about it.",
+      "Therapist: That's normal. You're safe here. What happens next?"
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My palms are sweaty just thinking about it.",
+      "Therapist: That's normal. You're safe here. What happens next?",
+      "Client: We hear footsteps on the stairs. My husband gets up, telling me to call the police. But I'm paralyzed with fear. I can't move, can't speak. The door handle turns..."
+    ],
+    [
+      "Therapist: That's normal. You're safe here. What happens next?",
+      "Client: We hear footsteps on the stairs. My husband gets up, telling me to call the police. But I'm paralyzed with fear. I can't move, can't speak. The door handle turns...",
+      "Therapist: Pause there for a moment. How are you feeling now?"
+    ],
+    [
+      "Client: We hear footsteps on the stairs. My husband gets up, telling me to call the police. But I'm paralyzed with fear. I can't move, can't speak. The door handle turns...",
+      "Therapist: Pause there for a moment. How are you feeling now?",
+      "Client: I'm... I'm shaking. My heart is pounding so hard. It feels so real. SUDS is definitely an 8 now."
+    ],
+    [
+      "Therapist: Pause there for a moment. How are you feeling now?",
+      "Client: I'm... I'm shaking. My heart is pounding so hard. It feels so real. SUDS is definitely an 8 now.",
+      "Therapist: You're doing great. Remember, this is just a memory. You're safe here with me."
+    ],
+    [
+      "Client: I'm... I'm shaking. My heart is pounding so hard. It feels so real. SUDS is definitely an 8 now.",
+      "Therapist: You're doing great. Remember, this is just a memory. You're safe here with me.",
+      "Client: Right... right. Okay. The door opens, and there's a man there. He has a mask on, and he's holding something... I think it's a crowbar. I want to scream, but no sound comes out."
+    ],
+    [
+      "Therapist: You're doing great. Remember, this is just a memory. You're safe here with me.",
+      "Client: Right... right. Okay. The door opens, and there's a man there. He has a mask on, and he's holding something... I think it's a crowbar. I want to scream, but no sound comes out.",
+      "Therapist: What's going through your mind at this moment?"
+    ],
+    [
+      "Client: Right... right. Okay. The door opens, and there's a man there. He has a mask on, and he's holding something... I think it's a crowbar. I want to scream, but no sound comes out.",
+      "Therapist: What's going through your mind at this moment?",
+      "Client: I... I think we're going to die. I'm terrified for my husband, for myself. I feel so helpless, so vulnerable."
+    ],
+    [
+      "Therapist: What's going through your mind at this moment?",
+      "Client: I... I think we're going to die. I'm terrified for my husband, for myself. I feel so helpless, so vulnerable.",
+      "Therapist: That must have been incredibly frightening. What's your SUDS level now?"
+    ],
+    [
+      "Client: I... I think we're going to die. I'm terrified for my husband, for myself. I feel so helpless, so vulnerable.",
+      "Therapist: That must have been incredibly frightening. What's your SUDS level now?",
+      "Client: It's... it's a 9. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: That must have been incredibly frightening. What's your SUDS level now?",
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're very brave for facing this memory. Remember, you survived this. You're here now, safe."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're very brave for facing this memory. Remember, you survived this. You're here now, safe.",
+      "Client: Yes... yes, you're right. I am safe now."
+    ],
+    [
+      "Therapist: You're very brave for facing this memory. Remember, you survived this. You're here now, safe.",
+      "Client: Yes... yes, you're right. I am safe now.",
+      "Therapist: What happens next in the memory?"
+    ],
+    [
+      "Client: Yes... yes, you're right. I am safe now.",
+      "Therapist: What happens next in the memory?",
+      "Client: My husband... he lunges at the intruder. There's a struggle. I hear shouting, things breaking. I finally find my voice and start screaming. It's chaos, and I'm terrified my husband will be hurt."
+    ],
+    [
+      "Therapist: What happens next in the memory?",
+      "Client: My husband... he lunges at the intruder. There's a struggle. I hear shouting, things breaking. I finally find my voice and start screaming. It's chaos, and I'm terrified my husband will be hurt.",
+      "Therapist: How are you feeling as you recall this part?"
+    ],
+    [
+      "Client: My husband... he lunges at the intruder. There's a struggle. I hear shouting, things breaking. I finally find my voice and start screaming. It's chaos, and I'm terrified my husband will be hurt.",
+      "Therapist: How are you feeling as you recall this part?",
+      "Client: My chest feels tight. I'm breathing fast. But... it's not as overwhelming as before. Maybe... maybe a 7 now?"
+    ],
+    [
+      "Therapist: How are you feeling as you recall this part?",
+      "Client: My chest feels tight. I'm breathing fast. But... it's not as overwhelming as before. Maybe... maybe a 7 now?",
+      "Therapist: That's good. Your distress is starting to decrease. What happens after the struggle?"
+    ],
+    [
+      "Client: My chest feels tight. I'm breathing fast. But... it's not as overwhelming as before. Maybe... maybe a 7 now?",
+      "Therapist: That's good. Your distress is starting to decrease. What happens after the struggle?",
+      "Client: The intruder... he runs. We hear him thundering down the stairs. My husband is okay, just some bruises. We're both shaking, holding each other. The police arrive a few minutes later."
+    ],
+    [
+      "Therapist: That's good. Your distress is starting to decrease. What happens after the struggle?",
+      "Client: The intruder... he runs. We hear him thundering down the stairs. My husband is okay, just some bruises. We're both shaking, holding each other. The police arrive a few minutes later.",
+      "Therapist: And how do you feel now, thinking about the aftermath?"
+    ],
+    [
+      "Client: The intruder... he runs. We hear him thundering down the stairs. My husband is okay, just some bruises. We're both shaking, holding each other. The police arrive a few minutes later.",
+      "Therapist: And how do you feel now, thinking about the aftermath?",
+      "Client: Relieved, I guess. But also... angry. And still scared. It's a mix of emotions. My SUDS is probably around a 5 now."
+    ],
+    [
+      "Therapist: And how do you feel now, thinking about the aftermath?",
+      "Client: Relieved, I guess. But also... angry. And still scared. It's a mix of emotions. My SUDS is probably around a 5 now.",
+      "Therapist: That's a normal reaction. You went through a traumatic experience. How are you feeling overall after going through this memory?"
+    ],
+    [
+      "Client: Relieved, I guess. But also... angry. And still scared. It's a mix of emotions. My SUDS is probably around a 5 now.",
+      "Therapist: That's a normal reaction. You went through a traumatic experience. How are you feeling overall after going through this memory?",
+      "Client: I'm... I'm okay. It was hard, but I feel like I faced it. My heart rate is slowing down now. I think I'm back to about a 3 or 4 on the SUDS scale."
+    ],
+    [
+      "Therapist: That's a normal reaction. You went through a traumatic experience. How are you feeling overall after going through this memory?",
+      "Client: I'm... I'm okay. It was hard, but I feel like I faced it. My heart rate is slowing down now. I think I'm back to about a 3 or 4 on the SUDS scale.",
+      "Therapist: You did excellently today. How do you feel about the progress you've made?"
+    ],
+    [
+      "Client: I'm... I'm okay. It was hard, but I feel like I faced it. My heart rate is slowing down now. I think I'm back to about a 3 or 4 on the SUDS scale.",
+      "Therapist: You did excellently today. How do you feel about the progress you've made?",
+      "Client: I feel... stronger, I think. It's still hard, but it doesn't overwhelm me like it used to. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: You did excellently today. How do you feel about the progress you've made?",
+      "Client: I feel... stronger, I think. It's still hard, but it doesn't overwhelm me like it used to. Thank you for guiding me through this.",
+      "Therapist: You're welcome. You should be proud of yourself. We'll end here for today. Well done."
+    ]
+  ]
+}

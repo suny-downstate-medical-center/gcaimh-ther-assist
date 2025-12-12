@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Let's begin our imaginal exposure exercise. Remember to tell me your SUDS rating when I ask. Are you ready?",
+    "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the day you learned about your sister's illness.",
+    "Client: Okay... I'm in my dorm room. My phone rings, and it's my mom. Her voice is shaky. She says, \"Sarah, it's about Emily. The doctors found something.\" My heart starts racing immediately. I can feel my hands getting clammy as I grip the phone tighter.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, probably a 6. I can feel my chest tightening as I remember this.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: Mom's trying to explain, but I can barely focus. Words like \"aggressive\" and \"treatment options\" float around. I sink onto my bed, feeling dizzy. The room seems to spin a bit. I keep thinking, \"This can't be happening. Not to Emily.\"",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's climbing. Maybe an 8? My palms are sweating just talking about it.",
+    "Therapist: That's okay. Stay with it. What happened next?",
+    "Client: I... I hung up the phone and just sat there, stunned. I couldn't cry. I couldn't move. It felt like hours, but it was probably only minutes. Then I started packing frantically. I needed to get home, to see her. My hands were shaking so much I could barely fold my clothes.",
+    "Therapist: SUDS?",
+    "Client: Still an 8. My heart's pounding pretty hard now.",
+    "Therapist: You're doing great. Keep breathing. What do you remember about arriving home?",
+    "Client: The drive home is a blur. But I remember walking into our house. It was so quiet. Mom was in the kitchen, just staring at nothing. Dad was pacing in the living room. And Emily... she was sitting on the couch, looking so small and pale. When she saw me, she tried to smile, but it didn't reach her eyes. That's when it really hit me.",
+    "Therapist: How's your SUDS level?",
+    "Client: It's... it's gone up. Maybe a 9 now. I can feel tears starting.",
+    "Therapist: That's okay. Let the tears come if they need to. You're safe here.",
+    "Client: I just... I remember hugging her so tightly. She felt fragile, like she might break. I wanted to be strong for her, but I was terrified. We all were. The air felt heavy, like we could barely breathe.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still high... maybe back to an 8. My chest feels tight, but talking about it... it's hard, but also kind of relieving?",
+    "Therapist: That's a common experience. You're doing really well. Let's continue.",
+    "Client: Okay. We sat down, and Emily started explaining what the doctors had told her. I tried to listen, but part of me wanted to run away, to pretend this wasn't happening. I kept looking at her face, trying to memorize every detail, afraid of what might change.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's actually coming down a bit. Maybe a 7 now? I still feel shaky, but less overwhelmed.",
+    "Therapist: That's good. You're processing this well. How did the evening end?",
+    "Client: We all tried to act normal, watching TV together. But there was this undercurrent of fear. I remember holding Emily's hand, and she squeezed it, trying to reassure me. That night, in my old bedroom, I finally broke down and cried.",
+    "Therapist: And your final SUDS rating?",
+    "Client: I think... a 6 now. I feel drained, but also a bit lighter. Is that weird?",
+    "Therapist: Not at all. You've done excellent work today, Sarah. Let's start winding down."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Let's begin our imaginal exposure exercise. Remember to tell me your SUDS rating when I ask. Are you ready?",
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you learned about your sister's illness."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you learned about your sister's illness.",
+      "Client: Okay... I'm in my dorm room. My phone rings, and it's my mom. Her voice is shaky. She says, \"Sarah, it's about Emily. The doctors found something.\" My heart starts racing immediately. I can feel my hands getting clammy as I grip the phone tighter."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you learned about your sister's illness.",
+      "Client: Okay... I'm in my dorm room. My phone rings, and it's my mom. Her voice is shaky. She says, \"Sarah, it's about Emily. The doctors found something.\" My heart starts racing immediately. I can feel my hands getting clammy as I grip the phone tighter.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm in my dorm room. My phone rings, and it's my mom. Her voice is shaky. She says, \"Sarah, it's about Emily. The doctors found something.\" My heart starts racing immediately. I can feel my hands getting clammy as I grip the phone tighter.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6. I can feel my chest tightening as I remember this."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6. I can feel my chest tightening as I remember this.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: Um, probably a 6. I can feel my chest tightening as I remember this.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: Mom's trying to explain, but I can barely focus. Words like \"aggressive\" and \"treatment options\" float around. I sink onto my bed, feeling dizzy. The room seems to spin a bit. I keep thinking, \"This can't be happening. Not to Emily.\""
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: Mom's trying to explain, but I can barely focus. Words like \"aggressive\" and \"treatment options\" float around. I sink onto my bed, feeling dizzy. The room seems to spin a bit. I keep thinking, \"This can't be happening. Not to Emily.\"",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Mom's trying to explain, but I can barely focus. Words like \"aggressive\" and \"treatment options\" float around. I sink onto my bed, feeling dizzy. The room seems to spin a bit. I keep thinking, \"This can't be happening. Not to Emily.\"",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's climbing. Maybe an 8? My palms are sweating just talking about it."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's climbing. Maybe an 8? My palms are sweating just talking about it.",
+      "Therapist: That's okay. Stay with it. What happened next?"
+    ],
+    [
+      "Client: It's... it's climbing. Maybe an 8? My palms are sweating just talking about it.",
+      "Therapist: That's okay. Stay with it. What happened next?",
+      "Client: I... I hung up the phone and just sat there, stunned. I couldn't cry. I couldn't move. It felt like hours, but it was probably only minutes. Then I started packing frantically. I needed to get home, to see her. My hands were shaking so much I could barely fold my clothes."
+    ],
+    [
+      "Therapist: That's okay. Stay with it. What happened next?",
+      "Client: I... I hung up the phone and just sat there, stunned. I couldn't cry. I couldn't move. It felt like hours, but it was probably only minutes. Then I started packing frantically. I needed to get home, to see her. My hands were shaking so much I could barely fold my clothes.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I... I hung up the phone and just sat there, stunned. I couldn't cry. I couldn't move. It felt like hours, but it was probably only minutes. Then I started packing frantically. I needed to get home, to see her. My hands were shaking so much I could barely fold my clothes.",
+      "Therapist: SUDS?",
+      "Client: Still an 8. My heart's pounding pretty hard now."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: Still an 8. My heart's pounding pretty hard now.",
+      "Therapist: You're doing great. Keep breathing. What do you remember about arriving home?"
+    ],
+    [
+      "Client: Still an 8. My heart's pounding pretty hard now.",
+      "Therapist: You're doing great. Keep breathing. What do you remember about arriving home?",
+      "Client: The drive home is a blur. But I remember walking into our house. It was so quiet. Mom was in the kitchen, just staring at nothing. Dad was pacing in the living room. And Emily... she was sitting on the couch, looking so small and pale. When she saw me, she tried to smile, but it didn't reach her eyes. That's when it really hit me."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing. What do you remember about arriving home?",
+      "Client: The drive home is a blur. But I remember walking into our house. It was so quiet. Mom was in the kitchen, just staring at nothing. Dad was pacing in the living room. And Emily... she was sitting on the couch, looking so small and pale. When she saw me, she tried to smile, but it didn't reach her eyes. That's when it really hit me.",
+      "Therapist: How's your SUDS level?"
+    ],
+    [
+      "Client: The drive home is a blur. But I remember walking into our house. It was so quiet. Mom was in the kitchen, just staring at nothing. Dad was pacing in the living room. And Emily... she was sitting on the couch, looking so small and pale. When she saw me, she tried to smile, but it didn't reach her eyes. That's when it really hit me.",
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's gone up. Maybe a 9 now. I can feel tears starting."
+    ],
+    [
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's gone up. Maybe a 9 now. I can feel tears starting.",
+      "Therapist: That's okay. Let the tears come if they need to. You're safe here."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 9 now. I can feel tears starting.",
+      "Therapist: That's okay. Let the tears come if they need to. You're safe here.",
+      "Client: I just... I remember hugging her so tightly. She felt fragile, like she might break. I wanted to be strong for her, but I was terrified. We all were. The air felt heavy, like we could barely breathe."
+    ],
+    [
+      "Therapist: That's okay. Let the tears come if they need to. You're safe here.",
+      "Client: I just... I remember hugging her so tightly. She felt fragile, like she might break. I wanted to be strong for her, but I was terrified. We all were. The air felt heavy, like we could barely breathe.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I just... I remember hugging her so tightly. She felt fragile, like she might break. I wanted to be strong for her, but I was terrified. We all were. The air felt heavy, like we could barely breathe.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still high... maybe back to an 8. My chest feels tight, but talking about it... it's hard, but also kind of relieving?"
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still high... maybe back to an 8. My chest feels tight, but talking about it... it's hard, but also kind of relieving?",
+      "Therapist: That's a common experience. You're doing really well. Let's continue."
+    ],
+    [
+      "Client: It's still high... maybe back to an 8. My chest feels tight, but talking about it... it's hard, but also kind of relieving?",
+      "Therapist: That's a common experience. You're doing really well. Let's continue.",
+      "Client: Okay. We sat down, and Emily started explaining what the doctors had told her. I tried to listen, but part of me wanted to run away, to pretend this wasn't happening. I kept looking at her face, trying to memorize every detail, afraid of what might change."
+    ],
+    [
+      "Therapist: That's a common experience. You're doing really well. Let's continue.",
+      "Client: Okay. We sat down, and Emily started explaining what the doctors had told her. I tried to listen, but part of me wanted to run away, to pretend this wasn't happening. I kept looking at her face, trying to memorize every detail, afraid of what might change.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: Okay. We sat down, and Emily started explaining what the doctors had told her. I tried to listen, but part of me wanted to run away, to pretend this wasn't happening. I kept looking at her face, trying to memorize every detail, afraid of what might change.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually coming down a bit. Maybe a 7 now? I still feel shaky, but less overwhelmed."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually coming down a bit. Maybe a 7 now? I still feel shaky, but less overwhelmed.",
+      "Therapist: That's good. You're processing this well. How did the evening end?"
+    ],
+    [
+      "Client: It's... it's actually coming down a bit. Maybe a 7 now? I still feel shaky, but less overwhelmed.",
+      "Therapist: That's good. You're processing this well. How did the evening end?",
+      "Client: We all tried to act normal, watching TV together. But there was this undercurrent of fear. I remember holding Emily's hand, and she squeezed it, trying to reassure me. That night, in my old bedroom, I finally broke down and cried."
+    ],
+    [
+      "Therapist: That's good. You're processing this well. How did the evening end?",
+      "Client: We all tried to act normal, watching TV together. But there was this undercurrent of fear. I remember holding Emily's hand, and she squeezed it, trying to reassure me. That night, in my old bedroom, I finally broke down and cried.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: We all tried to act normal, watching TV together. But there was this undercurrent of fear. I remember holding Emily's hand, and she squeezed it, trying to reassure me. That night, in my old bedroom, I finally broke down and cried.",
+      "Therapist: And your final SUDS rating?",
+      "Client: I think... a 6 now. I feel drained, but also a bit lighter. Is that weird?"
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: I think... a 6 now. I feel drained, but also a bit lighter. Is that weird?",
+      "Therapist: Not at all. You've done excellent work today, Sarah. Let's start winding down."
+    ]
+  ]
+}

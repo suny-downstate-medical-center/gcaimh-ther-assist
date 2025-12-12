@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Can you close your eyes and describe the car accident, starting from the moment just before it happened?",
+    "Client: Okay... I'm driving down Main Street. It's a sunny afternoon, and I'm on my way to the grocery store. The radio's playing softly... I see the intersection ahead, and the light is green. I'm not worried, just... normal. Then suddenly, out of nowhere, this red truck comes barreling through the red light from my right side. I barely have time to react...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4. It's making me a bit anxious, but I'm okay.",
+    "Therapist: Good. Continue describing what happened.",
+    "Client: The truck slams into my passenger side. There's this horrible crunching sound, and my car starts spinning. I'm gripping the steering wheel so tight, my knuckles are white. The airbag deploys, and it feels like I've been punched in the face. Everything's a blur of motion and noise...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My heart's beating faster, and I feel a bit shaky.",
+    "Therapist: That's understandable. You're doing well. Keep going.",
+    "Client: The car finally stops spinning. I'm disoriented, and there's this ringing in my ears. I smell something burning... maybe it's the airbag chemicals? I'm scared the car might catch fire. I try to open my door, but it's jammed. I'm starting to panic, feeling trapped...",
+    "Therapist: What's your SUDS level at this point?",
+    "Client: It's... it's an 8 now. I feel like I can't breathe properly. My chest feels tight.",
+    "Therapist: Take a deep breath. You're safe here. What happened next?",
+    "Client: I... I hear people shouting outside. Someone's asking if I'm okay. I manage to roll down my window and call for help. My left arm is really hurting, and I think it might be broken. I'm so scared and confused...",
+    "Therapist: How are you feeling right now?",
+    "Client: My SUDS is still at an 8. I feel shaky and nauseous, like I'm reliving it all over again.",
+    "Therapist: That's normal. You're doing great. Continue when you're ready.",
+    "Client: The paramedics arrive. They're talking to me, asking questions, but I'm having trouble focusing. They use some tool to pry open my door. As they help me out, I see the damage to my car for the first time. It's... it's devastating. I start crying, overwhelmed by how close I came to... to dying.",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's gone down a bit, maybe to a 7. I feel drained, but also relieved that I survived.",
+    "Therapist: You've done really well. Let's take a moment to ground ourselves. Can you tell me three things you see in this room?",
+    "Client: I see... the plant by the window, your blue notebook, and the clock on the wall.",
+    "Therapist: Good. How are you feeling now?",
+    "Client: My SUDS is down to a 5. I feel tired, but calmer.",
+    "Therapist: That's great progress. We'll end the exposure here for today. You've shown incredible strength."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Can you close your eyes and describe the car accident, starting from the moment just before it happened?",
+      "Client: Okay... I'm driving down Main Street. It's a sunny afternoon, and I'm on my way to the grocery store. The radio's playing softly... I see the intersection ahead, and the light is green. I'm not worried, just... normal. Then suddenly, out of nowhere, this red truck comes barreling through the red light from my right side. I barely have time to react...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm driving down Main Street. It's a sunny afternoon, and I'm on my way to the grocery store. The radio's playing softly... I see the intersection ahead, and the light is green. I'm not worried, just... normal. Then suddenly, out of nowhere, this red truck comes barreling through the red light from my right side. I barely have time to react...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. It's making me a bit anxious, but I'm okay."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4. It's making me a bit anxious, but I'm okay.",
+      "Therapist: Good. Continue describing what happened."
+    ],
+    [
+      "Client: Um, I'd say about a 4. It's making me a bit anxious, but I'm okay.",
+      "Therapist: Good. Continue describing what happened.",
+      "Client: The truck slams into my passenger side. There's this horrible crunching sound, and my car starts spinning. I'm gripping the steering wheel so tight, my knuckles are white. The airbag deploys, and it feels like I've been punched in the face. Everything's a blur of motion and noise..."
+    ],
+    [
+      "Therapist: Good. Continue describing what happened.",
+      "Client: The truck slams into my passenger side. There's this horrible crunching sound, and my car starts spinning. I'm gripping the steering wheel so tight, my knuckles are white. The airbag deploys, and it feels like I've been punched in the face. Everything's a blur of motion and noise...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: The truck slams into my passenger side. There's this horrible crunching sound, and my car starts spinning. I'm gripping the steering wheel so tight, my knuckles are white. The airbag deploys, and it feels like I've been punched in the face. Everything's a blur of motion and noise...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My heart's beating faster, and I feel a bit shaky."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My heart's beating faster, and I feel a bit shaky.",
+      "Therapist: That's understandable. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My heart's beating faster, and I feel a bit shaky.",
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: The car finally stops spinning. I'm disoriented, and there's this ringing in my ears. I smell something burning... maybe it's the airbag chemicals? I'm scared the car might catch fire. I try to open my door, but it's jammed. I'm starting to panic, feeling trapped..."
+    ],
+    [
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: The car finally stops spinning. I'm disoriented, and there's this ringing in my ears. I smell something burning... maybe it's the airbag chemicals? I'm scared the car might catch fire. I try to open my door, but it's jammed. I'm starting to panic, feeling trapped...",
+      "Therapist: What's your SUDS level at this point?"
+    ],
+    [
+      "Client: The car finally stops spinning. I'm disoriented, and there's this ringing in my ears. I smell something burning... maybe it's the airbag chemicals? I'm scared the car might catch fire. I try to open my door, but it's jammed. I'm starting to panic, feeling trapped...",
+      "Therapist: What's your SUDS level at this point?",
+      "Client: It's... it's an 8 now. I feel like I can't breathe properly. My chest feels tight."
+    ],
+    [
+      "Therapist: What's your SUDS level at this point?",
+      "Client: It's... it's an 8 now. I feel like I can't breathe properly. My chest feels tight.",
+      "Therapist: Take a deep breath. You're safe here. What happened next?"
+    ],
+    [
+      "Client: It's... it's an 8 now. I feel like I can't breathe properly. My chest feels tight.",
+      "Therapist: Take a deep breath. You're safe here. What happened next?",
+      "Client: I... I hear people shouting outside. Someone's asking if I'm okay. I manage to roll down my window and call for help. My left arm is really hurting, and I think it might be broken. I'm so scared and confused..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What happened next?",
+      "Client: I... I hear people shouting outside. Someone's asking if I'm okay. I manage to roll down my window and call for help. My left arm is really hurting, and I think it might be broken. I'm so scared and confused...",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: I... I hear people shouting outside. Someone's asking if I'm okay. I manage to roll down my window and call for help. My left arm is really hurting, and I think it might be broken. I'm so scared and confused...",
+      "Therapist: How are you feeling right now?",
+      "Client: My SUDS is still at an 8. I feel shaky and nauseous, like I'm reliving it all over again."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: My SUDS is still at an 8. I feel shaky and nauseous, like I'm reliving it all over again.",
+      "Therapist: That's normal. You're doing great. Continue when you're ready."
+    ],
+    [
+      "Client: My SUDS is still at an 8. I feel shaky and nauseous, like I'm reliving it all over again.",
+      "Therapist: That's normal. You're doing great. Continue when you're ready.",
+      "Client: The paramedics arrive. They're talking to me, asking questions, but I'm having trouble focusing. They use some tool to pry open my door. As they help me out, I see the damage to my car for the first time. It's... it's devastating. I start crying, overwhelmed by how close I came to... to dying."
+    ],
+    [
+      "Therapist: That's normal. You're doing great. Continue when you're ready.",
+      "Client: The paramedics arrive. They're talking to me, asking questions, but I'm having trouble focusing. They use some tool to pry open my door. As they help me out, I see the damage to my car for the first time. It's... it's devastating. I start crying, overwhelmed by how close I came to... to dying.",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: The paramedics arrive. They're talking to me, asking questions, but I'm having trouble focusing. They use some tool to pry open my door. As they help me out, I see the damage to my car for the first time. It's... it's devastating. I start crying, overwhelmed by how close I came to... to dying.",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's gone down a bit, maybe to a 7. I feel drained, but also relieved that I survived."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's gone down a bit, maybe to a 7. I feel drained, but also relieved that I survived.",
+      "Therapist: You've done really well. Let's take a moment to ground ourselves. Can you tell me three things you see in this room?"
+    ],
+    [
+      "Client: It's gone down a bit, maybe to a 7. I feel drained, but also relieved that I survived.",
+      "Therapist: You've done really well. Let's take a moment to ground ourselves. Can you tell me three things you see in this room?",
+      "Client: I see... the plant by the window, your blue notebook, and the clock on the wall."
+    ],
+    [
+      "Therapist: You've done really well. Let's take a moment to ground ourselves. Can you tell me three things you see in this room?",
+      "Client: I see... the plant by the window, your blue notebook, and the clock on the wall.",
+      "Therapist: Good. How are you feeling now?"
+    ],
+    [
+      "Client: I see... the plant by the window, your blue notebook, and the clock on the wall.",
+      "Therapist: Good. How are you feeling now?",
+      "Client: My SUDS is down to a 5. I feel tired, but calmer."
+    ],
+    [
+      "Therapist: Good. How are you feeling now?",
+      "Client: My SUDS is down to a 5. I feel tired, but calmer.",
+      "Therapist: That's great progress. We'll end the exposure here for today. You've shown incredible strength."
+    ]
+  ]
+}

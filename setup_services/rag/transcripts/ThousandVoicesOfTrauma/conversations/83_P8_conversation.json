@@ -1,0 +1,152 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see the cell in my head, you know? The cold, damp walls, the flickering light... It's like I'm still there, even though I know I'm not.",
+    "Therapist: Mm-hmm. What physical sensations are you noticing right now?",
+    "Client: My hands are shaky, and my heart's beating really fast. I feel this tightness in my chest, like I can't quite catch my breath. It's similar to how I felt when I was first locked up. God, I hate this feeling.",
+    "Therapist: Take a deep breath. What thoughts are going through your mind?",
+    "Client: I keep thinking, \"Why me? Why did this happen to me?\" I was just a kid, you know? I didn't do anything wrong. I feel so angry at the people who put me there, but also... I don't know, ashamed? Like maybe I deserved it somehow.",
+    "Therapist: How do those thoughts make you feel emotionally?",
+    "Client: Frustrated. Scared. There's this overwhelming sense of helplessness. I know I'm safe now, but part of me still feels trapped, like I'll never really be free from this. And then I feel guilty for not being able to just move on.",
+    "Therapist: It's okay to have these feelings. What else comes up for you?",
+    "Client: I... I keep thinking about my parents. They were so worried when I was imprisoned. I can still hear my mom crying on the phone when she finally got to talk to me. It breaks my heart, you know? They didn't deserve to go through that either. Sometimes I wonder if they blame themselves.",
+    "Therapist: How does thinking about your parents' experience affect you?",
+    "Client: It makes me sad, but also... I don't know, grateful? Like, I realize how much they love me. But then I feel this pressure to be okay, to not let this affect me so much. I don't want them to worry anymore. It's just... it's a lot to carry.",
+    "Therapist: What do you mean by \"a lot to carry\"?",
+    "Client: It's like... I'm trying to balance being a normal 21-year-old student with this heavy past that most people can't relate to. I want to focus on my studies, hang out with my girlfriend, but then these memories come flooding back. I feel like I'm living two lives sometimes.",
+    "Therapist: How does that impact your daily life?",
+    "Client: It's exhausting. Some days I can barely focus in class because I'm so on edge. I find myself scanning rooms for exits, even in places I know are safe. And when I'm with my girlfriend... I love her, but sometimes I feel so disconnected. Like she can never really understand this part of me.",
+    "Therapist: What helps you feel more grounded in those moments?",
+    "Client: I... I try to remind myself that I'm safe now. Sometimes I'll touch something nearby, just to remind myself where I am. And talking about it, like this... it helps. It's hard, but it makes it feel less like a secret I have to keep.",
+    "Therapist: That's a great coping strategy. How are you feeling now compared to when we started?",
+    "Client: A bit calmer, I think. My heart's not racing as much. I still feel kind of raw, you know? Like I've been scrubbed clean but in a painful way. But also... I don't know, maybe a little lighter? Like I've set down some of that weight I was talking about earlier.",
+    "Therapist: That's good progress. What would you like to focus on next time?",
+    "Client: I think... maybe we could talk more about how to handle those moments when I feel disconnected from people around me? Especially with my girlfriend. I want to be able to open up more, but it's scary.",
+    "Therapist: That's a great topic. We'll explore that next session. How are you feeling about ending for today?",
+    "Client: I'm okay. A bit drained, but... I think this was good. Thank you for listening and... you know, helping me make sense of all this.",
+    "Therapist: You're welcome. Remember to use your coping strategies if you need them. I'll see you next week.",
+    "Client: Thanks, doc. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see the cell in my head, you know? The cold, damp walls, the flickering light... It's like I'm still there, even though I know I'm not.",
+      "Therapist: Mm-hmm. What physical sensations are you noticing right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's like my mind is racing, but also kind of blank at the same time. I can still see the cell in my head, you know? The cold, damp walls, the flickering light... It's like I'm still there, even though I know I'm not.",
+      "Therapist: Mm-hmm. What physical sensations are you noticing right now?",
+      "Client: My hands are shaky, and my heart's beating really fast. I feel this tightness in my chest, like I can't quite catch my breath. It's similar to how I felt when I was first locked up. God, I hate this feeling."
+    ],
+    [
+      "Therapist: Mm-hmm. What physical sensations are you noticing right now?",
+      "Client: My hands are shaky, and my heart's beating really fast. I feel this tightness in my chest, like I can't quite catch my breath. It's similar to how I felt when I was first locked up. God, I hate this feeling.",
+      "Therapist: Take a deep breath. What thoughts are going through your mind?"
+    ],
+    [
+      "Client: My hands are shaky, and my heart's beating really fast. I feel this tightness in my chest, like I can't quite catch my breath. It's similar to how I felt when I was first locked up. God, I hate this feeling.",
+      "Therapist: Take a deep breath. What thoughts are going through your mind?",
+      "Client: I keep thinking, \"Why me? Why did this happen to me?\" I was just a kid, you know? I didn't do anything wrong. I feel so angry at the people who put me there, but also... I don't know, ashamed? Like maybe I deserved it somehow."
+    ],
+    [
+      "Therapist: Take a deep breath. What thoughts are going through your mind?",
+      "Client: I keep thinking, \"Why me? Why did this happen to me?\" I was just a kid, you know? I didn't do anything wrong. I feel so angry at the people who put me there, but also... I don't know, ashamed? Like maybe I deserved it somehow.",
+      "Therapist: How do those thoughts make you feel emotionally?"
+    ],
+    [
+      "Client: I keep thinking, \"Why me? Why did this happen to me?\" I was just a kid, you know? I didn't do anything wrong. I feel so angry at the people who put me there, but also... I don't know, ashamed? Like maybe I deserved it somehow.",
+      "Therapist: How do those thoughts make you feel emotionally?",
+      "Client: Frustrated. Scared. There's this overwhelming sense of helplessness. I know I'm safe now, but part of me still feels trapped, like I'll never really be free from this. And then I feel guilty for not being able to just move on."
+    ],
+    [
+      "Therapist: How do those thoughts make you feel emotionally?",
+      "Client: Frustrated. Scared. There's this overwhelming sense of helplessness. I know I'm safe now, but part of me still feels trapped, like I'll never really be free from this. And then I feel guilty for not being able to just move on.",
+      "Therapist: It's okay to have these feelings. What else comes up for you?"
+    ],
+    [
+      "Client: Frustrated. Scared. There's this overwhelming sense of helplessness. I know I'm safe now, but part of me still feels trapped, like I'll never really be free from this. And then I feel guilty for not being able to just move on.",
+      "Therapist: It's okay to have these feelings. What else comes up for you?",
+      "Client: I... I keep thinking about my parents. They were so worried when I was imprisoned. I can still hear my mom crying on the phone when she finally got to talk to me. It breaks my heart, you know? They didn't deserve to go through that either. Sometimes I wonder if they blame themselves."
+    ],
+    [
+      "Therapist: It's okay to have these feelings. What else comes up for you?",
+      "Client: I... I keep thinking about my parents. They were so worried when I was imprisoned. I can still hear my mom crying on the phone when she finally got to talk to me. It breaks my heart, you know? They didn't deserve to go through that either. Sometimes I wonder if they blame themselves.",
+      "Therapist: How does thinking about your parents' experience affect you?"
+    ],
+    [
+      "Client: I... I keep thinking about my parents. They were so worried when I was imprisoned. I can still hear my mom crying on the phone when she finally got to talk to me. It breaks my heart, you know? They didn't deserve to go through that either. Sometimes I wonder if they blame themselves.",
+      "Therapist: How does thinking about your parents' experience affect you?",
+      "Client: It makes me sad, but also... I don't know, grateful? Like, I realize how much they love me. But then I feel this pressure to be okay, to not let this affect me so much. I don't want them to worry anymore. It's just... it's a lot to carry."
+    ],
+    [
+      "Therapist: How does thinking about your parents' experience affect you?",
+      "Client: It makes me sad, but also... I don't know, grateful? Like, I realize how much they love me. But then I feel this pressure to be okay, to not let this affect me so much. I don't want them to worry anymore. It's just... it's a lot to carry.",
+      "Therapist: What do you mean by \"a lot to carry\"?"
+    ],
+    [
+      "Client: It makes me sad, but also... I don't know, grateful? Like, I realize how much they love me. But then I feel this pressure to be okay, to not let this affect me so much. I don't want them to worry anymore. It's just... it's a lot to carry.",
+      "Therapist: What do you mean by \"a lot to carry\"?",
+      "Client: It's like... I'm trying to balance being a normal 21-year-old student with this heavy past that most people can't relate to. I want to focus on my studies, hang out with my girlfriend, but then these memories come flooding back. I feel like I'm living two lives sometimes."
+    ],
+    [
+      "Therapist: What do you mean by \"a lot to carry\"?",
+      "Client: It's like... I'm trying to balance being a normal 21-year-old student with this heavy past that most people can't relate to. I want to focus on my studies, hang out with my girlfriend, but then these memories come flooding back. I feel like I'm living two lives sometimes.",
+      "Therapist: How does that impact your daily life?"
+    ],
+    [
+      "Client: It's like... I'm trying to balance being a normal 21-year-old student with this heavy past that most people can't relate to. I want to focus on my studies, hang out with my girlfriend, but then these memories come flooding back. I feel like I'm living two lives sometimes.",
+      "Therapist: How does that impact your daily life?",
+      "Client: It's exhausting. Some days I can barely focus in class because I'm so on edge. I find myself scanning rooms for exits, even in places I know are safe. And when I'm with my girlfriend... I love her, but sometimes I feel so disconnected. Like she can never really understand this part of me."
+    ],
+    [
+      "Therapist: How does that impact your daily life?",
+      "Client: It's exhausting. Some days I can barely focus in class because I'm so on edge. I find myself scanning rooms for exits, even in places I know are safe. And when I'm with my girlfriend... I love her, but sometimes I feel so disconnected. Like she can never really understand this part of me.",
+      "Therapist: What helps you feel more grounded in those moments?"
+    ],
+    [
+      "Client: It's exhausting. Some days I can barely focus in class because I'm so on edge. I find myself scanning rooms for exits, even in places I know are safe. And when I'm with my girlfriend... I love her, but sometimes I feel so disconnected. Like she can never really understand this part of me.",
+      "Therapist: What helps you feel more grounded in those moments?",
+      "Client: I... I try to remind myself that I'm safe now. Sometimes I'll touch something nearby, just to remind myself where I am. And talking about it, like this... it helps. It's hard, but it makes it feel less like a secret I have to keep."
+    ],
+    [
+      "Therapist: What helps you feel more grounded in those moments?",
+      "Client: I... I try to remind myself that I'm safe now. Sometimes I'll touch something nearby, just to remind myself where I am. And talking about it, like this... it helps. It's hard, but it makes it feel less like a secret I have to keep.",
+      "Therapist: That's a great coping strategy. How are you feeling now compared to when we started?"
+    ],
+    [
+      "Client: I... I try to remind myself that I'm safe now. Sometimes I'll touch something nearby, just to remind myself where I am. And talking about it, like this... it helps. It's hard, but it makes it feel less like a secret I have to keep.",
+      "Therapist: That's a great coping strategy. How are you feeling now compared to when we started?",
+      "Client: A bit calmer, I think. My heart's not racing as much. I still feel kind of raw, you know? Like I've been scrubbed clean but in a painful way. But also... I don't know, maybe a little lighter? Like I've set down some of that weight I was talking about earlier."
+    ],
+    [
+      "Therapist: That's a great coping strategy. How are you feeling now compared to when we started?",
+      "Client: A bit calmer, I think. My heart's not racing as much. I still feel kind of raw, you know? Like I've been scrubbed clean but in a painful way. But also... I don't know, maybe a little lighter? Like I've set down some of that weight I was talking about earlier.",
+      "Therapist: That's good progress. What would you like to focus on next time?"
+    ],
+    [
+      "Client: A bit calmer, I think. My heart's not racing as much. I still feel kind of raw, you know? Like I've been scrubbed clean but in a painful way. But also... I don't know, maybe a little lighter? Like I've set down some of that weight I was talking about earlier.",
+      "Therapist: That's good progress. What would you like to focus on next time?",
+      "Client: I think... maybe we could talk more about how to handle those moments when I feel disconnected from people around me? Especially with my girlfriend. I want to be able to open up more, but it's scary."
+    ],
+    [
+      "Therapist: That's good progress. What would you like to focus on next time?",
+      "Client: I think... maybe we could talk more about how to handle those moments when I feel disconnected from people around me? Especially with my girlfriend. I want to be able to open up more, but it's scary.",
+      "Therapist: That's a great topic. We'll explore that next session. How are you feeling about ending for today?"
+    ],
+    [
+      "Client: I think... maybe we could talk more about how to handle those moments when I feel disconnected from people around me? Especially with my girlfriend. I want to be able to open up more, but it's scary.",
+      "Therapist: That's a great topic. We'll explore that next session. How are you feeling about ending for today?",
+      "Client: I'm okay. A bit drained, but... I think this was good. Thank you for listening and... you know, helping me make sense of all this."
+    ],
+    [
+      "Therapist: That's a great topic. We'll explore that next session. How are you feeling about ending for today?",
+      "Client: I'm okay. A bit drained, but... I think this was good. Thank you for listening and... you know, helping me make sense of all this.",
+      "Therapist: You're welcome. Remember to use your coping strategies if you need them. I'll see you next week."
+    ],
+    [
+      "Client: I'm okay. A bit drained, but... I think this was good. Thank you for listening and... you know, helping me make sense of all this.",
+      "Therapist: You're welcome. Remember to use your coping strategies if you need them. I'll see you next week.",
+      "Client: Thanks, doc. See you then."
+    ]
+  ]
+}

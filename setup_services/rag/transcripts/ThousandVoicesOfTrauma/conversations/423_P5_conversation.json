@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, John. How are you feeling today?",
+    "Client: Morning, Doc. I'm... okay, I guess. A bit on edge, to be honest. I know we talked about doing something different today, and it's got me a bit nervous.",
+    "Therapist: Understandable. We'll take it slow. Ready to discuss imaginal exposure?",
+    "Client: I think so. It sounds intimidating, though. Can you explain what exactly we'll be doing?",
+    "Therapist: Of course. It involves revisiting your combat experience in a safe environment. Thoughts?",
+    "Client: (sighs) That sounds... challenging. I've spent years trying not to think about those experiences. Why would we want to bring them up now?",
+    "Therapist: It helps process trauma. Avoidance often prolongs symptoms. Your thoughts?",
+    "Client: I see. I mean, I trust you, Doc. But I'm worried about how I'll react. What if I completely lose it? I've worked hard to keep it together all these years.",
+    "Therapist: Your concern is valid. We'll go at your pace. I'm here to support you.",
+    "Client: Okay, I appreciate that. So, what exactly will happen during this... imaginal exposure? Will I need to close my eyes and relive everything?",
+    "Therapist: You'll describe the event aloud. Eyes open or closed - your choice. Questions?",
+    "Client: That sounds intense. Will you guide me through it? And what if I start to panic or feel overwhelmed?",
+    "Therapist: I'll guide you. We can pause anytime. Your safety is priority. Comfortable?",
+    "Client: I think so. It's scary, but I want to get better. I'm tired of these memories controlling my life. My wife and kids deserve better. I just hope I can handle it.",
+    "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready?",
+    "Client: (takes a deep breath) Okay, I'm ready. Or as ready as I'll ever be. Let's do this. Just... promise you'll be there if things get too intense?",
+    "Therapist: Absolutely. I'm here throughout. Your well-being is my focus. Shall we begin?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, John. How are you feeling today?",
+      "Client: Morning, Doc. I'm... okay, I guess. A bit on edge, to be honest. I know we talked about doing something different today, and it's got me a bit nervous.",
+      "Therapist: Understandable. We'll take it slow. Ready to discuss imaginal exposure?"
+    ],
+    [
+      "Client: Morning, Doc. I'm... okay, I guess. A bit on edge, to be honest. I know we talked about doing something different today, and it's got me a bit nervous.",
+      "Therapist: Understandable. We'll take it slow. Ready to discuss imaginal exposure?",
+      "Client: I think so. It sounds intimidating, though. Can you explain what exactly we'll be doing?"
+    ],
+    [
+      "Therapist: Understandable. We'll take it slow. Ready to discuss imaginal exposure?",
+      "Client: I think so. It sounds intimidating, though. Can you explain what exactly we'll be doing?",
+      "Therapist: Of course. It involves revisiting your combat experience in a safe environment. Thoughts?"
+    ],
+    [
+      "Client: I think so. It sounds intimidating, though. Can you explain what exactly we'll be doing?",
+      "Therapist: Of course. It involves revisiting your combat experience in a safe environment. Thoughts?",
+      "Client: (sighs) That sounds... challenging. I've spent years trying not to think about those experiences. Why would we want to bring them up now?"
+    ],
+    [
+      "Therapist: Of course. It involves revisiting your combat experience in a safe environment. Thoughts?",
+      "Client: (sighs) That sounds... challenging. I've spent years trying not to think about those experiences. Why would we want to bring them up now?",
+      "Therapist: It helps process trauma. Avoidance often prolongs symptoms. Your thoughts?"
+    ],
+    [
+      "Client: (sighs) That sounds... challenging. I've spent years trying not to think about those experiences. Why would we want to bring them up now?",
+      "Therapist: It helps process trauma. Avoidance often prolongs symptoms. Your thoughts?",
+      "Client: I see. I mean, I trust you, Doc. But I'm worried about how I'll react. What if I completely lose it? I've worked hard to keep it together all these years."
+    ],
+    [
+      "Therapist: It helps process trauma. Avoidance often prolongs symptoms. Your thoughts?",
+      "Client: I see. I mean, I trust you, Doc. But I'm worried about how I'll react. What if I completely lose it? I've worked hard to keep it together all these years.",
+      "Therapist: Your concern is valid. We'll go at your pace. I'm here to support you."
+    ],
+    [
+      "Client: I see. I mean, I trust you, Doc. But I'm worried about how I'll react. What if I completely lose it? I've worked hard to keep it together all these years.",
+      "Therapist: Your concern is valid. We'll go at your pace. I'm here to support you.",
+      "Client: Okay, I appreciate that. So, what exactly will happen during this... imaginal exposure? Will I need to close my eyes and relive everything?"
+    ],
+    [
+      "Therapist: Your concern is valid. We'll go at your pace. I'm here to support you.",
+      "Client: Okay, I appreciate that. So, what exactly will happen during this... imaginal exposure? Will I need to close my eyes and relive everything?",
+      "Therapist: You'll describe the event aloud. Eyes open or closed - your choice. Questions?"
+    ],
+    [
+      "Client: Okay, I appreciate that. So, what exactly will happen during this... imaginal exposure? Will I need to close my eyes and relive everything?",
+      "Therapist: You'll describe the event aloud. Eyes open or closed - your choice. Questions?",
+      "Client: That sounds intense. Will you guide me through it? And what if I start to panic or feel overwhelmed?"
+    ],
+    [
+      "Therapist: You'll describe the event aloud. Eyes open or closed - your choice. Questions?",
+      "Client: That sounds intense. Will you guide me through it? And what if I start to panic or feel overwhelmed?",
+      "Therapist: I'll guide you. We can pause anytime. Your safety is priority. Comfortable?"
+    ],
+    [
+      "Client: That sounds intense. Will you guide me through it? And what if I start to panic or feel overwhelmed?",
+      "Therapist: I'll guide you. We can pause anytime. Your safety is priority. Comfortable?",
+      "Client: I think so. It's scary, but I want to get better. I'm tired of these memories controlling my life. My wife and kids deserve better. I just hope I can handle it."
+    ],
+    [
+      "Therapist: I'll guide you. We can pause anytime. Your safety is priority. Comfortable?",
+      "Client: I think so. It's scary, but I want to get better. I'm tired of these memories controlling my life. My wife and kids deserve better. I just hope I can handle it.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready?"
+    ],
+    [
+      "Client: I think so. It's scary, but I want to get better. I'm tired of these memories controlling my life. My wife and kids deserve better. I just hope I can handle it.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready?",
+      "Client: (takes a deep breath) Okay, I'm ready. Or as ready as I'll ever be. Let's do this. Just... promise you'll be there if things get too intense?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready?",
+      "Client: (takes a deep breath) Okay, I'm ready. Or as ready as I'll ever be. Let's do this. Just... promise you'll be there if things get too intense?",
+      "Therapist: Absolutely. I'm here throughout. Your well-being is my focus. Shall we begin?"
+    ]
+  ]
+}

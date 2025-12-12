@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that hostage situation... it brought back so many memories I've tried to forget. My heart's still racing a bit.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The fear. The absolute terror of not knowing if I'd make it out alive. I could almost smell the gunpowder again, hear the shouting. It's like... like I was right back there in that bank, helpless and trapped.",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... intense. Harder than I expected. I thought after all these years, it wouldn't affect me so much. But I felt that same panic rising in my chest. My hands were shaking. I... I almost wanted to stop, to run away from the memory.",
+    "Therapist: You showed great courage continuing. How does this experience relate to your daily life?",
+    "Client: I... I guess it explains a lot. Why I'm always on edge, why I avoid crowded places. It's like... like I'm still waiting for something bad to happen. Always looking over my shoulder, you know?",
+    "Therapist: That makes sense. What did you learn about yourself today?",
+    "Client: I realized I'm stronger than I thought. I survived that day, and I survived reliving it just now. Maybe... maybe I can start facing other things I've been avoiding too.",
+    "Therapist: That's a powerful insight. How might you apply this moving forward?",
+    "Client: Well, I've been avoiding my grandkids' school events because of the crowds. But maybe... maybe I could try attending one. Start small, you know? Perhaps their next class presentation.",
+    "Therapist: That sounds like a great step. How are you feeling about our session overall?",
+    "Client: It was tough, really tough. But... I feel a bit lighter somehow. Like I've started to unpack a heavy bag I've been carrying for years. It's scary, but... maybe there's hope, you know?",
+    "Therapist: Your progress is commendable. What would you like to focus on next time?",
+    "Client: I think... I think I'd like to explore more about how this trauma has affected my relationships. Especially with my ex-wife and kids. There's so much I've kept bottled up.",
+    "Therapist: That's a valuable area to explore. Any final thoughts before we wrap up?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but... I think I'm finally ready to face these demons. One step at a time, right?",
+    "Therapist: Absolutely. You've taken a big step today. We'll continue at your pace."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that hostage situation... it brought back so many memories I've tried to forget. My heart's still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that hostage situation... it brought back so many memories I've tried to forget. My heart's still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The fear. The absolute terror of not knowing if I'd make it out alive. I could almost smell the gunpowder again, hear the shouting. It's like... like I was right back there in that bank, helpless and trapped."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The fear. The absolute terror of not knowing if I'd make it out alive. I could almost smell the gunpowder again, hear the shouting. It's like... like I was right back there in that bank, helpless and trapped.",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The fear. The absolute terror of not knowing if I'd make it out alive. I could almost smell the gunpowder again, hear the shouting. It's like... like I was right back there in that bank, helpless and trapped.",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. Harder than I expected. I thought after all these years, it wouldn't affect me so much. But I felt that same panic rising in my chest. My hands were shaking. I... I almost wanted to stop, to run away from the memory."
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. Harder than I expected. I thought after all these years, it wouldn't affect me so much. But I felt that same panic rising in my chest. My hands were shaking. I... I almost wanted to stop, to run away from the memory.",
+      "Therapist: You showed great courage continuing. How does this experience relate to your daily life?"
+    ],
+    [
+      "Client: It was... intense. Harder than I expected. I thought after all these years, it wouldn't affect me so much. But I felt that same panic rising in my chest. My hands were shaking. I... I almost wanted to stop, to run away from the memory.",
+      "Therapist: You showed great courage continuing. How does this experience relate to your daily life?",
+      "Client: I... I guess it explains a lot. Why I'm always on edge, why I avoid crowded places. It's like... like I'm still waiting for something bad to happen. Always looking over my shoulder, you know?"
+    ],
+    [
+      "Therapist: You showed great courage continuing. How does this experience relate to your daily life?",
+      "Client: I... I guess it explains a lot. Why I'm always on edge, why I avoid crowded places. It's like... like I'm still waiting for something bad to happen. Always looking over my shoulder, you know?",
+      "Therapist: That makes sense. What did you learn about yourself today?"
+    ],
+    [
+      "Client: I... I guess it explains a lot. Why I'm always on edge, why I avoid crowded places. It's like... like I'm still waiting for something bad to happen. Always looking over my shoulder, you know?",
+      "Therapist: That makes sense. What did you learn about yourself today?",
+      "Client: I realized I'm stronger than I thought. I survived that day, and I survived reliving it just now. Maybe... maybe I can start facing other things I've been avoiding too."
+    ],
+    [
+      "Therapist: That makes sense. What did you learn about yourself today?",
+      "Client: I realized I'm stronger than I thought. I survived that day, and I survived reliving it just now. Maybe... maybe I can start facing other things I've been avoiding too.",
+      "Therapist: That's a powerful insight. How might you apply this moving forward?"
+    ],
+    [
+      "Client: I realized I'm stronger than I thought. I survived that day, and I survived reliving it just now. Maybe... maybe I can start facing other things I've been avoiding too.",
+      "Therapist: That's a powerful insight. How might you apply this moving forward?",
+      "Client: Well, I've been avoiding my grandkids' school events because of the crowds. But maybe... maybe I could try attending one. Start small, you know? Perhaps their next class presentation."
+    ],
+    [
+      "Therapist: That's a powerful insight. How might you apply this moving forward?",
+      "Client: Well, I've been avoiding my grandkids' school events because of the crowds. But maybe... maybe I could try attending one. Start small, you know? Perhaps their next class presentation.",
+      "Therapist: That sounds like a great step. How are you feeling about our session overall?"
+    ],
+    [
+      "Client: Well, I've been avoiding my grandkids' school events because of the crowds. But maybe... maybe I could try attending one. Start small, you know? Perhaps their next class presentation.",
+      "Therapist: That sounds like a great step. How are you feeling about our session overall?",
+      "Client: It was tough, really tough. But... I feel a bit lighter somehow. Like I've started to unpack a heavy bag I've been carrying for years. It's scary, but... maybe there's hope, you know?"
+    ],
+    [
+      "Therapist: That sounds like a great step. How are you feeling about our session overall?",
+      "Client: It was tough, really tough. But... I feel a bit lighter somehow. Like I've started to unpack a heavy bag I've been carrying for years. It's scary, but... maybe there's hope, you know?",
+      "Therapist: Your progress is commendable. What would you like to focus on next time?"
+    ],
+    [
+      "Client: It was tough, really tough. But... I feel a bit lighter somehow. Like I've started to unpack a heavy bag I've been carrying for years. It's scary, but... maybe there's hope, you know?",
+      "Therapist: Your progress is commendable. What would you like to focus on next time?",
+      "Client: I think... I think I'd like to explore more about how this trauma has affected my relationships. Especially with my ex-wife and kids. There's so much I've kept bottled up."
+    ],
+    [
+      "Therapist: Your progress is commendable. What would you like to focus on next time?",
+      "Client: I think... I think I'd like to explore more about how this trauma has affected my relationships. Especially with my ex-wife and kids. There's so much I've kept bottled up.",
+      "Therapist: That's a valuable area to explore. Any final thoughts before we wrap up?"
+    ],
+    [
+      "Client: I think... I think I'd like to explore more about how this trauma has affected my relationships. Especially with my ex-wife and kids. There's so much I've kept bottled up.",
+      "Therapist: That's a valuable area to explore. Any final thoughts before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but... I think I'm finally ready to face these demons. One step at a time, right?"
+    ],
+    [
+      "Therapist: That's a valuable area to explore. Any final thoughts before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but... I think I'm finally ready to face these demons. One step at a time, right?",
+      "Therapist: Absolutely. You've taken a big step today. We'll continue at your pace."
+    ]
+  ]
+}

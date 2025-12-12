@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I've been thinking a lot about what we discussed last time, about the cyberbullying incident. It's been hard to shake off those memories.",
+    "Therapist: You're very brave for confronting this. Shall we begin the exposure exercise?",
+    "Client: Yes, I think I'm ready. Though I'm feeling a bit anxious already.",
+    "Therapist: That's normal. Take a deep breath. When you're ready, describe the incident.",
+    "Client: Okay... It was about three months ago. I had posted a photo of myself on social media, just a casual selfie. At first, everything seemed fine, but then...",
+    "Therapist: You're doing well. Continue.",
+    "Client: The comments started coming in. At first, they were just a few negative ones, but then it snowballed. People I didn't even know were calling me ugly, fat, worthless. Someone even photoshopped my picture to make me look... grotesque.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: It's hard... I remember feeling my heart racing, my hands shaking as I scrolled through the comments. I couldn't believe how cruel people could be. I felt so exposed, so vulnerable.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: I tried to delete the post, but screenshots were already circulating. It felt like I couldn't escape it. My phone kept buzzing with notifications, each one a new insult or threat. I remember curling up on my bed, just sobbing uncontrollably.",
+    "Therapist: It's okay to feel those emotions. You're doing great.",
+    "Client: I felt so alone, so humiliated. I couldn't bring myself to tell anyone what was happening. I was afraid they'd judge me or tell me I was overreacting. The worst part was, some of the comments were from people I thought were my friends.",
+    "Therapist: That must have been incredibly painful. You're very brave for sharing this.",
+    "Client: It was. I... I started having panic attacks. I couldn't sleep, couldn't eat. Every time my phone buzzed, I'd feel this wave of dread wash over me. I became paranoid, thinking everyone was laughing at me behind my back.",
+    "Therapist: You're doing an excellent job describing your experience. How are you feeling right now?",
+    "Client: I'm... I'm shaking a little. My heart's beating fast. But I think I can continue.",
+    "Therapist: Take a moment if you need to. You're in control here.",
+    "Client: Thank you. It's just... reliving it brings back all those feelings of shame and helplessness. I ended up deactivating all my social media accounts, but the damage was already done. I felt like I couldn't trust anyone anymore.",
+    "Therapist: It's understandable to feel that way. You're showing incredible strength.",
+    "Client: The worst part was how it affected my daily life. I became afraid to leave my house, worried that people would recognize me from the photos. I lost my job because I couldn't bring myself to go to work. It felt like my whole life had been destroyed by one innocent photo.",
+    "Therapist: You're navigating through this memory impressively. How are you feeling now?",
+    "Client: It's... it's intense. I can feel my chest tightening, but I'm trying to breathe through it. It's hard not to get caught up in those feelings of despair again.",
+    "Therapist: You're doing an amazing job. Remember, you're here now, you're safe.",
+    "Client: Thank you. It helps to hear that. I think... I think what hurt the most was feeling like I had no control over the situation. Once those comments and altered photos were out there, I couldn't take them back. I felt so powerless.",
+    "Therapist: That's a common feeling in these situations. You're handling it well.",
+    "Client: I started having nightmares about it. In my dreams, I'd be standing in a crowded room, and everyone would be pointing and laughing at me. I'd try to run, but I couldn't move. I'd wake up in a cold sweat, feeling just as trapped as I did in the dream.",
+    "Therapist: You're very brave for confronting these memories. How are you feeling right now?",
+    "Client: I'm... I'm okay. It's hard, but I think talking about it is helping. It doesn't feel quite as overwhelming as it did before.",
+    "Therapist: That's excellent progress. You should be proud of yourself.",
+    "Client: Thank you. I think... I think I'm starting to realize that those people who said those horrible things, they don't define me. Their words were cruel, but they don't determine my worth.",
+    "Therapist: That's a powerful realization. You're showing great insight.",
+    "Client: It's still hard, though. Sometimes I catch myself hesitating before I post anything online, or second-guessing my appearance. But I'm trying to remind myself that I'm more than what others think of me.",
+    "Therapist: That's an important step. You're doing really well.",
+    "Client: I think... I think I'm ready to stop for now. This has been intense, but I feel like I've made some progress.",
+    "Therapist: You've done an incredible job today, Sarah. How are you feeling as we wrap up?",
+    "Client: I feel... drained, but also a bit lighter. Like I've let go of some of the weight I've been carrying. Thank you for guiding me through this.",
+    "Therapist: You're very welcome. You've shown remarkable courage today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about the cyberbullying incident. It's been hard to shake off those memories."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about the cyberbullying incident. It's been hard to shake off those memories.",
+      "Therapist: You're very brave for confronting this. Shall we begin the exposure exercise?"
+    ],
+    [
+      "Client: Thank you. I've been thinking a lot about what we discussed last time, about the cyberbullying incident. It's been hard to shake off those memories.",
+      "Therapist: You're very brave for confronting this. Shall we begin the exposure exercise?",
+      "Client: Yes, I think I'm ready. Though I'm feeling a bit anxious already."
+    ],
+    [
+      "Therapist: You're very brave for confronting this. Shall we begin the exposure exercise?",
+      "Client: Yes, I think I'm ready. Though I'm feeling a bit anxious already.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the incident."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Though I'm feeling a bit anxious already.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the incident.",
+      "Client: Okay... It was about three months ago. I had posted a photo of myself on social media, just a casual selfie. At first, everything seemed fine, but then..."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the incident.",
+      "Client: Okay... It was about three months ago. I had posted a photo of myself on social media, just a casual selfie. At first, everything seemed fine, but then...",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Okay... It was about three months ago. I had posted a photo of myself on social media, just a casual selfie. At first, everything seemed fine, but then...",
+      "Therapist: You're doing well. Continue.",
+      "Client: The comments started coming in. At first, they were just a few negative ones, but then it snowballed. People I didn't even know were calling me ugly, fat, worthless. Someone even photoshopped my picture to make me look... grotesque."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The comments started coming in. At first, they were just a few negative ones, but then it snowballed. People I didn't even know were calling me ugly, fat, worthless. Someone even photoshopped my picture to make me look... grotesque.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: The comments started coming in. At first, they were just a few negative ones, but then it snowballed. People I didn't even know were calling me ugly, fat, worthless. Someone even photoshopped my picture to make me look... grotesque.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard... I remember feeling my heart racing, my hands shaking as I scrolled through the comments. I couldn't believe how cruel people could be. I felt so exposed, so vulnerable."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard... I remember feeling my heart racing, my hands shaking as I scrolled through the comments. I couldn't believe how cruel people could be. I felt so exposed, so vulnerable.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: It's hard... I remember feeling my heart racing, my hands shaking as I scrolled through the comments. I couldn't believe how cruel people could be. I felt so exposed, so vulnerable.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I tried to delete the post, but screenshots were already circulating. It felt like I couldn't escape it. My phone kept buzzing with notifications, each one a new insult or threat. I remember curling up on my bed, just sobbing uncontrollably."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I tried to delete the post, but screenshots were already circulating. It felt like I couldn't escape it. My phone kept buzzing with notifications, each one a new insult or threat. I remember curling up on my bed, just sobbing uncontrollably.",
+      "Therapist: It's okay to feel those emotions. You're doing great."
+    ],
+    [
+      "Client: I tried to delete the post, but screenshots were already circulating. It felt like I couldn't escape it. My phone kept buzzing with notifications, each one a new insult or threat. I remember curling up on my bed, just sobbing uncontrollably.",
+      "Therapist: It's okay to feel those emotions. You're doing great.",
+      "Client: I felt so alone, so humiliated. I couldn't bring myself to tell anyone what was happening. I was afraid they'd judge me or tell me I was overreacting. The worst part was, some of the comments were from people I thought were my friends."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're doing great.",
+      "Client: I felt so alone, so humiliated. I couldn't bring myself to tell anyone what was happening. I was afraid they'd judge me or tell me I was overreacting. The worst part was, some of the comments were from people I thought were my friends.",
+      "Therapist: That must have been incredibly painful. You're very brave for sharing this."
+    ],
+    [
+      "Client: I felt so alone, so humiliated. I couldn't bring myself to tell anyone what was happening. I was afraid they'd judge me or tell me I was overreacting. The worst part was, some of the comments were from people I thought were my friends.",
+      "Therapist: That must have been incredibly painful. You're very brave for sharing this.",
+      "Client: It was. I... I started having panic attacks. I couldn't sleep, couldn't eat. Every time my phone buzzed, I'd feel this wave of dread wash over me. I became paranoid, thinking everyone was laughing at me behind my back."
+    ],
+    [
+      "Therapist: That must have been incredibly painful. You're very brave for sharing this.",
+      "Client: It was. I... I started having panic attacks. I couldn't sleep, couldn't eat. Every time my phone buzzed, I'd feel this wave of dread wash over me. I became paranoid, thinking everyone was laughing at me behind my back.",
+      "Therapist: You're doing an excellent job describing your experience. How are you feeling right now?"
+    ],
+    [
+      "Client: It was. I... I started having panic attacks. I couldn't sleep, couldn't eat. Every time my phone buzzed, I'd feel this wave of dread wash over me. I became paranoid, thinking everyone was laughing at me behind my back.",
+      "Therapist: You're doing an excellent job describing your experience. How are you feeling right now?",
+      "Client: I'm... I'm shaking a little. My heart's beating fast. But I think I can continue."
+    ],
+    [
+      "Therapist: You're doing an excellent job describing your experience. How are you feeling right now?",
+      "Client: I'm... I'm shaking a little. My heart's beating fast. But I think I can continue.",
+      "Therapist: Take a moment if you need to. You're in control here."
+    ],
+    [
+      "Client: I'm... I'm shaking a little. My heart's beating fast. But I think I can continue.",
+      "Therapist: Take a moment if you need to. You're in control here.",
+      "Client: Thank you. It's just... reliving it brings back all those feelings of shame and helplessness. I ended up deactivating all my social media accounts, but the damage was already done. I felt like I couldn't trust anyone anymore."
+    ],
+    [
+      "Therapist: Take a moment if you need to. You're in control here.",
+      "Client: Thank you. It's just... reliving it brings back all those feelings of shame and helplessness. I ended up deactivating all my social media accounts, but the damage was already done. I felt like I couldn't trust anyone anymore.",
+      "Therapist: It's understandable to feel that way. You're showing incredible strength."
+    ],
+    [
+      "Client: Thank you. It's just... reliving it brings back all those feelings of shame and helplessness. I ended up deactivating all my social media accounts, but the damage was already done. I felt like I couldn't trust anyone anymore.",
+      "Therapist: It's understandable to feel that way. You're showing incredible strength.",
+      "Client: The worst part was how it affected my daily life. I became afraid to leave my house, worried that people would recognize me from the photos. I lost my job because I couldn't bring myself to go to work. It felt like my whole life had been destroyed by one innocent photo."
+    ],
+    [
+      "Therapist: It's understandable to feel that way. You're showing incredible strength.",
+      "Client: The worst part was how it affected my daily life. I became afraid to leave my house, worried that people would recognize me from the photos. I lost my job because I couldn't bring myself to go to work. It felt like my whole life had been destroyed by one innocent photo.",
+      "Therapist: You're navigating through this memory impressively. How are you feeling now?"
+    ],
+    [
+      "Client: The worst part was how it affected my daily life. I became afraid to leave my house, worried that people would recognize me from the photos. I lost my job because I couldn't bring myself to go to work. It felt like my whole life had been destroyed by one innocent photo.",
+      "Therapist: You're navigating through this memory impressively. How are you feeling now?",
+      "Client: It's... it's intense. I can feel my chest tightening, but I'm trying to breathe through it. It's hard not to get caught up in those feelings of despair again."
+    ],
+    [
+      "Therapist: You're navigating through this memory impressively. How are you feeling now?",
+      "Client: It's... it's intense. I can feel my chest tightening, but I'm trying to breathe through it. It's hard not to get caught up in those feelings of despair again.",
+      "Therapist: You're doing an amazing job. Remember, you're here now, you're safe."
+    ],
+    [
+      "Client: It's... it's intense. I can feel my chest tightening, but I'm trying to breathe through it. It's hard not to get caught up in those feelings of despair again.",
+      "Therapist: You're doing an amazing job. Remember, you're here now, you're safe.",
+      "Client: Thank you. It helps to hear that. I think... I think what hurt the most was feeling like I had no control over the situation. Once those comments and altered photos were out there, I couldn't take them back. I felt so powerless."
+    ],
+    [
+      "Therapist: You're doing an amazing job. Remember, you're here now, you're safe.",
+      "Client: Thank you. It helps to hear that. I think... I think what hurt the most was feeling like I had no control over the situation. Once those comments and altered photos were out there, I couldn't take them back. I felt so powerless.",
+      "Therapist: That's a common feeling in these situations. You're handling it well."
+    ],
+    [
+      "Client: Thank you. It helps to hear that. I think... I think what hurt the most was feeling like I had no control over the situation. Once those comments and altered photos were out there, I couldn't take them back. I felt so powerless.",
+      "Therapist: That's a common feeling in these situations. You're handling it well.",
+      "Client: I started having nightmares about it. In my dreams, I'd be standing in a crowded room, and everyone would be pointing and laughing at me. I'd try to run, but I couldn't move. I'd wake up in a cold sweat, feeling just as trapped as I did in the dream."
+    ],
+    [
+      "Therapist: That's a common feeling in these situations. You're handling it well.",
+      "Client: I started having nightmares about it. In my dreams, I'd be standing in a crowded room, and everyone would be pointing and laughing at me. I'd try to run, but I couldn't move. I'd wake up in a cold sweat, feeling just as trapped as I did in the dream.",
+      "Therapist: You're very brave for confronting these memories. How are you feeling right now?"
+    ],
+    [
+      "Client: I started having nightmares about it. In my dreams, I'd be standing in a crowded room, and everyone would be pointing and laughing at me. I'd try to run, but I couldn't move. I'd wake up in a cold sweat, feeling just as trapped as I did in the dream.",
+      "Therapist: You're very brave for confronting these memories. How are you feeling right now?",
+      "Client: I'm... I'm okay. It's hard, but I think talking about it is helping. It doesn't feel quite as overwhelming as it did before."
+    ],
+    [
+      "Therapist: You're very brave for confronting these memories. How are you feeling right now?",
+      "Client: I'm... I'm okay. It's hard, but I think talking about it is helping. It doesn't feel quite as overwhelming as it did before.",
+      "Therapist: That's excellent progress. You should be proud of yourself."
+    ],
+    [
+      "Client: I'm... I'm okay. It's hard, but I think talking about it is helping. It doesn't feel quite as overwhelming as it did before.",
+      "Therapist: That's excellent progress. You should be proud of yourself.",
+      "Client: Thank you. I think... I think I'm starting to realize that those people who said those horrible things, they don't define me. Their words were cruel, but they don't determine my worth."
+    ],
+    [
+      "Therapist: That's excellent progress. You should be proud of yourself.",
+      "Client: Thank you. I think... I think I'm starting to realize that those people who said those horrible things, they don't define me. Their words were cruel, but they don't determine my worth.",
+      "Therapist: That's a powerful realization. You're showing great insight."
+    ],
+    [
+      "Client: Thank you. I think... I think I'm starting to realize that those people who said those horrible things, they don't define me. Their words were cruel, but they don't determine my worth.",
+      "Therapist: That's a powerful realization. You're showing great insight.",
+      "Client: It's still hard, though. Sometimes I catch myself hesitating before I post anything online, or second-guessing my appearance. But I'm trying to remind myself that I'm more than what others think of me."
+    ],
+    [
+      "Therapist: That's a powerful realization. You're showing great insight.",
+      "Client: It's still hard, though. Sometimes I catch myself hesitating before I post anything online, or second-guessing my appearance. But I'm trying to remind myself that I'm more than what others think of me.",
+      "Therapist: That's an important step. You're doing really well."
+    ],
+    [
+      "Client: It's still hard, though. Sometimes I catch myself hesitating before I post anything online, or second-guessing my appearance. But I'm trying to remind myself that I'm more than what others think of me.",
+      "Therapist: That's an important step. You're doing really well.",
+      "Client: I think... I think I'm ready to stop for now. This has been intense, but I feel like I've made some progress."
+    ],
+    [
+      "Therapist: That's an important step. You're doing really well.",
+      "Client: I think... I think I'm ready to stop for now. This has been intense, but I feel like I've made some progress.",
+      "Therapist: You've done an incredible job today, Sarah. How are you feeling as we wrap up?"
+    ],
+    [
+      "Client: I think... I think I'm ready to stop for now. This has been intense, but I feel like I've made some progress.",
+      "Therapist: You've done an incredible job today, Sarah. How are you feeling as we wrap up?",
+      "Client: I feel... drained, but also a bit lighter. Like I've let go of some of the weight I've been carrying. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: You've done an incredible job today, Sarah. How are you feeling as we wrap up?",
+      "Client: I feel... drained, but also a bit lighter. Like I've let go of some of the weight I've been carrying. Thank you for guiding me through this.",
+      "Therapist: You're very welcome. You've shown remarkable courage today."
+    ]
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+    "Client: Okay... I'm back there. It's dark, and I can hear the sounds of people shuffling around in the refugee camp. The air is thick with tension and fear.",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: Um, probably about a 4 out of 10.",
+    "Therapist: Alright. Continue describing what you're experiencing.",
+    "Client: I'm in this small tent, and I can feel my heart racing. I'm trying to stay quiet, but I'm so scared. I know he's out there, looking for me. I can almost smell his breath...",
+    "Therapist: Stay with it. How are you feeling physically?",
+    "Client: My palms are sweaty, and my stomach is in knots. I feel like I can't breathe properly.",
+    "Therapist: SUDS level now?",
+    "Client: It's... it's gone up to a 7.",
+    "Therapist: That's okay. You're doing well.",
+    "Client: He's... he's coming closer. I can hear his footsteps. Oh god, I don't want to relive this...",
+    "Therapist: I know it's difficult. You're safe here. Keep going.",
+    "Client: He's... he's in the tent now. I can feel his hands on me. I want to scream, but I'm frozen. I can't move. I can't breathe. It's happening all over again...",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9. I can't do this. I need to stop.",
+    "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+    "Client: (breathing heavily) Okay... okay. I'm trying to remind myself it's not real.",
+    "Therapist: Good. What do you notice now?",
+    "Client: I... I can feel my body shaking. But I'm also aware of the chair I'm sitting in. It helps ground me a bit.",
+    "Therapist: Excellent. SUDS level?",
+    "Client: It's gone down a bit. Maybe a 7 now.",
+    "Therapist: That's progress. Let's continue.",
+    "Client: I'm back in the memory. He's... he's leaving now. I feel so dirty, so ashamed. I want to disappear.",
+    "Therapist: Those feelings are normal. You're doing great.",
+    "Client: I can hear other people outside. I'm afraid they'll know what happened. I feel so alone.",
+    "Therapist: SUDS level?",
+    "Client: It's about a 6 now. I feel drained, but less panicked.",
+    "Therapist: You're processing this well. How are you feeling now?",
+    "Client: I'm... I'm exhausted. But I also feel a bit lighter, like I've let something out.",
+    "Therapist: That's common. Let's end here. Open your eyes when you're ready.",
+    "Client: (opens eyes slowly) Wow, that was intense. But... I got through it.",
+    "Therapist: You did excellently. How are you feeling overall?",
+    "Client: Tired, but... okay. Better than I expected, actually.",
+    "Therapist: That's great. We'll process this more next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm back there. It's dark, and I can hear the sounds of people shuffling around in the refugee camp. The air is thick with tension and fear."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm back there. It's dark, and I can hear the sounds of people shuffling around in the refugee camp. The air is thick with tension and fear.",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back there. It's dark, and I can hear the sounds of people shuffling around in the refugee camp. The air is thick with tension and fear.",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably about a 4 out of 10."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably about a 4 out of 10.",
+      "Therapist: Alright. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, probably about a 4 out of 10.",
+      "Therapist: Alright. Continue describing what you're experiencing.",
+      "Client: I'm in this small tent, and I can feel my heart racing. I'm trying to stay quiet, but I'm so scared. I know he's out there, looking for me. I can almost smell his breath..."
+    ],
+    [
+      "Therapist: Alright. Continue describing what you're experiencing.",
+      "Client: I'm in this small tent, and I can feel my heart racing. I'm trying to stay quiet, but I'm so scared. I know he's out there, looking for me. I can almost smell his breath...",
+      "Therapist: Stay with it. How are you feeling physically?"
+    ],
+    [
+      "Client: I'm in this small tent, and I can feel my heart racing. I'm trying to stay quiet, but I'm so scared. I know he's out there, looking for me. I can almost smell his breath...",
+      "Therapist: Stay with it. How are you feeling physically?",
+      "Client: My palms are sweaty, and my stomach is in knots. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: Stay with it. How are you feeling physically?",
+      "Client: My palms are sweaty, and my stomach is in knots. I feel like I can't breathe properly.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: My palms are sweaty, and my stomach is in knots. I feel like I can't breathe properly.",
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone up to a 7."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone up to a 7.",
+      "Therapist: That's okay. You're doing well."
+    ],
+    [
+      "Client: It's... it's gone up to a 7.",
+      "Therapist: That's okay. You're doing well.",
+      "Client: He's... he's coming closer. I can hear his footsteps. Oh god, I don't want to relive this..."
+    ],
+    [
+      "Therapist: That's okay. You're doing well.",
+      "Client: He's... he's coming closer. I can hear his footsteps. Oh god, I don't want to relive this...",
+      "Therapist: I know it's difficult. You're safe here. Keep going."
+    ],
+    [
+      "Client: He's... he's coming closer. I can hear his footsteps. Oh god, I don't want to relive this...",
+      "Therapist: I know it's difficult. You're safe here. Keep going.",
+      "Client: He's... he's in the tent now. I can feel his hands on me. I want to scream, but I'm frozen. I can't move. I can't breathe. It's happening all over again..."
+    ],
+    [
+      "Therapist: I know it's difficult. You're safe here. Keep going.",
+      "Client: He's... he's in the tent now. I can feel his hands on me. I want to scream, but I'm frozen. I can't move. I can't breathe. It's happening all over again...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: He's... he's in the tent now. I can feel his hands on me. I want to scream, but I'm frozen. I can't move. I can't breathe. It's happening all over again...",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I can't do this. I need to stop."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I can't do this. I need to stop.",
+      "Therapist: Take a deep breath. You're safe here. This is just a memory."
+    ],
+    [
+      "Client: It's... it's a 9. I can't do this. I need to stop.",
+      "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+      "Client: (breathing heavily) Okay... okay. I'm trying to remind myself it's not real."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+      "Client: (breathing heavily) Okay... okay. I'm trying to remind myself it's not real.",
+      "Therapist: Good. What do you notice now?"
+    ],
+    [
+      "Client: (breathing heavily) Okay... okay. I'm trying to remind myself it's not real.",
+      "Therapist: Good. What do you notice now?",
+      "Client: I... I can feel my body shaking. But I'm also aware of the chair I'm sitting in. It helps ground me a bit."
+    ],
+    [
+      "Therapist: Good. What do you notice now?",
+      "Client: I... I can feel my body shaking. But I'm also aware of the chair I'm sitting in. It helps ground me a bit.",
+      "Therapist: Excellent. SUDS level?"
+    ],
+    [
+      "Client: I... I can feel my body shaking. But I'm also aware of the chair I'm sitting in. It helps ground me a bit.",
+      "Therapist: Excellent. SUDS level?",
+      "Client: It's gone down a bit. Maybe a 7 now."
+    ],
+    [
+      "Therapist: Excellent. SUDS level?",
+      "Client: It's gone down a bit. Maybe a 7 now.",
+      "Therapist: That's progress. Let's continue."
+    ],
+    [
+      "Client: It's gone down a bit. Maybe a 7 now.",
+      "Therapist: That's progress. Let's continue.",
+      "Client: I'm back in the memory. He's... he's leaving now. I feel so dirty, so ashamed. I want to disappear."
+    ],
+    [
+      "Therapist: That's progress. Let's continue.",
+      "Client: I'm back in the memory. He's... he's leaving now. I feel so dirty, so ashamed. I want to disappear.",
+      "Therapist: Those feelings are normal. You're doing great."
+    ],
+    [
+      "Client: I'm back in the memory. He's... he's leaving now. I feel so dirty, so ashamed. I want to disappear.",
+      "Therapist: Those feelings are normal. You're doing great.",
+      "Client: I can hear other people outside. I'm afraid they'll know what happened. I feel so alone."
+    ],
+    [
+      "Therapist: Those feelings are normal. You're doing great.",
+      "Client: I can hear other people outside. I'm afraid they'll know what happened. I feel so alone.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I can hear other people outside. I'm afraid they'll know what happened. I feel so alone.",
+      "Therapist: SUDS level?",
+      "Client: It's about a 6 now. I feel drained, but less panicked."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's about a 6 now. I feel drained, but less panicked.",
+      "Therapist: You're processing this well. How are you feeling now?"
+    ],
+    [
+      "Client: It's about a 6 now. I feel drained, but less panicked.",
+      "Therapist: You're processing this well. How are you feeling now?",
+      "Client: I'm... I'm exhausted. But I also feel a bit lighter, like I've let something out."
+    ],
+    [
+      "Therapist: You're processing this well. How are you feeling now?",
+      "Client: I'm... I'm exhausted. But I also feel a bit lighter, like I've let something out.",
+      "Therapist: That's common. Let's end here. Open your eyes when you're ready."
+    ],
+    [
+      "Client: I'm... I'm exhausted. But I also feel a bit lighter, like I've let something out.",
+      "Therapist: That's common. Let's end here. Open your eyes when you're ready.",
+      "Client: (opens eyes slowly) Wow, that was intense. But... I got through it."
+    ],
+    [
+      "Therapist: That's common. Let's end here. Open your eyes when you're ready.",
+      "Client: (opens eyes slowly) Wow, that was intense. But... I got through it.",
+      "Therapist: You did excellently. How are you feeling overall?"
+    ],
+    [
+      "Client: (opens eyes slowly) Wow, that was intense. But... I got through it.",
+      "Therapist: You did excellently. How are you feeling overall?",
+      "Client: Tired, but... okay. Better than I expected, actually."
+    ],
+    [
+      "Therapist: You did excellently. How are you feeling overall?",
+      "Client: Tired, but... okay. Better than I expected, actually.",
+      "Therapist: That's great. We'll process this more next time."
+    ]
+  ]
+}

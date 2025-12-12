@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Lee. How are you feeling today?",
+    "Client: Good morning, Dr. Johnson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I know we're supposed to talk about my divorce today, but I'm not sure I'm ready.",
+    "Therapist: Take your time. We'll go at your pace.",
+    "Client: Okay... Well, it was about two years ago when my wife told me she wanted a divorce. I remember sitting in our living room, the one we'd shared for over 30 years. She just... she just said it so calmly, like she was talking about the weather. I felt like the ground was disappearing beneath me.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I... I couldn't believe it. We'd been together since college. I thought we were happy. I mean, sure, we had our problems, but doesn't every couple? I asked her why, and she said she'd been unhappy for years. Years! And I never knew. What kind of husband doesn't know his wife is unhappy?",
+    "Therapist: It's okay to feel this way. You're safe here.",
+    "Client: I felt so... so stupid. So blind. And then I got angry. I started yelling, asking her how she could do this to me, to our family. Our kids were grown, but still... it was going to devastate them. I remember my hands were shaking. I couldn't control it.",
+    "Therapist: Stay with that feeling. You're doing great.",
+    "Client: I... I said some things I'm not proud of. I called her selfish, told her she was throwing away our entire life together. But the worst part was, she just sat there, calm as ever. It was like she'd already checked out of our marriage long ago, and I was the last to know.",
+    "Therapist: You're handling this well. Continue.",
+    "Client: I stormed out of the house. I couldn't bear to look at her anymore. I drove around for hours, just... trying to make sense of it all. Everything I thought I knew about my life, my marriage, it all felt like a lie. When I finally came home, she was gone. Left a note saying she was staying with her sister. And that's when it really hit me - this was real. This was happening.",
+    "Therapist: You're being very brave. Keep going.",
+    "Client: The next few weeks were a blur. I couldn't eat, couldn't sleep. I kept replaying our life together in my head, trying to pinpoint where it all went wrong. Was it when the kids left for college? Earlier? Had she ever really loved me? I felt so... so worthless. Like I'd failed at the one thing that mattered most to me.",
+    "Therapist: It's natural to feel that way. You're doing well.",
+    "Client: I... I started drinking. Not heavily at first, just a glass of wine with dinner. But soon it was a bottle. Then two. I'd wake up on the couch, still in my work clothes, surrounded by empty bottles. My kids were worried. They'd call, but I'd ignore them. I was ashamed. I didn't want them to see me like that.",
+    "Therapist: You're being very honest. That's important.",
+    "Client: One night, about a month after she left, I hit rock bottom. I'd drunk so much I could barely stand. I found myself in our bedroom, holding her wedding dress. I don't know why I kept it... sentiment, I guess. And I just... I broke down. I cried like I'd never cried before. It was like all the pain, all the anger, all the confusion just came pouring out.",
+    "Therapist: It's okay to feel emotional. You're safe here.",
+    "Client: I woke up the next morning, still clutching that dress. And I realized... I couldn't go on like this. I was destroying myself, and for what? She had moved on. I needed to as well. That's when I decided to seek help. To try and understand why this happened, and how I could move forward.",
+    "Therapist: You've shown great strength. How do you feel now?",
+    "Client: I... I feel drained. But also... lighter, somehow. Like talking about it has lifted some of the weight off my chest. It still hurts, but... maybe not as much as before.",
+    "Therapist: You've done exceptionally well today. We'll stop here.",
+    "Client: Thank you, Dr. Johnson. I... I think this is helping.",
+    "Therapist: I'm glad to hear that. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Lee. How are you feeling today?",
+      "Client: Good morning, Dr. Johnson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Good morning, Dr. Johnson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I know we're supposed to talk about my divorce today, but I'm not sure I'm ready."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I know we're supposed to talk about my divorce today, but I'm not sure I'm ready.",
+      "Therapist: Take your time. We'll go at your pace."
+    ],
+    [
+      "Client: Thank you. I know we're supposed to talk about my divorce today, but I'm not sure I'm ready.",
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay... Well, it was about two years ago when my wife told me she wanted a divorce. I remember sitting in our living room, the one we'd shared for over 30 years. She just... she just said it so calmly, like she was talking about the weather. I felt like the ground was disappearing beneath me."
+    ],
+    [
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay... Well, it was about two years ago when my wife told me she wanted a divorce. I remember sitting in our living room, the one we'd shared for over 30 years. She just... she just said it so calmly, like she was talking about the weather. I felt like the ground was disappearing beneath me.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... Well, it was about two years ago when my wife told me she wanted a divorce. I remember sitting in our living room, the one we'd shared for over 30 years. She just... she just said it so calmly, like she was talking about the weather. I felt like the ground was disappearing beneath me.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I couldn't believe it. We'd been together since college. I thought we were happy. I mean, sure, we had our problems, but doesn't every couple? I asked her why, and she said she'd been unhappy for years. Years! And I never knew. What kind of husband doesn't know his wife is unhappy?"
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I... I couldn't believe it. We'd been together since college. I thought we were happy. I mean, sure, we had our problems, but doesn't every couple? I asked her why, and she said she'd been unhappy for years. Years! And I never knew. What kind of husband doesn't know his wife is unhappy?",
+      "Therapist: It's okay to feel this way. You're safe here."
+    ],
+    [
+      "Client: I... I couldn't believe it. We'd been together since college. I thought we were happy. I mean, sure, we had our problems, but doesn't every couple? I asked her why, and she said she'd been unhappy for years. Years! And I never knew. What kind of husband doesn't know his wife is unhappy?",
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I felt so... so stupid. So blind. And then I got angry. I started yelling, asking her how she could do this to me, to our family. Our kids were grown, but still... it was going to devastate them. I remember my hands were shaking. I couldn't control it."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I felt so... so stupid. So blind. And then I got angry. I started yelling, asking her how she could do this to me, to our family. Our kids were grown, but still... it was going to devastate them. I remember my hands were shaking. I couldn't control it.",
+      "Therapist: Stay with that feeling. You're doing great."
+    ],
+    [
+      "Client: I felt so... so stupid. So blind. And then I got angry. I started yelling, asking her how she could do this to me, to our family. Our kids were grown, but still... it was going to devastate them. I remember my hands were shaking. I couldn't control it.",
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: I... I said some things I'm not proud of. I called her selfish, told her she was throwing away our entire life together. But the worst part was, she just sat there, calm as ever. It was like she'd already checked out of our marriage long ago, and I was the last to know."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: I... I said some things I'm not proud of. I called her selfish, told her she was throwing away our entire life together. But the worst part was, she just sat there, calm as ever. It was like she'd already checked out of our marriage long ago, and I was the last to know.",
+      "Therapist: You're handling this well. Continue."
+    ],
+    [
+      "Client: I... I said some things I'm not proud of. I called her selfish, told her she was throwing away our entire life together. But the worst part was, she just sat there, calm as ever. It was like she'd already checked out of our marriage long ago, and I was the last to know.",
+      "Therapist: You're handling this well. Continue.",
+      "Client: I stormed out of the house. I couldn't bear to look at her anymore. I drove around for hours, just... trying to make sense of it all. Everything I thought I knew about my life, my marriage, it all felt like a lie. When I finally came home, she was gone. Left a note saying she was staying with her sister. And that's when it really hit me - this was real. This was happening."
+    ],
+    [
+      "Therapist: You're handling this well. Continue.",
+      "Client: I stormed out of the house. I couldn't bear to look at her anymore. I drove around for hours, just... trying to make sense of it all. Everything I thought I knew about my life, my marriage, it all felt like a lie. When I finally came home, she was gone. Left a note saying she was staying with her sister. And that's when it really hit me - this was real. This was happening.",
+      "Therapist: You're being very brave. Keep going."
+    ],
+    [
+      "Client: I stormed out of the house. I couldn't bear to look at her anymore. I drove around for hours, just... trying to make sense of it all. Everything I thought I knew about my life, my marriage, it all felt like a lie. When I finally came home, she was gone. Left a note saying she was staying with her sister. And that's when it really hit me - this was real. This was happening.",
+      "Therapist: You're being very brave. Keep going.",
+      "Client: The next few weeks were a blur. I couldn't eat, couldn't sleep. I kept replaying our life together in my head, trying to pinpoint where it all went wrong. Was it when the kids left for college? Earlier? Had she ever really loved me? I felt so... so worthless. Like I'd failed at the one thing that mattered most to me."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going.",
+      "Client: The next few weeks were a blur. I couldn't eat, couldn't sleep. I kept replaying our life together in my head, trying to pinpoint where it all went wrong. Was it when the kids left for college? Earlier? Had she ever really loved me? I felt so... so worthless. Like I'd failed at the one thing that mattered most to me.",
+      "Therapist: It's natural to feel that way. You're doing well."
+    ],
+    [
+      "Client: The next few weeks were a blur. I couldn't eat, couldn't sleep. I kept replaying our life together in my head, trying to pinpoint where it all went wrong. Was it when the kids left for college? Earlier? Had she ever really loved me? I felt so... so worthless. Like I'd failed at the one thing that mattered most to me.",
+      "Therapist: It's natural to feel that way. You're doing well.",
+      "Client: I... I started drinking. Not heavily at first, just a glass of wine with dinner. But soon it was a bottle. Then two. I'd wake up on the couch, still in my work clothes, surrounded by empty bottles. My kids were worried. They'd call, but I'd ignore them. I was ashamed. I didn't want them to see me like that."
+    ],
+    [
+      "Therapist: It's natural to feel that way. You're doing well.",
+      "Client: I... I started drinking. Not heavily at first, just a glass of wine with dinner. But soon it was a bottle. Then two. I'd wake up on the couch, still in my work clothes, surrounded by empty bottles. My kids were worried. They'd call, but I'd ignore them. I was ashamed. I didn't want them to see me like that.",
+      "Therapist: You're being very honest. That's important."
+    ],
+    [
+      "Client: I... I started drinking. Not heavily at first, just a glass of wine with dinner. But soon it was a bottle. Then two. I'd wake up on the couch, still in my work clothes, surrounded by empty bottles. My kids were worried. They'd call, but I'd ignore them. I was ashamed. I didn't want them to see me like that.",
+      "Therapist: You're being very honest. That's important.",
+      "Client: One night, about a month after she left, I hit rock bottom. I'd drunk so much I could barely stand. I found myself in our bedroom, holding her wedding dress. I don't know why I kept it... sentiment, I guess. And I just... I broke down. I cried like I'd never cried before. It was like all the pain, all the anger, all the confusion just came pouring out."
+    ],
+    [
+      "Therapist: You're being very honest. That's important.",
+      "Client: One night, about a month after she left, I hit rock bottom. I'd drunk so much I could barely stand. I found myself in our bedroom, holding her wedding dress. I don't know why I kept it... sentiment, I guess. And I just... I broke down. I cried like I'd never cried before. It was like all the pain, all the anger, all the confusion just came pouring out.",
+      "Therapist: It's okay to feel emotional. You're safe here."
+    ],
+    [
+      "Client: One night, about a month after she left, I hit rock bottom. I'd drunk so much I could barely stand. I found myself in our bedroom, holding her wedding dress. I don't know why I kept it... sentiment, I guess. And I just... I broke down. I cried like I'd never cried before. It was like all the pain, all the anger, all the confusion just came pouring out.",
+      "Therapist: It's okay to feel emotional. You're safe here.",
+      "Client: I woke up the next morning, still clutching that dress. And I realized... I couldn't go on like this. I was destroying myself, and for what? She had moved on. I needed to as well. That's when I decided to seek help. To try and understand why this happened, and how I could move forward."
+    ],
+    [
+      "Therapist: It's okay to feel emotional. You're safe here.",
+      "Client: I woke up the next morning, still clutching that dress. And I realized... I couldn't go on like this. I was destroying myself, and for what? She had moved on. I needed to as well. That's when I decided to seek help. To try and understand why this happened, and how I could move forward.",
+      "Therapist: You've shown great strength. How do you feel now?"
+    ],
+    [
+      "Client: I woke up the next morning, still clutching that dress. And I realized... I couldn't go on like this. I was destroying myself, and for what? She had moved on. I needed to as well. That's when I decided to seek help. To try and understand why this happened, and how I could move forward.",
+      "Therapist: You've shown great strength. How do you feel now?",
+      "Client: I... I feel drained. But also... lighter, somehow. Like talking about it has lifted some of the weight off my chest. It still hurts, but... maybe not as much as before."
+    ],
+    [
+      "Therapist: You've shown great strength. How do you feel now?",
+      "Client: I... I feel drained. But also... lighter, somehow. Like talking about it has lifted some of the weight off my chest. It still hurts, but... maybe not as much as before.",
+      "Therapist: You've done exceptionally well today. We'll stop here."
+    ],
+    [
+      "Client: I... I feel drained. But also... lighter, somehow. Like talking about it has lifted some of the weight off my chest. It still hurts, but... maybe not as much as before.",
+      "Therapist: You've done exceptionally well today. We'll stop here.",
+      "Client: Thank you, Dr. Johnson. I... I think this is helping."
+    ],
+    [
+      "Therapist: You've done exceptionally well today. We'll stop here.",
+      "Client: Thank you, Dr. Johnson. I... I think this is helping.",
+      "Therapist: I'm glad to hear that. We'll continue next week."
+    ]
+  ]
+}

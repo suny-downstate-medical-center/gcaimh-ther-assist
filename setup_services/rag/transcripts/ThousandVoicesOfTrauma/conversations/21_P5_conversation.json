@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Singh, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving those combat experiences... it's not something I look forward to. I've spent years trying to forget.",
+    "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that bringing up those memories will make things worse. What if I can't handle it? I'm not as young as I used to be, and with my depression... I just don't know if I'm strong enough for this.",
+    "Therapist: Your strength in coming here shows otherwise. How have you coped so far?",
+    "Client: I've mostly tried to keep busy, focus on my family. But the nightmares, they still come. And sometimes, out of nowhere, I'm back there. It's like I never left the battlefield. My wife, she's been so patient, but I know it affects her too.",
+    "Therapist: I see. The goal is to reduce those intrusions. Shall I explain how this helps?",
+    "Client: Yes, please. I need to understand why we're doing this.",
+    "Therapist: It helps by processing the memory, reducing its power over time. Ready to hear more?",
+    "Client: I suppose so. It's just... these memories, they're so vivid. Sometimes I can still smell the gunpowder, hear the screams. It's overwhelming.",
+    "Therapist: That vividness is why this works. We'll face it together, at your pace. Questions?",
+    "Client: What if I panic? Or if it becomes too much?",
+    "Therapist: We can pause anytime. I'll guide you through grounding techniques. More concerns?",
+    "Client: I guess... will this really help? I've lived with this for so long.",
+    "Therapist: Many find relief. It's challenging but effective. Your experiences are unique, though.",
+    "Client: Alright. I trust you, doctor. I've come this far, might as well see it through. What exactly will we be doing?",
+    "Therapist: You'll recount the traumatic event in detail. I'll guide you. Ready to begin?",
+    "Client: As ready as I'll ever be, I suppose. It's strange, you know. I've spent decades trying to forget, and now I'm being asked to remember. But if this is what it takes to find some peace, to be a better husband, a better man... then I'll do it.",
+    "Therapist: Your commitment is admirable. Let's start with a breathing exercise first.",
+    "Client: Okay. I appreciate your guidance, doctor. It means a lot to have someone who understands walk me through this. I just hope... I hope this old soldier can find some peace finally."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Singh, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving those combat experiences... it's not something I look forward to. I've spent years trying to forget.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. I've been dreading this part of the therapy. The idea of reliving those combat experiences... it's not something I look forward to. I've spent years trying to forget.",
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that bringing up those memories will make things worse. What if I can't handle it? I'm not as young as I used to be, and with my depression... I just don't know if I'm strong enough for this."
+    ],
+    [
+      "Therapist: Your apprehension is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that bringing up those memories will make things worse. What if I can't handle it? I'm not as young as I used to be, and with my depression... I just don't know if I'm strong enough for this.",
+      "Therapist: Your strength in coming here shows otherwise. How have you coped so far?"
+    ],
+    [
+      "Client: Well, I worry that bringing up those memories will make things worse. What if I can't handle it? I'm not as young as I used to be, and with my depression... I just don't know if I'm strong enough for this.",
+      "Therapist: Your strength in coming here shows otherwise. How have you coped so far?",
+      "Client: I've mostly tried to keep busy, focus on my family. But the nightmares, they still come. And sometimes, out of nowhere, I'm back there. It's like I never left the battlefield. My wife, she's been so patient, but I know it affects her too."
+    ],
+    [
+      "Therapist: Your strength in coming here shows otherwise. How have you coped so far?",
+      "Client: I've mostly tried to keep busy, focus on my family. But the nightmares, they still come. And sometimes, out of nowhere, I'm back there. It's like I never left the battlefield. My wife, she's been so patient, but I know it affects her too.",
+      "Therapist: I see. The goal is to reduce those intrusions. Shall I explain how this helps?"
+    ],
+    [
+      "Client: I've mostly tried to keep busy, focus on my family. But the nightmares, they still come. And sometimes, out of nowhere, I'm back there. It's like I never left the battlefield. My wife, she's been so patient, but I know it affects her too.",
+      "Therapist: I see. The goal is to reduce those intrusions. Shall I explain how this helps?",
+      "Client: Yes, please. I need to understand why we're doing this."
+    ],
+    [
+      "Therapist: I see. The goal is to reduce those intrusions. Shall I explain how this helps?",
+      "Client: Yes, please. I need to understand why we're doing this.",
+      "Therapist: It helps by processing the memory, reducing its power over time. Ready to hear more?"
+    ],
+    [
+      "Client: Yes, please. I need to understand why we're doing this.",
+      "Therapist: It helps by processing the memory, reducing its power over time. Ready to hear more?",
+      "Client: I suppose so. It's just... these memories, they're so vivid. Sometimes I can still smell the gunpowder, hear the screams. It's overwhelming."
+    ],
+    [
+      "Therapist: It helps by processing the memory, reducing its power over time. Ready to hear more?",
+      "Client: I suppose so. It's just... these memories, they're so vivid. Sometimes I can still smell the gunpowder, hear the screams. It's overwhelming.",
+      "Therapist: That vividness is why this works. We'll face it together, at your pace. Questions?"
+    ],
+    [
+      "Client: I suppose so. It's just... these memories, they're so vivid. Sometimes I can still smell the gunpowder, hear the screams. It's overwhelming.",
+      "Therapist: That vividness is why this works. We'll face it together, at your pace. Questions?",
+      "Client: What if I panic? Or if it becomes too much?"
+    ],
+    [
+      "Therapist: That vividness is why this works. We'll face it together, at your pace. Questions?",
+      "Client: What if I panic? Or if it becomes too much?",
+      "Therapist: We can pause anytime. I'll guide you through grounding techniques. More concerns?"
+    ],
+    [
+      "Client: What if I panic? Or if it becomes too much?",
+      "Therapist: We can pause anytime. I'll guide you through grounding techniques. More concerns?",
+      "Client: I guess... will this really help? I've lived with this for so long."
+    ],
+    [
+      "Therapist: We can pause anytime. I'll guide you through grounding techniques. More concerns?",
+      "Client: I guess... will this really help? I've lived with this for so long.",
+      "Therapist: Many find relief. It's challenging but effective. Your experiences are unique, though."
+    ],
+    [
+      "Client: I guess... will this really help? I've lived with this for so long.",
+      "Therapist: Many find relief. It's challenging but effective. Your experiences are unique, though.",
+      "Client: Alright. I trust you, doctor. I've come this far, might as well see it through. What exactly will we be doing?"
+    ],
+    [
+      "Therapist: Many find relief. It's challenging but effective. Your experiences are unique, though.",
+      "Client: Alright. I trust you, doctor. I've come this far, might as well see it through. What exactly will we be doing?",
+      "Therapist: You'll recount the traumatic event in detail. I'll guide you. Ready to begin?"
+    ],
+    [
+      "Client: Alright. I trust you, doctor. I've come this far, might as well see it through. What exactly will we be doing?",
+      "Therapist: You'll recount the traumatic event in detail. I'll guide you. Ready to begin?",
+      "Client: As ready as I'll ever be, I suppose. It's strange, you know. I've spent decades trying to forget, and now I'm being asked to remember. But if this is what it takes to find some peace, to be a better husband, a better man... then I'll do it."
+    ],
+    [
+      "Therapist: You'll recount the traumatic event in detail. I'll guide you. Ready to begin?",
+      "Client: As ready as I'll ever be, I suppose. It's strange, you know. I've spent decades trying to forget, and now I'm being asked to remember. But if this is what it takes to find some peace, to be a better husband, a better man... then I'll do it.",
+      "Therapist: Your commitment is admirable. Let's start with a breathing exercise first."
+    ],
+    [
+      "Client: As ready as I'll ever be, I suppose. It's strange, you know. I've spent decades trying to forget, and now I'm being asked to remember. But if this is what it takes to find some peace, to be a better husband, a better man... then I'll do it.",
+      "Therapist: Your commitment is admirable. Let's start with a breathing exercise first.",
+      "Client: Okay. I appreciate your guidance, doctor. It means a lot to have someone who understands walk me through this. I just hope... I hope this old soldier can find some peace finally."
+    ]
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10 right now.",
+    "Therapist: Okay. Close your eyes and begin describing the home invasion.",
+    "Client: Alright... I'm in my living room, watching TV. It's late, around 11 PM. I hear a noise at the back door. At first, I think it's just the wind, but then I hear it again. It's more distinct this time, like someone's trying to force the door open. My heart starts racing, and I feel frozen in place.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My palms are starting to sweat as I remember this.",
+    "Therapist: That's okay. Keep going.",
+    "Client: The noise gets louder, and suddenly I hear glass breaking. I realize someone's actually breaking in. I'm paralyzed with fear, but I manage to grab my phone. My hands are shaking so badly I can barely dial 911. I hear footsteps in the kitchen, and I'm trying to breathe quietly, but it feels like my heart is pounding so loud they must be able to hear it.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's an 8. I feel like I can't catch my breath, just like that night.",
+    "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+    "Client: Okay... I'm whispering to the 911 operator, telling them someone's in my house. They tell me to stay on the line and find a safe place to hide. I slowly stand up, my legs feeling like jelly. I start inching towards the hallway closet, but then I hear the intruder coming closer. I freeze again, unable to move.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's still an 8. My chest feels tight, and I'm starting to feel dizzy.",
+    "Therapist: Remember, you're here with me. You're safe. Keep breathing.",
+    "Client: The intruder comes into the living room. It's a man, tall and wearing dark clothes. He sees me and starts yelling, demanding money and valuables. I can't speak, I can't move. He grabs my arm roughly, and I finally find my voice and start screaming. That's when I hear sirens in the distance.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's gone up to a 9. I feel like I'm right back there, feeling so helpless and terrified.",
+    "Therapist: You're doing well. Stay with the memory.",
+    "Client: The man panics when he hears the sirens. He pushes me hard, and I fall, hitting my head on the coffee table. Everything's a blur after that. I remember the police arriving, the man being arrested, but it all feels distant and unreal. I just remember feeling so violated, so unsafe in my own home.",
+    "Therapist: And now? How are you feeling?",
+    "Client: My SUDS is still at a 9. I'm shaking, and I feel nauseated.",
+    "Therapist: That's okay. You're processing a difficult memory. How about we start winding down?",
+    "Client: Yes, please. I don't think I can take much more right now.",
+    "Therapist: Alright. Take some deep breaths. You're here, you're safe.",
+    "Client: (Takes several deep breaths) Okay, I'm starting to feel a bit calmer now.",
+    "Therapist: Good. What's your SUDS rating as we finish?",
+    "Client: It's coming down to about a 7 now. I still feel shaky, but not as overwhelmed.",
+    "Therapist: That's normal. You did really well today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and begin describing the home invasion."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and begin describing the home invasion.",
+      "Client: Alright... I'm in my living room, watching TV. It's late, around 11 PM. I hear a noise at the back door. At first, I think it's just the wind, but then I hear it again. It's more distinct this time, like someone's trying to force the door open. My heart starts racing, and I feel frozen in place."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and begin describing the home invasion.",
+      "Client: Alright... I'm in my living room, watching TV. It's late, around 11 PM. I hear a noise at the back door. At first, I think it's just the wind, but then I hear it again. It's more distinct this time, like someone's trying to force the door open. My heart starts racing, and I feel frozen in place.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: Alright... I'm in my living room, watching TV. It's late, around 11 PM. I hear a noise at the back door. At first, I think it's just the wind, but then I hear it again. It's more distinct this time, like someone's trying to force the door open. My heart starts racing, and I feel frozen in place.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are starting to sweat as I remember this."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are starting to sweat as I remember this.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are starting to sweat as I remember this.",
+      "Therapist: That's okay. Keep going.",
+      "Client: The noise gets louder, and suddenly I hear glass breaking. I realize someone's actually breaking in. I'm paralyzed with fear, but I manage to grab my phone. My hands are shaking so badly I can barely dial 911. I hear footsteps in the kitchen, and I'm trying to breathe quietly, but it feels like my heart is pounding so loud they must be able to hear it."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: The noise gets louder, and suddenly I hear glass breaking. I realize someone's actually breaking in. I'm paralyzed with fear, but I manage to grab my phone. My hands are shaking so badly I can barely dial 911. I hear footsteps in the kitchen, and I'm trying to breathe quietly, but it feels like my heart is pounding so loud they must be able to hear it.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: The noise gets louder, and suddenly I hear glass breaking. I realize someone's actually breaking in. I'm paralyzed with fear, but I manage to grab my phone. My hands are shaking so badly I can barely dial 911. I hear footsteps in the kitchen, and I'm trying to breathe quietly, but it feels like my heart is pounding so loud they must be able to hear it.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's an 8. I feel like I can't catch my breath, just like that night."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's an 8. I feel like I can't catch my breath, just like that night.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's an 8. I feel like I can't catch my breath, just like that night.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: Okay... I'm whispering to the 911 operator, telling them someone's in my house. They tell me to stay on the line and find a safe place to hide. I slowly stand up, my legs feeling like jelly. I start inching towards the hallway closet, but then I hear the intruder coming closer. I freeze again, unable to move."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: Okay... I'm whispering to the 911 operator, telling them someone's in my house. They tell me to stay on the line and find a safe place to hide. I slowly stand up, my legs feeling like jelly. I start inching towards the hallway closet, but then I hear the intruder coming closer. I freeze again, unable to move.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: Okay... I'm whispering to the 911 operator, telling them someone's in my house. They tell me to stay on the line and find a safe place to hide. I slowly stand up, my legs feeling like jelly. I start inching towards the hallway closet, but then I hear the intruder coming closer. I freeze again, unable to move.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still an 8. My chest feels tight, and I'm starting to feel dizzy."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still an 8. My chest feels tight, and I'm starting to feel dizzy.",
+      "Therapist: Remember, you're here with me. You're safe. Keep breathing."
+    ],
+    [
+      "Client: It's still an 8. My chest feels tight, and I'm starting to feel dizzy.",
+      "Therapist: Remember, you're here with me. You're safe. Keep breathing.",
+      "Client: The intruder comes into the living room. It's a man, tall and wearing dark clothes. He sees me and starts yelling, demanding money and valuables. I can't speak, I can't move. He grabs my arm roughly, and I finally find my voice and start screaming. That's when I hear sirens in the distance."
+    ],
+    [
+      "Therapist: Remember, you're here with me. You're safe. Keep breathing.",
+      "Client: The intruder comes into the living room. It's a man, tall and wearing dark clothes. He sees me and starts yelling, demanding money and valuables. I can't speak, I can't move. He grabs my arm roughly, and I finally find my voice and start screaming. That's when I hear sirens in the distance.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: The intruder comes into the living room. It's a man, tall and wearing dark clothes. He sees me and starts yelling, demanding money and valuables. I can't speak, I can't move. He grabs my arm roughly, and I finally find my voice and start screaming. That's when I hear sirens in the distance.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's gone up to a 9. I feel like I'm right back there, feeling so helpless and terrified."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's gone up to a 9. I feel like I'm right back there, feeling so helpless and terrified.",
+      "Therapist: You're doing well. Stay with the memory."
+    ],
+    [
+      "Client: It's gone up to a 9. I feel like I'm right back there, feeling so helpless and terrified.",
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: The man panics when he hears the sirens. He pushes me hard, and I fall, hitting my head on the coffee table. Everything's a blur after that. I remember the police arriving, the man being arrested, but it all feels distant and unreal. I just remember feeling so violated, so unsafe in my own home."
+    ],
+    [
+      "Therapist: You're doing well. Stay with the memory.",
+      "Client: The man panics when he hears the sirens. He pushes me hard, and I fall, hitting my head on the coffee table. Everything's a blur after that. I remember the police arriving, the man being arrested, but it all feels distant and unreal. I just remember feeling so violated, so unsafe in my own home.",
+      "Therapist: And now? How are you feeling?"
+    ],
+    [
+      "Client: The man panics when he hears the sirens. He pushes me hard, and I fall, hitting my head on the coffee table. Everything's a blur after that. I remember the police arriving, the man being arrested, but it all feels distant and unreal. I just remember feeling so violated, so unsafe in my own home.",
+      "Therapist: And now? How are you feeling?",
+      "Client: My SUDS is still at a 9. I'm shaking, and I feel nauseated."
+    ],
+    [
+      "Therapist: And now? How are you feeling?",
+      "Client: My SUDS is still at a 9. I'm shaking, and I feel nauseated.",
+      "Therapist: That's okay. You're processing a difficult memory. How about we start winding down?"
+    ],
+    [
+      "Client: My SUDS is still at a 9. I'm shaking, and I feel nauseated.",
+      "Therapist: That's okay. You're processing a difficult memory. How about we start winding down?",
+      "Client: Yes, please. I don't think I can take much more right now."
+    ],
+    [
+      "Therapist: That's okay. You're processing a difficult memory. How about we start winding down?",
+      "Client: Yes, please. I don't think I can take much more right now.",
+      "Therapist: Alright. Take some deep breaths. You're here, you're safe."
+    ],
+    [
+      "Client: Yes, please. I don't think I can take much more right now.",
+      "Therapist: Alright. Take some deep breaths. You're here, you're safe.",
+      "Client: (Takes several deep breaths) Okay, I'm starting to feel a bit calmer now."
+    ],
+    [
+      "Therapist: Alright. Take some deep breaths. You're here, you're safe.",
+      "Client: (Takes several deep breaths) Okay, I'm starting to feel a bit calmer now.",
+      "Therapist: Good. What's your SUDS rating as we finish?"
+    ],
+    [
+      "Client: (Takes several deep breaths) Okay, I'm starting to feel a bit calmer now.",
+      "Therapist: Good. What's your SUDS rating as we finish?",
+      "Client: It's coming down to about a 7 now. I still feel shaky, but not as overwhelmed."
+    ],
+    [
+      "Therapist: Good. What's your SUDS rating as we finish?",
+      "Client: It's coming down to about a 7 now. I still feel shaky, but not as overwhelmed.",
+      "Therapist: That's normal. You did really well today."
+    ]
+  ]
+}

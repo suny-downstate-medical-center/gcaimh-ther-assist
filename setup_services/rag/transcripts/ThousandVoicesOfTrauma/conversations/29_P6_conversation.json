@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Carlos. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Buenos d\u00edas, Dr. Martinez. Yes, I'm ready... I think. I'm feeling a bit nervous, to be honest.",
+    "Therapist: That's understandable. Let's start with your baseline SUDS.",
+    "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+    "Therapist: Okay. Begin when you're ready.",
+    "Client: Alright... I'm back in my house. It's late evening, and I can hear Maria in the kitchen. The kids are already in bed. I'm... I'm sitting on the couch, trying to relax after a long day, but I can't. My mind keeps going back to what I saw in combat. The smell of gunpowder is so vivid...",
+    "Therapist: SUDS?",
+    "Client: It's... it's gone up to a 6. My hands are starting to sweat.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: Maria comes into the living room. She's asking me about my day, but I can barely hear her. All I can focus on is the memory of my squad mate getting hit. I... I snap at her. I tell her to leave me alone. She looks hurt, confused...",
+    "Therapist: And your SUDS now?",
+    "Client: It's an 8. My heart is racing. I feel like I can't breathe properly.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: I'm trying... God, I feel so guilty. Maria didn't deserve that. She was just trying to help. But I couldn't explain. How could I tell her about the horrors I'd seen? I... I stand up abruptly. She flinches. That kills me inside. My own wife, afraid of me...",
+    "Therapist: SUDS?",
+    "Client: It's... it's still an 8. Maybe even a 9. I feel like I'm right back there, Dr. Martinez. My palms are sweating, and I feel this crushing weight on my chest.",
+    "Therapist: You're doing great, Carlos. Stay with it.",
+    "Client: I... I need a moment. [Deep breath] Okay. I remember walking towards Maria. She backs away slightly. I've never felt so ashamed in my life. I try to apologize, but the words won't come out. Instead, I... I punch the wall. Hard. Maria screams. I've scared her even more...",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's actually dropped a bit. Maybe a 7? I still feel terrible, but talking about it... it's helping somehow.",
+    "Therapist: That's good. Continue.",
+    "Client: I sink to the floor, my hand throbbing. Maria... she surprises me. Instead of running away, she kneels beside me. She doesn't say anything, just puts her hand on my shoulder. I break down crying. It's the first time I've cried since coming back from deployment.",
+    "Therapist: And your SUDS?",
+    "Client: It's down to a 5 now. I feel... I don't know. Sad, but also relieved? Like a weight is lifting.",
+    "Therapist: That's normal. Keep going.",
+    "Client: Maria holds me as I cry. I start to tell her about what I've seen, what I've been through. It's hard, but it feels... necessary. Like I'm finally letting go of something I've been holding onto for too long.",
+    "Therapist: SUDS?",
+    "Client: It's a 3 now. I feel drained, but... lighter. Like I can breathe easier.",
+    "Therapist: You've done exceptionally well, Carlos. How do you feel now?",
+    "Client: Exhausted, but... better. I never thought talking about it could help like this. It's still painful, but it feels less... overwhelming.",
+    "Therapist: That's great progress. Let's take a break."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Carlos. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Buenos d\u00edas, Dr. Martinez. Yes, I'm ready... I think. I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your baseline SUDS."
+    ],
+    [
+      "Client: Buenos d\u00edas, Dr. Martinez. Yes, I'm ready... I think. I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+      "Therapist: Okay. Begin when you're ready."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+      "Therapist: Okay. Begin when you're ready.",
+      "Client: Alright... I'm back in my house. It's late evening, and I can hear Maria in the kitchen. The kids are already in bed. I'm... I'm sitting on the couch, trying to relax after a long day, but I can't. My mind keeps going back to what I saw in combat. The smell of gunpowder is so vivid..."
+    ],
+    [
+      "Therapist: Okay. Begin when you're ready.",
+      "Client: Alright... I'm back in my house. It's late evening, and I can hear Maria in the kitchen. The kids are already in bed. I'm... I'm sitting on the couch, trying to relax after a long day, but I can't. My mind keeps going back to what I saw in combat. The smell of gunpowder is so vivid...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Alright... I'm back in my house. It's late evening, and I can hear Maria in the kitchen. The kids are already in bed. I'm... I'm sitting on the couch, trying to relax after a long day, but I can't. My mind keeps going back to what I saw in combat. The smell of gunpowder is so vivid...",
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to a 6. My hands are starting to sweat."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up to a 6. My hands are starting to sweat.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My hands are starting to sweat.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: Maria comes into the living room. She's asking me about my day, but I can barely hear her. All I can focus on is the memory of my squad mate getting hit. I... I snap at her. I tell her to leave me alone. She looks hurt, confused..."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: Maria comes into the living room. She's asking me about my day, but I can barely hear her. All I can focus on is the memory of my squad mate getting hit. I... I snap at her. I tell her to leave me alone. She looks hurt, confused...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Maria comes into the living room. She's asking me about my day, but I can barely hear her. All I can focus on is the memory of my squad mate getting hit. I... I snap at her. I tell her to leave me alone. She looks hurt, confused...",
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. My heart is racing. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. My heart is racing. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's an 8. My heart is racing. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: I'm trying... God, I feel so guilty. Maria didn't deserve that. She was just trying to help. But I couldn't explain. How could I tell her about the horrors I'd seen? I... I stand up abruptly. She flinches. That kills me inside. My own wife, afraid of me..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: I'm trying... God, I feel so guilty. Maria didn't deserve that. She was just trying to help. But I couldn't explain. How could I tell her about the horrors I'd seen? I... I stand up abruptly. She flinches. That kills me inside. My own wife, afraid of me...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I'm trying... God, I feel so guilty. Maria didn't deserve that. She was just trying to help. But I couldn't explain. How could I tell her about the horrors I'd seen? I... I stand up abruptly. She flinches. That kills me inside. My own wife, afraid of me...",
+      "Therapist: SUDS?",
+      "Client: It's... it's still an 8. Maybe even a 9. I feel like I'm right back there, Dr. Martinez. My palms are sweating, and I feel this crushing weight on my chest."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's still an 8. Maybe even a 9. I feel like I'm right back there, Dr. Martinez. My palms are sweating, and I feel this crushing weight on my chest.",
+      "Therapist: You're doing great, Carlos. Stay with it."
+    ],
+    [
+      "Client: It's... it's still an 8. Maybe even a 9. I feel like I'm right back there, Dr. Martinez. My palms are sweating, and I feel this crushing weight on my chest.",
+      "Therapist: You're doing great, Carlos. Stay with it.",
+      "Client: I... I need a moment. [Deep breath] Okay. I remember walking towards Maria. She backs away slightly. I've never felt so ashamed in my life. I try to apologize, but the words won't come out. Instead, I... I punch the wall. Hard. Maria screams. I've scared her even more..."
+    ],
+    [
+      "Therapist: You're doing great, Carlos. Stay with it.",
+      "Client: I... I need a moment. [Deep breath] Okay. I remember walking towards Maria. She backs away slightly. I've never felt so ashamed in my life. I try to apologize, but the words won't come out. Instead, I... I punch the wall. Hard. Maria screams. I've scared her even more...",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: I... I need a moment. [Deep breath] Okay. I remember walking towards Maria. She backs away slightly. I've never felt so ashamed in my life. I try to apologize, but the words won't come out. Instead, I... I punch the wall. Hard. Maria screams. I've scared her even more...",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's actually dropped a bit. Maybe a 7? I still feel terrible, but talking about it... it's helping somehow."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's actually dropped a bit. Maybe a 7? I still feel terrible, but talking about it... it's helping somehow.",
+      "Therapist: That's good. Continue."
+    ],
+    [
+      "Client: It's... it's actually dropped a bit. Maybe a 7? I still feel terrible, but talking about it... it's helping somehow.",
+      "Therapist: That's good. Continue.",
+      "Client: I sink to the floor, my hand throbbing. Maria... she surprises me. Instead of running away, she kneels beside me. She doesn't say anything, just puts her hand on my shoulder. I break down crying. It's the first time I've cried since coming back from deployment."
+    ],
+    [
+      "Therapist: That's good. Continue.",
+      "Client: I sink to the floor, my hand throbbing. Maria... she surprises me. Instead of running away, she kneels beside me. She doesn't say anything, just puts her hand on my shoulder. I break down crying. It's the first time I've cried since coming back from deployment.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I sink to the floor, my hand throbbing. Maria... she surprises me. Instead of running away, she kneels beside me. She doesn't say anything, just puts her hand on my shoulder. I break down crying. It's the first time I've cried since coming back from deployment.",
+      "Therapist: And your SUDS?",
+      "Client: It's down to a 5 now. I feel... I don't know. Sad, but also relieved? Like a weight is lifting."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's down to a 5 now. I feel... I don't know. Sad, but also relieved? Like a weight is lifting.",
+      "Therapist: That's normal. Keep going."
+    ],
+    [
+      "Client: It's down to a 5 now. I feel... I don't know. Sad, but also relieved? Like a weight is lifting.",
+      "Therapist: That's normal. Keep going.",
+      "Client: Maria holds me as I cry. I start to tell her about what I've seen, what I've been through. It's hard, but it feels... necessary. Like I'm finally letting go of something I've been holding onto for too long."
+    ],
+    [
+      "Therapist: That's normal. Keep going.",
+      "Client: Maria holds me as I cry. I start to tell her about what I've seen, what I've been through. It's hard, but it feels... necessary. Like I'm finally letting go of something I've been holding onto for too long.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Maria holds me as I cry. I start to tell her about what I've seen, what I've been through. It's hard, but it feels... necessary. Like I'm finally letting go of something I've been holding onto for too long.",
+      "Therapist: SUDS?",
+      "Client: It's a 3 now. I feel drained, but... lighter. Like I can breathe easier."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's a 3 now. I feel drained, but... lighter. Like I can breathe easier.",
+      "Therapist: You've done exceptionally well, Carlos. How do you feel now?"
+    ],
+    [
+      "Client: It's a 3 now. I feel drained, but... lighter. Like I can breathe easier.",
+      "Therapist: You've done exceptionally well, Carlos. How do you feel now?",
+      "Client: Exhausted, but... better. I never thought talking about it could help like this. It's still painful, but it feels less... overwhelming."
+    ],
+    [
+      "Therapist: You've done exceptionally well, Carlos. How do you feel now?",
+      "Client: Exhausted, but... better. I never thought talking about it could help like this. It's still painful, but it feels less... overwhelming.",
+      "Therapist: That's great progress. Let's take a break."
+    ]
+  ]
+}

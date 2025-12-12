@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Ms. Lee. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the war, and I'm not sure I'm ready to face all of that again.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+    "Client: Not really. Is it... is it going to make me relive everything?",
+    "Therapist: It involves recounting your experience, but you're safe here. Shall I explain more?",
+    "Client: Yes, please. I'm worried it might make things worse. I've been trying so hard to forget, you know? Running my business keeps me busy, but at night... it all comes back.",
+    "Therapist: That's common. This technique actually helps reduce symptoms over time. Ready to hear how?",
+    "Client: I suppose so. It's just... after seeing what happened during those protests last month, it's brought back so many memories from my time in the war. The police, they... they reminded me of...",
+    "Therapist: Take your time. We'll go at your pace.",
+    "Client: Thank you. It's hard to talk about. But yes, please tell me more about this exposure thing.",
+    "Therapist: It helps process memories, reducing their power. We'll start slowly, and you're in control.",
+    "Client: Okay... that doesn't sound as scary as I thought. But what if I panic? What if I can't handle it?",
+    "Therapist: We'll use coping strategies we've practiced. I'll be here to support you throughout.",
+    "Client: Alright. I trust you. It's just... no one else understands. Being a woman in combat, and then seeing similar violence here at home... it's overwhelming.",
+    "Therapist: Your experiences are unique. This process honors that. Ready to set some expectations for today?",
+    "Client: Yes, I think so. What should I expect?",
+    "Therapist: You might feel anxious or upset. That's normal. We'll take breaks if needed.",
+    "Client: Okay. I appreciate your patience with me. It's not easy being vulnerable like this.",
+    "Therapist: Your courage is admirable. This work is crucial for healing. Any questions before we begin?",
+    "Client: Just one. How long will this process take? I'm worried about it interfering with my work.",
+    "Therapist: It varies, but we'll go at your pace. Your well-being comes first. Shall we start?",
+    "Client: Yes, I'm ready. Thank you for explaining everything. It helps to know what to expect."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Ms. Lee. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the war, and I'm not sure I'm ready to face all of that again.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about the war, and I'm not sure I'm ready to face all of that again.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it... is it going to make me relive everything?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it... is it going to make me relive everything?",
+      "Therapist: It involves recounting your experience, but you're safe here. Shall I explain more?"
+    ],
+    [
+      "Client: Not really. Is it... is it going to make me relive everything?",
+      "Therapist: It involves recounting your experience, but you're safe here. Shall I explain more?",
+      "Client: Yes, please. I'm worried it might make things worse. I've been trying so hard to forget, you know? Running my business keeps me busy, but at night... it all comes back."
+    ],
+    [
+      "Therapist: It involves recounting your experience, but you're safe here. Shall I explain more?",
+      "Client: Yes, please. I'm worried it might make things worse. I've been trying so hard to forget, you know? Running my business keeps me busy, but at night... it all comes back.",
+      "Therapist: That's common. This technique actually helps reduce symptoms over time. Ready to hear how?"
+    ],
+    [
+      "Client: Yes, please. I'm worried it might make things worse. I've been trying so hard to forget, you know? Running my business keeps me busy, but at night... it all comes back.",
+      "Therapist: That's common. This technique actually helps reduce symptoms over time. Ready to hear how?",
+      "Client: I suppose so. It's just... after seeing what happened during those protests last month, it's brought back so many memories from my time in the war. The police, they... they reminded me of..."
+    ],
+    [
+      "Therapist: That's common. This technique actually helps reduce symptoms over time. Ready to hear how?",
+      "Client: I suppose so. It's just... after seeing what happened during those protests last month, it's brought back so many memories from my time in the war. The police, they... they reminded me of...",
+      "Therapist: Take your time. We'll go at your pace."
+    ],
+    [
+      "Client: I suppose so. It's just... after seeing what happened during those protests last month, it's brought back so many memories from my time in the war. The police, they... they reminded me of...",
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Thank you. It's hard to talk about. But yes, please tell me more about this exposure thing."
+    ],
+    [
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Thank you. It's hard to talk about. But yes, please tell me more about this exposure thing.",
+      "Therapist: It helps process memories, reducing their power. We'll start slowly, and you're in control."
+    ],
+    [
+      "Client: Thank you. It's hard to talk about. But yes, please tell me more about this exposure thing.",
+      "Therapist: It helps process memories, reducing their power. We'll start slowly, and you're in control.",
+      "Client: Okay... that doesn't sound as scary as I thought. But what if I panic? What if I can't handle it?"
+    ],
+    [
+      "Therapist: It helps process memories, reducing their power. We'll start slowly, and you're in control.",
+      "Client: Okay... that doesn't sound as scary as I thought. But what if I panic? What if I can't handle it?",
+      "Therapist: We'll use coping strategies we've practiced. I'll be here to support you throughout."
+    ],
+    [
+      "Client: Okay... that doesn't sound as scary as I thought. But what if I panic? What if I can't handle it?",
+      "Therapist: We'll use coping strategies we've practiced. I'll be here to support you throughout.",
+      "Client: Alright. I trust you. It's just... no one else understands. Being a woman in combat, and then seeing similar violence here at home... it's overwhelming."
+    ],
+    [
+      "Therapist: We'll use coping strategies we've practiced. I'll be here to support you throughout.",
+      "Client: Alright. I trust you. It's just... no one else understands. Being a woman in combat, and then seeing similar violence here at home... it's overwhelming.",
+      "Therapist: Your experiences are unique. This process honors that. Ready to set some expectations for today?"
+    ],
+    [
+      "Client: Alright. I trust you. It's just... no one else understands. Being a woman in combat, and then seeing similar violence here at home... it's overwhelming.",
+      "Therapist: Your experiences are unique. This process honors that. Ready to set some expectations for today?",
+      "Client: Yes, I think so. What should I expect?"
+    ],
+    [
+      "Therapist: Your experiences are unique. This process honors that. Ready to set some expectations for today?",
+      "Client: Yes, I think so. What should I expect?",
+      "Therapist: You might feel anxious or upset. That's normal. We'll take breaks if needed."
+    ],
+    [
+      "Client: Yes, I think so. What should I expect?",
+      "Therapist: You might feel anxious or upset. That's normal. We'll take breaks if needed.",
+      "Client: Okay. I appreciate your patience with me. It's not easy being vulnerable like this."
+    ],
+    [
+      "Therapist: You might feel anxious or upset. That's normal. We'll take breaks if needed.",
+      "Client: Okay. I appreciate your patience with me. It's not easy being vulnerable like this.",
+      "Therapist: Your courage is admirable. This work is crucial for healing. Any questions before we begin?"
+    ],
+    [
+      "Client: Okay. I appreciate your patience with me. It's not easy being vulnerable like this.",
+      "Therapist: Your courage is admirable. This work is crucial for healing. Any questions before we begin?",
+      "Client: Just one. How long will this process take? I'm worried about it interfering with my work."
+    ],
+    [
+      "Therapist: Your courage is admirable. This work is crucial for healing. Any questions before we begin?",
+      "Client: Just one. How long will this process take? I'm worried about it interfering with my work.",
+      "Therapist: It varies, but we'll go at your pace. Your well-being comes first. Shall we start?"
+    ],
+    [
+      "Client: Just one. How long will this process take? I'm worried about it interfering with my work.",
+      "Therapist: It varies, but we'll go at your pace. Your well-being comes first. Shall we start?",
+      "Client: Yes, I'm ready. Thank you for explaining everything. It helps to know what to expect."
+    ]
+  ]
+}

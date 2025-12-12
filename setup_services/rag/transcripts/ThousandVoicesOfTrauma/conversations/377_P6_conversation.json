@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back. Are you ready to continue our imaginal exposure exercise?",
+    "Client: I think so... I'm a bit nervous, to be honest.",
+    "Therapist: That's understandable. Let's start with your SUDS rating.",
+    "Client: Um, I'd say about a 4 out of 10. I'm feeling a bit anxious just thinking about it.",
+    "Therapist: Okay. Take a deep breath and begin when you're ready.",
+    "Client: Alright... I'm back in that room. The air feels so stale, and I can hear muffled voices outside. My heart's starting to race a bit. I'm sitting on this hard chair, my wrists tied behind my back. The rope is digging into my skin...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: The door opens, and one of them comes in. He's carrying a tray of food, but I can't eat. I feel nauseous. He sets it down and just stares at me. I'm trying not to make eye contact. I'm so scared he might...",
+    "Therapist: SUDS?",
+    "Client: It's an 8 now. My chest feels tight, and I'm having trouble breathing. I can almost smell his cigarette breath...",
+    "Therapist: You're safe here. Keep breathing.",
+    "Client: I'm trying... He leaves, and I'm alone again. The silence is deafening. I keep thinking about my family, wondering if I'll ever see them again. I feel so helpless, so alone...",
+    "Therapist: And your SUDS?",
+    "Client: Still an 8. My legs are shaking, and I feel dizzy. It's like I'm right back there...",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: Hours pass, or maybe it's days. I've lost track of time. I'm so thirsty, but they barely give me water. My throat is dry, and my lips are cracked. I keep hoping someone will find me, but as time goes on, I start to lose hope...",
+    "Therapist: SUDS level?",
+    "Client: It's dropped to a 7. I feel exhausted just talking about it. My body feels heavy, like I can barely move.",
+    "Therapist: That's normal. Continue.",
+    "Client: I hear shouting outside. There's a commotion, and suddenly the door bursts open. I see police officers, and for a moment, I can't believe it's real. They're untying me, asking if I'm okay, but I can't speak. I'm in shock...",
+    "Therapist: How about now?",
+    "Client: It's down to a 5. I feel relieved remembering the rescue, but my body is still tense. My hands are shaking a little.",
+    "Therapist: You've done well. How do you feel?",
+    "Client: Drained, but... also a bit proud. I made it through without falling apart this time.",
+    "Therapist: That's progress. We'll end here today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back. Are you ready to continue our imaginal exposure exercise?",
+      "Client: I think so... I'm a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so... I'm a bit nervous, to be honest.",
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling a bit anxious just thinking about it."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling a bit anxious just thinking about it.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling a bit anxious just thinking about it.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm back in that room. The air feels so stale, and I can hear muffled voices outside. My heart's starting to race a bit. I'm sitting on this hard chair, my wrists tied behind my back. The rope is digging into my skin..."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm back in that room. The air feels so stale, and I can hear muffled voices outside. My heart's starting to race a bit. I'm sitting on this hard chair, my wrists tied behind my back. The rope is digging into my skin...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: Alright... I'm back in that room. The air feels so stale, and I can hear muffled voices outside. My heart's starting to race a bit. I'm sitting on this hard chair, my wrists tied behind my back. The rope is digging into my skin...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: The door opens, and one of them comes in. He's carrying a tray of food, but I can't eat. I feel nauseous. He sets it down and just stares at me. I'm trying not to make eye contact. I'm so scared he might..."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: The door opens, and one of them comes in. He's carrying a tray of food, but I can't eat. I feel nauseous. He sets it down and just stares at me. I'm trying not to make eye contact. I'm so scared he might...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The door opens, and one of them comes in. He's carrying a tray of food, but I can't eat. I feel nauseous. He sets it down and just stares at me. I'm trying not to make eye contact. I'm so scared he might...",
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. My chest feels tight, and I'm having trouble breathing. I can almost smell his cigarette breath..."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. My chest feels tight, and I'm having trouble breathing. I can almost smell his cigarette breath...",
+      "Therapist: You're safe here. Keep breathing."
+    ],
+    [
+      "Client: It's an 8 now. My chest feels tight, and I'm having trouble breathing. I can almost smell his cigarette breath...",
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I'm trying... He leaves, and I'm alone again. The silence is deafening. I keep thinking about my family, wondering if I'll ever see them again. I feel so helpless, so alone..."
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I'm trying... He leaves, and I'm alone again. The silence is deafening. I keep thinking about my family, wondering if I'll ever see them again. I feel so helpless, so alone...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I'm trying... He leaves, and I'm alone again. The silence is deafening. I keep thinking about my family, wondering if I'll ever see them again. I feel so helpless, so alone...",
+      "Therapist: And your SUDS?",
+      "Client: Still an 8. My legs are shaking, and I feel dizzy. It's like I'm right back there..."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Still an 8. My legs are shaking, and I feel dizzy. It's like I'm right back there...",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: Still an 8. My legs are shaking, and I feel dizzy. It's like I'm right back there...",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: Hours pass, or maybe it's days. I've lost track of time. I'm so thirsty, but they barely give me water. My throat is dry, and my lips are cracked. I keep hoping someone will find me, but as time goes on, I start to lose hope..."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: Hours pass, or maybe it's days. I've lost track of time. I'm so thirsty, but they barely give me water. My throat is dry, and my lips are cracked. I keep hoping someone will find me, but as time goes on, I start to lose hope...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: Hours pass, or maybe it's days. I've lost track of time. I'm so thirsty, but they barely give me water. My throat is dry, and my lips are cracked. I keep hoping someone will find me, but as time goes on, I start to lose hope...",
+      "Therapist: SUDS level?",
+      "Client: It's dropped to a 7. I feel exhausted just talking about it. My body feels heavy, like I can barely move."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's dropped to a 7. I feel exhausted just talking about it. My body feels heavy, like I can barely move.",
+      "Therapist: That's normal. Continue."
+    ],
+    [
+      "Client: It's dropped to a 7. I feel exhausted just talking about it. My body feels heavy, like I can barely move.",
+      "Therapist: That's normal. Continue.",
+      "Client: I hear shouting outside. There's a commotion, and suddenly the door bursts open. I see police officers, and for a moment, I can't believe it's real. They're untying me, asking if I'm okay, but I can't speak. I'm in shock..."
+    ],
+    [
+      "Therapist: That's normal. Continue.",
+      "Client: I hear shouting outside. There's a commotion, and suddenly the door bursts open. I see police officers, and for a moment, I can't believe it's real. They're untying me, asking if I'm okay, but I can't speak. I'm in shock...",
+      "Therapist: How about now?"
+    ],
+    [
+      "Client: I hear shouting outside. There's a commotion, and suddenly the door bursts open. I see police officers, and for a moment, I can't believe it's real. They're untying me, asking if I'm okay, but I can't speak. I'm in shock...",
+      "Therapist: How about now?",
+      "Client: It's down to a 5. I feel relieved remembering the rescue, but my body is still tense. My hands are shaking a little."
+    ],
+    [
+      "Therapist: How about now?",
+      "Client: It's down to a 5. I feel relieved remembering the rescue, but my body is still tense. My hands are shaking a little.",
+      "Therapist: You've done well. How do you feel?"
+    ],
+    [
+      "Client: It's down to a 5. I feel relieved remembering the rescue, but my body is still tense. My hands are shaking a little.",
+      "Therapist: You've done well. How do you feel?",
+      "Client: Drained, but... also a bit proud. I made it through without falling apart this time."
+    ],
+    [
+      "Therapist: You've done well. How do you feel?",
+      "Client: Drained, but... also a bit proud. I made it through without falling apart this time.",
+      "Therapist: That's progress. We'll end here today."
+    ]
+  ]
+}

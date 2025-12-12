@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Patel. How are you feeling today?",
+    "Client: Good morning, Dr. Singh. I'm... well, to be honest, I'm a bit nervous. I know we've been working towards this, but the idea of revisiting that car accident... it's unsettling.",
+    "Therapist: That's understandable. Let's talk about today's plan.",
+    "Client: Alright. I've been dreading this, but I trust you. It's just... every time I think about that day, my heart starts racing. I can almost hear the screeching tires and shattering glass. It's been affecting my work, my relationships... even my sleep.",
+    "Therapist: I appreciate your honesty. Today, we'll use imaginal exposure. Are you familiar with it?",
+    "Client: Not really. Is it... is it like reliving the accident?",
+    "Therapist: In a way, yes. But you'll be safe here. Can you tell me your concerns?",
+    "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes things worse? I've been trying so hard to keep it together, especially for my wife. She's been so supportive, but I know she's worried too.",
+    "Therapist: Your concerns are valid. How about we discuss what to expect?",
+    "Client: Yes, please. I need to know what I'm getting into. This whole PTSD thing... it's been such a struggle. Some days I feel like I'm back to my old self, running my business, enjoying time with my family. But then, out of nowhere, I'm right back in that moment of impact. It's exhausting.",
+    "Therapist: I understand. During the exercise, you'll describe the event in detail. How does that sound?",
+    "Client: Terrifying, to be honest. But... I suppose it's necessary? I mean, I can't keep living like this, jumping at every loud noise, avoiding driving... It's not fair to my family or myself. I used to be so confident, you know? Now, I feel like I'm constantly on edge.",
+    "Therapist: Your feelings are normal. Remember, you're in control here. We can pause anytime.",
+    "Client: That's reassuring. I appreciate that, Dr. Singh. It helps to know I have some control. Can you tell me more about what might happen during the exercise? Will I... will I feel the same fear and helplessness I felt during the accident?",
+    "Therapist: You might experience strong emotions. But we'll work through them together.",
+    "Client: I see. It's scary, but I'm willing to try. I want to get better, for myself and my family. My wife has been so patient, but I can see the worry in her eyes every time I flinch at a car horn or refuse to drive. And my business... I've had to rely on my partners more than I'd like. It's time I took back control.",
+    "Therapist: Your commitment is commendable. This process can help reduce your PTSD symptoms over time.",
+    "Client: Really? That would be... that would be incredible. To not feel trapped by this fear anymore... to be able to drive again without panic... to sleep through the night without nightmares. It sounds almost too good to be true. How... how long does this usually take?",
+    "Therapist: Everyone's journey is different. We'll take it one session at a time.",
+    "Client: I understand. I'm trying to be patient, but it's hard. Every day feels like a battle. But I'm ready to fight. For my peace of mind, for my family, for my future. I just... I want to feel like myself again. To enjoy life without this constant shadow of fear.",
+    "Therapist: Your courage is admirable. Shall we begin?",
+    "Client: Yes, I think I'm ready. It's strange, I feel nervous but also... hopeful? Like maybe, just maybe, this could be the turning point. I know it won't be easy, but I'm willing to face this. For the first time in months, I feel like I'm taking a step forward instead of hiding. Let's do this, Dr. Singh. I'm ready to reclaim my life."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Patel. How are you feeling today?",
+      "Client: Good morning, Dr. Singh. I'm... well, to be honest, I'm a bit nervous. I know we've been working towards this, but the idea of revisiting that car accident... it's unsettling.",
+      "Therapist: That's understandable. Let's talk about today's plan."
+    ],
+    [
+      "Client: Good morning, Dr. Singh. I'm... well, to be honest, I'm a bit nervous. I know we've been working towards this, but the idea of revisiting that car accident... it's unsettling.",
+      "Therapist: That's understandable. Let's talk about today's plan.",
+      "Client: Alright. I've been dreading this, but I trust you. It's just... every time I think about that day, my heart starts racing. I can almost hear the screeching tires and shattering glass. It's been affecting my work, my relationships... even my sleep."
+    ],
+    [
+      "Therapist: That's understandable. Let's talk about today's plan.",
+      "Client: Alright. I've been dreading this, but I trust you. It's just... every time I think about that day, my heart starts racing. I can almost hear the screeching tires and shattering glass. It's been affecting my work, my relationships... even my sleep.",
+      "Therapist: I appreciate your honesty. Today, we'll use imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: Alright. I've been dreading this, but I trust you. It's just... every time I think about that day, my heart starts racing. I can almost hear the screeching tires and shattering glass. It's been affecting my work, my relationships... even my sleep.",
+      "Therapist: I appreciate your honesty. Today, we'll use imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it... is it like reliving the accident?"
+    ],
+    [
+      "Therapist: I appreciate your honesty. Today, we'll use imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it... is it like reliving the accident?",
+      "Therapist: In a way, yes. But you'll be safe here. Can you tell me your concerns?"
+    ],
+    [
+      "Client: Not really. Is it... is it like reliving the accident?",
+      "Therapist: In a way, yes. But you'll be safe here. Can you tell me your concerns?",
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes things worse? I've been trying so hard to keep it together, especially for my wife. She's been so supportive, but I know she's worried too."
+    ],
+    [
+      "Therapist: In a way, yes. But you'll be safe here. Can you tell me your concerns?",
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes things worse? I've been trying so hard to keep it together, especially for my wife. She's been so supportive, but I know she's worried too.",
+      "Therapist: Your concerns are valid. How about we discuss what to expect?"
+    ],
+    [
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes things worse? I've been trying so hard to keep it together, especially for my wife. She's been so supportive, but I know she's worried too.",
+      "Therapist: Your concerns are valid. How about we discuss what to expect?",
+      "Client: Yes, please. I need to know what I'm getting into. This whole PTSD thing... it's been such a struggle. Some days I feel like I'm back to my old self, running my business, enjoying time with my family. But then, out of nowhere, I'm right back in that moment of impact. It's exhausting."
+    ],
+    [
+      "Therapist: Your concerns are valid. How about we discuss what to expect?",
+      "Client: Yes, please. I need to know what I'm getting into. This whole PTSD thing... it's been such a struggle. Some days I feel like I'm back to my old self, running my business, enjoying time with my family. But then, out of nowhere, I'm right back in that moment of impact. It's exhausting.",
+      "Therapist: I understand. During the exercise, you'll describe the event in detail. How does that sound?"
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into. This whole PTSD thing... it's been such a struggle. Some days I feel like I'm back to my old self, running my business, enjoying time with my family. But then, out of nowhere, I'm right back in that moment of impact. It's exhausting.",
+      "Therapist: I understand. During the exercise, you'll describe the event in detail. How does that sound?",
+      "Client: Terrifying, to be honest. But... I suppose it's necessary? I mean, I can't keep living like this, jumping at every loud noise, avoiding driving... It's not fair to my family or myself. I used to be so confident, you know? Now, I feel like I'm constantly on edge."
+    ],
+    [
+      "Therapist: I understand. During the exercise, you'll describe the event in detail. How does that sound?",
+      "Client: Terrifying, to be honest. But... I suppose it's necessary? I mean, I can't keep living like this, jumping at every loud noise, avoiding driving... It's not fair to my family or myself. I used to be so confident, you know? Now, I feel like I'm constantly on edge.",
+      "Therapist: Your feelings are normal. Remember, you're in control here. We can pause anytime."
+    ],
+    [
+      "Client: Terrifying, to be honest. But... I suppose it's necessary? I mean, I can't keep living like this, jumping at every loud noise, avoiding driving... It's not fair to my family or myself. I used to be so confident, you know? Now, I feel like I'm constantly on edge.",
+      "Therapist: Your feelings are normal. Remember, you're in control here. We can pause anytime.",
+      "Client: That's reassuring. I appreciate that, Dr. Singh. It helps to know I have some control. Can you tell me more about what might happen during the exercise? Will I... will I feel the same fear and helplessness I felt during the accident?"
+    ],
+    [
+      "Therapist: Your feelings are normal. Remember, you're in control here. We can pause anytime.",
+      "Client: That's reassuring. I appreciate that, Dr. Singh. It helps to know I have some control. Can you tell me more about what might happen during the exercise? Will I... will I feel the same fear and helplessness I felt during the accident?",
+      "Therapist: You might experience strong emotions. But we'll work through them together."
+    ],
+    [
+      "Client: That's reassuring. I appreciate that, Dr. Singh. It helps to know I have some control. Can you tell me more about what might happen during the exercise? Will I... will I feel the same fear and helplessness I felt during the accident?",
+      "Therapist: You might experience strong emotions. But we'll work through them together.",
+      "Client: I see. It's scary, but I'm willing to try. I want to get better, for myself and my family. My wife has been so patient, but I can see the worry in her eyes every time I flinch at a car horn or refuse to drive. And my business... I've had to rely on my partners more than I'd like. It's time I took back control."
+    ],
+    [
+      "Therapist: You might experience strong emotions. But we'll work through them together.",
+      "Client: I see. It's scary, but I'm willing to try. I want to get better, for myself and my family. My wife has been so patient, but I can see the worry in her eyes every time I flinch at a car horn or refuse to drive. And my business... I've had to rely on my partners more than I'd like. It's time I took back control.",
+      "Therapist: Your commitment is commendable. This process can help reduce your PTSD symptoms over time."
+    ],
+    [
+      "Client: I see. It's scary, but I'm willing to try. I want to get better, for myself and my family. My wife has been so patient, but I can see the worry in her eyes every time I flinch at a car horn or refuse to drive. And my business... I've had to rely on my partners more than I'd like. It's time I took back control.",
+      "Therapist: Your commitment is commendable. This process can help reduce your PTSD symptoms over time.",
+      "Client: Really? That would be... that would be incredible. To not feel trapped by this fear anymore... to be able to drive again without panic... to sleep through the night without nightmares. It sounds almost too good to be true. How... how long does this usually take?"
+    ],
+    [
+      "Therapist: Your commitment is commendable. This process can help reduce your PTSD symptoms over time.",
+      "Client: Really? That would be... that would be incredible. To not feel trapped by this fear anymore... to be able to drive again without panic... to sleep through the night without nightmares. It sounds almost too good to be true. How... how long does this usually take?",
+      "Therapist: Everyone's journey is different. We'll take it one session at a time."
+    ],
+    [
+      "Client: Really? That would be... that would be incredible. To not feel trapped by this fear anymore... to be able to drive again without panic... to sleep through the night without nightmares. It sounds almost too good to be true. How... how long does this usually take?",
+      "Therapist: Everyone's journey is different. We'll take it one session at a time.",
+      "Client: I understand. I'm trying to be patient, but it's hard. Every day feels like a battle. But I'm ready to fight. For my peace of mind, for my family, for my future. I just... I want to feel like myself again. To enjoy life without this constant shadow of fear."
+    ],
+    [
+      "Therapist: Everyone's journey is different. We'll take it one session at a time.",
+      "Client: I understand. I'm trying to be patient, but it's hard. Every day feels like a battle. But I'm ready to fight. For my peace of mind, for my family, for my future. I just... I want to feel like myself again. To enjoy life without this constant shadow of fear.",
+      "Therapist: Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: I understand. I'm trying to be patient, but it's hard. Every day feels like a battle. But I'm ready to fight. For my peace of mind, for my family, for my future. I just... I want to feel like myself again. To enjoy life without this constant shadow of fear.",
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Yes, I think I'm ready. It's strange, I feel nervous but also... hopeful? Like maybe, just maybe, this could be the turning point. I know it won't be easy, but I'm willing to face this. For the first time in months, I feel like I'm taking a step forward instead of hiding. Let's do this, Dr. Singh. I'm ready to reclaim my life."
+    ]
+  ]
+}

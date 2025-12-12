@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, James. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the hurricane again, and it's making me nervous.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: Okay... I'm trying. So, it was the morning of September 15th. I remember waking up to the sound of howling winds. The news had been warning us for days, but nothing could have prepared me for what was coming.",
+    "Therapist: Stay with that moment.",
+    "Client: The wind was so loud, it felt like it was inside my head. I could hear things hitting the house - branches, debris, I don't know what. My wife was holding onto me so tightly. We were in the hallway, away from windows, but it felt like the whole house was shaking.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The power went out, and that's when the real fear set in. It was pitch black, and the noise was deafening. I kept thinking about our neighbors, especially the elderly couple next door. I felt so helpless.",
+    "Therapist: It's okay to feel those emotions.",
+    "Client: Suddenly, there was this enormous crash. A tree had fallen on our roof. Water started pouring in. My wife was crying, and I... I froze. I couldn't move. I was supposed to protect her, but I couldn't do anything.",
+    "Therapist: You're being very brave, James.",
+    "Client: I feel like such a coward when I think about that moment. We were trapped in our own home, and all I could do was sit there and wait for it to be over.",
+    "Therapist: Remember, you survived. You're here now.",
+    "Client: You're right. We did survive. But the aftermath... God, it was like a war zone. Our street was unrecognizable. Houses destroyed, cars overturned. And the silence after the storm... it was eerie.",
+    "Therapist: How are you feeling right now?",
+    "Client: My heart is pounding, and my palms are sweaty. It feels so real, like I'm back there again.",
+    "Therapist: That's normal. You're safe here.",
+    "Client: I know, I know. It's just... when I think about how close we came to losing everything, it overwhelms me. And then I feel guilty because we were lucky compared to some others.",
+    "Therapist: It's okay to have those feelings.",
+    "Client: The days after were a blur. No power, limited water. We had to line up for hours just to get basic supplies. It brought out the best and worst in people. I saw neighbors helping each other, but also fights breaking out over food and water.",
+    "Therapist: You're doing great, James. Keep going.",
+    "Client: The smell... that's something I'll never forget. The mix of wet debris, mold, and... other things. It was suffocating. And the heat. Without power, it was unbearable. We slept outside for days because it was cooler.",
+    "Therapist: Stay with those memories. You're safe now.",
+    "Client: I keep thinking about what we could have done differently. Should we have evacuated? But where would we have gone? And leaving our home... it felt impossible at the time.",
+    "Therapist: It's natural to question past decisions.",
+    "Client: The recovery is still ongoing. Every time I hear about another hurricane forming, I feel this dread in the pit of my stomach. It's like I'm always waiting for the next disaster.",
+    "Therapist: How are you feeling now?",
+    "Client: Drained. Talking about it... it's exhausting. But also, I feel a little lighter? Like I've let some of it out.",
+    "Therapist: That's good. You've done well today.",
+    "Client: Thank you. It's still hard, but I think it's getting a little easier each time we talk about it. I just want to get to a point where I can think about it without feeling like I'm right back in the middle of it.",
+    "Therapist: That's a great goal. We'll work towards that.",
+    "Client: I appreciate your help. It means a lot to have someone listen and understand. Sometimes I feel like I can't talk about this with anyone else without burdening them.",
+    "Therapist: That's what I'm here for. You're making progress.",
+    "Client: Thank you. I think I'm ready to end for today. It's a lot to process, but I'm glad we did this.",
+    "Therapist: You've done excellent work. We'll continue next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, James. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the hurricane again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the hurricane again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: Thank you. I'll try to keep that in mind. It's just... every time I think about it, my heart starts racing.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... I'm trying. So, it was the morning of September 15th. I remember waking up to the sound of howling winds. The news had been warning us for days, but nothing could have prepared me for what was coming."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... I'm trying. So, it was the morning of September 15th. I remember waking up to the sound of howling winds. The news had been warning us for days, but nothing could have prepared me for what was coming.",
+      "Therapist: Stay with that moment."
+    ],
+    [
+      "Client: Okay... I'm trying. So, it was the morning of September 15th. I remember waking up to the sound of howling winds. The news had been warning us for days, but nothing could have prepared me for what was coming.",
+      "Therapist: Stay with that moment.",
+      "Client: The wind was so loud, it felt like it was inside my head. I could hear things hitting the house - branches, debris, I don't know what. My wife was holding onto me so tightly. We were in the hallway, away from windows, but it felt like the whole house was shaking."
+    ],
+    [
+      "Therapist: Stay with that moment.",
+      "Client: The wind was so loud, it felt like it was inside my head. I could hear things hitting the house - branches, debris, I don't know what. My wife was holding onto me so tightly. We were in the hallway, away from windows, but it felt like the whole house was shaking.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: The wind was so loud, it felt like it was inside my head. I could hear things hitting the house - branches, debris, I don't know what. My wife was holding onto me so tightly. We were in the hallway, away from windows, but it felt like the whole house was shaking.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The power went out, and that's when the real fear set in. It was pitch black, and the noise was deafening. I kept thinking about our neighbors, especially the elderly couple next door. I felt so helpless."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The power went out, and that's when the real fear set in. It was pitch black, and the noise was deafening. I kept thinking about our neighbors, especially the elderly couple next door. I felt so helpless.",
+      "Therapist: It's okay to feel those emotions."
+    ],
+    [
+      "Client: The power went out, and that's when the real fear set in. It was pitch black, and the noise was deafening. I kept thinking about our neighbors, especially the elderly couple next door. I felt so helpless.",
+      "Therapist: It's okay to feel those emotions.",
+      "Client: Suddenly, there was this enormous crash. A tree had fallen on our roof. Water started pouring in. My wife was crying, and I... I froze. I couldn't move. I was supposed to protect her, but I couldn't do anything."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions.",
+      "Client: Suddenly, there was this enormous crash. A tree had fallen on our roof. Water started pouring in. My wife was crying, and I... I froze. I couldn't move. I was supposed to protect her, but I couldn't do anything.",
+      "Therapist: You're being very brave, James."
+    ],
+    [
+      "Client: Suddenly, there was this enormous crash. A tree had fallen on our roof. Water started pouring in. My wife was crying, and I... I froze. I couldn't move. I was supposed to protect her, but I couldn't do anything.",
+      "Therapist: You're being very brave, James.",
+      "Client: I feel like such a coward when I think about that moment. We were trapped in our own home, and all I could do was sit there and wait for it to be over."
+    ],
+    [
+      "Therapist: You're being very brave, James.",
+      "Client: I feel like such a coward when I think about that moment. We were trapped in our own home, and all I could do was sit there and wait for it to be over.",
+      "Therapist: Remember, you survived. You're here now."
+    ],
+    [
+      "Client: I feel like such a coward when I think about that moment. We were trapped in our own home, and all I could do was sit there and wait for it to be over.",
+      "Therapist: Remember, you survived. You're here now.",
+      "Client: You're right. We did survive. But the aftermath... God, it was like a war zone. Our street was unrecognizable. Houses destroyed, cars overturned. And the silence after the storm... it was eerie."
+    ],
+    [
+      "Therapist: Remember, you survived. You're here now.",
+      "Client: You're right. We did survive. But the aftermath... God, it was like a war zone. Our street was unrecognizable. Houses destroyed, cars overturned. And the silence after the storm... it was eerie.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: You're right. We did survive. But the aftermath... God, it was like a war zone. Our street was unrecognizable. Houses destroyed, cars overturned. And the silence after the storm... it was eerie.",
+      "Therapist: How are you feeling right now?",
+      "Client: My heart is pounding, and my palms are sweaty. It feels so real, like I'm back there again."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: My heart is pounding, and my palms are sweaty. It feels so real, like I'm back there again.",
+      "Therapist: That's normal. You're safe here."
+    ],
+    [
+      "Client: My heart is pounding, and my palms are sweaty. It feels so real, like I'm back there again.",
+      "Therapist: That's normal. You're safe here.",
+      "Client: I know, I know. It's just... when I think about how close we came to losing everything, it overwhelms me. And then I feel guilty because we were lucky compared to some others."
+    ],
+    [
+      "Therapist: That's normal. You're safe here.",
+      "Client: I know, I know. It's just... when I think about how close we came to losing everything, it overwhelms me. And then I feel guilty because we were lucky compared to some others.",
+      "Therapist: It's okay to have those feelings."
+    ],
+    [
+      "Client: I know, I know. It's just... when I think about how close we came to losing everything, it overwhelms me. And then I feel guilty because we were lucky compared to some others.",
+      "Therapist: It's okay to have those feelings.",
+      "Client: The days after were a blur. No power, limited water. We had to line up for hours just to get basic supplies. It brought out the best and worst in people. I saw neighbors helping each other, but also fights breaking out over food and water."
+    ],
+    [
+      "Therapist: It's okay to have those feelings.",
+      "Client: The days after were a blur. No power, limited water. We had to line up for hours just to get basic supplies. It brought out the best and worst in people. I saw neighbors helping each other, but also fights breaking out over food and water.",
+      "Therapist: You're doing great, James. Keep going."
+    ],
+    [
+      "Client: The days after were a blur. No power, limited water. We had to line up for hours just to get basic supplies. It brought out the best and worst in people. I saw neighbors helping each other, but also fights breaking out over food and water.",
+      "Therapist: You're doing great, James. Keep going.",
+      "Client: The smell... that's something I'll never forget. The mix of wet debris, mold, and... other things. It was suffocating. And the heat. Without power, it was unbearable. We slept outside for days because it was cooler."
+    ],
+    [
+      "Therapist: You're doing great, James. Keep going.",
+      "Client: The smell... that's something I'll never forget. The mix of wet debris, mold, and... other things. It was suffocating. And the heat. Without power, it was unbearable. We slept outside for days because it was cooler.",
+      "Therapist: Stay with those memories. You're safe now."
+    ],
+    [
+      "Client: The smell... that's something I'll never forget. The mix of wet debris, mold, and... other things. It was suffocating. And the heat. Without power, it was unbearable. We slept outside for days because it was cooler.",
+      "Therapist: Stay with those memories. You're safe now.",
+      "Client: I keep thinking about what we could have done differently. Should we have evacuated? But where would we have gone? And leaving our home... it felt impossible at the time."
+    ],
+    [
+      "Therapist: Stay with those memories. You're safe now.",
+      "Client: I keep thinking about what we could have done differently. Should we have evacuated? But where would we have gone? And leaving our home... it felt impossible at the time.",
+      "Therapist: It's natural to question past decisions."
+    ],
+    [
+      "Client: I keep thinking about what we could have done differently. Should we have evacuated? But where would we have gone? And leaving our home... it felt impossible at the time.",
+      "Therapist: It's natural to question past decisions.",
+      "Client: The recovery is still ongoing. Every time I hear about another hurricane forming, I feel this dread in the pit of my stomach. It's like I'm always waiting for the next disaster."
+    ],
+    [
+      "Therapist: It's natural to question past decisions.",
+      "Client: The recovery is still ongoing. Every time I hear about another hurricane forming, I feel this dread in the pit of my stomach. It's like I'm always waiting for the next disaster.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The recovery is still ongoing. Every time I hear about another hurricane forming, I feel this dread in the pit of my stomach. It's like I'm always waiting for the next disaster.",
+      "Therapist: How are you feeling now?",
+      "Client: Drained. Talking about it... it's exhausting. But also, I feel a little lighter? Like I've let some of it out."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Drained. Talking about it... it's exhausting. But also, I feel a little lighter? Like I've let some of it out.",
+      "Therapist: That's good. You've done well today."
+    ],
+    [
+      "Client: Drained. Talking about it... it's exhausting. But also, I feel a little lighter? Like I've let some of it out.",
+      "Therapist: That's good. You've done well today.",
+      "Client: Thank you. It's still hard, but I think it's getting a little easier each time we talk about it. I just want to get to a point where I can think about it without feeling like I'm right back in the middle of it."
+    ],
+    [
+      "Therapist: That's good. You've done well today.",
+      "Client: Thank you. It's still hard, but I think it's getting a little easier each time we talk about it. I just want to get to a point where I can think about it without feeling like I'm right back in the middle of it.",
+      "Therapist: That's a great goal. We'll work towards that."
+    ],
+    [
+      "Client: Thank you. It's still hard, but I think it's getting a little easier each time we talk about it. I just want to get to a point where I can think about it without feeling like I'm right back in the middle of it.",
+      "Therapist: That's a great goal. We'll work towards that.",
+      "Client: I appreciate your help. It means a lot to have someone listen and understand. Sometimes I feel like I can't talk about this with anyone else without burdening them."
+    ],
+    [
+      "Therapist: That's a great goal. We'll work towards that.",
+      "Client: I appreciate your help. It means a lot to have someone listen and understand. Sometimes I feel like I can't talk about this with anyone else without burdening them.",
+      "Therapist: That's what I'm here for. You're making progress."
+    ],
+    [
+      "Client: I appreciate your help. It means a lot to have someone listen and understand. Sometimes I feel like I can't talk about this with anyone else without burdening them.",
+      "Therapist: That's what I'm here for. You're making progress.",
+      "Client: Thank you. I think I'm ready to end for today. It's a lot to process, but I'm glad we did this."
+    ],
+    [
+      "Therapist: That's what I'm here for. You're making progress.",
+      "Client: Thank you. I think I'm ready to end for today. It's a lot to process, but I'm glad we did this.",
+      "Therapist: You've done excellent work. We'll continue next time."
+    ]
+  ]
+}

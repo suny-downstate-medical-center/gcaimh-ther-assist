@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Sarah, how are you feeling today?",
+    "Client: Hi Dr. Ahmed. I'm... okay, I guess. My back's been acting up again, and I didn't sleep well last night. I kept having these weird dreams about... well, you know.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: I'm not sure. What exactly does that mean? It sounds a bit scary, to be honest. Is it going to make things worse?",
+    "Therapist: It's normal to feel apprehensive. Can you share more about your concerns?",
+    "Client: Well, I'm worried about reliving that horrible day with the dog attack. I've been trying so hard to forget it, and now you want me to remember it in detail? I'm afraid it might bring back all those feelings of terror and helplessness. Plus, with my chronic pain, I'm concerned that the stress might make that worse too. I don't know if I can handle it all at once.",
+    "Therapist: Your concerns are valid. This technique helps process trauma. Shall we discuss how?",
+    "Client: Okay, I guess so. But can you explain it to me step by step? And what if I panic during the session? I mean, I've been having such a hard time lately with everything - my job, living with roommates, being away from my family... I feel like I'm barely holding it together as it is.",
+    "Therapist: We'll go at your pace. I'll guide you throughout. What questions do you have?",
+    "Client: Well, how long will this take? And what exactly am I supposed to do? Do I just... talk about what happened? And how is this different from when we've discussed it before? I'm also worried about how I'll feel afterward. Will I be able to go to work, or will I be a mess?",
+    "Therapist: It typically lasts 30-45 minutes. You'll recount the event in detail. We'll manage any distress together.",
+    "Client: Okay, that doesn't sound as bad as I thought. But still, I'm nervous. I've been trying so hard to keep busy and distracted, especially at work and with my roommates. I don't want them to see me upset. And honestly, I'm a bit embarrassed about how much this is affecting me. I mean, it was just a dog, right? But it feels like so much more than that.",
+    "Therapist: Your feelings are completely valid. This process helps reduce PTSD symptoms over time.",
+    "Client: I hope you're right. I'm just so tired of feeling this way - always on edge, having nightmares, avoiding anything that reminds me of that day. It's affecting every part of my life. Even simple things like going for a walk in the park have become difficult. I want my life back, you know? I want to feel normal again.",
+    "Therapist: Your courage is admirable. Shall we begin? Remember, we can pause anytime.",
+    "Client: Okay, I think I'm ready. But can you stay close by? And maybe have some water ready? My throat gets dry when I'm nervous. And... thank you, Dr. Ahmed. I know this isn't easy, but I'm grateful for your help. I just hope this works.",
+    "Therapist: Of course. I'm here to support you. Let's start when you're comfortable."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Sarah, how are you feeling today?",
+      "Client: Hi Dr. Ahmed. I'm... okay, I guess. My back's been acting up again, and I didn't sleep well last night. I kept having these weird dreams about... well, you know.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: Hi Dr. Ahmed. I'm... okay, I guess. My back's been acting up again, and I didn't sleep well last night. I kept having these weird dreams about... well, you know.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that mean? It sounds a bit scary, to be honest. Is it going to make things worse?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that mean? It sounds a bit scary, to be honest. Is it going to make things worse?",
+      "Therapist: It's normal to feel apprehensive. Can you share more about your concerns?"
+    ],
+    [
+      "Client: I'm not sure. What exactly does that mean? It sounds a bit scary, to be honest. Is it going to make things worse?",
+      "Therapist: It's normal to feel apprehensive. Can you share more about your concerns?",
+      "Client: Well, I'm worried about reliving that horrible day with the dog attack. I've been trying so hard to forget it, and now you want me to remember it in detail? I'm afraid it might bring back all those feelings of terror and helplessness. Plus, with my chronic pain, I'm concerned that the stress might make that worse too. I don't know if I can handle it all at once."
+    ],
+    [
+      "Therapist: It's normal to feel apprehensive. Can you share more about your concerns?",
+      "Client: Well, I'm worried about reliving that horrible day with the dog attack. I've been trying so hard to forget it, and now you want me to remember it in detail? I'm afraid it might bring back all those feelings of terror and helplessness. Plus, with my chronic pain, I'm concerned that the stress might make that worse too. I don't know if I can handle it all at once.",
+      "Therapist: Your concerns are valid. This technique helps process trauma. Shall we discuss how?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving that horrible day with the dog attack. I've been trying so hard to forget it, and now you want me to remember it in detail? I'm afraid it might bring back all those feelings of terror and helplessness. Plus, with my chronic pain, I'm concerned that the stress might make that worse too. I don't know if I can handle it all at once.",
+      "Therapist: Your concerns are valid. This technique helps process trauma. Shall we discuss how?",
+      "Client: Okay, I guess so. But can you explain it to me step by step? And what if I panic during the session? I mean, I've been having such a hard time lately with everything - my job, living with roommates, being away from my family... I feel like I'm barely holding it together as it is."
+    ],
+    [
+      "Therapist: Your concerns are valid. This technique helps process trauma. Shall we discuss how?",
+      "Client: Okay, I guess so. But can you explain it to me step by step? And what if I panic during the session? I mean, I've been having such a hard time lately with everything - my job, living with roommates, being away from my family... I feel like I'm barely holding it together as it is.",
+      "Therapist: We'll go at your pace. I'll guide you throughout. What questions do you have?"
+    ],
+    [
+      "Client: Okay, I guess so. But can you explain it to me step by step? And what if I panic during the session? I mean, I've been having such a hard time lately with everything - my job, living with roommates, being away from my family... I feel like I'm barely holding it together as it is.",
+      "Therapist: We'll go at your pace. I'll guide you throughout. What questions do you have?",
+      "Client: Well, how long will this take? And what exactly am I supposed to do? Do I just... talk about what happened? And how is this different from when we've discussed it before? I'm also worried about how I'll feel afterward. Will I be able to go to work, or will I be a mess?"
+    ],
+    [
+      "Therapist: We'll go at your pace. I'll guide you throughout. What questions do you have?",
+      "Client: Well, how long will this take? And what exactly am I supposed to do? Do I just... talk about what happened? And how is this different from when we've discussed it before? I'm also worried about how I'll feel afterward. Will I be able to go to work, or will I be a mess?",
+      "Therapist: It typically lasts 30-45 minutes. You'll recount the event in detail. We'll manage any distress together."
+    ],
+    [
+      "Client: Well, how long will this take? And what exactly am I supposed to do? Do I just... talk about what happened? And how is this different from when we've discussed it before? I'm also worried about how I'll feel afterward. Will I be able to go to work, or will I be a mess?",
+      "Therapist: It typically lasts 30-45 minutes. You'll recount the event in detail. We'll manage any distress together.",
+      "Client: Okay, that doesn't sound as bad as I thought. But still, I'm nervous. I've been trying so hard to keep busy and distracted, especially at work and with my roommates. I don't want them to see me upset. And honestly, I'm a bit embarrassed about how much this is affecting me. I mean, it was just a dog, right? But it feels like so much more than that."
+    ],
+    [
+      "Therapist: It typically lasts 30-45 minutes. You'll recount the event in detail. We'll manage any distress together.",
+      "Client: Okay, that doesn't sound as bad as I thought. But still, I'm nervous. I've been trying so hard to keep busy and distracted, especially at work and with my roommates. I don't want them to see me upset. And honestly, I'm a bit embarrassed about how much this is affecting me. I mean, it was just a dog, right? But it feels like so much more than that.",
+      "Therapist: Your feelings are completely valid. This process helps reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: Okay, that doesn't sound as bad as I thought. But still, I'm nervous. I've been trying so hard to keep busy and distracted, especially at work and with my roommates. I don't want them to see me upset. And honestly, I'm a bit embarrassed about how much this is affecting me. I mean, it was just a dog, right? But it feels like so much more than that.",
+      "Therapist: Your feelings are completely valid. This process helps reduce PTSD symptoms over time.",
+      "Client: I hope you're right. I'm just so tired of feeling this way - always on edge, having nightmares, avoiding anything that reminds me of that day. It's affecting every part of my life. Even simple things like going for a walk in the park have become difficult. I want my life back, you know? I want to feel normal again."
+    ],
+    [
+      "Therapist: Your feelings are completely valid. This process helps reduce PTSD symptoms over time.",
+      "Client: I hope you're right. I'm just so tired of feeling this way - always on edge, having nightmares, avoiding anything that reminds me of that day. It's affecting every part of my life. Even simple things like going for a walk in the park have become difficult. I want my life back, you know? I want to feel normal again.",
+      "Therapist: Your courage is admirable. Shall we begin? Remember, we can pause anytime."
+    ],
+    [
+      "Client: I hope you're right. I'm just so tired of feeling this way - always on edge, having nightmares, avoiding anything that reminds me of that day. It's affecting every part of my life. Even simple things like going for a walk in the park have become difficult. I want my life back, you know? I want to feel normal again.",
+      "Therapist: Your courage is admirable. Shall we begin? Remember, we can pause anytime.",
+      "Client: Okay, I think I'm ready. But can you stay close by? And maybe have some water ready? My throat gets dry when I'm nervous. And... thank you, Dr. Ahmed. I know this isn't easy, but I'm grateful for your help. I just hope this works."
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we begin? Remember, we can pause anytime.",
+      "Client: Okay, I think I'm ready. But can you stay close by? And maybe have some water ready? My throat gets dry when I'm nervous. And... thank you, Dr. Ahmed. I know this isn't easy, but I'm grateful for your help. I just hope this works.",
+      "Therapist: Of course. I'm here to support you. Let's start when you're comfortable."
+    ]
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm at the medical clinic. It's busy, people everywhere. I'm sitting in the waiting room, my heart racing. The smell of antiseptic is overwhelming. I can't stop thinking about what might happen next.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 6. My palms are sweating, and I feel tense.",
+    "Therapist: Thank you. Continue with the memory.",
+    "Client: A nurse calls my name. As I stand up, my legs feel weak. I follow her down a long corridor. The fluorescent lights are harsh, making everything look sterile and cold. We enter a small room, and she tells me to wait for the doctor. I'm alone now, and the silence is deafening.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's increased to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: The doctor enters. He barely looks at me as he flips through my chart. His face is serious, and I can feel panic rising in my throat. He starts talking, using words I don't understand. All I can focus on is his grim expression. Suddenly, I hear him say \"human trafficking victims often present with these symptoms.\" My world stops. I feel like I'm falling into a dark pit.",
+    "Therapist: Take a moment. What's your SUDS rating?",
+    "Client: It's... it's a 9. I feel like I can't breathe. My hands are shaking.",
+    "Therapist: I hear you. Remember, you're safe here. Can you continue?",
+    "Client: I... I think so. The doctor keeps talking, but I can't process anything he's saying. All I can think about is how he knows. Did someone tell him? Am I in danger? I want to run, but I'm frozen in place. The room feels like it's closing in on me.",
+    "Therapist: And your SUDS now?",
+    "Client: Still a 9. My heart is pounding so hard I think it might burst out of my chest.",
+    "Therapist: You're doing great. Keep going if you can.",
+    "Client: The doctor asks if I need help, if I want to talk to someone. I can't speak. I just shake my head. He hands me some pamphlets, and I stuff them in my pocket without looking. As soon as he leaves, I bolt from the room. I'm running through the corridors, pushing past people. I need to get out, to breathe.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's down to a 7 now. I feel drained, but the panic is subsiding a bit.",
+    "Therapist: I see. Continue with what happened next.",
+    "Client: I make it outside and lean against the building, gasping for air. People are staring, but I don't care. I feel exposed, like everyone knows my secret now. I want to disappear. I start walking, no destination in mind, just need to get away. The pamphlets feel like they're burning a hole in my pocket.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's a 6. I feel... numb. Like I'm disconnected from my body.",
+    "Therapist: That's a common reaction. You're doing well.",
+    "Client: I end up in a park, sitting on a bench. My mind is racing, thinking about what this means. Will they come for me? Will I be forced to talk about what happened? I feel so alone, so scared. I want to cry, but the tears won't come.",
+    "Therapist: What's your final SUDS rating?",
+    "Client: It's back to a 5. I feel exhausted, but the intense panic has passed.",
+    "Therapist: Thank you for sharing. How are you feeling now?",
+    "Client: Drained. It's still hard to talk about, but... I feel a bit lighter. Like I've let go of something I've been holding onto for a long time.",
+    "Therapist: That's normal. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm at the medical clinic. It's busy, people everywhere. I'm sitting in the waiting room, my heart racing. The smell of antiseptic is overwhelming. I can't stop thinking about what might happen next."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm at the medical clinic. It's busy, people everywhere. I'm sitting in the waiting room, my heart racing. The smell of antiseptic is overwhelming. I can't stop thinking about what might happen next.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm at the medical clinic. It's busy, people everywhere. I'm sitting in the waiting room, my heart racing. The smell of antiseptic is overwhelming. I can't stop thinking about what might happen next.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 6. My palms are sweating, and I feel tense."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 6. My palms are sweating, and I feel tense.",
+      "Therapist: Thank you. Continue with the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 6. My palms are sweating, and I feel tense.",
+      "Therapist: Thank you. Continue with the memory.",
+      "Client: A nurse calls my name. As I stand up, my legs feel weak. I follow her down a long corridor. The fluorescent lights are harsh, making everything look sterile and cold. We enter a small room, and she tells me to wait for the doctor. I'm alone now, and the silence is deafening."
+    ],
+    [
+      "Therapist: Thank you. Continue with the memory.",
+      "Client: A nurse calls my name. As I stand up, my legs feel weak. I follow her down a long corridor. The fluorescent lights are harsh, making everything look sterile and cold. We enter a small room, and she tells me to wait for the doctor. I'm alone now, and the silence is deafening.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: A nurse calls my name. As I stand up, my legs feel weak. I follow her down a long corridor. The fluorescent lights are harsh, making everything look sterile and cold. We enter a small room, and she tells me to wait for the doctor. I'm alone now, and the silence is deafening.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's increased to an 8. My chest feels tight, and I'm having trouble catching my breath."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's increased to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's increased to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The doctor enters. He barely looks at me as he flips through my chart. His face is serious, and I can feel panic rising in my throat. He starts talking, using words I don't understand. All I can focus on is his grim expression. Suddenly, I hear him say \"human trafficking victims often present with these symptoms.\" My world stops. I feel like I'm falling into a dark pit."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The doctor enters. He barely looks at me as he flips through my chart. His face is serious, and I can feel panic rising in my throat. He starts talking, using words I don't understand. All I can focus on is his grim expression. Suddenly, I hear him say \"human trafficking victims often present with these symptoms.\" My world stops. I feel like I'm falling into a dark pit.",
+      "Therapist: Take a moment. What's your SUDS rating?"
+    ],
+    [
+      "Client: The doctor enters. He barely looks at me as he flips through my chart. His face is serious, and I can feel panic rising in my throat. He starts talking, using words I don't understand. All I can focus on is his grim expression. Suddenly, I hear him say \"human trafficking victims often present with these symptoms.\" My world stops. I feel like I'm falling into a dark pit.",
+      "Therapist: Take a moment. What's your SUDS rating?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My hands are shaking."
+    ],
+    [
+      "Therapist: Take a moment. What's your SUDS rating?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My hands are shaking.",
+      "Therapist: I hear you. Remember, you're safe here. Can you continue?"
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe. My hands are shaking.",
+      "Therapist: I hear you. Remember, you're safe here. Can you continue?",
+      "Client: I... I think so. The doctor keeps talking, but I can't process anything he's saying. All I can think about is how he knows. Did someone tell him? Am I in danger? I want to run, but I'm frozen in place. The room feels like it's closing in on me."
+    ],
+    [
+      "Therapist: I hear you. Remember, you're safe here. Can you continue?",
+      "Client: I... I think so. The doctor keeps talking, but I can't process anything he's saying. All I can think about is how he knows. Did someone tell him? Am I in danger? I want to run, but I'm frozen in place. The room feels like it's closing in on me.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I think so. The doctor keeps talking, but I can't process anything he's saying. All I can think about is how he knows. Did someone tell him? Am I in danger? I want to run, but I'm frozen in place. The room feels like it's closing in on me.",
+      "Therapist: And your SUDS now?",
+      "Client: Still a 9. My heart is pounding so hard I think it might burst out of my chest."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: Still a 9. My heart is pounding so hard I think it might burst out of my chest.",
+      "Therapist: You're doing great. Keep going if you can."
+    ],
+    [
+      "Client: Still a 9. My heart is pounding so hard I think it might burst out of my chest.",
+      "Therapist: You're doing great. Keep going if you can.",
+      "Client: The doctor asks if I need help, if I want to talk to someone. I can't speak. I just shake my head. He hands me some pamphlets, and I stuff them in my pocket without looking. As soon as he leaves, I bolt from the room. I'm running through the corridors, pushing past people. I need to get out, to breathe."
+    ],
+    [
+      "Therapist: You're doing great. Keep going if you can.",
+      "Client: The doctor asks if I need help, if I want to talk to someone. I can't speak. I just shake my head. He hands me some pamphlets, and I stuff them in my pocket without looking. As soon as he leaves, I bolt from the room. I'm running through the corridors, pushing past people. I need to get out, to breathe.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: The doctor asks if I need help, if I want to talk to someone. I can't speak. I just shake my head. He hands me some pamphlets, and I stuff them in my pocket without looking. As soon as he leaves, I bolt from the room. I'm running through the corridors, pushing past people. I need to get out, to breathe.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's down to a 7 now. I feel drained, but the panic is subsiding a bit."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's down to a 7 now. I feel drained, but the panic is subsiding a bit.",
+      "Therapist: I see. Continue with what happened next."
+    ],
+    [
+      "Client: It's down to a 7 now. I feel drained, but the panic is subsiding a bit.",
+      "Therapist: I see. Continue with what happened next.",
+      "Client: I make it outside and lean against the building, gasping for air. People are staring, but I don't care. I feel exposed, like everyone knows my secret now. I want to disappear. I start walking, no destination in mind, just need to get away. The pamphlets feel like they're burning a hole in my pocket."
+    ],
+    [
+      "Therapist: I see. Continue with what happened next.",
+      "Client: I make it outside and lean against the building, gasping for air. People are staring, but I don't care. I feel exposed, like everyone knows my secret now. I want to disappear. I start walking, no destination in mind, just need to get away. The pamphlets feel like they're burning a hole in my pocket.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I make it outside and lean against the building, gasping for air. People are staring, but I don't care. I feel exposed, like everyone knows my secret now. I want to disappear. I start walking, no destination in mind, just need to get away. The pamphlets feel like they're burning a hole in my pocket.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's a 6. I feel... numb. Like I'm disconnected from my body."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's a 6. I feel... numb. Like I'm disconnected from my body.",
+      "Therapist: That's a common reaction. You're doing well."
+    ],
+    [
+      "Client: It's a 6. I feel... numb. Like I'm disconnected from my body.",
+      "Therapist: That's a common reaction. You're doing well.",
+      "Client: I end up in a park, sitting on a bench. My mind is racing, thinking about what this means. Will they come for me? Will I be forced to talk about what happened? I feel so alone, so scared. I want to cry, but the tears won't come."
+    ],
+    [
+      "Therapist: That's a common reaction. You're doing well.",
+      "Client: I end up in a park, sitting on a bench. My mind is racing, thinking about what this means. Will they come for me? Will I be forced to talk about what happened? I feel so alone, so scared. I want to cry, but the tears won't come.",
+      "Therapist: What's your final SUDS rating?"
+    ],
+    [
+      "Client: I end up in a park, sitting on a bench. My mind is racing, thinking about what this means. Will they come for me? Will I be forced to talk about what happened? I feel so alone, so scared. I want to cry, but the tears won't come.",
+      "Therapist: What's your final SUDS rating?",
+      "Client: It's back to a 5. I feel exhausted, but the intense panic has passed."
+    ],
+    [
+      "Therapist: What's your final SUDS rating?",
+      "Client: It's back to a 5. I feel exhausted, but the intense panic has passed.",
+      "Therapist: Thank you for sharing. How are you feeling now?"
+    ],
+    [
+      "Client: It's back to a 5. I feel exhausted, but the intense panic has passed.",
+      "Therapist: Thank you for sharing. How are you feeling now?",
+      "Client: Drained. It's still hard to talk about, but... I feel a bit lighter. Like I've let go of something I've been holding onto for a long time."
+    ],
+    [
+      "Therapist: Thank you for sharing. How are you feeling now?",
+      "Client: Drained. It's still hard to talk about, but... I feel a bit lighter. Like I've let go of something I've been holding onto for a long time.",
+      "Therapist: That's normal. You've done excellent work today."
+    ]
+  ]
+}

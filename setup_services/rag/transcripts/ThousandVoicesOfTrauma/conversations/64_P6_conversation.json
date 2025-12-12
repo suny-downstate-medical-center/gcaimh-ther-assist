@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Jake. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the day you lost your father. What do you see?",
+    "Client: I... I see myself in the hospital waiting room. The smell of antiseptic is so strong. My hands are shaking as I hold my phone, waiting for news.",
+    "Therapist: Good. What's your SUDS level right now?",
+    "Client: Um, probably a 5 out of 10. My heart's beating faster just thinking about it.",
+    "Therapist: Okay. Continue describing what you're experiencing.",
+    "Client: A doctor walks in. His face is grim. I know something's wrong. He starts talking, but his words sound muffled. I catch phrases like \"we did everything we could\" and \"I'm sorry for your loss.\" My vision blurs, and I feel like I can't breathe.",
+    "Therapist: SUDS level now?",
+    "Client: It's... it's up to a 7. My chest feels tight, and I'm starting to sweat.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: I... I remember sinking to the floor. My legs just gave out. A nurse rushes over, asks if I'm okay, but I can't speak. All I can think is, \"He's gone. Dad's gone.\" The room starts spinning, and I feel like I might throw up.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's a 9. This is really hard. I feel like I'm right back there.",
+    "Therapist: I understand. You're doing great. Take a deep breath. Stay with the memory.",
+    "Client: *deep breath* Okay. I... I remember calling my mom. My voice is shaking so much I can barely get the words out. I hear her start crying on the other end. It hits me that I have to be the one to tell her, and it feels so unfair. Why did I have to be the one there? Why couldn't I have done something more?",
+    "Therapist: SUDS level?",
+    "Client: Still a 9. My hands are shaking now, just like they did then.",
+    "Therapist: That's okay. You're handling this well. Continue.",
+    "Client: I... I remember leaving the hospital. The sun is shining, and it feels so wrong. How can the world just go on like nothing happened? I get in my car, but I can't drive. I just sit there, sobbing. I feel so alone, so lost. Dad was always the one I turned to for advice, and now he's gone.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's down to an 8. I still feel awful, but talking about it... it's helping a little.",
+    "Therapist: That's good. You're doing excellent work here. How are you feeling overall?",
+    "Client: Exhausted. Drained. But... maybe a little relieved too? I've never really talked about that day in so much detail before.",
+    "Therapist: That's a common reaction. Well done today, Jake."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Jake. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you lost your father. What do you see?"
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'm ready to try.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you lost your father. What do you see?",
+      "Client: I... I see myself in the hospital waiting room. The smell of antiseptic is so strong. My hands are shaking as I hold my phone, waiting for news."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the day you lost your father. What do you see?",
+      "Client: I... I see myself in the hospital waiting room. The smell of antiseptic is so strong. My hands are shaking as I hold my phone, waiting for news.",
+      "Therapist: Good. What's your SUDS level right now?"
+    ],
+    [
+      "Client: I... I see myself in the hospital waiting room. The smell of antiseptic is so strong. My hands are shaking as I hold my phone, waiting for news.",
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably a 5 out of 10. My heart's beating faster just thinking about it."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level right now?",
+      "Client: Um, probably a 5 out of 10. My heart's beating faster just thinking about it.",
+      "Therapist: Okay. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, probably a 5 out of 10. My heart's beating faster just thinking about it.",
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: A doctor walks in. His face is grim. I know something's wrong. He starts talking, but his words sound muffled. I catch phrases like \"we did everything we could\" and \"I'm sorry for your loss.\" My vision blurs, and I feel like I can't breathe."
+    ],
+    [
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: A doctor walks in. His face is grim. I know something's wrong. He starts talking, but his words sound muffled. I catch phrases like \"we did everything we could\" and \"I'm sorry for your loss.\" My vision blurs, and I feel like I can't breathe.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: A doctor walks in. His face is grim. I know something's wrong. He starts talking, but his words sound muffled. I catch phrases like \"we did everything we could\" and \"I'm sorry for your loss.\" My vision blurs, and I feel like I can't breathe.",
+      "Therapist: SUDS level now?",
+      "Client: It's... it's up to a 7. My chest feels tight, and I'm starting to sweat."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's... it's up to a 7. My chest feels tight, and I'm starting to sweat.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's up to a 7. My chest feels tight, and I'm starting to sweat.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I... I remember sinking to the floor. My legs just gave out. A nurse rushes over, asks if I'm okay, but I can't speak. All I can think is, \"He's gone. Dad's gone.\" The room starts spinning, and I feel like I might throw up."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I... I remember sinking to the floor. My legs just gave out. A nurse rushes over, asks if I'm okay, but I can't speak. All I can think is, \"He's gone. Dad's gone.\" The room starts spinning, and I feel like I might throw up.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I remember sinking to the floor. My legs just gave out. A nurse rushes over, asks if I'm okay, but I can't speak. All I can think is, \"He's gone. Dad's gone.\" The room starts spinning, and I feel like I might throw up.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. This is really hard. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. This is really hard. I feel like I'm right back there.",
+      "Therapist: I understand. You're doing great. Take a deep breath. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's a 9. This is really hard. I feel like I'm right back there.",
+      "Therapist: I understand. You're doing great. Take a deep breath. Stay with the memory.",
+      "Client: *deep breath* Okay. I... I remember calling my mom. My voice is shaking so much I can barely get the words out. I hear her start crying on the other end. It hits me that I have to be the one to tell her, and it feels so unfair. Why did I have to be the one there? Why couldn't I have done something more?"
+    ],
+    [
+      "Therapist: I understand. You're doing great. Take a deep breath. Stay with the memory.",
+      "Client: *deep breath* Okay. I... I remember calling my mom. My voice is shaking so much I can barely get the words out. I hear her start crying on the other end. It hits me that I have to be the one to tell her, and it feels so unfair. Why did I have to be the one there? Why couldn't I have done something more?",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: *deep breath* Okay. I... I remember calling my mom. My voice is shaking so much I can barely get the words out. I hear her start crying on the other end. It hits me that I have to be the one to tell her, and it feels so unfair. Why did I have to be the one there? Why couldn't I have done something more?",
+      "Therapist: SUDS level?",
+      "Client: Still a 9. My hands are shaking now, just like they did then."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Still a 9. My hands are shaking now, just like they did then.",
+      "Therapist: That's okay. You're handling this well. Continue."
+    ],
+    [
+      "Client: Still a 9. My hands are shaking now, just like they did then.",
+      "Therapist: That's okay. You're handling this well. Continue.",
+      "Client: I... I remember leaving the hospital. The sun is shining, and it feels so wrong. How can the world just go on like nothing happened? I get in my car, but I can't drive. I just sit there, sobbing. I feel so alone, so lost. Dad was always the one I turned to for advice, and now he's gone."
+    ],
+    [
+      "Therapist: That's okay. You're handling this well. Continue.",
+      "Client: I... I remember leaving the hospital. The sun is shining, and it feels so wrong. How can the world just go on like nothing happened? I get in my car, but I can't drive. I just sit there, sobbing. I feel so alone, so lost. Dad was always the one I turned to for advice, and now he's gone.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I remember leaving the hospital. The sun is shining, and it feels so wrong. How can the world just go on like nothing happened? I get in my car, but I can't drive. I just sit there, sobbing. I feel so alone, so lost. Dad was always the one I turned to for advice, and now he's gone.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's down to an 8. I still feel awful, but talking about it... it's helping a little."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's down to an 8. I still feel awful, but talking about it... it's helping a little.",
+      "Therapist: That's good. You're doing excellent work here. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's down to an 8. I still feel awful, but talking about it... it's helping a little.",
+      "Therapist: That's good. You're doing excellent work here. How are you feeling overall?",
+      "Client: Exhausted. Drained. But... maybe a little relieved too? I've never really talked about that day in so much detail before."
+    ],
+    [
+      "Therapist: That's good. You're doing excellent work here. How are you feeling overall?",
+      "Client: Exhausted. Drained. But... maybe a little relieved too? I've never really talked about that day in so much detail before.",
+      "Therapist: That's a common reaction. Well done today, Jake."
+    ]
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mr. Johnson. How are you feeling today?",
+    "Client: Oh, hello there. I'm... well, I suppose I'm as good as an old man can be. My joints are aching a bit, but that's nothing new. I'm a bit nervous about what we're going to do today, if I'm being honest.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Ready?",
+    "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? I'm not sure I like the sound of it. Is it going to make me relive that terrible night?",
+    "Therapist: It's revisiting the memory safely. We'll go slowly. How do you feel?",
+    "Client: I feel... anxious. My heart's already starting to race a bit. I've spent so long trying to forget that night. The idea of purposely thinking about it... it's frightening. But I trust you, even if you are young enough to be my grandchild. No offense meant, of course.",
+    "Therapist: No offense taken. Your anxiety is normal. This helps process trauma.",
+    "Client: Process the trauma? I see. I suppose that makes sense, but it's still scary. I've been having nightmares about that night, you know. Sometimes I wake up thinking I hear those intruders in the house again. My daughter says I yell out in my sleep. Will this help with that?",
+    "Therapist: Yes, it can reduce nightmares and flashbacks. We'll go at your pace.",
+    "Client: That would be wonderful. The nightmares have been so disruptive. My poor daughter, she worries so much. I hate to be a burden on her. Okay, I think I'm willing to try this. But... what exactly will we be doing? How does this imaginal exposure work?",
+    "Therapist: You'll describe the event in detail. I'll guide you through it.",
+    "Client: Describe it in detail? Oh my. That sounds... challenging. I'm not sure I remember all the details. Some parts are fuzzy, while others are crystal clear. It's strange how memory works, isn't it? Will it matter if I can't remember everything?",
+    "Therapist: It's okay. Share what you remember. It helps process emotions.",
+    "Client: I see. Well, I'll do my best. I want to get better, for my daughter's sake as much as my own. She's been so supportive through all of this. I just hope I don't fall apart during this process. I'm not as strong as I used to be, you know.",
+    "Therapist: You're stronger than you think. We'll take breaks if needed.",
+    "Client: Thank you, that's reassuring. I appreciate your patience with an old man like me. One last question, if you don't mind. Will this... will this make the anxiety worse? I'm already struggling with that, and I'm worried this might intensify it.",
+    "Therapist: It might increase anxiety temporarily, but it'll improve long-term.",
+    "Client: I understand. Short-term pain for long-term gain, as they say. Alright, I think I'm ready to give this a try. I've lived through the actual event, so I suppose I can handle talking about it. Just... please be patient with me if I need to stop or if I get emotional.",
+    "Therapist: Of course. Your bravery is admirable. Shall we begin?",
+    "Client: Yes, let's begin. I'm as ready as I'll ever be, I suppose. Just remember, if I start rambling or get off track, it's not intentional. Sometimes my mind wanders these days. But I'll do my best to focus and get through this. I want to overcome this trauma and stop letting it control my life.",
+    "Therapist: Understood. Take a deep breath. Start when you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mr. Johnson. How are you feeling today?",
+      "Client: Oh, hello there. I'm... well, I suppose I'm as good as an old man can be. My joints are aching a bit, but that's nothing new. I'm a bit nervous about what we're going to do today, if I'm being honest.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Ready?"
+    ],
+    [
+      "Client: Oh, hello there. I'm... well, I suppose I'm as good as an old man can be. My joints are aching a bit, but that's nothing new. I'm a bit nervous about what we're going to do today, if I'm being honest.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Ready?",
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? I'm not sure I like the sound of it. Is it going to make me relive that terrible night?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Ready?",
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? I'm not sure I like the sound of it. Is it going to make me relive that terrible night?",
+      "Therapist: It's revisiting the memory safely. We'll go slowly. How do you feel?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? I'm not sure I like the sound of it. Is it going to make me relive that terrible night?",
+      "Therapist: It's revisiting the memory safely. We'll go slowly. How do you feel?",
+      "Client: I feel... anxious. My heart's already starting to race a bit. I've spent so long trying to forget that night. The idea of purposely thinking about it... it's frightening. But I trust you, even if you are young enough to be my grandchild. No offense meant, of course."
+    ],
+    [
+      "Therapist: It's revisiting the memory safely. We'll go slowly. How do you feel?",
+      "Client: I feel... anxious. My heart's already starting to race a bit. I've spent so long trying to forget that night. The idea of purposely thinking about it... it's frightening. But I trust you, even if you are young enough to be my grandchild. No offense meant, of course.",
+      "Therapist: No offense taken. Your anxiety is normal. This helps process trauma."
+    ],
+    [
+      "Client: I feel... anxious. My heart's already starting to race a bit. I've spent so long trying to forget that night. The idea of purposely thinking about it... it's frightening. But I trust you, even if you are young enough to be my grandchild. No offense meant, of course.",
+      "Therapist: No offense taken. Your anxiety is normal. This helps process trauma.",
+      "Client: Process the trauma? I see. I suppose that makes sense, but it's still scary. I've been having nightmares about that night, you know. Sometimes I wake up thinking I hear those intruders in the house again. My daughter says I yell out in my sleep. Will this help with that?"
+    ],
+    [
+      "Therapist: No offense taken. Your anxiety is normal. This helps process trauma.",
+      "Client: Process the trauma? I see. I suppose that makes sense, but it's still scary. I've been having nightmares about that night, you know. Sometimes I wake up thinking I hear those intruders in the house again. My daughter says I yell out in my sleep. Will this help with that?",
+      "Therapist: Yes, it can reduce nightmares and flashbacks. We'll go at your pace."
+    ],
+    [
+      "Client: Process the trauma? I see. I suppose that makes sense, but it's still scary. I've been having nightmares about that night, you know. Sometimes I wake up thinking I hear those intruders in the house again. My daughter says I yell out in my sleep. Will this help with that?",
+      "Therapist: Yes, it can reduce nightmares and flashbacks. We'll go at your pace.",
+      "Client: That would be wonderful. The nightmares have been so disruptive. My poor daughter, she worries so much. I hate to be a burden on her. Okay, I think I'm willing to try this. But... what exactly will we be doing? How does this imaginal exposure work?"
+    ],
+    [
+      "Therapist: Yes, it can reduce nightmares and flashbacks. We'll go at your pace.",
+      "Client: That would be wonderful. The nightmares have been so disruptive. My poor daughter, she worries so much. I hate to be a burden on her. Okay, I think I'm willing to try this. But... what exactly will we be doing? How does this imaginal exposure work?",
+      "Therapist: You'll describe the event in detail. I'll guide you through it."
+    ],
+    [
+      "Client: That would be wonderful. The nightmares have been so disruptive. My poor daughter, she worries so much. I hate to be a burden on her. Okay, I think I'm willing to try this. But... what exactly will we be doing? How does this imaginal exposure work?",
+      "Therapist: You'll describe the event in detail. I'll guide you through it.",
+      "Client: Describe it in detail? Oh my. That sounds... challenging. I'm not sure I remember all the details. Some parts are fuzzy, while others are crystal clear. It's strange how memory works, isn't it? Will it matter if I can't remember everything?"
+    ],
+    [
+      "Therapist: You'll describe the event in detail. I'll guide you through it.",
+      "Client: Describe it in detail? Oh my. That sounds... challenging. I'm not sure I remember all the details. Some parts are fuzzy, while others are crystal clear. It's strange how memory works, isn't it? Will it matter if I can't remember everything?",
+      "Therapist: It's okay. Share what you remember. It helps process emotions."
+    ],
+    [
+      "Client: Describe it in detail? Oh my. That sounds... challenging. I'm not sure I remember all the details. Some parts are fuzzy, while others are crystal clear. It's strange how memory works, isn't it? Will it matter if I can't remember everything?",
+      "Therapist: It's okay. Share what you remember. It helps process emotions.",
+      "Client: I see. Well, I'll do my best. I want to get better, for my daughter's sake as much as my own. She's been so supportive through all of this. I just hope I don't fall apart during this process. I'm not as strong as I used to be, you know."
+    ],
+    [
+      "Therapist: It's okay. Share what you remember. It helps process emotions.",
+      "Client: I see. Well, I'll do my best. I want to get better, for my daughter's sake as much as my own. She's been so supportive through all of this. I just hope I don't fall apart during this process. I'm not as strong as I used to be, you know.",
+      "Therapist: You're stronger than you think. We'll take breaks if needed."
+    ],
+    [
+      "Client: I see. Well, I'll do my best. I want to get better, for my daughter's sake as much as my own. She's been so supportive through all of this. I just hope I don't fall apart during this process. I'm not as strong as I used to be, you know.",
+      "Therapist: You're stronger than you think. We'll take breaks if needed.",
+      "Client: Thank you, that's reassuring. I appreciate your patience with an old man like me. One last question, if you don't mind. Will this... will this make the anxiety worse? I'm already struggling with that, and I'm worried this might intensify it."
+    ],
+    [
+      "Therapist: You're stronger than you think. We'll take breaks if needed.",
+      "Client: Thank you, that's reassuring. I appreciate your patience with an old man like me. One last question, if you don't mind. Will this... will this make the anxiety worse? I'm already struggling with that, and I'm worried this might intensify it.",
+      "Therapist: It might increase anxiety temporarily, but it'll improve long-term."
+    ],
+    [
+      "Client: Thank you, that's reassuring. I appreciate your patience with an old man like me. One last question, if you don't mind. Will this... will this make the anxiety worse? I'm already struggling with that, and I'm worried this might intensify it.",
+      "Therapist: It might increase anxiety temporarily, but it'll improve long-term.",
+      "Client: I understand. Short-term pain for long-term gain, as they say. Alright, I think I'm ready to give this a try. I've lived through the actual event, so I suppose I can handle talking about it. Just... please be patient with me if I need to stop or if I get emotional."
+    ],
+    [
+      "Therapist: It might increase anxiety temporarily, but it'll improve long-term.",
+      "Client: I understand. Short-term pain for long-term gain, as they say. Alright, I think I'm ready to give this a try. I've lived through the actual event, so I suppose I can handle talking about it. Just... please be patient with me if I need to stop or if I get emotional.",
+      "Therapist: Of course. Your bravery is admirable. Shall we begin?"
+    ],
+    [
+      "Client: I understand. Short-term pain for long-term gain, as they say. Alright, I think I'm ready to give this a try. I've lived through the actual event, so I suppose I can handle talking about it. Just... please be patient with me if I need to stop or if I get emotional.",
+      "Therapist: Of course. Your bravery is admirable. Shall we begin?",
+      "Client: Yes, let's begin. I'm as ready as I'll ever be, I suppose. Just remember, if I start rambling or get off track, it's not intentional. Sometimes my mind wanders these days. But I'll do my best to focus and get through this. I want to overcome this trauma and stop letting it control my life."
+    ],
+    [
+      "Therapist: Of course. Your bravery is admirable. Shall we begin?",
+      "Client: Yes, let's begin. I'm as ready as I'll ever be, I suppose. Just remember, if I start rambling or get off track, it's not intentional. Sometimes my mind wanders these days. But I'll do my best to focus and get through this. I want to overcome this trauma and stop letting it control my life.",
+      "Therapist: Understood. Take a deep breath. Start when you're ready."
+    ]
+  ]
+}

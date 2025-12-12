@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Carlos. How are you feeling today?",
+    "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thanks. I know we're supposed to talk about the airplane crash today. Just thinking about it makes my heart race.",
+    "Therapist: You're safe here. Take a deep breath. When you're ready, describe what you see.",
+    "Client: Okay... I'm on the plane. It's a commercial flight. I can feel the vibration of the engines, smell the recycled air. Everything seems normal at first.",
+    "Therapist: Good. Keep going.",
+    "Client: Suddenly, there's a loud bang. The plane shakes violently. Oxygen masks drop from the ceiling. People start screaming. I... I can't breathe.",
+    "Therapist: You're doing great, Carlos. Remember, you're safe here.",
+    "Client: The plane is losing altitude fast. I can see the ground getting closer through the window. My hands are shaking as I try to fasten my seatbelt. I keep thinking about my kids, how I might never see them again.",
+    "Therapist: Stay with that feeling. You're handling this well.",
+    "Client: The flight attendants are yelling instructions, but I can barely hear them over the noise. The plane is rattling so hard, I think it might break apart. I close my eyes and brace for impact.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: There's a deafening crash. My body is thrown forward, then slammed back. I feel intense pain everywhere. When I open my eyes, everything is chaos. Smoke, screams, debris everywhere.",
+    "Therapist: It's okay to feel overwhelmed. You're safe now.",
+    "Client: I'm... I'm trapped in my seat. The person next to me isn't moving. I can smell fuel and I'm terrified the plane might explode. I'm trying to unbuckle my seatbelt, but my hands won't stop shaking.",
+    "Therapist: You're doing incredibly well. Take a moment if you need to.",
+    "Client: I finally get free and stumble towards the emergency exit. The door is jammed. I'm pushing with all my strength, but it won't budge. I can hear people crying for help behind me. I feel so helpless, so responsible.",
+    "Therapist: It's not your fault. You're handling this memory courageously.",
+    "Client: After what feels like forever, the door finally opens. I help as many people as I can get out. The heat from the engines is intense. We're running away from the plane, afraid it might explode any second.",
+    "Therapist: You showed incredible strength. How are you feeling now?",
+    "Client: Exhausted. Drained. But... also a little relieved, I think. It's hard to talk about, but it feels a bit lighter now that I've shared it.",
+    "Therapist: That's a common reaction. You did excellent work today.",
+    "Client: Thank you. It's still painful, but I feel like I can breathe a little easier now. Is this... is this normal?",
+    "Therapist: Absolutely. It's a sign of progress.",
+    "Client: I never thought I'd be able to talk about this without completely falling apart. It's still hard, but... I feel a bit stronger.",
+    "Therapist: That strength was always there. You're discovering it now.",
+    "Client: Maybe you're right. I've been carrying this for so long... it's strange to finally let some of it out.",
+    "Therapist: It's a big step. How do you feel about continuing this work?",
+    "Client: It's scary, but I think I want to keep going. If it can help me feel better in the long run... I'm willing to try.",
+    "Therapist: That's a courageous decision. We'll take it one step at a time.",
+    "Client: Thank you. I appreciate your support through this. It means a lot to have someone listen without judgment.",
+    "Therapist: That's what I'm here for. You've done great work today.",
+    "Client: I feel drained, but also... I don't know, maybe a little hopeful? Is that weird?",
+    "Therapist: Not at all. It's a positive sign.",
+    "Client: Okay. I think I'm ready to wrap up for today. This was intense, but... I'm glad we did it.",
+    "Therapist: You should be proud of yourself. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Carlos. How are you feeling today?",
+      "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: I'm... I'm okay, I guess. A bit nervous about today's session, to be honest.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I know we're supposed to talk about the airplane crash today. Just thinking about it makes my heart race."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I know we're supposed to talk about the airplane crash today. Just thinking about it makes my heart race.",
+      "Therapist: You're safe here. Take a deep breath. When you're ready, describe what you see."
+    ],
+    [
+      "Client: Thanks. I know we're supposed to talk about the airplane crash today. Just thinking about it makes my heart race.",
+      "Therapist: You're safe here. Take a deep breath. When you're ready, describe what you see.",
+      "Client: Okay... I'm on the plane. It's a commercial flight. I can feel the vibration of the engines, smell the recycled air. Everything seems normal at first."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath. When you're ready, describe what you see.",
+      "Client: Okay... I'm on the plane. It's a commercial flight. I can feel the vibration of the engines, smell the recycled air. Everything seems normal at first.",
+      "Therapist: Good. Keep going."
+    ],
+    [
+      "Client: Okay... I'm on the plane. It's a commercial flight. I can feel the vibration of the engines, smell the recycled air. Everything seems normal at first.",
+      "Therapist: Good. Keep going.",
+      "Client: Suddenly, there's a loud bang. The plane shakes violently. Oxygen masks drop from the ceiling. People start screaming. I... I can't breathe."
+    ],
+    [
+      "Therapist: Good. Keep going.",
+      "Client: Suddenly, there's a loud bang. The plane shakes violently. Oxygen masks drop from the ceiling. People start screaming. I... I can't breathe.",
+      "Therapist: You're doing great, Carlos. Remember, you're safe here."
+    ],
+    [
+      "Client: Suddenly, there's a loud bang. The plane shakes violently. Oxygen masks drop from the ceiling. People start screaming. I... I can't breathe.",
+      "Therapist: You're doing great, Carlos. Remember, you're safe here.",
+      "Client: The plane is losing altitude fast. I can see the ground getting closer through the window. My hands are shaking as I try to fasten my seatbelt. I keep thinking about my kids, how I might never see them again."
+    ],
+    [
+      "Therapist: You're doing great, Carlos. Remember, you're safe here.",
+      "Client: The plane is losing altitude fast. I can see the ground getting closer through the window. My hands are shaking as I try to fasten my seatbelt. I keep thinking about my kids, how I might never see them again.",
+      "Therapist: Stay with that feeling. You're handling this well."
+    ],
+    [
+      "Client: The plane is losing altitude fast. I can see the ground getting closer through the window. My hands are shaking as I try to fasten my seatbelt. I keep thinking about my kids, how I might never see them again.",
+      "Therapist: Stay with that feeling. You're handling this well.",
+      "Client: The flight attendants are yelling instructions, but I can barely hear them over the noise. The plane is rattling so hard, I think it might break apart. I close my eyes and brace for impact."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're handling this well.",
+      "Client: The flight attendants are yelling instructions, but I can barely hear them over the noise. The plane is rattling so hard, I think it might break apart. I close my eyes and brace for impact.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: The flight attendants are yelling instructions, but I can barely hear them over the noise. The plane is rattling so hard, I think it might break apart. I close my eyes and brace for impact.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: There's a deafening crash. My body is thrown forward, then slammed back. I feel intense pain everywhere. When I open my eyes, everything is chaos. Smoke, screams, debris everywhere."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: There's a deafening crash. My body is thrown forward, then slammed back. I feel intense pain everywhere. When I open my eyes, everything is chaos. Smoke, screams, debris everywhere.",
+      "Therapist: It's okay to feel overwhelmed. You're safe now."
+    ],
+    [
+      "Client: There's a deafening crash. My body is thrown forward, then slammed back. I feel intense pain everywhere. When I open my eyes, everything is chaos. Smoke, screams, debris everywhere.",
+      "Therapist: It's okay to feel overwhelmed. You're safe now.",
+      "Client: I'm... I'm trapped in my seat. The person next to me isn't moving. I can smell fuel and I'm terrified the plane might explode. I'm trying to unbuckle my seatbelt, but my hands won't stop shaking."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. You're safe now.",
+      "Client: I'm... I'm trapped in my seat. The person next to me isn't moving. I can smell fuel and I'm terrified the plane might explode. I'm trying to unbuckle my seatbelt, but my hands won't stop shaking.",
+      "Therapist: You're doing incredibly well. Take a moment if you need to."
+    ],
+    [
+      "Client: I'm... I'm trapped in my seat. The person next to me isn't moving. I can smell fuel and I'm terrified the plane might explode. I'm trying to unbuckle my seatbelt, but my hands won't stop shaking.",
+      "Therapist: You're doing incredibly well. Take a moment if you need to.",
+      "Client: I finally get free and stumble towards the emergency exit. The door is jammed. I'm pushing with all my strength, but it won't budge. I can hear people crying for help behind me. I feel so helpless, so responsible."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Take a moment if you need to.",
+      "Client: I finally get free and stumble towards the emergency exit. The door is jammed. I'm pushing with all my strength, but it won't budge. I can hear people crying for help behind me. I feel so helpless, so responsible.",
+      "Therapist: It's not your fault. You're handling this memory courageously."
+    ],
+    [
+      "Client: I finally get free and stumble towards the emergency exit. The door is jammed. I'm pushing with all my strength, but it won't budge. I can hear people crying for help behind me. I feel so helpless, so responsible.",
+      "Therapist: It's not your fault. You're handling this memory courageously.",
+      "Client: After what feels like forever, the door finally opens. I help as many people as I can get out. The heat from the engines is intense. We're running away from the plane, afraid it might explode any second."
+    ],
+    [
+      "Therapist: It's not your fault. You're handling this memory courageously.",
+      "Client: After what feels like forever, the door finally opens. I help as many people as I can get out. The heat from the engines is intense. We're running away from the plane, afraid it might explode any second.",
+      "Therapist: You showed incredible strength. How are you feeling now?"
+    ],
+    [
+      "Client: After what feels like forever, the door finally opens. I help as many people as I can get out. The heat from the engines is intense. We're running away from the plane, afraid it might explode any second.",
+      "Therapist: You showed incredible strength. How are you feeling now?",
+      "Client: Exhausted. Drained. But... also a little relieved, I think. It's hard to talk about, but it feels a bit lighter now that I've shared it."
+    ],
+    [
+      "Therapist: You showed incredible strength. How are you feeling now?",
+      "Client: Exhausted. Drained. But... also a little relieved, I think. It's hard to talk about, but it feels a bit lighter now that I've shared it.",
+      "Therapist: That's a common reaction. You did excellent work today."
+    ],
+    [
+      "Client: Exhausted. Drained. But... also a little relieved, I think. It's hard to talk about, but it feels a bit lighter now that I've shared it.",
+      "Therapist: That's a common reaction. You did excellent work today.",
+      "Client: Thank you. It's still painful, but I feel like I can breathe a little easier now. Is this... is this normal?"
+    ],
+    [
+      "Therapist: That's a common reaction. You did excellent work today.",
+      "Client: Thank you. It's still painful, but I feel like I can breathe a little easier now. Is this... is this normal?",
+      "Therapist: Absolutely. It's a sign of progress."
+    ],
+    [
+      "Client: Thank you. It's still painful, but I feel like I can breathe a little easier now. Is this... is this normal?",
+      "Therapist: Absolutely. It's a sign of progress.",
+      "Client: I never thought I'd be able to talk about this without completely falling apart. It's still hard, but... I feel a bit stronger."
+    ],
+    [
+      "Therapist: Absolutely. It's a sign of progress.",
+      "Client: I never thought I'd be able to talk about this without completely falling apart. It's still hard, but... I feel a bit stronger.",
+      "Therapist: That strength was always there. You're discovering it now."
+    ],
+    [
+      "Client: I never thought I'd be able to talk about this without completely falling apart. It's still hard, but... I feel a bit stronger.",
+      "Therapist: That strength was always there. You're discovering it now.",
+      "Client: Maybe you're right. I've been carrying this for so long... it's strange to finally let some of it out."
+    ],
+    [
+      "Therapist: That strength was always there. You're discovering it now.",
+      "Client: Maybe you're right. I've been carrying this for so long... it's strange to finally let some of it out.",
+      "Therapist: It's a big step. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: Maybe you're right. I've been carrying this for so long... it's strange to finally let some of it out.",
+      "Therapist: It's a big step. How do you feel about continuing this work?",
+      "Client: It's scary, but I think I want to keep going. If it can help me feel better in the long run... I'm willing to try."
+    ],
+    [
+      "Therapist: It's a big step. How do you feel about continuing this work?",
+      "Client: It's scary, but I think I want to keep going. If it can help me feel better in the long run... I'm willing to try.",
+      "Therapist: That's a courageous decision. We'll take it one step at a time."
+    ],
+    [
+      "Client: It's scary, but I think I want to keep going. If it can help me feel better in the long run... I'm willing to try.",
+      "Therapist: That's a courageous decision. We'll take it one step at a time.",
+      "Client: Thank you. I appreciate your support through this. It means a lot to have someone listen without judgment."
+    ],
+    [
+      "Therapist: That's a courageous decision. We'll take it one step at a time.",
+      "Client: Thank you. I appreciate your support through this. It means a lot to have someone listen without judgment.",
+      "Therapist: That's what I'm here for. You've done great work today."
+    ],
+    [
+      "Client: Thank you. I appreciate your support through this. It means a lot to have someone listen without judgment.",
+      "Therapist: That's what I'm here for. You've done great work today.",
+      "Client: I feel drained, but also... I don't know, maybe a little hopeful? Is that weird?"
+    ],
+    [
+      "Therapist: That's what I'm here for. You've done great work today.",
+      "Client: I feel drained, but also... I don't know, maybe a little hopeful? Is that weird?",
+      "Therapist: Not at all. It's a positive sign."
+    ],
+    [
+      "Client: I feel drained, but also... I don't know, maybe a little hopeful? Is that weird?",
+      "Therapist: Not at all. It's a positive sign.",
+      "Client: Okay. I think I'm ready to wrap up for today. This was intense, but... I'm glad we did it."
+    ],
+    [
+      "Therapist: Not at all. It's a positive sign.",
+      "Client: Okay. I think I'm ready to wrap up for today. This was intense, but... I'm glad we did it.",
+      "Therapist: You should be proud of yourself. We'll continue next session."
+    ]
+  ]
+}

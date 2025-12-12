@@ -1,3 +1,17 @@
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import os
 import json
 import asyncio
@@ -9,12 +23,15 @@ from datetime import datetime
 import base64
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 
 from google.cloud import speech_v2
 from google.cloud.speech_v2 import types
 import google.auth
+import firebase_admin
+from firebase_admin import auth, credentials
 
 # Load environment variables
 # Load base .env file first
@@ -34,8 +51,60 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# --- Initialize Firebase Admin ---
+try:
+    # Firebase Admin SDK will automatically use the service account when running in Google Cloud
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app()
+    logger.info("Firebase Admin SDK initialized")
+except Exception as e:
+    logger.error(f"Error initializing Firebase Admin SDK: {e}", exc_info=True)
+
+# --- Load Authorization Configuration from Environment ---
+ALLOWED_DOMAINS = set(os.environ.get('AUTH_ALLOWED_DOMAINS', '').split(',')) if os.environ.get('AUTH_ALLOWED_DOMAINS') else set()
+ALLOWED_EMAILS = set(os.environ.get('AUTH_ALLOWED_EMAILS', '').split(',')) if os.environ.get('AUTH_ALLOWED_EMAILS') else set()
+
+def is_email_authorized(email: str) -> bool:
+    """Check if email is authorized based on domain or explicit allowlist"""
+    if not email:
+        return False
+    
+    # Check explicit email allowlist
+    if email in ALLOWED_EMAILS:
+        return True
+        
+    # Check domain allowlist
+    email_domain = email.split('@')[-1] if '@' in email else ''
+    return email_domain in ALLOWED_DOMAINS
+
+def verify_firebase_token(token: str) -> Optional[dict]:
+    """Verify Firebase ID token and return decoded claims"""
+    try:
+        decoded_token = auth.verify_id_token(token)
+        email = decoded_token.get('email')
+        
+        if not is_email_authorized(email):
+            logger.warning(f"Unauthorized email attempted access: {email}")
+            return None
+            
+        logger.info(f"Authorized user authenticated: {email}")
+        return decoded_token
+    except Exception as e:
+        logger.error(f"Token verification failed: {e}")
+        return None
+
 # Initialize FastAPI app
 app = FastAPI(title="Therapy Transcription Streaming Service")
+
+# Security scheme
+security = HTTPBearer()
+
+async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    """Dependency to verify Firebase authentication"""
+    decoded_token = verify_firebase_token(credentials.credentials)
+    if not decoded_token:
+        raise HTTPException(status_code=401, detail="Invalid or unauthorized token")
+    return decoded_token
 
 # Add CORS middleware
 app.add_middleware(
@@ -261,17 +330,46 @@ async def websocket_transcribe(websocket: WebSocket):
     response_task = None
     
     try:
-        # Wait for initial session configuration
+        # Wait for initial session configuration with authentication
         init_message = await websocket.receive()
         
-        # Parse initialization
+        # Parse initialization and authenticate
         if init_message["type"] == "websocket.receive" and "text" in init_message:
             init_data = json.loads(init_message["text"])
+            
+            # --- Authentication Check ---
+            token = init_data.get("token")
+            if not token:
+                await websocket.send_json({
+                    "type": "error",
+                    "error": "Authentication token required in initialization message",
+                    "timestamp": datetime.now().isoformat()
+                })
+                await websocket.close(code=1008, reason="Authentication required")
+                return
+            
+            decoded_token = verify_firebase_token(token)
+            if not decoded_token:
+                await websocket.send_json({
+                    "type": "error", 
+                    "error": "Invalid or unauthorized token",
+                    "timestamp": datetime.now().isoformat()
+                })
+                await websocket.close(code=1008, reason="Authentication failed")
+                return
+            
+            user_email = decoded_token.get('email')
             session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
-            logger.info(f"Session initialized: {session_id}")
+            logger.info(f"Authenticated session initialized: {session_id} for user: {user_email}")
             logger.info(f"Client config: {init_data.get('config', {})}")
         else:
-            session_id = datetime.now().strftime("%Y%m%d-%H%M%S")
+            await websocket.send_json({
+                "type": "error",
+                "error": "Invalid initialization message format",
+                "timestamp": datetime.now().isoformat()
+            })
+            await websocket.close(code=1003, reason="Invalid message format")
+            return
         
         # Create transcription session
         session = StreamingTranscriptionSession(session_id, websocket)
@@ -364,8 +462,8 @@ async def root():
     }
 
 @app.get("/health")
-async def health():
-    """Detailed health check"""
+async def health(current_user: dict = Depends(get_current_user)):
+    """Detailed health check (requires authentication)"""
     try:
         # Test Speech API connectivity
         parent = f"projects/{project_id}/locations/{location}"
@@ -379,6 +477,20 @@ async def health():
         "speech_api": api_status,
         "project_id": project_id,
         "streaming_enabled": True,
+        "authenticated_user": current_user.get('email'),
+        "timestamp": datetime.now().isoformat()
+    }
+
+@app.get("/auth/test")
+async def test_auth(current_user: dict = Depends(get_current_user)):
+    """Test authentication endpoint"""
+    return {
+        "message": "Authentication successful",
+        "user": {
+            "email": current_user.get('email'),
+            "uid": current_user.get('uid'),
+            "name": current_user.get('name')
+        },
         "timestamp": datetime.now().isoformat()
     }
 

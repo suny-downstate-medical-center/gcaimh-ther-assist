@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Maria?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory again, it's like I was right back there in that convenience store. I can still hear the sound of the gunshot, you know? It's like it's echoing in my head.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The fear. God, the fear was paralyzing. I remember feeling like I couldn't breathe, like my chest was being crushed. And the guy with the gun, his eyes were so... empty. It was like looking at a corpse, but he was alive and threatening us all. I keep thinking about how helpless I felt, how I thought I was going to die right there in that store.",
+    "Therapist: How did reliving it feel today?",
+    "Client: It was hard, really hard. But... different, I guess? Like, I'm here, safe in your office, but my body still reacted as if I was there. My hands are still shaking a bit. But I made it through, right? That's something.",
+    "Therapist: Indeed. How does this connect to your daily life?",
+    "Client: I think... well, I've been avoiding stores, especially at night. And loud noises still make me jump. But going through it again, I realize I'm stronger than I thought. Maybe I can start facing some of these fears bit by bit?",
+    "Therapist: That's a powerful insight. What else?",
+    "Client: I've been so isolated lately, pushing everyone away. But during the hostage situation, I remember holding hands with the elderly woman next to me. We were strangers, but in that moment, we supported each other. Maybe I need to let people in more, you know? It's scary, but... maybe it'll help.",
+    "Therapist: How can you apply this moving forward?",
+    "Client: I think... maybe I can start by reaching out to my sister. We used to be close, but I've been avoiding her calls. And perhaps I can try going to the corner store during the day? Baby steps, right?",
+    "Therapist: Excellent ideas. How do you feel about continuing?",
+    "Client: It's tough, not gonna lie. There are moments when I just want to run away and never think about this again. But I also feel like I'm making progress. Like, today, I was able to talk about it without completely breaking down. That's new. And honestly? I'm tired of letting this control my life. So yeah, I want to keep going. It's hard, but... I think it's worth it.",
+    "Therapist: Your courage is commendable. Next steps?",
+    "Client: I think I want to try that homework you mentioned - writing about the experience. It scares me, but I can see how it might help. And maybe we can work on some breathing exercises? I noticed today that my breathing got really shallow when I was talking about the gun. Oh, and I want to try going to that support group you mentioned. I've been putting it off, but hearing other people's stories might help me feel less alone in this.",
+    "Therapist: Sounds like a solid plan. Any final thoughts?",
+    "Client: Just... thank you, I guess. For pushing me but also for being patient. There are days when I feel like I'll never get past this, but sessions like today... they give me hope, you know? It's like, for the first time since it happened, I can see a future where I'm not defined by this trauma. It's still blurry and far away, but it's there. And that means everything."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Maria?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory again, it's like I was right back there in that convenience store. I can still hear the sound of the gunshot, you know? It's like it's echoing in my head.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Going through that memory again, it's like I was right back there in that convenience store. I can still hear the sound of the gunshot, you know? It's like it's echoing in my head.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The fear. God, the fear was paralyzing. I remember feeling like I couldn't breathe, like my chest was being crushed. And the guy with the gun, his eyes were so... empty. It was like looking at a corpse, but he was alive and threatening us all. I keep thinking about how helpless I felt, how I thought I was going to die right there in that store."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The fear. God, the fear was paralyzing. I remember feeling like I couldn't breathe, like my chest was being crushed. And the guy with the gun, his eyes were so... empty. It was like looking at a corpse, but he was alive and threatening us all. I keep thinking about how helpless I felt, how I thought I was going to die right there in that store.",
+      "Therapist: How did reliving it feel today?"
+    ],
+    [
+      "Client: The fear. God, the fear was paralyzing. I remember feeling like I couldn't breathe, like my chest was being crushed. And the guy with the gun, his eyes were so... empty. It was like looking at a corpse, but he was alive and threatening us all. I keep thinking about how helpless I felt, how I thought I was going to die right there in that store.",
+      "Therapist: How did reliving it feel today?",
+      "Client: It was hard, really hard. But... different, I guess? Like, I'm here, safe in your office, but my body still reacted as if I was there. My hands are still shaking a bit. But I made it through, right? That's something."
+    ],
+    [
+      "Therapist: How did reliving it feel today?",
+      "Client: It was hard, really hard. But... different, I guess? Like, I'm here, safe in your office, but my body still reacted as if I was there. My hands are still shaking a bit. But I made it through, right? That's something.",
+      "Therapist: Indeed. How does this connect to your daily life?"
+    ],
+    [
+      "Client: It was hard, really hard. But... different, I guess? Like, I'm here, safe in your office, but my body still reacted as if I was there. My hands are still shaking a bit. But I made it through, right? That's something.",
+      "Therapist: Indeed. How does this connect to your daily life?",
+      "Client: I think... well, I've been avoiding stores, especially at night. And loud noises still make me jump. But going through it again, I realize I'm stronger than I thought. Maybe I can start facing some of these fears bit by bit?"
+    ],
+    [
+      "Therapist: Indeed. How does this connect to your daily life?",
+      "Client: I think... well, I've been avoiding stores, especially at night. And loud noises still make me jump. But going through it again, I realize I'm stronger than I thought. Maybe I can start facing some of these fears bit by bit?",
+      "Therapist: That's a powerful insight. What else?"
+    ],
+    [
+      "Client: I think... well, I've been avoiding stores, especially at night. And loud noises still make me jump. But going through it again, I realize I'm stronger than I thought. Maybe I can start facing some of these fears bit by bit?",
+      "Therapist: That's a powerful insight. What else?",
+      "Client: I've been so isolated lately, pushing everyone away. But during the hostage situation, I remember holding hands with the elderly woman next to me. We were strangers, but in that moment, we supported each other. Maybe I need to let people in more, you know? It's scary, but... maybe it'll help."
+    ],
+    [
+      "Therapist: That's a powerful insight. What else?",
+      "Client: I've been so isolated lately, pushing everyone away. But during the hostage situation, I remember holding hands with the elderly woman next to me. We were strangers, but in that moment, we supported each other. Maybe I need to let people in more, you know? It's scary, but... maybe it'll help.",
+      "Therapist: How can you apply this moving forward?"
+    ],
+    [
+      "Client: I've been so isolated lately, pushing everyone away. But during the hostage situation, I remember holding hands with the elderly woman next to me. We were strangers, but in that moment, we supported each other. Maybe I need to let people in more, you know? It's scary, but... maybe it'll help.",
+      "Therapist: How can you apply this moving forward?",
+      "Client: I think... maybe I can start by reaching out to my sister. We used to be close, but I've been avoiding her calls. And perhaps I can try going to the corner store during the day? Baby steps, right?"
+    ],
+    [
+      "Therapist: How can you apply this moving forward?",
+      "Client: I think... maybe I can start by reaching out to my sister. We used to be close, but I've been avoiding her calls. And perhaps I can try going to the corner store during the day? Baby steps, right?",
+      "Therapist: Excellent ideas. How do you feel about continuing?"
+    ],
+    [
+      "Client: I think... maybe I can start by reaching out to my sister. We used to be close, but I've been avoiding her calls. And perhaps I can try going to the corner store during the day? Baby steps, right?",
+      "Therapist: Excellent ideas. How do you feel about continuing?",
+      "Client: It's tough, not gonna lie. There are moments when I just want to run away and never think about this again. But I also feel like I'm making progress. Like, today, I was able to talk about it without completely breaking down. That's new. And honestly? I'm tired of letting this control my life. So yeah, I want to keep going. It's hard, but... I think it's worth it."
+    ],
+    [
+      "Therapist: Excellent ideas. How do you feel about continuing?",
+      "Client: It's tough, not gonna lie. There are moments when I just want to run away and never think about this again. But I also feel like I'm making progress. Like, today, I was able to talk about it without completely breaking down. That's new. And honestly? I'm tired of letting this control my life. So yeah, I want to keep going. It's hard, but... I think it's worth it.",
+      "Therapist: Your courage is commendable. Next steps?"
+    ],
+    [
+      "Client: It's tough, not gonna lie. There are moments when I just want to run away and never think about this again. But I also feel like I'm making progress. Like, today, I was able to talk about it without completely breaking down. That's new. And honestly? I'm tired of letting this control my life. So yeah, I want to keep going. It's hard, but... I think it's worth it.",
+      "Therapist: Your courage is commendable. Next steps?",
+      "Client: I think I want to try that homework you mentioned - writing about the experience. It scares me, but I can see how it might help. And maybe we can work on some breathing exercises? I noticed today that my breathing got really shallow when I was talking about the gun. Oh, and I want to try going to that support group you mentioned. I've been putting it off, but hearing other people's stories might help me feel less alone in this."
+    ],
+    [
+      "Therapist: Your courage is commendable. Next steps?",
+      "Client: I think I want to try that homework you mentioned - writing about the experience. It scares me, but I can see how it might help. And maybe we can work on some breathing exercises? I noticed today that my breathing got really shallow when I was talking about the gun. Oh, and I want to try going to that support group you mentioned. I've been putting it off, but hearing other people's stories might help me feel less alone in this.",
+      "Therapist: Sounds like a solid plan. Any final thoughts?"
+    ],
+    [
+      "Client: I think I want to try that homework you mentioned - writing about the experience. It scares me, but I can see how it might help. And maybe we can work on some breathing exercises? I noticed today that my breathing got really shallow when I was talking about the gun. Oh, and I want to try going to that support group you mentioned. I've been putting it off, but hearing other people's stories might help me feel less alone in this.",
+      "Therapist: Sounds like a solid plan. Any final thoughts?",
+      "Client: Just... thank you, I guess. For pushing me but also for being patient. There are days when I feel like I'll never get past this, but sessions like today... they give me hope, you know? It's like, for the first time since it happened, I can see a future where I'm not defined by this trauma. It's still blurry and far away, but it's there. And that means everything."
+    ]
+  ]
+}

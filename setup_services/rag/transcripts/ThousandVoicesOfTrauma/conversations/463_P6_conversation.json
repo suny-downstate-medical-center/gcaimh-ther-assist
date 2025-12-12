@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Rahul, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake...",
+    "Client: (Takes a deep breath) Okay... I'm back in my childhood home in Mumbai. It's early morning, and I'm still in bed. Suddenly, everything starts shaking. The walls are trembling, and I hear things falling and breaking. I'm frozen in fear, unable to move...",
+    "Therapist: SUDS rating?",
+    "Client: Um, about a 6 out of 10. My heart's racing just thinking about it.",
+    "Therapist: Continue...",
+    "Client: My parents are shouting, trying to get to me. The shaking gets worse, and I'm terrified the building will collapse. I can hear people screaming outside. The fear is overwhelming... I'm sweating now, just like I was then.",
+    "Therapist: You're doing well. SUDS?",
+    "Client: It's gone up to an 8. My hands are shaking, and I feel dizzy.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (Inhales shakily) Right... safe. As I was saying, I finally manage to get out of bed. The floor is moving so much, I can barely stand. I stumble towards the door, calling for my parents. There's so much noise - crashing, people yelling, car alarms... I feel so small and helpless.",
+    "Therapist: SUDS now?",
+    "Client: Still an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+    "Therapist: That's okay. Keep going. You're doing great.",
+    "Client: I make it to the hallway, and my father grabs me. We rush down the stairs, the whole building swaying. Outside, it's chaos. People everywhere, dust in the air. I see a nearby building partially collapsed, and I'm certain we're all going to die. The ground is still shaking, and I can't stop crying...",
+    "Therapist: SUDS?",
+    "Client: It's... it's a 9 now. I feel like I'm there again. My heart is pounding so hard.",
+    "Therapist: You're safe, Rahul. This is just a memory.",
+    "Client: (Breathing heavily) Yes... just a memory. We huddle in an open area with our neighbors. Everyone is panicked. Aftershocks keep coming, and each one brings fresh terror. I'm clinging to my mother, sobbing. The uncertainty is unbearable - will there be more? Will our home be destroyed? It feels like it goes on forever...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... actually down to a 7. Talking about it... it's helping somehow.",
+    "Therapist: That's good. Keep going.",
+    "Client: As the day goes on, things start to calm down. But I'm still on edge, jumping at every sound. We can't go back inside yet, so we stay out all day. I'm exhausted but too scared to sleep. When night comes, I lie awake, terrified it will happen again. That fear... it stayed with me for years.",
+    "Therapist: Final SUDS?",
+    "Client: It's a 5 now. I feel drained, but... lighter somehow.",
+    "Therapist: You did excellent, Rahul. How are you feeling?",
+    "Client: Tired, but... relieved? I've never talked about it in such detail before. It was hard, but... I think it helped.",
+    "Therapist: That's great. Let's take a moment to ground ourselves..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Rahul, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake..."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake...",
+      "Client: (Takes a deep breath) Okay... I'm back in my childhood home in Mumbai. It's early morning, and I'm still in bed. Suddenly, everything starts shaking. The walls are trembling, and I hear things falling and breaking. I'm frozen in fear, unable to move..."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the earthquake...",
+      "Client: (Takes a deep breath) Okay... I'm back in my childhood home in Mumbai. It's early morning, and I'm still in bed. Suddenly, everything starts shaking. The walls are trembling, and I hear things falling and breaking. I'm frozen in fear, unable to move...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I'm back in my childhood home in Mumbai. It's early morning, and I'm still in bed. Suddenly, everything starts shaking. The walls are trembling, and I hear things falling and breaking. I'm frozen in fear, unable to move...",
+      "Therapist: SUDS rating?",
+      "Client: Um, about a 6 out of 10. My heart's racing just thinking about it."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Um, about a 6 out of 10. My heart's racing just thinking about it.",
+      "Therapist: Continue..."
+    ],
+    [
+      "Client: Um, about a 6 out of 10. My heart's racing just thinking about it.",
+      "Therapist: Continue...",
+      "Client: My parents are shouting, trying to get to me. The shaking gets worse, and I'm terrified the building will collapse. I can hear people screaming outside. The fear is overwhelming... I'm sweating now, just like I was then."
+    ],
+    [
+      "Therapist: Continue...",
+      "Client: My parents are shouting, trying to get to me. The shaking gets worse, and I'm terrified the building will collapse. I can hear people screaming outside. The fear is overwhelming... I'm sweating now, just like I was then.",
+      "Therapist: You're doing well. SUDS?"
+    ],
+    [
+      "Client: My parents are shouting, trying to get to me. The shaking gets worse, and I'm terrified the building will collapse. I can hear people screaming outside. The fear is overwhelming... I'm sweating now, just like I was then.",
+      "Therapist: You're doing well. SUDS?",
+      "Client: It's gone up to an 8. My hands are shaking, and I feel dizzy."
+    ],
+    [
+      "Therapist: You're doing well. SUDS?",
+      "Client: It's gone up to an 8. My hands are shaking, and I feel dizzy.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's gone up to an 8. My hands are shaking, and I feel dizzy.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Inhales shakily) Right... safe. As I was saying, I finally manage to get out of bed. The floor is moving so much, I can barely stand. I stumble towards the door, calling for my parents. There's so much noise - crashing, people yelling, car alarms... I feel so small and helpless."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Inhales shakily) Right... safe. As I was saying, I finally manage to get out of bed. The floor is moving so much, I can barely stand. I stumble towards the door, calling for my parents. There's so much noise - crashing, people yelling, car alarms... I feel so small and helpless.",
+      "Therapist: SUDS now?"
+    ],
+    [
+      "Client: (Inhales shakily) Right... safe. As I was saying, I finally manage to get out of bed. The floor is moving so much, I can barely stand. I stumble towards the door, calling for my parents. There's so much noise - crashing, people yelling, car alarms... I feel so small and helpless.",
+      "Therapist: SUDS now?",
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing steadily."
+    ],
+    [
+      "Therapist: SUDS now?",
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: That's okay. Keep going. You're doing great."
+    ],
+    [
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: That's okay. Keep going. You're doing great.",
+      "Client: I make it to the hallway, and my father grabs me. We rush down the stairs, the whole building swaying. Outside, it's chaos. People everywhere, dust in the air. I see a nearby building partially collapsed, and I'm certain we're all going to die. The ground is still shaking, and I can't stop crying..."
+    ],
+    [
+      "Therapist: That's okay. Keep going. You're doing great.",
+      "Client: I make it to the hallway, and my father grabs me. We rush down the stairs, the whole building swaying. Outside, it's chaos. People everywhere, dust in the air. I see a nearby building partially collapsed, and I'm certain we're all going to die. The ground is still shaking, and I can't stop crying...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: I make it to the hallway, and my father grabs me. We rush down the stairs, the whole building swaying. Outside, it's chaos. People everywhere, dust in the air. I see a nearby building partially collapsed, and I'm certain we're all going to die. The ground is still shaking, and I can't stop crying...",
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9 now. I feel like I'm there again. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9 now. I feel like I'm there again. My heart is pounding so hard.",
+      "Therapist: You're safe, Rahul. This is just a memory."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I'm there again. My heart is pounding so hard.",
+      "Therapist: You're safe, Rahul. This is just a memory.",
+      "Client: (Breathing heavily) Yes... just a memory. We huddle in an open area with our neighbors. Everyone is panicked. Aftershocks keep coming, and each one brings fresh terror. I'm clinging to my mother, sobbing. The uncertainty is unbearable - will there be more? Will our home be destroyed? It feels like it goes on forever..."
+    ],
+    [
+      "Therapist: You're safe, Rahul. This is just a memory.",
+      "Client: (Breathing heavily) Yes... just a memory. We huddle in an open area with our neighbors. Everyone is panicked. Aftershocks keep coming, and each one brings fresh terror. I'm clinging to my mother, sobbing. The uncertainty is unbearable - will there be more? Will our home be destroyed? It feels like it goes on forever...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (Breathing heavily) Yes... just a memory. We huddle in an open area with our neighbors. Everyone is panicked. Aftershocks keep coming, and each one brings fresh terror. I'm clinging to my mother, sobbing. The uncertainty is unbearable - will there be more? Will our home be destroyed? It feels like it goes on forever...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... actually down to a 7. Talking about it... it's helping somehow."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... actually down to a 7. Talking about it... it's helping somehow.",
+      "Therapist: That's good. Keep going."
+    ],
+    [
+      "Client: It's... actually down to a 7. Talking about it... it's helping somehow.",
+      "Therapist: That's good. Keep going.",
+      "Client: As the day goes on, things start to calm down. But I'm still on edge, jumping at every sound. We can't go back inside yet, so we stay out all day. I'm exhausted but too scared to sleep. When night comes, I lie awake, terrified it will happen again. That fear... it stayed with me for years."
+    ],
+    [
+      "Therapist: That's good. Keep going.",
+      "Client: As the day goes on, things start to calm down. But I'm still on edge, jumping at every sound. We can't go back inside yet, so we stay out all day. I'm exhausted but too scared to sleep. When night comes, I lie awake, terrified it will happen again. That fear... it stayed with me for years.",
+      "Therapist: Final SUDS?"
+    ],
+    [
+      "Client: As the day goes on, things start to calm down. But I'm still on edge, jumping at every sound. We can't go back inside yet, so we stay out all day. I'm exhausted but too scared to sleep. When night comes, I lie awake, terrified it will happen again. That fear... it stayed with me for years.",
+      "Therapist: Final SUDS?",
+      "Client: It's a 5 now. I feel drained, but... lighter somehow."
+    ],
+    [
+      "Therapist: Final SUDS?",
+      "Client: It's a 5 now. I feel drained, but... lighter somehow.",
+      "Therapist: You did excellent, Rahul. How are you feeling?"
+    ],
+    [
+      "Client: It's a 5 now. I feel drained, but... lighter somehow.",
+      "Therapist: You did excellent, Rahul. How are you feeling?",
+      "Client: Tired, but... relieved? I've never talked about it in such detail before. It was hard, but... I think it helped."
+    ],
+    [
+      "Therapist: You did excellent, Rahul. How are you feeling?",
+      "Client: Tired, but... relieved? I've never talked about it in such detail before. It was hard, but... I think it helped.",
+      "Therapist: That's great. Let's take a moment to ground ourselves..."
+    ]
+  ]
+}

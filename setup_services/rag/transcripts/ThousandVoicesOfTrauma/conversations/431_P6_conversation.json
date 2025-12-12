@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm at the beach with my family. It's a beautiful day, warm sun, gentle breeze. We're having a picnic near the water's edge. Suddenly, I hear screaming. I look up and see a large shark fin in the water, moving fast towards a group of swimmers. My heart starts racing...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 4. I can feel my palms getting sweaty just thinking about it.",
+    "Therapist: Thanks. Continue, please.",
+    "Client: The shark is getting closer to the swimmers. People are panicking, running out of the water. I'm frozen in place, watching in horror. The water around one swimmer turns red... Oh god, I can still see it so clearly. My chest feels tight, and I'm struggling to breathe...",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's gone up to a 7 now. I feel like I'm right back there, helpless.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I snap out of my shock and start yelling for everyone to get out of the water. My husband is running towards the lifeguard tower. I'm scanning the water, counting heads, praying everyone makes it out. The injured swimmer is being dragged to shore by two others. There's so much blood... I can smell the salt and iron in the air.",
+    "Therapist: And your SUDS now?",
+    "Client: It's an 8. My heart is pounding, and I feel nauseous.",
+    "Therapist: That's okay. You're safe here. Continue.",
+    "Client: I run to help the injured swimmer. His leg is... it's just gone. I'm trying to remember first aid, but there's so much blood. I'm pressing my beach towel against the wound, but it's soaking through so quickly. I can hear the sirens in the distance, but they seem so far away. The man is pale, his eyes unfocused. I'm talking to him, trying to keep him conscious, but I don't even know what I'm saying...",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+    "Therapist: Take a deep breath. You're doing great. Keep going.",
+    "Client: The paramedics finally arrive. They take over, and I stumble back, covered in blood. I look down at my hands, and they're shaking uncontrollably. I can hear people crying, children wailing. The beach is in chaos. I turn to find my family, and I see my daughter staring at me, wide-eyed and terrified. I want to comfort her, but I'm paralyzed...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's still at a 9. I feel overwhelmed, like it's all happening again.",
+    "Therapist: You're safe here. Keep breathing.",
+    "Client: I finally move towards my daughter, but I realize I'm covered in blood. I stop, not wanting to scare her more. My husband reaches us, wraps her in his arms. I feel so helpless, so useless. The sound of the helicopter approaching drowns out everything else. I watch as they airlift the injured swimmer. I keep thinking, 'What if I had noticed sooner? What if I had done more?'",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's starting to come down a bit. Maybe an 8 now.",
+    "Therapist: Good. You're processing this. Continue.",
+    "Client: The beach is being evacuated. We gather our things in silence. My daughter won't let go of her father. I feel disconnected, like I'm watching everything from outside my body. As we walk to the car, I keep looking back at the ocean. It looks so calm now, like nothing happened. But I know I'll never see it the same way again. The drive home is silent. I can't stop replaying everything in my mind...",
+    "Therapist: And your final SUDS rating?",
+    "Client: It's down to a 6 now. I feel drained, but also... I don't know, maybe a little relieved to have talked through it all.",
+    "Therapist: You did very well. How are you feeling now?",
+    "Client: Exhausted, honestly. But also... maybe a little lighter? Is that normal?",
+    "Therapist: Absolutely. Let's take a moment to ground ourselves..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm at the beach with my family. It's a beautiful day, warm sun, gentle breeze. We're having a picnic near the water's edge. Suddenly, I hear screaming. I look up and see a large shark fin in the water, moving fast towards a group of swimmers. My heart starts racing..."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm at the beach with my family. It's a beautiful day, warm sun, gentle breeze. We're having a picnic near the water's edge. Suddenly, I hear screaming. I look up and see a large shark fin in the water, moving fast towards a group of swimmers. My heart starts racing...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm at the beach with my family. It's a beautiful day, warm sun, gentle breeze. We're having a picnic near the water's edge. Suddenly, I hear screaming. I look up and see a large shark fin in the water, moving fast towards a group of swimmers. My heart starts racing...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4. I can feel my palms getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4. I can feel my palms getting sweaty just thinking about it.",
+      "Therapist: Thanks. Continue, please."
+    ],
+    [
+      "Client: Um, I'd say about a 4. I can feel my palms getting sweaty just thinking about it.",
+      "Therapist: Thanks. Continue, please.",
+      "Client: The shark is getting closer to the swimmers. People are panicking, running out of the water. I'm frozen in place, watching in horror. The water around one swimmer turns red... Oh god, I can still see it so clearly. My chest feels tight, and I'm struggling to breathe..."
+    ],
+    [
+      "Therapist: Thanks. Continue, please.",
+      "Client: The shark is getting closer to the swimmers. People are panicking, running out of the water. I'm frozen in place, watching in horror. The water around one swimmer turns red... Oh god, I can still see it so clearly. My chest feels tight, and I'm struggling to breathe...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: The shark is getting closer to the swimmers. People are panicking, running out of the water. I'm frozen in place, watching in horror. The water around one swimmer turns red... Oh god, I can still see it so clearly. My chest feels tight, and I'm struggling to breathe...",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's gone up to a 7 now. I feel like I'm right back there, helpless."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's gone up to a 7 now. I feel like I'm right back there, helpless.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 7 now. I feel like I'm right back there, helpless.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I snap out of my shock and start yelling for everyone to get out of the water. My husband is running towards the lifeguard tower. I'm scanning the water, counting heads, praying everyone makes it out. The injured swimmer is being dragged to shore by two others. There's so much blood... I can smell the salt and iron in the air."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I snap out of my shock and start yelling for everyone to get out of the water. My husband is running towards the lifeguard tower. I'm scanning the water, counting heads, praying everyone makes it out. The injured swimmer is being dragged to shore by two others. There's so much blood... I can smell the salt and iron in the air.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I snap out of my shock and start yelling for everyone to get out of the water. My husband is running towards the lifeguard tower. I'm scanning the water, counting heads, praying everyone makes it out. The injured swimmer is being dragged to shore by two others. There's so much blood... I can smell the salt and iron in the air.",
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. My heart is pounding, and I feel nauseous."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. My heart is pounding, and I feel nauseous.",
+      "Therapist: That's okay. You're safe here. Continue."
+    ],
+    [
+      "Client: It's an 8. My heart is pounding, and I feel nauseous.",
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: I run to help the injured swimmer. His leg is... it's just gone. I'm trying to remember first aid, but there's so much blood. I'm pressing my beach towel against the wound, but it's soaking through so quickly. I can hear the sirens in the distance, but they seem so far away. The man is pale, his eyes unfocused. I'm talking to him, trying to keep him conscious, but I don't even know what I'm saying..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: I run to help the injured swimmer. His leg is... it's just gone. I'm trying to remember first aid, but there's so much blood. I'm pressing my beach towel against the wound, but it's soaking through so quickly. I can hear the sirens in the distance, but they seem so far away. The man is pale, his eyes unfocused. I'm talking to him, trying to keep him conscious, but I don't even know what I'm saying...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I run to help the injured swimmer. His leg is... it's just gone. I'm trying to remember first aid, but there's so much blood. I'm pressing my beach towel against the wound, but it's soaking through so quickly. I can hear the sirens in the distance, but they seem so far away. The man is pale, his eyes unfocused. I'm talking to him, trying to keep him conscious, but I don't even know what I'm saying...",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're doing great. Keep going."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're doing great. Keep going.",
+      "Client: The paramedics finally arrive. They take over, and I stumble back, covered in blood. I look down at my hands, and they're shaking uncontrollably. I can hear people crying, children wailing. The beach is in chaos. I turn to find my family, and I see my daughter staring at me, wide-eyed and terrified. I want to comfort her, but I'm paralyzed..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great. Keep going.",
+      "Client: The paramedics finally arrive. They take over, and I stumble back, covered in blood. I look down at my hands, and they're shaking uncontrollably. I can hear people crying, children wailing. The beach is in chaos. I turn to find my family, and I see my daughter staring at me, wide-eyed and terrified. I want to comfort her, but I'm paralyzed...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: The paramedics finally arrive. They take over, and I stumble back, covered in blood. I look down at my hands, and they're shaking uncontrollably. I can hear people crying, children wailing. The beach is in chaos. I turn to find my family, and I see my daughter staring at me, wide-eyed and terrified. I want to comfort her, but I'm paralyzed...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's still at a 9. I feel overwhelmed, like it's all happening again."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's still at a 9. I feel overwhelmed, like it's all happening again.",
+      "Therapist: You're safe here. Keep breathing."
+    ],
+    [
+      "Client: It's still at a 9. I feel overwhelmed, like it's all happening again.",
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I finally move towards my daughter, but I realize I'm covered in blood. I stop, not wanting to scare her more. My husband reaches us, wraps her in his arms. I feel so helpless, so useless. The sound of the helicopter approaching drowns out everything else. I watch as they airlift the injured swimmer. I keep thinking, 'What if I had noticed sooner? What if I had done more?'"
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I finally move towards my daughter, but I realize I'm covered in blood. I stop, not wanting to scare her more. My husband reaches us, wraps her in his arms. I feel so helpless, so useless. The sound of the helicopter approaching drowns out everything else. I watch as they airlift the injured swimmer. I keep thinking, 'What if I had noticed sooner? What if I had done more?'",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I finally move towards my daughter, but I realize I'm covered in blood. I stop, not wanting to scare her more. My husband reaches us, wraps her in his arms. I feel so helpless, so useless. The sound of the helicopter approaching drowns out everything else. I watch as they airlift the injured swimmer. I keep thinking, 'What if I had noticed sooner? What if I had done more?'",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now.",
+      "Therapist: Good. You're processing this. Continue."
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now.",
+      "Therapist: Good. You're processing this. Continue.",
+      "Client: The beach is being evacuated. We gather our things in silence. My daughter won't let go of her father. I feel disconnected, like I'm watching everything from outside my body. As we walk to the car, I keep looking back at the ocean. It looks so calm now, like nothing happened. But I know I'll never see it the same way again. The drive home is silent. I can't stop replaying everything in my mind..."
+    ],
+    [
+      "Therapist: Good. You're processing this. Continue.",
+      "Client: The beach is being evacuated. We gather our things in silence. My daughter won't let go of her father. I feel disconnected, like I'm watching everything from outside my body. As we walk to the car, I keep looking back at the ocean. It looks so calm now, like nothing happened. But I know I'll never see it the same way again. The drive home is silent. I can't stop replaying everything in my mind...",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: The beach is being evacuated. We gather our things in silence. My daughter won't let go of her father. I feel disconnected, like I'm watching everything from outside my body. As we walk to the car, I keep looking back at the ocean. It looks so calm now, like nothing happened. But I know I'll never see it the same way again. The drive home is silent. I can't stop replaying everything in my mind...",
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 6 now. I feel drained, but also... I don't know, maybe a little relieved to have talked through it all."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 6 now. I feel drained, but also... I don't know, maybe a little relieved to have talked through it all.",
+      "Therapist: You did very well. How are you feeling now?"
+    ],
+    [
+      "Client: It's down to a 6 now. I feel drained, but also... I don't know, maybe a little relieved to have talked through it all.",
+      "Therapist: You did very well. How are you feeling now?",
+      "Client: Exhausted, honestly. But also... maybe a little lighter? Is that normal?"
+    ],
+    [
+      "Therapist: You did very well. How are you feeling now?",
+      "Client: Exhausted, honestly. But also... maybe a little lighter? Is that normal?",
+      "Therapist: Absolutely. Let's take a moment to ground ourselves..."
+    ]
+  ]
+}

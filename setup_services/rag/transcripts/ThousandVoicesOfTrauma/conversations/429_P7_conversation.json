@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure. Close your eyes and take a deep breath. When you're ready, describe the scene.",
+    "Client: Okay... I'm back in Afghanistan. It's hot, dusty. I can feel the weight of my gear. We're on patrol in a small village. The streets are narrow, buildings close together. It's eerily quiet.",
+    "Therapist: You're doing well. Continue.",
+    "Client: Suddenly, there's a loud explosion. I'm thrown to the ground. My ears are ringing. I can't see clearly through the dust. I hear screaming, but it sounds muffled.",
+    "Therapist: Stay with that moment. What do you feel?",
+    "Client: I... I feel scared. My heart is racing. I can't breathe properly. I'm trying to get up, but my body feels heavy.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: I manage to stand up. I see my team scattered around. Some are moving, others... aren't. There's blood everywhere. I smell something burning. I feel sick to my stomach.",
+    "Therapist: You're doing great. What happens next?",
+    "Client: I... I don't know if I can continue. This is too much.",
+    "Therapist: It's okay to feel overwhelmed. You're safe here. Take a deep breath.",
+    "Client: (Takes a deep breath) Okay... I start checking on my team. Some are injured badly. I hear more explosions in the distance. I'm trying to stay calm, but inside I'm terrified.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: I radio for backup and medical evacuation. My hands are shaking. I'm trying to apply first aid, but there's so much blood. I can't seem to stop it. I feel helpless.",
+    "Therapist: It's natural to feel that way. You're doing great.",
+    "Client: I keep thinking, 'This is my fault. I should have seen this coming.' The guilt is overwhelming. I can't stop shaking.",
+    "Therapist: Remember, you're safe now. Stay with the memory.",
+    "Client: Time seems to slow down. It feels like hours before help arrives. I can't stop looking at the faces of my injured teammates. Their eyes... they haunt me.",
+    "Therapist: You're very brave. Continue.",
+    "Client: When the medevac finally arrives, I help load the injured. I'm moving on autopilot. I feel numb. As we fly away, I see smoke rising from the village. I feel like I've failed them all.",
+    "Therapist: You've done well. How are you feeling now?",
+    "Client: I... I feel drained. Sad. Angry. It's all mixed up. But... I also feel a bit relieved to have shared this.",
+    "Therapist: That's completely normal. You've shown great courage today.",
+    "Client: Thank you. It's still hard to talk about, but I think it helps. I just wish these memories would stop haunting me.",
+    "Therapist: It's a process. You're making progress.",
+    "Client: I hope so. Sometimes it feels like I'll never be free of this. But I'm trying to stay hopeful.",
+    "Therapist: That's a positive attitude. Shall we end here for today?",
+    "Client: Yes, I think that's enough for now. Thank you for guiding me through this.",
+    "Therapist: You're welcome. Remember to use your coping strategies if you feel overwhelmed later."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure. Close your eyes and take a deep breath. When you're ready, describe the scene.",
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. I can feel the weight of my gear. We're on patrol in a small village. The streets are narrow, buildings close together. It's eerily quiet.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. I can feel the weight of my gear. We're on patrol in a small village. The streets are narrow, buildings close together. It's eerily quiet.",
+      "Therapist: You're doing well. Continue.",
+      "Client: Suddenly, there's a loud explosion. I'm thrown to the ground. My ears are ringing. I can't see clearly through the dust. I hear screaming, but it sounds muffled."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: Suddenly, there's a loud explosion. I'm thrown to the ground. My ears are ringing. I can't see clearly through the dust. I hear screaming, but it sounds muffled.",
+      "Therapist: Stay with that moment. What do you feel?"
+    ],
+    [
+      "Client: Suddenly, there's a loud explosion. I'm thrown to the ground. My ears are ringing. I can't see clearly through the dust. I hear screaming, but it sounds muffled.",
+      "Therapist: Stay with that moment. What do you feel?",
+      "Client: I... I feel scared. My heart is racing. I can't breathe properly. I'm trying to get up, but my body feels heavy."
+    ],
+    [
+      "Therapist: Stay with that moment. What do you feel?",
+      "Client: I... I feel scared. My heart is racing. I can't breathe properly. I'm trying to get up, but my body feels heavy.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: I... I feel scared. My heart is racing. I can't breathe properly. I'm trying to get up, but my body feels heavy.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: I manage to stand up. I see my team scattered around. Some are moving, others... aren't. There's blood everywhere. I smell something burning. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: I manage to stand up. I see my team scattered around. Some are moving, others... aren't. There's blood everywhere. I smell something burning. I feel sick to my stomach.",
+      "Therapist: You're doing great. What happens next?"
+    ],
+    [
+      "Client: I manage to stand up. I see my team scattered around. Some are moving, others... aren't. There's blood everywhere. I smell something burning. I feel sick to my stomach.",
+      "Therapist: You're doing great. What happens next?",
+      "Client: I... I don't know if I can continue. This is too much."
+    ],
+    [
+      "Therapist: You're doing great. What happens next?",
+      "Client: I... I don't know if I can continue. This is too much.",
+      "Therapist: It's okay to feel overwhelmed. You're safe here. Take a deep breath."
+    ],
+    [
+      "Client: I... I don't know if I can continue. This is too much.",
+      "Therapist: It's okay to feel overwhelmed. You're safe here. Take a deep breath.",
+      "Client: (Takes a deep breath) Okay... I start checking on my team. Some are injured badly. I hear more explosions in the distance. I'm trying to stay calm, but inside I'm terrified."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. You're safe here. Take a deep breath.",
+      "Client: (Takes a deep breath) Okay... I start checking on my team. Some are injured badly. I hear more explosions in the distance. I'm trying to stay calm, but inside I'm terrified.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I start checking on my team. Some are injured badly. I hear more explosions in the distance. I'm trying to stay calm, but inside I'm terrified.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I radio for backup and medical evacuation. My hands are shaking. I'm trying to apply first aid, but there's so much blood. I can't seem to stop it. I feel helpless."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I radio for backup and medical evacuation. My hands are shaking. I'm trying to apply first aid, but there's so much blood. I can't seem to stop it. I feel helpless.",
+      "Therapist: It's natural to feel that way. You're doing great."
+    ],
+    [
+      "Client: I radio for backup and medical evacuation. My hands are shaking. I'm trying to apply first aid, but there's so much blood. I can't seem to stop it. I feel helpless.",
+      "Therapist: It's natural to feel that way. You're doing great.",
+      "Client: I keep thinking, 'This is my fault. I should have seen this coming.' The guilt is overwhelming. I can't stop shaking."
+    ],
+    [
+      "Therapist: It's natural to feel that way. You're doing great.",
+      "Client: I keep thinking, 'This is my fault. I should have seen this coming.' The guilt is overwhelming. I can't stop shaking.",
+      "Therapist: Remember, you're safe now. Stay with the memory."
+    ],
+    [
+      "Client: I keep thinking, 'This is my fault. I should have seen this coming.' The guilt is overwhelming. I can't stop shaking.",
+      "Therapist: Remember, you're safe now. Stay with the memory.",
+      "Client: Time seems to slow down. It feels like hours before help arrives. I can't stop looking at the faces of my injured teammates. Their eyes... they haunt me."
+    ],
+    [
+      "Therapist: Remember, you're safe now. Stay with the memory.",
+      "Client: Time seems to slow down. It feels like hours before help arrives. I can't stop looking at the faces of my injured teammates. Their eyes... they haunt me.",
+      "Therapist: You're very brave. Continue."
+    ],
+    [
+      "Client: Time seems to slow down. It feels like hours before help arrives. I can't stop looking at the faces of my injured teammates. Their eyes... they haunt me.",
+      "Therapist: You're very brave. Continue.",
+      "Client: When the medevac finally arrives, I help load the injured. I'm moving on autopilot. I feel numb. As we fly away, I see smoke rising from the village. I feel like I've failed them all."
+    ],
+    [
+      "Therapist: You're very brave. Continue.",
+      "Client: When the medevac finally arrives, I help load the injured. I'm moving on autopilot. I feel numb. As we fly away, I see smoke rising from the village. I feel like I've failed them all.",
+      "Therapist: You've done well. How are you feeling now?"
+    ],
+    [
+      "Client: When the medevac finally arrives, I help load the injured. I'm moving on autopilot. I feel numb. As we fly away, I see smoke rising from the village. I feel like I've failed them all.",
+      "Therapist: You've done well. How are you feeling now?",
+      "Client: I... I feel drained. Sad. Angry. It's all mixed up. But... I also feel a bit relieved to have shared this."
+    ],
+    [
+      "Therapist: You've done well. How are you feeling now?",
+      "Client: I... I feel drained. Sad. Angry. It's all mixed up. But... I also feel a bit relieved to have shared this.",
+      "Therapist: That's completely normal. You've shown great courage today."
+    ],
+    [
+      "Client: I... I feel drained. Sad. Angry. It's all mixed up. But... I also feel a bit relieved to have shared this.",
+      "Therapist: That's completely normal. You've shown great courage today.",
+      "Client: Thank you. It's still hard to talk about, but I think it helps. I just wish these memories would stop haunting me."
+    ],
+    [
+      "Therapist: That's completely normal. You've shown great courage today.",
+      "Client: Thank you. It's still hard to talk about, but I think it helps. I just wish these memories would stop haunting me.",
+      "Therapist: It's a process. You're making progress."
+    ],
+    [
+      "Client: Thank you. It's still hard to talk about, but I think it helps. I just wish these memories would stop haunting me.",
+      "Therapist: It's a process. You're making progress.",
+      "Client: I hope so. Sometimes it feels like I'll never be free of this. But I'm trying to stay hopeful."
+    ],
+    [
+      "Therapist: It's a process. You're making progress.",
+      "Client: I hope so. Sometimes it feels like I'll never be free of this. But I'm trying to stay hopeful.",
+      "Therapist: That's a positive attitude. Shall we end here for today?"
+    ],
+    [
+      "Client: I hope so. Sometimes it feels like I'll never be free of this. But I'm trying to stay hopeful.",
+      "Therapist: That's a positive attitude. Shall we end here for today?",
+      "Client: Yes, I think that's enough for now. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: That's a positive attitude. Shall we end here for today?",
+      "Client: Yes, I think that's enough for now. Thank you for guiding me through this.",
+      "Therapist: You're welcome. Remember to use your coping strategies if you feel overwhelmed later."
+    ]
+  ]
+}

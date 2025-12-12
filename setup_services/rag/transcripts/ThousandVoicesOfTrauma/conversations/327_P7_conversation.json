@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+    "Client: I'm... I'm a bit nervous, to be honest. I know we're going to be talking about some difficult memories today.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I'll try to keep that in mind. It's just... these memories, they're so painful.",
+    "Therapist: You're brave for facing them. Shall we begin?",
+    "Client: Okay. Yes, I think I'm ready. It was about three years ago. I was at a local business conference. I've been running my own consulting firm for over a decade, and I've attended countless events like this. But this one... it was different. As I walked into the main hall, I immediately felt eyes on me. I was one of the few people of color in the room, and certainly the only Black woman.",
+    "Therapist: You're doing well. Continue when you're ready.",
+    "Client: I tried to brush it off at first. I've dealt with being the \"only one\" before. But as I approached a group of attendees to network, I overheard one of them say, \"Oh great, here comes the diversity hire.\" My heart sank. I felt like I'd been punched in the gut. All my years of hard work, my expertise... reduced to a stereotype in an instant.",
+    "Therapist: That must have been incredibly hurtful.",
+    "Client: It was. I... I froze. I couldn't believe what I'd heard. Part of me wanted to confront them, to educate them on how wrong and hurtful their assumption was. But another part of me... I felt so small, so insignificant. I just... I turned around and walked away.",
+    "Therapist: You're being very brave. Keep going.",
+    "Client: I found an empty corner and tried to compose myself. My hands were shaking. I felt hot tears forming, but I refused to let them fall. I kept thinking, \"I don't belong here. They'll never see me as an equal.\" It was like all my insecurities and fears were confirmed in that moment.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: It's hard. I... I can feel my chest tightening just thinking about it. I've worked so hard to build my business, to prove myself. And in that moment, it felt like none of it mattered. Like no matter what I achieved, I'd always be seen as less than.",
+    "Therapist: You're doing great. Take a deep breath.",
+    "Client: *takes a deep breath* The worst part was, I couldn't shake it off. For the rest of the conference, I felt like an impostor. I second-guessed every interaction, wondering if people were just tolerating me or if they actually valued my input. It was exhausting.",
+    "Therapist: How are you feeling right now?",
+    "Client: I'm... I'm angry. And sad. It's been three years, but talking about it, I can still feel that shame and frustration so vividly. It's like it happened yesterday.",
+    "Therapist: It's okay to feel those emotions.",
+    "Client: I know, but... I hate that it still affects me so much. I've tried to move past it, to focus on my successes. But experiences like that, they leave a mark. They make me question myself in ways I never did before.",
+    "Therapist: You're showing incredible strength.",
+    "Client: Thank you. It's just... it's not just about that one incident. It's the culmination of so many small moments, so many microaggressions over the years. That day at the conference, it all came crashing down on me at once.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: Since then, I've been more hesitant in professional settings. I find myself constantly on guard, waiting for the next hurtful comment or dismissive glance. It's exhausting. And it makes me angry that I have to carry this burden, that I can't just focus on my work like everyone else.",
+    "Therapist: Your feelings are valid.",
+    "Client: I know they are, but sometimes I wish I could just let it all go. I wish I could walk into a room and not immediately count how many people look like me. I wish I didn't have to work twice as hard to prove I belong. It's... it's just so unfair.",
+    "Therapist: You're processing this well. How do you feel now?",
+    "Client: I feel... drained. But also, in a way, relieved. Talking about it, really diving into those feelings... it's hard, but it's also freeing. Like I'm finally acknowledging the weight I've been carrying.",
+    "Therapist: That's a positive step. Well done today.",
+    "Client: Thank you. I know we still have a lot of work to do, but I feel like I'm starting to understand these feelings better. It's still painful, but maybe... maybe by facing it head-on, I can start to heal.",
+    "Therapist: That's an excellent perspective. We'll continue next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Johnson. How are you feeling today?",
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to be talking about some difficult memories today.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to be talking about some difficult memories today.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... these memories, they're so painful."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I'll try to keep that in mind. It's just... these memories, they're so painful.",
+      "Therapist: You're brave for facing them. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. I'll try to keep that in mind. It's just... these memories, they're so painful.",
+      "Therapist: You're brave for facing them. Shall we begin?",
+      "Client: Okay. Yes, I think I'm ready. It was about three years ago. I was at a local business conference. I've been running my own consulting firm for over a decade, and I've attended countless events like this. But this one... it was different. As I walked into the main hall, I immediately felt eyes on me. I was one of the few people of color in the room, and certainly the only Black woman."
+    ],
+    [
+      "Therapist: You're brave for facing them. Shall we begin?",
+      "Client: Okay. Yes, I think I'm ready. It was about three years ago. I was at a local business conference. I've been running my own consulting firm for over a decade, and I've attended countless events like this. But this one... it was different. As I walked into the main hall, I immediately felt eyes on me. I was one of the few people of color in the room, and certainly the only Black woman.",
+      "Therapist: You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: Okay. Yes, I think I'm ready. It was about three years ago. I was at a local business conference. I've been running my own consulting firm for over a decade, and I've attended countless events like this. But this one... it was different. As I walked into the main hall, I immediately felt eyes on me. I was one of the few people of color in the room, and certainly the only Black woman.",
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: I tried to brush it off at first. I've dealt with being the \"only one\" before. But as I approached a group of attendees to network, I overheard one of them say, \"Oh great, here comes the diversity hire.\" My heart sank. I felt like I'd been punched in the gut. All my years of hard work, my expertise... reduced to a stereotype in an instant."
+    ],
+    [
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: I tried to brush it off at first. I've dealt with being the \"only one\" before. But as I approached a group of attendees to network, I overheard one of them say, \"Oh great, here comes the diversity hire.\" My heart sank. I felt like I'd been punched in the gut. All my years of hard work, my expertise... reduced to a stereotype in an instant.",
+      "Therapist: That must have been incredibly hurtful."
+    ],
+    [
+      "Client: I tried to brush it off at first. I've dealt with being the \"only one\" before. But as I approached a group of attendees to network, I overheard one of them say, \"Oh great, here comes the diversity hire.\" My heart sank. I felt like I'd been punched in the gut. All my years of hard work, my expertise... reduced to a stereotype in an instant.",
+      "Therapist: That must have been incredibly hurtful.",
+      "Client: It was. I... I froze. I couldn't believe what I'd heard. Part of me wanted to confront them, to educate them on how wrong and hurtful their assumption was. But another part of me... I felt so small, so insignificant. I just... I turned around and walked away."
+    ],
+    [
+      "Therapist: That must have been incredibly hurtful.",
+      "Client: It was. I... I froze. I couldn't believe what I'd heard. Part of me wanted to confront them, to educate them on how wrong and hurtful their assumption was. But another part of me... I felt so small, so insignificant. I just... I turned around and walked away.",
+      "Therapist: You're being very brave. Keep going."
+    ],
+    [
+      "Client: It was. I... I froze. I couldn't believe what I'd heard. Part of me wanted to confront them, to educate them on how wrong and hurtful their assumption was. But another part of me... I felt so small, so insignificant. I just... I turned around and walked away.",
+      "Therapist: You're being very brave. Keep going.",
+      "Client: I found an empty corner and tried to compose myself. My hands were shaking. I felt hot tears forming, but I refused to let them fall. I kept thinking, \"I don't belong here. They'll never see me as an equal.\" It was like all my insecurities and fears were confirmed in that moment."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going.",
+      "Client: I found an empty corner and tried to compose myself. My hands were shaking. I felt hot tears forming, but I refused to let them fall. I kept thinking, \"I don't belong here. They'll never see me as an equal.\" It was like all my insecurities and fears were confirmed in that moment.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: I found an empty corner and tried to compose myself. My hands were shaking. I felt hot tears forming, but I refused to let them fall. I kept thinking, \"I don't belong here. They'll never see me as an equal.\" It was like all my insecurities and fears were confirmed in that moment.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard. I... I can feel my chest tightening just thinking about it. I've worked so hard to build my business, to prove myself. And in that moment, it felt like none of it mattered. Like no matter what I achieved, I'd always be seen as less than."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard. I... I can feel my chest tightening just thinking about it. I've worked so hard to build my business, to prove myself. And in that moment, it felt like none of it mattered. Like no matter what I achieved, I'd always be seen as less than.",
+      "Therapist: You're doing great. Take a deep breath."
+    ],
+    [
+      "Client: It's hard. I... I can feel my chest tightening just thinking about it. I've worked so hard to build my business, to prove myself. And in that moment, it felt like none of it mattered. Like no matter what I achieved, I'd always be seen as less than.",
+      "Therapist: You're doing great. Take a deep breath.",
+      "Client: *takes a deep breath* The worst part was, I couldn't shake it off. For the rest of the conference, I felt like an impostor. I second-guessed every interaction, wondering if people were just tolerating me or if they actually valued my input. It was exhausting."
+    ],
+    [
+      "Therapist: You're doing great. Take a deep breath.",
+      "Client: *takes a deep breath* The worst part was, I couldn't shake it off. For the rest of the conference, I felt like an impostor. I second-guessed every interaction, wondering if people were just tolerating me or if they actually valued my input. It was exhausting.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: *takes a deep breath* The worst part was, I couldn't shake it off. For the rest of the conference, I felt like an impostor. I second-guessed every interaction, wondering if people were just tolerating me or if they actually valued my input. It was exhausting.",
+      "Therapist: How are you feeling right now?",
+      "Client: I'm... I'm angry. And sad. It's been three years, but talking about it, I can still feel that shame and frustration so vividly. It's like it happened yesterday."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I'm... I'm angry. And sad. It's been three years, but talking about it, I can still feel that shame and frustration so vividly. It's like it happened yesterday.",
+      "Therapist: It's okay to feel those emotions."
+    ],
+    [
+      "Client: I'm... I'm angry. And sad. It's been three years, but talking about it, I can still feel that shame and frustration so vividly. It's like it happened yesterday.",
+      "Therapist: It's okay to feel those emotions.",
+      "Client: I know, but... I hate that it still affects me so much. I've tried to move past it, to focus on my successes. But experiences like that, they leave a mark. They make me question myself in ways I never did before."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions.",
+      "Client: I know, but... I hate that it still affects me so much. I've tried to move past it, to focus on my successes. But experiences like that, they leave a mark. They make me question myself in ways I never did before.",
+      "Therapist: You're showing incredible strength."
+    ],
+    [
+      "Client: I know, but... I hate that it still affects me so much. I've tried to move past it, to focus on my successes. But experiences like that, they leave a mark. They make me question myself in ways I never did before.",
+      "Therapist: You're showing incredible strength.",
+      "Client: Thank you. It's just... it's not just about that one incident. It's the culmination of so many small moments, so many microaggressions over the years. That day at the conference, it all came crashing down on me at once."
+    ],
+    [
+      "Therapist: You're showing incredible strength.",
+      "Client: Thank you. It's just... it's not just about that one incident. It's the culmination of so many small moments, so many microaggressions over the years. That day at the conference, it all came crashing down on me at once.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: Thank you. It's just... it's not just about that one incident. It's the culmination of so many small moments, so many microaggressions over the years. That day at the conference, it all came crashing down on me at once.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: Since then, I've been more hesitant in professional settings. I find myself constantly on guard, waiting for the next hurtful comment or dismissive glance. It's exhausting. And it makes me angry that I have to carry this burden, that I can't just focus on my work like everyone else."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: Since then, I've been more hesitant in professional settings. I find myself constantly on guard, waiting for the next hurtful comment or dismissive glance. It's exhausting. And it makes me angry that I have to carry this burden, that I can't just focus on my work like everyone else.",
+      "Therapist: Your feelings are valid."
+    ],
+    [
+      "Client: Since then, I've been more hesitant in professional settings. I find myself constantly on guard, waiting for the next hurtful comment or dismissive glance. It's exhausting. And it makes me angry that I have to carry this burden, that I can't just focus on my work like everyone else.",
+      "Therapist: Your feelings are valid.",
+      "Client: I know they are, but sometimes I wish I could just let it all go. I wish I could walk into a room and not immediately count how many people look like me. I wish I didn't have to work twice as hard to prove I belong. It's... it's just so unfair."
+    ],
+    [
+      "Therapist: Your feelings are valid.",
+      "Client: I know they are, but sometimes I wish I could just let it all go. I wish I could walk into a room and not immediately count how many people look like me. I wish I didn't have to work twice as hard to prove I belong. It's... it's just so unfair.",
+      "Therapist: You're processing this well. How do you feel now?"
+    ],
+    [
+      "Client: I know they are, but sometimes I wish I could just let it all go. I wish I could walk into a room and not immediately count how many people look like me. I wish I didn't have to work twice as hard to prove I belong. It's... it's just so unfair.",
+      "Therapist: You're processing this well. How do you feel now?",
+      "Client: I feel... drained. But also, in a way, relieved. Talking about it, really diving into those feelings... it's hard, but it's also freeing. Like I'm finally acknowledging the weight I've been carrying."
+    ],
+    [
+      "Therapist: You're processing this well. How do you feel now?",
+      "Client: I feel... drained. But also, in a way, relieved. Talking about it, really diving into those feelings... it's hard, but it's also freeing. Like I'm finally acknowledging the weight I've been carrying.",
+      "Therapist: That's a positive step. Well done today."
+    ],
+    [
+      "Client: I feel... drained. But also, in a way, relieved. Talking about it, really diving into those feelings... it's hard, but it's also freeing. Like I'm finally acknowledging the weight I've been carrying.",
+      "Therapist: That's a positive step. Well done today.",
+      "Client: Thank you. I know we still have a lot of work to do, but I feel like I'm starting to understand these feelings better. It's still painful, but maybe... maybe by facing it head-on, I can start to heal."
+    ],
+    [
+      "Therapist: That's a positive step. Well done today.",
+      "Client: Thank you. I know we still have a lot of work to do, but I feel like I'm starting to understand these feelings better. It's still painful, but maybe... maybe by facing it head-on, I can start to heal.",
+      "Therapist: That's an excellent perspective. We'll continue next time."
+    ]
+  ]
+}

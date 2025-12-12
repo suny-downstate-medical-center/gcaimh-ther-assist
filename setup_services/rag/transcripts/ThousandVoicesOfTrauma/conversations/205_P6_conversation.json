@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Maria. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+    "Client: Okay... I'm back in the war zone. It's hot, dusty. I can smell diesel and hear distant explosions. We're in a small village, and... oh god, there are children. They look scared, hungry. A group of men are herding them into a truck. I... I know what's happening, but I feel so helpless.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: It's... it's about a 6. My heart is racing.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: The children are crying. One little girl looks right at me, her eyes begging for help. I want to do something, but our orders... we're not supposed to intervene. I feel sick to my stomach. The truck starts up, and I can hear the children screaming inside.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I'm shaking. I can feel sweat on my palms, and my chest feels tight.",
+    "Therapist: That's okay. You're safe here. Continue.",
+    "Client: As the truck drives away, I see one of the men smirking. He looks so... satisfied. I want to punch him, to stop the truck, to save those kids. But I'm frozen. I can't move. I'm a coward. I should have done something, anything!",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe. My hands are clenched so tight.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: (Inhales deeply) I watch the truck disappear into the distance. The dust settles, and it's like nothing ever happened. But I know. I know what those children are facing, and I did nothing. I feel so ashamed, so angry at myself and the whole situation.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still at a 9. I feel nauseous and my head is pounding.",
+    "Therapist: Stay with it. You're safe here.",
+    "Client: (Voice trembling) Days later, we hear reports about child trafficking rings. I keep seeing that little girl's face. I wonder if I could have saved her, if I had just acted. The guilt... it's overwhelming. I have nightmares about it still.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's actually down to a 7 now. I feel drained, but the intense panic is subsiding a bit.",
+    "Therapist: That's good. How are you feeling now?",
+    "Client: Exhausted. Sad. But... also a little relieved to have talked about it. It's like a weight has been lifted, even though it still hurts.",
+    "Therapist: That's normal. You did well today.",
+    "Client: Thank you. It was hard, but... I think it helped. Can we stop now?",
+    "Therapist: Of course. Let's end here and debrief."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Maria. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+      "Client: Okay... I'm back in the war zone. It's hot, dusty. I can smell diesel and hear distant explosions. We're in a small village, and... oh god, there are children. They look scared, hungry. A group of men are herding them into a truck. I... I know what's happening, but I feel so helpless."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+      "Client: Okay... I'm back in the war zone. It's hot, dusty. I can smell diesel and hear distant explosions. We're in a small village, and... oh god, there are children. They look scared, hungry. A group of men are herding them into a truck. I... I know what's happening, but I feel so helpless.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in the war zone. It's hot, dusty. I can smell diesel and hear distant explosions. We're in a small village, and... oh god, there are children. They look scared, hungry. A group of men are herding them into a truck. I... I know what's happening, but I feel so helpless.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's... it's about a 6. My heart is racing."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's... it's about a 6. My heart is racing.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's... it's about a 6. My heart is racing.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: The children are crying. One little girl looks right at me, her eyes begging for help. I want to do something, but our orders... we're not supposed to intervene. I feel sick to my stomach. The truck starts up, and I can hear the children screaming inside."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: The children are crying. One little girl looks right at me, her eyes begging for help. I want to do something, but our orders... we're not supposed to intervene. I feel sick to my stomach. The truck starts up, and I can hear the children screaming inside.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The children are crying. One little girl looks right at me, her eyes begging for help. I want to do something, but our orders... we're not supposed to intervene. I feel sick to my stomach. The truck starts up, and I can hear the children screaming inside.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm shaking. I can feel sweat on my palms, and my chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm shaking. I can feel sweat on my palms, and my chest feels tight.",
+      "Therapist: That's okay. You're safe here. Continue."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm shaking. I can feel sweat on my palms, and my chest feels tight.",
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: As the truck drives away, I see one of the men smirking. He looks so... satisfied. I want to punch him, to stop the truck, to save those kids. But I'm frozen. I can't move. I'm a coward. I should have done something, anything!"
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: As the truck drives away, I see one of the men smirking. He looks so... satisfied. I want to punch him, to stop the truck, to save those kids. But I'm frozen. I can't move. I'm a coward. I should have done something, anything!",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: As the truck drives away, I see one of the men smirking. He looks so... satisfied. I want to punch him, to stop the truck, to save those kids. But I'm frozen. I can't move. I'm a coward. I should have done something, anything!",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My hands are clenched so tight."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My hands are clenched so tight.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My hands are clenched so tight.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: (Inhales deeply) I watch the truck disappear into the distance. The dust settles, and it's like nothing ever happened. But I know. I know what those children are facing, and I did nothing. I feel so ashamed, so angry at myself and the whole situation."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: (Inhales deeply) I watch the truck disappear into the distance. The dust settles, and it's like nothing ever happened. But I know. I know what those children are facing, and I did nothing. I feel so ashamed, so angry at myself and the whole situation.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (Inhales deeply) I watch the truck disappear into the distance. The dust settles, and it's like nothing ever happened. But I know. I know what those children are facing, and I did nothing. I feel so ashamed, so angry at myself and the whole situation.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 9. I feel nauseous and my head is pounding."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 9. I feel nauseous and my head is pounding.",
+      "Therapist: Stay with it. You're safe here."
+    ],
+    [
+      "Client: It's still at a 9. I feel nauseous and my head is pounding.",
+      "Therapist: Stay with it. You're safe here.",
+      "Client: (Voice trembling) Days later, we hear reports about child trafficking rings. I keep seeing that little girl's face. I wonder if I could have saved her, if I had just acted. The guilt... it's overwhelming. I have nightmares about it still."
+    ],
+    [
+      "Therapist: Stay with it. You're safe here.",
+      "Client: (Voice trembling) Days later, we hear reports about child trafficking rings. I keep seeing that little girl's face. I wonder if I could have saved her, if I had just acted. The guilt... it's overwhelming. I have nightmares about it still.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: (Voice trembling) Days later, we hear reports about child trafficking rings. I keep seeing that little girl's face. I wonder if I could have saved her, if I had just acted. The guilt... it's overwhelming. I have nightmares about it still.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's actually down to a 7 now. I feel drained, but the intense panic is subsiding a bit."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's actually down to a 7 now. I feel drained, but the intense panic is subsiding a bit.",
+      "Therapist: That's good. How are you feeling now?"
+    ],
+    [
+      "Client: It's... it's actually down to a 7 now. I feel drained, but the intense panic is subsiding a bit.",
+      "Therapist: That's good. How are you feeling now?",
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it. It's like a weight has been lifted, even though it still hurts."
+    ],
+    [
+      "Therapist: That's good. How are you feeling now?",
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it. It's like a weight has been lifted, even though it still hurts.",
+      "Therapist: That's normal. You did well today."
+    ],
+    [
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it. It's like a weight has been lifted, even though it still hurts.",
+      "Therapist: That's normal. You did well today.",
+      "Client: Thank you. It was hard, but... I think it helped. Can we stop now?"
+    ],
+    [
+      "Therapist: That's normal. You did well today.",
+      "Client: Thank you. It was hard, but... I think it helped. Can we stop now?",
+      "Therapist: Of course. Let's end here and debrief."
+    ]
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, James. How are you feeling today?",
+    "Client: I'm... okay, I guess. Still having trouble sleeping, and I keep thinking about the accident. It's hard to focus on work lately.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss this?",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+    "Therapist: It's a technique to help process your trauma. Can you share your concerns?",
+    "Client: Well, I'm worried about reliving the accident. It's already haunting me. Won't this make it worse?",
+    "Therapist: That's a valid concern. How do you think facing it might help?",
+    "Client: I... I'm not sure. Maybe it could help me stop avoiding thoughts about it? But I'm scared it'll be overwhelming.",
+    "Therapist: Your fear is normal. We'll go at your pace. What questions do you have?",
+    "Client: How long will it take? And what if I can't handle it? I don't want to fall apart in front of you.",
+    "Therapist: It varies for each person. We can pause anytime. What else worries you?",
+    "Client: I guess I'm afraid of feeling out of control. Since the accident, I've been trying so hard to keep it together. This feels like letting go of that control.",
+    "Therapist: I hear you. Control is important. How might this exercise help long-term?",
+    "Client: Maybe... maybe it could help me process what happened? Instead of just pushing it away all the time. But it's scary to think about facing it head-on.",
+    "Therapist: Exactly. It's about processing, not reliving. How can I support you today?",
+    "Client: I think I need reassurance that it's okay if I get emotional. And maybe some guidance on what to do if it becomes too much. I'm still not sure I'm ready for this.",
+    "Therapist: Your hesitation is understandable. We'll take it slow. Shall we start?",
+    "Client: Okay... I think I'm ready. But can we have a signal if I need to stop? Like if I raise my hand or something?",
+    "Therapist: Absolutely. Raising your hand works. Your courage is admirable, James.",
+    "Client: Thank you. I'm nervous, but I know this is important. I want to get better, for myself and my family. I just hope I can get through this without falling apart.",
+    "Therapist: You're stronger than you think. Shall we begin?",
+    "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, James. How are you feeling today?",
+      "Client: I'm... okay, I guess. Still having trouble sleeping, and I keep thinking about the accident. It's hard to focus on work lately.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss this?"
+    ],
+    [
+      "Client: I'm... okay, I guess. Still having trouble sleeping, and I keep thinking about the accident. It's hard to focus on work lately.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss this?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss this?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+      "Therapist: It's a technique to help process your trauma. Can you share your concerns?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean?",
+      "Therapist: It's a technique to help process your trauma. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving the accident. It's already haunting me. Won't this make it worse?"
+    ],
+    [
+      "Therapist: It's a technique to help process your trauma. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving the accident. It's already haunting me. Won't this make it worse?",
+      "Therapist: That's a valid concern. How do you think facing it might help?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving the accident. It's already haunting me. Won't this make it worse?",
+      "Therapist: That's a valid concern. How do you think facing it might help?",
+      "Client: I... I'm not sure. Maybe it could help me stop avoiding thoughts about it? But I'm scared it'll be overwhelming."
+    ],
+    [
+      "Therapist: That's a valid concern. How do you think facing it might help?",
+      "Client: I... I'm not sure. Maybe it could help me stop avoiding thoughts about it? But I'm scared it'll be overwhelming.",
+      "Therapist: Your fear is normal. We'll go at your pace. What questions do you have?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe it could help me stop avoiding thoughts about it? But I'm scared it'll be overwhelming.",
+      "Therapist: Your fear is normal. We'll go at your pace. What questions do you have?",
+      "Client: How long will it take? And what if I can't handle it? I don't want to fall apart in front of you."
+    ],
+    [
+      "Therapist: Your fear is normal. We'll go at your pace. What questions do you have?",
+      "Client: How long will it take? And what if I can't handle it? I don't want to fall apart in front of you.",
+      "Therapist: It varies for each person. We can pause anytime. What else worries you?"
+    ],
+    [
+      "Client: How long will it take? And what if I can't handle it? I don't want to fall apart in front of you.",
+      "Therapist: It varies for each person. We can pause anytime. What else worries you?",
+      "Client: I guess I'm afraid of feeling out of control. Since the accident, I've been trying so hard to keep it together. This feels like letting go of that control."
+    ],
+    [
+      "Therapist: It varies for each person. We can pause anytime. What else worries you?",
+      "Client: I guess I'm afraid of feeling out of control. Since the accident, I've been trying so hard to keep it together. This feels like letting go of that control.",
+      "Therapist: I hear you. Control is important. How might this exercise help long-term?"
+    ],
+    [
+      "Client: I guess I'm afraid of feeling out of control. Since the accident, I've been trying so hard to keep it together. This feels like letting go of that control.",
+      "Therapist: I hear you. Control is important. How might this exercise help long-term?",
+      "Client: Maybe... maybe it could help me process what happened? Instead of just pushing it away all the time. But it's scary to think about facing it head-on."
+    ],
+    [
+      "Therapist: I hear you. Control is important. How might this exercise help long-term?",
+      "Client: Maybe... maybe it could help me process what happened? Instead of just pushing it away all the time. But it's scary to think about facing it head-on.",
+      "Therapist: Exactly. It's about processing, not reliving. How can I support you today?"
+    ],
+    [
+      "Client: Maybe... maybe it could help me process what happened? Instead of just pushing it away all the time. But it's scary to think about facing it head-on.",
+      "Therapist: Exactly. It's about processing, not reliving. How can I support you today?",
+      "Client: I think I need reassurance that it's okay if I get emotional. And maybe some guidance on what to do if it becomes too much. I'm still not sure I'm ready for this."
+    ],
+    [
+      "Therapist: Exactly. It's about processing, not reliving. How can I support you today?",
+      "Client: I think I need reassurance that it's okay if I get emotional. And maybe some guidance on what to do if it becomes too much. I'm still not sure I'm ready for this.",
+      "Therapist: Your hesitation is understandable. We'll take it slow. Shall we start?"
+    ],
+    [
+      "Client: I think I need reassurance that it's okay if I get emotional. And maybe some guidance on what to do if it becomes too much. I'm still not sure I'm ready for this.",
+      "Therapist: Your hesitation is understandable. We'll take it slow. Shall we start?",
+      "Client: Okay... I think I'm ready. But can we have a signal if I need to stop? Like if I raise my hand or something?"
+    ],
+    [
+      "Therapist: Your hesitation is understandable. We'll take it slow. Shall we start?",
+      "Client: Okay... I think I'm ready. But can we have a signal if I need to stop? Like if I raise my hand or something?",
+      "Therapist: Absolutely. Raising your hand works. Your courage is admirable, James."
+    ],
+    [
+      "Client: Okay... I think I'm ready. But can we have a signal if I need to stop? Like if I raise my hand or something?",
+      "Therapist: Absolutely. Raising your hand works. Your courage is admirable, James.",
+      "Client: Thank you. I'm nervous, but I know this is important. I want to get better, for myself and my family. I just hope I can get through this without falling apart."
+    ],
+    [
+      "Therapist: Absolutely. Raising your hand works. Your courage is admirable, James.",
+      "Client: Thank you. I'm nervous, but I know this is important. I want to get better, for myself and my family. I just hope I can get through this without falling apart.",
+      "Therapist: You're stronger than you think. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. I'm nervous, but I know this is important. I want to get better, for myself and my family. I just hope I can get through this without falling apart.",
+      "Therapist: You're stronger than you think. Shall we begin?",
+      "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please be patient with me if I struggle."
+    ]
+  ]
+}

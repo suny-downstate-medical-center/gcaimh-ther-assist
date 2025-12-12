@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, John. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the accident again, and it's making me nervous.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thanks. I'll try to keep that in mind. Where should I start?",
+    "Therapist: Begin with the moments leading up to the accident.",
+    "Client: Okay... I was driving home from work. It was late, around 10 PM. The roads were quiet, and I remember feeling tired. I was thinking about a big project due the next day. Suddenly, I saw headlights coming straight at me in my lane. My heart started racing, and I gripped the steering wheel tightly.",
+    "Therapist: You're doing well. Continue.",
+    "Client: I... I tried to swerve, but it happened so fast. There was a deafening crash, and I felt my car spinning. Glass was shattering everywhere. I could smell burning rubber and... and something metallic. I think it was blood. My blood. I was trapped, and I couldn't move my legs. I started panicking, thinking I might die there.",
+    "Therapist: Stay with that feeling. You're safe now.",
+    "Client: It's hard... I remember screaming for help, but no one was there. The other car... I could see it was on fire. I was terrified it might explode. I tried to unbuckle my seatbelt, but my hands were shaking so much. I felt so helpless, so alone. The pain was excruciating, and I was getting dizzy. I thought about my kids, wondering if I'd ever see them again.",
+    "Therapist: You're handling this bravely. Keep going.",
+    "Client: I... I don't know how long I was there. It felt like hours. I kept drifting in and out of consciousness. I remember hearing sirens in the distance, and feeling a mix of relief and fear. When the paramedics arrived, they had to use the jaws of life to get me out. The sound of metal being torn apart was horrifying. I was in so much pain, but I was just grateful to be alive.",
+    "Therapist: You're doing great. How are you feeling now?",
+    "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little stronger? Like I can face this memory without completely falling apart.",
+    "Therapist: That's progress. Take a deep breath.",
+    "Client: Thanks. It's still hard to talk about, but I think it's getting a little easier each time. I'm starting to see that I survived something terrible, and that maybe I'm stronger than I thought.",
+    "Therapist: You are. Let's pause here. Well done.",
+    "Client: Thank you. I appreciate your support through this. It's not easy, but I think it's helping. Can we talk about how to manage the anxiety that comes up between sessions? Sometimes, after we've discussed the accident, I find myself getting really nervous while driving.",
+    "Therapist: Of course. Let's discuss coping strategies.",
+    "Client: That would be really helpful. I've been trying some deep breathing exercises, but sometimes it's not enough. Especially when I'm on the same road where the accident happened. It's like my whole body tenses up, and I start to feel panicky.",
+    "Therapist: That's common. Let's explore more techniques.",
+    "Client: Okay. I'm open to trying new things. I really want to get back to feeling comfortable driving again. It's affecting my work and my relationship with my kids. I can't always be there for them like I want to be because of this fear.",
+    "Therapist: Your motivation is admirable. We'll work on this.",
+    "Client: Thank you. I'm willing to put in the effort. It's just... sometimes it feels like such a long road ahead. But I know I need to do this for myself and for my family. They've been so supportive, but I can see the worry in their eyes when I get behind the wheel.",
+    "Therapist: That care can be motivating. Shall we continue?",
+    "Client: Yes, let's keep going. I want to be able to talk about this without feeling like I'm right back in that moment. It's exhausting to feel so on edge all the time. I miss feeling carefree when I drive, or even just being able to enjoy a car ride without constantly scanning for potential dangers.",
+    "Therapist: Your awareness is a positive step. Proceed.",
+    "Client: Right. Well, I've been trying to challenge some of my thoughts about driving. Like, I know logically that not every car is going to crash into me, but it's hard to shake that fear. Sometimes I find myself planning routes that avoid highways or busy intersections, even if it means taking much longer to get somewhere.",
+    "Therapist: That's a common avoidance behavior. We'll address it.",
+    "Client: I see. I hadn't really thought of it as avoidance, but I guess that's exactly what it is. It's just... the thought of being in another accident is terrifying. I keep imagining worst-case scenarios, like what if next time I don't survive, or what if I'm with my kids when it happens?",
+    "Therapist: These are valid concerns. We'll work through them.",
+    "Client: Thank you. I appreciate your understanding. It's reassuring to know that these feelings are normal, even if they're difficult to deal with. I'm committed to working through this. I want to set a good example for my kids, to show them that it's possible to overcome fears and trauma.",
+    "Therapist: That's a powerful motivation. Let's end here today.",
+    "Client: Okay. Thank you for your guidance today. I feel drained, but also a bit lighter. Is it normal to feel this mix of exhaustion and... I don't know, maybe hope?",
+    "Therapist: Absolutely. It's a sign of progress.",
+    "Client: That's good to hear. I'll try to remember that feeling when things get tough between sessions. Thank you again for your help. I'm looking forward to our next session, even though I know it won't be easy.",
+    "Therapist: You're welcome. Take care, John."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, John. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the accident again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about the accident again, and it's making me nervous.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I'll try to keep that in mind. Where should I start?"
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I'll try to keep that in mind. Where should I start?",
+      "Therapist: Begin with the moments leading up to the accident."
+    ],
+    [
+      "Client: Thanks. I'll try to keep that in mind. Where should I start?",
+      "Therapist: Begin with the moments leading up to the accident.",
+      "Client: Okay... I was driving home from work. It was late, around 10 PM. The roads were quiet, and I remember feeling tired. I was thinking about a big project due the next day. Suddenly, I saw headlights coming straight at me in my lane. My heart started racing, and I gripped the steering wheel tightly."
+    ],
+    [
+      "Therapist: Begin with the moments leading up to the accident.",
+      "Client: Okay... I was driving home from work. It was late, around 10 PM. The roads were quiet, and I remember feeling tired. I was thinking about a big project due the next day. Suddenly, I saw headlights coming straight at me in my lane. My heart started racing, and I gripped the steering wheel tightly.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Okay... I was driving home from work. It was late, around 10 PM. The roads were quiet, and I remember feeling tired. I was thinking about a big project due the next day. Suddenly, I saw headlights coming straight at me in my lane. My heart started racing, and I gripped the steering wheel tightly.",
+      "Therapist: You're doing well. Continue.",
+      "Client: I... I tried to swerve, but it happened so fast. There was a deafening crash, and I felt my car spinning. Glass was shattering everywhere. I could smell burning rubber and... and something metallic. I think it was blood. My blood. I was trapped, and I couldn't move my legs. I started panicking, thinking I might die there."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: I... I tried to swerve, but it happened so fast. There was a deafening crash, and I felt my car spinning. Glass was shattering everywhere. I could smell burning rubber and... and something metallic. I think it was blood. My blood. I was trapped, and I couldn't move my legs. I started panicking, thinking I might die there.",
+      "Therapist: Stay with that feeling. You're safe now."
+    ],
+    [
+      "Client: I... I tried to swerve, but it happened so fast. There was a deafening crash, and I felt my car spinning. Glass was shattering everywhere. I could smell burning rubber and... and something metallic. I think it was blood. My blood. I was trapped, and I couldn't move my legs. I started panicking, thinking I might die there.",
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: It's hard... I remember screaming for help, but no one was there. The other car... I could see it was on fire. I was terrified it might explode. I tried to unbuckle my seatbelt, but my hands were shaking so much. I felt so helpless, so alone. The pain was excruciating, and I was getting dizzy. I thought about my kids, wondering if I'd ever see them again."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: It's hard... I remember screaming for help, but no one was there. The other car... I could see it was on fire. I was terrified it might explode. I tried to unbuckle my seatbelt, but my hands were shaking so much. I felt so helpless, so alone. The pain was excruciating, and I was getting dizzy. I thought about my kids, wondering if I'd ever see them again.",
+      "Therapist: You're handling this bravely. Keep going."
+    ],
+    [
+      "Client: It's hard... I remember screaming for help, but no one was there. The other car... I could see it was on fire. I was terrified it might explode. I tried to unbuckle my seatbelt, but my hands were shaking so much. I felt so helpless, so alone. The pain was excruciating, and I was getting dizzy. I thought about my kids, wondering if I'd ever see them again.",
+      "Therapist: You're handling this bravely. Keep going.",
+      "Client: I... I don't know how long I was there. It felt like hours. I kept drifting in and out of consciousness. I remember hearing sirens in the distance, and feeling a mix of relief and fear. When the paramedics arrived, they had to use the jaws of life to get me out. The sound of metal being torn apart was horrifying. I was in so much pain, but I was just grateful to be alive."
+    ],
+    [
+      "Therapist: You're handling this bravely. Keep going.",
+      "Client: I... I don't know how long I was there. It felt like hours. I kept drifting in and out of consciousness. I remember hearing sirens in the distance, and feeling a mix of relief and fear. When the paramedics arrived, they had to use the jaws of life to get me out. The sound of metal being torn apart was horrifying. I was in so much pain, but I was just grateful to be alive.",
+      "Therapist: You're doing great. How are you feeling now?"
+    ],
+    [
+      "Client: I... I don't know how long I was there. It felt like hours. I kept drifting in and out of consciousness. I remember hearing sirens in the distance, and feeling a mix of relief and fear. When the paramedics arrived, they had to use the jaws of life to get me out. The sound of metal being torn apart was horrifying. I was in so much pain, but I was just grateful to be alive.",
+      "Therapist: You're doing great. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little stronger? Like I can face this memory without completely falling apart."
+    ],
+    [
+      "Therapist: You're doing great. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little stronger? Like I can face this memory without completely falling apart.",
+      "Therapist: That's progress. Take a deep breath."
+    ],
+    [
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little stronger? Like I can face this memory without completely falling apart.",
+      "Therapist: That's progress. Take a deep breath.",
+      "Client: Thanks. It's still hard to talk about, but I think it's getting a little easier each time. I'm starting to see that I survived something terrible, and that maybe I'm stronger than I thought."
+    ],
+    [
+      "Therapist: That's progress. Take a deep breath.",
+      "Client: Thanks. It's still hard to talk about, but I think it's getting a little easier each time. I'm starting to see that I survived something terrible, and that maybe I'm stronger than I thought.",
+      "Therapist: You are. Let's pause here. Well done."
+    ],
+    [
+      "Client: Thanks. It's still hard to talk about, but I think it's getting a little easier each time. I'm starting to see that I survived something terrible, and that maybe I'm stronger than I thought.",
+      "Therapist: You are. Let's pause here. Well done.",
+      "Client: Thank you. I appreciate your support through this. It's not easy, but I think it's helping. Can we talk about how to manage the anxiety that comes up between sessions? Sometimes, after we've discussed the accident, I find myself getting really nervous while driving."
+    ],
+    [
+      "Therapist: You are. Let's pause here. Well done.",
+      "Client: Thank you. I appreciate your support through this. It's not easy, but I think it's helping. Can we talk about how to manage the anxiety that comes up between sessions? Sometimes, after we've discussed the accident, I find myself getting really nervous while driving.",
+      "Therapist: Of course. Let's discuss coping strategies."
+    ],
+    [
+      "Client: Thank you. I appreciate your support through this. It's not easy, but I think it's helping. Can we talk about how to manage the anxiety that comes up between sessions? Sometimes, after we've discussed the accident, I find myself getting really nervous while driving.",
+      "Therapist: Of course. Let's discuss coping strategies.",
+      "Client: That would be really helpful. I've been trying some deep breathing exercises, but sometimes it's not enough. Especially when I'm on the same road where the accident happened. It's like my whole body tenses up, and I start to feel panicky."
+    ],
+    [
+      "Therapist: Of course. Let's discuss coping strategies.",
+      "Client: That would be really helpful. I've been trying some deep breathing exercises, but sometimes it's not enough. Especially when I'm on the same road where the accident happened. It's like my whole body tenses up, and I start to feel panicky.",
+      "Therapist: That's common. Let's explore more techniques."
+    ],
+    [
+      "Client: That would be really helpful. I've been trying some deep breathing exercises, but sometimes it's not enough. Especially when I'm on the same road where the accident happened. It's like my whole body tenses up, and I start to feel panicky.",
+      "Therapist: That's common. Let's explore more techniques.",
+      "Client: Okay. I'm open to trying new things. I really want to get back to feeling comfortable driving again. It's affecting my work and my relationship with my kids. I can't always be there for them like I want to be because of this fear."
+    ],
+    [
+      "Therapist: That's common. Let's explore more techniques.",
+      "Client: Okay. I'm open to trying new things. I really want to get back to feeling comfortable driving again. It's affecting my work and my relationship with my kids. I can't always be there for them like I want to be because of this fear.",
+      "Therapist: Your motivation is admirable. We'll work on this."
+    ],
+    [
+      "Client: Okay. I'm open to trying new things. I really want to get back to feeling comfortable driving again. It's affecting my work and my relationship with my kids. I can't always be there for them like I want to be because of this fear.",
+      "Therapist: Your motivation is admirable. We'll work on this.",
+      "Client: Thank you. I'm willing to put in the effort. It's just... sometimes it feels like such a long road ahead. But I know I need to do this for myself and for my family. They've been so supportive, but I can see the worry in their eyes when I get behind the wheel."
+    ],
+    [
+      "Therapist: Your motivation is admirable. We'll work on this.",
+      "Client: Thank you. I'm willing to put in the effort. It's just... sometimes it feels like such a long road ahead. But I know I need to do this for myself and for my family. They've been so supportive, but I can see the worry in their eyes when I get behind the wheel.",
+      "Therapist: That care can be motivating. Shall we continue?"
+    ],
+    [
+      "Client: Thank you. I'm willing to put in the effort. It's just... sometimes it feels like such a long road ahead. But I know I need to do this for myself and for my family. They've been so supportive, but I can see the worry in their eyes when I get behind the wheel.",
+      "Therapist: That care can be motivating. Shall we continue?",
+      "Client: Yes, let's keep going. I want to be able to talk about this without feeling like I'm right back in that moment. It's exhausting to feel so on edge all the time. I miss feeling carefree when I drive, or even just being able to enjoy a car ride without constantly scanning for potential dangers."
+    ],
+    [
+      "Therapist: That care can be motivating. Shall we continue?",
+      "Client: Yes, let's keep going. I want to be able to talk about this without feeling like I'm right back in that moment. It's exhausting to feel so on edge all the time. I miss feeling carefree when I drive, or even just being able to enjoy a car ride without constantly scanning for potential dangers.",
+      "Therapist: Your awareness is a positive step. Proceed."
+    ],
+    [
+      "Client: Yes, let's keep going. I want to be able to talk about this without feeling like I'm right back in that moment. It's exhausting to feel so on edge all the time. I miss feeling carefree when I drive, or even just being able to enjoy a car ride without constantly scanning for potential dangers.",
+      "Therapist: Your awareness is a positive step. Proceed.",
+      "Client: Right. Well, I've been trying to challenge some of my thoughts about driving. Like, I know logically that not every car is going to crash into me, but it's hard to shake that fear. Sometimes I find myself planning routes that avoid highways or busy intersections, even if it means taking much longer to get somewhere."
+    ],
+    [
+      "Therapist: Your awareness is a positive step. Proceed.",
+      "Client: Right. Well, I've been trying to challenge some of my thoughts about driving. Like, I know logically that not every car is going to crash into me, but it's hard to shake that fear. Sometimes I find myself planning routes that avoid highways or busy intersections, even if it means taking much longer to get somewhere.",
+      "Therapist: That's a common avoidance behavior. We'll address it."
+    ],
+    [
+      "Client: Right. Well, I've been trying to challenge some of my thoughts about driving. Like, I know logically that not every car is going to crash into me, but it's hard to shake that fear. Sometimes I find myself planning routes that avoid highways or busy intersections, even if it means taking much longer to get somewhere.",
+      "Therapist: That's a common avoidance behavior. We'll address it.",
+      "Client: I see. I hadn't really thought of it as avoidance, but I guess that's exactly what it is. It's just... the thought of being in another accident is terrifying. I keep imagining worst-case scenarios, like what if next time I don't survive, or what if I'm with my kids when it happens?"
+    ],
+    [
+      "Therapist: That's a common avoidance behavior. We'll address it.",
+      "Client: I see. I hadn't really thought of it as avoidance, but I guess that's exactly what it is. It's just... the thought of being in another accident is terrifying. I keep imagining worst-case scenarios, like what if next time I don't survive, or what if I'm with my kids when it happens?",
+      "Therapist: These are valid concerns. We'll work through them."
+    ],
+    [
+      "Client: I see. I hadn't really thought of it as avoidance, but I guess that's exactly what it is. It's just... the thought of being in another accident is terrifying. I keep imagining worst-case scenarios, like what if next time I don't survive, or what if I'm with my kids when it happens?",
+      "Therapist: These are valid concerns. We'll work through them.",
+      "Client: Thank you. I appreciate your understanding. It's reassuring to know that these feelings are normal, even if they're difficult to deal with. I'm committed to working through this. I want to set a good example for my kids, to show them that it's possible to overcome fears and trauma."
+    ],
+    [
+      "Therapist: These are valid concerns. We'll work through them.",
+      "Client: Thank you. I appreciate your understanding. It's reassuring to know that these feelings are normal, even if they're difficult to deal with. I'm committed to working through this. I want to set a good example for my kids, to show them that it's possible to overcome fears and trauma.",
+      "Therapist: That's a powerful motivation. Let's end here today."
+    ],
+    [
+      "Client: Thank you. I appreciate your understanding. It's reassuring to know that these feelings are normal, even if they're difficult to deal with. I'm committed to working through this. I want to set a good example for my kids, to show them that it's possible to overcome fears and trauma.",
+      "Therapist: That's a powerful motivation. Let's end here today.",
+      "Client: Okay. Thank you for your guidance today. I feel drained, but also a bit lighter. Is it normal to feel this mix of exhaustion and... I don't know, maybe hope?"
+    ],
+    [
+      "Therapist: That's a powerful motivation. Let's end here today.",
+      "Client: Okay. Thank you for your guidance today. I feel drained, but also a bit lighter. Is it normal to feel this mix of exhaustion and... I don't know, maybe hope?",
+      "Therapist: Absolutely. It's a sign of progress."
+    ],
+    [
+      "Client: Okay. Thank you for your guidance today. I feel drained, but also a bit lighter. Is it normal to feel this mix of exhaustion and... I don't know, maybe hope?",
+      "Therapist: Absolutely. It's a sign of progress.",
+      "Client: That's good to hear. I'll try to remember that feeling when things get tough between sessions. Thank you again for your help. I'm looking forward to our next session, even though I know it won't be easy."
+    ],
+    [
+      "Therapist: Absolutely. It's a sign of progress.",
+      "Client: That's good to hear. I'll try to remember that feeling when things get tough between sessions. Thank you again for your help. I'm looking forward to our next session, even though I know it won't be easy.",
+      "Therapist: You're welcome. Take care, John."
+    ]
+  ]
+}

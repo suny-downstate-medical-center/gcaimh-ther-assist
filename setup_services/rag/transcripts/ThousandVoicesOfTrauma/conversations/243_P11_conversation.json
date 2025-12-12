@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Johnson?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that experience in the hospital, it just... it brought back so many memories I've tried to forget.",
+    "Therapist: What stood out to you most?",
+    "Client: The feeling of helplessness, I suppose. Being strapped down to that bed, unable to move... it was like being imprisoned in my own body. The nurses and doctors, they were just going about their business, but to me, it felt like they were my jailers. I know that sounds dramatic, but that's how it felt.",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... intense. My heart was racing, and I could feel my palms getting sweaty. For a moment, I thought I was back there. But then... I don't know, something shifted. I realized I was here, in this room, and that I was safe. It was like... like I was observing the memory rather than reliving it.",
+    "Therapist: That's an important observation. Can you tell me more?",
+    "Client: Well, it's strange. In the past, whenever I thought about that experience, I'd get completely overwhelmed. But today, even though it was uncomfortable, I felt... more in control? Like I could step back from it a bit. Is that... is that normal?",
+    "Therapist: It's a sign of progress. How does that make you feel?",
+    "Client: Relieved, I guess. And a little proud, actually. I've been so afraid of these memories for so long. To feel like I might be gaining some control over them... it's encouraging. But also a bit scary, you know? Like, what if I'm just fooling myself?",
+    "Therapist: That uncertainty is normal. What else did you notice?",
+    "Client: I realized how much anger I still carry about that experience. Not just at the medical staff, but at myself for being so vulnerable. I've always prided myself on being strong and independent, and that experience... it shattered that image I had of myself.",
+    "Therapist: How does that realization impact you now?",
+    "Client: It's... it's actually a bit freeing. I've spent so much energy trying to be that strong, independent person again. But maybe... maybe it's okay to acknowledge that I'm not always that person. That sometimes I need help, and that doesn't make me weak.",
+    "Therapist: That's a powerful insight. How might this change things for you?",
+    "Client: I think... I think it might help me be a little kinder to myself. And maybe... maybe it'll help me open up more to my family. I've been pushing them away because I didn't want them to see me as weak. But that's not fair to them, or to me.",
+    "Therapist: That sounds like a positive step. What's next for you?",
+    "Client: I want to keep working on this. It's hard, and sometimes I feel like I'm not making progress. But today... today I feel like maybe I am. I want to hold onto that feeling, you know? And maybe... maybe try to talk to my daughter this week. Just a little. Baby steps, right?",
+    "Therapist: Absolutely. How do you feel about our session today?",
+    "Client: Exhausted, but... good. Like I've done something important. Thank you for... for guiding me through this. I know I'm not the easiest patient, but I appreciate your patience.",
+    "Therapist: You're doing great work. Shall we wrap up?",
+    "Client: Yes, I think so. I'm looking forward to our next session, actually. That's... that's new for me. Usually, I dread them. But today, I feel... hopeful? Is that the right word?",
+    "Therapist: Hopeful is a great word. Take care, Mr. Johnson.",
+    "Client: Thank you, Doctor. I will. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Johnson?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that experience in the hospital, it just... it brought back so many memories I've tried to forget.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that experience in the hospital, it just... it brought back so many memories I've tried to forget.",
+      "Therapist: What stood out to you most?",
+      "Client: The feeling of helplessness, I suppose. Being strapped down to that bed, unable to move... it was like being imprisoned in my own body. The nurses and doctors, they were just going about their business, but to me, it felt like they were my jailers. I know that sounds dramatic, but that's how it felt."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The feeling of helplessness, I suppose. Being strapped down to that bed, unable to move... it was like being imprisoned in my own body. The nurses and doctors, they were just going about their business, but to me, it felt like they were my jailers. I know that sounds dramatic, but that's how it felt.",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The feeling of helplessness, I suppose. Being strapped down to that bed, unable to move... it was like being imprisoned in my own body. The nurses and doctors, they were just going about their business, but to me, it felt like they were my jailers. I know that sounds dramatic, but that's how it felt.",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. My heart was racing, and I could feel my palms getting sweaty. For a moment, I thought I was back there. But then... I don't know, something shifted. I realized I was here, in this room, and that I was safe. It was like... like I was observing the memory rather than reliving it."
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. My heart was racing, and I could feel my palms getting sweaty. For a moment, I thought I was back there. But then... I don't know, something shifted. I realized I was here, in this room, and that I was safe. It was like... like I was observing the memory rather than reliving it.",
+      "Therapist: That's an important observation. Can you tell me more?"
+    ],
+    [
+      "Client: It was... intense. My heart was racing, and I could feel my palms getting sweaty. For a moment, I thought I was back there. But then... I don't know, something shifted. I realized I was here, in this room, and that I was safe. It was like... like I was observing the memory rather than reliving it.",
+      "Therapist: That's an important observation. Can you tell me more?",
+      "Client: Well, it's strange. In the past, whenever I thought about that experience, I'd get completely overwhelmed. But today, even though it was uncomfortable, I felt... more in control? Like I could step back from it a bit. Is that... is that normal?"
+    ],
+    [
+      "Therapist: That's an important observation. Can you tell me more?",
+      "Client: Well, it's strange. In the past, whenever I thought about that experience, I'd get completely overwhelmed. But today, even though it was uncomfortable, I felt... more in control? Like I could step back from it a bit. Is that... is that normal?",
+      "Therapist: It's a sign of progress. How does that make you feel?"
+    ],
+    [
+      "Client: Well, it's strange. In the past, whenever I thought about that experience, I'd get completely overwhelmed. But today, even though it was uncomfortable, I felt... more in control? Like I could step back from it a bit. Is that... is that normal?",
+      "Therapist: It's a sign of progress. How does that make you feel?",
+      "Client: Relieved, I guess. And a little proud, actually. I've been so afraid of these memories for so long. To feel like I might be gaining some control over them... it's encouraging. But also a bit scary, you know? Like, what if I'm just fooling myself?"
+    ],
+    [
+      "Therapist: It's a sign of progress. How does that make you feel?",
+      "Client: Relieved, I guess. And a little proud, actually. I've been so afraid of these memories for so long. To feel like I might be gaining some control over them... it's encouraging. But also a bit scary, you know? Like, what if I'm just fooling myself?",
+      "Therapist: That uncertainty is normal. What else did you notice?"
+    ],
+    [
+      "Client: Relieved, I guess. And a little proud, actually. I've been so afraid of these memories for so long. To feel like I might be gaining some control over them... it's encouraging. But also a bit scary, you know? Like, what if I'm just fooling myself?",
+      "Therapist: That uncertainty is normal. What else did you notice?",
+      "Client: I realized how much anger I still carry about that experience. Not just at the medical staff, but at myself for being so vulnerable. I've always prided myself on being strong and independent, and that experience... it shattered that image I had of myself."
+    ],
+    [
+      "Therapist: That uncertainty is normal. What else did you notice?",
+      "Client: I realized how much anger I still carry about that experience. Not just at the medical staff, but at myself for being so vulnerable. I've always prided myself on being strong and independent, and that experience... it shattered that image I had of myself.",
+      "Therapist: How does that realization impact you now?"
+    ],
+    [
+      "Client: I realized how much anger I still carry about that experience. Not just at the medical staff, but at myself for being so vulnerable. I've always prided myself on being strong and independent, and that experience... it shattered that image I had of myself.",
+      "Therapist: How does that realization impact you now?",
+      "Client: It's... it's actually a bit freeing. I've spent so much energy trying to be that strong, independent person again. But maybe... maybe it's okay to acknowledge that I'm not always that person. That sometimes I need help, and that doesn't make me weak."
+    ],
+    [
+      "Therapist: How does that realization impact you now?",
+      "Client: It's... it's actually a bit freeing. I've spent so much energy trying to be that strong, independent person again. But maybe... maybe it's okay to acknowledge that I'm not always that person. That sometimes I need help, and that doesn't make me weak.",
+      "Therapist: That's a powerful insight. How might this change things for you?"
+    ],
+    [
+      "Client: It's... it's actually a bit freeing. I've spent so much energy trying to be that strong, independent person again. But maybe... maybe it's okay to acknowledge that I'm not always that person. That sometimes I need help, and that doesn't make me weak.",
+      "Therapist: That's a powerful insight. How might this change things for you?",
+      "Client: I think... I think it might help me be a little kinder to myself. And maybe... maybe it'll help me open up more to my family. I've been pushing them away because I didn't want them to see me as weak. But that's not fair to them, or to me."
+    ],
+    [
+      "Therapist: That's a powerful insight. How might this change things for you?",
+      "Client: I think... I think it might help me be a little kinder to myself. And maybe... maybe it'll help me open up more to my family. I've been pushing them away because I didn't want them to see me as weak. But that's not fair to them, or to me.",
+      "Therapist: That sounds like a positive step. What's next for you?"
+    ],
+    [
+      "Client: I think... I think it might help me be a little kinder to myself. And maybe... maybe it'll help me open up more to my family. I've been pushing them away because I didn't want them to see me as weak. But that's not fair to them, or to me.",
+      "Therapist: That sounds like a positive step. What's next for you?",
+      "Client: I want to keep working on this. It's hard, and sometimes I feel like I'm not making progress. But today... today I feel like maybe I am. I want to hold onto that feeling, you know? And maybe... maybe try to talk to my daughter this week. Just a little. Baby steps, right?"
+    ],
+    [
+      "Therapist: That sounds like a positive step. What's next for you?",
+      "Client: I want to keep working on this. It's hard, and sometimes I feel like I'm not making progress. But today... today I feel like maybe I am. I want to hold onto that feeling, you know? And maybe... maybe try to talk to my daughter this week. Just a little. Baby steps, right?",
+      "Therapist: Absolutely. How do you feel about our session today?"
+    ],
+    [
+      "Client: I want to keep working on this. It's hard, and sometimes I feel like I'm not making progress. But today... today I feel like maybe I am. I want to hold onto that feeling, you know? And maybe... maybe try to talk to my daughter this week. Just a little. Baby steps, right?",
+      "Therapist: Absolutely. How do you feel about our session today?",
+      "Client: Exhausted, but... good. Like I've done something important. Thank you for... for guiding me through this. I know I'm not the easiest patient, but I appreciate your patience."
+    ],
+    [
+      "Therapist: Absolutely. How do you feel about our session today?",
+      "Client: Exhausted, but... good. Like I've done something important. Thank you for... for guiding me through this. I know I'm not the easiest patient, but I appreciate your patience.",
+      "Therapist: You're doing great work. Shall we wrap up?"
+    ],
+    [
+      "Client: Exhausted, but... good. Like I've done something important. Thank you for... for guiding me through this. I know I'm not the easiest patient, but I appreciate your patience.",
+      "Therapist: You're doing great work. Shall we wrap up?",
+      "Client: Yes, I think so. I'm looking forward to our next session, actually. That's... that's new for me. Usually, I dread them. But today, I feel... hopeful? Is that the right word?"
+    ],
+    [
+      "Therapist: You're doing great work. Shall we wrap up?",
+      "Client: Yes, I think so. I'm looking forward to our next session, actually. That's... that's new for me. Usually, I dread them. But today, I feel... hopeful? Is that the right word?",
+      "Therapist: Hopeful is a great word. Take care, Mr. Johnson."
+    ],
+    [
+      "Client: Yes, I think so. I'm looking forward to our next session, actually. That's... that's new for me. Usually, I dread them. But today, I feel... hopeful? Is that the right word?",
+      "Therapist: Hopeful is a great word. Take care, Mr. Johnson.",
+      "Client: Thank you, Doctor. I will. See you next week."
+    ]
+  ]
+}

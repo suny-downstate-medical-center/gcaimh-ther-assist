@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. Last week's session was pretty intense, and I'm not sure I'm ready to dive back into those memories.",
+    "Therapist: That's understandable. We'll take it step by step.",
+    "Client: Okay, I'll try. It's just... talking about my grandson's death and then dealing with all this online harassment... it's overwhelming.",
+    "Therapist: You're safe here. Whenever you're ready.",
+    "Client: Alright. Well, I remember the day I found out about the cyberbullying. I was checking my email, and there was a message from my daughter. She said Tommy had been receiving horrible messages online. I felt my heart sink. I mean, he was already struggling after losing his mom, my daughter-in-law, to cancer. And now this?",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I called my daughter immediately. She was crying on the phone, telling me how Tommy had been targeted by some kids at school. They were sending him messages saying it was his fault his mom died, that he didn't love her enough. Can you believe that? He was only 14...",
+    "Therapist: That must have been devastating. Stay with the memory.",
+    "Client: It was. I felt so helpless. I wanted to protect him, but I didn't know how. I'm from a different generation, you know? I don't understand all this social media stuff. I felt like I was failing him as a grandfather.",
+    "Therapist: You're handling this bravely. Continue.",
+    "Client: I drove over to their house that day. When I got there, Tommy was in his room. He wouldn't come out. My daughter was a mess, trying to figure out what to do. I sat outside his door for hours, just talking to him through it. Telling him how much we loved him, how none of this was his fault.",
+    "Therapist: That was very caring of you. How did you feel?",
+    "Client: I felt... angry. So angry at those kids for hurting my grandson. But also scared. I kept thinking about how we'd already lost his mom, and now I was terrified we might lose him too. The thought of it... it makes my chest tight even now.",
+    "Therapist: It's okay to feel that way. You're safe here.",
+    "Client: Eventually, Tommy opened the door. His eyes were so red and puffy. He just fell into my arms and sobbed. I held him, and I could feel how thin he'd gotten. It was like he was wasting away right in front of us.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: We sat there for a long time, just holding each other. I told him about his mom, how proud she would be of him. How strong he was. But inside, I was terrified. What if this pushed him over the edge? What if we couldn't protect him?",
+    "Therapist: Those are natural concerns. How did you cope?",
+    "Client: I... I tried to be strong for him. But that night, after he went to sleep, I broke down. I felt so old and useless. The world had changed so much, and I didn't know how to navigate it anymore. How could I help him when I didn't even understand what he was going through?",
+    "Therapist: You're showing great courage sharing this.",
+    "Client: We eventually got him help, therapy and all that. But I still feel like I failed him somehow. Like if I had been younger, more tech-savvy, maybe I could have prevented it. It's been years, but I still wake up sometimes, worrying about him.",
+    "Therapist: Your concern shows how much you care.",
+    "Client: I do care. So much. And I'm trying to learn, you know? About social media and online safety. But it feels like swimming against the current. Every time I think I understand, something new comes along. And I can't shake this fear that it might happen again, to Tommy or to his younger siblings.",
+    "Therapist: You're adapting admirably. How do you feel now?",
+    "Client: Tired, I guess. Reliving this... it's exhausting. But also, maybe a little relieved? Talking about it, it helps somehow. Makes it feel less like this big, dark secret I'm carrying around.",
+    "Therapist: That's a positive step. Well done today.",
+    "Client: Thank you. I know we're out of time, but... do you think it'll ever get easier? Dealing with all this?",
+    "Therapist: It often does with time and work. We'll continue next week.",
+    "Client: Okay. Thank you for listening. It means a lot.",
+    "Therapist: You're welcome. Take care, Mr. Johnson."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. Last week's session was pretty intense, and I'm not sure I'm ready to dive back into those memories.",
+      "Therapist: That's understandable. We'll take it step by step."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. Last week's session was pretty intense, and I'm not sure I'm ready to dive back into those memories.",
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay, I'll try. It's just... talking about my grandson's death and then dealing with all this online harassment... it's overwhelming."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay, I'll try. It's just... talking about my grandson's death and then dealing with all this online harassment... it's overwhelming.",
+      "Therapist: You're safe here. Whenever you're ready."
+    ],
+    [
+      "Client: Okay, I'll try. It's just... talking about my grandson's death and then dealing with all this online harassment... it's overwhelming.",
+      "Therapist: You're safe here. Whenever you're ready.",
+      "Client: Alright. Well, I remember the day I found out about the cyberbullying. I was checking my email, and there was a message from my daughter. She said Tommy had been receiving horrible messages online. I felt my heart sink. I mean, he was already struggling after losing his mom, my daughter-in-law, to cancer. And now this?"
+    ],
+    [
+      "Therapist: You're safe here. Whenever you're ready.",
+      "Client: Alright. Well, I remember the day I found out about the cyberbullying. I was checking my email, and there was a message from my daughter. She said Tommy had been receiving horrible messages online. I felt my heart sink. I mean, he was already struggling after losing his mom, my daughter-in-law, to cancer. And now this?",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Alright. Well, I remember the day I found out about the cyberbullying. I was checking my email, and there was a message from my daughter. She said Tommy had been receiving horrible messages online. I felt my heart sink. I mean, he was already struggling after losing his mom, my daughter-in-law, to cancer. And now this?",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I called my daughter immediately. She was crying on the phone, telling me how Tommy had been targeted by some kids at school. They were sending him messages saying it was his fault his mom died, that he didn't love her enough. Can you believe that? He was only 14..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I called my daughter immediately. She was crying on the phone, telling me how Tommy had been targeted by some kids at school. They were sending him messages saying it was his fault his mom died, that he didn't love her enough. Can you believe that? He was only 14...",
+      "Therapist: That must have been devastating. Stay with the memory."
+    ],
+    [
+      "Client: I called my daughter immediately. She was crying on the phone, telling me how Tommy had been targeted by some kids at school. They were sending him messages saying it was his fault his mom died, that he didn't love her enough. Can you believe that? He was only 14...",
+      "Therapist: That must have been devastating. Stay with the memory.",
+      "Client: It was. I felt so helpless. I wanted to protect him, but I didn't know how. I'm from a different generation, you know? I don't understand all this social media stuff. I felt like I was failing him as a grandfather."
+    ],
+    [
+      "Therapist: That must have been devastating. Stay with the memory.",
+      "Client: It was. I felt so helpless. I wanted to protect him, but I didn't know how. I'm from a different generation, you know? I don't understand all this social media stuff. I felt like I was failing him as a grandfather.",
+      "Therapist: You're handling this bravely. Continue."
+    ],
+    [
+      "Client: It was. I felt so helpless. I wanted to protect him, but I didn't know how. I'm from a different generation, you know? I don't understand all this social media stuff. I felt like I was failing him as a grandfather.",
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: I drove over to their house that day. When I got there, Tommy was in his room. He wouldn't come out. My daughter was a mess, trying to figure out what to do. I sat outside his door for hours, just talking to him through it. Telling him how much we loved him, how none of this was his fault."
+    ],
+    [
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: I drove over to their house that day. When I got there, Tommy was in his room. He wouldn't come out. My daughter was a mess, trying to figure out what to do. I sat outside his door for hours, just talking to him through it. Telling him how much we loved him, how none of this was his fault.",
+      "Therapist: That was very caring of you. How did you feel?"
+    ],
+    [
+      "Client: I drove over to their house that day. When I got there, Tommy was in his room. He wouldn't come out. My daughter was a mess, trying to figure out what to do. I sat outside his door for hours, just talking to him through it. Telling him how much we loved him, how none of this was his fault.",
+      "Therapist: That was very caring of you. How did you feel?",
+      "Client: I felt... angry. So angry at those kids for hurting my grandson. But also scared. I kept thinking about how we'd already lost his mom, and now I was terrified we might lose him too. The thought of it... it makes my chest tight even now."
+    ],
+    [
+      "Therapist: That was very caring of you. How did you feel?",
+      "Client: I felt... angry. So angry at those kids for hurting my grandson. But also scared. I kept thinking about how we'd already lost his mom, and now I was terrified we might lose him too. The thought of it... it makes my chest tight even now.",
+      "Therapist: It's okay to feel that way. You're safe here."
+    ],
+    [
+      "Client: I felt... angry. So angry at those kids for hurting my grandson. But also scared. I kept thinking about how we'd already lost his mom, and now I was terrified we might lose him too. The thought of it... it makes my chest tight even now.",
+      "Therapist: It's okay to feel that way. You're safe here.",
+      "Client: Eventually, Tommy opened the door. His eyes were so red and puffy. He just fell into my arms and sobbed. I held him, and I could feel how thin he'd gotten. It was like he was wasting away right in front of us."
+    ],
+    [
+      "Therapist: It's okay to feel that way. You're safe here.",
+      "Client: Eventually, Tommy opened the door. His eyes were so red and puffy. He just fell into my arms and sobbed. I held him, and I could feel how thin he'd gotten. It was like he was wasting away right in front of us.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Eventually, Tommy opened the door. His eyes were so red and puffy. He just fell into my arms and sobbed. I held him, and I could feel how thin he'd gotten. It was like he was wasting away right in front of us.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: We sat there for a long time, just holding each other. I told him about his mom, how proud she would be of him. How strong he was. But inside, I was terrified. What if this pushed him over the edge? What if we couldn't protect him?"
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: We sat there for a long time, just holding each other. I told him about his mom, how proud she would be of him. How strong he was. But inside, I was terrified. What if this pushed him over the edge? What if we couldn't protect him?",
+      "Therapist: Those are natural concerns. How did you cope?"
+    ],
+    [
+      "Client: We sat there for a long time, just holding each other. I told him about his mom, how proud she would be of him. How strong he was. But inside, I was terrified. What if this pushed him over the edge? What if we couldn't protect him?",
+      "Therapist: Those are natural concerns. How did you cope?",
+      "Client: I... I tried to be strong for him. But that night, after he went to sleep, I broke down. I felt so old and useless. The world had changed so much, and I didn't know how to navigate it anymore. How could I help him when I didn't even understand what he was going through?"
+    ],
+    [
+      "Therapist: Those are natural concerns. How did you cope?",
+      "Client: I... I tried to be strong for him. But that night, after he went to sleep, I broke down. I felt so old and useless. The world had changed so much, and I didn't know how to navigate it anymore. How could I help him when I didn't even understand what he was going through?",
+      "Therapist: You're showing great courage sharing this."
+    ],
+    [
+      "Client: I... I tried to be strong for him. But that night, after he went to sleep, I broke down. I felt so old and useless. The world had changed so much, and I didn't know how to navigate it anymore. How could I help him when I didn't even understand what he was going through?",
+      "Therapist: You're showing great courage sharing this.",
+      "Client: We eventually got him help, therapy and all that. But I still feel like I failed him somehow. Like if I had been younger, more tech-savvy, maybe I could have prevented it. It's been years, but I still wake up sometimes, worrying about him."
+    ],
+    [
+      "Therapist: You're showing great courage sharing this.",
+      "Client: We eventually got him help, therapy and all that. But I still feel like I failed him somehow. Like if I had been younger, more tech-savvy, maybe I could have prevented it. It's been years, but I still wake up sometimes, worrying about him.",
+      "Therapist: Your concern shows how much you care."
+    ],
+    [
+      "Client: We eventually got him help, therapy and all that. But I still feel like I failed him somehow. Like if I had been younger, more tech-savvy, maybe I could have prevented it. It's been years, but I still wake up sometimes, worrying about him.",
+      "Therapist: Your concern shows how much you care.",
+      "Client: I do care. So much. And I'm trying to learn, you know? About social media and online safety. But it feels like swimming against the current. Every time I think I understand, something new comes along. And I can't shake this fear that it might happen again, to Tommy or to his younger siblings."
+    ],
+    [
+      "Therapist: Your concern shows how much you care.",
+      "Client: I do care. So much. And I'm trying to learn, you know? About social media and online safety. But it feels like swimming against the current. Every time I think I understand, something new comes along. And I can't shake this fear that it might happen again, to Tommy or to his younger siblings.",
+      "Therapist: You're adapting admirably. How do you feel now?"
+    ],
+    [
+      "Client: I do care. So much. And I'm trying to learn, you know? About social media and online safety. But it feels like swimming against the current. Every time I think I understand, something new comes along. And I can't shake this fear that it might happen again, to Tommy or to his younger siblings.",
+      "Therapist: You're adapting admirably. How do you feel now?",
+      "Client: Tired, I guess. Reliving this... it's exhausting. But also, maybe a little relieved? Talking about it, it helps somehow. Makes it feel less like this big, dark secret I'm carrying around."
+    ],
+    [
+      "Therapist: You're adapting admirably. How do you feel now?",
+      "Client: Tired, I guess. Reliving this... it's exhausting. But also, maybe a little relieved? Talking about it, it helps somehow. Makes it feel less like this big, dark secret I'm carrying around.",
+      "Therapist: That's a positive step. Well done today."
+    ],
+    [
+      "Client: Tired, I guess. Reliving this... it's exhausting. But also, maybe a little relieved? Talking about it, it helps somehow. Makes it feel less like this big, dark secret I'm carrying around.",
+      "Therapist: That's a positive step. Well done today.",
+      "Client: Thank you. I know we're out of time, but... do you think it'll ever get easier? Dealing with all this?"
+    ],
+    [
+      "Therapist: That's a positive step. Well done today.",
+      "Client: Thank you. I know we're out of time, but... do you think it'll ever get easier? Dealing with all this?",
+      "Therapist: It often does with time and work. We'll continue next week."
+    ],
+    [
+      "Client: Thank you. I know we're out of time, but... do you think it'll ever get easier? Dealing with all this?",
+      "Therapist: It often does with time and work. We'll continue next week.",
+      "Client: Okay. Thank you for listening. It means a lot."
+    ],
+    [
+      "Therapist: It often does with time and work. We'll continue next week.",
+      "Client: Okay. Thank you for listening. It means a lot.",
+      "Therapist: You're welcome. Take care, Mr. Johnson."
+    ]
+  ]
+}

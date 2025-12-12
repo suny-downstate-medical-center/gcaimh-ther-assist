@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Johnson, today we'll be doing an imaginal exposure exercise. Are you familiar with this?",
+    "Client: Not really, no. I'm a bit nervous about what that might entail. Can you explain it to me?",
+    "Therapist: Of course. It's a way to process your trauma memories safely. We'll go through it step-by-step.",
+    "Client: I see. I'm still not sure I understand completely. Will it be like reliving the violence I witnessed? That sounds terrifying. I've spent so long trying to forget those awful moments.",
+    "Therapist: It may feel intense, but you're safe here. How are you feeling about trying this?",
+    "Client: To be honest, I'm scared. But I trust you, and I want to get better. It's been hard since losing my husband last year. The memories seem worse now that he's gone.",
+    "Therapist: Your courage is admirable. This can help reduce your PTSD symptoms over time.",
+    "Client: I hope so. It's been affecting my sleep and my relationship with my children. They worry about me so much. What exactly will we be doing in this exercise?",
+    "Therapist: We'll revisit the memory gradually. I'll guide you through it, and you can stop anytime.",
+    "Client: Okay, I think I understand. But what if I become overwhelmed? Sometimes when I think about that day, I feel like I can't breathe.",
+    "Therapist: That's normal. We'll use grounding techniques if needed. You're in control here.",
+    "Client: That's reassuring. I appreciate your patience with me. It's not easy to talk about these things at my age. I sometimes feel silly for still struggling with this after so many years.",
+    "Therapist: Your feelings are valid, Mrs. Johnson. There's no timeline for healing.",
+    "Client: Thank you for saying that. It means a lot. So, what should I expect to feel during this exercise? Will it be very upsetting?",
+    "Therapist: It might be emotional, but that's part of the healing process. We'll go at your pace.",
+    "Client: I understand. I'm willing to try. It's important to me to work through this, for myself and for my family. They've been so supportive, especially since my husband passed. I want to be there for them too, without these memories haunting me.",
+    "Therapist: Your determination is inspiring. Shall we begin?",
+    "Client: Yes, I think I'm ready. Thank you for explaining everything so clearly. It helps to know what to expect. I'm still nervous, but I feel safer knowing you're here to guide me through it.",
+    "Therapist: You're welcome. Remember, we're in this together. Let's start slowly..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Johnson, today we'll be doing an imaginal exposure exercise. Are you familiar with this?",
+      "Client: Not really, no. I'm a bit nervous about what that might entail. Can you explain it to me?",
+      "Therapist: Of course. It's a way to process your trauma memories safely. We'll go through it step-by-step."
+    ],
+    [
+      "Client: Not really, no. I'm a bit nervous about what that might entail. Can you explain it to me?",
+      "Therapist: Of course. It's a way to process your trauma memories safely. We'll go through it step-by-step.",
+      "Client: I see. I'm still not sure I understand completely. Will it be like reliving the violence I witnessed? That sounds terrifying. I've spent so long trying to forget those awful moments."
+    ],
+    [
+      "Therapist: Of course. It's a way to process your trauma memories safely. We'll go through it step-by-step.",
+      "Client: I see. I'm still not sure I understand completely. Will it be like reliving the violence I witnessed? That sounds terrifying. I've spent so long trying to forget those awful moments.",
+      "Therapist: It may feel intense, but you're safe here. How are you feeling about trying this?"
+    ],
+    [
+      "Client: I see. I'm still not sure I understand completely. Will it be like reliving the violence I witnessed? That sounds terrifying. I've spent so long trying to forget those awful moments.",
+      "Therapist: It may feel intense, but you're safe here. How are you feeling about trying this?",
+      "Client: To be honest, I'm scared. But I trust you, and I want to get better. It's been hard since losing my husband last year. The memories seem worse now that he's gone."
+    ],
+    [
+      "Therapist: It may feel intense, but you're safe here. How are you feeling about trying this?",
+      "Client: To be honest, I'm scared. But I trust you, and I want to get better. It's been hard since losing my husband last year. The memories seem worse now that he's gone.",
+      "Therapist: Your courage is admirable. This can help reduce your PTSD symptoms over time."
+    ],
+    [
+      "Client: To be honest, I'm scared. But I trust you, and I want to get better. It's been hard since losing my husband last year. The memories seem worse now that he's gone.",
+      "Therapist: Your courage is admirable. This can help reduce your PTSD symptoms over time.",
+      "Client: I hope so. It's been affecting my sleep and my relationship with my children. They worry about me so much. What exactly will we be doing in this exercise?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This can help reduce your PTSD symptoms over time.",
+      "Client: I hope so. It's been affecting my sleep and my relationship with my children. They worry about me so much. What exactly will we be doing in this exercise?",
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it, and you can stop anytime."
+    ],
+    [
+      "Client: I hope so. It's been affecting my sleep and my relationship with my children. They worry about me so much. What exactly will we be doing in this exercise?",
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it, and you can stop anytime.",
+      "Client: Okay, I think I understand. But what if I become overwhelmed? Sometimes when I think about that day, I feel like I can't breathe."
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it, and you can stop anytime.",
+      "Client: Okay, I think I understand. But what if I become overwhelmed? Sometimes when I think about that day, I feel like I can't breathe.",
+      "Therapist: That's normal. We'll use grounding techniques if needed. You're in control here."
+    ],
+    [
+      "Client: Okay, I think I understand. But what if I become overwhelmed? Sometimes when I think about that day, I feel like I can't breathe.",
+      "Therapist: That's normal. We'll use grounding techniques if needed. You're in control here.",
+      "Client: That's reassuring. I appreciate your patience with me. It's not easy to talk about these things at my age. I sometimes feel silly for still struggling with this after so many years."
+    ],
+    [
+      "Therapist: That's normal. We'll use grounding techniques if needed. You're in control here.",
+      "Client: That's reassuring. I appreciate your patience with me. It's not easy to talk about these things at my age. I sometimes feel silly for still struggling with this after so many years.",
+      "Therapist: Your feelings are valid, Mrs. Johnson. There's no timeline for healing."
+    ],
+    [
+      "Client: That's reassuring. I appreciate your patience with me. It's not easy to talk about these things at my age. I sometimes feel silly for still struggling with this after so many years.",
+      "Therapist: Your feelings are valid, Mrs. Johnson. There's no timeline for healing.",
+      "Client: Thank you for saying that. It means a lot. So, what should I expect to feel during this exercise? Will it be very upsetting?"
+    ],
+    [
+      "Therapist: Your feelings are valid, Mrs. Johnson. There's no timeline for healing.",
+      "Client: Thank you for saying that. It means a lot. So, what should I expect to feel during this exercise? Will it be very upsetting?",
+      "Therapist: It might be emotional, but that's part of the healing process. We'll go at your pace."
+    ],
+    [
+      "Client: Thank you for saying that. It means a lot. So, what should I expect to feel during this exercise? Will it be very upsetting?",
+      "Therapist: It might be emotional, but that's part of the healing process. We'll go at your pace.",
+      "Client: I understand. I'm willing to try. It's important to me to work through this, for myself and for my family. They've been so supportive, especially since my husband passed. I want to be there for them too, without these memories haunting me."
+    ],
+    [
+      "Therapist: It might be emotional, but that's part of the healing process. We'll go at your pace.",
+      "Client: I understand. I'm willing to try. It's important to me to work through this, for myself and for my family. They've been so supportive, especially since my husband passed. I want to be there for them too, without these memories haunting me.",
+      "Therapist: Your determination is inspiring. Shall we begin?"
+    ],
+    [
+      "Client: I understand. I'm willing to try. It's important to me to work through this, for myself and for my family. They've been so supportive, especially since my husband passed. I want to be there for them too, without these memories haunting me.",
+      "Therapist: Your determination is inspiring. Shall we begin?",
+      "Client: Yes, I think I'm ready. Thank you for explaining everything so clearly. It helps to know what to expect. I'm still nervous, but I feel safer knowing you're here to guide me through it."
+    ],
+    [
+      "Therapist: Your determination is inspiring. Shall we begin?",
+      "Client: Yes, I think I'm ready. Thank you for explaining everything so clearly. It helps to know what to expect. I'm still nervous, but I feel safer knowing you're here to guide me through it.",
+      "Therapist: You're welcome. Remember, we're in this together. Let's start slowly..."
+    ]
+  ]
+}

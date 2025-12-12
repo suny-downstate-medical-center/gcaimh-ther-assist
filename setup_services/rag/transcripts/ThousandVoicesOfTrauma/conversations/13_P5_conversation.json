@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Singh, today we'll start imaginal exposure. How are you feeling about this?",
+    "Client: I'm not sure, doctor. I've been dreading this part. The idea of revisiting my illness... it's quite frightening. I've spent years trying to forget those hospital days. The beeping machines, the smell of antiseptic, the constant fear... it's all still so vivid.",
+    "Therapist: Your concerns are valid. Can you tell me more?",
+    "Client: Well, I worry that talking about it will bring everything back. What if I can't handle it? What if I break down? I've worked hard to build a life after retirement, and I don't want to lose that stability. Plus, with my history of substance use, I'm afraid this might trigger a relapse.",
+    "Therapist: I understand. How do you think we could make this easier?",
+    "Client: I'm not sure. Maybe... could we start slowly? Perhaps talk about the less frightening parts first? And I'd like to know that we can stop if it becomes too overwhelming. Also, I'm curious about how this is supposed to help. It seems counterintuitive to deliberately bring up painful memories.",
+    "Therapist: Excellent suggestions. Let's start gradually. We can pause anytime. This helps by...",
+    "Client: By what, exactly? I'm sorry, I don't mean to interrupt, but I really need to understand the logic behind this. How can reliving my trauma possibly be beneficial? I've spent so long trying to move past it, and now you're asking me to dive right back in. It's... it's terrifying, to be honest.",
+    "Therapist: It reduces PTSD symptoms by processing the memory. What are your thoughts?",
+    "Client: I see... I suppose that makes some sense. It's like facing a fear head-on, isn't it? But I'm still apprehensive. What if I get lost in the memory? What if I can't distinguish between past and present? My illness was so severe, and the fear of death was so real. I'm worried about getting trapped in those feelings again.",
+    "Therapist: That's a common concern. We'll keep you grounded in the present. How else can I support you?",
+    "Client: That's reassuring to hear. I think it would help if you could remind me where I am from time to time. Maybe describe something in the room? And... I know this might sound silly, but could I hold onto something? A stress ball or something tactile? It might help me stay connected to the present. Also, knowing that we have a plan for afterwards would be comforting. Something to help me transition back to a calmer state.",
+    "Therapist: Absolutely. We'll use grounding techniques and have a wind-down plan. Ready to begin?",
+    "Client: I... I think so. I'm still nervous, but I trust you, doctor. You've been patient with me throughout our sessions, and I appreciate that. I suppose if I've made it through the actual illness, I can make it through talking about it. Just... please be patient with me if I struggle or need to take breaks. This isn't easy for me, especially at my age. But I'm willing to try if you think it will help.",
+    "Therapist: Your courage is admirable. We'll take it step by step. Shall we start?",
+    "Client: Yes, let's begin. I'm as ready as I'll ever be. Thank you for your support and understanding. It means a lot, especially since I don't have family nearby to lean on. Living in shared accommodation has its perks, but it can be lonely when dealing with something like this. I'm grateful to have a therapist who understands the complexities of my situation - my age, my background, my past struggles. Okay, deep breath. I'm ready to face this memory."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Singh, today we'll start imaginal exposure. How are you feeling about this?",
+      "Client: I'm not sure, doctor. I've been dreading this part. The idea of revisiting my illness... it's quite frightening. I've spent years trying to forget those hospital days. The beeping machines, the smell of antiseptic, the constant fear... it's all still so vivid.",
+      "Therapist: Your concerns are valid. Can you tell me more?"
+    ],
+    [
+      "Client: I'm not sure, doctor. I've been dreading this part. The idea of revisiting my illness... it's quite frightening. I've spent years trying to forget those hospital days. The beeping machines, the smell of antiseptic, the constant fear... it's all still so vivid.",
+      "Therapist: Your concerns are valid. Can you tell me more?",
+      "Client: Well, I worry that talking about it will bring everything back. What if I can't handle it? What if I break down? I've worked hard to build a life after retirement, and I don't want to lose that stability. Plus, with my history of substance use, I'm afraid this might trigger a relapse."
+    ],
+    [
+      "Therapist: Your concerns are valid. Can you tell me more?",
+      "Client: Well, I worry that talking about it will bring everything back. What if I can't handle it? What if I break down? I've worked hard to build a life after retirement, and I don't want to lose that stability. Plus, with my history of substance use, I'm afraid this might trigger a relapse.",
+      "Therapist: I understand. How do you think we could make this easier?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will bring everything back. What if I can't handle it? What if I break down? I've worked hard to build a life after retirement, and I don't want to lose that stability. Plus, with my history of substance use, I'm afraid this might trigger a relapse.",
+      "Therapist: I understand. How do you think we could make this easier?",
+      "Client: I'm not sure. Maybe... could we start slowly? Perhaps talk about the less frightening parts first? And I'd like to know that we can stop if it becomes too overwhelming. Also, I'm curious about how this is supposed to help. It seems counterintuitive to deliberately bring up painful memories."
+    ],
+    [
+      "Therapist: I understand. How do you think we could make this easier?",
+      "Client: I'm not sure. Maybe... could we start slowly? Perhaps talk about the less frightening parts first? And I'd like to know that we can stop if it becomes too overwhelming. Also, I'm curious about how this is supposed to help. It seems counterintuitive to deliberately bring up painful memories.",
+      "Therapist: Excellent suggestions. Let's start gradually. We can pause anytime. This helps by..."
+    ],
+    [
+      "Client: I'm not sure. Maybe... could we start slowly? Perhaps talk about the less frightening parts first? And I'd like to know that we can stop if it becomes too overwhelming. Also, I'm curious about how this is supposed to help. It seems counterintuitive to deliberately bring up painful memories.",
+      "Therapist: Excellent suggestions. Let's start gradually. We can pause anytime. This helps by...",
+      "Client: By what, exactly? I'm sorry, I don't mean to interrupt, but I really need to understand the logic behind this. How can reliving my trauma possibly be beneficial? I've spent so long trying to move past it, and now you're asking me to dive right back in. It's... it's terrifying, to be honest."
+    ],
+    [
+      "Therapist: Excellent suggestions. Let's start gradually. We can pause anytime. This helps by...",
+      "Client: By what, exactly? I'm sorry, I don't mean to interrupt, but I really need to understand the logic behind this. How can reliving my trauma possibly be beneficial? I've spent so long trying to move past it, and now you're asking me to dive right back in. It's... it's terrifying, to be honest.",
+      "Therapist: It reduces PTSD symptoms by processing the memory. What are your thoughts?"
+    ],
+    [
+      "Client: By what, exactly? I'm sorry, I don't mean to interrupt, but I really need to understand the logic behind this. How can reliving my trauma possibly be beneficial? I've spent so long trying to move past it, and now you're asking me to dive right back in. It's... it's terrifying, to be honest.",
+      "Therapist: It reduces PTSD symptoms by processing the memory. What are your thoughts?",
+      "Client: I see... I suppose that makes some sense. It's like facing a fear head-on, isn't it? But I'm still apprehensive. What if I get lost in the memory? What if I can't distinguish between past and present? My illness was so severe, and the fear of death was so real. I'm worried about getting trapped in those feelings again."
+    ],
+    [
+      "Therapist: It reduces PTSD symptoms by processing the memory. What are your thoughts?",
+      "Client: I see... I suppose that makes some sense. It's like facing a fear head-on, isn't it? But I'm still apprehensive. What if I get lost in the memory? What if I can't distinguish between past and present? My illness was so severe, and the fear of death was so real. I'm worried about getting trapped in those feelings again.",
+      "Therapist: That's a common concern. We'll keep you grounded in the present. How else can I support you?"
+    ],
+    [
+      "Client: I see... I suppose that makes some sense. It's like facing a fear head-on, isn't it? But I'm still apprehensive. What if I get lost in the memory? What if I can't distinguish between past and present? My illness was so severe, and the fear of death was so real. I'm worried about getting trapped in those feelings again.",
+      "Therapist: That's a common concern. We'll keep you grounded in the present. How else can I support you?",
+      "Client: That's reassuring to hear. I think it would help if you could remind me where I am from time to time. Maybe describe something in the room? And... I know this might sound silly, but could I hold onto something? A stress ball or something tactile? It might help me stay connected to the present. Also, knowing that we have a plan for afterwards would be comforting. Something to help me transition back to a calmer state."
+    ],
+    [
+      "Therapist: That's a common concern. We'll keep you grounded in the present. How else can I support you?",
+      "Client: That's reassuring to hear. I think it would help if you could remind me where I am from time to time. Maybe describe something in the room? And... I know this might sound silly, but could I hold onto something? A stress ball or something tactile? It might help me stay connected to the present. Also, knowing that we have a plan for afterwards would be comforting. Something to help me transition back to a calmer state.",
+      "Therapist: Absolutely. We'll use grounding techniques and have a wind-down plan. Ready to begin?"
+    ],
+    [
+      "Client: That's reassuring to hear. I think it would help if you could remind me where I am from time to time. Maybe describe something in the room? And... I know this might sound silly, but could I hold onto something? A stress ball or something tactile? It might help me stay connected to the present. Also, knowing that we have a plan for afterwards would be comforting. Something to help me transition back to a calmer state.",
+      "Therapist: Absolutely. We'll use grounding techniques and have a wind-down plan. Ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I trust you, doctor. You've been patient with me throughout our sessions, and I appreciate that. I suppose if I've made it through the actual illness, I can make it through talking about it. Just... please be patient with me if I struggle or need to take breaks. This isn't easy for me, especially at my age. But I'm willing to try if you think it will help."
+    ],
+    [
+      "Therapist: Absolutely. We'll use grounding techniques and have a wind-down plan. Ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I trust you, doctor. You've been patient with me throughout our sessions, and I appreciate that. I suppose if I've made it through the actual illness, I can make it through talking about it. Just... please be patient with me if I struggle or need to take breaks. This isn't easy for me, especially at my age. But I'm willing to try if you think it will help.",
+      "Therapist: Your courage is admirable. We'll take it step by step. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. I'm still nervous, but I trust you, doctor. You've been patient with me throughout our sessions, and I appreciate that. I suppose if I've made it through the actual illness, I can make it through talking about it. Just... please be patient with me if I struggle or need to take breaks. This isn't easy for me, especially at my age. But I'm willing to try if you think it will help.",
+      "Therapist: Your courage is admirable. We'll take it step by step. Shall we start?",
+      "Client: Yes, let's begin. I'm as ready as I'll ever be. Thank you for your support and understanding. It means a lot, especially since I don't have family nearby to lean on. Living in shared accommodation has its perks, but it can be lonely when dealing with something like this. I'm grateful to have a therapist who understands the complexities of my situation - my age, my background, my past struggles. Okay, deep breath. I'm ready to face this memory."
+    ]
+  ]
+}

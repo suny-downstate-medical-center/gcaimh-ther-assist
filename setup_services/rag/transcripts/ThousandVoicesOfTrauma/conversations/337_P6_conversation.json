@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's understandable. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm back in the refugee camp. It's crowded, noisy, and I can smell the dampness in the air. There are so many people, all of us crammed together. I'm sitting on a thin mat, trying to comfort my granddaughter. She's crying because she's hungry, and I feel so helpless...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6. My heart is starting to race a bit.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: The noise is getting louder. I hear arguments breaking out nearby. Someone is shouting about the lack of food. I'm holding my granddaughter tighter, trying to shield her from the chaos. My stomach is in knots, and I'm feeling dizzy from hunger myself. I keep thinking about our home, wondering if we'll ever see it again...",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I can feel my hands shaking as I remember this.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: There's a commotion at the entrance of the camp. I hear people yelling that there's a food truck arriving. Everyone starts rushing towards it. I'm torn between staying put with my granddaughter and trying to get some food. I decide to go, carrying her with me. The crowd is pushing and shoving. I'm terrified we'll get trampled. My chest feels tight, and I can hardly breathe...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's a 9. This is really hard.",
+    "Therapist: I know it's difficult. You're very brave. Take a moment if you need to.",
+    "Client: (taking a deep breath) Okay... As we get closer to the truck, I see people fighting over bags of rice. Suddenly, someone bumps into me hard, and I stumble. I manage to keep my balance, but my granddaughter slips from my arms. I'm panicking, trying to find her in the sea of legs and bodies. I can hear her crying, but I can't see her. My heart is pounding so hard, I think it might burst...",
+    "Therapist: And your SUDS?",
+    "Client: It's a 10 now. I feel like I'm right back there.",
+    "Therapist: You're doing great. Remember, you're safe here.",
+    "Client: (nodding) I drop to my knees, frantically searching for her. People are stepping on my hands, but I don't care. I'm calling out her name, my voice hoarse from screaming. After what feels like an eternity, I spot her. She's huddled against a tent pole, crying. I push through the crowd and scoop her up, holding her so tight. The relief is overwhelming, but I'm still shaking...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's coming down a bit... maybe an 8.",
+    "Therapist: Good. How are you feeling as you continue?",
+    "Client: I'm... I'm exhausted. We make our way back to our spot. My granddaughter is still whimpering, and I feel like a failure. I couldn't protect her, couldn't even get food. I'm angry at myself, at the situation, at the world. But mostly, I just feel helpless and scared...",
+    "Therapist: And your SUDS?",
+    "Client: It's around a 7 now. I'm starting to feel a bit calmer, but still shaky.",
+    "Therapist: You're doing really well. Keep going.",
+    "Client: As night falls, the camp quiets down. My granddaughter has fallen asleep, but I can't. I'm too worried about what tomorrow will bring. Will we have enough to eat? Will we be safe? I'm staring at the stars, wondering if my family back home can see the same ones. I feel so alone, even surrounded by all these people...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's down to a 5. I'm feeling sad, but not as panicked.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: I'm... I'm surprised. It was really hard to go through that again, but I feel like I handled it better than I expected. I'm tired, but also a little proud of myself.",
+    "Therapist: You should be proud. You did excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in the refugee camp. It's crowded, noisy, and I can smell the dampness in the air. There are so many people, all of us crammed together. I'm sitting on a thin mat, trying to comfort my granddaughter. She's crying because she's hungry, and I feel so helpless..."
+    ],
+    [
+      "Therapist: That's understandable. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in the refugee camp. It's crowded, noisy, and I can smell the dampness in the air. There are so many people, all of us crammed together. I'm sitting on a thin mat, trying to comfort my granddaughter. She's crying because she's hungry, and I feel so helpless...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in the refugee camp. It's crowded, noisy, and I can smell the dampness in the air. There are so many people, all of us crammed together. I'm sitting on a thin mat, trying to comfort my granddaughter. She's crying because she's hungry, and I feel so helpless...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. My heart is starting to race a bit."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. My heart is starting to race a bit.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's about a 6. My heart is starting to race a bit.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The noise is getting louder. I hear arguments breaking out nearby. Someone is shouting about the lack of food. I'm holding my granddaughter tighter, trying to shield her from the chaos. My stomach is in knots, and I'm feeling dizzy from hunger myself. I keep thinking about our home, wondering if we'll ever see it again..."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The noise is getting louder. I hear arguments breaking out nearby. Someone is shouting about the lack of food. I'm holding my granddaughter tighter, trying to shield her from the chaos. My stomach is in knots, and I'm feeling dizzy from hunger myself. I keep thinking about our home, wondering if we'll ever see it again...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The noise is getting louder. I hear arguments breaking out nearby. Someone is shouting about the lack of food. I'm holding my granddaughter tighter, trying to shield her from the chaos. My stomach is in knots, and I'm feeling dizzy from hunger myself. I keep thinking about our home, wondering if we'll ever see it again...",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I can feel my hands shaking as I remember this."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I can feel my hands shaking as I remember this.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I can feel my hands shaking as I remember this.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: There's a commotion at the entrance of the camp. I hear people yelling that there's a food truck arriving. Everyone starts rushing towards it. I'm torn between staying put with my granddaughter and trying to get some food. I decide to go, carrying her with me. The crowd is pushing and shoving. I'm terrified we'll get trampled. My chest feels tight, and I can hardly breathe..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: There's a commotion at the entrance of the camp. I hear people yelling that there's a food truck arriving. Everyone starts rushing towards it. I'm torn between staying put with my granddaughter and trying to get some food. I decide to go, carrying her with me. The crowd is pushing and shoving. I'm terrified we'll get trampled. My chest feels tight, and I can hardly breathe...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: There's a commotion at the entrance of the camp. I hear people yelling that there's a food truck arriving. Everyone starts rushing towards it. I'm torn between staying put with my granddaughter and trying to get some food. I decide to go, carrying her with me. The crowd is pushing and shoving. I'm terrified we'll get trampled. My chest feels tight, and I can hardly breathe...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's a 9. This is really hard."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's a 9. This is really hard.",
+      "Therapist: I know it's difficult. You're very brave. Take a moment if you need to."
+    ],
+    [
+      "Client: It's... it's a 9. This is really hard.",
+      "Therapist: I know it's difficult. You're very brave. Take a moment if you need to.",
+      "Client: (taking a deep breath) Okay... As we get closer to the truck, I see people fighting over bags of rice. Suddenly, someone bumps into me hard, and I stumble. I manage to keep my balance, but my granddaughter slips from my arms. I'm panicking, trying to find her in the sea of legs and bodies. I can hear her crying, but I can't see her. My heart is pounding so hard, I think it might burst..."
+    ],
+    [
+      "Therapist: I know it's difficult. You're very brave. Take a moment if you need to.",
+      "Client: (taking a deep breath) Okay... As we get closer to the truck, I see people fighting over bags of rice. Suddenly, someone bumps into me hard, and I stumble. I manage to keep my balance, but my granddaughter slips from my arms. I'm panicking, trying to find her in the sea of legs and bodies. I can hear her crying, but I can't see her. My heart is pounding so hard, I think it might burst...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: (taking a deep breath) Okay... As we get closer to the truck, I see people fighting over bags of rice. Suddenly, someone bumps into me hard, and I stumble. I manage to keep my balance, but my granddaughter slips from my arms. I'm panicking, trying to find her in the sea of legs and bodies. I can hear her crying, but I can't see her. My heart is pounding so hard, I think it might burst...",
+      "Therapist: And your SUDS?",
+      "Client: It's a 10 now. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's a 10 now. I feel like I'm right back there.",
+      "Therapist: You're doing great. Remember, you're safe here."
+    ],
+    [
+      "Client: It's a 10 now. I feel like I'm right back there.",
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: (nodding) I drop to my knees, frantically searching for her. People are stepping on my hands, but I don't care. I'm calling out her name, my voice hoarse from screaming. After what feels like an eternity, I spot her. She's huddled against a tent pole, crying. I push through the crowd and scoop her up, holding her so tight. The relief is overwhelming, but I'm still shaking..."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: (nodding) I drop to my knees, frantically searching for her. People are stepping on my hands, but I don't care. I'm calling out her name, my voice hoarse from screaming. After what feels like an eternity, I spot her. She's huddled against a tent pole, crying. I push through the crowd and scoop her up, holding her so tight. The relief is overwhelming, but I'm still shaking...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: (nodding) I drop to my knees, frantically searching for her. People are stepping on my hands, but I don't care. I'm calling out her name, my voice hoarse from screaming. After what feels like an eternity, I spot her. She's huddled against a tent pole, crying. I push through the crowd and scoop her up, holding her so tight. The relief is overwhelming, but I'm still shaking...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's coming down a bit... maybe an 8."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's coming down a bit... maybe an 8.",
+      "Therapist: Good. How are you feeling as you continue?"
+    ],
+    [
+      "Client: It's coming down a bit... maybe an 8.",
+      "Therapist: Good. How are you feeling as you continue?",
+      "Client: I'm... I'm exhausted. We make our way back to our spot. My granddaughter is still whimpering, and I feel like a failure. I couldn't protect her, couldn't even get food. I'm angry at myself, at the situation, at the world. But mostly, I just feel helpless and scared..."
+    ],
+    [
+      "Therapist: Good. How are you feeling as you continue?",
+      "Client: I'm... I'm exhausted. We make our way back to our spot. My granddaughter is still whimpering, and I feel like a failure. I couldn't protect her, couldn't even get food. I'm angry at myself, at the situation, at the world. But mostly, I just feel helpless and scared...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I'm... I'm exhausted. We make our way back to our spot. My granddaughter is still whimpering, and I feel like a failure. I couldn't protect her, couldn't even get food. I'm angry at myself, at the situation, at the world. But mostly, I just feel helpless and scared...",
+      "Therapist: And your SUDS?",
+      "Client: It's around a 7 now. I'm starting to feel a bit calmer, but still shaky."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's around a 7 now. I'm starting to feel a bit calmer, but still shaky.",
+      "Therapist: You're doing really well. Keep going."
+    ],
+    [
+      "Client: It's around a 7 now. I'm starting to feel a bit calmer, but still shaky.",
+      "Therapist: You're doing really well. Keep going.",
+      "Client: As night falls, the camp quiets down. My granddaughter has fallen asleep, but I can't. I'm too worried about what tomorrow will bring. Will we have enough to eat? Will we be safe? I'm staring at the stars, wondering if my family back home can see the same ones. I feel so alone, even surrounded by all these people..."
+    ],
+    [
+      "Therapist: You're doing really well. Keep going.",
+      "Client: As night falls, the camp quiets down. My granddaughter has fallen asleep, but I can't. I'm too worried about what tomorrow will bring. Will we have enough to eat? Will we be safe? I'm staring at the stars, wondering if my family back home can see the same ones. I feel so alone, even surrounded by all these people...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: As night falls, the camp quiets down. My granddaughter has fallen asleep, but I can't. I'm too worried about what tomorrow will bring. Will we have enough to eat? Will we be safe? I'm staring at the stars, wondering if my family back home can see the same ones. I feel so alone, even surrounded by all these people...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 5. I'm feeling sad, but not as panicked."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 5. I'm feeling sad, but not as panicked.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's down to a 5. I'm feeling sad, but not as panicked.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: I'm... I'm surprised. It was really hard to go through that again, but I feel like I handled it better than I expected. I'm tired, but also a little proud of myself."
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: I'm... I'm surprised. It was really hard to go through that again, but I feel like I handled it better than I expected. I'm tired, but also a little proud of myself.",
+      "Therapist: You should be proud. You did excellent work today."
+    ]
+  ]
+}

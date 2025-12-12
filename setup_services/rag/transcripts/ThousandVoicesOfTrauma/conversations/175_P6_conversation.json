@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Take a deep breath and start when you're ready.",
+    "Client: Okay... I'm on the airplane. It's a regular flight, nothing special. I'm seated by the window, looking out at the clouds. Suddenly, there's a loud bang, and the plane starts shaking violently. People are screaming, and I can feel my heart racing. The oxygen masks drop down, and I'm fumbling to put mine on. I can't believe this is happening...",
+    "Therapist: SUDS rating?",
+    "Client: Um, I'd say about a 6 right now. My palms are getting sweaty just thinking about it.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: The plane is losing altitude fast. I can see the ground coming up through the window. I'm gripping the armrests so tightly my knuckles are white. The flight attendants are trying to keep everyone calm, but I can see the panic in their eyes. I'm thinking about my family, wondering if I'll ever see them again. The engines are making this awful screeching noise...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's up to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+    "Therapist: That's okay. Remember, you're safe here. Continue.",
+    "Client: We're getting closer to the ground. I can see trees and buildings now. People are praying, crying. I close my eyes, bracing for impact. There's a deafening crash, and I'm thrown forward against my seatbelt. The plane is skidding, metal tearing. I can smell smoke and feel heat. When we finally stop, everything is chaos. People are scrambling to get out. I'm disoriented, but I manage to unbuckle and stumble towards the emergency exit...",
+    "Therapist: SUDS?",
+    "Client: It's... it's a 9. I feel like I'm right back there. My heart is pounding so hard.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: I make it out onto the wing, and jump down onto the grass. There's wreckage everywhere, people screaming for help. I'm in shock, patting myself down, realizing I'm alive. But then I see others who weren't so lucky... There's blood, and... God, it's awful. I start trying to help people out of the plane, but I feel so helpless. The smell of fuel is overwhelming, and I'm terrified the plane might explode...",
+    "Therapist: Current SUDS?",
+    "Client: Still a 9. I feel nauseous remembering all this.",
+    "Therapist: That's understandable. Keep going.",
+    "Client: Emergency services start arriving. There are sirens everywhere, flashing lights. I'm being led away from the wreckage by a paramedic. They're asking me questions, but I can barely focus. I keep looking back at the plane, at the people still trapped. I feel guilty for surviving when others didn't. They wrap me in a blanket, but I can't stop shaking. It's like I'm outside my own body, watching everything happen...",
+    "Therapist: SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe a 7? I'm feeling drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: Yeah... As time passes, I'm in a daze. They take me to the hospital for checks, but I'm mostly unharmed physically. It's all a blur of questions, tests, and phone calls to my family. I can't sleep that night, or for many nights after. Every time I close my eyes, I see the crash, hear the screams. I feel so lucky, but also so... broken. Like a part of me was left on that field with the wreckage.",
+    "Therapist: And your final SUDS?",
+    "Client: I'd say it's back down to a 6 now. Talking about it... it's hard, but it also feels like releasing some of the pressure.",
+    "Therapist: You did incredibly well. How are you feeling?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Take a deep breath and start when you're ready."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Take a deep breath and start when you're ready.",
+      "Client: Okay... I'm on the airplane. It's a regular flight, nothing special. I'm seated by the window, looking out at the clouds. Suddenly, there's a loud bang, and the plane starts shaking violently. People are screaming, and I can feel my heart racing. The oxygen masks drop down, and I'm fumbling to put mine on. I can't believe this is happening..."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and start when you're ready.",
+      "Client: Okay... I'm on the airplane. It's a regular flight, nothing special. I'm seated by the window, looking out at the clouds. Suddenly, there's a loud bang, and the plane starts shaking violently. People are screaming, and I can feel my heart racing. The oxygen masks drop down, and I'm fumbling to put mine on. I can't believe this is happening...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm on the airplane. It's a regular flight, nothing special. I'm seated by the window, looking out at the clouds. Suddenly, there's a loud bang, and the plane starts shaking violently. People are screaming, and I can feel my heart racing. The oxygen masks drop down, and I'm fumbling to put mine on. I can't believe this is happening...",
+      "Therapist: SUDS rating?",
+      "Client: Um, I'd say about a 6 right now. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: Um, I'd say about a 6 right now. My palms are getting sweaty just thinking about it.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: Um, I'd say about a 6 right now. My palms are getting sweaty just thinking about it.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: The plane is losing altitude fast. I can see the ground coming up through the window. I'm gripping the armrests so tightly my knuckles are white. The flight attendants are trying to keep everyone calm, but I can see the panic in their eyes. I'm thinking about my family, wondering if I'll ever see them again. The engines are making this awful screeching noise..."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: The plane is losing altitude fast. I can see the ground coming up through the window. I'm gripping the armrests so tightly my knuckles are white. The flight attendants are trying to keep everyone calm, but I can see the panic in their eyes. I'm thinking about my family, wondering if I'll ever see them again. The engines are making this awful screeching noise...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The plane is losing altitude fast. I can see the ground coming up through the window. I'm gripping the armrests so tightly my knuckles are white. The flight attendants are trying to keep everyone calm, but I can see the panic in their eyes. I'm thinking about my family, wondering if I'll ever see them again. The engines are making this awful screeching noise...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's up to an 8. My chest feels tight, and I'm having trouble catching my breath."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's up to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That's okay. Remember, you're safe here. Continue."
+    ],
+    [
+      "Client: It's... it's up to an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: That's okay. Remember, you're safe here. Continue.",
+      "Client: We're getting closer to the ground. I can see trees and buildings now. People are praying, crying. I close my eyes, bracing for impact. There's a deafening crash, and I'm thrown forward against my seatbelt. The plane is skidding, metal tearing. I can smell smoke and feel heat. When we finally stop, everything is chaos. People are scrambling to get out. I'm disoriented, but I manage to unbuckle and stumble towards the emergency exit..."
+    ],
+    [
+      "Therapist: That's okay. Remember, you're safe here. Continue.",
+      "Client: We're getting closer to the ground. I can see trees and buildings now. People are praying, crying. I close my eyes, bracing for impact. There's a deafening crash, and I'm thrown forward against my seatbelt. The plane is skidding, metal tearing. I can smell smoke and feel heat. When we finally stop, everything is chaos. People are scrambling to get out. I'm disoriented, but I manage to unbuckle and stumble towards the emergency exit...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: We're getting closer to the ground. I can see trees and buildings now. People are praying, crying. I close my eyes, bracing for impact. There's a deafening crash, and I'm thrown forward against my seatbelt. The plane is skidding, metal tearing. I can smell smoke and feel heat. When we finally stop, everything is chaos. People are scrambling to get out. I'm disoriented, but I manage to unbuckle and stumble towards the emergency exit...",
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My heart is pounding so hard.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there. My heart is pounding so hard.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I make it out onto the wing, and jump down onto the grass. There's wreckage everywhere, people screaming for help. I'm in shock, patting myself down, realizing I'm alive. But then I see others who weren't so lucky... There's blood, and... God, it's awful. I start trying to help people out of the plane, but I feel so helpless. The smell of fuel is overwhelming, and I'm terrified the plane might explode..."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I make it out onto the wing, and jump down onto the grass. There's wreckage everywhere, people screaming for help. I'm in shock, patting myself down, realizing I'm alive. But then I see others who weren't so lucky... There's blood, and... God, it's awful. I start trying to help people out of the plane, but I feel so helpless. The smell of fuel is overwhelming, and I'm terrified the plane might explode...",
+      "Therapist: Current SUDS?"
+    ],
+    [
+      "Client: I make it out onto the wing, and jump down onto the grass. There's wreckage everywhere, people screaming for help. I'm in shock, patting myself down, realizing I'm alive. But then I see others who weren't so lucky... There's blood, and... God, it's awful. I start trying to help people out of the plane, but I feel so helpless. The smell of fuel is overwhelming, and I'm terrified the plane might explode...",
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I feel nauseous remembering all this."
+    ],
+    [
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I feel nauseous remembering all this.",
+      "Therapist: That's understandable. Keep going."
+    ],
+    [
+      "Client: Still a 9. I feel nauseous remembering all this.",
+      "Therapist: That's understandable. Keep going.",
+      "Client: Emergency services start arriving. There are sirens everywhere, flashing lights. I'm being led away from the wreckage by a paramedic. They're asking me questions, but I can barely focus. I keep looking back at the plane, at the people still trapped. I feel guilty for surviving when others didn't. They wrap me in a blanket, but I can't stop shaking. It's like I'm outside my own body, watching everything happen..."
+    ],
+    [
+      "Therapist: That's understandable. Keep going.",
+      "Client: Emergency services start arriving. There are sirens everywhere, flashing lights. I'm being led away from the wreckage by a paramedic. They're asking me questions, but I can barely focus. I keep looking back at the plane, at the people still trapped. I feel guilty for surviving when others didn't. They wrap me in a blanket, but I can't stop shaking. It's like I'm outside my own body, watching everything happen...",
+      "Therapist: SUDS now?"
+    ],
+    [
+      "Client: Emergency services start arriving. There are sirens everywhere, flashing lights. I'm being led away from the wreckage by a paramedic. They're asking me questions, but I can barely focus. I keep looking back at the plane, at the people still trapped. I feel guilty for surviving when others didn't. They wrap me in a blanket, but I can't stop shaking. It's like I'm outside my own body, watching everything happen...",
+      "Therapist: SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm feeling drained."
+    ],
+    [
+      "Therapist: SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm feeling drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm feeling drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: Yeah... As time passes, I'm in a daze. They take me to the hospital for checks, but I'm mostly unharmed physically. It's all a blur of questions, tests, and phone calls to my family. I can't sleep that night, or for many nights after. Every time I close my eyes, I see the crash, hear the screams. I feel so lucky, but also so... broken. Like a part of me was left on that field with the wreckage."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: Yeah... As time passes, I'm in a daze. They take me to the hospital for checks, but I'm mostly unharmed physically. It's all a blur of questions, tests, and phone calls to my family. I can't sleep that night, or for many nights after. Every time I close my eyes, I see the crash, hear the screams. I feel so lucky, but also so... broken. Like a part of me was left on that field with the wreckage.",
+      "Therapist: And your final SUDS?"
+    ],
+    [
+      "Client: Yeah... As time passes, I'm in a daze. They take me to the hospital for checks, but I'm mostly unharmed physically. It's all a blur of questions, tests, and phone calls to my family. I can't sleep that night, or for many nights after. Every time I close my eyes, I see the crash, hear the screams. I feel so lucky, but also so... broken. Like a part of me was left on that field with the wreckage.",
+      "Therapist: And your final SUDS?",
+      "Client: I'd say it's back down to a 6 now. Talking about it... it's hard, but it also feels like releasing some of the pressure."
+    ],
+    [
+      "Therapist: And your final SUDS?",
+      "Client: I'd say it's back down to a 6 now. Talking about it... it's hard, but it also feels like releasing some of the pressure.",
+      "Therapist: You did incredibly well. How are you feeling?"
+    ]
+  ]
+}

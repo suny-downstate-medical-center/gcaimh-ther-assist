@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Today, we'll be doing an imaginal exposure exercise. How are you feeling about that?",
+    "Client: Honestly, I'm a bit nervous. I've never done anything like this before. What exactly does it involve?",
+    "Therapist: It's natural to feel nervous. We'll revisit your trauma memory in a safe space. Can you share your concerns?",
+    "Client: Well, I'm worried about reliving those feelings of neglect and the pain from the cyberbullying. It's been years, but thinking about it still makes me anxious. Will this make things worse?",
+    "Therapist: Your concern is valid. How do you typically cope with anxiety?",
+    "Client: I usually try to distract myself or practice deep breathing. Sometimes I'll go for a run or call a friend. But I'm not sure how effective those will be in this situation.",
+    "Therapist: Those are great strategies. We'll incorporate breathing techniques during our session. Ready to learn more about the process?",
+    "Client: Yes, I think so. I'm still nervous, but I want to understand how this is supposed to help me.",
+    "Therapist: The goal is to process the memory safely, reducing its power over time. What questions do you have?",
+    "Client: How long will we spend on this? And what if I can't handle it and need to stop?",
+    "Therapist: We'll go at your pace, usually 30-45 minutes. You're in control and can pause anytime. How does that sound?",
+    "Client: That's reassuring. I appreciate knowing I have some control over the process. I'm still anxious, but I think I'm ready to give it a try.",
+    "Therapist: Your courage is commendable. Remember, this helps address PTSD symptoms. Shall we begin?",
+    "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful this will help me move forward. I've been carrying this weight for so long, and I'm ready to start letting it go. Thank you for guiding me through this.",
+    "Therapist: You're welcome. Let's start with a breathing exercise to center ourselves. Ready?",
+    "Client: Ready. I'm grateful for your support and expertise. Let's take this step together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Today, we'll be doing an imaginal exposure exercise. How are you feeling about that?",
+      "Client: Honestly, I'm a bit nervous. I've never done anything like this before. What exactly does it involve?",
+      "Therapist: It's natural to feel nervous. We'll revisit your trauma memory in a safe space. Can you share your concerns?"
+    ],
+    [
+      "Client: Honestly, I'm a bit nervous. I've never done anything like this before. What exactly does it involve?",
+      "Therapist: It's natural to feel nervous. We'll revisit your trauma memory in a safe space. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving those feelings of neglect and the pain from the cyberbullying. It's been years, but thinking about it still makes me anxious. Will this make things worse?"
+    ],
+    [
+      "Therapist: It's natural to feel nervous. We'll revisit your trauma memory in a safe space. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving those feelings of neglect and the pain from the cyberbullying. It's been years, but thinking about it still makes me anxious. Will this make things worse?",
+      "Therapist: Your concern is valid. How do you typically cope with anxiety?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving those feelings of neglect and the pain from the cyberbullying. It's been years, but thinking about it still makes me anxious. Will this make things worse?",
+      "Therapist: Your concern is valid. How do you typically cope with anxiety?",
+      "Client: I usually try to distract myself or practice deep breathing. Sometimes I'll go for a run or call a friend. But I'm not sure how effective those will be in this situation."
+    ],
+    [
+      "Therapist: Your concern is valid. How do you typically cope with anxiety?",
+      "Client: I usually try to distract myself or practice deep breathing. Sometimes I'll go for a run or call a friend. But I'm not sure how effective those will be in this situation.",
+      "Therapist: Those are great strategies. We'll incorporate breathing techniques during our session. Ready to learn more about the process?"
+    ],
+    [
+      "Client: I usually try to distract myself or practice deep breathing. Sometimes I'll go for a run or call a friend. But I'm not sure how effective those will be in this situation.",
+      "Therapist: Those are great strategies. We'll incorporate breathing techniques during our session. Ready to learn more about the process?",
+      "Client: Yes, I think so. I'm still nervous, but I want to understand how this is supposed to help me."
+    ],
+    [
+      "Therapist: Those are great strategies. We'll incorporate breathing techniques during our session. Ready to learn more about the process?",
+      "Client: Yes, I think so. I'm still nervous, but I want to understand how this is supposed to help me.",
+      "Therapist: The goal is to process the memory safely, reducing its power over time. What questions do you have?"
+    ],
+    [
+      "Client: Yes, I think so. I'm still nervous, but I want to understand how this is supposed to help me.",
+      "Therapist: The goal is to process the memory safely, reducing its power over time. What questions do you have?",
+      "Client: How long will we spend on this? And what if I can't handle it and need to stop?"
+    ],
+    [
+      "Therapist: The goal is to process the memory safely, reducing its power over time. What questions do you have?",
+      "Client: How long will we spend on this? And what if I can't handle it and need to stop?",
+      "Therapist: We'll go at your pace, usually 30-45 minutes. You're in control and can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: How long will we spend on this? And what if I can't handle it and need to stop?",
+      "Therapist: We'll go at your pace, usually 30-45 minutes. You're in control and can pause anytime. How does that sound?",
+      "Client: That's reassuring. I appreciate knowing I have some control over the process. I'm still anxious, but I think I'm ready to give it a try."
+    ],
+    [
+      "Therapist: We'll go at your pace, usually 30-45 minutes. You're in control and can pause anytime. How does that sound?",
+      "Client: That's reassuring. I appreciate knowing I have some control over the process. I'm still anxious, but I think I'm ready to give it a try.",
+      "Therapist: Your courage is commendable. Remember, this helps address PTSD symptoms. Shall we begin?"
+    ],
+    [
+      "Client: That's reassuring. I appreciate knowing I have some control over the process. I'm still anxious, but I think I'm ready to give it a try.",
+      "Therapist: Your courage is commendable. Remember, this helps address PTSD symptoms. Shall we begin?",
+      "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful this will help me move forward. I've been carrying this weight for so long, and I'm ready to start letting it go. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: Your courage is commendable. Remember, this helps address PTSD symptoms. Shall we begin?",
+      "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful this will help me move forward. I've been carrying this weight for so long, and I'm ready to start letting it go. Thank you for guiding me through this.",
+      "Therapist: You're welcome. Let's start with a breathing exercise to center ourselves. Ready?"
+    ],
+    [
+      "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful this will help me move forward. I've been carrying this weight for so long, and I'm ready to start letting it go. Thank you for guiding me through this.",
+      "Therapist: You're welcome. Let's start with a breathing exercise to center ourselves. Ready?",
+      "Client: Ready. I'm grateful for your support and expertise. Let's take this step together."
+    ]
+  ]
+}

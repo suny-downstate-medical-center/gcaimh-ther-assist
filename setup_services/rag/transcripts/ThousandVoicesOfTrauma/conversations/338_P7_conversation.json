@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Michael. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to be discussing some difficult memories today, and I'm not sure if I'm ready.",
+    "Therapist: It's okay to feel anxious. You're safe here.",
+    "Client: Thank you. I appreciate that. It's just... thinking about that day brings up so many emotions. I was only eight years old when it happened.",
+    "Therapist: Take your time. We'll go at your pace.",
+    "Client: Okay. Well, it was a Saturday afternoon. I remember because I was watching my favorite cartoon when I heard shouting from outside. At first, I tried to ignore it, but then I heard a loud crash.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I ran to the window and saw two men fighting in the street. One of them had a bottle in his hand. I'd never seen adults fight like that before. It was... terrifying.",
+    "Therapist: It's normal to feel scared. You're safe now.",
+    "Client: I remember feeling frozen, like I couldn't move away from the window. The man with the bottle suddenly swung it at the other man's head. There was so much blood...",
+    "Therapist: Stay with the memory. You're handling this bravely.",
+    "Client: I... I wanted to look away, but I couldn't. The injured man fell to the ground, and the other one just kept hitting him. I remember screaming, but no sound came out.",
+    "Therapist: You're doing great. Take a deep breath.",
+    "Client: My mom heard me crying and came into the room. She pulled me away from the window and held me tight. I could hear sirens in the distance. I was shaking so hard...",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: I had nightmares for weeks after that. Every time I closed my eyes, I saw that man's face, covered in blood. I was afraid to go outside, afraid I'd see something like that again.",
+    "Therapist: You're showing incredible strength. Keep going.",
+    "Client: For years, I couldn't handle any kind of conflict. Even raised voices would send me into a panic. I felt so weak, so helpless. Like that little boy watching from the window.",
+    "Therapist: You're not helpless. You're facing this memory.",
+    "Client: You're right. I'm an adult now, and I know I'm safe. But sometimes, when I least expect it, that memory comes flooding back. It's like I'm right there again, watching it all unfold.",
+    "Therapist: That's a common response. You're doing well.",
+    "Client: I've never really talked about this with anyone before. It feels... I don't know, both scary and liberating at the same time. Like I'm finally acknowledging how much it affected me.",
+    "Therapist: That's a big step. I'm proud of you.",
+    "Client: Thank you. I guess I always thought I should just 'get over it,' you know? But talking about it, I realize how much I've been carrying this around with me all these years.",
+    "Therapist: It's okay to feel its impact. You're processing it now.",
+    "Client: Yeah, I am. It's hard, but I think it's helping. I feel... lighter somehow. Like I'm not carrying this secret anymore. Is that normal?",
+    "Therapist: Absolutely. That's a positive sign.",
+    "Client: I think I understand now why I react so strongly to conflict, even minor disagreements. It all traces back to that day. I've been living in fear of witnessing something like that again.",
+    "Therapist: You're gaining valuable insights. Well done.",
+    "Client: Thank you. I feel like I'm seeing things more clearly now. It's still painful to remember, but it doesn't feel as overwhelming as it used to. Is that progress?",
+    "Therapist: Yes, that's significant progress. You should be proud.",
+    "Client: I am. I mean, I know we have more work to do, but for the first time, I feel like I might be able to move past this. Like it doesn't have to control me anymore.",
+    "Therapist: That's an empowering realization. You're doing great.",
+    "Client: Thank you. I'm glad we did this today. It was hard, but I think it was important. I feel... I don't know, stronger somehow. Like I've faced something I've been running from for a long time.",
+    "Therapist: That's exactly what you've done. Well done, Michael.",
+    "Client: Thank you. I'm looking forward to our next session. I think I'm ready to dive deeper into this and really work through it. Is that okay?",
+    "Therapist: Absolutely. We'll continue at your pace.",
+    "Client: Great. I appreciate your support today. It made a big difference in helping me get through this memory. I'm feeling more hopeful than I have in a long time.",
+    "Therapist: I'm glad to hear that. You've made real progress today.",
+    "Client: Thank you. I think I'm ready to end for today. This has been intense, but in a good way. I feel like I've taken a big step forward.",
+    "Therapist: You have. Take care, and we'll continue next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Michael. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be discussing some difficult memories today, and I'm not sure if I'm ready.",
+      "Therapist: It's okay to feel anxious. You're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be discussing some difficult memories today, and I'm not sure if I'm ready.",
+      "Therapist: It's okay to feel anxious. You're safe here.",
+      "Client: Thank you. I appreciate that. It's just... thinking about that day brings up so many emotions. I was only eight years old when it happened."
+    ],
+    [
+      "Therapist: It's okay to feel anxious. You're safe here.",
+      "Client: Thank you. I appreciate that. It's just... thinking about that day brings up so many emotions. I was only eight years old when it happened.",
+      "Therapist: Take your time. We'll go at your pace."
+    ],
+    [
+      "Client: Thank you. I appreciate that. It's just... thinking about that day brings up so many emotions. I was only eight years old when it happened.",
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay. Well, it was a Saturday afternoon. I remember because I was watching my favorite cartoon when I heard shouting from outside. At first, I tried to ignore it, but then I heard a loud crash."
+    ],
+    [
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay. Well, it was a Saturday afternoon. I remember because I was watching my favorite cartoon when I heard shouting from outside. At first, I tried to ignore it, but then I heard a loud crash.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay. Well, it was a Saturday afternoon. I remember because I was watching my favorite cartoon when I heard shouting from outside. At first, I tried to ignore it, but then I heard a loud crash.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I ran to the window and saw two men fighting in the street. One of them had a bottle in his hand. I'd never seen adults fight like that before. It was... terrifying."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I ran to the window and saw two men fighting in the street. One of them had a bottle in his hand. I'd never seen adults fight like that before. It was... terrifying.",
+      "Therapist: It's normal to feel scared. You're safe now."
+    ],
+    [
+      "Client: I ran to the window and saw two men fighting in the street. One of them had a bottle in his hand. I'd never seen adults fight like that before. It was... terrifying.",
+      "Therapist: It's normal to feel scared. You're safe now.",
+      "Client: I remember feeling frozen, like I couldn't move away from the window. The man with the bottle suddenly swung it at the other man's head. There was so much blood..."
+    ],
+    [
+      "Therapist: It's normal to feel scared. You're safe now.",
+      "Client: I remember feeling frozen, like I couldn't move away from the window. The man with the bottle suddenly swung it at the other man's head. There was so much blood...",
+      "Therapist: Stay with the memory. You're handling this bravely."
+    ],
+    [
+      "Client: I remember feeling frozen, like I couldn't move away from the window. The man with the bottle suddenly swung it at the other man's head. There was so much blood...",
+      "Therapist: Stay with the memory. You're handling this bravely.",
+      "Client: I... I wanted to look away, but I couldn't. The injured man fell to the ground, and the other one just kept hitting him. I remember screaming, but no sound came out."
+    ],
+    [
+      "Therapist: Stay with the memory. You're handling this bravely.",
+      "Client: I... I wanted to look away, but I couldn't. The injured man fell to the ground, and the other one just kept hitting him. I remember screaming, but no sound came out.",
+      "Therapist: You're doing great. Take a deep breath."
+    ],
+    [
+      "Client: I... I wanted to look away, but I couldn't. The injured man fell to the ground, and the other one just kept hitting him. I remember screaming, but no sound came out.",
+      "Therapist: You're doing great. Take a deep breath.",
+      "Client: My mom heard me crying and came into the room. She pulled me away from the window and held me tight. I could hear sirens in the distance. I was shaking so hard..."
+    ],
+    [
+      "Therapist: You're doing great. Take a deep breath.",
+      "Client: My mom heard me crying and came into the room. She pulled me away from the window and held me tight. I could hear sirens in the distance. I was shaking so hard...",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: My mom heard me crying and came into the room. She pulled me away from the window and held me tight. I could hear sirens in the distance. I was shaking so hard...",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I had nightmares for weeks after that. Every time I closed my eyes, I saw that man's face, covered in blood. I was afraid to go outside, afraid I'd see something like that again."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: I had nightmares for weeks after that. Every time I closed my eyes, I saw that man's face, covered in blood. I was afraid to go outside, afraid I'd see something like that again.",
+      "Therapist: You're showing incredible strength. Keep going."
+    ],
+    [
+      "Client: I had nightmares for weeks after that. Every time I closed my eyes, I saw that man's face, covered in blood. I was afraid to go outside, afraid I'd see something like that again.",
+      "Therapist: You're showing incredible strength. Keep going.",
+      "Client: For years, I couldn't handle any kind of conflict. Even raised voices would send me into a panic. I felt so weak, so helpless. Like that little boy watching from the window."
+    ],
+    [
+      "Therapist: You're showing incredible strength. Keep going.",
+      "Client: For years, I couldn't handle any kind of conflict. Even raised voices would send me into a panic. I felt so weak, so helpless. Like that little boy watching from the window.",
+      "Therapist: You're not helpless. You're facing this memory."
+    ],
+    [
+      "Client: For years, I couldn't handle any kind of conflict. Even raised voices would send me into a panic. I felt so weak, so helpless. Like that little boy watching from the window.",
+      "Therapist: You're not helpless. You're facing this memory.",
+      "Client: You're right. I'm an adult now, and I know I'm safe. But sometimes, when I least expect it, that memory comes flooding back. It's like I'm right there again, watching it all unfold."
+    ],
+    [
+      "Therapist: You're not helpless. You're facing this memory.",
+      "Client: You're right. I'm an adult now, and I know I'm safe. But sometimes, when I least expect it, that memory comes flooding back. It's like I'm right there again, watching it all unfold.",
+      "Therapist: That's a common response. You're doing well."
+    ],
+    [
+      "Client: You're right. I'm an adult now, and I know I'm safe. But sometimes, when I least expect it, that memory comes flooding back. It's like I'm right there again, watching it all unfold.",
+      "Therapist: That's a common response. You're doing well.",
+      "Client: I've never really talked about this with anyone before. It feels... I don't know, both scary and liberating at the same time. Like I'm finally acknowledging how much it affected me."
+    ],
+    [
+      "Therapist: That's a common response. You're doing well.",
+      "Client: I've never really talked about this with anyone before. It feels... I don't know, both scary and liberating at the same time. Like I'm finally acknowledging how much it affected me.",
+      "Therapist: That's a big step. I'm proud of you."
+    ],
+    [
+      "Client: I've never really talked about this with anyone before. It feels... I don't know, both scary and liberating at the same time. Like I'm finally acknowledging how much it affected me.",
+      "Therapist: That's a big step. I'm proud of you.",
+      "Client: Thank you. I guess I always thought I should just 'get over it,' you know? But talking about it, I realize how much I've been carrying this around with me all these years."
+    ],
+    [
+      "Therapist: That's a big step. I'm proud of you.",
+      "Client: Thank you. I guess I always thought I should just 'get over it,' you know? But talking about it, I realize how much I've been carrying this around with me all these years.",
+      "Therapist: It's okay to feel its impact. You're processing it now."
+    ],
+    [
+      "Client: Thank you. I guess I always thought I should just 'get over it,' you know? But talking about it, I realize how much I've been carrying this around with me all these years.",
+      "Therapist: It's okay to feel its impact. You're processing it now.",
+      "Client: Yeah, I am. It's hard, but I think it's helping. I feel... lighter somehow. Like I'm not carrying this secret anymore. Is that normal?"
+    ],
+    [
+      "Therapist: It's okay to feel its impact. You're processing it now.",
+      "Client: Yeah, I am. It's hard, but I think it's helping. I feel... lighter somehow. Like I'm not carrying this secret anymore. Is that normal?",
+      "Therapist: Absolutely. That's a positive sign."
+    ],
+    [
+      "Client: Yeah, I am. It's hard, but I think it's helping. I feel... lighter somehow. Like I'm not carrying this secret anymore. Is that normal?",
+      "Therapist: Absolutely. That's a positive sign.",
+      "Client: I think I understand now why I react so strongly to conflict, even minor disagreements. It all traces back to that day. I've been living in fear of witnessing something like that again."
+    ],
+    [
+      "Therapist: Absolutely. That's a positive sign.",
+      "Client: I think I understand now why I react so strongly to conflict, even minor disagreements. It all traces back to that day. I've been living in fear of witnessing something like that again.",
+      "Therapist: You're gaining valuable insights. Well done."
+    ],
+    [
+      "Client: I think I understand now why I react so strongly to conflict, even minor disagreements. It all traces back to that day. I've been living in fear of witnessing something like that again.",
+      "Therapist: You're gaining valuable insights. Well done.",
+      "Client: Thank you. I feel like I'm seeing things more clearly now. It's still painful to remember, but it doesn't feel as overwhelming as it used to. Is that progress?"
+    ],
+    [
+      "Therapist: You're gaining valuable insights. Well done.",
+      "Client: Thank you. I feel like I'm seeing things more clearly now. It's still painful to remember, but it doesn't feel as overwhelming as it used to. Is that progress?",
+      "Therapist: Yes, that's significant progress. You should be proud."
+    ],
+    [
+      "Client: Thank you. I feel like I'm seeing things more clearly now. It's still painful to remember, but it doesn't feel as overwhelming as it used to. Is that progress?",
+      "Therapist: Yes, that's significant progress. You should be proud.",
+      "Client: I am. I mean, I know we have more work to do, but for the first time, I feel like I might be able to move past this. Like it doesn't have to control me anymore."
+    ],
+    [
+      "Therapist: Yes, that's significant progress. You should be proud.",
+      "Client: I am. I mean, I know we have more work to do, but for the first time, I feel like I might be able to move past this. Like it doesn't have to control me anymore.",
+      "Therapist: That's an empowering realization. You're doing great."
+    ],
+    [
+      "Client: I am. I mean, I know we have more work to do, but for the first time, I feel like I might be able to move past this. Like it doesn't have to control me anymore.",
+      "Therapist: That's an empowering realization. You're doing great.",
+      "Client: Thank you. I'm glad we did this today. It was hard, but I think it was important. I feel... I don't know, stronger somehow. Like I've faced something I've been running from for a long time."
+    ],
+    [
+      "Therapist: That's an empowering realization. You're doing great.",
+      "Client: Thank you. I'm glad we did this today. It was hard, but I think it was important. I feel... I don't know, stronger somehow. Like I've faced something I've been running from for a long time.",
+      "Therapist: That's exactly what you've done. Well done, Michael."
+    ],
+    [
+      "Client: Thank you. I'm glad we did this today. It was hard, but I think it was important. I feel... I don't know, stronger somehow. Like I've faced something I've been running from for a long time.",
+      "Therapist: That's exactly what you've done. Well done, Michael.",
+      "Client: Thank you. I'm looking forward to our next session. I think I'm ready to dive deeper into this and really work through it. Is that okay?"
+    ],
+    [
+      "Therapist: That's exactly what you've done. Well done, Michael.",
+      "Client: Thank you. I'm looking forward to our next session. I think I'm ready to dive deeper into this and really work through it. Is that okay?",
+      "Therapist: Absolutely. We'll continue at your pace."
+    ],
+    [
+      "Client: Thank you. I'm looking forward to our next session. I think I'm ready to dive deeper into this and really work through it. Is that okay?",
+      "Therapist: Absolutely. We'll continue at your pace.",
+      "Client: Great. I appreciate your support today. It made a big difference in helping me get through this memory. I'm feeling more hopeful than I have in a long time."
+    ],
+    [
+      "Therapist: Absolutely. We'll continue at your pace.",
+      "Client: Great. I appreciate your support today. It made a big difference in helping me get through this memory. I'm feeling more hopeful than I have in a long time.",
+      "Therapist: I'm glad to hear that. You've made real progress today."
+    ],
+    [
+      "Client: Great. I appreciate your support today. It made a big difference in helping me get through this memory. I'm feeling more hopeful than I have in a long time.",
+      "Therapist: I'm glad to hear that. You've made real progress today.",
+      "Client: Thank you. I think I'm ready to end for today. This has been intense, but in a good way. I feel like I've taken a big step forward."
+    ],
+    [
+      "Therapist: I'm glad to hear that. You've made real progress today.",
+      "Client: Thank you. I think I'm ready to end for today. This has been intense, but in a good way. I feel like I've taken a big step forward.",
+      "Therapist: You have. Take care, and we'll continue next time."
+    ]
+  ]
+}

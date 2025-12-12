@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Sarah. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your baseline SUDS.",
+    "Client: I'd say about a 4 out of 10 right now.",
+    "Therapist: Okay. Close your eyes and begin recounting the combat experience.",
+    "Client: (Takes a deep breath) I'm in the Humvee. The air is thick with dust, and I can feel the vibration of the engine. We're on patrol near Kandahar. It's hot, so hot. My uniform is sticking to my skin. I can hear the radio chatter, but it's muffled. Suddenly, there's a loud bang, and everything goes sideways...",
+    "Therapist: SUDS?",
+    "Client: It's... it's up to a 6 now. My heart is racing.",
+    "Therapist: You're doing well. Continue.",
+    "Client: The Humvee is on its side. There's smoke everywhere, and I can taste blood in my mouth. I hear screaming, but it sounds far away. I'm trying to move, but my leg is pinned. The smell of burning rubber is overwhelming. I'm panicking, thinking we're under attack...",
+    "Therapist: And your SUDS now?",
+    "Client: (Voice shaking) It's an 8. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (Inhales deeply) Okay... I... I manage to free my leg. It hurts so much. I'm crawling out of the Humvee. I see Johnson on the ground, not moving. There's blood everywhere. I hear more explosions in the distance. I'm terrified, thinking we're all going to die here...",
+    "Therapist: SUDS?",
+    "Client: (Tearfully) It's a 9. I feel like I'm back there. My chest is so tight.",
+    "Therapist: You're doing great, Sarah. Remember, you're here with me.",
+    "Client: (Nodding) I... I drag myself to Johnson. I'm checking for a pulse, praying he's alive. My hands are shaking so much. I can't find it. I start CPR, but deep down, I know it's too late. I feel so helpless, so angry...",
+    "Therapist: And your SUDS now?",
+    "Client: It's still a 9. I feel sick to my stomach.",
+    "Therapist: That's okay. You're handling this well.",
+    "Client: (Wiping tears) The backup arrives. They're yelling orders, securing the area. I'm still by Johnson's body. I can't leave him. Someone pulls me away, and I start screaming. I don't want to leave him there. The guilt... it's overwhelming. I failed him...",
+    "Therapist: SUDS?",
+    "Client: (Sobbing) It's a 10. I can't... I can't do this anymore.",
+    "Therapist: You can. You're incredibly strong, Sarah.",
+    "Client: (Taking shaky breaths) They load us into another vehicle. I'm in shock. Everything seems unreal. The ride back to base is a blur. I keep seeing Johnson's face. I keep thinking about his family. How am I going to face them? How can I live with this?",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's down to an 8. I feel drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: (Sighing) We arrive at the base. There's so much activity, but I feel disconnected from it all. I'm taken to medical. They're treating my injuries, but I barely feel anything. All I can think about is Johnson and the others we lost. The guilt and pain are crushing me...",
+    "Therapist: SUDS?",
+    "Client: It's a 7 now. I feel... numb.",
+    "Therapist: You're doing really well, Sarah. Let's start winding down.",
+    "Client: (Nodding) Okay. I'm in the hospital bed now. It's quiet. The adrenaline is wearing off, and the pain is setting in. But more than the physical pain, it's the emotional pain that's unbearable. I keep replaying everything in my mind, wondering if I could have done something differently...",
+    "Therapist: And your final SUDS?",
+    "Client: It's down to a 5. I feel exhausted, but... somehow lighter.",
+    "Therapist: You've done an incredible job, Sarah. Let's take some deep breaths together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Sarah. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your baseline SUDS."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10 right now."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and begin recounting the combat experience."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now.",
+      "Therapist: Okay. Close your eyes and begin recounting the combat experience.",
+      "Client: (Takes a deep breath) I'm in the Humvee. The air is thick with dust, and I can feel the vibration of the engine. We're on patrol near Kandahar. It's hot, so hot. My uniform is sticking to my skin. I can hear the radio chatter, but it's muffled. Suddenly, there's a loud bang, and everything goes sideways..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and begin recounting the combat experience.",
+      "Client: (Takes a deep breath) I'm in the Humvee. The air is thick with dust, and I can feel the vibration of the engine. We're on patrol near Kandahar. It's hot, so hot. My uniform is sticking to my skin. I can hear the radio chatter, but it's muffled. Suddenly, there's a loud bang, and everything goes sideways...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (Takes a deep breath) I'm in the Humvee. The air is thick with dust, and I can feel the vibration of the engine. We're on patrol near Kandahar. It's hot, so hot. My uniform is sticking to my skin. I can hear the radio chatter, but it's muffled. Suddenly, there's a loud bang, and everything goes sideways...",
+      "Therapist: SUDS?",
+      "Client: It's... it's up to a 6 now. My heart is racing."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's up to a 6 now. My heart is racing.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: It's... it's up to a 6 now. My heart is racing.",
+      "Therapist: You're doing well. Continue.",
+      "Client: The Humvee is on its side. There's smoke everywhere, and I can taste blood in my mouth. I hear screaming, but it sounds far away. I'm trying to move, but my leg is pinned. The smell of burning rubber is overwhelming. I'm panicking, thinking we're under attack..."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The Humvee is on its side. There's smoke everywhere, and I can taste blood in my mouth. I hear screaming, but it sounds far away. I'm trying to move, but my leg is pinned. The smell of burning rubber is overwhelming. I'm panicking, thinking we're under attack...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The Humvee is on its side. There's smoke everywhere, and I can taste blood in my mouth. I hear screaming, but it sounds far away. I'm trying to move, but my leg is pinned. The smell of burning rubber is overwhelming. I'm panicking, thinking we're under attack...",
+      "Therapist: And your SUDS now?",
+      "Client: (Voice shaking) It's an 8. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: (Voice shaking) It's an 8. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: (Voice shaking) It's an 8. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Inhales deeply) Okay... I... I manage to free my leg. It hurts so much. I'm crawling out of the Humvee. I see Johnson on the ground, not moving. There's blood everywhere. I hear more explosions in the distance. I'm terrified, thinking we're all going to die here..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Inhales deeply) Okay... I... I manage to free my leg. It hurts so much. I'm crawling out of the Humvee. I see Johnson on the ground, not moving. There's blood everywhere. I hear more explosions in the distance. I'm terrified, thinking we're all going to die here...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (Inhales deeply) Okay... I... I manage to free my leg. It hurts so much. I'm crawling out of the Humvee. I see Johnson on the ground, not moving. There's blood everywhere. I hear more explosions in the distance. I'm terrified, thinking we're all going to die here...",
+      "Therapist: SUDS?",
+      "Client: (Tearfully) It's a 9. I feel like I'm back there. My chest is so tight."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: (Tearfully) It's a 9. I feel like I'm back there. My chest is so tight.",
+      "Therapist: You're doing great, Sarah. Remember, you're here with me."
+    ],
+    [
+      "Client: (Tearfully) It's a 9. I feel like I'm back there. My chest is so tight.",
+      "Therapist: You're doing great, Sarah. Remember, you're here with me.",
+      "Client: (Nodding) I... I drag myself to Johnson. I'm checking for a pulse, praying he's alive. My hands are shaking so much. I can't find it. I start CPR, but deep down, I know it's too late. I feel so helpless, so angry..."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. Remember, you're here with me.",
+      "Client: (Nodding) I... I drag myself to Johnson. I'm checking for a pulse, praying he's alive. My hands are shaking so much. I can't find it. I start CPR, but deep down, I know it's too late. I feel so helpless, so angry...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (Nodding) I... I drag myself to Johnson. I'm checking for a pulse, praying he's alive. My hands are shaking so much. I can't find it. I start CPR, but deep down, I know it's too late. I feel so helpless, so angry...",
+      "Therapist: And your SUDS now?",
+      "Client: It's still a 9. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still a 9. I feel sick to my stomach.",
+      "Therapist: That's okay. You're handling this well."
+    ],
+    [
+      "Client: It's still a 9. I feel sick to my stomach.",
+      "Therapist: That's okay. You're handling this well.",
+      "Client: (Wiping tears) The backup arrives. They're yelling orders, securing the area. I'm still by Johnson's body. I can't leave him. Someone pulls me away, and I start screaming. I don't want to leave him there. The guilt... it's overwhelming. I failed him..."
+    ],
+    [
+      "Therapist: That's okay. You're handling this well.",
+      "Client: (Wiping tears) The backup arrives. They're yelling orders, securing the area. I'm still by Johnson's body. I can't leave him. Someone pulls me away, and I start screaming. I don't want to leave him there. The guilt... it's overwhelming. I failed him...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (Wiping tears) The backup arrives. They're yelling orders, securing the area. I'm still by Johnson's body. I can't leave him. Someone pulls me away, and I start screaming. I don't want to leave him there. The guilt... it's overwhelming. I failed him...",
+      "Therapist: SUDS?",
+      "Client: (Sobbing) It's a 10. I can't... I can't do this anymore."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: (Sobbing) It's a 10. I can't... I can't do this anymore.",
+      "Therapist: You can. You're incredibly strong, Sarah."
+    ],
+    [
+      "Client: (Sobbing) It's a 10. I can't... I can't do this anymore.",
+      "Therapist: You can. You're incredibly strong, Sarah.",
+      "Client: (Taking shaky breaths) They load us into another vehicle. I'm in shock. Everything seems unreal. The ride back to base is a blur. I keep seeing Johnson's face. I keep thinking about his family. How am I going to face them? How can I live with this?"
+    ],
+    [
+      "Therapist: You can. You're incredibly strong, Sarah.",
+      "Client: (Taking shaky breaths) They load us into another vehicle. I'm in shock. Everything seems unreal. The ride back to base is a blur. I keep seeing Johnson's face. I keep thinking about his family. How am I going to face them? How can I live with this?",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (Taking shaky breaths) They load us into another vehicle. I'm in shock. Everything seems unreal. The ride back to base is a blur. I keep seeing Johnson's face. I keep thinking about his family. How am I going to face them? How can I live with this?",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's down to an 8. I feel drained."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's down to an 8. I feel drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's... it's down to an 8. I feel drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: (Sighing) We arrive at the base. There's so much activity, but I feel disconnected from it all. I'm taken to medical. They're treating my injuries, but I barely feel anything. All I can think about is Johnson and the others we lost. The guilt and pain are crushing me..."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: (Sighing) We arrive at the base. There's so much activity, but I feel disconnected from it all. I'm taken to medical. They're treating my injuries, but I barely feel anything. All I can think about is Johnson and the others we lost. The guilt and pain are crushing me...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: (Sighing) We arrive at the base. There's so much activity, but I feel disconnected from it all. I'm taken to medical. They're treating my injuries, but I barely feel anything. All I can think about is Johnson and the others we lost. The guilt and pain are crushing me...",
+      "Therapist: SUDS?",
+      "Client: It's a 7 now. I feel... numb."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's a 7 now. I feel... numb.",
+      "Therapist: You're doing really well, Sarah. Let's start winding down."
+    ],
+    [
+      "Client: It's a 7 now. I feel... numb.",
+      "Therapist: You're doing really well, Sarah. Let's start winding down.",
+      "Client: (Nodding) Okay. I'm in the hospital bed now. It's quiet. The adrenaline is wearing off, and the pain is setting in. But more than the physical pain, it's the emotional pain that's unbearable. I keep replaying everything in my mind, wondering if I could have done something differently..."
+    ],
+    [
+      "Therapist: You're doing really well, Sarah. Let's start winding down.",
+      "Client: (Nodding) Okay. I'm in the hospital bed now. It's quiet. The adrenaline is wearing off, and the pain is setting in. But more than the physical pain, it's the emotional pain that's unbearable. I keep replaying everything in my mind, wondering if I could have done something differently...",
+      "Therapist: And your final SUDS?"
+    ],
+    [
+      "Client: (Nodding) Okay. I'm in the hospital bed now. It's quiet. The adrenaline is wearing off, and the pain is setting in. But more than the physical pain, it's the emotional pain that's unbearable. I keep replaying everything in my mind, wondering if I could have done something differently...",
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 5. I feel exhausted, but... somehow lighter."
+    ],
+    [
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 5. I feel exhausted, but... somehow lighter.",
+      "Therapist: You've done an incredible job, Sarah. Let's take some deep breaths together."
+    ]
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Hello Carlos. How are you feeling today?",
+    "Client: Hi Dr. Martinez. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, I'm worried about reliving those painful memories from when I was bullied. It's been years, but thinking about it still makes my stomach churn. And with the recent breakup... I just feel vulnerable, you know?",
+    "Therapist: I hear you. Today's exercise might be challenging, but it's a crucial step. Ready to discuss it?",
+    "Client: I think so. What exactly are we going to do?",
+    "Therapist: We'll use imaginal exposure. You'll revisit the bullying experiences in your mind, describing them out loud.",
+    "Client: That sounds... intense. Will it make things worse?",
+    "Therapist: It's natural to feel apprehensive. This technique helps process trauma memories. How does that sound to you?",
+    "Client: I understand the logic, but I'm scared. What if I can't handle it? What if I break down?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. How does that reassurance feel?",
+    "Client: It helps a little. I trust you, Dr. Martinez. But can you tell me more about what to expect during the session?",
+    "Therapist: Of course. You might experience strong emotions or physical reactions. That's normal and part of the healing process.",
+    "Client: Okay... I appreciate your honesty. I'm still nervous, but I think I'm ready to try. This will help with my PTSD symptoms, right?",
+    "Therapist: Yes, it's an effective treatment. Your willingness to participate shows tremendous courage. How are you feeling now?",
+    "Client: A mix of emotions, really. Scared, but also a little hopeful. Maybe this can help me move past both the bullying and my recent breakup. It's been hard dealing with both.",
+    "Therapist: Your resilience is admirable. Shall we begin?",
+    "Client: Okay, let's do this. But... can we stop if it gets too overwhelming?",
+    "Therapist: Absolutely. You're in control. Ready to start?",
+    "Client: Yes, I'm ready. Thank you for being here with me, Dr. Martinez. It means a lot."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello Carlos. How are you feeling today?",
+      "Client: Hi Dr. Martinez. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Hi Dr. Martinez. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about reliving those painful memories from when I was bullied. It's been years, but thinking about it still makes my stomach churn. And with the recent breakup... I just feel vulnerable, you know?"
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried about reliving those painful memories from when I was bullied. It's been years, but thinking about it still makes my stomach churn. And with the recent breakup... I just feel vulnerable, you know?",
+      "Therapist: I hear you. Today's exercise might be challenging, but it's a crucial step. Ready to discuss it?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving those painful memories from when I was bullied. It's been years, but thinking about it still makes my stomach churn. And with the recent breakup... I just feel vulnerable, you know?",
+      "Therapist: I hear you. Today's exercise might be challenging, but it's a crucial step. Ready to discuss it?",
+      "Client: I think so. What exactly are we going to do?"
+    ],
+    [
+      "Therapist: I hear you. Today's exercise might be challenging, but it's a crucial step. Ready to discuss it?",
+      "Client: I think so. What exactly are we going to do?",
+      "Therapist: We'll use imaginal exposure. You'll revisit the bullying experiences in your mind, describing them out loud."
+    ],
+    [
+      "Client: I think so. What exactly are we going to do?",
+      "Therapist: We'll use imaginal exposure. You'll revisit the bullying experiences in your mind, describing them out loud.",
+      "Client: That sounds... intense. Will it make things worse?"
+    ],
+    [
+      "Therapist: We'll use imaginal exposure. You'll revisit the bullying experiences in your mind, describing them out loud.",
+      "Client: That sounds... intense. Will it make things worse?",
+      "Therapist: It's natural to feel apprehensive. This technique helps process trauma memories. How does that sound to you?"
+    ],
+    [
+      "Client: That sounds... intense. Will it make things worse?",
+      "Therapist: It's natural to feel apprehensive. This technique helps process trauma memories. How does that sound to you?",
+      "Client: I understand the logic, but I'm scared. What if I can't handle it? What if I break down?"
+    ],
+    [
+      "Therapist: It's natural to feel apprehensive. This technique helps process trauma memories. How does that sound to you?",
+      "Client: I understand the logic, but I'm scared. What if I can't handle it? What if I break down?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. How does that reassurance feel?"
+    ],
+    [
+      "Client: I understand the logic, but I'm scared. What if I can't handle it? What if I break down?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, Dr. Martinez. But can you tell me more about what to expect during the session?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, Dr. Martinez. But can you tell me more about what to expect during the session?",
+      "Therapist: Of course. You might experience strong emotions or physical reactions. That's normal and part of the healing process."
+    ],
+    [
+      "Client: It helps a little. I trust you, Dr. Martinez. But can you tell me more about what to expect during the session?",
+      "Therapist: Of course. You might experience strong emotions or physical reactions. That's normal and part of the healing process.",
+      "Client: Okay... I appreciate your honesty. I'm still nervous, but I think I'm ready to try. This will help with my PTSD symptoms, right?"
+    ],
+    [
+      "Therapist: Of course. You might experience strong emotions or physical reactions. That's normal and part of the healing process.",
+      "Client: Okay... I appreciate your honesty. I'm still nervous, but I think I'm ready to try. This will help with my PTSD symptoms, right?",
+      "Therapist: Yes, it's an effective treatment. Your willingness to participate shows tremendous courage. How are you feeling now?"
+    ],
+    [
+      "Client: Okay... I appreciate your honesty. I'm still nervous, but I think I'm ready to try. This will help with my PTSD symptoms, right?",
+      "Therapist: Yes, it's an effective treatment. Your willingness to participate shows tremendous courage. How are you feeling now?",
+      "Client: A mix of emotions, really. Scared, but also a little hopeful. Maybe this can help me move past both the bullying and my recent breakup. It's been hard dealing with both."
+    ],
+    [
+      "Therapist: Yes, it's an effective treatment. Your willingness to participate shows tremendous courage. How are you feeling now?",
+      "Client: A mix of emotions, really. Scared, but also a little hopeful. Maybe this can help me move past both the bullying and my recent breakup. It's been hard dealing with both.",
+      "Therapist: Your resilience is admirable. Shall we begin?"
+    ],
+    [
+      "Client: A mix of emotions, really. Scared, but also a little hopeful. Maybe this can help me move past both the bullying and my recent breakup. It's been hard dealing with both.",
+      "Therapist: Your resilience is admirable. Shall we begin?",
+      "Client: Okay, let's do this. But... can we stop if it gets too overwhelming?"
+    ],
+    [
+      "Therapist: Your resilience is admirable. Shall we begin?",
+      "Client: Okay, let's do this. But... can we stop if it gets too overwhelming?",
+      "Therapist: Absolutely. You're in control. Ready to start?"
+    ],
+    [
+      "Client: Okay, let's do this. But... can we stop if it gets too overwhelming?",
+      "Therapist: Absolutely. You're in control. Ready to start?",
+      "Client: Yes, I'm ready. Thank you for being here with me, Dr. Martinez. It means a lot."
+    ]
+  ]
+}

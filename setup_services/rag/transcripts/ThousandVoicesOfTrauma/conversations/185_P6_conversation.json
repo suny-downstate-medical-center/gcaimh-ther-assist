@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Take a deep breath. When you're ready, describe the memory.",
+    "Client: Okay... I'm back in my primary school playground. I'm 8 years old, and it's lunch break. A group of older kids is approaching me, and I can feel my heart starting to race. They're all white, and I'm the only mixed-race kid in the school. They're laughing and pointing at me...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4 out of 10. I'm feeling uneasy, but it's manageable.",
+    "Therapist: Okay. Continue when you're ready.",
+    "Client: The biggest kid, Tommy, he starts calling me names. \"Half-breed,\" \"mutt,\" things like that. The others join in, and they're circling around me. I feel so small, so alone. My palms are sweating, and I'm trying not to cry. I want to run, but I'm frozen in place.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's gone up to a 6. My heart's beating faster just thinking about it.",
+    "Therapist: That's understandable. You're doing well. Keep going.",
+    "Client: Tommy pushes me, and I stumble backward. I trip and fall, scraping my knee on the concrete. The pain is sharp, but the humiliation is worse. They're all laughing at me now. I can feel tears welling up in my eyes, and I'm desperately trying to hold them back. I don't want to give them the satisfaction of seeing me cry.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's an 8. God, I can almost feel the sting in my knee again. My chest feels tight.",
+    "Therapist: Take a moment. Breathe. You're safe here.",
+    "Client: (deep breath) Okay... A teacher finally notices and comes over. The kids scatter, but the damage is done. I'm sitting there, bleeding and crying. The teacher helps me up, but I can see pity in her eyes. She doesn't really understand. I feel so ashamed, so different from everyone else. It's like I don't belong anywhere.",
+    "Therapist: SUDS level?",
+    "Client: Still an 8. My hands are shaking a bit.",
+    "Therapist: That's okay. You're doing great. Keep going if you can.",
+    "Client: The rest of the day is a blur. I clean up in the bathroom, trying to hide the tear stains on my face. In class, I can feel everyone staring at me. The whispers, the giggles. I just want to disappear. When the bell rings, I practically run home. I don't tell my parents what happened. I don't want them to worry, to feel guilty for making me \"different.\" I just go to my room and cry into my pillow, wishing I could change who I am.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's... it's actually down to a 7 now. Talking about it... it's hard, but I feel like I'm letting something go.",
+    "Therapist: That's progress. You're very brave.",
+    "Client: Thanks. It's still painful to remember, but... I don't feel as trapped by it anymore. Like, I can see it from a distance now. I'm not that helpless kid anymore.",
+    "Therapist: Exactly. You've grown. Final SUDS?",
+    "Client: I'd say it's down to a 5 now. I feel... lighter, somehow.",
+    "Therapist: That's excellent progress, John. How about we end here for today?",
+    "Client: Yeah, I think that would be good. Thank you.",
+    "Therapist: You did wonderfully. We'll process this next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the memory."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the memory.",
+      "Client: Okay... I'm back in my primary school playground. I'm 8 years old, and it's lunch break. A group of older kids is approaching me, and I can feel my heart starting to race. They're all white, and I'm the only mixed-race kid in the school. They're laughing and pointing at me..."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath. When you're ready, describe the memory.",
+      "Client: Okay... I'm back in my primary school playground. I'm 8 years old, and it's lunch break. A group of older kids is approaching me, and I can feel my heart starting to race. They're all white, and I'm the only mixed-race kid in the school. They're laughing and pointing at me...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in my primary school playground. I'm 8 years old, and it's lunch break. A group of older kids is approaching me, and I can feel my heart starting to race. They're all white, and I'm the only mixed-race kid in the school. They're laughing and pointing at me...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling uneasy, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling uneasy, but it's manageable.",
+      "Therapist: Okay. Continue when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I'm feeling uneasy, but it's manageable.",
+      "Therapist: Okay. Continue when you're ready.",
+      "Client: The biggest kid, Tommy, he starts calling me names. \"Half-breed,\" \"mutt,\" things like that. The others join in, and they're circling around me. I feel so small, so alone. My palms are sweating, and I'm trying not to cry. I want to run, but I'm frozen in place."
+    ],
+    [
+      "Therapist: Okay. Continue when you're ready.",
+      "Client: The biggest kid, Tommy, he starts calling me names. \"Half-breed,\" \"mutt,\" things like that. The others join in, and they're circling around me. I feel so small, so alone. My palms are sweating, and I'm trying not to cry. I want to run, but I'm frozen in place.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: The biggest kid, Tommy, he starts calling me names. \"Half-breed,\" \"mutt,\" things like that. The others join in, and they're circling around me. I feel so small, so alone. My palms are sweating, and I'm trying not to cry. I want to run, but I'm frozen in place.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's gone up to a 6. My heart's beating faster just thinking about it."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's gone up to a 6. My heart's beating faster just thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My heart's beating faster just thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: Tommy pushes me, and I stumble backward. I trip and fall, scraping my knee on the concrete. The pain is sharp, but the humiliation is worse. They're all laughing at me now. I can feel tears welling up in my eyes, and I'm desperately trying to hold them back. I don't want to give them the satisfaction of seeing me cry."
+    ],
+    [
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: Tommy pushes me, and I stumble backward. I trip and fall, scraping my knee on the concrete. The pain is sharp, but the humiliation is worse. They're all laughing at me now. I can feel tears welling up in my eyes, and I'm desperately trying to hold them back. I don't want to give them the satisfaction of seeing me cry.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Tommy pushes me, and I stumble backward. I trip and fall, scraping my knee on the concrete. The pain is sharp, but the humiliation is worse. They're all laughing at me now. I can feel tears welling up in my eyes, and I'm desperately trying to hold them back. I don't want to give them the satisfaction of seeing me cry.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. God, I can almost feel the sting in my knee again. My chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. God, I can almost feel the sting in my knee again. My chest feels tight.",
+      "Therapist: Take a moment. Breathe. You're safe here."
+    ],
+    [
+      "Client: It's... it's an 8. God, I can almost feel the sting in my knee again. My chest feels tight.",
+      "Therapist: Take a moment. Breathe. You're safe here.",
+      "Client: (deep breath) Okay... A teacher finally notices and comes over. The kids scatter, but the damage is done. I'm sitting there, bleeding and crying. The teacher helps me up, but I can see pity in her eyes. She doesn't really understand. I feel so ashamed, so different from everyone else. It's like I don't belong anywhere."
+    ],
+    [
+      "Therapist: Take a moment. Breathe. You're safe here.",
+      "Client: (deep breath) Okay... A teacher finally notices and comes over. The kids scatter, but the damage is done. I'm sitting there, bleeding and crying. The teacher helps me up, but I can see pity in her eyes. She doesn't really understand. I feel so ashamed, so different from everyone else. It's like I don't belong anywhere.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: (deep breath) Okay... A teacher finally notices and comes over. The kids scatter, but the damage is done. I'm sitting there, bleeding and crying. The teacher helps me up, but I can see pity in her eyes. She doesn't really understand. I feel so ashamed, so different from everyone else. It's like I don't belong anywhere.",
+      "Therapist: SUDS level?",
+      "Client: Still an 8. My hands are shaking a bit."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Still an 8. My hands are shaking a bit.",
+      "Therapist: That's okay. You're doing great. Keep going if you can."
+    ],
+    [
+      "Client: Still an 8. My hands are shaking a bit.",
+      "Therapist: That's okay. You're doing great. Keep going if you can.",
+      "Client: The rest of the day is a blur. I clean up in the bathroom, trying to hide the tear stains on my face. In class, I can feel everyone staring at me. The whispers, the giggles. I just want to disappear. When the bell rings, I practically run home. I don't tell my parents what happened. I don't want them to worry, to feel guilty for making me \"different.\" I just go to my room and cry into my pillow, wishing I could change who I am."
+    ],
+    [
+      "Therapist: That's okay. You're doing great. Keep going if you can.",
+      "Client: The rest of the day is a blur. I clean up in the bathroom, trying to hide the tear stains on my face. In class, I can feel everyone staring at me. The whispers, the giggles. I just want to disappear. When the bell rings, I practically run home. I don't tell my parents what happened. I don't want them to worry, to feel guilty for making me \"different.\" I just go to my room and cry into my pillow, wishing I could change who I am.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: The rest of the day is a blur. I clean up in the bathroom, trying to hide the tear stains on my face. In class, I can feel everyone staring at me. The whispers, the giggles. I just want to disappear. When the bell rings, I practically run home. I don't tell my parents what happened. I don't want them to worry, to feel guilty for making me \"different.\" I just go to my room and cry into my pillow, wishing I could change who I am.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... it's actually down to a 7 now. Talking about it... it's hard, but I feel like I'm letting something go."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... it's actually down to a 7 now. Talking about it... it's hard, but I feel like I'm letting something go.",
+      "Therapist: That's progress. You're very brave."
+    ],
+    [
+      "Client: It's... it's actually down to a 7 now. Talking about it... it's hard, but I feel like I'm letting something go.",
+      "Therapist: That's progress. You're very brave.",
+      "Client: Thanks. It's still painful to remember, but... I don't feel as trapped by it anymore. Like, I can see it from a distance now. I'm not that helpless kid anymore."
+    ],
+    [
+      "Therapist: That's progress. You're very brave.",
+      "Client: Thanks. It's still painful to remember, but... I don't feel as trapped by it anymore. Like, I can see it from a distance now. I'm not that helpless kid anymore.",
+      "Therapist: Exactly. You've grown. Final SUDS?"
+    ],
+    [
+      "Client: Thanks. It's still painful to remember, but... I don't feel as trapped by it anymore. Like, I can see it from a distance now. I'm not that helpless kid anymore.",
+      "Therapist: Exactly. You've grown. Final SUDS?",
+      "Client: I'd say it's down to a 5 now. I feel... lighter, somehow."
+    ],
+    [
+      "Therapist: Exactly. You've grown. Final SUDS?",
+      "Client: I'd say it's down to a 5 now. I feel... lighter, somehow.",
+      "Therapist: That's excellent progress, John. How about we end here for today?"
+    ],
+    [
+      "Client: I'd say it's down to a 5 now. I feel... lighter, somehow.",
+      "Therapist: That's excellent progress, John. How about we end here for today?",
+      "Client: Yeah, I think that would be good. Thank you."
+    ],
+    [
+      "Therapist: That's excellent progress, John. How about we end here for today?",
+      "Client: Yeah, I think that would be good. Thank you.",
+      "Therapist: You did wonderfully. We'll process this next session."
+    ]
+  ]
+}

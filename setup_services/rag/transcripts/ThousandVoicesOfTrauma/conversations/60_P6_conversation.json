@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Mrs. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's perfectly normal. Let's begin. Close your eyes and bring yourself back to that day.",
+    "Client: Okay... I'm in the bank. It's a quiet Tuesday afternoon. I'm waiting in line to deposit a check. Suddenly, there's a loud bang, and someone shouts, \"Everybody down!\" My heart starts racing, and I feel frozen in place.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 5. My palms are getting sweaty just thinking about it.",
+    "Therapist: Thank you. Continue, please.",
+    "Client: The man with the gun is pacing back and forth. He looks agitated, keeps glancing at the door. I'm on the floor now, trying to make myself as small as possible. I can hear someone crying softly nearby. The teller looks terrified. I keep thinking about my granddaughter's birthday party next week. What if I don't make it? Oh god, my chest feels tight...",
+    "Therapist: SUDS?",
+    "Client: It's... it's gone up. Maybe a 7 now. I can feel my heart pounding just like it did that day.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: Time seems to stretch on forever. Every minute feels like an hour. I'm trying to control my breathing, but it's so hard. The gunman is shouting at the manager now, demanding more money. His voice is so angry, so threatening. I can smell his sweat from where I'm lying. My legs are starting to cramp from staying so still...",
+    "Therapist: And your SUDS now?",
+    "Client: It's an 8. I feel like I'm right back there. My hands are shaking...",
+    "Therapist: That's okay. You're safe here. Keep breathing.",
+    "Client: The police sirens start wailing outside. The gunman panics. He grabs the nearest person - a young woman - and puts the gun to her head. She's sobbing, begging him to let her go. I want to help her, but I'm paralyzed with fear. I can't move, can't speak...",
+    "Therapist: SUDS?",
+    "Client: It's... it's a 9. I feel so helpless, so scared. Just like I did then.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: The negotiator's voice comes over a megaphone. The gunman is screaming back. Everything's so loud, so chaotic. I close my eyes, praying it will end soon. Then there's a sudden burst of movement. Shouting. A gunshot. I hear glass shattering. My ears are ringing. I can't tell what's happening...",
+    "Therapist: Your SUDS?",
+    "Client: It's... it's still a 9. My heart's racing. I feel dizzy...",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: Suddenly, there are police everywhere. Someone's helping me up. They're telling us it's over, we're safe. But I can't stop shaking. I can't believe I survived. The relief is overwhelming, but so is the fear. I just want to go home, to see my family...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's coming down. Maybe a 7? I still feel shaky, but knowing it's over helps.",
+    "Therapist: You did very well. Let's take a moment to ground ourselves.",
+    "Client: Thank you. That was... intense. But I got through it.",
+    "Therapist: Yes, you did. How are you feeling now?",
+    "Client: Drained, but... okay. It's strange, reliving it like that.",
+    "Therapist: That's normal. Your strength is admirable.",
+    "Client: Thank you. I never thought I could talk about it like this.",
+    "Therapist: You've made significant progress. Shall we end here?",
+    "Client: Yes, I think that would be good. Thank you for your support.",
+    "Therapist: You're welcome. We'll continue next session. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Mrs. Johnson, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's perfectly normal. Let's begin. Close your eyes and bring yourself back to that day."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's perfectly normal. Let's begin. Close your eyes and bring yourself back to that day.",
+      "Client: Okay... I'm in the bank. It's a quiet Tuesday afternoon. I'm waiting in line to deposit a check. Suddenly, there's a loud bang, and someone shouts, \"Everybody down!\" My heart starts racing, and I feel frozen in place."
+    ],
+    [
+      "Therapist: That's perfectly normal. Let's begin. Close your eyes and bring yourself back to that day.",
+      "Client: Okay... I'm in the bank. It's a quiet Tuesday afternoon. I'm waiting in line to deposit a check. Suddenly, there's a loud bang, and someone shouts, \"Everybody down!\" My heart starts racing, and I feel frozen in place.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm in the bank. It's a quiet Tuesday afternoon. I'm waiting in line to deposit a check. Suddenly, there's a loud bang, and someone shouts, \"Everybody down!\" My heart starts racing, and I feel frozen in place.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5. My palms are getting sweaty just thinking about it.",
+      "Therapist: Thank you. Continue, please."
+    ],
+    [
+      "Client: Um, I'd say about a 5. My palms are getting sweaty just thinking about it.",
+      "Therapist: Thank you. Continue, please.",
+      "Client: The man with the gun is pacing back and forth. He looks agitated, keeps glancing at the door. I'm on the floor now, trying to make myself as small as possible. I can hear someone crying softly nearby. The teller looks terrified. I keep thinking about my granddaughter's birthday party next week. What if I don't make it? Oh god, my chest feels tight..."
+    ],
+    [
+      "Therapist: Thank you. Continue, please.",
+      "Client: The man with the gun is pacing back and forth. He looks agitated, keeps glancing at the door. I'm on the floor now, trying to make myself as small as possible. I can hear someone crying softly nearby. The teller looks terrified. I keep thinking about my granddaughter's birthday party next week. What if I don't make it? Oh god, my chest feels tight...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The man with the gun is pacing back and forth. He looks agitated, keeps glancing at the door. I'm on the floor now, trying to make myself as small as possible. I can hear someone crying softly nearby. The teller looks terrified. I keep thinking about my granddaughter's birthday party next week. What if I don't make it? Oh god, my chest feels tight...",
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up. Maybe a 7 now. I can feel my heart pounding just like it did that day."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's gone up. Maybe a 7 now. I can feel my heart pounding just like it did that day.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 7 now. I can feel my heart pounding just like it did that day.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: Time seems to stretch on forever. Every minute feels like an hour. I'm trying to control my breathing, but it's so hard. The gunman is shouting at the manager now, demanding more money. His voice is so angry, so threatening. I can smell his sweat from where I'm lying. My legs are starting to cramp from staying so still..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: Time seems to stretch on forever. Every minute feels like an hour. I'm trying to control my breathing, but it's so hard. The gunman is shouting at the manager now, demanding more money. His voice is so angry, so threatening. I can smell his sweat from where I'm lying. My legs are starting to cramp from staying so still...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Time seems to stretch on forever. Every minute feels like an hour. I'm trying to control my breathing, but it's so hard. The gunman is shouting at the manager now, demanding more money. His voice is so angry, so threatening. I can smell his sweat from where I'm lying. My legs are starting to cramp from staying so still...",
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. I feel like I'm right back there. My hands are shaking..."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's an 8. I feel like I'm right back there. My hands are shaking...",
+      "Therapist: That's okay. You're safe here. Keep breathing."
+    ],
+    [
+      "Client: It's an 8. I feel like I'm right back there. My hands are shaking...",
+      "Therapist: That's okay. You're safe here. Keep breathing.",
+      "Client: The police sirens start wailing outside. The gunman panics. He grabs the nearest person - a young woman - and puts the gun to her head. She's sobbing, begging him to let her go. I want to help her, but I'm paralyzed with fear. I can't move, can't speak..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep breathing.",
+      "Client: The police sirens start wailing outside. The gunman panics. He grabs the nearest person - a young woman - and puts the gun to her head. She's sobbing, begging him to let her go. I want to help her, but I'm paralyzed with fear. I can't move, can't speak...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The police sirens start wailing outside. The gunman panics. He grabs the nearest person - a young woman - and puts the gun to her head. She's sobbing, begging him to let her go. I want to help her, but I'm paralyzed with fear. I can't move, can't speak...",
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9. I feel so helpless, so scared. Just like I did then."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's a 9. I feel so helpless, so scared. Just like I did then.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's a 9. I feel so helpless, so scared. Just like I did then.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: The negotiator's voice comes over a megaphone. The gunman is screaming back. Everything's so loud, so chaotic. I close my eyes, praying it will end soon. Then there's a sudden burst of movement. Shouting. A gunshot. I hear glass shattering. My ears are ringing. I can't tell what's happening..."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: The negotiator's voice comes over a megaphone. The gunman is screaming back. Everything's so loud, so chaotic. I close my eyes, praying it will end soon. Then there's a sudden burst of movement. Shouting. A gunshot. I hear glass shattering. My ears are ringing. I can't tell what's happening...",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: The negotiator's voice comes over a megaphone. The gunman is screaming back. Everything's so loud, so chaotic. I close my eyes, praying it will end soon. Then there's a sudden burst of movement. Shouting. A gunshot. I hear glass shattering. My ears are ringing. I can't tell what's happening...",
+      "Therapist: Your SUDS?",
+      "Client: It's... it's still a 9. My heart's racing. I feel dizzy..."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: It's... it's still a 9. My heart's racing. I feel dizzy...",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's still a 9. My heart's racing. I feel dizzy...",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: Suddenly, there are police everywhere. Someone's helping me up. They're telling us it's over, we're safe. But I can't stop shaking. I can't believe I survived. The relief is overwhelming, but so is the fear. I just want to go home, to see my family..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: Suddenly, there are police everywhere. Someone's helping me up. They're telling us it's over, we're safe. But I can't stop shaking. I can't believe I survived. The relief is overwhelming, but so is the fear. I just want to go home, to see my family...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Suddenly, there are police everywhere. Someone's helping me up. They're telling us it's over, we're safe. But I can't stop shaking. I can't believe I survived. The relief is overwhelming, but so is the fear. I just want to go home, to see my family...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down. Maybe a 7? I still feel shaky, but knowing it's over helps."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down. Maybe a 7? I still feel shaky, but knowing it's over helps.",
+      "Therapist: You did very well. Let's take a moment to ground ourselves."
+    ],
+    [
+      "Client: It's... it's coming down. Maybe a 7? I still feel shaky, but knowing it's over helps.",
+      "Therapist: You did very well. Let's take a moment to ground ourselves.",
+      "Client: Thank you. That was... intense. But I got through it."
+    ],
+    [
+      "Therapist: You did very well. Let's take a moment to ground ourselves.",
+      "Client: Thank you. That was... intense. But I got through it.",
+      "Therapist: Yes, you did. How are you feeling now?"
+    ],
+    [
+      "Client: Thank you. That was... intense. But I got through it.",
+      "Therapist: Yes, you did. How are you feeling now?",
+      "Client: Drained, but... okay. It's strange, reliving it like that."
+    ],
+    [
+      "Therapist: Yes, you did. How are you feeling now?",
+      "Client: Drained, but... okay. It's strange, reliving it like that.",
+      "Therapist: That's normal. Your strength is admirable."
+    ],
+    [
+      "Client: Drained, but... okay. It's strange, reliving it like that.",
+      "Therapist: That's normal. Your strength is admirable.",
+      "Client: Thank you. I never thought I could talk about it like this."
+    ],
+    [
+      "Therapist: That's normal. Your strength is admirable.",
+      "Client: Thank you. I never thought I could talk about it like this.",
+      "Therapist: You've made significant progress. Shall we end here?"
+    ],
+    [
+      "Client: Thank you. I never thought I could talk about it like this.",
+      "Therapist: You've made significant progress. Shall we end here?",
+      "Client: Yes, I think that would be good. Thank you for your support."
+    ],
+    [
+      "Therapist: You've made significant progress. Shall we end here?",
+      "Client: Yes, I think that would be good. Thank you for your support.",
+      "Therapist: You're welcome. We'll continue next session. Take care."
+    ]
+  ]
+}

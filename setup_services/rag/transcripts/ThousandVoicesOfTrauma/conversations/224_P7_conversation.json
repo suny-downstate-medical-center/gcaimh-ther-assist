@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, James. How are you feeling today?",
+    "Client: Hi, Dr. Smith. I'm feeling a bit anxious, to be honest. I know we're going to be talking about the cyclone today, and I'm not sure I'm ready.",
+    "Therapist: It's okay to feel anxious. You're safe here.",
+    "Client: Thanks. I guess we should start. The cyclone hit three years ago, but it feels like yesterday. I was at work when the warnings came...",
+    "Therapist: Take your time. You're doing well.",
+    "Client: Right. I was in the office, on the 15th floor. The wind started picking up, and suddenly, the windows were rattling. I remember thinking, \"This can't be happening.\" My colleagues were panicking, but I tried to stay calm.",
+    "Therapist: You're describing it clearly. Keep going.",
+    "Client: The lights flickered, and then everything went dark. We could hear things smashing outside. Someone screamed, and I felt my heart racing. I... I thought we were going to die.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: (takes a deep breath) The building was swaying. I've never felt so helpless. We huddled under desks, and I remember holding hands with a coworker I barely knew. The noise was deafening - wind howling, glass breaking. It felt like it would never end.",
+    "Therapist: You're doing great. Stay with the memory.",
+    "Client: (voice shaking) After what felt like hours, it started to calm down. But when we looked outside... God, it was like a war zone. Cars overturned, trees uprooted, debris everywhere. Our office was destroyed. I saw blood on some of my colleagues from flying glass. I... I can't...",
+    "Therapist: Take a deep breath. You're handling this well.",
+    "Client: (breathing deeply) Okay. We had to wait for rescue teams. The stairwells were blocked. I remember feeling so trapped, so vulnerable. Even after we were evacuated, I couldn't shake that feeling. It's why I struggle in tall buildings now, why I panic during storms.",
+    "Therapist: You're showing incredible strength. Continue.",
+    "Client: The aftermath was almost worse. The city was in chaos. No power, limited food and water. I volunteered at a shelter, but seeing all those displaced people, hearing their stories... it was overwhelming. I felt guilty for surviving relatively unscathed when others lost everything.",
+    "Therapist: It's natural to have those feelings. You're processing well.",
+    "Client: I still have nightmares sometimes. Wind rattling my windows can send me into a panic. And at work... well, every time there's a storm warning, I feel that same terror. It's affecting my job performance, my relationships. I feel like I'm constantly on edge, waiting for the next disaster.",
+    "Therapist: You're making progress by sharing this. Well done.",
+    "Client: Thanks. It's hard to talk about, but I know it's necessary. I want to feel normal again, to not jump at every loud noise or weather alert. I want to be able to focus at work without constantly checking for escape routes. Is that even possible?",
+    "Therapist: It is possible. You're taking important steps.",
+    "Client: I hope so. Sometimes I feel like I'll never get past this. Like I'll always be the guy who freaks out during thunderstorms or avoids high-rise buildings. But being here, talking about it... I guess it's a start, right?",
+    "Therapist: Absolutely. You're showing remarkable courage.",
+    "Client: (sighs) I just want my life back. To enjoy my job again without this constant fear. To be able to support my colleagues instead of being the one who needs support. It's exhausting, living like this.",
+    "Therapist: Your feelings are valid. You're doing important work here.",
+    "Client: Thank you. I know it's a process, but sometimes it feels like two steps forward, one step back. But I'm committed to working through this. I have to believe there's light at the end of this tunnel.",
+    "Therapist: That's a great attitude. Our time is almost up.",
+    "Client: Already? Wow, time flies. I feel... drained, but also a bit lighter. Thank you for listening and guiding me through this. Same time next week?",
+    "Therapist: Yes, see you then. Take care, James."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, James. How are you feeling today?",
+      "Client: Hi, Dr. Smith. I'm feeling a bit anxious, to be honest. I know we're going to be talking about the cyclone today, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel anxious. You're safe here."
+    ],
+    [
+      "Client: Hi, Dr. Smith. I'm feeling a bit anxious, to be honest. I know we're going to be talking about the cyclone today, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel anxious. You're safe here.",
+      "Client: Thanks. I guess we should start. The cyclone hit three years ago, but it feels like yesterday. I was at work when the warnings came..."
+    ],
+    [
+      "Therapist: It's okay to feel anxious. You're safe here.",
+      "Client: Thanks. I guess we should start. The cyclone hit three years ago, but it feels like yesterday. I was at work when the warnings came...",
+      "Therapist: Take your time. You're doing well."
+    ],
+    [
+      "Client: Thanks. I guess we should start. The cyclone hit three years ago, but it feels like yesterday. I was at work when the warnings came...",
+      "Therapist: Take your time. You're doing well.",
+      "Client: Right. I was in the office, on the 15th floor. The wind started picking up, and suddenly, the windows were rattling. I remember thinking, \"This can't be happening.\" My colleagues were panicking, but I tried to stay calm."
+    ],
+    [
+      "Therapist: Take your time. You're doing well.",
+      "Client: Right. I was in the office, on the 15th floor. The wind started picking up, and suddenly, the windows were rattling. I remember thinking, \"This can't be happening.\" My colleagues were panicking, but I tried to stay calm.",
+      "Therapist: You're describing it clearly. Keep going."
+    ],
+    [
+      "Client: Right. I was in the office, on the 15th floor. The wind started picking up, and suddenly, the windows were rattling. I remember thinking, \"This can't be happening.\" My colleagues were panicking, but I tried to stay calm.",
+      "Therapist: You're describing it clearly. Keep going.",
+      "Client: The lights flickered, and then everything went dark. We could hear things smashing outside. Someone screamed, and I felt my heart racing. I... I thought we were going to die."
+    ],
+    [
+      "Therapist: You're describing it clearly. Keep going.",
+      "Client: The lights flickered, and then everything went dark. We could hear things smashing outside. Someone screamed, and I felt my heart racing. I... I thought we were going to die.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: The lights flickered, and then everything went dark. We could hear things smashing outside. Someone screamed, and I felt my heart racing. I... I thought we were going to die.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (takes a deep breath) The building was swaying. I've never felt so helpless. We huddled under desks, and I remember holding hands with a coworker I barely knew. The noise was deafening - wind howling, glass breaking. It felt like it would never end."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (takes a deep breath) The building was swaying. I've never felt so helpless. We huddled under desks, and I remember holding hands with a coworker I barely knew. The noise was deafening - wind howling, glass breaking. It felt like it would never end.",
+      "Therapist: You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: (takes a deep breath) The building was swaying. I've never felt so helpless. We huddled under desks, and I remember holding hands with a coworker I barely knew. The noise was deafening - wind howling, glass breaking. It felt like it would never end.",
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: (voice shaking) After what felt like hours, it started to calm down. But when we looked outside... God, it was like a war zone. Cars overturned, trees uprooted, debris everywhere. Our office was destroyed. I saw blood on some of my colleagues from flying glass. I... I can't..."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: (voice shaking) After what felt like hours, it started to calm down. But when we looked outside... God, it was like a war zone. Cars overturned, trees uprooted, debris everywhere. Our office was destroyed. I saw blood on some of my colleagues from flying glass. I... I can't...",
+      "Therapist: Take a deep breath. You're handling this well."
+    ],
+    [
+      "Client: (voice shaking) After what felt like hours, it started to calm down. But when we looked outside... God, it was like a war zone. Cars overturned, trees uprooted, debris everywhere. Our office was destroyed. I saw blood on some of my colleagues from flying glass. I... I can't...",
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: (breathing deeply) Okay. We had to wait for rescue teams. The stairwells were blocked. I remember feeling so trapped, so vulnerable. Even after we were evacuated, I couldn't shake that feeling. It's why I struggle in tall buildings now, why I panic during storms."
+    ],
+    [
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: (breathing deeply) Okay. We had to wait for rescue teams. The stairwells were blocked. I remember feeling so trapped, so vulnerable. Even after we were evacuated, I couldn't shake that feeling. It's why I struggle in tall buildings now, why I panic during storms.",
+      "Therapist: You're showing incredible strength. Continue."
+    ],
+    [
+      "Client: (breathing deeply) Okay. We had to wait for rescue teams. The stairwells were blocked. I remember feeling so trapped, so vulnerable. Even after we were evacuated, I couldn't shake that feeling. It's why I struggle in tall buildings now, why I panic during storms.",
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: The aftermath was almost worse. The city was in chaos. No power, limited food and water. I volunteered at a shelter, but seeing all those displaced people, hearing their stories... it was overwhelming. I felt guilty for surviving relatively unscathed when others lost everything."
+    ],
+    [
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: The aftermath was almost worse. The city was in chaos. No power, limited food and water. I volunteered at a shelter, but seeing all those displaced people, hearing their stories... it was overwhelming. I felt guilty for surviving relatively unscathed when others lost everything.",
+      "Therapist: It's natural to have those feelings. You're processing well."
+    ],
+    [
+      "Client: The aftermath was almost worse. The city was in chaos. No power, limited food and water. I volunteered at a shelter, but seeing all those displaced people, hearing their stories... it was overwhelming. I felt guilty for surviving relatively unscathed when others lost everything.",
+      "Therapist: It's natural to have those feelings. You're processing well.",
+      "Client: I still have nightmares sometimes. Wind rattling my windows can send me into a panic. And at work... well, every time there's a storm warning, I feel that same terror. It's affecting my job performance, my relationships. I feel like I'm constantly on edge, waiting for the next disaster."
+    ],
+    [
+      "Therapist: It's natural to have those feelings. You're processing well.",
+      "Client: I still have nightmares sometimes. Wind rattling my windows can send me into a panic. And at work... well, every time there's a storm warning, I feel that same terror. It's affecting my job performance, my relationships. I feel like I'm constantly on edge, waiting for the next disaster.",
+      "Therapist: You're making progress by sharing this. Well done."
+    ],
+    [
+      "Client: I still have nightmares sometimes. Wind rattling my windows can send me into a panic. And at work... well, every time there's a storm warning, I feel that same terror. It's affecting my job performance, my relationships. I feel like I'm constantly on edge, waiting for the next disaster.",
+      "Therapist: You're making progress by sharing this. Well done.",
+      "Client: Thanks. It's hard to talk about, but I know it's necessary. I want to feel normal again, to not jump at every loud noise or weather alert. I want to be able to focus at work without constantly checking for escape routes. Is that even possible?"
+    ],
+    [
+      "Therapist: You're making progress by sharing this. Well done.",
+      "Client: Thanks. It's hard to talk about, but I know it's necessary. I want to feel normal again, to not jump at every loud noise or weather alert. I want to be able to focus at work without constantly checking for escape routes. Is that even possible?",
+      "Therapist: It is possible. You're taking important steps."
+    ],
+    [
+      "Client: Thanks. It's hard to talk about, but I know it's necessary. I want to feel normal again, to not jump at every loud noise or weather alert. I want to be able to focus at work without constantly checking for escape routes. Is that even possible?",
+      "Therapist: It is possible. You're taking important steps.",
+      "Client: I hope so. Sometimes I feel like I'll never get past this. Like I'll always be the guy who freaks out during thunderstorms or avoids high-rise buildings. But being here, talking about it... I guess it's a start, right?"
+    ],
+    [
+      "Therapist: It is possible. You're taking important steps.",
+      "Client: I hope so. Sometimes I feel like I'll never get past this. Like I'll always be the guy who freaks out during thunderstorms or avoids high-rise buildings. But being here, talking about it... I guess it's a start, right?",
+      "Therapist: Absolutely. You're showing remarkable courage."
+    ],
+    [
+      "Client: I hope so. Sometimes I feel like I'll never get past this. Like I'll always be the guy who freaks out during thunderstorms or avoids high-rise buildings. But being here, talking about it... I guess it's a start, right?",
+      "Therapist: Absolutely. You're showing remarkable courage.",
+      "Client: (sighs) I just want my life back. To enjoy my job again without this constant fear. To be able to support my colleagues instead of being the one who needs support. It's exhausting, living like this."
+    ],
+    [
+      "Therapist: Absolutely. You're showing remarkable courage.",
+      "Client: (sighs) I just want my life back. To enjoy my job again without this constant fear. To be able to support my colleagues instead of being the one who needs support. It's exhausting, living like this.",
+      "Therapist: Your feelings are valid. You're doing important work here."
+    ],
+    [
+      "Client: (sighs) I just want my life back. To enjoy my job again without this constant fear. To be able to support my colleagues instead of being the one who needs support. It's exhausting, living like this.",
+      "Therapist: Your feelings are valid. You're doing important work here.",
+      "Client: Thank you. I know it's a process, but sometimes it feels like two steps forward, one step back. But I'm committed to working through this. I have to believe there's light at the end of this tunnel."
+    ],
+    [
+      "Therapist: Your feelings are valid. You're doing important work here.",
+      "Client: Thank you. I know it's a process, but sometimes it feels like two steps forward, one step back. But I'm committed to working through this. I have to believe there's light at the end of this tunnel.",
+      "Therapist: That's a great attitude. Our time is almost up."
+    ],
+    [
+      "Client: Thank you. I know it's a process, but sometimes it feels like two steps forward, one step back. But I'm committed to working through this. I have to believe there's light at the end of this tunnel.",
+      "Therapist: That's a great attitude. Our time is almost up.",
+      "Client: Already? Wow, time flies. I feel... drained, but also a bit lighter. Thank you for listening and guiding me through this. Same time next week?"
+    ],
+    [
+      "Therapist: That's a great attitude. Our time is almost up.",
+      "Client: Already? Wow, time flies. I feel... drained, but also a bit lighter. Thank you for listening and guiding me through this. Same time next week?",
+      "Therapist: Yes, see you then. Take care, James."
+    ]
+  ]
+}

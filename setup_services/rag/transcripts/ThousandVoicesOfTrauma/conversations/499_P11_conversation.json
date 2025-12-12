@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. That memory of the dog attack... it's just so vivid, you know? I can still hear the growling, feel the fear... it's like I'm right back there in that moment.",
+    "Therapist: It sounds overwhelming. What stood out to you most?",
+    "Client: The helplessness, I think. I remember freezing up completely when I saw the dog charging at me. I couldn't move, couldn't scream... it was like my body just shut down. And then the pain when it bit my leg... God, I can almost feel it now. It's strange how real it all seems, even though it happened years ago.",
+    "Therapist: How does it feel to revisit that memory now?",
+    "Client: It's... it's hard, but different from before. I mean, I'm still scared, but I'm also here, you know? In your office, safe. It's like I can separate myself a bit from the memory now. Does that make sense? It's still awful, but I'm not completely lost in it like I used to be.",
+    "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+    "Client: Well, I guess... I've been noticing that I don't get as panicked when I see dogs on the street anymore. I mean, I still avoid them, but I don't have full-blown anxiety attacks like before. It's like... maybe facing the memory head-on is helping me realize that I'm not in danger anymore? I don't know, it's confusing.",
+    "Therapist: That's a significant change. What do you think has contributed to this?",
+    "Client: Hmm... I think talking about it openly has helped. Before, I'd just try to push the memory away, which only made it worse. Now, even though it's painful, I feel like I'm taking control back, bit by bit. And... I don't know, maybe knowing that you're here, listening without judgment, makes it easier to face?",
+    "Therapist: I'm glad you feel supported. How has this process affected other areas of your life?",
+    "Client: It's funny you ask that. I've noticed I'm a bit more confident at work lately. I run my own online business, and I used to be terrified of client calls. But now, I'm finding it easier to speak up, to assert myself. It's like... if I can face this trauma, maybe I can face other challenges too? I don't know if that makes sense.",
+    "Therapist: It does. How do you feel about continuing this work?",
+    "Client: I'm... cautiously optimistic, I guess? It's still scary, and sometimes I wonder if I'm making any progress at all. But then I have moments where I realize I've done something I couldn't do before, like walking past a dog park without having a panic attack. It's small, but it feels huge, you know? So yeah, I want to keep going. It's tough, but I think it's worth it.",
+    "Therapist: That's a powerful perspective. What's your main takeaway from today's session?",
+    "Client: I think... maybe that I'm stronger than I thought? Like, reliving that memory is horrible, but I can do it. And each time, it gets a tiny bit easier. I'm not saying I'm cured or anything, but I feel like I'm not just a victim anymore. I'm actively working on getting better, and that feels... empowering, I guess. Is that weird?",
+    "Therapist: Not at all. How will you care for yourself after this intense session?",
+    "Client: Oh, good question. I think I'll take a long walk in the park near my apartment. It usually helps clear my head. And maybe I'll call my sister. She's been really supportive throughout this whole process. Just hearing her voice helps ground me, you know? And I've been trying this new meditation app before bed. It doesn't always work, but when it does, it really helps with the nightmares.",
+    "Therapist: Those sound like excellent self-care strategies. Any final thoughts?",
+    "Client: Just... thank you, I guess. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward instead of being stuck in that moment of terror. I know we have a long way to go, but for the first time in years, I feel hopeful. Like maybe one day, I'll be able to walk down the street without constantly looking over my shoulder. That would be... that would be amazing.",
+    "Therapist: You're doing great work, Sarah. See you next week?",
+    "Client: Definitely. Thanks again. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. That memory of the dog attack... it's just so vivid, you know? I can still hear the growling, feel the fear... it's like I'm right back there in that moment.",
+      "Therapist: It sounds overwhelming. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. That memory of the dog attack... it's just so vivid, you know? I can still hear the growling, feel the fear... it's like I'm right back there in that moment.",
+      "Therapist: It sounds overwhelming. What stood out to you most?",
+      "Client: The helplessness, I think. I remember freezing up completely when I saw the dog charging at me. I couldn't move, couldn't scream... it was like my body just shut down. And then the pain when it bit my leg... God, I can almost feel it now. It's strange how real it all seems, even though it happened years ago."
+    ],
+    [
+      "Therapist: It sounds overwhelming. What stood out to you most?",
+      "Client: The helplessness, I think. I remember freezing up completely when I saw the dog charging at me. I couldn't move, couldn't scream... it was like my body just shut down. And then the pain when it bit my leg... God, I can almost feel it now. It's strange how real it all seems, even though it happened years ago.",
+      "Therapist: How does it feel to revisit that memory now?"
+    ],
+    [
+      "Client: The helplessness, I think. I remember freezing up completely when I saw the dog charging at me. I couldn't move, couldn't scream... it was like my body just shut down. And then the pain when it bit my leg... God, I can almost feel it now. It's strange how real it all seems, even though it happened years ago.",
+      "Therapist: How does it feel to revisit that memory now?",
+      "Client: It's... it's hard, but different from before. I mean, I'm still scared, but I'm also here, you know? In your office, safe. It's like I can separate myself a bit from the memory now. Does that make sense? It's still awful, but I'm not completely lost in it like I used to be."
+    ],
+    [
+      "Therapist: How does it feel to revisit that memory now?",
+      "Client: It's... it's hard, but different from before. I mean, I'm still scared, but I'm also here, you know? In your office, safe. It's like I can separate myself a bit from the memory now. Does that make sense? It's still awful, but I'm not completely lost in it like I used to be.",
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?"
+    ],
+    [
+      "Client: It's... it's hard, but different from before. I mean, I'm still scared, but I'm also here, you know? In your office, safe. It's like I can separate myself a bit from the memory now. Does that make sense? It's still awful, but I'm not completely lost in it like I used to be.",
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+      "Client: Well, I guess... I've been noticing that I don't get as panicked when I see dogs on the street anymore. I mean, I still avoid them, but I don't have full-blown anxiety attacks like before. It's like... maybe facing the memory head-on is helping me realize that I'm not in danger anymore? I don't know, it's confusing."
+    ],
+    [
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+      "Client: Well, I guess... I've been noticing that I don't get as panicked when I see dogs on the street anymore. I mean, I still avoid them, but I don't have full-blown anxiety attacks like before. It's like... maybe facing the memory head-on is helping me realize that I'm not in danger anymore? I don't know, it's confusing.",
+      "Therapist: That's a significant change. What do you think has contributed to this?"
+    ],
+    [
+      "Client: Well, I guess... I've been noticing that I don't get as panicked when I see dogs on the street anymore. I mean, I still avoid them, but I don't have full-blown anxiety attacks like before. It's like... maybe facing the memory head-on is helping me realize that I'm not in danger anymore? I don't know, it's confusing.",
+      "Therapist: That's a significant change. What do you think has contributed to this?",
+      "Client: Hmm... I think talking about it openly has helped. Before, I'd just try to push the memory away, which only made it worse. Now, even though it's painful, I feel like I'm taking control back, bit by bit. And... I don't know, maybe knowing that you're here, listening without judgment, makes it easier to face?"
+    ],
+    [
+      "Therapist: That's a significant change. What do you think has contributed to this?",
+      "Client: Hmm... I think talking about it openly has helped. Before, I'd just try to push the memory away, which only made it worse. Now, even though it's painful, I feel like I'm taking control back, bit by bit. And... I don't know, maybe knowing that you're here, listening without judgment, makes it easier to face?",
+      "Therapist: I'm glad you feel supported. How has this process affected other areas of your life?"
+    ],
+    [
+      "Client: Hmm... I think talking about it openly has helped. Before, I'd just try to push the memory away, which only made it worse. Now, even though it's painful, I feel like I'm taking control back, bit by bit. And... I don't know, maybe knowing that you're here, listening without judgment, makes it easier to face?",
+      "Therapist: I'm glad you feel supported. How has this process affected other areas of your life?",
+      "Client: It's funny you ask that. I've noticed I'm a bit more confident at work lately. I run my own online business, and I used to be terrified of client calls. But now, I'm finding it easier to speak up, to assert myself. It's like... if I can face this trauma, maybe I can face other challenges too? I don't know if that makes sense."
+    ],
+    [
+      "Therapist: I'm glad you feel supported. How has this process affected other areas of your life?",
+      "Client: It's funny you ask that. I've noticed I'm a bit more confident at work lately. I run my own online business, and I used to be terrified of client calls. But now, I'm finding it easier to speak up, to assert myself. It's like... if I can face this trauma, maybe I can face other challenges too? I don't know if that makes sense.",
+      "Therapist: It does. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: It's funny you ask that. I've noticed I'm a bit more confident at work lately. I run my own online business, and I used to be terrified of client calls. But now, I'm finding it easier to speak up, to assert myself. It's like... if I can face this trauma, maybe I can face other challenges too? I don't know if that makes sense.",
+      "Therapist: It does. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I guess? It's still scary, and sometimes I wonder if I'm making any progress at all. But then I have moments where I realize I've done something I couldn't do before, like walking past a dog park without having a panic attack. It's small, but it feels huge, you know? So yeah, I want to keep going. It's tough, but I think it's worth it."
+    ],
+    [
+      "Therapist: It does. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I guess? It's still scary, and sometimes I wonder if I'm making any progress at all. But then I have moments where I realize I've done something I couldn't do before, like walking past a dog park without having a panic attack. It's small, but it feels huge, you know? So yeah, I want to keep going. It's tough, but I think it's worth it.",
+      "Therapist: That's a powerful perspective. What's your main takeaway from today's session?"
+    ],
+    [
+      "Client: I'm... cautiously optimistic, I guess? It's still scary, and sometimes I wonder if I'm making any progress at all. But then I have moments where I realize I've done something I couldn't do before, like walking past a dog park without having a panic attack. It's small, but it feels huge, you know? So yeah, I want to keep going. It's tough, but I think it's worth it.",
+      "Therapist: That's a powerful perspective. What's your main takeaway from today's session?",
+      "Client: I think... maybe that I'm stronger than I thought? Like, reliving that memory is horrible, but I can do it. And each time, it gets a tiny bit easier. I'm not saying I'm cured or anything, but I feel like I'm not just a victim anymore. I'm actively working on getting better, and that feels... empowering, I guess. Is that weird?"
+    ],
+    [
+      "Therapist: That's a powerful perspective. What's your main takeaway from today's session?",
+      "Client: I think... maybe that I'm stronger than I thought? Like, reliving that memory is horrible, but I can do it. And each time, it gets a tiny bit easier. I'm not saying I'm cured or anything, but I feel like I'm not just a victim anymore. I'm actively working on getting better, and that feels... empowering, I guess. Is that weird?",
+      "Therapist: Not at all. How will you care for yourself after this intense session?"
+    ],
+    [
+      "Client: I think... maybe that I'm stronger than I thought? Like, reliving that memory is horrible, but I can do it. And each time, it gets a tiny bit easier. I'm not saying I'm cured or anything, but I feel like I'm not just a victim anymore. I'm actively working on getting better, and that feels... empowering, I guess. Is that weird?",
+      "Therapist: Not at all. How will you care for yourself after this intense session?",
+      "Client: Oh, good question. I think I'll take a long walk in the park near my apartment. It usually helps clear my head. And maybe I'll call my sister. She's been really supportive throughout this whole process. Just hearing her voice helps ground me, you know? And I've been trying this new meditation app before bed. It doesn't always work, but when it does, it really helps with the nightmares."
+    ],
+    [
+      "Therapist: Not at all. How will you care for yourself after this intense session?",
+      "Client: Oh, good question. I think I'll take a long walk in the park near my apartment. It usually helps clear my head. And maybe I'll call my sister. She's been really supportive throughout this whole process. Just hearing her voice helps ground me, you know? And I've been trying this new meditation app before bed. It doesn't always work, but when it does, it really helps with the nightmares.",
+      "Therapist: Those sound like excellent self-care strategies. Any final thoughts?"
+    ],
+    [
+      "Client: Oh, good question. I think I'll take a long walk in the park near my apartment. It usually helps clear my head. And maybe I'll call my sister. She's been really supportive throughout this whole process. Just hearing her voice helps ground me, you know? And I've been trying this new meditation app before bed. It doesn't always work, but when it does, it really helps with the nightmares.",
+      "Therapist: Those sound like excellent self-care strategies. Any final thoughts?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward instead of being stuck in that moment of terror. I know we have a long way to go, but for the first time in years, I feel hopeful. Like maybe one day, I'll be able to walk down the street without constantly looking over my shoulder. That would be... that would be amazing."
+    ],
+    [
+      "Therapist: Those sound like excellent self-care strategies. Any final thoughts?",
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward instead of being stuck in that moment of terror. I know we have a long way to go, but for the first time in years, I feel hopeful. Like maybe one day, I'll be able to walk down the street without constantly looking over my shoulder. That would be... that would be amazing.",
+      "Therapist: You're doing great work, Sarah. See you next week?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For listening, for guiding me through this. It's not easy, but I feel like I'm finally moving forward instead of being stuck in that moment of terror. I know we have a long way to go, but for the first time in years, I feel hopeful. Like maybe one day, I'll be able to walk down the street without constantly looking over my shoulder. That would be... that would be amazing.",
+      "Therapist: You're doing great work, Sarah. See you next week?",
+      "Client: Definitely. Thanks again. See you then."
+    ]
+  ]
+}

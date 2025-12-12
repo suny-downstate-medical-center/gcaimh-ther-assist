@@ -1,0 +1,200 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thanks. I've been thinking a lot about what we discussed last time, about my childhood and how it might relate to my experience in the military. It's been... difficult to process.",
+    "Therapist: You're very brave for facing this. Shall we begin?",
+    "Client: Yes, I think I'm ready. Where should I start?",
+    "Therapist: Let's focus on a specific memory. Take your time.",
+    "Client: Okay... I'm thinking about a night when I was seven. My dad had been drinking, and he came into my room... (voice trembles) He was angry about something, I don't remember what. But I remember feeling so small and scared.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: (takes a deep breath) He started yelling, his face was so close to mine. I could smell the alcohol on his breath. I wanted to disappear, to sink into my bed and vanish. My heart was racing so fast, I thought it might burst out of my chest.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: (voice shaking) I... I can't. It's too much.",
+    "Therapist: Take a deep breath. You can handle this.",
+    "Client: (inhales deeply) Okay... I remember pulling my blanket up, trying to hide. But he grabbed it and threw it off. I was shaking so hard, and I started to cry. That made him even angrier.",
+    "Therapist: You're being very brave. Continue when you're ready.",
+    "Client: He... he grabbed my arm. It hurt so much. I can still feel his fingers digging into my skin. (starts crying) I'm sorry, I...",
+    "Therapist: It's okay to feel emotional. You're doing well.",
+    "Client: (wiping tears) Thank you. It's just... this memory, it's so vivid. I can hear his voice, smell the alcohol, feel the pain in my arm. It's like I'm there again.",
+    "Therapist: Remember, you're here now. You're safe.",
+    "Client: Right, I'm here. I'm safe. (takes another deep breath) After he grabbed my arm, he started shaking me. I was so terrified, I couldn't even scream. I just froze.",
+    "Therapist: You're handling this incredibly well. Keep going.",
+    "Client: I remember wishing my mom would come in, save me. But she never did. I felt so alone, so helpless. It's the same feeling I had during my first combat mission. That overwhelming fear, the feeling of being trapped.",
+    "Therapist: I hear you. You're making important connections.",
+    "Client: Yeah, I... I never realized how similar those feelings were until now. In both situations, I felt like I had no control, like I was at the mercy of forces much bigger than me.",
+    "Therapist: That's a powerful insight. How do you feel now?",
+    "Client: Exhausted, but... also a bit relieved? Like I've let go of something I've been holding onto for a long time.",
+    "Therapist: That's often how it feels. You've done excellent work today.",
+    "Client: Thank you, Dr. Thompson. I never thought I'd be able to talk about this without completely falling apart.",
+    "Therapist: You've shown tremendous strength. How about we wrap up?",
+    "Client: Yes, I think that would be good. I feel drained, but in a way, I also feel lighter. Is that normal?",
+    "Therapist: It's very common. You've processed difficult emotions.",
+    "Client: I see. Well, thank you again. I know we still have a lot to work through, but I feel like I've made some progress today.",
+    "Therapist: You absolutely have. We'll continue next week. Take care, Sarah.",
+    "Client: Thank you, Dr. Thompson. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I've been thinking a lot about what we discussed last time, about my childhood and how it might relate to my experience in the military. It's been... difficult to process."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I've been thinking a lot about what we discussed last time, about my childhood and how it might relate to my experience in the military. It's been... difficult to process.",
+      "Therapist: You're very brave for facing this. Shall we begin?"
+    ],
+    [
+      "Client: Thanks. I've been thinking a lot about what we discussed last time, about my childhood and how it might relate to my experience in the military. It's been... difficult to process.",
+      "Therapist: You're very brave for facing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?"
+    ],
+    [
+      "Therapist: You're very brave for facing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Let's focus on a specific memory. Take your time."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Let's focus on a specific memory. Take your time.",
+      "Client: Okay... I'm thinking about a night when I was seven. My dad had been drinking, and he came into my room... (voice trembles) He was angry about something, I don't remember what. But I remember feeling so small and scared."
+    ],
+    [
+      "Therapist: Let's focus on a specific memory. Take your time.",
+      "Client: Okay... I'm thinking about a night when I was seven. My dad had been drinking, and he came into my room... (voice trembles) He was angry about something, I don't remember what. But I remember feeling so small and scared.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Okay... I'm thinking about a night when I was seven. My dad had been drinking, and he came into my room... (voice trembles) He was angry about something, I don't remember what. But I remember feeling so small and scared.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: (takes a deep breath) He started yelling, his face was so close to mine. I could smell the alcohol on his breath. I wanted to disappear, to sink into my bed and vanish. My heart was racing so fast, I thought it might burst out of my chest."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: (takes a deep breath) He started yelling, his face was so close to mine. I could smell the alcohol on his breath. I wanted to disappear, to sink into my bed and vanish. My heart was racing so fast, I thought it might burst out of my chest.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: (takes a deep breath) He started yelling, his face was so close to mine. I could smell the alcohol on his breath. I wanted to disappear, to sink into my bed and vanish. My heart was racing so fast, I thought it might burst out of my chest.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice shaking) I... I can't. It's too much."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice shaking) I... I can't. It's too much.",
+      "Therapist: Take a deep breath. You can handle this."
+    ],
+    [
+      "Client: (voice shaking) I... I can't. It's too much.",
+      "Therapist: Take a deep breath. You can handle this.",
+      "Client: (inhales deeply) Okay... I remember pulling my blanket up, trying to hide. But he grabbed it and threw it off. I was shaking so hard, and I started to cry. That made him even angrier."
+    ],
+    [
+      "Therapist: Take a deep breath. You can handle this.",
+      "Client: (inhales deeply) Okay... I remember pulling my blanket up, trying to hide. But he grabbed it and threw it off. I was shaking so hard, and I started to cry. That made him even angrier.",
+      "Therapist: You're being very brave. Continue when you're ready."
+    ],
+    [
+      "Client: (inhales deeply) Okay... I remember pulling my blanket up, trying to hide. But he grabbed it and threw it off. I was shaking so hard, and I started to cry. That made him even angrier.",
+      "Therapist: You're being very brave. Continue when you're ready.",
+      "Client: He... he grabbed my arm. It hurt so much. I can still feel his fingers digging into my skin. (starts crying) I'm sorry, I..."
+    ],
+    [
+      "Therapist: You're being very brave. Continue when you're ready.",
+      "Client: He... he grabbed my arm. It hurt so much. I can still feel his fingers digging into my skin. (starts crying) I'm sorry, I...",
+      "Therapist: It's okay to feel emotional. You're doing well."
+    ],
+    [
+      "Client: He... he grabbed my arm. It hurt so much. I can still feel his fingers digging into my skin. (starts crying) I'm sorry, I...",
+      "Therapist: It's okay to feel emotional. You're doing well.",
+      "Client: (wiping tears) Thank you. It's just... this memory, it's so vivid. I can hear his voice, smell the alcohol, feel the pain in my arm. It's like I'm there again."
+    ],
+    [
+      "Therapist: It's okay to feel emotional. You're doing well.",
+      "Client: (wiping tears) Thank you. It's just... this memory, it's so vivid. I can hear his voice, smell the alcohol, feel the pain in my arm. It's like I'm there again.",
+      "Therapist: Remember, you're here now. You're safe."
+    ],
+    [
+      "Client: (wiping tears) Thank you. It's just... this memory, it's so vivid. I can hear his voice, smell the alcohol, feel the pain in my arm. It's like I'm there again.",
+      "Therapist: Remember, you're here now. You're safe.",
+      "Client: Right, I'm here. I'm safe. (takes another deep breath) After he grabbed my arm, he started shaking me. I was so terrified, I couldn't even scream. I just froze."
+    ],
+    [
+      "Therapist: Remember, you're here now. You're safe.",
+      "Client: Right, I'm here. I'm safe. (takes another deep breath) After he grabbed my arm, he started shaking me. I was so terrified, I couldn't even scream. I just froze.",
+      "Therapist: You're handling this incredibly well. Keep going."
+    ],
+    [
+      "Client: Right, I'm here. I'm safe. (takes another deep breath) After he grabbed my arm, he started shaking me. I was so terrified, I couldn't even scream. I just froze.",
+      "Therapist: You're handling this incredibly well. Keep going.",
+      "Client: I remember wishing my mom would come in, save me. But she never did. I felt so alone, so helpless. It's the same feeling I had during my first combat mission. That overwhelming fear, the feeling of being trapped."
+    ],
+    [
+      "Therapist: You're handling this incredibly well. Keep going.",
+      "Client: I remember wishing my mom would come in, save me. But she never did. I felt so alone, so helpless. It's the same feeling I had during my first combat mission. That overwhelming fear, the feeling of being trapped.",
+      "Therapist: I hear you. You're making important connections."
+    ],
+    [
+      "Client: I remember wishing my mom would come in, save me. But she never did. I felt so alone, so helpless. It's the same feeling I had during my first combat mission. That overwhelming fear, the feeling of being trapped.",
+      "Therapist: I hear you. You're making important connections.",
+      "Client: Yeah, I... I never realized how similar those feelings were until now. In both situations, I felt like I had no control, like I was at the mercy of forces much bigger than me."
+    ],
+    [
+      "Therapist: I hear you. You're making important connections.",
+      "Client: Yeah, I... I never realized how similar those feelings were until now. In both situations, I felt like I had no control, like I was at the mercy of forces much bigger than me.",
+      "Therapist: That's a powerful insight. How do you feel now?"
+    ],
+    [
+      "Client: Yeah, I... I never realized how similar those feelings were until now. In both situations, I felt like I had no control, like I was at the mercy of forces much bigger than me.",
+      "Therapist: That's a powerful insight. How do you feel now?",
+      "Client: Exhausted, but... also a bit relieved? Like I've let go of something I've been holding onto for a long time."
+    ],
+    [
+      "Therapist: That's a powerful insight. How do you feel now?",
+      "Client: Exhausted, but... also a bit relieved? Like I've let go of something I've been holding onto for a long time.",
+      "Therapist: That's often how it feels. You've done excellent work today."
+    ],
+    [
+      "Client: Exhausted, but... also a bit relieved? Like I've let go of something I've been holding onto for a long time.",
+      "Therapist: That's often how it feels. You've done excellent work today.",
+      "Client: Thank you, Dr. Thompson. I never thought I'd be able to talk about this without completely falling apart."
+    ],
+    [
+      "Therapist: That's often how it feels. You've done excellent work today.",
+      "Client: Thank you, Dr. Thompson. I never thought I'd be able to talk about this without completely falling apart.",
+      "Therapist: You've shown tremendous strength. How about we wrap up?"
+    ],
+    [
+      "Client: Thank you, Dr. Thompson. I never thought I'd be able to talk about this without completely falling apart.",
+      "Therapist: You've shown tremendous strength. How about we wrap up?",
+      "Client: Yes, I think that would be good. I feel drained, but in a way, I also feel lighter. Is that normal?"
+    ],
+    [
+      "Therapist: You've shown tremendous strength. How about we wrap up?",
+      "Client: Yes, I think that would be good. I feel drained, but in a way, I also feel lighter. Is that normal?",
+      "Therapist: It's very common. You've processed difficult emotions."
+    ],
+    [
+      "Client: Yes, I think that would be good. I feel drained, but in a way, I also feel lighter. Is that normal?",
+      "Therapist: It's very common. You've processed difficult emotions.",
+      "Client: I see. Well, thank you again. I know we still have a lot to work through, but I feel like I've made some progress today."
+    ],
+    [
+      "Therapist: It's very common. You've processed difficult emotions.",
+      "Client: I see. Well, thank you again. I know we still have a lot to work through, but I feel like I've made some progress today.",
+      "Therapist: You absolutely have. We'll continue next week. Take care, Sarah."
+    ],
+    [
+      "Client: I see. Well, thank you again. I know we still have a lot to work through, but I feel like I've made some progress today.",
+      "Therapist: You absolutely have. We'll continue next week. Take care, Sarah.",
+      "Client: Thank you, Dr. Thompson. See you next week."
+    ]
+  ]
+}

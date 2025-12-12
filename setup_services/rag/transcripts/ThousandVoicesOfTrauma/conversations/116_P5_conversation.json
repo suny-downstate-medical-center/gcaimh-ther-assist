@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Lee, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: Oh, Dr. Chen, I'm quite nervous. I've been dreading this part of our sessions. The idea of reliving that terrible day when the tsunami hit our village... it's overwhelming. I've spent years trying to forget it all.",
+    "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will bring back all those horrible memories. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, and my heart isn't as strong. What if it's too much for me?",
+    "Therapist: Those are valid concerns. How about we discuss how this exercise can help?",
+    "Client: I suppose that would be good. I trust you, Dr. Chen, but I'm still scared. It's been over a decade since the tsunami, but sometimes it feels like yesterday. The sounds of the water, the screams... I can still hear them so clearly. But please, go ahead and explain how this might help.",
+    "Therapist: The exposure helps process trauma memories, reducing their power over time. How does that sound?",
+    "Client: I understand the logic, but it's still frightening. Will you be with me the whole time? What if I start to panic? I've had nightmares about the tsunami for years, and sometimes I wake up feeling like I'm drowning. I don't want to feel that way while I'm awake too.",
+    "Therapist: I'll be here throughout, guiding and supporting you. We can pause anytime. What other questions do you have?",
+    "Client: That's reassuring, thank you. I suppose I'm wondering how long this will take. Will we need to do this multiple times? And what exactly do you want me to describe? There's so much that happened that day, from the moment we felt the earthquake to the days after in the refugee camp. It's all a blur of fear and loss.",
+    "Therapist: We'll focus on key moments, going at your pace. Multiple sessions help, but we'll assess as we go. Any other concerns?",
+    "Client: I appreciate your patience, Dr. Chen. I guess I'm also worried about how I'll feel afterwards. Will I be able to function normally? My husband is supportive, but he doesn't really understand what I went through. He wasn't there. I don't want to burden him with my distress after these sessions.",
+    "Therapist: It's normal to feel emotional after. We'll debrief and ensure you're stable before leaving. Your courage is admirable.",
+    "Client: Thank you for saying that. It doesn't feel like courage, more like necessity. I'm tired of living with this fear, of avoiding the beach, of panicking every time it rains heavily. If this can help, I want to try. But I'm still scared. Can you tell me exactly what you want me to do?",
+    "Therapist: You'll describe the event in detail, present tense, as if reliving it. We'll start and end at safe points.",
+    "Client: In the present tense? That sounds intense. But I understand why it might be effective. I'll do my best, Dr. Chen. I trust that you know what you're doing. Is there anything else I should know before we begin? Any techniques to help me stay grounded if it becomes too overwhelming?",
+    "Therapist: Focus on your breath if overwhelmed. Remember you're safe here. Ready to begin?",
+    "Client: I think so. I'm nervous, but I'm also hopeful that this might help. Thank you for your guidance and patience, Dr. Chen. I'll try to focus on my breathing if it gets too intense. And thank you for reminding me that I'm safe here. That's important to remember. Okay, I'm ready. Let's start."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Lee, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: Oh, Dr. Chen, I'm quite nervous. I've been dreading this part of our sessions. The idea of reliving that terrible day when the tsunami hit our village... it's overwhelming. I've spent years trying to forget it all.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Oh, Dr. Chen, I'm quite nervous. I've been dreading this part of our sessions. The idea of reliving that terrible day when the tsunami hit our village... it's overwhelming. I've spent years trying to forget it all.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those horrible memories. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, and my heart isn't as strong. What if it's too much for me?"
+    ],
+    [
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring back all those horrible memories. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, and my heart isn't as strong. What if it's too much for me?",
+      "Therapist: Those are valid concerns. How about we discuss how this exercise can help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will bring back all those horrible memories. What if I can't handle it? What if I break down completely? I'm not as young as I used to be, and my heart isn't as strong. What if it's too much for me?",
+      "Therapist: Those are valid concerns. How about we discuss how this exercise can help?",
+      "Client: I suppose that would be good. I trust you, Dr. Chen, but I'm still scared. It's been over a decade since the tsunami, but sometimes it feels like yesterday. The sounds of the water, the screams... I can still hear them so clearly. But please, go ahead and explain how this might help."
+    ],
+    [
+      "Therapist: Those are valid concerns. How about we discuss how this exercise can help?",
+      "Client: I suppose that would be good. I trust you, Dr. Chen, but I'm still scared. It's been over a decade since the tsunami, but sometimes it feels like yesterday. The sounds of the water, the screams... I can still hear them so clearly. But please, go ahead and explain how this might help.",
+      "Therapist: The exposure helps process trauma memories, reducing their power over time. How does that sound?"
+    ],
+    [
+      "Client: I suppose that would be good. I trust you, Dr. Chen, but I'm still scared. It's been over a decade since the tsunami, but sometimes it feels like yesterday. The sounds of the water, the screams... I can still hear them so clearly. But please, go ahead and explain how this might help.",
+      "Therapist: The exposure helps process trauma memories, reducing their power over time. How does that sound?",
+      "Client: I understand the logic, but it's still frightening. Will you be with me the whole time? What if I start to panic? I've had nightmares about the tsunami for years, and sometimes I wake up feeling like I'm drowning. I don't want to feel that way while I'm awake too."
+    ],
+    [
+      "Therapist: The exposure helps process trauma memories, reducing their power over time. How does that sound?",
+      "Client: I understand the logic, but it's still frightening. Will you be with me the whole time? What if I start to panic? I've had nightmares about the tsunami for years, and sometimes I wake up feeling like I'm drowning. I don't want to feel that way while I'm awake too.",
+      "Therapist: I'll be here throughout, guiding and supporting you. We can pause anytime. What other questions do you have?"
+    ],
+    [
+      "Client: I understand the logic, but it's still frightening. Will you be with me the whole time? What if I start to panic? I've had nightmares about the tsunami for years, and sometimes I wake up feeling like I'm drowning. I don't want to feel that way while I'm awake too.",
+      "Therapist: I'll be here throughout, guiding and supporting you. We can pause anytime. What other questions do you have?",
+      "Client: That's reassuring, thank you. I suppose I'm wondering how long this will take. Will we need to do this multiple times? And what exactly do you want me to describe? There's so much that happened that day, from the moment we felt the earthquake to the days after in the refugee camp. It's all a blur of fear and loss."
+    ],
+    [
+      "Therapist: I'll be here throughout, guiding and supporting you. We can pause anytime. What other questions do you have?",
+      "Client: That's reassuring, thank you. I suppose I'm wondering how long this will take. Will we need to do this multiple times? And what exactly do you want me to describe? There's so much that happened that day, from the moment we felt the earthquake to the days after in the refugee camp. It's all a blur of fear and loss.",
+      "Therapist: We'll focus on key moments, going at your pace. Multiple sessions help, but we'll assess as we go. Any other concerns?"
+    ],
+    [
+      "Client: That's reassuring, thank you. I suppose I'm wondering how long this will take. Will we need to do this multiple times? And what exactly do you want me to describe? There's so much that happened that day, from the moment we felt the earthquake to the days after in the refugee camp. It's all a blur of fear and loss.",
+      "Therapist: We'll focus on key moments, going at your pace. Multiple sessions help, but we'll assess as we go. Any other concerns?",
+      "Client: I appreciate your patience, Dr. Chen. I guess I'm also worried about how I'll feel afterwards. Will I be able to function normally? My husband is supportive, but he doesn't really understand what I went through. He wasn't there. I don't want to burden him with my distress after these sessions."
+    ],
+    [
+      "Therapist: We'll focus on key moments, going at your pace. Multiple sessions help, but we'll assess as we go. Any other concerns?",
+      "Client: I appreciate your patience, Dr. Chen. I guess I'm also worried about how I'll feel afterwards. Will I be able to function normally? My husband is supportive, but he doesn't really understand what I went through. He wasn't there. I don't want to burden him with my distress after these sessions.",
+      "Therapist: It's normal to feel emotional after. We'll debrief and ensure you're stable before leaving. Your courage is admirable."
+    ],
+    [
+      "Client: I appreciate your patience, Dr. Chen. I guess I'm also worried about how I'll feel afterwards. Will I be able to function normally? My husband is supportive, but he doesn't really understand what I went through. He wasn't there. I don't want to burden him with my distress after these sessions.",
+      "Therapist: It's normal to feel emotional after. We'll debrief and ensure you're stable before leaving. Your courage is admirable.",
+      "Client: Thank you for saying that. It doesn't feel like courage, more like necessity. I'm tired of living with this fear, of avoiding the beach, of panicking every time it rains heavily. If this can help, I want to try. But I'm still scared. Can you tell me exactly what you want me to do?"
+    ],
+    [
+      "Therapist: It's normal to feel emotional after. We'll debrief and ensure you're stable before leaving. Your courage is admirable.",
+      "Client: Thank you for saying that. It doesn't feel like courage, more like necessity. I'm tired of living with this fear, of avoiding the beach, of panicking every time it rains heavily. If this can help, I want to try. But I'm still scared. Can you tell me exactly what you want me to do?",
+      "Therapist: You'll describe the event in detail, present tense, as if reliving it. We'll start and end at safe points."
+    ],
+    [
+      "Client: Thank you for saying that. It doesn't feel like courage, more like necessity. I'm tired of living with this fear, of avoiding the beach, of panicking every time it rains heavily. If this can help, I want to try. But I'm still scared. Can you tell me exactly what you want me to do?",
+      "Therapist: You'll describe the event in detail, present tense, as if reliving it. We'll start and end at safe points.",
+      "Client: In the present tense? That sounds intense. But I understand why it might be effective. I'll do my best, Dr. Chen. I trust that you know what you're doing. Is there anything else I should know before we begin? Any techniques to help me stay grounded if it becomes too overwhelming?"
+    ],
+    [
+      "Therapist: You'll describe the event in detail, present tense, as if reliving it. We'll start and end at safe points.",
+      "Client: In the present tense? That sounds intense. But I understand why it might be effective. I'll do my best, Dr. Chen. I trust that you know what you're doing. Is there anything else I should know before we begin? Any techniques to help me stay grounded if it becomes too overwhelming?",
+      "Therapist: Focus on your breath if overwhelmed. Remember you're safe here. Ready to begin?"
+    ],
+    [
+      "Client: In the present tense? That sounds intense. But I understand why it might be effective. I'll do my best, Dr. Chen. I trust that you know what you're doing. Is there anything else I should know before we begin? Any techniques to help me stay grounded if it becomes too overwhelming?",
+      "Therapist: Focus on your breath if overwhelmed. Remember you're safe here. Ready to begin?",
+      "Client: I think so. I'm nervous, but I'm also hopeful that this might help. Thank you for your guidance and patience, Dr. Chen. I'll try to focus on my breathing if it gets too intense. And thank you for reminding me that I'm safe here. That's important to remember. Okay, I'm ready. Let's start."
+    ]
+  ]
+}

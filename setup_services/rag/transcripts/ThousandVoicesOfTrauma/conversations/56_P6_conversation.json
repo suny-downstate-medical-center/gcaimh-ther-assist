@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm back in the war zone. The air is thick with dust and smoke. I can hear distant explosions and gunfire. My heart is racing, and my palms are sweaty. I'm on patrol with my unit, moving through a small village. The streets are eerily quiet, but I can feel eyes watching us from behind closed shutters.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 5. It's uncomfortable, but manageable.",
+    "Therapist: Okay. Continue describing what you're experiencing.",
+    "Client: We turn a corner, and suddenly there's a group of children. They look terrified, huddled together. But something feels off. I notice a young girl, maybe 12 or 13, being pushed forward by an older man. She looks... different. Her eyes are vacant, and she's dressed too maturely for her age. My stomach churns as I realize what's happening.",
+    "Therapist: Your SUDS rating now?",
+    "Client: It's... it's gone up to a 7. I feel sick thinking about it.",
+    "Therapist: That's understandable. You're doing well. Keep going.",
+    "Client: I want to help her, but we have our orders. We can't intervene in local matters unless there's an immediate threat. I feel so helpless. The girl looks at me, and I see a flicker of hope in her eyes. But I have to turn away. I... I can't bear it. My hands are shaking on my weapon.",
+    "Therapist: And your SUDS rating at this moment?",
+    "Client: It's an 8 now. I feel like I can't breathe. The guilt is overwhelming.",
+    "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+    "Client: (breathing deeply) Right... okay. As we move past, I hear a commotion behind us. The girl is crying out, but I can't understand the language. I want to turn back, to do something, anything. But I don't. We keep walking, and her cries fade away. I feel like a coward, like I've failed her.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's still an 8. My chest feels tight, and I'm sweating.",
+    "Therapist: You're doing great. Keep breathing. What happens next?",
+    "Client: We finish our patrol, but I can't shake the image of that girl. When we get back to base, I try to report it, but I'm told it's not our problem. I lie awake that night, haunted by her eyes. I keep wondering what happened to her, if I could have done something different.",
+    "Therapist: And your SUDS rating?",
+    "Client: It's gone down a bit, maybe a 6 now. I feel drained, but the intense anxiety has faded.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: Exhausted, really. And sad. But... also a little relieved to have talked about it.",
+    "Therapist: That's normal. You did well today. Let's take a moment to ground ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in the war zone. The air is thick with dust and smoke. I can hear distant explosions and gunfire. My heart is racing, and my palms are sweaty. I'm on patrol with my unit, moving through a small village. The streets are eerily quiet, but I can feel eyes watching us from behind closed shutters."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in the war zone. The air is thick with dust and smoke. I can hear distant explosions and gunfire. My heart is racing, and my palms are sweaty. I'm on patrol with my unit, moving through a small village. The streets are eerily quiet, but I can feel eyes watching us from behind closed shutters.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in the war zone. The air is thick with dust and smoke. I can hear distant explosions and gunfire. My heart is racing, and my palms are sweaty. I'm on patrol with my unit, moving through a small village. The streets are eerily quiet, but I can feel eyes watching us from behind closed shutters.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5. It's uncomfortable, but manageable."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, I'd say about a 5. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: We turn a corner, and suddenly there's a group of children. They look terrified, huddled together. But something feels off. I notice a young girl, maybe 12 or 13, being pushed forward by an older man. She looks... different. Her eyes are vacant, and she's dressed too maturely for her age. My stomach churns as I realize what's happening."
+    ],
+    [
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: We turn a corner, and suddenly there's a group of children. They look terrified, huddled together. But something feels off. I notice a young girl, maybe 12 or 13, being pushed forward by an older man. She looks... different. Her eyes are vacant, and she's dressed too maturely for her age. My stomach churns as I realize what's happening.",
+      "Therapist: Your SUDS rating now?"
+    ],
+    [
+      "Client: We turn a corner, and suddenly there's a group of children. They look terrified, huddled together. But something feels off. I notice a young girl, maybe 12 or 13, being pushed forward by an older man. She looks... different. Her eyes are vacant, and she's dressed too maturely for her age. My stomach churns as I realize what's happening.",
+      "Therapist: Your SUDS rating now?",
+      "Client: It's... it's gone up to a 7. I feel sick thinking about it."
+    ],
+    [
+      "Therapist: Your SUDS rating now?",
+      "Client: It's... it's gone up to a 7. I feel sick thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 7. I feel sick thinking about it.",
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: I want to help her, but we have our orders. We can't intervene in local matters unless there's an immediate threat. I feel so helpless. The girl looks at me, and I see a flicker of hope in her eyes. But I have to turn away. I... I can't bear it. My hands are shaking on my weapon."
+    ],
+    [
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: I want to help her, but we have our orders. We can't intervene in local matters unless there's an immediate threat. I feel so helpless. The girl looks at me, and I see a flicker of hope in her eyes. But I have to turn away. I... I can't bear it. My hands are shaking on my weapon.",
+      "Therapist: And your SUDS rating at this moment?"
+    ],
+    [
+      "Client: I want to help her, but we have our orders. We can't intervene in local matters unless there's an immediate threat. I feel so helpless. The girl looks at me, and I see a flicker of hope in her eyes. But I have to turn away. I... I can't bear it. My hands are shaking on my weapon.",
+      "Therapist: And your SUDS rating at this moment?",
+      "Client: It's an 8 now. I feel like I can't breathe. The guilt is overwhelming."
+    ],
+    [
+      "Therapist: And your SUDS rating at this moment?",
+      "Client: It's an 8 now. I feel like I can't breathe. The guilt is overwhelming.",
+      "Therapist: Take a deep breath. You're safe here. This is just a memory."
+    ],
+    [
+      "Client: It's an 8 now. I feel like I can't breathe. The guilt is overwhelming.",
+      "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+      "Client: (breathing deeply) Right... okay. As we move past, I hear a commotion behind us. The girl is crying out, but I can't understand the language. I want to turn back, to do something, anything. But I don't. We keep walking, and her cries fade away. I feel like a coward, like I've failed her."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. This is just a memory.",
+      "Client: (breathing deeply) Right... okay. As we move past, I hear a commotion behind us. The girl is crying out, but I can't understand the language. I want to turn back, to do something, anything. But I don't. We keep walking, and her cries fade away. I feel like a coward, like I've failed her.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: (breathing deeply) Right... okay. As we move past, I hear a commotion behind us. The girl is crying out, but I can't understand the language. I want to turn back, to do something, anything. But I don't. We keep walking, and her cries fade away. I feel like a coward, like I've failed her.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still an 8. My chest feels tight, and I'm sweating."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's still an 8. My chest feels tight, and I'm sweating.",
+      "Therapist: You're doing great. Keep breathing. What happens next?"
+    ],
+    [
+      "Client: It's... it's still an 8. My chest feels tight, and I'm sweating.",
+      "Therapist: You're doing great. Keep breathing. What happens next?",
+      "Client: We finish our patrol, but I can't shake the image of that girl. When we get back to base, I try to report it, but I'm told it's not our problem. I lie awake that night, haunted by her eyes. I keep wondering what happened to her, if I could have done something different."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing. What happens next?",
+      "Client: We finish our patrol, but I can't shake the image of that girl. When we get back to base, I try to report it, but I'm told it's not our problem. I lie awake that night, haunted by her eyes. I keep wondering what happened to her, if I could have done something different.",
+      "Therapist: And your SUDS rating?"
+    ],
+    [
+      "Client: We finish our patrol, but I can't shake the image of that girl. When we get back to base, I try to report it, but I'm told it's not our problem. I lie awake that night, haunted by her eyes. I keep wondering what happened to her, if I could have done something different.",
+      "Therapist: And your SUDS rating?",
+      "Client: It's gone down a bit, maybe a 6 now. I feel drained, but the intense anxiety has faded."
+    ],
+    [
+      "Therapist: And your SUDS rating?",
+      "Client: It's gone down a bit, maybe a 6 now. I feel drained, but the intense anxiety has faded.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's gone down a bit, maybe a 6 now. I feel drained, but the intense anxiety has faded.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted, really. And sad. But... also a little relieved to have talked about it."
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted, really. And sad. But... also a little relieved to have talked about it.",
+      "Therapist: That's normal. You did well today. Let's take a moment to ground ourselves."
+    ]
+  ]
+}

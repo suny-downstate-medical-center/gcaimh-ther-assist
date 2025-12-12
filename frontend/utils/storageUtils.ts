@@ -1,3 +1,17 @@
+// Copyright 2025 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
 /**
  * Utility functions for handling Google Cloud Storage URIs and file access
  */
@@ -35,12 +49,21 @@ export function getStorageAccessUrl(gcsUri: string): string {
 /**
  * Get file metadata from a GCS URI without downloading the file
  * @param gcsUri - The GCS URI
+ * @param authToken - Firebase ID token for authentication
  * @returns Promise with file metadata or null if not found
  */
-export async function getFileMetadata(gcsUri: string): Promise<any | null> {
+export async function getFileMetadata(gcsUri: string, authToken?: string): Promise<any | null> {
   try {
     const metadataUrl = `${STORAGE_ACCESS_URL}/metadata?uri=${encodeURIComponent(gcsUri)}`;
-    const response = await fetch(metadataUrl);
+    const headers: HeadersInit = {
+      'Content-Type': 'application/json',
+    };
+    
+    if (authToken) {
+      headers.Authorization = `Bearer ${authToken}`;
+    }
+    
+    const response = await fetch(metadataUrl, { headers });
     
     if (!response.ok) {
       console.error('Failed to fetch file metadata:', response.statusText);
@@ -55,23 +78,55 @@ export async function getFileMetadata(gcsUri: string): Promise<any | null> {
 }
 
 /**
- * Open a GCS file in a new tab
+ * Open a GCS file in a new tab with authentication
  * @param gcsUri - The GCS URI
+ * @param authToken - Firebase ID token for authentication
  */
-export function openGcsFile(gcsUri: string): void {
-  const url = getStorageAccessUrl(gcsUri);
-  window.open(url, '_blank', 'noopener,noreferrer');
+export async function openGcsFile(gcsUri: string, authToken?: string): Promise<void> {
+  try {
+    const url = getStorageAccessUrl(gcsUri);
+    const headers: HeadersInit = {};
+    
+    if (authToken) {
+      headers.Authorization = `Bearer ${authToken}`;
+    }
+    
+    const response = await fetch(url, { headers });
+    
+    if (!response.ok) {
+      throw new Error(`Failed to open file: ${response.statusText}`);
+    }
+    
+    const blob = await response.blob();
+    const blobUrl = window.URL.createObjectURL(blob);
+    window.open(blobUrl, '_blank', 'noopener,noreferrer');
+    
+    // Clean up the blob URL after a short delay to allow the browser to load it
+    setTimeout(() => {
+      window.URL.revokeObjectURL(blobUrl);
+    }, 1000);
+  } catch (error) {
+    console.error('Error opening file:', error);
+    throw error;
+  }
 }
 
 /**
  * Download a GCS file
  * @param gcsUri - The GCS URI
+ * @param authToken - Firebase ID token for authentication
  * @param filename - Optional filename for download
  */
-export async function downloadGcsFile(gcsUri: string, filename?: string): Promise<void> {
+export async function downloadGcsFile(gcsUri: string, authToken?: string, filename?: string): Promise<void> {
   try {
     const url = getStorageAccessUrl(gcsUri);
-    const response = await fetch(url);
+    const headers: HeadersInit = {};
+    
+    if (authToken) {
+      headers.Authorization = `Bearer ${authToken}`;
+    }
+    
+    const response = await fetch(url, { headers });
     
     if (!response.ok) {
       throw new Error(`Failed to download file: ${response.statusText}`);

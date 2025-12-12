@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after going through that memory today?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. The memory of that animal attack during my deployment... it's so vivid. I can still hear the growling, feel the fear in my chest. It's like I'm right back there in that moment.",
+    "Therapist: What stood out to you most?",
+    "Client: The helplessness, I think. I was trained for combat, but nothing prepared me for a wild animal. I remember freezing, not knowing what to do. And the guilt... one of my teammates got hurt because I couldn't react fast enough.",
+    "Therapist: How does that connect to your day-to-day life now?",
+    "Client: Well, I guess... I'm always on edge. Even here at home, living with my parents, I find myself scanning for threats. It's exhausting. And I avoid anything that reminds me of that day - nature documentaries, parks, even dogs sometimes. It's affecting my studies too. I can't concentrate like I used to.",
+    "Therapist: What did you learn about yourself today?",
+    "Client: I... I realized I'm stronger than I thought. Reliving that memory was tough, but I got through it. And maybe... maybe it's okay that I was scared. Anyone would be in that situation, right?",
+    "Therapist: Absolutely. How do you feel about continuing this work?",
+    "Client: It's hard, really hard. But I think it's helping. I want to be able to enjoy life again, to focus on my studies without these memories haunting me. I'm willing to keep going if you think it'll help.",
+    "Therapist: Your commitment is admirable. What's one thing you'll take away from today?",
+    "Client: I think... I need to be kinder to myself. I've been beating myself up for my reaction during the attack, but maybe it wasn't my fault. I did the best I could in a terrifying situation.",
+    "Therapist: That's a powerful insight. How might you practice that self-compassion?",
+    "Client: Um, maybe... when I start feeling guilty, I could try to remind myself that I'm human. That it's okay to have been scared. And maybe focus on the fact that I survived, that I'm here now, trying to get better.",
+    "Therapist: Excellent. Any final thoughts?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm starting to see a way forward. I'm nervous about our next session, but I'm also... kind of looking forward to it? Is that weird?",
+    "Therapist: Not at all. It shows progress. Shall we wrap up?",
+    "Client: Yeah, I think I'm ready. This was intense, but... good. I feel a bit lighter, somehow. Like I've started to unpack something I've been carrying for a long time. I'm going to try to hold onto this feeling of... I don't know, hope maybe? Yeah, hope. That's a good word for it."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after going through that memory today?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. The memory of that animal attack during my deployment... it's so vivid. I can still hear the growling, feel the fear in my chest. It's like I'm right back there in that moment.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. The memory of that animal attack during my deployment... it's so vivid. I can still hear the growling, feel the fear in my chest. It's like I'm right back there in that moment.",
+      "Therapist: What stood out to you most?",
+      "Client: The helplessness, I think. I was trained for combat, but nothing prepared me for a wild animal. I remember freezing, not knowing what to do. And the guilt... one of my teammates got hurt because I couldn't react fast enough."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The helplessness, I think. I was trained for combat, but nothing prepared me for a wild animal. I remember freezing, not knowing what to do. And the guilt... one of my teammates got hurt because I couldn't react fast enough.",
+      "Therapist: How does that connect to your day-to-day life now?"
+    ],
+    [
+      "Client: The helplessness, I think. I was trained for combat, but nothing prepared me for a wild animal. I remember freezing, not knowing what to do. And the guilt... one of my teammates got hurt because I couldn't react fast enough.",
+      "Therapist: How does that connect to your day-to-day life now?",
+      "Client: Well, I guess... I'm always on edge. Even here at home, living with my parents, I find myself scanning for threats. It's exhausting. And I avoid anything that reminds me of that day - nature documentaries, parks, even dogs sometimes. It's affecting my studies too. I can't concentrate like I used to."
+    ],
+    [
+      "Therapist: How does that connect to your day-to-day life now?",
+      "Client: Well, I guess... I'm always on edge. Even here at home, living with my parents, I find myself scanning for threats. It's exhausting. And I avoid anything that reminds me of that day - nature documentaries, parks, even dogs sometimes. It's affecting my studies too. I can't concentrate like I used to.",
+      "Therapist: What did you learn about yourself today?"
+    ],
+    [
+      "Client: Well, I guess... I'm always on edge. Even here at home, living with my parents, I find myself scanning for threats. It's exhausting. And I avoid anything that reminds me of that day - nature documentaries, parks, even dogs sometimes. It's affecting my studies too. I can't concentrate like I used to.",
+      "Therapist: What did you learn about yourself today?",
+      "Client: I... I realized I'm stronger than I thought. Reliving that memory was tough, but I got through it. And maybe... maybe it's okay that I was scared. Anyone would be in that situation, right?"
+    ],
+    [
+      "Therapist: What did you learn about yourself today?",
+      "Client: I... I realized I'm stronger than I thought. Reliving that memory was tough, but I got through it. And maybe... maybe it's okay that I was scared. Anyone would be in that situation, right?",
+      "Therapist: Absolutely. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I... I realized I'm stronger than I thought. Reliving that memory was tough, but I got through it. And maybe... maybe it's okay that I was scared. Anyone would be in that situation, right?",
+      "Therapist: Absolutely. How do you feel about continuing this work?",
+      "Client: It's hard, really hard. But I think it's helping. I want to be able to enjoy life again, to focus on my studies without these memories haunting me. I'm willing to keep going if you think it'll help."
+    ],
+    [
+      "Therapist: Absolutely. How do you feel about continuing this work?",
+      "Client: It's hard, really hard. But I think it's helping. I want to be able to enjoy life again, to focus on my studies without these memories haunting me. I'm willing to keep going if you think it'll help.",
+      "Therapist: Your commitment is admirable. What's one thing you'll take away from today?"
+    ],
+    [
+      "Client: It's hard, really hard. But I think it's helping. I want to be able to enjoy life again, to focus on my studies without these memories haunting me. I'm willing to keep going if you think it'll help.",
+      "Therapist: Your commitment is admirable. What's one thing you'll take away from today?",
+      "Client: I think... I need to be kinder to myself. I've been beating myself up for my reaction during the attack, but maybe it wasn't my fault. I did the best I could in a terrifying situation."
+    ],
+    [
+      "Therapist: Your commitment is admirable. What's one thing you'll take away from today?",
+      "Client: I think... I need to be kinder to myself. I've been beating myself up for my reaction during the attack, but maybe it wasn't my fault. I did the best I could in a terrifying situation.",
+      "Therapist: That's a powerful insight. How might you practice that self-compassion?"
+    ],
+    [
+      "Client: I think... I need to be kinder to myself. I've been beating myself up for my reaction during the attack, but maybe it wasn't my fault. I did the best I could in a terrifying situation.",
+      "Therapist: That's a powerful insight. How might you practice that self-compassion?",
+      "Client: Um, maybe... when I start feeling guilty, I could try to remind myself that I'm human. That it's okay to have been scared. And maybe focus on the fact that I survived, that I'm here now, trying to get better."
+    ],
+    [
+      "Therapist: That's a powerful insight. How might you practice that self-compassion?",
+      "Client: Um, maybe... when I start feeling guilty, I could try to remind myself that I'm human. That it's okay to have been scared. And maybe focus on the fact that I survived, that I'm here now, trying to get better.",
+      "Therapist: Excellent. Any final thoughts?"
+    ],
+    [
+      "Client: Um, maybe... when I start feeling guilty, I could try to remind myself that I'm human. That it's okay to have been scared. And maybe focus on the fact that I survived, that I'm here now, trying to get better.",
+      "Therapist: Excellent. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm starting to see a way forward. I'm nervous about our next session, but I'm also... kind of looking forward to it? Is that weird?"
+    ],
+    [
+      "Therapist: Excellent. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm starting to see a way forward. I'm nervous about our next session, but I'm also... kind of looking forward to it? Is that weird?",
+      "Therapist: Not at all. It shows progress. Shall we wrap up?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm starting to see a way forward. I'm nervous about our next session, but I'm also... kind of looking forward to it? Is that weird?",
+      "Therapist: Not at all. It shows progress. Shall we wrap up?",
+      "Client: Yeah, I think I'm ready. This was intense, but... good. I feel a bit lighter, somehow. Like I've started to unpack something I've been carrying for a long time. I'm going to try to hold onto this feeling of... I don't know, hope maybe? Yeah, hope. That's a good word for it."
+    ]
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that day at work. What do you see?",
+    "Client: I'm at my desk, it's around 3 PM. The office is quieter than usual. I can hear the hum of the air conditioning and the occasional click of a keyboard. Suddenly, there's a loud crash from the break room.",
+    "Therapist: What happens next?",
+    "Client: I jump up from my chair, my heart starting to race. I can hear raised voices, angry shouting. It's getting louder. I'm frozen, unsure what to do.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably a 6. My palms are getting sweaty just thinking about it.",
+    "Therapist: That's okay. Keep going.",
+    "Client: Right. So, I finally get the courage to peek around the corner. I see my coworker, Jim, red-faced and screaming at our manager. His fists are clenched, and he's... he's holding a broken coffee mug. There's shattered ceramic all over the floor.",
+    "Therapist: How are you feeling in this moment?",
+    "Client: Terrified. My mouth is dry, and I can feel my whole body trembling. I want to run, but I'm rooted to the spot. I can't believe this is happening in our usually calm office.",
+    "Therapist: SUDS level now?",
+    "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: *takes a shaky breath* Okay. Jim takes a step towards our manager, still yelling. I can see the veins in his neck bulging. The manager backs up against the wall, looking scared. I feel so helpless, like I should do something, but I'm paralyzed with fear.",
+    "Therapist: What happens next?",
+    "Client: Suddenly, Jim throws the broken mug. It misses the manager but shatters against the wall. The sound makes me flinch. I let out a small gasp, and Jim turns to look at me. His eyes are... they're wild, unfocused. I've never seen anyone look like that before.",
+    "Therapist: SUDS level?",
+    "Client: It's a 9 now. My heart is pounding so hard I can hear it in my ears. I feel dizzy, like I might pass out.",
+    "Therapist: You're doing well. Remember, you're safe here.",
+    "Client: *nods* Jim starts walking towards me. I can smell the coffee on his breath. He's shouting something about me being a witness, but I can barely understand him over the rush of blood in my ears. I manage to stumble backwards, nearly tripping over my own feet.",
+    "Therapist: How are you feeling now?",
+    "Client: Absolutely terrified. My legs feel weak, and I'm shaking all over. I want to run, but I'm afraid any sudden movement might set Jim off even more.",
+    "Therapist: SUDS level?",
+    "Client: Still a 9. Maybe even a 9.5. I feel like I can't breathe.",
+    "Therapist: Take another deep breath. You're doing great.",
+    "Client: *inhales deeply* Okay. Just then, security bursts in. Two guards grab Jim, and he starts thrashing around, knocking over chairs. I press myself against the wall, trying to make myself as small as possible. The shouting, the noise... it's overwhelming.",
+    "Therapist: What are you experiencing physically?",
+    "Client: My whole body is tense. I can feel my nails digging into my palms. I'm light-headed, and there are spots dancing in my vision. I think I'm hyperventilating.",
+    "Therapist: SUDS level now?",
+    "Client: It's... it's gone down a bit. Maybe an 8? Seeing security there makes me feel a little safer, but I'm still so shaken.",
+    "Therapist: That's understandable. Keep going.",
+    "Client: They manage to get Jim out of the office. The manager comes over to check on me, but his voice sounds far away. I slide down the wall, sitting on the floor. I can't stop shaking. Someone brings me water, but I can barely hold the cup steady enough to drink.",
+    "Therapist: How do you feel as things calm down?",
+    "Client: Numb, mostly. Like I'm watching everything happen from outside my body. I'm still trembling, and I feel exhausted, like I've run a marathon.",
+    "Therapist: Final SUDS rating?",
+    "Client: It's down to a 6 now. I'm feeling drained, but the immediate fear is fading.",
+    "Therapist: You did very well. Let's start grounding now."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day at work. What do you see?"
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day at work. What do you see?",
+      "Client: I'm at my desk, it's around 3 PM. The office is quieter than usual. I can hear the hum of the air conditioning and the occasional click of a keyboard. Suddenly, there's a loud crash from the break room."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that day at work. What do you see?",
+      "Client: I'm at my desk, it's around 3 PM. The office is quieter than usual. I can hear the hum of the air conditioning and the occasional click of a keyboard. Suddenly, there's a loud crash from the break room.",
+      "Therapist: What happens next?"
+    ],
+    [
+      "Client: I'm at my desk, it's around 3 PM. The office is quieter than usual. I can hear the hum of the air conditioning and the occasional click of a keyboard. Suddenly, there's a loud crash from the break room.",
+      "Therapist: What happens next?",
+      "Client: I jump up from my chair, my heart starting to race. I can hear raised voices, angry shouting. It's getting louder. I'm frozen, unsure what to do."
+    ],
+    [
+      "Therapist: What happens next?",
+      "Client: I jump up from my chair, my heart starting to race. I can hear raised voices, angry shouting. It's getting louder. I'm frozen, unsure what to do.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: I jump up from my chair, my heart starting to race. I can hear raised voices, angry shouting. It's getting louder. I'm frozen, unsure what to do.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6. My palms are getting sweaty just thinking about it.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: Um, probably a 6. My palms are getting sweaty just thinking about it.",
+      "Therapist: That's okay. Keep going.",
+      "Client: Right. So, I finally get the courage to peek around the corner. I see my coworker, Jim, red-faced and screaming at our manager. His fists are clenched, and he's... he's holding a broken coffee mug. There's shattered ceramic all over the floor."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: Right. So, I finally get the courage to peek around the corner. I see my coworker, Jim, red-faced and screaming at our manager. His fists are clenched, and he's... he's holding a broken coffee mug. There's shattered ceramic all over the floor.",
+      "Therapist: How are you feeling in this moment?"
+    ],
+    [
+      "Client: Right. So, I finally get the courage to peek around the corner. I see my coworker, Jim, red-faced and screaming at our manager. His fists are clenched, and he's... he's holding a broken coffee mug. There's shattered ceramic all over the floor.",
+      "Therapist: How are you feeling in this moment?",
+      "Client: Terrified. My mouth is dry, and I can feel my whole body trembling. I want to run, but I'm rooted to the spot. I can't believe this is happening in our usually calm office."
+    ],
+    [
+      "Therapist: How are you feeling in this moment?",
+      "Client: Terrified. My mouth is dry, and I can feel my whole body trembling. I want to run, but I'm rooted to the spot. I can't believe this is happening in our usually calm office.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: Terrified. My mouth is dry, and I can feel my whole body trembling. I want to run, but I'm rooted to the spot. I can't believe this is happening in our usually calm office.",
+      "Therapist: SUDS level now?",
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's gone up to an 8. My chest feels tight, and I'm having trouble breathing steadily.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *takes a shaky breath* Okay. Jim takes a step towards our manager, still yelling. I can see the veins in his neck bulging. The manager backs up against the wall, looking scared. I feel so helpless, like I should do something, but I'm paralyzed with fear."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *takes a shaky breath* Okay. Jim takes a step towards our manager, still yelling. I can see the veins in his neck bulging. The manager backs up against the wall, looking scared. I feel so helpless, like I should do something, but I'm paralyzed with fear.",
+      "Therapist: What happens next?"
+    ],
+    [
+      "Client: *takes a shaky breath* Okay. Jim takes a step towards our manager, still yelling. I can see the veins in his neck bulging. The manager backs up against the wall, looking scared. I feel so helpless, like I should do something, but I'm paralyzed with fear.",
+      "Therapist: What happens next?",
+      "Client: Suddenly, Jim throws the broken mug. It misses the manager but shatters against the wall. The sound makes me flinch. I let out a small gasp, and Jim turns to look at me. His eyes are... they're wild, unfocused. I've never seen anyone look like that before."
+    ],
+    [
+      "Therapist: What happens next?",
+      "Client: Suddenly, Jim throws the broken mug. It misses the manager but shatters against the wall. The sound makes me flinch. I let out a small gasp, and Jim turns to look at me. His eyes are... they're wild, unfocused. I've never seen anyone look like that before.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: Suddenly, Jim throws the broken mug. It misses the manager but shatters against the wall. The sound makes me flinch. I let out a small gasp, and Jim turns to look at me. His eyes are... they're wild, unfocused. I've never seen anyone look like that before.",
+      "Therapist: SUDS level?",
+      "Client: It's a 9 now. My heart is pounding so hard I can hear it in my ears. I feel dizzy, like I might pass out."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's a 9 now. My heart is pounding so hard I can hear it in my ears. I feel dizzy, like I might pass out.",
+      "Therapist: You're doing well. Remember, you're safe here."
+    ],
+    [
+      "Client: It's a 9 now. My heart is pounding so hard I can hear it in my ears. I feel dizzy, like I might pass out.",
+      "Therapist: You're doing well. Remember, you're safe here.",
+      "Client: *nods* Jim starts walking towards me. I can smell the coffee on his breath. He's shouting something about me being a witness, but I can barely understand him over the rush of blood in my ears. I manage to stumble backwards, nearly tripping over my own feet."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're safe here.",
+      "Client: *nods* Jim starts walking towards me. I can smell the coffee on his breath. He's shouting something about me being a witness, but I can barely understand him over the rush of blood in my ears. I manage to stumble backwards, nearly tripping over my own feet.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: *nods* Jim starts walking towards me. I can smell the coffee on his breath. He's shouting something about me being a witness, but I can barely understand him over the rush of blood in my ears. I manage to stumble backwards, nearly tripping over my own feet.",
+      "Therapist: How are you feeling now?",
+      "Client: Absolutely terrified. My legs feel weak, and I'm shaking all over. I want to run, but I'm afraid any sudden movement might set Jim off even more."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Absolutely terrified. My legs feel weak, and I'm shaking all over. I want to run, but I'm afraid any sudden movement might set Jim off even more.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: Absolutely terrified. My legs feel weak, and I'm shaking all over. I want to run, but I'm afraid any sudden movement might set Jim off even more.",
+      "Therapist: SUDS level?",
+      "Client: Still a 9. Maybe even a 9.5. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Still a 9. Maybe even a 9.5. I feel like I can't breathe.",
+      "Therapist: Take another deep breath. You're doing great."
+    ],
+    [
+      "Client: Still a 9. Maybe even a 9.5. I feel like I can't breathe.",
+      "Therapist: Take another deep breath. You're doing great.",
+      "Client: *inhales deeply* Okay. Just then, security bursts in. Two guards grab Jim, and he starts thrashing around, knocking over chairs. I press myself against the wall, trying to make myself as small as possible. The shouting, the noise... it's overwhelming."
+    ],
+    [
+      "Therapist: Take another deep breath. You're doing great.",
+      "Client: *inhales deeply* Okay. Just then, security bursts in. Two guards grab Jim, and he starts thrashing around, knocking over chairs. I press myself against the wall, trying to make myself as small as possible. The shouting, the noise... it's overwhelming.",
+      "Therapist: What are you experiencing physically?"
+    ],
+    [
+      "Client: *inhales deeply* Okay. Just then, security bursts in. Two guards grab Jim, and he starts thrashing around, knocking over chairs. I press myself against the wall, trying to make myself as small as possible. The shouting, the noise... it's overwhelming.",
+      "Therapist: What are you experiencing physically?",
+      "Client: My whole body is tense. I can feel my nails digging into my palms. I'm light-headed, and there are spots dancing in my vision. I think I'm hyperventilating."
+    ],
+    [
+      "Therapist: What are you experiencing physically?",
+      "Client: My whole body is tense. I can feel my nails digging into my palms. I'm light-headed, and there are spots dancing in my vision. I think I'm hyperventilating.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: My whole body is tense. I can feel my nails digging into my palms. I'm light-headed, and there are spots dancing in my vision. I think I'm hyperventilating.",
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone down a bit. Maybe an 8? Seeing security there makes me feel a little safer, but I'm still so shaken."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone down a bit. Maybe an 8? Seeing security there makes me feel a little safer, but I'm still so shaken.",
+      "Therapist: That's understandable. Keep going."
+    ],
+    [
+      "Client: It's... it's gone down a bit. Maybe an 8? Seeing security there makes me feel a little safer, but I'm still so shaken.",
+      "Therapist: That's understandable. Keep going.",
+      "Client: They manage to get Jim out of the office. The manager comes over to check on me, but his voice sounds far away. I slide down the wall, sitting on the floor. I can't stop shaking. Someone brings me water, but I can barely hold the cup steady enough to drink."
+    ],
+    [
+      "Therapist: That's understandable. Keep going.",
+      "Client: They manage to get Jim out of the office. The manager comes over to check on me, but his voice sounds far away. I slide down the wall, sitting on the floor. I can't stop shaking. Someone brings me water, but I can barely hold the cup steady enough to drink.",
+      "Therapist: How do you feel as things calm down?"
+    ],
+    [
+      "Client: They manage to get Jim out of the office. The manager comes over to check on me, but his voice sounds far away. I slide down the wall, sitting on the floor. I can't stop shaking. Someone brings me water, but I can barely hold the cup steady enough to drink.",
+      "Therapist: How do you feel as things calm down?",
+      "Client: Numb, mostly. Like I'm watching everything happen from outside my body. I'm still trembling, and I feel exhausted, like I've run a marathon."
+    ],
+    [
+      "Therapist: How do you feel as things calm down?",
+      "Client: Numb, mostly. Like I'm watching everything happen from outside my body. I'm still trembling, and I feel exhausted, like I've run a marathon.",
+      "Therapist: Final SUDS rating?"
+    ],
+    [
+      "Client: Numb, mostly. Like I'm watching everything happen from outside my body. I'm still trembling, and I feel exhausted, like I've run a marathon.",
+      "Therapist: Final SUDS rating?",
+      "Client: It's down to a 6 now. I'm feeling drained, but the immediate fear is fading."
+    ],
+    [
+      "Therapist: Final SUDS rating?",
+      "Client: It's down to a 6 now. I'm feeling drained, but the immediate fear is fading.",
+      "Therapist: You did very well. Let's start grounding now."
+    ]
+  ]
+}

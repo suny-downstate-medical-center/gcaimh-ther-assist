@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that moment. Describe what you're experiencing.",
+    "Client: (takes a deep breath) I'm... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. There are so many people around me, all looking scared and lost. I'm holding my little brother's hand tightly. We're both so hungry...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4 out of 10.",
+    "Therapist: Alright. Continue describing what you're experiencing.",
+    "Client: The sun is beating down on us. It's so hot. I can feel sweat trickling down my back. There's a commotion near the food distribution area. People are pushing and shoving. I'm trying to protect my brother, but I'm getting jostled. My heart is racing...",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up. Maybe a 6?",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: (voice trembling) Someone pushes me hard, and I lose my grip on my brother's hand. I'm calling out for him, but I can't see him in the crowd. I'm panicking. My chest feels tight, and I can't breathe properly. I'm so scared I've lost him...",
+    "Therapist: Take a deep breath. What's your SUDS level?",
+    "Client: (breathing heavily) It's... it's an 8. I feel like I'm right back there.",
+    "Therapist: You're safe here. Keep breathing. Can you continue?",
+    "Client: (nods) I'm pushing through the crowd, desperately searching for my brother. People are yelling, some are crying. I spot a familiar t-shirt and rush towards it. It's him. I grab him and hold him close, feeling so relieved but also angry and helpless. We shouldn't be here. We should be home...",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's coming down a bit. Maybe a 7? My heart is still racing, but I feel a little calmer knowing I found him in the memory.",
+    "Therapist: You're doing great. Let's continue for a few more minutes.",
+    "Client: (nods) We make our way to a quieter corner of the camp. I can see the fear in my brother's eyes. I'm trying to be strong for him, but inside I'm terrified. I don't know how long we'll be here or what will happen to us. I miss our parents. I miss our home. Everything feels so uncertain...",
+    "Therapist: And your SUDS now?",
+    "Client: It's about a 6 again. I'm feeling sad and a bit overwhelmed, but not as panicked as before.",
+    "Therapist: You're handling this well. How are you feeling physically?",
+    "Client: My shoulders are tense, and I have a knot in my stomach. But my breathing is steadier now.",
+    "Therapist: Okay, let's start winding down. Bring your attention back to the present.",
+    "Client: (opens eyes slowly) That was... intense. But I got through it.",
+    "Therapist: You did excellently. How do you feel now?",
+    "Client: Drained, but also a bit proud. My SUDS is down to about a 3 now.",
+    "Therapist: That's great progress. Let's discuss what you experienced."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that moment. Describe what you're experiencing."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that moment. Describe what you're experiencing.",
+      "Client: (takes a deep breath) I'm... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. There are so many people around me, all looking scared and lost. I'm holding my little brother's hand tightly. We're both so hungry..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that moment. Describe what you're experiencing.",
+      "Client: (takes a deep breath) I'm... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. There are so many people around me, all looking scared and lost. I'm holding my little brother's hand tightly. We're both so hungry...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: (takes a deep breath) I'm... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. There are so many people around me, all looking scared and lost. I'm holding my little brother's hand tightly. We're both so hungry...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10.",
+      "Therapist: Alright. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10.",
+      "Therapist: Alright. Continue describing what you're experiencing.",
+      "Client: The sun is beating down on us. It's so hot. I can feel sweat trickling down my back. There's a commotion near the food distribution area. People are pushing and shoving. I'm trying to protect my brother, but I'm getting jostled. My heart is racing..."
+    ],
+    [
+      "Therapist: Alright. Continue describing what you're experiencing.",
+      "Client: The sun is beating down on us. It's so hot. I can feel sweat trickling down my back. There's a commotion near the food distribution area. People are pushing and shoving. I'm trying to protect my brother, but I'm getting jostled. My heart is racing...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The sun is beating down on us. It's so hot. I can feel sweat trickling down my back. There's a commotion near the food distribution area. People are pushing and shoving. I'm trying to protect my brother, but I'm getting jostled. My heart is racing...",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up. Maybe a 6?"
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up. Maybe a 6?",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up. Maybe a 6?",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: (voice trembling) Someone pushes me hard, and I lose my grip on my brother's hand. I'm calling out for him, but I can't see him in the crowd. I'm panicking. My chest feels tight, and I can't breathe properly. I'm so scared I've lost him..."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: (voice trembling) Someone pushes me hard, and I lose my grip on my brother's hand. I'm calling out for him, but I can't see him in the crowd. I'm panicking. My chest feels tight, and I can't breathe properly. I'm so scared I've lost him...",
+      "Therapist: Take a deep breath. What's your SUDS level?"
+    ],
+    [
+      "Client: (voice trembling) Someone pushes me hard, and I lose my grip on my brother's hand. I'm calling out for him, but I can't see him in the crowd. I'm panicking. My chest feels tight, and I can't breathe properly. I'm so scared I've lost him...",
+      "Therapist: Take a deep breath. What's your SUDS level?",
+      "Client: (breathing heavily) It's... it's an 8. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS level?",
+      "Client: (breathing heavily) It's... it's an 8. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing. Can you continue?"
+    ],
+    [
+      "Client: (breathing heavily) It's... it's an 8. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing. Can you continue?",
+      "Client: (nods) I'm pushing through the crowd, desperately searching for my brother. People are yelling, some are crying. I spot a familiar t-shirt and rush towards it. It's him. I grab him and hold him close, feeling so relieved but also angry and helpless. We shouldn't be here. We should be home..."
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing. Can you continue?",
+      "Client: (nods) I'm pushing through the crowd, desperately searching for my brother. People are yelling, some are crying. I spot a familiar t-shirt and rush towards it. It's him. I grab him and hold him close, feeling so relieved but also angry and helpless. We shouldn't be here. We should be home...",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: (nods) I'm pushing through the crowd, desperately searching for my brother. People are yelling, some are crying. I spot a familiar t-shirt and rush towards it. It's him. I grab him and hold him close, feeling so relieved but also angry and helpless. We shouldn't be here. We should be home...",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's coming down a bit. Maybe a 7? My heart is still racing, but I feel a little calmer knowing I found him in the memory."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's coming down a bit. Maybe a 7? My heart is still racing, but I feel a little calmer knowing I found him in the memory.",
+      "Therapist: You're doing great. Let's continue for a few more minutes."
+    ],
+    [
+      "Client: It's coming down a bit. Maybe a 7? My heart is still racing, but I feel a little calmer knowing I found him in the memory.",
+      "Therapist: You're doing great. Let's continue for a few more minutes.",
+      "Client: (nods) We make our way to a quieter corner of the camp. I can see the fear in my brother's eyes. I'm trying to be strong for him, but inside I'm terrified. I don't know how long we'll be here or what will happen to us. I miss our parents. I miss our home. Everything feels so uncertain..."
+    ],
+    [
+      "Therapist: You're doing great. Let's continue for a few more minutes.",
+      "Client: (nods) We make our way to a quieter corner of the camp. I can see the fear in my brother's eyes. I'm trying to be strong for him, but inside I'm terrified. I don't know how long we'll be here or what will happen to us. I miss our parents. I miss our home. Everything feels so uncertain...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (nods) We make our way to a quieter corner of the camp. I can see the fear in my brother's eyes. I'm trying to be strong for him, but inside I'm terrified. I don't know how long we'll be here or what will happen to us. I miss our parents. I miss our home. Everything feels so uncertain...",
+      "Therapist: And your SUDS now?",
+      "Client: It's about a 6 again. I'm feeling sad and a bit overwhelmed, but not as panicked as before."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's about a 6 again. I'm feeling sad and a bit overwhelmed, but not as panicked as before.",
+      "Therapist: You're handling this well. How are you feeling physically?"
+    ],
+    [
+      "Client: It's about a 6 again. I'm feeling sad and a bit overwhelmed, but not as panicked as before.",
+      "Therapist: You're handling this well. How are you feeling physically?",
+      "Client: My shoulders are tense, and I have a knot in my stomach. But my breathing is steadier now."
+    ],
+    [
+      "Therapist: You're handling this well. How are you feeling physically?",
+      "Client: My shoulders are tense, and I have a knot in my stomach. But my breathing is steadier now.",
+      "Therapist: Okay, let's start winding down. Bring your attention back to the present."
+    ],
+    [
+      "Client: My shoulders are tense, and I have a knot in my stomach. But my breathing is steadier now.",
+      "Therapist: Okay, let's start winding down. Bring your attention back to the present.",
+      "Client: (opens eyes slowly) That was... intense. But I got through it."
+    ],
+    [
+      "Therapist: Okay, let's start winding down. Bring your attention back to the present.",
+      "Client: (opens eyes slowly) That was... intense. But I got through it.",
+      "Therapist: You did excellently. How do you feel now?"
+    ],
+    [
+      "Client: (opens eyes slowly) That was... intense. But I got through it.",
+      "Therapist: You did excellently. How do you feel now?",
+      "Client: Drained, but also a bit proud. My SUDS is down to about a 3 now."
+    ],
+    [
+      "Therapist: You did excellently. How do you feel now?",
+      "Client: Drained, but also a bit proud. My SUDS is down to about a 3 now.",
+      "Therapist: That's great progress. Let's discuss what you experienced."
+    ]
+  ]
+}

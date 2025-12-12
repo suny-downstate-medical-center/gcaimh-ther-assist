@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Singh, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm quite nervous, to be honest. The idea of reliving that earthquake... it's not something I look forward to. I've spent years trying to forget it all. Why do we need to bring it up again?",
+    "Therapist: I understand your concern. This process helps reduce PTSD symptoms by\u2014",
+    "Client: (interrupting) But won't it make things worse? I've managed to keep busy with work and family. Isn't that enough?",
+    "Therapist: It's natural to feel apprehensive. However, avoidance often\u2014",
+    "Client: (sighs) I see. So, what exactly will happen during this... exposure?",
+    "Therapist: You'll recount the experience in detail. I'll guide you through it.",
+    "Client: (fidgeting) That sounds... intense. Will I be able to handle it? I mean, I'm not as young as I used to be, and with my anxiety...",
+    "Therapist: Your concerns are valid. We'll go at your pace and\u2014",
+    "Client: (nods slowly) Alright. I appreciate that. But what if I panic? Or can't continue?",
+    "Therapist: We have techniques to help you stay grounded. Remember, you're safe here.",
+    "Client: (takes a deep breath) Okay. I trust you. It's just... this disaster changed everything for me. My family, our home... it's not easy to revisit.",
+    "Therapist: Your courage is commendable. This process, while challenging, can lead to healing.",
+    "Client: I hope so. I want to be free from these memories, for my wife and children's sake too. They've been so patient with me.",
+    "Therapist: That's a powerful motivation. Shall we begin?",
+    "Client: (straightens up) Yes, I think I'm ready. Or as ready as I'll ever be. Let's do this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Singh, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm quite nervous, to be honest. The idea of reliving that earthquake... it's not something I look forward to. I've spent years trying to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your concern. This process helps reduce PTSD symptoms by\u2014"
+    ],
+    [
+      "Client: I'm quite nervous, to be honest. The idea of reliving that earthquake... it's not something I look forward to. I've spent years trying to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your concern. This process helps reduce PTSD symptoms by\u2014",
+      "Client: (interrupting) But won't it make things worse? I've managed to keep busy with work and family. Isn't that enough?"
+    ],
+    [
+      "Therapist: I understand your concern. This process helps reduce PTSD symptoms by\u2014",
+      "Client: (interrupting) But won't it make things worse? I've managed to keep busy with work and family. Isn't that enough?",
+      "Therapist: It's natural to feel apprehensive. However, avoidance often\u2014"
+    ],
+    [
+      "Client: (interrupting) But won't it make things worse? I've managed to keep busy with work and family. Isn't that enough?",
+      "Therapist: It's natural to feel apprehensive. However, avoidance often\u2014",
+      "Client: (sighs) I see. So, what exactly will happen during this... exposure?"
+    ],
+    [
+      "Therapist: It's natural to feel apprehensive. However, avoidance often\u2014",
+      "Client: (sighs) I see. So, what exactly will happen during this... exposure?",
+      "Therapist: You'll recount the experience in detail. I'll guide you through it."
+    ],
+    [
+      "Client: (sighs) I see. So, what exactly will happen during this... exposure?",
+      "Therapist: You'll recount the experience in detail. I'll guide you through it.",
+      "Client: (fidgeting) That sounds... intense. Will I be able to handle it? I mean, I'm not as young as I used to be, and with my anxiety..."
+    ],
+    [
+      "Therapist: You'll recount the experience in detail. I'll guide you through it.",
+      "Client: (fidgeting) That sounds... intense. Will I be able to handle it? I mean, I'm not as young as I used to be, and with my anxiety...",
+      "Therapist: Your concerns are valid. We'll go at your pace and\u2014"
+    ],
+    [
+      "Client: (fidgeting) That sounds... intense. Will I be able to handle it? I mean, I'm not as young as I used to be, and with my anxiety...",
+      "Therapist: Your concerns are valid. We'll go at your pace and\u2014",
+      "Client: (nods slowly) Alright. I appreciate that. But what if I panic? Or can't continue?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace and\u2014",
+      "Client: (nods slowly) Alright. I appreciate that. But what if I panic? Or can't continue?",
+      "Therapist: We have techniques to help you stay grounded. Remember, you're safe here."
+    ],
+    [
+      "Client: (nods slowly) Alright. I appreciate that. But what if I panic? Or can't continue?",
+      "Therapist: We have techniques to help you stay grounded. Remember, you're safe here.",
+      "Client: (takes a deep breath) Okay. I trust you. It's just... this disaster changed everything for me. My family, our home... it's not easy to revisit."
+    ],
+    [
+      "Therapist: We have techniques to help you stay grounded. Remember, you're safe here.",
+      "Client: (takes a deep breath) Okay. I trust you. It's just... this disaster changed everything for me. My family, our home... it's not easy to revisit.",
+      "Therapist: Your courage is commendable. This process, while challenging, can lead to healing."
+    ],
+    [
+      "Client: (takes a deep breath) Okay. I trust you. It's just... this disaster changed everything for me. My family, our home... it's not easy to revisit.",
+      "Therapist: Your courage is commendable. This process, while challenging, can lead to healing.",
+      "Client: I hope so. I want to be free from these memories, for my wife and children's sake too. They've been so patient with me."
+    ],
+    [
+      "Therapist: Your courage is commendable. This process, while challenging, can lead to healing.",
+      "Client: I hope so. I want to be free from these memories, for my wife and children's sake too. They've been so patient with me.",
+      "Therapist: That's a powerful motivation. Shall we begin?"
+    ],
+    [
+      "Client: I hope so. I want to be free from these memories, for my wife and children's sake too. They've been so patient with me.",
+      "Therapist: That's a powerful motivation. Shall we begin?",
+      "Client: (straightens up) Yes, I think I'm ready. Or as ready as I'll ever be. Let's do this."
+    ]
+  ]
+}

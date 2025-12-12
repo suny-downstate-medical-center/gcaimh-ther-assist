@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Amir. Today we'll be doing an imaginal exposure exercise. Are you ready to begin?",
+    "Client: I think so. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0-100, how distressed are you feeling right now?",
+    "Client: I'd say about a 40. I'm anxious about what we're going to do, but not overwhelmed yet.",
+    "Therapist: Okay. Let's begin. Close your eyes and recall the memory of your father's illness. Describe what you're experiencing.",
+    "Client: I'm in the hospital room. The beeping of the machines is so loud. Dad looks so small in the bed, tubes everywhere. My mom is crying silently next to him. I feel... I feel helpless.",
+    "Therapist: Stay with that feeling. What's your SUDS rating now?",
+    "Client: It's gone up to about 60. My hands are getting clammy, and my heart is racing a bit.",
+    "Therapist: That's normal. Keep going.",
+    "Client: The doctor comes in. His face is grim. He's explaining something about the cancer spreading, but I can barely focus. All I can think is, \"This can't be happening.\" My chest feels tight, and I'm struggling to breathe normally.",
+    "Therapist: You're doing well. SUDS rating?",
+    "Client: It's... it's about 75 now. I feel like I'm right back there, and it's terrifying.",
+    "Therapist: I hear you. It's okay to feel this way. Continue describing what you're experiencing.",
+    "Client: Dad opens his eyes. He looks at me, and I can see the fear in them. He's always been so strong, but now he looks... vulnerable. I want to say something comforting, but words fail me. I just stand there, frozen.",
+    "Therapist: Stay with that moment. How's your SUDS level?",
+    "Client: It's... it's 85. My throat feels constricted, and I'm fighting back tears.",
+    "Therapist: You're doing great, Amir. It's okay to feel these emotions.",
+    "Client: I... I remember reaching out to hold his hand. It feels so cold and fragile. I'm struck by how unfair this all is. He's only 50, he should have years ahead of him. The room starts to spin a little, and I feel nauseous.",
+    "Therapist: Take a deep breath. What's your SUDS rating now?",
+    "Client: It's... it's still at 85. My stomach is in knots, and I feel like I might be sick.",
+    "Therapist: That's okay. You're handling this well. Keep going.",
+    "Client: The next few days are a blur. We're all taking turns sitting with him. I'm trying to study for my exams, but I can't focus. Every time I close my eyes, I see him in that hospital bed. The guilt is overwhelming - I should be there more, I should be doing something, anything.",
+    "Therapist: How are you feeling now? SUDS rating?",
+    "Client: It's dropped a bit, maybe to 70. I feel drained, but the intense anxiety has lessened somewhat.",
+    "Therapist: That's good. Continue with your memory.",
+    "Client: The night he... he passed away, I wasn't there. I had finally gone home to get some rest. My mom called me, her voice breaking. I rushed to the hospital, but it was too late. I walked into the room, and it was so quiet. No more beeping machines. Just... silence.",
+    "Therapist: Stay with that moment. What's your SUDS rating?",
+    "Client: It's back up to 80. My chest feels heavy, and I'm fighting back tears again.",
+    "Therapist: It's okay to cry if you need to. You're doing really well.",
+    "Client: I... I remember touching his forehead. It was still warm. I kept thinking, \"This isn't real. This can't be happening.\" But it was. He was gone. And I wasn't there when it happened. I felt like I'd failed him.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's 85 again. I feel a deep ache in my chest, and my whole body feels heavy.",
+    "Therapist: You're doing great, Amir. Let's start wrapping up. Take a few deep breaths.",
+    "Client: Okay... I'm trying to calm down. It's hard to shake these feelings.",
+    "Therapist: That's normal. How are you feeling now? Final SUDS rating?",
+    "Client: It's come down to about 60. I feel drained, but also... I don't know, maybe a little relieved to have talked through it.",
+    "Therapist: That's excellent progress, Amir. We'll end here for today. You did really well."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Amir. Today we'll be doing an imaginal exposure exercise. Are you ready to begin?",
+      "Client: I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0-100, how distressed are you feeling right now?"
+    ],
+    [
+      "Client: I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0-100, how distressed are you feeling right now?",
+      "Client: I'd say about a 40. I'm anxious about what we're going to do, but not overwhelmed yet."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating. On a scale of 0-100, how distressed are you feeling right now?",
+      "Client: I'd say about a 40. I'm anxious about what we're going to do, but not overwhelmed yet.",
+      "Therapist: Okay. Let's begin. Close your eyes and recall the memory of your father's illness. Describe what you're experiencing."
+    ],
+    [
+      "Client: I'd say about a 40. I'm anxious about what we're going to do, but not overwhelmed yet.",
+      "Therapist: Okay. Let's begin. Close your eyes and recall the memory of your father's illness. Describe what you're experiencing.",
+      "Client: I'm in the hospital room. The beeping of the machines is so loud. Dad looks so small in the bed, tubes everywhere. My mom is crying silently next to him. I feel... I feel helpless."
+    ],
+    [
+      "Therapist: Okay. Let's begin. Close your eyes and recall the memory of your father's illness. Describe what you're experiencing.",
+      "Client: I'm in the hospital room. The beeping of the machines is so loud. Dad looks so small in the bed, tubes everywhere. My mom is crying silently next to him. I feel... I feel helpless.",
+      "Therapist: Stay with that feeling. What's your SUDS rating now?"
+    ],
+    [
+      "Client: I'm in the hospital room. The beeping of the machines is so loud. Dad looks so small in the bed, tubes everywhere. My mom is crying silently next to him. I feel... I feel helpless.",
+      "Therapist: Stay with that feeling. What's your SUDS rating now?",
+      "Client: It's gone up to about 60. My hands are getting clammy, and my heart is racing a bit."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's your SUDS rating now?",
+      "Client: It's gone up to about 60. My hands are getting clammy, and my heart is racing a bit.",
+      "Therapist: That's normal. Keep going."
+    ],
+    [
+      "Client: It's gone up to about 60. My hands are getting clammy, and my heart is racing a bit.",
+      "Therapist: That's normal. Keep going.",
+      "Client: The doctor comes in. His face is grim. He's explaining something about the cancer spreading, but I can barely focus. All I can think is, \"This can't be happening.\" My chest feels tight, and I'm struggling to breathe normally."
+    ],
+    [
+      "Therapist: That's normal. Keep going.",
+      "Client: The doctor comes in. His face is grim. He's explaining something about the cancer spreading, but I can barely focus. All I can think is, \"This can't be happening.\" My chest feels tight, and I'm struggling to breathe normally.",
+      "Therapist: You're doing well. SUDS rating?"
+    ],
+    [
+      "Client: The doctor comes in. His face is grim. He's explaining something about the cancer spreading, but I can barely focus. All I can think is, \"This can't be happening.\" My chest feels tight, and I'm struggling to breathe normally.",
+      "Therapist: You're doing well. SUDS rating?",
+      "Client: It's... it's about 75 now. I feel like I'm right back there, and it's terrifying."
+    ],
+    [
+      "Therapist: You're doing well. SUDS rating?",
+      "Client: It's... it's about 75 now. I feel like I'm right back there, and it's terrifying.",
+      "Therapist: I hear you. It's okay to feel this way. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's... it's about 75 now. I feel like I'm right back there, and it's terrifying.",
+      "Therapist: I hear you. It's okay to feel this way. Continue describing what you're experiencing.",
+      "Client: Dad opens his eyes. He looks at me, and I can see the fear in them. He's always been so strong, but now he looks... vulnerable. I want to say something comforting, but words fail me. I just stand there, frozen."
+    ],
+    [
+      "Therapist: I hear you. It's okay to feel this way. Continue describing what you're experiencing.",
+      "Client: Dad opens his eyes. He looks at me, and I can see the fear in them. He's always been so strong, but now he looks... vulnerable. I want to say something comforting, but words fail me. I just stand there, frozen.",
+      "Therapist: Stay with that moment. How's your SUDS level?"
+    ],
+    [
+      "Client: Dad opens his eyes. He looks at me, and I can see the fear in them. He's always been so strong, but now he looks... vulnerable. I want to say something comforting, but words fail me. I just stand there, frozen.",
+      "Therapist: Stay with that moment. How's your SUDS level?",
+      "Client: It's... it's 85. My throat feels constricted, and I'm fighting back tears."
+    ],
+    [
+      "Therapist: Stay with that moment. How's your SUDS level?",
+      "Client: It's... it's 85. My throat feels constricted, and I'm fighting back tears.",
+      "Therapist: You're doing great, Amir. It's okay to feel these emotions."
+    ],
+    [
+      "Client: It's... it's 85. My throat feels constricted, and I'm fighting back tears.",
+      "Therapist: You're doing great, Amir. It's okay to feel these emotions.",
+      "Client: I... I remember reaching out to hold his hand. It feels so cold and fragile. I'm struck by how unfair this all is. He's only 50, he should have years ahead of him. The room starts to spin a little, and I feel nauseous."
+    ],
+    [
+      "Therapist: You're doing great, Amir. It's okay to feel these emotions.",
+      "Client: I... I remember reaching out to hold his hand. It feels so cold and fragile. I'm struck by how unfair this all is. He's only 50, he should have years ahead of him. The room starts to spin a little, and I feel nauseous.",
+      "Therapist: Take a deep breath. What's your SUDS rating now?"
+    ],
+    [
+      "Client: I... I remember reaching out to hold his hand. It feels so cold and fragile. I'm struck by how unfair this all is. He's only 50, he should have years ahead of him. The room starts to spin a little, and I feel nauseous.",
+      "Therapist: Take a deep breath. What's your SUDS rating now?",
+      "Client: It's... it's still at 85. My stomach is in knots, and I feel like I might be sick."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS rating now?",
+      "Client: It's... it's still at 85. My stomach is in knots, and I feel like I might be sick.",
+      "Therapist: That's okay. You're handling this well. Keep going."
+    ],
+    [
+      "Client: It's... it's still at 85. My stomach is in knots, and I feel like I might be sick.",
+      "Therapist: That's okay. You're handling this well. Keep going.",
+      "Client: The next few days are a blur. We're all taking turns sitting with him. I'm trying to study for my exams, but I can't focus. Every time I close my eyes, I see him in that hospital bed. The guilt is overwhelming - I should be there more, I should be doing something, anything."
+    ],
+    [
+      "Therapist: That's okay. You're handling this well. Keep going.",
+      "Client: The next few days are a blur. We're all taking turns sitting with him. I'm trying to study for my exams, but I can't focus. Every time I close my eyes, I see him in that hospital bed. The guilt is overwhelming - I should be there more, I should be doing something, anything.",
+      "Therapist: How are you feeling now? SUDS rating?"
+    ],
+    [
+      "Client: The next few days are a blur. We're all taking turns sitting with him. I'm trying to study for my exams, but I can't focus. Every time I close my eyes, I see him in that hospital bed. The guilt is overwhelming - I should be there more, I should be doing something, anything.",
+      "Therapist: How are you feeling now? SUDS rating?",
+      "Client: It's dropped a bit, maybe to 70. I feel drained, but the intense anxiety has lessened somewhat."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS rating?",
+      "Client: It's dropped a bit, maybe to 70. I feel drained, but the intense anxiety has lessened somewhat.",
+      "Therapist: That's good. Continue with your memory."
+    ],
+    [
+      "Client: It's dropped a bit, maybe to 70. I feel drained, but the intense anxiety has lessened somewhat.",
+      "Therapist: That's good. Continue with your memory.",
+      "Client: The night he... he passed away, I wasn't there. I had finally gone home to get some rest. My mom called me, her voice breaking. I rushed to the hospital, but it was too late. I walked into the room, and it was so quiet. No more beeping machines. Just... silence."
+    ],
+    [
+      "Therapist: That's good. Continue with your memory.",
+      "Client: The night he... he passed away, I wasn't there. I had finally gone home to get some rest. My mom called me, her voice breaking. I rushed to the hospital, but it was too late. I walked into the room, and it was so quiet. No more beeping machines. Just... silence.",
+      "Therapist: Stay with that moment. What's your SUDS rating?"
+    ],
+    [
+      "Client: The night he... he passed away, I wasn't there. I had finally gone home to get some rest. My mom called me, her voice breaking. I rushed to the hospital, but it was too late. I walked into the room, and it was so quiet. No more beeping machines. Just... silence.",
+      "Therapist: Stay with that moment. What's your SUDS rating?",
+      "Client: It's back up to 80. My chest feels heavy, and I'm fighting back tears again."
+    ],
+    [
+      "Therapist: Stay with that moment. What's your SUDS rating?",
+      "Client: It's back up to 80. My chest feels heavy, and I'm fighting back tears again.",
+      "Therapist: It's okay to cry if you need to. You're doing really well."
+    ],
+    [
+      "Client: It's back up to 80. My chest feels heavy, and I'm fighting back tears again.",
+      "Therapist: It's okay to cry if you need to. You're doing really well.",
+      "Client: I... I remember touching his forehead. It was still warm. I kept thinking, \"This isn't real. This can't be happening.\" But it was. He was gone. And I wasn't there when it happened. I felt like I'd failed him."
+    ],
+    [
+      "Therapist: It's okay to cry if you need to. You're doing really well.",
+      "Client: I... I remember touching his forehead. It was still warm. I kept thinking, \"This isn't real. This can't be happening.\" But it was. He was gone. And I wasn't there when it happened. I felt like I'd failed him.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I... I remember touching his forehead. It was still warm. I kept thinking, \"This isn't real. This can't be happening.\" But it was. He was gone. And I wasn't there when it happened. I felt like I'd failed him.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's 85 again. I feel a deep ache in my chest, and my whole body feels heavy."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's 85 again. I feel a deep ache in my chest, and my whole body feels heavy.",
+      "Therapist: You're doing great, Amir. Let's start wrapping up. Take a few deep breaths."
+    ],
+    [
+      "Client: It's... it's 85 again. I feel a deep ache in my chest, and my whole body feels heavy.",
+      "Therapist: You're doing great, Amir. Let's start wrapping up. Take a few deep breaths.",
+      "Client: Okay... I'm trying to calm down. It's hard to shake these feelings."
+    ],
+    [
+      "Therapist: You're doing great, Amir. Let's start wrapping up. Take a few deep breaths.",
+      "Client: Okay... I'm trying to calm down. It's hard to shake these feelings.",
+      "Therapist: That's normal. How are you feeling now? Final SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm trying to calm down. It's hard to shake these feelings.",
+      "Therapist: That's normal. How are you feeling now? Final SUDS rating?",
+      "Client: It's come down to about 60. I feel drained, but also... I don't know, maybe a little relieved to have talked through it."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling now? Final SUDS rating?",
+      "Client: It's come down to about 60. I feel drained, but also... I don't know, maybe a little relieved to have talked through it.",
+      "Therapist: That's excellent progress, Amir. We'll end here for today. You did really well."
+    ]
+  ]
+}

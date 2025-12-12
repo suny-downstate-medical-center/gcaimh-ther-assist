@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Amir. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about diving into this memory again.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Right. Okay. So, I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant. It's making me feel nauseous.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: I'm lying there, and I can't move. My whole body feels heavy, and there's this dull pain everywhere. I hear footsteps approaching, and I know it's the doctor. He's coming to tell me the results of the tests.",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: I'm... I'm terrified. My heart is racing, and I can feel sweat on my forehead. The doctor's face is so serious, and I just know it's bad news. He starts talking, but his words are muffled. All I can focus on is this overwhelming sense of dread.",
+    "Therapist: You're handling this well. Keep breathing.",
+    "Client: He's telling me about the accident, about my injuries. He says... he says I might not walk again. I feel like I can't breathe. The room is spinning, and I want to scream, but no sound comes out. I'm trapped in my own body.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: I see my parents' faces. They look devastated. My mom is crying silently, and my dad is just... blank. I feel so guilty, like I've let them down. And then this anger hits me. Why me? Why did this have to happen to me?",
+    "Therapist: You're doing great, Amir. Keep going.",
+    "Client: The next few days are a blur. Doctors, nurses, tests... it feels endless. I'm in so much pain, but the worst part is the uncertainty. Every time someone comes into the room, I'm scared they'll bring more bad news. I feel so helpless, so out of control.",
+    "Therapist: You're showing incredible strength. Continue.",
+    "Client: One night, I overhear the nurses talking outside my room. They're discussing my case, and I hear one of them say, \"Poor guy, he's going to be stuck here for months.\" That word - 'stuck' - it hits me like a ton of bricks. I realize I'm not just in a hospital; I'm imprisoned in my own body.",
+    "Therapist: That must have been overwhelming. How did you cope?",
+    "Client: I... I didn't, really. I shut down. I stopped talking to the doctors, to my family. I just lay there, staring at the ceiling, counting the hours. It felt like I was serving a sentence for a crime I didn't commit. The pain, the fear, the anger - it all just mixed together into this... this darkness that I couldn't escape from.",
+    "Therapist: You're very brave for sharing this. How are you feeling now?",
+    "Client: It's... it's hard. Talking about it brings back all those feelings. I can almost smell that hospital room again. But... I don't know, maybe it's also a bit relieving? Like I'm finally letting some of it out.",
+    "Therapist: That's a positive step. Well done, Amir.",
+    "Client: Thanks. I think... I think I need a break now. Is that okay?",
+    "Therapist: Of course. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Amir. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about diving into this memory again.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about diving into this memory again.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Right. Okay. So, I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant. It's making me feel nauseous."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Right. Okay. So, I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant. It's making me feel nauseous.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Right. Okay. So, I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant. It's making me feel nauseous.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: I'm lying there, and I can't move. My whole body feels heavy, and there's this dull pain everywhere. I hear footsteps approaching, and I know it's the doctor. He's coming to tell me the results of the tests."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: I'm lying there, and I can't move. My whole body feels heavy, and there's this dull pain everywhere. I hear footsteps approaching, and I know it's the doctor. He's coming to tell me the results of the tests.",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: I'm lying there, and I can't move. My whole body feels heavy, and there's this dull pain everywhere. I hear footsteps approaching, and I know it's the doctor. He's coming to tell me the results of the tests.",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm... I'm terrified. My heart is racing, and I can feel sweat on my forehead. The doctor's face is so serious, and I just know it's bad news. He starts talking, but his words are muffled. All I can focus on is this overwhelming sense of dread."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm... I'm terrified. My heart is racing, and I can feel sweat on my forehead. The doctor's face is so serious, and I just know it's bad news. He starts talking, but his words are muffled. All I can focus on is this overwhelming sense of dread.",
+      "Therapist: You're handling this well. Keep breathing."
+    ],
+    [
+      "Client: I'm... I'm terrified. My heart is racing, and I can feel sweat on my forehead. The doctor's face is so serious, and I just know it's bad news. He starts talking, but his words are muffled. All I can focus on is this overwhelming sense of dread.",
+      "Therapist: You're handling this well. Keep breathing.",
+      "Client: He's telling me about the accident, about my injuries. He says... he says I might not walk again. I feel like I can't breathe. The room is spinning, and I want to scream, but no sound comes out. I'm trapped in my own body."
+    ],
+    [
+      "Therapist: You're handling this well. Keep breathing.",
+      "Client: He's telling me about the accident, about my injuries. He says... he says I might not walk again. I feel like I can't breathe. The room is spinning, and I want to scream, but no sound comes out. I'm trapped in my own body.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: He's telling me about the accident, about my injuries. He says... he says I might not walk again. I feel like I can't breathe. The room is spinning, and I want to scream, but no sound comes out. I'm trapped in my own body.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I see my parents' faces. They look devastated. My mom is crying silently, and my dad is just... blank. I feel so guilty, like I've let them down. And then this anger hits me. Why me? Why did this have to happen to me?"
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I see my parents' faces. They look devastated. My mom is crying silently, and my dad is just... blank. I feel so guilty, like I've let them down. And then this anger hits me. Why me? Why did this have to happen to me?",
+      "Therapist: You're doing great, Amir. Keep going."
+    ],
+    [
+      "Client: I see my parents' faces. They look devastated. My mom is crying silently, and my dad is just... blank. I feel so guilty, like I've let them down. And then this anger hits me. Why me? Why did this have to happen to me?",
+      "Therapist: You're doing great, Amir. Keep going.",
+      "Client: The next few days are a blur. Doctors, nurses, tests... it feels endless. I'm in so much pain, but the worst part is the uncertainty. Every time someone comes into the room, I'm scared they'll bring more bad news. I feel so helpless, so out of control."
+    ],
+    [
+      "Therapist: You're doing great, Amir. Keep going.",
+      "Client: The next few days are a blur. Doctors, nurses, tests... it feels endless. I'm in so much pain, but the worst part is the uncertainty. Every time someone comes into the room, I'm scared they'll bring more bad news. I feel so helpless, so out of control.",
+      "Therapist: You're showing incredible strength. Continue."
+    ],
+    [
+      "Client: The next few days are a blur. Doctors, nurses, tests... it feels endless. I'm in so much pain, but the worst part is the uncertainty. Every time someone comes into the room, I'm scared they'll bring more bad news. I feel so helpless, so out of control.",
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: One night, I overhear the nurses talking outside my room. They're discussing my case, and I hear one of them say, \"Poor guy, he's going to be stuck here for months.\" That word - 'stuck' - it hits me like a ton of bricks. I realize I'm not just in a hospital; I'm imprisoned in my own body."
+    ],
+    [
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: One night, I overhear the nurses talking outside my room. They're discussing my case, and I hear one of them say, \"Poor guy, he's going to be stuck here for months.\" That word - 'stuck' - it hits me like a ton of bricks. I realize I'm not just in a hospital; I'm imprisoned in my own body.",
+      "Therapist: That must have been overwhelming. How did you cope?"
+    ],
+    [
+      "Client: One night, I overhear the nurses talking outside my room. They're discussing my case, and I hear one of them say, \"Poor guy, he's going to be stuck here for months.\" That word - 'stuck' - it hits me like a ton of bricks. I realize I'm not just in a hospital; I'm imprisoned in my own body.",
+      "Therapist: That must have been overwhelming. How did you cope?",
+      "Client: I... I didn't, really. I shut down. I stopped talking to the doctors, to my family. I just lay there, staring at the ceiling, counting the hours. It felt like I was serving a sentence for a crime I didn't commit. The pain, the fear, the anger - it all just mixed together into this... this darkness that I couldn't escape from."
+    ],
+    [
+      "Therapist: That must have been overwhelming. How did you cope?",
+      "Client: I... I didn't, really. I shut down. I stopped talking to the doctors, to my family. I just lay there, staring at the ceiling, counting the hours. It felt like I was serving a sentence for a crime I didn't commit. The pain, the fear, the anger - it all just mixed together into this... this darkness that I couldn't escape from.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?"
+    ],
+    [
+      "Client: I... I didn't, really. I shut down. I stopped talking to the doctors, to my family. I just lay there, staring at the ceiling, counting the hours. It felt like I was serving a sentence for a crime I didn't commit. The pain, the fear, the anger - it all just mixed together into this... this darkness that I couldn't escape from.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's... it's hard. Talking about it brings back all those feelings. I can almost smell that hospital room again. But... I don't know, maybe it's also a bit relieving? Like I'm finally letting some of it out."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's... it's hard. Talking about it brings back all those feelings. I can almost smell that hospital room again. But... I don't know, maybe it's also a bit relieving? Like I'm finally letting some of it out.",
+      "Therapist: That's a positive step. Well done, Amir."
+    ],
+    [
+      "Client: It's... it's hard. Talking about it brings back all those feelings. I can almost smell that hospital room again. But... I don't know, maybe it's also a bit relieving? Like I'm finally letting some of it out.",
+      "Therapist: That's a positive step. Well done, Amir.",
+      "Client: Thanks. I think... I think I need a break now. Is that okay?"
+    ],
+    [
+      "Therapist: That's a positive step. Well done, Amir.",
+      "Client: Thanks. I think... I think I need a break now. Is that okay?",
+      "Therapist: Of course. You've done excellent work today."
+    ]
+  ]
+}

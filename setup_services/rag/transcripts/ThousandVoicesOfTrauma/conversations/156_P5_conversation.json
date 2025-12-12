@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mrs. Johnson. How are you feeling today?",
+    "Client: Good morning, Dr. Williams. I'm... I'm a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is making me anxious.",
+    "Therapist: That's understandable. Let's talk about the imaginal exposure we'll be doing today.",
+    "Client: Okay... I've been dreading this part. Can you explain again why we need to do this? I've spent years trying to forget those combat experiences.",
+    "Therapist: The goal is to process the trauma, not avoid it. It can help reduce your PTSD symptoms over time.",
+    "Client: I see. But what if I can't handle it? What if I completely fall apart during the session?",
+    "Therapist: I'll be here to support you throughout. We can pause anytime you need.",
+    "Client: That's reassuring. I'm just worried about how I'll feel afterward. Will this make my anxiety worse?",
+    "Therapist: It might be challenging initially, but many find relief with time. How are you feeling about starting?",
+    "Client: I'm scared, but I trust you. I've come this far, and I want to get better. For myself and my family. Can you walk me through what exactly we'll be doing?",
+    "Therapist: Of course. We'll start with a specific memory. You'll describe it in detail, in the present tense.",
+    "Client: In the present tense? That sounds intense. Will that make it feel like I'm reliving it all over again?",
+    "Therapist: It might feel that way, but remember, you're safe here. It's about processing, not reliving.",
+    "Client: I understand. It's just... these memories, they're so vivid. The sounds, the smells, the fear... it's all so overwhelming. How do I keep myself grounded?",
+    "Therapist: We'll use grounding techniques we've practiced. I'll guide you if needed.",
+    "Client: Okay, I'll try my best. I keep thinking about my team, the ones who didn't make it back. It's hard not to feel guilty.",
+    "Therapist: Those feelings are normal. We'll address them as they come up. Ready to begin?",
+    "Client: I suppose I am. It's strange, feeling both terrified and hopeful at the same time. Let's do this.",
+    "Therapist: Your courage is admirable. Remember, we're in this together. Shall we start?",
+    "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for being here with me through this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mrs. Johnson. How are you feeling today?",
+      "Client: Good morning, Dr. Williams. I'm... I'm a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is making me anxious.",
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we'll be doing today."
+    ],
+    [
+      "Client: Good morning, Dr. Williams. I'm... I'm a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is making me anxious.",
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we'll be doing today.",
+      "Client: Okay... I've been dreading this part. Can you explain again why we need to do this? I've spent years trying to forget those combat experiences."
+    ],
+    [
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we'll be doing today.",
+      "Client: Okay... I've been dreading this part. Can you explain again why we need to do this? I've spent years trying to forget those combat experiences.",
+      "Therapist: The goal is to process the trauma, not avoid it. It can help reduce your PTSD symptoms over time."
+    ],
+    [
+      "Client: Okay... I've been dreading this part. Can you explain again why we need to do this? I've spent years trying to forget those combat experiences.",
+      "Therapist: The goal is to process the trauma, not avoid it. It can help reduce your PTSD symptoms over time.",
+      "Client: I see. But what if I can't handle it? What if I completely fall apart during the session?"
+    ],
+    [
+      "Therapist: The goal is to process the trauma, not avoid it. It can help reduce your PTSD symptoms over time.",
+      "Client: I see. But what if I can't handle it? What if I completely fall apart during the session?",
+      "Therapist: I'll be here to support you throughout. We can pause anytime you need."
+    ],
+    [
+      "Client: I see. But what if I can't handle it? What if I completely fall apart during the session?",
+      "Therapist: I'll be here to support you throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I'm just worried about how I'll feel afterward. Will this make my anxiety worse?"
+    ],
+    [
+      "Therapist: I'll be here to support you throughout. We can pause anytime you need.",
+      "Client: That's reassuring. I'm just worried about how I'll feel afterward. Will this make my anxiety worse?",
+      "Therapist: It might be challenging initially, but many find relief with time. How are you feeling about starting?"
+    ],
+    [
+      "Client: That's reassuring. I'm just worried about how I'll feel afterward. Will this make my anxiety worse?",
+      "Therapist: It might be challenging initially, but many find relief with time. How are you feeling about starting?",
+      "Client: I'm scared, but I trust you. I've come this far, and I want to get better. For myself and my family. Can you walk me through what exactly we'll be doing?"
+    ],
+    [
+      "Therapist: It might be challenging initially, but many find relief with time. How are you feeling about starting?",
+      "Client: I'm scared, but I trust you. I've come this far, and I want to get better. For myself and my family. Can you walk me through what exactly we'll be doing?",
+      "Therapist: Of course. We'll start with a specific memory. You'll describe it in detail, in the present tense."
+    ],
+    [
+      "Client: I'm scared, but I trust you. I've come this far, and I want to get better. For myself and my family. Can you walk me through what exactly we'll be doing?",
+      "Therapist: Of course. We'll start with a specific memory. You'll describe it in detail, in the present tense.",
+      "Client: In the present tense? That sounds intense. Will that make it feel like I'm reliving it all over again?"
+    ],
+    [
+      "Therapist: Of course. We'll start with a specific memory. You'll describe it in detail, in the present tense.",
+      "Client: In the present tense? That sounds intense. Will that make it feel like I'm reliving it all over again?",
+      "Therapist: It might feel that way, but remember, you're safe here. It's about processing, not reliving."
+    ],
+    [
+      "Client: In the present tense? That sounds intense. Will that make it feel like I'm reliving it all over again?",
+      "Therapist: It might feel that way, but remember, you're safe here. It's about processing, not reliving.",
+      "Client: I understand. It's just... these memories, they're so vivid. The sounds, the smells, the fear... it's all so overwhelming. How do I keep myself grounded?"
+    ],
+    [
+      "Therapist: It might feel that way, but remember, you're safe here. It's about processing, not reliving.",
+      "Client: I understand. It's just... these memories, they're so vivid. The sounds, the smells, the fear... it's all so overwhelming. How do I keep myself grounded?",
+      "Therapist: We'll use grounding techniques we've practiced. I'll guide you if needed."
+    ],
+    [
+      "Client: I understand. It's just... these memories, they're so vivid. The sounds, the smells, the fear... it's all so overwhelming. How do I keep myself grounded?",
+      "Therapist: We'll use grounding techniques we've practiced. I'll guide you if needed.",
+      "Client: Okay, I'll try my best. I keep thinking about my team, the ones who didn't make it back. It's hard not to feel guilty."
+    ],
+    [
+      "Therapist: We'll use grounding techniques we've practiced. I'll guide you if needed.",
+      "Client: Okay, I'll try my best. I keep thinking about my team, the ones who didn't make it back. It's hard not to feel guilty.",
+      "Therapist: Those feelings are normal. We'll address them as they come up. Ready to begin?"
+    ],
+    [
+      "Client: Okay, I'll try my best. I keep thinking about my team, the ones who didn't make it back. It's hard not to feel guilty.",
+      "Therapist: Those feelings are normal. We'll address them as they come up. Ready to begin?",
+      "Client: I suppose I am. It's strange, feeling both terrified and hopeful at the same time. Let's do this."
+    ],
+    [
+      "Therapist: Those feelings are normal. We'll address them as they come up. Ready to begin?",
+      "Client: I suppose I am. It's strange, feeling both terrified and hopeful at the same time. Let's do this.",
+      "Therapist: Your courage is admirable. Remember, we're in this together. Shall we start?"
+    ],
+    [
+      "Client: I suppose I am. It's strange, feeling both terrified and hopeful at the same time. Let's do this.",
+      "Therapist: Your courage is admirable. Remember, we're in this together. Shall we start?",
+      "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for being here with me through this."
+    ]
+  ]
+}

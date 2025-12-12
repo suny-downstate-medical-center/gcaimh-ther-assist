@@ -1,0 +1,278 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Alex. How are you feeling about today's imaginal exposure session?",
+    "Client: I... I'm not sure, to be honest. There's a part of me that wants to face this, but another part that's... well, terrified. It's like my stomach is in knots, you know?",
+    "Therapist: That's understandable. Remember, we're here together. Are you ready to begin?",
+    "Client: I think so. Yes, let's do this.",
+    "Therapist: Alright. Close your eyes and take us back to that day at the hospital. What do you see?",
+    "Client: I'm... I'm in the waiting room. The chairs are this awful blue color, and there's a TV playing some daytime talk show, but nobody's really watching it. The air smells like disinfectant and... and fear. My hands are shaking as I fill out this endless form.",
+    "Therapist: Good. What happens next?",
+    "Client: A nurse calls my name. Her voice is kind, but I can see the worry in her eyes. I follow her down this long, white hallway. My heart is pounding so hard I can hear it in my ears.",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: I'm... I'm scared. No, I'm terrified. I keep thinking, \"This can't be happening. Not to me, not now.\" My mouth is dry, and I can barely swallow.",
+    "Therapist: On a scale of 0 to 100, how distressed are you feeling right now?",
+    "Client: It's... it's about a 70. Maybe 75.",
+    "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+    "Client: Okay... The nurse leads me into a small room. There's a doctor there, and he starts explaining something about my test results. But his words... they're just a blur. All I can focus on is this crushing feeling in my chest.",
+    "Therapist: What's going through your mind?",
+    "Client: I keep thinking, \"This is it. This is how my life ends.\" And then... then it happens. A loud crash from somewhere in the hospital. People start screaming. The doctor looks panicked, and suddenly he's pushing me under the exam table.",
+    "Therapist: Stay with that moment. What do you see, hear, feel?",
+    "Client: I... I can hear shouting. Angry voices. Gunshots. Oh god, there are gunshots. I'm shaking uncontrollably. The floor is cold against my skin, and I can smell the rubber of my sneakers. The doctor is whispering, \"Stay quiet, stay still.\"",
+    "Therapist: You're doing well. Remember, you're safe now. How's your distress level?",
+    "Client: It's... it's up to 85, maybe 90.",
+    "Therapist: Take a moment to ground yourself. Feel your feet on the floor here in my office.",
+    "Client: *deep breath* Okay... I'm here. I'm safe.",
+    "Therapist: Good. When you're ready, continue.",
+    "Client: Right... So, I'm under the table. I can hear footsteps in the hallway. Heavy, angry footsteps. My heart is racing so fast I think it might explode. And then... the door bursts open. I see these boots, black combat boots. A man's voice, rough and threatening, demands drugs from the pharmacy.",
+    "Therapist: What are you feeling in your body?",
+    "Client: I'm... I'm frozen. My muscles are so tense they hurt. I can't breathe. I'm trying to make myself as small as possible, praying they don't see me.",
+    "Therapist: Stay with that feeling. You're doing great.",
+    "Client: The man... he grabs the doctor. I can hear a struggle. I want to help, but I'm paralyzed with fear. I can smell the gunpowder from the shots fired earlier. It makes me want to gag.",
+    "Therapist: What happens next?",
+    "Client: Suddenly, there's more shouting. Police, I think. The man panics. He... he drags the doctor out of the room. I'm alone now, but I can hear everything. Threats, negotiations. It feels like hours, but it's probably only minutes.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm... I'm exhausted. Drained. But also, there's this surge of adrenaline. I want to run, to fight, to do something. But I'm still frozen.",
+    "Therapist: Your distress level?",
+    "Client: It's... it's still high. Maybe 80?",
+    "Therapist: Take another deep breath. Remember, you survived this.",
+    "Client: Right... I did survive. Eventually, I hear more commotion. Then silence. A deafening silence. I'm afraid to move, afraid to breathe. Then, finally, a police officer finds me. He helps me out from under the table, but my legs are so weak I can barely stand.",
+    "Therapist: What's going through your mind at this point?",
+    "Client: I... I can't believe it's over. I'm relieved, but also... angry. Angry that this happened, angry at myself for being so helpless. And guilty. The doctor... he protected me, and I did nothing to help him.",
+    "Therapist: Those are all normal reactions. How do you feel now, thinking about it?",
+    "Client: It's... it's still intense. But different. Like I'm looking at it from a distance now. My heart isn't racing as much, but I feel... heavy. Sad.",
+    "Therapist: That's progress. What's your distress level now?",
+    "Client: It's... it's down to about 60, I think.",
+    "Therapist: Good. Let's take a moment to breathe together.",
+    "Client: *deep breath* Okay... I'm here. I'm safe now.",
+    "Therapist: You did very well. How are you feeling overall?",
+    "Client: I'm... I'm drained. But also... I don't know, maybe a little stronger? Like I faced it and survived again.",
+    "Therapist: That's excellent progress. Let's end here for today. Well done, Alex."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Alex. How are you feeling about today's imaginal exposure session?",
+      "Client: I... I'm not sure, to be honest. There's a part of me that wants to face this, but another part that's... well, terrified. It's like my stomach is in knots, you know?",
+      "Therapist: That's understandable. Remember, we're here together. Are you ready to begin?"
+    ],
+    [
+      "Client: I... I'm not sure, to be honest. There's a part of me that wants to face this, but another part that's... well, terrified. It's like my stomach is in knots, you know?",
+      "Therapist: That's understandable. Remember, we're here together. Are you ready to begin?",
+      "Client: I think so. Yes, let's do this."
+    ],
+    [
+      "Therapist: That's understandable. Remember, we're here together. Are you ready to begin?",
+      "Client: I think so. Yes, let's do this.",
+      "Therapist: Alright. Close your eyes and take us back to that day at the hospital. What do you see?"
+    ],
+    [
+      "Client: I think so. Yes, let's do this.",
+      "Therapist: Alright. Close your eyes and take us back to that day at the hospital. What do you see?",
+      "Client: I'm... I'm in the waiting room. The chairs are this awful blue color, and there's a TV playing some daytime talk show, but nobody's really watching it. The air smells like disinfectant and... and fear. My hands are shaking as I fill out this endless form."
+    ],
+    [
+      "Therapist: Alright. Close your eyes and take us back to that day at the hospital. What do you see?",
+      "Client: I'm... I'm in the waiting room. The chairs are this awful blue color, and there's a TV playing some daytime talk show, but nobody's really watching it. The air smells like disinfectant and... and fear. My hands are shaking as I fill out this endless form.",
+      "Therapist: Good. What happens next?"
+    ],
+    [
+      "Client: I'm... I'm in the waiting room. The chairs are this awful blue color, and there's a TV playing some daytime talk show, but nobody's really watching it. The air smells like disinfectant and... and fear. My hands are shaking as I fill out this endless form.",
+      "Therapist: Good. What happens next?",
+      "Client: A nurse calls my name. Her voice is kind, but I can see the worry in her eyes. I follow her down this long, white hallway. My heart is pounding so hard I can hear it in my ears."
+    ],
+    [
+      "Therapist: Good. What happens next?",
+      "Client: A nurse calls my name. Her voice is kind, but I can see the worry in her eyes. I follow her down this long, white hallway. My heart is pounding so hard I can hear it in my ears.",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: A nurse calls my name. Her voice is kind, but I can see the worry in her eyes. I follow her down this long, white hallway. My heart is pounding so hard I can hear it in my ears.",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm... I'm scared. No, I'm terrified. I keep thinking, \"This can't be happening. Not to me, not now.\" My mouth is dry, and I can barely swallow."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I'm... I'm scared. No, I'm terrified. I keep thinking, \"This can't be happening. Not to me, not now.\" My mouth is dry, and I can barely swallow.",
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling right now?"
+    ],
+    [
+      "Client: I'm... I'm scared. No, I'm terrified. I keep thinking, \"This can't be happening. Not to me, not now.\" My mouth is dry, and I can barely swallow.",
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: It's... it's about a 70. Maybe 75."
+    ],
+    [
+      "Therapist: On a scale of 0 to 100, how distressed are you feeling right now?",
+      "Client: It's... it's about a 70. Maybe 75.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's about a 70. Maybe 75.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: Okay... The nurse leads me into a small room. There's a doctor there, and he starts explaining something about my test results. But his words... they're just a blur. All I can focus on is this crushing feeling in my chest."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: Okay... The nurse leads me into a small room. There's a doctor there, and he starts explaining something about my test results. But his words... they're just a blur. All I can focus on is this crushing feeling in my chest.",
+      "Therapist: What's going through your mind?"
+    ],
+    [
+      "Client: Okay... The nurse leads me into a small room. There's a doctor there, and he starts explaining something about my test results. But his words... they're just a blur. All I can focus on is this crushing feeling in my chest.",
+      "Therapist: What's going through your mind?",
+      "Client: I keep thinking, \"This is it. This is how my life ends.\" And then... then it happens. A loud crash from somewhere in the hospital. People start screaming. The doctor looks panicked, and suddenly he's pushing me under the exam table."
+    ],
+    [
+      "Therapist: What's going through your mind?",
+      "Client: I keep thinking, \"This is it. This is how my life ends.\" And then... then it happens. A loud crash from somewhere in the hospital. People start screaming. The doctor looks panicked, and suddenly he's pushing me under the exam table.",
+      "Therapist: Stay with that moment. What do you see, hear, feel?"
+    ],
+    [
+      "Client: I keep thinking, \"This is it. This is how my life ends.\" And then... then it happens. A loud crash from somewhere in the hospital. People start screaming. The doctor looks panicked, and suddenly he's pushing me under the exam table.",
+      "Therapist: Stay with that moment. What do you see, hear, feel?",
+      "Client: I... I can hear shouting. Angry voices. Gunshots. Oh god, there are gunshots. I'm shaking uncontrollably. The floor is cold against my skin, and I can smell the rubber of my sneakers. The doctor is whispering, \"Stay quiet, stay still.\""
+    ],
+    [
+      "Therapist: Stay with that moment. What do you see, hear, feel?",
+      "Client: I... I can hear shouting. Angry voices. Gunshots. Oh god, there are gunshots. I'm shaking uncontrollably. The floor is cold against my skin, and I can smell the rubber of my sneakers. The doctor is whispering, \"Stay quiet, stay still.\"",
+      "Therapist: You're doing well. Remember, you're safe now. How's your distress level?"
+    ],
+    [
+      "Client: I... I can hear shouting. Angry voices. Gunshots. Oh god, there are gunshots. I'm shaking uncontrollably. The floor is cold against my skin, and I can smell the rubber of my sneakers. The doctor is whispering, \"Stay quiet, stay still.\"",
+      "Therapist: You're doing well. Remember, you're safe now. How's your distress level?",
+      "Client: It's... it's up to 85, maybe 90."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're safe now. How's your distress level?",
+      "Client: It's... it's up to 85, maybe 90.",
+      "Therapist: Take a moment to ground yourself. Feel your feet on the floor here in my office."
+    ],
+    [
+      "Client: It's... it's up to 85, maybe 90.",
+      "Therapist: Take a moment to ground yourself. Feel your feet on the floor here in my office.",
+      "Client: *deep breath* Okay... I'm here. I'm safe."
+    ],
+    [
+      "Therapist: Take a moment to ground yourself. Feel your feet on the floor here in my office.",
+      "Client: *deep breath* Okay... I'm here. I'm safe.",
+      "Therapist: Good. When you're ready, continue."
+    ],
+    [
+      "Client: *deep breath* Okay... I'm here. I'm safe.",
+      "Therapist: Good. When you're ready, continue.",
+      "Client: Right... So, I'm under the table. I can hear footsteps in the hallway. Heavy, angry footsteps. My heart is racing so fast I think it might explode. And then... the door bursts open. I see these boots, black combat boots. A man's voice, rough and threatening, demands drugs from the pharmacy."
+    ],
+    [
+      "Therapist: Good. When you're ready, continue.",
+      "Client: Right... So, I'm under the table. I can hear footsteps in the hallway. Heavy, angry footsteps. My heart is racing so fast I think it might explode. And then... the door bursts open. I see these boots, black combat boots. A man's voice, rough and threatening, demands drugs from the pharmacy.",
+      "Therapist: What are you feeling in your body?"
+    ],
+    [
+      "Client: Right... So, I'm under the table. I can hear footsteps in the hallway. Heavy, angry footsteps. My heart is racing so fast I think it might explode. And then... the door bursts open. I see these boots, black combat boots. A man's voice, rough and threatening, demands drugs from the pharmacy.",
+      "Therapist: What are you feeling in your body?",
+      "Client: I'm... I'm frozen. My muscles are so tense they hurt. I can't breathe. I'm trying to make myself as small as possible, praying they don't see me."
+    ],
+    [
+      "Therapist: What are you feeling in your body?",
+      "Client: I'm... I'm frozen. My muscles are so tense they hurt. I can't breathe. I'm trying to make myself as small as possible, praying they don't see me.",
+      "Therapist: Stay with that feeling. You're doing great."
+    ],
+    [
+      "Client: I'm... I'm frozen. My muscles are so tense they hurt. I can't breathe. I'm trying to make myself as small as possible, praying they don't see me.",
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: The man... he grabs the doctor. I can hear a struggle. I want to help, but I'm paralyzed with fear. I can smell the gunpowder from the shots fired earlier. It makes me want to gag."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: The man... he grabs the doctor. I can hear a struggle. I want to help, but I'm paralyzed with fear. I can smell the gunpowder from the shots fired earlier. It makes me want to gag.",
+      "Therapist: What happens next?"
+    ],
+    [
+      "Client: The man... he grabs the doctor. I can hear a struggle. I want to help, but I'm paralyzed with fear. I can smell the gunpowder from the shots fired earlier. It makes me want to gag.",
+      "Therapist: What happens next?",
+      "Client: Suddenly, there's more shouting. Police, I think. The man panics. He... he drags the doctor out of the room. I'm alone now, but I can hear everything. Threats, negotiations. It feels like hours, but it's probably only minutes."
+    ],
+    [
+      "Therapist: What happens next?",
+      "Client: Suddenly, there's more shouting. Police, I think. The man panics. He... he drags the doctor out of the room. I'm alone now, but I can hear everything. Threats, negotiations. It feels like hours, but it's probably only minutes.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Suddenly, there's more shouting. Police, I think. The man panics. He... he drags the doctor out of the room. I'm alone now, but I can hear everything. Threats, negotiations. It feels like hours, but it's probably only minutes.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm exhausted. Drained. But also, there's this surge of adrenaline. I want to run, to fight, to do something. But I'm still frozen."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm exhausted. Drained. But also, there's this surge of adrenaline. I want to run, to fight, to do something. But I'm still frozen.",
+      "Therapist: Your distress level?"
+    ],
+    [
+      "Client: I'm... I'm exhausted. Drained. But also, there's this surge of adrenaline. I want to run, to fight, to do something. But I'm still frozen.",
+      "Therapist: Your distress level?",
+      "Client: It's... it's still high. Maybe 80?"
+    ],
+    [
+      "Therapist: Your distress level?",
+      "Client: It's... it's still high. Maybe 80?",
+      "Therapist: Take another deep breath. Remember, you survived this."
+    ],
+    [
+      "Client: It's... it's still high. Maybe 80?",
+      "Therapist: Take another deep breath. Remember, you survived this.",
+      "Client: Right... I did survive. Eventually, I hear more commotion. Then silence. A deafening silence. I'm afraid to move, afraid to breathe. Then, finally, a police officer finds me. He helps me out from under the table, but my legs are so weak I can barely stand."
+    ],
+    [
+      "Therapist: Take another deep breath. Remember, you survived this.",
+      "Client: Right... I did survive. Eventually, I hear more commotion. Then silence. A deafening silence. I'm afraid to move, afraid to breathe. Then, finally, a police officer finds me. He helps me out from under the table, but my legs are so weak I can barely stand.",
+      "Therapist: What's going through your mind at this point?"
+    ],
+    [
+      "Client: Right... I did survive. Eventually, I hear more commotion. Then silence. A deafening silence. I'm afraid to move, afraid to breathe. Then, finally, a police officer finds me. He helps me out from under the table, but my legs are so weak I can barely stand.",
+      "Therapist: What's going through your mind at this point?",
+      "Client: I... I can't believe it's over. I'm relieved, but also... angry. Angry that this happened, angry at myself for being so helpless. And guilty. The doctor... he protected me, and I did nothing to help him."
+    ],
+    [
+      "Therapist: What's going through your mind at this point?",
+      "Client: I... I can't believe it's over. I'm relieved, but also... angry. Angry that this happened, angry at myself for being so helpless. And guilty. The doctor... he protected me, and I did nothing to help him.",
+      "Therapist: Those are all normal reactions. How do you feel now, thinking about it?"
+    ],
+    [
+      "Client: I... I can't believe it's over. I'm relieved, but also... angry. Angry that this happened, angry at myself for being so helpless. And guilty. The doctor... he protected me, and I did nothing to help him.",
+      "Therapist: Those are all normal reactions. How do you feel now, thinking about it?",
+      "Client: It's... it's still intense. But different. Like I'm looking at it from a distance now. My heart isn't racing as much, but I feel... heavy. Sad."
+    ],
+    [
+      "Therapist: Those are all normal reactions. How do you feel now, thinking about it?",
+      "Client: It's... it's still intense. But different. Like I'm looking at it from a distance now. My heart isn't racing as much, but I feel... heavy. Sad.",
+      "Therapist: That's progress. What's your distress level now?"
+    ],
+    [
+      "Client: It's... it's still intense. But different. Like I'm looking at it from a distance now. My heart isn't racing as much, but I feel... heavy. Sad.",
+      "Therapist: That's progress. What's your distress level now?",
+      "Client: It's... it's down to about 60, I think."
+    ],
+    [
+      "Therapist: That's progress. What's your distress level now?",
+      "Client: It's... it's down to about 60, I think.",
+      "Therapist: Good. Let's take a moment to breathe together."
+    ],
+    [
+      "Client: It's... it's down to about 60, I think.",
+      "Therapist: Good. Let's take a moment to breathe together.",
+      "Client: *deep breath* Okay... I'm here. I'm safe now."
+    ],
+    [
+      "Therapist: Good. Let's take a moment to breathe together.",
+      "Client: *deep breath* Okay... I'm here. I'm safe now.",
+      "Therapist: You did very well. How are you feeling overall?"
+    ],
+    [
+      "Client: *deep breath* Okay... I'm here. I'm safe now.",
+      "Therapist: You did very well. How are you feeling overall?",
+      "Client: I'm... I'm drained. But also... I don't know, maybe a little stronger? Like I faced it and survived again."
+    ],
+    [
+      "Therapist: You did very well. How are you feeling overall?",
+      "Client: I'm... I'm drained. But also... I don't know, maybe a little stronger? Like I faced it and survived again.",
+      "Therapist: That's excellent progress. Let's end here for today. Well done, Alex."
+    ]
+  ]
+}

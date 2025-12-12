@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start with your baseline SUDS.",
+    "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+    "Therapist: Okay. Close your eyes and bring up that memory. Describe what you're experiencing.",
+    "Client: I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, picking at my lunch. A group of kids walks by, and I hear one of them mutter something about my skin color. My stomach tightens, and I feel my face getting hot.",
+    "Therapist: Stay with that feeling. What's happening now?",
+    "Client: They're laughing, and I know it's about me. I want to disappear. My hands are shaking, and I'm having trouble swallowing my food. I feel so isolated, like I don't belong anywhere.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's up to a 7. My chest feels tight, and I'm starting to sweat.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I look around, hoping to see a friendly face, but everyone seems to be avoiding eye contact with me. It's like I'm invisible, but also sticking out like a sore thumb at the same time. I hear more whispers and giggles. The words \"go back where you came from\" reach my ears, and it's like a punch to the gut.",
+    "Therapist: How are you feeling right now?",
+    "Client: Angry and hurt. My fists are clenched under the table. I want to yell at them, tell them I was born here, that this is my home too. But I can't find my voice. I feel so powerless.",
+    "Therapist: Your SUDS?",
+    "Client: It's an 8 now. My heart's racing, and I feel dizzy.",
+    "Therapist: You're handling this well. Continue.",
+    "Client: The bell rings, and everyone starts leaving. I'm still frozen in my seat, afraid to move. As people pass by, I feel their stares burning into me. I'm overwhelmed with shame and anger. Why can't I just blend in? Why do I have to be different?",
+    "Therapist: Stay with those emotions. What happens next?",
+    "Client: I finally get up, but my legs feel weak. As I'm walking to class, I overhear someone say, \"At least he's not in our group project.\" It's like a knife twisting in my chest. I make it to the bathroom and lock myself in a stall. I'm fighting back tears, trying to steady my breathing.",
+    "Therapist: SUDS level?",
+    "Client: It's at a 9. I feel like I can't breathe. My hands are shaking so much.",
+    "Therapist: You're doing great. Keep breathing.",
+    "Client: I stay in the bathroom until the late bell rings. I'm going to be in trouble for being late, but I can't face anyone right now. I look in the mirror, and all I see is someone who doesn't fit in. I hate how I look, how I feel. I just want to go home and never come back.",
+    "Therapist: How are you feeling now?",
+    "Client: Still pretty bad. Maybe an 8. My stomach is in knots, and I feel so alone.",
+    "Therapist: You're doing well. Let's start winding down.",
+    "Client: Okay. I splash some water on my face, trying to compose myself. I take a deep breath and leave the bathroom. The hallway is empty, and the silence is deafening. I make my way to class, dreading the attention I'll get for being late, dreading the looks and whispers that I know will follow me for the rest of the day.",
+    "Therapist: And your final SUDS?",
+    "Client: It's down to a 6 now. I still feel shaky and sad, but not as intense as before.",
+    "Therapist: Well done. Let's end the exercise here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start with your baseline SUDS."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your baseline SUDS.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and bring up that memory. Describe what you're experiencing."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and bring up that memory. Describe what you're experiencing.",
+      "Client: I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, picking at my lunch. A group of kids walks by, and I hear one of them mutter something about my skin color. My stomach tightens, and I feel my face getting hot."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring up that memory. Describe what you're experiencing.",
+      "Client: I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, picking at my lunch. A group of kids walks by, and I hear one of them mutter something about my skin color. My stomach tightens, and I feel my face getting hot.",
+      "Therapist: Stay with that feeling. What's happening now?"
+    ],
+    [
+      "Client: I'm back in my high school cafeteria. It's loud, and I can smell the greasy food. I'm sitting alone at a table, picking at my lunch. A group of kids walks by, and I hear one of them mutter something about my skin color. My stomach tightens, and I feel my face getting hot.",
+      "Therapist: Stay with that feeling. What's happening now?",
+      "Client: They're laughing, and I know it's about me. I want to disappear. My hands are shaking, and I'm having trouble swallowing my food. I feel so isolated, like I don't belong anywhere."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's happening now?",
+      "Client: They're laughing, and I know it's about me. I want to disappear. My hands are shaking, and I'm having trouble swallowing my food. I feel so isolated, like I don't belong anywhere.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: They're laughing, and I know it's about me. I want to disappear. My hands are shaking, and I'm having trouble swallowing my food. I feel so isolated, like I don't belong anywhere.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's up to a 7. My chest feels tight, and I'm starting to sweat."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's up to a 7. My chest feels tight, and I'm starting to sweat.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's up to a 7. My chest feels tight, and I'm starting to sweat.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I look around, hoping to see a friendly face, but everyone seems to be avoiding eye contact with me. It's like I'm invisible, but also sticking out like a sore thumb at the same time. I hear more whispers and giggles. The words \"go back where you came from\" reach my ears, and it's like a punch to the gut."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I look around, hoping to see a friendly face, but everyone seems to be avoiding eye contact with me. It's like I'm invisible, but also sticking out like a sore thumb at the same time. I hear more whispers and giggles. The words \"go back where you came from\" reach my ears, and it's like a punch to the gut.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: I look around, hoping to see a friendly face, but everyone seems to be avoiding eye contact with me. It's like I'm invisible, but also sticking out like a sore thumb at the same time. I hear more whispers and giggles. The words \"go back where you came from\" reach my ears, and it's like a punch to the gut.",
+      "Therapist: How are you feeling right now?",
+      "Client: Angry and hurt. My fists are clenched under the table. I want to yell at them, tell them I was born here, that this is my home too. But I can't find my voice. I feel so powerless."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Angry and hurt. My fists are clenched under the table. I want to yell at them, tell them I was born here, that this is my home too. But I can't find my voice. I feel so powerless.",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: Angry and hurt. My fists are clenched under the table. I want to yell at them, tell them I was born here, that this is my home too. But I can't find my voice. I feel so powerless.",
+      "Therapist: Your SUDS?",
+      "Client: It's an 8 now. My heart's racing, and I feel dizzy."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: It's an 8 now. My heart's racing, and I feel dizzy.",
+      "Therapist: You're handling this well. Continue."
+    ],
+    [
+      "Client: It's an 8 now. My heart's racing, and I feel dizzy.",
+      "Therapist: You're handling this well. Continue.",
+      "Client: The bell rings, and everyone starts leaving. I'm still frozen in my seat, afraid to move. As people pass by, I feel their stares burning into me. I'm overwhelmed with shame and anger. Why can't I just blend in? Why do I have to be different?"
+    ],
+    [
+      "Therapist: You're handling this well. Continue.",
+      "Client: The bell rings, and everyone starts leaving. I'm still frozen in my seat, afraid to move. As people pass by, I feel their stares burning into me. I'm overwhelmed with shame and anger. Why can't I just blend in? Why do I have to be different?",
+      "Therapist: Stay with those emotions. What happens next?"
+    ],
+    [
+      "Client: The bell rings, and everyone starts leaving. I'm still frozen in my seat, afraid to move. As people pass by, I feel their stares burning into me. I'm overwhelmed with shame and anger. Why can't I just blend in? Why do I have to be different?",
+      "Therapist: Stay with those emotions. What happens next?",
+      "Client: I finally get up, but my legs feel weak. As I'm walking to class, I overhear someone say, \"At least he's not in our group project.\" It's like a knife twisting in my chest. I make it to the bathroom and lock myself in a stall. I'm fighting back tears, trying to steady my breathing."
+    ],
+    [
+      "Therapist: Stay with those emotions. What happens next?",
+      "Client: I finally get up, but my legs feel weak. As I'm walking to class, I overhear someone say, \"At least he's not in our group project.\" It's like a knife twisting in my chest. I make it to the bathroom and lock myself in a stall. I'm fighting back tears, trying to steady my breathing.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I finally get up, but my legs feel weak. As I'm walking to class, I overhear someone say, \"At least he's not in our group project.\" It's like a knife twisting in my chest. I make it to the bathroom and lock myself in a stall. I'm fighting back tears, trying to steady my breathing.",
+      "Therapist: SUDS level?",
+      "Client: It's at a 9. I feel like I can't breathe. My hands are shaking so much."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's at a 9. I feel like I can't breathe. My hands are shaking so much.",
+      "Therapist: You're doing great. Keep breathing."
+    ],
+    [
+      "Client: It's at a 9. I feel like I can't breathe. My hands are shaking so much.",
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I stay in the bathroom until the late bell rings. I'm going to be in trouble for being late, but I can't face anyone right now. I look in the mirror, and all I see is someone who doesn't fit in. I hate how I look, how I feel. I just want to go home and never come back."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I stay in the bathroom until the late bell rings. I'm going to be in trouble for being late, but I can't face anyone right now. I look in the mirror, and all I see is someone who doesn't fit in. I hate how I look, how I feel. I just want to go home and never come back.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I stay in the bathroom until the late bell rings. I'm going to be in trouble for being late, but I can't face anyone right now. I look in the mirror, and all I see is someone who doesn't fit in. I hate how I look, how I feel. I just want to go home and never come back.",
+      "Therapist: How are you feeling now?",
+      "Client: Still pretty bad. Maybe an 8. My stomach is in knots, and I feel so alone."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Still pretty bad. Maybe an 8. My stomach is in knots, and I feel so alone.",
+      "Therapist: You're doing well. Let's start winding down."
+    ],
+    [
+      "Client: Still pretty bad. Maybe an 8. My stomach is in knots, and I feel so alone.",
+      "Therapist: You're doing well. Let's start winding down.",
+      "Client: Okay. I splash some water on my face, trying to compose myself. I take a deep breath and leave the bathroom. The hallway is empty, and the silence is deafening. I make my way to class, dreading the attention I'll get for being late, dreading the looks and whispers that I know will follow me for the rest of the day."
+    ],
+    [
+      "Therapist: You're doing well. Let's start winding down.",
+      "Client: Okay. I splash some water on my face, trying to compose myself. I take a deep breath and leave the bathroom. The hallway is empty, and the silence is deafening. I make my way to class, dreading the attention I'll get for being late, dreading the looks and whispers that I know will follow me for the rest of the day.",
+      "Therapist: And your final SUDS?"
+    ],
+    [
+      "Client: Okay. I splash some water on my face, trying to compose myself. I take a deep breath and leave the bathroom. The hallway is empty, and the silence is deafening. I make my way to class, dreading the attention I'll get for being late, dreading the looks and whispers that I know will follow me for the rest of the day.",
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 6 now. I still feel shaky and sad, but not as intense as before."
+    ],
+    [
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 6 now. I still feel shaky and sad, but not as intense as before.",
+      "Therapist: Well done. Let's end the exercise here."
+    ]
+  ]
+}

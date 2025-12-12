@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, John. How are you feeling today?",
+    "Client: Morning, Dr. Thompson. I'm... I'm okay, I guess. A bit anxious about today's session, to be honest.",
+    "Therapist: That's understandable. We'll take it step by step. Ready to begin?",
+    "Client: Yeah, I think so. Let's do this.",
+    "Therapist: Alright. Close your eyes and recall the memory. What's your SUDS level?",
+    "Client: Um... I'd say about a 6 out of 10. I can feel my heart starting to race a bit.",
+    "Therapist: Thank you. Continue with the memory. What do you see?",
+    "Client: I see my daughter's Facebook page. All those horrible comments... people calling her names, saying she should... should kill herself. God, it's awful. My hands are shaking just thinking about it.",
+    "Therapist: You're doing well. Stay with it. What else?",
+    "Client: I... I remember feeling so helpless. I didn't know how to protect her from this. She was so young, only 15. I should've done more...",
+    "Therapist: It's been 5 minutes. What's your SUDS now?",
+    "Client: It's... it's gone up. Maybe an 8. I feel sick to my stomach.",
+    "Therapist: That's okay. You're safe here. What happened next?",
+    "Client: I confronted some of the kids' parents, but they didn't care. Said it was just \"kids being kids.\" But it wasn't! It was destroying my little girl. I... I can feel the anger rising in me now.",
+    "Therapist: Allow yourself to feel that anger. What else do you notice?",
+    "Client: My jaw is clenched. I want to punch something. But I also feel... God, I feel so guilty. I should've done more to help her.",
+    "Therapist: SUDS level now?",
+    "Client: Still an 8. Maybe even a 9. This is really hard.",
+    "Therapist: You're doing great, John. Stay with it. What happened after that?",
+    "Client: I... I found her. In the bathroom. She'd taken all her pills. I called 911, but... but it was too late. My baby girl... she was gone. I can't... I can't breathe...",
+    "Therapist: Take a deep breath, John. You're safe here. What's your SUDS?",
+    "Client: It's... it's a 10. I feel like I'm right back there. My chest is so tight.",
+    "Therapist: You're doing well. Stay present. What do you see around you now?",
+    "Client: I... I see your office. The green plant in the corner. My hands... they're shaking.",
+    "Therapist: Good. Keep breathing. What else do you notice?",
+    "Client: The ticking of the clock. My heart's slowing down a bit. I... I made it through the memory.",
+    "Therapist: You did. How's your SUDS now?",
+    "Client: It's... it's coming down. Maybe a 7? I feel drained, but... also a bit relieved.",
+    "Therapist: That's normal. How are you feeling overall?",
+    "Client: Exhausted. Sad. But... maybe a little stronger? I didn't think I could face that memory again.",
+    "Therapist: You showed great courage. How about we end here for today?",
+    "Client: Yeah, I think that's good. Thank you, Dr. Thompson. This... this helps.",
+    "Therapist: You're welcome, John. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, John. How are you feeling today?",
+      "Client: Morning, Dr. Thompson. I'm... I'm okay, I guess. A bit anxious about today's session, to be honest.",
+      "Therapist: That's understandable. We'll take it step by step. Ready to begin?"
+    ],
+    [
+      "Client: Morning, Dr. Thompson. I'm... I'm okay, I guess. A bit anxious about today's session, to be honest.",
+      "Therapist: That's understandable. We'll take it step by step. Ready to begin?",
+      "Client: Yeah, I think so. Let's do this."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step. Ready to begin?",
+      "Client: Yeah, I think so. Let's do this.",
+      "Therapist: Alright. Close your eyes and recall the memory. What's your SUDS level?"
+    ],
+    [
+      "Client: Yeah, I think so. Let's do this.",
+      "Therapist: Alright. Close your eyes and recall the memory. What's your SUDS level?",
+      "Client: Um... I'd say about a 6 out of 10. I can feel my heart starting to race a bit."
+    ],
+    [
+      "Therapist: Alright. Close your eyes and recall the memory. What's your SUDS level?",
+      "Client: Um... I'd say about a 6 out of 10. I can feel my heart starting to race a bit.",
+      "Therapist: Thank you. Continue with the memory. What do you see?"
+    ],
+    [
+      "Client: Um... I'd say about a 6 out of 10. I can feel my heart starting to race a bit.",
+      "Therapist: Thank you. Continue with the memory. What do you see?",
+      "Client: I see my daughter's Facebook page. All those horrible comments... people calling her names, saying she should... should kill herself. God, it's awful. My hands are shaking just thinking about it."
+    ],
+    [
+      "Therapist: Thank you. Continue with the memory. What do you see?",
+      "Client: I see my daughter's Facebook page. All those horrible comments... people calling her names, saying she should... should kill herself. God, it's awful. My hands are shaking just thinking about it.",
+      "Therapist: You're doing well. Stay with it. What else?"
+    ],
+    [
+      "Client: I see my daughter's Facebook page. All those horrible comments... people calling her names, saying she should... should kill herself. God, it's awful. My hands are shaking just thinking about it.",
+      "Therapist: You're doing well. Stay with it. What else?",
+      "Client: I... I remember feeling so helpless. I didn't know how to protect her from this. She was so young, only 15. I should've done more..."
+    ],
+    [
+      "Therapist: You're doing well. Stay with it. What else?",
+      "Client: I... I remember feeling so helpless. I didn't know how to protect her from this. She was so young, only 15. I should've done more...",
+      "Therapist: It's been 5 minutes. What's your SUDS now?"
+    ],
+    [
+      "Client: I... I remember feeling so helpless. I didn't know how to protect her from this. She was so young, only 15. I should've done more...",
+      "Therapist: It's been 5 minutes. What's your SUDS now?",
+      "Client: It's... it's gone up. Maybe an 8. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: It's been 5 minutes. What's your SUDS now?",
+      "Client: It's... it's gone up. Maybe an 8. I feel sick to my stomach.",
+      "Therapist: That's okay. You're safe here. What happened next?"
+    ],
+    [
+      "Client: It's... it's gone up. Maybe an 8. I feel sick to my stomach.",
+      "Therapist: That's okay. You're safe here. What happened next?",
+      "Client: I confronted some of the kids' parents, but they didn't care. Said it was just \"kids being kids.\" But it wasn't! It was destroying my little girl. I... I can feel the anger rising in me now."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. What happened next?",
+      "Client: I confronted some of the kids' parents, but they didn't care. Said it was just \"kids being kids.\" But it wasn't! It was destroying my little girl. I... I can feel the anger rising in me now.",
+      "Therapist: Allow yourself to feel that anger. What else do you notice?"
+    ],
+    [
+      "Client: I confronted some of the kids' parents, but they didn't care. Said it was just \"kids being kids.\" But it wasn't! It was destroying my little girl. I... I can feel the anger rising in me now.",
+      "Therapist: Allow yourself to feel that anger. What else do you notice?",
+      "Client: My jaw is clenched. I want to punch something. But I also feel... God, I feel so guilty. I should've done more to help her."
+    ],
+    [
+      "Therapist: Allow yourself to feel that anger. What else do you notice?",
+      "Client: My jaw is clenched. I want to punch something. But I also feel... God, I feel so guilty. I should've done more to help her.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: My jaw is clenched. I want to punch something. But I also feel... God, I feel so guilty. I should've done more to help her.",
+      "Therapist: SUDS level now?",
+      "Client: Still an 8. Maybe even a 9. This is really hard."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: Still an 8. Maybe even a 9. This is really hard.",
+      "Therapist: You're doing great, John. Stay with it. What happened after that?"
+    ],
+    [
+      "Client: Still an 8. Maybe even a 9. This is really hard.",
+      "Therapist: You're doing great, John. Stay with it. What happened after that?",
+      "Client: I... I found her. In the bathroom. She'd taken all her pills. I called 911, but... but it was too late. My baby girl... she was gone. I can't... I can't breathe..."
+    ],
+    [
+      "Therapist: You're doing great, John. Stay with it. What happened after that?",
+      "Client: I... I found her. In the bathroom. She'd taken all her pills. I called 911, but... but it was too late. My baby girl... she was gone. I can't... I can't breathe...",
+      "Therapist: Take a deep breath, John. You're safe here. What's your SUDS?"
+    ],
+    [
+      "Client: I... I found her. In the bathroom. She'd taken all her pills. I called 911, but... but it was too late. My baby girl... she was gone. I can't... I can't breathe...",
+      "Therapist: Take a deep breath, John. You're safe here. What's your SUDS?",
+      "Client: It's... it's a 10. I feel like I'm right back there. My chest is so tight."
+    ],
+    [
+      "Therapist: Take a deep breath, John. You're safe here. What's your SUDS?",
+      "Client: It's... it's a 10. I feel like I'm right back there. My chest is so tight.",
+      "Therapist: You're doing well. Stay present. What do you see around you now?"
+    ],
+    [
+      "Client: It's... it's a 10. I feel like I'm right back there. My chest is so tight.",
+      "Therapist: You're doing well. Stay present. What do you see around you now?",
+      "Client: I... I see your office. The green plant in the corner. My hands... they're shaking."
+    ],
+    [
+      "Therapist: You're doing well. Stay present. What do you see around you now?",
+      "Client: I... I see your office. The green plant in the corner. My hands... they're shaking.",
+      "Therapist: Good. Keep breathing. What else do you notice?"
+    ],
+    [
+      "Client: I... I see your office. The green plant in the corner. My hands... they're shaking.",
+      "Therapist: Good. Keep breathing. What else do you notice?",
+      "Client: The ticking of the clock. My heart's slowing down a bit. I... I made it through the memory."
+    ],
+    [
+      "Therapist: Good. Keep breathing. What else do you notice?",
+      "Client: The ticking of the clock. My heart's slowing down a bit. I... I made it through the memory.",
+      "Therapist: You did. How's your SUDS now?"
+    ],
+    [
+      "Client: The ticking of the clock. My heart's slowing down a bit. I... I made it through the memory.",
+      "Therapist: You did. How's your SUDS now?",
+      "Client: It's... it's coming down. Maybe a 7? I feel drained, but... also a bit relieved."
+    ],
+    [
+      "Therapist: You did. How's your SUDS now?",
+      "Client: It's... it's coming down. Maybe a 7? I feel drained, but... also a bit relieved.",
+      "Therapist: That's normal. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's coming down. Maybe a 7? I feel drained, but... also a bit relieved.",
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... maybe a little stronger? I didn't think I could face that memory again."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... maybe a little stronger? I didn't think I could face that memory again.",
+      "Therapist: You showed great courage. How about we end here for today?"
+    ],
+    [
+      "Client: Exhausted. Sad. But... maybe a little stronger? I didn't think I could face that memory again.",
+      "Therapist: You showed great courage. How about we end here for today?",
+      "Client: Yeah, I think that's good. Thank you, Dr. Thompson. This... this helps."
+    ],
+    [
+      "Therapist: You showed great courage. How about we end here for today?",
+      "Client: Yeah, I think that's good. Thank you, Dr. Thompson. This... this helps.",
+      "Therapist: You're welcome, John. Take care, and I'll see you next week."
+    ]
+  ]
+}

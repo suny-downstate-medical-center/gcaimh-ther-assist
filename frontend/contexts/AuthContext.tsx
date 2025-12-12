@@ -1,3 +1,17 @@
+// Copyright 2025 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import {
   User,
@@ -38,14 +52,21 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const isEmailAuthorized = (email: string | null): boolean => {
     if (!email) return false;
     
-    const allowedEmails = [
-      'anitza@albany.edu',
-      'jfboswell197@gmail.com',
-      'Salvador.Dura-Bernal@downstate.edu',
-      'boswell@albany.edu'
-    ];
+    // Get allowed domains and emails from environment variables
+    const allowedDomainsStr = import.meta.env.VITE_AUTH_ALLOWED_DOMAINS || '';
+    const allowedEmailsStr = import.meta.env.VITE_AUTH_ALLOWED_EMAILS || '';
     
-    return email.endsWith('@google.com') || allowedEmails.includes(email);
+    const allowedDomains = allowedDomainsStr ? allowedDomainsStr.split(',').map((d: string) => d.trim()) : [];
+    const allowedEmails = allowedEmailsStr ? allowedEmailsStr.split(',').map((e: string) => e.trim()) : [];
+    
+    // Check explicit email allowlist
+    if (allowedEmails.includes(email)) {
+      return true;
+    }
+    
+    // Check domain allowlist
+    const emailDomain = email.split('@')[1];
+    return allowedDomains.includes(emailDomain);
   };
 
   const signup = async (email: string, password: string, displayName?: string) => {

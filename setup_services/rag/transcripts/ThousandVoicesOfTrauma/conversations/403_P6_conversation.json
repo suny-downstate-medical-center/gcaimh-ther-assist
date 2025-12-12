@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's begin. Close your eyes and describe the animal attack.",
+    "Client: Okay... I'm at the park near my apartment. It's a sunny day, and I'm walking on the trail. I see a large dog ahead, off-leash. Its owner is nowhere in sight. As I get closer, the dog starts growling...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably about a 4. I'm starting to feel tense just thinking about it.",
+    "Therapist: Continue. You're doing well.",
+    "Client: The dog's hackles are raised, and it's showing its teeth. I try to back away slowly, but it lunges at me. I turn to run, but I trip on a tree root. I can hear the dog's panting getting closer...",
+    "Therapist: SUDS?",
+    "Client: It's... it's up to a 6 now. My heart is racing, and I can feel my palms getting sweaty.",
+    "Therapist: That's okay. Keep going.",
+    "Client: The dog is on me now. I feel its teeth sink into my leg. The pain is intense, and I'm screaming for help. I'm terrified, thinking it might go for my throat next. I'm trying to fight it off, but it's so strong...",
+    "Therapist: SUDS level?",
+    "Client: It's an 8. I feel like I can't breathe. My chest is so tight...",
+    "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+    "Client: I... I manage to grab a stick nearby and hit the dog. It yelps and backs off for a moment. I scramble to my feet, my leg bleeding. I'm dizzy from the pain and fear. The dog circles me, growling...",
+    "Therapist: How's your SUDS now?",
+    "Client: Still at an 8. I can feel my whole body shaking.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: Suddenly, I hear someone shouting. It's the dog's owner. He runs up and grabs the dog's collar. I collapse to the ground, sobbing. The owner is apologizing, but I can barely hear him over the ringing in my ears...",
+    "Therapist: SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7 now. I still feel shaky, but the worst part is over.",
+    "Therapist: Good. How does the memory end?",
+    "Client: An ambulance arrives. The paramedics are treating my leg. I'm still crying, but I feel relieved it's over. As they load me into the ambulance, I see the owner talking to the police...",
+    "Therapist: And your final SUDS rating?",
+    "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little proud that I got through it?",
+    "Therapist: That's excellent progress. How are you feeling now?",
+    "Client: Exhausted, but okay. It wasn't as bad as I thought it would be.",
+    "Therapist: That's common. We'll end here today. Well done."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the animal attack."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the animal attack.",
+      "Client: Okay... I'm at the park near my apartment. It's a sunny day, and I'm walking on the trail. I see a large dog ahead, off-leash. Its owner is nowhere in sight. As I get closer, the dog starts growling..."
+    ],
+    [
+      "Therapist: That's normal. Let's begin. Close your eyes and describe the animal attack.",
+      "Client: Okay... I'm at the park near my apartment. It's a sunny day, and I'm walking on the trail. I see a large dog ahead, off-leash. Its owner is nowhere in sight. As I get closer, the dog starts growling...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm at the park near my apartment. It's a sunny day, and I'm walking on the trail. I see a large dog ahead, off-leash. Its owner is nowhere in sight. As I get closer, the dog starts growling...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably about a 4. I'm starting to feel tense just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably about a 4. I'm starting to feel tense just thinking about it.",
+      "Therapist: Continue. You're doing well."
+    ],
+    [
+      "Client: Um, probably about a 4. I'm starting to feel tense just thinking about it.",
+      "Therapist: Continue. You're doing well.",
+      "Client: The dog's hackles are raised, and it's showing its teeth. I try to back away slowly, but it lunges at me. I turn to run, but I trip on a tree root. I can hear the dog's panting getting closer..."
+    ],
+    [
+      "Therapist: Continue. You're doing well.",
+      "Client: The dog's hackles are raised, and it's showing its teeth. I try to back away slowly, but it lunges at me. I turn to run, but I trip on a tree root. I can hear the dog's panting getting closer...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The dog's hackles are raised, and it's showing its teeth. I try to back away slowly, but it lunges at me. I turn to run, but I trip on a tree root. I can hear the dog's panting getting closer...",
+      "Therapist: SUDS?",
+      "Client: It's... it's up to a 6 now. My heart is racing, and I can feel my palms getting sweaty."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's up to a 6 now. My heart is racing, and I can feel my palms getting sweaty.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's... it's up to a 6 now. My heart is racing, and I can feel my palms getting sweaty.",
+      "Therapist: That's okay. Keep going.",
+      "Client: The dog is on me now. I feel its teeth sink into my leg. The pain is intense, and I'm screaming for help. I'm terrified, thinking it might go for my throat next. I'm trying to fight it off, but it's so strong..."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: The dog is on me now. I feel its teeth sink into my leg. The pain is intense, and I'm screaming for help. I'm terrified, thinking it might go for my throat next. I'm trying to fight it off, but it's so strong...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: The dog is on me now. I feel its teeth sink into my leg. The pain is intense, and I'm screaming for help. I'm terrified, thinking it might go for my throat next. I'm trying to fight it off, but it's so strong...",
+      "Therapist: SUDS level?",
+      "Client: It's an 8. I feel like I can't breathe. My chest is so tight..."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's an 8. I feel like I can't breathe. My chest is so tight...",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's an 8. I feel like I can't breathe. My chest is so tight...",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: I... I manage to grab a stick nearby and hit the dog. It yelps and backs off for a moment. I scramble to my feet, my leg bleeding. I'm dizzy from the pain and fear. The dog circles me, growling..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: I... I manage to grab a stick nearby and hit the dog. It yelps and backs off for a moment. I scramble to my feet, my leg bleeding. I'm dizzy from the pain and fear. The dog circles me, growling...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: I... I manage to grab a stick nearby and hit the dog. It yelps and backs off for a moment. I scramble to my feet, my leg bleeding. I'm dizzy from the pain and fear. The dog circles me, growling...",
+      "Therapist: How's your SUDS now?",
+      "Client: Still at an 8. I can feel my whole body shaking."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: Still at an 8. I can feel my whole body shaking.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Still at an 8. I can feel my whole body shaking.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: Suddenly, I hear someone shouting. It's the dog's owner. He runs up and grabs the dog's collar. I collapse to the ground, sobbing. The owner is apologizing, but I can barely hear him over the ringing in my ears..."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: Suddenly, I hear someone shouting. It's the dog's owner. He runs up and grabs the dog's collar. I collapse to the ground, sobbing. The owner is apologizing, but I can barely hear him over the ringing in my ears...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Suddenly, I hear someone shouting. It's the dog's owner. He runs up and grabs the dog's collar. I collapse to the ground, sobbing. The owner is apologizing, but I can barely hear him over the ringing in my ears...",
+      "Therapist: SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I still feel shaky, but the worst part is over."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I still feel shaky, but the worst part is over.",
+      "Therapist: Good. How does the memory end?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7 now. I still feel shaky, but the worst part is over.",
+      "Therapist: Good. How does the memory end?",
+      "Client: An ambulance arrives. The paramedics are treating my leg. I'm still crying, but I feel relieved it's over. As they load me into the ambulance, I see the owner talking to the police..."
+    ],
+    [
+      "Therapist: Good. How does the memory end?",
+      "Client: An ambulance arrives. The paramedics are treating my leg. I'm still crying, but I feel relieved it's over. As they load me into the ambulance, I see the owner talking to the police...",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: An ambulance arrives. The paramedics are treating my leg. I'm still crying, but I feel relieved it's over. As they load me into the ambulance, I see the owner talking to the police...",
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little proud that I got through it?"
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little proud that I got through it?",
+      "Therapist: That's excellent progress. How are you feeling now?"
+    ],
+    [
+      "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little proud that I got through it?",
+      "Therapist: That's excellent progress. How are you feeling now?",
+      "Client: Exhausted, but okay. It wasn't as bad as I thought it would be."
+    ],
+    [
+      "Therapist: That's excellent progress. How are you feeling now?",
+      "Client: Exhausted, but okay. It wasn't as bad as I thought it would be.",
+      "Therapist: That's common. We'll end here today. Well done."
+    ]
+  ]
+}

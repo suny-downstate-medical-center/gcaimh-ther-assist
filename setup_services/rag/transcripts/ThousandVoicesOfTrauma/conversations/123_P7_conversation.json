@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+    "Client: I'm a bit nervous, to be honest. Talking about my past experiences at work isn't easy.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I've been thinking about that day a lot since our last session. It was about five years ago, just before I retired. I was working late, trying to finish up a project. My supervisor, Mr. Thompson, came into my office. He'd always been hard on me, but that night was different.",
+    "Therapist: You're doing well. Continue.",
+    "Client: He started criticizing my work, saying I was too slow, too old to keep up. His voice got louder and louder. I felt trapped, like I couldn't breathe. My hands were shaking so much I could barely type.",
+    "Therapist: Stay with that feeling.",
+    "Client: It's... it's overwhelming. I can feel my heart racing even now. He kept getting closer, pointing his finger at me, telling me I was worthless, that I should just quit. I wanted to disappear.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: I... I can't. It's too much.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: Okay... okay. He knocked over my coffee mug, and it shattered on the floor. The sound made me jump. I remember feeling so small, so helpless. Like I was back in school, being bullied all over again.",
+    "Therapist: You're very brave. Continue when you're ready.",
+    "Client: I started to cry. I couldn't help it. And that made him even angrier. He said I was pathetic, that I was an embarrassment to the company. I wanted to stand up for myself, but I couldn't find the words. My throat felt tight, like I was choking.",
+    "Therapist: It's okay to feel these emotions.",
+    "Client: I just sat there, frozen, until he finally left. But even after he was gone, I could still hear his voice in my head. I felt so ashamed, so worthless. I couldn't stop shaking for hours.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: The next day, I called in sick. I couldn't face going back there. I was afraid of seeing him, afraid of what he might say or do. I felt like a coward, but I just couldn't do it. I ended up retiring early because of that incident. I've never told anyone about this before.",
+    "Therapist: Thank you for sharing. How do you feel now?",
+    "Client: Exhausted, but... also a bit relieved. It's like a weight has been lifted, you know? I've carried this for so long.",
+    "Therapist: That's a normal reaction. You've done well today.",
+    "Client: Thank you. I didn't think I could talk about it, but somehow, it feels a little easier now. Is that strange?",
+    "Therapist: Not at all. It's a positive sign.",
+    "Client: I still feel angry though. Angry at Mr. Thompson, but also at myself for not standing up to him. I wish I had done something, said something.",
+    "Therapist: Those feelings are valid.",
+    "Client: I keep wondering if I could have prevented it somehow. If I had worked faster, or stayed later, or... I don't know. Maybe it wouldn't have happened.",
+    "Therapist: Remember, it wasn't your fault.",
+    "Client: I know that logically, but emotionally... it's hard to accept. I still have nightmares sometimes. I dream that I'm back in that office, and he's there, but this time I can't move at all. I wake up in a cold sweat.",
+    "Therapist: That's a common response to trauma.",
+    "Client: Will it ever go away? This feeling of... of being less than? Of not being good enough?",
+    "Therapist: With time and work, it can improve.",
+    "Client: I hope so. I'm tired of feeling this way. Sometimes I think about having a drink to numb it all, but I know that's not the answer. I've worked too hard to stay sober.",
+    "Therapist: You're making good choices.",
+    "Client: Thank you. It's not easy, but I'm trying. I want to move past this, to not let it control me anymore. But it's hard when those memories come flooding back.",
+    "Therapist: You're showing great strength.",
+    "Client: I appreciate that. I just... I want to be able to think about my career without this incident overshadowing everything. I had good times too, you know? But this one night seems to have tainted it all.",
+    "Therapist: That's a common feeling. We'll work on that.",
+    "Client: I hope we can. I want to be able to look back on my life with pride, not shame. I want to feel like I accomplished something, that I mattered.",
+    "Therapist: You do matter. We'll end here for today.",
+    "Client: Thank you, Doctor. This was difficult, but I'm glad we did it. Same time next week?",
+    "Therapist: Yes, see you then. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+      "Client: I'm a bit nervous, to be honest. Talking about my past experiences at work isn't easy.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. Talking about my past experiences at work isn't easy.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I've been thinking about that day a lot since our last session. It was about five years ago, just before I retired. I was working late, trying to finish up a project. My supervisor, Mr. Thompson, came into my office. He'd always been hard on me, but that night was different."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I've been thinking about that day a lot since our last session. It was about five years ago, just before I retired. I was working late, trying to finish up a project. My supervisor, Mr. Thompson, came into my office. He'd always been hard on me, but that night was different.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Thank you. I've been thinking about that day a lot since our last session. It was about five years ago, just before I retired. I was working late, trying to finish up a project. My supervisor, Mr. Thompson, came into my office. He'd always been hard on me, but that night was different.",
+      "Therapist: You're doing well. Continue.",
+      "Client: He started criticizing my work, saying I was too slow, too old to keep up. His voice got louder and louder. I felt trapped, like I couldn't breathe. My hands were shaking so much I could barely type."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: He started criticizing my work, saying I was too slow, too old to keep up. His voice got louder and louder. I felt trapped, like I couldn't breathe. My hands were shaking so much I could barely type.",
+      "Therapist: Stay with that feeling."
+    ],
+    [
+      "Client: He started criticizing my work, saying I was too slow, too old to keep up. His voice got louder and louder. I felt trapped, like I couldn't breathe. My hands were shaking so much I could barely type.",
+      "Therapist: Stay with that feeling.",
+      "Client: It's... it's overwhelming. I can feel my heart racing even now. He kept getting closer, pointing his finger at me, telling me I was worthless, that I should just quit. I wanted to disappear."
+    ],
+    [
+      "Therapist: Stay with that feeling.",
+      "Client: It's... it's overwhelming. I can feel my heart racing even now. He kept getting closer, pointing his finger at me, telling me I was worthless, that I should just quit. I wanted to disappear.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's overwhelming. I can feel my heart racing even now. He kept getting closer, pointing his finger at me, telling me I was worthless, that I should just quit. I wanted to disappear.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: I... I can't. It's too much."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: I... I can't. It's too much.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: I... I can't. It's too much.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... okay. He knocked over my coffee mug, and it shattered on the floor. The sound made me jump. I remember feeling so small, so helpless. Like I was back in school, being bullied all over again."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: Okay... okay. He knocked over my coffee mug, and it shattered on the floor. The sound made me jump. I remember feeling so small, so helpless. Like I was back in school, being bullied all over again.",
+      "Therapist: You're very brave. Continue when you're ready."
+    ],
+    [
+      "Client: Okay... okay. He knocked over my coffee mug, and it shattered on the floor. The sound made me jump. I remember feeling so small, so helpless. Like I was back in school, being bullied all over again.",
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: I started to cry. I couldn't help it. And that made him even angrier. He said I was pathetic, that I was an embarrassment to the company. I wanted to stand up for myself, but I couldn't find the words. My throat felt tight, like I was choking."
+    ],
+    [
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: I started to cry. I couldn't help it. And that made him even angrier. He said I was pathetic, that I was an embarrassment to the company. I wanted to stand up for myself, but I couldn't find the words. My throat felt tight, like I was choking.",
+      "Therapist: It's okay to feel these emotions."
+    ],
+    [
+      "Client: I started to cry. I couldn't help it. And that made him even angrier. He said I was pathetic, that I was an embarrassment to the company. I wanted to stand up for myself, but I couldn't find the words. My throat felt tight, like I was choking.",
+      "Therapist: It's okay to feel these emotions.",
+      "Client: I just sat there, frozen, until he finally left. But even after he was gone, I could still hear his voice in my head. I felt so ashamed, so worthless. I couldn't stop shaking for hours."
+    ],
+    [
+      "Therapist: It's okay to feel these emotions.",
+      "Client: I just sat there, frozen, until he finally left. But even after he was gone, I could still hear his voice in my head. I felt so ashamed, so worthless. I couldn't stop shaking for hours.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: I just sat there, frozen, until he finally left. But even after he was gone, I could still hear his voice in my head. I felt so ashamed, so worthless. I couldn't stop shaking for hours.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: The next day, I called in sick. I couldn't face going back there. I was afraid of seeing him, afraid of what he might say or do. I felt like a coward, but I just couldn't do it. I ended up retiring early because of that incident. I've never told anyone about this before."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: The next day, I called in sick. I couldn't face going back there. I was afraid of seeing him, afraid of what he might say or do. I felt like a coward, but I just couldn't do it. I ended up retiring early because of that incident. I've never told anyone about this before.",
+      "Therapist: Thank you for sharing. How do you feel now?"
+    ],
+    [
+      "Client: The next day, I called in sick. I couldn't face going back there. I was afraid of seeing him, afraid of what he might say or do. I felt like a coward, but I just couldn't do it. I ended up retiring early because of that incident. I've never told anyone about this before.",
+      "Therapist: Thank you for sharing. How do you feel now?",
+      "Client: Exhausted, but... also a bit relieved. It's like a weight has been lifted, you know? I've carried this for so long."
+    ],
+    [
+      "Therapist: Thank you for sharing. How do you feel now?",
+      "Client: Exhausted, but... also a bit relieved. It's like a weight has been lifted, you know? I've carried this for so long.",
+      "Therapist: That's a normal reaction. You've done well today."
+    ],
+    [
+      "Client: Exhausted, but... also a bit relieved. It's like a weight has been lifted, you know? I've carried this for so long.",
+      "Therapist: That's a normal reaction. You've done well today.",
+      "Client: Thank you. I didn't think I could talk about it, but somehow, it feels a little easier now. Is that strange?"
+    ],
+    [
+      "Therapist: That's a normal reaction. You've done well today.",
+      "Client: Thank you. I didn't think I could talk about it, but somehow, it feels a little easier now. Is that strange?",
+      "Therapist: Not at all. It's a positive sign."
+    ],
+    [
+      "Client: Thank you. I didn't think I could talk about it, but somehow, it feels a little easier now. Is that strange?",
+      "Therapist: Not at all. It's a positive sign.",
+      "Client: I still feel angry though. Angry at Mr. Thompson, but also at myself for not standing up to him. I wish I had done something, said something."
+    ],
+    [
+      "Therapist: Not at all. It's a positive sign.",
+      "Client: I still feel angry though. Angry at Mr. Thompson, but also at myself for not standing up to him. I wish I had done something, said something.",
+      "Therapist: Those feelings are valid."
+    ],
+    [
+      "Client: I still feel angry though. Angry at Mr. Thompson, but also at myself for not standing up to him. I wish I had done something, said something.",
+      "Therapist: Those feelings are valid.",
+      "Client: I keep wondering if I could have prevented it somehow. If I had worked faster, or stayed later, or... I don't know. Maybe it wouldn't have happened."
+    ],
+    [
+      "Therapist: Those feelings are valid.",
+      "Client: I keep wondering if I could have prevented it somehow. If I had worked faster, or stayed later, or... I don't know. Maybe it wouldn't have happened.",
+      "Therapist: Remember, it wasn't your fault."
+    ],
+    [
+      "Client: I keep wondering if I could have prevented it somehow. If I had worked faster, or stayed later, or... I don't know. Maybe it wouldn't have happened.",
+      "Therapist: Remember, it wasn't your fault.",
+      "Client: I know that logically, but emotionally... it's hard to accept. I still have nightmares sometimes. I dream that I'm back in that office, and he's there, but this time I can't move at all. I wake up in a cold sweat."
+    ],
+    [
+      "Therapist: Remember, it wasn't your fault.",
+      "Client: I know that logically, but emotionally... it's hard to accept. I still have nightmares sometimes. I dream that I'm back in that office, and he's there, but this time I can't move at all. I wake up in a cold sweat.",
+      "Therapist: That's a common response to trauma."
+    ],
+    [
+      "Client: I know that logically, but emotionally... it's hard to accept. I still have nightmares sometimes. I dream that I'm back in that office, and he's there, but this time I can't move at all. I wake up in a cold sweat.",
+      "Therapist: That's a common response to trauma.",
+      "Client: Will it ever go away? This feeling of... of being less than? Of not being good enough?"
+    ],
+    [
+      "Therapist: That's a common response to trauma.",
+      "Client: Will it ever go away? This feeling of... of being less than? Of not being good enough?",
+      "Therapist: With time and work, it can improve."
+    ],
+    [
+      "Client: Will it ever go away? This feeling of... of being less than? Of not being good enough?",
+      "Therapist: With time and work, it can improve.",
+      "Client: I hope so. I'm tired of feeling this way. Sometimes I think about having a drink to numb it all, but I know that's not the answer. I've worked too hard to stay sober."
+    ],
+    [
+      "Therapist: With time and work, it can improve.",
+      "Client: I hope so. I'm tired of feeling this way. Sometimes I think about having a drink to numb it all, but I know that's not the answer. I've worked too hard to stay sober.",
+      "Therapist: You're making good choices."
+    ],
+    [
+      "Client: I hope so. I'm tired of feeling this way. Sometimes I think about having a drink to numb it all, but I know that's not the answer. I've worked too hard to stay sober.",
+      "Therapist: You're making good choices.",
+      "Client: Thank you. It's not easy, but I'm trying. I want to move past this, to not let it control me anymore. But it's hard when those memories come flooding back."
+    ],
+    [
+      "Therapist: You're making good choices.",
+      "Client: Thank you. It's not easy, but I'm trying. I want to move past this, to not let it control me anymore. But it's hard when those memories come flooding back.",
+      "Therapist: You're showing great strength."
+    ],
+    [
+      "Client: Thank you. It's not easy, but I'm trying. I want to move past this, to not let it control me anymore. But it's hard when those memories come flooding back.",
+      "Therapist: You're showing great strength.",
+      "Client: I appreciate that. I just... I want to be able to think about my career without this incident overshadowing everything. I had good times too, you know? But this one night seems to have tainted it all."
+    ],
+    [
+      "Therapist: You're showing great strength.",
+      "Client: I appreciate that. I just... I want to be able to think about my career without this incident overshadowing everything. I had good times too, you know? But this one night seems to have tainted it all.",
+      "Therapist: That's a common feeling. We'll work on that."
+    ],
+    [
+      "Client: I appreciate that. I just... I want to be able to think about my career without this incident overshadowing everything. I had good times too, you know? But this one night seems to have tainted it all.",
+      "Therapist: That's a common feeling. We'll work on that.",
+      "Client: I hope we can. I want to be able to look back on my life with pride, not shame. I want to feel like I accomplished something, that I mattered."
+    ],
+    [
+      "Therapist: That's a common feeling. We'll work on that.",
+      "Client: I hope we can. I want to be able to look back on my life with pride, not shame. I want to feel like I accomplished something, that I mattered.",
+      "Therapist: You do matter. We'll end here for today."
+    ],
+    [
+      "Client: I hope we can. I want to be able to look back on my life with pride, not shame. I want to feel like I accomplished something, that I mattered.",
+      "Therapist: You do matter. We'll end here for today.",
+      "Client: Thank you, Doctor. This was difficult, but I'm glad we did it. Same time next week?"
+    ],
+    [
+      "Therapist: You do matter. We'll end here for today.",
+      "Client: Thank you, Doctor. This was difficult, but I'm glad we did it. Same time next week?",
+      "Therapist: Yes, see you then. Take care."
+    ]
+  ]
+}

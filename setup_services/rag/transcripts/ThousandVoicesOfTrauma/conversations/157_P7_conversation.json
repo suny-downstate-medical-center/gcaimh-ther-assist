@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the car accident, and that always makes me anxious.",
+    "Therapist: It's okay to feel nervous. You're safe here.",
+    "Client: Thank you. I'll try to remember that. It's just... every time I think about that day, my heart starts racing.",
+    "Therapist: That's normal. Take a deep breath. When you're ready, close your eyes and describe the accident.",
+    "Client: Okay... I'm driving home from work. It's raining, and the roads are slick. I can see the traffic light ahead turning yellow. I... I decide to speed up to make it through...",
+    "Therapist: You're doing well. Keep going.",
+    "Client: As I approach the intersection, I suddenly see headlights to my right. They're coming fast... too fast. I realize they're not stopping. I try to brake, but the car starts to skid...",
+    "Therapist: Stay with that moment. What do you feel?",
+    "Client: I feel... terrified. My heart is pounding. I can't control the car. Everything is moving in slow motion. I can hear the screeching of tires...",
+    "Therapist: You're handling this bravely. Continue.",
+    "Client: The other car slams into my passenger side. The impact is deafening. I feel my body jerk violently. Glass is shattering everywhere. I... I can smell burning rubber and... and something metallic. Is it blood? I'm not sure...",
+    "Therapist: You're doing great, Sarah. Keep going.",
+    "Client: I'm disoriented. Everything is spinning. I can hear people shouting, but it sounds far away. My vision is blurry. I try to move, but I'm trapped. I can feel something warm trickling down my face...",
+    "Therapist: It's okay to feel these emotions. You're safe now.",
+    "Client: I... I'm sorry. This is really hard. I feel like I'm right back there.",
+    "Therapist: That's normal. Take a moment if you need to.",
+    "Client: Okay... I remember the fear of not knowing if I was badly hurt. The paramedics arrive. They're asking me questions, but I can barely focus. They start cutting me out of the car. I'm terrified they'll hurt me more...",
+    "Therapist: You're doing well. How are you feeling right now?",
+    "Client: My heart is racing. I feel... I feel overwhelmed. But also... maybe a little relieved? Like, I survived this. I'm here now, talking about it.",
+    "Therapist: That's a positive observation. You did survive.",
+    "Client: Yeah... I did. It's still scary to think about, but... I guess I'm stronger than I thought.",
+    "Therapist: That's an important realization. How do you feel now?",
+    "Client: A bit shaky, but... okay. Better than I expected, actually. Talking about it... it's hard, but it feels like it's helping somehow.",
+    "Therapist: That's great progress, Sarah. Well done today.",
+    "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It's still difficult, but... maybe it's getting a little easier?",
+    "Therapist: That's often the case. You're showing real strength.",
+    "Client: I appreciate that. I'm curious... what's the next step? Will we keep talking about this in future sessions?",
+    "Therapist: Yes, we'll continue working through this gradually.",
+    "Client: Okay. I think I can handle that. It's not easy, but I want to get better. I want to be able to drive again without panicking.",
+    "Therapist: That's a good goal. We'll work towards it together.",
+    "Client: Thank you. I'm glad I have your support through this. It makes a big difference.",
+    "Therapist: I'm here to help. How are you feeling as we wrap up?",
+    "Client: I'm feeling... tired, but also a bit proud of myself. And hopeful, I think. Like maybe I can actually get past this someday.",
+    "Therapist: That's a positive outlook. Well done today, Sarah.",
+    "Client: Thank you. I'll try to hold onto this feeling until our next session. It helps to know I'm making progress, even if it's slow.",
+    "Therapist: Progress is progress, no matter the pace. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the car accident, and that always makes me anxious.",
+      "Therapist: It's okay to feel nervous. You're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about the car accident, and that always makes me anxious.",
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thank you. I'll try to remember that. It's just... every time I think about that day, my heart starts racing."
+    ],
+    [
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thank you. I'll try to remember that. It's just... every time I think about that day, my heart starts racing.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, close your eyes and describe the accident."
+    ],
+    [
+      "Client: Thank you. I'll try to remember that. It's just... every time I think about that day, my heart starts racing.",
+      "Therapist: That's normal. Take a deep breath. When you're ready, close your eyes and describe the accident.",
+      "Client: Okay... I'm driving home from work. It's raining, and the roads are slick. I can see the traffic light ahead turning yellow. I... I decide to speed up to make it through..."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath. When you're ready, close your eyes and describe the accident.",
+      "Client: Okay... I'm driving home from work. It's raining, and the roads are slick. I can see the traffic light ahead turning yellow. I... I decide to speed up to make it through...",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... I'm driving home from work. It's raining, and the roads are slick. I can see the traffic light ahead turning yellow. I... I decide to speed up to make it through...",
+      "Therapist: You're doing well. Keep going.",
+      "Client: As I approach the intersection, I suddenly see headlights to my right. They're coming fast... too fast. I realize they're not stopping. I try to brake, but the car starts to skid..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: As I approach the intersection, I suddenly see headlights to my right. They're coming fast... too fast. I realize they're not stopping. I try to brake, but the car starts to skid...",
+      "Therapist: Stay with that moment. What do you feel?"
+    ],
+    [
+      "Client: As I approach the intersection, I suddenly see headlights to my right. They're coming fast... too fast. I realize they're not stopping. I try to brake, but the car starts to skid...",
+      "Therapist: Stay with that moment. What do you feel?",
+      "Client: I feel... terrified. My heart is pounding. I can't control the car. Everything is moving in slow motion. I can hear the screeching of tires..."
+    ],
+    [
+      "Therapist: Stay with that moment. What do you feel?",
+      "Client: I feel... terrified. My heart is pounding. I can't control the car. Everything is moving in slow motion. I can hear the screeching of tires...",
+      "Therapist: You're handling this bravely. Continue."
+    ],
+    [
+      "Client: I feel... terrified. My heart is pounding. I can't control the car. Everything is moving in slow motion. I can hear the screeching of tires...",
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: The other car slams into my passenger side. The impact is deafening. I feel my body jerk violently. Glass is shattering everywhere. I... I can smell burning rubber and... and something metallic. Is it blood? I'm not sure..."
+    ],
+    [
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: The other car slams into my passenger side. The impact is deafening. I feel my body jerk violently. Glass is shattering everywhere. I... I can smell burning rubber and... and something metallic. Is it blood? I'm not sure...",
+      "Therapist: You're doing great, Sarah. Keep going."
+    ],
+    [
+      "Client: The other car slams into my passenger side. The impact is deafening. I feel my body jerk violently. Glass is shattering everywhere. I... I can smell burning rubber and... and something metallic. Is it blood? I'm not sure...",
+      "Therapist: You're doing great, Sarah. Keep going.",
+      "Client: I'm disoriented. Everything is spinning. I can hear people shouting, but it sounds far away. My vision is blurry. I try to move, but I'm trapped. I can feel something warm trickling down my face..."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. Keep going.",
+      "Client: I'm disoriented. Everything is spinning. I can hear people shouting, but it sounds far away. My vision is blurry. I try to move, but I'm trapped. I can feel something warm trickling down my face...",
+      "Therapist: It's okay to feel these emotions. You're safe now."
+    ],
+    [
+      "Client: I'm disoriented. Everything is spinning. I can hear people shouting, but it sounds far away. My vision is blurry. I try to move, but I'm trapped. I can feel something warm trickling down my face...",
+      "Therapist: It's okay to feel these emotions. You're safe now.",
+      "Client: I... I'm sorry. This is really hard. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: It's okay to feel these emotions. You're safe now.",
+      "Client: I... I'm sorry. This is really hard. I feel like I'm right back there.",
+      "Therapist: That's normal. Take a moment if you need to."
+    ],
+    [
+      "Client: I... I'm sorry. This is really hard. I feel like I'm right back there.",
+      "Therapist: That's normal. Take a moment if you need to.",
+      "Client: Okay... I remember the fear of not knowing if I was badly hurt. The paramedics arrive. They're asking me questions, but I can barely focus. They start cutting me out of the car. I'm terrified they'll hurt me more..."
+    ],
+    [
+      "Therapist: That's normal. Take a moment if you need to.",
+      "Client: Okay... I remember the fear of not knowing if I was badly hurt. The paramedics arrive. They're asking me questions, but I can barely focus. They start cutting me out of the car. I'm terrified they'll hurt me more...",
+      "Therapist: You're doing well. How are you feeling right now?"
+    ],
+    [
+      "Client: Okay... I remember the fear of not knowing if I was badly hurt. The paramedics arrive. They're asking me questions, but I can barely focus. They start cutting me out of the car. I'm terrified they'll hurt me more...",
+      "Therapist: You're doing well. How are you feeling right now?",
+      "Client: My heart is racing. I feel... I feel overwhelmed. But also... maybe a little relieved? Like, I survived this. I'm here now, talking about it."
+    ],
+    [
+      "Therapist: You're doing well. How are you feeling right now?",
+      "Client: My heart is racing. I feel... I feel overwhelmed. But also... maybe a little relieved? Like, I survived this. I'm here now, talking about it.",
+      "Therapist: That's a positive observation. You did survive."
+    ],
+    [
+      "Client: My heart is racing. I feel... I feel overwhelmed. But also... maybe a little relieved? Like, I survived this. I'm here now, talking about it.",
+      "Therapist: That's a positive observation. You did survive.",
+      "Client: Yeah... I did. It's still scary to think about, but... I guess I'm stronger than I thought."
+    ],
+    [
+      "Therapist: That's a positive observation. You did survive.",
+      "Client: Yeah... I did. It's still scary to think about, but... I guess I'm stronger than I thought.",
+      "Therapist: That's an important realization. How do you feel now?"
+    ],
+    [
+      "Client: Yeah... I did. It's still scary to think about, but... I guess I'm stronger than I thought.",
+      "Therapist: That's an important realization. How do you feel now?",
+      "Client: A bit shaky, but... okay. Better than I expected, actually. Talking about it... it's hard, but it feels like it's helping somehow."
+    ],
+    [
+      "Therapist: That's an important realization. How do you feel now?",
+      "Client: A bit shaky, but... okay. Better than I expected, actually. Talking about it... it's hard, but it feels like it's helping somehow.",
+      "Therapist: That's great progress, Sarah. Well done today."
+    ],
+    [
+      "Client: A bit shaky, but... okay. Better than I expected, actually. Talking about it... it's hard, but it feels like it's helping somehow.",
+      "Therapist: That's great progress, Sarah. Well done today.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It's still difficult, but... maybe it's getting a little easier?"
+    ],
+    [
+      "Therapist: That's great progress, Sarah. Well done today.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It's still difficult, but... maybe it's getting a little easier?",
+      "Therapist: That's often the case. You're showing real strength."
+    ],
+    [
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It's still difficult, but... maybe it's getting a little easier?",
+      "Therapist: That's often the case. You're showing real strength.",
+      "Client: I appreciate that. I'm curious... what's the next step? Will we keep talking about this in future sessions?"
+    ],
+    [
+      "Therapist: That's often the case. You're showing real strength.",
+      "Client: I appreciate that. I'm curious... what's the next step? Will we keep talking about this in future sessions?",
+      "Therapist: Yes, we'll continue working through this gradually."
+    ],
+    [
+      "Client: I appreciate that. I'm curious... what's the next step? Will we keep talking about this in future sessions?",
+      "Therapist: Yes, we'll continue working through this gradually.",
+      "Client: Okay. I think I can handle that. It's not easy, but I want to get better. I want to be able to drive again without panicking."
+    ],
+    [
+      "Therapist: Yes, we'll continue working through this gradually.",
+      "Client: Okay. I think I can handle that. It's not easy, but I want to get better. I want to be able to drive again without panicking.",
+      "Therapist: That's a good goal. We'll work towards it together."
+    ],
+    [
+      "Client: Okay. I think I can handle that. It's not easy, but I want to get better. I want to be able to drive again without panicking.",
+      "Therapist: That's a good goal. We'll work towards it together.",
+      "Client: Thank you. I'm glad I have your support through this. It makes a big difference."
+    ],
+    [
+      "Therapist: That's a good goal. We'll work towards it together.",
+      "Client: Thank you. I'm glad I have your support through this. It makes a big difference.",
+      "Therapist: I'm here to help. How are you feeling as we wrap up?"
+    ],
+    [
+      "Client: Thank you. I'm glad I have your support through this. It makes a big difference.",
+      "Therapist: I'm here to help. How are you feeling as we wrap up?",
+      "Client: I'm feeling... tired, but also a bit proud of myself. And hopeful, I think. Like maybe I can actually get past this someday."
+    ],
+    [
+      "Therapist: I'm here to help. How are you feeling as we wrap up?",
+      "Client: I'm feeling... tired, but also a bit proud of myself. And hopeful, I think. Like maybe I can actually get past this someday.",
+      "Therapist: That's a positive outlook. Well done today, Sarah."
+    ],
+    [
+      "Client: I'm feeling... tired, but also a bit proud of myself. And hopeful, I think. Like maybe I can actually get past this someday.",
+      "Therapist: That's a positive outlook. Well done today, Sarah.",
+      "Client: Thank you. I'll try to hold onto this feeling until our next session. It helps to know I'm making progress, even if it's slow."
+    ],
+    [
+      "Therapist: That's a positive outlook. Well done today, Sarah.",
+      "Client: Thank you. I'll try to hold onto this feeling until our next session. It helps to know I'm making progress, even if it's slow.",
+      "Therapist: Progress is progress, no matter the pace. Take care."
+    ]
+  ]
+}

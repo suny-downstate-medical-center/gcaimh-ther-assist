@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Raj. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the plane crash lately, and I'm not sure I'm ready to talk about it in detail.",
+    "Therapist: That's understandable. We'll take it slow.",
+    "Client: Thanks. I appreciate that. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been avoiding anything related to airplanes or travel. Even seeing an airplane in the sky makes me anxious now.",
+    "Therapist: Today, we'll start imaginal exposure. Are you familiar with it?",
+    "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it entails. Is it... is it going to be intense?",
+    "Therapist: It might be challenging, but it's a crucial step in healing.",
+    "Client: Okay... can you explain a bit more about what we'll be doing? I'm feeling a bit apprehensive about the whole thing.",
+    "Therapist: We'll revisit the memory gradually. I'll guide you through it.",
+    "Client: Revisit the memory? You mean... I'll have to describe the crash in detail? I'm not sure I can do that without completely falling apart. What if I have a panic attack?",
+    "Therapist: I'll be here to support you. We'll go at your pace.",
+    "Client: Alright. I trust you. But what's the point of putting myself through this? Won't it just make things worse?",
+    "Therapist: It helps process the trauma and reduce its power over you.",
+    "Client: I see. That makes sense, I suppose. It's just... I've been trying so hard to forget about it. The idea of deliberately bringing it up is scary. But if you think it will help, I'm willing to try. How long will this process take?",
+    "Therapist: It varies. We'll work through it together, session by session.",
+    "Client: Okay. I appreciate your patience with me. I know I've been struggling a lot lately, not just with the PTSD but with depression too. It's been affecting my studies and my relationships. I'm hoping this will help me get back on track.",
+    "Therapist: Your courage is commendable. Shall we begin?",
+    "Client: Yes, I think I'm ready. Or as ready as I'll ever be. What do I need to do? Should I close my eyes? And what if it gets too overwhelming?",
+    "Therapist: You can keep your eyes open. We'll pause if it's too much.",
+    "Client: Alright. I appreciate that. I'm feeling a bit calmer knowing we can stop if needed. I guess... I guess we should start then. Where do you want me to begin? The day of the flight, or when the trouble started?",
+    "Therapist: Start with the day of the flight. Describe what you remember.",
+    "Client: Okay. Here goes... It was a Tuesday morning. I remember because I had a morning exam and then rushed to the airport..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Raj. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the plane crash lately, and I'm not sure I'm ready to talk about it in detail.",
+      "Therapist: That's understandable. We'll take it slow."
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the plane crash lately, and I'm not sure I'm ready to talk about it in detail.",
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thanks. I appreciate that. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been avoiding anything related to airplanes or travel. Even seeing an airplane in the sky makes me anxious now."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thanks. I appreciate that. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been avoiding anything related to airplanes or travel. Even seeing an airplane in the sky makes me anxious now.",
+      "Therapist: Today, we'll start imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: Thanks. I appreciate that. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been avoiding anything related to airplanes or travel. Even seeing an airplane in the sky makes me anxious now.",
+      "Therapist: Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it entails. Is it... is it going to be intense?"
+    ],
+    [
+      "Therapist: Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it entails. Is it... is it going to be intense?",
+      "Therapist: It might be challenging, but it's a crucial step in healing."
+    ],
+    [
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it entails. Is it... is it going to be intense?",
+      "Therapist: It might be challenging, but it's a crucial step in healing.",
+      "Client: Okay... can you explain a bit more about what we'll be doing? I'm feeling a bit apprehensive about the whole thing."
+    ],
+    [
+      "Therapist: It might be challenging, but it's a crucial step in healing.",
+      "Client: Okay... can you explain a bit more about what we'll be doing? I'm feeling a bit apprehensive about the whole thing.",
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it."
+    ],
+    [
+      "Client: Okay... can you explain a bit more about what we'll be doing? I'm feeling a bit apprehensive about the whole thing.",
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it.",
+      "Client: Revisit the memory? You mean... I'll have to describe the crash in detail? I'm not sure I can do that without completely falling apart. What if I have a panic attack?"
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. I'll guide you through it.",
+      "Client: Revisit the memory? You mean... I'll have to describe the crash in detail? I'm not sure I can do that without completely falling apart. What if I have a panic attack?",
+      "Therapist: I'll be here to support you. We'll go at your pace."
+    ],
+    [
+      "Client: Revisit the memory? You mean... I'll have to describe the crash in detail? I'm not sure I can do that without completely falling apart. What if I have a panic attack?",
+      "Therapist: I'll be here to support you. We'll go at your pace.",
+      "Client: Alright. I trust you. But what's the point of putting myself through this? Won't it just make things worse?"
+    ],
+    [
+      "Therapist: I'll be here to support you. We'll go at your pace.",
+      "Client: Alright. I trust you. But what's the point of putting myself through this? Won't it just make things worse?",
+      "Therapist: It helps process the trauma and reduce its power over you."
+    ],
+    [
+      "Client: Alright. I trust you. But what's the point of putting myself through this? Won't it just make things worse?",
+      "Therapist: It helps process the trauma and reduce its power over you.",
+      "Client: I see. That makes sense, I suppose. It's just... I've been trying so hard to forget about it. The idea of deliberately bringing it up is scary. But if you think it will help, I'm willing to try. How long will this process take?"
+    ],
+    [
+      "Therapist: It helps process the trauma and reduce its power over you.",
+      "Client: I see. That makes sense, I suppose. It's just... I've been trying so hard to forget about it. The idea of deliberately bringing it up is scary. But if you think it will help, I'm willing to try. How long will this process take?",
+      "Therapist: It varies. We'll work through it together, session by session."
+    ],
+    [
+      "Client: I see. That makes sense, I suppose. It's just... I've been trying so hard to forget about it. The idea of deliberately bringing it up is scary. But if you think it will help, I'm willing to try. How long will this process take?",
+      "Therapist: It varies. We'll work through it together, session by session.",
+      "Client: Okay. I appreciate your patience with me. I know I've been struggling a lot lately, not just with the PTSD but with depression too. It's been affecting my studies and my relationships. I'm hoping this will help me get back on track."
+    ],
+    [
+      "Therapist: It varies. We'll work through it together, session by session.",
+      "Client: Okay. I appreciate your patience with me. I know I've been struggling a lot lately, not just with the PTSD but with depression too. It's been affecting my studies and my relationships. I'm hoping this will help me get back on track.",
+      "Therapist: Your courage is commendable. Shall we begin?"
+    ],
+    [
+      "Client: Okay. I appreciate your patience with me. I know I've been struggling a lot lately, not just with the PTSD but with depression too. It's been affecting my studies and my relationships. I'm hoping this will help me get back on track.",
+      "Therapist: Your courage is commendable. Shall we begin?",
+      "Client: Yes, I think I'm ready. Or as ready as I'll ever be. What do I need to do? Should I close my eyes? And what if it gets too overwhelming?"
+    ],
+    [
+      "Therapist: Your courage is commendable. Shall we begin?",
+      "Client: Yes, I think I'm ready. Or as ready as I'll ever be. What do I need to do? Should I close my eyes? And what if it gets too overwhelming?",
+      "Therapist: You can keep your eyes open. We'll pause if it's too much."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Or as ready as I'll ever be. What do I need to do? Should I close my eyes? And what if it gets too overwhelming?",
+      "Therapist: You can keep your eyes open. We'll pause if it's too much.",
+      "Client: Alright. I appreciate that. I'm feeling a bit calmer knowing we can stop if needed. I guess... I guess we should start then. Where do you want me to begin? The day of the flight, or when the trouble started?"
+    ],
+    [
+      "Therapist: You can keep your eyes open. We'll pause if it's too much.",
+      "Client: Alright. I appreciate that. I'm feeling a bit calmer knowing we can stop if needed. I guess... I guess we should start then. Where do you want me to begin? The day of the flight, or when the trouble started?",
+      "Therapist: Start with the day of the flight. Describe what you remember."
+    ],
+    [
+      "Client: Alright. I appreciate that. I'm feeling a bit calmer knowing we can stop if needed. I guess... I guess we should start then. Where do you want me to begin? The day of the flight, or when the trouble started?",
+      "Therapist: Start with the day of the flight. Describe what you remember.",
+      "Client: Okay. Here goes... It was a Tuesday morning. I remember because I had a morning exam and then rushed to the airport..."
+    ]
+  ]
+}

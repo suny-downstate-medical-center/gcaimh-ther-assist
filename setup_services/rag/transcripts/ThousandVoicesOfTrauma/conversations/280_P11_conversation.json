@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with these memories for so long, but going through them in such detail... it's different. My heart is still racing a bit.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The sounds. The constant, deafening explosions. I could almost smell the gunpowder again. And... and the faces of my comrades. They were so young, so scared. We all were. It's like I was right back there in the thick of it.",
+    "Therapist: How did it feel to revisit that memory today?",
+    "Client: It was... intense. Overwhelming at times. I felt the same fear and helplessness I did back then. But... there was something else too. A sort of... I don't know, distance? Like I was both there and not there at the same time. Does that make sense?",
+    "Therapist: Yes, it does. Can you tell me more about that?",
+    "Client: Well, it's like... I could see everything happening, feel everything, but there was a part of me that knew I was here, safe in this room. It's the first time I've felt that way while thinking about the war. Usually, I just get completely lost in the memories.",
+    "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+    "Client: I... I never thought about it that way. But now that you mention it, I suppose it's similar to how I've been dealing with my flashbacks lately. They still come, but I'm getting better at reminding myself that they're just memories, not my current reality.",
+    "Therapist: That's excellent progress. How does this make you feel about your recovery?",
+    "Client: It's... encouraging, I suppose. For so long, I felt like I was at the mercy of these memories. But now, it's like I'm starting to regain some control. It's still hard, don't get me wrong. But there's a glimmer of hope there that wasn't before.",
+    "Therapist: That's great to hear. What's been most helpful in this process?",
+    "Client: The breathing exercises have been a lifesaver, truly. And... this might sound odd, but talking about it here, with you... it helps. It's like each time I share these experiences, they lose a bit of their power over me.",
+    "Therapist: That's a valuable insight. How do you feel about continuing this work?",
+    "Client: I'm... cautiously optimistic, I think. It's not easy, reliving these moments. But if it helps me get my life back, helps me be there for my family without always being on edge... then it's worth it. I want to keep going.",
+    "Therapist: Your commitment is admirable. Any final thoughts today?",
+    "Client: Just... thank you, I suppose. For listening, for guiding me through this. I know I have a long way to go, but for the first time in years, I feel like I might actually get there.",
+    "Therapist: You're welcome. We'll continue next week. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with these memories for so long, but going through them in such detail... it's different. My heart is still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with these memories for so long, but going through them in such detail... it's different. My heart is still racing a bit.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sounds. The constant, deafening explosions. I could almost smell the gunpowder again. And... and the faces of my comrades. They were so young, so scared. We all were. It's like I was right back there in the thick of it."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sounds. The constant, deafening explosions. I could almost smell the gunpowder again. And... and the faces of my comrades. They were so young, so scared. We all were. It's like I was right back there in the thick of it.",
+      "Therapist: How did it feel to revisit that memory today?"
+    ],
+    [
+      "Client: The sounds. The constant, deafening explosions. I could almost smell the gunpowder again. And... and the faces of my comrades. They were so young, so scared. We all were. It's like I was right back there in the thick of it.",
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... intense. Overwhelming at times. I felt the same fear and helplessness I did back then. But... there was something else too. A sort of... I don't know, distance? Like I was both there and not there at the same time. Does that make sense?"
+    ],
+    [
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... intense. Overwhelming at times. I felt the same fear and helplessness I did back then. But... there was something else too. A sort of... I don't know, distance? Like I was both there and not there at the same time. Does that make sense?",
+      "Therapist: Yes, it does. Can you tell me more about that?"
+    ],
+    [
+      "Client: It was... intense. Overwhelming at times. I felt the same fear and helplessness I did back then. But... there was something else too. A sort of... I don't know, distance? Like I was both there and not there at the same time. Does that make sense?",
+      "Therapist: Yes, it does. Can you tell me more about that?",
+      "Client: Well, it's like... I could see everything happening, feel everything, but there was a part of me that knew I was here, safe in this room. It's the first time I've felt that way while thinking about the war. Usually, I just get completely lost in the memories."
+    ],
+    [
+      "Therapist: Yes, it does. Can you tell me more about that?",
+      "Client: Well, it's like... I could see everything happening, feel everything, but there was a part of me that knew I was here, safe in this room. It's the first time I've felt that way while thinking about the war. Usually, I just get completely lost in the memories.",
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?"
+    ],
+    [
+      "Client: Well, it's like... I could see everything happening, feel everything, but there was a part of me that knew I was here, safe in this room. It's the first time I've felt that way while thinking about the war. Usually, I just get completely lost in the memories.",
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+      "Client: I... I never thought about it that way. But now that you mention it, I suppose it's similar to how I've been dealing with my flashbacks lately. They still come, but I'm getting better at reminding myself that they're just memories, not my current reality."
+    ],
+    [
+      "Therapist: That's an important observation. How does this relate to your day-to-day experiences?",
+      "Client: I... I never thought about it that way. But now that you mention it, I suppose it's similar to how I've been dealing with my flashbacks lately. They still come, but I'm getting better at reminding myself that they're just memories, not my current reality.",
+      "Therapist: That's excellent progress. How does this make you feel about your recovery?"
+    ],
+    [
+      "Client: I... I never thought about it that way. But now that you mention it, I suppose it's similar to how I've been dealing with my flashbacks lately. They still come, but I'm getting better at reminding myself that they're just memories, not my current reality.",
+      "Therapist: That's excellent progress. How does this make you feel about your recovery?",
+      "Client: It's... encouraging, I suppose. For so long, I felt like I was at the mercy of these memories. But now, it's like I'm starting to regain some control. It's still hard, don't get me wrong. But there's a glimmer of hope there that wasn't before."
+    ],
+    [
+      "Therapist: That's excellent progress. How does this make you feel about your recovery?",
+      "Client: It's... encouraging, I suppose. For so long, I felt like I was at the mercy of these memories. But now, it's like I'm starting to regain some control. It's still hard, don't get me wrong. But there's a glimmer of hope there that wasn't before.",
+      "Therapist: That's great to hear. What's been most helpful in this process?"
+    ],
+    [
+      "Client: It's... encouraging, I suppose. For so long, I felt like I was at the mercy of these memories. But now, it's like I'm starting to regain some control. It's still hard, don't get me wrong. But there's a glimmer of hope there that wasn't before.",
+      "Therapist: That's great to hear. What's been most helpful in this process?",
+      "Client: The breathing exercises have been a lifesaver, truly. And... this might sound odd, but talking about it here, with you... it helps. It's like each time I share these experiences, they lose a bit of their power over me."
+    ],
+    [
+      "Therapist: That's great to hear. What's been most helpful in this process?",
+      "Client: The breathing exercises have been a lifesaver, truly. And... this might sound odd, but talking about it here, with you... it helps. It's like each time I share these experiences, they lose a bit of their power over me.",
+      "Therapist: That's a valuable insight. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: The breathing exercises have been a lifesaver, truly. And... this might sound odd, but talking about it here, with you... it helps. It's like each time I share these experiences, they lose a bit of their power over me.",
+      "Therapist: That's a valuable insight. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I think. It's not easy, reliving these moments. But if it helps me get my life back, helps me be there for my family without always being on edge... then it's worth it. I want to keep going."
+    ],
+    [
+      "Therapist: That's a valuable insight. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic, I think. It's not easy, reliving these moments. But if it helps me get my life back, helps me be there for my family without always being on edge... then it's worth it. I want to keep going.",
+      "Therapist: Your commitment is admirable. Any final thoughts today?"
+    ],
+    [
+      "Client: I'm... cautiously optimistic, I think. It's not easy, reliving these moments. But if it helps me get my life back, helps me be there for my family without always being on edge... then it's worth it. I want to keep going.",
+      "Therapist: Your commitment is admirable. Any final thoughts today?",
+      "Client: Just... thank you, I suppose. For listening, for guiding me through this. I know I have a long way to go, but for the first time in years, I feel like I might actually get there."
+    ],
+    [
+      "Therapist: Your commitment is admirable. Any final thoughts today?",
+      "Client: Just... thank you, I suppose. For listening, for guiding me through this. I know I have a long way to go, but for the first time in years, I feel like I might actually get there.",
+      "Therapist: You're welcome. We'll continue next week. Take care."
+    ]
+  ]
+}

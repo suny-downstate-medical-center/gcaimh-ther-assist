@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure session. Remember, you're safe here. Can you describe the scene where you witnessed violence?",
+    "Client: Okay... I'm in my childhood home. I'm about 8 years old. My parents are arguing in the kitchen. It's late at night, and I should be asleep, but their voices woke me up. I'm at the top of the stairs, peeking through the banister. My heart is racing.",
+    "Therapist: You're doing great. Continue describing what you see and feel.",
+    "Client: My father is yelling. His face is red, and he's pointing his finger at my mother. She's backed up against the counter, looking scared. I can see tears in her eyes. I want to run down and help her, but I'm frozen in place.",
+    "Therapist: Stay with that moment. What happens next?",
+    "Client: Suddenly, my father grabs a plate from the counter and throws it against the wall. The sound of it shattering makes me jump. I can feel my whole body shaking. My mother screams, and I... I start crying, but I try to muffle the sound with my hands.",
+    "Therapist: You're being very brave. Keep going.",
+    "Client: My father turns and sees me on the stairs. His eyes... they're so angry. He shouts at me to go back to bed, but I can't move. My mother is sobbing now, begging him to calm down. I feel so helpless, so scared. I want to protect her, but I'm just a child.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: I... I can't. This is too much. I don't want to remember anymore.",
+    "Therapist: Take a deep breath. You're doing well. Can you stay with it a little longer?",
+    "Client: I... I'll try. My father starts coming towards the stairs. Each step he takes makes my heart beat faster. I want to run, but my legs won't move. I'm trembling so much I think I might fall down the stairs.",
+    "Therapist: You're handling this incredibly well. What do you do next?",
+    "Client: As he gets closer, I finally manage to turn and run to my room. I shut the door and hide under my blankets, covering my ears. But I can still hear them. The shouting, the crying, things breaking. I feel so alone and terrified.",
+    "Therapist: You're not alone now. Keep going.",
+    "Client: I stay under the blankets for what feels like hours. Eventually, the house goes quiet, but I'm too scared to come out. I keep thinking about my mom, wondering if she's okay. I feel guilty for not helping her, for hiding. I cry myself to sleep, wishing I could make it all stop.",
+    "Therapist: You've done really well. How are you feeling now?",
+    "Client: I... I feel drained. Sad. Angry. But also... I don't know, maybe a little relieved to have talked about it? It's still painful, but it feels different somehow.",
+    "Therapist: That's normal. You've shown great courage today.",
+    "Client: Thank you. I never thought I'd be able to talk about this. It's always been locked away inside me. I'm surprised I remembered so many details.",
+    "Therapist: That's often the case. Is there anything else you want to share?",
+    "Client: I think that's enough for now. It's a lot to process. But... I'm glad I did it. Even though it was hard, I feel like I've taken a step forward.",
+    "Therapist: You absolutely have. We'll end here for today. Well done."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure session. Remember, you're safe here. Can you describe the scene where you witnessed violence?",
+      "Client: Okay... I'm in my childhood home. I'm about 8 years old. My parents are arguing in the kitchen. It's late at night, and I should be asleep, but their voices woke me up. I'm at the top of the stairs, peeking through the banister. My heart is racing.",
+      "Therapist: You're doing great. Continue describing what you see and feel."
+    ],
+    [
+      "Client: Okay... I'm in my childhood home. I'm about 8 years old. My parents are arguing in the kitchen. It's late at night, and I should be asleep, but their voices woke me up. I'm at the top of the stairs, peeking through the banister. My heart is racing.",
+      "Therapist: You're doing great. Continue describing what you see and feel.",
+      "Client: My father is yelling. His face is red, and he's pointing his finger at my mother. She's backed up against the counter, looking scared. I can see tears in her eyes. I want to run down and help her, but I'm frozen in place."
+    ],
+    [
+      "Therapist: You're doing great. Continue describing what you see and feel.",
+      "Client: My father is yelling. His face is red, and he's pointing his finger at my mother. She's backed up against the counter, looking scared. I can see tears in her eyes. I want to run down and help her, but I'm frozen in place.",
+      "Therapist: Stay with that moment. What happens next?"
+    ],
+    [
+      "Client: My father is yelling. His face is red, and he's pointing his finger at my mother. She's backed up against the counter, looking scared. I can see tears in her eyes. I want to run down and help her, but I'm frozen in place.",
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: Suddenly, my father grabs a plate from the counter and throws it against the wall. The sound of it shattering makes me jump. I can feel my whole body shaking. My mother screams, and I... I start crying, but I try to muffle the sound with my hands."
+    ],
+    [
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: Suddenly, my father grabs a plate from the counter and throws it against the wall. The sound of it shattering makes me jump. I can feel my whole body shaking. My mother screams, and I... I start crying, but I try to muffle the sound with my hands.",
+      "Therapist: You're being very brave. Keep going."
+    ],
+    [
+      "Client: Suddenly, my father grabs a plate from the counter and throws it against the wall. The sound of it shattering makes me jump. I can feel my whole body shaking. My mother screams, and I... I start crying, but I try to muffle the sound with my hands.",
+      "Therapist: You're being very brave. Keep going.",
+      "Client: My father turns and sees me on the stairs. His eyes... they're so angry. He shouts at me to go back to bed, but I can't move. My mother is sobbing now, begging him to calm down. I feel so helpless, so scared. I want to protect her, but I'm just a child."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going.",
+      "Client: My father turns and sees me on the stairs. His eyes... they're so angry. He shouts at me to go back to bed, but I can't move. My mother is sobbing now, begging him to calm down. I feel so helpless, so scared. I want to protect her, but I'm just a child.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: My father turns and sees me on the stairs. His eyes... they're so angry. He shouts at me to go back to bed, but I can't move. My mother is sobbing now, begging him to calm down. I feel so helpless, so scared. I want to protect her, but I'm just a child.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't. This is too much. I don't want to remember anymore."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't. This is too much. I don't want to remember anymore.",
+      "Therapist: Take a deep breath. You're doing well. Can you stay with it a little longer?"
+    ],
+    [
+      "Client: I... I can't. This is too much. I don't want to remember anymore.",
+      "Therapist: Take a deep breath. You're doing well. Can you stay with it a little longer?",
+      "Client: I... I'll try. My father starts coming towards the stairs. Each step he takes makes my heart beat faster. I want to run, but my legs won't move. I'm trembling so much I think I might fall down the stairs."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing well. Can you stay with it a little longer?",
+      "Client: I... I'll try. My father starts coming towards the stairs. Each step he takes makes my heart beat faster. I want to run, but my legs won't move. I'm trembling so much I think I might fall down the stairs.",
+      "Therapist: You're handling this incredibly well. What do you do next?"
+    ],
+    [
+      "Client: I... I'll try. My father starts coming towards the stairs. Each step he takes makes my heart beat faster. I want to run, but my legs won't move. I'm trembling so much I think I might fall down the stairs.",
+      "Therapist: You're handling this incredibly well. What do you do next?",
+      "Client: As he gets closer, I finally manage to turn and run to my room. I shut the door and hide under my blankets, covering my ears. But I can still hear them. The shouting, the crying, things breaking. I feel so alone and terrified."
+    ],
+    [
+      "Therapist: You're handling this incredibly well. What do you do next?",
+      "Client: As he gets closer, I finally manage to turn and run to my room. I shut the door and hide under my blankets, covering my ears. But I can still hear them. The shouting, the crying, things breaking. I feel so alone and terrified.",
+      "Therapist: You're not alone now. Keep going."
+    ],
+    [
+      "Client: As he gets closer, I finally manage to turn and run to my room. I shut the door and hide under my blankets, covering my ears. But I can still hear them. The shouting, the crying, things breaking. I feel so alone and terrified.",
+      "Therapist: You're not alone now. Keep going.",
+      "Client: I stay under the blankets for what feels like hours. Eventually, the house goes quiet, but I'm too scared to come out. I keep thinking about my mom, wondering if she's okay. I feel guilty for not helping her, for hiding. I cry myself to sleep, wishing I could make it all stop."
+    ],
+    [
+      "Therapist: You're not alone now. Keep going.",
+      "Client: I stay under the blankets for what feels like hours. Eventually, the house goes quiet, but I'm too scared to come out. I keep thinking about my mom, wondering if she's okay. I feel guilty for not helping her, for hiding. I cry myself to sleep, wishing I could make it all stop.",
+      "Therapist: You've done really well. How are you feeling now?"
+    ],
+    [
+      "Client: I stay under the blankets for what feels like hours. Eventually, the house goes quiet, but I'm too scared to come out. I keep thinking about my mom, wondering if she's okay. I feel guilty for not helping her, for hiding. I cry myself to sleep, wishing I could make it all stop.",
+      "Therapist: You've done really well. How are you feeling now?",
+      "Client: I... I feel drained. Sad. Angry. But also... I don't know, maybe a little relieved to have talked about it? It's still painful, but it feels different somehow."
+    ],
+    [
+      "Therapist: You've done really well. How are you feeling now?",
+      "Client: I... I feel drained. Sad. Angry. But also... I don't know, maybe a little relieved to have talked about it? It's still painful, but it feels different somehow.",
+      "Therapist: That's normal. You've shown great courage today."
+    ],
+    [
+      "Client: I... I feel drained. Sad. Angry. But also... I don't know, maybe a little relieved to have talked about it? It's still painful, but it feels different somehow.",
+      "Therapist: That's normal. You've shown great courage today.",
+      "Client: Thank you. I never thought I'd be able to talk about this. It's always been locked away inside me. I'm surprised I remembered so many details."
+    ],
+    [
+      "Therapist: That's normal. You've shown great courage today.",
+      "Client: Thank you. I never thought I'd be able to talk about this. It's always been locked away inside me. I'm surprised I remembered so many details.",
+      "Therapist: That's often the case. Is there anything else you want to share?"
+    ],
+    [
+      "Client: Thank you. I never thought I'd be able to talk about this. It's always been locked away inside me. I'm surprised I remembered so many details.",
+      "Therapist: That's often the case. Is there anything else you want to share?",
+      "Client: I think that's enough for now. It's a lot to process. But... I'm glad I did it. Even though it was hard, I feel like I've taken a step forward."
+    ],
+    [
+      "Therapist: That's often the case. Is there anything else you want to share?",
+      "Client: I think that's enough for now. It's a lot to process. But... I'm glad I did it. Even though it was hard, I feel like I've taken a step forward.",
+      "Therapist: You absolutely have. We'll end here for today. Well done."
+    ]
+  ]
+}

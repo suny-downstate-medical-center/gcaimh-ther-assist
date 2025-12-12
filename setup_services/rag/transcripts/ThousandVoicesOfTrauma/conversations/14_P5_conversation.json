@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Carlos. How are you feeling today?",
+    "Client: Hola, Dr. Martinez. I'm... I'm not great, to be honest. Been having trouble sleeping lately. Every little noise in the house makes me jump. It's like I'm constantly on edge, you know?",
+    "Therapist: I understand. That sounds challenging. Today, we'll work on that.",
+    "Client: Okay... What exactly are we going to do? I'm feeling a bit nervous about this whole thing.",
+    "Therapist: We'll do an imaginal exposure exercise. It's designed to help with your PTSD symptoms.",
+    "Client: Imaginal exposure? That sounds... intense. Do I have to relive the home invasion? I'm not sure I'm ready for that.",
+    "Therapist: It can be intense, but I'll guide you through it. What concerns do you have?",
+    "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes everything worse instead of better? I've been trying so hard to keep it together for my family.",
+    "Therapist: Those are valid concerns. We'll go at your pace, and I'll be here to support you.",
+    "Client: Okay... I appreciate that. Can you tell me more about what to expect? How exactly does this help?",
+    "Therapist: The exercise helps process the trauma memory. You may feel anxious, but it typically decreases over time.",
+    "Client: I see. So, it's like facing my fears head-on? That's... that's pretty scary, doc. But I guess if it helps in the long run, I'm willing to try.",
+    "Therapist: Exactly. Your willingness shows courage. Are you ready to begin?",
+    "Client: I... I think so. Just promise me you won't let things get out of hand, okay? My anxiety is already through the roof.",
+    "Therapist: I promise. We'll stop if it becomes too overwhelming. Shall we start?",
+    "Client: Alright, let's do this. I trust you, Dr. Martinez. Just... just bear with me if I struggle a bit, okay?",
+    "Therapist: Of course. Let's begin. Close your eyes and take a deep breath..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Carlos. How are you feeling today?",
+      "Client: Hola, Dr. Martinez. I'm... I'm not great, to be honest. Been having trouble sleeping lately. Every little noise in the house makes me jump. It's like I'm constantly on edge, you know?",
+      "Therapist: I understand. That sounds challenging. Today, we'll work on that."
+    ],
+    [
+      "Client: Hola, Dr. Martinez. I'm... I'm not great, to be honest. Been having trouble sleeping lately. Every little noise in the house makes me jump. It's like I'm constantly on edge, you know?",
+      "Therapist: I understand. That sounds challenging. Today, we'll work on that.",
+      "Client: Okay... What exactly are we going to do? I'm feeling a bit nervous about this whole thing."
+    ],
+    [
+      "Therapist: I understand. That sounds challenging. Today, we'll work on that.",
+      "Client: Okay... What exactly are we going to do? I'm feeling a bit nervous about this whole thing.",
+      "Therapist: We'll do an imaginal exposure exercise. It's designed to help with your PTSD symptoms."
+    ],
+    [
+      "Client: Okay... What exactly are we going to do? I'm feeling a bit nervous about this whole thing.",
+      "Therapist: We'll do an imaginal exposure exercise. It's designed to help with your PTSD symptoms.",
+      "Client: Imaginal exposure? That sounds... intense. Do I have to relive the home invasion? I'm not sure I'm ready for that."
+    ],
+    [
+      "Therapist: We'll do an imaginal exposure exercise. It's designed to help with your PTSD symptoms.",
+      "Client: Imaginal exposure? That sounds... intense. Do I have to relive the home invasion? I'm not sure I'm ready for that.",
+      "Therapist: It can be intense, but I'll guide you through it. What concerns do you have?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. Do I have to relive the home invasion? I'm not sure I'm ready for that.",
+      "Therapist: It can be intense, but I'll guide you through it. What concerns do you have?",
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes everything worse instead of better? I've been trying so hard to keep it together for my family."
+    ],
+    [
+      "Therapist: It can be intense, but I'll guide you through it. What concerns do you have?",
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes everything worse instead of better? I've been trying so hard to keep it together for my family.",
+      "Therapist: Those are valid concerns. We'll go at your pace, and I'll be here to support you."
+    ],
+    [
+      "Client: Well, I'm worried about losing control. What if I panic? Or what if it makes everything worse instead of better? I've been trying so hard to keep it together for my family.",
+      "Therapist: Those are valid concerns. We'll go at your pace, and I'll be here to support you.",
+      "Client: Okay... I appreciate that. Can you tell me more about what to expect? How exactly does this help?"
+    ],
+    [
+      "Therapist: Those are valid concerns. We'll go at your pace, and I'll be here to support you.",
+      "Client: Okay... I appreciate that. Can you tell me more about what to expect? How exactly does this help?",
+      "Therapist: The exercise helps process the trauma memory. You may feel anxious, but it typically decreases over time."
+    ],
+    [
+      "Client: Okay... I appreciate that. Can you tell me more about what to expect? How exactly does this help?",
+      "Therapist: The exercise helps process the trauma memory. You may feel anxious, but it typically decreases over time.",
+      "Client: I see. So, it's like facing my fears head-on? That's... that's pretty scary, doc. But I guess if it helps in the long run, I'm willing to try."
+    ],
+    [
+      "Therapist: The exercise helps process the trauma memory. You may feel anxious, but it typically decreases over time.",
+      "Client: I see. So, it's like facing my fears head-on? That's... that's pretty scary, doc. But I guess if it helps in the long run, I'm willing to try.",
+      "Therapist: Exactly. Your willingness shows courage. Are you ready to begin?"
+    ],
+    [
+      "Client: I see. So, it's like facing my fears head-on? That's... that's pretty scary, doc. But I guess if it helps in the long run, I'm willing to try.",
+      "Therapist: Exactly. Your willingness shows courage. Are you ready to begin?",
+      "Client: I... I think so. Just promise me you won't let things get out of hand, okay? My anxiety is already through the roof."
+    ],
+    [
+      "Therapist: Exactly. Your willingness shows courage. Are you ready to begin?",
+      "Client: I... I think so. Just promise me you won't let things get out of hand, okay? My anxiety is already through the roof.",
+      "Therapist: I promise. We'll stop if it becomes too overwhelming. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. Just promise me you won't let things get out of hand, okay? My anxiety is already through the roof.",
+      "Therapist: I promise. We'll stop if it becomes too overwhelming. Shall we start?",
+      "Client: Alright, let's do this. I trust you, Dr. Martinez. Just... just bear with me if I struggle a bit, okay?"
+    ],
+    [
+      "Therapist: I promise. We'll stop if it becomes too overwhelming. Shall we start?",
+      "Client: Alright, let's do this. I trust you, Dr. Martinez. Just... just bear with me if I struggle a bit, okay?",
+      "Therapist: Of course. Let's begin. Close your eyes and take a deep breath..."
+    ]
+  ]
+}

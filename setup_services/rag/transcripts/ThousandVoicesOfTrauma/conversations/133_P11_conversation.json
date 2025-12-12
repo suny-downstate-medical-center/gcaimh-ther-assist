@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Abboud?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that moment when the police stormed into our neighborhood... it's bringing up so many emotions.",
+    "Therapist: What stood out to you most?",
+    "Client: The sounds. The shouting, the sirens... and the fear in my grandson's voice. He was visiting us that day, and... (voice breaks) I couldn't protect him.",
+    "Therapist: That must have been terrifying.",
+    "Client: It was. I keep thinking about how helpless I felt. We weren't doing anything wrong, just existing in our own home. But suddenly, we were treated like criminals.",
+    "Therapist: How does reflecting on that helplessness feel now?",
+    "Client: It's... it's still painful. But there's anger too. I've spent my whole life being a law-abiding citizen, contributing to this country. And in that moment, none of it mattered because of how we look.",
+    "Therapist: Your anger is understandable. How does it connect to your day-to-day life now?",
+    "Client: I suppose... I'm always on edge. Especially when I see police officers. My heart races, I start to sweat. It's like I'm back there again, you know?",
+    "Therapist: That sounds like a common PTSD reaction. How have you been coping?",
+    "Client: Well, I've been trying those breathing exercises you taught me. They help sometimes. But other times, I just want to hide away at home where it feels safe.",
+    "Therapist: I'm glad the breathing helps. What else?",
+    "Client: I've been talking to my husband more about it. He... he doesn't fully understand, but he listens. That helps too.",
+    "Therapist: That's great progress. How does sharing with him feel?",
+    "Client: It's... liberating, in a way. For so long, I felt like I was carrying this burden alone. But opening up, it's like... like the weight is shared, you know?",
+    "Therapist: Absolutely. What's challenging about the process?",
+    "Client: Sometimes, I worry I'm burdening him. And... (sighs) part of me is scared that talking about it will make it all real again. Like I'm inviting the trauma back in.",
+    "Therapist: That's a common fear. How do you push through it?",
+    "Client: I remind myself that staying silent didn't make it go away. And... I think about my grandson. I want to be strong for him, to show him that we can overcome this.",
+    "Therapist: That's powerful motivation. What's next for you?",
+    "Client: I... I think I want to get more involved in my community. Maybe share my story, help others who've experienced similar things. Is that... is that crazy?",
+    "Therapist: Not at all. How might that help you?",
+    "Client: I think... it might help me feel less powerless. Like I'm taking back control, you know? And maybe, just maybe, it could help prevent this from happening to someone else.",
+    "Therapist: That's a wonderful goal. How do you feel about continuing our sessions?",
+    "Client: I'm... I'm nervous, but I'm ready. This isn't easy, but I can feel it helping. Slowly, but surely.",
+    "Therapist: Your courage is admirable. Shall we schedule our next session?",
+    "Client: Yes, please. And... thank you. For listening, for guiding me through this. It means more than you know."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Abboud?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that moment when the police stormed into our neighborhood... it's bringing up so many emotions.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that moment when the police stormed into our neighborhood... it's bringing up so many emotions.",
+      "Therapist: What stood out to you most?",
+      "Client: The sounds. The shouting, the sirens... and the fear in my grandson's voice. He was visiting us that day, and... (voice breaks) I couldn't protect him."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The sounds. The shouting, the sirens... and the fear in my grandson's voice. He was visiting us that day, and... (voice breaks) I couldn't protect him.",
+      "Therapist: That must have been terrifying."
+    ],
+    [
+      "Client: The sounds. The shouting, the sirens... and the fear in my grandson's voice. He was visiting us that day, and... (voice breaks) I couldn't protect him.",
+      "Therapist: That must have been terrifying.",
+      "Client: It was. I keep thinking about how helpless I felt. We weren't doing anything wrong, just existing in our own home. But suddenly, we were treated like criminals."
+    ],
+    [
+      "Therapist: That must have been terrifying.",
+      "Client: It was. I keep thinking about how helpless I felt. We weren't doing anything wrong, just existing in our own home. But suddenly, we were treated like criminals.",
+      "Therapist: How does reflecting on that helplessness feel now?"
+    ],
+    [
+      "Client: It was. I keep thinking about how helpless I felt. We weren't doing anything wrong, just existing in our own home. But suddenly, we were treated like criminals.",
+      "Therapist: How does reflecting on that helplessness feel now?",
+      "Client: It's... it's still painful. But there's anger too. I've spent my whole life being a law-abiding citizen, contributing to this country. And in that moment, none of it mattered because of how we look."
+    ],
+    [
+      "Therapist: How does reflecting on that helplessness feel now?",
+      "Client: It's... it's still painful. But there's anger too. I've spent my whole life being a law-abiding citizen, contributing to this country. And in that moment, none of it mattered because of how we look.",
+      "Therapist: Your anger is understandable. How does it connect to your day-to-day life now?"
+    ],
+    [
+      "Client: It's... it's still painful. But there's anger too. I've spent my whole life being a law-abiding citizen, contributing to this country. And in that moment, none of it mattered because of how we look.",
+      "Therapist: Your anger is understandable. How does it connect to your day-to-day life now?",
+      "Client: I suppose... I'm always on edge. Especially when I see police officers. My heart races, I start to sweat. It's like I'm back there again, you know?"
+    ],
+    [
+      "Therapist: Your anger is understandable. How does it connect to your day-to-day life now?",
+      "Client: I suppose... I'm always on edge. Especially when I see police officers. My heart races, I start to sweat. It's like I'm back there again, you know?",
+      "Therapist: That sounds like a common PTSD reaction. How have you been coping?"
+    ],
+    [
+      "Client: I suppose... I'm always on edge. Especially when I see police officers. My heart races, I start to sweat. It's like I'm back there again, you know?",
+      "Therapist: That sounds like a common PTSD reaction. How have you been coping?",
+      "Client: Well, I've been trying those breathing exercises you taught me. They help sometimes. But other times, I just want to hide away at home where it feels safe."
+    ],
+    [
+      "Therapist: That sounds like a common PTSD reaction. How have you been coping?",
+      "Client: Well, I've been trying those breathing exercises you taught me. They help sometimes. But other times, I just want to hide away at home where it feels safe.",
+      "Therapist: I'm glad the breathing helps. What else?"
+    ],
+    [
+      "Client: Well, I've been trying those breathing exercises you taught me. They help sometimes. But other times, I just want to hide away at home where it feels safe.",
+      "Therapist: I'm glad the breathing helps. What else?",
+      "Client: I've been talking to my husband more about it. He... he doesn't fully understand, but he listens. That helps too."
+    ],
+    [
+      "Therapist: I'm glad the breathing helps. What else?",
+      "Client: I've been talking to my husband more about it. He... he doesn't fully understand, but he listens. That helps too.",
+      "Therapist: That's great progress. How does sharing with him feel?"
+    ],
+    [
+      "Client: I've been talking to my husband more about it. He... he doesn't fully understand, but he listens. That helps too.",
+      "Therapist: That's great progress. How does sharing with him feel?",
+      "Client: It's... liberating, in a way. For so long, I felt like I was carrying this burden alone. But opening up, it's like... like the weight is shared, you know?"
+    ],
+    [
+      "Therapist: That's great progress. How does sharing with him feel?",
+      "Client: It's... liberating, in a way. For so long, I felt like I was carrying this burden alone. But opening up, it's like... like the weight is shared, you know?",
+      "Therapist: Absolutely. What's challenging about the process?"
+    ],
+    [
+      "Client: It's... liberating, in a way. For so long, I felt like I was carrying this burden alone. But opening up, it's like... like the weight is shared, you know?",
+      "Therapist: Absolutely. What's challenging about the process?",
+      "Client: Sometimes, I worry I'm burdening him. And... (sighs) part of me is scared that talking about it will make it all real again. Like I'm inviting the trauma back in."
+    ],
+    [
+      "Therapist: Absolutely. What's challenging about the process?",
+      "Client: Sometimes, I worry I'm burdening him. And... (sighs) part of me is scared that talking about it will make it all real again. Like I'm inviting the trauma back in.",
+      "Therapist: That's a common fear. How do you push through it?"
+    ],
+    [
+      "Client: Sometimes, I worry I'm burdening him. And... (sighs) part of me is scared that talking about it will make it all real again. Like I'm inviting the trauma back in.",
+      "Therapist: That's a common fear. How do you push through it?",
+      "Client: I remind myself that staying silent didn't make it go away. And... I think about my grandson. I want to be strong for him, to show him that we can overcome this."
+    ],
+    [
+      "Therapist: That's a common fear. How do you push through it?",
+      "Client: I remind myself that staying silent didn't make it go away. And... I think about my grandson. I want to be strong for him, to show him that we can overcome this.",
+      "Therapist: That's powerful motivation. What's next for you?"
+    ],
+    [
+      "Client: I remind myself that staying silent didn't make it go away. And... I think about my grandson. I want to be strong for him, to show him that we can overcome this.",
+      "Therapist: That's powerful motivation. What's next for you?",
+      "Client: I... I think I want to get more involved in my community. Maybe share my story, help others who've experienced similar things. Is that... is that crazy?"
+    ],
+    [
+      "Therapist: That's powerful motivation. What's next for you?",
+      "Client: I... I think I want to get more involved in my community. Maybe share my story, help others who've experienced similar things. Is that... is that crazy?",
+      "Therapist: Not at all. How might that help you?"
+    ],
+    [
+      "Client: I... I think I want to get more involved in my community. Maybe share my story, help others who've experienced similar things. Is that... is that crazy?",
+      "Therapist: Not at all. How might that help you?",
+      "Client: I think... it might help me feel less powerless. Like I'm taking back control, you know? And maybe, just maybe, it could help prevent this from happening to someone else."
+    ],
+    [
+      "Therapist: Not at all. How might that help you?",
+      "Client: I think... it might help me feel less powerless. Like I'm taking back control, you know? And maybe, just maybe, it could help prevent this from happening to someone else.",
+      "Therapist: That's a wonderful goal. How do you feel about continuing our sessions?"
+    ],
+    [
+      "Client: I think... it might help me feel less powerless. Like I'm taking back control, you know? And maybe, just maybe, it could help prevent this from happening to someone else.",
+      "Therapist: That's a wonderful goal. How do you feel about continuing our sessions?",
+      "Client: I'm... I'm nervous, but I'm ready. This isn't easy, but I can feel it helping. Slowly, but surely."
+    ],
+    [
+      "Therapist: That's a wonderful goal. How do you feel about continuing our sessions?",
+      "Client: I'm... I'm nervous, but I'm ready. This isn't easy, but I can feel it helping. Slowly, but surely.",
+      "Therapist: Your courage is admirable. Shall we schedule our next session?"
+    ],
+    [
+      "Client: I'm... I'm nervous, but I'm ready. This isn't easy, but I can feel it helping. Slowly, but surely.",
+      "Therapist: Your courage is admirable. Shall we schedule our next session?",
+      "Client: Yes, please. And... thank you. For listening, for guiding me through this. It means more than you know."
+    ]
+  ]
+}

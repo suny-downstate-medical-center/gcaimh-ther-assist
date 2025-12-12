@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Chen?",
+    "Client: I... I'm feeling a bit shaken, to be honest. Reliving that moment when the typhoon hit our village... it's bringing back so many memories I've tried to forget. The sound of the wind, the crashing of trees, the screams... it's all so vivid again.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The helplessness. I remember huddling in the corner of our small house, praying the roof wouldn't cave in. My children were crying, and I couldn't do anything to protect them. It's... it's overwhelming to think about.",
+    "Therapist: How does it feel to share that now?",
+    "Client: It's... strange. My heart is racing a bit, but... I also feel a sense of relief? Like I'm finally acknowledging what happened instead of pushing it away.",
+    "Therapist: That's a significant observation. How does this connect to your daily life?",
+    "Client: Well, I guess I've been avoiding a lot of things that remind me of that day. Thunderstorms, crowded places, even the news sometimes. It's affected my relationships too. I push people away when they try to get close.",
+    "Therapist: I see. What insights are you gaining from this?",
+    "Client: I'm realizing that... maybe I've been living in fear for so long. Always waiting for the next disaster. It's exhausting. And it's not fair to my family or myself. I want to feel safe again, to enjoy life without constantly looking over my shoulder.",
+    "Therapist: That's a powerful realization. How might you move forward?",
+    "Client: I think... I need to start facing these fears head-on. Maybe... maybe I could start by watching weather reports again. Or visiting the park on a windy day. Small steps, you know? And perhaps I could open up to my daughter about what I've been going through. She's been so worried about me.",
+    "Therapist: Those sound like thoughtful goals. How do you feel about continuing?",
+    "Client: It's scary, but... I'm ready. I've lived with this for too long. I want my life back, you know? And going through this exposure, as difficult as it is, makes me feel like I'm finally doing something about it. I'm not just a victim anymore.",
+    "Therapist: That's a courageous perspective. What else comes to mind?",
+    "Client: I'm thinking about my community back home. So many of us were affected by that typhoon. Maybe... maybe I could reach out to some old neighbors, see how they're coping. It might help to talk to people who understand.",
+    "Therapist: How does that idea sit with you?",
+    "Client: It feels... right. Like I'm not alone in this. And maybe by connecting with others, I can start to rebuild some of the connections I've lost. It's time to stop isolating myself.",
+    "Therapist: That's a valuable insight. Anything else you'd like to share?",
+    "Client: I... I think I'm starting to see a future where I'm not controlled by this trauma. It's still scary, and I know there's a long way to go, but for the first time in years, I feel... hopeful. Like maybe I can get through this and come out stronger on the other side.",
+    "Therapist: Thank you for sharing. How would you like to proceed?",
+    "Client: I'd like to keep going with these sessions. They're tough, but I can feel them making a difference. And maybe we could work on some strategies for managing my anxiety between sessions? I want to be proactive in my recovery.",
+    "Therapist: That sounds like a good plan. Shall we schedule our next session?",
+    "Client: Yes, please. And... thank you. For listening, for guiding me through this. I know it's your job, but... it means a lot to have someone who understands and doesn't judge. I'm starting to believe that maybe, just maybe, I can get through this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Chen?",
+      "Client: I... I'm feeling a bit shaken, to be honest. Reliving that moment when the typhoon hit our village... it's bringing back so many memories I've tried to forget. The sound of the wind, the crashing of trees, the screams... it's all so vivid again.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. Reliving that moment when the typhoon hit our village... it's bringing back so many memories I've tried to forget. The sound of the wind, the crashing of trees, the screams... it's all so vivid again.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The helplessness. I remember huddling in the corner of our small house, praying the roof wouldn't cave in. My children were crying, and I couldn't do anything to protect them. It's... it's overwhelming to think about."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The helplessness. I remember huddling in the corner of our small house, praying the roof wouldn't cave in. My children were crying, and I couldn't do anything to protect them. It's... it's overwhelming to think about.",
+      "Therapist: How does it feel to share that now?"
+    ],
+    [
+      "Client: The helplessness. I remember huddling in the corner of our small house, praying the roof wouldn't cave in. My children were crying, and I couldn't do anything to protect them. It's... it's overwhelming to think about.",
+      "Therapist: How does it feel to share that now?",
+      "Client: It's... strange. My heart is racing a bit, but... I also feel a sense of relief? Like I'm finally acknowledging what happened instead of pushing it away."
+    ],
+    [
+      "Therapist: How does it feel to share that now?",
+      "Client: It's... strange. My heart is racing a bit, but... I also feel a sense of relief? Like I'm finally acknowledging what happened instead of pushing it away.",
+      "Therapist: That's a significant observation. How does this connect to your daily life?"
+    ],
+    [
+      "Client: It's... strange. My heart is racing a bit, but... I also feel a sense of relief? Like I'm finally acknowledging what happened instead of pushing it away.",
+      "Therapist: That's a significant observation. How does this connect to your daily life?",
+      "Client: Well, I guess I've been avoiding a lot of things that remind me of that day. Thunderstorms, crowded places, even the news sometimes. It's affected my relationships too. I push people away when they try to get close."
+    ],
+    [
+      "Therapist: That's a significant observation. How does this connect to your daily life?",
+      "Client: Well, I guess I've been avoiding a lot of things that remind me of that day. Thunderstorms, crowded places, even the news sometimes. It's affected my relationships too. I push people away when they try to get close.",
+      "Therapist: I see. What insights are you gaining from this?"
+    ],
+    [
+      "Client: Well, I guess I've been avoiding a lot of things that remind me of that day. Thunderstorms, crowded places, even the news sometimes. It's affected my relationships too. I push people away when they try to get close.",
+      "Therapist: I see. What insights are you gaining from this?",
+      "Client: I'm realizing that... maybe I've been living in fear for so long. Always waiting for the next disaster. It's exhausting. And it's not fair to my family or myself. I want to feel safe again, to enjoy life without constantly looking over my shoulder."
+    ],
+    [
+      "Therapist: I see. What insights are you gaining from this?",
+      "Client: I'm realizing that... maybe I've been living in fear for so long. Always waiting for the next disaster. It's exhausting. And it's not fair to my family or myself. I want to feel safe again, to enjoy life without constantly looking over my shoulder.",
+      "Therapist: That's a powerful realization. How might you move forward?"
+    ],
+    [
+      "Client: I'm realizing that... maybe I've been living in fear for so long. Always waiting for the next disaster. It's exhausting. And it's not fair to my family or myself. I want to feel safe again, to enjoy life without constantly looking over my shoulder.",
+      "Therapist: That's a powerful realization. How might you move forward?",
+      "Client: I think... I need to start facing these fears head-on. Maybe... maybe I could start by watching weather reports again. Or visiting the park on a windy day. Small steps, you know? And perhaps I could open up to my daughter about what I've been going through. She's been so worried about me."
+    ],
+    [
+      "Therapist: That's a powerful realization. How might you move forward?",
+      "Client: I think... I need to start facing these fears head-on. Maybe... maybe I could start by watching weather reports again. Or visiting the park on a windy day. Small steps, you know? And perhaps I could open up to my daughter about what I've been going through. She's been so worried about me.",
+      "Therapist: Those sound like thoughtful goals. How do you feel about continuing?"
+    ],
+    [
+      "Client: I think... I need to start facing these fears head-on. Maybe... maybe I could start by watching weather reports again. Or visiting the park on a windy day. Small steps, you know? And perhaps I could open up to my daughter about what I've been going through. She's been so worried about me.",
+      "Therapist: Those sound like thoughtful goals. How do you feel about continuing?",
+      "Client: It's scary, but... I'm ready. I've lived with this for too long. I want my life back, you know? And going through this exposure, as difficult as it is, makes me feel like I'm finally doing something about it. I'm not just a victim anymore."
+    ],
+    [
+      "Therapist: Those sound like thoughtful goals. How do you feel about continuing?",
+      "Client: It's scary, but... I'm ready. I've lived with this for too long. I want my life back, you know? And going through this exposure, as difficult as it is, makes me feel like I'm finally doing something about it. I'm not just a victim anymore.",
+      "Therapist: That's a courageous perspective. What else comes to mind?"
+    ],
+    [
+      "Client: It's scary, but... I'm ready. I've lived with this for too long. I want my life back, you know? And going through this exposure, as difficult as it is, makes me feel like I'm finally doing something about it. I'm not just a victim anymore.",
+      "Therapist: That's a courageous perspective. What else comes to mind?",
+      "Client: I'm thinking about my community back home. So many of us were affected by that typhoon. Maybe... maybe I could reach out to some old neighbors, see how they're coping. It might help to talk to people who understand."
+    ],
+    [
+      "Therapist: That's a courageous perspective. What else comes to mind?",
+      "Client: I'm thinking about my community back home. So many of us were affected by that typhoon. Maybe... maybe I could reach out to some old neighbors, see how they're coping. It might help to talk to people who understand.",
+      "Therapist: How does that idea sit with you?"
+    ],
+    [
+      "Client: I'm thinking about my community back home. So many of us were affected by that typhoon. Maybe... maybe I could reach out to some old neighbors, see how they're coping. It might help to talk to people who understand.",
+      "Therapist: How does that idea sit with you?",
+      "Client: It feels... right. Like I'm not alone in this. And maybe by connecting with others, I can start to rebuild some of the connections I've lost. It's time to stop isolating myself."
+    ],
+    [
+      "Therapist: How does that idea sit with you?",
+      "Client: It feels... right. Like I'm not alone in this. And maybe by connecting with others, I can start to rebuild some of the connections I've lost. It's time to stop isolating myself.",
+      "Therapist: That's a valuable insight. Anything else you'd like to share?"
+    ],
+    [
+      "Client: It feels... right. Like I'm not alone in this. And maybe by connecting with others, I can start to rebuild some of the connections I've lost. It's time to stop isolating myself.",
+      "Therapist: That's a valuable insight. Anything else you'd like to share?",
+      "Client: I... I think I'm starting to see a future where I'm not controlled by this trauma. It's still scary, and I know there's a long way to go, but for the first time in years, I feel... hopeful. Like maybe I can get through this and come out stronger on the other side."
+    ],
+    [
+      "Therapist: That's a valuable insight. Anything else you'd like to share?",
+      "Client: I... I think I'm starting to see a future where I'm not controlled by this trauma. It's still scary, and I know there's a long way to go, but for the first time in years, I feel... hopeful. Like maybe I can get through this and come out stronger on the other side.",
+      "Therapist: Thank you for sharing. How would you like to proceed?"
+    ],
+    [
+      "Client: I... I think I'm starting to see a future where I'm not controlled by this trauma. It's still scary, and I know there's a long way to go, but for the first time in years, I feel... hopeful. Like maybe I can get through this and come out stronger on the other side.",
+      "Therapist: Thank you for sharing. How would you like to proceed?",
+      "Client: I'd like to keep going with these sessions. They're tough, but I can feel them making a difference. And maybe we could work on some strategies for managing my anxiety between sessions? I want to be proactive in my recovery."
+    ],
+    [
+      "Therapist: Thank you for sharing. How would you like to proceed?",
+      "Client: I'd like to keep going with these sessions. They're tough, but I can feel them making a difference. And maybe we could work on some strategies for managing my anxiety between sessions? I want to be proactive in my recovery.",
+      "Therapist: That sounds like a good plan. Shall we schedule our next session?"
+    ],
+    [
+      "Client: I'd like to keep going with these sessions. They're tough, but I can feel them making a difference. And maybe we could work on some strategies for managing my anxiety between sessions? I want to be proactive in my recovery.",
+      "Therapist: That sounds like a good plan. Shall we schedule our next session?",
+      "Client: Yes, please. And... thank you. For listening, for guiding me through this. I know it's your job, but... it means a lot to have someone who understands and doesn't judge. I'm starting to believe that maybe, just maybe, I can get through this."
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, John. How are you feeling today?",
+    "Client: Morning, Dr. Thompson. I'm... I'm not great, to be honest. The nightmares were pretty bad last night. I keep seeing faces from the cult, and it's... it's exhausting.",
+    "Therapist: I'm sorry to hear that. We'll address those nightmares today. Are you ready to try imaginal exposure?",
+    "Client: I... I guess so. But I'm nervous. What exactly will we be doing?",
+    "Therapist: We'll revisit your traumatic memories in a safe environment. It may be challenging, but it's crucial for healing.",
+    "Client: Challenging? That's an understatement. I've spent years trying to forget those memories. The thought of deliberately bringing them up is... terrifying.",
+    "Therapist: Your fear is valid. How do you think this might help?",
+    "Client: I... I'm not sure. Maybe it'll help me process what happened? But what if it makes everything worse?",
+    "Therapist: It's natural to worry. This technique has helped many people. We'll go at your pace and I'll be here to support you.",
+    "Client: Okay... I trust you, Dr. Thompson. But what if I can't handle it? What if I completely fall apart?",
+    "Therapist: We'll stop if it becomes too much. Your safety is my priority. What specific concerns do you have?",
+    "Client: I'm worried about the flashbacks. Sometimes, when I remember certain things, it feels like I'm right back there in the cult. The smells, the sounds, the fear... it all comes rushing back. What if I can't distinguish between the memory and reality?",
+    "Therapist: That's a common fear. We'll use grounding techniques to keep you present. What else?",
+    "Client: I... I'm also worried about what might come up. There are parts of my experience that I've never talked about, things I've buried deep. What if uncovering those memories changes who I am?",
+    "Therapist: Change can be scary, but it's often necessary for growth. How do you hope this might help you?",
+    "Client: I guess... I hope it might help me feel more in control. Maybe if I can face these memories head-on, they'll lose some of their power over me. And maybe... maybe I can finally start to move on with my life. It's been 20 years, but sometimes it feels like I'm still trapped in that compound.",
+    "Therapist: That's a powerful goal. Shall we begin?",
+    "Client: I... yes. I'm scared, but I'm ready. Let's do this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, John. How are you feeling today?",
+      "Client: Morning, Dr. Thompson. I'm... I'm not great, to be honest. The nightmares were pretty bad last night. I keep seeing faces from the cult, and it's... it's exhausting.",
+      "Therapist: I'm sorry to hear that. We'll address those nightmares today. Are you ready to try imaginal exposure?"
+    ],
+    [
+      "Client: Morning, Dr. Thompson. I'm... I'm not great, to be honest. The nightmares were pretty bad last night. I keep seeing faces from the cult, and it's... it's exhausting.",
+      "Therapist: I'm sorry to hear that. We'll address those nightmares today. Are you ready to try imaginal exposure?",
+      "Client: I... I guess so. But I'm nervous. What exactly will we be doing?"
+    ],
+    [
+      "Therapist: I'm sorry to hear that. We'll address those nightmares today. Are you ready to try imaginal exposure?",
+      "Client: I... I guess so. But I'm nervous. What exactly will we be doing?",
+      "Therapist: We'll revisit your traumatic memories in a safe environment. It may be challenging, but it's crucial for healing."
+    ],
+    [
+      "Client: I... I guess so. But I'm nervous. What exactly will we be doing?",
+      "Therapist: We'll revisit your traumatic memories in a safe environment. It may be challenging, but it's crucial for healing.",
+      "Client: Challenging? That's an understatement. I've spent years trying to forget those memories. The thought of deliberately bringing them up is... terrifying."
+    ],
+    [
+      "Therapist: We'll revisit your traumatic memories in a safe environment. It may be challenging, but it's crucial for healing.",
+      "Client: Challenging? That's an understatement. I've spent years trying to forget those memories. The thought of deliberately bringing them up is... terrifying.",
+      "Therapist: Your fear is valid. How do you think this might help?"
+    ],
+    [
+      "Client: Challenging? That's an understatement. I've spent years trying to forget those memories. The thought of deliberately bringing them up is... terrifying.",
+      "Therapist: Your fear is valid. How do you think this might help?",
+      "Client: I... I'm not sure. Maybe it'll help me process what happened? But what if it makes everything worse?"
+    ],
+    [
+      "Therapist: Your fear is valid. How do you think this might help?",
+      "Client: I... I'm not sure. Maybe it'll help me process what happened? But what if it makes everything worse?",
+      "Therapist: It's natural to worry. This technique has helped many people. We'll go at your pace and I'll be here to support you."
+    ],
+    [
+      "Client: I... I'm not sure. Maybe it'll help me process what happened? But what if it makes everything worse?",
+      "Therapist: It's natural to worry. This technique has helped many people. We'll go at your pace and I'll be here to support you.",
+      "Client: Okay... I trust you, Dr. Thompson. But what if I can't handle it? What if I completely fall apart?"
+    ],
+    [
+      "Therapist: It's natural to worry. This technique has helped many people. We'll go at your pace and I'll be here to support you.",
+      "Client: Okay... I trust you, Dr. Thompson. But what if I can't handle it? What if I completely fall apart?",
+      "Therapist: We'll stop if it becomes too much. Your safety is my priority. What specific concerns do you have?"
+    ],
+    [
+      "Client: Okay... I trust you, Dr. Thompson. But what if I can't handle it? What if I completely fall apart?",
+      "Therapist: We'll stop if it becomes too much. Your safety is my priority. What specific concerns do you have?",
+      "Client: I'm worried about the flashbacks. Sometimes, when I remember certain things, it feels like I'm right back there in the cult. The smells, the sounds, the fear... it all comes rushing back. What if I can't distinguish between the memory and reality?"
+    ],
+    [
+      "Therapist: We'll stop if it becomes too much. Your safety is my priority. What specific concerns do you have?",
+      "Client: I'm worried about the flashbacks. Sometimes, when I remember certain things, it feels like I'm right back there in the cult. The smells, the sounds, the fear... it all comes rushing back. What if I can't distinguish between the memory and reality?",
+      "Therapist: That's a common fear. We'll use grounding techniques to keep you present. What else?"
+    ],
+    [
+      "Client: I'm worried about the flashbacks. Sometimes, when I remember certain things, it feels like I'm right back there in the cult. The smells, the sounds, the fear... it all comes rushing back. What if I can't distinguish between the memory and reality?",
+      "Therapist: That's a common fear. We'll use grounding techniques to keep you present. What else?",
+      "Client: I... I'm also worried about what might come up. There are parts of my experience that I've never talked about, things I've buried deep. What if uncovering those memories changes who I am?"
+    ],
+    [
+      "Therapist: That's a common fear. We'll use grounding techniques to keep you present. What else?",
+      "Client: I... I'm also worried about what might come up. There are parts of my experience that I've never talked about, things I've buried deep. What if uncovering those memories changes who I am?",
+      "Therapist: Change can be scary, but it's often necessary for growth. How do you hope this might help you?"
+    ],
+    [
+      "Client: I... I'm also worried about what might come up. There are parts of my experience that I've never talked about, things I've buried deep. What if uncovering those memories changes who I am?",
+      "Therapist: Change can be scary, but it's often necessary for growth. How do you hope this might help you?",
+      "Client: I guess... I hope it might help me feel more in control. Maybe if I can face these memories head-on, they'll lose some of their power over me. And maybe... maybe I can finally start to move on with my life. It's been 20 years, but sometimes it feels like I'm still trapped in that compound."
+    ],
+    [
+      "Therapist: Change can be scary, but it's often necessary for growth. How do you hope this might help you?",
+      "Client: I guess... I hope it might help me feel more in control. Maybe if I can face these memories head-on, they'll lose some of their power over me. And maybe... maybe I can finally start to move on with my life. It's been 20 years, but sometimes it feels like I'm still trapped in that compound.",
+      "Therapist: That's a powerful goal. Shall we begin?"
+    ],
+    [
+      "Client: I guess... I hope it might help me feel more in control. Maybe if I can face these memories head-on, they'll lose some of their power over me. And maybe... maybe I can finally start to move on with my life. It's been 20 years, but sometimes it feels like I'm still trapped in that compound.",
+      "Therapist: That's a powerful goal. Shall we begin?",
+      "Client: I... yes. I'm scared, but I'm ready. Let's do this."
+    ]
+  ]
+}

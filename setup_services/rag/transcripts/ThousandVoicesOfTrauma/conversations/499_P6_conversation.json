@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+    "Therapist: Okay. Close your eyes and begin describing the event.",
+    "Client: Alright... I was hiking in the nearby nature reserve. It was a beautiful day, sunny and warm. I remember feeling so peaceful... Then I heard a growl. I turned and saw a large dog, unleashed, baring its teeth at me. My heart started racing...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's increased to a 6. My palms are getting sweaty as I recall the dog's aggressive stance.",
+    "Therapist: Keep going. You're doing well.",
+    "Client: The dog lunged at me suddenly. I tried to back away, but I tripped over a root. I fell hard on my back, and the dog was on top of me in seconds. Its jaws clamped down on my arm, and I screamed in pain. I could feel its teeth tearing into my skin...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's an 8. My arm is actually throbbing right now, like I can feel the bite again. My breathing is getting faster.",
+    "Therapist: That's a normal reaction. Stay with the memory.",
+    "Client: I was thrashing around, trying to push the dog off me. I could hear people shouting in the distance, but it felt like an eternity before anyone reached me. The dog kept shaking its head, making the pain worse. I remember thinking I might die there...",
+    "Therapist: And your SUDS now?",
+    "Client: It's still an 8. My heart is pounding so hard. I feel... I feel like I'm back there.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: Finally, someone pulled the dog off me. I saw blood everywhere - on my arm, on my clothes, on the ground. I was sobbing uncontrollably. A stranger was pressing something against my wound, telling me help was coming. But all I could focus on was the pain and the fear that the dog might attack again...",
+    "Therapist: How about your SUDS rating now?",
+    "Client: It's... it's gone down a bit. Maybe a 7? I'm starting to feel a little calmer, remembering that I survived it.",
+    "Therapist: Good. Continue with what happened next.",
+    "Client: The ambulance arrived. The paramedics were so kind, trying to distract me as they cleaned and bandaged my arm. I remember feeling embarrassed about crying in front of everyone. They kept asking if I had any other injuries, but I was in shock and couldn't really process what they were saying...",
+    "Therapist: And your current SUDS?",
+    "Client: It's down to a 5 now. Talking about the aftermath is easier than the attack itself.",
+    "Therapist: That's common. Keep going.",
+    "Client: At the hospital, they had to give me stitches and a tetanus shot. The doctor explained about potential nerve damage and physical therapy. I felt overwhelmed by all the information. When my friend arrived to pick me up, I just broke down crying again. I felt so vulnerable and scared...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's a 4. I'm feeling more distant from the memory now, like I'm observing it rather than reliving it.",
+    "Therapist: That's good progress. How do you feel about the exercise overall?",
+    "Client: It was intense, but... I feel like I handled it better than I expected. It's strange how the fear ebbed and flowed throughout the retelling.",
+    "Therapist: That's a normal experience. Well done for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and begin describing the event."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My heart's beating a little faster than usual.",
+      "Therapist: Okay. Close your eyes and begin describing the event.",
+      "Client: Alright... I was hiking in the nearby nature reserve. It was a beautiful day, sunny and warm. I remember feeling so peaceful... Then I heard a growl. I turned and saw a large dog, unleashed, baring its teeth at me. My heart started racing..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and begin describing the event.",
+      "Client: Alright... I was hiking in the nearby nature reserve. It was a beautiful day, sunny and warm. I remember feeling so peaceful... Then I heard a growl. I turned and saw a large dog, unleashed, baring its teeth at me. My heart started racing...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: Alright... I was hiking in the nearby nature reserve. It was a beautiful day, sunny and warm. I remember feeling so peaceful... Then I heard a growl. I turned and saw a large dog, unleashed, baring its teeth at me. My heart started racing...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's increased to a 6. My palms are getting sweaty as I recall the dog's aggressive stance."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's increased to a 6. My palms are getting sweaty as I recall the dog's aggressive stance.",
+      "Therapist: Keep going. You're doing well."
+    ],
+    [
+      "Client: It's increased to a 6. My palms are getting sweaty as I recall the dog's aggressive stance.",
+      "Therapist: Keep going. You're doing well.",
+      "Client: The dog lunged at me suddenly. I tried to back away, but I tripped over a root. I fell hard on my back, and the dog was on top of me in seconds. Its jaws clamped down on my arm, and I screamed in pain. I could feel its teeth tearing into my skin..."
+    ],
+    [
+      "Therapist: Keep going. You're doing well.",
+      "Client: The dog lunged at me suddenly. I tried to back away, but I tripped over a root. I fell hard on my back, and the dog was on top of me in seconds. Its jaws clamped down on my arm, and I screamed in pain. I could feel its teeth tearing into my skin...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: The dog lunged at me suddenly. I tried to back away, but I tripped over a root. I fell hard on my back, and the dog was on top of me in seconds. Its jaws clamped down on my arm, and I screamed in pain. I could feel its teeth tearing into my skin...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's an 8. My arm is actually throbbing right now, like I can feel the bite again. My breathing is getting faster."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's an 8. My arm is actually throbbing right now, like I can feel the bite again. My breathing is getting faster.",
+      "Therapist: That's a normal reaction. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's an 8. My arm is actually throbbing right now, like I can feel the bite again. My breathing is getting faster.",
+      "Therapist: That's a normal reaction. Stay with the memory.",
+      "Client: I was thrashing around, trying to push the dog off me. I could hear people shouting in the distance, but it felt like an eternity before anyone reached me. The dog kept shaking its head, making the pain worse. I remember thinking I might die there..."
+    ],
+    [
+      "Therapist: That's a normal reaction. Stay with the memory.",
+      "Client: I was thrashing around, trying to push the dog off me. I could hear people shouting in the distance, but it felt like an eternity before anyone reached me. The dog kept shaking its head, making the pain worse. I remember thinking I might die there...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I was thrashing around, trying to push the dog off me. I could hear people shouting in the distance, but it felt like an eternity before anyone reached me. The dog kept shaking its head, making the pain worse. I remember thinking I might die there...",
+      "Therapist: And your SUDS now?",
+      "Client: It's still an 8. My heart is pounding so hard. I feel... I feel like I'm back there."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still an 8. My heart is pounding so hard. I feel... I feel like I'm back there.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: It's still an 8. My heart is pounding so hard. I feel... I feel like I'm back there.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: Finally, someone pulled the dog off me. I saw blood everywhere - on my arm, on my clothes, on the ground. I was sobbing uncontrollably. A stranger was pressing something against my wound, telling me help was coming. But all I could focus on was the pain and the fear that the dog might attack again..."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: Finally, someone pulled the dog off me. I saw blood everywhere - on my arm, on my clothes, on the ground. I was sobbing uncontrollably. A stranger was pressing something against my wound, telling me help was coming. But all I could focus on was the pain and the fear that the dog might attack again...",
+      "Therapist: How about your SUDS rating now?"
+    ],
+    [
+      "Client: Finally, someone pulled the dog off me. I saw blood everywhere - on my arm, on my clothes, on the ground. I was sobbing uncontrollably. A stranger was pressing something against my wound, telling me help was coming. But all I could focus on was the pain and the fear that the dog might attack again...",
+      "Therapist: How about your SUDS rating now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm starting to feel a little calmer, remembering that I survived it."
+    ],
+    [
+      "Therapist: How about your SUDS rating now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm starting to feel a little calmer, remembering that I survived it.",
+      "Therapist: Good. Continue with what happened next."
+    ],
+    [
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm starting to feel a little calmer, remembering that I survived it.",
+      "Therapist: Good. Continue with what happened next.",
+      "Client: The ambulance arrived. The paramedics were so kind, trying to distract me as they cleaned and bandaged my arm. I remember feeling embarrassed about crying in front of everyone. They kept asking if I had any other injuries, but I was in shock and couldn't really process what they were saying..."
+    ],
+    [
+      "Therapist: Good. Continue with what happened next.",
+      "Client: The ambulance arrived. The paramedics were so kind, trying to distract me as they cleaned and bandaged my arm. I remember feeling embarrassed about crying in front of everyone. They kept asking if I had any other injuries, but I was in shock and couldn't really process what they were saying...",
+      "Therapist: And your current SUDS?"
+    ],
+    [
+      "Client: The ambulance arrived. The paramedics were so kind, trying to distract me as they cleaned and bandaged my arm. I remember feeling embarrassed about crying in front of everyone. They kept asking if I had any other injuries, but I was in shock and couldn't really process what they were saying...",
+      "Therapist: And your current SUDS?",
+      "Client: It's down to a 5 now. Talking about the aftermath is easier than the attack itself."
+    ],
+    [
+      "Therapist: And your current SUDS?",
+      "Client: It's down to a 5 now. Talking about the aftermath is easier than the attack itself.",
+      "Therapist: That's common. Keep going."
+    ],
+    [
+      "Client: It's down to a 5 now. Talking about the aftermath is easier than the attack itself.",
+      "Therapist: That's common. Keep going.",
+      "Client: At the hospital, they had to give me stitches and a tetanus shot. The doctor explained about potential nerve damage and physical therapy. I felt overwhelmed by all the information. When my friend arrived to pick me up, I just broke down crying again. I felt so vulnerable and scared..."
+    ],
+    [
+      "Therapist: That's common. Keep going.",
+      "Client: At the hospital, they had to give me stitches and a tetanus shot. The doctor explained about potential nerve damage and physical therapy. I felt overwhelmed by all the information. When my friend arrived to pick me up, I just broke down crying again. I felt so vulnerable and scared...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: At the hospital, they had to give me stitches and a tetanus shot. The doctor explained about potential nerve damage and physical therapy. I felt overwhelmed by all the information. When my friend arrived to pick me up, I just broke down crying again. I felt so vulnerable and scared...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's a 4. I'm feeling more distant from the memory now, like I'm observing it rather than reliving it."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's a 4. I'm feeling more distant from the memory now, like I'm observing it rather than reliving it.",
+      "Therapist: That's good progress. How do you feel about the exercise overall?"
+    ],
+    [
+      "Client: It's a 4. I'm feeling more distant from the memory now, like I'm observing it rather than reliving it.",
+      "Therapist: That's good progress. How do you feel about the exercise overall?",
+      "Client: It was intense, but... I feel like I handled it better than I expected. It's strange how the fear ebbed and flowed throughout the retelling."
+    ],
+    [
+      "Therapist: That's good progress. How do you feel about the exercise overall?",
+      "Client: It was intense, but... I feel like I handled it better than I expected. It's strange how the fear ebbed and flowed throughout the retelling.",
+      "Therapist: That's a normal experience. Well done for today."
+    ]
+  ]
+}

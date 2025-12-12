@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Johnson, today we'll be doing imaginal exposure. Are you ready to begin?",
+    "Client: I'm not sure, doc. What exactly does that mean? It sounds a bit intimidating, to be honest. At my age, I've seen a lot, but this home invasion... it's really shaken me up. I'm not sure I want to revisit it.",
+    "Therapist: It's understandable to feel hesitant. Let me explain briefly.",
+    "Client: Alright, I'm listening. But I have to tell you, just thinking about it makes my heart race. I've been having trouble sleeping since it happened. Every little noise in the night... well, you know.",
+    "Therapist: That's exactly why this exercise can help. We'll face the memory together.",
+    "Client: Face it? I've been trying to forget it! How is remembering supposed to help? I'm not as young as I used to be, you know. This kind of stress isn't good for my heart.",
+    "Therapist: By confronting the memory, we can reduce its power over you.",
+    "Client: Reduce its power? Hmm... that does sound appealing. But how exactly does this work? I mean, I've lived through some tough times - growing up facing bullying and discrimination, losing my wife... but this feels different somehow.",
+    "Therapist: We'll revisit the memory gradually, at your pace. I'll guide you through it.",
+    "Client: At my pace? That's somewhat reassuring. But what if I panic? Or what if it brings up other memories? You know, I've been clean for years now, but stress like this... it makes me think about old habits.",
+    "Therapist: I'll be here to support you. We can pause anytime you need.",
+    "Client: That's good to know. I appreciate your patience with me, doc. It's not easy opening up about this stuff. But I want to get better, for my grandkids' sake if nothing else. They worry about their old granddad, you know.",
+    "Therapist: Your courage is admirable. This work will help manage your PTSD symptoms.",
+    "Client: PTSD... never thought I'd be dealing with that at my age. But I guess life throws curveballs at any time, doesn't it? Alright, I think I'm ready to give this a try. What do I need to do?",
+    "Therapist: Just relax and listen to my voice. We'll start slowly.",
+    "Client: Okay, I can do that. I trust you, doc. You've been good to me these past few weeks. It's nice having someone to talk to, especially since... well, since my wife passed. Let's do this.",
+    "Therapist: Thank you for your trust. Remember, you're safe here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Johnson, today we'll be doing imaginal exposure. Are you ready to begin?",
+      "Client: I'm not sure, doc. What exactly does that mean? It sounds a bit intimidating, to be honest. At my age, I've seen a lot, but this home invasion... it's really shaken me up. I'm not sure I want to revisit it.",
+      "Therapist: It's understandable to feel hesitant. Let me explain briefly."
+    ],
+    [
+      "Client: I'm not sure, doc. What exactly does that mean? It sounds a bit intimidating, to be honest. At my age, I've seen a lot, but this home invasion... it's really shaken me up. I'm not sure I want to revisit it.",
+      "Therapist: It's understandable to feel hesitant. Let me explain briefly.",
+      "Client: Alright, I'm listening. But I have to tell you, just thinking about it makes my heart race. I've been having trouble sleeping since it happened. Every little noise in the night... well, you know."
+    ],
+    [
+      "Therapist: It's understandable to feel hesitant. Let me explain briefly.",
+      "Client: Alright, I'm listening. But I have to tell you, just thinking about it makes my heart race. I've been having trouble sleeping since it happened. Every little noise in the night... well, you know.",
+      "Therapist: That's exactly why this exercise can help. We'll face the memory together."
+    ],
+    [
+      "Client: Alright, I'm listening. But I have to tell you, just thinking about it makes my heart race. I've been having trouble sleeping since it happened. Every little noise in the night... well, you know.",
+      "Therapist: That's exactly why this exercise can help. We'll face the memory together.",
+      "Client: Face it? I've been trying to forget it! How is remembering supposed to help? I'm not as young as I used to be, you know. This kind of stress isn't good for my heart."
+    ],
+    [
+      "Therapist: That's exactly why this exercise can help. We'll face the memory together.",
+      "Client: Face it? I've been trying to forget it! How is remembering supposed to help? I'm not as young as I used to be, you know. This kind of stress isn't good for my heart.",
+      "Therapist: By confronting the memory, we can reduce its power over you."
+    ],
+    [
+      "Client: Face it? I've been trying to forget it! How is remembering supposed to help? I'm not as young as I used to be, you know. This kind of stress isn't good for my heart.",
+      "Therapist: By confronting the memory, we can reduce its power over you.",
+      "Client: Reduce its power? Hmm... that does sound appealing. But how exactly does this work? I mean, I've lived through some tough times - growing up facing bullying and discrimination, losing my wife... but this feels different somehow."
+    ],
+    [
+      "Therapist: By confronting the memory, we can reduce its power over you.",
+      "Client: Reduce its power? Hmm... that does sound appealing. But how exactly does this work? I mean, I've lived through some tough times - growing up facing bullying and discrimination, losing my wife... but this feels different somehow.",
+      "Therapist: We'll revisit the memory gradually, at your pace. I'll guide you through it."
+    ],
+    [
+      "Client: Reduce its power? Hmm... that does sound appealing. But how exactly does this work? I mean, I've lived through some tough times - growing up facing bullying and discrimination, losing my wife... but this feels different somehow.",
+      "Therapist: We'll revisit the memory gradually, at your pace. I'll guide you through it.",
+      "Client: At my pace? That's somewhat reassuring. But what if I panic? Or what if it brings up other memories? You know, I've been clean for years now, but stress like this... it makes me think about old habits."
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually, at your pace. I'll guide you through it.",
+      "Client: At my pace? That's somewhat reassuring. But what if I panic? Or what if it brings up other memories? You know, I've been clean for years now, but stress like this... it makes me think about old habits.",
+      "Therapist: I'll be here to support you. We can pause anytime you need."
+    ],
+    [
+      "Client: At my pace? That's somewhat reassuring. But what if I panic? Or what if it brings up other memories? You know, I've been clean for years now, but stress like this... it makes me think about old habits.",
+      "Therapist: I'll be here to support you. We can pause anytime you need.",
+      "Client: That's good to know. I appreciate your patience with me, doc. It's not easy opening up about this stuff. But I want to get better, for my grandkids' sake if nothing else. They worry about their old granddad, you know."
+    ],
+    [
+      "Therapist: I'll be here to support you. We can pause anytime you need.",
+      "Client: That's good to know. I appreciate your patience with me, doc. It's not easy opening up about this stuff. But I want to get better, for my grandkids' sake if nothing else. They worry about their old granddad, you know.",
+      "Therapist: Your courage is admirable. This work will help manage your PTSD symptoms."
+    ],
+    [
+      "Client: That's good to know. I appreciate your patience with me, doc. It's not easy opening up about this stuff. But I want to get better, for my grandkids' sake if nothing else. They worry about their old granddad, you know.",
+      "Therapist: Your courage is admirable. This work will help manage your PTSD symptoms.",
+      "Client: PTSD... never thought I'd be dealing with that at my age. But I guess life throws curveballs at any time, doesn't it? Alright, I think I'm ready to give this a try. What do I need to do?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This work will help manage your PTSD symptoms.",
+      "Client: PTSD... never thought I'd be dealing with that at my age. But I guess life throws curveballs at any time, doesn't it? Alright, I think I'm ready to give this a try. What do I need to do?",
+      "Therapist: Just relax and listen to my voice. We'll start slowly."
+    ],
+    [
+      "Client: PTSD... never thought I'd be dealing with that at my age. But I guess life throws curveballs at any time, doesn't it? Alright, I think I'm ready to give this a try. What do I need to do?",
+      "Therapist: Just relax and listen to my voice. We'll start slowly.",
+      "Client: Okay, I can do that. I trust you, doc. You've been good to me these past few weeks. It's nice having someone to talk to, especially since... well, since my wife passed. Let's do this."
+    ],
+    [
+      "Therapist: Just relax and listen to my voice. We'll start slowly.",
+      "Client: Okay, I can do that. I trust you, doc. You've been good to me these past few weeks. It's nice having someone to talk to, especially since... well, since my wife passed. Let's do this.",
+      "Therapist: Thank you for your trust. Remember, you're safe here."
+    ]
+  ]
+}

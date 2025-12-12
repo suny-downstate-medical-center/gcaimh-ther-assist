@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+    "Client: I... I'm feeling a bit shaken, to be honest. Reliving that earthquake... it's not easy. My hands are still trembling a bit. It's like I can still feel the ground moving beneath me.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The sound. The deafening rumble. It's like... like the earth was angry. I remember huddling under the doorframe with my wife, holding onto each other for dear life. The walls were cracking, pictures falling... I thought, \"This is it. We're going to die.\"",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... intense. I felt the same fear, the same helplessness. But... but there was something different this time. I knew I was here, safe in this room with you. It's strange, feeling those emotions but also knowing I'm okay now.",
+    "Therapist: That's an important observation. How does this relate to your daily life?",
+    "Client: Well, I suppose... I've been avoiding anything that reminds me of earthquakes. News reports, movies with disasters... even tall buildings make me nervous. But going through this memory, it's like... maybe I can face these things bit by bit?",
+    "Therapist: That's a great insight. How might you apply this moving forward?",
+    "Client: I think... maybe I could start small. Watch a documentary about earthquakes, perhaps? Or visit a tall building with my son. Just... take it step by step. Is that... is that the right approach?",
+    "Therapist: It sounds like a thoughtful plan. How do you feel about trying that?",
+    "Client: Nervous, definitely. But also... hopeful? For the first time in a while, I feel like I might be able to regain some control. It's exhausting, always being on edge, you know?",
+    "Therapist: I can imagine. What else have you noticed about your reactions?",
+    "Client: I've realized how much this fear has affected my relationships. I've been snapping at my wife, avoiding social gatherings. It's like... the trauma has isolated me. But talking about it now, I feel... lighter? Like maybe I don't have to carry this alone.",
+    "Therapist: That's a powerful realization. How might this impact your goals?",
+    "Client: I... I want to be present for my family again. To enjoy outings without constant worry. Maybe even travel someday. It feels possible now, even if it's still scary.",
+    "Therapist: Those sound like meaningful goals. What's your next step?",
+    "Client: I think... I'll talk to my wife about what we discussed today. Share my plans to face my fears gradually. Having her support would mean a lot. And... I'll continue with these sessions. They're tough, but... I can see they're helping.",
+    "Therapist: That's excellent. How are you feeling now compared to when we started?",
+    "Client: I'm... tired, but in a good way? Like I've done something important. There's a glimmer of hope I didn't have before. It's as if... as if I can see a path forward now, even if it's still a bit foggy.",
+    "Therapist: That's great progress. Anything else you'd like to discuss?",
+    "Client: No, I think... I think that's enough for today. It's a lot to process. But thank you, truly. I didn't think I'd ever be able to talk about this without falling apart. It means a lot to have this space.",
+    "Therapist: You've done excellent work today. We'll continue next session.",
+    "Client: Thank you. I... I'm looking forward to it. And dreading it a bit too, if I'm honest. But mostly looking forward. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Singh?",
+      "Client: I... I'm feeling a bit shaken, to be honest. Reliving that earthquake... it's not easy. My hands are still trembling a bit. It's like I can still feel the ground moving beneath me.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaken, to be honest. Reliving that earthquake... it's not easy. My hands are still trembling a bit. It's like I can still feel the ground moving beneath me.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sound. The deafening rumble. It's like... like the earth was angry. I remember huddling under the doorframe with my wife, holding onto each other for dear life. The walls were cracking, pictures falling... I thought, \"This is it. We're going to die.\""
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The sound. The deafening rumble. It's like... like the earth was angry. I remember huddling under the doorframe with my wife, holding onto each other for dear life. The walls were cracking, pictures falling... I thought, \"This is it. We're going to die.\"",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The sound. The deafening rumble. It's like... like the earth was angry. I remember huddling under the doorframe with my wife, holding onto each other for dear life. The walls were cracking, pictures falling... I thought, \"This is it. We're going to die.\"",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. I felt the same fear, the same helplessness. But... but there was something different this time. I knew I was here, safe in this room with you. It's strange, feeling those emotions but also knowing I'm okay now."
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. I felt the same fear, the same helplessness. But... but there was something different this time. I knew I was here, safe in this room with you. It's strange, feeling those emotions but also knowing I'm okay now.",
+      "Therapist: That's an important observation. How does this relate to your daily life?"
+    ],
+    [
+      "Client: It was... intense. I felt the same fear, the same helplessness. But... but there was something different this time. I knew I was here, safe in this room with you. It's strange, feeling those emotions but also knowing I'm okay now.",
+      "Therapist: That's an important observation. How does this relate to your daily life?",
+      "Client: Well, I suppose... I've been avoiding anything that reminds me of earthquakes. News reports, movies with disasters... even tall buildings make me nervous. But going through this memory, it's like... maybe I can face these things bit by bit?"
+    ],
+    [
+      "Therapist: That's an important observation. How does this relate to your daily life?",
+      "Client: Well, I suppose... I've been avoiding anything that reminds me of earthquakes. News reports, movies with disasters... even tall buildings make me nervous. But going through this memory, it's like... maybe I can face these things bit by bit?",
+      "Therapist: That's a great insight. How might you apply this moving forward?"
+    ],
+    [
+      "Client: Well, I suppose... I've been avoiding anything that reminds me of earthquakes. News reports, movies with disasters... even tall buildings make me nervous. But going through this memory, it's like... maybe I can face these things bit by bit?",
+      "Therapist: That's a great insight. How might you apply this moving forward?",
+      "Client: I think... maybe I could start small. Watch a documentary about earthquakes, perhaps? Or visit a tall building with my son. Just... take it step by step. Is that... is that the right approach?"
+    ],
+    [
+      "Therapist: That's a great insight. How might you apply this moving forward?",
+      "Client: I think... maybe I could start small. Watch a documentary about earthquakes, perhaps? Or visit a tall building with my son. Just... take it step by step. Is that... is that the right approach?",
+      "Therapist: It sounds like a thoughtful plan. How do you feel about trying that?"
+    ],
+    [
+      "Client: I think... maybe I could start small. Watch a documentary about earthquakes, perhaps? Or visit a tall building with my son. Just... take it step by step. Is that... is that the right approach?",
+      "Therapist: It sounds like a thoughtful plan. How do you feel about trying that?",
+      "Client: Nervous, definitely. But also... hopeful? For the first time in a while, I feel like I might be able to regain some control. It's exhausting, always being on edge, you know?"
+    ],
+    [
+      "Therapist: It sounds like a thoughtful plan. How do you feel about trying that?",
+      "Client: Nervous, definitely. But also... hopeful? For the first time in a while, I feel like I might be able to regain some control. It's exhausting, always being on edge, you know?",
+      "Therapist: I can imagine. What else have you noticed about your reactions?"
+    ],
+    [
+      "Client: Nervous, definitely. But also... hopeful? For the first time in a while, I feel like I might be able to regain some control. It's exhausting, always being on edge, you know?",
+      "Therapist: I can imagine. What else have you noticed about your reactions?",
+      "Client: I've realized how much this fear has affected my relationships. I've been snapping at my wife, avoiding social gatherings. It's like... the trauma has isolated me. But talking about it now, I feel... lighter? Like maybe I don't have to carry this alone."
+    ],
+    [
+      "Therapist: I can imagine. What else have you noticed about your reactions?",
+      "Client: I've realized how much this fear has affected my relationships. I've been snapping at my wife, avoiding social gatherings. It's like... the trauma has isolated me. But talking about it now, I feel... lighter? Like maybe I don't have to carry this alone.",
+      "Therapist: That's a powerful realization. How might this impact your goals?"
+    ],
+    [
+      "Client: I've realized how much this fear has affected my relationships. I've been snapping at my wife, avoiding social gatherings. It's like... the trauma has isolated me. But talking about it now, I feel... lighter? Like maybe I don't have to carry this alone.",
+      "Therapist: That's a powerful realization. How might this impact your goals?",
+      "Client: I... I want to be present for my family again. To enjoy outings without constant worry. Maybe even travel someday. It feels possible now, even if it's still scary."
+    ],
+    [
+      "Therapist: That's a powerful realization. How might this impact your goals?",
+      "Client: I... I want to be present for my family again. To enjoy outings without constant worry. Maybe even travel someday. It feels possible now, even if it's still scary.",
+      "Therapist: Those sound like meaningful goals. What's your next step?"
+    ],
+    [
+      "Client: I... I want to be present for my family again. To enjoy outings without constant worry. Maybe even travel someday. It feels possible now, even if it's still scary.",
+      "Therapist: Those sound like meaningful goals. What's your next step?",
+      "Client: I think... I'll talk to my wife about what we discussed today. Share my plans to face my fears gradually. Having her support would mean a lot. And... I'll continue with these sessions. They're tough, but... I can see they're helping."
+    ],
+    [
+      "Therapist: Those sound like meaningful goals. What's your next step?",
+      "Client: I think... I'll talk to my wife about what we discussed today. Share my plans to face my fears gradually. Having her support would mean a lot. And... I'll continue with these sessions. They're tough, but... I can see they're helping.",
+      "Therapist: That's excellent. How are you feeling now compared to when we started?"
+    ],
+    [
+      "Client: I think... I'll talk to my wife about what we discussed today. Share my plans to face my fears gradually. Having her support would mean a lot. And... I'll continue with these sessions. They're tough, but... I can see they're helping.",
+      "Therapist: That's excellent. How are you feeling now compared to when we started?",
+      "Client: I'm... tired, but in a good way? Like I've done something important. There's a glimmer of hope I didn't have before. It's as if... as if I can see a path forward now, even if it's still a bit foggy."
+    ],
+    [
+      "Therapist: That's excellent. How are you feeling now compared to when we started?",
+      "Client: I'm... tired, but in a good way? Like I've done something important. There's a glimmer of hope I didn't have before. It's as if... as if I can see a path forward now, even if it's still a bit foggy.",
+      "Therapist: That's great progress. Anything else you'd like to discuss?"
+    ],
+    [
+      "Client: I'm... tired, but in a good way? Like I've done something important. There's a glimmer of hope I didn't have before. It's as if... as if I can see a path forward now, even if it's still a bit foggy.",
+      "Therapist: That's great progress. Anything else you'd like to discuss?",
+      "Client: No, I think... I think that's enough for today. It's a lot to process. But thank you, truly. I didn't think I'd ever be able to talk about this without falling apart. It means a lot to have this space."
+    ],
+    [
+      "Therapist: That's great progress. Anything else you'd like to discuss?",
+      "Client: No, I think... I think that's enough for today. It's a lot to process. But thank you, truly. I didn't think I'd ever be able to talk about this without falling apart. It means a lot to have this space.",
+      "Therapist: You've done excellent work today. We'll continue next session."
+    ],
+    [
+      "Client: No, I think... I think that's enough for today. It's a lot to process. But thank you, truly. I didn't think I'd ever be able to talk about this without falling apart. It means a lot to have this space.",
+      "Therapist: You've done excellent work today. We'll continue next session.",
+      "Client: Thank you. I... I'm looking forward to it. And dreading it a bit too, if I'm honest. But mostly looking forward. See you next week."
+    ]
+  ]
+}

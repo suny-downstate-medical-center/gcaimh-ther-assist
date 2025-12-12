@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+    "Client: I... I'm not sure. It's a lot to process, you know? Reliving that moment in the hospital... it's like I was right back there. I could almost smell the antiseptic and hear the beeping machines. It's overwhelming.",
+    "Therapist: That sounds intense. What stood out most?",
+    "Client: The feeling of helplessness, I think. Being strapped to that bed, unable to move or speak... God, it was terrifying. And the worst part was, I could hear the doctors and nurses talking about me like I wasn't even there. Like I was just another case, not a person.",
+    "Therapist: How did that make you feel?",
+    "Client: Angry. Scared. And... ashamed, I guess. I felt so vulnerable and exposed. And there was this underlying fear that they might treat me differently because of my ethnicity. I know it's not rational, but I couldn't shake the feeling.",
+    "Therapist: Those are valid feelings. How does this connect to your everyday life?",
+    "Client: I... I've been avoiding hospitals ever since. Even routine check-ups. And I've noticed I'm more defensive in professional settings, always on guard for any hint of discrimination. It's exhausting.",
+    "Therapist: That sounds challenging. What did you learn from today's session?",
+    "Client: I realized how much that experience still affects me. But also... I made it through the imaginal without panicking. That's progress, right?",
+    "Therapist: Absolutely. How do you feel about continuing?",
+    "Client: It's tough, but... I think it's helping. I want to keep going. I'm tired of letting this control my life, you know? I want to be able to take care of my health without this constant fear. And maybe... maybe I can start trusting people a bit more, not always assuming the worst.",
+    "Therapist: That's a great insight. What's one small step you can take?",
+    "Client: I've been putting off a dental appointment. Maybe I could... schedule that this week? It's not a hospital, but it's a start.",
+    "Therapist: Excellent idea. How else can you support yourself?",
+    "Client: I could... talk to my parents about this? They've noticed I've been avoiding medical stuff, but I've never really explained why. Maybe opening up to them would help.",
+    "Therapist: That sounds very brave. How do you feel now?",
+    "Client: Drained, but... kind of hopeful? Like maybe I'm not stuck feeling this way forever. It's a weird mix of exhaustion and... I don't know, possibility?",
+    "Therapist: That's common. Any final thoughts?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally facing this head-on instead of running from it. And that feels... good. Scary, but good.",
+    "Therapist: You're doing great work. See you next week?",
+    "Client: Yeah, definitely. I'll be here. Thanks again, Doc."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+      "Client: I... I'm not sure. It's a lot to process, you know? Reliving that moment in the hospital... it's like I was right back there. I could almost smell the antiseptic and hear the beeping machines. It's overwhelming.",
+      "Therapist: That sounds intense. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process, you know? Reliving that moment in the hospital... it's like I was right back there. I could almost smell the antiseptic and hear the beeping machines. It's overwhelming.",
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The feeling of helplessness, I think. Being strapped to that bed, unable to move or speak... God, it was terrifying. And the worst part was, I could hear the doctors and nurses talking about me like I wasn't even there. Like I was just another case, not a person."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out most?",
+      "Client: The feeling of helplessness, I think. Being strapped to that bed, unable to move or speak... God, it was terrifying. And the worst part was, I could hear the doctors and nurses talking about me like I wasn't even there. Like I was just another case, not a person.",
+      "Therapist: How did that make you feel?"
+    ],
+    [
+      "Client: The feeling of helplessness, I think. Being strapped to that bed, unable to move or speak... God, it was terrifying. And the worst part was, I could hear the doctors and nurses talking about me like I wasn't even there. Like I was just another case, not a person.",
+      "Therapist: How did that make you feel?",
+      "Client: Angry. Scared. And... ashamed, I guess. I felt so vulnerable and exposed. And there was this underlying fear that they might treat me differently because of my ethnicity. I know it's not rational, but I couldn't shake the feeling."
+    ],
+    [
+      "Therapist: How did that make you feel?",
+      "Client: Angry. Scared. And... ashamed, I guess. I felt so vulnerable and exposed. And there was this underlying fear that they might treat me differently because of my ethnicity. I know it's not rational, but I couldn't shake the feeling.",
+      "Therapist: Those are valid feelings. How does this connect to your everyday life?"
+    ],
+    [
+      "Client: Angry. Scared. And... ashamed, I guess. I felt so vulnerable and exposed. And there was this underlying fear that they might treat me differently because of my ethnicity. I know it's not rational, but I couldn't shake the feeling.",
+      "Therapist: Those are valid feelings. How does this connect to your everyday life?",
+      "Client: I... I've been avoiding hospitals ever since. Even routine check-ups. And I've noticed I'm more defensive in professional settings, always on guard for any hint of discrimination. It's exhausting."
+    ],
+    [
+      "Therapist: Those are valid feelings. How does this connect to your everyday life?",
+      "Client: I... I've been avoiding hospitals ever since. Even routine check-ups. And I've noticed I'm more defensive in professional settings, always on guard for any hint of discrimination. It's exhausting.",
+      "Therapist: That sounds challenging. What did you learn from today's session?"
+    ],
+    [
+      "Client: I... I've been avoiding hospitals ever since. Even routine check-ups. And I've noticed I'm more defensive in professional settings, always on guard for any hint of discrimination. It's exhausting.",
+      "Therapist: That sounds challenging. What did you learn from today's session?",
+      "Client: I realized how much that experience still affects me. But also... I made it through the imaginal without panicking. That's progress, right?"
+    ],
+    [
+      "Therapist: That sounds challenging. What did you learn from today's session?",
+      "Client: I realized how much that experience still affects me. But also... I made it through the imaginal without panicking. That's progress, right?",
+      "Therapist: Absolutely. How do you feel about continuing?"
+    ],
+    [
+      "Client: I realized how much that experience still affects me. But also... I made it through the imaginal without panicking. That's progress, right?",
+      "Therapist: Absolutely. How do you feel about continuing?",
+      "Client: It's tough, but... I think it's helping. I want to keep going. I'm tired of letting this control my life, you know? I want to be able to take care of my health without this constant fear. And maybe... maybe I can start trusting people a bit more, not always assuming the worst."
+    ],
+    [
+      "Therapist: Absolutely. How do you feel about continuing?",
+      "Client: It's tough, but... I think it's helping. I want to keep going. I'm tired of letting this control my life, you know? I want to be able to take care of my health without this constant fear. And maybe... maybe I can start trusting people a bit more, not always assuming the worst.",
+      "Therapist: That's a great insight. What's one small step you can take?"
+    ],
+    [
+      "Client: It's tough, but... I think it's helping. I want to keep going. I'm tired of letting this control my life, you know? I want to be able to take care of my health without this constant fear. And maybe... maybe I can start trusting people a bit more, not always assuming the worst.",
+      "Therapist: That's a great insight. What's one small step you can take?",
+      "Client: I've been putting off a dental appointment. Maybe I could... schedule that this week? It's not a hospital, but it's a start."
+    ],
+    [
+      "Therapist: That's a great insight. What's one small step you can take?",
+      "Client: I've been putting off a dental appointment. Maybe I could... schedule that this week? It's not a hospital, but it's a start.",
+      "Therapist: Excellent idea. How else can you support yourself?"
+    ],
+    [
+      "Client: I've been putting off a dental appointment. Maybe I could... schedule that this week? It's not a hospital, but it's a start.",
+      "Therapist: Excellent idea. How else can you support yourself?",
+      "Client: I could... talk to my parents about this? They've noticed I've been avoiding medical stuff, but I've never really explained why. Maybe opening up to them would help."
+    ],
+    [
+      "Therapist: Excellent idea. How else can you support yourself?",
+      "Client: I could... talk to my parents about this? They've noticed I've been avoiding medical stuff, but I've never really explained why. Maybe opening up to them would help.",
+      "Therapist: That sounds very brave. How do you feel now?"
+    ],
+    [
+      "Client: I could... talk to my parents about this? They've noticed I've been avoiding medical stuff, but I've never really explained why. Maybe opening up to them would help.",
+      "Therapist: That sounds very brave. How do you feel now?",
+      "Client: Drained, but... kind of hopeful? Like maybe I'm not stuck feeling this way forever. It's a weird mix of exhaustion and... I don't know, possibility?"
+    ],
+    [
+      "Therapist: That sounds very brave. How do you feel now?",
+      "Client: Drained, but... kind of hopeful? Like maybe I'm not stuck feeling this way forever. It's a weird mix of exhaustion and... I don't know, possibility?",
+      "Therapist: That's common. Any final thoughts?"
+    ],
+    [
+      "Client: Drained, but... kind of hopeful? Like maybe I'm not stuck feeling this way forever. It's a weird mix of exhaustion and... I don't know, possibility?",
+      "Therapist: That's common. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally facing this head-on instead of running from it. And that feels... good. Scary, but good."
+    ],
+    [
+      "Therapist: That's common. Any final thoughts?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally facing this head-on instead of running from it. And that feels... good. Scary, but good.",
+      "Therapist: You're doing great work. See you next week?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. It's not easy, but I feel like I'm finally facing this head-on instead of running from it. And that feels... good. Scary, but good.",
+      "Therapist: You're doing great work. See you next week?",
+      "Client: Yeah, definitely. I'll be here. Thanks again, Doc."
+    ]
+  ]
+}

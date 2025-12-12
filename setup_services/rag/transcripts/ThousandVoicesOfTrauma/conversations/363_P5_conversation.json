@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Rodriguez. How are you feeling today?",
+    "Client: Honestly, I'm feeling a bit anxious. I know we're supposed to start something new today, and I'm not sure what to expect. My depression has been weighing on me lately, especially with my husband away on a business trip. Being alone in the house brings back memories of... well, you know.",
+    "Therapist: I understand. Today, we'll begin imaginal exposure. Are you ready to learn more?",
+    "Client: I suppose so. But what exactly is imaginal exposure? It sounds a bit intimidating.",
+    "Therapist: It's a technique to process traumatic memories. We'll go through it step-by-step. How does that sound?",
+    "Client: Well, I'm willing to try, but I'm worried about reliving that awful experience in the hospital. It was such a helpless feeling, almost like being imprisoned. I'm not sure I can handle those emotions again.",
+    "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+    "Client: That's reassuring. I appreciate your patience with me. It's just... ever since that medical error and the complications that followed, I've felt so vulnerable. It's affected every aspect of my life - my work, my relationships. I used to be so confident in my professional life, but now I second-guess everything. And being Latin American, there's this cultural expectation to be strong, you know? It's hard to admit when you're struggling.",
+    "Therapist: Your strength is evident in facing this. What questions do you have about the process?",
+    "Client: Well, how detailed do I need to be? And what if I get overwhelmed? I'm worried I might have a panic attack or something.",
+    "Therapist: We'll start gradually. If you're overwhelmed, we'll pause. Your safety is priority.",
+    "Client: Okay, that makes me feel a bit better. I guess I'm just scared of losing control. Ever since that hospital stay, I've felt like I have no control over my body or my life. It's frustrating because I'm usually so put-together in my professional life. This whole experience has really shaken my confidence.",
+    "Therapist: It's normal to feel that way. This exercise aims to help regain that control.",
+    "Client: I see. So, how exactly will this help with my PTSD symptoms? I mean, I've been trying to avoid thinking about the trauma, and now you're asking me to focus on it. It seems counterintuitive.",
+    "Therapist: By facing the memory, we can process it and reduce its power over you.",
+    "Client: That makes sense, I suppose. It's just scary to think about deliberately bringing up those memories. But I trust you, and if you think this will help, I'm willing to give it a try. I'm tired of feeling this way, of letting this experience control my life. I want to get back to being the strong, confident woman I used to be.",
+    "Therapist: Your willingness shows incredible courage. Shall we begin?",
+    "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle. And thank you, truly, for guiding me through this. It means a lot to have someone who understands and doesn't judge me for these feelings.",
+    "Therapist: Of course. Your resilience is admirable. Let's start slowly..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Rodriguez. How are you feeling today?",
+      "Client: Honestly, I'm feeling a bit anxious. I know we're supposed to start something new today, and I'm not sure what to expect. My depression has been weighing on me lately, especially with my husband away on a business trip. Being alone in the house brings back memories of... well, you know.",
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you ready to learn more?"
+    ],
+    [
+      "Client: Honestly, I'm feeling a bit anxious. I know we're supposed to start something new today, and I'm not sure what to expect. My depression has been weighing on me lately, especially with my husband away on a business trip. Being alone in the house brings back memories of... well, you know.",
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you ready to learn more?",
+      "Client: I suppose so. But what exactly is imaginal exposure? It sounds a bit intimidating."
+    ],
+    [
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you ready to learn more?",
+      "Client: I suppose so. But what exactly is imaginal exposure? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process traumatic memories. We'll go through it step-by-step. How does that sound?"
+    ],
+    [
+      "Client: I suppose so. But what exactly is imaginal exposure? It sounds a bit intimidating.",
+      "Therapist: It's a technique to process traumatic memories. We'll go through it step-by-step. How does that sound?",
+      "Client: Well, I'm willing to try, but I'm worried about reliving that awful experience in the hospital. It was such a helpless feeling, almost like being imprisoned. I'm not sure I can handle those emotions again."
+    ],
+    [
+      "Therapist: It's a technique to process traumatic memories. We'll go through it step-by-step. How does that sound?",
+      "Client: Well, I'm willing to try, but I'm worried about reliving that awful experience in the hospital. It was such a helpless feeling, almost like being imprisoned. I'm not sure I can handle those emotions again.",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout."
+    ],
+    [
+      "Client: Well, I'm willing to try, but I'm worried about reliving that awful experience in the hospital. It was such a helpless feeling, almost like being imprisoned. I'm not sure I can handle those emotions again.",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: That's reassuring. I appreciate your patience with me. It's just... ever since that medical error and the complications that followed, I've felt so vulnerable. It's affected every aspect of my life - my work, my relationships. I used to be so confident in my professional life, but now I second-guess everything. And being Latin American, there's this cultural expectation to be strong, you know? It's hard to admit when you're struggling."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: That's reassuring. I appreciate your patience with me. It's just... ever since that medical error and the complications that followed, I've felt so vulnerable. It's affected every aspect of my life - my work, my relationships. I used to be so confident in my professional life, but now I second-guess everything. And being Latin American, there's this cultural expectation to be strong, you know? It's hard to admit when you're struggling.",
+      "Therapist: Your strength is evident in facing this. What questions do you have about the process?"
+    ],
+    [
+      "Client: That's reassuring. I appreciate your patience with me. It's just... ever since that medical error and the complications that followed, I've felt so vulnerable. It's affected every aspect of my life - my work, my relationships. I used to be so confident in my professional life, but now I second-guess everything. And being Latin American, there's this cultural expectation to be strong, you know? It's hard to admit when you're struggling.",
+      "Therapist: Your strength is evident in facing this. What questions do you have about the process?",
+      "Client: Well, how detailed do I need to be? And what if I get overwhelmed? I'm worried I might have a panic attack or something."
+    ],
+    [
+      "Therapist: Your strength is evident in facing this. What questions do you have about the process?",
+      "Client: Well, how detailed do I need to be? And what if I get overwhelmed? I'm worried I might have a panic attack or something.",
+      "Therapist: We'll start gradually. If you're overwhelmed, we'll pause. Your safety is priority."
+    ],
+    [
+      "Client: Well, how detailed do I need to be? And what if I get overwhelmed? I'm worried I might have a panic attack or something.",
+      "Therapist: We'll start gradually. If you're overwhelmed, we'll pause. Your safety is priority.",
+      "Client: Okay, that makes me feel a bit better. I guess I'm just scared of losing control. Ever since that hospital stay, I've felt like I have no control over my body or my life. It's frustrating because I'm usually so put-together in my professional life. This whole experience has really shaken my confidence."
+    ],
+    [
+      "Therapist: We'll start gradually. If you're overwhelmed, we'll pause. Your safety is priority.",
+      "Client: Okay, that makes me feel a bit better. I guess I'm just scared of losing control. Ever since that hospital stay, I've felt like I have no control over my body or my life. It's frustrating because I'm usually so put-together in my professional life. This whole experience has really shaken my confidence.",
+      "Therapist: It's normal to feel that way. This exercise aims to help regain that control."
+    ],
+    [
+      "Client: Okay, that makes me feel a bit better. I guess I'm just scared of losing control. Ever since that hospital stay, I've felt like I have no control over my body or my life. It's frustrating because I'm usually so put-together in my professional life. This whole experience has really shaken my confidence.",
+      "Therapist: It's normal to feel that way. This exercise aims to help regain that control.",
+      "Client: I see. So, how exactly will this help with my PTSD symptoms? I mean, I've been trying to avoid thinking about the trauma, and now you're asking me to focus on it. It seems counterintuitive."
+    ],
+    [
+      "Therapist: It's normal to feel that way. This exercise aims to help regain that control.",
+      "Client: I see. So, how exactly will this help with my PTSD symptoms? I mean, I've been trying to avoid thinking about the trauma, and now you're asking me to focus on it. It seems counterintuitive.",
+      "Therapist: By facing the memory, we can process it and reduce its power over you."
+    ],
+    [
+      "Client: I see. So, how exactly will this help with my PTSD symptoms? I mean, I've been trying to avoid thinking about the trauma, and now you're asking me to focus on it. It seems counterintuitive.",
+      "Therapist: By facing the memory, we can process it and reduce its power over you.",
+      "Client: That makes sense, I suppose. It's just scary to think about deliberately bringing up those memories. But I trust you, and if you think this will help, I'm willing to give it a try. I'm tired of feeling this way, of letting this experience control my life. I want to get back to being the strong, confident woman I used to be."
+    ],
+    [
+      "Therapist: By facing the memory, we can process it and reduce its power over you.",
+      "Client: That makes sense, I suppose. It's just scary to think about deliberately bringing up those memories. But I trust you, and if you think this will help, I'm willing to give it a try. I'm tired of feeling this way, of letting this experience control my life. I want to get back to being the strong, confident woman I used to be.",
+      "Therapist: Your willingness shows incredible courage. Shall we begin?"
+    ],
+    [
+      "Client: That makes sense, I suppose. It's just scary to think about deliberately bringing up those memories. But I trust you, and if you think this will help, I'm willing to give it a try. I'm tired of feeling this way, of letting this experience control my life. I want to get back to being the strong, confident woman I used to be.",
+      "Therapist: Your willingness shows incredible courage. Shall we begin?",
+      "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle. And thank you, truly, for guiding me through this. It means a lot to have someone who understands and doesn't judge me for these feelings."
+    ],
+    [
+      "Therapist: Your willingness shows incredible courage. Shall we begin?",
+      "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle. And thank you, truly, for guiding me through this. It means a lot to have someone who understands and doesn't judge me for these feelings.",
+      "Therapist: Of course. Your resilience is admirable. Let's start slowly..."
+    ]
+  ]
+}

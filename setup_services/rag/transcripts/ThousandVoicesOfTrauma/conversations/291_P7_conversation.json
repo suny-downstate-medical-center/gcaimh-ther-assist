@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Fatima. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience with my mother's illness, and it's still hard for me to think about.",
+    "Therapist: It's okay to feel nervous. You're safe here.",
+    "Client: Thank you. I'll try my best to get through this. Where should I start?",
+    "Therapist: Begin with the day you learned about her diagnosis.",
+    "Client: Okay... It was a Tuesday afternoon. I had just finished my classes and was walking back to my shared apartment. My phone rang, and it was my father. His voice was shaky, and I immediately knew something was wrong. He told me that Mom had been feeling unwell for weeks, and they finally got the test results back. It was cancer. Stage 4 pancreatic cancer. I... I felt like the ground disappeared beneath my feet. I couldn't breathe.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I remember sinking to the ground, right there on the sidewalk. People were walking by, giving me strange looks, but I couldn't move. I couldn't process what I had just heard. My mom, who had always been so strong, so vibrant... she was dying. I started sobbing uncontrollably, clutching my phone to my chest.",
+    "Therapist: Stay with that moment. What else do you remember?",
+    "Client: I remember the coldness of the concrete seeping through my clothes. The sound of traffic seemed so distant, like I was underwater. My whole body was shaking, and I felt this overwhelming sense of helplessness. I wanted to run home, to be with her, but I was frozen in place.",
+    "Therapist: You're handling this bravely. Continue.",
+    "Client: I don't know how long I sat there, but eventually, my roommate found me. She helped me up and took me home. I couldn't speak; I just kept shaking my head in disbelief. When we got to our apartment, I locked myself in my room. I couldn't face anyone. I felt so alone, so scared. I kept thinking about all the things my mom might miss - my graduation, my wedding, her grandchildren... It was too much to bear.",
+    "Therapist: It's okay to feel overwhelmed. You're safe here.",
+    "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+    "Therapist: Take your time. We're in no rush.",
+    "Client: Thank you. It's just... reliving that day brings back all those intense emotions. I remember lying in bed that night, unable to sleep. Every time I closed my eyes, I saw my mom's face, imagining how scared she must have been. I felt guilty for being so far away, for not being there when she got the news. I kept replaying our last conversation in my head, wishing I had told her I loved her.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The next few days were a blur. I couldn't focus on my studies. I'd sit in class, but the words just washed over me. I felt like I was living in a parallel universe where everything looked normal, but nothing made sense anymore. I started having panic attacks, worrying that every little ache or pain I felt might be cancer. It was like a dark cloud had settled over my entire life.",
+    "Therapist: You're very brave for sharing this.",
+    "Client: It's hard to talk about, but I know it's important. I just... I wish I could have been stronger for her. I wish I could have done more.",
+    "Therapist: Your feelings are valid. You did your best.",
+    "Client: I suppose you're right. It's just... the guilt and the fear were so overwhelming. I felt like I was drowning in my emotions. Every phone call from home filled me with dread. I was terrified of hearing bad news, but also desperate for any information. It was exhausting, constantly living on edge like that.",
+    "Therapist: You've shown incredible resilience.",
+    "Client: Thank you. It doesn't always feel that way, though. Sometimes I still wake up in the middle of the night, reliving those first few days after the diagnosis. The shock, the fear, the helplessness... it all comes rushing back. And even though it's been a while now, there are moments when it feels just as raw as it did then.",
+    "Therapist: That's a normal response to trauma.",
+    "Client: I guess so. It's just... it changed everything, you know? My whole perspective on life shifted. Suddenly, all the things I used to worry about seemed so trivial. And at the same time, I felt guilty for continuing with my life while my mom was fighting for hers. It was like being torn in two different directions.",
+    "Therapist: You're processing this well. Keep going.",
+    "Client: I remember the first time I saw her after the diagnosis. She had already started treatment, and she looked so different. Thinner, paler, but still trying to smile for me. It broke my heart. I wanted to be strong for her, but I couldn't stop crying. She held me, and for a moment, it felt like when I was a little girl and she could make everything better. But this time, she couldn't. And that realization was devastating.",
+    "Therapist: It's okay to feel those emotions.",
+    "Client: I know, but it's still hard. I keep thinking about all the what-ifs. What if we had caught it earlier? What if she had gone to the doctor sooner? What if I had been there more? I know it's not productive, but sometimes I can't help it. The guilt and the fear just take over.",
+    "Therapist: Those thoughts are common. You're not alone.",
+    "Client: Thank you for saying that. It helps to know that these feelings are normal, even if they don't feel normal. I just... I wish I could go back and change things. To have more time with her before everything changed. To tell her all the things I never got to say. It's like there's this constant ache in my chest, a reminder of everything that's been lost.",
+    "Therapist: You're handling this admirably. How are you feeling now?",
+    "Client: I'm... I'm exhausted, to be honest. Talking about it brings everything back so vividly. But I also feel a little lighter, like sharing the burden has helped somehow. It's still painful, and I know I have a long way to go, but I'm grateful for this space to process everything. Thank you for listening and guiding me through this.",
+    "Therapist: You've done excellent work today. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Fatima. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience with my mother's illness, and it's still hard for me to think about.",
+      "Therapist: It's okay to feel nervous. You're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience with my mother's illness, and it's still hard for me to think about.",
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thank you. I'll try my best to get through this. Where should I start?"
+    ],
+    [
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thank you. I'll try my best to get through this. Where should I start?",
+      "Therapist: Begin with the day you learned about her diagnosis."
+    ],
+    [
+      "Client: Thank you. I'll try my best to get through this. Where should I start?",
+      "Therapist: Begin with the day you learned about her diagnosis.",
+      "Client: Okay... It was a Tuesday afternoon. I had just finished my classes and was walking back to my shared apartment. My phone rang, and it was my father. His voice was shaky, and I immediately knew something was wrong. He told me that Mom had been feeling unwell for weeks, and they finally got the test results back. It was cancer. Stage 4 pancreatic cancer. I... I felt like the ground disappeared beneath my feet. I couldn't breathe."
+    ],
+    [
+      "Therapist: Begin with the day you learned about her diagnosis.",
+      "Client: Okay... It was a Tuesday afternoon. I had just finished my classes and was walking back to my shared apartment. My phone rang, and it was my father. His voice was shaky, and I immediately knew something was wrong. He told me that Mom had been feeling unwell for weeks, and they finally got the test results back. It was cancer. Stage 4 pancreatic cancer. I... I felt like the ground disappeared beneath my feet. I couldn't breathe.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... It was a Tuesday afternoon. I had just finished my classes and was walking back to my shared apartment. My phone rang, and it was my father. His voice was shaky, and I immediately knew something was wrong. He told me that Mom had been feeling unwell for weeks, and they finally got the test results back. It was cancer. Stage 4 pancreatic cancer. I... I felt like the ground disappeared beneath my feet. I couldn't breathe.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I remember sinking to the ground, right there on the sidewalk. People were walking by, giving me strange looks, but I couldn't move. I couldn't process what I had just heard. My mom, who had always been so strong, so vibrant... she was dying. I started sobbing uncontrollably, clutching my phone to my chest."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I remember sinking to the ground, right there on the sidewalk. People were walking by, giving me strange looks, but I couldn't move. I couldn't process what I had just heard. My mom, who had always been so strong, so vibrant... she was dying. I started sobbing uncontrollably, clutching my phone to my chest.",
+      "Therapist: Stay with that moment. What else do you remember?"
+    ],
+    [
+      "Client: I remember sinking to the ground, right there on the sidewalk. People were walking by, giving me strange looks, but I couldn't move. I couldn't process what I had just heard. My mom, who had always been so strong, so vibrant... she was dying. I started sobbing uncontrollably, clutching my phone to my chest.",
+      "Therapist: Stay with that moment. What else do you remember?",
+      "Client: I remember the coldness of the concrete seeping through my clothes. The sound of traffic seemed so distant, like I was underwater. My whole body was shaking, and I felt this overwhelming sense of helplessness. I wanted to run home, to be with her, but I was frozen in place."
+    ],
+    [
+      "Therapist: Stay with that moment. What else do you remember?",
+      "Client: I remember the coldness of the concrete seeping through my clothes. The sound of traffic seemed so distant, like I was underwater. My whole body was shaking, and I felt this overwhelming sense of helplessness. I wanted to run home, to be with her, but I was frozen in place.",
+      "Therapist: You're handling this bravely. Continue."
+    ],
+    [
+      "Client: I remember the coldness of the concrete seeping through my clothes. The sound of traffic seemed so distant, like I was underwater. My whole body was shaking, and I felt this overwhelming sense of helplessness. I wanted to run home, to be with her, but I was frozen in place.",
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: I don't know how long I sat there, but eventually, my roommate found me. She helped me up and took me home. I couldn't speak; I just kept shaking my head in disbelief. When we got to our apartment, I locked myself in my room. I couldn't face anyone. I felt so alone, so scared. I kept thinking about all the things my mom might miss - my graduation, my wedding, her grandchildren... It was too much to bear."
+    ],
+    [
+      "Therapist: You're handling this bravely. Continue.",
+      "Client: I don't know how long I sat there, but eventually, my roommate found me. She helped me up and took me home. I couldn't speak; I just kept shaking my head in disbelief. When we got to our apartment, I locked myself in my room. I couldn't face anyone. I felt so alone, so scared. I kept thinking about all the things my mom might miss - my graduation, my wedding, her grandchildren... It was too much to bear.",
+      "Therapist: It's okay to feel overwhelmed. You're safe here."
+    ],
+    [
+      "Client: I don't know how long I sat there, but eventually, my roommate found me. She helped me up and took me home. I couldn't speak; I just kept shaking my head in disbelief. When we got to our apartment, I locked myself in my room. I couldn't face anyone. I felt so alone, so scared. I kept thinking about all the things my mom might miss - my graduation, my wedding, her grandchildren... It was too much to bear.",
+      "Therapist: It's okay to feel overwhelmed. You're safe here.",
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. You're safe here.",
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+      "Therapist: Take your time. We're in no rush."
+    ],
+    [
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+      "Therapist: Take your time. We're in no rush.",
+      "Client: Thank you. It's just... reliving that day brings back all those intense emotions. I remember lying in bed that night, unable to sleep. Every time I closed my eyes, I saw my mom's face, imagining how scared she must have been. I felt guilty for being so far away, for not being there when she got the news. I kept replaying our last conversation in my head, wishing I had told her I loved her."
+    ],
+    [
+      "Therapist: Take your time. We're in no rush.",
+      "Client: Thank you. It's just... reliving that day brings back all those intense emotions. I remember lying in bed that night, unable to sleep. Every time I closed my eyes, I saw my mom's face, imagining how scared she must have been. I felt guilty for being so far away, for not being there when she got the news. I kept replaying our last conversation in my head, wishing I had told her I loved her.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Thank you. It's just... reliving that day brings back all those intense emotions. I remember lying in bed that night, unable to sleep. Every time I closed my eyes, I saw my mom's face, imagining how scared she must have been. I felt guilty for being so far away, for not being there when she got the news. I kept replaying our last conversation in my head, wishing I had told her I loved her.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The next few days were a blur. I couldn't focus on my studies. I'd sit in class, but the words just washed over me. I felt like I was living in a parallel universe where everything looked normal, but nothing made sense anymore. I started having panic attacks, worrying that every little ache or pain I felt might be cancer. It was like a dark cloud had settled over my entire life."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The next few days were a blur. I couldn't focus on my studies. I'd sit in class, but the words just washed over me. I felt like I was living in a parallel universe where everything looked normal, but nothing made sense anymore. I started having panic attacks, worrying that every little ache or pain I felt might be cancer. It was like a dark cloud had settled over my entire life.",
+      "Therapist: You're very brave for sharing this."
+    ],
+    [
+      "Client: The next few days were a blur. I couldn't focus on my studies. I'd sit in class, but the words just washed over me. I felt like I was living in a parallel universe where everything looked normal, but nothing made sense anymore. I started having panic attacks, worrying that every little ache or pain I felt might be cancer. It was like a dark cloud had settled over my entire life.",
+      "Therapist: You're very brave for sharing this.",
+      "Client: It's hard to talk about, but I know it's important. I just... I wish I could have been stronger for her. I wish I could have done more."
+    ],
+    [
+      "Therapist: You're very brave for sharing this.",
+      "Client: It's hard to talk about, but I know it's important. I just... I wish I could have been stronger for her. I wish I could have done more.",
+      "Therapist: Your feelings are valid. You did your best."
+    ],
+    [
+      "Client: It's hard to talk about, but I know it's important. I just... I wish I could have been stronger for her. I wish I could have done more.",
+      "Therapist: Your feelings are valid. You did your best.",
+      "Client: I suppose you're right. It's just... the guilt and the fear were so overwhelming. I felt like I was drowning in my emotions. Every phone call from home filled me with dread. I was terrified of hearing bad news, but also desperate for any information. It was exhausting, constantly living on edge like that."
+    ],
+    [
+      "Therapist: Your feelings are valid. You did your best.",
+      "Client: I suppose you're right. It's just... the guilt and the fear were so overwhelming. I felt like I was drowning in my emotions. Every phone call from home filled me with dread. I was terrified of hearing bad news, but also desperate for any information. It was exhausting, constantly living on edge like that.",
+      "Therapist: You've shown incredible resilience."
+    ],
+    [
+      "Client: I suppose you're right. It's just... the guilt and the fear were so overwhelming. I felt like I was drowning in my emotions. Every phone call from home filled me with dread. I was terrified of hearing bad news, but also desperate for any information. It was exhausting, constantly living on edge like that.",
+      "Therapist: You've shown incredible resilience.",
+      "Client: Thank you. It doesn't always feel that way, though. Sometimes I still wake up in the middle of the night, reliving those first few days after the diagnosis. The shock, the fear, the helplessness... it all comes rushing back. And even though it's been a while now, there are moments when it feels just as raw as it did then."
+    ],
+    [
+      "Therapist: You've shown incredible resilience.",
+      "Client: Thank you. It doesn't always feel that way, though. Sometimes I still wake up in the middle of the night, reliving those first few days after the diagnosis. The shock, the fear, the helplessness... it all comes rushing back. And even though it's been a while now, there are moments when it feels just as raw as it did then.",
+      "Therapist: That's a normal response to trauma."
+    ],
+    [
+      "Client: Thank you. It doesn't always feel that way, though. Sometimes I still wake up in the middle of the night, reliving those first few days after the diagnosis. The shock, the fear, the helplessness... it all comes rushing back. And even though it's been a while now, there are moments when it feels just as raw as it did then.",
+      "Therapist: That's a normal response to trauma.",
+      "Client: I guess so. It's just... it changed everything, you know? My whole perspective on life shifted. Suddenly, all the things I used to worry about seemed so trivial. And at the same time, I felt guilty for continuing with my life while my mom was fighting for hers. It was like being torn in two different directions."
+    ],
+    [
+      "Therapist: That's a normal response to trauma.",
+      "Client: I guess so. It's just... it changed everything, you know? My whole perspective on life shifted. Suddenly, all the things I used to worry about seemed so trivial. And at the same time, I felt guilty for continuing with my life while my mom was fighting for hers. It was like being torn in two different directions.",
+      "Therapist: You're processing this well. Keep going."
+    ],
+    [
+      "Client: I guess so. It's just... it changed everything, you know? My whole perspective on life shifted. Suddenly, all the things I used to worry about seemed so trivial. And at the same time, I felt guilty for continuing with my life while my mom was fighting for hers. It was like being torn in two different directions.",
+      "Therapist: You're processing this well. Keep going.",
+      "Client: I remember the first time I saw her after the diagnosis. She had already started treatment, and she looked so different. Thinner, paler, but still trying to smile for me. It broke my heart. I wanted to be strong for her, but I couldn't stop crying. She held me, and for a moment, it felt like when I was a little girl and she could make everything better. But this time, she couldn't. And that realization was devastating."
+    ],
+    [
+      "Therapist: You're processing this well. Keep going.",
+      "Client: I remember the first time I saw her after the diagnosis. She had already started treatment, and she looked so different. Thinner, paler, but still trying to smile for me. It broke my heart. I wanted to be strong for her, but I couldn't stop crying. She held me, and for a moment, it felt like when I was a little girl and she could make everything better. But this time, she couldn't. And that realization was devastating.",
+      "Therapist: It's okay to feel those emotions."
+    ],
+    [
+      "Client: I remember the first time I saw her after the diagnosis. She had already started treatment, and she looked so different. Thinner, paler, but still trying to smile for me. It broke my heart. I wanted to be strong for her, but I couldn't stop crying. She held me, and for a moment, it felt like when I was a little girl and she could make everything better. But this time, she couldn't. And that realization was devastating.",
+      "Therapist: It's okay to feel those emotions.",
+      "Client: I know, but it's still hard. I keep thinking about all the what-ifs. What if we had caught it earlier? What if she had gone to the doctor sooner? What if I had been there more? I know it's not productive, but sometimes I can't help it. The guilt and the fear just take over."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions.",
+      "Client: I know, but it's still hard. I keep thinking about all the what-ifs. What if we had caught it earlier? What if she had gone to the doctor sooner? What if I had been there more? I know it's not productive, but sometimes I can't help it. The guilt and the fear just take over.",
+      "Therapist: Those thoughts are common. You're not alone."
+    ],
+    [
+      "Client: I know, but it's still hard. I keep thinking about all the what-ifs. What if we had caught it earlier? What if she had gone to the doctor sooner? What if I had been there more? I know it's not productive, but sometimes I can't help it. The guilt and the fear just take over.",
+      "Therapist: Those thoughts are common. You're not alone.",
+      "Client: Thank you for saying that. It helps to know that these feelings are normal, even if they don't feel normal. I just... I wish I could go back and change things. To have more time with her before everything changed. To tell her all the things I never got to say. It's like there's this constant ache in my chest, a reminder of everything that's been lost."
+    ],
+    [
+      "Therapist: Those thoughts are common. You're not alone.",
+      "Client: Thank you for saying that. It helps to know that these feelings are normal, even if they don't feel normal. I just... I wish I could go back and change things. To have more time with her before everything changed. To tell her all the things I never got to say. It's like there's this constant ache in my chest, a reminder of everything that's been lost.",
+      "Therapist: You're handling this admirably. How are you feeling now?"
+    ],
+    [
+      "Client: Thank you for saying that. It helps to know that these feelings are normal, even if they don't feel normal. I just... I wish I could go back and change things. To have more time with her before everything changed. To tell her all the things I never got to say. It's like there's this constant ache in my chest, a reminder of everything that's been lost.",
+      "Therapist: You're handling this admirably. How are you feeling now?",
+      "Client: I'm... I'm exhausted, to be honest. Talking about it brings everything back so vividly. But I also feel a little lighter, like sharing the burden has helped somehow. It's still painful, and I know I have a long way to go, but I'm grateful for this space to process everything. Thank you for listening and guiding me through this."
+    ],
+    [
+      "Therapist: You're handling this admirably. How are you feeling now?",
+      "Client: I'm... I'm exhausted, to be honest. Talking about it brings everything back so vividly. But I also feel a little lighter, like sharing the burden has helped somehow. It's still painful, and I know I have a long way to go, but I'm grateful for this space to process everything. Thank you for listening and guiding me through this.",
+      "Therapist: You've done excellent work today. We'll continue next week."
+    ]
+  ]
+}

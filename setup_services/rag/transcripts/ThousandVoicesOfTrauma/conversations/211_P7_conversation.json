@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Rahul. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about my time in prison, and it's bringing up a lot of emotions.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. It's just... every time I think about it, I feel this tightness in my chest. It's like I'm back there again, you know?",
+    "Therapist: Take a deep breath. You're doing well.",
+    "Client: Okay... So, it was my third day in the cell. The isolation was starting to get to me. The walls felt like they were closing in, and I couldn't shake this feeling of abandonment. My family hadn't visited, hadn't even called. It was like I'd been forgotten.",
+    "Therapist: Stay with that feeling. You're safe now.",
+    "Client: I remember sitting on the cold, hard bunk, staring at the grey walls. The silence was deafening. I could hear my own heartbeat, racing faster and faster. I started to panic, thinking about all the years stretching ahead of me, alone in this tiny space.",
+    "Therapist: You're doing great, Rahul. Keep going.",
+    "Client: I... I started to cry. I couldn't help it. It was the first time I'd cried since I was a kid. I felt so weak, so vulnerable. I kept thinking about my parents, how disappointed they must be. How they probably didn't want anything to do with me anymore.",
+    "Therapist: It's okay to feel those emotions. You're very brave.",
+    "Client: The guard walked by and saw me crying. He just sneered and said, \"Toughen up, kid. This is your life now.\" It made me feel so small, so worthless. I wanted to disappear.",
+    "Therapist: You're handling this well. Remember, you're here now.",
+    "Client: I tried to sleep that night, but I couldn't. Every time I closed my eyes, I saw my parents turning their backs on me. I felt so alone, so abandoned. It was like being a child again, crying out for someone, anyone, to care.",
+    "Therapist: You're doing an amazing job. Keep going.",
+    "Client: The next morning, I couldn't eat. The food they gave us was terrible, but it wasn't just that. I felt hollow inside, like there was nothing left of me. I kept thinking about all the opportunities I'd lost, all the people I'd disappointed.",
+    "Therapist: It's natural to have those feelings. You're safe here.",
+    "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+    "Therapist: Take your time. You're doing incredibly well.",
+    "Client: Okay... So, as the days went on, the feeling of abandonment grew stronger. No visits, no calls, no letters. It was like the outside world had forgotten I existed. I started to wonder if I even existed anymore.",
+    "Therapist: You're very courageous. Keep going.",
+    "Client: I remember one night, lying awake, listening to the sounds of the prison. Someone was crying in another cell, and I felt this overwhelming sense of connection to them. We were all abandoned here, all forgotten.",
+    "Therapist: That's a powerful memory. You're handling it well.",
+    "Client: It was then that I realized how much the neglect I experienced as a child had affected me. The feeling was so familiar, so raw. It was like being that scared little boy again, waiting for someone to notice me, to care.",
+    "Therapist: You're making important connections. Well done.",
+    "Client: I... I think I need to stop here. This is bringing up a lot of emotions I wasn't prepared for.",
+    "Therapist: Of course. You've done excellent work today, Rahul.",
+    "Client: Thank you. It's hard, but I think it's helping. I just hope I can keep going.",
+    "Therapist: You're showing incredible strength. We'll continue at your pace.",
+    "Client: Thank you. I appreciate your support. It means a lot to know someone is listening and understands.",
+    "Therapist: You're welcome. We'll end here for today. Well done."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Rahul. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about my time in prison, and it's bringing up a lot of emotions.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to talk about my time in prison, and it's bringing up a lot of emotions.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, I feel this tightness in my chest. It's like I'm back there again, you know?"
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, I feel this tightness in my chest. It's like I'm back there again, you know?",
+      "Therapist: Take a deep breath. You're doing well."
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, I feel this tightness in my chest. It's like I'm back there again, you know?",
+      "Therapist: Take a deep breath. You're doing well.",
+      "Client: Okay... So, it was my third day in the cell. The isolation was starting to get to me. The walls felt like they were closing in, and I couldn't shake this feeling of abandonment. My family hadn't visited, hadn't even called. It was like I'd been forgotten."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing well.",
+      "Client: Okay... So, it was my third day in the cell. The isolation was starting to get to me. The walls felt like they were closing in, and I couldn't shake this feeling of abandonment. My family hadn't visited, hadn't even called. It was like I'd been forgotten.",
+      "Therapist: Stay with that feeling. You're safe now."
+    ],
+    [
+      "Client: Okay... So, it was my third day in the cell. The isolation was starting to get to me. The walls felt like they were closing in, and I couldn't shake this feeling of abandonment. My family hadn't visited, hadn't even called. It was like I'd been forgotten.",
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: I remember sitting on the cold, hard bunk, staring at the grey walls. The silence was deafening. I could hear my own heartbeat, racing faster and faster. I started to panic, thinking about all the years stretching ahead of me, alone in this tiny space."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe now.",
+      "Client: I remember sitting on the cold, hard bunk, staring at the grey walls. The silence was deafening. I could hear my own heartbeat, racing faster and faster. I started to panic, thinking about all the years stretching ahead of me, alone in this tiny space.",
+      "Therapist: You're doing great, Rahul. Keep going."
+    ],
+    [
+      "Client: I remember sitting on the cold, hard bunk, staring at the grey walls. The silence was deafening. I could hear my own heartbeat, racing faster and faster. I started to panic, thinking about all the years stretching ahead of me, alone in this tiny space.",
+      "Therapist: You're doing great, Rahul. Keep going.",
+      "Client: I... I started to cry. I couldn't help it. It was the first time I'd cried since I was a kid. I felt so weak, so vulnerable. I kept thinking about my parents, how disappointed they must be. How they probably didn't want anything to do with me anymore."
+    ],
+    [
+      "Therapist: You're doing great, Rahul. Keep going.",
+      "Client: I... I started to cry. I couldn't help it. It was the first time I'd cried since I was a kid. I felt so weak, so vulnerable. I kept thinking about my parents, how disappointed they must be. How they probably didn't want anything to do with me anymore.",
+      "Therapist: It's okay to feel those emotions. You're very brave."
+    ],
+    [
+      "Client: I... I started to cry. I couldn't help it. It was the first time I'd cried since I was a kid. I felt so weak, so vulnerable. I kept thinking about my parents, how disappointed they must be. How they probably didn't want anything to do with me anymore.",
+      "Therapist: It's okay to feel those emotions. You're very brave.",
+      "Client: The guard walked by and saw me crying. He just sneered and said, \"Toughen up, kid. This is your life now.\" It made me feel so small, so worthless. I wanted to disappear."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're very brave.",
+      "Client: The guard walked by and saw me crying. He just sneered and said, \"Toughen up, kid. This is your life now.\" It made me feel so small, so worthless. I wanted to disappear.",
+      "Therapist: You're handling this well. Remember, you're here now."
+    ],
+    [
+      "Client: The guard walked by and saw me crying. He just sneered and said, \"Toughen up, kid. This is your life now.\" It made me feel so small, so worthless. I wanted to disappear.",
+      "Therapist: You're handling this well. Remember, you're here now.",
+      "Client: I tried to sleep that night, but I couldn't. Every time I closed my eyes, I saw my parents turning their backs on me. I felt so alone, so abandoned. It was like being a child again, crying out for someone, anyone, to care."
+    ],
+    [
+      "Therapist: You're handling this well. Remember, you're here now.",
+      "Client: I tried to sleep that night, but I couldn't. Every time I closed my eyes, I saw my parents turning their backs on me. I felt so alone, so abandoned. It was like being a child again, crying out for someone, anyone, to care.",
+      "Therapist: You're doing an amazing job. Keep going."
+    ],
+    [
+      "Client: I tried to sleep that night, but I couldn't. Every time I closed my eyes, I saw my parents turning their backs on me. I felt so alone, so abandoned. It was like being a child again, crying out for someone, anyone, to care.",
+      "Therapist: You're doing an amazing job. Keep going.",
+      "Client: The next morning, I couldn't eat. The food they gave us was terrible, but it wasn't just that. I felt hollow inside, like there was nothing left of me. I kept thinking about all the opportunities I'd lost, all the people I'd disappointed."
+    ],
+    [
+      "Therapist: You're doing an amazing job. Keep going.",
+      "Client: The next morning, I couldn't eat. The food they gave us was terrible, but it wasn't just that. I felt hollow inside, like there was nothing left of me. I kept thinking about all the opportunities I'd lost, all the people I'd disappointed.",
+      "Therapist: It's natural to have those feelings. You're safe here."
+    ],
+    [
+      "Client: The next morning, I couldn't eat. The food they gave us was terrible, but it wasn't just that. I felt hollow inside, like there was nothing left of me. I kept thinking about all the opportunities I'd lost, all the people I'd disappointed.",
+      "Therapist: It's natural to have those feelings. You're safe here.",
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be."
+    ],
+    [
+      "Therapist: It's natural to have those feelings. You're safe here.",
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+      "Therapist: Take your time. You're doing incredibly well."
+    ],
+    [
+      "Client: I... I'm sorry, I need a moment. This is harder than I thought it would be.",
+      "Therapist: Take your time. You're doing incredibly well.",
+      "Client: Okay... So, as the days went on, the feeling of abandonment grew stronger. No visits, no calls, no letters. It was like the outside world had forgotten I existed. I started to wonder if I even existed anymore."
+    ],
+    [
+      "Therapist: Take your time. You're doing incredibly well.",
+      "Client: Okay... So, as the days went on, the feeling of abandonment grew stronger. No visits, no calls, no letters. It was like the outside world had forgotten I existed. I started to wonder if I even existed anymore.",
+      "Therapist: You're very courageous. Keep going."
+    ],
+    [
+      "Client: Okay... So, as the days went on, the feeling of abandonment grew stronger. No visits, no calls, no letters. It was like the outside world had forgotten I existed. I started to wonder if I even existed anymore.",
+      "Therapist: You're very courageous. Keep going.",
+      "Client: I remember one night, lying awake, listening to the sounds of the prison. Someone was crying in another cell, and I felt this overwhelming sense of connection to them. We were all abandoned here, all forgotten."
+    ],
+    [
+      "Therapist: You're very courageous. Keep going.",
+      "Client: I remember one night, lying awake, listening to the sounds of the prison. Someone was crying in another cell, and I felt this overwhelming sense of connection to them. We were all abandoned here, all forgotten.",
+      "Therapist: That's a powerful memory. You're handling it well."
+    ],
+    [
+      "Client: I remember one night, lying awake, listening to the sounds of the prison. Someone was crying in another cell, and I felt this overwhelming sense of connection to them. We were all abandoned here, all forgotten.",
+      "Therapist: That's a powerful memory. You're handling it well.",
+      "Client: It was then that I realized how much the neglect I experienced as a child had affected me. The feeling was so familiar, so raw. It was like being that scared little boy again, waiting for someone to notice me, to care."
+    ],
+    [
+      "Therapist: That's a powerful memory. You're handling it well.",
+      "Client: It was then that I realized how much the neglect I experienced as a child had affected me. The feeling was so familiar, so raw. It was like being that scared little boy again, waiting for someone to notice me, to care.",
+      "Therapist: You're making important connections. Well done."
+    ],
+    [
+      "Client: It was then that I realized how much the neglect I experienced as a child had affected me. The feeling was so familiar, so raw. It was like being that scared little boy again, waiting for someone to notice me, to care.",
+      "Therapist: You're making important connections. Well done.",
+      "Client: I... I think I need to stop here. This is bringing up a lot of emotions I wasn't prepared for."
+    ],
+    [
+      "Therapist: You're making important connections. Well done.",
+      "Client: I... I think I need to stop here. This is bringing up a lot of emotions I wasn't prepared for.",
+      "Therapist: Of course. You've done excellent work today, Rahul."
+    ],
+    [
+      "Client: I... I think I need to stop here. This is bringing up a lot of emotions I wasn't prepared for.",
+      "Therapist: Of course. You've done excellent work today, Rahul.",
+      "Client: Thank you. It's hard, but I think it's helping. I just hope I can keep going."
+    ],
+    [
+      "Therapist: Of course. You've done excellent work today, Rahul.",
+      "Client: Thank you. It's hard, but I think it's helping. I just hope I can keep going.",
+      "Therapist: You're showing incredible strength. We'll continue at your pace."
+    ],
+    [
+      "Client: Thank you. It's hard, but I think it's helping. I just hope I can keep going.",
+      "Therapist: You're showing incredible strength. We'll continue at your pace.",
+      "Client: Thank you. I appreciate your support. It means a lot to know someone is listening and understands."
+    ],
+    [
+      "Therapist: You're showing incredible strength. We'll continue at your pace.",
+      "Client: Thank you. I appreciate your support. It means a lot to know someone is listening and understands.",
+      "Therapist: You're welcome. We'll end here for today. Well done."
+    ]
+  ]
+}

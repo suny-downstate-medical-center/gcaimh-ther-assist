@@ -1,0 +1,74 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about my time in the war zone, and it's been affecting my sleep and mood. My husband's noticed I've been more irritable too.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+    "Client: Not really. Is it going to make me relive everything? I'm scared it might make things worse.",
+    "Therapist: It's a safe way to process your memories. Can you share your main concern?",
+    "Client: I'm worried I'll lose control or get stuck in those memories. What if I can't handle it?",
+    "Therapist: Your fear is valid. We'll go at your pace, and I'll guide you throughout.",
+    "Client: That's a relief. But still, why do we need to do this? Can't we just focus on the present and future?",
+    "Therapist: Addressing past trauma helps heal present symptoms. How do you feel about trying?",
+    "Client: I'm still nervous, but I trust you. I want to get better for myself and my family. What exactly will we be doing?",
+    "Therapist: You'll recount your experience while I support you. Ready to begin?",
+    "Client: I think so. Just... please don't let me get too overwhelmed. Sometimes when I think about what happened, especially the human trafficking we encountered, I feel like I can't breathe.",
+    "Therapist: I'll be right here. Your bravery is commendable. Shall we start?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about my time in the war zone, and it's been affecting my sleep and mood. My husband's noticed I've been more irritable too.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about my time in the war zone, and it's been affecting my sleep and mood. My husband's noticed I've been more irritable too.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it going to make me relive everything? I'm scared it might make things worse."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. Is it going to make me relive everything? I'm scared it might make things worse.",
+      "Therapist: It's a safe way to process your memories. Can you share your main concern?"
+    ],
+    [
+      "Client: Not really. Is it going to make me relive everything? I'm scared it might make things worse.",
+      "Therapist: It's a safe way to process your memories. Can you share your main concern?",
+      "Client: I'm worried I'll lose control or get stuck in those memories. What if I can't handle it?"
+    ],
+    [
+      "Therapist: It's a safe way to process your memories. Can you share your main concern?",
+      "Client: I'm worried I'll lose control or get stuck in those memories. What if I can't handle it?",
+      "Therapist: Your fear is valid. We'll go at your pace, and I'll guide you throughout."
+    ],
+    [
+      "Client: I'm worried I'll lose control or get stuck in those memories. What if I can't handle it?",
+      "Therapist: Your fear is valid. We'll go at your pace, and I'll guide you throughout.",
+      "Client: That's a relief. But still, why do we need to do this? Can't we just focus on the present and future?"
+    ],
+    [
+      "Therapist: Your fear is valid. We'll go at your pace, and I'll guide you throughout.",
+      "Client: That's a relief. But still, why do we need to do this? Can't we just focus on the present and future?",
+      "Therapist: Addressing past trauma helps heal present symptoms. How do you feel about trying?"
+    ],
+    [
+      "Client: That's a relief. But still, why do we need to do this? Can't we just focus on the present and future?",
+      "Therapist: Addressing past trauma helps heal present symptoms. How do you feel about trying?",
+      "Client: I'm still nervous, but I trust you. I want to get better for myself and my family. What exactly will we be doing?"
+    ],
+    [
+      "Therapist: Addressing past trauma helps heal present symptoms. How do you feel about trying?",
+      "Client: I'm still nervous, but I trust you. I want to get better for myself and my family. What exactly will we be doing?",
+      "Therapist: You'll recount your experience while I support you. Ready to begin?"
+    ],
+    [
+      "Client: I'm still nervous, but I trust you. I want to get better for myself and my family. What exactly will we be doing?",
+      "Therapist: You'll recount your experience while I support you. Ready to begin?",
+      "Client: I think so. Just... please don't let me get too overwhelmed. Sometimes when I think about what happened, especially the human trafficking we encountered, I feel like I can't breathe."
+    ],
+    [
+      "Therapist: You'll recount your experience while I support you. Ready to begin?",
+      "Client: I think so. Just... please don't let me get too overwhelmed. Sometimes when I think about what happened, especially the human trafficking we encountered, I feel like I can't breathe.",
+      "Therapist: I'll be right here. Your bravery is commendable. Shall we start?"
+    ]
+  ]
+}

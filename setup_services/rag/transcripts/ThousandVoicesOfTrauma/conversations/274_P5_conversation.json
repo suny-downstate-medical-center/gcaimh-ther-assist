@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Amir. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about our last session and the idea of this imaginal exposure you mentioned. It's been making me anxious.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, I've been trying to avoid thinking about the earthquake for so long. The idea of deliberately bringing those memories back... it scares me. What if I can't handle it? What if it makes things worse?",
+    "Therapist: Your concerns are valid. Let's discuss the purpose of this exercise.",
+    "Client: Okay... I'm listening, but I'm still not sure about this. It feels like we're opening Pandora's box, you know? I've worked so hard to keep these memories locked away. The thought of revisiting that day, the chaos, the screams... it's overwhelming.",
+    "Therapist: I understand. The goal is to process these memories safely.",
+    "Client: Process them? I don't even know what that means. How can reliving that horror possibly help? I mean, I was just there to help with a construction project, and suddenly everything was falling apart. People I had just met that morning were... gone. How does talking about that fix anything?",
+    "Therapist: By facing the memory, we can reduce its power over you.",
+    "Client: Reduce its power? It feels like it has all the power right now. I haven't slept well in weeks, thinking about this session. Every time I close my eyes, I see flashes of that day. The ground shaking, buildings collapsing, the dust everywhere... It's like I'm right back there.",
+    "Therapist: You're very brave for being here. How can I support you today?",
+    "Client: I don't know... maybe just... be patient with me? I might need to take breaks. And... can you promise me that if it gets too intense, we can stop? I'm worried I might have a panic attack or something.",
+    "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+    "Client: Okay, that helps a bit. I guess I'm also worried about what happens after. Will I be able to function? Go back to work? I'm self-employed, and I can't afford to fall apart.",
+    "Therapist: We'll debrief thoroughly and ensure you feel grounded before leaving.",
+    "Client: Alright. I appreciate that. It's just... this feels so different from our other sessions. Usually, we talk about coping strategies or my day-to-day anxiety. This feels like we're diving into the deep end. I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always waiting for the next disaster.",
+    "Therapist: Your courage is commendable. Shall we begin?",
+    "Client: I... I guess so. Yes, let's do this. But can you walk me through what's going to happen first? I need to know what to expect.",
+    "Therapist: Of course. We'll start with a relaxation exercise, then..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Amir. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about our last session and the idea of this imaginal exposure you mentioned. It's been making me anxious.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about our last session and the idea of this imaginal exposure you mentioned. It's been making me anxious.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I've been trying to avoid thinking about the earthquake for so long. The idea of deliberately bringing those memories back... it scares me. What if I can't handle it? What if it makes things worse?"
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, I've been trying to avoid thinking about the earthquake for so long. The idea of deliberately bringing those memories back... it scares me. What if I can't handle it? What if it makes things worse?",
+      "Therapist: Your concerns are valid. Let's discuss the purpose of this exercise."
+    ],
+    [
+      "Client: Well, I've been trying to avoid thinking about the earthquake for so long. The idea of deliberately bringing those memories back... it scares me. What if I can't handle it? What if it makes things worse?",
+      "Therapist: Your concerns are valid. Let's discuss the purpose of this exercise.",
+      "Client: Okay... I'm listening, but I'm still not sure about this. It feels like we're opening Pandora's box, you know? I've worked so hard to keep these memories locked away. The thought of revisiting that day, the chaos, the screams... it's overwhelming."
+    ],
+    [
+      "Therapist: Your concerns are valid. Let's discuss the purpose of this exercise.",
+      "Client: Okay... I'm listening, but I'm still not sure about this. It feels like we're opening Pandora's box, you know? I've worked so hard to keep these memories locked away. The thought of revisiting that day, the chaos, the screams... it's overwhelming.",
+      "Therapist: I understand. The goal is to process these memories safely."
+    ],
+    [
+      "Client: Okay... I'm listening, but I'm still not sure about this. It feels like we're opening Pandora's box, you know? I've worked so hard to keep these memories locked away. The thought of revisiting that day, the chaos, the screams... it's overwhelming.",
+      "Therapist: I understand. The goal is to process these memories safely.",
+      "Client: Process them? I don't even know what that means. How can reliving that horror possibly help? I mean, I was just there to help with a construction project, and suddenly everything was falling apart. People I had just met that morning were... gone. How does talking about that fix anything?"
+    ],
+    [
+      "Therapist: I understand. The goal is to process these memories safely.",
+      "Client: Process them? I don't even know what that means. How can reliving that horror possibly help? I mean, I was just there to help with a construction project, and suddenly everything was falling apart. People I had just met that morning were... gone. How does talking about that fix anything?",
+      "Therapist: By facing the memory, we can reduce its power over you."
+    ],
+    [
+      "Client: Process them? I don't even know what that means. How can reliving that horror possibly help? I mean, I was just there to help with a construction project, and suddenly everything was falling apart. People I had just met that morning were... gone. How does talking about that fix anything?",
+      "Therapist: By facing the memory, we can reduce its power over you.",
+      "Client: Reduce its power? It feels like it has all the power right now. I haven't slept well in weeks, thinking about this session. Every time I close my eyes, I see flashes of that day. The ground shaking, buildings collapsing, the dust everywhere... It's like I'm right back there."
+    ],
+    [
+      "Therapist: By facing the memory, we can reduce its power over you.",
+      "Client: Reduce its power? It feels like it has all the power right now. I haven't slept well in weeks, thinking about this session. Every time I close my eyes, I see flashes of that day. The ground shaking, buildings collapsing, the dust everywhere... It's like I'm right back there.",
+      "Therapist: You're very brave for being here. How can I support you today?"
+    ],
+    [
+      "Client: Reduce its power? It feels like it has all the power right now. I haven't slept well in weeks, thinking about this session. Every time I close my eyes, I see flashes of that day. The ground shaking, buildings collapsing, the dust everywhere... It's like I'm right back there.",
+      "Therapist: You're very brave for being here. How can I support you today?",
+      "Client: I don't know... maybe just... be patient with me? I might need to take breaks. And... can you promise me that if it gets too intense, we can stop? I'm worried I might have a panic attack or something."
+    ],
+    [
+      "Therapist: You're very brave for being here. How can I support you today?",
+      "Client: I don't know... maybe just... be patient with me? I might need to take breaks. And... can you promise me that if it gets too intense, we can stop? I'm worried I might have a panic attack or something.",
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime."
+    ],
+    [
+      "Client: I don't know... maybe just... be patient with me? I might need to take breaks. And... can you promise me that if it gets too intense, we can stop? I'm worried I might have a panic attack or something.",
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+      "Client: Okay, that helps a bit. I guess I'm also worried about what happens after. Will I be able to function? Go back to work? I'm self-employed, and I can't afford to fall apart."
+    ],
+    [
+      "Therapist: Absolutely. We'll go at your pace and can pause anytime.",
+      "Client: Okay, that helps a bit. I guess I'm also worried about what happens after. Will I be able to function? Go back to work? I'm self-employed, and I can't afford to fall apart.",
+      "Therapist: We'll debrief thoroughly and ensure you feel grounded before leaving."
+    ],
+    [
+      "Client: Okay, that helps a bit. I guess I'm also worried about what happens after. Will I be able to function? Go back to work? I'm self-employed, and I can't afford to fall apart.",
+      "Therapist: We'll debrief thoroughly and ensure you feel grounded before leaving.",
+      "Client: Alright. I appreciate that. It's just... this feels so different from our other sessions. Usually, we talk about coping strategies or my day-to-day anxiety. This feels like we're diving into the deep end. I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always waiting for the next disaster."
+    ],
+    [
+      "Therapist: We'll debrief thoroughly and ensure you feel grounded before leaving.",
+      "Client: Alright. I appreciate that. It's just... this feels so different from our other sessions. Usually, we talk about coping strategies or my day-to-day anxiety. This feels like we're diving into the deep end. I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always waiting for the next disaster.",
+      "Therapist: Your courage is commendable. Shall we begin?"
+    ],
+    [
+      "Client: Alright. I appreciate that. It's just... this feels so different from our other sessions. Usually, we talk about coping strategies or my day-to-day anxiety. This feels like we're diving into the deep end. I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always waiting for the next disaster.",
+      "Therapist: Your courage is commendable. Shall we begin?",
+      "Client: I... I guess so. Yes, let's do this. But can you walk me through what's going to happen first? I need to know what to expect."
+    ],
+    [
+      "Therapist: Your courage is commendable. Shall we begin?",
+      "Client: I... I guess so. Yes, let's do this. But can you walk me through what's going to happen first? I need to know what to expect.",
+      "Therapist: Of course. We'll start with a relaxation exercise, then..."
+    ]
+  ]
+}

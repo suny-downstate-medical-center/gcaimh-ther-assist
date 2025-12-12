@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, John. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thanks. I guess I'm ready to start, but I'm not sure how to begin.",
+    "Therapist: Take your time. When you're ready, describe the cyberbullying incident.",
+    "Client: Okay... It started a few months ago. Someone created a fake profile using my photos and started posting really embarrassing things. They were making fun of my appearance and spreading rumors about my sexuality. It brought back memories of the sexual abuse I experienced as a child. I felt so exposed and vulnerable, just like back then.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The comments were relentless. People I thought were my friends started sharing these posts and adding their own cruel jokes. I couldn't escape it. Every time I checked my phone, there were new notifications, new insults. I started having panic attacks, feeling like I couldn't breathe. It was like being trapped in that room again, with no way out.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: It's hard to talk about. My heart is racing just thinking about it. I started isolating myself, afraid to go out in case people recognized me from the posts. I couldn't sleep, couldn't eat. My wife tried to help, but I pushed her away. I felt so ashamed, like it was somehow my fault, just like when I was abused.",
+    "Therapist: It's okay to feel this way. You're very brave.",
+    "Client: I kept thinking about ending it all. The pain was too much. But then I remembered how I survived the abuse, how I promised myself I wouldn't let it define me. I decided to fight back. I reported the profile, told my story to a counselor at work. It was terrifying, but also liberating.",
+    "Therapist: You're showing incredible strength. Continue.",
+    "Client: Gradually, things started to improve. The fake profile was taken down. Some friends apologized for their behavior. But the fear is still there. I'm always worried it could happen again. I have nightmares where I'm a child again, being abused, but now it's broadcast online for everyone to see. I wake up in cold sweats, feeling like I can't trust anyone.",
+    "Therapist: You're handling this so well. Keep going.",
+    "Client: Sometimes I feel angry at myself for not being able to just \"get over it.\" I know it wasn't my fault, but there's still this voice in my head telling me I should have done something differently, both with the abuse and the cyberbullying. I'm trying to silence that voice, to remind myself that I'm a survivor, not a victim. But it's a daily struggle.",
+    "Therapist: You're making great progress. How do you feel now?",
+    "Client: Talking about it is hard, but I feel a bit lighter. Like I'm not carrying this burden alone anymore. I know I have a long way to go, but for the first time in a while, I feel hopeful. I want to learn how to trust again, how to feel safe in my own skin. I want to be able to enjoy my life with my wife without constantly looking over my shoulder.",
+    "Therapist: That's an excellent goal. We'll work on that together.",
+    "Client: Thank you. I appreciate your support. It means a lot to have someone listen without judgment. I know it won't be easy, but I'm committed to this process. I want to reclaim my life, to not let the abuse or the cyberbullying define who I am. I want to be strong for myself and for my wife. She's been so patient and understanding through all of this.",
+    "Therapist: Your determination is admirable. Let's end here for today.",
+    "Client: Okay. Thank you for listening. I feel drained, but also a bit relieved. Is it normal to feel this exhausted after a session?",
+    "Therapist: Yes, it's very normal. Take care of yourself today.",
+    "Client: I will. Thank you again. See you next week.",
+    "Therapist: Take care, John. You did well today. Goodbye."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, John. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I guess I'm ready to start, but I'm not sure how to begin."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thanks. I guess I'm ready to start, but I'm not sure how to begin.",
+      "Therapist: Take your time. When you're ready, describe the cyberbullying incident."
+    ],
+    [
+      "Client: Thanks. I guess I'm ready to start, but I'm not sure how to begin.",
+      "Therapist: Take your time. When you're ready, describe the cyberbullying incident.",
+      "Client: Okay... It started a few months ago. Someone created a fake profile using my photos and started posting really embarrassing things. They were making fun of my appearance and spreading rumors about my sexuality. It brought back memories of the sexual abuse I experienced as a child. I felt so exposed and vulnerable, just like back then."
+    ],
+    [
+      "Therapist: Take your time. When you're ready, describe the cyberbullying incident.",
+      "Client: Okay... It started a few months ago. Someone created a fake profile using my photos and started posting really embarrassing things. They were making fun of my appearance and spreading rumors about my sexuality. It brought back memories of the sexual abuse I experienced as a child. I felt so exposed and vulnerable, just like back then.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Okay... It started a few months ago. Someone created a fake profile using my photos and started posting really embarrassing things. They were making fun of my appearance and spreading rumors about my sexuality. It brought back memories of the sexual abuse I experienced as a child. I felt so exposed and vulnerable, just like back then.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The comments were relentless. People I thought were my friends started sharing these posts and adding their own cruel jokes. I couldn't escape it. Every time I checked my phone, there were new notifications, new insults. I started having panic attacks, feeling like I couldn't breathe. It was like being trapped in that room again, with no way out."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The comments were relentless. People I thought were my friends started sharing these posts and adding their own cruel jokes. I couldn't escape it. Every time I checked my phone, there were new notifications, new insults. I started having panic attacks, feeling like I couldn't breathe. It was like being trapped in that room again, with no way out.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: The comments were relentless. People I thought were my friends started sharing these posts and adding their own cruel jokes. I couldn't escape it. Every time I checked my phone, there were new notifications, new insults. I started having panic attacks, feeling like I couldn't breathe. It was like being trapped in that room again, with no way out.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard to talk about. My heart is racing just thinking about it. I started isolating myself, afraid to go out in case people recognized me from the posts. I couldn't sleep, couldn't eat. My wife tried to help, but I pushed her away. I felt so ashamed, like it was somehow my fault, just like when I was abused."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: It's hard to talk about. My heart is racing just thinking about it. I started isolating myself, afraid to go out in case people recognized me from the posts. I couldn't sleep, couldn't eat. My wife tried to help, but I pushed her away. I felt so ashamed, like it was somehow my fault, just like when I was abused.",
+      "Therapist: It's okay to feel this way. You're very brave."
+    ],
+    [
+      "Client: It's hard to talk about. My heart is racing just thinking about it. I started isolating myself, afraid to go out in case people recognized me from the posts. I couldn't sleep, couldn't eat. My wife tried to help, but I pushed her away. I felt so ashamed, like it was somehow my fault, just like when I was abused.",
+      "Therapist: It's okay to feel this way. You're very brave.",
+      "Client: I kept thinking about ending it all. The pain was too much. But then I remembered how I survived the abuse, how I promised myself I wouldn't let it define me. I decided to fight back. I reported the profile, told my story to a counselor at work. It was terrifying, but also liberating."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're very brave.",
+      "Client: I kept thinking about ending it all. The pain was too much. But then I remembered how I survived the abuse, how I promised myself I wouldn't let it define me. I decided to fight back. I reported the profile, told my story to a counselor at work. It was terrifying, but also liberating.",
+      "Therapist: You're showing incredible strength. Continue."
+    ],
+    [
+      "Client: I kept thinking about ending it all. The pain was too much. But then I remembered how I survived the abuse, how I promised myself I wouldn't let it define me. I decided to fight back. I reported the profile, told my story to a counselor at work. It was terrifying, but also liberating.",
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: Gradually, things started to improve. The fake profile was taken down. Some friends apologized for their behavior. But the fear is still there. I'm always worried it could happen again. I have nightmares where I'm a child again, being abused, but now it's broadcast online for everyone to see. I wake up in cold sweats, feeling like I can't trust anyone."
+    ],
+    [
+      "Therapist: You're showing incredible strength. Continue.",
+      "Client: Gradually, things started to improve. The fake profile was taken down. Some friends apologized for their behavior. But the fear is still there. I'm always worried it could happen again. I have nightmares where I'm a child again, being abused, but now it's broadcast online for everyone to see. I wake up in cold sweats, feeling like I can't trust anyone.",
+      "Therapist: You're handling this so well. Keep going."
+    ],
+    [
+      "Client: Gradually, things started to improve. The fake profile was taken down. Some friends apologized for their behavior. But the fear is still there. I'm always worried it could happen again. I have nightmares where I'm a child again, being abused, but now it's broadcast online for everyone to see. I wake up in cold sweats, feeling like I can't trust anyone.",
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: Sometimes I feel angry at myself for not being able to just \"get over it.\" I know it wasn't my fault, but there's still this voice in my head telling me I should have done something differently, both with the abuse and the cyberbullying. I'm trying to silence that voice, to remind myself that I'm a survivor, not a victim. But it's a daily struggle."
+    ],
+    [
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: Sometimes I feel angry at myself for not being able to just \"get over it.\" I know it wasn't my fault, but there's still this voice in my head telling me I should have done something differently, both with the abuse and the cyberbullying. I'm trying to silence that voice, to remind myself that I'm a survivor, not a victim. But it's a daily struggle.",
+      "Therapist: You're making great progress. How do you feel now?"
+    ],
+    [
+      "Client: Sometimes I feel angry at myself for not being able to just \"get over it.\" I know it wasn't my fault, but there's still this voice in my head telling me I should have done something differently, both with the abuse and the cyberbullying. I'm trying to silence that voice, to remind myself that I'm a survivor, not a victim. But it's a daily struggle.",
+      "Therapist: You're making great progress. How do you feel now?",
+      "Client: Talking about it is hard, but I feel a bit lighter. Like I'm not carrying this burden alone anymore. I know I have a long way to go, but for the first time in a while, I feel hopeful. I want to learn how to trust again, how to feel safe in my own skin. I want to be able to enjoy my life with my wife without constantly looking over my shoulder."
+    ],
+    [
+      "Therapist: You're making great progress. How do you feel now?",
+      "Client: Talking about it is hard, but I feel a bit lighter. Like I'm not carrying this burden alone anymore. I know I have a long way to go, but for the first time in a while, I feel hopeful. I want to learn how to trust again, how to feel safe in my own skin. I want to be able to enjoy my life with my wife without constantly looking over my shoulder.",
+      "Therapist: That's an excellent goal. We'll work on that together."
+    ],
+    [
+      "Client: Talking about it is hard, but I feel a bit lighter. Like I'm not carrying this burden alone anymore. I know I have a long way to go, but for the first time in a while, I feel hopeful. I want to learn how to trust again, how to feel safe in my own skin. I want to be able to enjoy my life with my wife without constantly looking over my shoulder.",
+      "Therapist: That's an excellent goal. We'll work on that together.",
+      "Client: Thank you. I appreciate your support. It means a lot to have someone listen without judgment. I know it won't be easy, but I'm committed to this process. I want to reclaim my life, to not let the abuse or the cyberbullying define who I am. I want to be strong for myself and for my wife. She's been so patient and understanding through all of this."
+    ],
+    [
+      "Therapist: That's an excellent goal. We'll work on that together.",
+      "Client: Thank you. I appreciate your support. It means a lot to have someone listen without judgment. I know it won't be easy, but I'm committed to this process. I want to reclaim my life, to not let the abuse or the cyberbullying define who I am. I want to be strong for myself and for my wife. She's been so patient and understanding through all of this.",
+      "Therapist: Your determination is admirable. Let's end here for today."
+    ],
+    [
+      "Client: Thank you. I appreciate your support. It means a lot to have someone listen without judgment. I know it won't be easy, but I'm committed to this process. I want to reclaim my life, to not let the abuse or the cyberbullying define who I am. I want to be strong for myself and for my wife. She's been so patient and understanding through all of this.",
+      "Therapist: Your determination is admirable. Let's end here for today.",
+      "Client: Okay. Thank you for listening. I feel drained, but also a bit relieved. Is it normal to feel this exhausted after a session?"
+    ],
+    [
+      "Therapist: Your determination is admirable. Let's end here for today.",
+      "Client: Okay. Thank you for listening. I feel drained, but also a bit relieved. Is it normal to feel this exhausted after a session?",
+      "Therapist: Yes, it's very normal. Take care of yourself today."
+    ],
+    [
+      "Client: Okay. Thank you for listening. I feel drained, but also a bit relieved. Is it normal to feel this exhausted after a session?",
+      "Therapist: Yes, it's very normal. Take care of yourself today.",
+      "Client: I will. Thank you again. See you next week."
+    ],
+    [
+      "Therapist: Yes, it's very normal. Take care of yourself today.",
+      "Client: I will. Thank you again. See you next week.",
+      "Therapist: Take care, John. You did well today. Goodbye."
+    ]
+  ]
+}

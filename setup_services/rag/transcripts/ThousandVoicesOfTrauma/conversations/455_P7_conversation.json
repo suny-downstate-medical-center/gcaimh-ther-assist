@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mrs. Patel. How are you feeling today?",
+    "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thank you. I've been thinking about what we discussed last time, about my childhood and the neglect I experienced. It's been weighing on me.",
+    "Therapist: You're very brave for addressing this. Shall we begin?",
+    "Client: Yes, I think I'm ready. Where should I start?",
+    "Therapist: Close your eyes if you're comfortable. Take us to a specific memory.",
+    "Client: Okay... I'm remembering a night when I was about 8 years old. My parents had been arguing all day. I was in my room, trying to do my homework, but I could hear them shouting downstairs. The sound of breaking dishes... I was so scared.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I remember pulling my blanket over my head, trying to block out the noise. But then I heard my mother crying. I wanted to go to her, but I was afraid to leave my room. I felt so helpless, so alone.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: (voice trembling) I can still hear her sobs. They seemed to go on forever. And my father... he just kept yelling. I don't even remember what about anymore. I just remember feeling like I needed to do something, but I was paralyzed with fear.",
+    "Therapist: Stay with that feeling. You're doing great.",
+    "Client: (taking a deep breath) I eventually fell asleep, I think. But when I woke up the next morning, everything was eerily quiet. I went downstairs, and my mother was in the kitchen, silently making breakfast. Her eyes were red and puffy. My father was reading the newspaper as if nothing had happened. Neither of them acknowledged me or each other. It was like I was invisible.",
+    "Therapist: How did that make you feel?",
+    "Client: Abandoned. Completely abandoned. Like I didn't matter to anyone. I wanted to ask if they were okay, if we were okay as a family, but I knew better than to say anything. So I just sat there, eating my breakfast in silence, feeling this overwhelming sense of loneliness.",
+    "Therapist: You're handling this memory very bravely.",
+    "Client: (wiping tears) It's hard to talk about. This wasn't just one night, you know. This was my childhood. Always walking on eggshells, never knowing when the next explosion would happen. And always, always being ignored in the aftermath. It's like I was a ghost in my own home.",
+    "Therapist: You're not alone anymore. We're here together.",
+    "Client: Thank you. It's just... I've carried this weight for so long. I never realized how much it affected me, even now. I find myself getting anxious whenever I hear raised voices, even if it's just on TV. And I struggle to form close relationships because I'm always waiting for the other shoe to drop, for people to reveal that they don't really care about me.",
+    "Therapist: That's a natural response to your experiences.",
+    "Client: I suppose so. But I'm tired of living like this. I want to feel safe, to trust people. But it's so hard when all I've known is neglect and violence.",
+    "Therapist: Your awareness is the first step. You're doing well.",
+    "Client: (sighing) I hope so. Sometimes I wonder what my life would have been like if I had grown up in a loving, stable home. Would I be different? Would I be happier? It's hard not to dwell on those what-ifs.",
+    "Therapist: It's okay to acknowledge those feelings.",
+    "Client: I know. It's just... sometimes I feel angry. Angry at my parents for putting me through that, angry at myself for not being able to move past it. And then I feel guilty for being angry. It's exhausting.",
+    "Therapist: Your feelings are valid. It's part of healing.",
+    "Client: I suppose you're right. It's just... it's a lot to process. But I'm glad I'm finally talking about it. For so long, I've kept these memories and feelings bottled up inside. It feels both terrifying and liberating to finally let them out.",
+    "Therapist: You're showing incredible strength. How are you feeling now?",
+    "Client: Drained, honestly. But also... I don't know, maybe a little lighter? Like I've set down a heavy burden I've been carrying for years. It still hurts, but maybe talking about it like this will help me start to heal.",
+    "Therapist: That's a positive outlook. Shall we wrap up for today?",
+    "Client: Yes, I think that would be good. Thank you for listening and for guiding me through this. It means more than I can express.",
+    "Therapist: You're welcome. We'll continue next week. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mrs. Patel. How are you feeling today?",
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: I'm... I'm a bit nervous, to be honest. I know we're going to talk about some difficult things.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I've been thinking about what we discussed last time, about my childhood and the neglect I experienced. It's been weighing on me."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I've been thinking about what we discussed last time, about my childhood and the neglect I experienced. It's been weighing on me.",
+      "Therapist: You're very brave for addressing this. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. I've been thinking about what we discussed last time, about my childhood and the neglect I experienced. It's been weighing on me.",
+      "Therapist: You're very brave for addressing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?"
+    ],
+    [
+      "Therapist: You're very brave for addressing this. Shall we begin?",
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Close your eyes if you're comfortable. Take us to a specific memory."
+    ],
+    [
+      "Client: Yes, I think I'm ready. Where should I start?",
+      "Therapist: Close your eyes if you're comfortable. Take us to a specific memory.",
+      "Client: Okay... I'm remembering a night when I was about 8 years old. My parents had been arguing all day. I was in my room, trying to do my homework, but I could hear them shouting downstairs. The sound of breaking dishes... I was so scared."
+    ],
+    [
+      "Therapist: Close your eyes if you're comfortable. Take us to a specific memory.",
+      "Client: Okay... I'm remembering a night when I was about 8 years old. My parents had been arguing all day. I was in my room, trying to do my homework, but I could hear them shouting downstairs. The sound of breaking dishes... I was so scared.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: Okay... I'm remembering a night when I was about 8 years old. My parents had been arguing all day. I was in my room, trying to do my homework, but I could hear them shouting downstairs. The sound of breaking dishes... I was so scared.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I remember pulling my blanket over my head, trying to block out the noise. But then I heard my mother crying. I wanted to go to her, but I was afraid to leave my room. I felt so helpless, so alone."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I remember pulling my blanket over my head, trying to block out the noise. But then I heard my mother crying. I wanted to go to her, but I was afraid to leave my room. I felt so helpless, so alone.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: I remember pulling my blanket over my head, trying to block out the noise. But then I heard my mother crying. I wanted to go to her, but I was afraid to leave my room. I felt so helpless, so alone.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: (voice trembling) I can still hear her sobs. They seemed to go on forever. And my father... he just kept yelling. I don't even remember what about anymore. I just remember feeling like I needed to do something, but I was paralyzed with fear."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: (voice trembling) I can still hear her sobs. They seemed to go on forever. And my father... he just kept yelling. I don't even remember what about anymore. I just remember feeling like I needed to do something, but I was paralyzed with fear.",
+      "Therapist: Stay with that feeling. You're doing great."
+    ],
+    [
+      "Client: (voice trembling) I can still hear her sobs. They seemed to go on forever. And my father... he just kept yelling. I don't even remember what about anymore. I just remember feeling like I needed to do something, but I was paralyzed with fear.",
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: (taking a deep breath) I eventually fell asleep, I think. But when I woke up the next morning, everything was eerily quiet. I went downstairs, and my mother was in the kitchen, silently making breakfast. Her eyes were red and puffy. My father was reading the newspaper as if nothing had happened. Neither of them acknowledged me or each other. It was like I was invisible."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're doing great.",
+      "Client: (taking a deep breath) I eventually fell asleep, I think. But when I woke up the next morning, everything was eerily quiet. I went downstairs, and my mother was in the kitchen, silently making breakfast. Her eyes were red and puffy. My father was reading the newspaper as if nothing had happened. Neither of them acknowledged me or each other. It was like I was invisible.",
+      "Therapist: How did that make you feel?"
+    ],
+    [
+      "Client: (taking a deep breath) I eventually fell asleep, I think. But when I woke up the next morning, everything was eerily quiet. I went downstairs, and my mother was in the kitchen, silently making breakfast. Her eyes were red and puffy. My father was reading the newspaper as if nothing had happened. Neither of them acknowledged me or each other. It was like I was invisible.",
+      "Therapist: How did that make you feel?",
+      "Client: Abandoned. Completely abandoned. Like I didn't matter to anyone. I wanted to ask if they were okay, if we were okay as a family, but I knew better than to say anything. So I just sat there, eating my breakfast in silence, feeling this overwhelming sense of loneliness."
+    ],
+    [
+      "Therapist: How did that make you feel?",
+      "Client: Abandoned. Completely abandoned. Like I didn't matter to anyone. I wanted to ask if they were okay, if we were okay as a family, but I knew better than to say anything. So I just sat there, eating my breakfast in silence, feeling this overwhelming sense of loneliness.",
+      "Therapist: You're handling this memory very bravely."
+    ],
+    [
+      "Client: Abandoned. Completely abandoned. Like I didn't matter to anyone. I wanted to ask if they were okay, if we were okay as a family, but I knew better than to say anything. So I just sat there, eating my breakfast in silence, feeling this overwhelming sense of loneliness.",
+      "Therapist: You're handling this memory very bravely.",
+      "Client: (wiping tears) It's hard to talk about. This wasn't just one night, you know. This was my childhood. Always walking on eggshells, never knowing when the next explosion would happen. And always, always being ignored in the aftermath. It's like I was a ghost in my own home."
+    ],
+    [
+      "Therapist: You're handling this memory very bravely.",
+      "Client: (wiping tears) It's hard to talk about. This wasn't just one night, you know. This was my childhood. Always walking on eggshells, never knowing when the next explosion would happen. And always, always being ignored in the aftermath. It's like I was a ghost in my own home.",
+      "Therapist: You're not alone anymore. We're here together."
+    ],
+    [
+      "Client: (wiping tears) It's hard to talk about. This wasn't just one night, you know. This was my childhood. Always walking on eggshells, never knowing when the next explosion would happen. And always, always being ignored in the aftermath. It's like I was a ghost in my own home.",
+      "Therapist: You're not alone anymore. We're here together.",
+      "Client: Thank you. It's just... I've carried this weight for so long. I never realized how much it affected me, even now. I find myself getting anxious whenever I hear raised voices, even if it's just on TV. And I struggle to form close relationships because I'm always waiting for the other shoe to drop, for people to reveal that they don't really care about me."
+    ],
+    [
+      "Therapist: You're not alone anymore. We're here together.",
+      "Client: Thank you. It's just... I've carried this weight for so long. I never realized how much it affected me, even now. I find myself getting anxious whenever I hear raised voices, even if it's just on TV. And I struggle to form close relationships because I'm always waiting for the other shoe to drop, for people to reveal that they don't really care about me.",
+      "Therapist: That's a natural response to your experiences."
+    ],
+    [
+      "Client: Thank you. It's just... I've carried this weight for so long. I never realized how much it affected me, even now. I find myself getting anxious whenever I hear raised voices, even if it's just on TV. And I struggle to form close relationships because I'm always waiting for the other shoe to drop, for people to reveal that they don't really care about me.",
+      "Therapist: That's a natural response to your experiences.",
+      "Client: I suppose so. But I'm tired of living like this. I want to feel safe, to trust people. But it's so hard when all I've known is neglect and violence."
+    ],
+    [
+      "Therapist: That's a natural response to your experiences.",
+      "Client: I suppose so. But I'm tired of living like this. I want to feel safe, to trust people. But it's so hard when all I've known is neglect and violence.",
+      "Therapist: Your awareness is the first step. You're doing well."
+    ],
+    [
+      "Client: I suppose so. But I'm tired of living like this. I want to feel safe, to trust people. But it's so hard when all I've known is neglect and violence.",
+      "Therapist: Your awareness is the first step. You're doing well.",
+      "Client: (sighing) I hope so. Sometimes I wonder what my life would have been like if I had grown up in a loving, stable home. Would I be different? Would I be happier? It's hard not to dwell on those what-ifs."
+    ],
+    [
+      "Therapist: Your awareness is the first step. You're doing well.",
+      "Client: (sighing) I hope so. Sometimes I wonder what my life would have been like if I had grown up in a loving, stable home. Would I be different? Would I be happier? It's hard not to dwell on those what-ifs.",
+      "Therapist: It's okay to acknowledge those feelings."
+    ],
+    [
+      "Client: (sighing) I hope so. Sometimes I wonder what my life would have been like if I had grown up in a loving, stable home. Would I be different? Would I be happier? It's hard not to dwell on those what-ifs.",
+      "Therapist: It's okay to acknowledge those feelings.",
+      "Client: I know. It's just... sometimes I feel angry. Angry at my parents for putting me through that, angry at myself for not being able to move past it. And then I feel guilty for being angry. It's exhausting."
+    ],
+    [
+      "Therapist: It's okay to acknowledge those feelings.",
+      "Client: I know. It's just... sometimes I feel angry. Angry at my parents for putting me through that, angry at myself for not being able to move past it. And then I feel guilty for being angry. It's exhausting.",
+      "Therapist: Your feelings are valid. It's part of healing."
+    ],
+    [
+      "Client: I know. It's just... sometimes I feel angry. Angry at my parents for putting me through that, angry at myself for not being able to move past it. And then I feel guilty for being angry. It's exhausting.",
+      "Therapist: Your feelings are valid. It's part of healing.",
+      "Client: I suppose you're right. It's just... it's a lot to process. But I'm glad I'm finally talking about it. For so long, I've kept these memories and feelings bottled up inside. It feels both terrifying and liberating to finally let them out."
+    ],
+    [
+      "Therapist: Your feelings are valid. It's part of healing.",
+      "Client: I suppose you're right. It's just... it's a lot to process. But I'm glad I'm finally talking about it. For so long, I've kept these memories and feelings bottled up inside. It feels both terrifying and liberating to finally let them out.",
+      "Therapist: You're showing incredible strength. How are you feeling now?"
+    ],
+    [
+      "Client: I suppose you're right. It's just... it's a lot to process. But I'm glad I'm finally talking about it. For so long, I've kept these memories and feelings bottled up inside. It feels both terrifying and liberating to finally let them out.",
+      "Therapist: You're showing incredible strength. How are you feeling now?",
+      "Client: Drained, honestly. But also... I don't know, maybe a little lighter? Like I've set down a heavy burden I've been carrying for years. It still hurts, but maybe talking about it like this will help me start to heal."
+    ],
+    [
+      "Therapist: You're showing incredible strength. How are you feeling now?",
+      "Client: Drained, honestly. But also... I don't know, maybe a little lighter? Like I've set down a heavy burden I've been carrying for years. It still hurts, but maybe talking about it like this will help me start to heal.",
+      "Therapist: That's a positive outlook. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Drained, honestly. But also... I don't know, maybe a little lighter? Like I've set down a heavy burden I've been carrying for years. It still hurts, but maybe talking about it like this will help me start to heal.",
+      "Therapist: That's a positive outlook. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. Thank you for listening and for guiding me through this. It means more than I can express."
+    ],
+    [
+      "Therapist: That's a positive outlook. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. Thank you for listening and for guiding me through this. It means more than I can express.",
+      "Therapist: You're welcome. We'll continue next week. Take care."
+    ]
+  ]
+}

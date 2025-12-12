@@ -1,0 +1,176 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, John?",
+    "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel... drained, I guess. But also, there's this strange sense of relief. Like I've been carrying this weight for so long, and now... I don't know. It's still there, but different somehow.",
+    "Therapist: Mm-hmm. What stood out to you most?",
+    "Client: The details. I never realized how much I remembered. The smell of her perfume, the sound of the door closing... It's like I was right back there. And the shame. God, the shame is still so overwhelming. I keep thinking, \"I should have done something. I should have stopped it.\" But I was just a kid, you know?",
+    "Therapist: How did it feel to share that memory today?",
+    "Client: Terrifying at first. I thought I might break down or... or just not be able to do it. But as I kept going, it was like... like lancing a boil. Painful, but also... cleansing? Is that weird to say?",
+    "Therapist: Not at all. Many find relief in sharing.",
+    "Client: Yeah, relief. That's it. And... and anger. I'm angry at her, at myself, at the world that let this happen. It's all mixed up with the sadness about my marriage ending. Like, did this mess me up so bad that I couldn't make it work? Am I just... broken?",
+    "Therapist: How do you see this connecting to your current struggles?",
+    "Client: I... I think it's all connected. The depression, the failed marriage... I've always had trouble trusting people, being intimate. Even with my wife, I kept parts of myself locked away. I thought I was protecting myself, but maybe I was just... pushing everyone away.",
+    "Therapist: That's an insightful observation, John.",
+    "Client: Thanks. It's hard to face, but... I think I need to. I'm tired of letting this control my life. I want to be able to connect with people, to feel... whole, I guess. But it's scary. What if I can't change?",
+    "Therapist: What gives you hope for change?",
+    "Client: Well... being here, for one. I never thought I'd be able to talk about this, but here I am. And... I don't know, maybe it's stupid, but I keep thinking about my grandkids. I want to be there for them, really be there. Not just physically, but emotionally too. I want to break this cycle.",
+    "Therapist: That's a powerful motivation.",
+    "Client: Yeah, it is. But it's also daunting. How do I even begin to undo all this damage?",
+    "Therapist: What's one small step you could take?",
+    "Client: Hmm... Maybe... maybe I could try opening up a bit more to my daughter. We've been distant since the divorce, but... she's reached out a few times. I could start there, right?",
+    "Therapist: That sounds like a good start.",
+    "Client: Yeah... yeah, I think I'll do that. It's scary, but... I'm tired of being scared. I want to live, you know? Really live. This therapy, as hard as it is... I think it's helping. Is that normal? To feel worse but also... better?",
+    "Therapist: It's a common experience in this process.",
+    "Client: That's... that's good to hear. I'm exhausted, but I also feel... I don't know, lighter? Like maybe there's hope. Is that crazy?",
+    "Therapist: Not at all. Hope is a crucial part of healing.",
+    "Client: Thank you. For listening, for guiding me through this. I know we have a long way to go, but... I think I'm ready to keep going. Is that okay?",
+    "Therapist: Absolutely. Your courage is commendable, John.",
+    "Client: Thanks. I... I never thought I'd say this, but I'm actually looking forward to our next session. Is that weird?",
+    "Therapist: It's a positive sign of engagement.",
+    "Client: Good, that's... that's good. I'm nervous about what else might come up, but I also feel... I don't know, stronger maybe? Like I can face this. One step at a time, right?",
+    "Therapist: Exactly. Small steps lead to big changes.",
+    "Client: Right. Small steps. I can do that. I will do that. For myself, for my family. I'm ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, John?",
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel... drained, I guess. But also, there's this strange sense of relief. Like I've been carrying this weight for so long, and now... I don't know. It's still there, but different somehow.",
+      "Therapist: Mm-hmm. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart's still racing a bit, and I feel... drained, I guess. But also, there's this strange sense of relief. Like I've been carrying this weight for so long, and now... I don't know. It's still there, but different somehow.",
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The details. I never realized how much I remembered. The smell of her perfume, the sound of the door closing... It's like I was right back there. And the shame. God, the shame is still so overwhelming. I keep thinking, \"I should have done something. I should have stopped it.\" But I was just a kid, you know?"
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out to you most?",
+      "Client: The details. I never realized how much I remembered. The smell of her perfume, the sound of the door closing... It's like I was right back there. And the shame. God, the shame is still so overwhelming. I keep thinking, \"I should have done something. I should have stopped it.\" But I was just a kid, you know?",
+      "Therapist: How did it feel to share that memory today?"
+    ],
+    [
+      "Client: The details. I never realized how much I remembered. The smell of her perfume, the sound of the door closing... It's like I was right back there. And the shame. God, the shame is still so overwhelming. I keep thinking, \"I should have done something. I should have stopped it.\" But I was just a kid, you know?",
+      "Therapist: How did it feel to share that memory today?",
+      "Client: Terrifying at first. I thought I might break down or... or just not be able to do it. But as I kept going, it was like... like lancing a boil. Painful, but also... cleansing? Is that weird to say?"
+    ],
+    [
+      "Therapist: How did it feel to share that memory today?",
+      "Client: Terrifying at first. I thought I might break down or... or just not be able to do it. But as I kept going, it was like... like lancing a boil. Painful, but also... cleansing? Is that weird to say?",
+      "Therapist: Not at all. Many find relief in sharing."
+    ],
+    [
+      "Client: Terrifying at first. I thought I might break down or... or just not be able to do it. But as I kept going, it was like... like lancing a boil. Painful, but also... cleansing? Is that weird to say?",
+      "Therapist: Not at all. Many find relief in sharing.",
+      "Client: Yeah, relief. That's it. And... and anger. I'm angry at her, at myself, at the world that let this happen. It's all mixed up with the sadness about my marriage ending. Like, did this mess me up so bad that I couldn't make it work? Am I just... broken?"
+    ],
+    [
+      "Therapist: Not at all. Many find relief in sharing.",
+      "Client: Yeah, relief. That's it. And... and anger. I'm angry at her, at myself, at the world that let this happen. It's all mixed up with the sadness about my marriage ending. Like, did this mess me up so bad that I couldn't make it work? Am I just... broken?",
+      "Therapist: How do you see this connecting to your current struggles?"
+    ],
+    [
+      "Client: Yeah, relief. That's it. And... and anger. I'm angry at her, at myself, at the world that let this happen. It's all mixed up with the sadness about my marriage ending. Like, did this mess me up so bad that I couldn't make it work? Am I just... broken?",
+      "Therapist: How do you see this connecting to your current struggles?",
+      "Client: I... I think it's all connected. The depression, the failed marriage... I've always had trouble trusting people, being intimate. Even with my wife, I kept parts of myself locked away. I thought I was protecting myself, but maybe I was just... pushing everyone away."
+    ],
+    [
+      "Therapist: How do you see this connecting to your current struggles?",
+      "Client: I... I think it's all connected. The depression, the failed marriage... I've always had trouble trusting people, being intimate. Even with my wife, I kept parts of myself locked away. I thought I was protecting myself, but maybe I was just... pushing everyone away.",
+      "Therapist: That's an insightful observation, John."
+    ],
+    [
+      "Client: I... I think it's all connected. The depression, the failed marriage... I've always had trouble trusting people, being intimate. Even with my wife, I kept parts of myself locked away. I thought I was protecting myself, but maybe I was just... pushing everyone away.",
+      "Therapist: That's an insightful observation, John.",
+      "Client: Thanks. It's hard to face, but... I think I need to. I'm tired of letting this control my life. I want to be able to connect with people, to feel... whole, I guess. But it's scary. What if I can't change?"
+    ],
+    [
+      "Therapist: That's an insightful observation, John.",
+      "Client: Thanks. It's hard to face, but... I think I need to. I'm tired of letting this control my life. I want to be able to connect with people, to feel... whole, I guess. But it's scary. What if I can't change?",
+      "Therapist: What gives you hope for change?"
+    ],
+    [
+      "Client: Thanks. It's hard to face, but... I think I need to. I'm tired of letting this control my life. I want to be able to connect with people, to feel... whole, I guess. But it's scary. What if I can't change?",
+      "Therapist: What gives you hope for change?",
+      "Client: Well... being here, for one. I never thought I'd be able to talk about this, but here I am. And... I don't know, maybe it's stupid, but I keep thinking about my grandkids. I want to be there for them, really be there. Not just physically, but emotionally too. I want to break this cycle."
+    ],
+    [
+      "Therapist: What gives you hope for change?",
+      "Client: Well... being here, for one. I never thought I'd be able to talk about this, but here I am. And... I don't know, maybe it's stupid, but I keep thinking about my grandkids. I want to be there for them, really be there. Not just physically, but emotionally too. I want to break this cycle.",
+      "Therapist: That's a powerful motivation."
+    ],
+    [
+      "Client: Well... being here, for one. I never thought I'd be able to talk about this, but here I am. And... I don't know, maybe it's stupid, but I keep thinking about my grandkids. I want to be there for them, really be there. Not just physically, but emotionally too. I want to break this cycle.",
+      "Therapist: That's a powerful motivation.",
+      "Client: Yeah, it is. But it's also daunting. How do I even begin to undo all this damage?"
+    ],
+    [
+      "Therapist: That's a powerful motivation.",
+      "Client: Yeah, it is. But it's also daunting. How do I even begin to undo all this damage?",
+      "Therapist: What's one small step you could take?"
+    ],
+    [
+      "Client: Yeah, it is. But it's also daunting. How do I even begin to undo all this damage?",
+      "Therapist: What's one small step you could take?",
+      "Client: Hmm... Maybe... maybe I could try opening up a bit more to my daughter. We've been distant since the divorce, but... she's reached out a few times. I could start there, right?"
+    ],
+    [
+      "Therapist: What's one small step you could take?",
+      "Client: Hmm... Maybe... maybe I could try opening up a bit more to my daughter. We've been distant since the divorce, but... she's reached out a few times. I could start there, right?",
+      "Therapist: That sounds like a good start."
+    ],
+    [
+      "Client: Hmm... Maybe... maybe I could try opening up a bit more to my daughter. We've been distant since the divorce, but... she's reached out a few times. I could start there, right?",
+      "Therapist: That sounds like a good start.",
+      "Client: Yeah... yeah, I think I'll do that. It's scary, but... I'm tired of being scared. I want to live, you know? Really live. This therapy, as hard as it is... I think it's helping. Is that normal? To feel worse but also... better?"
+    ],
+    [
+      "Therapist: That sounds like a good start.",
+      "Client: Yeah... yeah, I think I'll do that. It's scary, but... I'm tired of being scared. I want to live, you know? Really live. This therapy, as hard as it is... I think it's helping. Is that normal? To feel worse but also... better?",
+      "Therapist: It's a common experience in this process."
+    ],
+    [
+      "Client: Yeah... yeah, I think I'll do that. It's scary, but... I'm tired of being scared. I want to live, you know? Really live. This therapy, as hard as it is... I think it's helping. Is that normal? To feel worse but also... better?",
+      "Therapist: It's a common experience in this process.",
+      "Client: That's... that's good to hear. I'm exhausted, but I also feel... I don't know, lighter? Like maybe there's hope. Is that crazy?"
+    ],
+    [
+      "Therapist: It's a common experience in this process.",
+      "Client: That's... that's good to hear. I'm exhausted, but I also feel... I don't know, lighter? Like maybe there's hope. Is that crazy?",
+      "Therapist: Not at all. Hope is a crucial part of healing."
+    ],
+    [
+      "Client: That's... that's good to hear. I'm exhausted, but I also feel... I don't know, lighter? Like maybe there's hope. Is that crazy?",
+      "Therapist: Not at all. Hope is a crucial part of healing.",
+      "Client: Thank you. For listening, for guiding me through this. I know we have a long way to go, but... I think I'm ready to keep going. Is that okay?"
+    ],
+    [
+      "Therapist: Not at all. Hope is a crucial part of healing.",
+      "Client: Thank you. For listening, for guiding me through this. I know we have a long way to go, but... I think I'm ready to keep going. Is that okay?",
+      "Therapist: Absolutely. Your courage is commendable, John."
+    ],
+    [
+      "Client: Thank you. For listening, for guiding me through this. I know we have a long way to go, but... I think I'm ready to keep going. Is that okay?",
+      "Therapist: Absolutely. Your courage is commendable, John.",
+      "Client: Thanks. I... I never thought I'd say this, but I'm actually looking forward to our next session. Is that weird?"
+    ],
+    [
+      "Therapist: Absolutely. Your courage is commendable, John.",
+      "Client: Thanks. I... I never thought I'd say this, but I'm actually looking forward to our next session. Is that weird?",
+      "Therapist: It's a positive sign of engagement."
+    ],
+    [
+      "Client: Thanks. I... I never thought I'd say this, but I'm actually looking forward to our next session. Is that weird?",
+      "Therapist: It's a positive sign of engagement.",
+      "Client: Good, that's... that's good. I'm nervous about what else might come up, but I also feel... I don't know, stronger maybe? Like I can face this. One step at a time, right?"
+    ],
+    [
+      "Therapist: It's a positive sign of engagement.",
+      "Client: Good, that's... that's good. I'm nervous about what else might come up, but I also feel... I don't know, stronger maybe? Like I can face this. One step at a time, right?",
+      "Therapist: Exactly. Small steps lead to big changes."
+    ],
+    [
+      "Client: Good, that's... that's good. I'm nervous about what else might come up, but I also feel... I don't know, stronger maybe? Like I can face this. One step at a time, right?",
+      "Therapist: Exactly. Small steps lead to big changes.",
+      "Client: Right. Small steps. I can do that. I will do that. For myself, for my family. I'm ready."
+    ]
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm feeling a bit shaky, to be honest. It's like my body is still tense from reliving that car accident. I can still hear the screeching tires and feel the impact. It's... it's overwhelming.",
+    "Therapist: Mm-hmm. What stood out most?",
+    "Client: The fear. The absolute terror I felt when I realized we were going to crash. It's like time slowed down, you know? I could see everything happening, but I couldn't do anything to stop it. And then... the guilt. I keep thinking maybe if I had reacted faster, or if I had taken a different route... maybe it wouldn't have happened.",
+    "Therapist: I see. How does that compare to your daily life?",
+    "Client: Well, I guess... I'm always on edge now. Especially when I'm in a car or even crossing the street. It's like I'm constantly waiting for something bad to happen. And that guilt... it follows me everywhere. I feel responsible for everything, even things I know logically aren't my fault.",
+    "Therapist: Hmm. How has this affected your work?",
+    "Client: It's been really tough. I'm self-employed, so I need to be able to drive to meet clients. But now, I find myself canceling appointments or trying to do everything remotely. I'm afraid I'm going to lose business, but I just... I can't bring myself to get behind the wheel most days.",
+    "Therapist: What insights have you gained today?",
+    "Client: I think... I'm starting to see how much this accident has taken over my life. It's not just about driving anymore. It's affecting my relationships, my work, everything. And maybe... maybe it's okay to admit that I'm not okay. That I need help to process this.",
+    "Therapist: Good observation. What's next for you?",
+    "Client: I want to keep working on this. It's hard, and it hurts, but I can see now that avoiding it isn't helping. I want to be able to drive again without panicking. I want to stop feeling guilty all the time. I... I want my life back.",
+    "Therapist: Excellent. How can we support that goal?",
+    "Client: Well, I think continuing these sessions is important. And maybe... maybe I could start small with the driving. Like, just sitting in the car for a few minutes each day? And then maybe driving around the block? I don't know if I'm ready for that yet, but I think I want to try.",
+    "Therapist: That's a great start. Anything else?",
+    "Client: I've been thinking about joining a support group. I've been so isolated since the accident, and I think it might help to talk to others who've been through similar experiences. And... I think I need to be more open with my friends about what I'm going through. I've been pushing everyone away, and I'm starting to realize how lonely that's made me.",
+    "Therapist: Sounds like good steps. How do you feel now?",
+    "Client: I feel... drained, but also a little hopeful. It's like I've been carrying this heavy weight for so long, and now I can see that there might be a way to put it down. It's scary, but... it's also kind of exciting. I want to get better. I want to feel like myself again.",
+    "Therapist: That's great progress, Sarah. Next week?",
+    "Client: Yes, definitely. I... I know it's going to be hard, but I'm ready to keep going. Thank you for your help today. I feel like I'm finally starting to understand what's been happening to me, and that feels like a big step.",
+    "Therapist: It is. Well done today. Take care.",
+    "Client: Thank you. I will. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like my body is still tense from reliving that car accident. I can still hear the screeching tires and feel the impact. It's... it's overwhelming.",
+      "Therapist: Mm-hmm. What stood out most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like my body is still tense from reliving that car accident. I can still hear the screeching tires and feel the impact. It's... it's overwhelming.",
+      "Therapist: Mm-hmm. What stood out most?",
+      "Client: The fear. The absolute terror I felt when I realized we were going to crash. It's like time slowed down, you know? I could see everything happening, but I couldn't do anything to stop it. And then... the guilt. I keep thinking maybe if I had reacted faster, or if I had taken a different route... maybe it wouldn't have happened."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out most?",
+      "Client: The fear. The absolute terror I felt when I realized we were going to crash. It's like time slowed down, you know? I could see everything happening, but I couldn't do anything to stop it. And then... the guilt. I keep thinking maybe if I had reacted faster, or if I had taken a different route... maybe it wouldn't have happened.",
+      "Therapist: I see. How does that compare to your daily life?"
+    ],
+    [
+      "Client: The fear. The absolute terror I felt when I realized we were going to crash. It's like time slowed down, you know? I could see everything happening, but I couldn't do anything to stop it. And then... the guilt. I keep thinking maybe if I had reacted faster, or if I had taken a different route... maybe it wouldn't have happened.",
+      "Therapist: I see. How does that compare to your daily life?",
+      "Client: Well, I guess... I'm always on edge now. Especially when I'm in a car or even crossing the street. It's like I'm constantly waiting for something bad to happen. And that guilt... it follows me everywhere. I feel responsible for everything, even things I know logically aren't my fault."
+    ],
+    [
+      "Therapist: I see. How does that compare to your daily life?",
+      "Client: Well, I guess... I'm always on edge now. Especially when I'm in a car or even crossing the street. It's like I'm constantly waiting for something bad to happen. And that guilt... it follows me everywhere. I feel responsible for everything, even things I know logically aren't my fault.",
+      "Therapist: Hmm. How has this affected your work?"
+    ],
+    [
+      "Client: Well, I guess... I'm always on edge now. Especially when I'm in a car or even crossing the street. It's like I'm constantly waiting for something bad to happen. And that guilt... it follows me everywhere. I feel responsible for everything, even things I know logically aren't my fault.",
+      "Therapist: Hmm. How has this affected your work?",
+      "Client: It's been really tough. I'm self-employed, so I need to be able to drive to meet clients. But now, I find myself canceling appointments or trying to do everything remotely. I'm afraid I'm going to lose business, but I just... I can't bring myself to get behind the wheel most days."
+    ],
+    [
+      "Therapist: Hmm. How has this affected your work?",
+      "Client: It's been really tough. I'm self-employed, so I need to be able to drive to meet clients. But now, I find myself canceling appointments or trying to do everything remotely. I'm afraid I'm going to lose business, but I just... I can't bring myself to get behind the wheel most days.",
+      "Therapist: What insights have you gained today?"
+    ],
+    [
+      "Client: It's been really tough. I'm self-employed, so I need to be able to drive to meet clients. But now, I find myself canceling appointments or trying to do everything remotely. I'm afraid I'm going to lose business, but I just... I can't bring myself to get behind the wheel most days.",
+      "Therapist: What insights have you gained today?",
+      "Client: I think... I'm starting to see how much this accident has taken over my life. It's not just about driving anymore. It's affecting my relationships, my work, everything. And maybe... maybe it's okay to admit that I'm not okay. That I need help to process this."
+    ],
+    [
+      "Therapist: What insights have you gained today?",
+      "Client: I think... I'm starting to see how much this accident has taken over my life. It's not just about driving anymore. It's affecting my relationships, my work, everything. And maybe... maybe it's okay to admit that I'm not okay. That I need help to process this.",
+      "Therapist: Good observation. What's next for you?"
+    ],
+    [
+      "Client: I think... I'm starting to see how much this accident has taken over my life. It's not just about driving anymore. It's affecting my relationships, my work, everything. And maybe... maybe it's okay to admit that I'm not okay. That I need help to process this.",
+      "Therapist: Good observation. What's next for you?",
+      "Client: I want to keep working on this. It's hard, and it hurts, but I can see now that avoiding it isn't helping. I want to be able to drive again without panicking. I want to stop feeling guilty all the time. I... I want my life back."
+    ],
+    [
+      "Therapist: Good observation. What's next for you?",
+      "Client: I want to keep working on this. It's hard, and it hurts, but I can see now that avoiding it isn't helping. I want to be able to drive again without panicking. I want to stop feeling guilty all the time. I... I want my life back.",
+      "Therapist: Excellent. How can we support that goal?"
+    ],
+    [
+      "Client: I want to keep working on this. It's hard, and it hurts, but I can see now that avoiding it isn't helping. I want to be able to drive again without panicking. I want to stop feeling guilty all the time. I... I want my life back.",
+      "Therapist: Excellent. How can we support that goal?",
+      "Client: Well, I think continuing these sessions is important. And maybe... maybe I could start small with the driving. Like, just sitting in the car for a few minutes each day? And then maybe driving around the block? I don't know if I'm ready for that yet, but I think I want to try."
+    ],
+    [
+      "Therapist: Excellent. How can we support that goal?",
+      "Client: Well, I think continuing these sessions is important. And maybe... maybe I could start small with the driving. Like, just sitting in the car for a few minutes each day? And then maybe driving around the block? I don't know if I'm ready for that yet, but I think I want to try.",
+      "Therapist: That's a great start. Anything else?"
+    ],
+    [
+      "Client: Well, I think continuing these sessions is important. And maybe... maybe I could start small with the driving. Like, just sitting in the car for a few minutes each day? And then maybe driving around the block? I don't know if I'm ready for that yet, but I think I want to try.",
+      "Therapist: That's a great start. Anything else?",
+      "Client: I've been thinking about joining a support group. I've been so isolated since the accident, and I think it might help to talk to others who've been through similar experiences. And... I think I need to be more open with my friends about what I'm going through. I've been pushing everyone away, and I'm starting to realize how lonely that's made me."
+    ],
+    [
+      "Therapist: That's a great start. Anything else?",
+      "Client: I've been thinking about joining a support group. I've been so isolated since the accident, and I think it might help to talk to others who've been through similar experiences. And... I think I need to be more open with my friends about what I'm going through. I've been pushing everyone away, and I'm starting to realize how lonely that's made me.",
+      "Therapist: Sounds like good steps. How do you feel now?"
+    ],
+    [
+      "Client: I've been thinking about joining a support group. I've been so isolated since the accident, and I think it might help to talk to others who've been through similar experiences. And... I think I need to be more open with my friends about what I'm going through. I've been pushing everyone away, and I'm starting to realize how lonely that's made me.",
+      "Therapist: Sounds like good steps. How do you feel now?",
+      "Client: I feel... drained, but also a little hopeful. It's like I've been carrying this heavy weight for so long, and now I can see that there might be a way to put it down. It's scary, but... it's also kind of exciting. I want to get better. I want to feel like myself again."
+    ],
+    [
+      "Therapist: Sounds like good steps. How do you feel now?",
+      "Client: I feel... drained, but also a little hopeful. It's like I've been carrying this heavy weight for so long, and now I can see that there might be a way to put it down. It's scary, but... it's also kind of exciting. I want to get better. I want to feel like myself again.",
+      "Therapist: That's great progress, Sarah. Next week?"
+    ],
+    [
+      "Client: I feel... drained, but also a little hopeful. It's like I've been carrying this heavy weight for so long, and now I can see that there might be a way to put it down. It's scary, but... it's also kind of exciting. I want to get better. I want to feel like myself again.",
+      "Therapist: That's great progress, Sarah. Next week?",
+      "Client: Yes, definitely. I... I know it's going to be hard, but I'm ready to keep going. Thank you for your help today. I feel like I'm finally starting to understand what's been happening to me, and that feels like a big step."
+    ],
+    [
+      "Therapist: That's great progress, Sarah. Next week?",
+      "Client: Yes, definitely. I... I know it's going to be hard, but I'm ready to keep going. Thank you for your help today. I feel like I'm finally starting to understand what's been happening to me, and that feels like a big step.",
+      "Therapist: It is. Well done today. Take care."
+    ],
+    [
+      "Client: Yes, definitely. I... I know it's going to be hard, but I'm ready to keep going. Thank you for your help today. I feel like I'm finally starting to understand what's been happening to me, and that feels like a big step.",
+      "Therapist: It is. Well done today. Take care.",
+      "Client: Thank you. I will. See you next week."
+    ]
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. What do you see?",
+    "Client: I'm... I'm in my bed. It's dark, maybe around 2 AM. I hear a noise downstairs, like glass breaking. My heart starts racing immediately. I'm frozen, unable to move.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably a 6. I can feel my hands getting clammy just thinking about it.",
+    "Therapist: That's okay. Keep going. What happens next?",
+    "Client: I hear footsteps on the stairs. They're heavy, deliberate. I'm trying to control my breathing, but it's so loud in my ears. I'm terrified they'll hear me. The floorboard outside my bedroom creaks and I... I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here. What's your SUDS now?",
+    "Client: It's... it's an 8. My chest feels so tight.",
+    "Therapist: You're doing well. Keep breathing. What do you see or hear next?",
+    "Client: The door... it opens slowly. I can see a silhouette in the doorway. I'm shaking uncontrollably now. I want to scream but no sound comes out. I feel so helpless, so vulnerable.",
+    "Therapist: Your feelings are valid. Remember, you survived this. SUDS?",
+    "Client: 9. I feel like I'm right back there. My whole body is tense.",
+    "Therapist: You're safe here. What happens after you see the silhouette?",
+    "Client: They... they come closer to the bed. I can smell alcohol on them. I'm paralyzed with fear. Then suddenly, a car alarm goes off outside and they... they run. I hear them stumbling down the stairs and then... silence.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's down to a 7. I feel... I feel relief washing over me, but I'm still shaking.",
+    "Therapist: That's normal. You're processing a lot. How does your body feel?",
+    "Client: My muscles are so tense. I have this knot in my stomach. But I also feel... lighter? Like I've let something out.",
+    "Therapist: That's good. You're doing great. SUDS now?",
+    "Client: Maybe a 5. I'm starting to feel more present in the room with you.",
+    "Therapist: Excellent. You've done well today. Let's start grounding ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. What do you see?"
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important. Let's do it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. What do you see?",
+      "Client: I'm... I'm in my bed. It's dark, maybe around 2 AM. I hear a noise downstairs, like glass breaking. My heart starts racing immediately. I'm frozen, unable to move."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that night of the home invasion. What do you see?",
+      "Client: I'm... I'm in my bed. It's dark, maybe around 2 AM. I hear a noise downstairs, like glass breaking. My heart starts racing immediately. I'm frozen, unable to move.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: I'm... I'm in my bed. It's dark, maybe around 2 AM. I hear a noise downstairs, like glass breaking. My heart starts racing immediately. I'm frozen, unable to move.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6. I can feel my hands getting clammy just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably a 6. I can feel my hands getting clammy just thinking about it.",
+      "Therapist: That's okay. Keep going. What happens next?"
+    ],
+    [
+      "Client: Um, probably a 6. I can feel my hands getting clammy just thinking about it.",
+      "Therapist: That's okay. Keep going. What happens next?",
+      "Client: I hear footsteps on the stairs. They're heavy, deliberate. I'm trying to control my breathing, but it's so loud in my ears. I'm terrified they'll hear me. The floorboard outside my bedroom creaks and I... I can't breathe."
+    ],
+    [
+      "Therapist: That's okay. Keep going. What happens next?",
+      "Client: I hear footsteps on the stairs. They're heavy, deliberate. I'm trying to control my breathing, but it's so loud in my ears. I'm terrified they'll hear me. The floorboard outside my bedroom creaks and I... I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS now?"
+    ],
+    [
+      "Client: I hear footsteps on the stairs. They're heavy, deliberate. I'm trying to control my breathing, but it's so loud in my ears. I'm terrified they'll hear me. The floorboard outside my bedroom creaks and I... I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS now?",
+      "Client: It's... it's an 8. My chest feels so tight."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS now?",
+      "Client: It's... it's an 8. My chest feels so tight.",
+      "Therapist: You're doing well. Keep breathing. What do you see or hear next?"
+    ],
+    [
+      "Client: It's... it's an 8. My chest feels so tight.",
+      "Therapist: You're doing well. Keep breathing. What do you see or hear next?",
+      "Client: The door... it opens slowly. I can see a silhouette in the doorway. I'm shaking uncontrollably now. I want to scream but no sound comes out. I feel so helpless, so vulnerable."
+    ],
+    [
+      "Therapist: You're doing well. Keep breathing. What do you see or hear next?",
+      "Client: The door... it opens slowly. I can see a silhouette in the doorway. I'm shaking uncontrollably now. I want to scream but no sound comes out. I feel so helpless, so vulnerable.",
+      "Therapist: Your feelings are valid. Remember, you survived this. SUDS?"
+    ],
+    [
+      "Client: The door... it opens slowly. I can see a silhouette in the doorway. I'm shaking uncontrollably now. I want to scream but no sound comes out. I feel so helpless, so vulnerable.",
+      "Therapist: Your feelings are valid. Remember, you survived this. SUDS?",
+      "Client: 9. I feel like I'm right back there. My whole body is tense."
+    ],
+    [
+      "Therapist: Your feelings are valid. Remember, you survived this. SUDS?",
+      "Client: 9. I feel like I'm right back there. My whole body is tense.",
+      "Therapist: You're safe here. What happens after you see the silhouette?"
+    ],
+    [
+      "Client: 9. I feel like I'm right back there. My whole body is tense.",
+      "Therapist: You're safe here. What happens after you see the silhouette?",
+      "Client: They... they come closer to the bed. I can smell alcohol on them. I'm paralyzed with fear. Then suddenly, a car alarm goes off outside and they... they run. I hear them stumbling down the stairs and then... silence."
+    ],
+    [
+      "Therapist: You're safe here. What happens after you see the silhouette?",
+      "Client: They... they come closer to the bed. I can smell alcohol on them. I'm paralyzed with fear. Then suddenly, a car alarm goes off outside and they... they run. I hear them stumbling down the stairs and then... silence.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: They... they come closer to the bed. I can smell alcohol on them. I'm paralyzed with fear. Then suddenly, a car alarm goes off outside and they... they run. I hear them stumbling down the stairs and then... silence.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's down to a 7. I feel... I feel relief washing over me, but I'm still shaking."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's down to a 7. I feel... I feel relief washing over me, but I'm still shaking.",
+      "Therapist: That's normal. You're processing a lot. How does your body feel?"
+    ],
+    [
+      "Client: It's down to a 7. I feel... I feel relief washing over me, but I'm still shaking.",
+      "Therapist: That's normal. You're processing a lot. How does your body feel?",
+      "Client: My muscles are so tense. I have this knot in my stomach. But I also feel... lighter? Like I've let something out."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot. How does your body feel?",
+      "Client: My muscles are so tense. I have this knot in my stomach. But I also feel... lighter? Like I've let something out.",
+      "Therapist: That's good. You're doing great. SUDS now?"
+    ],
+    [
+      "Client: My muscles are so tense. I have this knot in my stomach. But I also feel... lighter? Like I've let something out.",
+      "Therapist: That's good. You're doing great. SUDS now?",
+      "Client: Maybe a 5. I'm starting to feel more present in the room with you."
+    ],
+    [
+      "Therapist: That's good. You're doing great. SUDS now?",
+      "Client: Maybe a 5. I'm starting to feel more present in the room with you.",
+      "Therapist: Excellent. You've done well today. Let's start grounding ourselves."
+    ]
+  ]
+}

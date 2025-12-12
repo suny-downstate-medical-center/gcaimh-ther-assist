@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things, and I'm not sure I'm ready.",
+    "Therapist: It's okay to feel nervous. We'll take it step by step.",
+    "Client: Okay, I'll try. Where should I start?",
+    "Therapist: Let's begin with the memory we discussed last time. Take a deep breath and describe it.",
+    "Client: Alright. I'm... I'm in the hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the antiseptic, and it's making me feel nauseous. The doctor just left after telling me about the complications from my surgery. I'm alone, and I'm terrified.",
+    "Therapist: You're doing great. Stay with that moment.",
+    "Client: My heart is racing. I can feel the panic rising in my chest. I'm trying to reach for the call button, but my arms feel so heavy. I keep thinking, \"This can't be happening. I'm too young for this.\" The pain is getting worse, and I'm scared it means something is really wrong.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: I start crying, but I'm trying to be quiet because I don't want the nurses to hear me. I feel so alone and vulnerable. I'm remembering all the times my ex used to tell me I was weak, that I couldn't handle anything on my own. And now, here I am, proving him right. I feel so ashamed.",
+    "Therapist: It's okay to feel these emotions. You're very brave for sharing this.",
+    "Client: The shame is overwhelming. I'm lying there, thinking about how I got here. How I let him control me for so long, how I ignored the signs that something was wrong with my health because I was too focused on trying to make him happy. And now I'm paying the price. I feel like such a failure.",
+    "Therapist: You're not a failure. You're showing incredible strength right now.",
+    "Client: It's hard to believe that. In that moment, I felt so powerless. The pain was getting worse, and I was convinced I was going to die there, alone in that hospital room. I kept thinking about all the things I hadn't done, all the dreams I'd given up because of him. And now, it felt like it was too late.",
+    "Therapist: Stay with those feelings. You're doing well.",
+    "Client: I'm trying, but it's so hard. My breathing is getting faster, and I can feel myself starting to panic again, just like I did that night. The room feels like it's closing in on me. I can hear the nurses talking outside, but it sounds far away, like I'm underwater. I'm so scared.",
+    "Therapist: You're safe here. Take a deep breath.",
+    "Client: Okay... I'm trying. It's just... in that moment, I felt so trapped. Not just by the hospital, but by all the choices I'd made that led me there. I kept thinking about how different things could have been if I'd left him sooner, if I'd taken care of myself. The regret was suffocating.",
+    "Therapist: It's natural to have those thoughts. Keep going.",
+    "Client: I remember closing my eyes, trying to imagine myself somewhere else, anywhere else. But every time I did, I'd see his face, hear his voice telling me I was worthless. Even there, in the hospital, I couldn't escape him. I felt so angry at myself for letting him have that power over me, even when he wasn't there.",
+    "Therapist: You're showing remarkable courage facing these memories.",
+    "Client: Thank you. It's just... it's all so vivid. The fear, the pain, the loneliness. I remember wishing someone would come in, anyone, just so I wouldn't have to be alone with my thoughts. But at the same time, I was terrified of anyone seeing me like that, so weak and vulnerable.",
+    "Therapist: It's okay to have felt that way. You're safe now.",
+    "Client: I know, logically. But emotionally, it's still so raw. I can still feel the scratch of the hospital gown against my skin, the tightness in my chest as I tried not to cry. I remember looking at the clock on the wall, watching the minutes tick by so slowly. Each second felt like an eternity.",
+    "Therapist: You're doing great. Keep describing what you're experiencing.",
+    "Client: The worst part was the silence. Between the beeps of the machines, it was so quiet. Too quiet. It gave my mind too much space to wander, to replay all the horrible things my ex had said to me, to imagine all the worst-case scenarios. I felt like I was drowning in my own thoughts.",
+    "Therapist: You're very brave for sharing this. How are you feeling now?",
+    "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little relieved? Like talking about it is helping to let some of the pressure out. Is that normal?",
+    "Therapist: Absolutely. That's a common response. You've done excellent work today.",
+    "Client: Thank you. It's still hard, but I think I'm starting to see that maybe I'm stronger than I thought. That night in the hospital, I felt so weak. But looking back, maybe just surviving it was a kind of strength.",
+    "Therapist: That's a powerful realization. We'll end here for today. How are you feeling?",
+    "Client: I'm feeling drained, but also a bit lighter. Thank you for guiding me through this. I know we have more work to do, but I think I'm ready to face it now.",
+    "Therapist: You've made great progress. We'll continue next session. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel nervous. We'll take it step by step."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things, and I'm not sure I'm ready.",
+      "Therapist: It's okay to feel nervous. We'll take it step by step.",
+      "Client: Okay, I'll try. Where should I start?"
+    ],
+    [
+      "Therapist: It's okay to feel nervous. We'll take it step by step.",
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Let's begin with the memory we discussed last time. Take a deep breath and describe it."
+    ],
+    [
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Let's begin with the memory we discussed last time. Take a deep breath and describe it.",
+      "Client: Alright. I'm... I'm in the hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the antiseptic, and it's making me feel nauseous. The doctor just left after telling me about the complications from my surgery. I'm alone, and I'm terrified."
+    ],
+    [
+      "Therapist: Let's begin with the memory we discussed last time. Take a deep breath and describe it.",
+      "Client: Alright. I'm... I'm in the hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the antiseptic, and it's making me feel nauseous. The doctor just left after telling me about the complications from my surgery. I'm alone, and I'm terrified.",
+      "Therapist: You're doing great. Stay with that moment."
+    ],
+    [
+      "Client: Alright. I'm... I'm in the hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the antiseptic, and it's making me feel nauseous. The doctor just left after telling me about the complications from my surgery. I'm alone, and I'm terrified.",
+      "Therapist: You're doing great. Stay with that moment.",
+      "Client: My heart is racing. I can feel the panic rising in my chest. I'm trying to reach for the call button, but my arms feel so heavy. I keep thinking, \"This can't be happening. I'm too young for this.\" The pain is getting worse, and I'm scared it means something is really wrong."
+    ],
+    [
+      "Therapist: You're doing great. Stay with that moment.",
+      "Client: My heart is racing. I can feel the panic rising in my chest. I'm trying to reach for the call button, but my arms feel so heavy. I keep thinking, \"This can't be happening. I'm too young for this.\" The pain is getting worse, and I'm scared it means something is really wrong.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: My heart is racing. I can feel the panic rising in my chest. I'm trying to reach for the call button, but my arms feel so heavy. I keep thinking, \"This can't be happening. I'm too young for this.\" The pain is getting worse, and I'm scared it means something is really wrong.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: I start crying, but I'm trying to be quiet because I don't want the nurses to hear me. I feel so alone and vulnerable. I'm remembering all the times my ex used to tell me I was weak, that I couldn't handle anything on my own. And now, here I am, proving him right. I feel so ashamed."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: I start crying, but I'm trying to be quiet because I don't want the nurses to hear me. I feel so alone and vulnerable. I'm remembering all the times my ex used to tell me I was weak, that I couldn't handle anything on my own. And now, here I am, proving him right. I feel so ashamed.",
+      "Therapist: It's okay to feel these emotions. You're very brave for sharing this."
+    ],
+    [
+      "Client: I start crying, but I'm trying to be quiet because I don't want the nurses to hear me. I feel so alone and vulnerable. I'm remembering all the times my ex used to tell me I was weak, that I couldn't handle anything on my own. And now, here I am, proving him right. I feel so ashamed.",
+      "Therapist: It's okay to feel these emotions. You're very brave for sharing this.",
+      "Client: The shame is overwhelming. I'm lying there, thinking about how I got here. How I let him control me for so long, how I ignored the signs that something was wrong with my health because I was too focused on trying to make him happy. And now I'm paying the price. I feel like such a failure."
+    ],
+    [
+      "Therapist: It's okay to feel these emotions. You're very brave for sharing this.",
+      "Client: The shame is overwhelming. I'm lying there, thinking about how I got here. How I let him control me for so long, how I ignored the signs that something was wrong with my health because I was too focused on trying to make him happy. And now I'm paying the price. I feel like such a failure.",
+      "Therapist: You're not a failure. You're showing incredible strength right now."
+    ],
+    [
+      "Client: The shame is overwhelming. I'm lying there, thinking about how I got here. How I let him control me for so long, how I ignored the signs that something was wrong with my health because I was too focused on trying to make him happy. And now I'm paying the price. I feel like such a failure.",
+      "Therapist: You're not a failure. You're showing incredible strength right now.",
+      "Client: It's hard to believe that. In that moment, I felt so powerless. The pain was getting worse, and I was convinced I was going to die there, alone in that hospital room. I kept thinking about all the things I hadn't done, all the dreams I'd given up because of him. And now, it felt like it was too late."
+    ],
+    [
+      "Therapist: You're not a failure. You're showing incredible strength right now.",
+      "Client: It's hard to believe that. In that moment, I felt so powerless. The pain was getting worse, and I was convinced I was going to die there, alone in that hospital room. I kept thinking about all the things I hadn't done, all the dreams I'd given up because of him. And now, it felt like it was too late.",
+      "Therapist: Stay with those feelings. You're doing well."
+    ],
+    [
+      "Client: It's hard to believe that. In that moment, I felt so powerless. The pain was getting worse, and I was convinced I was going to die there, alone in that hospital room. I kept thinking about all the things I hadn't done, all the dreams I'd given up because of him. And now, it felt like it was too late.",
+      "Therapist: Stay with those feelings. You're doing well.",
+      "Client: I'm trying, but it's so hard. My breathing is getting faster, and I can feel myself starting to panic again, just like I did that night. The room feels like it's closing in on me. I can hear the nurses talking outside, but it sounds far away, like I'm underwater. I'm so scared."
+    ],
+    [
+      "Therapist: Stay with those feelings. You're doing well.",
+      "Client: I'm trying, but it's so hard. My breathing is getting faster, and I can feel myself starting to panic again, just like I did that night. The room feels like it's closing in on me. I can hear the nurses talking outside, but it sounds far away, like I'm underwater. I'm so scared.",
+      "Therapist: You're safe here. Take a deep breath."
+    ],
+    [
+      "Client: I'm trying, but it's so hard. My breathing is getting faster, and I can feel myself starting to panic again, just like I did that night. The room feels like it's closing in on me. I can hear the nurses talking outside, but it sounds far away, like I'm underwater. I'm so scared.",
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: Okay... I'm trying. It's just... in that moment, I felt so trapped. Not just by the hospital, but by all the choices I'd made that led me there. I kept thinking about how different things could have been if I'd left him sooner, if I'd taken care of myself. The regret was suffocating."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: Okay... I'm trying. It's just... in that moment, I felt so trapped. Not just by the hospital, but by all the choices I'd made that led me there. I kept thinking about how different things could have been if I'd left him sooner, if I'd taken care of myself. The regret was suffocating.",
+      "Therapist: It's natural to have those thoughts. Keep going."
+    ],
+    [
+      "Client: Okay... I'm trying. It's just... in that moment, I felt so trapped. Not just by the hospital, but by all the choices I'd made that led me there. I kept thinking about how different things could have been if I'd left him sooner, if I'd taken care of myself. The regret was suffocating.",
+      "Therapist: It's natural to have those thoughts. Keep going.",
+      "Client: I remember closing my eyes, trying to imagine myself somewhere else, anywhere else. But every time I did, I'd see his face, hear his voice telling me I was worthless. Even there, in the hospital, I couldn't escape him. I felt so angry at myself for letting him have that power over me, even when he wasn't there."
+    ],
+    [
+      "Therapist: It's natural to have those thoughts. Keep going.",
+      "Client: I remember closing my eyes, trying to imagine myself somewhere else, anywhere else. But every time I did, I'd see his face, hear his voice telling me I was worthless. Even there, in the hospital, I couldn't escape him. I felt so angry at myself for letting him have that power over me, even when he wasn't there.",
+      "Therapist: You're showing remarkable courage facing these memories."
+    ],
+    [
+      "Client: I remember closing my eyes, trying to imagine myself somewhere else, anywhere else. But every time I did, I'd see his face, hear his voice telling me I was worthless. Even there, in the hospital, I couldn't escape him. I felt so angry at myself for letting him have that power over me, even when he wasn't there.",
+      "Therapist: You're showing remarkable courage facing these memories.",
+      "Client: Thank you. It's just... it's all so vivid. The fear, the pain, the loneliness. I remember wishing someone would come in, anyone, just so I wouldn't have to be alone with my thoughts. But at the same time, I was terrified of anyone seeing me like that, so weak and vulnerable."
+    ],
+    [
+      "Therapist: You're showing remarkable courage facing these memories.",
+      "Client: Thank you. It's just... it's all so vivid. The fear, the pain, the loneliness. I remember wishing someone would come in, anyone, just so I wouldn't have to be alone with my thoughts. But at the same time, I was terrified of anyone seeing me like that, so weak and vulnerable.",
+      "Therapist: It's okay to have felt that way. You're safe now."
+    ],
+    [
+      "Client: Thank you. It's just... it's all so vivid. The fear, the pain, the loneliness. I remember wishing someone would come in, anyone, just so I wouldn't have to be alone with my thoughts. But at the same time, I was terrified of anyone seeing me like that, so weak and vulnerable.",
+      "Therapist: It's okay to have felt that way. You're safe now.",
+      "Client: I know, logically. But emotionally, it's still so raw. I can still feel the scratch of the hospital gown against my skin, the tightness in my chest as I tried not to cry. I remember looking at the clock on the wall, watching the minutes tick by so slowly. Each second felt like an eternity."
+    ],
+    [
+      "Therapist: It's okay to have felt that way. You're safe now.",
+      "Client: I know, logically. But emotionally, it's still so raw. I can still feel the scratch of the hospital gown against my skin, the tightness in my chest as I tried not to cry. I remember looking at the clock on the wall, watching the minutes tick by so slowly. Each second felt like an eternity.",
+      "Therapist: You're doing great. Keep describing what you're experiencing."
+    ],
+    [
+      "Client: I know, logically. But emotionally, it's still so raw. I can still feel the scratch of the hospital gown against my skin, the tightness in my chest as I tried not to cry. I remember looking at the clock on the wall, watching the minutes tick by so slowly. Each second felt like an eternity.",
+      "Therapist: You're doing great. Keep describing what you're experiencing.",
+      "Client: The worst part was the silence. Between the beeps of the machines, it was so quiet. Too quiet. It gave my mind too much space to wander, to replay all the horrible things my ex had said to me, to imagine all the worst-case scenarios. I felt like I was drowning in my own thoughts."
+    ],
+    [
+      "Therapist: You're doing great. Keep describing what you're experiencing.",
+      "Client: The worst part was the silence. Between the beeps of the machines, it was so quiet. Too quiet. It gave my mind too much space to wander, to replay all the horrible things my ex had said to me, to imagine all the worst-case scenarios. I felt like I was drowning in my own thoughts.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?"
+    ],
+    [
+      "Client: The worst part was the silence. Between the beeps of the machines, it was so quiet. Too quiet. It gave my mind too much space to wander, to replay all the horrible things my ex had said to me, to imagine all the worst-case scenarios. I felt like I was drowning in my own thoughts.",
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little relieved? Like talking about it is helping to let some of the pressure out. Is that normal?"
+    ],
+    [
+      "Therapist: You're very brave for sharing this. How are you feeling now?",
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little relieved? Like talking about it is helping to let some of the pressure out. Is that normal?",
+      "Therapist: Absolutely. That's a common response. You've done excellent work today."
+    ],
+    [
+      "Client: It's... it's intense. My heart is racing, and I feel a bit shaky. But I also feel... I don't know, maybe a little relieved? Like talking about it is helping to let some of the pressure out. Is that normal?",
+      "Therapist: Absolutely. That's a common response. You've done excellent work today.",
+      "Client: Thank you. It's still hard, but I think I'm starting to see that maybe I'm stronger than I thought. That night in the hospital, I felt so weak. But looking back, maybe just surviving it was a kind of strength."
+    ],
+    [
+      "Therapist: Absolutely. That's a common response. You've done excellent work today.",
+      "Client: Thank you. It's still hard, but I think I'm starting to see that maybe I'm stronger than I thought. That night in the hospital, I felt so weak. But looking back, maybe just surviving it was a kind of strength.",
+      "Therapist: That's a powerful realization. We'll end here for today. How are you feeling?"
+    ],
+    [
+      "Client: Thank you. It's still hard, but I think I'm starting to see that maybe I'm stronger than I thought. That night in the hospital, I felt so weak. But looking back, maybe just surviving it was a kind of strength.",
+      "Therapist: That's a powerful realization. We'll end here for today. How are you feeling?",
+      "Client: I'm feeling drained, but also a bit lighter. Thank you for guiding me through this. I know we have more work to do, but I think I'm ready to face it now."
+    ],
+    [
+      "Therapist: That's a powerful realization. We'll end here for today. How are you feeling?",
+      "Client: I'm feeling drained, but also a bit lighter. Thank you for guiding me through this. I know we have more work to do, but I think I'm ready to face it now.",
+      "Therapist: You've made great progress. We'll continue next session. Take care."
+    ]
+  ]
+}

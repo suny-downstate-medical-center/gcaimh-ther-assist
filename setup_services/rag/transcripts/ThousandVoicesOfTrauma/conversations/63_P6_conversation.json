@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, John. Are you ready to continue our imaginal exposure exercise?",
+    "Client: I suppose so, Doc. Not exactly looking forward to it, but I understand it's part of the process.",
+    "Therapist: That's understandable. Let's begin. Close your eyes and recall the memory we discussed. What's your initial SUDS rating?",
+    "Client: Um, I'd say about a 4 out of 10. I can feel my heart starting to beat a bit faster already.",
+    "Therapist: Thank you. Take us through the memory.",
+    "Client: Alright... I'm back in the hospital room. The smell of disinfectant is overwhelming. I'm lying in the bed, and I can hear the beeping of the machines. My ex-wife isn't here... again. I feel so alone, so abandoned. The doctor comes in with a grim look on his face...",
+    "Therapist: How are you feeling now?",
+    "Client: My palms are getting sweaty. The loneliness is crushing. I'd say I'm at a 6 now.",
+    "Therapist: You're doing well. Continue.",
+    "Client: The doctor starts explaining my diagnosis. Cancer. Stage 4. I can barely process the words. All I can think about is how I'll face this alone. No one to hold my hand, no one to drive me to chemo...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's climbing. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+    "Therapist: That's okay. You're safe here. Keep going.",
+    "Client: I... I remember looking out the window, seeing people walking by, living their normal lives. And here I am, my world falling apart. I reach for my phone, wanting to call someone, anyone. But who? My kids are busy with their own lives, my ex-wife... well, you know. I've never felt so utterly alone.",
+    "Therapist: How are you feeling right now?",
+    "Client: I... God, it's hard. My SUDS is a solid 9. I can feel the panic rising, just like it did that day.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: The nurse comes in, asks if there's anyone she can call for me. I just shake my head. She looks at me with pity, and that's almost worse than the diagnosis. I remember thinking, \"This is how I'm going to die. Alone in a sterile room, with no one to mourn me.\"",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's still a 9. My hands are shaking. I can feel the tears coming, just like they did then.",
+    "Therapist: That's okay. Let the emotions come.",
+    "Client: I... I start to cry. Not just for the cancer, but for the life I've lived. All the mistakes, the broken relationships. The nurse tries to comfort me, but it just makes me feel more pathetic. I want to scream, to rage against the unfairness of it all.",
+    "Therapist: How are you feeling now?",
+    "Client: I... I think it's starting to come down a bit. Maybe an 8? The initial shock is passing, but the sadness is still there.",
+    "Therapist: That's normal. You're doing well.",
+    "Client: I remember the doctor coming back in, talking about treatment options. But all I can think about is who will take care of my dog if I die. It's such a small thing, but it nearly breaks me. The loneliness is suffocating.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's coming down. Maybe a 7? I'm starting to feel more... I don't know, resigned? Like I'm watching it happen to someone else.",
+    "Therapist: That's a common response. Continue.",
+    "Client: The rest of the day is a blur. Tests, more doctors, paperwork. I remember calling my son finally, leaving a voicemail. He didn't call back for two days. I spent that night in the hospital, staring at the ceiling, wondering how my life had come to this.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm... I'm okay. Maybe a 5? The intensity has faded, but there's this lingering sadness.",
+    "Therapist: That's progress. You did well today.",
+    "Client: Thanks, Doc. It's still hard, but... I guess it's getting easier to face.",
+    "Therapist: That's the goal. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, John. Are you ready to continue our imaginal exposure exercise?",
+      "Client: I suppose so, Doc. Not exactly looking forward to it, but I understand it's part of the process.",
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the memory we discussed. What's your initial SUDS rating?"
+    ],
+    [
+      "Client: I suppose so, Doc. Not exactly looking forward to it, but I understand it's part of the process.",
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the memory we discussed. What's your initial SUDS rating?",
+      "Client: Um, I'd say about a 4 out of 10. I can feel my heart starting to beat a bit faster already."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the memory we discussed. What's your initial SUDS rating?",
+      "Client: Um, I'd say about a 4 out of 10. I can feel my heart starting to beat a bit faster already.",
+      "Therapist: Thank you. Take us through the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I can feel my heart starting to beat a bit faster already.",
+      "Therapist: Thank you. Take us through the memory.",
+      "Client: Alright... I'm back in the hospital room. The smell of disinfectant is overwhelming. I'm lying in the bed, and I can hear the beeping of the machines. My ex-wife isn't here... again. I feel so alone, so abandoned. The doctor comes in with a grim look on his face..."
+    ],
+    [
+      "Therapist: Thank you. Take us through the memory.",
+      "Client: Alright... I'm back in the hospital room. The smell of disinfectant is overwhelming. I'm lying in the bed, and I can hear the beeping of the machines. My ex-wife isn't here... again. I feel so alone, so abandoned. The doctor comes in with a grim look on his face...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Alright... I'm back in the hospital room. The smell of disinfectant is overwhelming. I'm lying in the bed, and I can hear the beeping of the machines. My ex-wife isn't here... again. I feel so alone, so abandoned. The doctor comes in with a grim look on his face...",
+      "Therapist: How are you feeling now?",
+      "Client: My palms are getting sweaty. The loneliness is crushing. I'd say I'm at a 6 now."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My palms are getting sweaty. The loneliness is crushing. I'd say I'm at a 6 now.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: My palms are getting sweaty. The loneliness is crushing. I'd say I'm at a 6 now.",
+      "Therapist: You're doing well. Continue.",
+      "Client: The doctor starts explaining my diagnosis. Cancer. Stage 4. I can barely process the words. All I can think about is how I'll face this alone. No one to hold my hand, no one to drive me to chemo..."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The doctor starts explaining my diagnosis. Cancer. Stage 4. I can barely process the words. All I can think about is how I'll face this alone. No one to hold my hand, no one to drive me to chemo...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: The doctor starts explaining my diagnosis. Cancer. Stage 4. I can barely process the words. All I can think about is how I'll face this alone. No one to hold my hand, no one to drive me to chemo...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's climbing. Maybe an 8? My chest feels tight, like I can't breathe properly."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's climbing. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+      "Therapist: That's okay. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's climbing. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I... I remember looking out the window, seeing people walking by, living their normal lives. And here I am, my world falling apart. I reach for my phone, wanting to call someone, anyone. But who? My kids are busy with their own lives, my ex-wife... well, you know. I've never felt so utterly alone."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I... I remember looking out the window, seeing people walking by, living their normal lives. And here I am, my world falling apart. I reach for my phone, wanting to call someone, anyone. But who? My kids are busy with their own lives, my ex-wife... well, you know. I've never felt so utterly alone.",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: I... I remember looking out the window, seeing people walking by, living their normal lives. And here I am, my world falling apart. I reach for my phone, wanting to call someone, anyone. But who? My kids are busy with their own lives, my ex-wife... well, you know. I've never felt so utterly alone.",
+      "Therapist: How are you feeling right now?",
+      "Client: I... God, it's hard. My SUDS is a solid 9. I can feel the panic rising, just like it did that day."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I... God, it's hard. My SUDS is a solid 9. I can feel the panic rising, just like it did that day.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: I... God, it's hard. My SUDS is a solid 9. I can feel the panic rising, just like it did that day.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: The nurse comes in, asks if there's anyone she can call for me. I just shake my head. She looks at me with pity, and that's almost worse than the diagnosis. I remember thinking, \"This is how I'm going to die. Alone in a sterile room, with no one to mourn me.\""
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: The nurse comes in, asks if there's anyone she can call for me. I just shake my head. She looks at me with pity, and that's almost worse than the diagnosis. I remember thinking, \"This is how I'm going to die. Alone in a sterile room, with no one to mourn me.\"",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The nurse comes in, asks if there's anyone she can call for me. I just shake my head. She looks at me with pity, and that's almost worse than the diagnosis. I remember thinking, \"This is how I'm going to die. Alone in a sterile room, with no one to mourn me.\"",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's still a 9. My hands are shaking. I can feel the tears coming, just like they did then."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's still a 9. My hands are shaking. I can feel the tears coming, just like they did then.",
+      "Therapist: That's okay. Let the emotions come."
+    ],
+    [
+      "Client: It's... it's still a 9. My hands are shaking. I can feel the tears coming, just like they did then.",
+      "Therapist: That's okay. Let the emotions come.",
+      "Client: I... I start to cry. Not just for the cancer, but for the life I've lived. All the mistakes, the broken relationships. The nurse tries to comfort me, but it just makes me feel more pathetic. I want to scream, to rage against the unfairness of it all."
+    ],
+    [
+      "Therapist: That's okay. Let the emotions come.",
+      "Client: I... I start to cry. Not just for the cancer, but for the life I've lived. All the mistakes, the broken relationships. The nurse tries to comfort me, but it just makes me feel more pathetic. I want to scream, to rage against the unfairness of it all.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I... I start to cry. Not just for the cancer, but for the life I've lived. All the mistakes, the broken relationships. The nurse tries to comfort me, but it just makes me feel more pathetic. I want to scream, to rage against the unfairness of it all.",
+      "Therapist: How are you feeling now?",
+      "Client: I... I think it's starting to come down a bit. Maybe an 8? The initial shock is passing, but the sadness is still there."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I... I think it's starting to come down a bit. Maybe an 8? The initial shock is passing, but the sadness is still there.",
+      "Therapist: That's normal. You're doing well."
+    ],
+    [
+      "Client: I... I think it's starting to come down a bit. Maybe an 8? The initial shock is passing, but the sadness is still there.",
+      "Therapist: That's normal. You're doing well.",
+      "Client: I remember the doctor coming back in, talking about treatment options. But all I can think about is who will take care of my dog if I die. It's such a small thing, but it nearly breaks me. The loneliness is suffocating."
+    ],
+    [
+      "Therapist: That's normal. You're doing well.",
+      "Client: I remember the doctor coming back in, talking about treatment options. But all I can think about is who will take care of my dog if I die. It's such a small thing, but it nearly breaks me. The loneliness is suffocating.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I remember the doctor coming back in, talking about treatment options. But all I can think about is who will take care of my dog if I die. It's such a small thing, but it nearly breaks me. The loneliness is suffocating.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's coming down. Maybe a 7? I'm starting to feel more... I don't know, resigned? Like I'm watching it happen to someone else."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's coming down. Maybe a 7? I'm starting to feel more... I don't know, resigned? Like I'm watching it happen to someone else.",
+      "Therapist: That's a common response. Continue."
+    ],
+    [
+      "Client: It's... it's coming down. Maybe a 7? I'm starting to feel more... I don't know, resigned? Like I'm watching it happen to someone else.",
+      "Therapist: That's a common response. Continue.",
+      "Client: The rest of the day is a blur. Tests, more doctors, paperwork. I remember calling my son finally, leaving a voicemail. He didn't call back for two days. I spent that night in the hospital, staring at the ceiling, wondering how my life had come to this."
+    ],
+    [
+      "Therapist: That's a common response. Continue.",
+      "Client: The rest of the day is a blur. Tests, more doctors, paperwork. I remember calling my son finally, leaving a voicemail. He didn't call back for two days. I spent that night in the hospital, staring at the ceiling, wondering how my life had come to this.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The rest of the day is a blur. Tests, more doctors, paperwork. I remember calling my son finally, leaving a voicemail. He didn't call back for two days. I spent that night in the hospital, staring at the ceiling, wondering how my life had come to this.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm okay. Maybe a 5? The intensity has faded, but there's this lingering sadness."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm... I'm okay. Maybe a 5? The intensity has faded, but there's this lingering sadness.",
+      "Therapist: That's progress. You did well today."
+    ],
+    [
+      "Client: I'm... I'm okay. Maybe a 5? The intensity has faded, but there's this lingering sadness.",
+      "Therapist: That's progress. You did well today.",
+      "Client: Thanks, Doc. It's still hard, but... I guess it's getting easier to face."
+    ],
+    [
+      "Therapist: That's progress. You did well today.",
+      "Client: Thanks, Doc. It's still hard, but... I guess it's getting easier to face.",
+      "Therapist: That's the goal. We'll continue next session."
+    ]
+  ]
+}

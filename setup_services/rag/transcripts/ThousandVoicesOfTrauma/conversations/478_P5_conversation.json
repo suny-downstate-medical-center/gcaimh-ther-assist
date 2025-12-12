@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Nguyen, today we'll begin imaginal exposure. Are you ready to discuss this?",
+    "Client: I think so, Dr. Patel. But I'm not entirely sure what that means. Can you explain it to me?",
+    "Therapist: Of course. It involves revisiting your traumatic memory in a safe environment. How does that sound?",
+    "Client: (Hesitates) I... I'm not sure. The thought of reliving that night... it's terrifying. I've spent years trying to forget it. Why would we want to bring it all back?",
+    "Therapist: I understand your concern. This helps process the memory and reduce its power over you. What are your thoughts?",
+    "Client: (Sighs) I see. It's just... ever since that home invasion, I've felt so vulnerable. My wife was still alive then, and she helped me through it. But now, being alone... it's harder to face these memories.",
+    "Therapist: Your feelings are valid. This process can be challenging, but I'll support you throughout. How does that reassurance feel?",
+    "Client: It helps, thank you. I guess I'm worried about how I'll react. What if I can't handle it? What if I have a panic attack?",
+    "Therapist: Those are natural concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+    "Client: That's somewhat comforting. I appreciate your patience, Dr. Patel. I know at my age, I should be braver, but this anxiety... it's crippling sometimes. Especially living alone now.",
+    "Therapist: You're showing immense courage by being here. Age doesn't diminish the impact of trauma. Shall we continue?",
+    "Client: (Nods slowly) Yes, let's continue. I want to get better, for myself and for my grandchildren. They worry about me, you know. I want to be strong for them.",
+    "Therapist: That's a powerful motivation. During the exposure, you might feel distress. That's normal and will decrease over time. Okay?",
+    "Client: I understand. It's a bit like facing a fear, isn't it? I remember when I first came to this country, everything was new and scary. But I faced it then. I can face this now.",
+    "Therapist: Exactly. Your resilience is admirable. Are you ready to begin, or do you have any more questions?",
+    "Client: I think I'm ready. But... can we take breaks if it gets too intense? And... will you help me if I start to panic?",
+    "Therapist: Absolutely. We'll take breaks as needed, and I'll guide you through any difficult moments. Shall we start?",
+    "Client: (Takes a deep breath) Okay, Dr. Patel. I trust you. Let's do this. For my peace of mind, for my family. I want to reclaim my sense of safety in my own home.",
+    "Therapist: Your determination is inspiring. Let's begin gently. Close your eyes when you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Nguyen, today we'll begin imaginal exposure. Are you ready to discuss this?",
+      "Client: I think so, Dr. Patel. But I'm not entirely sure what that means. Can you explain it to me?",
+      "Therapist: Of course. It involves revisiting your traumatic memory in a safe environment. How does that sound?"
+    ],
+    [
+      "Client: I think so, Dr. Patel. But I'm not entirely sure what that means. Can you explain it to me?",
+      "Therapist: Of course. It involves revisiting your traumatic memory in a safe environment. How does that sound?",
+      "Client: (Hesitates) I... I'm not sure. The thought of reliving that night... it's terrifying. I've spent years trying to forget it. Why would we want to bring it all back?"
+    ],
+    [
+      "Therapist: Of course. It involves revisiting your traumatic memory in a safe environment. How does that sound?",
+      "Client: (Hesitates) I... I'm not sure. The thought of reliving that night... it's terrifying. I've spent years trying to forget it. Why would we want to bring it all back?",
+      "Therapist: I understand your concern. This helps process the memory and reduce its power over you. What are your thoughts?"
+    ],
+    [
+      "Client: (Hesitates) I... I'm not sure. The thought of reliving that night... it's terrifying. I've spent years trying to forget it. Why would we want to bring it all back?",
+      "Therapist: I understand your concern. This helps process the memory and reduce its power over you. What are your thoughts?",
+      "Client: (Sighs) I see. It's just... ever since that home invasion, I've felt so vulnerable. My wife was still alive then, and she helped me through it. But now, being alone... it's harder to face these memories."
+    ],
+    [
+      "Therapist: I understand your concern. This helps process the memory and reduce its power over you. What are your thoughts?",
+      "Client: (Sighs) I see. It's just... ever since that home invasion, I've felt so vulnerable. My wife was still alive then, and she helped me through it. But now, being alone... it's harder to face these memories.",
+      "Therapist: Your feelings are valid. This process can be challenging, but I'll support you throughout. How does that reassurance feel?"
+    ],
+    [
+      "Client: (Sighs) I see. It's just... ever since that home invasion, I've felt so vulnerable. My wife was still alive then, and she helped me through it. But now, being alone... it's harder to face these memories.",
+      "Therapist: Your feelings are valid. This process can be challenging, but I'll support you throughout. How does that reassurance feel?",
+      "Client: It helps, thank you. I guess I'm worried about how I'll react. What if I can't handle it? What if I have a panic attack?"
+    ],
+    [
+      "Therapist: Your feelings are valid. This process can be challenging, but I'll support you throughout. How does that reassurance feel?",
+      "Client: It helps, thank you. I guess I'm worried about how I'll react. What if I can't handle it? What if I have a panic attack?",
+      "Therapist: Those are natural concerns. We'll go at your pace, and you can stop anytime. How does that sound?"
+    ],
+    [
+      "Client: It helps, thank you. I guess I'm worried about how I'll react. What if I can't handle it? What if I have a panic attack?",
+      "Therapist: Those are natural concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's somewhat comforting. I appreciate your patience, Dr. Patel. I know at my age, I should be braver, but this anxiety... it's crippling sometimes. Especially living alone now."
+    ],
+    [
+      "Therapist: Those are natural concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's somewhat comforting. I appreciate your patience, Dr. Patel. I know at my age, I should be braver, but this anxiety... it's crippling sometimes. Especially living alone now.",
+      "Therapist: You're showing immense courage by being here. Age doesn't diminish the impact of trauma. Shall we continue?"
+    ],
+    [
+      "Client: That's somewhat comforting. I appreciate your patience, Dr. Patel. I know at my age, I should be braver, but this anxiety... it's crippling sometimes. Especially living alone now.",
+      "Therapist: You're showing immense courage by being here. Age doesn't diminish the impact of trauma. Shall we continue?",
+      "Client: (Nods slowly) Yes, let's continue. I want to get better, for myself and for my grandchildren. They worry about me, you know. I want to be strong for them."
+    ],
+    [
+      "Therapist: You're showing immense courage by being here. Age doesn't diminish the impact of trauma. Shall we continue?",
+      "Client: (Nods slowly) Yes, let's continue. I want to get better, for myself and for my grandchildren. They worry about me, you know. I want to be strong for them.",
+      "Therapist: That's a powerful motivation. During the exposure, you might feel distress. That's normal and will decrease over time. Okay?"
+    ],
+    [
+      "Client: (Nods slowly) Yes, let's continue. I want to get better, for myself and for my grandchildren. They worry about me, you know. I want to be strong for them.",
+      "Therapist: That's a powerful motivation. During the exposure, you might feel distress. That's normal and will decrease over time. Okay?",
+      "Client: I understand. It's a bit like facing a fear, isn't it? I remember when I first came to this country, everything was new and scary. But I faced it then. I can face this now."
+    ],
+    [
+      "Therapist: That's a powerful motivation. During the exposure, you might feel distress. That's normal and will decrease over time. Okay?",
+      "Client: I understand. It's a bit like facing a fear, isn't it? I remember when I first came to this country, everything was new and scary. But I faced it then. I can face this now.",
+      "Therapist: Exactly. Your resilience is admirable. Are you ready to begin, or do you have any more questions?"
+    ],
+    [
+      "Client: I understand. It's a bit like facing a fear, isn't it? I remember when I first came to this country, everything was new and scary. But I faced it then. I can face this now.",
+      "Therapist: Exactly. Your resilience is admirable. Are you ready to begin, or do you have any more questions?",
+      "Client: I think I'm ready. But... can we take breaks if it gets too intense? And... will you help me if I start to panic?"
+    ],
+    [
+      "Therapist: Exactly. Your resilience is admirable. Are you ready to begin, or do you have any more questions?",
+      "Client: I think I'm ready. But... can we take breaks if it gets too intense? And... will you help me if I start to panic?",
+      "Therapist: Absolutely. We'll take breaks as needed, and I'll guide you through any difficult moments. Shall we start?"
+    ],
+    [
+      "Client: I think I'm ready. But... can we take breaks if it gets too intense? And... will you help me if I start to panic?",
+      "Therapist: Absolutely. We'll take breaks as needed, and I'll guide you through any difficult moments. Shall we start?",
+      "Client: (Takes a deep breath) Okay, Dr. Patel. I trust you. Let's do this. For my peace of mind, for my family. I want to reclaim my sense of safety in my own home."
+    ],
+    [
+      "Therapist: Absolutely. We'll take breaks as needed, and I'll guide you through any difficult moments. Shall we start?",
+      "Client: (Takes a deep breath) Okay, Dr. Patel. I trust you. Let's do this. For my peace of mind, for my family. I want to reclaim my sense of safety in my own home.",
+      "Therapist: Your determination is inspiring. Let's begin gently. Close your eyes when you're ready."
+    ]
+  ]
+}

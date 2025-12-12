@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mr. Johnson. How are you feeling today?",
+    "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+    "Therapist: That's understandable. Let's talk about the imaginal exposure we discussed.",
+    "Client: Right, that. I'm not sure I'm ready for this. The idea of reliving those experiences... it's terrifying. I've spent so long trying to forget.",
+    "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+    "Client: It's just... I've built a life for myself now. I have a family, my own business. I'm afraid that if I go back to those memories, I'll fall apart. What if I can't handle it?",
+    "Therapist: I hear your worry. How do you think this might affect your daily life?",
+    "Client: I'm scared it might bring back nightmares, or make me withdraw from my family. I've worked so hard to be present for them. And my business... I can't afford to lose focus.",
+    "Therapist: Those are important concerns. How do you cope with stress currently?",
+    "Client: I try to stay busy, keep my mind occupied. Sometimes I go for long runs or work extra hours. But I know that's not really dealing with it.",
+    "Therapist: I see. The exposure is actually designed to help process these memories.",
+    "Client: Really? How does that work? It seems counterintuitive to purposely think about the things I've been avoiding.",
+    "Therapist: By facing the memories in a safe environment, we can reduce their power over you.",
+    "Client: That makes sense, I suppose. But what if I get overwhelmed during the session? What if I can't handle it?",
+    "Therapist: We'll go at your pace. You're in control, and we can pause anytime.",
+    "Client: Okay, that's reassuring. I appreciate that. Can you tell me more about what to expect during the exposure?",
+    "Therapist: Certainly. We'll focus on one memory. You'll describe it in detail, in the present tense.",
+    "Client: In the present tense? Like it's happening now? That sounds intense. Will you be guiding me through it?",
+    "Therapist: Yes, I'll be here to support you. What other questions do you have?",
+    "Client: I'm wondering about after the session. How will I feel? Will I be able to function normally?",
+    "Therapist: It's normal to feel emotional afterward. We'll debrief and ensure you're grounded before leaving.",
+    "Client: Alright. I'm still nervous, but I think I understand better now. I want to get better, for myself and my family. I'm willing to try this.",
+    "Therapist: Your courage is admirable. This is a significant step in your healing journey.",
+    "Client: Thank you. I appreciate your guidance and support. I guess I'm as ready as I'll ever be. Let's do this.",
+    "Therapist: Excellent. We'll start slow. Remember, you're safe here. Shall we begin?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mr. Johnson. How are you feeling today?",
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we discussed."
+    ],
+    [
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we discussed.",
+      "Client: Right, that. I'm not sure I'm ready for this. The idea of reliving those experiences... it's terrifying. I've spent so long trying to forget."
+    ],
+    [
+      "Therapist: That's understandable. Let's talk about the imaginal exposure we discussed.",
+      "Client: Right, that. I'm not sure I'm ready for this. The idea of reliving those experiences... it's terrifying. I've spent so long trying to forget.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Right, that. I'm not sure I'm ready for this. The idea of reliving those experiences... it's terrifying. I've spent so long trying to forget.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: It's just... I've built a life for myself now. I have a family, my own business. I'm afraid that if I go back to those memories, I'll fall apart. What if I can't handle it?"
+    ],
+    [
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: It's just... I've built a life for myself now. I have a family, my own business. I'm afraid that if I go back to those memories, I'll fall apart. What if I can't handle it?",
+      "Therapist: I hear your worry. How do you think this might affect your daily life?"
+    ],
+    [
+      "Client: It's just... I've built a life for myself now. I have a family, my own business. I'm afraid that if I go back to those memories, I'll fall apart. What if I can't handle it?",
+      "Therapist: I hear your worry. How do you think this might affect your daily life?",
+      "Client: I'm scared it might bring back nightmares, or make me withdraw from my family. I've worked so hard to be present for them. And my business... I can't afford to lose focus."
+    ],
+    [
+      "Therapist: I hear your worry. How do you think this might affect your daily life?",
+      "Client: I'm scared it might bring back nightmares, or make me withdraw from my family. I've worked so hard to be present for them. And my business... I can't afford to lose focus.",
+      "Therapist: Those are important concerns. How do you cope with stress currently?"
+    ],
+    [
+      "Client: I'm scared it might bring back nightmares, or make me withdraw from my family. I've worked so hard to be present for them. And my business... I can't afford to lose focus.",
+      "Therapist: Those are important concerns. How do you cope with stress currently?",
+      "Client: I try to stay busy, keep my mind occupied. Sometimes I go for long runs or work extra hours. But I know that's not really dealing with it."
+    ],
+    [
+      "Therapist: Those are important concerns. How do you cope with stress currently?",
+      "Client: I try to stay busy, keep my mind occupied. Sometimes I go for long runs or work extra hours. But I know that's not really dealing with it.",
+      "Therapist: I see. The exposure is actually designed to help process these memories."
+    ],
+    [
+      "Client: I try to stay busy, keep my mind occupied. Sometimes I go for long runs or work extra hours. But I know that's not really dealing with it.",
+      "Therapist: I see. The exposure is actually designed to help process these memories.",
+      "Client: Really? How does that work? It seems counterintuitive to purposely think about the things I've been avoiding."
+    ],
+    [
+      "Therapist: I see. The exposure is actually designed to help process these memories.",
+      "Client: Really? How does that work? It seems counterintuitive to purposely think about the things I've been avoiding.",
+      "Therapist: By facing the memories in a safe environment, we can reduce their power over you."
+    ],
+    [
+      "Client: Really? How does that work? It seems counterintuitive to purposely think about the things I've been avoiding.",
+      "Therapist: By facing the memories in a safe environment, we can reduce their power over you.",
+      "Client: That makes sense, I suppose. But what if I get overwhelmed during the session? What if I can't handle it?"
+    ],
+    [
+      "Therapist: By facing the memories in a safe environment, we can reduce their power over you.",
+      "Client: That makes sense, I suppose. But what if I get overwhelmed during the session? What if I can't handle it?",
+      "Therapist: We'll go at your pace. You're in control, and we can pause anytime."
+    ],
+    [
+      "Client: That makes sense, I suppose. But what if I get overwhelmed during the session? What if I can't handle it?",
+      "Therapist: We'll go at your pace. You're in control, and we can pause anytime.",
+      "Client: Okay, that's reassuring. I appreciate that. Can you tell me more about what to expect during the exposure?"
+    ],
+    [
+      "Therapist: We'll go at your pace. You're in control, and we can pause anytime.",
+      "Client: Okay, that's reassuring. I appreciate that. Can you tell me more about what to expect during the exposure?",
+      "Therapist: Certainly. We'll focus on one memory. You'll describe it in detail, in the present tense."
+    ],
+    [
+      "Client: Okay, that's reassuring. I appreciate that. Can you tell me more about what to expect during the exposure?",
+      "Therapist: Certainly. We'll focus on one memory. You'll describe it in detail, in the present tense.",
+      "Client: In the present tense? Like it's happening now? That sounds intense. Will you be guiding me through it?"
+    ],
+    [
+      "Therapist: Certainly. We'll focus on one memory. You'll describe it in detail, in the present tense.",
+      "Client: In the present tense? Like it's happening now? That sounds intense. Will you be guiding me through it?",
+      "Therapist: Yes, I'll be here to support you. What other questions do you have?"
+    ],
+    [
+      "Client: In the present tense? Like it's happening now? That sounds intense. Will you be guiding me through it?",
+      "Therapist: Yes, I'll be here to support you. What other questions do you have?",
+      "Client: I'm wondering about after the session. How will I feel? Will I be able to function normally?"
+    ],
+    [
+      "Therapist: Yes, I'll be here to support you. What other questions do you have?",
+      "Client: I'm wondering about after the session. How will I feel? Will I be able to function normally?",
+      "Therapist: It's normal to feel emotional afterward. We'll debrief and ensure you're grounded before leaving."
+    ],
+    [
+      "Client: I'm wondering about after the session. How will I feel? Will I be able to function normally?",
+      "Therapist: It's normal to feel emotional afterward. We'll debrief and ensure you're grounded before leaving.",
+      "Client: Alright. I'm still nervous, but I think I understand better now. I want to get better, for myself and my family. I'm willing to try this."
+    ],
+    [
+      "Therapist: It's normal to feel emotional afterward. We'll debrief and ensure you're grounded before leaving.",
+      "Client: Alright. I'm still nervous, but I think I understand better now. I want to get better, for myself and my family. I'm willing to try this.",
+      "Therapist: Your courage is admirable. This is a significant step in your healing journey."
+    ],
+    [
+      "Client: Alright. I'm still nervous, but I think I understand better now. I want to get better, for myself and my family. I'm willing to try this.",
+      "Therapist: Your courage is admirable. This is a significant step in your healing journey.",
+      "Client: Thank you. I appreciate your guidance and support. I guess I'm as ready as I'll ever be. Let's do this."
+    ],
+    [
+      "Therapist: Your courage is admirable. This is a significant step in your healing journey.",
+      "Client: Thank you. I appreciate your guidance and support. I guess I'm as ready as I'll ever be. Let's do this.",
+      "Therapist: Excellent. We'll start slow. Remember, you're safe here. Shall we begin?"
+    ]
+  ]
+}

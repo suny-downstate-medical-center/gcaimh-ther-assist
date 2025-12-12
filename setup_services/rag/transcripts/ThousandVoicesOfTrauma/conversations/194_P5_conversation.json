@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Today, we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: I'm not sure, to be honest. I've been thinking about it since you mentioned it last week, and I'm feeling a bit anxious. What exactly does it involve?",
+    "Therapist: It's normal to feel anxious. Imaginal exposure involves revisiting your traumatic memory in a safe space. Can you share your main concerns?",
+    "Client: Well, I'm worried about reliving those moments. The incident with the police... it's still so vivid. I've spent years trying to forget it. Won't this make things worse?",
+    "Therapist: I understand your concern. This process actually helps reduce the memory's power over time. How does that sound to you?",
+    "Client: I guess that makes sense, but it's still scary. I've been having more nightmares lately, just thinking about doing this. What if I can't handle it? What if I completely fall apart?",
+    "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What do you think might help you feel more comfortable?",
+    "Client: I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And how long it will take? I think knowing the details might help me feel more prepared.",
+    "Therapist: Of course. We'll start with a brief relaxation exercise, then you'll describe the memory out loud. It'll last about 30-45 minutes. How does that sound?",
+    "Client: That's longer than I expected. Will I have to talk the whole time? What if I can't remember everything or if I get too overwhelmed to continue?",
+    "Therapist: You'll guide the narrative, and we can pause if needed. Remember, you're in control. What are your thoughts on that?",
+    "Client: It's a bit reassuring to know I have some control. But I'm still nervous. Will this really help with my symptoms? The nightmares, the constant anxiety, especially around authority figures?",
+    "Therapist: Many find it reduces symptoms over time. It's challenging but effective. How do you feel about giving it a try?",
+    "Client: I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always afraid. If this can help... I guess I'm willing to try. But can we start slowly?",
+    "Therapist: Absolutely. We'll start at your pace. Your courage is admirable. Any other questions before we begin?",
+    "Client: I think I'm okay for now. Just... please be patient with me if I struggle. This isn't easy for me to talk about, especially given my cultural background. We don't really discuss these things openly.",
+    "Therapist: I appreciate you sharing that. Your cultural perspective is important. Shall we start with a brief relaxation exercise?",
+    "Client: Yes, I think that would help. And... thank you for understanding. I'm nervous, but I'm also hopeful that this might finally help me move forward."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Today, we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: I'm not sure, to be honest. I've been thinking about it since you mentioned it last week, and I'm feeling a bit anxious. What exactly does it involve?",
+      "Therapist: It's normal to feel anxious. Imaginal exposure involves revisiting your traumatic memory in a safe space. Can you share your main concerns?"
+    ],
+    [
+      "Client: I'm not sure, to be honest. I've been thinking about it since you mentioned it last week, and I'm feeling a bit anxious. What exactly does it involve?",
+      "Therapist: It's normal to feel anxious. Imaginal exposure involves revisiting your traumatic memory in a safe space. Can you share your main concerns?",
+      "Client: Well, I'm worried about reliving those moments. The incident with the police... it's still so vivid. I've spent years trying to forget it. Won't this make things worse?"
+    ],
+    [
+      "Therapist: It's normal to feel anxious. Imaginal exposure involves revisiting your traumatic memory in a safe space. Can you share your main concerns?",
+      "Client: Well, I'm worried about reliving those moments. The incident with the police... it's still so vivid. I've spent years trying to forget it. Won't this make things worse?",
+      "Therapist: I understand your concern. This process actually helps reduce the memory's power over time. How does that sound to you?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving those moments. The incident with the police... it's still so vivid. I've spent years trying to forget it. Won't this make things worse?",
+      "Therapist: I understand your concern. This process actually helps reduce the memory's power over time. How does that sound to you?",
+      "Client: I guess that makes sense, but it's still scary. I've been having more nightmares lately, just thinking about doing this. What if I can't handle it? What if I completely fall apart?"
+    ],
+    [
+      "Therapist: I understand your concern. This process actually helps reduce the memory's power over time. How does that sound to you?",
+      "Client: I guess that makes sense, but it's still scary. I've been having more nightmares lately, just thinking about doing this. What if I can't handle it? What if I completely fall apart?",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What do you think might help you feel more comfortable?"
+    ],
+    [
+      "Client: I guess that makes sense, but it's still scary. I've been having more nightmares lately, just thinking about doing this. What if I can't handle it? What if I completely fall apart?",
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What do you think might help you feel more comfortable?",
+      "Client: I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And how long it will take? I think knowing the details might help me feel more prepared."
+    ],
+    [
+      "Therapist: Your feelings are valid. We'll go at your pace, and I'll be here to support you. What do you think might help you feel more comfortable?",
+      "Client: I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And how long it will take? I think knowing the details might help me feel more prepared.",
+      "Therapist: Of course. We'll start with a brief relaxation exercise, then you'll describe the memory out loud. It'll last about 30-45 minutes. How does that sound?"
+    ],
+    [
+      "Client: I'm not sure. Maybe... could you explain more about what exactly we'll be doing? And how long it will take? I think knowing the details might help me feel more prepared.",
+      "Therapist: Of course. We'll start with a brief relaxation exercise, then you'll describe the memory out loud. It'll last about 30-45 minutes. How does that sound?",
+      "Client: That's longer than I expected. Will I have to talk the whole time? What if I can't remember everything or if I get too overwhelmed to continue?"
+    ],
+    [
+      "Therapist: Of course. We'll start with a brief relaxation exercise, then you'll describe the memory out loud. It'll last about 30-45 minutes. How does that sound?",
+      "Client: That's longer than I expected. Will I have to talk the whole time? What if I can't remember everything or if I get too overwhelmed to continue?",
+      "Therapist: You'll guide the narrative, and we can pause if needed. Remember, you're in control. What are your thoughts on that?"
+    ],
+    [
+      "Client: That's longer than I expected. Will I have to talk the whole time? What if I can't remember everything or if I get too overwhelmed to continue?",
+      "Therapist: You'll guide the narrative, and we can pause if needed. Remember, you're in control. What are your thoughts on that?",
+      "Client: It's a bit reassuring to know I have some control. But I'm still nervous. Will this really help with my symptoms? The nightmares, the constant anxiety, especially around authority figures?"
+    ],
+    [
+      "Therapist: You'll guide the narrative, and we can pause if needed. Remember, you're in control. What are your thoughts on that?",
+      "Client: It's a bit reassuring to know I have some control. But I'm still nervous. Will this really help with my symptoms? The nightmares, the constant anxiety, especially around authority figures?",
+      "Therapist: Many find it reduces symptoms over time. It's challenging but effective. How do you feel about giving it a try?"
+    ],
+    [
+      "Client: It's a bit reassuring to know I have some control. But I'm still nervous. Will this really help with my symptoms? The nightmares, the constant anxiety, especially around authority figures?",
+      "Therapist: Many find it reduces symptoms over time. It's challenging but effective. How do you feel about giving it a try?",
+      "Client: I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always afraid. If this can help... I guess I'm willing to try. But can we start slowly?"
+    ],
+    [
+      "Therapist: Many find it reduces symptoms over time. It's challenging but effective. How do you feel about giving it a try?",
+      "Client: I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always afraid. If this can help... I guess I'm willing to try. But can we start slowly?",
+      "Therapist: Absolutely. We'll start at your pace. Your courage is admirable. Any other questions before we begin?"
+    ],
+    [
+      "Client: I'm scared, but I also want to get better. I'm tired of living like this, always on edge, always afraid. If this can help... I guess I'm willing to try. But can we start slowly?",
+      "Therapist: Absolutely. We'll start at your pace. Your courage is admirable. Any other questions before we begin?",
+      "Client: I think I'm okay for now. Just... please be patient with me if I struggle. This isn't easy for me to talk about, especially given my cultural background. We don't really discuss these things openly."
+    ],
+    [
+      "Therapist: Absolutely. We'll start at your pace. Your courage is admirable. Any other questions before we begin?",
+      "Client: I think I'm okay for now. Just... please be patient with me if I struggle. This isn't easy for me to talk about, especially given my cultural background. We don't really discuss these things openly.",
+      "Therapist: I appreciate you sharing that. Your cultural perspective is important. Shall we start with a brief relaxation exercise?"
+    ],
+    [
+      "Client: I think I'm okay for now. Just... please be patient with me if I struggle. This isn't easy for me to talk about, especially given my cultural background. We don't really discuss these things openly.",
+      "Therapist: I appreciate you sharing that. Your cultural perspective is important. Shall we start with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. And... thank you for understanding. I'm nervous, but I'm also hopeful that this might finally help me move forward."
+    ]
+  ]
+}

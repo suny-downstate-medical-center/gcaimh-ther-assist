@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+    "Client: I'm feeling a bit anxious, to be honest. I know we're going to be diving into some difficult memories, and I'm not sure I'm ready.",
+    "Therapist: That's understandable. We'll take it step by step.",
+    "Client: Okay, I'll try. Where should I start?",
+    "Therapist: Let's begin with the memory we discussed last time. Close your eyes and take a deep breath.",
+    "Client: (Takes a deep breath) Alright, I'm thinking about that day... I was only 12. My uncle had come to visit, and he said he had a special job for me. I remember feeling excited at first, thinking it was going to be something fun.",
+    "Therapist: You're doing well. Continue.",
+    "Client: He drove me to this old warehouse. I started to feel uneasy. There were other men there, and they were looking at me in a way that made my skin crawl. My uncle told me to be a good boy and do what they said. I... I didn't understand what was happening.",
+    "Therapist: It's okay to feel those emotions. You're safe here.",
+    "Client: (Voice trembling) They... they touched me. I wanted to run, but I was so scared. I kept looking at my uncle, hoping he'd stop it, but he just stood there, counting money. I felt so betrayed, so alone.",
+    "Therapist: You're being very brave. Keep going.",
+    "Client: It went on for hours. Different men, different... acts. I dissociated at some point. It was like I was watching it happen to someone else. When it was finally over, my uncle drove me home and told me never to speak of it. He said no one would believe me anyway.",
+    "Therapist: That must have been incredibly difficult. How are you feeling now?",
+    "Client: I feel sick to my stomach. My hands are shaking. I can't believe I'm actually talking about this.",
+    "Therapist: It's normal to have physical reactions. You're doing great.",
+    "Client: For years, I couldn't trust anyone. I had nightmares every night. I started using drugs to numb the pain. It wasn't until I met my wife that I started to feel human again. But even now, sometimes I wake up in a cold sweat, feeling like that helpless child again.",
+    "Therapist: You've shown immense strength. How do you feel about sharing this memory?",
+    "Client: It's... it's hard, but also somewhat relieving. I've carried this secret for so long. Part of me is terrified of facing it, but another part feels like maybe, just maybe, I can start to heal.",
+    "Therapist: That's a positive perspective. Let's continue.",
+    "Client: Okay. (Takes another deep breath) After that first time, it happened again. My uncle would pick me up from school sometimes, saying my parents knew about it. I was too scared to ask them. This went on for almost two years before I finally broke down and told my teacher.",
+    "Therapist: You were very brave to speak up.",
+    "Client: It didn't feel brave at the time. I felt ashamed, like it was my fault somehow. The investigation that followed was almost as traumatic as the abuse itself. Having to recount everything to strangers, seeing the look of horror on my parents' faces... it was overwhelming.",
+    "Therapist: It's understandable to feel that way. You're not alone.",
+    "Client: The court case dragged on for what felt like forever. My uncle denied everything, said I was making it up for attention. Some family members even sided with him. That hurt almost as much as the abuse itself.",
+    "Therapist: That must have been incredibly painful. How are you feeling now?",
+    "Client: I'm feeling... drained. But also, in a strange way, lighter. Like I've finally let out a breath I've been holding for decades.",
+    "Therapist: That's a common feeling. You've done well today.",
+    "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It still hurts, but it feels different now. Like I'm starting to see myself as a survivor rather than a victim.",
+    "Therapist: That's a significant shift. We'll end here for today.",
+    "Client: Okay. Thank you for listening and for helping me through this. I know we have more work to do, but for the first time in a long time, I feel hopeful.",
+    "Therapist: You've made excellent progress. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be diving into some difficult memories, and I'm not sure I'm ready.",
+      "Therapist: That's understandable. We'll take it step by step."
+    ],
+    [
+      "Client: I'm feeling a bit anxious, to be honest. I know we're going to be diving into some difficult memories, and I'm not sure I'm ready.",
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay, I'll try. Where should I start?"
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Let's begin with the memory we discussed last time. Close your eyes and take a deep breath."
+    ],
+    [
+      "Client: Okay, I'll try. Where should I start?",
+      "Therapist: Let's begin with the memory we discussed last time. Close your eyes and take a deep breath.",
+      "Client: (Takes a deep breath) Alright, I'm thinking about that day... I was only 12. My uncle had come to visit, and he said he had a special job for me. I remember feeling excited at first, thinking it was going to be something fun."
+    ],
+    [
+      "Therapist: Let's begin with the memory we discussed last time. Close your eyes and take a deep breath.",
+      "Client: (Takes a deep breath) Alright, I'm thinking about that day... I was only 12. My uncle had come to visit, and he said he had a special job for me. I remember feeling excited at first, thinking it was going to be something fun.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: (Takes a deep breath) Alright, I'm thinking about that day... I was only 12. My uncle had come to visit, and he said he had a special job for me. I remember feeling excited at first, thinking it was going to be something fun.",
+      "Therapist: You're doing well. Continue.",
+      "Client: He drove me to this old warehouse. I started to feel uneasy. There were other men there, and they were looking at me in a way that made my skin crawl. My uncle told me to be a good boy and do what they said. I... I didn't understand what was happening."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: He drove me to this old warehouse. I started to feel uneasy. There were other men there, and they were looking at me in a way that made my skin crawl. My uncle told me to be a good boy and do what they said. I... I didn't understand what was happening.",
+      "Therapist: It's okay to feel those emotions. You're safe here."
+    ],
+    [
+      "Client: He drove me to this old warehouse. I started to feel uneasy. There were other men there, and they were looking at me in a way that made my skin crawl. My uncle told me to be a good boy and do what they said. I... I didn't understand what was happening.",
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: (Voice trembling) They... they touched me. I wanted to run, but I was so scared. I kept looking at my uncle, hoping he'd stop it, but he just stood there, counting money. I felt so betrayed, so alone."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe here.",
+      "Client: (Voice trembling) They... they touched me. I wanted to run, but I was so scared. I kept looking at my uncle, hoping he'd stop it, but he just stood there, counting money. I felt so betrayed, so alone.",
+      "Therapist: You're being very brave. Keep going."
+    ],
+    [
+      "Client: (Voice trembling) They... they touched me. I wanted to run, but I was so scared. I kept looking at my uncle, hoping he'd stop it, but he just stood there, counting money. I felt so betrayed, so alone.",
+      "Therapist: You're being very brave. Keep going.",
+      "Client: It went on for hours. Different men, different... acts. I dissociated at some point. It was like I was watching it happen to someone else. When it was finally over, my uncle drove me home and told me never to speak of it. He said no one would believe me anyway."
+    ],
+    [
+      "Therapist: You're being very brave. Keep going.",
+      "Client: It went on for hours. Different men, different... acts. I dissociated at some point. It was like I was watching it happen to someone else. When it was finally over, my uncle drove me home and told me never to speak of it. He said no one would believe me anyway.",
+      "Therapist: That must have been incredibly difficult. How are you feeling now?"
+    ],
+    [
+      "Client: It went on for hours. Different men, different... acts. I dissociated at some point. It was like I was watching it happen to someone else. When it was finally over, my uncle drove me home and told me never to speak of it. He said no one would believe me anyway.",
+      "Therapist: That must have been incredibly difficult. How are you feeling now?",
+      "Client: I feel sick to my stomach. My hands are shaking. I can't believe I'm actually talking about this."
+    ],
+    [
+      "Therapist: That must have been incredibly difficult. How are you feeling now?",
+      "Client: I feel sick to my stomach. My hands are shaking. I can't believe I'm actually talking about this.",
+      "Therapist: It's normal to have physical reactions. You're doing great."
+    ],
+    [
+      "Client: I feel sick to my stomach. My hands are shaking. I can't believe I'm actually talking about this.",
+      "Therapist: It's normal to have physical reactions. You're doing great.",
+      "Client: For years, I couldn't trust anyone. I had nightmares every night. I started using drugs to numb the pain. It wasn't until I met my wife that I started to feel human again. But even now, sometimes I wake up in a cold sweat, feeling like that helpless child again."
+    ],
+    [
+      "Therapist: It's normal to have physical reactions. You're doing great.",
+      "Client: For years, I couldn't trust anyone. I had nightmares every night. I started using drugs to numb the pain. It wasn't until I met my wife that I started to feel human again. But even now, sometimes I wake up in a cold sweat, feeling like that helpless child again.",
+      "Therapist: You've shown immense strength. How do you feel about sharing this memory?"
+    ],
+    [
+      "Client: For years, I couldn't trust anyone. I had nightmares every night. I started using drugs to numb the pain. It wasn't until I met my wife that I started to feel human again. But even now, sometimes I wake up in a cold sweat, feeling like that helpless child again.",
+      "Therapist: You've shown immense strength. How do you feel about sharing this memory?",
+      "Client: It's... it's hard, but also somewhat relieving. I've carried this secret for so long. Part of me is terrified of facing it, but another part feels like maybe, just maybe, I can start to heal."
+    ],
+    [
+      "Therapist: You've shown immense strength. How do you feel about sharing this memory?",
+      "Client: It's... it's hard, but also somewhat relieving. I've carried this secret for so long. Part of me is terrified of facing it, but another part feels like maybe, just maybe, I can start to heal.",
+      "Therapist: That's a positive perspective. Let's continue."
+    ],
+    [
+      "Client: It's... it's hard, but also somewhat relieving. I've carried this secret for so long. Part of me is terrified of facing it, but another part feels like maybe, just maybe, I can start to heal.",
+      "Therapist: That's a positive perspective. Let's continue.",
+      "Client: Okay. (Takes another deep breath) After that first time, it happened again. My uncle would pick me up from school sometimes, saying my parents knew about it. I was too scared to ask them. This went on for almost two years before I finally broke down and told my teacher."
+    ],
+    [
+      "Therapist: That's a positive perspective. Let's continue.",
+      "Client: Okay. (Takes another deep breath) After that first time, it happened again. My uncle would pick me up from school sometimes, saying my parents knew about it. I was too scared to ask them. This went on for almost two years before I finally broke down and told my teacher.",
+      "Therapist: You were very brave to speak up."
+    ],
+    [
+      "Client: Okay. (Takes another deep breath) After that first time, it happened again. My uncle would pick me up from school sometimes, saying my parents knew about it. I was too scared to ask them. This went on for almost two years before I finally broke down and told my teacher.",
+      "Therapist: You were very brave to speak up.",
+      "Client: It didn't feel brave at the time. I felt ashamed, like it was my fault somehow. The investigation that followed was almost as traumatic as the abuse itself. Having to recount everything to strangers, seeing the look of horror on my parents' faces... it was overwhelming."
+    ],
+    [
+      "Therapist: You were very brave to speak up.",
+      "Client: It didn't feel brave at the time. I felt ashamed, like it was my fault somehow. The investigation that followed was almost as traumatic as the abuse itself. Having to recount everything to strangers, seeing the look of horror on my parents' faces... it was overwhelming.",
+      "Therapist: It's understandable to feel that way. You're not alone."
+    ],
+    [
+      "Client: It didn't feel brave at the time. I felt ashamed, like it was my fault somehow. The investigation that followed was almost as traumatic as the abuse itself. Having to recount everything to strangers, seeing the look of horror on my parents' faces... it was overwhelming.",
+      "Therapist: It's understandable to feel that way. You're not alone.",
+      "Client: The court case dragged on for what felt like forever. My uncle denied everything, said I was making it up for attention. Some family members even sided with him. That hurt almost as much as the abuse itself."
+    ],
+    [
+      "Therapist: It's understandable to feel that way. You're not alone.",
+      "Client: The court case dragged on for what felt like forever. My uncle denied everything, said I was making it up for attention. Some family members even sided with him. That hurt almost as much as the abuse itself.",
+      "Therapist: That must have been incredibly painful. How are you feeling now?"
+    ],
+    [
+      "Client: The court case dragged on for what felt like forever. My uncle denied everything, said I was making it up for attention. Some family members even sided with him. That hurt almost as much as the abuse itself.",
+      "Therapist: That must have been incredibly painful. How are you feeling now?",
+      "Client: I'm feeling... drained. But also, in a strange way, lighter. Like I've finally let out a breath I've been holding for decades."
+    ],
+    [
+      "Therapist: That must have been incredibly painful. How are you feeling now?",
+      "Client: I'm feeling... drained. But also, in a strange way, lighter. Like I've finally let out a breath I've been holding for decades.",
+      "Therapist: That's a common feeling. You've done well today."
+    ],
+    [
+      "Client: I'm feeling... drained. But also, in a strange way, lighter. Like I've finally let out a breath I've been holding for decades.",
+      "Therapist: That's a common feeling. You've done well today.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It still hurts, but it feels different now. Like I'm starting to see myself as a survivor rather than a victim."
+    ],
+    [
+      "Therapist: That's a common feeling. You've done well today.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It still hurts, but it feels different now. Like I'm starting to see myself as a survivor rather than a victim.",
+      "Therapist: That's a significant shift. We'll end here for today."
+    ],
+    [
+      "Client: Thank you. I never thought I'd be able to talk about this without completely falling apart. It still hurts, but it feels different now. Like I'm starting to see myself as a survivor rather than a victim.",
+      "Therapist: That's a significant shift. We'll end here for today.",
+      "Client: Okay. Thank you for listening and for helping me through this. I know we have more work to do, but for the first time in a long time, I feel hopeful."
+    ],
+    [
+      "Therapist: That's a significant shift. We'll end here for today.",
+      "Client: Okay. Thank you for listening and for helping me through this. I know we have more work to do, but for the first time in a long time, I feel hopeful.",
+      "Therapist: You've made excellent progress. We'll continue next week."
+    ]
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Fatima. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+    "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Remember, you're in control. Let's start with your baseline SUDS rating.",
+    "Client: I'd say about a 4 out of 10. I'm feeling a little tense just thinking about it.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that day in the military hospital...",
+    "Client: (Taking a deep breath) I'm there. The smell of antiseptic is so strong. I can hear the beeping of machines and people rushing around. My heart is starting to race a bit.",
+    "Therapist: Good. Stay with that memory. What do you see?",
+    "Client: I see rows of beds with injured soldiers. Some are groaning in pain. There's blood on the floor. I'm trying to help, but there are so many of them. My hands are shaking as I try to apply pressure to a wound.",
+    "Therapist: How's your distress level now?",
+    "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: A young soldier is brought in on a stretcher. He's barely conscious, and there's so much blood. I freeze for a moment, not knowing what to do. The doctor is yelling orders, but it sounds muffled, like I'm underwater.",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: I feel... helpless. Overwhelmed. My chest is tight, and I'm having trouble catching my breath. The room seems to be spinning a little.",
+    "Therapist: Take a deep breath. You're safe here. What's your SUDS rating now?",
+    "Client: It's an 8. I can feel my heart pounding in my ears.",
+    "Therapist: You're doing great. Keep breathing. What happens next?",
+    "Client: I snap out of it and start helping. We're working frantically to save him, but... (voice breaking) we lose him. I can still see his face, so young. I feel like I failed him.",
+    "Therapist: It's not your fault. How are you feeling right now?",
+    "Client: I'm at a 9. My whole body is tense, and I feel like I might cry.",
+    "Therapist: That's okay. Let it out if you need to. You're safe here.",
+    "Client: (Sobbing) I just... I wish I could have done more. I keep seeing their faces, all the ones we couldn't save.",
+    "Therapist: It's natural to feel that way. Take a moment. How's your breathing?",
+    "Client: It's a bit calmer now. The tightness in my chest is easing a little.",
+    "Therapist: Good. What's your SUDS rating?",
+    "Client: It's come down to a 7. I still feel shaky, but not as overwhelmed.",
+    "Therapist: You're doing really well. Can you describe what you see now?",
+    "Client: The chaos has died down. I'm sitting on a chair, staring at my hands. They're clean now, but I can still feel the stickiness of the blood. A nurse puts a hand on my shoulder, asks if I'm okay.",
+    "Therapist: How does that feel?",
+    "Client: It's... comforting. Like I'm not alone in this. My breathing is steadier now.",
+    "Therapist: That's good. What's your SUDS rating?",
+    "Client: It's down to a 5. I feel drained, but more in control.",
+    "Therapist: You've done excellent work today. Let's start bringing you back to the present.",
+    "Client: (Opening eyes, taking a deep breath) That was intense, but... I feel like I processed some of it.",
+    "Therapist: You showed great courage. How do you feel now?",
+    "Client: Tired, but... lighter somehow. Like I've let go of something I've been carrying.",
+    "Therapist: That's often how it feels. You've made significant progress today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Fatima. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+      "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your baseline SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your baseline SUDS rating.",
+      "Client: I'd say about a 4 out of 10. I'm feeling a little tense just thinking about it."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your baseline SUDS rating.",
+      "Client: I'd say about a 4 out of 10. I'm feeling a little tense just thinking about it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the military hospital..."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. I'm feeling a little tense just thinking about it.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the military hospital...",
+      "Client: (Taking a deep breath) I'm there. The smell of antiseptic is so strong. I can hear the beeping of machines and people rushing around. My heart is starting to race a bit."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that day in the military hospital...",
+      "Client: (Taking a deep breath) I'm there. The smell of antiseptic is so strong. I can hear the beeping of machines and people rushing around. My heart is starting to race a bit.",
+      "Therapist: Good. Stay with that memory. What do you see?"
+    ],
+    [
+      "Client: (Taking a deep breath) I'm there. The smell of antiseptic is so strong. I can hear the beeping of machines and people rushing around. My heart is starting to race a bit.",
+      "Therapist: Good. Stay with that memory. What do you see?",
+      "Client: I see rows of beds with injured soldiers. Some are groaning in pain. There's blood on the floor. I'm trying to help, but there are so many of them. My hands are shaking as I try to apply pressure to a wound."
+    ],
+    [
+      "Therapist: Good. Stay with that memory. What do you see?",
+      "Client: I see rows of beds with injured soldiers. Some are groaning in pain. There's blood on the floor. I'm trying to help, but there are so many of them. My hands are shaking as I try to apply pressure to a wound.",
+      "Therapist: How's your distress level now?"
+    ],
+    [
+      "Client: I see rows of beds with injured soldiers. Some are groaning in pain. There's blood on the floor. I'm trying to help, but there are so many of them. My hands are shaking as I try to apply pressure to a wound.",
+      "Therapist: How's your distress level now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach."
+    ],
+    [
+      "Therapist: How's your distress level now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I feel a knot in my stomach.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: A young soldier is brought in on a stretcher. He's barely conscious, and there's so much blood. I freeze for a moment, not knowing what to do. The doctor is yelling orders, but it sounds muffled, like I'm underwater."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: A young soldier is brought in on a stretcher. He's barely conscious, and there's so much blood. I freeze for a moment, not knowing what to do. The doctor is yelling orders, but it sounds muffled, like I'm underwater.",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: A young soldier is brought in on a stretcher. He's barely conscious, and there's so much blood. I freeze for a moment, not knowing what to do. The doctor is yelling orders, but it sounds muffled, like I'm underwater.",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I feel... helpless. Overwhelmed. My chest is tight, and I'm having trouble catching my breath. The room seems to be spinning a little."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: I feel... helpless. Overwhelmed. My chest is tight, and I'm having trouble catching my breath. The room seems to be spinning a little.",
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS rating now?"
+    ],
+    [
+      "Client: I feel... helpless. Overwhelmed. My chest is tight, and I'm having trouble catching my breath. The room seems to be spinning a little.",
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS rating now?",
+      "Client: It's an 8. I can feel my heart pounding in my ears."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. What's your SUDS rating now?",
+      "Client: It's an 8. I can feel my heart pounding in my ears.",
+      "Therapist: You're doing great. Keep breathing. What happens next?"
+    ],
+    [
+      "Client: It's an 8. I can feel my heart pounding in my ears.",
+      "Therapist: You're doing great. Keep breathing. What happens next?",
+      "Client: I snap out of it and start helping. We're working frantically to save him, but... (voice breaking) we lose him. I can still see his face, so young. I feel like I failed him."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing. What happens next?",
+      "Client: I snap out of it and start helping. We're working frantically to save him, but... (voice breaking) we lose him. I can still see his face, so young. I feel like I failed him.",
+      "Therapist: It's not your fault. How are you feeling right now?"
+    ],
+    [
+      "Client: I snap out of it and start helping. We're working frantically to save him, but... (voice breaking) we lose him. I can still see his face, so young. I feel like I failed him.",
+      "Therapist: It's not your fault. How are you feeling right now?",
+      "Client: I'm at a 9. My whole body is tense, and I feel like I might cry."
+    ],
+    [
+      "Therapist: It's not your fault. How are you feeling right now?",
+      "Client: I'm at a 9. My whole body is tense, and I feel like I might cry.",
+      "Therapist: That's okay. Let it out if you need to. You're safe here."
+    ],
+    [
+      "Client: I'm at a 9. My whole body is tense, and I feel like I might cry.",
+      "Therapist: That's okay. Let it out if you need to. You're safe here.",
+      "Client: (Sobbing) I just... I wish I could have done more. I keep seeing their faces, all the ones we couldn't save."
+    ],
+    [
+      "Therapist: That's okay. Let it out if you need to. You're safe here.",
+      "Client: (Sobbing) I just... I wish I could have done more. I keep seeing their faces, all the ones we couldn't save.",
+      "Therapist: It's natural to feel that way. Take a moment. How's your breathing?"
+    ],
+    [
+      "Client: (Sobbing) I just... I wish I could have done more. I keep seeing their faces, all the ones we couldn't save.",
+      "Therapist: It's natural to feel that way. Take a moment. How's your breathing?",
+      "Client: It's a bit calmer now. The tightness in my chest is easing a little."
+    ],
+    [
+      "Therapist: It's natural to feel that way. Take a moment. How's your breathing?",
+      "Client: It's a bit calmer now. The tightness in my chest is easing a little.",
+      "Therapist: Good. What's your SUDS rating?"
+    ],
+    [
+      "Client: It's a bit calmer now. The tightness in my chest is easing a little.",
+      "Therapist: Good. What's your SUDS rating?",
+      "Client: It's come down to a 7. I still feel shaky, but not as overwhelmed."
+    ],
+    [
+      "Therapist: Good. What's your SUDS rating?",
+      "Client: It's come down to a 7. I still feel shaky, but not as overwhelmed.",
+      "Therapist: You're doing really well. Can you describe what you see now?"
+    ],
+    [
+      "Client: It's come down to a 7. I still feel shaky, but not as overwhelmed.",
+      "Therapist: You're doing really well. Can you describe what you see now?",
+      "Client: The chaos has died down. I'm sitting on a chair, staring at my hands. They're clean now, but I can still feel the stickiness of the blood. A nurse puts a hand on my shoulder, asks if I'm okay."
+    ],
+    [
+      "Therapist: You're doing really well. Can you describe what you see now?",
+      "Client: The chaos has died down. I'm sitting on a chair, staring at my hands. They're clean now, but I can still feel the stickiness of the blood. A nurse puts a hand on my shoulder, asks if I'm okay.",
+      "Therapist: How does that feel?"
+    ],
+    [
+      "Client: The chaos has died down. I'm sitting on a chair, staring at my hands. They're clean now, but I can still feel the stickiness of the blood. A nurse puts a hand on my shoulder, asks if I'm okay.",
+      "Therapist: How does that feel?",
+      "Client: It's... comforting. Like I'm not alone in this. My breathing is steadier now."
+    ],
+    [
+      "Therapist: How does that feel?",
+      "Client: It's... comforting. Like I'm not alone in this. My breathing is steadier now.",
+      "Therapist: That's good. What's your SUDS rating?"
+    ],
+    [
+      "Client: It's... comforting. Like I'm not alone in this. My breathing is steadier now.",
+      "Therapist: That's good. What's your SUDS rating?",
+      "Client: It's down to a 5. I feel drained, but more in control."
+    ],
+    [
+      "Therapist: That's good. What's your SUDS rating?",
+      "Client: It's down to a 5. I feel drained, but more in control.",
+      "Therapist: You've done excellent work today. Let's start bringing you back to the present."
+    ],
+    [
+      "Client: It's down to a 5. I feel drained, but more in control.",
+      "Therapist: You've done excellent work today. Let's start bringing you back to the present.",
+      "Client: (Opening eyes, taking a deep breath) That was intense, but... I feel like I processed some of it."
+    ],
+    [
+      "Therapist: You've done excellent work today. Let's start bringing you back to the present.",
+      "Client: (Opening eyes, taking a deep breath) That was intense, but... I feel like I processed some of it.",
+      "Therapist: You showed great courage. How do you feel now?"
+    ],
+    [
+      "Client: (Opening eyes, taking a deep breath) That was intense, but... I feel like I processed some of it.",
+      "Therapist: You showed great courage. How do you feel now?",
+      "Client: Tired, but... lighter somehow. Like I've let go of something I've been carrying."
+    ],
+    [
+      "Therapist: You showed great courage. How do you feel now?",
+      "Client: Tired, but... lighter somehow. Like I've let go of something I've been carrying.",
+      "Therapist: That's often how it feels. You've made significant progress today."
+    ]
+  ]
+}

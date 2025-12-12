@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the memory.",
+    "Client: Okay... I'm back in the compound. It's dark, and I can smell incense. I hear chanting in the background. My heart is racing already.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: Um, probably a 6 out of 10. I feel tense.",
+    "Therapist: Thank you. Continue.",
+    "Client: I see the leader approaching. He's wearing those ridiculous robes, but everyone looks at him with such reverence. I feel sick to my stomach. He's smiling, but his eyes are cold. I want to run, but I'm frozen in place.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. My palms are sweating, and I feel lightheaded.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: He's telling us about a \"special ceremony\" tonight. I remember feeling so conflicted - part of me was curious, but mostly I was terrified. The other children look excited, but I can see fear in some of their eyes too. I feel so helpless, like I can't protect any of us.",
+    "Therapist: SUDS?",
+    "Client: Still an 8. My chest feels tight, and I'm having trouble breathing normally.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: Thanks. I'm trying. The memory continues... We're led into a dark room. There are candles everywhere, and that sickly-sweet incense is overpowering. The leader starts speaking in that weird language he claimed was \"divine.\" I remember feeling so confused and scared.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's gone up to a 9. I feel like I'm right back there. My whole body is shaking.",
+    "Therapist: You're doing great. Remember, you're here with me, safe.",
+    "Client: Right, right. I'm trying to remind myself of that. In the memory, he's making us drink something. It tastes bitter, and I'm afraid of what it might be. Some kids are crying now, and I want to comfort them, but I can't move. I feel so ashamed that I didn't do anything to help.",
+    "Therapist: SUDS?",
+    "Client: Still a 9. I feel nauseous and dizzy, just like I did then.",
+    "Therapist: It's okay to feel this way. You're processing the memory.",
+    "Client: The room starts spinning, and I realize whatever we drank is affecting us. Kids are falling over, some are laughing hysterically. I feel like I'm floating and sinking at the same time. The leader's voice seems to be coming from everywhere. I'm so scared and confused.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's actually gone down to a 7. I think I'm starting to separate the memory from now a bit.",
+    "Therapist: That's good. You're doing excellent work.",
+    "Client: Thank you. The memory is starting to fade now. I remember waking up the next day, feeling groggy and ashamed. We were told it was a \"spiritual experience,\" but it felt so wrong. I wanted to tell someone, but I was too afraid.",
+    "Therapist: And your final SUDS rating?",
+    "Client: It's down to a 5 now. I feel drained, but also a bit relieved to have shared this.",
+    "Therapist: Well done. Let's take a moment to ground ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory.",
+      "Client: Okay... I'm back in the compound. It's dark, and I can smell incense. I hear chanting in the background. My heart is racing already."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory.",
+      "Client: Okay... I'm back in the compound. It's dark, and I can smell incense. I hear chanting in the background. My heart is racing already.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: Okay... I'm back in the compound. It's dark, and I can smell incense. I hear chanting in the background. My heart is racing already.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: Um, probably a 6 out of 10. I feel tense."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: Um, probably a 6 out of 10. I feel tense.",
+      "Therapist: Thank you. Continue."
+    ],
+    [
+      "Client: Um, probably a 6 out of 10. I feel tense.",
+      "Therapist: Thank you. Continue.",
+      "Client: I see the leader approaching. He's wearing those ridiculous robes, but everyone looks at him with such reverence. I feel sick to my stomach. He's smiling, but his eyes are cold. I want to run, but I'm frozen in place."
+    ],
+    [
+      "Therapist: Thank you. Continue.",
+      "Client: I see the leader approaching. He's wearing those ridiculous robes, but everyone looks at him with such reverence. I feel sick to my stomach. He's smiling, but his eyes are cold. I want to run, but I'm frozen in place.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I see the leader approaching. He's wearing those ridiculous robes, but everyone looks at him with such reverence. I feel sick to my stomach. He's smiling, but his eyes are cold. I want to run, but I'm frozen in place.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. My palms are sweating, and I feel lightheaded."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. My palms are sweating, and I feel lightheaded.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. My palms are sweating, and I feel lightheaded.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's telling us about a \"special ceremony\" tonight. I remember feeling so conflicted - part of me was curious, but mostly I was terrified. The other children look excited, but I can see fear in some of their eyes too. I feel so helpless, like I can't protect any of us."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: He's telling us about a \"special ceremony\" tonight. I remember feeling so conflicted - part of me was curious, but mostly I was terrified. The other children look excited, but I can see fear in some of their eyes too. I feel so helpless, like I can't protect any of us.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: He's telling us about a \"special ceremony\" tonight. I remember feeling so conflicted - part of me was curious, but mostly I was terrified. The other children look excited, but I can see fear in some of their eyes too. I feel so helpless, like I can't protect any of us.",
+      "Therapist: SUDS?",
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing normally."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing normally.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: Still an 8. My chest feels tight, and I'm having trouble breathing normally.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: Thanks. I'm trying. The memory continues... We're led into a dark room. There are candles everywhere, and that sickly-sweet incense is overpowering. The leader starts speaking in that weird language he claimed was \"divine.\" I remember feeling so confused and scared."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: Thanks. I'm trying. The memory continues... We're led into a dark room. There are candles everywhere, and that sickly-sweet incense is overpowering. The leader starts speaking in that weird language he claimed was \"divine.\" I remember feeling so confused and scared.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: Thanks. I'm trying. The memory continues... We're led into a dark room. There are candles everywhere, and that sickly-sweet incense is overpowering. The leader starts speaking in that weird language he claimed was \"divine.\" I remember feeling so confused and scared.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My whole body is shaking."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My whole body is shaking.",
+      "Therapist: You're doing great. Remember, you're here with me, safe."
+    ],
+    [
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My whole body is shaking.",
+      "Therapist: You're doing great. Remember, you're here with me, safe.",
+      "Client: Right, right. I'm trying to remind myself of that. In the memory, he's making us drink something. It tastes bitter, and I'm afraid of what it might be. Some kids are crying now, and I want to comfort them, but I can't move. I feel so ashamed that I didn't do anything to help."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're here with me, safe.",
+      "Client: Right, right. I'm trying to remind myself of that. In the memory, he's making us drink something. It tastes bitter, and I'm afraid of what it might be. Some kids are crying now, and I want to comfort them, but I can't move. I feel so ashamed that I didn't do anything to help.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Right, right. I'm trying to remind myself of that. In the memory, he's making us drink something. It tastes bitter, and I'm afraid of what it might be. Some kids are crying now, and I want to comfort them, but I can't move. I feel so ashamed that I didn't do anything to help.",
+      "Therapist: SUDS?",
+      "Client: Still a 9. I feel nauseous and dizzy, just like I did then."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: Still a 9. I feel nauseous and dizzy, just like I did then.",
+      "Therapist: It's okay to feel this way. You're processing the memory."
+    ],
+    [
+      "Client: Still a 9. I feel nauseous and dizzy, just like I did then.",
+      "Therapist: It's okay to feel this way. You're processing the memory.",
+      "Client: The room starts spinning, and I realize whatever we drank is affecting us. Kids are falling over, some are laughing hysterically. I feel like I'm floating and sinking at the same time. The leader's voice seems to be coming from everywhere. I'm so scared and confused."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're processing the memory.",
+      "Client: The room starts spinning, and I realize whatever we drank is affecting us. Kids are falling over, some are laughing hysterically. I feel like I'm floating and sinking at the same time. The leader's voice seems to be coming from everywhere. I'm so scared and confused.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: The room starts spinning, and I realize whatever we drank is affecting us. Kids are falling over, some are laughing hysterically. I feel like I'm floating and sinking at the same time. The leader's voice seems to be coming from everywhere. I'm so scared and confused.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's actually gone down to a 7. I think I'm starting to separate the memory from now a bit."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's actually gone down to a 7. I think I'm starting to separate the memory from now a bit.",
+      "Therapist: That's good. You're doing excellent work."
+    ],
+    [
+      "Client: It's... it's actually gone down to a 7. I think I'm starting to separate the memory from now a bit.",
+      "Therapist: That's good. You're doing excellent work.",
+      "Client: Thank you. The memory is starting to fade now. I remember waking up the next day, feeling groggy and ashamed. We were told it was a \"spiritual experience,\" but it felt so wrong. I wanted to tell someone, but I was too afraid."
+    ],
+    [
+      "Therapist: That's good. You're doing excellent work.",
+      "Client: Thank you. The memory is starting to fade now. I remember waking up the next day, feeling groggy and ashamed. We were told it was a \"spiritual experience,\" but it felt so wrong. I wanted to tell someone, but I was too afraid.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: Thank you. The memory is starting to fade now. I remember waking up the next day, feeling groggy and ashamed. We were told it was a \"spiritual experience,\" but it felt so wrong. I wanted to tell someone, but I was too afraid.",
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also a bit relieved to have shared this."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also a bit relieved to have shared this.",
+      "Therapist: Well done. Let's take a moment to ground ourselves."
+    ]
+  ]
+}

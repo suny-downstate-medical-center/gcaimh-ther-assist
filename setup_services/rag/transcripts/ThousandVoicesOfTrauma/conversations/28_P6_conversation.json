@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Hamid, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your divorce. What do you see?",
+    "Client: I'm in our living room. Sarah is standing there, her face stern. She's holding divorce papers. I feel... I feel like the floor is dropping out from under me.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: It's about a 6. My hands are starting to sweat.",
+    "Therapist: Okay. Continue describing what's happening.",
+    "Client: Sarah's saying she can't do this anymore. That we've grown apart. I'm trying to speak, but my throat feels tight. I... I remember thinking, \"This can't be happening. Not after 30 years.\"",
+    "Therapist: And now? Your SUDS?",
+    "Client: It's gone up to an 8. My chest feels heavy, like I can't breathe properly.",
+    "Therapist: That's tough. You're doing well. Keep going.",
+    "Client: I'm pleading with her, asking for another chance. But her eyes... they're so cold. I've never seen her look at me like that before. I feel... I feel worthless, like everything I've done means nothing.",
+    "Therapist: Your SUDS now?",
+    "Client: It's... it's a 9. My heart is racing. I feel dizzy, like I might fall.",
+    "Therapist: That's intense. Remember, you're safe here. Take a deep breath.",
+    "Client: *deep breath* She's walking out now. The door closes behind her. I'm alone in our... in my house. It's so quiet. I can hear the clock ticking. It's deafening. I sink to the floor, and I... I start to cry. I haven't cried in years, but now I can't stop.",
+    "Therapist: How's your SUDS level?",
+    "Client: It's still at 9. My face feels hot, and my eyes are stinging. I can almost feel the tears again.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: I spend the night on the floor. I can't bring myself to sleep in our bed. When morning comes, I feel... empty. Like a part of me is gone. I go through the motions of getting ready for work, but everything feels meaningless.",
+    "Therapist: And your SUDS now?",
+    "Client: It's dropped to a 7. I feel... drained. Exhausted.",
+    "Therapist: That's a noticeable change. What do you think caused the decrease?",
+    "Client: I guess... talking about it, I realize I survived that day. It was awful, but I got through it.",
+    "Therapist: That's a powerful realization. How do you feel now?",
+    "Client: My SUDS is down to a 5. I'm feeling... less overwhelmed. Still sad, but... maybe a little stronger.",
+    "Therapist: That's progress. Let's pause here. How was this experience for you?",
+    "Client: It was tough, but... I feel like I understand my emotions better now. It's still painful, but maybe... maybe I can handle it.",
+    "Therapist: That's excellent insight, Hamid. We'll work through this together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Hamid, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your divorce. What do you see?"
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your divorce. What do you see?",
+      "Client: I'm in our living room. Sarah is standing there, her face stern. She's holding divorce papers. I feel... I feel like the floor is dropping out from under me."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the memory of your divorce. What do you see?",
+      "Client: I'm in our living room. Sarah is standing there, her face stern. She's holding divorce papers. I feel... I feel like the floor is dropping out from under me.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: I'm in our living room. Sarah is standing there, her face stern. She's holding divorce papers. I feel... I feel like the floor is dropping out from under me.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. My hands are starting to sweat."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: It's about a 6. My hands are starting to sweat.",
+      "Therapist: Okay. Continue describing what's happening."
+    ],
+    [
+      "Client: It's about a 6. My hands are starting to sweat.",
+      "Therapist: Okay. Continue describing what's happening.",
+      "Client: Sarah's saying she can't do this anymore. That we've grown apart. I'm trying to speak, but my throat feels tight. I... I remember thinking, \"This can't be happening. Not after 30 years.\""
+    ],
+    [
+      "Therapist: Okay. Continue describing what's happening.",
+      "Client: Sarah's saying she can't do this anymore. That we've grown apart. I'm trying to speak, but my throat feels tight. I... I remember thinking, \"This can't be happening. Not after 30 years.\"",
+      "Therapist: And now? Your SUDS?"
+    ],
+    [
+      "Client: Sarah's saying she can't do this anymore. That we've grown apart. I'm trying to speak, but my throat feels tight. I... I remember thinking, \"This can't be happening. Not after 30 years.\"",
+      "Therapist: And now? Your SUDS?",
+      "Client: It's gone up to an 8. My chest feels heavy, like I can't breathe properly."
+    ],
+    [
+      "Therapist: And now? Your SUDS?",
+      "Client: It's gone up to an 8. My chest feels heavy, like I can't breathe properly.",
+      "Therapist: That's tough. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. My chest feels heavy, like I can't breathe properly.",
+      "Therapist: That's tough. You're doing well. Keep going.",
+      "Client: I'm pleading with her, asking for another chance. But her eyes... they're so cold. I've never seen her look at me like that before. I feel... I feel worthless, like everything I've done means nothing."
+    ],
+    [
+      "Therapist: That's tough. You're doing well. Keep going.",
+      "Client: I'm pleading with her, asking for another chance. But her eyes... they're so cold. I've never seen her look at me like that before. I feel... I feel worthless, like everything I've done means nothing.",
+      "Therapist: Your SUDS now?"
+    ],
+    [
+      "Client: I'm pleading with her, asking for another chance. But her eyes... they're so cold. I've never seen her look at me like that before. I feel... I feel worthless, like everything I've done means nothing.",
+      "Therapist: Your SUDS now?",
+      "Client: It's... it's a 9. My heart is racing. I feel dizzy, like I might fall."
+    ],
+    [
+      "Therapist: Your SUDS now?",
+      "Client: It's... it's a 9. My heart is racing. I feel dizzy, like I might fall.",
+      "Therapist: That's intense. Remember, you're safe here. Take a deep breath."
+    ],
+    [
+      "Client: It's... it's a 9. My heart is racing. I feel dizzy, like I might fall.",
+      "Therapist: That's intense. Remember, you're safe here. Take a deep breath.",
+      "Client: *deep breath* She's walking out now. The door closes behind her. I'm alone in our... in my house. It's so quiet. I can hear the clock ticking. It's deafening. I sink to the floor, and I... I start to cry. I haven't cried in years, but now I can't stop."
+    ],
+    [
+      "Therapist: That's intense. Remember, you're safe here. Take a deep breath.",
+      "Client: *deep breath* She's walking out now. The door closes behind her. I'm alone in our... in my house. It's so quiet. I can hear the clock ticking. It's deafening. I sink to the floor, and I... I start to cry. I haven't cried in years, but now I can't stop.",
+      "Therapist: How's your SUDS level?"
+    ],
+    [
+      "Client: *deep breath* She's walking out now. The door closes behind her. I'm alone in our... in my house. It's so quiet. I can hear the clock ticking. It's deafening. I sink to the floor, and I... I start to cry. I haven't cried in years, but now I can't stop.",
+      "Therapist: How's your SUDS level?",
+      "Client: It's still at 9. My face feels hot, and my eyes are stinging. I can almost feel the tears again."
+    ],
+    [
+      "Therapist: How's your SUDS level?",
+      "Client: It's still at 9. My face feels hot, and my eyes are stinging. I can almost feel the tears again.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: It's still at 9. My face feels hot, and my eyes are stinging. I can almost feel the tears again.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I spend the night on the floor. I can't bring myself to sleep in our bed. When morning comes, I feel... empty. Like a part of me is gone. I go through the motions of getting ready for work, but everything feels meaningless."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I spend the night on the floor. I can't bring myself to sleep in our bed. When morning comes, I feel... empty. Like a part of me is gone. I go through the motions of getting ready for work, but everything feels meaningless.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I spend the night on the floor. I can't bring myself to sleep in our bed. When morning comes, I feel... empty. Like a part of me is gone. I go through the motions of getting ready for work, but everything feels meaningless.",
+      "Therapist: And your SUDS now?",
+      "Client: It's dropped to a 7. I feel... drained. Exhausted."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's dropped to a 7. I feel... drained. Exhausted.",
+      "Therapist: That's a noticeable change. What do you think caused the decrease?"
+    ],
+    [
+      "Client: It's dropped to a 7. I feel... drained. Exhausted.",
+      "Therapist: That's a noticeable change. What do you think caused the decrease?",
+      "Client: I guess... talking about it, I realize I survived that day. It was awful, but I got through it."
+    ],
+    [
+      "Therapist: That's a noticeable change. What do you think caused the decrease?",
+      "Client: I guess... talking about it, I realize I survived that day. It was awful, but I got through it.",
+      "Therapist: That's a powerful realization. How do you feel now?"
+    ],
+    [
+      "Client: I guess... talking about it, I realize I survived that day. It was awful, but I got through it.",
+      "Therapist: That's a powerful realization. How do you feel now?",
+      "Client: My SUDS is down to a 5. I'm feeling... less overwhelmed. Still sad, but... maybe a little stronger."
+    ],
+    [
+      "Therapist: That's a powerful realization. How do you feel now?",
+      "Client: My SUDS is down to a 5. I'm feeling... less overwhelmed. Still sad, but... maybe a little stronger.",
+      "Therapist: That's progress. Let's pause here. How was this experience for you?"
+    ],
+    [
+      "Client: My SUDS is down to a 5. I'm feeling... less overwhelmed. Still sad, but... maybe a little stronger.",
+      "Therapist: That's progress. Let's pause here. How was this experience for you?",
+      "Client: It was tough, but... I feel like I understand my emotions better now. It's still painful, but maybe... maybe I can handle it."
+    ],
+    [
+      "Therapist: That's progress. Let's pause here. How was this experience for you?",
+      "Client: It was tough, but... I feel like I understand my emotions better now. It's still painful, but maybe... maybe I can handle it.",
+      "Therapist: That's excellent insight, Hamid. We'll work through this together."
+    ]
+  ]
+}

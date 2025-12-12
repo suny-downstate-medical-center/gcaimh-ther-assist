@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Sarah. How are you feeling today?",
+    "Client: Oh, hello Dr. Thompson. I'm... I'm not sure how I'm feeling, to be honest. A bit nervous, I suppose. I've been thinking about this session all week, and I'm not sure what to expect. My hands are a bit shaky, and my heart feels like it's racing.",
+    "Therapist: That's understandable. We'll take it slow.",
+    "Client: Thank you. I appreciate that. It's just... ever since my diagnosis, everything feels so overwhelming. I keep replaying those moments in the hospital, the fear, the uncertainty. It's like I'm stuck there sometimes, you know?",
+    "Therapist: I hear you. Today, we'll start imaginal exposure.",
+    "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? Will it make me relive everything?",
+    "Therapist: It's a way to process memories safely. We'll go step-by-step.",
+    "Client: I see. But won't that be really difficult? I mean, I've spent so much time trying to avoid thinking about what happened. The idea of purposely bringing it up... it's scary.",
+    "Therapist: It can be challenging, but it's effective for healing.",
+    "Client: Effective for healing... I want that, I really do. But I'm worried about how I'll react. What if I can't handle it? What if I break down completely?",
+    "Therapist: You're stronger than you think. I'll be here to support you.",
+    "Client: That's comforting to hear. I trust you, Dr. Thompson. It's just... this illness has taken so much from me already. My job, my independence... I feel so isolated sometimes. The thought of facing it all head-on is daunting.",
+    "Therapist: It's normal to feel that way. We'll go at your pace.",
+    "Client: Okay, I appreciate that. Can you tell me more about what we'll actually be doing? Will I need to close my eyes? Talk about specific memories?",
+    "Therapist: Yes, you'll describe a memory. I'll guide you through it.",
+    "Client: Describe a memory... alright. And you said you'll guide me through it? That helps. I'm still nervous, but knowing you'll be there makes it feel a bit more manageable. How long will this process take?",
+    "Therapist: Sessions typically last about an hour. We can pause if needed.",
+    "Client: An hour... that's a long time to focus on something so difficult. But I suppose that's part of the process, isn't it? Learning to sit with the discomfort? I'm willing to try. I just hope it helps with these nightmares and flashbacks I've been having.",
+    "Therapist: It often does. Your courage is admirable, Sarah.",
+    "Client: Thank you, Dr. Thompson. That means a lot. I don't feel very courageous most days, but I'm trying. I want to get better, to feel like myself again. If this can help me do that, then I'm willing to face it. Is there anything I should do to prepare for our next session?",
+    "Therapist: Just come as you are. Your willingness is enough.",
+    "Client: Okay, I can do that. Thank you for explaining all of this to me. It's still scary, but I feel a bit more prepared now. I'm grateful for your support through this process.",
+    "Therapist: You're welcome. We'll work through this together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Sarah. How are you feeling today?",
+      "Client: Oh, hello Dr. Thompson. I'm... I'm not sure how I'm feeling, to be honest. A bit nervous, I suppose. I've been thinking about this session all week, and I'm not sure what to expect. My hands are a bit shaky, and my heart feels like it's racing.",
+      "Therapist: That's understandable. We'll take it slow."
+    ],
+    [
+      "Client: Oh, hello Dr. Thompson. I'm... I'm not sure how I'm feeling, to be honest. A bit nervous, I suppose. I've been thinking about this session all week, and I'm not sure what to expect. My hands are a bit shaky, and my heart feels like it's racing.",
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... ever since my diagnosis, everything feels so overwhelming. I keep replaying those moments in the hospital, the fear, the uncertainty. It's like I'm stuck there sometimes, you know?"
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... ever since my diagnosis, everything feels so overwhelming. I keep replaying those moments in the hospital, the fear, the uncertainty. It's like I'm stuck there sometimes, you know?",
+      "Therapist: I hear you. Today, we'll start imaginal exposure."
+    ],
+    [
+      "Client: Thank you. I appreciate that. It's just... ever since my diagnosis, everything feels so overwhelming. I keep replaying those moments in the hospital, the fear, the uncertainty. It's like I'm stuck there sometimes, you know?",
+      "Therapist: I hear you. Today, we'll start imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? Will it make me relive everything?"
+    ],
+    [
+      "Therapist: I hear you. Today, we'll start imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? Will it make me relive everything?",
+      "Therapist: It's a way to process memories safely. We'll go step-by-step."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intimidating. What exactly does that mean? Will it make me relive everything?",
+      "Therapist: It's a way to process memories safely. We'll go step-by-step.",
+      "Client: I see. But won't that be really difficult? I mean, I've spent so much time trying to avoid thinking about what happened. The idea of purposely bringing it up... it's scary."
+    ],
+    [
+      "Therapist: It's a way to process memories safely. We'll go step-by-step.",
+      "Client: I see. But won't that be really difficult? I mean, I've spent so much time trying to avoid thinking about what happened. The idea of purposely bringing it up... it's scary.",
+      "Therapist: It can be challenging, but it's effective for healing."
+    ],
+    [
+      "Client: I see. But won't that be really difficult? I mean, I've spent so much time trying to avoid thinking about what happened. The idea of purposely bringing it up... it's scary.",
+      "Therapist: It can be challenging, but it's effective for healing.",
+      "Client: Effective for healing... I want that, I really do. But I'm worried about how I'll react. What if I can't handle it? What if I break down completely?"
+    ],
+    [
+      "Therapist: It can be challenging, but it's effective for healing.",
+      "Client: Effective for healing... I want that, I really do. But I'm worried about how I'll react. What if I can't handle it? What if I break down completely?",
+      "Therapist: You're stronger than you think. I'll be here to support you."
+    ],
+    [
+      "Client: Effective for healing... I want that, I really do. But I'm worried about how I'll react. What if I can't handle it? What if I break down completely?",
+      "Therapist: You're stronger than you think. I'll be here to support you.",
+      "Client: That's comforting to hear. I trust you, Dr. Thompson. It's just... this illness has taken so much from me already. My job, my independence... I feel so isolated sometimes. The thought of facing it all head-on is daunting."
+    ],
+    [
+      "Therapist: You're stronger than you think. I'll be here to support you.",
+      "Client: That's comforting to hear. I trust you, Dr. Thompson. It's just... this illness has taken so much from me already. My job, my independence... I feel so isolated sometimes. The thought of facing it all head-on is daunting.",
+      "Therapist: It's normal to feel that way. We'll go at your pace."
+    ],
+    [
+      "Client: That's comforting to hear. I trust you, Dr. Thompson. It's just... this illness has taken so much from me already. My job, my independence... I feel so isolated sometimes. The thought of facing it all head-on is daunting.",
+      "Therapist: It's normal to feel that way. We'll go at your pace.",
+      "Client: Okay, I appreciate that. Can you tell me more about what we'll actually be doing? Will I need to close my eyes? Talk about specific memories?"
+    ],
+    [
+      "Therapist: It's normal to feel that way. We'll go at your pace.",
+      "Client: Okay, I appreciate that. Can you tell me more about what we'll actually be doing? Will I need to close my eyes? Talk about specific memories?",
+      "Therapist: Yes, you'll describe a memory. I'll guide you through it."
+    ],
+    [
+      "Client: Okay, I appreciate that. Can you tell me more about what we'll actually be doing? Will I need to close my eyes? Talk about specific memories?",
+      "Therapist: Yes, you'll describe a memory. I'll guide you through it.",
+      "Client: Describe a memory... alright. And you said you'll guide me through it? That helps. I'm still nervous, but knowing you'll be there makes it feel a bit more manageable. How long will this process take?"
+    ],
+    [
+      "Therapist: Yes, you'll describe a memory. I'll guide you through it.",
+      "Client: Describe a memory... alright. And you said you'll guide me through it? That helps. I'm still nervous, but knowing you'll be there makes it feel a bit more manageable. How long will this process take?",
+      "Therapist: Sessions typically last about an hour. We can pause if needed."
+    ],
+    [
+      "Client: Describe a memory... alright. And you said you'll guide me through it? That helps. I'm still nervous, but knowing you'll be there makes it feel a bit more manageable. How long will this process take?",
+      "Therapist: Sessions typically last about an hour. We can pause if needed.",
+      "Client: An hour... that's a long time to focus on something so difficult. But I suppose that's part of the process, isn't it? Learning to sit with the discomfort? I'm willing to try. I just hope it helps with these nightmares and flashbacks I've been having."
+    ],
+    [
+      "Therapist: Sessions typically last about an hour. We can pause if needed.",
+      "Client: An hour... that's a long time to focus on something so difficult. But I suppose that's part of the process, isn't it? Learning to sit with the discomfort? I'm willing to try. I just hope it helps with these nightmares and flashbacks I've been having.",
+      "Therapist: It often does. Your courage is admirable, Sarah."
+    ],
+    [
+      "Client: An hour... that's a long time to focus on something so difficult. But I suppose that's part of the process, isn't it? Learning to sit with the discomfort? I'm willing to try. I just hope it helps with these nightmares and flashbacks I've been having.",
+      "Therapist: It often does. Your courage is admirable, Sarah.",
+      "Client: Thank you, Dr. Thompson. That means a lot. I don't feel very courageous most days, but I'm trying. I want to get better, to feel like myself again. If this can help me do that, then I'm willing to face it. Is there anything I should do to prepare for our next session?"
+    ],
+    [
+      "Therapist: It often does. Your courage is admirable, Sarah.",
+      "Client: Thank you, Dr. Thompson. That means a lot. I don't feel very courageous most days, but I'm trying. I want to get better, to feel like myself again. If this can help me do that, then I'm willing to face it. Is there anything I should do to prepare for our next session?",
+      "Therapist: Just come as you are. Your willingness is enough."
+    ],
+    [
+      "Client: Thank you, Dr. Thompson. That means a lot. I don't feel very courageous most days, but I'm trying. I want to get better, to feel like myself again. If this can help me do that, then I'm willing to face it. Is there anything I should do to prepare for our next session?",
+      "Therapist: Just come as you are. Your willingness is enough.",
+      "Client: Okay, I can do that. Thank you for explaining all of this to me. It's still scary, but I feel a bit more prepared now. I'm grateful for your support through this process."
+    ],
+    [
+      "Therapist: Just come as you are. Your willingness is enough.",
+      "Client: Okay, I can do that. Thank you for explaining all of this to me. It's still scary, but I feel a bit more prepared now. I'm grateful for your support through this process.",
+      "Therapist: You're welcome. We'll work through this together."
+    ]
+  ]
+}

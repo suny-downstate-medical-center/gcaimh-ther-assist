@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+    "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back there, you know? Reliving those moments in the office when my colleagues would gang up on me. I can still hear their laughter, see their smirks. It's like I'm right back there, feeling so small and helpless.",
+    "Therapist: That sounds intense. What stood out to you this time?",
+    "Client: (deep breath) The feeling of isolation, I think. Even though I was surrounded by people, I felt so alone. It's funny, I've been successful in my career, but in that moment, I felt like that scared little girl from my school days all over again. It's like... like the bullying followed me through life, you know?",
+    "Therapist: Mm-hmm. How did your body react during the exposure?",
+    "Client: My heart was racing, and my palms got all sweaty. I noticed I was clenching my jaw too. It's amazing how vivid these physical sensations are, even now. I thought these reactions would lessen over time, but they still feel so... raw.",
+    "Therapist: That's common. How do you think this connects to your day-to-day experiences?",
+    "Client: Well... (pause) I guess it explains why I still get so anxious in meetings or when I have to give presentations. Part of me is always on guard, waiting for someone to humiliate me. It's exhausting, really. I've achieved so much, yet I still feel like an impostor sometimes.",
+    "Therapist: I see. What are your thoughts on that realization?",
+    "Client: It's... enlightening, I suppose. And a bit frustrating. I've worked so hard to overcome this, but it seems like the trauma is still affecting me in ways I didn't even realize. But... I guess recognizing it is the first step, right?",
+    "Therapist: Absolutely. How might this insight help you moving forward?",
+    "Client: (thoughtful pause) Maybe... maybe I can start challenging those anxious thoughts when they come up at work. Remind myself that I'm not that helpless person anymore. I have skills, experience... I've earned my position. It's just hard to believe it sometimes.",
+    "Therapist: That's a great strategy. How do you feel about continuing with the exposures?",
+    "Client: It's tough, I won't lie. But I can see how it's helping. Each time, I feel like I'm reclaiming a bit of myself, you know? It's painful, but... there's also a sense of empowerment. Like I'm finally facing this head-on instead of running from it.",
+    "Therapist: That's wonderful progress. What else have you noticed?",
+    "Client: I think... I'm starting to separate the past from the present more. During the exposure, I could recognize that those bullies aren't in my life anymore. I'm not trapped in that situation now. It's still upsetting, but there's a growing part of me that knows it's over.",
+    "Therapist: That's significant. How does that feel?",
+    "Client: It feels... liberating, in a way. Like I'm starting to break free from this invisible cage I've been carrying around. Don't get me wrong, it's still scary, and I have a long way to go. But for the first time in years, I feel a glimmer of hope that I can overcome this.",
+    "Therapist: You're doing great work. Shall we wrap up for today?",
+    "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I know it's not easy, but I'm committed to seeing this through. I want to reclaim my life, you know? To feel confident and secure in my own skin again.",
+    "Therapist: You're very welcome. Take care, and I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+      "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back there, you know? Reliving those moments in the office when my colleagues would gang up on me. I can still hear their laughter, see their smirks. It's like I'm right back there, feeling so small and helpless.",
+      "Therapist: That sounds intense. What stood out to you this time?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaky, to be honest. It's always hard to go back there, you know? Reliving those moments in the office when my colleagues would gang up on me. I can still hear their laughter, see their smirks. It's like I'm right back there, feeling so small and helpless.",
+      "Therapist: That sounds intense. What stood out to you this time?",
+      "Client: (deep breath) The feeling of isolation, I think. Even though I was surrounded by people, I felt so alone. It's funny, I've been successful in my career, but in that moment, I felt like that scared little girl from my school days all over again. It's like... like the bullying followed me through life, you know?"
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you this time?",
+      "Client: (deep breath) The feeling of isolation, I think. Even though I was surrounded by people, I felt so alone. It's funny, I've been successful in my career, but in that moment, I felt like that scared little girl from my school days all over again. It's like... like the bullying followed me through life, you know?",
+      "Therapist: Mm-hmm. How did your body react during the exposure?"
+    ],
+    [
+      "Client: (deep breath) The feeling of isolation, I think. Even though I was surrounded by people, I felt so alone. It's funny, I've been successful in my career, but in that moment, I felt like that scared little girl from my school days all over again. It's like... like the bullying followed me through life, you know?",
+      "Therapist: Mm-hmm. How did your body react during the exposure?",
+      "Client: My heart was racing, and my palms got all sweaty. I noticed I was clenching my jaw too. It's amazing how vivid these physical sensations are, even now. I thought these reactions would lessen over time, but they still feel so... raw."
+    ],
+    [
+      "Therapist: Mm-hmm. How did your body react during the exposure?",
+      "Client: My heart was racing, and my palms got all sweaty. I noticed I was clenching my jaw too. It's amazing how vivid these physical sensations are, even now. I thought these reactions would lessen over time, but they still feel so... raw.",
+      "Therapist: That's common. How do you think this connects to your day-to-day experiences?"
+    ],
+    [
+      "Client: My heart was racing, and my palms got all sweaty. I noticed I was clenching my jaw too. It's amazing how vivid these physical sensations are, even now. I thought these reactions would lessen over time, but they still feel so... raw.",
+      "Therapist: That's common. How do you think this connects to your day-to-day experiences?",
+      "Client: Well... (pause) I guess it explains why I still get so anxious in meetings or when I have to give presentations. Part of me is always on guard, waiting for someone to humiliate me. It's exhausting, really. I've achieved so much, yet I still feel like an impostor sometimes."
+    ],
+    [
+      "Therapist: That's common. How do you think this connects to your day-to-day experiences?",
+      "Client: Well... (pause) I guess it explains why I still get so anxious in meetings or when I have to give presentations. Part of me is always on guard, waiting for someone to humiliate me. It's exhausting, really. I've achieved so much, yet I still feel like an impostor sometimes.",
+      "Therapist: I see. What are your thoughts on that realization?"
+    ],
+    [
+      "Client: Well... (pause) I guess it explains why I still get so anxious in meetings or when I have to give presentations. Part of me is always on guard, waiting for someone to humiliate me. It's exhausting, really. I've achieved so much, yet I still feel like an impostor sometimes.",
+      "Therapist: I see. What are your thoughts on that realization?",
+      "Client: It's... enlightening, I suppose. And a bit frustrating. I've worked so hard to overcome this, but it seems like the trauma is still affecting me in ways I didn't even realize. But... I guess recognizing it is the first step, right?"
+    ],
+    [
+      "Therapist: I see. What are your thoughts on that realization?",
+      "Client: It's... enlightening, I suppose. And a bit frustrating. I've worked so hard to overcome this, but it seems like the trauma is still affecting me in ways I didn't even realize. But... I guess recognizing it is the first step, right?",
+      "Therapist: Absolutely. How might this insight help you moving forward?"
+    ],
+    [
+      "Client: It's... enlightening, I suppose. And a bit frustrating. I've worked so hard to overcome this, but it seems like the trauma is still affecting me in ways I didn't even realize. But... I guess recognizing it is the first step, right?",
+      "Therapist: Absolutely. How might this insight help you moving forward?",
+      "Client: (thoughtful pause) Maybe... maybe I can start challenging those anxious thoughts when they come up at work. Remind myself that I'm not that helpless person anymore. I have skills, experience... I've earned my position. It's just hard to believe it sometimes."
+    ],
+    [
+      "Therapist: Absolutely. How might this insight help you moving forward?",
+      "Client: (thoughtful pause) Maybe... maybe I can start challenging those anxious thoughts when they come up at work. Remind myself that I'm not that helpless person anymore. I have skills, experience... I've earned my position. It's just hard to believe it sometimes.",
+      "Therapist: That's a great strategy. How do you feel about continuing with the exposures?"
+    ],
+    [
+      "Client: (thoughtful pause) Maybe... maybe I can start challenging those anxious thoughts when they come up at work. Remind myself that I'm not that helpless person anymore. I have skills, experience... I've earned my position. It's just hard to believe it sometimes.",
+      "Therapist: That's a great strategy. How do you feel about continuing with the exposures?",
+      "Client: It's tough, I won't lie. But I can see how it's helping. Each time, I feel like I'm reclaiming a bit of myself, you know? It's painful, but... there's also a sense of empowerment. Like I'm finally facing this head-on instead of running from it."
+    ],
+    [
+      "Therapist: That's a great strategy. How do you feel about continuing with the exposures?",
+      "Client: It's tough, I won't lie. But I can see how it's helping. Each time, I feel like I'm reclaiming a bit of myself, you know? It's painful, but... there's also a sense of empowerment. Like I'm finally facing this head-on instead of running from it.",
+      "Therapist: That's wonderful progress. What else have you noticed?"
+    ],
+    [
+      "Client: It's tough, I won't lie. But I can see how it's helping. Each time, I feel like I'm reclaiming a bit of myself, you know? It's painful, but... there's also a sense of empowerment. Like I'm finally facing this head-on instead of running from it.",
+      "Therapist: That's wonderful progress. What else have you noticed?",
+      "Client: I think... I'm starting to separate the past from the present more. During the exposure, I could recognize that those bullies aren't in my life anymore. I'm not trapped in that situation now. It's still upsetting, but there's a growing part of me that knows it's over."
+    ],
+    [
+      "Therapist: That's wonderful progress. What else have you noticed?",
+      "Client: I think... I'm starting to separate the past from the present more. During the exposure, I could recognize that those bullies aren't in my life anymore. I'm not trapped in that situation now. It's still upsetting, but there's a growing part of me that knows it's over.",
+      "Therapist: That's significant. How does that feel?"
+    ],
+    [
+      "Client: I think... I'm starting to separate the past from the present more. During the exposure, I could recognize that those bullies aren't in my life anymore. I'm not trapped in that situation now. It's still upsetting, but there's a growing part of me that knows it's over.",
+      "Therapist: That's significant. How does that feel?",
+      "Client: It feels... liberating, in a way. Like I'm starting to break free from this invisible cage I've been carrying around. Don't get me wrong, it's still scary, and I have a long way to go. But for the first time in years, I feel a glimmer of hope that I can overcome this."
+    ],
+    [
+      "Therapist: That's significant. How does that feel?",
+      "Client: It feels... liberating, in a way. Like I'm starting to break free from this invisible cage I've been carrying around. Don't get me wrong, it's still scary, and I have a long way to go. But for the first time in years, I feel a glimmer of hope that I can overcome this.",
+      "Therapist: You're doing great work. Shall we wrap up for today?"
+    ],
+    [
+      "Client: It feels... liberating, in a way. Like I'm starting to break free from this invisible cage I've been carrying around. Don't get me wrong, it's still scary, and I have a long way to go. But for the first time in years, I feel a glimmer of hope that I can overcome this.",
+      "Therapist: You're doing great work. Shall we wrap up for today?",
+      "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I know it's not easy, but I'm committed to seeing this through. I want to reclaim my life, you know? To feel confident and secure in my own skin again."
+    ],
+    [
+      "Therapist: You're doing great work. Shall we wrap up for today?",
+      "Client: Yes, I think so. It's been intense, but... good. Thank you for guiding me through this. I know it's not easy, but I'm committed to seeing this through. I want to reclaim my life, you know? To feel confident and secure in my own skin again.",
+      "Therapist: You're very welcome. Take care, and I'll see you next week."
+    ]
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting that hostage situation. My heart is still racing a bit, and I feel a bit lightheaded. It's like I was right back there in that bank, feeling so helpless and scared.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The sound of the gunshot. It was so loud, so sudden. I remember thinking, \"This is it. I'm going to die here.\" I can still hear the screams of the other people in the bank. It's... it's overwhelming.",
+    "Therapist: How did your body react during the memory?",
+    "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I noticed I was clenching my fists too, just like I did that day when I was trying to stay as still as possible.",
+    "Therapist: I see. How does this compare to your daily experiences?",
+    "Client: Well, it's... it's similar in some ways. Sometimes when I hear a loud noise, like a car backfiring, I get that same feeling of panic. My heart races, and I feel like I need to hide. But it's more intense during these sessions. It's like I'm reliving it all over again.",
+    "Therapist: That's a common experience. How are you coping?",
+    "Client: I'm trying to use those breathing exercises you taught me. They help a little, but sometimes it feels like it's not enough. I've been having more trouble sleeping since we started these sessions. I keep seeing their faces... the robbers, I mean. And I feel so guilty for surviving when others didn't.",
+    "Therapist: It's normal to have difficulty. What helps you feel safe now?",
+    "Client: I... I try to remind myself that I'm here, in the present. That I'm safe in my home. Sometimes I call my daughter, just to hear her voice. It grounds me, you know? And I've been trying to stay busy with my garden. The feel of the soil, the smell of the flowers... it helps me stay in the moment.",
+    "Therapist: Those are excellent strategies. What else have you noticed?",
+    "Client: I've noticed that... well, it's getting a little easier each time we do this. Don't get me wrong, it's still hard, but I don't feel as overwhelmed as I did in the beginning. And I've been able to go to the grocery store without having a panic attack. That's... that's progress, right?",
+    "Therapist: Absolutely. How does that make you feel?",
+    "Client: It makes me feel... hopeful, I suppose. Like maybe I can get through this. But then sometimes I worry that I'm forgetting those who didn't make it if I start to feel better. Is that... is that normal?",
+    "Therapist: It's a common concern. How might you honor them?",
+    "Client: I... I hadn't thought about that. Maybe I could volunteer at a local crisis center? Or donate to a victims' fund? I think that might help me feel like I'm doing something positive, instead of just... existing.",
+    "Therapist: That sounds meaningful. What else comes to mind?",
+    "Client: I've been thinking about writing. Maybe sharing my story could help others who've been through similar experiences. I used to love writing when I was younger. It might be... therapeutic. Do you think that could be helpful?",
+    "Therapist: Writing can be very beneficial. How would you start?",
+    "Client: I think I'd start with just journaling for myself. Get my thoughts out on paper. Maybe eventually I could turn it into something more... a memoir or even just a blog. It's scary to think about sharing, but also... empowering? Like I'm taking control of my story.",
+    "Therapist: That's a powerful idea. How does this session inform your next steps?",
+    "Client: I think... I think I need to keep pushing forward. These sessions are hard, but I can see they're helping. I want to focus more on those coping strategies we've discussed, especially when I'm feeling overwhelmed. And maybe I'll start that journal tonight. Just a little bit each day. It's all about small steps, right?",
+    "Therapist: Exactly. Is there anything else you'd like to discuss?",
+    "Client: I... I just want to thank you. This isn't easy, but I feel like I'm finally starting to see a light at the end of the tunnel. I know we have more work to do, but for the first time in a long time, I feel like maybe, just maybe, I can get through this and have a life again. Not the same as before, but... a life worth living.",
+    "Therapist: You're doing great work, Mrs. Johnson. See you next week?",
+    "Client: Yes, I'll be here. Thank you again, doctor. I'm... I'm ready to keep moving forward."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Johnson?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting that hostage situation. My heart is still racing a bit, and I feel a bit lightheaded. It's like I was right back there in that bank, feeling so helpless and scared.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting that hostage situation. My heart is still racing a bit, and I feel a bit lightheaded. It's like I was right back there in that bank, feeling so helpless and scared.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The sound of the gunshot. It was so loud, so sudden. I remember thinking, \"This is it. I'm going to die here.\" I can still hear the screams of the other people in the bank. It's... it's overwhelming."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The sound of the gunshot. It was so loud, so sudden. I remember thinking, \"This is it. I'm going to die here.\" I can still hear the screams of the other people in the bank. It's... it's overwhelming.",
+      "Therapist: How did your body react during the memory?"
+    ],
+    [
+      "Client: The sound of the gunshot. It was so loud, so sudden. I remember thinking, \"This is it. I'm going to die here.\" I can still hear the screams of the other people in the bank. It's... it's overwhelming.",
+      "Therapist: How did your body react during the memory?",
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I noticed I was clenching my fists too, just like I did that day when I was trying to stay as still as possible."
+    ],
+    [
+      "Therapist: How did your body react during the memory?",
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I noticed I was clenching my fists too, just like I did that day when I was trying to stay as still as possible.",
+      "Therapist: I see. How does this compare to your daily experiences?"
+    ],
+    [
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I noticed I was clenching my fists too, just like I did that day when I was trying to stay as still as possible.",
+      "Therapist: I see. How does this compare to your daily experiences?",
+      "Client: Well, it's... it's similar in some ways. Sometimes when I hear a loud noise, like a car backfiring, I get that same feeling of panic. My heart races, and I feel like I need to hide. But it's more intense during these sessions. It's like I'm reliving it all over again."
+    ],
+    [
+      "Therapist: I see. How does this compare to your daily experiences?",
+      "Client: Well, it's... it's similar in some ways. Sometimes when I hear a loud noise, like a car backfiring, I get that same feeling of panic. My heart races, and I feel like I need to hide. But it's more intense during these sessions. It's like I'm reliving it all over again.",
+      "Therapist: That's a common experience. How are you coping?"
+    ],
+    [
+      "Client: Well, it's... it's similar in some ways. Sometimes when I hear a loud noise, like a car backfiring, I get that same feeling of panic. My heart races, and I feel like I need to hide. But it's more intense during these sessions. It's like I'm reliving it all over again.",
+      "Therapist: That's a common experience. How are you coping?",
+      "Client: I'm trying to use those breathing exercises you taught me. They help a little, but sometimes it feels like it's not enough. I've been having more trouble sleeping since we started these sessions. I keep seeing their faces... the robbers, I mean. And I feel so guilty for surviving when others didn't."
+    ],
+    [
+      "Therapist: That's a common experience. How are you coping?",
+      "Client: I'm trying to use those breathing exercises you taught me. They help a little, but sometimes it feels like it's not enough. I've been having more trouble sleeping since we started these sessions. I keep seeing their faces... the robbers, I mean. And I feel so guilty for surviving when others didn't.",
+      "Therapist: It's normal to have difficulty. What helps you feel safe now?"
+    ],
+    [
+      "Client: I'm trying to use those breathing exercises you taught me. They help a little, but sometimes it feels like it's not enough. I've been having more trouble sleeping since we started these sessions. I keep seeing their faces... the robbers, I mean. And I feel so guilty for surviving when others didn't.",
+      "Therapist: It's normal to have difficulty. What helps you feel safe now?",
+      "Client: I... I try to remind myself that I'm here, in the present. That I'm safe in my home. Sometimes I call my daughter, just to hear her voice. It grounds me, you know? And I've been trying to stay busy with my garden. The feel of the soil, the smell of the flowers... it helps me stay in the moment."
+    ],
+    [
+      "Therapist: It's normal to have difficulty. What helps you feel safe now?",
+      "Client: I... I try to remind myself that I'm here, in the present. That I'm safe in my home. Sometimes I call my daughter, just to hear her voice. It grounds me, you know? And I've been trying to stay busy with my garden. The feel of the soil, the smell of the flowers... it helps me stay in the moment.",
+      "Therapist: Those are excellent strategies. What else have you noticed?"
+    ],
+    [
+      "Client: I... I try to remind myself that I'm here, in the present. That I'm safe in my home. Sometimes I call my daughter, just to hear her voice. It grounds me, you know? And I've been trying to stay busy with my garden. The feel of the soil, the smell of the flowers... it helps me stay in the moment.",
+      "Therapist: Those are excellent strategies. What else have you noticed?",
+      "Client: I've noticed that... well, it's getting a little easier each time we do this. Don't get me wrong, it's still hard, but I don't feel as overwhelmed as I did in the beginning. And I've been able to go to the grocery store without having a panic attack. That's... that's progress, right?"
+    ],
+    [
+      "Therapist: Those are excellent strategies. What else have you noticed?",
+      "Client: I've noticed that... well, it's getting a little easier each time we do this. Don't get me wrong, it's still hard, but I don't feel as overwhelmed as I did in the beginning. And I've been able to go to the grocery store without having a panic attack. That's... that's progress, right?",
+      "Therapist: Absolutely. How does that make you feel?"
+    ],
+    [
+      "Client: I've noticed that... well, it's getting a little easier each time we do this. Don't get me wrong, it's still hard, but I don't feel as overwhelmed as I did in the beginning. And I've been able to go to the grocery store without having a panic attack. That's... that's progress, right?",
+      "Therapist: Absolutely. How does that make you feel?",
+      "Client: It makes me feel... hopeful, I suppose. Like maybe I can get through this. But then sometimes I worry that I'm forgetting those who didn't make it if I start to feel better. Is that... is that normal?"
+    ],
+    [
+      "Therapist: Absolutely. How does that make you feel?",
+      "Client: It makes me feel... hopeful, I suppose. Like maybe I can get through this. But then sometimes I worry that I'm forgetting those who didn't make it if I start to feel better. Is that... is that normal?",
+      "Therapist: It's a common concern. How might you honor them?"
+    ],
+    [
+      "Client: It makes me feel... hopeful, I suppose. Like maybe I can get through this. But then sometimes I worry that I'm forgetting those who didn't make it if I start to feel better. Is that... is that normal?",
+      "Therapist: It's a common concern. How might you honor them?",
+      "Client: I... I hadn't thought about that. Maybe I could volunteer at a local crisis center? Or donate to a victims' fund? I think that might help me feel like I'm doing something positive, instead of just... existing."
+    ],
+    [
+      "Therapist: It's a common concern. How might you honor them?",
+      "Client: I... I hadn't thought about that. Maybe I could volunteer at a local crisis center? Or donate to a victims' fund? I think that might help me feel like I'm doing something positive, instead of just... existing.",
+      "Therapist: That sounds meaningful. What else comes to mind?"
+    ],
+    [
+      "Client: I... I hadn't thought about that. Maybe I could volunteer at a local crisis center? Or donate to a victims' fund? I think that might help me feel like I'm doing something positive, instead of just... existing.",
+      "Therapist: That sounds meaningful. What else comes to mind?",
+      "Client: I've been thinking about writing. Maybe sharing my story could help others who've been through similar experiences. I used to love writing when I was younger. It might be... therapeutic. Do you think that could be helpful?"
+    ],
+    [
+      "Therapist: That sounds meaningful. What else comes to mind?",
+      "Client: I've been thinking about writing. Maybe sharing my story could help others who've been through similar experiences. I used to love writing when I was younger. It might be... therapeutic. Do you think that could be helpful?",
+      "Therapist: Writing can be very beneficial. How would you start?"
+    ],
+    [
+      "Client: I've been thinking about writing. Maybe sharing my story could help others who've been through similar experiences. I used to love writing when I was younger. It might be... therapeutic. Do you think that could be helpful?",
+      "Therapist: Writing can be very beneficial. How would you start?",
+      "Client: I think I'd start with just journaling for myself. Get my thoughts out on paper. Maybe eventually I could turn it into something more... a memoir or even just a blog. It's scary to think about sharing, but also... empowering? Like I'm taking control of my story."
+    ],
+    [
+      "Therapist: Writing can be very beneficial. How would you start?",
+      "Client: I think I'd start with just journaling for myself. Get my thoughts out on paper. Maybe eventually I could turn it into something more... a memoir or even just a blog. It's scary to think about sharing, but also... empowering? Like I'm taking control of my story.",
+      "Therapist: That's a powerful idea. How does this session inform your next steps?"
+    ],
+    [
+      "Client: I think I'd start with just journaling for myself. Get my thoughts out on paper. Maybe eventually I could turn it into something more... a memoir or even just a blog. It's scary to think about sharing, but also... empowering? Like I'm taking control of my story.",
+      "Therapist: That's a powerful idea. How does this session inform your next steps?",
+      "Client: I think... I think I need to keep pushing forward. These sessions are hard, but I can see they're helping. I want to focus more on those coping strategies we've discussed, especially when I'm feeling overwhelmed. And maybe I'll start that journal tonight. Just a little bit each day. It's all about small steps, right?"
+    ],
+    [
+      "Therapist: That's a powerful idea. How does this session inform your next steps?",
+      "Client: I think... I think I need to keep pushing forward. These sessions are hard, but I can see they're helping. I want to focus more on those coping strategies we've discussed, especially when I'm feeling overwhelmed. And maybe I'll start that journal tonight. Just a little bit each day. It's all about small steps, right?",
+      "Therapist: Exactly. Is there anything else you'd like to discuss?"
+    ],
+    [
+      "Client: I think... I think I need to keep pushing forward. These sessions are hard, but I can see they're helping. I want to focus more on those coping strategies we've discussed, especially when I'm feeling overwhelmed. And maybe I'll start that journal tonight. Just a little bit each day. It's all about small steps, right?",
+      "Therapist: Exactly. Is there anything else you'd like to discuss?",
+      "Client: I... I just want to thank you. This isn't easy, but I feel like I'm finally starting to see a light at the end of the tunnel. I know we have more work to do, but for the first time in a long time, I feel like maybe, just maybe, I can get through this and have a life again. Not the same as before, but... a life worth living."
+    ],
+    [
+      "Therapist: Exactly. Is there anything else you'd like to discuss?",
+      "Client: I... I just want to thank you. This isn't easy, but I feel like I'm finally starting to see a light at the end of the tunnel. I know we have more work to do, but for the first time in a long time, I feel like maybe, just maybe, I can get through this and have a life again. Not the same as before, but... a life worth living.",
+      "Therapist: You're doing great work, Mrs. Johnson. See you next week?"
+    ],
+    [
+      "Client: I... I just want to thank you. This isn't easy, but I feel like I'm finally starting to see a light at the end of the tunnel. I know we have more work to do, but for the first time in a long time, I feel like maybe, just maybe, I can get through this and have a life again. Not the same as before, but... a life worth living.",
+      "Therapist: You're doing great work, Mrs. Johnson. See you next week?",
+      "Client: Yes, I'll be here. Thank you again, doctor. I'm... I'm ready to keep moving forward."
+    ]
+  ]
+}

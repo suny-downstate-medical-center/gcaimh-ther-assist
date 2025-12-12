@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Sarah. How are you feeling today?",
+    "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: I think so. But I'm not sure what to expect. Can you explain a bit more about what we'll be doing?",
+    "Therapist: Of course. We'll revisit your car accident memory in detail. It may be uncomfortable, but it's crucial for healing.",
+    "Client: That sounds... really scary, to be honest. I've been trying so hard not to think about it. Won't this make things worse?",
+    "Therapist: It's natural to feel scared. But facing the memory helps reduce its power over time. How do you feel about trying?",
+    "Client: I'm willing to try, but I'm worried I might fall apart or have a panic attack. What if I can't handle it?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. Can you share more about your worries?",
+    "Client: Well, sometimes when I think about the accident, I feel like I'm right back there. My heart races, I can't breathe, and I feel so helpless. I'm afraid that if I let myself remember everything, I'll get stuck in that feeling and won't be able to come back to reality.",
+    "Therapist: I hear you. We'll use grounding techniques if needed. How does that sound?",
+    "Client: That's a relief to hear. I think knowing that you have ways to help me if I start to panic will make me feel a bit safer. Can you tell me more about what exactly we'll be doing?",
+    "Therapist: We'll start with breathing exercises, then you'll describe the memory aloud. I'll guide you through it.",
+    "Client: Okay, that doesn't sound too overwhelming. Will I need to close my eyes? Sometimes when I close my eyes, the memories feel even more vivid and scary.",
+    "Therapist: You can keep your eyes open if you prefer. What matters is your comfort. Any other questions?",
+    "Client: I think I'm okay for now. I appreciate you taking the time to explain everything and address my concerns. It helps me feel more prepared. I'm still nervous, but I think I'm ready to give it a try.",
+    "Therapist: Your courage is admirable. This work is challenging but vital for recovery. Shall we begin?",
+    "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful that it will help me move forward and start to feel more like myself again. I'm tired of letting this trauma control my life.",
+    "Therapist: Excellent. Let's start with some deep breaths. Inhale slowly..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Sarah. How are you feeling today?",
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more flashbacks lately, especially at night. It's been hard to sleep.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But I'm not sure what to expect. Can you explain a bit more about what we'll be doing?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: I think so. But I'm not sure what to expect. Can you explain a bit more about what we'll be doing?",
+      "Therapist: Of course. We'll revisit your car accident memory in detail. It may be uncomfortable, but it's crucial for healing."
+    ],
+    [
+      "Client: I think so. But I'm not sure what to expect. Can you explain a bit more about what we'll be doing?",
+      "Therapist: Of course. We'll revisit your car accident memory in detail. It may be uncomfortable, but it's crucial for healing.",
+      "Client: That sounds... really scary, to be honest. I've been trying so hard not to think about it. Won't this make things worse?"
+    ],
+    [
+      "Therapist: Of course. We'll revisit your car accident memory in detail. It may be uncomfortable, but it's crucial for healing.",
+      "Client: That sounds... really scary, to be honest. I've been trying so hard not to think about it. Won't this make things worse?",
+      "Therapist: It's natural to feel scared. But facing the memory helps reduce its power over time. How do you feel about trying?"
+    ],
+    [
+      "Client: That sounds... really scary, to be honest. I've been trying so hard not to think about it. Won't this make things worse?",
+      "Therapist: It's natural to feel scared. But facing the memory helps reduce its power over time. How do you feel about trying?",
+      "Client: I'm willing to try, but I'm worried I might fall apart or have a panic attack. What if I can't handle it?"
+    ],
+    [
+      "Therapist: It's natural to feel scared. But facing the memory helps reduce its power over time. How do you feel about trying?",
+      "Client: I'm willing to try, but I'm worried I might fall apart or have a panic attack. What if I can't handle it?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. Can you share more about your worries?"
+    ],
+    [
+      "Client: I'm willing to try, but I'm worried I might fall apart or have a panic attack. What if I can't handle it?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. Can you share more about your worries?",
+      "Client: Well, sometimes when I think about the accident, I feel like I'm right back there. My heart races, I can't breathe, and I feel so helpless. I'm afraid that if I let myself remember everything, I'll get stuck in that feeling and won't be able to come back to reality."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you throughout. Can you share more about your worries?",
+      "Client: Well, sometimes when I think about the accident, I feel like I'm right back there. My heart races, I can't breathe, and I feel so helpless. I'm afraid that if I let myself remember everything, I'll get stuck in that feeling and won't be able to come back to reality.",
+      "Therapist: I hear you. We'll use grounding techniques if needed. How does that sound?"
+    ],
+    [
+      "Client: Well, sometimes when I think about the accident, I feel like I'm right back there. My heart races, I can't breathe, and I feel so helpless. I'm afraid that if I let myself remember everything, I'll get stuck in that feeling and won't be able to come back to reality.",
+      "Therapist: I hear you. We'll use grounding techniques if needed. How does that sound?",
+      "Client: That's a relief to hear. I think knowing that you have ways to help me if I start to panic will make me feel a bit safer. Can you tell me more about what exactly we'll be doing?"
+    ],
+    [
+      "Therapist: I hear you. We'll use grounding techniques if needed. How does that sound?",
+      "Client: That's a relief to hear. I think knowing that you have ways to help me if I start to panic will make me feel a bit safer. Can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll start with breathing exercises, then you'll describe the memory aloud. I'll guide you through it."
+    ],
+    [
+      "Client: That's a relief to hear. I think knowing that you have ways to help me if I start to panic will make me feel a bit safer. Can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll start with breathing exercises, then you'll describe the memory aloud. I'll guide you through it.",
+      "Client: Okay, that doesn't sound too overwhelming. Will I need to close my eyes? Sometimes when I close my eyes, the memories feel even more vivid and scary."
+    ],
+    [
+      "Therapist: We'll start with breathing exercises, then you'll describe the memory aloud. I'll guide you through it.",
+      "Client: Okay, that doesn't sound too overwhelming. Will I need to close my eyes? Sometimes when I close my eyes, the memories feel even more vivid and scary.",
+      "Therapist: You can keep your eyes open if you prefer. What matters is your comfort. Any other questions?"
+    ],
+    [
+      "Client: Okay, that doesn't sound too overwhelming. Will I need to close my eyes? Sometimes when I close my eyes, the memories feel even more vivid and scary.",
+      "Therapist: You can keep your eyes open if you prefer. What matters is your comfort. Any other questions?",
+      "Client: I think I'm okay for now. I appreciate you taking the time to explain everything and address my concerns. It helps me feel more prepared. I'm still nervous, but I think I'm ready to give it a try."
+    ],
+    [
+      "Therapist: You can keep your eyes open if you prefer. What matters is your comfort. Any other questions?",
+      "Client: I think I'm okay for now. I appreciate you taking the time to explain everything and address my concerns. It helps me feel more prepared. I'm still nervous, but I think I'm ready to give it a try.",
+      "Therapist: Your courage is admirable. This work is challenging but vital for recovery. Shall we begin?"
+    ],
+    [
+      "Client: I think I'm okay for now. I appreciate you taking the time to explain everything and address my concerns. It helps me feel more prepared. I'm still nervous, but I think I'm ready to give it a try.",
+      "Therapist: Your courage is admirable. This work is challenging but vital for recovery. Shall we begin?",
+      "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful that it will help me move forward and start to feel more like myself again. I'm tired of letting this trauma control my life."
+    ],
+    [
+      "Therapist: Your courage is admirable. This work is challenging but vital for recovery. Shall we begin?",
+      "Client: Yes, let's do it. I know it won't be easy, but I'm hopeful that it will help me move forward and start to feel more like myself again. I'm tired of letting this trauma control my life.",
+      "Therapist: Excellent. Let's start with some deep breaths. Inhale slowly..."
+    ]
+  ]
+}

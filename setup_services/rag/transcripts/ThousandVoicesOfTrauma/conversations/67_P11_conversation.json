@@ -1,0 +1,176 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that combat experience... it's like I was right back there in the thick of it. The sounds, the smells, the fear... it all came rushing back.",
+    "Therapist: Mm. What stood out most?",
+    "Client: The... the moment when my squad came under fire. I can still hear the bullets whizzing past, the screams of my fellow soldiers. It's... it's hard to shake that feeling of helplessness, you know? Like no matter what I did, I couldn't protect everyone.",
+    "Therapist: That sounds intense. How did your body react?",
+    "Client: My heart was racing, palms sweating. I felt tense all over, like I needed to be ready to move at any second. Even now, I feel... jittery, I guess? Like I can't fully relax.",
+    "Therapist: Understandable. How does this compare to your day-to-day?",
+    "Client: It's... it's similar, actually. I'm always on edge, always expecting something bad to happen. But during the exposure, it was more... concentrated, I suppose? More intense.",
+    "Therapist: I see. What thoughts came up for you?",
+    "Client: I kept thinking... \"I should have done more.\" \"It's my fault they got hurt.\" I know logically that I did everything I could, but... those thoughts just won't go away.",
+    "Therapist: Hm. How do these thoughts affect you now?",
+    "Client: They... they make it hard to move on, I guess. I feel guilty for surviving when others didn't. It's like I'm stuck in that moment, you know?",
+    "Therapist: That sounds challenging. What helps you cope?",
+    "Client: I... I try to keep busy. Work helps, sometimes. But honestly, I've been struggling. The depression makes it hard to find motivation some days.",
+    "Therapist: Mm. How has the therapy process been for you so far?",
+    "Client: It's... it's tough. Really tough. But I think it's helping? I mean, I'm talking about things I've never really talked about before. It's scary, but... maybe necessary?",
+    "Therapist: That takes courage. What's motivating you to continue?",
+    "Client: I... I want to feel normal again, I suppose. To not be haunted by these memories all the time. To be able to sleep through the night without nightmares. Maybe... maybe even to form relationships again. It's been so long since I've let anyone get close.",
+    "Therapist: Those are meaningful goals. What progress have you noticed?",
+    "Client: Well, I... I'm here, aren't I? That's something. A few months ago, I wouldn't have been able to talk about this at all. And... I think I'm starting to understand my reactions better. Why I feel the way I do.",
+    "Therapist: That's significant. How might you build on this?",
+    "Client: I... I'm not sure. Keep going with the therapy, I guess? Maybe... maybe try to open up more to my roommate? He's always asking if I'm okay, but I usually just brush him off.",
+    "Therapist: Sounds like a good step. Anything else you'd like to discuss?",
+    "Client: I... I'm just tired. Emotionally drained, you know? But... but also kind of relieved? Like a weight's been lifted, even if it's just a small one. Is that... is that normal?",
+    "Therapist: Very. It's a common response. How will you take care of yourself now?",
+    "Client: I think I'll take a long walk when I get home. Maybe call my sister... I've been avoiding her calls, but... maybe it's time to reconnect. And definitely get some rest. These sessions... they take a lot out of me.",
+    "Therapist: Good plan. Remember to use your coping strategies if needed.",
+    "Client: Right, yeah. The breathing exercises and grounding techniques. I'll... I'll try to remember those. Thank you, doc. This isn't easy, but... I think it's helping.",
+    "Therapist: You're doing important work. See you next week?",
+    "Client: Yeah, I'll be here. Thanks again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Chen?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that combat experience... it's like I was right back there in the thick of it. The sounds, the smells, the fear... it all came rushing back.",
+      "Therapist: Mm. What stood out most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Reliving that combat experience... it's like I was right back there in the thick of it. The sounds, the smells, the fear... it all came rushing back.",
+      "Therapist: Mm. What stood out most?",
+      "Client: The... the moment when my squad came under fire. I can still hear the bullets whizzing past, the screams of my fellow soldiers. It's... it's hard to shake that feeling of helplessness, you know? Like no matter what I did, I couldn't protect everyone."
+    ],
+    [
+      "Therapist: Mm. What stood out most?",
+      "Client: The... the moment when my squad came under fire. I can still hear the bullets whizzing past, the screams of my fellow soldiers. It's... it's hard to shake that feeling of helplessness, you know? Like no matter what I did, I couldn't protect everyone.",
+      "Therapist: That sounds intense. How did your body react?"
+    ],
+    [
+      "Client: The... the moment when my squad came under fire. I can still hear the bullets whizzing past, the screams of my fellow soldiers. It's... it's hard to shake that feeling of helplessness, you know? Like no matter what I did, I couldn't protect everyone.",
+      "Therapist: That sounds intense. How did your body react?",
+      "Client: My heart was racing, palms sweating. I felt tense all over, like I needed to be ready to move at any second. Even now, I feel... jittery, I guess? Like I can't fully relax."
+    ],
+    [
+      "Therapist: That sounds intense. How did your body react?",
+      "Client: My heart was racing, palms sweating. I felt tense all over, like I needed to be ready to move at any second. Even now, I feel... jittery, I guess? Like I can't fully relax.",
+      "Therapist: Understandable. How does this compare to your day-to-day?"
+    ],
+    [
+      "Client: My heart was racing, palms sweating. I felt tense all over, like I needed to be ready to move at any second. Even now, I feel... jittery, I guess? Like I can't fully relax.",
+      "Therapist: Understandable. How does this compare to your day-to-day?",
+      "Client: It's... it's similar, actually. I'm always on edge, always expecting something bad to happen. But during the exposure, it was more... concentrated, I suppose? More intense."
+    ],
+    [
+      "Therapist: Understandable. How does this compare to your day-to-day?",
+      "Client: It's... it's similar, actually. I'm always on edge, always expecting something bad to happen. But during the exposure, it was more... concentrated, I suppose? More intense.",
+      "Therapist: I see. What thoughts came up for you?"
+    ],
+    [
+      "Client: It's... it's similar, actually. I'm always on edge, always expecting something bad to happen. But during the exposure, it was more... concentrated, I suppose? More intense.",
+      "Therapist: I see. What thoughts came up for you?",
+      "Client: I kept thinking... \"I should have done more.\" \"It's my fault they got hurt.\" I know logically that I did everything I could, but... those thoughts just won't go away."
+    ],
+    [
+      "Therapist: I see. What thoughts came up for you?",
+      "Client: I kept thinking... \"I should have done more.\" \"It's my fault they got hurt.\" I know logically that I did everything I could, but... those thoughts just won't go away.",
+      "Therapist: Hm. How do these thoughts affect you now?"
+    ],
+    [
+      "Client: I kept thinking... \"I should have done more.\" \"It's my fault they got hurt.\" I know logically that I did everything I could, but... those thoughts just won't go away.",
+      "Therapist: Hm. How do these thoughts affect you now?",
+      "Client: They... they make it hard to move on, I guess. I feel guilty for surviving when others didn't. It's like I'm stuck in that moment, you know?"
+    ],
+    [
+      "Therapist: Hm. How do these thoughts affect you now?",
+      "Client: They... they make it hard to move on, I guess. I feel guilty for surviving when others didn't. It's like I'm stuck in that moment, you know?",
+      "Therapist: That sounds challenging. What helps you cope?"
+    ],
+    [
+      "Client: They... they make it hard to move on, I guess. I feel guilty for surviving when others didn't. It's like I'm stuck in that moment, you know?",
+      "Therapist: That sounds challenging. What helps you cope?",
+      "Client: I... I try to keep busy. Work helps, sometimes. But honestly, I've been struggling. The depression makes it hard to find motivation some days."
+    ],
+    [
+      "Therapist: That sounds challenging. What helps you cope?",
+      "Client: I... I try to keep busy. Work helps, sometimes. But honestly, I've been struggling. The depression makes it hard to find motivation some days.",
+      "Therapist: Mm. How has the therapy process been for you so far?"
+    ],
+    [
+      "Client: I... I try to keep busy. Work helps, sometimes. But honestly, I've been struggling. The depression makes it hard to find motivation some days.",
+      "Therapist: Mm. How has the therapy process been for you so far?",
+      "Client: It's... it's tough. Really tough. But I think it's helping? I mean, I'm talking about things I've never really talked about before. It's scary, but... maybe necessary?"
+    ],
+    [
+      "Therapist: Mm. How has the therapy process been for you so far?",
+      "Client: It's... it's tough. Really tough. But I think it's helping? I mean, I'm talking about things I've never really talked about before. It's scary, but... maybe necessary?",
+      "Therapist: That takes courage. What's motivating you to continue?"
+    ],
+    [
+      "Client: It's... it's tough. Really tough. But I think it's helping? I mean, I'm talking about things I've never really talked about before. It's scary, but... maybe necessary?",
+      "Therapist: That takes courage. What's motivating you to continue?",
+      "Client: I... I want to feel normal again, I suppose. To not be haunted by these memories all the time. To be able to sleep through the night without nightmares. Maybe... maybe even to form relationships again. It's been so long since I've let anyone get close."
+    ],
+    [
+      "Therapist: That takes courage. What's motivating you to continue?",
+      "Client: I... I want to feel normal again, I suppose. To not be haunted by these memories all the time. To be able to sleep through the night without nightmares. Maybe... maybe even to form relationships again. It's been so long since I've let anyone get close.",
+      "Therapist: Those are meaningful goals. What progress have you noticed?"
+    ],
+    [
+      "Client: I... I want to feel normal again, I suppose. To not be haunted by these memories all the time. To be able to sleep through the night without nightmares. Maybe... maybe even to form relationships again. It's been so long since I've let anyone get close.",
+      "Therapist: Those are meaningful goals. What progress have you noticed?",
+      "Client: Well, I... I'm here, aren't I? That's something. A few months ago, I wouldn't have been able to talk about this at all. And... I think I'm starting to understand my reactions better. Why I feel the way I do."
+    ],
+    [
+      "Therapist: Those are meaningful goals. What progress have you noticed?",
+      "Client: Well, I... I'm here, aren't I? That's something. A few months ago, I wouldn't have been able to talk about this at all. And... I think I'm starting to understand my reactions better. Why I feel the way I do.",
+      "Therapist: That's significant. How might you build on this?"
+    ],
+    [
+      "Client: Well, I... I'm here, aren't I? That's something. A few months ago, I wouldn't have been able to talk about this at all. And... I think I'm starting to understand my reactions better. Why I feel the way I do.",
+      "Therapist: That's significant. How might you build on this?",
+      "Client: I... I'm not sure. Keep going with the therapy, I guess? Maybe... maybe try to open up more to my roommate? He's always asking if I'm okay, but I usually just brush him off."
+    ],
+    [
+      "Therapist: That's significant. How might you build on this?",
+      "Client: I... I'm not sure. Keep going with the therapy, I guess? Maybe... maybe try to open up more to my roommate? He's always asking if I'm okay, but I usually just brush him off.",
+      "Therapist: Sounds like a good step. Anything else you'd like to discuss?"
+    ],
+    [
+      "Client: I... I'm not sure. Keep going with the therapy, I guess? Maybe... maybe try to open up more to my roommate? He's always asking if I'm okay, but I usually just brush him off.",
+      "Therapist: Sounds like a good step. Anything else you'd like to discuss?",
+      "Client: I... I'm just tired. Emotionally drained, you know? But... but also kind of relieved? Like a weight's been lifted, even if it's just a small one. Is that... is that normal?"
+    ],
+    [
+      "Therapist: Sounds like a good step. Anything else you'd like to discuss?",
+      "Client: I... I'm just tired. Emotionally drained, you know? But... but also kind of relieved? Like a weight's been lifted, even if it's just a small one. Is that... is that normal?",
+      "Therapist: Very. It's a common response. How will you take care of yourself now?"
+    ],
+    [
+      "Client: I... I'm just tired. Emotionally drained, you know? But... but also kind of relieved? Like a weight's been lifted, even if it's just a small one. Is that... is that normal?",
+      "Therapist: Very. It's a common response. How will you take care of yourself now?",
+      "Client: I think I'll take a long walk when I get home. Maybe call my sister... I've been avoiding her calls, but... maybe it's time to reconnect. And definitely get some rest. These sessions... they take a lot out of me."
+    ],
+    [
+      "Therapist: Very. It's a common response. How will you take care of yourself now?",
+      "Client: I think I'll take a long walk when I get home. Maybe call my sister... I've been avoiding her calls, but... maybe it's time to reconnect. And definitely get some rest. These sessions... they take a lot out of me.",
+      "Therapist: Good plan. Remember to use your coping strategies if needed."
+    ],
+    [
+      "Client: I think I'll take a long walk when I get home. Maybe call my sister... I've been avoiding her calls, but... maybe it's time to reconnect. And definitely get some rest. These sessions... they take a lot out of me.",
+      "Therapist: Good plan. Remember to use your coping strategies if needed.",
+      "Client: Right, yeah. The breathing exercises and grounding techniques. I'll... I'll try to remember those. Thank you, doc. This isn't easy, but... I think it's helping."
+    ],
+    [
+      "Therapist: Good plan. Remember to use your coping strategies if needed.",
+      "Client: Right, yeah. The breathing exercises and grounding techniques. I'll... I'll try to remember those. Thank you, doc. This isn't easy, but... I think it's helping.",
+      "Therapist: You're doing important work. See you next week?"
+    ],
+    [
+      "Client: Right, yeah. The breathing exercises and grounding techniques. I'll... I'll try to remember those. Thank you, doc. This isn't easy, but... I think it's helping.",
+      "Therapist: You're doing important work. See you next week?",
+      "Client: Yeah, I'll be here. Thanks again."
+    ]
+  ]
+}

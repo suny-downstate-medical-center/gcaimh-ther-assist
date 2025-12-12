@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+    "Therapist: Okay. Close your eyes and bring yourself back to that memory.",
+    "Client: (taking a deep breath) Alright... I'm back in the school hallway. It's loud, lockers slamming shut. I can smell the musty odor of old books and sweaty gym clothes. My heart is starting to race a bit as I see Sarah and her friends approaching. They're laughing, but I know it's not friendly. Sarah's eyes lock onto mine, and I feel my chest tighten...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling that familiar knot in my throat.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: Sarah starts talking loudly about how pathetic I look today. Her friends snicker. I try to walk past them, but they form a circle around me. I'm trapped. My face is burning with shame, and I'm struggling to breathe normally. I want to disappear...",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's an 8. My heart is pounding so hard I can hear it in my ears.",
+    "Therapist: That sounds intense. You're handling it well. Continue.",
+    "Client: (voice trembling) Sarah reaches out and grabs my backpack, yanking it off my shoulder. The contents spill all over the floor. Everyone's laughing. I drop to my knees to gather my things, and Sarah kicks my books, scattering them further. I feel so helpless, so small...",
+    "Therapist: How are you feeling right now?",
+    "Client: I'm... I'm at a 9. It's almost unbearable. My chest feels so tight, and I'm shaking.",
+    "Therapist: You're safe here. Take a deep breath.",
+    "Client: (taking a shaky breath) Okay... I'm trying. As I'm on the floor, I see feet walking by. No one stops to help. I hear whispers and giggles. I'm fighting back tears, determined not to cry in front of them. But inside, I'm screaming...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's still a 9. I feel like I can't move, can't breathe.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: (voice breaking) I finally manage to gather my things and stand up. My legs feel weak. Sarah and her friends are still there, still taunting me. I push past them, my vision blurry with unshed tears. I run to the bathroom and lock myself in a stall. That's when I finally break down...",
+    "Therapist: And now?",
+    "Client: It's... it's starting to come down. Maybe a 7 now. I'm feeling drained, but the tightness in my chest is easing a bit.",
+    "Therapist: That's good. How do you feel about what you just shared?",
+    "Client: It's... it's hard. But also, I feel a strange sense of relief. Like I'm not carrying it alone anymore.",
+    "Therapist: That's a common experience. Well done today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My stomach feels a little tight.",
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory.",
+      "Client: (taking a deep breath) Alright... I'm back in the school hallway. It's loud, lockers slamming shut. I can smell the musty odor of old books and sweaty gym clothes. My heart is starting to race a bit as I see Sarah and her friends approaching. They're laughing, but I know it's not friendly. Sarah's eyes lock onto mine, and I feel my chest tighten..."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and bring yourself back to that memory.",
+      "Client: (taking a deep breath) Alright... I'm back in the school hallway. It's loud, lockers slamming shut. I can smell the musty odor of old books and sweaty gym clothes. My heart is starting to race a bit as I see Sarah and her friends approaching. They're laughing, but I know it's not friendly. Sarah's eyes lock onto mine, and I feel my chest tighten...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (taking a deep breath) Alright... I'm back in the school hallway. It's loud, lockers slamming shut. I can smell the musty odor of old books and sweaty gym clothes. My heart is starting to race a bit as I see Sarah and her friends approaching. They're laughing, but I know it's not friendly. Sarah's eyes lock onto mine, and I feel my chest tighten...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling that familiar knot in my throat."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling that familiar knot in my throat.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling that familiar knot in my throat.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: Sarah starts talking loudly about how pathetic I look today. Her friends snicker. I try to walk past them, but they form a circle around me. I'm trapped. My face is burning with shame, and I'm struggling to breathe normally. I want to disappear..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: Sarah starts talking loudly about how pathetic I look today. Her friends snicker. I try to walk past them, but they form a circle around me. I'm trapped. My face is burning with shame, and I'm struggling to breathe normally. I want to disappear...",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: Sarah starts talking loudly about how pathetic I look today. Her friends snicker. I try to walk past them, but they form a circle around me. I'm trapped. My face is burning with shame, and I'm struggling to breathe normally. I want to disappear...",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's an 8. My heart is pounding so hard I can hear it in my ears."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's an 8. My heart is pounding so hard I can hear it in my ears.",
+      "Therapist: That sounds intense. You're handling it well. Continue."
+    ],
+    [
+      "Client: It's... it's an 8. My heart is pounding so hard I can hear it in my ears.",
+      "Therapist: That sounds intense. You're handling it well. Continue.",
+      "Client: (voice trembling) Sarah reaches out and grabs my backpack, yanking it off my shoulder. The contents spill all over the floor. Everyone's laughing. I drop to my knees to gather my things, and Sarah kicks my books, scattering them further. I feel so helpless, so small..."
+    ],
+    [
+      "Therapist: That sounds intense. You're handling it well. Continue.",
+      "Client: (voice trembling) Sarah reaches out and grabs my backpack, yanking it off my shoulder. The contents spill all over the floor. Everyone's laughing. I drop to my knees to gather my things, and Sarah kicks my books, scattering them further. I feel so helpless, so small...",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: (voice trembling) Sarah reaches out and grabs my backpack, yanking it off my shoulder. The contents spill all over the floor. Everyone's laughing. I drop to my knees to gather my things, and Sarah kicks my books, scattering them further. I feel so helpless, so small...",
+      "Therapist: How are you feeling right now?",
+      "Client: I'm... I'm at a 9. It's almost unbearable. My chest feels so tight, and I'm shaking."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: I'm... I'm at a 9. It's almost unbearable. My chest feels so tight, and I'm shaking.",
+      "Therapist: You're safe here. Take a deep breath."
+    ],
+    [
+      "Client: I'm... I'm at a 9. It's almost unbearable. My chest feels so tight, and I'm shaking.",
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (taking a shaky breath) Okay... I'm trying. As I'm on the floor, I see feet walking by. No one stops to help. I hear whispers and giggles. I'm fighting back tears, determined not to cry in front of them. But inside, I'm screaming..."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath.",
+      "Client: (taking a shaky breath) Okay... I'm trying. As I'm on the floor, I see feet walking by. No one stops to help. I hear whispers and giggles. I'm fighting back tears, determined not to cry in front of them. But inside, I'm screaming...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: (taking a shaky breath) Okay... I'm trying. As I'm on the floor, I see feet walking by. No one stops to help. I hear whispers and giggles. I'm fighting back tears, determined not to cry in front of them. But inside, I'm screaming...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's still a 9. I feel like I can't move, can't breathe."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's still a 9. I feel like I can't move, can't breathe.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's still a 9. I feel like I can't move, can't breathe.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: (voice breaking) I finally manage to gather my things and stand up. My legs feel weak. Sarah and her friends are still there, still taunting me. I push past them, my vision blurry with unshed tears. I run to the bathroom and lock myself in a stall. That's when I finally break down..."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: (voice breaking) I finally manage to gather my things and stand up. My legs feel weak. Sarah and her friends are still there, still taunting me. I push past them, my vision blurry with unshed tears. I run to the bathroom and lock myself in a stall. That's when I finally break down...",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: (voice breaking) I finally manage to gather my things and stand up. My legs feel weak. Sarah and her friends are still there, still taunting me. I push past them, my vision blurry with unshed tears. I run to the bathroom and lock myself in a stall. That's when I finally break down...",
+      "Therapist: And now?",
+      "Client: It's... it's starting to come down. Maybe a 7 now. I'm feeling drained, but the tightness in my chest is easing a bit."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: It's... it's starting to come down. Maybe a 7 now. I'm feeling drained, but the tightness in my chest is easing a bit.",
+      "Therapist: That's good. How do you feel about what you just shared?"
+    ],
+    [
+      "Client: It's... it's starting to come down. Maybe a 7 now. I'm feeling drained, but the tightness in my chest is easing a bit.",
+      "Therapist: That's good. How do you feel about what you just shared?",
+      "Client: It's... it's hard. But also, I feel a strange sense of relief. Like I'm not carrying it alone anymore."
+    ],
+    [
+      "Therapist: That's good. How do you feel about what you just shared?",
+      "Client: It's... it's hard. But also, I feel a strange sense of relief. Like I'm not carrying it alone anymore.",
+      "Therapist: That's a common experience. Well done today."
+    ]
+  ]
+}

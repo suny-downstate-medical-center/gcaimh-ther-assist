@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's understandable. Let's begin when you're comfortable.",
+    "Client: Okay... I'm in the car, driving home from work. It's dark outside, and the roads are wet from the rain. I can feel my hands gripping the steering wheel tightly. My heart is starting to race a little as I remember what's about to happen.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 4 out of 10. I'm tense, but still okay.",
+    "Therapist: Thank you. Continue when you're ready.",
+    "Client: I'm approaching the intersection, and the light turns yellow. I decide to slow down, but the car behind me is too close. I can hear the screeching of tires and... oh god, the impact. It's so loud. My body jerks forward, and I feel this intense pressure on my chest from the seatbelt. Everything's spinning, and I can't... I can't catch my breath.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's... it's higher now. Maybe a 7? My heart is pounding, and I feel a bit dizzy just thinking about it.",
+    "Therapist: That's okay. You're safe here. Take a deep breath if you need to.",
+    "Client: (Takes a deep breath) Thanks. I... I remember the airbag deploying. The smell of smoke and chemicals fills the car. I'm disoriented, and there's a ringing in my ears. I try to move, but everything hurts. I'm scared... so scared that I might be seriously injured.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still at a 7, maybe edging towards an 8. My palms are sweaty, and I feel a tightness in my chest.",
+    "Therapist: You're doing well. Remember, you're here with me, and you're safe.",
+    "Client: (Nods) I hear people shouting outside the car. Someone's asking if I'm okay, but I can't respond. I'm frozen. The fear is overwhelming. I can smell gasoline, and I'm terrified the car might catch fire. I want to get out, but I can't move. I feel so helpless...",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe. My heart is racing so fast.",
+    "Therapist: Take a moment. Focus on your breathing. You're safe here in the room with me.",
+    "Client: (Takes several deep breaths) Okay... I'm trying. I remember hearing sirens in the distance. They're getting closer. I'm still trapped in the car, and every movement sends sharp pains through my body. I'm crying now, silently. The fear of being trapped is suffocating.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still high... maybe an 8. The fear is still very present, but hearing the sirens gives me a glimmer of hope.",
+    "Therapist: You're doing great. Keep going when you're ready.",
+    "Client: The paramedics arrive. I hear them talking, but it's all muffled. They're working to get me out of the car. I feel hands on me, gentle but firm. They're telling me I'll be okay, but I'm not sure I believe them. The pain is intense as they move me onto a stretcher. I'm looking up at the night sky, seeing flashing lights everywhere. It's chaotic and overwhelming.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's... it's starting to come down a bit. Maybe a 6? The worst part is over, but I still feel shaky and scared.",
+    "Therapist: That's normal. You're processing a difficult memory.",
+    "Client: In the ambulance, everything becomes a blur. The paramedics are asking me questions, but I'm struggling to focus. I keep thinking about what could have happened... how much worse it could have been. The fear of what might have been is almost worse than the actual pain I'm feeling.",
+    "Therapist: And your SUDS now?",
+    "Client: It's down to a 5. I'm feeling drained, but the intense fear is subsiding.",
+    "Therapist: You've done really well. How do you feel about ending the exposure here?",
+    "Client: Yes, I think that would be good. I feel exhausted, but also... I don't know, maybe a little proud that I got through it?",
+    "Therapist: That's great. Let's take a few moments to ground ourselves before we end the session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm in the car, driving home from work. It's dark outside, and the roads are wet from the rain. I can feel my hands gripping the steering wheel tightly. My heart is starting to race a little as I remember what's about to happen."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm in the car, driving home from work. It's dark outside, and the roads are wet from the rain. I can feel my hands gripping the steering wheel tightly. My heart is starting to race a little as I remember what's about to happen.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm in the car, driving home from work. It's dark outside, and the roads are wet from the rain. I can feel my hands gripping the steering wheel tightly. My heart is starting to race a little as I remember what's about to happen.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm tense, but still okay."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm tense, but still okay.",
+      "Therapist: Thank you. Continue when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I'm tense, but still okay.",
+      "Therapist: Thank you. Continue when you're ready.",
+      "Client: I'm approaching the intersection, and the light turns yellow. I decide to slow down, but the car behind me is too close. I can hear the screeching of tires and... oh god, the impact. It's so loud. My body jerks forward, and I feel this intense pressure on my chest from the seatbelt. Everything's spinning, and I can't... I can't catch my breath."
+    ],
+    [
+      "Therapist: Thank you. Continue when you're ready.",
+      "Client: I'm approaching the intersection, and the light turns yellow. I decide to slow down, but the car behind me is too close. I can hear the screeching of tires and... oh god, the impact. It's so loud. My body jerks forward, and I feel this intense pressure on my chest from the seatbelt. Everything's spinning, and I can't... I can't catch my breath.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: I'm approaching the intersection, and the light turns yellow. I decide to slow down, but the car behind me is too close. I can hear the screeching of tires and... oh god, the impact. It's so loud. My body jerks forward, and I feel this intense pressure on my chest from the seatbelt. Everything's spinning, and I can't... I can't catch my breath.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's higher now. Maybe a 7? My heart is pounding, and I feel a bit dizzy just thinking about it."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's higher now. Maybe a 7? My heart is pounding, and I feel a bit dizzy just thinking about it.",
+      "Therapist: That's okay. You're safe here. Take a deep breath if you need to."
+    ],
+    [
+      "Client: It's... it's higher now. Maybe a 7? My heart is pounding, and I feel a bit dizzy just thinking about it.",
+      "Therapist: That's okay. You're safe here. Take a deep breath if you need to.",
+      "Client: (Takes a deep breath) Thanks. I... I remember the airbag deploying. The smell of smoke and chemicals fills the car. I'm disoriented, and there's a ringing in my ears. I try to move, but everything hurts. I'm scared... so scared that I might be seriously injured."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Take a deep breath if you need to.",
+      "Client: (Takes a deep breath) Thanks. I... I remember the airbag deploying. The smell of smoke and chemicals fills the car. I'm disoriented, and there's a ringing in my ears. I try to move, but everything hurts. I'm scared... so scared that I might be seriously injured.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Thanks. I... I remember the airbag deploying. The smell of smoke and chemicals fills the car. I'm disoriented, and there's a ringing in my ears. I try to move, but everything hurts. I'm scared... so scared that I might be seriously injured.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 7, maybe edging towards an 8. My palms are sweaty, and I feel a tightness in my chest."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 7, maybe edging towards an 8. My palms are sweaty, and I feel a tightness in my chest.",
+      "Therapist: You're doing well. Remember, you're here with me, and you're safe."
+    ],
+    [
+      "Client: It's still at a 7, maybe edging towards an 8. My palms are sweaty, and I feel a tightness in my chest.",
+      "Therapist: You're doing well. Remember, you're here with me, and you're safe.",
+      "Client: (Nods) I hear people shouting outside the car. Someone's asking if I'm okay, but I can't respond. I'm frozen. The fear is overwhelming. I can smell gasoline, and I'm terrified the car might catch fire. I want to get out, but I can't move. I feel so helpless..."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're here with me, and you're safe.",
+      "Client: (Nods) I hear people shouting outside the car. Someone's asking if I'm okay, but I can't respond. I'm frozen. The fear is overwhelming. I can smell gasoline, and I'm terrified the car might catch fire. I want to get out, but I can't move. I feel so helpless...",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: (Nods) I hear people shouting outside the car. Someone's asking if I'm okay, but I can't respond. I'm frozen. The fear is overwhelming. I can smell gasoline, and I'm terrified the car might catch fire. I want to get out, but I can't move. I feel so helpless...",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My heart is racing so fast."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My heart is racing so fast.",
+      "Therapist: Take a moment. Focus on your breathing. You're safe here in the room with me."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe. My heart is racing so fast.",
+      "Therapist: Take a moment. Focus on your breathing. You're safe here in the room with me.",
+      "Client: (Takes several deep breaths) Okay... I'm trying. I remember hearing sirens in the distance. They're getting closer. I'm still trapped in the car, and every movement sends sharp pains through my body. I'm crying now, silently. The fear of being trapped is suffocating."
+    ],
+    [
+      "Therapist: Take a moment. Focus on your breathing. You're safe here in the room with me.",
+      "Client: (Takes several deep breaths) Okay... I'm trying. I remember hearing sirens in the distance. They're getting closer. I'm still trapped in the car, and every movement sends sharp pains through my body. I'm crying now, silently. The fear of being trapped is suffocating.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (Takes several deep breaths) Okay... I'm trying. I remember hearing sirens in the distance. They're getting closer. I'm still trapped in the car, and every movement sends sharp pains through my body. I'm crying now, silently. The fear of being trapped is suffocating.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still high... maybe an 8. The fear is still very present, but hearing the sirens gives me a glimmer of hope."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still high... maybe an 8. The fear is still very present, but hearing the sirens gives me a glimmer of hope.",
+      "Therapist: You're doing great. Keep going when you're ready."
+    ],
+    [
+      "Client: It's still high... maybe an 8. The fear is still very present, but hearing the sirens gives me a glimmer of hope.",
+      "Therapist: You're doing great. Keep going when you're ready.",
+      "Client: The paramedics arrive. I hear them talking, but it's all muffled. They're working to get me out of the car. I feel hands on me, gentle but firm. They're telling me I'll be okay, but I'm not sure I believe them. The pain is intense as they move me onto a stretcher. I'm looking up at the night sky, seeing flashing lights everywhere. It's chaotic and overwhelming."
+    ],
+    [
+      "Therapist: You're doing great. Keep going when you're ready.",
+      "Client: The paramedics arrive. I hear them talking, but it's all muffled. They're working to get me out of the car. I feel hands on me, gentle but firm. They're telling me I'll be okay, but I'm not sure I believe them. The pain is intense as they move me onto a stretcher. I'm looking up at the night sky, seeing flashing lights everywhere. It's chaotic and overwhelming.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: The paramedics arrive. I hear them talking, but it's all muffled. They're working to get me out of the car. I feel hands on me, gentle but firm. They're telling me I'll be okay, but I'm not sure I believe them. The pain is intense as they move me onto a stretcher. I'm looking up at the night sky, seeing flashing lights everywhere. It's chaotic and overwhelming.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe a 6? The worst part is over, but I still feel shaky and scared."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe a 6? The worst part is over, but I still feel shaky and scared.",
+      "Therapist: That's normal. You're processing a difficult memory."
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe a 6? The worst part is over, but I still feel shaky and scared.",
+      "Therapist: That's normal. You're processing a difficult memory.",
+      "Client: In the ambulance, everything becomes a blur. The paramedics are asking me questions, but I'm struggling to focus. I keep thinking about what could have happened... how much worse it could have been. The fear of what might have been is almost worse than the actual pain I'm feeling."
+    ],
+    [
+      "Therapist: That's normal. You're processing a difficult memory.",
+      "Client: In the ambulance, everything becomes a blur. The paramedics are asking me questions, but I'm struggling to focus. I keep thinking about what could have happened... how much worse it could have been. The fear of what might have been is almost worse than the actual pain I'm feeling.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: In the ambulance, everything becomes a blur. The paramedics are asking me questions, but I'm struggling to focus. I keep thinking about what could have happened... how much worse it could have been. The fear of what might have been is almost worse than the actual pain I'm feeling.",
+      "Therapist: And your SUDS now?",
+      "Client: It's down to a 5. I'm feeling drained, but the intense fear is subsiding."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's down to a 5. I'm feeling drained, but the intense fear is subsiding.",
+      "Therapist: You've done really well. How do you feel about ending the exposure here?"
+    ],
+    [
+      "Client: It's down to a 5. I'm feeling drained, but the intense fear is subsiding.",
+      "Therapist: You've done really well. How do you feel about ending the exposure here?",
+      "Client: Yes, I think that would be good. I feel exhausted, but also... I don't know, maybe a little proud that I got through it?"
+    ],
+    [
+      "Therapist: You've done really well. How do you feel about ending the exposure here?",
+      "Client: Yes, I think that would be good. I feel exhausted, but also... I don't know, maybe a little proud that I got through it?",
+      "Therapist: That's great. Let's take a few moments to ground ourselves before we end the session."
+    ]
+  ]
+}

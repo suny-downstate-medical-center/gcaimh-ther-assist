@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mr. Alvarez. How are you feeling today?",
+    "Client: Hola, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+    "Therapist: Your anxiety is understandable. Can you tell me more?",
+    "Client: Well, it's just... talking about what happened with the police, it brings back so many emotions. I feel angry, scared, and ashamed all at once. I'm worried I might lose control if I have to relive it.",
+    "Therapist: Those feelings are normal. How do you think you'll manage?",
+    "Client: I'm not sure. Part of me wants to run away from this, but I know I need to face it. It's affecting my work, my relationships... everything. I just don't want to feel like a victim again.",
+    "Therapist: Your courage is admirable. Shall we discuss the exercise?",
+    "Client: Yes, please. I need to understand what's going to happen. Will it be like watching a movie of that night?",
+    "Therapist: Not exactly. It's more like guided remembering. Ready to hear more?",
+    "Client: I think so. Go ahead, Doc.",
+    "Therapist: We'll revisit the memory gradually. You'll describe it aloud, in detail.",
+    "Client: That sounds intense. Will I be able to stop if it gets too much?",
+    "Therapist: Absolutely. You're in control. We can pause anytime. How does that sound?",
+    "Client: A little better. But what if I panic? Or get too angry?",
+    "Therapist: We'll work through it together. I'll be here to support you throughout.",
+    "Client: Okay... I appreciate that. I'm still scared, but I trust you. What should I expect to feel?",
+    "Therapist: You may experience strong emotions. That's normal and part of healing.",
+    "Client: I see. And this will help with my PTSD symptoms? The nightmares, the anxiety?",
+    "Therapist: Yes, over time. It helps process the trauma. Your bravery is commendable.",
+    "Client: Thank you. I... I want to get better. For myself, for my kids. Even though we're divorced, I want to be a good father. This experience has changed me so much.",
+    "Therapist: Your motivation is inspiring. Shall we begin?",
+    "Client: I... I think I'm ready. Can we start slowly? And maybe have a code word if I need to stop?",
+    "Therapist: Excellent idea. Let's use \"pause\" as our code word. Ready?",
+    "Client: Yes, I'm ready. Let's do this. For my future, for my family."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mr. Alvarez. How are you feeling today?",
+      "Client: Hola, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+      "Therapist: Your anxiety is understandable. Can you tell me more?"
+    ],
+    [
+      "Client: Hola, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it all week, and I'm not sure I'm ready for this.",
+      "Therapist: Your anxiety is understandable. Can you tell me more?",
+      "Client: Well, it's just... talking about what happened with the police, it brings back so many emotions. I feel angry, scared, and ashamed all at once. I'm worried I might lose control if I have to relive it."
+    ],
+    [
+      "Therapist: Your anxiety is understandable. Can you tell me more?",
+      "Client: Well, it's just... talking about what happened with the police, it brings back so many emotions. I feel angry, scared, and ashamed all at once. I'm worried I might lose control if I have to relive it.",
+      "Therapist: Those feelings are normal. How do you think you'll manage?"
+    ],
+    [
+      "Client: Well, it's just... talking about what happened with the police, it brings back so many emotions. I feel angry, scared, and ashamed all at once. I'm worried I might lose control if I have to relive it.",
+      "Therapist: Those feelings are normal. How do you think you'll manage?",
+      "Client: I'm not sure. Part of me wants to run away from this, but I know I need to face it. It's affecting my work, my relationships... everything. I just don't want to feel like a victim again."
+    ],
+    [
+      "Therapist: Those feelings are normal. How do you think you'll manage?",
+      "Client: I'm not sure. Part of me wants to run away from this, but I know I need to face it. It's affecting my work, my relationships... everything. I just don't want to feel like a victim again.",
+      "Therapist: Your courage is admirable. Shall we discuss the exercise?"
+    ],
+    [
+      "Client: I'm not sure. Part of me wants to run away from this, but I know I need to face it. It's affecting my work, my relationships... everything. I just don't want to feel like a victim again.",
+      "Therapist: Your courage is admirable. Shall we discuss the exercise?",
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like watching a movie of that night?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we discuss the exercise?",
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like watching a movie of that night?",
+      "Therapist: Not exactly. It's more like guided remembering. Ready to hear more?"
+    ],
+    [
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like watching a movie of that night?",
+      "Therapist: Not exactly. It's more like guided remembering. Ready to hear more?",
+      "Client: I think so. Go ahead, Doc."
+    ],
+    [
+      "Therapist: Not exactly. It's more like guided remembering. Ready to hear more?",
+      "Client: I think so. Go ahead, Doc.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud, in detail."
+    ],
+    [
+      "Client: I think so. Go ahead, Doc.",
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud, in detail.",
+      "Client: That sounds intense. Will I be able to stop if it gets too much?"
+    ],
+    [
+      "Therapist: We'll revisit the memory gradually. You'll describe it aloud, in detail.",
+      "Client: That sounds intense. Will I be able to stop if it gets too much?",
+      "Therapist: Absolutely. You're in control. We can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: That sounds intense. Will I be able to stop if it gets too much?",
+      "Therapist: Absolutely. You're in control. We can pause anytime. How does that sound?",
+      "Client: A little better. But what if I panic? Or get too angry?"
+    ],
+    [
+      "Therapist: Absolutely. You're in control. We can pause anytime. How does that sound?",
+      "Client: A little better. But what if I panic? Or get too angry?",
+      "Therapist: We'll work through it together. I'll be here to support you throughout."
+    ],
+    [
+      "Client: A little better. But what if I panic? Or get too angry?",
+      "Therapist: We'll work through it together. I'll be here to support you throughout.",
+      "Client: Okay... I appreciate that. I'm still scared, but I trust you. What should I expect to feel?"
+    ],
+    [
+      "Therapist: We'll work through it together. I'll be here to support you throughout.",
+      "Client: Okay... I appreciate that. I'm still scared, but I trust you. What should I expect to feel?",
+      "Therapist: You may experience strong emotions. That's normal and part of healing."
+    ],
+    [
+      "Client: Okay... I appreciate that. I'm still scared, but I trust you. What should I expect to feel?",
+      "Therapist: You may experience strong emotions. That's normal and part of healing.",
+      "Client: I see. And this will help with my PTSD symptoms? The nightmares, the anxiety?"
+    ],
+    [
+      "Therapist: You may experience strong emotions. That's normal and part of healing.",
+      "Client: I see. And this will help with my PTSD symptoms? The nightmares, the anxiety?",
+      "Therapist: Yes, over time. It helps process the trauma. Your bravery is commendable."
+    ],
+    [
+      "Client: I see. And this will help with my PTSD symptoms? The nightmares, the anxiety?",
+      "Therapist: Yes, over time. It helps process the trauma. Your bravery is commendable.",
+      "Client: Thank you. I... I want to get better. For myself, for my kids. Even though we're divorced, I want to be a good father. This experience has changed me so much."
+    ],
+    [
+      "Therapist: Yes, over time. It helps process the trauma. Your bravery is commendable.",
+      "Client: Thank you. I... I want to get better. For myself, for my kids. Even though we're divorced, I want to be a good father. This experience has changed me so much.",
+      "Therapist: Your motivation is inspiring. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. I... I want to get better. For myself, for my kids. Even though we're divorced, I want to be a good father. This experience has changed me so much.",
+      "Therapist: Your motivation is inspiring. Shall we begin?",
+      "Client: I... I think I'm ready. Can we start slowly? And maybe have a code word if I need to stop?"
+    ],
+    [
+      "Therapist: Your motivation is inspiring. Shall we begin?",
+      "Client: I... I think I'm ready. Can we start slowly? And maybe have a code word if I need to stop?",
+      "Therapist: Excellent idea. Let's use \"pause\" as our code word. Ready?"
+    ],
+    [
+      "Client: I... I think I'm ready. Can we start slowly? And maybe have a code word if I need to stop?",
+      "Therapist: Excellent idea. Let's use \"pause\" as our code word. Ready?",
+      "Client: Yes, I'm ready. Let's do this. For my future, for my family."
+    ]
+  ]
+}

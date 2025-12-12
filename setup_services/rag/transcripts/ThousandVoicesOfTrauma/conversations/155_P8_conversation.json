@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm feeling a bit shaky, to be honest. It's like my whole body is vibrating. That memory of being in the hospital after my heart attack, it just... it brings everything back so vividly. The beeping of the machines, the smell of disinfectant, the coldness of the room. It's like I'm right back there.",
+    "Therapist: What's the strongest emotion you're experiencing right now?",
+    "Client: Fear. Definitely fear. It's this overwhelming sense of dread, like my life could end at any moment. I keep thinking about how close I came to dying, and how my wife and kids would have coped if I hadn't made it. It's... it's suffocating.",
+    "Therapist: Where do you feel that fear in your body?",
+    "Client: It's mostly in my chest. There's this tightness, like someone's squeezing my heart. My hands are clammy too, and I feel a bit lightheaded. It's... it's not pleasant at all.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: I keep thinking, \"What if it happens again?\" I'm constantly worried about my health now. Every little twinge or pain makes me panic. And then I think about how this has affected my relationship with my wife. We've been arguing more since it happened. She's so worried about me, and I feel like I'm letting her down by not being the strong husband I used to be. It's... it's putting a real strain on our marriage.",
+    "Therapist: How do these thoughts and feelings compare to when the event first happened?",
+    "Client: They're... they're not as intense as they were right after it happened, but they're still pretty strong. Back then, I was in shock, I think. Now, it's like I have more time to really process what happened, and that's almost scarier in a way. I'm more aware of my own mortality, and it's affecting every aspect of my life.",
+    "Therapist: What's coming up for you as you reflect on this?",
+    "Client: I'm realizing how much this trauma has changed me. I used to be so confident, so sure of myself. Now, I second-guess everything. My business is suffering because I'm afraid to take risks. I'm not the same father to my kids because I'm always worried about leaving them. And my wife... I can see the frustration in her eyes sometimes. She wants the old me back, and I don't know if that person exists anymore. It's like... like I'm grieving for the person I used to be.",
+    "Therapist: How does that realization make you feel?",
+    "Client: It makes me feel... sad. Angry too. I'm angry at my body for betraying me, angry at the universe for letting this happen. But mostly, I feel a deep sadness. It's like I've lost a part of myself, and I don't know how to get it back. I want to be that strong, confident man again, but I don't know how.",
+    "Therapist: What do you think you need to move forward?",
+    "Client: I... I think I need to find a way to accept what happened. To stop fighting against it so much. Maybe if I can do that, I can start rebuilding my confidence. I need to find a way to feel safe in my own body again. And I need to reconnect with my wife, to let her in instead of pushing her away. It's just... it's hard to be vulnerable when I feel so fragile.",
+    "Therapist: How might you start that process?",
+    "Client: I suppose... I could start by being more open with my wife about how I'm feeling. Maybe we could go to couples therapy. And I think I need to start taking better care of myself - not just physically, but mentally too. Maybe some mindfulness exercises to help me stay present instead of always worrying about the future. And... and maybe I need to start taking small risks again, in my business and in my personal life. To prove to myself that I can still do it.",
+    "Therapist: That sounds like a thoughtful plan. How do you feel now?",
+    "Client: I feel... a bit lighter, actually. Still scared, still sad, but... there's a glimmer of hope there too. Like maybe I can find a way through this. It's not going to be easy, but... I think I'm ready to try.",
+    "Therapist: What's the most important thing you've learned today?",
+    "Client: I think... I think it's that I'm not alone in this. That it's okay to be scared, to be changed by what happened. But also that I have the power to choose how I respond to it. I can't change what happened, but I can choose how I move forward. And that... that feels empowering.",
+    "Therapist: Thank you for sharing. How would you like to end our session?",
+    "Client: I... I think I'd like to take a few deep breaths. To ground myself before I leave. And maybe... maybe we could set some specific goals for the week ahead? Small steps I can take to start implementing some of these ideas we've talked about. I feel like I need some concrete actions to focus on.",
+    "Therapist: That sounds like a great idea. Let's do that."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like my whole body is vibrating. That memory of being in the hospital after my heart attack, it just... it brings everything back so vividly. The beeping of the machines, the smell of disinfectant, the coldness of the room. It's like I'm right back there.",
+      "Therapist: What's the strongest emotion you're experiencing right now?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like my whole body is vibrating. That memory of being in the hospital after my heart attack, it just... it brings everything back so vividly. The beeping of the machines, the smell of disinfectant, the coldness of the room. It's like I'm right back there.",
+      "Therapist: What's the strongest emotion you're experiencing right now?",
+      "Client: Fear. Definitely fear. It's this overwhelming sense of dread, like my life could end at any moment. I keep thinking about how close I came to dying, and how my wife and kids would have coped if I hadn't made it. It's... it's suffocating."
+    ],
+    [
+      "Therapist: What's the strongest emotion you're experiencing right now?",
+      "Client: Fear. Definitely fear. It's this overwhelming sense of dread, like my life could end at any moment. I keep thinking about how close I came to dying, and how my wife and kids would have coped if I hadn't made it. It's... it's suffocating.",
+      "Therapist: Where do you feel that fear in your body?"
+    ],
+    [
+      "Client: Fear. Definitely fear. It's this overwhelming sense of dread, like my life could end at any moment. I keep thinking about how close I came to dying, and how my wife and kids would have coped if I hadn't made it. It's... it's suffocating.",
+      "Therapist: Where do you feel that fear in your body?",
+      "Client: It's mostly in my chest. There's this tightness, like someone's squeezing my heart. My hands are clammy too, and I feel a bit lightheaded. It's... it's not pleasant at all."
+    ],
+    [
+      "Therapist: Where do you feel that fear in your body?",
+      "Client: It's mostly in my chest. There's this tightness, like someone's squeezing my heart. My hands are clammy too, and I feel a bit lightheaded. It's... it's not pleasant at all.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: It's mostly in my chest. There's this tightness, like someone's squeezing my heart. My hands are clammy too, and I feel a bit lightheaded. It's... it's not pleasant at all.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"What if it happens again?\" I'm constantly worried about my health now. Every little twinge or pain makes me panic. And then I think about how this has affected my relationship with my wife. We've been arguing more since it happened. She's so worried about me, and I feel like I'm letting her down by not being the strong husband I used to be. It's... it's putting a real strain on our marriage."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"What if it happens again?\" I'm constantly worried about my health now. Every little twinge or pain makes me panic. And then I think about how this has affected my relationship with my wife. We've been arguing more since it happened. She's so worried about me, and I feel like I'm letting her down by not being the strong husband I used to be. It's... it's putting a real strain on our marriage.",
+      "Therapist: How do these thoughts and feelings compare to when the event first happened?"
+    ],
+    [
+      "Client: I keep thinking, \"What if it happens again?\" I'm constantly worried about my health now. Every little twinge or pain makes me panic. And then I think about how this has affected my relationship with my wife. We've been arguing more since it happened. She's so worried about me, and I feel like I'm letting her down by not being the strong husband I used to be. It's... it's putting a real strain on our marriage.",
+      "Therapist: How do these thoughts and feelings compare to when the event first happened?",
+      "Client: They're... they're not as intense as they were right after it happened, but they're still pretty strong. Back then, I was in shock, I think. Now, it's like I have more time to really process what happened, and that's almost scarier in a way. I'm more aware of my own mortality, and it's affecting every aspect of my life."
+    ],
+    [
+      "Therapist: How do these thoughts and feelings compare to when the event first happened?",
+      "Client: They're... they're not as intense as they were right after it happened, but they're still pretty strong. Back then, I was in shock, I think. Now, it's like I have more time to really process what happened, and that's almost scarier in a way. I'm more aware of my own mortality, and it's affecting every aspect of my life.",
+      "Therapist: What's coming up for you as you reflect on this?"
+    ],
+    [
+      "Client: They're... they're not as intense as they were right after it happened, but they're still pretty strong. Back then, I was in shock, I think. Now, it's like I have more time to really process what happened, and that's almost scarier in a way. I'm more aware of my own mortality, and it's affecting every aspect of my life.",
+      "Therapist: What's coming up for you as you reflect on this?",
+      "Client: I'm realizing how much this trauma has changed me. I used to be so confident, so sure of myself. Now, I second-guess everything. My business is suffering because I'm afraid to take risks. I'm not the same father to my kids because I'm always worried about leaving them. And my wife... I can see the frustration in her eyes sometimes. She wants the old me back, and I don't know if that person exists anymore. It's like... like I'm grieving for the person I used to be."
+    ],
+    [
+      "Therapist: What's coming up for you as you reflect on this?",
+      "Client: I'm realizing how much this trauma has changed me. I used to be so confident, so sure of myself. Now, I second-guess everything. My business is suffering because I'm afraid to take risks. I'm not the same father to my kids because I'm always worried about leaving them. And my wife... I can see the frustration in her eyes sometimes. She wants the old me back, and I don't know if that person exists anymore. It's like... like I'm grieving for the person I used to be.",
+      "Therapist: How does that realization make you feel?"
+    ],
+    [
+      "Client: I'm realizing how much this trauma has changed me. I used to be so confident, so sure of myself. Now, I second-guess everything. My business is suffering because I'm afraid to take risks. I'm not the same father to my kids because I'm always worried about leaving them. And my wife... I can see the frustration in her eyes sometimes. She wants the old me back, and I don't know if that person exists anymore. It's like... like I'm grieving for the person I used to be.",
+      "Therapist: How does that realization make you feel?",
+      "Client: It makes me feel... sad. Angry too. I'm angry at my body for betraying me, angry at the universe for letting this happen. But mostly, I feel a deep sadness. It's like I've lost a part of myself, and I don't know how to get it back. I want to be that strong, confident man again, but I don't know how."
+    ],
+    [
+      "Therapist: How does that realization make you feel?",
+      "Client: It makes me feel... sad. Angry too. I'm angry at my body for betraying me, angry at the universe for letting this happen. But mostly, I feel a deep sadness. It's like I've lost a part of myself, and I don't know how to get it back. I want to be that strong, confident man again, but I don't know how.",
+      "Therapist: What do you think you need to move forward?"
+    ],
+    [
+      "Client: It makes me feel... sad. Angry too. I'm angry at my body for betraying me, angry at the universe for letting this happen. But mostly, I feel a deep sadness. It's like I've lost a part of myself, and I don't know how to get it back. I want to be that strong, confident man again, but I don't know how.",
+      "Therapist: What do you think you need to move forward?",
+      "Client: I... I think I need to find a way to accept what happened. To stop fighting against it so much. Maybe if I can do that, I can start rebuilding my confidence. I need to find a way to feel safe in my own body again. And I need to reconnect with my wife, to let her in instead of pushing her away. It's just... it's hard to be vulnerable when I feel so fragile."
+    ],
+    [
+      "Therapist: What do you think you need to move forward?",
+      "Client: I... I think I need to find a way to accept what happened. To stop fighting against it so much. Maybe if I can do that, I can start rebuilding my confidence. I need to find a way to feel safe in my own body again. And I need to reconnect with my wife, to let her in instead of pushing her away. It's just... it's hard to be vulnerable when I feel so fragile.",
+      "Therapist: How might you start that process?"
+    ],
+    [
+      "Client: I... I think I need to find a way to accept what happened. To stop fighting against it so much. Maybe if I can do that, I can start rebuilding my confidence. I need to find a way to feel safe in my own body again. And I need to reconnect with my wife, to let her in instead of pushing her away. It's just... it's hard to be vulnerable when I feel so fragile.",
+      "Therapist: How might you start that process?",
+      "Client: I suppose... I could start by being more open with my wife about how I'm feeling. Maybe we could go to couples therapy. And I think I need to start taking better care of myself - not just physically, but mentally too. Maybe some mindfulness exercises to help me stay present instead of always worrying about the future. And... and maybe I need to start taking small risks again, in my business and in my personal life. To prove to myself that I can still do it."
+    ],
+    [
+      "Therapist: How might you start that process?",
+      "Client: I suppose... I could start by being more open with my wife about how I'm feeling. Maybe we could go to couples therapy. And I think I need to start taking better care of myself - not just physically, but mentally too. Maybe some mindfulness exercises to help me stay present instead of always worrying about the future. And... and maybe I need to start taking small risks again, in my business and in my personal life. To prove to myself that I can still do it.",
+      "Therapist: That sounds like a thoughtful plan. How do you feel now?"
+    ],
+    [
+      "Client: I suppose... I could start by being more open with my wife about how I'm feeling. Maybe we could go to couples therapy. And I think I need to start taking better care of myself - not just physically, but mentally too. Maybe some mindfulness exercises to help me stay present instead of always worrying about the future. And... and maybe I need to start taking small risks again, in my business and in my personal life. To prove to myself that I can still do it.",
+      "Therapist: That sounds like a thoughtful plan. How do you feel now?",
+      "Client: I feel... a bit lighter, actually. Still scared, still sad, but... there's a glimmer of hope there too. Like maybe I can find a way through this. It's not going to be easy, but... I think I'm ready to try."
+    ],
+    [
+      "Therapist: That sounds like a thoughtful plan. How do you feel now?",
+      "Client: I feel... a bit lighter, actually. Still scared, still sad, but... there's a glimmer of hope there too. Like maybe I can find a way through this. It's not going to be easy, but... I think I'm ready to try.",
+      "Therapist: What's the most important thing you've learned today?"
+    ],
+    [
+      "Client: I feel... a bit lighter, actually. Still scared, still sad, but... there's a glimmer of hope there too. Like maybe I can find a way through this. It's not going to be easy, but... I think I'm ready to try.",
+      "Therapist: What's the most important thing you've learned today?",
+      "Client: I think... I think it's that I'm not alone in this. That it's okay to be scared, to be changed by what happened. But also that I have the power to choose how I respond to it. I can't change what happened, but I can choose how I move forward. And that... that feels empowering."
+    ],
+    [
+      "Therapist: What's the most important thing you've learned today?",
+      "Client: I think... I think it's that I'm not alone in this. That it's okay to be scared, to be changed by what happened. But also that I have the power to choose how I respond to it. I can't change what happened, but I can choose how I move forward. And that... that feels empowering.",
+      "Therapist: Thank you for sharing. How would you like to end our session?"
+    ],
+    [
+      "Client: I think... I think it's that I'm not alone in this. That it's okay to be scared, to be changed by what happened. But also that I have the power to choose how I respond to it. I can't change what happened, but I can choose how I move forward. And that... that feels empowering.",
+      "Therapist: Thank you for sharing. How would you like to end our session?",
+      "Client: I... I think I'd like to take a few deep breaths. To ground myself before I leave. And maybe... maybe we could set some specific goals for the week ahead? Small steps I can take to start implementing some of these ideas we've talked about. I feel like I need some concrete actions to focus on."
+    ],
+    [
+      "Therapist: Thank you for sharing. How would you like to end our session?",
+      "Client: I... I think I'd like to take a few deep breaths. To ground myself before I leave. And maybe... maybe we could set some specific goals for the week ahead? Small steps I can take to start implementing some of these ideas we've talked about. I feel like I need some concrete actions to focus on.",
+      "Therapist: That sounds like a great idea. Let's do that."
+    ]
+  ]
+}

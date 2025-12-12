@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting those memories of my illness. The fear and uncertainty I felt back then... it's all coming back to me now.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The loneliness, I think. Being in the hospital, surrounded by machines and unfamiliar faces... it was terrifying. I kept thinking about my parents, wondering if they'd be okay without me. They're getting older too, you know.",
+    "Therapist: How did it feel to go through that memory today?",
+    "Client: It was... intense. I could almost smell the disinfectant, hear the beeping of the monitors. My heart started racing, just like it did back then. But... it's strange. As awful as it was, I felt like I could breathe through it this time. Does that make sense?",
+    "Therapist: Absolutely. What do you think has changed?",
+    "Client: Well, I'm here now, aren't I? I survived that ordeal. And talking about it... it's hard, but it's also making me realize how strong I've been. I never gave myself credit for that before.",
+    "Therapist: That's a powerful insight. How does this realization affect you?",
+    "Client: It's... liberating, in a way. I've spent so long feeling like a victim of my illness, of my past. But maybe I'm more of a survivor than I thought. It doesn't erase the pain or the fear, but it gives me a different perspective.",
+    "Therapist: How might this new perspective impact your daily life?",
+    "Client: I... I'm not sure. Maybe I'll be less hesitant to try new things? I've been so cautious since my illness, always worried about my health. But if I could survive that, maybe I can handle more than I think.",
+    "Therapist: That's an encouraging thought. What else?",
+    "Client: Well, um... perhaps I could be more open with my parents. I've always tried to shield them from my struggles, but maybe sharing more would bring us closer. They were there for me during my illness, after all.",
+    "Therapist: How do you feel about that idea?",
+    "Client: Nervous, but... hopeful? It's scary to be vulnerable, especially at my age. But I'm tired of feeling isolated. And if this process has taught me anything, it's that facing fears can lead to growth.",
+    "Therapist: That's a great observation. What's one small step you could take?",
+    "Client: Hmm... maybe I could start by sharing one positive thing from our sessions with them each week. Nothing too heavy, just... opening the door a little.",
+    "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+    "Client: Drained, but... lighter? Like I've set down a heavy bag I've been carrying for years. It's uncomfortable, but also... freeing. I didn't expect to feel this way after reliving such a difficult memory.",
+    "Therapist: That's often part of the process. What would you like to focus on next time?",
+    "Client: I think... I'd like to explore more about my relationship with my parents. How my illness affected them, and how it's shaped our dynamic since then. Is that okay?",
+    "Therapist: Absolutely. We'll work on that together. How do you feel about today's progress?",
+    "Client: Grateful, I suppose. It wasn't easy, but... I feel like I've taken a step forward. Thank you for guiding me through this. I know I have a long way to go, but for the first time in a while, I feel... hopeful.",
+    "Therapist: That's wonderful to hear. You should be proud of your efforts today.",
+    "Client: Thank you. I... I think I am. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's challenging. Is it odd to feel both anxious and excited?",
+    "Therapist: Not at all. It's a common and healthy response. Shall we wrap up for today?",
+    "Client: Yes, I think that would be good. I feel like I have a lot to process. But... in a good way. Thank you again for your support. I'll see you next week?",
+    "Therapist: Absolutely. Take care, Mrs. Patel."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting those memories of my illness. The fear and uncertainty I felt back then... it's all coming back to me now.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's not easy revisiting those memories of my illness. The fear and uncertainty I felt back then... it's all coming back to me now.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The loneliness, I think. Being in the hospital, surrounded by machines and unfamiliar faces... it was terrifying. I kept thinking about my parents, wondering if they'd be okay without me. They're getting older too, you know."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The loneliness, I think. Being in the hospital, surrounded by machines and unfamiliar faces... it was terrifying. I kept thinking about my parents, wondering if they'd be okay without me. They're getting older too, you know.",
+      "Therapist: How did it feel to go through that memory today?"
+    ],
+    [
+      "Client: The loneliness, I think. Being in the hospital, surrounded by machines and unfamiliar faces... it was terrifying. I kept thinking about my parents, wondering if they'd be okay without me. They're getting older too, you know.",
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. I could almost smell the disinfectant, hear the beeping of the monitors. My heart started racing, just like it did back then. But... it's strange. As awful as it was, I felt like I could breathe through it this time. Does that make sense?"
+    ],
+    [
+      "Therapist: How did it feel to go through that memory today?",
+      "Client: It was... intense. I could almost smell the disinfectant, hear the beeping of the monitors. My heart started racing, just like it did back then. But... it's strange. As awful as it was, I felt like I could breathe through it this time. Does that make sense?",
+      "Therapist: Absolutely. What do you think has changed?"
+    ],
+    [
+      "Client: It was... intense. I could almost smell the disinfectant, hear the beeping of the monitors. My heart started racing, just like it did back then. But... it's strange. As awful as it was, I felt like I could breathe through it this time. Does that make sense?",
+      "Therapist: Absolutely. What do you think has changed?",
+      "Client: Well, I'm here now, aren't I? I survived that ordeal. And talking about it... it's hard, but it's also making me realize how strong I've been. I never gave myself credit for that before."
+    ],
+    [
+      "Therapist: Absolutely. What do you think has changed?",
+      "Client: Well, I'm here now, aren't I? I survived that ordeal. And talking about it... it's hard, but it's also making me realize how strong I've been. I never gave myself credit for that before.",
+      "Therapist: That's a powerful insight. How does this realization affect you?"
+    ],
+    [
+      "Client: Well, I'm here now, aren't I? I survived that ordeal. And talking about it... it's hard, but it's also making me realize how strong I've been. I never gave myself credit for that before.",
+      "Therapist: That's a powerful insight. How does this realization affect you?",
+      "Client: It's... liberating, in a way. I've spent so long feeling like a victim of my illness, of my past. But maybe I'm more of a survivor than I thought. It doesn't erase the pain or the fear, but it gives me a different perspective."
+    ],
+    [
+      "Therapist: That's a powerful insight. How does this realization affect you?",
+      "Client: It's... liberating, in a way. I've spent so long feeling like a victim of my illness, of my past. But maybe I'm more of a survivor than I thought. It doesn't erase the pain or the fear, but it gives me a different perspective.",
+      "Therapist: How might this new perspective impact your daily life?"
+    ],
+    [
+      "Client: It's... liberating, in a way. I've spent so long feeling like a victim of my illness, of my past. But maybe I'm more of a survivor than I thought. It doesn't erase the pain or the fear, but it gives me a different perspective.",
+      "Therapist: How might this new perspective impact your daily life?",
+      "Client: I... I'm not sure. Maybe I'll be less hesitant to try new things? I've been so cautious since my illness, always worried about my health. But if I could survive that, maybe I can handle more than I think."
+    ],
+    [
+      "Therapist: How might this new perspective impact your daily life?",
+      "Client: I... I'm not sure. Maybe I'll be less hesitant to try new things? I've been so cautious since my illness, always worried about my health. But if I could survive that, maybe I can handle more than I think.",
+      "Therapist: That's an encouraging thought. What else?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe I'll be less hesitant to try new things? I've been so cautious since my illness, always worried about my health. But if I could survive that, maybe I can handle more than I think.",
+      "Therapist: That's an encouraging thought. What else?",
+      "Client: Well, um... perhaps I could be more open with my parents. I've always tried to shield them from my struggles, but maybe sharing more would bring us closer. They were there for me during my illness, after all."
+    ],
+    [
+      "Therapist: That's an encouraging thought. What else?",
+      "Client: Well, um... perhaps I could be more open with my parents. I've always tried to shield them from my struggles, but maybe sharing more would bring us closer. They were there for me during my illness, after all.",
+      "Therapist: How do you feel about that idea?"
+    ],
+    [
+      "Client: Well, um... perhaps I could be more open with my parents. I've always tried to shield them from my struggles, but maybe sharing more would bring us closer. They were there for me during my illness, after all.",
+      "Therapist: How do you feel about that idea?",
+      "Client: Nervous, but... hopeful? It's scary to be vulnerable, especially at my age. But I'm tired of feeling isolated. And if this process has taught me anything, it's that facing fears can lead to growth."
+    ],
+    [
+      "Therapist: How do you feel about that idea?",
+      "Client: Nervous, but... hopeful? It's scary to be vulnerable, especially at my age. But I'm tired of feeling isolated. And if this process has taught me anything, it's that facing fears can lead to growth.",
+      "Therapist: That's a great observation. What's one small step you could take?"
+    ],
+    [
+      "Client: Nervous, but... hopeful? It's scary to be vulnerable, especially at my age. But I'm tired of feeling isolated. And if this process has taught me anything, it's that facing fears can lead to growth.",
+      "Therapist: That's a great observation. What's one small step you could take?",
+      "Client: Hmm... maybe I could start by sharing one positive thing from our sessions with them each week. Nothing too heavy, just... opening the door a little."
+    ],
+    [
+      "Therapist: That's a great observation. What's one small step you could take?",
+      "Client: Hmm... maybe I could start by sharing one positive thing from our sessions with them each week. Nothing too heavy, just... opening the door a little.",
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?"
+    ],
+    [
+      "Client: Hmm... maybe I could start by sharing one positive thing from our sessions with them each week. Nothing too heavy, just... opening the door a little.",
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+      "Client: Drained, but... lighter? Like I've set down a heavy bag I've been carrying for years. It's uncomfortable, but also... freeing. I didn't expect to feel this way after reliving such a difficult memory."
+    ],
+    [
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+      "Client: Drained, but... lighter? Like I've set down a heavy bag I've been carrying for years. It's uncomfortable, but also... freeing. I didn't expect to feel this way after reliving such a difficult memory.",
+      "Therapist: That's often part of the process. What would you like to focus on next time?"
+    ],
+    [
+      "Client: Drained, but... lighter? Like I've set down a heavy bag I've been carrying for years. It's uncomfortable, but also... freeing. I didn't expect to feel this way after reliving such a difficult memory.",
+      "Therapist: That's often part of the process. What would you like to focus on next time?",
+      "Client: I think... I'd like to explore more about my relationship with my parents. How my illness affected them, and how it's shaped our dynamic since then. Is that okay?"
+    ],
+    [
+      "Therapist: That's often part of the process. What would you like to focus on next time?",
+      "Client: I think... I'd like to explore more about my relationship with my parents. How my illness affected them, and how it's shaped our dynamic since then. Is that okay?",
+      "Therapist: Absolutely. We'll work on that together. How do you feel about today's progress?"
+    ],
+    [
+      "Client: I think... I'd like to explore more about my relationship with my parents. How my illness affected them, and how it's shaped our dynamic since then. Is that okay?",
+      "Therapist: Absolutely. We'll work on that together. How do you feel about today's progress?",
+      "Client: Grateful, I suppose. It wasn't easy, but... I feel like I've taken a step forward. Thank you for guiding me through this. I know I have a long way to go, but for the first time in a while, I feel... hopeful."
+    ],
+    [
+      "Therapist: Absolutely. We'll work on that together. How do you feel about today's progress?",
+      "Client: Grateful, I suppose. It wasn't easy, but... I feel like I've taken a step forward. Thank you for guiding me through this. I know I have a long way to go, but for the first time in a while, I feel... hopeful.",
+      "Therapist: That's wonderful to hear. You should be proud of your efforts today."
+    ],
+    [
+      "Client: Grateful, I suppose. It wasn't easy, but... I feel like I've taken a step forward. Thank you for guiding me through this. I know I have a long way to go, but for the first time in a while, I feel... hopeful.",
+      "Therapist: That's wonderful to hear. You should be proud of your efforts today.",
+      "Client: Thank you. I... I think I am. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's challenging. Is it odd to feel both anxious and excited?"
+    ],
+    [
+      "Therapist: That's wonderful to hear. You should be proud of your efforts today.",
+      "Client: Thank you. I... I think I am. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's challenging. Is it odd to feel both anxious and excited?",
+      "Therapist: Not at all. It's a common and healthy response. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Thank you. I... I think I am. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's challenging. Is it odd to feel both anxious and excited?",
+      "Therapist: Not at all. It's a common and healthy response. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I feel like I have a lot to process. But... in a good way. Thank you again for your support. I'll see you next week?"
+    ],
+    [
+      "Therapist: Not at all. It's a common and healthy response. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I feel like I have a lot to process. But... in a good way. Thank you again for your support. I'll see you next week?",
+      "Therapist: Absolutely. Take care, Mrs. Patel."
+    ]
+  ]
+}

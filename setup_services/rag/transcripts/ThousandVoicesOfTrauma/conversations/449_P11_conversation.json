@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+    "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with this memory for so long, but going through it in detail like that... it's different. My heart is still racing a bit, and I feel a tightness in my chest. It's like I'm right back there, hearing those footsteps in my house.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The sound of glass breaking. It was so vivid. I could almost feel the shards under my feet as I tried to hide. And the fear... oh, the fear was overwhelming. I felt so helpless, like a child again. It's funny, I've always prided myself on being strong and independent, but in that moment, I was anything but.",
+    "Therapist: How does revisiting this memory connect to your daily life now?",
+    "Client: Well, I suppose it explains a lot. My constant checking of locks, the way I startle at unexpected noises. Even my reluctance to form close relationships... it all ties back to this feeling of vulnerability. I've been carrying this weight for so long, it's become a part of me.",
+    "Therapist: I see. What did you learn about yourself today?",
+    "Client: I... I think I realized that I'm stronger than I give myself credit for. Despite the terror, I survived. I'm here, talking about it. And maybe, just maybe, I can start to let go of some of this hypervigilance. It's exhausting, you know? Always being on guard.",
+    "Therapist: That's a powerful insight. How might this affect your goals moving forward?",
+    "Client: I think... I think I want to work on feeling safe again. Maybe I can start by not triple-checking the locks every night. And perhaps... perhaps I can open up a bit more to my flatmate. She's always trying to be friendly, but I've kept her at arm's length. It's not fair to her, and it's not helping me either.",
+    "Therapist: Those sound like great steps. How are you feeling about continuing this work?",
+    "Client: It's scary, I won't lie. But there's also a glimmer of hope. For the first time in years, I feel like maybe I can reclaim some of what I've lost. My peace of mind, my ability to trust. It won't be easy, and my chronic pain doesn't help, but... I think I'm ready to try.",
+    "Therapist: Your courage is admirable. What support do you need?",
+    "Client: I... I think I need reassurance. That it's okay to stumble, to have setbacks. And maybe some practical tips for managing the anxiety when it spikes. Oh, and perhaps... perhaps we could explore how my South Asian background influences how I process all this? There's a lot of cultural expectations about strength and resilience that I'm struggling with.",
+    "Therapist: Absolutely. We'll work on that together. Anything else on your mind?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's the first time I've felt truly heard in... well, in decades, really. It's both terrifying and liberating. I'm grateful, even if I'm also exhausted and a bit overwhelmed.",
+    "Therapist: You've done incredible work today. How will you take care of yourself this evening?",
+    "Client: I think I'll make myself a cup of chai. The smell always reminds me of my grandmother's kitchen. It's comforting. And maybe I'll actually accept my flatmate's invitation to watch a film together. Baby steps, right?",
+    "Therapist: Sounds perfect. Remember, you're not alone in this journey.",
+    "Client: Thank you. I... I'm starting to believe that. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's also a bit daunting. But I suppose that's part of the process, isn't it? Facing the fear to overcome it?",
+    "Therapist: Exactly. You're doing great. See you next week?",
+    "Client: Yes, I'll be here. Thank you again, truly."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Patel?",
+      "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with this memory for so long, but going through it in detail like that... it's different. My heart is still racing a bit, and I feel a tightness in my chest. It's like I'm right back there, hearing those footsteps in my house.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling quite shaken, to be honest. It's strange, you know? I've lived with this memory for so long, but going through it in detail like that... it's different. My heart is still racing a bit, and I feel a tightness in my chest. It's like I'm right back there, hearing those footsteps in my house.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The sound of glass breaking. It was so vivid. I could almost feel the shards under my feet as I tried to hide. And the fear... oh, the fear was overwhelming. I felt so helpless, like a child again. It's funny, I've always prided myself on being strong and independent, but in that moment, I was anything but."
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The sound of glass breaking. It was so vivid. I could almost feel the shards under my feet as I tried to hide. And the fear... oh, the fear was overwhelming. I felt so helpless, like a child again. It's funny, I've always prided myself on being strong and independent, but in that moment, I was anything but.",
+      "Therapist: How does revisiting this memory connect to your daily life now?"
+    ],
+    [
+      "Client: The sound of glass breaking. It was so vivid. I could almost feel the shards under my feet as I tried to hide. And the fear... oh, the fear was overwhelming. I felt so helpless, like a child again. It's funny, I've always prided myself on being strong and independent, but in that moment, I was anything but.",
+      "Therapist: How does revisiting this memory connect to your daily life now?",
+      "Client: Well, I suppose it explains a lot. My constant checking of locks, the way I startle at unexpected noises. Even my reluctance to form close relationships... it all ties back to this feeling of vulnerability. I've been carrying this weight for so long, it's become a part of me."
+    ],
+    [
+      "Therapist: How does revisiting this memory connect to your daily life now?",
+      "Client: Well, I suppose it explains a lot. My constant checking of locks, the way I startle at unexpected noises. Even my reluctance to form close relationships... it all ties back to this feeling of vulnerability. I've been carrying this weight for so long, it's become a part of me.",
+      "Therapist: I see. What did you learn about yourself today?"
+    ],
+    [
+      "Client: Well, I suppose it explains a lot. My constant checking of locks, the way I startle at unexpected noises. Even my reluctance to form close relationships... it all ties back to this feeling of vulnerability. I've been carrying this weight for so long, it's become a part of me.",
+      "Therapist: I see. What did you learn about yourself today?",
+      "Client: I... I think I realized that I'm stronger than I give myself credit for. Despite the terror, I survived. I'm here, talking about it. And maybe, just maybe, I can start to let go of some of this hypervigilance. It's exhausting, you know? Always being on guard."
+    ],
+    [
+      "Therapist: I see. What did you learn about yourself today?",
+      "Client: I... I think I realized that I'm stronger than I give myself credit for. Despite the terror, I survived. I'm here, talking about it. And maybe, just maybe, I can start to let go of some of this hypervigilance. It's exhausting, you know? Always being on guard.",
+      "Therapist: That's a powerful insight. How might this affect your goals moving forward?"
+    ],
+    [
+      "Client: I... I think I realized that I'm stronger than I give myself credit for. Despite the terror, I survived. I'm here, talking about it. And maybe, just maybe, I can start to let go of some of this hypervigilance. It's exhausting, you know? Always being on guard.",
+      "Therapist: That's a powerful insight. How might this affect your goals moving forward?",
+      "Client: I think... I think I want to work on feeling safe again. Maybe I can start by not triple-checking the locks every night. And perhaps... perhaps I can open up a bit more to my flatmate. She's always trying to be friendly, but I've kept her at arm's length. It's not fair to her, and it's not helping me either."
+    ],
+    [
+      "Therapist: That's a powerful insight. How might this affect your goals moving forward?",
+      "Client: I think... I think I want to work on feeling safe again. Maybe I can start by not triple-checking the locks every night. And perhaps... perhaps I can open up a bit more to my flatmate. She's always trying to be friendly, but I've kept her at arm's length. It's not fair to her, and it's not helping me either.",
+      "Therapist: Those sound like great steps. How are you feeling about continuing this work?"
+    ],
+    [
+      "Client: I think... I think I want to work on feeling safe again. Maybe I can start by not triple-checking the locks every night. And perhaps... perhaps I can open up a bit more to my flatmate. She's always trying to be friendly, but I've kept her at arm's length. It's not fair to her, and it's not helping me either.",
+      "Therapist: Those sound like great steps. How are you feeling about continuing this work?",
+      "Client: It's scary, I won't lie. But there's also a glimmer of hope. For the first time in years, I feel like maybe I can reclaim some of what I've lost. My peace of mind, my ability to trust. It won't be easy, and my chronic pain doesn't help, but... I think I'm ready to try."
+    ],
+    [
+      "Therapist: Those sound like great steps. How are you feeling about continuing this work?",
+      "Client: It's scary, I won't lie. But there's also a glimmer of hope. For the first time in years, I feel like maybe I can reclaim some of what I've lost. My peace of mind, my ability to trust. It won't be easy, and my chronic pain doesn't help, but... I think I'm ready to try.",
+      "Therapist: Your courage is admirable. What support do you need?"
+    ],
+    [
+      "Client: It's scary, I won't lie. But there's also a glimmer of hope. For the first time in years, I feel like maybe I can reclaim some of what I've lost. My peace of mind, my ability to trust. It won't be easy, and my chronic pain doesn't help, but... I think I'm ready to try.",
+      "Therapist: Your courage is admirable. What support do you need?",
+      "Client: I... I think I need reassurance. That it's okay to stumble, to have setbacks. And maybe some practical tips for managing the anxiety when it spikes. Oh, and perhaps... perhaps we could explore how my South Asian background influences how I process all this? There's a lot of cultural expectations about strength and resilience that I'm struggling with."
+    ],
+    [
+      "Therapist: Your courage is admirable. What support do you need?",
+      "Client: I... I think I need reassurance. That it's okay to stumble, to have setbacks. And maybe some practical tips for managing the anxiety when it spikes. Oh, and perhaps... perhaps we could explore how my South Asian background influences how I process all this? There's a lot of cultural expectations about strength and resilience that I'm struggling with.",
+      "Therapist: Absolutely. We'll work on that together. Anything else on your mind?"
+    ],
+    [
+      "Client: I... I think I need reassurance. That it's okay to stumble, to have setbacks. And maybe some practical tips for managing the anxiety when it spikes. Oh, and perhaps... perhaps we could explore how my South Asian background influences how I process all this? There's a lot of cultural expectations about strength and resilience that I'm struggling with.",
+      "Therapist: Absolutely. We'll work on that together. Anything else on your mind?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's the first time I've felt truly heard in... well, in decades, really. It's both terrifying and liberating. I'm grateful, even if I'm also exhausted and a bit overwhelmed."
+    ],
+    [
+      "Therapist: Absolutely. We'll work on that together. Anything else on your mind?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's the first time I've felt truly heard in... well, in decades, really. It's both terrifying and liberating. I'm grateful, even if I'm also exhausted and a bit overwhelmed.",
+      "Therapist: You've done incredible work today. How will you take care of yourself this evening?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. It's the first time I've felt truly heard in... well, in decades, really. It's both terrifying and liberating. I'm grateful, even if I'm also exhausted and a bit overwhelmed.",
+      "Therapist: You've done incredible work today. How will you take care of yourself this evening?",
+      "Client: I think I'll make myself a cup of chai. The smell always reminds me of my grandmother's kitchen. It's comforting. And maybe I'll actually accept my flatmate's invitation to watch a film together. Baby steps, right?"
+    ],
+    [
+      "Therapist: You've done incredible work today. How will you take care of yourself this evening?",
+      "Client: I think I'll make myself a cup of chai. The smell always reminds me of my grandmother's kitchen. It's comforting. And maybe I'll actually accept my flatmate's invitation to watch a film together. Baby steps, right?",
+      "Therapist: Sounds perfect. Remember, you're not alone in this journey."
+    ],
+    [
+      "Client: I think I'll make myself a cup of chai. The smell always reminds me of my grandmother's kitchen. It's comforting. And maybe I'll actually accept my flatmate's invitation to watch a film together. Baby steps, right?",
+      "Therapist: Sounds perfect. Remember, you're not alone in this journey.",
+      "Client: Thank you. I... I'm starting to believe that. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's also a bit daunting. But I suppose that's part of the process, isn't it? Facing the fear to overcome it?"
+    ],
+    [
+      "Therapist: Sounds perfect. Remember, you're not alone in this journey.",
+      "Client: Thank you. I... I'm starting to believe that. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's also a bit daunting. But I suppose that's part of the process, isn't it? Facing the fear to overcome it?",
+      "Therapist: Exactly. You're doing great. See you next week?"
+    ],
+    [
+      "Client: Thank you. I... I'm starting to believe that. It's a strange feeling, but a good one. I'm looking forward to our next session, even if it's also a bit daunting. But I suppose that's part of the process, isn't it? Facing the fear to overcome it?",
+      "Therapist: Exactly. You're doing great. See you next week?",
+      "Client: Yes, I'll be here. Thank you again, truly."
+    ]
+  ]
+}

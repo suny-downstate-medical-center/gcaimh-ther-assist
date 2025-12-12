@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's begin when you're comfortable.",
+    "Client: Okay... I'm back in the hospital room. The beeping of machines is constant, and the antiseptic smell is overwhelming. My mother is lying there, so frail and pale. I've never seen her like this before. Her eyes are closed, and I'm not sure if she can hear me. I'm holding her hand, but it feels cold and lifeless. I'm trying to be strong, but I feel so helpless.",
+    "Therapist: SUDS rating?",
+    "Client: It's about a 6 right now. My heart is starting to race a bit.",
+    "Therapist: Thank you. Continue.",
+    "Client: The doctor comes in, and I can tell by his face that it's not good news. He starts explaining her condition, using words I don't fully understand. Something about organ failure and limited options. I'm trying to focus, but my mind is spinning. I keep looking at my mother, willing her to open her eyes, to tell me everything will be okay. But she doesn't move. I feel so alone in that moment, even with the doctor there.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I can feel my palms getting sweaty, and there's a tightness in my chest.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: The doctor is asking me about treatment options, but I feel completely overwhelmed. How am I supposed to make these decisions? I'm not ready for this responsibility. I want to run away, but I can't leave her. I start to cry, and I feel so embarrassed. The doctor looks uncomfortable, and I feel like I'm failing my mother by breaking down like this. I should be stronger for her.",
+    "Therapist: SUDS?",
+    "Client: It's a 9 now. My breathing is getting faster, and I feel dizzy.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: I'm trying... The memory is so vivid. I can hear my mother's labored breathing, see the lines on the monitors. The weight of the decision is crushing me. I feel like whatever I choose, I'll be letting her down. The guilt is overwhelming. I keep thinking about all the times I should have visited more, called more. Now it might be too late.",
+    "Therapist: Current SUDS?",
+    "Client: Still at a 9. My hands are shaking now.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: I... I decide to ask for more time to think. The doctor nods and leaves the room. I'm alone with my mother again. I start talking to her, apologizing for everything, begging her to wake up and tell me what to do. But there's no response. Just the steady beep of the machines. I feel so small, so inadequate. I'm supposed to be the daughter, not the decision-maker. It's not fair. Why did this happen to us?",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's actually gone down a bit. Maybe an 7. I feel drained, but the panic has subsided somewhat.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: Exhausted. Reliving that moment is so draining. But... I also feel a strange sense of relief. Like I've finally shared this burden I've been carrying alone for so long.",
+    "Therapist: That's a common experience. Well done today.",
+    "Client: Thank you. It was hard, but I'm glad I did it. I didn't think I could face those memories, but somehow, talking about them makes them feel less overwhelming.",
+    "Therapist: That's the goal. Shall we end here?",
+    "Client: Yes, please. I think I need some time to process all of this.",
+    "Therapist: Of course. We'll discuss this more next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in the hospital room. The beeping of machines is constant, and the antiseptic smell is overwhelming. My mother is lying there, so frail and pale. I've never seen her like this before. Her eyes are closed, and I'm not sure if she can hear me. I'm holding her hand, but it feels cold and lifeless. I'm trying to be strong, but I feel so helpless."
+    ],
+    [
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in the hospital room. The beeping of machines is constant, and the antiseptic smell is overwhelming. My mother is lying there, so frail and pale. I've never seen her like this before. Her eyes are closed, and I'm not sure if she can hear me. I'm holding her hand, but it feels cold and lifeless. I'm trying to be strong, but I feel so helpless.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm back in the hospital room. The beeping of machines is constant, and the antiseptic smell is overwhelming. My mother is lying there, so frail and pale. I've never seen her like this before. Her eyes are closed, and I'm not sure if she can hear me. I'm holding her hand, but it feels cold and lifeless. I'm trying to be strong, but I feel so helpless.",
+      "Therapist: SUDS rating?",
+      "Client: It's about a 6 right now. My heart is starting to race a bit."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's about a 6 right now. My heart is starting to race a bit.",
+      "Therapist: Thank you. Continue."
+    ],
+    [
+      "Client: It's about a 6 right now. My heart is starting to race a bit.",
+      "Therapist: Thank you. Continue.",
+      "Client: The doctor comes in, and I can tell by his face that it's not good news. He starts explaining her condition, using words I don't fully understand. Something about organ failure and limited options. I'm trying to focus, but my mind is spinning. I keep looking at my mother, willing her to open her eyes, to tell me everything will be okay. But she doesn't move. I feel so alone in that moment, even with the doctor there."
+    ],
+    [
+      "Therapist: Thank you. Continue.",
+      "Client: The doctor comes in, and I can tell by his face that it's not good news. He starts explaining her condition, using words I don't fully understand. Something about organ failure and limited options. I'm trying to focus, but my mind is spinning. I keep looking at my mother, willing her to open her eyes, to tell me everything will be okay. But she doesn't move. I feel so alone in that moment, even with the doctor there.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The doctor comes in, and I can tell by his face that it's not good news. He starts explaining her condition, using words I don't fully understand. Something about organ failure and limited options. I'm trying to focus, but my mind is spinning. I keep looking at my mother, willing her to open her eyes, to tell me everything will be okay. But she doesn't move. I feel so alone in that moment, even with the doctor there.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I can feel my palms getting sweaty, and there's a tightness in my chest."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I can feel my palms getting sweaty, and there's a tightness in my chest.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I can feel my palms getting sweaty, and there's a tightness in my chest.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The doctor is asking me about treatment options, but I feel completely overwhelmed. How am I supposed to make these decisions? I'm not ready for this responsibility. I want to run away, but I can't leave her. I start to cry, and I feel so embarrassed. The doctor looks uncomfortable, and I feel like I'm failing my mother by breaking down like this. I should be stronger for her."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The doctor is asking me about treatment options, but I feel completely overwhelmed. How am I supposed to make these decisions? I'm not ready for this responsibility. I want to run away, but I can't leave her. I start to cry, and I feel so embarrassed. The doctor looks uncomfortable, and I feel like I'm failing my mother by breaking down like this. I should be stronger for her.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The doctor is asking me about treatment options, but I feel completely overwhelmed. How am I supposed to make these decisions? I'm not ready for this responsibility. I want to run away, but I can't leave her. I start to cry, and I feel so embarrassed. The doctor looks uncomfortable, and I feel like I'm failing my mother by breaking down like this. I should be stronger for her.",
+      "Therapist: SUDS?",
+      "Client: It's a 9 now. My breathing is getting faster, and I feel dizzy."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's a 9 now. My breathing is getting faster, and I feel dizzy.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's a 9 now. My breathing is getting faster, and I feel dizzy.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: I'm trying... The memory is so vivid. I can hear my mother's labored breathing, see the lines on the monitors. The weight of the decision is crushing me. I feel like whatever I choose, I'll be letting her down. The guilt is overwhelming. I keep thinking about all the times I should have visited more, called more. Now it might be too late."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: I'm trying... The memory is so vivid. I can hear my mother's labored breathing, see the lines on the monitors. The weight of the decision is crushing me. I feel like whatever I choose, I'll be letting her down. The guilt is overwhelming. I keep thinking about all the times I should have visited more, called more. Now it might be too late.",
+      "Therapist: Current SUDS?"
+    ],
+    [
+      "Client: I'm trying... The memory is so vivid. I can hear my mother's labored breathing, see the lines on the monitors. The weight of the decision is crushing me. I feel like whatever I choose, I'll be letting her down. The guilt is overwhelming. I keep thinking about all the times I should have visited more, called more. Now it might be too late.",
+      "Therapist: Current SUDS?",
+      "Client: Still at a 9. My hands are shaking now."
+    ],
+    [
+      "Therapist: Current SUDS?",
+      "Client: Still at a 9. My hands are shaking now.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: Still at a 9. My hands are shaking now.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I... I decide to ask for more time to think. The doctor nods and leaves the room. I'm alone with my mother again. I start talking to her, apologizing for everything, begging her to wake up and tell me what to do. But there's no response. Just the steady beep of the machines. I feel so small, so inadequate. I'm supposed to be the daughter, not the decision-maker. It's not fair. Why did this happen to us?"
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I... I decide to ask for more time to think. The doctor nods and leaves the room. I'm alone with my mother again. I start talking to her, apologizing for everything, begging her to wake up and tell me what to do. But there's no response. Just the steady beep of the machines. I feel so small, so inadequate. I'm supposed to be the daughter, not the decision-maker. It's not fair. Why did this happen to us?",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I decide to ask for more time to think. The doctor nods and leaves the room. I'm alone with my mother again. I start talking to her, apologizing for everything, begging her to wake up and tell me what to do. But there's no response. Just the steady beep of the machines. I feel so small, so inadequate. I'm supposed to be the daughter, not the decision-maker. It's not fair. Why did this happen to us?",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's actually gone down a bit. Maybe an 7. I feel drained, but the panic has subsided somewhat."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's actually gone down a bit. Maybe an 7. I feel drained, but the panic has subsided somewhat.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's actually gone down a bit. Maybe an 7. I feel drained, but the panic has subsided somewhat.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted. Reliving that moment is so draining. But... I also feel a strange sense of relief. Like I've finally shared this burden I've been carrying alone for so long."
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Exhausted. Reliving that moment is so draining. But... I also feel a strange sense of relief. Like I've finally shared this burden I've been carrying alone for so long.",
+      "Therapist: That's a common experience. Well done today."
+    ],
+    [
+      "Client: Exhausted. Reliving that moment is so draining. But... I also feel a strange sense of relief. Like I've finally shared this burden I've been carrying alone for so long.",
+      "Therapist: That's a common experience. Well done today.",
+      "Client: Thank you. It was hard, but I'm glad I did it. I didn't think I could face those memories, but somehow, talking about them makes them feel less overwhelming."
+    ],
+    [
+      "Therapist: That's a common experience. Well done today.",
+      "Client: Thank you. It was hard, but I'm glad I did it. I didn't think I could face those memories, but somehow, talking about them makes them feel less overwhelming.",
+      "Therapist: That's the goal. Shall we end here?"
+    ],
+    [
+      "Client: Thank you. It was hard, but I'm glad I did it. I didn't think I could face those memories, but somehow, talking about them makes them feel less overwhelming.",
+      "Therapist: That's the goal. Shall we end here?",
+      "Client: Yes, please. I think I need some time to process all of this."
+    ],
+    [
+      "Therapist: That's the goal. Shall we end here?",
+      "Client: Yes, please. I think I need some time to process all of this.",
+      "Therapist: Of course. We'll discuss this more next session."
+    ]
+  ]
+}

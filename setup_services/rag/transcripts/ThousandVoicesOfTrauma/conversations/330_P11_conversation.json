@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+    "Client: I... I'm not sure. It's a lot to process. Going through that memory of losing my grandmother again, it just... it brought up so many emotions. I felt like I was right back there, you know? I could smell the hospital disinfectant, hear the beeping of the machines. It was intense.",
+    "Therapist: Mm-hmm. What stood out most to you?",
+    "Client: I think... the guilt. I keep replaying the moment when I left her room to get coffee. I told her I'd be right back, but... when I returned, she was gone. I can't shake the feeling that I let her down in her final moments.",
+    "Therapist: How did it feel to confront that guilt today?",
+    "Client: It was overwhelming at first. I felt this tightness in my chest, like I couldn't breathe. But as I kept going through it, it... it started to ease a bit. I realized that I couldn't have known what would happen. It doesn't make the pain go away, but it helps to look at it more rationally.",
+    "Therapist: That's a valuable insight. How does this connect to your daily life?",
+    "Client: I guess... I've been carrying this weight for so long. It's affected my relationships, my work. I'm always afraid of letting people down, of not being there when they need me. It's exhausting, constantly being on high alert.",
+    "Therapist: I see. What did you learn about yourself today?",
+    "Client: That maybe... maybe I'm stronger than I thought. Reliving that memory was hard, but I got through it. And talking about it now, I feel... I don't know, a little lighter? Like I'm starting to accept that I did the best I could in that situation.",
+    "Therapist: That's significant progress, Sarah. How might this shift things for you?",
+    "Client: I think... maybe I can start being a little kinder to myself. Maybe I don't have to be perfect all the time. It's scary to think about letting go of that control, but it's also kind of freeing, you know?",
+    "Therapist: Absolutely. What's your takeaway from today's session?",
+    "Client: That facing these memories, as painful as they are, is helping me understand myself better. I'm starting to see how this childhood trauma has shaped me, but also that I have the power to reshape my responses. It's not easy, but... I feel like I'm moving forward.",
+    "Therapist: That's excellent, Sarah. How do you feel about continuing this work?",
+    "Client: I'm... cautiously optimistic? It's tough, and there are moments when I want to run away from it all. But I can see the progress, even if it's small. I want to keep going. I want to get to a place where these memories don't have such a hold on me anymore.",
+    "Therapist: That's a great attitude. Any final thoughts?",
+    "Client: Just... thank you, I guess. For guiding me through this. It means a lot to have someone listen without judgment, to help me make sense of all this. I know we have a long way to go, but for the first time in a while, I feel like there's hope.",
+    "Therapist: You're welcome, Sarah. We'll continue next week?",
+    "Client: Yes, definitely. I'll be here. Thank you again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Sarah?",
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of losing my grandmother again, it just... it brought up so many emotions. I felt like I was right back there, you know? I could smell the hospital disinfectant, hear the beeping of the machines. It was intense.",
+      "Therapist: Mm-hmm. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of losing my grandmother again, it just... it brought up so many emotions. I felt like I was right back there, you know? I could smell the hospital disinfectant, hear the beeping of the machines. It was intense.",
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: I think... the guilt. I keep replaying the moment when I left her room to get coffee. I told her I'd be right back, but... when I returned, she was gone. I can't shake the feeling that I let her down in her final moments."
+    ],
+    [
+      "Therapist: Mm-hmm. What stood out most to you?",
+      "Client: I think... the guilt. I keep replaying the moment when I left her room to get coffee. I told her I'd be right back, but... when I returned, she was gone. I can't shake the feeling that I let her down in her final moments.",
+      "Therapist: How did it feel to confront that guilt today?"
+    ],
+    [
+      "Client: I think... the guilt. I keep replaying the moment when I left her room to get coffee. I told her I'd be right back, but... when I returned, she was gone. I can't shake the feeling that I let her down in her final moments.",
+      "Therapist: How did it feel to confront that guilt today?",
+      "Client: It was overwhelming at first. I felt this tightness in my chest, like I couldn't breathe. But as I kept going through it, it... it started to ease a bit. I realized that I couldn't have known what would happen. It doesn't make the pain go away, but it helps to look at it more rationally."
+    ],
+    [
+      "Therapist: How did it feel to confront that guilt today?",
+      "Client: It was overwhelming at first. I felt this tightness in my chest, like I couldn't breathe. But as I kept going through it, it... it started to ease a bit. I realized that I couldn't have known what would happen. It doesn't make the pain go away, but it helps to look at it more rationally.",
+      "Therapist: That's a valuable insight. How does this connect to your daily life?"
+    ],
+    [
+      "Client: It was overwhelming at first. I felt this tightness in my chest, like I couldn't breathe. But as I kept going through it, it... it started to ease a bit. I realized that I couldn't have known what would happen. It doesn't make the pain go away, but it helps to look at it more rationally.",
+      "Therapist: That's a valuable insight. How does this connect to your daily life?",
+      "Client: I guess... I've been carrying this weight for so long. It's affected my relationships, my work. I'm always afraid of letting people down, of not being there when they need me. It's exhausting, constantly being on high alert."
+    ],
+    [
+      "Therapist: That's a valuable insight. How does this connect to your daily life?",
+      "Client: I guess... I've been carrying this weight for so long. It's affected my relationships, my work. I'm always afraid of letting people down, of not being there when they need me. It's exhausting, constantly being on high alert.",
+      "Therapist: I see. What did you learn about yourself today?"
+    ],
+    [
+      "Client: I guess... I've been carrying this weight for so long. It's affected my relationships, my work. I'm always afraid of letting people down, of not being there when they need me. It's exhausting, constantly being on high alert.",
+      "Therapist: I see. What did you learn about yourself today?",
+      "Client: That maybe... maybe I'm stronger than I thought. Reliving that memory was hard, but I got through it. And talking about it now, I feel... I don't know, a little lighter? Like I'm starting to accept that I did the best I could in that situation."
+    ],
+    [
+      "Therapist: I see. What did you learn about yourself today?",
+      "Client: That maybe... maybe I'm stronger than I thought. Reliving that memory was hard, but I got through it. And talking about it now, I feel... I don't know, a little lighter? Like I'm starting to accept that I did the best I could in that situation.",
+      "Therapist: That's significant progress, Sarah. How might this shift things for you?"
+    ],
+    [
+      "Client: That maybe... maybe I'm stronger than I thought. Reliving that memory was hard, but I got through it. And talking about it now, I feel... I don't know, a little lighter? Like I'm starting to accept that I did the best I could in that situation.",
+      "Therapist: That's significant progress, Sarah. How might this shift things for you?",
+      "Client: I think... maybe I can start being a little kinder to myself. Maybe I don't have to be perfect all the time. It's scary to think about letting go of that control, but it's also kind of freeing, you know?"
+    ],
+    [
+      "Therapist: That's significant progress, Sarah. How might this shift things for you?",
+      "Client: I think... maybe I can start being a little kinder to myself. Maybe I don't have to be perfect all the time. It's scary to think about letting go of that control, but it's also kind of freeing, you know?",
+      "Therapist: Absolutely. What's your takeaway from today's session?"
+    ],
+    [
+      "Client: I think... maybe I can start being a little kinder to myself. Maybe I don't have to be perfect all the time. It's scary to think about letting go of that control, but it's also kind of freeing, you know?",
+      "Therapist: Absolutely. What's your takeaway from today's session?",
+      "Client: That facing these memories, as painful as they are, is helping me understand myself better. I'm starting to see how this childhood trauma has shaped me, but also that I have the power to reshape my responses. It's not easy, but... I feel like I'm moving forward."
+    ],
+    [
+      "Therapist: Absolutely. What's your takeaway from today's session?",
+      "Client: That facing these memories, as painful as they are, is helping me understand myself better. I'm starting to see how this childhood trauma has shaped me, but also that I have the power to reshape my responses. It's not easy, but... I feel like I'm moving forward.",
+      "Therapist: That's excellent, Sarah. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: That facing these memories, as painful as they are, is helping me understand myself better. I'm starting to see how this childhood trauma has shaped me, but also that I have the power to reshape my responses. It's not easy, but... I feel like I'm moving forward.",
+      "Therapist: That's excellent, Sarah. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic? It's tough, and there are moments when I want to run away from it all. But I can see the progress, even if it's small. I want to keep going. I want to get to a place where these memories don't have such a hold on me anymore."
+    ],
+    [
+      "Therapist: That's excellent, Sarah. How do you feel about continuing this work?",
+      "Client: I'm... cautiously optimistic? It's tough, and there are moments when I want to run away from it all. But I can see the progress, even if it's small. I want to keep going. I want to get to a place where these memories don't have such a hold on me anymore.",
+      "Therapist: That's a great attitude. Any final thoughts?"
+    ],
+    [
+      "Client: I'm... cautiously optimistic? It's tough, and there are moments when I want to run away from it all. But I can see the progress, even if it's small. I want to keep going. I want to get to a place where these memories don't have such a hold on me anymore.",
+      "Therapist: That's a great attitude. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this. It means a lot to have someone listen without judgment, to help me make sense of all this. I know we have a long way to go, but for the first time in a while, I feel like there's hope."
+    ],
+    [
+      "Therapist: That's a great attitude. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this. It means a lot to have someone listen without judgment, to help me make sense of all this. I know we have a long way to go, but for the first time in a while, I feel like there's hope.",
+      "Therapist: You're welcome, Sarah. We'll continue next week?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For guiding me through this. It means a lot to have someone listen without judgment, to help me make sense of all this. I know we have a long way to go, but for the first time in a while, I feel like there's hope.",
+      "Therapist: You're welcome, Sarah. We'll continue next week?",
+      "Client: Yes, definitely. I'll be here. Thank you again."
+    ]
+  ]
+}

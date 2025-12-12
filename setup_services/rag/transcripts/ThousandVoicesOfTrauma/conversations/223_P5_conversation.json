@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Johnson, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm... I'm not sure, Dr. Roberts. To be honest, I'm quite nervous. The idea of revisiting those memories from the cult... it's frightening. I've spent years trying to forget.",
+    "Therapist: Your nervousness is completely understandable. Can you tell me more about your concerns?",
+    "Client: Well, I worry that talking about it will bring everything back. The control they had over us, the isolation from my family, the constant fear... I'm afraid I'll fall apart if I start remembering it all.",
+    "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+    "Client: I suppose... maybe it could help me process what happened? It's been affecting me for so long, especially with my depression. But I'm scared it might make things worse.",
+    "Therapist: Facing fears often helps reduce their power. What questions do you have about the process?",
+    "Client: How long will we spend on this? And what if I can't handle it? I'm not as young as I used to be, and with my health issues...",
+    "Therapist: We'll go at your pace. What support do you need to feel safe?",
+    "Client: Could we have breaks if it gets too intense? And maybe... could I hold something comforting, like a photo of my grandchildren?",
+    "Therapist: Absolutely. How else can I support you during this process?",
+    "Client: I think... just reminding me that I'm here now, safe, and not back there. And maybe reassuring me that what I'm feeling is normal? Sometimes I worry I'm overreacting.",
+    "Therapist: I'll do that. Your reactions are valid. Are you ready to begin?",
+    "Client: I... I think so. I'm still scared, but I trust you, Dr. Roberts. And I want to get better, for myself and my family. Let's... let's give it a try.",
+    "Therapist: Your courage is admirable. Shall we start with a calming exercise?",
+    "Client: Yes, please. That would help. I'm feeling a bit shaky already, just thinking about it. But I'm here, and I'm going to do my best to get through this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Johnson, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm... I'm not sure, Dr. Roberts. To be honest, I'm quite nervous. The idea of revisiting those memories from the cult... it's frightening. I've spent years trying to forget.",
+      "Therapist: Your nervousness is completely understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... I'm not sure, Dr. Roberts. To be honest, I'm quite nervous. The idea of revisiting those memories from the cult... it's frightening. I've spent years trying to forget.",
+      "Therapist: Your nervousness is completely understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring everything back. The control they had over us, the isolation from my family, the constant fear... I'm afraid I'll fall apart if I start remembering it all."
+    ],
+    [
+      "Therapist: Your nervousness is completely understandable. Can you tell me more about your concerns?",
+      "Client: Well, I worry that talking about it will bring everything back. The control they had over us, the isolation from my family, the constant fear... I'm afraid I'll fall apart if I start remembering it all.",
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?"
+    ],
+    [
+      "Client: Well, I worry that talking about it will bring everything back. The control they had over us, the isolation from my family, the constant fear... I'm afraid I'll fall apart if I start remembering it all.",
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+      "Client: I suppose... maybe it could help me process what happened? It's been affecting me for so long, especially with my depression. But I'm scared it might make things worse."
+    ],
+    [
+      "Therapist: Those are valid concerns. How do you think revisiting these memories might help?",
+      "Client: I suppose... maybe it could help me process what happened? It's been affecting me for so long, especially with my depression. But I'm scared it might make things worse.",
+      "Therapist: Facing fears often helps reduce their power. What questions do you have about the process?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process what happened? It's been affecting me for so long, especially with my depression. But I'm scared it might make things worse.",
+      "Therapist: Facing fears often helps reduce their power. What questions do you have about the process?",
+      "Client: How long will we spend on this? And what if I can't handle it? I'm not as young as I used to be, and with my health issues..."
+    ],
+    [
+      "Therapist: Facing fears often helps reduce their power. What questions do you have about the process?",
+      "Client: How long will we spend on this? And what if I can't handle it? I'm not as young as I used to be, and with my health issues...",
+      "Therapist: We'll go at your pace. What support do you need to feel safe?"
+    ],
+    [
+      "Client: How long will we spend on this? And what if I can't handle it? I'm not as young as I used to be, and with my health issues...",
+      "Therapist: We'll go at your pace. What support do you need to feel safe?",
+      "Client: Could we have breaks if it gets too intense? And maybe... could I hold something comforting, like a photo of my grandchildren?"
+    ],
+    [
+      "Therapist: We'll go at your pace. What support do you need to feel safe?",
+      "Client: Could we have breaks if it gets too intense? And maybe... could I hold something comforting, like a photo of my grandchildren?",
+      "Therapist: Absolutely. How else can I support you during this process?"
+    ],
+    [
+      "Client: Could we have breaks if it gets too intense? And maybe... could I hold something comforting, like a photo of my grandchildren?",
+      "Therapist: Absolutely. How else can I support you during this process?",
+      "Client: I think... just reminding me that I'm here now, safe, and not back there. And maybe reassuring me that what I'm feeling is normal? Sometimes I worry I'm overreacting."
+    ],
+    [
+      "Therapist: Absolutely. How else can I support you during this process?",
+      "Client: I think... just reminding me that I'm here now, safe, and not back there. And maybe reassuring me that what I'm feeling is normal? Sometimes I worry I'm overreacting.",
+      "Therapist: I'll do that. Your reactions are valid. Are you ready to begin?"
+    ],
+    [
+      "Client: I think... just reminding me that I'm here now, safe, and not back there. And maybe reassuring me that what I'm feeling is normal? Sometimes I worry I'm overreacting.",
+      "Therapist: I'll do that. Your reactions are valid. Are you ready to begin?",
+      "Client: I... I think so. I'm still scared, but I trust you, Dr. Roberts. And I want to get better, for myself and my family. Let's... let's give it a try."
+    ],
+    [
+      "Therapist: I'll do that. Your reactions are valid. Are you ready to begin?",
+      "Client: I... I think so. I'm still scared, but I trust you, Dr. Roberts. And I want to get better, for myself and my family. Let's... let's give it a try.",
+      "Therapist: Your courage is admirable. Shall we start with a calming exercise?"
+    ],
+    [
+      "Client: I... I think so. I'm still scared, but I trust you, Dr. Roberts. And I want to get better, for myself and my family. Let's... let's give it a try.",
+      "Therapist: Your courage is admirable. Shall we start with a calming exercise?",
+      "Client: Yes, please. That would help. I'm feeling a bit shaky already, just thinking about it. But I'm here, and I'm going to do my best to get through this."
+    ]
+  ]
+}

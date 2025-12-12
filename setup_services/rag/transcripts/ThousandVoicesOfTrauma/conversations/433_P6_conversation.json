@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Sarah. Are you ready to begin our imaginal exposure exercise?",
+    "Client: I think so... I'm feeling a bit nervous, to be honest.",
+    "Therapist: That's understandable. Remember, we'll go at your pace. Let's start with your SUDS rating.",
+    "Client: Um, I'd say about a 4 right now. Just thinking about revisiting those memories makes me tense up a bit.",
+    "Therapist: Okay. Take a deep breath and begin when you're ready.",
+    "Client: (inhales deeply) Alright... I'm back in the refugee camp. It's hot, dusty, and crowded. I can smell sweat and hear children crying. I'm sitting on the ground, my back against a tent pole. My stomach is growling \u2013 we haven't had a proper meal in days. I feel so... helpless.",
+    "Therapist: How are you feeling now?",
+    "Client: It's getting more intense. Maybe a 6? My heart is starting to race a bit.",
+    "Therapist: You're doing well. Continue focusing on the memory.",
+    "Client: (voice trembling) I see my younger siblings huddled together, looking so thin and scared. I want to comfort them, but I feel paralyzed. The guilt is overwhelming \u2013 I should be doing more, but I don't know how. I can hear raised voices nearby, someone arguing over water rations. It makes me flinch.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: (breathing heavily) It's... it's an 8. I can feel my hands shaking. It's like I'm right back there.",
+    "Therapist: You're safe here. Keep going if you can.",
+    "Client: (nods) A guard walks by, his gun visible. I freeze, terrified he'll notice us. My little sister starts to whimper, and I quickly shush her. The fear is suffocating. I feel so small, so powerless. Why did this happen to us? What did we do to deserve this?",
+    "Therapist: How are you feeling in this moment?",
+    "Client: (wiping tears) It's still an 8. My chest feels tight, and I'm fighting the urge to run out of the room.",
+    "Therapist: You're doing great. Stay with it if you can.",
+    "Client: (takes a shaky breath) Night is falling now. The camp gets eerily quiet, but I can't relax. Every sound makes me jump. I'm exhausted but too afraid to sleep. I have to stay alert, protect my siblings. The weight of responsibility is crushing me. I feel so alone, so... abandoned.",
+    "Therapist: And your SUDS rating now?",
+    "Client: (voice breaking) It's... it's a 9. I can barely breathe. My whole body is tense.",
+    "Therapist: You're very brave. Take a moment if you need to.",
+    "Client: (nods, takes a few deep breaths) I'm okay. I can keep going. The night seems endless. I'm cold now, shivering. I pull my siblings closer, trying to share what little warmth I have. I'm so angry \u2013 at the world, at our situation, at myself for not being able to do more. But mostly, I just feel... empty. Like hope has abandoned us completely.",
+    "Therapist: How are you feeling now?",
+    "Client: (sighs) It's coming down a bit. Maybe a 7? I'm starting to remember that it's just a memory.",
+    "Therapist: That's good. You're doing excellent work.",
+    "Client: (nods) As dawn breaks, I see other families stirring. There's a strange comfort in knowing we're not alone in this struggle. I gather my strength and stand up. We need to find food, water. The day ahead looks bleak, but I have to keep going. For them.",
+    "Therapist: And your final SUDS rating?",
+    "Client: (exhales slowly) It's back to a 5. I feel drained, but... okay.",
+    "Therapist: Well done, Sarah. How are you feeling overall?",
+    "Client: Exhausted, but... oddly relieved? Like I've released something I've been holding onto for so long.",
+    "Therapist: That's normal. We'll end here today. You should be proud of yourself."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Sarah. Are you ready to begin our imaginal exposure exercise?",
+      "Client: I think so... I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Remember, we'll go at your pace. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so... I'm feeling a bit nervous, to be honest.",
+      "Therapist: That's understandable. Remember, we'll go at your pace. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 right now. Just thinking about revisiting those memories makes me tense up a bit."
+    ],
+    [
+      "Therapist: That's understandable. Remember, we'll go at your pace. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 right now. Just thinking about revisiting those memories makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4 right now. Just thinking about revisiting those memories makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: (inhales deeply) Alright... I'm back in the refugee camp. It's hot, dusty, and crowded. I can smell sweat and hear children crying. I'm sitting on the ground, my back against a tent pole. My stomach is growling \u2013 we haven't had a proper meal in days. I feel so... helpless."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: (inhales deeply) Alright... I'm back in the refugee camp. It's hot, dusty, and crowded. I can smell sweat and hear children crying. I'm sitting on the ground, my back against a tent pole. My stomach is growling \u2013 we haven't had a proper meal in days. I feel so... helpless.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (inhales deeply) Alright... I'm back in the refugee camp. It's hot, dusty, and crowded. I can smell sweat and hear children crying. I'm sitting on the ground, my back against a tent pole. My stomach is growling \u2013 we haven't had a proper meal in days. I feel so... helpless.",
+      "Therapist: How are you feeling now?",
+      "Client: It's getting more intense. Maybe a 6? My heart is starting to race a bit."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's getting more intense. Maybe a 6? My heart is starting to race a bit.",
+      "Therapist: You're doing well. Continue focusing on the memory."
+    ],
+    [
+      "Client: It's getting more intense. Maybe a 6? My heart is starting to race a bit.",
+      "Therapist: You're doing well. Continue focusing on the memory.",
+      "Client: (voice trembling) I see my younger siblings huddled together, looking so thin and scared. I want to comfort them, but I feel paralyzed. The guilt is overwhelming \u2013 I should be doing more, but I don't know how. I can hear raised voices nearby, someone arguing over water rations. It makes me flinch."
+    ],
+    [
+      "Therapist: You're doing well. Continue focusing on the memory.",
+      "Client: (voice trembling) I see my younger siblings huddled together, looking so thin and scared. I want to comfort them, but I feel paralyzed. The guilt is overwhelming \u2013 I should be doing more, but I don't know how. I can hear raised voices nearby, someone arguing over water rations. It makes me flinch.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: (voice trembling) I see my younger siblings huddled together, looking so thin and scared. I want to comfort them, but I feel paralyzed. The guilt is overwhelming \u2013 I should be doing more, but I don't know how. I can hear raised voices nearby, someone arguing over water rations. It makes me flinch.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: (breathing heavily) It's... it's an 8. I can feel my hands shaking. It's like I'm right back there."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: (breathing heavily) It's... it's an 8. I can feel my hands shaking. It's like I'm right back there.",
+      "Therapist: You're safe here. Keep going if you can."
+    ],
+    [
+      "Client: (breathing heavily) It's... it's an 8. I can feel my hands shaking. It's like I'm right back there.",
+      "Therapist: You're safe here. Keep going if you can.",
+      "Client: (nods) A guard walks by, his gun visible. I freeze, terrified he'll notice us. My little sister starts to whimper, and I quickly shush her. The fear is suffocating. I feel so small, so powerless. Why did this happen to us? What did we do to deserve this?"
+    ],
+    [
+      "Therapist: You're safe here. Keep going if you can.",
+      "Client: (nods) A guard walks by, his gun visible. I freeze, terrified he'll notice us. My little sister starts to whimper, and I quickly shush her. The fear is suffocating. I feel so small, so powerless. Why did this happen to us? What did we do to deserve this?",
+      "Therapist: How are you feeling in this moment?"
+    ],
+    [
+      "Client: (nods) A guard walks by, his gun visible. I freeze, terrified he'll notice us. My little sister starts to whimper, and I quickly shush her. The fear is suffocating. I feel so small, so powerless. Why did this happen to us? What did we do to deserve this?",
+      "Therapist: How are you feeling in this moment?",
+      "Client: (wiping tears) It's still an 8. My chest feels tight, and I'm fighting the urge to run out of the room."
+    ],
+    [
+      "Therapist: How are you feeling in this moment?",
+      "Client: (wiping tears) It's still an 8. My chest feels tight, and I'm fighting the urge to run out of the room.",
+      "Therapist: You're doing great. Stay with it if you can."
+    ],
+    [
+      "Client: (wiping tears) It's still an 8. My chest feels tight, and I'm fighting the urge to run out of the room.",
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: (takes a shaky breath) Night is falling now. The camp gets eerily quiet, but I can't relax. Every sound makes me jump. I'm exhausted but too afraid to sleep. I have to stay alert, protect my siblings. The weight of responsibility is crushing me. I feel so alone, so... abandoned."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it if you can.",
+      "Client: (takes a shaky breath) Night is falling now. The camp gets eerily quiet, but I can't relax. Every sound makes me jump. I'm exhausted but too afraid to sleep. I have to stay alert, protect my siblings. The weight of responsibility is crushing me. I feel so alone, so... abandoned.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: (takes a shaky breath) Night is falling now. The camp gets eerily quiet, but I can't relax. Every sound makes me jump. I'm exhausted but too afraid to sleep. I have to stay alert, protect my siblings. The weight of responsibility is crushing me. I feel so alone, so... abandoned.",
+      "Therapist: And your SUDS rating now?",
+      "Client: (voice breaking) It's... it's a 9. I can barely breathe. My whole body is tense."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: (voice breaking) It's... it's a 9. I can barely breathe. My whole body is tense.",
+      "Therapist: You're very brave. Take a moment if you need to."
+    ],
+    [
+      "Client: (voice breaking) It's... it's a 9. I can barely breathe. My whole body is tense.",
+      "Therapist: You're very brave. Take a moment if you need to.",
+      "Client: (nods, takes a few deep breaths) I'm okay. I can keep going. The night seems endless. I'm cold now, shivering. I pull my siblings closer, trying to share what little warmth I have. I'm so angry \u2013 at the world, at our situation, at myself for not being able to do more. But mostly, I just feel... empty. Like hope has abandoned us completely."
+    ],
+    [
+      "Therapist: You're very brave. Take a moment if you need to.",
+      "Client: (nods, takes a few deep breaths) I'm okay. I can keep going. The night seems endless. I'm cold now, shivering. I pull my siblings closer, trying to share what little warmth I have. I'm so angry \u2013 at the world, at our situation, at myself for not being able to do more. But mostly, I just feel... empty. Like hope has abandoned us completely.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (nods, takes a few deep breaths) I'm okay. I can keep going. The night seems endless. I'm cold now, shivering. I pull my siblings closer, trying to share what little warmth I have. I'm so angry \u2013 at the world, at our situation, at myself for not being able to do more. But mostly, I just feel... empty. Like hope has abandoned us completely.",
+      "Therapist: How are you feeling now?",
+      "Client: (sighs) It's coming down a bit. Maybe a 7? I'm starting to remember that it's just a memory."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: (sighs) It's coming down a bit. Maybe a 7? I'm starting to remember that it's just a memory.",
+      "Therapist: That's good. You're doing excellent work."
+    ],
+    [
+      "Client: (sighs) It's coming down a bit. Maybe a 7? I'm starting to remember that it's just a memory.",
+      "Therapist: That's good. You're doing excellent work.",
+      "Client: (nods) As dawn breaks, I see other families stirring. There's a strange comfort in knowing we're not alone in this struggle. I gather my strength and stand up. We need to find food, water. The day ahead looks bleak, but I have to keep going. For them."
+    ],
+    [
+      "Therapist: That's good. You're doing excellent work.",
+      "Client: (nods) As dawn breaks, I see other families stirring. There's a strange comfort in knowing we're not alone in this struggle. I gather my strength and stand up. We need to find food, water. The day ahead looks bleak, but I have to keep going. For them.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: (nods) As dawn breaks, I see other families stirring. There's a strange comfort in knowing we're not alone in this struggle. I gather my strength and stand up. We need to find food, water. The day ahead looks bleak, but I have to keep going. For them.",
+      "Therapist: And your final SUDS rating?",
+      "Client: (exhales slowly) It's back to a 5. I feel drained, but... okay."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: (exhales slowly) It's back to a 5. I feel drained, but... okay.",
+      "Therapist: Well done, Sarah. How are you feeling overall?"
+    ],
+    [
+      "Client: (exhales slowly) It's back to a 5. I feel drained, but... okay.",
+      "Therapist: Well done, Sarah. How are you feeling overall?",
+      "Client: Exhausted, but... oddly relieved? Like I've released something I've been holding onto for so long."
+    ],
+    [
+      "Therapist: Well done, Sarah. How are you feeling overall?",
+      "Client: Exhausted, but... oddly relieved? Like I've released something I've been holding onto for so long.",
+      "Therapist: That's normal. We'll end here today. You should be proud of yourself."
+    ]
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, John?",
+    "Client: I... I'm not really sure. It's all a bit overwhelming, to be honest. Reliving that moment in the hospital when I found out about my wife's diagnosis... it's like I was right back there again. The sterile smell, the fluorescent lights, the doctor's voice... it all came flooding back.",
+    "Therapist: What stood out to you most?",
+    "Client: The silence. After the doctor told us it was terminal, there was this... deafening silence. I remember looking at my wife, and she just... she looked so small in that hospital bed. I felt so helpless, you know? Like the world was crumbling around us and I couldn't do a damn thing about it.",
+    "Therapist: How did that helplessness feel in your body?",
+    "Client: It was like... like a weight on my chest. I could barely breathe. My hands were shaking, and I remember gripping the edge of the bed so hard my knuckles turned white. I wanted to be strong for her, but I felt like I was falling apart inside.",
+    "Therapist: That sounds intense. How are you managing those feelings now?",
+    "Client: It's... it's still hard. But I think... I think I'm starting to see that I did the best I could in an impossible situation. I couldn't change her diagnosis, but I was there for her. Every step of the way. That counts for something, right?",
+    "Therapist: Absolutely. What else are you noticing?",
+    "Client: I guess... I'm realizing that avoiding these memories hasn't really helped. It's like I've been carrying this weight around for years, and now... now I'm finally starting to put it down. It hurts, but there's also a strange sense of... I don't know, relief maybe?",
+    "Therapist: That's a valuable insight. How might this relate to your recovery?",
+    "Client: I think... maybe it's showing me that I can face these painful memories and survive. That they don't have to control me anymore. It's hard, and it hurts like hell, but I'm doing it. And maybe... maybe that means I can start to move forward, you know?",
+    "Therapist: That's a powerful realization. What's next for you?",
+    "Client: I... I think I want to keep going with this. It's tough, but I feel like I'm finally starting to process everything. And maybe... maybe I can start to remember the good times with her too, not just the painful end. Is that... is that normal?",
+    "Therapist: It's a common and positive progression. How do you feel about continuing?",
+    "Client: I'm nervous, but... I'm ready. I want to do this. For her, for me, for our kids. I want to be able to talk about her without falling apart. To remember her life, not just her death. It's going to be hard, but... I think it's worth it.",
+    "Therapist: Your commitment is admirable. Shall we schedule our next session?",
+    "Client: Yeah, let's do it. Same time next week? And... thank you. For helping me through this. I know I've got a long way to go, but for the first time in years, I feel like... like maybe there's a light at the end of this tunnel.",
+    "Therapist: You're welcome, John. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, John?",
+      "Client: I... I'm not really sure. It's all a bit overwhelming, to be honest. Reliving that moment in the hospital when I found out about my wife's diagnosis... it's like I was right back there again. The sterile smell, the fluorescent lights, the doctor's voice... it all came flooding back.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not really sure. It's all a bit overwhelming, to be honest. Reliving that moment in the hospital when I found out about my wife's diagnosis... it's like I was right back there again. The sterile smell, the fluorescent lights, the doctor's voice... it all came flooding back.",
+      "Therapist: What stood out to you most?",
+      "Client: The silence. After the doctor told us it was terminal, there was this... deafening silence. I remember looking at my wife, and she just... she looked so small in that hospital bed. I felt so helpless, you know? Like the world was crumbling around us and I couldn't do a damn thing about it."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The silence. After the doctor told us it was terminal, there was this... deafening silence. I remember looking at my wife, and she just... she looked so small in that hospital bed. I felt so helpless, you know? Like the world was crumbling around us and I couldn't do a damn thing about it.",
+      "Therapist: How did that helplessness feel in your body?"
+    ],
+    [
+      "Client: The silence. After the doctor told us it was terminal, there was this... deafening silence. I remember looking at my wife, and she just... she looked so small in that hospital bed. I felt so helpless, you know? Like the world was crumbling around us and I couldn't do a damn thing about it.",
+      "Therapist: How did that helplessness feel in your body?",
+      "Client: It was like... like a weight on my chest. I could barely breathe. My hands were shaking, and I remember gripping the edge of the bed so hard my knuckles turned white. I wanted to be strong for her, but I felt like I was falling apart inside."
+    ],
+    [
+      "Therapist: How did that helplessness feel in your body?",
+      "Client: It was like... like a weight on my chest. I could barely breathe. My hands were shaking, and I remember gripping the edge of the bed so hard my knuckles turned white. I wanted to be strong for her, but I felt like I was falling apart inside.",
+      "Therapist: That sounds intense. How are you managing those feelings now?"
+    ],
+    [
+      "Client: It was like... like a weight on my chest. I could barely breathe. My hands were shaking, and I remember gripping the edge of the bed so hard my knuckles turned white. I wanted to be strong for her, but I felt like I was falling apart inside.",
+      "Therapist: That sounds intense. How are you managing those feelings now?",
+      "Client: It's... it's still hard. But I think... I think I'm starting to see that I did the best I could in an impossible situation. I couldn't change her diagnosis, but I was there for her. Every step of the way. That counts for something, right?"
+    ],
+    [
+      "Therapist: That sounds intense. How are you managing those feelings now?",
+      "Client: It's... it's still hard. But I think... I think I'm starting to see that I did the best I could in an impossible situation. I couldn't change her diagnosis, but I was there for her. Every step of the way. That counts for something, right?",
+      "Therapist: Absolutely. What else are you noticing?"
+    ],
+    [
+      "Client: It's... it's still hard. But I think... I think I'm starting to see that I did the best I could in an impossible situation. I couldn't change her diagnosis, but I was there for her. Every step of the way. That counts for something, right?",
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I guess... I'm realizing that avoiding these memories hasn't really helped. It's like I've been carrying this weight around for years, and now... now I'm finally starting to put it down. It hurts, but there's also a strange sense of... I don't know, relief maybe?"
+    ],
+    [
+      "Therapist: Absolutely. What else are you noticing?",
+      "Client: I guess... I'm realizing that avoiding these memories hasn't really helped. It's like I've been carrying this weight around for years, and now... now I'm finally starting to put it down. It hurts, but there's also a strange sense of... I don't know, relief maybe?",
+      "Therapist: That's a valuable insight. How might this relate to your recovery?"
+    ],
+    [
+      "Client: I guess... I'm realizing that avoiding these memories hasn't really helped. It's like I've been carrying this weight around for years, and now... now I'm finally starting to put it down. It hurts, but there's also a strange sense of... I don't know, relief maybe?",
+      "Therapist: That's a valuable insight. How might this relate to your recovery?",
+      "Client: I think... maybe it's showing me that I can face these painful memories and survive. That they don't have to control me anymore. It's hard, and it hurts like hell, but I'm doing it. And maybe... maybe that means I can start to move forward, you know?"
+    ],
+    [
+      "Therapist: That's a valuable insight. How might this relate to your recovery?",
+      "Client: I think... maybe it's showing me that I can face these painful memories and survive. That they don't have to control me anymore. It's hard, and it hurts like hell, but I'm doing it. And maybe... maybe that means I can start to move forward, you know?",
+      "Therapist: That's a powerful realization. What's next for you?"
+    ],
+    [
+      "Client: I think... maybe it's showing me that I can face these painful memories and survive. That they don't have to control me anymore. It's hard, and it hurts like hell, but I'm doing it. And maybe... maybe that means I can start to move forward, you know?",
+      "Therapist: That's a powerful realization. What's next for you?",
+      "Client: I... I think I want to keep going with this. It's tough, but I feel like I'm finally starting to process everything. And maybe... maybe I can start to remember the good times with her too, not just the painful end. Is that... is that normal?"
+    ],
+    [
+      "Therapist: That's a powerful realization. What's next for you?",
+      "Client: I... I think I want to keep going with this. It's tough, but I feel like I'm finally starting to process everything. And maybe... maybe I can start to remember the good times with her too, not just the painful end. Is that... is that normal?",
+      "Therapist: It's a common and positive progression. How do you feel about continuing?"
+    ],
+    [
+      "Client: I... I think I want to keep going with this. It's tough, but I feel like I'm finally starting to process everything. And maybe... maybe I can start to remember the good times with her too, not just the painful end. Is that... is that normal?",
+      "Therapist: It's a common and positive progression. How do you feel about continuing?",
+      "Client: I'm nervous, but... I'm ready. I want to do this. For her, for me, for our kids. I want to be able to talk about her without falling apart. To remember her life, not just her death. It's going to be hard, but... I think it's worth it."
+    ],
+    [
+      "Therapist: It's a common and positive progression. How do you feel about continuing?",
+      "Client: I'm nervous, but... I'm ready. I want to do this. For her, for me, for our kids. I want to be able to talk about her without falling apart. To remember her life, not just her death. It's going to be hard, but... I think it's worth it.",
+      "Therapist: Your commitment is admirable. Shall we schedule our next session?"
+    ],
+    [
+      "Client: I'm nervous, but... I'm ready. I want to do this. For her, for me, for our kids. I want to be able to talk about her without falling apart. To remember her life, not just her death. It's going to be hard, but... I think it's worth it.",
+      "Therapist: Your commitment is admirable. Shall we schedule our next session?",
+      "Client: Yeah, let's do it. Same time next week? And... thank you. For helping me through this. I know I've got a long way to go, but for the first time in years, I feel like... like maybe there's a light at the end of this tunnel."
+    ],
+    [
+      "Therapist: Your commitment is admirable. Shall we schedule our next session?",
+      "Client: Yeah, let's do it. Same time next week? And... thank you. For helping me through this. I know I've got a long way to go, but for the first time in years, I feel like... like maybe there's a light at the end of this tunnel.",
+      "Therapist: You're welcome, John. I'll see you next week."
+    ]
+  ]
+}

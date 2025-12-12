@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's a lot to process. The airplane crash... it felt so real again. My heart's still racing a bit, to be honest.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The noise. God, the noise. It was deafening. I could hear the engines sputtering, people screaming, and then that awful crunching sound when we hit the ground. It's like my ears are still ringing.",
+    "Therapist: Hmm. How did reliving that affect you physically?",
+    "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I kept reminding myself I was here, in this room, but part of me felt trapped in that memory.",
+    "Therapist: I see. What thoughts went through your mind?",
+    "Client: I kept thinking, \"This is it. I'm going to die.\" And then... guilt. Overwhelming guilt. Why did I survive when others didn't? It doesn't make sense. And then I thought about my family, how I've been distant since the crash. I feel like I'm letting them down, you know?",
+    "Therapist: How does this connect to your everyday experiences?",
+    "Client: Well, I guess... I've been avoiding anything related to travel. Even car rides make me anxious now. And that guilt... it's always there, lingering. It's affecting my relationships, my work. I feel like I'm not fully present in my own life anymore.",
+    "Therapist: What did you learn about yourself today?",
+    "Client: I... I realized I'm stronger than I thought. I mean, I got through the memory without completely falling apart. And maybe... maybe it's okay to feel these things? I've been trying so hard to push everything down, but facing it head-on... it's terrifying, but also... I don't know, maybe a little empowering?",
+    "Therapist: That's a valuable insight. How might this help moving forward?",
+    "Client: I think... maybe I need to stop running from these feelings. Face them, like we did today. It's exhausting, constantly trying to avoid anything that reminds me of the crash. And my family... they deserve better. I want to be there for them, really be present.",
+    "Therapist: Excellent observation. What's your takeaway from today's session?",
+    "Client: I guess... it's okay to feel scared, to feel guilty. But I don't have to let those feelings control me. And talking about it, reliving it in a safe space... it's hard, but it feels like it might actually help in the long run. I'm... I'm glad I came today, even though part of me wanted to cancel.",
+    "Therapist: I appreciate your courage. How do you feel about continuing this work?",
+    "Client: It's daunting, but... I think I need to. For myself, for my family. I want my life back, you know? And if this is the way to do it... then I'm willing to keep trying. It's not easy, but I'm starting to see a glimmer of hope.",
+    "Therapist: That's great. Any final thoughts before we wrap up?",
+    "Client: Just... thank you, I guess. For guiding me through this. For not judging. I know I have a long way to go, but for the first time in a while, I feel like maybe, just maybe, I can get through this. It's a small step, but it feels significant.",
+    "Therapist: You've done well today. We'll continue next session. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's a lot to process. The airplane crash... it felt so real again. My heart's still racing a bit, to be honest.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. The airplane crash... it felt so real again. My heart's still racing a bit, to be honest.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The noise. God, the noise. It was deafening. I could hear the engines sputtering, people screaming, and then that awful crunching sound when we hit the ground. It's like my ears are still ringing."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The noise. God, the noise. It was deafening. I could hear the engines sputtering, people screaming, and then that awful crunching sound when we hit the ground. It's like my ears are still ringing.",
+      "Therapist: Hmm. How did reliving that affect you physically?"
+    ],
+    [
+      "Client: The noise. God, the noise. It was deafening. I could hear the engines sputtering, people screaming, and then that awful crunching sound when we hit the ground. It's like my ears are still ringing.",
+      "Therapist: Hmm. How did reliving that affect you physically?",
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I kept reminding myself I was here, in this room, but part of me felt trapped in that memory."
+    ],
+    [
+      "Therapist: Hmm. How did reliving that affect you physically?",
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I kept reminding myself I was here, in this room, but part of me felt trapped in that memory.",
+      "Therapist: I see. What thoughts went through your mind?"
+    ],
+    [
+      "Client: My palms got sweaty, and I felt this tightness in my chest. It's like I couldn't breathe properly. I kept reminding myself I was here, in this room, but part of me felt trapped in that memory.",
+      "Therapist: I see. What thoughts went through your mind?",
+      "Client: I kept thinking, \"This is it. I'm going to die.\" And then... guilt. Overwhelming guilt. Why did I survive when others didn't? It doesn't make sense. And then I thought about my family, how I've been distant since the crash. I feel like I'm letting them down, you know?"
+    ],
+    [
+      "Therapist: I see. What thoughts went through your mind?",
+      "Client: I kept thinking, \"This is it. I'm going to die.\" And then... guilt. Overwhelming guilt. Why did I survive when others didn't? It doesn't make sense. And then I thought about my family, how I've been distant since the crash. I feel like I'm letting them down, you know?",
+      "Therapist: How does this connect to your everyday experiences?"
+    ],
+    [
+      "Client: I kept thinking, \"This is it. I'm going to die.\" And then... guilt. Overwhelming guilt. Why did I survive when others didn't? It doesn't make sense. And then I thought about my family, how I've been distant since the crash. I feel like I'm letting them down, you know?",
+      "Therapist: How does this connect to your everyday experiences?",
+      "Client: Well, I guess... I've been avoiding anything related to travel. Even car rides make me anxious now. And that guilt... it's always there, lingering. It's affecting my relationships, my work. I feel like I'm not fully present in my own life anymore."
+    ],
+    [
+      "Therapist: How does this connect to your everyday experiences?",
+      "Client: Well, I guess... I've been avoiding anything related to travel. Even car rides make me anxious now. And that guilt... it's always there, lingering. It's affecting my relationships, my work. I feel like I'm not fully present in my own life anymore.",
+      "Therapist: What did you learn about yourself today?"
+    ],
+    [
+      "Client: Well, I guess... I've been avoiding anything related to travel. Even car rides make me anxious now. And that guilt... it's always there, lingering. It's affecting my relationships, my work. I feel like I'm not fully present in my own life anymore.",
+      "Therapist: What did you learn about yourself today?",
+      "Client: I... I realized I'm stronger than I thought. I mean, I got through the memory without completely falling apart. And maybe... maybe it's okay to feel these things? I've been trying so hard to push everything down, but facing it head-on... it's terrifying, but also... I don't know, maybe a little empowering?"
+    ],
+    [
+      "Therapist: What did you learn about yourself today?",
+      "Client: I... I realized I'm stronger than I thought. I mean, I got through the memory without completely falling apart. And maybe... maybe it's okay to feel these things? I've been trying so hard to push everything down, but facing it head-on... it's terrifying, but also... I don't know, maybe a little empowering?",
+      "Therapist: That's a valuable insight. How might this help moving forward?"
+    ],
+    [
+      "Client: I... I realized I'm stronger than I thought. I mean, I got through the memory without completely falling apart. And maybe... maybe it's okay to feel these things? I've been trying so hard to push everything down, but facing it head-on... it's terrifying, but also... I don't know, maybe a little empowering?",
+      "Therapist: That's a valuable insight. How might this help moving forward?",
+      "Client: I think... maybe I need to stop running from these feelings. Face them, like we did today. It's exhausting, constantly trying to avoid anything that reminds me of the crash. And my family... they deserve better. I want to be there for them, really be present."
+    ],
+    [
+      "Therapist: That's a valuable insight. How might this help moving forward?",
+      "Client: I think... maybe I need to stop running from these feelings. Face them, like we did today. It's exhausting, constantly trying to avoid anything that reminds me of the crash. And my family... they deserve better. I want to be there for them, really be present.",
+      "Therapist: Excellent observation. What's your takeaway from today's session?"
+    ],
+    [
+      "Client: I think... maybe I need to stop running from these feelings. Face them, like we did today. It's exhausting, constantly trying to avoid anything that reminds me of the crash. And my family... they deserve better. I want to be there for them, really be present.",
+      "Therapist: Excellent observation. What's your takeaway from today's session?",
+      "Client: I guess... it's okay to feel scared, to feel guilty. But I don't have to let those feelings control me. And talking about it, reliving it in a safe space... it's hard, but it feels like it might actually help in the long run. I'm... I'm glad I came today, even though part of me wanted to cancel."
+    ],
+    [
+      "Therapist: Excellent observation. What's your takeaway from today's session?",
+      "Client: I guess... it's okay to feel scared, to feel guilty. But I don't have to let those feelings control me. And talking about it, reliving it in a safe space... it's hard, but it feels like it might actually help in the long run. I'm... I'm glad I came today, even though part of me wanted to cancel.",
+      "Therapist: I appreciate your courage. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I guess... it's okay to feel scared, to feel guilty. But I don't have to let those feelings control me. And talking about it, reliving it in a safe space... it's hard, but it feels like it might actually help in the long run. I'm... I'm glad I came today, even though part of me wanted to cancel.",
+      "Therapist: I appreciate your courage. How do you feel about continuing this work?",
+      "Client: It's daunting, but... I think I need to. For myself, for my family. I want my life back, you know? And if this is the way to do it... then I'm willing to keep trying. It's not easy, but I'm starting to see a glimmer of hope."
+    ],
+    [
+      "Therapist: I appreciate your courage. How do you feel about continuing this work?",
+      "Client: It's daunting, but... I think I need to. For myself, for my family. I want my life back, you know? And if this is the way to do it... then I'm willing to keep trying. It's not easy, but I'm starting to see a glimmer of hope.",
+      "Therapist: That's great. Any final thoughts before we wrap up?"
+    ],
+    [
+      "Client: It's daunting, but... I think I need to. For myself, for my family. I want my life back, you know? And if this is the way to do it... then I'm willing to keep trying. It's not easy, but I'm starting to see a glimmer of hope.",
+      "Therapist: That's great. Any final thoughts before we wrap up?",
+      "Client: Just... thank you, I guess. For guiding me through this. For not judging. I know I have a long way to go, but for the first time in a while, I feel like maybe, just maybe, I can get through this. It's a small step, but it feels significant."
+    ],
+    [
+      "Therapist: That's great. Any final thoughts before we wrap up?",
+      "Client: Just... thank you, I guess. For guiding me through this. For not judging. I know I have a long way to go, but for the first time in a while, I feel like maybe, just maybe, I can get through this. It's a small step, but it feels significant.",
+      "Therapist: You've done well today. We'll continue next session. Take care."
+    ]
+  ]
+}

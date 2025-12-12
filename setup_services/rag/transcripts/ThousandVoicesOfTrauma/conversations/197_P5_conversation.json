@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mrs. Amiri. How are you feeling today?",
+    "Client: Oh, Dr. Mitchell. I'm... I'm not sure. A bit nervous, I suppose. I've been thinking about this session all week. My grandchildren visited yesterday, which was a nice distraction, but now that I'm here, I feel my heart racing a bit.",
+    "Therapist: That's understandable. We'll take it slow.",
+    "Client: Thank you. I appreciate that. It's just... this whole idea of reliving the trauma... it's frightening. I've spent so long trying to forget.",
+    "Therapist: Your concerns are valid. Shall we discuss the process?",
+    "Client: Yes, please. I need to understand what's going to happen. Will it be like opening Pandora's box? I'm worried I might fall apart completely.",
+    "Therapist: It's controlled. We'll go at your pace.",
+    "Client: That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. And with my depression... I'm just worried it might make everything worse.",
+    "Therapist: We'll monitor you closely. You can stop anytime.",
+    "Client: Okay... that helps. Can you tell me more about what exactly we'll be doing? And why this is supposed to help? It seems counterintuitive to deliberately think about something I've been avoiding for so long.",
+    "Therapist: We'll revisit the memory safely. It helps process trauma.",
+    "Client: Process the trauma? I see. So, it's not just about reliving it, but understanding it better? That makes some sense, I suppose. But how does this relate to the cyber bullying my granddaughter is experiencing? That's what's been triggering these memories lately.",
+    "Therapist: We'll explore connections. Your experience informs current stress.",
+    "Client: I hadn't thought of it that way. It's true, seeing her go through this has brought back so many memories of the violence I witnessed. I feel so helpless, just like I did back then. Is that what we're trying to address?",
+    "Therapist: Exactly. We'll work on those feelings together.",
+    "Client: I appreciate your patience with all my questions, Dr. Mitchell. I'm still nervous, but I think I understand better now. How long will this process take? And what should I expect to feel during and after?",
+    "Therapist: Sessions vary. Emotions may intensify, then ease.",
+    "Client: I see. It's a bit daunting, but I'm willing to try. I want to be stronger for my granddaughter. I want to help her without being overwhelmed by my own past. Do you think this will really help with that?",
+    "Therapist: Yes. It can improve your resilience significantly.",
+    "Client: Alright, I trust you. You've been very helpful so far. I'm ready to give this a try. Where do we start? And is there anything I should do to prepare myself?",
+    "Therapist: Just breathe. We'll start gently. You're brave.",
+    "Client: Thank you, Dr. Mitchell. That means a lot. I've never thought of myself as brave, but I suppose facing this does take courage. I'm grateful for your support. Let's begin whenever you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mrs. Amiri. How are you feeling today?",
+      "Client: Oh, Dr. Mitchell. I'm... I'm not sure. A bit nervous, I suppose. I've been thinking about this session all week. My grandchildren visited yesterday, which was a nice distraction, but now that I'm here, I feel my heart racing a bit.",
+      "Therapist: That's understandable. We'll take it slow."
+    ],
+    [
+      "Client: Oh, Dr. Mitchell. I'm... I'm not sure. A bit nervous, I suppose. I've been thinking about this session all week. My grandchildren visited yesterday, which was a nice distraction, but now that I'm here, I feel my heart racing a bit.",
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... this whole idea of reliving the trauma... it's frightening. I've spent so long trying to forget."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Thank you. I appreciate that. It's just... this whole idea of reliving the trauma... it's frightening. I've spent so long trying to forget.",
+      "Therapist: Your concerns are valid. Shall we discuss the process?"
+    ],
+    [
+      "Client: Thank you. I appreciate that. It's just... this whole idea of reliving the trauma... it's frightening. I've spent so long trying to forget.",
+      "Therapist: Your concerns are valid. Shall we discuss the process?",
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like opening Pandora's box? I'm worried I might fall apart completely."
+    ],
+    [
+      "Therapist: Your concerns are valid. Shall we discuss the process?",
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like opening Pandora's box? I'm worried I might fall apart completely.",
+      "Therapist: It's controlled. We'll go at your pace."
+    ],
+    [
+      "Client: Yes, please. I need to understand what's going to happen. Will it be like opening Pandora's box? I'm worried I might fall apart completely.",
+      "Therapist: It's controlled. We'll go at your pace.",
+      "Client: That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. And with my depression... I'm just worried it might make everything worse."
+    ],
+    [
+      "Therapist: It's controlled. We'll go at your pace.",
+      "Client: That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. And with my depression... I'm just worried it might make everything worse.",
+      "Therapist: We'll monitor you closely. You can stop anytime."
+    ],
+    [
+      "Client: That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. And with my depression... I'm just worried it might make everything worse.",
+      "Therapist: We'll monitor you closely. You can stop anytime.",
+      "Client: Okay... that helps. Can you tell me more about what exactly we'll be doing? And why this is supposed to help? It seems counterintuitive to deliberately think about something I've been avoiding for so long."
+    ],
+    [
+      "Therapist: We'll monitor you closely. You can stop anytime.",
+      "Client: Okay... that helps. Can you tell me more about what exactly we'll be doing? And why this is supposed to help? It seems counterintuitive to deliberately think about something I've been avoiding for so long.",
+      "Therapist: We'll revisit the memory safely. It helps process trauma."
+    ],
+    [
+      "Client: Okay... that helps. Can you tell me more about what exactly we'll be doing? And why this is supposed to help? It seems counterintuitive to deliberately think about something I've been avoiding for so long.",
+      "Therapist: We'll revisit the memory safely. It helps process trauma.",
+      "Client: Process the trauma? I see. So, it's not just about reliving it, but understanding it better? That makes some sense, I suppose. But how does this relate to the cyber bullying my granddaughter is experiencing? That's what's been triggering these memories lately."
+    ],
+    [
+      "Therapist: We'll revisit the memory safely. It helps process trauma.",
+      "Client: Process the trauma? I see. So, it's not just about reliving it, but understanding it better? That makes some sense, I suppose. But how does this relate to the cyber bullying my granddaughter is experiencing? That's what's been triggering these memories lately.",
+      "Therapist: We'll explore connections. Your experience informs current stress."
+    ],
+    [
+      "Client: Process the trauma? I see. So, it's not just about reliving it, but understanding it better? That makes some sense, I suppose. But how does this relate to the cyber bullying my granddaughter is experiencing? That's what's been triggering these memories lately.",
+      "Therapist: We'll explore connections. Your experience informs current stress.",
+      "Client: I hadn't thought of it that way. It's true, seeing her go through this has brought back so many memories of the violence I witnessed. I feel so helpless, just like I did back then. Is that what we're trying to address?"
+    ],
+    [
+      "Therapist: We'll explore connections. Your experience informs current stress.",
+      "Client: I hadn't thought of it that way. It's true, seeing her go through this has brought back so many memories of the violence I witnessed. I feel so helpless, just like I did back then. Is that what we're trying to address?",
+      "Therapist: Exactly. We'll work on those feelings together."
+    ],
+    [
+      "Client: I hadn't thought of it that way. It's true, seeing her go through this has brought back so many memories of the violence I witnessed. I feel so helpless, just like I did back then. Is that what we're trying to address?",
+      "Therapist: Exactly. We'll work on those feelings together.",
+      "Client: I appreciate your patience with all my questions, Dr. Mitchell. I'm still nervous, but I think I understand better now. How long will this process take? And what should I expect to feel during and after?"
+    ],
+    [
+      "Therapist: Exactly. We'll work on those feelings together.",
+      "Client: I appreciate your patience with all my questions, Dr. Mitchell. I'm still nervous, but I think I understand better now. How long will this process take? And what should I expect to feel during and after?",
+      "Therapist: Sessions vary. Emotions may intensify, then ease."
+    ],
+    [
+      "Client: I appreciate your patience with all my questions, Dr. Mitchell. I'm still nervous, but I think I understand better now. How long will this process take? And what should I expect to feel during and after?",
+      "Therapist: Sessions vary. Emotions may intensify, then ease.",
+      "Client: I see. It's a bit daunting, but I'm willing to try. I want to be stronger for my granddaughter. I want to help her without being overwhelmed by my own past. Do you think this will really help with that?"
+    ],
+    [
+      "Therapist: Sessions vary. Emotions may intensify, then ease.",
+      "Client: I see. It's a bit daunting, but I'm willing to try. I want to be stronger for my granddaughter. I want to help her without being overwhelmed by my own past. Do you think this will really help with that?",
+      "Therapist: Yes. It can improve your resilience significantly."
+    ],
+    [
+      "Client: I see. It's a bit daunting, but I'm willing to try. I want to be stronger for my granddaughter. I want to help her without being overwhelmed by my own past. Do you think this will really help with that?",
+      "Therapist: Yes. It can improve your resilience significantly.",
+      "Client: Alright, I trust you. You've been very helpful so far. I'm ready to give this a try. Where do we start? And is there anything I should do to prepare myself?"
+    ],
+    [
+      "Therapist: Yes. It can improve your resilience significantly.",
+      "Client: Alright, I trust you. You've been very helpful so far. I'm ready to give this a try. Where do we start? And is there anything I should do to prepare myself?",
+      "Therapist: Just breathe. We'll start gently. You're brave."
+    ],
+    [
+      "Client: Alright, I trust you. You've been very helpful so far. I'm ready to give this a try. Where do we start? And is there anything I should do to prepare myself?",
+      "Therapist: Just breathe. We'll start gently. You're brave.",
+      "Client: Thank you, Dr. Mitchell. That means a lot. I've never thought of myself as brave, but I suppose facing this does take courage. I'm grateful for your support. Let's begin whenever you're ready."
+    ]
+  ]
+}

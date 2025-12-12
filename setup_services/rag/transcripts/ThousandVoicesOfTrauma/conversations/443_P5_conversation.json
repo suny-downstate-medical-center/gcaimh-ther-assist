@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Mr. Abadi. How are you feeling today?",
+    "Client: Good afternoon, Dr. Thompson. I'm... I'm feeling a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is quite daunting.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, it's just... I've spent so long trying to forget what happened. The accident, the aftermath, it's all so painful. And now, to deliberately bring it all back? I'm worried it might be too much. What if I can't handle it? What if it makes things worse instead of better?",
+    "Therapist: Your concerns are valid. Let's discuss the process briefly.",
+    "Client: Okay, I appreciate that. I guess I'm just wondering, how exactly is this supposed to help? I mean, I understand the theory behind exposure therapy, but when it comes to actually doing it... it's scary. Will I have to relive every detail? What if I panic or freeze up?",
+    "Therapist: The goal is gradual exposure, at your pace. We'll support you throughout.",
+    "Client: That's somewhat reassuring. But what about the domestic violence aspect? That's... that's a whole different kind of trauma. It's not just one event, it's years of... of fear and pain. How do we even begin to address that?",
+    "Therapist: We'll focus on specific incidents, working through them systematically.",
+    "Client: I see. And you'll be there the whole time, right? I don't think I could face this alone. It's just... there's so much shame tied up in all of this. Especially as a man, you know? It's not something we talk about.",
+    "Therapist: Absolutely. I'll be here to guide and support you every step.",
+    "Client: Okay. I think I can do this. It's just... it's hard to imagine feeling better after deliberately revisiting these traumatic memories. But I trust you, and I'm willing to try. I'm tired of living with this constant fear and anxiety. If this can help... well, it's worth a shot, isn't it?",
+    "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms.",
+    "Client: Thank you. I appreciate your confidence in me. It helps, knowing that you've seen this work for others. I just hope... I hope I can be one of the success stories. There's so much I want to reclaim in my life, you know? My relationship with my wife, my work... everything's been affected by this.",
+    "Therapist: Your motivation is a strength. Shall we begin with a breathing exercise?",
+    "Client: Yes, I think that would help. I can feel my heart racing a bit just thinking about what we're about to do. A moment to center myself would be good. And... thank you, Dr. Thompson. For your patience and understanding. It means a lot."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Mr. Abadi. How are you feeling today?",
+      "Client: Good afternoon, Dr. Thompson. I'm... I'm feeling a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is quite daunting.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Good afternoon, Dr. Thompson. I'm... I'm feeling a bit nervous, to be honest. I know we've been working towards this, but the idea of revisiting those memories is quite daunting.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget what happened. The accident, the aftermath, it's all so painful. And now, to deliberately bring it all back? I'm worried it might be too much. What if I can't handle it? What if it makes things worse instead of better?"
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget what happened. The accident, the aftermath, it's all so painful. And now, to deliberately bring it all back? I'm worried it might be too much. What if I can't handle it? What if it makes things worse instead of better?",
+      "Therapist: Your concerns are valid. Let's discuss the process briefly."
+    ],
+    [
+      "Client: Well, it's just... I've spent so long trying to forget what happened. The accident, the aftermath, it's all so painful. And now, to deliberately bring it all back? I'm worried it might be too much. What if I can't handle it? What if it makes things worse instead of better?",
+      "Therapist: Your concerns are valid. Let's discuss the process briefly.",
+      "Client: Okay, I appreciate that. I guess I'm just wondering, how exactly is this supposed to help? I mean, I understand the theory behind exposure therapy, but when it comes to actually doing it... it's scary. Will I have to relive every detail? What if I panic or freeze up?"
+    ],
+    [
+      "Therapist: Your concerns are valid. Let's discuss the process briefly.",
+      "Client: Okay, I appreciate that. I guess I'm just wondering, how exactly is this supposed to help? I mean, I understand the theory behind exposure therapy, but when it comes to actually doing it... it's scary. Will I have to relive every detail? What if I panic or freeze up?",
+      "Therapist: The goal is gradual exposure, at your pace. We'll support you throughout."
+    ],
+    [
+      "Client: Okay, I appreciate that. I guess I'm just wondering, how exactly is this supposed to help? I mean, I understand the theory behind exposure therapy, but when it comes to actually doing it... it's scary. Will I have to relive every detail? What if I panic or freeze up?",
+      "Therapist: The goal is gradual exposure, at your pace. We'll support you throughout.",
+      "Client: That's somewhat reassuring. But what about the domestic violence aspect? That's... that's a whole different kind of trauma. It's not just one event, it's years of... of fear and pain. How do we even begin to address that?"
+    ],
+    [
+      "Therapist: The goal is gradual exposure, at your pace. We'll support you throughout.",
+      "Client: That's somewhat reassuring. But what about the domestic violence aspect? That's... that's a whole different kind of trauma. It's not just one event, it's years of... of fear and pain. How do we even begin to address that?",
+      "Therapist: We'll focus on specific incidents, working through them systematically."
+    ],
+    [
+      "Client: That's somewhat reassuring. But what about the domestic violence aspect? That's... that's a whole different kind of trauma. It's not just one event, it's years of... of fear and pain. How do we even begin to address that?",
+      "Therapist: We'll focus on specific incidents, working through them systematically.",
+      "Client: I see. And you'll be there the whole time, right? I don't think I could face this alone. It's just... there's so much shame tied up in all of this. Especially as a man, you know? It's not something we talk about."
+    ],
+    [
+      "Therapist: We'll focus on specific incidents, working through them systematically.",
+      "Client: I see. And you'll be there the whole time, right? I don't think I could face this alone. It's just... there's so much shame tied up in all of this. Especially as a man, you know? It's not something we talk about.",
+      "Therapist: Absolutely. I'll be here to guide and support you every step."
+    ],
+    [
+      "Client: I see. And you'll be there the whole time, right? I don't think I could face this alone. It's just... there's so much shame tied up in all of this. Especially as a man, you know? It's not something we talk about.",
+      "Therapist: Absolutely. I'll be here to guide and support you every step.",
+      "Client: Okay. I think I can do this. It's just... it's hard to imagine feeling better after deliberately revisiting these traumatic memories. But I trust you, and I'm willing to try. I'm tired of living with this constant fear and anxiety. If this can help... well, it's worth a shot, isn't it?"
+    ],
+    [
+      "Therapist: Absolutely. I'll be here to guide and support you every step.",
+      "Client: Okay. I think I can do this. It's just... it's hard to imagine feeling better after deliberately revisiting these traumatic memories. But I trust you, and I'm willing to try. I'm tired of living with this constant fear and anxiety. If this can help... well, it's worth a shot, isn't it?",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms."
+    ],
+    [
+      "Client: Okay. I think I can do this. It's just... it's hard to imagine feeling better after deliberately revisiting these traumatic memories. But I trust you, and I'm willing to try. I'm tired of living with this constant fear and anxiety. If this can help... well, it's worth a shot, isn't it?",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms.",
+      "Client: Thank you. I appreciate your confidence in me. It helps, knowing that you've seen this work for others. I just hope... I hope I can be one of the success stories. There's so much I want to reclaim in my life, you know? My relationship with my wife, my work... everything's been affected by this."
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms.",
+      "Client: Thank you. I appreciate your confidence in me. It helps, knowing that you've seen this work for others. I just hope... I hope I can be one of the success stories. There's so much I want to reclaim in my life, you know? My relationship with my wife, my work... everything's been affected by this.",
+      "Therapist: Your motivation is a strength. Shall we begin with a breathing exercise?"
+    ],
+    [
+      "Client: Thank you. I appreciate your confidence in me. It helps, knowing that you've seen this work for others. I just hope... I hope I can be one of the success stories. There's so much I want to reclaim in my life, you know? My relationship with my wife, my work... everything's been affected by this.",
+      "Therapist: Your motivation is a strength. Shall we begin with a breathing exercise?",
+      "Client: Yes, I think that would help. I can feel my heart racing a bit just thinking about what we're about to do. A moment to center myself would be good. And... thank you, Dr. Thompson. For your patience and understanding. It means a lot."
+    ]
+  ]
+}

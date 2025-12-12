@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mrs. Thompson?",
+    "Client: Oh, dear... it's... it's always a bit overwhelming, isn't it? I... I can still feel my heart racing a bit. The memory of that terrible earthquake... it just brings everything back so vividly. The ground shaking, the sounds of buildings crumbling, people screaming... It's like I'm right back there in that moment.",
+    "Therapist: What stood out most to you this time?",
+    "Client: I... well, I noticed something different today. It was the smell. I hadn't recalled that before, but there was this... this awful dusty smell mixed with something else. Maybe gas? It's funny how these details come back, isn't it? And the way my body felt... I was so tense, every muscle just... just coiled like a spring.",
+    "Therapist: How does your body feel now?",
+    "Client: It's... it's easing up a bit now, thank goodness. My shoulders are still tight, though. And my hip is aching something fierce - probably from all that tension. It's like my chronic pain flares up every time we do this. But... but I know it's important. I'm trying to push through.",
+    "Therapist: You're showing real strength. How does this compare to previous sessions?",
+    "Client: Well... I think... I think it might have been a little easier this time? Don't get me wrong, it's still terribly difficult. But I didn't feel quite as... as overwhelmed, I suppose. Maybe I'm starting to... to process it better? I don't know. It's hard to tell sometimes.",
+    "Therapist: That's a valuable observation. What might be helping?",
+    "Client: Oh, I'm not entirely sure. Perhaps... perhaps it's the breathing exercises we've been practicing? I tried to use them during the exposure today. And... and maybe just the fact that we've done this a few times now. It's still awful, but... but perhaps a tiny bit more manageable?",
+    "Therapist: Great insight. How does this relate to your day-to-day life?",
+    "Client: Well... I've noticed that I'm not quite as jumpy when there are loud noises. Last week, a truck backfired outside our house, and I... I flinched, of course, but I didn't have a full-blown panic attack like I might have before. I was able to... to talk myself down, remind myself that I was safe. It's a small thing, I suppose, but it felt like progress.",
+    "Therapist: That's significant progress. How does that make you feel?",
+    "Client: It's... it's encouraging, I must say. A bit of hope, you know? For so long, I've felt... trapped by these memories, by the fear. To think that I might be gaining some control back... it's... well, it's quite emotional, actually. I hadn't really thought about it until now, but... but yes, it does feel like a step forward.",
+    "Therapist: What would you like to focus on next?",
+    "Client: I... I think I'd like to work more on... on managing the physical symptoms. The way my body reacts... it's still so intense. And with my chronic pain, it can be... well, it can be debilitating at times. Is there... are there techniques we could explore for that?",
+    "Therapist: Absolutely. We'll incorporate that next time. Any other thoughts?",
+    "Client: Just... thank you, I suppose. This isn't easy, and sometimes I wonder if I'm too old to be dealing with all this. But... but you've been so patient. And I... I think I'm starting to see that it's never too late to heal. Even at my age, even after all these years... there's still hope for peace. It's... it's a comforting thought.",
+    "Therapist: You're never too old to heal. Shall we wrap up for today?",
+    "Client: Yes, I think that would be good. I'm feeling quite drained, to be honest. But... but also a bit lighter, if that makes sense? Like... like I've set down a small piece of the burden. I know there's still a long way to go, but... but I'm grateful for this process, difficult as it is.",
+    "Therapist: You've done excellent work today. Take care, and I'll see you next week.",
+    "Client: Thank you, dear. I'll try to practice those breathing exercises more at home. And... and maybe I'll try to notice more of those small improvements. They're easy to miss sometimes, but... but they're important, aren't they? I'll see you next week. Thank you again."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mrs. Thompson?",
+      "Client: Oh, dear... it's... it's always a bit overwhelming, isn't it? I... I can still feel my heart racing a bit. The memory of that terrible earthquake... it just brings everything back so vividly. The ground shaking, the sounds of buildings crumbling, people screaming... It's like I'm right back there in that moment.",
+      "Therapist: What stood out most to you this time?"
+    ],
+    [
+      "Client: Oh, dear... it's... it's always a bit overwhelming, isn't it? I... I can still feel my heart racing a bit. The memory of that terrible earthquake... it just brings everything back so vividly. The ground shaking, the sounds of buildings crumbling, people screaming... It's like I'm right back there in that moment.",
+      "Therapist: What stood out most to you this time?",
+      "Client: I... well, I noticed something different today. It was the smell. I hadn't recalled that before, but there was this... this awful dusty smell mixed with something else. Maybe gas? It's funny how these details come back, isn't it? And the way my body felt... I was so tense, every muscle just... just coiled like a spring."
+    ],
+    [
+      "Therapist: What stood out most to you this time?",
+      "Client: I... well, I noticed something different today. It was the smell. I hadn't recalled that before, but there was this... this awful dusty smell mixed with something else. Maybe gas? It's funny how these details come back, isn't it? And the way my body felt... I was so tense, every muscle just... just coiled like a spring.",
+      "Therapist: How does your body feel now?"
+    ],
+    [
+      "Client: I... well, I noticed something different today. It was the smell. I hadn't recalled that before, but there was this... this awful dusty smell mixed with something else. Maybe gas? It's funny how these details come back, isn't it? And the way my body felt... I was so tense, every muscle just... just coiled like a spring.",
+      "Therapist: How does your body feel now?",
+      "Client: It's... it's easing up a bit now, thank goodness. My shoulders are still tight, though. And my hip is aching something fierce - probably from all that tension. It's like my chronic pain flares up every time we do this. But... but I know it's important. I'm trying to push through."
+    ],
+    [
+      "Therapist: How does your body feel now?",
+      "Client: It's... it's easing up a bit now, thank goodness. My shoulders are still tight, though. And my hip is aching something fierce - probably from all that tension. It's like my chronic pain flares up every time we do this. But... but I know it's important. I'm trying to push through.",
+      "Therapist: You're showing real strength. How does this compare to previous sessions?"
+    ],
+    [
+      "Client: It's... it's easing up a bit now, thank goodness. My shoulders are still tight, though. And my hip is aching something fierce - probably from all that tension. It's like my chronic pain flares up every time we do this. But... but I know it's important. I'm trying to push through.",
+      "Therapist: You're showing real strength. How does this compare to previous sessions?",
+      "Client: Well... I think... I think it might have been a little easier this time? Don't get me wrong, it's still terribly difficult. But I didn't feel quite as... as overwhelmed, I suppose. Maybe I'm starting to... to process it better? I don't know. It's hard to tell sometimes."
+    ],
+    [
+      "Therapist: You're showing real strength. How does this compare to previous sessions?",
+      "Client: Well... I think... I think it might have been a little easier this time? Don't get me wrong, it's still terribly difficult. But I didn't feel quite as... as overwhelmed, I suppose. Maybe I'm starting to... to process it better? I don't know. It's hard to tell sometimes.",
+      "Therapist: That's a valuable observation. What might be helping?"
+    ],
+    [
+      "Client: Well... I think... I think it might have been a little easier this time? Don't get me wrong, it's still terribly difficult. But I didn't feel quite as... as overwhelmed, I suppose. Maybe I'm starting to... to process it better? I don't know. It's hard to tell sometimes.",
+      "Therapist: That's a valuable observation. What might be helping?",
+      "Client: Oh, I'm not entirely sure. Perhaps... perhaps it's the breathing exercises we've been practicing? I tried to use them during the exposure today. And... and maybe just the fact that we've done this a few times now. It's still awful, but... but perhaps a tiny bit more manageable?"
+    ],
+    [
+      "Therapist: That's a valuable observation. What might be helping?",
+      "Client: Oh, I'm not entirely sure. Perhaps... perhaps it's the breathing exercises we've been practicing? I tried to use them during the exposure today. And... and maybe just the fact that we've done this a few times now. It's still awful, but... but perhaps a tiny bit more manageable?",
+      "Therapist: Great insight. How does this relate to your day-to-day life?"
+    ],
+    [
+      "Client: Oh, I'm not entirely sure. Perhaps... perhaps it's the breathing exercises we've been practicing? I tried to use them during the exposure today. And... and maybe just the fact that we've done this a few times now. It's still awful, but... but perhaps a tiny bit more manageable?",
+      "Therapist: Great insight. How does this relate to your day-to-day life?",
+      "Client: Well... I've noticed that I'm not quite as jumpy when there are loud noises. Last week, a truck backfired outside our house, and I... I flinched, of course, but I didn't have a full-blown panic attack like I might have before. I was able to... to talk myself down, remind myself that I was safe. It's a small thing, I suppose, but it felt like progress."
+    ],
+    [
+      "Therapist: Great insight. How does this relate to your day-to-day life?",
+      "Client: Well... I've noticed that I'm not quite as jumpy when there are loud noises. Last week, a truck backfired outside our house, and I... I flinched, of course, but I didn't have a full-blown panic attack like I might have before. I was able to... to talk myself down, remind myself that I was safe. It's a small thing, I suppose, but it felt like progress.",
+      "Therapist: That's significant progress. How does that make you feel?"
+    ],
+    [
+      "Client: Well... I've noticed that I'm not quite as jumpy when there are loud noises. Last week, a truck backfired outside our house, and I... I flinched, of course, but I didn't have a full-blown panic attack like I might have before. I was able to... to talk myself down, remind myself that I was safe. It's a small thing, I suppose, but it felt like progress.",
+      "Therapist: That's significant progress. How does that make you feel?",
+      "Client: It's... it's encouraging, I must say. A bit of hope, you know? For so long, I've felt... trapped by these memories, by the fear. To think that I might be gaining some control back... it's... well, it's quite emotional, actually. I hadn't really thought about it until now, but... but yes, it does feel like a step forward."
+    ],
+    [
+      "Therapist: That's significant progress. How does that make you feel?",
+      "Client: It's... it's encouraging, I must say. A bit of hope, you know? For so long, I've felt... trapped by these memories, by the fear. To think that I might be gaining some control back... it's... well, it's quite emotional, actually. I hadn't really thought about it until now, but... but yes, it does feel like a step forward.",
+      "Therapist: What would you like to focus on next?"
+    ],
+    [
+      "Client: It's... it's encouraging, I must say. A bit of hope, you know? For so long, I've felt... trapped by these memories, by the fear. To think that I might be gaining some control back... it's... well, it's quite emotional, actually. I hadn't really thought about it until now, but... but yes, it does feel like a step forward.",
+      "Therapist: What would you like to focus on next?",
+      "Client: I... I think I'd like to work more on... on managing the physical symptoms. The way my body reacts... it's still so intense. And with my chronic pain, it can be... well, it can be debilitating at times. Is there... are there techniques we could explore for that?"
+    ],
+    [
+      "Therapist: What would you like to focus on next?",
+      "Client: I... I think I'd like to work more on... on managing the physical symptoms. The way my body reacts... it's still so intense. And with my chronic pain, it can be... well, it can be debilitating at times. Is there... are there techniques we could explore for that?",
+      "Therapist: Absolutely. We'll incorporate that next time. Any other thoughts?"
+    ],
+    [
+      "Client: I... I think I'd like to work more on... on managing the physical symptoms. The way my body reacts... it's still so intense. And with my chronic pain, it can be... well, it can be debilitating at times. Is there... are there techniques we could explore for that?",
+      "Therapist: Absolutely. We'll incorporate that next time. Any other thoughts?",
+      "Client: Just... thank you, I suppose. This isn't easy, and sometimes I wonder if I'm too old to be dealing with all this. But... but you've been so patient. And I... I think I'm starting to see that it's never too late to heal. Even at my age, even after all these years... there's still hope for peace. It's... it's a comforting thought."
+    ],
+    [
+      "Therapist: Absolutely. We'll incorporate that next time. Any other thoughts?",
+      "Client: Just... thank you, I suppose. This isn't easy, and sometimes I wonder if I'm too old to be dealing with all this. But... but you've been so patient. And I... I think I'm starting to see that it's never too late to heal. Even at my age, even after all these years... there's still hope for peace. It's... it's a comforting thought.",
+      "Therapist: You're never too old to heal. Shall we wrap up for today?"
+    ],
+    [
+      "Client: Just... thank you, I suppose. This isn't easy, and sometimes I wonder if I'm too old to be dealing with all this. But... but you've been so patient. And I... I think I'm starting to see that it's never too late to heal. Even at my age, even after all these years... there's still hope for peace. It's... it's a comforting thought.",
+      "Therapist: You're never too old to heal. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I'm feeling quite drained, to be honest. But... but also a bit lighter, if that makes sense? Like... like I've set down a small piece of the burden. I know there's still a long way to go, but... but I'm grateful for this process, difficult as it is."
+    ],
+    [
+      "Therapist: You're never too old to heal. Shall we wrap up for today?",
+      "Client: Yes, I think that would be good. I'm feeling quite drained, to be honest. But... but also a bit lighter, if that makes sense? Like... like I've set down a small piece of the burden. I know there's still a long way to go, but... but I'm grateful for this process, difficult as it is.",
+      "Therapist: You've done excellent work today. Take care, and I'll see you next week."
+    ],
+    [
+      "Client: Yes, I think that would be good. I'm feeling quite drained, to be honest. But... but also a bit lighter, if that makes sense? Like... like I've set down a small piece of the burden. I know there's still a long way to go, but... but I'm grateful for this process, difficult as it is.",
+      "Therapist: You've done excellent work today. Take care, and I'll see you next week.",
+      "Client: Thank you, dear. I'll try to practice those breathing exercises more at home. And... and maybe I'll try to notice more of those small improvements. They're easy to miss sometimes, but... but they're important, aren't they? I'll see you next week. Thank you again."
+    ]
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's like my emotions are all over the place. The memory of losing my wife, it's still so raw, even after three years. During the exercise, I could almost smell the hospital disinfectant, you know? And then, thinking about the cyberbullying my son's been dealing with... it's just... it's overwhelming.",
+    "Therapist: That sounds intense. What's the strongest emotion you're experiencing right now?",
+    "Client: Guilt, I think. I feel like I should have done more for her, been there more. And now with my son, I feel like I'm failing him too. I should be stronger, able to protect him better. But I'm just... I'm struggling to keep it together most days.",
+    "Therapist: It's okay to struggle. Can you tell me more about that guilt?",
+    "Client: It's... it's like a heavy weight in my chest. I keep replaying those last few weeks in my mind. I was so focused on work, trying to keep our business afloat. I didn't realize how quickly she was declining. And now, with my son, I'm so caught up in my own grief that I'm not giving him the support he needs. It's like history repeating itself, and I'm powerless to stop it.",
+    "Therapist: That's a lot to carry. How does your body feel as you're sharing this?",
+    "Client: Tense. Really tense. My shoulders are all knotted up, and there's this tightness in my throat. It's hard to breathe sometimes, like I'm constantly on the verge of breaking down. And my hands... they're shaky. I've noticed that a lot lately, especially when I'm trying to work or help my son with his homework.",
+    "Therapist: What thoughts are going through your mind right now?",
+    "Client: I keep thinking... what if I'm not enough? What if I can't be the father my son needs? I couldn't save my wife, and now I can't even protect my son from online bullies. It's like I'm failing at everything that matters. And then there's this voice in my head saying I should just give up, that I'm not cut out for this. But I can't give up, can I? My son needs me.",
+    "Therapist: It sounds like you're being very hard on yourself. How does that impact you?",
+    "Client: It's... it's exhausting. I'm constantly second-guessing every decision I make. I barely sleep at night, worrying about what I might be doing wrong. And during the day, I'm just going through the motions, trying to keep our business running and be there for my son. But I feel like I'm not really present, you know? Like I'm watching my life from the outside, and I don't know how to step back in.",
+    "Therapist: That disconnection must be challenging. What do you need in this moment?",
+    "Client: I... I don't know. Part of me wants to curl up and hide from the world. But another part... I guess I need to feel like it's okay to not have all the answers. To know that it's normal to struggle after losing someone you love. And maybe... maybe I need to learn how to be kinder to myself. It's just so hard when I feel like I'm letting everyone down.",
+    "Therapist: Being kind to yourself is important. How might that look for you?",
+    "Client: I suppose... maybe it means acknowledging that I'm doing the best I can. That grieving takes time, and it's okay to still be hurting. And with my son, maybe it means recognizing that I can't solve everything for him, but I can be there to listen and support him. It's just... it's hard to shake this feeling that I should be doing more, you know?",
+    "Therapist: That's a common feeling. How does it feel to consider being gentler with yourself?",
+    "Client: It's... it's a bit scary, to be honest. Like if I ease up on myself, everything might fall apart. But at the same time, there's a small sense of relief. Maybe if I'm not constantly beating myself up, I'll have more energy to actually be present for my son. And maybe... maybe I can start to remember the good times with my wife without feeling so guilty about the end.",
+    "Therapist: That sounds like a positive step. What's one small way you could start?",
+    "Client: I... I guess I could try to take a few minutes each day to just breathe. Maybe look at some old photos of happier times with my wife and son. And when those negative thoughts come up, try to remind myself that I'm doing my best. It's not much, but it's a start, right?",
+    "Therapist: It's a great start. How are you feeling now compared to the beginning of our session?",
+    "Client: I'm... I'm still feeling a bit raw, to be honest. But there's also this tiny glimmer of... I don't know, hope maybe? Like maybe I don't have to have it all figured out right now. It's still overwhelming, but it feels a little less impossible. Does that make sense?",
+    "Therapist: It makes perfect sense. What would you like to focus on in our next session?",
+    "Client: I think... I'd like to work more on how to support my son with the cyberbullying. And maybe explore some ways to honor my wife's memory without getting lost in the grief. Is that... is that something we can do?",
+    "Therapist: Absolutely. We'll focus on those topics next time. How are you feeling about ending our session today?",
+    "Client: I'm okay, I think. A bit drained, but also... lighter, somehow. Thank you for listening and not judging me. It means a lot to have a space where I can just... be honest about how I'm feeling.",
+    "Therapist: You're welcome. Take care of yourself this week, and I'll see you next time.",
+    "Client: Thank you. I'll try. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's like my emotions are all over the place. The memory of losing my wife, it's still so raw, even after three years. During the exercise, I could almost smell the hospital disinfectant, you know? And then, thinking about the cyberbullying my son's been dealing with... it's just... it's overwhelming.",
+      "Therapist: That sounds intense. What's the strongest emotion you're experiencing right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's like my emotions are all over the place. The memory of losing my wife, it's still so raw, even after three years. During the exercise, I could almost smell the hospital disinfectant, you know? And then, thinking about the cyberbullying my son's been dealing with... it's just... it's overwhelming.",
+      "Therapist: That sounds intense. What's the strongest emotion you're experiencing right now?",
+      "Client: Guilt, I think. I feel like I should have done more for her, been there more. And now with my son, I feel like I'm failing him too. I should be stronger, able to protect him better. But I'm just... I'm struggling to keep it together most days."
+    ],
+    [
+      "Therapist: That sounds intense. What's the strongest emotion you're experiencing right now?",
+      "Client: Guilt, I think. I feel like I should have done more for her, been there more. And now with my son, I feel like I'm failing him too. I should be stronger, able to protect him better. But I'm just... I'm struggling to keep it together most days.",
+      "Therapist: It's okay to struggle. Can you tell me more about that guilt?"
+    ],
+    [
+      "Client: Guilt, I think. I feel like I should have done more for her, been there more. And now with my son, I feel like I'm failing him too. I should be stronger, able to protect him better. But I'm just... I'm struggling to keep it together most days.",
+      "Therapist: It's okay to struggle. Can you tell me more about that guilt?",
+      "Client: It's... it's like a heavy weight in my chest. I keep replaying those last few weeks in my mind. I was so focused on work, trying to keep our business afloat. I didn't realize how quickly she was declining. And now, with my son, I'm so caught up in my own grief that I'm not giving him the support he needs. It's like history repeating itself, and I'm powerless to stop it."
+    ],
+    [
+      "Therapist: It's okay to struggle. Can you tell me more about that guilt?",
+      "Client: It's... it's like a heavy weight in my chest. I keep replaying those last few weeks in my mind. I was so focused on work, trying to keep our business afloat. I didn't realize how quickly she was declining. And now, with my son, I'm so caught up in my own grief that I'm not giving him the support he needs. It's like history repeating itself, and I'm powerless to stop it.",
+      "Therapist: That's a lot to carry. How does your body feel as you're sharing this?"
+    ],
+    [
+      "Client: It's... it's like a heavy weight in my chest. I keep replaying those last few weeks in my mind. I was so focused on work, trying to keep our business afloat. I didn't realize how quickly she was declining. And now, with my son, I'm so caught up in my own grief that I'm not giving him the support he needs. It's like history repeating itself, and I'm powerless to stop it.",
+      "Therapist: That's a lot to carry. How does your body feel as you're sharing this?",
+      "Client: Tense. Really tense. My shoulders are all knotted up, and there's this tightness in my throat. It's hard to breathe sometimes, like I'm constantly on the verge of breaking down. And my hands... they're shaky. I've noticed that a lot lately, especially when I'm trying to work or help my son with his homework."
+    ],
+    [
+      "Therapist: That's a lot to carry. How does your body feel as you're sharing this?",
+      "Client: Tense. Really tense. My shoulders are all knotted up, and there's this tightness in my throat. It's hard to breathe sometimes, like I'm constantly on the verge of breaking down. And my hands... they're shaky. I've noticed that a lot lately, especially when I'm trying to work or help my son with his homework.",
+      "Therapist: What thoughts are going through your mind right now?"
+    ],
+    [
+      "Client: Tense. Really tense. My shoulders are all knotted up, and there's this tightness in my throat. It's hard to breathe sometimes, like I'm constantly on the verge of breaking down. And my hands... they're shaky. I've noticed that a lot lately, especially when I'm trying to work or help my son with his homework.",
+      "Therapist: What thoughts are going through your mind right now?",
+      "Client: I keep thinking... what if I'm not enough? What if I can't be the father my son needs? I couldn't save my wife, and now I can't even protect my son from online bullies. It's like I'm failing at everything that matters. And then there's this voice in my head saying I should just give up, that I'm not cut out for this. But I can't give up, can I? My son needs me."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind right now?",
+      "Client: I keep thinking... what if I'm not enough? What if I can't be the father my son needs? I couldn't save my wife, and now I can't even protect my son from online bullies. It's like I'm failing at everything that matters. And then there's this voice in my head saying I should just give up, that I'm not cut out for this. But I can't give up, can I? My son needs me.",
+      "Therapist: It sounds like you're being very hard on yourself. How does that impact you?"
+    ],
+    [
+      "Client: I keep thinking... what if I'm not enough? What if I can't be the father my son needs? I couldn't save my wife, and now I can't even protect my son from online bullies. It's like I'm failing at everything that matters. And then there's this voice in my head saying I should just give up, that I'm not cut out for this. But I can't give up, can I? My son needs me.",
+      "Therapist: It sounds like you're being very hard on yourself. How does that impact you?",
+      "Client: It's... it's exhausting. I'm constantly second-guessing every decision I make. I barely sleep at night, worrying about what I might be doing wrong. And during the day, I'm just going through the motions, trying to keep our business running and be there for my son. But I feel like I'm not really present, you know? Like I'm watching my life from the outside, and I don't know how to step back in."
+    ],
+    [
+      "Therapist: It sounds like you're being very hard on yourself. How does that impact you?",
+      "Client: It's... it's exhausting. I'm constantly second-guessing every decision I make. I barely sleep at night, worrying about what I might be doing wrong. And during the day, I'm just going through the motions, trying to keep our business running and be there for my son. But I feel like I'm not really present, you know? Like I'm watching my life from the outside, and I don't know how to step back in.",
+      "Therapist: That disconnection must be challenging. What do you need in this moment?"
+    ],
+    [
+      "Client: It's... it's exhausting. I'm constantly second-guessing every decision I make. I barely sleep at night, worrying about what I might be doing wrong. And during the day, I'm just going through the motions, trying to keep our business running and be there for my son. But I feel like I'm not really present, you know? Like I'm watching my life from the outside, and I don't know how to step back in.",
+      "Therapist: That disconnection must be challenging. What do you need in this moment?",
+      "Client: I... I don't know. Part of me wants to curl up and hide from the world. But another part... I guess I need to feel like it's okay to not have all the answers. To know that it's normal to struggle after losing someone you love. And maybe... maybe I need to learn how to be kinder to myself. It's just so hard when I feel like I'm letting everyone down."
+    ],
+    [
+      "Therapist: That disconnection must be challenging. What do you need in this moment?",
+      "Client: I... I don't know. Part of me wants to curl up and hide from the world. But another part... I guess I need to feel like it's okay to not have all the answers. To know that it's normal to struggle after losing someone you love. And maybe... maybe I need to learn how to be kinder to myself. It's just so hard when I feel like I'm letting everyone down.",
+      "Therapist: Being kind to yourself is important. How might that look for you?"
+    ],
+    [
+      "Client: I... I don't know. Part of me wants to curl up and hide from the world. But another part... I guess I need to feel like it's okay to not have all the answers. To know that it's normal to struggle after losing someone you love. And maybe... maybe I need to learn how to be kinder to myself. It's just so hard when I feel like I'm letting everyone down.",
+      "Therapist: Being kind to yourself is important. How might that look for you?",
+      "Client: I suppose... maybe it means acknowledging that I'm doing the best I can. That grieving takes time, and it's okay to still be hurting. And with my son, maybe it means recognizing that I can't solve everything for him, but I can be there to listen and support him. It's just... it's hard to shake this feeling that I should be doing more, you know?"
+    ],
+    [
+      "Therapist: Being kind to yourself is important. How might that look for you?",
+      "Client: I suppose... maybe it means acknowledging that I'm doing the best I can. That grieving takes time, and it's okay to still be hurting. And with my son, maybe it means recognizing that I can't solve everything for him, but I can be there to listen and support him. It's just... it's hard to shake this feeling that I should be doing more, you know?",
+      "Therapist: That's a common feeling. How does it feel to consider being gentler with yourself?"
+    ],
+    [
+      "Client: I suppose... maybe it means acknowledging that I'm doing the best I can. That grieving takes time, and it's okay to still be hurting. And with my son, maybe it means recognizing that I can't solve everything for him, but I can be there to listen and support him. It's just... it's hard to shake this feeling that I should be doing more, you know?",
+      "Therapist: That's a common feeling. How does it feel to consider being gentler with yourself?",
+      "Client: It's... it's a bit scary, to be honest. Like if I ease up on myself, everything might fall apart. But at the same time, there's a small sense of relief. Maybe if I'm not constantly beating myself up, I'll have more energy to actually be present for my son. And maybe... maybe I can start to remember the good times with my wife without feeling so guilty about the end."
+    ],
+    [
+      "Therapist: That's a common feeling. How does it feel to consider being gentler with yourself?",
+      "Client: It's... it's a bit scary, to be honest. Like if I ease up on myself, everything might fall apart. But at the same time, there's a small sense of relief. Maybe if I'm not constantly beating myself up, I'll have more energy to actually be present for my son. And maybe... maybe I can start to remember the good times with my wife without feeling so guilty about the end.",
+      "Therapist: That sounds like a positive step. What's one small way you could start?"
+    ],
+    [
+      "Client: It's... it's a bit scary, to be honest. Like if I ease up on myself, everything might fall apart. But at the same time, there's a small sense of relief. Maybe if I'm not constantly beating myself up, I'll have more energy to actually be present for my son. And maybe... maybe I can start to remember the good times with my wife without feeling so guilty about the end.",
+      "Therapist: That sounds like a positive step. What's one small way you could start?",
+      "Client: I... I guess I could try to take a few minutes each day to just breathe. Maybe look at some old photos of happier times with my wife and son. And when those negative thoughts come up, try to remind myself that I'm doing my best. It's not much, but it's a start, right?"
+    ],
+    [
+      "Therapist: That sounds like a positive step. What's one small way you could start?",
+      "Client: I... I guess I could try to take a few minutes each day to just breathe. Maybe look at some old photos of happier times with my wife and son. And when those negative thoughts come up, try to remind myself that I'm doing my best. It's not much, but it's a start, right?",
+      "Therapist: It's a great start. How are you feeling now compared to the beginning of our session?"
+    ],
+    [
+      "Client: I... I guess I could try to take a few minutes each day to just breathe. Maybe look at some old photos of happier times with my wife and son. And when those negative thoughts come up, try to remind myself that I'm doing my best. It's not much, but it's a start, right?",
+      "Therapist: It's a great start. How are you feeling now compared to the beginning of our session?",
+      "Client: I'm... I'm still feeling a bit raw, to be honest. But there's also this tiny glimmer of... I don't know, hope maybe? Like maybe I don't have to have it all figured out right now. It's still overwhelming, but it feels a little less impossible. Does that make sense?"
+    ],
+    [
+      "Therapist: It's a great start. How are you feeling now compared to the beginning of our session?",
+      "Client: I'm... I'm still feeling a bit raw, to be honest. But there's also this tiny glimmer of... I don't know, hope maybe? Like maybe I don't have to have it all figured out right now. It's still overwhelming, but it feels a little less impossible. Does that make sense?",
+      "Therapist: It makes perfect sense. What would you like to focus on in our next session?"
+    ],
+    [
+      "Client: I'm... I'm still feeling a bit raw, to be honest. But there's also this tiny glimmer of... I don't know, hope maybe? Like maybe I don't have to have it all figured out right now. It's still overwhelming, but it feels a little less impossible. Does that make sense?",
+      "Therapist: It makes perfect sense. What would you like to focus on in our next session?",
+      "Client: I think... I'd like to work more on how to support my son with the cyberbullying. And maybe explore some ways to honor my wife's memory without getting lost in the grief. Is that... is that something we can do?"
+    ],
+    [
+      "Therapist: It makes perfect sense. What would you like to focus on in our next session?",
+      "Client: I think... I'd like to work more on how to support my son with the cyberbullying. And maybe explore some ways to honor my wife's memory without getting lost in the grief. Is that... is that something we can do?",
+      "Therapist: Absolutely. We'll focus on those topics next time. How are you feeling about ending our session today?"
+    ],
+    [
+      "Client: I think... I'd like to work more on how to support my son with the cyberbullying. And maybe explore some ways to honor my wife's memory without getting lost in the grief. Is that... is that something we can do?",
+      "Therapist: Absolutely. We'll focus on those topics next time. How are you feeling about ending our session today?",
+      "Client: I'm okay, I think. A bit drained, but also... lighter, somehow. Thank you for listening and not judging me. It means a lot to have a space where I can just... be honest about how I'm feeling."
+    ],
+    [
+      "Therapist: Absolutely. We'll focus on those topics next time. How are you feeling about ending our session today?",
+      "Client: I'm okay, I think. A bit drained, but also... lighter, somehow. Thank you for listening and not judging me. It means a lot to have a space where I can just... be honest about how I'm feeling.",
+      "Therapist: You're welcome. Take care of yourself this week, and I'll see you next time."
+    ],
+    [
+      "Client: I'm okay, I think. A bit drained, but also... lighter, somehow. Thank you for listening and not judging me. It means a lot to have a space where I can just... be honest about how I'm feeling.",
+      "Therapist: You're welcome. Take care of yourself this week, and I'll see you next time.",
+      "Client: Thank you. I'll try. See you next week."
+    ]
+  ]
+}

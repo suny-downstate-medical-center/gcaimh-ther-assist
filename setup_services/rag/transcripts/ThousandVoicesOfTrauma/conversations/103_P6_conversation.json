@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Carlos. Are you ready to begin our imaginal exposure exercise today?",
+    "Client: I think so, Dr. Ramirez. I'm feeling a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating.",
+    "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about revisiting that memory makes my stomach tighten a little.",
+    "Therapist: Thank you. Close your eyes and begin when you're ready.",
+    "Client: Okay... I'm back in the office. It's a regular Tuesday morning, and I'm reviewing some reports. Suddenly, there's a sharp pain in my chest. At first, I try to ignore it, thinking it's just indigestion or stress. But it keeps getting worse. I start to feel dizzy and short of breath. My left arm starts to tingle, and that's when I realize... this might be a heart attack.",
+    "Therapist: How are you feeling now?",
+    "Client: The anxiety is creeping up. Maybe a 6 now. My palms are getting sweaty just thinking about it.",
+    "Therapist: You're doing well. Continue.",
+    "Client: I... I try to call out for help, but my voice is weak. I'm scared no one will hear me. Finally, my coworker Sarah notices something's wrong. She rushes over, and I manage to gasp out, \"Call 911.\" Everything becomes a blur after that. The paramedics arrive, and they're asking me questions, but I can barely focus. The pain is intense, and I'm terrified I might die right there in the office.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's up to an 8. My heart is racing, and I feel like I can't catch my breath. It's like I'm right back there in that moment.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: *Takes a shaky breath* Thanks. It's just... so vivid. I remember the faces of my colleagues as they watched me being wheeled out on a stretcher. The fear in their eyes... it mirrored my own. In the ambulance, I kept thinking about my kids, wondering if I'd ever see them again. The paramedic was trying to keep me calm, but I could sense the urgency in his voice.",
+    "Therapist: How are you feeling physically right now?",
+    "Client: My chest feels tight, and my hands are trembling. It's like my body is reliving the experience. I can almost smell the sterile scent of the ambulance.",
+    "Therapist: Your SUDS?",
+    "Client: Still at an 8. Maybe even creeping towards a 9. I... I need a moment.",
+    "Therapist: Take your time. You're doing great, Carlos.",
+    "Client: *Takes several deep breaths* Okay... I'm in the ER now. Doctors and nurses are swarming around me. I hear snippets of conversation - \"elevated troponin levels,\" \"possible myocardial infarction.\" They're cutting off my shirt, attaching monitors. I feel so exposed, so vulnerable. And the pain... God, the pain is unbearable. I'm crying, begging them to make it stop.",
+    "Therapist: You're very brave. How's your SUDS now?",
+    "Client: It's... it's actually coming down a bit. Maybe a 7? Talking about it... it's hard, but I feel like I'm starting to process it.",
+    "Therapist: That's good. Continue when you're ready.",
+    "Client: The next few hours are a blur of tests and procedures. I remember the cold contrast dye flowing through my veins during the angiogram. The cardiologist explaining that I needed emergency surgery. I was terrified, but also oddly detached, like I was watching it happen to someone else. The last thing I remember before the anesthesia kicked in was thinking about all the things I hadn't done yet, all the words left unsaid to my loved ones.",
+    "Therapist: And now? How are you feeling?",
+    "Client: I'm... I'm okay. My SUDS is down to about a 5. It's still intense, but I feel like I can breathe again. Talking about it... it's helping. It's like I'm reclaiming the narrative, you know?",
+    "Therapist: You've done excellently, Carlos. Let's wrap up here.",
+    "Client: Thank you, Dr. Ramirez. This was tough, but... I feel a sense of accomplishment. Like I'm finally facing this head-on instead of running from it.",
+    "Therapist: You should be proud. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Carlos. Are you ready to begin our imaginal exposure exercise today?",
+      "Client: I think so, Dr. Ramirez. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so, Dr. Ramirez. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about revisiting that memory makes my stomach tighten a little."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about revisiting that memory makes my stomach tighten a little.",
+      "Therapist: Thank you. Close your eyes and begin when you're ready."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about revisiting that memory makes my stomach tighten a little.",
+      "Therapist: Thank you. Close your eyes and begin when you're ready.",
+      "Client: Okay... I'm back in the office. It's a regular Tuesday morning, and I'm reviewing some reports. Suddenly, there's a sharp pain in my chest. At first, I try to ignore it, thinking it's just indigestion or stress. But it keeps getting worse. I start to feel dizzy and short of breath. My left arm starts to tingle, and that's when I realize... this might be a heart attack."
+    ],
+    [
+      "Therapist: Thank you. Close your eyes and begin when you're ready.",
+      "Client: Okay... I'm back in the office. It's a regular Tuesday morning, and I'm reviewing some reports. Suddenly, there's a sharp pain in my chest. At first, I try to ignore it, thinking it's just indigestion or stress. But it keeps getting worse. I start to feel dizzy and short of breath. My left arm starts to tingle, and that's when I realize... this might be a heart attack.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Okay... I'm back in the office. It's a regular Tuesday morning, and I'm reviewing some reports. Suddenly, there's a sharp pain in my chest. At first, I try to ignore it, thinking it's just indigestion or stress. But it keeps getting worse. I start to feel dizzy and short of breath. My left arm starts to tingle, and that's when I realize... this might be a heart attack.",
+      "Therapist: How are you feeling now?",
+      "Client: The anxiety is creeping up. Maybe a 6 now. My palms are getting sweaty just thinking about it."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: The anxiety is creeping up. Maybe a 6 now. My palms are getting sweaty just thinking about it.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: The anxiety is creeping up. Maybe a 6 now. My palms are getting sweaty just thinking about it.",
+      "Therapist: You're doing well. Continue.",
+      "Client: I... I try to call out for help, but my voice is weak. I'm scared no one will hear me. Finally, my coworker Sarah notices something's wrong. She rushes over, and I manage to gasp out, \"Call 911.\" Everything becomes a blur after that. The paramedics arrive, and they're asking me questions, but I can barely focus. The pain is intense, and I'm terrified I might die right there in the office."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: I... I try to call out for help, but my voice is weak. I'm scared no one will hear me. Finally, my coworker Sarah notices something's wrong. She rushes over, and I manage to gasp out, \"Call 911.\" Everything becomes a blur after that. The paramedics arrive, and they're asking me questions, but I can barely focus. The pain is intense, and I'm terrified I might die right there in the office.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I... I try to call out for help, but my voice is weak. I'm scared no one will hear me. Finally, my coworker Sarah notices something's wrong. She rushes over, and I manage to gasp out, \"Call 911.\" Everything becomes a blur after that. The paramedics arrive, and they're asking me questions, but I can barely focus. The pain is intense, and I'm terrified I might die right there in the office.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's up to an 8. My heart is racing, and I feel like I can't catch my breath. It's like I'm right back there in that moment."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's up to an 8. My heart is racing, and I feel like I can't catch my breath. It's like I'm right back there in that moment.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's up to an 8. My heart is racing, and I feel like I can't catch my breath. It's like I'm right back there in that moment.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *Takes a shaky breath* Thanks. It's just... so vivid. I remember the faces of my colleagues as they watched me being wheeled out on a stretcher. The fear in their eyes... it mirrored my own. In the ambulance, I kept thinking about my kids, wondering if I'd ever see them again. The paramedic was trying to keep me calm, but I could sense the urgency in his voice."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: *Takes a shaky breath* Thanks. It's just... so vivid. I remember the faces of my colleagues as they watched me being wheeled out on a stretcher. The fear in their eyes... it mirrored my own. In the ambulance, I kept thinking about my kids, wondering if I'd ever see them again. The paramedic was trying to keep me calm, but I could sense the urgency in his voice.",
+      "Therapist: How are you feeling physically right now?"
+    ],
+    [
+      "Client: *Takes a shaky breath* Thanks. It's just... so vivid. I remember the faces of my colleagues as they watched me being wheeled out on a stretcher. The fear in their eyes... it mirrored my own. In the ambulance, I kept thinking about my kids, wondering if I'd ever see them again. The paramedic was trying to keep me calm, but I could sense the urgency in his voice.",
+      "Therapist: How are you feeling physically right now?",
+      "Client: My chest feels tight, and my hands are trembling. It's like my body is reliving the experience. I can almost smell the sterile scent of the ambulance."
+    ],
+    [
+      "Therapist: How are you feeling physically right now?",
+      "Client: My chest feels tight, and my hands are trembling. It's like my body is reliving the experience. I can almost smell the sterile scent of the ambulance.",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: My chest feels tight, and my hands are trembling. It's like my body is reliving the experience. I can almost smell the sterile scent of the ambulance.",
+      "Therapist: Your SUDS?",
+      "Client: Still at an 8. Maybe even creeping towards a 9. I... I need a moment."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: Still at an 8. Maybe even creeping towards a 9. I... I need a moment.",
+      "Therapist: Take your time. You're doing great, Carlos."
+    ],
+    [
+      "Client: Still at an 8. Maybe even creeping towards a 9. I... I need a moment.",
+      "Therapist: Take your time. You're doing great, Carlos.",
+      "Client: *Takes several deep breaths* Okay... I'm in the ER now. Doctors and nurses are swarming around me. I hear snippets of conversation - \"elevated troponin levels,\" \"possible myocardial infarction.\" They're cutting off my shirt, attaching monitors. I feel so exposed, so vulnerable. And the pain... God, the pain is unbearable. I'm crying, begging them to make it stop."
+    ],
+    [
+      "Therapist: Take your time. You're doing great, Carlos.",
+      "Client: *Takes several deep breaths* Okay... I'm in the ER now. Doctors and nurses are swarming around me. I hear snippets of conversation - \"elevated troponin levels,\" \"possible myocardial infarction.\" They're cutting off my shirt, attaching monitors. I feel so exposed, so vulnerable. And the pain... God, the pain is unbearable. I'm crying, begging them to make it stop.",
+      "Therapist: You're very brave. How's your SUDS now?"
+    ],
+    [
+      "Client: *Takes several deep breaths* Okay... I'm in the ER now. Doctors and nurses are swarming around me. I hear snippets of conversation - \"elevated troponin levels,\" \"possible myocardial infarction.\" They're cutting off my shirt, attaching monitors. I feel so exposed, so vulnerable. And the pain... God, the pain is unbearable. I'm crying, begging them to make it stop.",
+      "Therapist: You're very brave. How's your SUDS now?",
+      "Client: It's... it's actually coming down a bit. Maybe a 7? Talking about it... it's hard, but I feel like I'm starting to process it."
+    ],
+    [
+      "Therapist: You're very brave. How's your SUDS now?",
+      "Client: It's... it's actually coming down a bit. Maybe a 7? Talking about it... it's hard, but I feel like I'm starting to process it.",
+      "Therapist: That's good. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's actually coming down a bit. Maybe a 7? Talking about it... it's hard, but I feel like I'm starting to process it.",
+      "Therapist: That's good. Continue when you're ready.",
+      "Client: The next few hours are a blur of tests and procedures. I remember the cold contrast dye flowing through my veins during the angiogram. The cardiologist explaining that I needed emergency surgery. I was terrified, but also oddly detached, like I was watching it happen to someone else. The last thing I remember before the anesthesia kicked in was thinking about all the things I hadn't done yet, all the words left unsaid to my loved ones."
+    ],
+    [
+      "Therapist: That's good. Continue when you're ready.",
+      "Client: The next few hours are a blur of tests and procedures. I remember the cold contrast dye flowing through my veins during the angiogram. The cardiologist explaining that I needed emergency surgery. I was terrified, but also oddly detached, like I was watching it happen to someone else. The last thing I remember before the anesthesia kicked in was thinking about all the things I hadn't done yet, all the words left unsaid to my loved ones.",
+      "Therapist: And now? How are you feeling?"
+    ],
+    [
+      "Client: The next few hours are a blur of tests and procedures. I remember the cold contrast dye flowing through my veins during the angiogram. The cardiologist explaining that I needed emergency surgery. I was terrified, but also oddly detached, like I was watching it happen to someone else. The last thing I remember before the anesthesia kicked in was thinking about all the things I hadn't done yet, all the words left unsaid to my loved ones.",
+      "Therapist: And now? How are you feeling?",
+      "Client: I'm... I'm okay. My SUDS is down to about a 5. It's still intense, but I feel like I can breathe again. Talking about it... it's helping. It's like I'm reclaiming the narrative, you know?"
+    ],
+    [
+      "Therapist: And now? How are you feeling?",
+      "Client: I'm... I'm okay. My SUDS is down to about a 5. It's still intense, but I feel like I can breathe again. Talking about it... it's helping. It's like I'm reclaiming the narrative, you know?",
+      "Therapist: You've done excellently, Carlos. Let's wrap up here."
+    ],
+    [
+      "Client: I'm... I'm okay. My SUDS is down to about a 5. It's still intense, but I feel like I can breathe again. Talking about it... it's helping. It's like I'm reclaiming the narrative, you know?",
+      "Therapist: You've done excellently, Carlos. Let's wrap up here.",
+      "Client: Thank you, Dr. Ramirez. This was tough, but... I feel a sense of accomplishment. Like I'm finally facing this head-on instead of running from it."
+    ],
+    [
+      "Therapist: You've done excellently, Carlos. Let's wrap up here.",
+      "Client: Thank you, Dr. Ramirez. This was tough, but... I feel a sense of accomplishment. Like I'm finally facing this head-on instead of running from it.",
+      "Therapist: You should be proud. We'll continue next session."
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Patel. How are you feeling today?",
+    "Client: Good morning, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying.",
+    "Therapist: I understand. Your feelings are valid.",
+    "Client: Thank you. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been having more nightmares lately, too. Is this normal?",
+    "Therapist: Yes, it's common. Today's session might be challenging.",
+    "Client: I see. Can you tell me more about what we'll be doing? I mean, I know we've talked about imaginal exposure before, but now that we're here... I'm not sure I can go through with it.",
+    "Therapist: We'll revisit the trauma memory safely. It helps process emotions.",
+    "Client: Process emotions? But I've spent years trying to forget! Won't this make everything worse? I'm worried I might... I don't know, break down or something.",
+    "Therapist: Your concerns are natural. We'll go at your pace.",
+    "Client: At my pace... okay. That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. My heart...",
+    "Therapist: I'll be here to support you throughout.",
+    "Client: Alright. I appreciate that. I guess I'm just scared of what might come up. There's so much I've pushed down over the years. Not just the crash, but... other things too.",
+    "Therapist: We'll focus on the crash today. Ready to begin?",
+    "Client: I... I think so. Yes. I trust you, Doctor. And I want to get better, for my family's sake as well as my own. They've been so patient with me. Let's do this.",
+    "Therapist: Your courage is admirable. Shall we start?",
+    "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for your guidance and support, Doctor. I know it won't be easy, but I'm willing to try."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Patel. How are you feeling today?",
+      "Client: Good morning, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying.",
+      "Therapist: I understand. Your feelings are valid."
+    ],
+    [
+      "Client: Good morning, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. The idea of reliving that plane crash... it's terrifying.",
+      "Therapist: I understand. Your feelings are valid.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been having more nightmares lately, too. Is this normal?"
+    ],
+    [
+      "Therapist: I understand. Your feelings are valid.",
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been having more nightmares lately, too. Is this normal?",
+      "Therapist: Yes, it's common. Today's session might be challenging."
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, my heart starts racing, and I feel like I can't breathe. I've been having more nightmares lately, too. Is this normal?",
+      "Therapist: Yes, it's common. Today's session might be challenging.",
+      "Client: I see. Can you tell me more about what we'll be doing? I mean, I know we've talked about imaginal exposure before, but now that we're here... I'm not sure I can go through with it."
+    ],
+    [
+      "Therapist: Yes, it's common. Today's session might be challenging.",
+      "Client: I see. Can you tell me more about what we'll be doing? I mean, I know we've talked about imaginal exposure before, but now that we're here... I'm not sure I can go through with it.",
+      "Therapist: We'll revisit the trauma memory safely. It helps process emotions."
+    ],
+    [
+      "Client: I see. Can you tell me more about what we'll be doing? I mean, I know we've talked about imaginal exposure before, but now that we're here... I'm not sure I can go through with it.",
+      "Therapist: We'll revisit the trauma memory safely. It helps process emotions.",
+      "Client: Process emotions? But I've spent years trying to forget! Won't this make everything worse? I'm worried I might... I don't know, break down or something."
+    ],
+    [
+      "Therapist: We'll revisit the trauma memory safely. It helps process emotions.",
+      "Client: Process emotions? But I've spent years trying to forget! Won't this make everything worse? I'm worried I might... I don't know, break down or something.",
+      "Therapist: Your concerns are natural. We'll go at your pace."
+    ],
+    [
+      "Client: Process emotions? But I've spent years trying to forget! Won't this make everything worse? I'm worried I might... I don't know, break down or something.",
+      "Therapist: Your concerns are natural. We'll go at your pace.",
+      "Client: At my pace... okay. That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. My heart..."
+    ],
+    [
+      "Therapist: Your concerns are natural. We'll go at your pace.",
+      "Client: At my pace... okay. That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. My heart...",
+      "Therapist: I'll be here to support you throughout."
+    ],
+    [
+      "Client: At my pace... okay. That's somewhat reassuring. But what if I panic? Or if I can't handle it? I'm not as young as I used to be, you know. My heart...",
+      "Therapist: I'll be here to support you throughout.",
+      "Client: Alright. I appreciate that. I guess I'm just scared of what might come up. There's so much I've pushed down over the years. Not just the crash, but... other things too."
+    ],
+    [
+      "Therapist: I'll be here to support you throughout.",
+      "Client: Alright. I appreciate that. I guess I'm just scared of what might come up. There's so much I've pushed down over the years. Not just the crash, but... other things too.",
+      "Therapist: We'll focus on the crash today. Ready to begin?"
+    ],
+    [
+      "Client: Alright. I appreciate that. I guess I'm just scared of what might come up. There's so much I've pushed down over the years. Not just the crash, but... other things too.",
+      "Therapist: We'll focus on the crash today. Ready to begin?",
+      "Client: I... I think so. Yes. I trust you, Doctor. And I want to get better, for my family's sake as well as my own. They've been so patient with me. Let's do this."
+    ],
+    [
+      "Therapist: We'll focus on the crash today. Ready to begin?",
+      "Client: I... I think so. Yes. I trust you, Doctor. And I want to get better, for my family's sake as well as my own. They've been so patient with me. Let's do this.",
+      "Therapist: Your courage is admirable. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. Yes. I trust you, Doctor. And I want to get better, for my family's sake as well as my own. They've been so patient with me. Let's do this.",
+      "Therapist: Your courage is admirable. Shall we start?",
+      "Client: Yes, let's start. I'm as ready as I'll ever be. Thank you for your guidance and support, Doctor. I know it won't be easy, but I'm willing to try."
+    ]
+  ]
+}

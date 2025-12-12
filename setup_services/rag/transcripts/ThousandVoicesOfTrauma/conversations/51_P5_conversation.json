@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Thompson. How are you feeling today?",
+    "Client: Morning, Dr. Chen. I'm... I'm alright, I suppose. The pain in my back is acting up a bit today, but I've managed. I'm a bit nervous about what we're going to do in this session, to be honest.",
+    "Therapist: I understand. Let's discuss the imaginal exposure exercise.",
+    "Client: Right, you mentioned that last time. I've been thinking about it a lot. It's about reliving the experiences from the refugee camp, isn't it? I'm not sure I'm ready for that. Those memories... they're not easy to face.",
+    "Therapist: Your concerns are valid. How do you feel about trying?",
+    "Client: I'm scared, Dr. Chen. What if it makes everything worse? I've worked so hard to keep those memories at bay. The thought of deliberately bringing them up... it's terrifying. But at the same time, I know I can't keep running from my past. My wife, she's been so supportive, but I can see the toll it's taking on her too.",
+    "Therapist: Your courage is admirable. This exercise aims to help process those memories.",
+    "Client: Process them? I'm not sure I understand. How can reliving those horrible moments possibly help? I mean, I still have nightmares about the medical tent, the screams, the helplessness... Sorry, I didn't mean to get worked up.",
+    "Therapist: No need to apologize. Can you tell me more about your concerns?",
+    "Client: Well, it's just... I've spent years trying to forget. The idea of purposely remembering feels counterintuitive. And what if I can't handle it? What if I break down completely? I have responsibilities, a job, a family. I can't afford to fall apart.",
+    "Therapist: Your concerns are normal. We'll go at your pace and pause if needed.",
+    "Client: That's... that's reassuring. I appreciate that, Dr. Chen. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+    "Therapist: We'll revisit the traumatic memory gradually. It helps reduce its emotional impact over time.",
+    "Client: I see. So it's like... exposure therapy, but for memories? That makes some sense, I suppose. But how do you know when it's working? And how long does this process usually take?",
+    "Therapist: Progress varies. We'll monitor your reactions and adjust accordingly. Any other questions?",
+    "Client: Yes, actually. Will this help with the physical symptoms too? The chronic pain, the tension... it's all connected to the trauma, isn't it? And... I'm a bit embarrassed to ask, but is it normal to feel... guilty about getting better? Sometimes I feel like I don't deserve to move past this when so many others couldn't.",
+    "Therapist: Physical symptoms may improve. Guilt is common, but healing is important.",
+    "Client: I understand. Thank you for explaining all this, Dr. Chen. I'm still nervous, but I think I'm ready to give it a try. You'll be here with me the whole time, right?",
+    "Therapist: Absolutely. We'll face this together. Your bravery is commendable.",
+    "Client: Thank you. That means a lot. I guess we should get started then. I just hope... I hope this works. For my sake, and for my family's. They've been so patient with me through all of this.",
+    "Therapist: Your commitment is the first step. Shall we begin?",
+    "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy, but I know it's necessary. I'm grateful for your guidance, Dr. Chen."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Thompson. How are you feeling today?",
+      "Client: Morning, Dr. Chen. I'm... I'm alright, I suppose. The pain in my back is acting up a bit today, but I've managed. I'm a bit nervous about what we're going to do in this session, to be honest.",
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise."
+    ],
+    [
+      "Client: Morning, Dr. Chen. I'm... I'm alright, I suppose. The pain in my back is acting up a bit today, but I've managed. I'm a bit nervous about what we're going to do in this session, to be honest.",
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise.",
+      "Client: Right, you mentioned that last time. I've been thinking about it a lot. It's about reliving the experiences from the refugee camp, isn't it? I'm not sure I'm ready for that. Those memories... they're not easy to face."
+    ],
+    [
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise.",
+      "Client: Right, you mentioned that last time. I've been thinking about it a lot. It's about reliving the experiences from the refugee camp, isn't it? I'm not sure I'm ready for that. Those memories... they're not easy to face.",
+      "Therapist: Your concerns are valid. How do you feel about trying?"
+    ],
+    [
+      "Client: Right, you mentioned that last time. I've been thinking about it a lot. It's about reliving the experiences from the refugee camp, isn't it? I'm not sure I'm ready for that. Those memories... they're not easy to face.",
+      "Therapist: Your concerns are valid. How do you feel about trying?",
+      "Client: I'm scared, Dr. Chen. What if it makes everything worse? I've worked so hard to keep those memories at bay. The thought of deliberately bringing them up... it's terrifying. But at the same time, I know I can't keep running from my past. My wife, she's been so supportive, but I can see the toll it's taking on her too."
+    ],
+    [
+      "Therapist: Your concerns are valid. How do you feel about trying?",
+      "Client: I'm scared, Dr. Chen. What if it makes everything worse? I've worked so hard to keep those memories at bay. The thought of deliberately bringing them up... it's terrifying. But at the same time, I know I can't keep running from my past. My wife, she's been so supportive, but I can see the toll it's taking on her too.",
+      "Therapist: Your courage is admirable. This exercise aims to help process those memories."
+    ],
+    [
+      "Client: I'm scared, Dr. Chen. What if it makes everything worse? I've worked so hard to keep those memories at bay. The thought of deliberately bringing them up... it's terrifying. But at the same time, I know I can't keep running from my past. My wife, she's been so supportive, but I can see the toll it's taking on her too.",
+      "Therapist: Your courage is admirable. This exercise aims to help process those memories.",
+      "Client: Process them? I'm not sure I understand. How can reliving those horrible moments possibly help? I mean, I still have nightmares about the medical tent, the screams, the helplessness... Sorry, I didn't mean to get worked up."
+    ],
+    [
+      "Therapist: Your courage is admirable. This exercise aims to help process those memories.",
+      "Client: Process them? I'm not sure I understand. How can reliving those horrible moments possibly help? I mean, I still have nightmares about the medical tent, the screams, the helplessness... Sorry, I didn't mean to get worked up.",
+      "Therapist: No need to apologize. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Process them? I'm not sure I understand. How can reliving those horrible moments possibly help? I mean, I still have nightmares about the medical tent, the screams, the helplessness... Sorry, I didn't mean to get worked up.",
+      "Therapist: No need to apologize. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent years trying to forget. The idea of purposely remembering feels counterintuitive. And what if I can't handle it? What if I break down completely? I have responsibilities, a job, a family. I can't afford to fall apart."
+    ],
+    [
+      "Therapist: No need to apologize. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent years trying to forget. The idea of purposely remembering feels counterintuitive. And what if I can't handle it? What if I break down completely? I have responsibilities, a job, a family. I can't afford to fall apart.",
+      "Therapist: Your concerns are normal. We'll go at your pace and pause if needed."
+    ],
+    [
+      "Client: Well, it's just... I've spent years trying to forget. The idea of purposely remembering feels counterintuitive. And what if I can't handle it? What if I break down completely? I have responsibilities, a job, a family. I can't afford to fall apart.",
+      "Therapist: Your concerns are normal. We'll go at your pace and pause if needed.",
+      "Client: That's... that's reassuring. I appreciate that, Dr. Chen. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?"
+    ],
+    [
+      "Therapist: Your concerns are normal. We'll go at your pace and pause if needed.",
+      "Client: That's... that's reassuring. I appreciate that, Dr. Chen. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+      "Therapist: We'll revisit the traumatic memory gradually. It helps reduce its emotional impact over time."
+    ],
+    [
+      "Client: That's... that's reassuring. I appreciate that, Dr. Chen. Can you tell me more about what exactly we'll be doing? And how it's supposed to help?",
+      "Therapist: We'll revisit the traumatic memory gradually. It helps reduce its emotional impact over time.",
+      "Client: I see. So it's like... exposure therapy, but for memories? That makes some sense, I suppose. But how do you know when it's working? And how long does this process usually take?"
+    ],
+    [
+      "Therapist: We'll revisit the traumatic memory gradually. It helps reduce its emotional impact over time.",
+      "Client: I see. So it's like... exposure therapy, but for memories? That makes some sense, I suppose. But how do you know when it's working? And how long does this process usually take?",
+      "Therapist: Progress varies. We'll monitor your reactions and adjust accordingly. Any other questions?"
+    ],
+    [
+      "Client: I see. So it's like... exposure therapy, but for memories? That makes some sense, I suppose. But how do you know when it's working? And how long does this process usually take?",
+      "Therapist: Progress varies. We'll monitor your reactions and adjust accordingly. Any other questions?",
+      "Client: Yes, actually. Will this help with the physical symptoms too? The chronic pain, the tension... it's all connected to the trauma, isn't it? And... I'm a bit embarrassed to ask, but is it normal to feel... guilty about getting better? Sometimes I feel like I don't deserve to move past this when so many others couldn't."
+    ],
+    [
+      "Therapist: Progress varies. We'll monitor your reactions and adjust accordingly. Any other questions?",
+      "Client: Yes, actually. Will this help with the physical symptoms too? The chronic pain, the tension... it's all connected to the trauma, isn't it? And... I'm a bit embarrassed to ask, but is it normal to feel... guilty about getting better? Sometimes I feel like I don't deserve to move past this when so many others couldn't.",
+      "Therapist: Physical symptoms may improve. Guilt is common, but healing is important."
+    ],
+    [
+      "Client: Yes, actually. Will this help with the physical symptoms too? The chronic pain, the tension... it's all connected to the trauma, isn't it? And... I'm a bit embarrassed to ask, but is it normal to feel... guilty about getting better? Sometimes I feel like I don't deserve to move past this when so many others couldn't.",
+      "Therapist: Physical symptoms may improve. Guilt is common, but healing is important.",
+      "Client: I understand. Thank you for explaining all this, Dr. Chen. I'm still nervous, but I think I'm ready to give it a try. You'll be here with me the whole time, right?"
+    ],
+    [
+      "Therapist: Physical symptoms may improve. Guilt is common, but healing is important.",
+      "Client: I understand. Thank you for explaining all this, Dr. Chen. I'm still nervous, but I think I'm ready to give it a try. You'll be here with me the whole time, right?",
+      "Therapist: Absolutely. We'll face this together. Your bravery is commendable."
+    ],
+    [
+      "Client: I understand. Thank you for explaining all this, Dr. Chen. I'm still nervous, but I think I'm ready to give it a try. You'll be here with me the whole time, right?",
+      "Therapist: Absolutely. We'll face this together. Your bravery is commendable.",
+      "Client: Thank you. That means a lot. I guess we should get started then. I just hope... I hope this works. For my sake, and for my family's. They've been so patient with me through all of this."
+    ],
+    [
+      "Therapist: Absolutely. We'll face this together. Your bravery is commendable.",
+      "Client: Thank you. That means a lot. I guess we should get started then. I just hope... I hope this works. For my sake, and for my family's. They've been so patient with me through all of this.",
+      "Therapist: Your commitment is the first step. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. That means a lot. I guess we should get started then. I just hope... I hope this works. For my sake, and for my family's. They've been so patient with me through all of this.",
+      "Therapist: Your commitment is the first step. Shall we begin?",
+      "Client: Yes, let's do it. I'm as ready as I'll ever be. Just... please bear with me if I struggle. This isn't easy, but I know it's necessary. I'm grateful for your guidance, Dr. Chen."
+    ]
+  ]
+}

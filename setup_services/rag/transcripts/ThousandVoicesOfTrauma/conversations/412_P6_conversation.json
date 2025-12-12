@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Take a deep breath and start when you're ready.",
+    "Client: Okay... I'm eight years old, playing in my uncle's backyard. It's a hot summer day, and I can feel the grass tickling my bare feet. I hear the neighbor's dog barking in the distance. Suddenly, I see a large stray dog enter the yard through a hole in the fence. Its fur is matted, and it looks angry. I freeze, not knowing what to do.",
+    "Therapist: How's your SUDS level?",
+    "Client: Um, about a 4 right now. I'm starting to feel tense, but it's manageable.",
+    "Therapist: Alright. Continue.",
+    "Client: The dog starts growling and moving towards me. My heart is racing, and I can feel sweat forming on my palms. I want to run, but I'm paralyzed with fear. The dog lunges at me, and I feel its teeth sink into my arm. The pain is excruciating, and I'm screaming at the top of my lungs.",
+    "Therapist: SUDS?",
+    "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't breathe.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: I can smell the dog's breath, and it's making me nauseous. I'm crying and calling for help, but no one seems to hear me. The dog shakes its head, tearing at my flesh. I feel so helpless and alone. Finally, my uncle hears the commotion and rushes out. He grabs a garden hose and sprays the dog, forcing it to let go of me.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm shaking. My SUDS is probably a 9. I can almost feel the pain in my arm again.",
+    "Therapist: That's intense. Remember, you're safe here.",
+    "Client: I know, but it feels so real. My uncle is holding me now, and I'm sobbing uncontrollably. There's blood everywhere, and I'm terrified the dog will come back. The pain is overwhelming, and I feel like I might pass out. My uncle is trying to calm me down, but all I can focus on is the throbbing in my arm and the fear coursing through my body.",
+    "Therapist: SUDS level?",
+    "Client: Still a 9. I'm feeling really overwhelmed.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: I'm in the car now, on the way to the hospital. Every bump in the road sends a jolt of pain through my arm. I keep replaying the attack in my mind, wondering if I could have done something differently. The fear of dogs starts to set in, and I know I'll never feel safe around them again. At the hospital, I'm surrounded by doctors and nurses, but I feel so alone and vulnerable.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe a 7? I'm starting to feel more present in the room with you.",
+    "Therapist: Good. Keep going.",
+    "Client: The doctors clean and stitch my wounds. The pain medication helps, but I'm still shaken. I overhear them talking about rabies shots, and it terrifies me. I start to worry that I might die from this attack. My parents arrive, and seeing their worried faces makes me feel guilty somehow. I spend the night in the hospital, haunted by nightmares of vicious dogs chasing me.",
+    "Therapist: SUDS?",
+    "Client: It's down to a 5 now. I'm feeling sad and a bit drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: In the days that follow, I struggle to sleep. Every time I close my eyes, I see the dog's snarling face. I become hyper-vigilant, always scanning for potential threats. My arm heals, but the emotional scars linger. I start avoiding parks and outdoor activities, and I flinch whenever I hear a dog bark. The attack changes me, making me more anxious and less trusting of the world around me.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm at a 3, I think. I feel a mix of sadness and relief that it's over.",
+    "Therapist: You've done an excellent job. Let's take a moment to ground ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and start when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and start when you're ready.",
+      "Client: Okay... I'm eight years old, playing in my uncle's backyard. It's a hot summer day, and I can feel the grass tickling my bare feet. I hear the neighbor's dog barking in the distance. Suddenly, I see a large stray dog enter the yard through a hole in the fence. Its fur is matted, and it looks angry. I freeze, not knowing what to do."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and start when you're ready.",
+      "Client: Okay... I'm eight years old, playing in my uncle's backyard. It's a hot summer day, and I can feel the grass tickling my bare feet. I hear the neighbor's dog barking in the distance. Suddenly, I see a large stray dog enter the yard through a hole in the fence. Its fur is matted, and it looks angry. I freeze, not knowing what to do.",
+      "Therapist: How's your SUDS level?"
+    ],
+    [
+      "Client: Okay... I'm eight years old, playing in my uncle's backyard. It's a hot summer day, and I can feel the grass tickling my bare feet. I hear the neighbor's dog barking in the distance. Suddenly, I see a large stray dog enter the yard through a hole in the fence. Its fur is matted, and it looks angry. I freeze, not knowing what to do.",
+      "Therapist: How's your SUDS level?",
+      "Client: Um, about a 4 right now. I'm starting to feel tense, but it's manageable."
+    ],
+    [
+      "Therapist: How's your SUDS level?",
+      "Client: Um, about a 4 right now. I'm starting to feel tense, but it's manageable.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, about a 4 right now. I'm starting to feel tense, but it's manageable.",
+      "Therapist: Alright. Continue.",
+      "Client: The dog starts growling and moving towards me. My heart is racing, and I can feel sweat forming on my palms. I want to run, but I'm paralyzed with fear. The dog lunges at me, and I feel its teeth sink into my arm. The pain is excruciating, and I'm screaming at the top of my lungs."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: The dog starts growling and moving towards me. My heart is racing, and I can feel sweat forming on my palms. I want to run, but I'm paralyzed with fear. The dog lunges at me, and I feel its teeth sink into my arm. The pain is excruciating, and I'm screaming at the top of my lungs.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The dog starts growling and moving towards me. My heart is racing, and I can feel sweat forming on my palms. I want to run, but I'm paralyzed with fear. The dog lunges at me, and I feel its teeth sink into my arm. The pain is excruciating, and I'm screaming at the top of my lungs.",
+      "Therapist: SUDS?",
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't breathe."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't breathe.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8 now. My heart is pounding, and I feel like I can't breathe.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: I can smell the dog's breath, and it's making me nauseous. I'm crying and calling for help, but no one seems to hear me. The dog shakes its head, tearing at my flesh. I feel so helpless and alone. Finally, my uncle hears the commotion and rushes out. He grabs a garden hose and sprays the dog, forcing it to let go of me."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: I can smell the dog's breath, and it's making me nauseous. I'm crying and calling for help, but no one seems to hear me. The dog shakes its head, tearing at my flesh. I feel so helpless and alone. Finally, my uncle hears the commotion and rushes out. He grabs a garden hose and sprays the dog, forcing it to let go of me.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I can smell the dog's breath, and it's making me nauseous. I'm crying and calling for help, but no one seems to hear me. The dog shakes its head, tearing at my flesh. I feel so helpless and alone. Finally, my uncle hears the commotion and rushes out. He grabs a garden hose and sprays the dog, forcing it to let go of me.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm shaking. My SUDS is probably a 9. I can almost feel the pain in my arm again."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm shaking. My SUDS is probably a 9. I can almost feel the pain in my arm again.",
+      "Therapist: That's intense. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm shaking. My SUDS is probably a 9. I can almost feel the pain in my arm again.",
+      "Therapist: That's intense. Remember, you're safe here.",
+      "Client: I know, but it feels so real. My uncle is holding me now, and I'm sobbing uncontrollably. There's blood everywhere, and I'm terrified the dog will come back. The pain is overwhelming, and I feel like I might pass out. My uncle is trying to calm me down, but all I can focus on is the throbbing in my arm and the fear coursing through my body."
+    ],
+    [
+      "Therapist: That's intense. Remember, you're safe here.",
+      "Client: I know, but it feels so real. My uncle is holding me now, and I'm sobbing uncontrollably. There's blood everywhere, and I'm terrified the dog will come back. The pain is overwhelming, and I feel like I might pass out. My uncle is trying to calm me down, but all I can focus on is the throbbing in my arm and the fear coursing through my body.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I know, but it feels so real. My uncle is holding me now, and I'm sobbing uncontrollably. There's blood everywhere, and I'm terrified the dog will come back. The pain is overwhelming, and I feel like I might pass out. My uncle is trying to calm me down, but all I can focus on is the throbbing in my arm and the fear coursing through my body.",
+      "Therapist: SUDS level?",
+      "Client: Still a 9. I'm feeling really overwhelmed."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Still a 9. I'm feeling really overwhelmed.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: Still a 9. I'm feeling really overwhelmed.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I'm in the car now, on the way to the hospital. Every bump in the road sends a jolt of pain through my arm. I keep replaying the attack in my mind, wondering if I could have done something differently. The fear of dogs starts to set in, and I know I'll never feel safe around them again. At the hospital, I'm surrounded by doctors and nurses, but I feel so alone and vulnerable."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I'm in the car now, on the way to the hospital. Every bump in the road sends a jolt of pain through my arm. I keep replaying the attack in my mind, wondering if I could have done something differently. The fear of dogs starts to set in, and I know I'll never feel safe around them again. At the hospital, I'm surrounded by doctors and nurses, but I feel so alone and vulnerable.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: I'm in the car now, on the way to the hospital. Every bump in the road sends a jolt of pain through my arm. I keep replaying the attack in my mind, wondering if I could have done something differently. The fear of dogs starts to set in, and I know I'll never feel safe around them again. At the hospital, I'm surrounded by doctors and nurses, but I feel so alone and vulnerable.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm starting to feel more present in the room with you."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm starting to feel more present in the room with you.",
+      "Therapist: Good. Keep going."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7? I'm starting to feel more present in the room with you.",
+      "Therapist: Good. Keep going.",
+      "Client: The doctors clean and stitch my wounds. The pain medication helps, but I'm still shaken. I overhear them talking about rabies shots, and it terrifies me. I start to worry that I might die from this attack. My parents arrive, and seeing their worried faces makes me feel guilty somehow. I spend the night in the hospital, haunted by nightmares of vicious dogs chasing me."
+    ],
+    [
+      "Therapist: Good. Keep going.",
+      "Client: The doctors clean and stitch my wounds. The pain medication helps, but I'm still shaken. I overhear them talking about rabies shots, and it terrifies me. I start to worry that I might die from this attack. My parents arrive, and seeing their worried faces makes me feel guilty somehow. I spend the night in the hospital, haunted by nightmares of vicious dogs chasing me.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The doctors clean and stitch my wounds. The pain medication helps, but I'm still shaken. I overhear them talking about rabies shots, and it terrifies me. I start to worry that I might die from this attack. My parents arrive, and seeing their worried faces makes me feel guilty somehow. I spend the night in the hospital, haunted by nightmares of vicious dogs chasing me.",
+      "Therapist: SUDS?",
+      "Client: It's down to a 5 now. I'm feeling sad and a bit drained."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's down to a 5 now. I'm feeling sad and a bit drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's down to a 5 now. I'm feeling sad and a bit drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: In the days that follow, I struggle to sleep. Every time I close my eyes, I see the dog's snarling face. I become hyper-vigilant, always scanning for potential threats. My arm heals, but the emotional scars linger. I start avoiding parks and outdoor activities, and I flinch whenever I hear a dog bark. The attack changes me, making me more anxious and less trusting of the world around me."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: In the days that follow, I struggle to sleep. Every time I close my eyes, I see the dog's snarling face. I become hyper-vigilant, always scanning for potential threats. My arm heals, but the emotional scars linger. I start avoiding parks and outdoor activities, and I flinch whenever I hear a dog bark. The attack changes me, making me more anxious and less trusting of the world around me.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: In the days that follow, I struggle to sleep. Every time I close my eyes, I see the dog's snarling face. I become hyper-vigilant, always scanning for potential threats. My arm heals, but the emotional scars linger. I start avoiding parks and outdoor activities, and I flinch whenever I hear a dog bark. The attack changes me, making me more anxious and less trusting of the world around me.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 3, I think. I feel a mix of sadness and relief that it's over."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm at a 3, I think. I feel a mix of sadness and relief that it's over.",
+      "Therapist: You've done an excellent job. Let's take a moment to ground ourselves."
+    ]
+  ]
+}

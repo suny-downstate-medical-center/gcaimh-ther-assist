@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin our imaginal exposure exercise. Can you tell me about your experience as a refugee?",
+    "Client: (taking a deep breath) Okay... It was about two years ago. We had to leave our home in Syria because of the war. The journey was... it was terrifying. We traveled at night, hiding during the day. I remember the constant fear, the hunger, and the uncertainty.",
+    "Therapist: Thank you for sharing. What's your SUDS level right now?",
+    "Client: Um, I'd say about a 4 out of 10. It's uncomfortable, but manageable.",
+    "Therapist: Okay. Continue with the memory.",
+    "Client: We reached the border, and there was this moment when we thought we'd be turned away. My heart was pounding so hard, I could hear it in my ears. The border guard looked at our papers for what felt like an eternity.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's... it's gone up. Maybe a 6? I can feel my palms getting sweaty.",
+    "Therapist: That's normal. You're doing well. Keep going.",
+    "Client: (voice shaking) We made it across, but then we were in this camp. It was overcrowded, unsanitary. I felt so helpless, so... stripped of my dignity. And then... (pauses, takes a shaky breath) that's when I got the news about my brother.",
+    "Therapist: Take your time. What's your SUDS level?",
+    "Client: (quietly) It's an 8. I... I can feel the grief washing over me again.",
+    "Therapist: It's okay to feel this. You're safe here.",
+    "Client: (voice breaking) He didn't make it out. He was... he was killed in an airstrike. I keep thinking, if I had just convinced him to come with us...",
+    "Therapist: How are you feeling right now?",
+    "Client: My chest feels tight. It's hard to breathe. I... I feel so guilty.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9. I can't... (starts crying)",
+    "Therapist: You're doing great. Stay with the memory.",
+    "Client: (through tears) We had to keep moving. I couldn't even mourn properly. We made it to a refugee center in Turkey, but I felt so... lost. Empty. Like a part of me was left behind.",
+    "Therapist: And now? Your SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+    "Therapist: That's normal. You're processing a lot.",
+    "Client: (sighs) The journey here was long. Interviews, paperwork, more waiting. When we finally arrived, I felt... relieved, but also guilty for feeling relieved. How could I feel happy when my brother...",
+    "Therapist: SUDS level?",
+    "Client: Back to a 6. I'm feeling... I don't know, a mix of sadness and gratitude?",
+    "Therapist: That's understandable. How are you feeling physically?",
+    "Client: My shoulders are tense, but the tightness in my chest is easing a bit.",
+    "Therapist: Good. Let's continue.",
+    "Client: Adjusting here has been... challenging. The language, the culture, everything's so different. But I'm also grateful for the safety, the opportunities. It's just... the loss of my brother, it colors everything.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's down to a 4 again. I feel... tired, but also a bit lighter? Like I've let something out.",
+    "Therapist: That's great progress. How do you feel about today's session?",
+    "Client: It was hard, but... I think it helped. I haven't talked about this in detail before. It hurts, but it also feels... necessary, I guess?",
+    "Therapist: You did very well. We'll end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin our imaginal exposure exercise. Can you tell me about your experience as a refugee?",
+      "Client: (taking a deep breath) Okay... It was about two years ago. We had to leave our home in Syria because of the war. The journey was... it was terrifying. We traveled at night, hiding during the day. I remember the constant fear, the hunger, and the uncertainty.",
+      "Therapist: Thank you for sharing. What's your SUDS level right now?"
+    ],
+    [
+      "Client: (taking a deep breath) Okay... It was about two years ago. We had to leave our home in Syria because of the war. The journey was... it was terrifying. We traveled at night, hiding during the day. I remember the constant fear, the hunger, and the uncertainty.",
+      "Therapist: Thank you for sharing. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10. It's uncomfortable, but manageable."
+    ],
+    [
+      "Therapist: Thank you for sharing. What's your SUDS level right now?",
+      "Client: Um, I'd say about a 4 out of 10. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue with the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue with the memory.",
+      "Client: We reached the border, and there was this moment when we thought we'd be turned away. My heart was pounding so hard, I could hear it in my ears. The border guard looked at our papers for what felt like an eternity."
+    ],
+    [
+      "Therapist: Okay. Continue with the memory.",
+      "Client: We reached the border, and there was this moment when we thought we'd be turned away. My heart was pounding so hard, I could hear it in my ears. The border guard looked at our papers for what felt like an eternity.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: We reached the border, and there was this moment when we thought we'd be turned away. My heart was pounding so hard, I could hear it in my ears. The border guard looked at our papers for what felt like an eternity.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? I can feel my palms getting sweaty."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? I can feel my palms getting sweaty.",
+      "Therapist: That's normal. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 6? I can feel my palms getting sweaty.",
+      "Therapist: That's normal. You're doing well. Keep going.",
+      "Client: (voice shaking) We made it across, but then we were in this camp. It was overcrowded, unsanitary. I felt so helpless, so... stripped of my dignity. And then... (pauses, takes a shaky breath) that's when I got the news about my brother."
+    ],
+    [
+      "Therapist: That's normal. You're doing well. Keep going.",
+      "Client: (voice shaking) We made it across, but then we were in this camp. It was overcrowded, unsanitary. I felt so helpless, so... stripped of my dignity. And then... (pauses, takes a shaky breath) that's when I got the news about my brother.",
+      "Therapist: Take your time. What's your SUDS level?"
+    ],
+    [
+      "Client: (voice shaking) We made it across, but then we were in this camp. It was overcrowded, unsanitary. I felt so helpless, so... stripped of my dignity. And then... (pauses, takes a shaky breath) that's when I got the news about my brother.",
+      "Therapist: Take your time. What's your SUDS level?",
+      "Client: (quietly) It's an 8. I... I can feel the grief washing over me again."
+    ],
+    [
+      "Therapist: Take your time. What's your SUDS level?",
+      "Client: (quietly) It's an 8. I... I can feel the grief washing over me again.",
+      "Therapist: It's okay to feel this. You're safe here."
+    ],
+    [
+      "Client: (quietly) It's an 8. I... I can feel the grief washing over me again.",
+      "Therapist: It's okay to feel this. You're safe here.",
+      "Client: (voice breaking) He didn't make it out. He was... he was killed in an airstrike. I keep thinking, if I had just convinced him to come with us..."
+    ],
+    [
+      "Therapist: It's okay to feel this. You're safe here.",
+      "Client: (voice breaking) He didn't make it out. He was... he was killed in an airstrike. I keep thinking, if I had just convinced him to come with us...",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: (voice breaking) He didn't make it out. He was... he was killed in an airstrike. I keep thinking, if I had just convinced him to come with us...",
+      "Therapist: How are you feeling right now?",
+      "Client: My chest feels tight. It's hard to breathe. I... I feel so guilty."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: My chest feels tight. It's hard to breathe. I... I feel so guilty.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: My chest feels tight. It's hard to breathe. I... I feel so guilty.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I can't... (starts crying)"
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I can't... (starts crying)",
+      "Therapist: You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's a 9. I can't... (starts crying)",
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: (through tears) We had to keep moving. I couldn't even mourn properly. We made it to a refugee center in Turkey, but I felt so... lost. Empty. Like a part of me was left behind."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: (through tears) We had to keep moving. I couldn't even mourn properly. We made it to a refugee center in Turkey, but I felt so... lost. Empty. Like a part of me was left behind.",
+      "Therapist: And now? Your SUDS?"
+    ],
+    [
+      "Client: (through tears) We had to keep moving. I couldn't even mourn properly. We made it to a refugee center in Turkey, but I felt so... lost. Empty. Like a part of me was left behind.",
+      "Therapist: And now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained."
+    ],
+    [
+      "Therapist: And now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+      "Therapist: That's normal. You're processing a lot."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: (sighs) The journey here was long. Interviews, paperwork, more waiting. When we finally arrived, I felt... relieved, but also guilty for feeling relieved. How could I feel happy when my brother..."
+    ],
+    [
+      "Therapist: That's normal. You're processing a lot.",
+      "Client: (sighs) The journey here was long. Interviews, paperwork, more waiting. When we finally arrived, I felt... relieved, but also guilty for feeling relieved. How could I feel happy when my brother...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: (sighs) The journey here was long. Interviews, paperwork, more waiting. When we finally arrived, I felt... relieved, but also guilty for feeling relieved. How could I feel happy when my brother...",
+      "Therapist: SUDS level?",
+      "Client: Back to a 6. I'm feeling... I don't know, a mix of sadness and gratitude?"
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: Back to a 6. I'm feeling... I don't know, a mix of sadness and gratitude?",
+      "Therapist: That's understandable. How are you feeling physically?"
+    ],
+    [
+      "Client: Back to a 6. I'm feeling... I don't know, a mix of sadness and gratitude?",
+      "Therapist: That's understandable. How are you feeling physically?",
+      "Client: My shoulders are tense, but the tightness in my chest is easing a bit."
+    ],
+    [
+      "Therapist: That's understandable. How are you feeling physically?",
+      "Client: My shoulders are tense, but the tightness in my chest is easing a bit.",
+      "Therapist: Good. Let's continue."
+    ],
+    [
+      "Client: My shoulders are tense, but the tightness in my chest is easing a bit.",
+      "Therapist: Good. Let's continue.",
+      "Client: Adjusting here has been... challenging. The language, the culture, everything's so different. But I'm also grateful for the safety, the opportunities. It's just... the loss of my brother, it colors everything."
+    ],
+    [
+      "Therapist: Good. Let's continue.",
+      "Client: Adjusting here has been... challenging. The language, the culture, everything's so different. But I'm also grateful for the safety, the opportunities. It's just... the loss of my brother, it colors everything.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: Adjusting here has been... challenging. The language, the culture, everything's so different. But I'm also grateful for the safety, the opportunities. It's just... the loss of my brother, it colors everything.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's down to a 4 again. I feel... tired, but also a bit lighter? Like I've let something out."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's down to a 4 again. I feel... tired, but also a bit lighter? Like I've let something out.",
+      "Therapist: That's great progress. How do you feel about today's session?"
+    ],
+    [
+      "Client: It's down to a 4 again. I feel... tired, but also a bit lighter? Like I've let something out.",
+      "Therapist: That's great progress. How do you feel about today's session?",
+      "Client: It was hard, but... I think it helped. I haven't talked about this in detail before. It hurts, but it also feels... necessary, I guess?"
+    ],
+    [
+      "Therapist: That's great progress. How do you feel about today's session?",
+      "Client: It was hard, but... I think it helped. I haven't talked about this in detail before. It hurts, but it also feels... necessary, I guess?",
+      "Therapist: You did very well. We'll end here for today."
+    ]
+  ]
+}

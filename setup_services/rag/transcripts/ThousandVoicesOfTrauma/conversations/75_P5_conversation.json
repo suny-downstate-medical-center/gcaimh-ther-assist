@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling?",
+    "Client: I'm honestly quite nervous, Dr. Johnson. My heart's racing a bit just thinking about it. I've been dreading this all week. The idea of reliving that plane crash... it's terrifying. I've spent so much time trying to forget it, you know?",
+    "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+    "Client: Well, I'm worried that talking about it will make everything worse. What if I can't handle it? What if I have a panic attack right here in your office? And... I'm embarrassed to admit this, but I'm also concerned about how you'll perceive me when I describe what happened. It's all so overwhelming.",
+    "Therapist: Those are valid concerns. Let's address them one by one. First...",
+    "Client: (Interrupting) I'm sorry, but before we continue, can I ask why we need to do this? I mean, I trust you, but I just don't see how reliving the worst moment of my life is going to help me get better.",
+    "Therapist: Great question. Imaginal exposure helps by...",
+    "Client: (Nodding slowly) I see. So, it's like facing my fears head-on instead of avoiding them. That makes sense, but it still sounds incredibly difficult. How long will this process take? And what exactly am I supposed to do during these sessions?",
+    "Therapist: The duration varies, but typically...",
+    "Client: Okay, I understand. And you'll be here with me the whole time, right? I don't think I could do this alone. Also, I'm worried about how this might affect my chronic pain. Sometimes when I'm stressed, the pain gets worse. Should I be concerned about that?",
+    "Therapist: Yes, I'll be here throughout. Regarding your pain...",
+    "Client: That's reassuring. I appreciate your support, Dr. Johnson. I guess I'm as ready as I'll ever be. But can we start small? Maybe not dive into the worst parts right away? And what if I need to stop? Is that okay?",
+    "Therapist: Absolutely. We'll start gradually and...",
+    "Client: (Taking a deep breath) Alright. I think I can do this. It's just... every time I think about that day, I can feel the plane shaking, hear the screams... (voice trembling) Sorry, I didn't mean to get emotional already. How do I keep myself from getting completely overwhelmed?",
+    "Therapist: It's okay to be emotional. We'll use coping techniques...",
+    "Client: Thank you, that helps. I'm trying to remind myself that I survived, that I'm safe now. It's just hard to believe sometimes. But I want to get better, for myself and for my studies. I've missed so many classes because of this. I'm determined to work through it, no matter how scary it is.",
+    "Therapist: Your determination is admirable. Shall we begin?",
+    "Client: (Nodding, voice slightly shaky) Yes, let's do this. I'm scared, but I'm ready. Thank you for being here with me, Dr. Johnson. I couldn't imagine doing this with anyone else."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling?",
+      "Client: I'm honestly quite nervous, Dr. Johnson. My heart's racing a bit just thinking about it. I've been dreading this all week. The idea of reliving that plane crash... it's terrifying. I've spent so much time trying to forget it, you know?",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm honestly quite nervous, Dr. Johnson. My heart's racing a bit just thinking about it. I've been dreading this all week. The idea of reliving that plane crash... it's terrifying. I've spent so much time trying to forget it, you know?",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried that talking about it will make everything worse. What if I can't handle it? What if I have a panic attack right here in your office? And... I'm embarrassed to admit this, but I'm also concerned about how you'll perceive me when I describe what happened. It's all so overwhelming."
+    ],
+    [
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: Well, I'm worried that talking about it will make everything worse. What if I can't handle it? What if I have a panic attack right here in your office? And... I'm embarrassed to admit this, but I'm also concerned about how you'll perceive me when I describe what happened. It's all so overwhelming.",
+      "Therapist: Those are valid concerns. Let's address them one by one. First..."
+    ],
+    [
+      "Client: Well, I'm worried that talking about it will make everything worse. What if I can't handle it? What if I have a panic attack right here in your office? And... I'm embarrassed to admit this, but I'm also concerned about how you'll perceive me when I describe what happened. It's all so overwhelming.",
+      "Therapist: Those are valid concerns. Let's address them one by one. First...",
+      "Client: (Interrupting) I'm sorry, but before we continue, can I ask why we need to do this? I mean, I trust you, but I just don't see how reliving the worst moment of my life is going to help me get better."
+    ],
+    [
+      "Therapist: Those are valid concerns. Let's address them one by one. First...",
+      "Client: (Interrupting) I'm sorry, but before we continue, can I ask why we need to do this? I mean, I trust you, but I just don't see how reliving the worst moment of my life is going to help me get better.",
+      "Therapist: Great question. Imaginal exposure helps by..."
+    ],
+    [
+      "Client: (Interrupting) I'm sorry, but before we continue, can I ask why we need to do this? I mean, I trust you, but I just don't see how reliving the worst moment of my life is going to help me get better.",
+      "Therapist: Great question. Imaginal exposure helps by...",
+      "Client: (Nodding slowly) I see. So, it's like facing my fears head-on instead of avoiding them. That makes sense, but it still sounds incredibly difficult. How long will this process take? And what exactly am I supposed to do during these sessions?"
+    ],
+    [
+      "Therapist: Great question. Imaginal exposure helps by...",
+      "Client: (Nodding slowly) I see. So, it's like facing my fears head-on instead of avoiding them. That makes sense, but it still sounds incredibly difficult. How long will this process take? And what exactly am I supposed to do during these sessions?",
+      "Therapist: The duration varies, but typically..."
+    ],
+    [
+      "Client: (Nodding slowly) I see. So, it's like facing my fears head-on instead of avoiding them. That makes sense, but it still sounds incredibly difficult. How long will this process take? And what exactly am I supposed to do during these sessions?",
+      "Therapist: The duration varies, but typically...",
+      "Client: Okay, I understand. And you'll be here with me the whole time, right? I don't think I could do this alone. Also, I'm worried about how this might affect my chronic pain. Sometimes when I'm stressed, the pain gets worse. Should I be concerned about that?"
+    ],
+    [
+      "Therapist: The duration varies, but typically...",
+      "Client: Okay, I understand. And you'll be here with me the whole time, right? I don't think I could do this alone. Also, I'm worried about how this might affect my chronic pain. Sometimes when I'm stressed, the pain gets worse. Should I be concerned about that?",
+      "Therapist: Yes, I'll be here throughout. Regarding your pain..."
+    ],
+    [
+      "Client: Okay, I understand. And you'll be here with me the whole time, right? I don't think I could do this alone. Also, I'm worried about how this might affect my chronic pain. Sometimes when I'm stressed, the pain gets worse. Should I be concerned about that?",
+      "Therapist: Yes, I'll be here throughout. Regarding your pain...",
+      "Client: That's reassuring. I appreciate your support, Dr. Johnson. I guess I'm as ready as I'll ever be. But can we start small? Maybe not dive into the worst parts right away? And what if I need to stop? Is that okay?"
+    ],
+    [
+      "Therapist: Yes, I'll be here throughout. Regarding your pain...",
+      "Client: That's reassuring. I appreciate your support, Dr. Johnson. I guess I'm as ready as I'll ever be. But can we start small? Maybe not dive into the worst parts right away? And what if I need to stop? Is that okay?",
+      "Therapist: Absolutely. We'll start gradually and..."
+    ],
+    [
+      "Client: That's reassuring. I appreciate your support, Dr. Johnson. I guess I'm as ready as I'll ever be. But can we start small? Maybe not dive into the worst parts right away? And what if I need to stop? Is that okay?",
+      "Therapist: Absolutely. We'll start gradually and...",
+      "Client: (Taking a deep breath) Alright. I think I can do this. It's just... every time I think about that day, I can feel the plane shaking, hear the screams... (voice trembling) Sorry, I didn't mean to get emotional already. How do I keep myself from getting completely overwhelmed?"
+    ],
+    [
+      "Therapist: Absolutely. We'll start gradually and...",
+      "Client: (Taking a deep breath) Alright. I think I can do this. It's just... every time I think about that day, I can feel the plane shaking, hear the screams... (voice trembling) Sorry, I didn't mean to get emotional already. How do I keep myself from getting completely overwhelmed?",
+      "Therapist: It's okay to be emotional. We'll use coping techniques..."
+    ],
+    [
+      "Client: (Taking a deep breath) Alright. I think I can do this. It's just... every time I think about that day, I can feel the plane shaking, hear the screams... (voice trembling) Sorry, I didn't mean to get emotional already. How do I keep myself from getting completely overwhelmed?",
+      "Therapist: It's okay to be emotional. We'll use coping techniques...",
+      "Client: Thank you, that helps. I'm trying to remind myself that I survived, that I'm safe now. It's just hard to believe sometimes. But I want to get better, for myself and for my studies. I've missed so many classes because of this. I'm determined to work through it, no matter how scary it is."
+    ],
+    [
+      "Therapist: It's okay to be emotional. We'll use coping techniques...",
+      "Client: Thank you, that helps. I'm trying to remind myself that I survived, that I'm safe now. It's just hard to believe sometimes. But I want to get better, for myself and for my studies. I've missed so many classes because of this. I'm determined to work through it, no matter how scary it is.",
+      "Therapist: Your determination is admirable. Shall we begin?"
+    ],
+    [
+      "Client: Thank you, that helps. I'm trying to remind myself that I survived, that I'm safe now. It's just hard to believe sometimes. But I want to get better, for myself and for my studies. I've missed so many classes because of this. I'm determined to work through it, no matter how scary it is.",
+      "Therapist: Your determination is admirable. Shall we begin?",
+      "Client: (Nodding, voice slightly shaky) Yes, let's do this. I'm scared, but I'm ready. Thank you for being here with me, Dr. Johnson. I couldn't imagine doing this with anyone else."
+    ]
+  ]
+}

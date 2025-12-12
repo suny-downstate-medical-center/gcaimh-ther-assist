@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+    "Client: Oh, hello Dr. Evans. I'm... I'm alright, I suppose. Just a bit tired. You know how it is at my age, especially living with the family now. It's not always easy.",
+    "Therapist: I understand. Today, we'll be starting imaginal exposure. Are you ready to discuss this?",
+    "Client: Imaginal exposure? That sounds... well, I'm not sure what that means. Could you explain it to me?",
+    "Therapist: Of course. It's a technique to help process traumatic memories. We'll revisit your experiences in a safe environment.",
+    "Client: Revisit my experiences? You mean... talk about the bullying and my divorce? I don't know if I'm ready for that. It still hurts so much, especially after losing my wife.",
+    "Therapist: I understand your hesitation. It's normal to feel apprehensive. How about we start small?",
+    "Client: Well, I suppose we could try. But what if it becomes too much? I've been feeling so low lately, and I'm worried this might make things worse.",
+    "Therapist: Your concerns are valid. We'll go at your pace, and you can stop anytime. How does that sound?",
+    "Client: That's... that's reassuring. I appreciate your understanding, Dr. Evans. It's just, with everything that's happened - the bullying, the divorce, and now being a widower - it feels like life has been one challenge after another. But I want to get better, for my family's sake if nothing else.",
+    "Therapist: Your courage is admirable. This process can help reduce PTSD symptoms over time.",
+    "Client: Really? That would be wonderful. I've been having such terrible nightmares and flashbacks. Sometimes I feel like I'm right back there, being taunted and humiliated. And then I think about my ex-wife, and how alone I feel now... it's overwhelming.",
+    "Therapist: Those are common experiences with PTSD. Imaginal exposure can help process these memories.",
+    "Client: I see. So, what exactly will we be doing in these sessions? Will I have to relive everything in detail?",
+    "Therapist: We'll gradually revisit memories, but you're in control. We'll start where you're comfortable.",
+    "Client: Okay, that doesn't sound as scary as I thought. I appreciate your patience with me, Dr. Evans. You remind me a bit of my granddaughter - she's about your age, and she's always so kind and understanding. It means a lot to have someone listen without judgment.",
+    "Therapist: Thank you for sharing that. Your trust is important. Shall we begin with a small step today?",
+    "Client: Yes, I think I'm ready to try. Just... promise you'll be here with me through it all? I know it might sound silly coming from someone my age, but I feel like I need that reassurance.",
+    "Therapist: Absolutely. I'll be here to support you throughout the entire process.",
+    "Client: Thank you, Dr. Evans. That means more than you know. Alright, let's give this imaginal exposure a try. I'm nervous, but I'm also hopeful. Maybe this old dog can learn some new tricks after all.",
+    "Therapist: Your willingness to try is commendable. Let's start by..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Johnson. How are you feeling today?",
+      "Client: Oh, hello Dr. Evans. I'm... I'm alright, I suppose. Just a bit tired. You know how it is at my age, especially living with the family now. It's not always easy.",
+      "Therapist: I understand. Today, we'll be starting imaginal exposure. Are you ready to discuss this?"
+    ],
+    [
+      "Client: Oh, hello Dr. Evans. I'm... I'm alright, I suppose. Just a bit tired. You know how it is at my age, especially living with the family now. It's not always easy.",
+      "Therapist: I understand. Today, we'll be starting imaginal exposure. Are you ready to discuss this?",
+      "Client: Imaginal exposure? That sounds... well, I'm not sure what that means. Could you explain it to me?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll be starting imaginal exposure. Are you ready to discuss this?",
+      "Client: Imaginal exposure? That sounds... well, I'm not sure what that means. Could you explain it to me?",
+      "Therapist: Of course. It's a technique to help process traumatic memories. We'll revisit your experiences in a safe environment."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... well, I'm not sure what that means. Could you explain it to me?",
+      "Therapist: Of course. It's a technique to help process traumatic memories. We'll revisit your experiences in a safe environment.",
+      "Client: Revisit my experiences? You mean... talk about the bullying and my divorce? I don't know if I'm ready for that. It still hurts so much, especially after losing my wife."
+    ],
+    [
+      "Therapist: Of course. It's a technique to help process traumatic memories. We'll revisit your experiences in a safe environment.",
+      "Client: Revisit my experiences? You mean... talk about the bullying and my divorce? I don't know if I'm ready for that. It still hurts so much, especially after losing my wife.",
+      "Therapist: I understand your hesitation. It's normal to feel apprehensive. How about we start small?"
+    ],
+    [
+      "Client: Revisit my experiences? You mean... talk about the bullying and my divorce? I don't know if I'm ready for that. It still hurts so much, especially after losing my wife.",
+      "Therapist: I understand your hesitation. It's normal to feel apprehensive. How about we start small?",
+      "Client: Well, I suppose we could try. But what if it becomes too much? I've been feeling so low lately, and I'm worried this might make things worse."
+    ],
+    [
+      "Therapist: I understand your hesitation. It's normal to feel apprehensive. How about we start small?",
+      "Client: Well, I suppose we could try. But what if it becomes too much? I've been feeling so low lately, and I'm worried this might make things worse.",
+      "Therapist: Your concerns are valid. We'll go at your pace, and you can stop anytime. How does that sound?"
+    ],
+    [
+      "Client: Well, I suppose we could try. But what if it becomes too much? I've been feeling so low lately, and I'm worried this might make things worse.",
+      "Therapist: Your concerns are valid. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's... that's reassuring. I appreciate your understanding, Dr. Evans. It's just, with everything that's happened - the bullying, the divorce, and now being a widower - it feels like life has been one challenge after another. But I want to get better, for my family's sake if nothing else."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's... that's reassuring. I appreciate your understanding, Dr. Evans. It's just, with everything that's happened - the bullying, the divorce, and now being a widower - it feels like life has been one challenge after another. But I want to get better, for my family's sake if nothing else.",
+      "Therapist: Your courage is admirable. This process can help reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: That's... that's reassuring. I appreciate your understanding, Dr. Evans. It's just, with everything that's happened - the bullying, the divorce, and now being a widower - it feels like life has been one challenge after another. But I want to get better, for my family's sake if nothing else.",
+      "Therapist: Your courage is admirable. This process can help reduce PTSD symptoms over time.",
+      "Client: Really? That would be wonderful. I've been having such terrible nightmares and flashbacks. Sometimes I feel like I'm right back there, being taunted and humiliated. And then I think about my ex-wife, and how alone I feel now... it's overwhelming."
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can help reduce PTSD symptoms over time.",
+      "Client: Really? That would be wonderful. I've been having such terrible nightmares and flashbacks. Sometimes I feel like I'm right back there, being taunted and humiliated. And then I think about my ex-wife, and how alone I feel now... it's overwhelming.",
+      "Therapist: Those are common experiences with PTSD. Imaginal exposure can help process these memories."
+    ],
+    [
+      "Client: Really? That would be wonderful. I've been having such terrible nightmares and flashbacks. Sometimes I feel like I'm right back there, being taunted and humiliated. And then I think about my ex-wife, and how alone I feel now... it's overwhelming.",
+      "Therapist: Those are common experiences with PTSD. Imaginal exposure can help process these memories.",
+      "Client: I see. So, what exactly will we be doing in these sessions? Will I have to relive everything in detail?"
+    ],
+    [
+      "Therapist: Those are common experiences with PTSD. Imaginal exposure can help process these memories.",
+      "Client: I see. So, what exactly will we be doing in these sessions? Will I have to relive everything in detail?",
+      "Therapist: We'll gradually revisit memories, but you're in control. We'll start where you're comfortable."
+    ],
+    [
+      "Client: I see. So, what exactly will we be doing in these sessions? Will I have to relive everything in detail?",
+      "Therapist: We'll gradually revisit memories, but you're in control. We'll start where you're comfortable.",
+      "Client: Okay, that doesn't sound as scary as I thought. I appreciate your patience with me, Dr. Evans. You remind me a bit of my granddaughter - she's about your age, and she's always so kind and understanding. It means a lot to have someone listen without judgment."
+    ],
+    [
+      "Therapist: We'll gradually revisit memories, but you're in control. We'll start where you're comfortable.",
+      "Client: Okay, that doesn't sound as scary as I thought. I appreciate your patience with me, Dr. Evans. You remind me a bit of my granddaughter - she's about your age, and she's always so kind and understanding. It means a lot to have someone listen without judgment.",
+      "Therapist: Thank you for sharing that. Your trust is important. Shall we begin with a small step today?"
+    ],
+    [
+      "Client: Okay, that doesn't sound as scary as I thought. I appreciate your patience with me, Dr. Evans. You remind me a bit of my granddaughter - she's about your age, and she's always so kind and understanding. It means a lot to have someone listen without judgment.",
+      "Therapist: Thank you for sharing that. Your trust is important. Shall we begin with a small step today?",
+      "Client: Yes, I think I'm ready to try. Just... promise you'll be here with me through it all? I know it might sound silly coming from someone my age, but I feel like I need that reassurance."
+    ],
+    [
+      "Therapist: Thank you for sharing that. Your trust is important. Shall we begin with a small step today?",
+      "Client: Yes, I think I'm ready to try. Just... promise you'll be here with me through it all? I know it might sound silly coming from someone my age, but I feel like I need that reassurance.",
+      "Therapist: Absolutely. I'll be here to support you throughout the entire process."
+    ],
+    [
+      "Client: Yes, I think I'm ready to try. Just... promise you'll be here with me through it all? I know it might sound silly coming from someone my age, but I feel like I need that reassurance.",
+      "Therapist: Absolutely. I'll be here to support you throughout the entire process.",
+      "Client: Thank you, Dr. Evans. That means more than you know. Alright, let's give this imaginal exposure a try. I'm nervous, but I'm also hopeful. Maybe this old dog can learn some new tricks after all."
+    ],
+    [
+      "Therapist: Absolutely. I'll be here to support you throughout the entire process.",
+      "Client: Thank you, Dr. Evans. That means more than you know. Alright, let's give this imaginal exposure a try. I'm nervous, but I'm also hopeful. Maybe this old dog can learn some new tricks after all.",
+      "Therapist: Your willingness to try is commendable. Let's start by..."
+    ]
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Johnson, today we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: Oh, dear. I'm not sure I'm ready for this. The thought of reliving that home invasion... it makes my heart race. I've been trying so hard to forget it all. Why do we need to bring it up again?",
+    "Therapist: I understand your hesitation. This exercise helps process the trauma. It may be difficult, but I'll be here to support you throughout.",
+    "Client: I appreciate that, but I'm worried I might fall apart. You know, at my age, I thought I'd seen it all, but that night... it shook me to my core. I've been having trouble sleeping, and I'm always on edge. My family's noticed how jumpy I've become. Will this really help with all that?",
+    "Therapist: Yes, it can significantly reduce those symptoms. What concerns you most about the exercise?",
+    "Client: I suppose I'm afraid of feeling out of control. What if I can't stop crying? Or worse, what if I can't feel anything at all? Sometimes I feel so numb, like I'm not even here. It's been affecting my part-time work, and I hate feeling like a burden to my family.",
+    "Therapist: Those are valid concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+    "Client: That's a relief to hear. I've lived through so much - my divorce, struggles with depression, and now this. Sometimes I wonder if I have the strength for one more challenge. But I want to feel like myself again, to enjoy my time with my family without this cloud hanging over me. If you think this will help, I'm willing to try.",
+    "Therapist: Your willingness shows great courage. Shall we begin with a brief relaxation exercise?",
+    "Client: Yes, I think that would help. My hands are a bit shaky, and my breathing feels shallow. It's amazing how just talking about it brings back those feelings of fear. But I'm here, and I'm ready to face this. Maybe it's time I stop running from these memories and learn how to live with them. Go ahead, I'm listening.",
+    "Therapist: Excellent. Take a deep breath. As we start, remember you're safe here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Johnson, today we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: Oh, dear. I'm not sure I'm ready for this. The thought of reliving that home invasion... it makes my heart race. I've been trying so hard to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your hesitation. This exercise helps process the trauma. It may be difficult, but I'll be here to support you throughout."
+    ],
+    [
+      "Client: Oh, dear. I'm not sure I'm ready for this. The thought of reliving that home invasion... it makes my heart race. I've been trying so hard to forget it all. Why do we need to bring it up again?",
+      "Therapist: I understand your hesitation. This exercise helps process the trauma. It may be difficult, but I'll be here to support you throughout.",
+      "Client: I appreciate that, but I'm worried I might fall apart. You know, at my age, I thought I'd seen it all, but that night... it shook me to my core. I've been having trouble sleeping, and I'm always on edge. My family's noticed how jumpy I've become. Will this really help with all that?"
+    ],
+    [
+      "Therapist: I understand your hesitation. This exercise helps process the trauma. It may be difficult, but I'll be here to support you throughout.",
+      "Client: I appreciate that, but I'm worried I might fall apart. You know, at my age, I thought I'd seen it all, but that night... it shook me to my core. I've been having trouble sleeping, and I'm always on edge. My family's noticed how jumpy I've become. Will this really help with all that?",
+      "Therapist: Yes, it can significantly reduce those symptoms. What concerns you most about the exercise?"
+    ],
+    [
+      "Client: I appreciate that, but I'm worried I might fall apart. You know, at my age, I thought I'd seen it all, but that night... it shook me to my core. I've been having trouble sleeping, and I'm always on edge. My family's noticed how jumpy I've become. Will this really help with all that?",
+      "Therapist: Yes, it can significantly reduce those symptoms. What concerns you most about the exercise?",
+      "Client: I suppose I'm afraid of feeling out of control. What if I can't stop crying? Or worse, what if I can't feel anything at all? Sometimes I feel so numb, like I'm not even here. It's been affecting my part-time work, and I hate feeling like a burden to my family."
+    ],
+    [
+      "Therapist: Yes, it can significantly reduce those symptoms. What concerns you most about the exercise?",
+      "Client: I suppose I'm afraid of feeling out of control. What if I can't stop crying? Or worse, what if I can't feel anything at all? Sometimes I feel so numb, like I'm not even here. It's been affecting my part-time work, and I hate feeling like a burden to my family.",
+      "Therapist: Those are valid concerns. We'll go at your pace, and you can stop anytime. How does that sound?"
+    ],
+    [
+      "Client: I suppose I'm afraid of feeling out of control. What if I can't stop crying? Or worse, what if I can't feel anything at all? Sometimes I feel so numb, like I'm not even here. It's been affecting my part-time work, and I hate feeling like a burden to my family.",
+      "Therapist: Those are valid concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's a relief to hear. I've lived through so much - my divorce, struggles with depression, and now this. Sometimes I wonder if I have the strength for one more challenge. But I want to feel like myself again, to enjoy my time with my family without this cloud hanging over me. If you think this will help, I'm willing to try."
+    ],
+    [
+      "Therapist: Those are valid concerns. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: That's a relief to hear. I've lived through so much - my divorce, struggles with depression, and now this. Sometimes I wonder if I have the strength for one more challenge. But I want to feel like myself again, to enjoy my time with my family without this cloud hanging over me. If you think this will help, I'm willing to try.",
+      "Therapist: Your willingness shows great courage. Shall we begin with a brief relaxation exercise?"
+    ],
+    [
+      "Client: That's a relief to hear. I've lived through so much - my divorce, struggles with depression, and now this. Sometimes I wonder if I have the strength for one more challenge. But I want to feel like myself again, to enjoy my time with my family without this cloud hanging over me. If you think this will help, I'm willing to try.",
+      "Therapist: Your willingness shows great courage. Shall we begin with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. My hands are a bit shaky, and my breathing feels shallow. It's amazing how just talking about it brings back those feelings of fear. But I'm here, and I'm ready to face this. Maybe it's time I stop running from these memories and learn how to live with them. Go ahead, I'm listening."
+    ],
+    [
+      "Therapist: Your willingness shows great courage. Shall we begin with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. My hands are a bit shaky, and my breathing feels shallow. It's amazing how just talking about it brings back those feelings of fear. But I'm here, and I'm ready to face this. Maybe it's time I stop running from these memories and learn how to live with them. Go ahead, I'm listening.",
+      "Therapist: Excellent. Take a deep breath. As we start, remember you're safe here."
+    ]
+  ]
+}

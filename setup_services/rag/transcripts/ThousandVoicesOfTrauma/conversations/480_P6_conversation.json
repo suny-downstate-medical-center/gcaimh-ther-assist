@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, Carlos, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Just take a deep breath and begin when you're ready.",
+    "Client: Alright... I'm walking my dog in the park near my apartment. It's a sunny afternoon, and I can feel the warmth on my skin. I hear children playing in the distance. Suddenly, I see a large, unleashed dog running towards us. My heart starts racing...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 4 out of 10. I'm starting to feel anxious, but it's manageable.",
+    "Therapist: Okay. Continue, please.",
+    "Client: The dog is getting closer, and I can see its teeth. My palms are sweating, and I'm frozen in place. I want to run, but I can't move. My own dog is growling, and I'm terrified of what might happen next. The other dog lunges at us, and I hear myself scream...",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's up to a 7 now. My heart is pounding, and I feel like I can't breathe.",
+    "Therapist: That sounds intense. You're doing well. Keep going.",
+    "Client: The dog grabs my arm, and I feel a sharp pain. I'm yelling for help, but no one seems to be around. I can smell the dog's breath, and I'm dizzy with fear. I manage to kick the dog away, but I'm bleeding and shaking uncontrollably...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's a 9. I feel like I'm right back there. My arm is tingling where the dog bit me.",
+    "Therapist: You're safe here. Take a deep breath. What happens next?",
+    "Client: I... I stumble away, holding my injured arm. My dog is whimpering, and I'm crying. I see someone in the distance finally running towards us. The attacking dog has backed off, but I'm still terrified it might come back...",
+    "Therapist: SUDS rating?",
+    "Client: It's down to an 8. I'm still shaking, but I feel a little relief seeing help coming.",
+    "Therapist: That's good. You're processing the memory well. Continue.",
+    "Client: The person helps me sit down on a bench. They're calling for an ambulance, I think. I'm having trouble focusing. My arm is throbbing, and I keep replaying the attack in my mind. I feel so helpless and scared...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's about a 6. I'm starting to feel a bit calmer, but still shaken up.",
+    "Therapist: You're doing great. Let's wrap up the exercise. How are you feeling?",
+    "Client: I'm... I'm okay. It was intense, but I feel like I got through it. My heart is still racing a bit, though.",
+    "Therapist: That's normal. You did very well. Let's take a moment to ground ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, Carlos, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Just take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Just take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm walking my dog in the park near my apartment. It's a sunny afternoon, and I can feel the warmth on my skin. I hear children playing in the distance. Suddenly, I see a large, unleashed dog running towards us. My heart starts racing..."
+    ],
+    [
+      "Therapist: That's normal. Just take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm walking my dog in the park near my apartment. It's a sunny afternoon, and I can feel the warmth on my skin. I hear children playing in the distance. Suddenly, I see a large, unleashed dog running towards us. My heart starts racing...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Alright... I'm walking my dog in the park near my apartment. It's a sunny afternoon, and I can feel the warmth on my skin. I hear children playing in the distance. Suddenly, I see a large, unleashed dog running towards us. My heart starts racing...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm starting to feel anxious, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 4 out of 10. I'm starting to feel anxious, but it's manageable.",
+      "Therapist: Okay. Continue, please."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10. I'm starting to feel anxious, but it's manageable.",
+      "Therapist: Okay. Continue, please.",
+      "Client: The dog is getting closer, and I can see its teeth. My palms are sweating, and I'm frozen in place. I want to run, but I can't move. My own dog is growling, and I'm terrified of what might happen next. The other dog lunges at us, and I hear myself scream..."
+    ],
+    [
+      "Therapist: Okay. Continue, please.",
+      "Client: The dog is getting closer, and I can see its teeth. My palms are sweating, and I'm frozen in place. I want to run, but I can't move. My own dog is growling, and I'm terrified of what might happen next. The other dog lunges at us, and I hear myself scream...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: The dog is getting closer, and I can see its teeth. My palms are sweating, and I'm frozen in place. I want to run, but I can't move. My own dog is growling, and I'm terrified of what might happen next. The other dog lunges at us, and I hear myself scream...",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's up to a 7 now. My heart is pounding, and I feel like I can't breathe."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's up to a 7 now. My heart is pounding, and I feel like I can't breathe.",
+      "Therapist: That sounds intense. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's up to a 7 now. My heart is pounding, and I feel like I can't breathe.",
+      "Therapist: That sounds intense. You're doing well. Keep going.",
+      "Client: The dog grabs my arm, and I feel a sharp pain. I'm yelling for help, but no one seems to be around. I can smell the dog's breath, and I'm dizzy with fear. I manage to kick the dog away, but I'm bleeding and shaking uncontrollably..."
+    ],
+    [
+      "Therapist: That sounds intense. You're doing well. Keep going.",
+      "Client: The dog grabs my arm, and I feel a sharp pain. I'm yelling for help, but no one seems to be around. I can smell the dog's breath, and I'm dizzy with fear. I manage to kick the dog away, but I'm bleeding and shaking uncontrollably...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The dog grabs my arm, and I feel a sharp pain. I'm yelling for help, but no one seems to be around. I can smell the dog's breath, and I'm dizzy with fear. I manage to kick the dog away, but I'm bleeding and shaking uncontrollably...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My arm is tingling where the dog bit me."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My arm is tingling where the dog bit me.",
+      "Therapist: You're safe here. Take a deep breath. What happens next?"
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there. My arm is tingling where the dog bit me.",
+      "Therapist: You're safe here. Take a deep breath. What happens next?",
+      "Client: I... I stumble away, holding my injured arm. My dog is whimpering, and I'm crying. I see someone in the distance finally running towards us. The attacking dog has backed off, but I'm still terrified it might come back..."
+    ],
+    [
+      "Therapist: You're safe here. Take a deep breath. What happens next?",
+      "Client: I... I stumble away, holding my injured arm. My dog is whimpering, and I'm crying. I see someone in the distance finally running towards us. The attacking dog has backed off, but I'm still terrified it might come back...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: I... I stumble away, holding my injured arm. My dog is whimpering, and I'm crying. I see someone in the distance finally running towards us. The attacking dog has backed off, but I'm still terrified it might come back...",
+      "Therapist: SUDS rating?",
+      "Client: It's down to an 8. I'm still shaking, but I feel a little relief seeing help coming."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's down to an 8. I'm still shaking, but I feel a little relief seeing help coming.",
+      "Therapist: That's good. You're processing the memory well. Continue."
+    ],
+    [
+      "Client: It's down to an 8. I'm still shaking, but I feel a little relief seeing help coming.",
+      "Therapist: That's good. You're processing the memory well. Continue.",
+      "Client: The person helps me sit down on a bench. They're calling for an ambulance, I think. I'm having trouble focusing. My arm is throbbing, and I keep replaying the attack in my mind. I feel so helpless and scared..."
+    ],
+    [
+      "Therapist: That's good. You're processing the memory well. Continue.",
+      "Client: The person helps me sit down on a bench. They're calling for an ambulance, I think. I'm having trouble focusing. My arm is throbbing, and I keep replaying the attack in my mind. I feel so helpless and scared...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: The person helps me sit down on a bench. They're calling for an ambulance, I think. I'm having trouble focusing. My arm is throbbing, and I keep replaying the attack in my mind. I feel so helpless and scared...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's about a 6. I'm starting to feel a bit calmer, but still shaken up."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's about a 6. I'm starting to feel a bit calmer, but still shaken up.",
+      "Therapist: You're doing great. Let's wrap up the exercise. How are you feeling?"
+    ],
+    [
+      "Client: It's about a 6. I'm starting to feel a bit calmer, but still shaken up.",
+      "Therapist: You're doing great. Let's wrap up the exercise. How are you feeling?",
+      "Client: I'm... I'm okay. It was intense, but I feel like I got through it. My heart is still racing a bit, though."
+    ],
+    [
+      "Therapist: You're doing great. Let's wrap up the exercise. How are you feeling?",
+      "Client: I'm... I'm okay. It was intense, but I feel like I got through it. My heart is still racing a bit, though.",
+      "Therapist: That's normal. You did very well. Let's take a moment to ground ourselves."
+    ]
+  ]
+}

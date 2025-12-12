@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling?",
+    "Client: I'm honestly pretty nervous. I've been dreading this all week. The idea of revisiting my experiences as a refugee... it's overwhelming. I've tried so hard to push those memories away.",
+    "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+    "Client: It's just... I'm worried about falling apart. What if I can't handle it? And what if reliving those moments makes everything worse? I've been having nightmares already, and I'm scared this will make them more intense.",
+    "Therapist: Those are valid concerns. How can I support you today?",
+    "Client: I'm not sure. Maybe... could you explain why we're doing this again? And what exactly is going to happen? I think I need some reassurance that this isn't going to break me.",
+    "Therapist: Of course. Imaginal exposure helps process trauma memories. We'll go through it together. What questions do you have?",
+    "Client: Well, how long will we be doing this for? And what if I start panicking? I'm also worried about how I'll feel afterward. Will I be able to function normally after the session?",
+    "Therapist: We'll start with 30 minutes, adjusting as needed. I'll guide you through any distress. What coping strategies help you?",
+    "Client: Deep breathing helps sometimes. And grounding techniques, like focusing on objects in the room. But I'm not sure how effective they'll be when I'm in the middle of reliving those memories.",
+    "Therapist: Those are excellent strategies. We'll use them during our session. How else can I support you?",
+    "Client: I guess... just be patient with me? And maybe remind me that I'm safe here, in the present. It's easy for me to get lost in those memories and forget where I am.",
+    "Therapist: Absolutely. I'll be here to ground you. Your safety is my priority. Are you ready to begin?",
+    "Client: I think so. I'm still nervous, but I trust you. And I know I need to do this if I want to get better. It's just... it's hard to voluntarily walk into something that scares you so much, you know?",
+    "Therapist: Your courage is admirable. Remember, you're in control. We can pause anytime. Shall we start?",
+    "Client: Okay. Yes, let's do this. I'm as ready as I'll ever be. Just... please don't let me get too lost in there, alright?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Today we'll begin imaginal exposure. How are you feeling?",
+      "Client: I'm honestly pretty nervous. I've been dreading this all week. The idea of revisiting my experiences as a refugee... it's overwhelming. I've tried so hard to push those memories away.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm honestly pretty nervous. I've been dreading this all week. The idea of revisiting my experiences as a refugee... it's overwhelming. I've tried so hard to push those memories away.",
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: It's just... I'm worried about falling apart. What if I can't handle it? And what if reliving those moments makes everything worse? I've been having nightmares already, and I'm scared this will make them more intense."
+    ],
+    [
+      "Therapist: Your anxiety is understandable. Can you tell me more about your concerns?",
+      "Client: It's just... I'm worried about falling apart. What if I can't handle it? And what if reliving those moments makes everything worse? I've been having nightmares already, and I'm scared this will make them more intense.",
+      "Therapist: Those are valid concerns. How can I support you today?"
+    ],
+    [
+      "Client: It's just... I'm worried about falling apart. What if I can't handle it? And what if reliving those moments makes everything worse? I've been having nightmares already, and I'm scared this will make them more intense.",
+      "Therapist: Those are valid concerns. How can I support you today?",
+      "Client: I'm not sure. Maybe... could you explain why we're doing this again? And what exactly is going to happen? I think I need some reassurance that this isn't going to break me."
+    ],
+    [
+      "Therapist: Those are valid concerns. How can I support you today?",
+      "Client: I'm not sure. Maybe... could you explain why we're doing this again? And what exactly is going to happen? I think I need some reassurance that this isn't going to break me.",
+      "Therapist: Of course. Imaginal exposure helps process trauma memories. We'll go through it together. What questions do you have?"
+    ],
+    [
+      "Client: I'm not sure. Maybe... could you explain why we're doing this again? And what exactly is going to happen? I think I need some reassurance that this isn't going to break me.",
+      "Therapist: Of course. Imaginal exposure helps process trauma memories. We'll go through it together. What questions do you have?",
+      "Client: Well, how long will we be doing this for? And what if I start panicking? I'm also worried about how I'll feel afterward. Will I be able to function normally after the session?"
+    ],
+    [
+      "Therapist: Of course. Imaginal exposure helps process trauma memories. We'll go through it together. What questions do you have?",
+      "Client: Well, how long will we be doing this for? And what if I start panicking? I'm also worried about how I'll feel afterward. Will I be able to function normally after the session?",
+      "Therapist: We'll start with 30 minutes, adjusting as needed. I'll guide you through any distress. What coping strategies help you?"
+    ],
+    [
+      "Client: Well, how long will we be doing this for? And what if I start panicking? I'm also worried about how I'll feel afterward. Will I be able to function normally after the session?",
+      "Therapist: We'll start with 30 minutes, adjusting as needed. I'll guide you through any distress. What coping strategies help you?",
+      "Client: Deep breathing helps sometimes. And grounding techniques, like focusing on objects in the room. But I'm not sure how effective they'll be when I'm in the middle of reliving those memories."
+    ],
+    [
+      "Therapist: We'll start with 30 minutes, adjusting as needed. I'll guide you through any distress. What coping strategies help you?",
+      "Client: Deep breathing helps sometimes. And grounding techniques, like focusing on objects in the room. But I'm not sure how effective they'll be when I'm in the middle of reliving those memories.",
+      "Therapist: Those are excellent strategies. We'll use them during our session. How else can I support you?"
+    ],
+    [
+      "Client: Deep breathing helps sometimes. And grounding techniques, like focusing on objects in the room. But I'm not sure how effective they'll be when I'm in the middle of reliving those memories.",
+      "Therapist: Those are excellent strategies. We'll use them during our session. How else can I support you?",
+      "Client: I guess... just be patient with me? And maybe remind me that I'm safe here, in the present. It's easy for me to get lost in those memories and forget where I am."
+    ],
+    [
+      "Therapist: Those are excellent strategies. We'll use them during our session. How else can I support you?",
+      "Client: I guess... just be patient with me? And maybe remind me that I'm safe here, in the present. It's easy for me to get lost in those memories and forget where I am.",
+      "Therapist: Absolutely. I'll be here to ground you. Your safety is my priority. Are you ready to begin?"
+    ],
+    [
+      "Client: I guess... just be patient with me? And maybe remind me that I'm safe here, in the present. It's easy for me to get lost in those memories and forget where I am.",
+      "Therapist: Absolutely. I'll be here to ground you. Your safety is my priority. Are you ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you. And I know I need to do this if I want to get better. It's just... it's hard to voluntarily walk into something that scares you so much, you know?"
+    ],
+    [
+      "Therapist: Absolutely. I'll be here to ground you. Your safety is my priority. Are you ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you. And I know I need to do this if I want to get better. It's just... it's hard to voluntarily walk into something that scares you so much, you know?",
+      "Therapist: Your courage is admirable. Remember, you're in control. We can pause anytime. Shall we start?"
+    ],
+    [
+      "Client: I think so. I'm still nervous, but I trust you. And I know I need to do this if I want to get better. It's just... it's hard to voluntarily walk into something that scares you so much, you know?",
+      "Therapist: Your courage is admirable. Remember, you're in control. We can pause anytime. Shall we start?",
+      "Client: Okay. Yes, let's do this. I'm as ready as I'll ever be. Just... please don't let me get too lost in there, alright?"
+    ]
+  ]
+}

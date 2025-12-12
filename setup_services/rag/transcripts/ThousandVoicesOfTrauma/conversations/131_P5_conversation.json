@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and I'm not sure I'm ready to talk about it in detail.",
+    "Therapist: I understand. Let's discuss the plan for today's session.",
+    "Client: Okay... What exactly are we going to do? You mentioned something about imaginal exposure last time, but I'm not really sure what that means.",
+    "Therapist: It's a technique to help process your traumatic memories. Can you share your concerns?",
+    "Client: Well, I'm worried about reliving the whole experience. What if I panic? Or what if it makes everything worse? I've been trying so hard to avoid thinking about it, and now you want me to do the opposite?",
+    "Therapist: Your concerns are valid. This process can be challenging, but it's effective. How do you feel about trying?",
+    "Client: I... I guess I'm willing to give it a shot. But I'm still scared. Can you tell me more about what to expect? Will you be there the whole time?",
+    "Therapist: Absolutely. I'll guide you through the entire process. What questions do you have?",
+    "Client: Um, how long will it take? And what exactly am I supposed to do? Do I just start talking about what happened during the hurricane?",
+    "Therapist: We'll spend about 30-45 minutes on the exercise. You'll describe the event in detail, in present tense.",
+    "Client: Present tense? That sounds intense. I'm not sure I can do that without breaking down. What if I can't handle it?",
+    "Therapist: It's okay to feel emotional. We can take breaks if needed. Your safety is my priority.",
+    "Client: Okay, that's reassuring. I appreciate that. I guess I'm just worried about opening this can of worms. Once I start talking about it, will I be able to stop thinking about it?",
+    "Therapist: It's a common concern. Remember, facing the memory helps reduce its power over time.",
+    "Client: That makes sense, I suppose. It's just hard to believe right now. So, after we do this, will I feel better immediately?",
+    "Therapist: Improvement is gradual. You might feel emotional initially, but it typically eases with repeated sessions.",
+    "Client: I see. That's good to know. I'm still nervous, but I think I understand the process better now. Is there anything I should do to prepare myself before we start?",
+    "Therapist: Just try to relax. We'll go at your pace. Your courage in facing this is commendable.",
+    "Client: Thank you, Dr. Johnson. That means a lot. I'm glad you'll be here with me through this. I think... I think I'm ready to try. Can we start now, or do we need to do anything else first?",
+    "Therapist: We can start now. Remember, you're in control. Let's begin when you're ready.",
+    "Client: Okay. I'm as ready as I'll ever be, I guess. Should I close my eyes? Where should I start in the story?",
+    "Therapist: Eyes open or closed, whatever feels comfortable. Start from the beginning of the event.",
+    "Client: Alright. Here goes... (takes a deep breath) I'm in my apartment. It's early morning, and the hurricane warnings have been blaring all night..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and I'm not sure I'm ready to talk about it in detail.",
+      "Therapist: I understand. Let's discuss the plan for today's session."
+    ],
+    [
+      "Client: Hi Dr. Johnson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares about the hurricane lately, and I'm not sure I'm ready to talk about it in detail.",
+      "Therapist: I understand. Let's discuss the plan for today's session.",
+      "Client: Okay... What exactly are we going to do? You mentioned something about imaginal exposure last time, but I'm not really sure what that means."
+    ],
+    [
+      "Therapist: I understand. Let's discuss the plan for today's session.",
+      "Client: Okay... What exactly are we going to do? You mentioned something about imaginal exposure last time, but I'm not really sure what that means.",
+      "Therapist: It's a technique to help process your traumatic memories. Can you share your concerns?"
+    ],
+    [
+      "Client: Okay... What exactly are we going to do? You mentioned something about imaginal exposure last time, but I'm not really sure what that means.",
+      "Therapist: It's a technique to help process your traumatic memories. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving the whole experience. What if I panic? Or what if it makes everything worse? I've been trying so hard to avoid thinking about it, and now you want me to do the opposite?"
+    ],
+    [
+      "Therapist: It's a technique to help process your traumatic memories. Can you share your concerns?",
+      "Client: Well, I'm worried about reliving the whole experience. What if I panic? Or what if it makes everything worse? I've been trying so hard to avoid thinking about it, and now you want me to do the opposite?",
+      "Therapist: Your concerns are valid. This process can be challenging, but it's effective. How do you feel about trying?"
+    ],
+    [
+      "Client: Well, I'm worried about reliving the whole experience. What if I panic? Or what if it makes everything worse? I've been trying so hard to avoid thinking about it, and now you want me to do the opposite?",
+      "Therapist: Your concerns are valid. This process can be challenging, but it's effective. How do you feel about trying?",
+      "Client: I... I guess I'm willing to give it a shot. But I'm still scared. Can you tell me more about what to expect? Will you be there the whole time?"
+    ],
+    [
+      "Therapist: Your concerns are valid. This process can be challenging, but it's effective. How do you feel about trying?",
+      "Client: I... I guess I'm willing to give it a shot. But I'm still scared. Can you tell me more about what to expect? Will you be there the whole time?",
+      "Therapist: Absolutely. I'll guide you through the entire process. What questions do you have?"
+    ],
+    [
+      "Client: I... I guess I'm willing to give it a shot. But I'm still scared. Can you tell me more about what to expect? Will you be there the whole time?",
+      "Therapist: Absolutely. I'll guide you through the entire process. What questions do you have?",
+      "Client: Um, how long will it take? And what exactly am I supposed to do? Do I just start talking about what happened during the hurricane?"
+    ],
+    [
+      "Therapist: Absolutely. I'll guide you through the entire process. What questions do you have?",
+      "Client: Um, how long will it take? And what exactly am I supposed to do? Do I just start talking about what happened during the hurricane?",
+      "Therapist: We'll spend about 30-45 minutes on the exercise. You'll describe the event in detail, in present tense."
+    ],
+    [
+      "Client: Um, how long will it take? And what exactly am I supposed to do? Do I just start talking about what happened during the hurricane?",
+      "Therapist: We'll spend about 30-45 minutes on the exercise. You'll describe the event in detail, in present tense.",
+      "Client: Present tense? That sounds intense. I'm not sure I can do that without breaking down. What if I can't handle it?"
+    ],
+    [
+      "Therapist: We'll spend about 30-45 minutes on the exercise. You'll describe the event in detail, in present tense.",
+      "Client: Present tense? That sounds intense. I'm not sure I can do that without breaking down. What if I can't handle it?",
+      "Therapist: It's okay to feel emotional. We can take breaks if needed. Your safety is my priority."
+    ],
+    [
+      "Client: Present tense? That sounds intense. I'm not sure I can do that without breaking down. What if I can't handle it?",
+      "Therapist: It's okay to feel emotional. We can take breaks if needed. Your safety is my priority.",
+      "Client: Okay, that's reassuring. I appreciate that. I guess I'm just worried about opening this can of worms. Once I start talking about it, will I be able to stop thinking about it?"
+    ],
+    [
+      "Therapist: It's okay to feel emotional. We can take breaks if needed. Your safety is my priority.",
+      "Client: Okay, that's reassuring. I appreciate that. I guess I'm just worried about opening this can of worms. Once I start talking about it, will I be able to stop thinking about it?",
+      "Therapist: It's a common concern. Remember, facing the memory helps reduce its power over time."
+    ],
+    [
+      "Client: Okay, that's reassuring. I appreciate that. I guess I'm just worried about opening this can of worms. Once I start talking about it, will I be able to stop thinking about it?",
+      "Therapist: It's a common concern. Remember, facing the memory helps reduce its power over time.",
+      "Client: That makes sense, I suppose. It's just hard to believe right now. So, after we do this, will I feel better immediately?"
+    ],
+    [
+      "Therapist: It's a common concern. Remember, facing the memory helps reduce its power over time.",
+      "Client: That makes sense, I suppose. It's just hard to believe right now. So, after we do this, will I feel better immediately?",
+      "Therapist: Improvement is gradual. You might feel emotional initially, but it typically eases with repeated sessions."
+    ],
+    [
+      "Client: That makes sense, I suppose. It's just hard to believe right now. So, after we do this, will I feel better immediately?",
+      "Therapist: Improvement is gradual. You might feel emotional initially, but it typically eases with repeated sessions.",
+      "Client: I see. That's good to know. I'm still nervous, but I think I understand the process better now. Is there anything I should do to prepare myself before we start?"
+    ],
+    [
+      "Therapist: Improvement is gradual. You might feel emotional initially, but it typically eases with repeated sessions.",
+      "Client: I see. That's good to know. I'm still nervous, but I think I understand the process better now. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Just try to relax. We'll go at your pace. Your courage in facing this is commendable."
+    ],
+    [
+      "Client: I see. That's good to know. I'm still nervous, but I think I understand the process better now. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Just try to relax. We'll go at your pace. Your courage in facing this is commendable.",
+      "Client: Thank you, Dr. Johnson. That means a lot. I'm glad you'll be here with me through this. I think... I think I'm ready to try. Can we start now, or do we need to do anything else first?"
+    ],
+    [
+      "Therapist: Just try to relax. We'll go at your pace. Your courage in facing this is commendable.",
+      "Client: Thank you, Dr. Johnson. That means a lot. I'm glad you'll be here with me through this. I think... I think I'm ready to try. Can we start now, or do we need to do anything else first?",
+      "Therapist: We can start now. Remember, you're in control. Let's begin when you're ready."
+    ],
+    [
+      "Client: Thank you, Dr. Johnson. That means a lot. I'm glad you'll be here with me through this. I think... I think I'm ready to try. Can we start now, or do we need to do anything else first?",
+      "Therapist: We can start now. Remember, you're in control. Let's begin when you're ready.",
+      "Client: Okay. I'm as ready as I'll ever be, I guess. Should I close my eyes? Where should I start in the story?"
+    ],
+    [
+      "Therapist: We can start now. Remember, you're in control. Let's begin when you're ready.",
+      "Client: Okay. I'm as ready as I'll ever be, I guess. Should I close my eyes? Where should I start in the story?",
+      "Therapist: Eyes open or closed, whatever feels comfortable. Start from the beginning of the event."
+    ],
+    [
+      "Client: Okay. I'm as ready as I'll ever be, I guess. Should I close my eyes? Where should I start in the story?",
+      "Therapist: Eyes open or closed, whatever feels comfortable. Start from the beginning of the event.",
+      "Client: Alright. Here goes... (takes a deep breath) I'm in my apartment. It's early morning, and the hurricane warnings have been blaring all night..."
+    ]
+  ]
+}

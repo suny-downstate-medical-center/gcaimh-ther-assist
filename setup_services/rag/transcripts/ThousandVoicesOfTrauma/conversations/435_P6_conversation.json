@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Amir. Today we'll continue with imaginal exposure. Are you ready to begin?",
+    "Client: I think so. I'm a bit nervous, but I'll try my best.",
+    "Therapist: That's understandable. Remember, you're in control. Let's start with your SUDS rating.",
+    "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+    "Therapist: Okay. Close your eyes and describe the memory.",
+    "Client: I'm in the hospital room. The beeping of machines is constant. My body aches all over from the accident. The doctor comes in, looking grim. He tells me I'll need multiple surgeries and... and that I might not walk again. I feel like I can't breathe. The walls are closing in on me.",
+    "Therapist: Stay with that feeling. What's your SUDS now?",
+    "Client: It's... it's climbing. Maybe a 6? My heart's racing, and my palms are sweaty.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The pain is overwhelming. I can't move without agony shooting through my body. Nurses come and go, but I feel so alone. I'm trapped in this bed, in this broken body. It's like I'm imprisoned, but the cell is my own flesh and bones.",
+    "Therapist: How are you feeling now?",
+    "Client: God, it's intense. An 8, maybe? I feel like I'm right back there.",
+    "Therapist: That's okay. You're safe here. What happens next?",
+    "Client: Days blur together. The pain medication makes everything hazy. I overhear the doctors talking about my chances. They don't sound optimistic. I feel so helpless, so angry at my body for betraying me like this.",
+    "Therapist: Your SUDS rating?",
+    "Client: Still an 8. My chest feels tight. I can almost smell the antiseptic.",
+    "Therapist: You're doing great. Keep breathing.",
+    "Client: I try to move, but the pain is excruciating. A nurse comes to change my bandages, and I cry out. I feel so weak, so pathetic. I used to be strong, independent. Now I can't even use the bathroom without help. It's humiliating.",
+    "Therapist: And now?",
+    "Client: It's... it's actually going down a bit. Maybe a 7? Talking about it... it's hard, but it's not as overwhelming as before.",
+    "Therapist: That's progress. Continue when you're ready.",
+    "Client: Weeks pass. Physical therapy is grueling. Every small movement is a battle. But slowly, so slowly, I start to see improvements. The day I take my first step, I sob from both pain and relief. It's a glimmer of hope in this nightmare.",
+    "Therapist: How are you feeling at this point in the memory?",
+    "Client: It's... complicated. The SUDS is probably around a 6 now. There's still fear and pain, but also a spark of determination.",
+    "Therapist: That's natural. Keep going.",
+    "Client: The road to recovery is long and hard. Some days I want to give up. But I keep pushing. Each small victory feels monumental. The day I walk out of the hospital on my own two feet, I feel reborn. Scared of the future, but alive.",
+    "Therapist: And your final SUDS rating?",
+    "Client: I'd say it's down to a 4 again. Reliving it was intense, but... I made it through. Both then and now.",
+    "Therapist: You did excellently. How do you feel about today's session?",
+    "Client: Drained, but... lighter somehow. Like I faced the monster under the bed and realized I'm stronger than it.",
+    "Therapist: That's a powerful realization. We'll end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Amir. Today we'll continue with imaginal exposure. Are you ready to begin?",
+      "Client: I think so. I'm a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so. I'm a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're in control. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Close your eyes and describe the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Close your eyes and describe the memory.",
+      "Client: I'm in the hospital room. The beeping of machines is constant. My body aches all over from the accident. The doctor comes in, looking grim. He tells me I'll need multiple surgeries and... and that I might not walk again. I feel like I can't breathe. The walls are closing in on me."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and describe the memory.",
+      "Client: I'm in the hospital room. The beeping of machines is constant. My body aches all over from the accident. The doctor comes in, looking grim. He tells me I'll need multiple surgeries and... and that I might not walk again. I feel like I can't breathe. The walls are closing in on me.",
+      "Therapist: Stay with that feeling. What's your SUDS now?"
+    ],
+    [
+      "Client: I'm in the hospital room. The beeping of machines is constant. My body aches all over from the accident. The doctor comes in, looking grim. He tells me I'll need multiple surgeries and... and that I might not walk again. I feel like I can't breathe. The walls are closing in on me.",
+      "Therapist: Stay with that feeling. What's your SUDS now?",
+      "Client: It's... it's climbing. Maybe a 6? My heart's racing, and my palms are sweaty."
+    ],
+    [
+      "Therapist: Stay with that feeling. What's your SUDS now?",
+      "Client: It's... it's climbing. Maybe a 6? My heart's racing, and my palms are sweaty.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's climbing. Maybe a 6? My heart's racing, and my palms are sweaty.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The pain is overwhelming. I can't move without agony shooting through my body. Nurses come and go, but I feel so alone. I'm trapped in this bed, in this broken body. It's like I'm imprisoned, but the cell is my own flesh and bones."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The pain is overwhelming. I can't move without agony shooting through my body. Nurses come and go, but I feel so alone. I'm trapped in this bed, in this broken body. It's like I'm imprisoned, but the cell is my own flesh and bones.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The pain is overwhelming. I can't move without agony shooting through my body. Nurses come and go, but I feel so alone. I'm trapped in this bed, in this broken body. It's like I'm imprisoned, but the cell is my own flesh and bones.",
+      "Therapist: How are you feeling now?",
+      "Client: God, it's intense. An 8, maybe? I feel like I'm right back there."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: God, it's intense. An 8, maybe? I feel like I'm right back there.",
+      "Therapist: That's okay. You're safe here. What happens next?"
+    ],
+    [
+      "Client: God, it's intense. An 8, maybe? I feel like I'm right back there.",
+      "Therapist: That's okay. You're safe here. What happens next?",
+      "Client: Days blur together. The pain medication makes everything hazy. I overhear the doctors talking about my chances. They don't sound optimistic. I feel so helpless, so angry at my body for betraying me like this."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. What happens next?",
+      "Client: Days blur together. The pain medication makes everything hazy. I overhear the doctors talking about my chances. They don't sound optimistic. I feel so helpless, so angry at my body for betraying me like this.",
+      "Therapist: Your SUDS rating?"
+    ],
+    [
+      "Client: Days blur together. The pain medication makes everything hazy. I overhear the doctors talking about my chances. They don't sound optimistic. I feel so helpless, so angry at my body for betraying me like this.",
+      "Therapist: Your SUDS rating?",
+      "Client: Still an 8. My chest feels tight. I can almost smell the antiseptic."
+    ],
+    [
+      "Therapist: Your SUDS rating?",
+      "Client: Still an 8. My chest feels tight. I can almost smell the antiseptic.",
+      "Therapist: You're doing great. Keep breathing."
+    ],
+    [
+      "Client: Still an 8. My chest feels tight. I can almost smell the antiseptic.",
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I try to move, but the pain is excruciating. A nurse comes to change my bandages, and I cry out. I feel so weak, so pathetic. I used to be strong, independent. Now I can't even use the bathroom without help. It's humiliating."
+    ],
+    [
+      "Therapist: You're doing great. Keep breathing.",
+      "Client: I try to move, but the pain is excruciating. A nurse comes to change my bandages, and I cry out. I feel so weak, so pathetic. I used to be strong, independent. Now I can't even use the bathroom without help. It's humiliating.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: I try to move, but the pain is excruciating. A nurse comes to change my bandages, and I cry out. I feel so weak, so pathetic. I used to be strong, independent. Now I can't even use the bathroom without help. It's humiliating.",
+      "Therapist: And now?",
+      "Client: It's... it's actually going down a bit. Maybe a 7? Talking about it... it's hard, but it's not as overwhelming as before."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: It's... it's actually going down a bit. Maybe a 7? Talking about it... it's hard, but it's not as overwhelming as before.",
+      "Therapist: That's progress. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's actually going down a bit. Maybe a 7? Talking about it... it's hard, but it's not as overwhelming as before.",
+      "Therapist: That's progress. Continue when you're ready.",
+      "Client: Weeks pass. Physical therapy is grueling. Every small movement is a battle. But slowly, so slowly, I start to see improvements. The day I take my first step, I sob from both pain and relief. It's a glimmer of hope in this nightmare."
+    ],
+    [
+      "Therapist: That's progress. Continue when you're ready.",
+      "Client: Weeks pass. Physical therapy is grueling. Every small movement is a battle. But slowly, so slowly, I start to see improvements. The day I take my first step, I sob from both pain and relief. It's a glimmer of hope in this nightmare.",
+      "Therapist: How are you feeling at this point in the memory?"
+    ],
+    [
+      "Client: Weeks pass. Physical therapy is grueling. Every small movement is a battle. But slowly, so slowly, I start to see improvements. The day I take my first step, I sob from both pain and relief. It's a glimmer of hope in this nightmare.",
+      "Therapist: How are you feeling at this point in the memory?",
+      "Client: It's... complicated. The SUDS is probably around a 6 now. There's still fear and pain, but also a spark of determination."
+    ],
+    [
+      "Therapist: How are you feeling at this point in the memory?",
+      "Client: It's... complicated. The SUDS is probably around a 6 now. There's still fear and pain, but also a spark of determination.",
+      "Therapist: That's natural. Keep going."
+    ],
+    [
+      "Client: It's... complicated. The SUDS is probably around a 6 now. There's still fear and pain, but also a spark of determination.",
+      "Therapist: That's natural. Keep going.",
+      "Client: The road to recovery is long and hard. Some days I want to give up. But I keep pushing. Each small victory feels monumental. The day I walk out of the hospital on my own two feet, I feel reborn. Scared of the future, but alive."
+    ],
+    [
+      "Therapist: That's natural. Keep going.",
+      "Client: The road to recovery is long and hard. Some days I want to give up. But I keep pushing. Each small victory feels monumental. The day I walk out of the hospital on my own two feet, I feel reborn. Scared of the future, but alive.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: The road to recovery is long and hard. Some days I want to give up. But I keep pushing. Each small victory feels monumental. The day I walk out of the hospital on my own two feet, I feel reborn. Scared of the future, but alive.",
+      "Therapist: And your final SUDS rating?",
+      "Client: I'd say it's down to a 4 again. Reliving it was intense, but... I made it through. Both then and now."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: I'd say it's down to a 4 again. Reliving it was intense, but... I made it through. Both then and now.",
+      "Therapist: You did excellently. How do you feel about today's session?"
+    ],
+    [
+      "Client: I'd say it's down to a 4 again. Reliving it was intense, but... I made it through. Both then and now.",
+      "Therapist: You did excellently. How do you feel about today's session?",
+      "Client: Drained, but... lighter somehow. Like I faced the monster under the bed and realized I'm stronger than it."
+    ],
+    [
+      "Therapist: You did excellently. How do you feel about today's session?",
+      "Client: Drained, but... lighter somehow. Like I faced the monster under the bed and realized I'm stronger than it.",
+      "Therapist: That's a powerful realization. We'll end here for today."
+    ]
+  ]
+}

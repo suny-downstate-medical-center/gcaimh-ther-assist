@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Hi Jake, how are you feeling today?",
+    "Client: Hey Dr. Chen. I'm... okay, I guess. A bit nervous about what we're doing today. I've been having more nightmares lately about my time in combat, and it's really messing with my sleep.",
+    "Therapist: I understand. Today we'll start imaginal exposure. Are you ready to discuss it?",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything.",
+    "Therapist: It's a way to process your trauma memories safely. We'll go through it step-by-step. What concerns do you have?",
+    "Client: I'm worried it'll make things worse. What if I completely lose it during the session? Or what if I can't handle the memories and just shut down? I've been trying so hard to avoid thinking about what happened.",
+    "Therapist: Those are valid concerns. We'll go at your pace and I'll support you throughout. How does that sound?",
+    "Client: I appreciate that, Dr. Chen. It's just... the idea of purposely thinking about those experiences makes me really anxious. My heart's already racing just talking about it. But I trust you, and I know I need to do something. This avoidance isn't working anymore.",
+    "Therapist: Your courage is admirable. Shall we discuss what to expect during the exercise?",
+    "Client: Yes, please. I think knowing what's coming might help me feel a bit more prepared. Even though part of me still wants to run away from this whole thing.",
+    "Therapist: You'll recount your combat experience in present tense. I'll guide you through it. How do you feel about that?",
+    "Client: Present tense? Like... like I'm there again? That sounds terrifying. But I guess that's the point, right? To face it head-on instead of trying to push it away. Will you stop me if it gets too overwhelming?",
+    "Therapist: Absolutely. We can pause anytime. Remember, you're safe here. What else would help you feel comfortable?",
+    "Client: Maybe... could we have a code word or something? In case I need a break but can't find the words? And is it okay if I keep my eyes closed during this? I think it might be easier that way.",
+    "Therapist: Great ideas. Let's use \"pause\" as our code word. Closing your eyes is fine. Any other questions?",
+    "Client: I think that covers most of it. I'm still scared, but I'm trying to focus on the potential benefits. You really think this will help with my PTSD symptoms?",
+    "Therapist: Yes, it's proven effective for many. Your willingness to try is a big step. Ready to begin?",
+    "Client: Okay... yeah, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle or if it takes me a while to get through it. This is probably going to be the hardest thing I've done since coming back from deployment.",
+    "Therapist: Of course. Your bravery is commendable. Shall we start with some deep breaths?",
+    "Client: That sounds good. I could definitely use some calming down right now. My palms are sweaty and my heart's still racing. But I'm here, and I'm going to try my best to get through this. I want to get better."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hi Jake, how are you feeling today?",
+      "Client: Hey Dr. Chen. I'm... okay, I guess. A bit nervous about what we're doing today. I've been having more nightmares lately about my time in combat, and it's really messing with my sleep.",
+      "Therapist: I understand. Today we'll start imaginal exposure. Are you ready to discuss it?"
+    ],
+    [
+      "Client: Hey Dr. Chen. I'm... okay, I guess. A bit nervous about what we're doing today. I've been having more nightmares lately about my time in combat, and it's really messing with my sleep.",
+      "Therapist: I understand. Today we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything."
+    ],
+    [
+      "Therapist: I understand. Today we'll start imaginal exposure. Are you ready to discuss it?",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything.",
+      "Therapist: It's a way to process your trauma memories safely. We'll go through it step-by-step. What concerns do you have?"
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything.",
+      "Therapist: It's a way to process your trauma memories safely. We'll go through it step-by-step. What concerns do you have?",
+      "Client: I'm worried it'll make things worse. What if I completely lose it during the session? Or what if I can't handle the memories and just shut down? I've been trying so hard to avoid thinking about what happened."
+    ],
+    [
+      "Therapist: It's a way to process your trauma memories safely. We'll go through it step-by-step. What concerns do you have?",
+      "Client: I'm worried it'll make things worse. What if I completely lose it during the session? Or what if I can't handle the memories and just shut down? I've been trying so hard to avoid thinking about what happened.",
+      "Therapist: Those are valid concerns. We'll go at your pace and I'll support you throughout. How does that sound?"
+    ],
+    [
+      "Client: I'm worried it'll make things worse. What if I completely lose it during the session? Or what if I can't handle the memories and just shut down? I've been trying so hard to avoid thinking about what happened.",
+      "Therapist: Those are valid concerns. We'll go at your pace and I'll support you throughout. How does that sound?",
+      "Client: I appreciate that, Dr. Chen. It's just... the idea of purposely thinking about those experiences makes me really anxious. My heart's already racing just talking about it. But I trust you, and I know I need to do something. This avoidance isn't working anymore."
+    ],
+    [
+      "Therapist: Those are valid concerns. We'll go at your pace and I'll support you throughout. How does that sound?",
+      "Client: I appreciate that, Dr. Chen. It's just... the idea of purposely thinking about those experiences makes me really anxious. My heart's already racing just talking about it. But I trust you, and I know I need to do something. This avoidance isn't working anymore.",
+      "Therapist: Your courage is admirable. Shall we discuss what to expect during the exercise?"
+    ],
+    [
+      "Client: I appreciate that, Dr. Chen. It's just... the idea of purposely thinking about those experiences makes me really anxious. My heart's already racing just talking about it. But I trust you, and I know I need to do something. This avoidance isn't working anymore.",
+      "Therapist: Your courage is admirable. Shall we discuss what to expect during the exercise?",
+      "Client: Yes, please. I think knowing what's coming might help me feel a bit more prepared. Even though part of me still wants to run away from this whole thing."
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we discuss what to expect during the exercise?",
+      "Client: Yes, please. I think knowing what's coming might help me feel a bit more prepared. Even though part of me still wants to run away from this whole thing.",
+      "Therapist: You'll recount your combat experience in present tense. I'll guide you through it. How do you feel about that?"
+    ],
+    [
+      "Client: Yes, please. I think knowing what's coming might help me feel a bit more prepared. Even though part of me still wants to run away from this whole thing.",
+      "Therapist: You'll recount your combat experience in present tense. I'll guide you through it. How do you feel about that?",
+      "Client: Present tense? Like... like I'm there again? That sounds terrifying. But I guess that's the point, right? To face it head-on instead of trying to push it away. Will you stop me if it gets too overwhelming?"
+    ],
+    [
+      "Therapist: You'll recount your combat experience in present tense. I'll guide you through it. How do you feel about that?",
+      "Client: Present tense? Like... like I'm there again? That sounds terrifying. But I guess that's the point, right? To face it head-on instead of trying to push it away. Will you stop me if it gets too overwhelming?",
+      "Therapist: Absolutely. We can pause anytime. Remember, you're safe here. What else would help you feel comfortable?"
+    ],
+    [
+      "Client: Present tense? Like... like I'm there again? That sounds terrifying. But I guess that's the point, right? To face it head-on instead of trying to push it away. Will you stop me if it gets too overwhelming?",
+      "Therapist: Absolutely. We can pause anytime. Remember, you're safe here. What else would help you feel comfortable?",
+      "Client: Maybe... could we have a code word or something? In case I need a break but can't find the words? And is it okay if I keep my eyes closed during this? I think it might be easier that way."
+    ],
+    [
+      "Therapist: Absolutely. We can pause anytime. Remember, you're safe here. What else would help you feel comfortable?",
+      "Client: Maybe... could we have a code word or something? In case I need a break but can't find the words? And is it okay if I keep my eyes closed during this? I think it might be easier that way.",
+      "Therapist: Great ideas. Let's use \"pause\" as our code word. Closing your eyes is fine. Any other questions?"
+    ],
+    [
+      "Client: Maybe... could we have a code word or something? In case I need a break but can't find the words? And is it okay if I keep my eyes closed during this? I think it might be easier that way.",
+      "Therapist: Great ideas. Let's use \"pause\" as our code word. Closing your eyes is fine. Any other questions?",
+      "Client: I think that covers most of it. I'm still scared, but I'm trying to focus on the potential benefits. You really think this will help with my PTSD symptoms?"
+    ],
+    [
+      "Therapist: Great ideas. Let's use \"pause\" as our code word. Closing your eyes is fine. Any other questions?",
+      "Client: I think that covers most of it. I'm still scared, but I'm trying to focus on the potential benefits. You really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective for many. Your willingness to try is a big step. Ready to begin?"
+    ],
+    [
+      "Client: I think that covers most of it. I'm still scared, but I'm trying to focus on the potential benefits. You really think this will help with my PTSD symptoms?",
+      "Therapist: Yes, it's proven effective for many. Your willingness to try is a big step. Ready to begin?",
+      "Client: Okay... yeah, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle or if it takes me a while to get through it. This is probably going to be the hardest thing I've done since coming back from deployment."
+    ],
+    [
+      "Therapist: Yes, it's proven effective for many. Your willingness to try is a big step. Ready to begin?",
+      "Client: Okay... yeah, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle or if it takes me a while to get through it. This is probably going to be the hardest thing I've done since coming back from deployment.",
+      "Therapist: Of course. Your bravery is commendable. Shall we start with some deep breaths?"
+    ],
+    [
+      "Client: Okay... yeah, I think I'm as ready as I'll ever be. Just... please be patient with me if I struggle or if it takes me a while to get through it. This is probably going to be the hardest thing I've done since coming back from deployment.",
+      "Therapist: Of course. Your bravery is commendable. Shall we start with some deep breaths?",
+      "Client: That sounds good. I could definitely use some calming down right now. My palms are sweaty and my heart's still racing. But I'm here, and I'm going to try my best to get through this. I want to get better."
+    ]
+  ]
+}

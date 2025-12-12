@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Close your eyes and recall the workplace bullying incident. What's your SUDS rating right now?",
+    "Client: Okay, I'm trying to picture it... Um, I'd say about a 4 out of 10. I can feel a bit of tension in my shoulders already.",
+    "Therapist: Thank you. Continue with the memory.",
+    "Client: Alright... I'm walking into the office, and I can see Tom standing by the water cooler. He's got that smirk on his face, you know? The one that always made me feel small. I'm trying to just get to my desk, but I can hear him whispering to the others. My heart's starting to race a bit.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling a bit shaky.",
+    "Therapist: I see. Keep going.",
+    "Client: As I sit down, I can hear Tom loudly saying, \"Oh, look who decided to show up today!\" Everyone's laughing, and I'm just staring at my computer screen, trying to ignore it. But inside, I'm... I'm furious and humiliated. I want to disappear.",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's an 8 now. My chest feels tight, and I'm having trouble breathing normally. I can feel my face getting hot with embarrassment.",
+    "Therapist: That sounds intense. Stay with it.",
+    "Client: I... I don't know if I can. It's too much. I'm reliving all those feelings of inadequacy and shame. I can hear Tom's voice so clearly, mocking me about my age, saying I should just retire already. God, I hated going to work every day.",
+    "Therapist: Your SUDS now?",
+    "Client: It's... it's a 9. I feel like I'm right back there, and I... I just want to run away.",
+    "Therapist: You're doing well. Keep breathing.",
+    "Client: I'm trying, but it's hard. I can feel tears welling up in my eyes, just like they did back then. I remember gripping the edge of my desk so hard my knuckles turned white. I felt so alone, so... worthless.",
+    "Therapist: And now?",
+    "Client: Still a 9. My heart's pounding, and I feel nauseous. I... I need a moment.",
+    "Therapist: Take your time. You're safe here.",
+    "Client: *deep breath* Okay... I'm focusing on Tom again. He's walking past my desk, deliberately knocking over my coffee mug. I can see the brown stain spreading across my papers. I'm frozen, can't even move to clean it up.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's coming down a bit. Maybe an 8 now. I'm still shaky, but... I'm starting to remember that this is just a memory.",
+    "Therapist: Good. Continue when you're ready.",
+    "Client: I'm... I'm looking around the office. Some colleagues are averting their eyes, pretending not to notice. Others are smirking. I feel so isolated, like I'm on an island surrounded by hostility. But... but I also remember Sarah from HR giving me a sympathetic look.",
+    "Therapist: How about now?",
+    "Client: It's down to a 7. My breathing is steadier, but my stomach's still in knots. I'm remembering that I survived this. I got through it.",
+    "Therapist: You did. Keep going.",
+    "Client: I'm... I'm packing up my things at the end of the day. Tom's gone home, and the office is quiet. I feel drained, emotionally and physically. But there's also a tiny spark of... of determination. I decide I'm going to talk to HR tomorrow.",
+    "Therapist: And your SUDS?",
+    "Client: It's a 5 now. I'm feeling calmer, though still a bit shaky. It's like... like I'm starting to see the whole picture, not just the worst parts.",
+    "Therapist: That's progress. How do you feel overall?",
+    "Client: I'm... I'm surprised. It was tough, but I feel... lighter somehow. Like I've faced something I've been avoiding for a long time. My heart rate's almost back to normal, and the nausea's gone. I think... I think I'm okay.",
+    "Therapist: Well done. Let's end here. How are you feeling?",
+    "Client: I'm feeling... relieved, I guess. And a bit proud. My SUDS is down to a 3 now. Thank you for guiding me through this.",
+    "Therapist: You did great. We'll discuss more next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Close your eyes and recall the workplace bullying incident. What's your SUDS rating right now?",
+      "Client: Okay, I'm trying to picture it... Um, I'd say about a 4 out of 10. I can feel a bit of tension in my shoulders already.",
+      "Therapist: Thank you. Continue with the memory."
+    ],
+    [
+      "Client: Okay, I'm trying to picture it... Um, I'd say about a 4 out of 10. I can feel a bit of tension in my shoulders already.",
+      "Therapist: Thank you. Continue with the memory.",
+      "Client: Alright... I'm walking into the office, and I can see Tom standing by the water cooler. He's got that smirk on his face, you know? The one that always made me feel small. I'm trying to just get to my desk, but I can hear him whispering to the others. My heart's starting to race a bit."
+    ],
+    [
+      "Therapist: Thank you. Continue with the memory.",
+      "Client: Alright... I'm walking into the office, and I can see Tom standing by the water cooler. He's got that smirk on his face, you know? The one that always made me feel small. I'm trying to just get to my desk, but I can hear him whispering to the others. My heart's starting to race a bit.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: Alright... I'm walking into the office, and I can see Tom standing by the water cooler. He's got that smirk on his face, you know? The one that always made me feel small. I'm trying to just get to my desk, but I can hear him whispering to the others. My heart's starting to race a bit.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling a bit shaky."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling a bit shaky.",
+      "Therapist: I see. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are getting sweaty, and I'm feeling a bit shaky.",
+      "Therapist: I see. Keep going.",
+      "Client: As I sit down, I can hear Tom loudly saying, \"Oh, look who decided to show up today!\" Everyone's laughing, and I'm just staring at my computer screen, trying to ignore it. But inside, I'm... I'm furious and humiliated. I want to disappear."
+    ],
+    [
+      "Therapist: I see. Keep going.",
+      "Client: As I sit down, I can hear Tom loudly saying, \"Oh, look who decided to show up today!\" Everyone's laughing, and I'm just staring at my computer screen, trying to ignore it. But inside, I'm... I'm furious and humiliated. I want to disappear.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: As I sit down, I can hear Tom loudly saying, \"Oh, look who decided to show up today!\" Everyone's laughing, and I'm just staring at my computer screen, trying to ignore it. But inside, I'm... I'm furious and humiliated. I want to disappear.",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. My chest feels tight, and I'm having trouble breathing normally. I can feel my face getting hot with embarrassment."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's an 8 now. My chest feels tight, and I'm having trouble breathing normally. I can feel my face getting hot with embarrassment.",
+      "Therapist: That sounds intense. Stay with it."
+    ],
+    [
+      "Client: It's... it's an 8 now. My chest feels tight, and I'm having trouble breathing normally. I can feel my face getting hot with embarrassment.",
+      "Therapist: That sounds intense. Stay with it.",
+      "Client: I... I don't know if I can. It's too much. I'm reliving all those feelings of inadequacy and shame. I can hear Tom's voice so clearly, mocking me about my age, saying I should just retire already. God, I hated going to work every day."
+    ],
+    [
+      "Therapist: That sounds intense. Stay with it.",
+      "Client: I... I don't know if I can. It's too much. I'm reliving all those feelings of inadequacy and shame. I can hear Tom's voice so clearly, mocking me about my age, saying I should just retire already. God, I hated going to work every day.",
+      "Therapist: Your SUDS now?"
+    ],
+    [
+      "Client: I... I don't know if I can. It's too much. I'm reliving all those feelings of inadequacy and shame. I can hear Tom's voice so clearly, mocking me about my age, saying I should just retire already. God, I hated going to work every day.",
+      "Therapist: Your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there, and I... I just want to run away."
+    ],
+    [
+      "Therapist: Your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there, and I... I just want to run away.",
+      "Therapist: You're doing well. Keep breathing."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there, and I... I just want to run away.",
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I'm trying, but it's hard. I can feel tears welling up in my eyes, just like they did back then. I remember gripping the edge of my desk so hard my knuckles turned white. I felt so alone, so... worthless."
+    ],
+    [
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: I'm trying, but it's hard. I can feel tears welling up in my eyes, just like they did back then. I remember gripping the edge of my desk so hard my knuckles turned white. I felt so alone, so... worthless.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: I'm trying, but it's hard. I can feel tears welling up in my eyes, just like they did back then. I remember gripping the edge of my desk so hard my knuckles turned white. I felt so alone, so... worthless.",
+      "Therapist: And now?",
+      "Client: Still a 9. My heart's pounding, and I feel nauseous. I... I need a moment."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: Still a 9. My heart's pounding, and I feel nauseous. I... I need a moment.",
+      "Therapist: Take your time. You're safe here."
+    ],
+    [
+      "Client: Still a 9. My heart's pounding, and I feel nauseous. I... I need a moment.",
+      "Therapist: Take your time. You're safe here.",
+      "Client: *deep breath* Okay... I'm focusing on Tom again. He's walking past my desk, deliberately knocking over my coffee mug. I can see the brown stain spreading across my papers. I'm frozen, can't even move to clean it up."
+    ],
+    [
+      "Therapist: Take your time. You're safe here.",
+      "Client: *deep breath* Okay... I'm focusing on Tom again. He's walking past my desk, deliberately knocking over my coffee mug. I can see the brown stain spreading across my papers. I'm frozen, can't even move to clean it up.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: *deep breath* Okay... I'm focusing on Tom again. He's walking past my desk, deliberately knocking over my coffee mug. I can see the brown stain spreading across my papers. I'm frozen, can't even move to clean it up.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now. I'm still shaky, but... I'm starting to remember that this is just a memory."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now. I'm still shaky, but... I'm starting to remember that this is just a memory.",
+      "Therapist: Good. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe an 8 now. I'm still shaky, but... I'm starting to remember that this is just a memory.",
+      "Therapist: Good. Continue when you're ready.",
+      "Client: I'm... I'm looking around the office. Some colleagues are averting their eyes, pretending not to notice. Others are smirking. I feel so isolated, like I'm on an island surrounded by hostility. But... but I also remember Sarah from HR giving me a sympathetic look."
+    ],
+    [
+      "Therapist: Good. Continue when you're ready.",
+      "Client: I'm... I'm looking around the office. Some colleagues are averting their eyes, pretending not to notice. Others are smirking. I feel so isolated, like I'm on an island surrounded by hostility. But... but I also remember Sarah from HR giving me a sympathetic look.",
+      "Therapist: How about now?"
+    ],
+    [
+      "Client: I'm... I'm looking around the office. Some colleagues are averting their eyes, pretending not to notice. Others are smirking. I feel so isolated, like I'm on an island surrounded by hostility. But... but I also remember Sarah from HR giving me a sympathetic look.",
+      "Therapist: How about now?",
+      "Client: It's down to a 7. My breathing is steadier, but my stomach's still in knots. I'm remembering that I survived this. I got through it."
+    ],
+    [
+      "Therapist: How about now?",
+      "Client: It's down to a 7. My breathing is steadier, but my stomach's still in knots. I'm remembering that I survived this. I got through it.",
+      "Therapist: You did. Keep going."
+    ],
+    [
+      "Client: It's down to a 7. My breathing is steadier, but my stomach's still in knots. I'm remembering that I survived this. I got through it.",
+      "Therapist: You did. Keep going.",
+      "Client: I'm... I'm packing up my things at the end of the day. Tom's gone home, and the office is quiet. I feel drained, emotionally and physically. But there's also a tiny spark of... of determination. I decide I'm going to talk to HR tomorrow."
+    ],
+    [
+      "Therapist: You did. Keep going.",
+      "Client: I'm... I'm packing up my things at the end of the day. Tom's gone home, and the office is quiet. I feel drained, emotionally and physically. But there's also a tiny spark of... of determination. I decide I'm going to talk to HR tomorrow.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I'm... I'm packing up my things at the end of the day. Tom's gone home, and the office is quiet. I feel drained, emotionally and physically. But there's also a tiny spark of... of determination. I decide I'm going to talk to HR tomorrow.",
+      "Therapist: And your SUDS?",
+      "Client: It's a 5 now. I'm feeling calmer, though still a bit shaky. It's like... like I'm starting to see the whole picture, not just the worst parts."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's a 5 now. I'm feeling calmer, though still a bit shaky. It's like... like I'm starting to see the whole picture, not just the worst parts.",
+      "Therapist: That's progress. How do you feel overall?"
+    ],
+    [
+      "Client: It's a 5 now. I'm feeling calmer, though still a bit shaky. It's like... like I'm starting to see the whole picture, not just the worst parts.",
+      "Therapist: That's progress. How do you feel overall?",
+      "Client: I'm... I'm surprised. It was tough, but I feel... lighter somehow. Like I've faced something I've been avoiding for a long time. My heart rate's almost back to normal, and the nausea's gone. I think... I think I'm okay."
+    ],
+    [
+      "Therapist: That's progress. How do you feel overall?",
+      "Client: I'm... I'm surprised. It was tough, but I feel... lighter somehow. Like I've faced something I've been avoiding for a long time. My heart rate's almost back to normal, and the nausea's gone. I think... I think I'm okay.",
+      "Therapist: Well done. Let's end here. How are you feeling?"
+    ],
+    [
+      "Client: I'm... I'm surprised. It was tough, but I feel... lighter somehow. Like I've faced something I've been avoiding for a long time. My heart rate's almost back to normal, and the nausea's gone. I think... I think I'm okay.",
+      "Therapist: Well done. Let's end here. How are you feeling?",
+      "Client: I'm feeling... relieved, I guess. And a bit proud. My SUDS is down to a 3 now. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: Well done. Let's end here. How are you feeling?",
+      "Client: I'm feeling... relieved, I guess. And a bit proud. My SUDS is down to a 3 now. Thank you for guiding me through this.",
+      "Therapist: You did great. We'll discuss more next time."
+    ]
+  ]
+}

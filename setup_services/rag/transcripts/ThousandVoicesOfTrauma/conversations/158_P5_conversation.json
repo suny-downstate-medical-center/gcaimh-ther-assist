@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Patel, today we'll begin imaginal exposure. How are you feeling about this?",
+    "Client: I'm quite nervous, to be honest. The thought of reliving that terrible day... it's overwhelming. My heart is already racing just thinking about it. I've tried so hard to push those memories away for years. Is this really necessary?",
+    "Therapist: Your concerns are valid. This process, while challenging, is crucial for healing. How else might it affect you?",
+    "Client: Well, I worry it might bring back my nightmares. They had finally started to subside. And what if I can't handle it? What if I break down completely? I'm not as young as I used to be, and with my chronic pain, I'm not sure how much stress I can take.",
+    "Therapist: I understand. We'll go at your pace and can pause anytime. How does that sound?",
+    "Client: That's somewhat reassuring. But I'm still scared. Can you tell me more about what exactly we'll be doing? And how long will this take? I need to prepare myself mentally.",
+    "Therapist: We'll revisit the airplane crash memory gradually. It may take several sessions. What questions do you have?",
+    "Client: Several sessions? Oh my. Well, I suppose that's better than trying to tackle it all at once. Will you be guiding me through it? And what should I do if it becomes too much? I'm worried I might have a panic attack or something.",
+    "Therapist: Yes, I'll guide you throughout. We can use grounding techniques if needed. Your safety is paramount.",
+    "Client: Okay, that's good to know. I appreciate your support, truly. It's been so long since I've talked about this with anyone. Even my husband... we avoid the topic. It's just been easier that way. But I know it's time to face it. I want to be free from this burden.",
+    "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready to begin?",
+    "Client: I... I think so. Yes, I'm ready. It won't be easy, but I trust you. And I want to do this for myself, for my family. They've been so patient with me all these years. I just hope I can get through this without falling apart. Will you help me stay focused if my mind starts to wander?",
+    "Therapist: Absolutely. I'm here to support you every step. Shall we start with a deep breath?",
+    "Client: Yes, that would be helpful. [Takes a deep breath] Okay. I'm as ready as I'll ever be. Let's do this. I just hope... I hope this will help me finally find some peace. It's been such a long journey since that day. I never thought I'd be here, facing it head-on like this.",
+    "Therapist: Your determination is inspiring. Remember, we're in this together. Let's begin..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Patel, today we'll begin imaginal exposure. How are you feeling about this?",
+      "Client: I'm quite nervous, to be honest. The thought of reliving that terrible day... it's overwhelming. My heart is already racing just thinking about it. I've tried so hard to push those memories away for years. Is this really necessary?",
+      "Therapist: Your concerns are valid. This process, while challenging, is crucial for healing. How else might it affect you?"
+    ],
+    [
+      "Client: I'm quite nervous, to be honest. The thought of reliving that terrible day... it's overwhelming. My heart is already racing just thinking about it. I've tried so hard to push those memories away for years. Is this really necessary?",
+      "Therapist: Your concerns are valid. This process, while challenging, is crucial for healing. How else might it affect you?",
+      "Client: Well, I worry it might bring back my nightmares. They had finally started to subside. And what if I can't handle it? What if I break down completely? I'm not as young as I used to be, and with my chronic pain, I'm not sure how much stress I can take."
+    ],
+    [
+      "Therapist: Your concerns are valid. This process, while challenging, is crucial for healing. How else might it affect you?",
+      "Client: Well, I worry it might bring back my nightmares. They had finally started to subside. And what if I can't handle it? What if I break down completely? I'm not as young as I used to be, and with my chronic pain, I'm not sure how much stress I can take.",
+      "Therapist: I understand. We'll go at your pace and can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: Well, I worry it might bring back my nightmares. They had finally started to subside. And what if I can't handle it? What if I break down completely? I'm not as young as I used to be, and with my chronic pain, I'm not sure how much stress I can take.",
+      "Therapist: I understand. We'll go at your pace and can pause anytime. How does that sound?",
+      "Client: That's somewhat reassuring. But I'm still scared. Can you tell me more about what exactly we'll be doing? And how long will this take? I need to prepare myself mentally."
+    ],
+    [
+      "Therapist: I understand. We'll go at your pace and can pause anytime. How does that sound?",
+      "Client: That's somewhat reassuring. But I'm still scared. Can you tell me more about what exactly we'll be doing? And how long will this take? I need to prepare myself mentally.",
+      "Therapist: We'll revisit the airplane crash memory gradually. It may take several sessions. What questions do you have?"
+    ],
+    [
+      "Client: That's somewhat reassuring. But I'm still scared. Can you tell me more about what exactly we'll be doing? And how long will this take? I need to prepare myself mentally.",
+      "Therapist: We'll revisit the airplane crash memory gradually. It may take several sessions. What questions do you have?",
+      "Client: Several sessions? Oh my. Well, I suppose that's better than trying to tackle it all at once. Will you be guiding me through it? And what should I do if it becomes too much? I'm worried I might have a panic attack or something."
+    ],
+    [
+      "Therapist: We'll revisit the airplane crash memory gradually. It may take several sessions. What questions do you have?",
+      "Client: Several sessions? Oh my. Well, I suppose that's better than trying to tackle it all at once. Will you be guiding me through it? And what should I do if it becomes too much? I'm worried I might have a panic attack or something.",
+      "Therapist: Yes, I'll guide you throughout. We can use grounding techniques if needed. Your safety is paramount."
+    ],
+    [
+      "Client: Several sessions? Oh my. Well, I suppose that's better than trying to tackle it all at once. Will you be guiding me through it? And what should I do if it becomes too much? I'm worried I might have a panic attack or something.",
+      "Therapist: Yes, I'll guide you throughout. We can use grounding techniques if needed. Your safety is paramount.",
+      "Client: Okay, that's good to know. I appreciate your support, truly. It's been so long since I've talked about this with anyone. Even my husband... we avoid the topic. It's just been easier that way. But I know it's time to face it. I want to be free from this burden."
+    ],
+    [
+      "Therapist: Yes, I'll guide you throughout. We can use grounding techniques if needed. Your safety is paramount.",
+      "Client: Okay, that's good to know. I appreciate your support, truly. It's been so long since I've talked about this with anyone. Even my husband... we avoid the topic. It's just been easier that way. But I know it's time to face it. I want to be free from this burden.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready to begin?"
+    ],
+    [
+      "Client: Okay, that's good to know. I appreciate your support, truly. It's been so long since I've talked about this with anyone. Even my husband... we avoid the topic. It's just been easier that way. But I know it's time to face it. I want to be free from this burden.",
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready to begin?",
+      "Client: I... I think so. Yes, I'm ready. It won't be easy, but I trust you. And I want to do this for myself, for my family. They've been so patient with me all these years. I just hope I can get through this without falling apart. Will you help me stay focused if my mind starts to wander?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can significantly reduce PTSD symptoms. Ready to begin?",
+      "Client: I... I think so. Yes, I'm ready. It won't be easy, but I trust you. And I want to do this for myself, for my family. They've been so patient with me all these years. I just hope I can get through this without falling apart. Will you help me stay focused if my mind starts to wander?",
+      "Therapist: Absolutely. I'm here to support you every step. Shall we start with a deep breath?"
+    ],
+    [
+      "Client: I... I think so. Yes, I'm ready. It won't be easy, but I trust you. And I want to do this for myself, for my family. They've been so patient with me all these years. I just hope I can get through this without falling apart. Will you help me stay focused if my mind starts to wander?",
+      "Therapist: Absolutely. I'm here to support you every step. Shall we start with a deep breath?",
+      "Client: Yes, that would be helpful. [Takes a deep breath] Okay. I'm as ready as I'll ever be. Let's do this. I just hope... I hope this will help me finally find some peace. It's been such a long journey since that day. I never thought I'd be here, facing it head-on like this."
+    ],
+    [
+      "Therapist: Absolutely. I'm here to support you every step. Shall we start with a deep breath?",
+      "Client: Yes, that would be helpful. [Takes a deep breath] Okay. I'm as ready as I'll ever be. Let's do this. I just hope... I hope this will help me finally find some peace. It's been such a long journey since that day. I never thought I'd be here, facing it head-on like this.",
+      "Therapist: Your determination is inspiring. Remember, we're in this together. Let's begin..."
+    ]
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Carlos. How are you feeling today?",
+    "Client: Honestly, I'm a bit nervous. I've been dreading this session all week. Ever since you mentioned we'd be doing some kind of exposure therapy, I've been on edge. It's bringing back a lot of memories I've tried to push away.",
+    "Therapist: That's understandable. Let's discuss the plan.",
+    "Client: Okay... I guess we have to, right? It's just... talking about my time in the cult, it's not easy. I've spent years trying to forget all of that. The loss of my partner there, it still haunts me. I'm not sure I'm ready to face it all again.",
+    "Therapist: Your hesitation is normal. Shall I explain the process?",
+    "Client: Yes, please. I need to know what I'm getting into. Will it be as intense as actually reliving those moments? Because I'm not sure I can handle that. My anxiety is already through the roof just thinking about it.",
+    "Therapist: It's controlled. We'll go at your pace.",
+    "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to close my eyes and imagine everything? What if I panic or can't continue? And how is this supposed to help me? I've been trying to move on, and this feels like going backwards.",
+    "Therapist: We'll revisit memories safely. It helps process trauma.",
+    "Client: Process trauma? I thought I was doing that already by talking about it. How is this different? And what if it makes things worse? I'm already struggling with anxiety, and my parents have noticed I've been more on edge lately. I don't want to regress.",
+    "Therapist: It's a proven method. Your bravery is commendable.",
+    "Client: Bravery? I don't feel brave at all. I feel terrified. But I guess if you think this will help... Can you tell me more about what to expect during the session? Will you be guiding me through it? How long does it usually take?",
+    "Therapist: I'll guide you. We'll start small, 15-20 minutes.",
+    "Client: Okay, that doesn't sound too overwhelming. I appreciate you taking it slow. I guess I'm just worried about what might come up. There's so much I've tried to forget. The rituals, the isolation, losing Maria... it's all jumbled up in my head. How do I even begin to approach all of that?",
+    "Therapist: We'll focus on one memory. You're in control.",
+    "Client: One memory at a time... that sounds manageable. I suppose we could start with the day I first realized something was wrong in the group. It wasn't as traumatic as some other memories, but it was a turning point. Would that be a good place to start?",
+    "Therapist: Perfect. Ready to begin?",
+    "Client: I think so. I'm still nervous, but I trust you. And if it gets too intense, we can stop, right? Okay, let's do this. I just hope it really does help in the long run. I want to be able to move past all of this someday.",
+    "Therapist: Absolutely. Let's start. Close your eyes..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Carlos. How are you feeling today?",
+      "Client: Honestly, I'm a bit nervous. I've been dreading this session all week. Ever since you mentioned we'd be doing some kind of exposure therapy, I've been on edge. It's bringing back a lot of memories I've tried to push away.",
+      "Therapist: That's understandable. Let's discuss the plan."
+    ],
+    [
+      "Client: Honestly, I'm a bit nervous. I've been dreading this session all week. Ever since you mentioned we'd be doing some kind of exposure therapy, I've been on edge. It's bringing back a lot of memories I've tried to push away.",
+      "Therapist: That's understandable. Let's discuss the plan.",
+      "Client: Okay... I guess we have to, right? It's just... talking about my time in the cult, it's not easy. I've spent years trying to forget all of that. The loss of my partner there, it still haunts me. I'm not sure I'm ready to face it all again."
+    ],
+    [
+      "Therapist: That's understandable. Let's discuss the plan.",
+      "Client: Okay... I guess we have to, right? It's just... talking about my time in the cult, it's not easy. I've spent years trying to forget all of that. The loss of my partner there, it still haunts me. I'm not sure I'm ready to face it all again.",
+      "Therapist: Your hesitation is normal. Shall I explain the process?"
+    ],
+    [
+      "Client: Okay... I guess we have to, right? It's just... talking about my time in the cult, it's not easy. I've spent years trying to forget all of that. The loss of my partner there, it still haunts me. I'm not sure I'm ready to face it all again.",
+      "Therapist: Your hesitation is normal. Shall I explain the process?",
+      "Client: Yes, please. I need to know what I'm getting into. Will it be as intense as actually reliving those moments? Because I'm not sure I can handle that. My anxiety is already through the roof just thinking about it."
+    ],
+    [
+      "Therapist: Your hesitation is normal. Shall I explain the process?",
+      "Client: Yes, please. I need to know what I'm getting into. Will it be as intense as actually reliving those moments? Because I'm not sure I can handle that. My anxiety is already through the roof just thinking about it.",
+      "Therapist: It's controlled. We'll go at your pace."
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into. Will it be as intense as actually reliving those moments? Because I'm not sure I can handle that. My anxiety is already through the roof just thinking about it.",
+      "Therapist: It's controlled. We'll go at your pace.",
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to close my eyes and imagine everything? What if I panic or can't continue? And how is this supposed to help me? I've been trying to move on, and this feels like going backwards."
+    ],
+    [
+      "Therapist: It's controlled. We'll go at your pace.",
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to close my eyes and imagine everything? What if I panic or can't continue? And how is this supposed to help me? I've been trying to move on, and this feels like going backwards.",
+      "Therapist: We'll revisit memories safely. It helps process trauma."
+    ],
+    [
+      "Client: That's somewhat reassuring. But what exactly will we be doing? Will I have to close my eyes and imagine everything? What if I panic or can't continue? And how is this supposed to help me? I've been trying to move on, and this feels like going backwards.",
+      "Therapist: We'll revisit memories safely. It helps process trauma.",
+      "Client: Process trauma? I thought I was doing that already by talking about it. How is this different? And what if it makes things worse? I'm already struggling with anxiety, and my parents have noticed I've been more on edge lately. I don't want to regress."
+    ],
+    [
+      "Therapist: We'll revisit memories safely. It helps process trauma.",
+      "Client: Process trauma? I thought I was doing that already by talking about it. How is this different? And what if it makes things worse? I'm already struggling with anxiety, and my parents have noticed I've been more on edge lately. I don't want to regress.",
+      "Therapist: It's a proven method. Your bravery is commendable."
+    ],
+    [
+      "Client: Process trauma? I thought I was doing that already by talking about it. How is this different? And what if it makes things worse? I'm already struggling with anxiety, and my parents have noticed I've been more on edge lately. I don't want to regress.",
+      "Therapist: It's a proven method. Your bravery is commendable.",
+      "Client: Bravery? I don't feel brave at all. I feel terrified. But I guess if you think this will help... Can you tell me more about what to expect during the session? Will you be guiding me through it? How long does it usually take?"
+    ],
+    [
+      "Therapist: It's a proven method. Your bravery is commendable.",
+      "Client: Bravery? I don't feel brave at all. I feel terrified. But I guess if you think this will help... Can you tell me more about what to expect during the session? Will you be guiding me through it? How long does it usually take?",
+      "Therapist: I'll guide you. We'll start small, 15-20 minutes."
+    ],
+    [
+      "Client: Bravery? I don't feel brave at all. I feel terrified. But I guess if you think this will help... Can you tell me more about what to expect during the session? Will you be guiding me through it? How long does it usually take?",
+      "Therapist: I'll guide you. We'll start small, 15-20 minutes.",
+      "Client: Okay, that doesn't sound too overwhelming. I appreciate you taking it slow. I guess I'm just worried about what might come up. There's so much I've tried to forget. The rituals, the isolation, losing Maria... it's all jumbled up in my head. How do I even begin to approach all of that?"
+    ],
+    [
+      "Therapist: I'll guide you. We'll start small, 15-20 minutes.",
+      "Client: Okay, that doesn't sound too overwhelming. I appreciate you taking it slow. I guess I'm just worried about what might come up. There's so much I've tried to forget. The rituals, the isolation, losing Maria... it's all jumbled up in my head. How do I even begin to approach all of that?",
+      "Therapist: We'll focus on one memory. You're in control."
+    ],
+    [
+      "Client: Okay, that doesn't sound too overwhelming. I appreciate you taking it slow. I guess I'm just worried about what might come up. There's so much I've tried to forget. The rituals, the isolation, losing Maria... it's all jumbled up in my head. How do I even begin to approach all of that?",
+      "Therapist: We'll focus on one memory. You're in control.",
+      "Client: One memory at a time... that sounds manageable. I suppose we could start with the day I first realized something was wrong in the group. It wasn't as traumatic as some other memories, but it was a turning point. Would that be a good place to start?"
+    ],
+    [
+      "Therapist: We'll focus on one memory. You're in control.",
+      "Client: One memory at a time... that sounds manageable. I suppose we could start with the day I first realized something was wrong in the group. It wasn't as traumatic as some other memories, but it was a turning point. Would that be a good place to start?",
+      "Therapist: Perfect. Ready to begin?"
+    ],
+    [
+      "Client: One memory at a time... that sounds manageable. I suppose we could start with the day I first realized something was wrong in the group. It wasn't as traumatic as some other memories, but it was a turning point. Would that be a good place to start?",
+      "Therapist: Perfect. Ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you. And if it gets too intense, we can stop, right? Okay, let's do this. I just hope it really does help in the long run. I want to be able to move past all of this someday."
+    ],
+    [
+      "Therapist: Perfect. Ready to begin?",
+      "Client: I think so. I'm still nervous, but I trust you. And if it gets too intense, we can stop, right? Okay, let's do this. I just hope it really does help in the long run. I want to be able to move past all of this someday.",
+      "Therapist: Absolutely. Let's start. Close your eyes..."
+    ]
+  ]
+}

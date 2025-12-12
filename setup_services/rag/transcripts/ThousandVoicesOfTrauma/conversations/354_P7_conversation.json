@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+    "Client: Hello, Dr. Evans. I'm... I'm not sure. A bit nervous, I suppose. Thinking about revisiting that day... it's not easy.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. It's just... every time I think about it, I see my wife's face. She was so pale, so still in that hospital bed. I keep replaying the moment the doctor told me she was gone. It's like I'm right back there, feeling completely lost and alone.",
+    "Therapist: You're doing well. Stay with that memory.",
+    "Client: The hospital corridor seemed so long and cold. I remember the smell of disinfectant, the squeaking of shoes on the linoleum floor. My hands were shaking as I approached her room. I... I couldn't believe it was real. We'd been together for 55 years, and suddenly... she was just gone.",
+    "Therapist: That's it. Keep going.",
+    "Client: I sat by her bed for hours, holding her hand. It was still warm, you know? I kept expecting her to open her eyes, to smile at me like she always did. But she didn't. The silence in that room was deafening. I've never felt so helpless in my life.",
+    "Therapist: You're doing great. It's okay to feel these emotions.",
+    "Client: I... I don't know if I can continue. My chest feels tight, and I can't seem to catch my breath. It's like I'm right back there, and the pain is so fresh.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (Takes a deep breath) Okay... okay. I remember the nurse coming in, telling me I had to leave. But how could I leave her there, all alone? It felt like I was abandoning her. I kissed her forehead one last time, and it was so cold. That's when it really hit me - she was gone. My Mary was gone.",
+    "Therapist: You're handling this so well. Keep going.",
+    "Client: The drive home was a blur. I kept expecting to see her sitting in her favorite chair when I got back, but the house was empty. So quiet. Her knitting was still on the side table, a half-finished scarf she'd never complete. I picked it up and just... broke down. I cried until I had no tears left.",
+    "Therapist: It's okay to feel this way. You're doing great.",
+    "Client: The next few days were a whirlwind of arrangements and visitors. Everyone was so kind, but their words felt hollow. They'd go home to their families, and I was left alone in our house, surrounded by memories. I couldn't sleep in our bed - it felt too big, too empty without her.",
+    "Therapist: You're very brave. Keep going.",
+    "Client: The funeral was... God, it was awful. Seeing her coffin, knowing she was in there... I wanted to scream, to tell everyone it was a mistake. But I had to be strong, had to shake hands and accept condolences. Inside, I was falling apart.",
+    "Therapist: You're doing so well. How are you feeling now?",
+    "Client: I... I'm exhausted. Reliving it all... it's draining. But also... I don't know. There's a small sense of relief, I suppose. Like I've been carrying this weight for so long, and now I've shared some of it.",
+    "Therapist: That's a common feeling. You've done excellent work today.",
+    "Client: Thank you, Dr. Evans. I didn't think I could get through it, but... I did. It still hurts, but maybe... maybe it's a little less sharp now.",
+    "Therapist: You should be proud of yourself. We'll end here for today.",
+    "Client: Okay. Thank you for your patience. I... I think this might be helping, even though it's difficult.",
+    "Therapist: That's great to hear. Take care, Mr. Johnson. I'll see you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+      "Client: Hello, Dr. Evans. I'm... I'm not sure. A bit nervous, I suppose. Thinking about revisiting that day... it's not easy.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Hello, Dr. Evans. I'm... I'm not sure. A bit nervous, I suppose. Thinking about revisiting that day... it's not easy.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, I see my wife's face. She was so pale, so still in that hospital bed. I keep replaying the moment the doctor told me she was gone. It's like I'm right back there, feeling completely lost and alone."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. It's just... every time I think about it, I see my wife's face. She was so pale, so still in that hospital bed. I keep replaying the moment the doctor told me she was gone. It's like I'm right back there, feeling completely lost and alone.",
+      "Therapist: You're doing well. Stay with that memory."
+    ],
+    [
+      "Client: Thank you. It's just... every time I think about it, I see my wife's face. She was so pale, so still in that hospital bed. I keep replaying the moment the doctor told me she was gone. It's like I'm right back there, feeling completely lost and alone.",
+      "Therapist: You're doing well. Stay with that memory.",
+      "Client: The hospital corridor seemed so long and cold. I remember the smell of disinfectant, the squeaking of shoes on the linoleum floor. My hands were shaking as I approached her room. I... I couldn't believe it was real. We'd been together for 55 years, and suddenly... she was just gone."
+    ],
+    [
+      "Therapist: You're doing well. Stay with that memory.",
+      "Client: The hospital corridor seemed so long and cold. I remember the smell of disinfectant, the squeaking of shoes on the linoleum floor. My hands were shaking as I approached her room. I... I couldn't believe it was real. We'd been together for 55 years, and suddenly... she was just gone.",
+      "Therapist: That's it. Keep going."
+    ],
+    [
+      "Client: The hospital corridor seemed so long and cold. I remember the smell of disinfectant, the squeaking of shoes on the linoleum floor. My hands were shaking as I approached her room. I... I couldn't believe it was real. We'd been together for 55 years, and suddenly... she was just gone.",
+      "Therapist: That's it. Keep going.",
+      "Client: I sat by her bed for hours, holding her hand. It was still warm, you know? I kept expecting her to open her eyes, to smile at me like she always did. But she didn't. The silence in that room was deafening. I've never felt so helpless in my life."
+    ],
+    [
+      "Therapist: That's it. Keep going.",
+      "Client: I sat by her bed for hours, holding her hand. It was still warm, you know? I kept expecting her to open her eyes, to smile at me like she always did. But she didn't. The silence in that room was deafening. I've never felt so helpless in my life.",
+      "Therapist: You're doing great. It's okay to feel these emotions."
+    ],
+    [
+      "Client: I sat by her bed for hours, holding her hand. It was still warm, you know? I kept expecting her to open her eyes, to smile at me like she always did. But she didn't. The silence in that room was deafening. I've never felt so helpless in my life.",
+      "Therapist: You're doing great. It's okay to feel these emotions.",
+      "Client: I... I don't know if I can continue. My chest feels tight, and I can't seem to catch my breath. It's like I'm right back there, and the pain is so fresh."
+    ],
+    [
+      "Therapist: You're doing great. It's okay to feel these emotions.",
+      "Client: I... I don't know if I can continue. My chest feels tight, and I can't seem to catch my breath. It's like I'm right back there, and the pain is so fresh.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: I... I don't know if I can continue. My chest feels tight, and I can't seem to catch my breath. It's like I'm right back there, and the pain is so fresh.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Takes a deep breath) Okay... okay. I remember the nurse coming in, telling me I had to leave. But how could I leave her there, all alone? It felt like I was abandoning her. I kissed her forehead one last time, and it was so cold. That's when it really hit me - she was gone. My Mary was gone."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (Takes a deep breath) Okay... okay. I remember the nurse coming in, telling me I had to leave. But how could I leave her there, all alone? It felt like I was abandoning her. I kissed her forehead one last time, and it was so cold. That's when it really hit me - she was gone. My Mary was gone.",
+      "Therapist: You're handling this so well. Keep going."
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... okay. I remember the nurse coming in, telling me I had to leave. But how could I leave her there, all alone? It felt like I was abandoning her. I kissed her forehead one last time, and it was so cold. That's when it really hit me - she was gone. My Mary was gone.",
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: The drive home was a blur. I kept expecting to see her sitting in her favorite chair when I got back, but the house was empty. So quiet. Her knitting was still on the side table, a half-finished scarf she'd never complete. I picked it up and just... broke down. I cried until I had no tears left."
+    ],
+    [
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: The drive home was a blur. I kept expecting to see her sitting in her favorite chair when I got back, but the house was empty. So quiet. Her knitting was still on the side table, a half-finished scarf she'd never complete. I picked it up and just... broke down. I cried until I had no tears left.",
+      "Therapist: It's okay to feel this way. You're doing great."
+    ],
+    [
+      "Client: The drive home was a blur. I kept expecting to see her sitting in her favorite chair when I got back, but the house was empty. So quiet. Her knitting was still on the side table, a half-finished scarf she'd never complete. I picked it up and just... broke down. I cried until I had no tears left.",
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: The next few days were a whirlwind of arrangements and visitors. Everyone was so kind, but their words felt hollow. They'd go home to their families, and I was left alone in our house, surrounded by memories. I couldn't sleep in our bed - it felt too big, too empty without her."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're doing great.",
+      "Client: The next few days were a whirlwind of arrangements and visitors. Everyone was so kind, but their words felt hollow. They'd go home to their families, and I was left alone in our house, surrounded by memories. I couldn't sleep in our bed - it felt too big, too empty without her.",
+      "Therapist: You're very brave. Keep going."
+    ],
+    [
+      "Client: The next few days were a whirlwind of arrangements and visitors. Everyone was so kind, but their words felt hollow. They'd go home to their families, and I was left alone in our house, surrounded by memories. I couldn't sleep in our bed - it felt too big, too empty without her.",
+      "Therapist: You're very brave. Keep going.",
+      "Client: The funeral was... God, it was awful. Seeing her coffin, knowing she was in there... I wanted to scream, to tell everyone it was a mistake. But I had to be strong, had to shake hands and accept condolences. Inside, I was falling apart."
+    ],
+    [
+      "Therapist: You're very brave. Keep going.",
+      "Client: The funeral was... God, it was awful. Seeing her coffin, knowing she was in there... I wanted to scream, to tell everyone it was a mistake. But I had to be strong, had to shake hands and accept condolences. Inside, I was falling apart.",
+      "Therapist: You're doing so well. How are you feeling now?"
+    ],
+    [
+      "Client: The funeral was... God, it was awful. Seeing her coffin, knowing she was in there... I wanted to scream, to tell everyone it was a mistake. But I had to be strong, had to shake hands and accept condolences. Inside, I was falling apart.",
+      "Therapist: You're doing so well. How are you feeling now?",
+      "Client: I... I'm exhausted. Reliving it all... it's draining. But also... I don't know. There's a small sense of relief, I suppose. Like I've been carrying this weight for so long, and now I've shared some of it."
+    ],
+    [
+      "Therapist: You're doing so well. How are you feeling now?",
+      "Client: I... I'm exhausted. Reliving it all... it's draining. But also... I don't know. There's a small sense of relief, I suppose. Like I've been carrying this weight for so long, and now I've shared some of it.",
+      "Therapist: That's a common feeling. You've done excellent work today."
+    ],
+    [
+      "Client: I... I'm exhausted. Reliving it all... it's draining. But also... I don't know. There's a small sense of relief, I suppose. Like I've been carrying this weight for so long, and now I've shared some of it.",
+      "Therapist: That's a common feeling. You've done excellent work today.",
+      "Client: Thank you, Dr. Evans. I didn't think I could get through it, but... I did. It still hurts, but maybe... maybe it's a little less sharp now."
+    ],
+    [
+      "Therapist: That's a common feeling. You've done excellent work today.",
+      "Client: Thank you, Dr. Evans. I didn't think I could get through it, but... I did. It still hurts, but maybe... maybe it's a little less sharp now.",
+      "Therapist: You should be proud of yourself. We'll end here for today."
+    ],
+    [
+      "Client: Thank you, Dr. Evans. I didn't think I could get through it, but... I did. It still hurts, but maybe... maybe it's a little less sharp now.",
+      "Therapist: You should be proud of yourself. We'll end here for today.",
+      "Client: Okay. Thank you for your patience. I... I think this might be helping, even though it's difficult."
+    ],
+    [
+      "Therapist: You should be proud of yourself. We'll end here for today.",
+      "Client: Okay. Thank you for your patience. I... I think this might be helping, even though it's difficult.",
+      "Therapist: That's great to hear. Take care, Mr. Johnson. I'll see you next week."
+    ]
+  ]
+}

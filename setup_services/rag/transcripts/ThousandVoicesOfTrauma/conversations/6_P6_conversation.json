@@ -1,0 +1,164 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the bullying incident.",
+    "Client: Okay... I'm back in the refugee camp. It's hot, dusty. I can smell the canvas tents and hear children crying in the distance. A group of older kids is approaching me. My heart is starting to race.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: Um... about a 4, I'd say.",
+    "Therapist: Alright. Continue.",
+    "Client: They're getting closer. I can see the mean looks on their faces. One of them, a tall boy with a scar on his cheek, points at me and says something I can't understand. The others laugh. I feel so small, so alone. My palms are getting sweaty.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up to a 6. My chest feels tight.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: The tall boy pushes me. I stumble backward, nearly falling. They're all laughing now. I want to run, but I'm frozen. I can feel tears welling up in my eyes. I'm so ashamed, so helpless. My legs are shaking.",
+    "Therapist: SUDS?",
+    "Client: It's... it's an 8 now. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+    "Client: *inhales deeply* Okay... The other kids start chanting something. I don't understand the words, but I know they're making fun of me. The tall boy grabs my arm, his fingers digging into my skin. I can still feel that pain, even now. I'm crying openly, begging them to stop in my broken English.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's still an 8. My heart is pounding so hard.",
+    "Therapist: You're doing great. Stay with the memory.",
+    "Client: A camp worker finally notices and comes over. The kids scatter, but not before the tall boy spits at my feet. The worker asks if I'm okay, but I can't speak. I just nod and run back to my family's tent. I feel so humiliated, so weak. I curl up on my cot and sob for hours.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe a 6? I feel drained.",
+    "Therapist: That's normal. How are you feeling right now?",
+    "Client: Exhausted. Sad. But... also a little relieved? Like I've let something out that I've been holding onto for so long.",
+    "Therapist: That's a common reaction. Well done today.",
+    "Client: Thank you. It was hard, but... I think it helped.",
+    "Therapist: We'll end here. Remember to practice self-care.",
+    "Client: I will. Thank you for your support."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the bullying incident."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the bullying incident.",
+      "Client: Okay... I'm back in the refugee camp. It's hot, dusty. I can smell the canvas tents and hear children crying in the distance. A group of older kids is approaching me. My heart is starting to race."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the bullying incident.",
+      "Client: Okay... I'm back in the refugee camp. It's hot, dusty. I can smell the canvas tents and hear children crying in the distance. A group of older kids is approaching me. My heart is starting to race.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: Okay... I'm back in the refugee camp. It's hot, dusty. I can smell the canvas tents and hear children crying in the distance. A group of older kids is approaching me. My heart is starting to race.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: Um... about a 4, I'd say."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: Um... about a 4, I'd say.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um... about a 4, I'd say.",
+      "Therapist: Alright. Continue.",
+      "Client: They're getting closer. I can see the mean looks on their faces. One of them, a tall boy with a scar on his cheek, points at me and says something I can't understand. The others laugh. I feel so small, so alone. My palms are getting sweaty."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: They're getting closer. I can see the mean looks on their faces. One of them, a tall boy with a scar on his cheek, points at me and says something I can't understand. The others laugh. I feel so small, so alone. My palms are getting sweaty.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: They're getting closer. I can see the mean looks on their faces. One of them, a tall boy with a scar on his cheek, points at me and says something I can't understand. The others laugh. I feel so small, so alone. My palms are getting sweaty.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to a 6. My chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to a 6. My chest feels tight.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 6. My chest feels tight.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The tall boy pushes me. I stumble backward, nearly falling. They're all laughing now. I want to run, but I'm frozen. I can feel tears welling up in my eyes. I'm so ashamed, so helpless. My legs are shaking."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The tall boy pushes me. I stumble backward, nearly falling. They're all laughing now. I want to run, but I'm frozen. I can feel tears welling up in my eyes. I'm so ashamed, so helpless. My legs are shaking.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The tall boy pushes me. I stumble backward, nearly falling. They're all laughing now. I want to run, but I'm frozen. I can feel tears welling up in my eyes. I'm so ashamed, so helpless. My legs are shaking.",
+      "Therapist: SUDS?",
+      "Client: It's... it's an 8 now. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's... it's an 8 now. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's an 8 now. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: *inhales deeply* Okay... The other kids start chanting something. I don't understand the words, but I know they're making fun of me. The tall boy grabs my arm, his fingers digging into my skin. I can still feel that pain, even now. I'm crying openly, begging them to stop in my broken English."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: *inhales deeply* Okay... The other kids start chanting something. I don't understand the words, but I know they're making fun of me. The tall boy grabs my arm, his fingers digging into my skin. I can still feel that pain, even now. I'm crying openly, begging them to stop in my broken English.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: *inhales deeply* Okay... The other kids start chanting something. I don't understand the words, but I know they're making fun of me. The tall boy grabs my arm, his fingers digging into my skin. I can still feel that pain, even now. I'm crying openly, begging them to stop in my broken English.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's still an 8. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's still an 8. My heart is pounding so hard.",
+      "Therapist: You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's still an 8. My heart is pounding so hard.",
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: A camp worker finally notices and comes over. The kids scatter, but not before the tall boy spits at my feet. The worker asks if I'm okay, but I can't speak. I just nod and run back to my family's tent. I feel so humiliated, so weak. I curl up on my cot and sob for hours."
+    ],
+    [
+      "Therapist: You're doing great. Stay with the memory.",
+      "Client: A camp worker finally notices and comes over. The kids scatter, but not before the tall boy spits at my feet. The worker asks if I'm okay, but I can't speak. I just nod and run back to my family's tent. I feel so humiliated, so weak. I curl up on my cot and sob for hours.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: A camp worker finally notices and comes over. The kids scatter, but not before the tall boy spits at my feet. The worker asks if I'm okay, but I can't speak. I just nod and run back to my family's tent. I feel so humiliated, so weak. I curl up on my cot and sob for hours.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 6? I feel drained."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe a 6? I feel drained.",
+      "Therapist: That's normal. How are you feeling right now?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 6? I feel drained.",
+      "Therapist: That's normal. How are you feeling right now?",
+      "Client: Exhausted. Sad. But... also a little relieved? Like I've let something out that I've been holding onto for so long."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling right now?",
+      "Client: Exhausted. Sad. But... also a little relieved? Like I've let something out that I've been holding onto for so long.",
+      "Therapist: That's a common reaction. Well done today."
+    ],
+    [
+      "Client: Exhausted. Sad. But... also a little relieved? Like I've let something out that I've been holding onto for so long.",
+      "Therapist: That's a common reaction. Well done today.",
+      "Client: Thank you. It was hard, but... I think it helped."
+    ],
+    [
+      "Therapist: That's a common reaction. Well done today.",
+      "Client: Thank you. It was hard, but... I think it helped.",
+      "Therapist: We'll end here. Remember to practice self-care."
+    ],
+    [
+      "Client: Thank you. It was hard, but... I think it helped.",
+      "Therapist: We'll end here. Remember to practice self-care.",
+      "Client: I will. Thank you for your support."
+    ]
+  ]
+}

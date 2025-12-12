@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to be diving into some tough memories, and I'm not sure if I'm ready.",
+    "Therapist: It's okay to feel nervous. You're safe here.",
+    "Client: Thanks. I guess we should start. The memory I've been thinking about is from my time in Afghanistan. It was a routine patrol, but things went sideways fast. We were moving through a small village when suddenly there was gunfire everywhere. I remember diving for cover behind a low stone wall, my heart pounding so hard I thought it might burst out of my chest.",
+    "Therapist: You're doing great. Can you tell me more about what you saw?",
+    "Client: I saw dust kicking up from bullets hitting the ground around us. The air was filled with shouts and screams. I remember the acrid smell of gunpowder and the metallic taste of fear in my mouth. My squadmate, Jake, was next to me. He was yelling something, but I couldn't make out the words over the chaos.",
+    "Therapist: Stay with that moment. What happened next?",
+    "Client: I... I'm not sure I can do this. It's too much.",
+    "Therapist: You're safe here, Sarah. Take a deep breath.",
+    "Client: Okay... okay. I remember peeking over the wall to try and locate the shooters. That's when I saw a young boy, couldn't have been more than 12, running across the street. He looked terrified. I wanted to yell at him to take cover, but before I could, I saw him stumble and fall. There was so much blood... I... I couldn't do anything to help him.",
+    "Therapist: You're handling this so well. Keep going.",
+    "Client: I felt so helpless. I wanted to run out there and grab him, but Jake held me back. He said it was too dangerous. I remember feeling this overwhelming sense of anger and frustration. Why were we even there if we couldn't protect innocent civilians?",
+    "Therapist: It's okay to feel those emotions.",
+    "Client: The gunfire seemed to last forever, but it was probably only a few minutes. When it finally stopped, the silence was almost worse. We moved forward to secure the area, and I saw the boy's body. His eyes were still open, staring blankly at the sky. I can't forget those eyes...",
+    "Therapist: You're doing great, Sarah. How are you feeling right now?",
+    "Client: I feel... I feel sick to my stomach. My hands are shaking. It's like I'm right back there, seeing it all over again. The guilt is overwhelming. I keep thinking about what I could have done differently.",
+    "Therapist: It's natural to have those feelings. You're safe now.",
+    "Client: I know, but it doesn't feel that way. After the firefight, we had to continue our patrol. I remember feeling numb, like I was moving on autopilot. The rest of the day is a blur, but that moment, seeing that boy fall, it's crystal clear in my mind. I've never been able to shake it.",
+    "Therapist: You're showing incredible strength. How do you feel about sharing this?",
+    "Client: It's... it's hard. Really hard. But also, I feel a little lighter? Like maybe talking about it is helping to lift some of the weight I've been carrying. Is that normal?",
+    "Therapist: That's a common and positive reaction. You're doing well.",
+    "Client: Thanks. I've never really talked about this before, not in detail. I always felt like if I said it out loud, it would make it more real somehow. But now that I'm saying it, I realize it's always been real. It's always been there, affecting me.",
+    "Therapist: That's an important insight. Can you elaborate?",
+    "Client: I guess I've been trying to push it down, pretend it didn't happen. But it's been showing up in other ways. The nightmares, the anxiety, always being on edge. Talking about it... it's painful, but it also feels like I'm finally acknowledging what happened instead of running from it.",
+    "Therapist: That's a significant step. How are you feeling now?",
+    "Client: Exhausted, honestly. Emotionally drained. But also... I don't know, maybe a little hopeful? Like maybe if I can face this memory, I can start to move past it. Is that possible?",
+    "Therapist: It's absolutely possible. You've shown great courage today.",
+    "Client: Thank you. I... I think I need a moment. This has been a lot to process. Can we take a short break?",
+    "Therapist: Of course. Let's pause here and take some deep breaths."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be diving into some tough memories, and I'm not sure if I'm ready.",
+      "Therapist: It's okay to feel nervous. You're safe here."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be diving into some tough memories, and I'm not sure if I'm ready.",
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thanks. I guess we should start. The memory I've been thinking about is from my time in Afghanistan. It was a routine patrol, but things went sideways fast. We were moving through a small village when suddenly there was gunfire everywhere. I remember diving for cover behind a low stone wall, my heart pounding so hard I thought it might burst out of my chest."
+    ],
+    [
+      "Therapist: It's okay to feel nervous. You're safe here.",
+      "Client: Thanks. I guess we should start. The memory I've been thinking about is from my time in Afghanistan. It was a routine patrol, but things went sideways fast. We were moving through a small village when suddenly there was gunfire everywhere. I remember diving for cover behind a low stone wall, my heart pounding so hard I thought it might burst out of my chest.",
+      "Therapist: You're doing great. Can you tell me more about what you saw?"
+    ],
+    [
+      "Client: Thanks. I guess we should start. The memory I've been thinking about is from my time in Afghanistan. It was a routine patrol, but things went sideways fast. We were moving through a small village when suddenly there was gunfire everywhere. I remember diving for cover behind a low stone wall, my heart pounding so hard I thought it might burst out of my chest.",
+      "Therapist: You're doing great. Can you tell me more about what you saw?",
+      "Client: I saw dust kicking up from bullets hitting the ground around us. The air was filled with shouts and screams. I remember the acrid smell of gunpowder and the metallic taste of fear in my mouth. My squadmate, Jake, was next to me. He was yelling something, but I couldn't make out the words over the chaos."
+    ],
+    [
+      "Therapist: You're doing great. Can you tell me more about what you saw?",
+      "Client: I saw dust kicking up from bullets hitting the ground around us. The air was filled with shouts and screams. I remember the acrid smell of gunpowder and the metallic taste of fear in my mouth. My squadmate, Jake, was next to me. He was yelling something, but I couldn't make out the words over the chaos.",
+      "Therapist: Stay with that moment. What happened next?"
+    ],
+    [
+      "Client: I saw dust kicking up from bullets hitting the ground around us. The air was filled with shouts and screams. I remember the acrid smell of gunpowder and the metallic taste of fear in my mouth. My squadmate, Jake, was next to me. He was yelling something, but I couldn't make out the words over the chaos.",
+      "Therapist: Stay with that moment. What happened next?",
+      "Client: I... I'm not sure I can do this. It's too much."
+    ],
+    [
+      "Therapist: Stay with that moment. What happened next?",
+      "Client: I... I'm not sure I can do this. It's too much.",
+      "Therapist: You're safe here, Sarah. Take a deep breath."
+    ],
+    [
+      "Client: I... I'm not sure I can do this. It's too much.",
+      "Therapist: You're safe here, Sarah. Take a deep breath.",
+      "Client: Okay... okay. I remember peeking over the wall to try and locate the shooters. That's when I saw a young boy, couldn't have been more than 12, running across the street. He looked terrified. I wanted to yell at him to take cover, but before I could, I saw him stumble and fall. There was so much blood... I... I couldn't do anything to help him."
+    ],
+    [
+      "Therapist: You're safe here, Sarah. Take a deep breath.",
+      "Client: Okay... okay. I remember peeking over the wall to try and locate the shooters. That's when I saw a young boy, couldn't have been more than 12, running across the street. He looked terrified. I wanted to yell at him to take cover, but before I could, I saw him stumble and fall. There was so much blood... I... I couldn't do anything to help him.",
+      "Therapist: You're handling this so well. Keep going."
+    ],
+    [
+      "Client: Okay... okay. I remember peeking over the wall to try and locate the shooters. That's when I saw a young boy, couldn't have been more than 12, running across the street. He looked terrified. I wanted to yell at him to take cover, but before I could, I saw him stumble and fall. There was so much blood... I... I couldn't do anything to help him.",
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: I felt so helpless. I wanted to run out there and grab him, but Jake held me back. He said it was too dangerous. I remember feeling this overwhelming sense of anger and frustration. Why were we even there if we couldn't protect innocent civilians?"
+    ],
+    [
+      "Therapist: You're handling this so well. Keep going.",
+      "Client: I felt so helpless. I wanted to run out there and grab him, but Jake held me back. He said it was too dangerous. I remember feeling this overwhelming sense of anger and frustration. Why were we even there if we couldn't protect innocent civilians?",
+      "Therapist: It's okay to feel those emotions."
+    ],
+    [
+      "Client: I felt so helpless. I wanted to run out there and grab him, but Jake held me back. He said it was too dangerous. I remember feeling this overwhelming sense of anger and frustration. Why were we even there if we couldn't protect innocent civilians?",
+      "Therapist: It's okay to feel those emotions.",
+      "Client: The gunfire seemed to last forever, but it was probably only a few minutes. When it finally stopped, the silence was almost worse. We moved forward to secure the area, and I saw the boy's body. His eyes were still open, staring blankly at the sky. I can't forget those eyes..."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions.",
+      "Client: The gunfire seemed to last forever, but it was probably only a few minutes. When it finally stopped, the silence was almost worse. We moved forward to secure the area, and I saw the boy's body. His eyes were still open, staring blankly at the sky. I can't forget those eyes...",
+      "Therapist: You're doing great, Sarah. How are you feeling right now?"
+    ],
+    [
+      "Client: The gunfire seemed to last forever, but it was probably only a few minutes. When it finally stopped, the silence was almost worse. We moved forward to secure the area, and I saw the boy's body. His eyes were still open, staring blankly at the sky. I can't forget those eyes...",
+      "Therapist: You're doing great, Sarah. How are you feeling right now?",
+      "Client: I feel... I feel sick to my stomach. My hands are shaking. It's like I'm right back there, seeing it all over again. The guilt is overwhelming. I keep thinking about what I could have done differently."
+    ],
+    [
+      "Therapist: You're doing great, Sarah. How are you feeling right now?",
+      "Client: I feel... I feel sick to my stomach. My hands are shaking. It's like I'm right back there, seeing it all over again. The guilt is overwhelming. I keep thinking about what I could have done differently.",
+      "Therapist: It's natural to have those feelings. You're safe now."
+    ],
+    [
+      "Client: I feel... I feel sick to my stomach. My hands are shaking. It's like I'm right back there, seeing it all over again. The guilt is overwhelming. I keep thinking about what I could have done differently.",
+      "Therapist: It's natural to have those feelings. You're safe now.",
+      "Client: I know, but it doesn't feel that way. After the firefight, we had to continue our patrol. I remember feeling numb, like I was moving on autopilot. The rest of the day is a blur, but that moment, seeing that boy fall, it's crystal clear in my mind. I've never been able to shake it."
+    ],
+    [
+      "Therapist: It's natural to have those feelings. You're safe now.",
+      "Client: I know, but it doesn't feel that way. After the firefight, we had to continue our patrol. I remember feeling numb, like I was moving on autopilot. The rest of the day is a blur, but that moment, seeing that boy fall, it's crystal clear in my mind. I've never been able to shake it.",
+      "Therapist: You're showing incredible strength. How do you feel about sharing this?"
+    ],
+    [
+      "Client: I know, but it doesn't feel that way. After the firefight, we had to continue our patrol. I remember feeling numb, like I was moving on autopilot. The rest of the day is a blur, but that moment, seeing that boy fall, it's crystal clear in my mind. I've never been able to shake it.",
+      "Therapist: You're showing incredible strength. How do you feel about sharing this?",
+      "Client: It's... it's hard. Really hard. But also, I feel a little lighter? Like maybe talking about it is helping to lift some of the weight I've been carrying. Is that normal?"
+    ],
+    [
+      "Therapist: You're showing incredible strength. How do you feel about sharing this?",
+      "Client: It's... it's hard. Really hard. But also, I feel a little lighter? Like maybe talking about it is helping to lift some of the weight I've been carrying. Is that normal?",
+      "Therapist: That's a common and positive reaction. You're doing well."
+    ],
+    [
+      "Client: It's... it's hard. Really hard. But also, I feel a little lighter? Like maybe talking about it is helping to lift some of the weight I've been carrying. Is that normal?",
+      "Therapist: That's a common and positive reaction. You're doing well.",
+      "Client: Thanks. I've never really talked about this before, not in detail. I always felt like if I said it out loud, it would make it more real somehow. But now that I'm saying it, I realize it's always been real. It's always been there, affecting me."
+    ],
+    [
+      "Therapist: That's a common and positive reaction. You're doing well.",
+      "Client: Thanks. I've never really talked about this before, not in detail. I always felt like if I said it out loud, it would make it more real somehow. But now that I'm saying it, I realize it's always been real. It's always been there, affecting me.",
+      "Therapist: That's an important insight. Can you elaborate?"
+    ],
+    [
+      "Client: Thanks. I've never really talked about this before, not in detail. I always felt like if I said it out loud, it would make it more real somehow. But now that I'm saying it, I realize it's always been real. It's always been there, affecting me.",
+      "Therapist: That's an important insight. Can you elaborate?",
+      "Client: I guess I've been trying to push it down, pretend it didn't happen. But it's been showing up in other ways. The nightmares, the anxiety, always being on edge. Talking about it... it's painful, but it also feels like I'm finally acknowledging what happened instead of running from it."
+    ],
+    [
+      "Therapist: That's an important insight. Can you elaborate?",
+      "Client: I guess I've been trying to push it down, pretend it didn't happen. But it's been showing up in other ways. The nightmares, the anxiety, always being on edge. Talking about it... it's painful, but it also feels like I'm finally acknowledging what happened instead of running from it.",
+      "Therapist: That's a significant step. How are you feeling now?"
+    ],
+    [
+      "Client: I guess I've been trying to push it down, pretend it didn't happen. But it's been showing up in other ways. The nightmares, the anxiety, always being on edge. Talking about it... it's painful, but it also feels like I'm finally acknowledging what happened instead of running from it.",
+      "Therapist: That's a significant step. How are you feeling now?",
+      "Client: Exhausted, honestly. Emotionally drained. But also... I don't know, maybe a little hopeful? Like maybe if I can face this memory, I can start to move past it. Is that possible?"
+    ],
+    [
+      "Therapist: That's a significant step. How are you feeling now?",
+      "Client: Exhausted, honestly. Emotionally drained. But also... I don't know, maybe a little hopeful? Like maybe if I can face this memory, I can start to move past it. Is that possible?",
+      "Therapist: It's absolutely possible. You've shown great courage today."
+    ],
+    [
+      "Client: Exhausted, honestly. Emotionally drained. But also... I don't know, maybe a little hopeful? Like maybe if I can face this memory, I can start to move past it. Is that possible?",
+      "Therapist: It's absolutely possible. You've shown great courage today.",
+      "Client: Thank you. I... I think I need a moment. This has been a lot to process. Can we take a short break?"
+    ],
+    [
+      "Therapist: It's absolutely possible. You've shown great courage today.",
+      "Client: Thank you. I... I think I need a moment. This has been a lot to process. Can we take a short break?",
+      "Therapist: Of course. Let's pause here and take some deep breaths."
+    ]
+  ]
+}

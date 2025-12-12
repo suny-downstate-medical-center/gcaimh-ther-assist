@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure. Can you describe your experience as a refugee?",
+    "Client: It's... it's hard to think about. I remember the day we had to leave our home. The sound of bombs in the distance, the panic in everyone's eyes. We grabbed what we could and ran. I was so scared.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: We walked for days. My feet were blistered and bleeding. I was hungry and thirsty. The worst part was not knowing where we were going or if we'd make it. I kept thinking about the life I left behind, my friends, my school. Everything was gone.",
+    "Therapist: Stay with that feeling. You're safe here.",
+    "Client: (voice trembling) At the refugee camp, it was crowded and dirty. We slept on the ground. I felt so alone, even though there were people everywhere. Some of the older kids started bullying me. They called me names, stole my food. I was already scared and weak, and now I felt even more vulnerable.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: One day, a group of boys cornered me behind a tent. They pushed me around, laughing. I can still hear their cruel laughter. I wanted to fight back, but I was outnumbered and terrified. I felt so helpless, so small.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: (starts crying) I... I can't. It's too much. I don't want to remember anymore.",
+    "Therapist: Take a deep breath. You're handling this well.",
+    "Client: (breathes deeply) Okay... okay. After that incident, I became withdrawn. I stopped talking to anyone. I was always on edge, always watching my back. I missed home so much it physically hurt. The uncertainty of our future was overwhelming.",
+    "Therapist: You're very brave. Continue when you're ready.",
+    "Client: We were in that camp for months. It felt like years. When we finally got the news that we could leave, I felt relieved but also terrified. What would this new place be like? Would I ever feel safe again? The journey to our new country was long and exhausting. I remember stepping off the plane, feeling completely lost and out of place.",
+    "Therapist: You're doing excellent work. How do you feel now?",
+    "Client: I feel... drained. But also, somehow lighter? Like I've let go of something I've been carrying for a long time. It's still painful, but talking about it... it helps. I never thought I could face these memories.",
+    "Therapist: You've shown incredible strength today.",
+    "Client: Thank you. I didn't think I could do this, but... I did. It's still hard, but I feel like I'm starting to understand my experiences better. Maybe... maybe I can learn to live with these memories without letting them control me.",
+    "Therapist: That's a powerful realization. We'll end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure. Can you describe your experience as a refugee?",
+      "Client: It's... it's hard to think about. I remember the day we had to leave our home. The sound of bombs in the distance, the panic in everyone's eyes. We grabbed what we could and ran. I was so scared.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's hard to think about. I remember the day we had to leave our home. The sound of bombs in the distance, the panic in everyone's eyes. We grabbed what we could and ran. I was so scared.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: We walked for days. My feet were blistered and bleeding. I was hungry and thirsty. The worst part was not knowing where we were going or if we'd make it. I kept thinking about the life I left behind, my friends, my school. Everything was gone."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: We walked for days. My feet were blistered and bleeding. I was hungry and thirsty. The worst part was not knowing where we were going or if we'd make it. I kept thinking about the life I left behind, my friends, my school. Everything was gone.",
+      "Therapist: Stay with that feeling. You're safe here."
+    ],
+    [
+      "Client: We walked for days. My feet were blistered and bleeding. I was hungry and thirsty. The worst part was not knowing where we were going or if we'd make it. I kept thinking about the life I left behind, my friends, my school. Everything was gone.",
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice trembling) At the refugee camp, it was crowded and dirty. We slept on the ground. I felt so alone, even though there were people everywhere. Some of the older kids started bullying me. They called me names, stole my food. I was already scared and weak, and now I felt even more vulnerable."
+    ],
+    [
+      "Therapist: Stay with that feeling. You're safe here.",
+      "Client: (voice trembling) At the refugee camp, it was crowded and dirty. We slept on the ground. I felt so alone, even though there were people everywhere. Some of the older kids started bullying me. They called me names, stole my food. I was already scared and weak, and now I felt even more vulnerable.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: (voice trembling) At the refugee camp, it was crowded and dirty. We slept on the ground. I felt so alone, even though there were people everywhere. Some of the older kids started bullying me. They called me names, stole my food. I was already scared and weak, and now I felt even more vulnerable.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: One day, a group of boys cornered me behind a tent. They pushed me around, laughing. I can still hear their cruel laughter. I wanted to fight back, but I was outnumbered and terrified. I felt so helpless, so small."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: One day, a group of boys cornered me behind a tent. They pushed me around, laughing. I can still hear their cruel laughter. I wanted to fight back, but I was outnumbered and terrified. I felt so helpless, so small.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: One day, a group of boys cornered me behind a tent. They pushed me around, laughing. I can still hear their cruel laughter. I wanted to fight back, but I was outnumbered and terrified. I felt so helpless, so small.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (starts crying) I... I can't. It's too much. I don't want to remember anymore."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (starts crying) I... I can't. It's too much. I don't want to remember anymore.",
+      "Therapist: Take a deep breath. You're handling this well."
+    ],
+    [
+      "Client: (starts crying) I... I can't. It's too much. I don't want to remember anymore.",
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: (breathes deeply) Okay... okay. After that incident, I became withdrawn. I stopped talking to anyone. I was always on edge, always watching my back. I missed home so much it physically hurt. The uncertainty of our future was overwhelming."
+    ],
+    [
+      "Therapist: Take a deep breath. You're handling this well.",
+      "Client: (breathes deeply) Okay... okay. After that incident, I became withdrawn. I stopped talking to anyone. I was always on edge, always watching my back. I missed home so much it physically hurt. The uncertainty of our future was overwhelming.",
+      "Therapist: You're very brave. Continue when you're ready."
+    ],
+    [
+      "Client: (breathes deeply) Okay... okay. After that incident, I became withdrawn. I stopped talking to anyone. I was always on edge, always watching my back. I missed home so much it physically hurt. The uncertainty of our future was overwhelming.",
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: We were in that camp for months. It felt like years. When we finally got the news that we could leave, I felt relieved but also terrified. What would this new place be like? Would I ever feel safe again? The journey to our new country was long and exhausting. I remember stepping off the plane, feeling completely lost and out of place."
+    ],
+    [
+      "Therapist: You're very brave. Continue when you're ready.",
+      "Client: We were in that camp for months. It felt like years. When we finally got the news that we could leave, I felt relieved but also terrified. What would this new place be like? Would I ever feel safe again? The journey to our new country was long and exhausting. I remember stepping off the plane, feeling completely lost and out of place.",
+      "Therapist: You're doing excellent work. How do you feel now?"
+    ],
+    [
+      "Client: We were in that camp for months. It felt like years. When we finally got the news that we could leave, I felt relieved but also terrified. What would this new place be like? Would I ever feel safe again? The journey to our new country was long and exhausting. I remember stepping off the plane, feeling completely lost and out of place.",
+      "Therapist: You're doing excellent work. How do you feel now?",
+      "Client: I feel... drained. But also, somehow lighter? Like I've let go of something I've been carrying for a long time. It's still painful, but talking about it... it helps. I never thought I could face these memories."
+    ],
+    [
+      "Therapist: You're doing excellent work. How do you feel now?",
+      "Client: I feel... drained. But also, somehow lighter? Like I've let go of something I've been carrying for a long time. It's still painful, but talking about it... it helps. I never thought I could face these memories.",
+      "Therapist: You've shown incredible strength today."
+    ],
+    [
+      "Client: I feel... drained. But also, somehow lighter? Like I've let go of something I've been carrying for a long time. It's still painful, but talking about it... it helps. I never thought I could face these memories.",
+      "Therapist: You've shown incredible strength today.",
+      "Client: Thank you. I didn't think I could do this, but... I did. It's still hard, but I feel like I'm starting to understand my experiences better. Maybe... maybe I can learn to live with these memories without letting them control me."
+    ],
+    [
+      "Therapist: You've shown incredible strength today.",
+      "Client: Thank you. I didn't think I could do this, but... I did. It's still hard, but I feel like I'm starting to understand my experiences better. Maybe... maybe I can learn to live with these memories without letting them control me.",
+      "Therapist: That's a powerful realization. We'll end here for today."
+    ]
+  ]
+}

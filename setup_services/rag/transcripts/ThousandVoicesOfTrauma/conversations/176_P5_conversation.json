@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Raj. How are you feeling today?",
+    "Client: Hi Dr. Chen. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the upcoming session.",
+    "Therapist: That's understandable. We'll take it step by step.",
+    "Client: Alright. I appreciate that. It's just... the idea of revisiting that day on the plane... it makes my heart race just thinking about it. I've been trying so hard to avoid anything related to air travel since then.",
+    "Therapist: Your feelings are valid. Today, we'll start imaginal exposure. Ready to learn more?",
+    "Client: I think so. But what exactly is imaginal exposure? It sounds... intense.",
+    "Therapist: It involves recounting the traumatic event in detail. It helps process the memory.",
+    "Client: Recounting it? You mean I have to describe everything that happened during the crash? I'm not sure I can do that without completely falling apart.",
+    "Therapist: It may be challenging, but I'll guide you through it. How does that sound?",
+    "Client: I'm scared, to be honest. But I trust you, Dr. Chen. Can you tell me more about what to expect? Will it make my nightmares worse?",
+    "Therapist: Initially, it might be distressing. But over time, it can reduce nightmares and anxiety.",
+    "Client: I see. I'm willing to try if it means I might finally get some relief. How long will we be doing this? And what if I panic during the session?",
+    "Therapist: We'll start with short periods and increase gradually. If you panic, we'll use coping strategies.",
+    "Client: Okay, that's somewhat reassuring. I've been working on those breathing exercises you taught me. They help a bit when I'm feeling overwhelmed. Will we use those during this too?",
+    "Therapist: Absolutely. We'll incorporate those techniques. You're showing great courage, Raj.",
+    "Client: Thank you, Dr. Chen. I'm trying. It's just... sometimes I feel so stuck. Like I'll never be able to move past this. The physical abuse I experienced as a child was one thing, but this plane crash... it's like it shattered whatever sense of safety I had left.",
+    "Therapist: Your resilience is admirable. This process can help rebuild that sense of safety.",
+    "Client: I hope so. I really do. I miss traveling, seeing my family back home. It's affecting my studies too. I can't focus on my coursework when I'm constantly on edge. How soon do you think I might see some improvements?",
+    "Therapist: Everyone's journey is different, but many see changes within a few sessions. Shall we begin?",
+    "Client: I'm nervous, but yes. Let's do this. I'm ready to try anything that might help me get my life back on track. Where do we start?",
+    "Therapist: We'll start by closing your eyes and focusing on your breathing. Ready?",
+    "Client: Okay, I can do that. *takes a deep breath* I'm closing my eyes now. What's next?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Raj. How are you feeling today?",
+      "Client: Hi Dr. Chen. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the upcoming session.",
+      "Therapist: That's understandable. We'll take it step by step."
+    ],
+    [
+      "Client: Hi Dr. Chen. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having trouble sleeping lately, thinking about the upcoming session.",
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Alright. I appreciate that. It's just... the idea of revisiting that day on the plane... it makes my heart race just thinking about it. I've been trying so hard to avoid anything related to air travel since then."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it step by step.",
+      "Client: Alright. I appreciate that. It's just... the idea of revisiting that day on the plane... it makes my heart race just thinking about it. I've been trying so hard to avoid anything related to air travel since then.",
+      "Therapist: Your feelings are valid. Today, we'll start imaginal exposure. Ready to learn more?"
+    ],
+    [
+      "Client: Alright. I appreciate that. It's just... the idea of revisiting that day on the plane... it makes my heart race just thinking about it. I've been trying so hard to avoid anything related to air travel since then.",
+      "Therapist: Your feelings are valid. Today, we'll start imaginal exposure. Ready to learn more?",
+      "Client: I think so. But what exactly is imaginal exposure? It sounds... intense."
+    ],
+    [
+      "Therapist: Your feelings are valid. Today, we'll start imaginal exposure. Ready to learn more?",
+      "Client: I think so. But what exactly is imaginal exposure? It sounds... intense.",
+      "Therapist: It involves recounting the traumatic event in detail. It helps process the memory."
+    ],
+    [
+      "Client: I think so. But what exactly is imaginal exposure? It sounds... intense.",
+      "Therapist: It involves recounting the traumatic event in detail. It helps process the memory.",
+      "Client: Recounting it? You mean I have to describe everything that happened during the crash? I'm not sure I can do that without completely falling apart."
+    ],
+    [
+      "Therapist: It involves recounting the traumatic event in detail. It helps process the memory.",
+      "Client: Recounting it? You mean I have to describe everything that happened during the crash? I'm not sure I can do that without completely falling apart.",
+      "Therapist: It may be challenging, but I'll guide you through it. How does that sound?"
+    ],
+    [
+      "Client: Recounting it? You mean I have to describe everything that happened during the crash? I'm not sure I can do that without completely falling apart.",
+      "Therapist: It may be challenging, but I'll guide you through it. How does that sound?",
+      "Client: I'm scared, to be honest. But I trust you, Dr. Chen. Can you tell me more about what to expect? Will it make my nightmares worse?"
+    ],
+    [
+      "Therapist: It may be challenging, but I'll guide you through it. How does that sound?",
+      "Client: I'm scared, to be honest. But I trust you, Dr. Chen. Can you tell me more about what to expect? Will it make my nightmares worse?",
+      "Therapist: Initially, it might be distressing. But over time, it can reduce nightmares and anxiety."
+    ],
+    [
+      "Client: I'm scared, to be honest. But I trust you, Dr. Chen. Can you tell me more about what to expect? Will it make my nightmares worse?",
+      "Therapist: Initially, it might be distressing. But over time, it can reduce nightmares and anxiety.",
+      "Client: I see. I'm willing to try if it means I might finally get some relief. How long will we be doing this? And what if I panic during the session?"
+    ],
+    [
+      "Therapist: Initially, it might be distressing. But over time, it can reduce nightmares and anxiety.",
+      "Client: I see. I'm willing to try if it means I might finally get some relief. How long will we be doing this? And what if I panic during the session?",
+      "Therapist: We'll start with short periods and increase gradually. If you panic, we'll use coping strategies."
+    ],
+    [
+      "Client: I see. I'm willing to try if it means I might finally get some relief. How long will we be doing this? And what if I panic during the session?",
+      "Therapist: We'll start with short periods and increase gradually. If you panic, we'll use coping strategies.",
+      "Client: Okay, that's somewhat reassuring. I've been working on those breathing exercises you taught me. They help a bit when I'm feeling overwhelmed. Will we use those during this too?"
+    ],
+    [
+      "Therapist: We'll start with short periods and increase gradually. If you panic, we'll use coping strategies.",
+      "Client: Okay, that's somewhat reassuring. I've been working on those breathing exercises you taught me. They help a bit when I'm feeling overwhelmed. Will we use those during this too?",
+      "Therapist: Absolutely. We'll incorporate those techniques. You're showing great courage, Raj."
+    ],
+    [
+      "Client: Okay, that's somewhat reassuring. I've been working on those breathing exercises you taught me. They help a bit when I'm feeling overwhelmed. Will we use those during this too?",
+      "Therapist: Absolutely. We'll incorporate those techniques. You're showing great courage, Raj.",
+      "Client: Thank you, Dr. Chen. I'm trying. It's just... sometimes I feel so stuck. Like I'll never be able to move past this. The physical abuse I experienced as a child was one thing, but this plane crash... it's like it shattered whatever sense of safety I had left."
+    ],
+    [
+      "Therapist: Absolutely. We'll incorporate those techniques. You're showing great courage, Raj.",
+      "Client: Thank you, Dr. Chen. I'm trying. It's just... sometimes I feel so stuck. Like I'll never be able to move past this. The physical abuse I experienced as a child was one thing, but this plane crash... it's like it shattered whatever sense of safety I had left.",
+      "Therapist: Your resilience is admirable. This process can help rebuild that sense of safety."
+    ],
+    [
+      "Client: Thank you, Dr. Chen. I'm trying. It's just... sometimes I feel so stuck. Like I'll never be able to move past this. The physical abuse I experienced as a child was one thing, but this plane crash... it's like it shattered whatever sense of safety I had left.",
+      "Therapist: Your resilience is admirable. This process can help rebuild that sense of safety.",
+      "Client: I hope so. I really do. I miss traveling, seeing my family back home. It's affecting my studies too. I can't focus on my coursework when I'm constantly on edge. How soon do you think I might see some improvements?"
+    ],
+    [
+      "Therapist: Your resilience is admirable. This process can help rebuild that sense of safety.",
+      "Client: I hope so. I really do. I miss traveling, seeing my family back home. It's affecting my studies too. I can't focus on my coursework when I'm constantly on edge. How soon do you think I might see some improvements?",
+      "Therapist: Everyone's journey is different, but many see changes within a few sessions. Shall we begin?"
+    ],
+    [
+      "Client: I hope so. I really do. I miss traveling, seeing my family back home. It's affecting my studies too. I can't focus on my coursework when I'm constantly on edge. How soon do you think I might see some improvements?",
+      "Therapist: Everyone's journey is different, but many see changes within a few sessions. Shall we begin?",
+      "Client: I'm nervous, but yes. Let's do this. I'm ready to try anything that might help me get my life back on track. Where do we start?"
+    ],
+    [
+      "Therapist: Everyone's journey is different, but many see changes within a few sessions. Shall we begin?",
+      "Client: I'm nervous, but yes. Let's do this. I'm ready to try anything that might help me get my life back on track. Where do we start?",
+      "Therapist: We'll start by closing your eyes and focusing on your breathing. Ready?"
+    ],
+    [
+      "Client: I'm nervous, but yes. Let's do this. I'm ready to try anything that might help me get my life back on track. Where do we start?",
+      "Therapist: We'll start by closing your eyes and focusing on your breathing. Ready?",
+      "Client: Okay, I can do that. *takes a deep breath* I'm closing my eyes now. What's next?"
+    ]
+  ]
+}

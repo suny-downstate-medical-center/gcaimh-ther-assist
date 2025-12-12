@@ -1,0 +1,104 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Samira. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares about the accident at work lately, and I'm not sure I want to think about it more.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. It's a key part of your recovery.",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened.",
+    "Therapist: It involves recounting the traumatic event in detail. It may be challenging, but it's effective for reducing PTSD symptoms.",
+    "Client: (Fidgeting nervously) I don't know... Just thinking about it makes my heart race. What if I panic? Or what if it makes everything worse instead of better?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout.",
+    "Client: (Taking a deep breath) Okay... I trust you. But can you tell me more about what to expect? Will I have to close my eyes? How long will it last?",
+    "Therapist: You'll recount the event with eyes open or closed. We'll start with 30 minutes, adjusting as needed.",
+    "Client: Thirty minutes feels like a long time to focus on something so scary. Will you be guiding me through it, or do I just... talk?",
+    "Therapist: I'll guide you with questions. You'll describe the event, including thoughts and feelings.",
+    "Client: (Nodding slowly) I see. And what about after? I'm worried I'll leave here feeling worse and won't be able to focus on my studies or interact with my roommates.",
+    "Therapist: It's normal to feel distressed initially. We'll process your emotions and use coping strategies before you leave.",
+    "Client: That's somewhat reassuring. I appreciate your patience with all my questions. I guess I'm just scared of facing it all again. But if you think this will help...",
+    "Therapist: Your courage is admirable. This process is crucial for healing and reducing your symptoms.",
+    "Client: (Smiling weakly) Thank you. I'll try my best. Is there anything I should do to prepare myself before we start?",
+    "Therapist: Take a few deep breaths. Remember, you're safe here. Ready to begin?",
+    "Client: (Taking a deep breath) As ready as I'll ever be, I suppose. Let's do this."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Samira. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares about the accident at work lately, and I'm not sure I want to think about it more.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. It's a key part of your recovery."
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares about the accident at work lately, and I'm not sure I want to think about it more.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. It's a key part of your recovery.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. It's a key part of your recovery.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened.",
+      "Therapist: It involves recounting the traumatic event in detail. It may be challenging, but it's effective for reducing PTSD symptoms."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that mean? I'm not sure I'm ready to relive everything that happened.",
+      "Therapist: It involves recounting the traumatic event in detail. It may be challenging, but it's effective for reducing PTSD symptoms.",
+      "Client: (Fidgeting nervously) I don't know... Just thinking about it makes my heart race. What if I panic? Or what if it makes everything worse instead of better?"
+    ],
+    [
+      "Therapist: It involves recounting the traumatic event in detail. It may be challenging, but it's effective for reducing PTSD symptoms.",
+      "Client: (Fidgeting nervously) I don't know... Just thinking about it makes my heart race. What if I panic? Or what if it makes everything worse instead of better?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout."
+    ],
+    [
+      "Client: (Fidgeting nervously) I don't know... Just thinking about it makes my heart race. What if I panic? Or what if it makes everything worse instead of better?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout.",
+      "Client: (Taking a deep breath) Okay... I trust you. But can you tell me more about what to expect? Will I have to close my eyes? How long will it last?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll support you throughout.",
+      "Client: (Taking a deep breath) Okay... I trust you. But can you tell me more about what to expect? Will I have to close my eyes? How long will it last?",
+      "Therapist: You'll recount the event with eyes open or closed. We'll start with 30 minutes, adjusting as needed."
+    ],
+    [
+      "Client: (Taking a deep breath) Okay... I trust you. But can you tell me more about what to expect? Will I have to close my eyes? How long will it last?",
+      "Therapist: You'll recount the event with eyes open or closed. We'll start with 30 minutes, adjusting as needed.",
+      "Client: Thirty minutes feels like a long time to focus on something so scary. Will you be guiding me through it, or do I just... talk?"
+    ],
+    [
+      "Therapist: You'll recount the event with eyes open or closed. We'll start with 30 minutes, adjusting as needed.",
+      "Client: Thirty minutes feels like a long time to focus on something so scary. Will you be guiding me through it, or do I just... talk?",
+      "Therapist: I'll guide you with questions. You'll describe the event, including thoughts and feelings."
+    ],
+    [
+      "Client: Thirty minutes feels like a long time to focus on something so scary. Will you be guiding me through it, or do I just... talk?",
+      "Therapist: I'll guide you with questions. You'll describe the event, including thoughts and feelings.",
+      "Client: (Nodding slowly) I see. And what about after? I'm worried I'll leave here feeling worse and won't be able to focus on my studies or interact with my roommates."
+    ],
+    [
+      "Therapist: I'll guide you with questions. You'll describe the event, including thoughts and feelings.",
+      "Client: (Nodding slowly) I see. And what about after? I'm worried I'll leave here feeling worse and won't be able to focus on my studies or interact with my roommates.",
+      "Therapist: It's normal to feel distressed initially. We'll process your emotions and use coping strategies before you leave."
+    ],
+    [
+      "Client: (Nodding slowly) I see. And what about after? I'm worried I'll leave here feeling worse and won't be able to focus on my studies or interact with my roommates.",
+      "Therapist: It's normal to feel distressed initially. We'll process your emotions and use coping strategies before you leave.",
+      "Client: That's somewhat reassuring. I appreciate your patience with all my questions. I guess I'm just scared of facing it all again. But if you think this will help..."
+    ],
+    [
+      "Therapist: It's normal to feel distressed initially. We'll process your emotions and use coping strategies before you leave.",
+      "Client: That's somewhat reassuring. I appreciate your patience with all my questions. I guess I'm just scared of facing it all again. But if you think this will help...",
+      "Therapist: Your courage is admirable. This process is crucial for healing and reducing your symptoms."
+    ],
+    [
+      "Client: That's somewhat reassuring. I appreciate your patience with all my questions. I guess I'm just scared of facing it all again. But if you think this will help...",
+      "Therapist: Your courage is admirable. This process is crucial for healing and reducing your symptoms.",
+      "Client: (Smiling weakly) Thank you. I'll try my best. Is there anything I should do to prepare myself before we start?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This process is crucial for healing and reducing your symptoms.",
+      "Client: (Smiling weakly) Thank you. I'll try my best. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Take a few deep breaths. Remember, you're safe here. Ready to begin?"
+    ],
+    [
+      "Client: (Smiling weakly) Thank you. I'll try my best. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Take a few deep breaths. Remember, you're safe here. Ready to begin?",
+      "Client: (Taking a deep breath) As ready as I'll ever be, I suppose. Let's do this."
+    ]
+  ]
+}

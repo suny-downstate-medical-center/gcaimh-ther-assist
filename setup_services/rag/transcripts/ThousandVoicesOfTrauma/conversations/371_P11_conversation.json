@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, John?",
+    "Client: I... I'm feeling a bit shaky, to be honest. It's like I'm still there, you know? The screeching tires, the smell of burning rubber, the impact... it's all so vivid. I can feel my heart racing even now.",
+    "Therapist: That's understandable. What stood out to you most?",
+    "Client: The helplessness, I think. I saw the other car coming, but I couldn't do anything. I just froze. And then the sound of metal crunching... God, it was awful. I keep thinking about the driver in the other car, wondering if they're okay.",
+    "Therapist: How did it feel to revisit that memory today?",
+    "Client: It was... intense. Scary, but also... I don't know, maybe a little empowering? Like, I got through it once, and I got through it again just now. But it's exhausting, you know? I feel drained.",
+    "Therapist: That's a common reaction. How does this compare to your day-to-day experiences?",
+    "Client: Well, usually I try to avoid thinking about it at all. But when something triggers a memory - like a car honking or screeching brakes - I get that same panic. My heart races, I start sweating... it's like I'm right back there. But going through it here, it's different. It's still scary, but... controlled, I guess?",
+    "Therapist: That's an important observation. What else have you noticed?",
+    "Client: I've realized how much this accident has affected my life. I've been so irritable lately, snapping at my wife and kids over little things. And work... I can barely focus most days. It's like I'm always on edge, waiting for something bad to happen.",
+    "Therapist: How do you think this relates to your recovery goals?",
+    "Client: I... I guess it shows me that I need to face this head-on. Running away hasn't helped. Maybe if I can process this properly, I can start to feel more like myself again. I want to be present for my family, to enjoy life again without this constant fear.",
+    "Therapist: That's a powerful insight. What's giving you hope?",
+    "Client: Well, the fact that I could get through this session, for one. And... I don't know, maybe the idea that there's a way forward? That I'm not stuck feeling like this forever. It's hard, but I'm here, right? That's something.",
+    "Therapist: Absolutely. How can we build on this for next time?",
+    "Client: I think... maybe we could work on some strategies for when I feel panicked? And... I know it's scary, but I think I need to keep facing this memory. It's hard, but I can feel that it's doing something, you know?",
+    "Therapist: That's a great plan. Any final thoughts?",
+    "Client: Just... thank you, I guess. For guiding me through this. It's not easy, but I feel like I'm finally moving in the right direction. I'm tired, but... maybe a little hopeful too.",
+    "Therapist: You've shown real courage today, John. We'll continue this work next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, John?",
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like I'm still there, you know? The screeching tires, the smell of burning rubber, the impact... it's all so vivid. I can feel my heart racing even now.",
+      "Therapist: That's understandable. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm feeling a bit shaky, to be honest. It's like I'm still there, you know? The screeching tires, the smell of burning rubber, the impact... it's all so vivid. I can feel my heart racing even now.",
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The helplessness, I think. I saw the other car coming, but I couldn't do anything. I just froze. And then the sound of metal crunching... God, it was awful. I keep thinking about the driver in the other car, wondering if they're okay."
+    ],
+    [
+      "Therapist: That's understandable. What stood out to you most?",
+      "Client: The helplessness, I think. I saw the other car coming, but I couldn't do anything. I just froze. And then the sound of metal crunching... God, it was awful. I keep thinking about the driver in the other car, wondering if they're okay.",
+      "Therapist: How did it feel to revisit that memory today?"
+    ],
+    [
+      "Client: The helplessness, I think. I saw the other car coming, but I couldn't do anything. I just froze. And then the sound of metal crunching... God, it was awful. I keep thinking about the driver in the other car, wondering if they're okay.",
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... intense. Scary, but also... I don't know, maybe a little empowering? Like, I got through it once, and I got through it again just now. But it's exhausting, you know? I feel drained."
+    ],
+    [
+      "Therapist: How did it feel to revisit that memory today?",
+      "Client: It was... intense. Scary, but also... I don't know, maybe a little empowering? Like, I got through it once, and I got through it again just now. But it's exhausting, you know? I feel drained.",
+      "Therapist: That's a common reaction. How does this compare to your day-to-day experiences?"
+    ],
+    [
+      "Client: It was... intense. Scary, but also... I don't know, maybe a little empowering? Like, I got through it once, and I got through it again just now. But it's exhausting, you know? I feel drained.",
+      "Therapist: That's a common reaction. How does this compare to your day-to-day experiences?",
+      "Client: Well, usually I try to avoid thinking about it at all. But when something triggers a memory - like a car honking or screeching brakes - I get that same panic. My heart races, I start sweating... it's like I'm right back there. But going through it here, it's different. It's still scary, but... controlled, I guess?"
+    ],
+    [
+      "Therapist: That's a common reaction. How does this compare to your day-to-day experiences?",
+      "Client: Well, usually I try to avoid thinking about it at all. But when something triggers a memory - like a car honking or screeching brakes - I get that same panic. My heart races, I start sweating... it's like I'm right back there. But going through it here, it's different. It's still scary, but... controlled, I guess?",
+      "Therapist: That's an important observation. What else have you noticed?"
+    ],
+    [
+      "Client: Well, usually I try to avoid thinking about it at all. But when something triggers a memory - like a car honking or screeching brakes - I get that same panic. My heart races, I start sweating... it's like I'm right back there. But going through it here, it's different. It's still scary, but... controlled, I guess?",
+      "Therapist: That's an important observation. What else have you noticed?",
+      "Client: I've realized how much this accident has affected my life. I've been so irritable lately, snapping at my wife and kids over little things. And work... I can barely focus most days. It's like I'm always on edge, waiting for something bad to happen."
+    ],
+    [
+      "Therapist: That's an important observation. What else have you noticed?",
+      "Client: I've realized how much this accident has affected my life. I've been so irritable lately, snapping at my wife and kids over little things. And work... I can barely focus most days. It's like I'm always on edge, waiting for something bad to happen.",
+      "Therapist: How do you think this relates to your recovery goals?"
+    ],
+    [
+      "Client: I've realized how much this accident has affected my life. I've been so irritable lately, snapping at my wife and kids over little things. And work... I can barely focus most days. It's like I'm always on edge, waiting for something bad to happen.",
+      "Therapist: How do you think this relates to your recovery goals?",
+      "Client: I... I guess it shows me that I need to face this head-on. Running away hasn't helped. Maybe if I can process this properly, I can start to feel more like myself again. I want to be present for my family, to enjoy life again without this constant fear."
+    ],
+    [
+      "Therapist: How do you think this relates to your recovery goals?",
+      "Client: I... I guess it shows me that I need to face this head-on. Running away hasn't helped. Maybe if I can process this properly, I can start to feel more like myself again. I want to be present for my family, to enjoy life again without this constant fear.",
+      "Therapist: That's a powerful insight. What's giving you hope?"
+    ],
+    [
+      "Client: I... I guess it shows me that I need to face this head-on. Running away hasn't helped. Maybe if I can process this properly, I can start to feel more like myself again. I want to be present for my family, to enjoy life again without this constant fear.",
+      "Therapist: That's a powerful insight. What's giving you hope?",
+      "Client: Well, the fact that I could get through this session, for one. And... I don't know, maybe the idea that there's a way forward? That I'm not stuck feeling like this forever. It's hard, but I'm here, right? That's something."
+    ],
+    [
+      "Therapist: That's a powerful insight. What's giving you hope?",
+      "Client: Well, the fact that I could get through this session, for one. And... I don't know, maybe the idea that there's a way forward? That I'm not stuck feeling like this forever. It's hard, but I'm here, right? That's something.",
+      "Therapist: Absolutely. How can we build on this for next time?"
+    ],
+    [
+      "Client: Well, the fact that I could get through this session, for one. And... I don't know, maybe the idea that there's a way forward? That I'm not stuck feeling like this forever. It's hard, but I'm here, right? That's something.",
+      "Therapist: Absolutely. How can we build on this for next time?",
+      "Client: I think... maybe we could work on some strategies for when I feel panicked? And... I know it's scary, but I think I need to keep facing this memory. It's hard, but I can feel that it's doing something, you know?"
+    ],
+    [
+      "Therapist: Absolutely. How can we build on this for next time?",
+      "Client: I think... maybe we could work on some strategies for when I feel panicked? And... I know it's scary, but I think I need to keep facing this memory. It's hard, but I can feel that it's doing something, you know?",
+      "Therapist: That's a great plan. Any final thoughts?"
+    ],
+    [
+      "Client: I think... maybe we could work on some strategies for when I feel panicked? And... I know it's scary, but I think I need to keep facing this memory. It's hard, but I can feel that it's doing something, you know?",
+      "Therapist: That's a great plan. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this. It's not easy, but I feel like I'm finally moving in the right direction. I'm tired, but... maybe a little hopeful too."
+    ],
+    [
+      "Therapist: That's a great plan. Any final thoughts?",
+      "Client: Just... thank you, I guess. For guiding me through this. It's not easy, but I feel like I'm finally moving in the right direction. I'm tired, but... maybe a little hopeful too.",
+      "Therapist: You've shown real courage today, John. We'll continue this work next session."
+    ]
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, Mr. Patel, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and recall the scene.",
+    "Client: (takes a deep breath) Alright. I'm back at the market... It's busy, noisy. I can smell the spices and hear people haggling. My brother is next to me, laughing about something...",
+    "Therapist: Good. What's your SUDS level now?",
+    "Client: Um, about a 3 out of 10. I'm okay right now.",
+    "Therapist: Alright. Continue.",
+    "Client: Suddenly, there's shouting. Two men are arguing near us. It's getting louder... more aggressive. My brother steps forward, trying to calm them down. I'm frozen, watching...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up. Maybe a 6? My heart is beating faster.",
+    "Therapist: That's okay. Keep going.",
+    "Client: One man pushes the other. There's a glint of metal... a knife. It happens so fast. My brother... he's between them. There's blood. So much blood. (voice trembling) I can't... I can't move...",
+    "Therapist: Stay with it. What's your SUDS?",
+    "Client: (breathing heavily) It's... it's a 9. I feel like I'm there again. My hands are shaking.",
+    "Therapist: You're safe here. Keep breathing.",
+    "Client: People are screaming. My brother is on the ground. I finally move, kneeling beside him. His eyes... they're so confused. I'm pressing on the wound, but the blood won't stop...",
+    "Therapist: SUDS level?",
+    "Client: (choking back tears) Still... still a 9. My chest feels tight. I can smell the blood...",
+    "Therapist: You're doing well. Continue.",
+    "Client: Someone's calling for help. I'm talking to my brother, telling him to hold on. But his eyes... they're losing focus. I feel so helpless, so scared...",
+    "Therapist: And now? Your SUDS?",
+    "Client: (voice shaky) It's... it's gone down a bit. Maybe an 8? I'm still there, but... I know it's a memory.",
+    "Therapist: Good. Keep going.",
+    "Client: The ambulance arrives. They're taking him away. I'm covered in his blood. I can't go with him... I'm in shock. A stranger is holding me up. I feel... numb.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 7 now. I'm starting to feel more distant from the scene.",
+    "Therapist: Okay. Let's start to wrap up. Bring yourself back to the present.",
+    "Client: (takes a deep breath) I'm... I'm here. In your office. It's over.",
+    "Therapist: Good. Final SUDS?",
+    "Client: It's down to a 5. I feel drained, but... okay.",
+    "Therapist: Well done. How are you feeling?",
+    "Client: Exhausted. Sad. But... maybe a little relieved too? It's hard to explain.",
+    "Therapist: That's normal. We'll discuss this next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, Mr. Patel, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the scene."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and recall the scene.",
+      "Client: (takes a deep breath) Alright. I'm back at the market... It's busy, noisy. I can smell the spices and hear people haggling. My brother is next to me, laughing about something..."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and recall the scene.",
+      "Client: (takes a deep breath) Alright. I'm back at the market... It's busy, noisy. I can smell the spices and hear people haggling. My brother is next to me, laughing about something...",
+      "Therapist: Good. What's your SUDS level now?"
+    ],
+    [
+      "Client: (takes a deep breath) Alright. I'm back at the market... It's busy, noisy. I can smell the spices and hear people haggling. My brother is next to me, laughing about something...",
+      "Therapist: Good. What's your SUDS level now?",
+      "Client: Um, about a 3 out of 10. I'm okay right now."
+    ],
+    [
+      "Therapist: Good. What's your SUDS level now?",
+      "Client: Um, about a 3 out of 10. I'm okay right now.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, about a 3 out of 10. I'm okay right now.",
+      "Therapist: Alright. Continue.",
+      "Client: Suddenly, there's shouting. Two men are arguing near us. It's getting louder... more aggressive. My brother steps forward, trying to calm them down. I'm frozen, watching..."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: Suddenly, there's shouting. Two men are arguing near us. It's getting louder... more aggressive. My brother steps forward, trying to calm them down. I'm frozen, watching...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Suddenly, there's shouting. Two men are arguing near us. It's getting louder... more aggressive. My brother steps forward, trying to calm them down. I'm frozen, watching...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? My heart is beating faster."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up. Maybe a 6? My heart is beating faster.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up. Maybe a 6? My heart is beating faster.",
+      "Therapist: That's okay. Keep going.",
+      "Client: One man pushes the other. There's a glint of metal... a knife. It happens so fast. My brother... he's between them. There's blood. So much blood. (voice trembling) I can't... I can't move..."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: One man pushes the other. There's a glint of metal... a knife. It happens so fast. My brother... he's between them. There's blood. So much blood. (voice trembling) I can't... I can't move...",
+      "Therapist: Stay with it. What's your SUDS?"
+    ],
+    [
+      "Client: One man pushes the other. There's a glint of metal... a knife. It happens so fast. My brother... he's between them. There's blood. So much blood. (voice trembling) I can't... I can't move...",
+      "Therapist: Stay with it. What's your SUDS?",
+      "Client: (breathing heavily) It's... it's a 9. I feel like I'm there again. My hands are shaking."
+    ],
+    [
+      "Therapist: Stay with it. What's your SUDS?",
+      "Client: (breathing heavily) It's... it's a 9. I feel like I'm there again. My hands are shaking.",
+      "Therapist: You're safe here. Keep breathing."
+    ],
+    [
+      "Client: (breathing heavily) It's... it's a 9. I feel like I'm there again. My hands are shaking.",
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: People are screaming. My brother is on the ground. I finally move, kneeling beside him. His eyes... they're so confused. I'm pressing on the wound, but the blood won't stop..."
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: People are screaming. My brother is on the ground. I finally move, kneeling beside him. His eyes... they're so confused. I'm pressing on the wound, but the blood won't stop...",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: People are screaming. My brother is on the ground. I finally move, kneeling beside him. His eyes... they're so confused. I'm pressing on the wound, but the blood won't stop...",
+      "Therapist: SUDS level?",
+      "Client: (choking back tears) Still... still a 9. My chest feels tight. I can smell the blood..."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: (choking back tears) Still... still a 9. My chest feels tight. I can smell the blood...",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: (choking back tears) Still... still a 9. My chest feels tight. I can smell the blood...",
+      "Therapist: You're doing well. Continue.",
+      "Client: Someone's calling for help. I'm talking to my brother, telling him to hold on. But his eyes... they're losing focus. I feel so helpless, so scared..."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: Someone's calling for help. I'm talking to my brother, telling him to hold on. But his eyes... they're losing focus. I feel so helpless, so scared...",
+      "Therapist: And now? Your SUDS?"
+    ],
+    [
+      "Client: Someone's calling for help. I'm talking to my brother, telling him to hold on. But his eyes... they're losing focus. I feel so helpless, so scared...",
+      "Therapist: And now? Your SUDS?",
+      "Client: (voice shaky) It's... it's gone down a bit. Maybe an 8? I'm still there, but... I know it's a memory."
+    ],
+    [
+      "Therapist: And now? Your SUDS?",
+      "Client: (voice shaky) It's... it's gone down a bit. Maybe an 8? I'm still there, but... I know it's a memory.",
+      "Therapist: Good. Keep going."
+    ],
+    [
+      "Client: (voice shaky) It's... it's gone down a bit. Maybe an 8? I'm still there, but... I know it's a memory.",
+      "Therapist: Good. Keep going.",
+      "Client: The ambulance arrives. They're taking him away. I'm covered in his blood. I can't go with him... I'm in shock. A stranger is holding me up. I feel... numb."
+    ],
+    [
+      "Therapist: Good. Keep going.",
+      "Client: The ambulance arrives. They're taking him away. I'm covered in his blood. I can't go with him... I'm in shock. A stranger is holding me up. I feel... numb.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: The ambulance arrives. They're taking him away. I'm covered in his blood. I can't go with him... I'm in shock. A stranger is holding me up. I feel... numb.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 7 now. I'm starting to feel more distant from the scene."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 7 now. I'm starting to feel more distant from the scene.",
+      "Therapist: Okay. Let's start to wrap up. Bring yourself back to the present."
+    ],
+    [
+      "Client: It's... it's a 7 now. I'm starting to feel more distant from the scene.",
+      "Therapist: Okay. Let's start to wrap up. Bring yourself back to the present.",
+      "Client: (takes a deep breath) I'm... I'm here. In your office. It's over."
+    ],
+    [
+      "Therapist: Okay. Let's start to wrap up. Bring yourself back to the present.",
+      "Client: (takes a deep breath) I'm... I'm here. In your office. It's over.",
+      "Therapist: Good. Final SUDS?"
+    ],
+    [
+      "Client: (takes a deep breath) I'm... I'm here. In your office. It's over.",
+      "Therapist: Good. Final SUDS?",
+      "Client: It's down to a 5. I feel drained, but... okay."
+    ],
+    [
+      "Therapist: Good. Final SUDS?",
+      "Client: It's down to a 5. I feel drained, but... okay.",
+      "Therapist: Well done. How are you feeling?"
+    ],
+    [
+      "Client: It's down to a 5. I feel drained, but... okay.",
+      "Therapist: Well done. How are you feeling?",
+      "Client: Exhausted. Sad. But... maybe a little relieved too? It's hard to explain."
+    ],
+    [
+      "Therapist: Well done. How are you feeling?",
+      "Client: Exhausted. Sad. But... maybe a little relieved too? It's hard to explain.",
+      "Therapist: That's normal. We'll discuss this next time."
+    ]
+  ]
+}

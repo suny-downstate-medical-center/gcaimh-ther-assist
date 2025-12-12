@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and describe the accident.",
+    "Client: Okay... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. Suddenly, there's a commotion. People are shouting, running. I see a truck losing control, heading straight for a group of children playing...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, probably a 6. My heart's racing a bit.",
+    "Therapist: Okay. Continue.",
+    "Client: The truck's getting closer. I'm frozen, can't move. The children are screaming, but it's like everything's in slow motion. I want to help, but my legs won't work. The truck hits a tent pole, starts to topple over...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's an 8. I feel sick to my stomach.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The truck crashes down. There's so much dust, I can't see. But I hear... oh god, I hear the screams. Children crying, adults yelling for help. I finally snap out of it and run towards the crash. There's blood... so much blood...",
+    "Therapist: SUDS?",
+    "Client: 9. I'm shaking. My hands are sweating.",
+    "Therapist: That's okay. You're safe here. Keep describing what you see.",
+    "Client: I... I see a little girl. She's trapped under the truck. Her eyes are wide open, looking right at me. She's reaching out her hand. I grab it, try to pull her out, but she's stuck. She's crying, begging for help. I feel so helpless...",
+    "Therapist: Your SUDS rating now?",
+    "Client: It's... it's a 10. I can't... I can't breathe properly.",
+    "Therapist: Take a deep breath. You're doing great. Stay with the memory.",
+    "Client: I... okay. People are gathering around, trying to lift the truck. Someone's calling for a doctor. The girl's grip on my hand is getting weaker. I'm talking to her, telling her to hold on, but her eyes are starting to close. I feel like I'm failing her...",
+    "Therapist: And your SUDS?",
+    "Client: Still a 10. My chest feels tight. I feel like I'm back there.",
+    "Therapist: You're safe here. Keep going.",
+    "Client: Finally, we manage to lift the truck enough to pull her out. She's unconscious, covered in blood. Someone takes her away. I'm left standing there, covered in dust and blood, feeling completely useless. People are crying, mourning. I just... I just walk away. I can't handle it anymore.",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's gone down to an 8. I feel drained.",
+    "Therapist: You've done well. How are you feeling now?",
+    "Client: Exhausted. Sad. But... also a bit relieved? Like a weight's been lifted.",
+    "Therapist: That's normal. Let's take a moment to ground ourselves.",
+    "Client: Okay... yeah, that sounds good. I didn't realize how much that memory still affected me.",
+    "Therapist: It's a significant event. How are you feeling physically now?",
+    "Client: My heart's slowed down. I'm still a bit shaky, but better. My SUDS is probably around a 5 now.",
+    "Therapist: Good. Let's end the exercise here. You did very well today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the accident."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the accident.",
+      "Client: Okay... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. Suddenly, there's a commotion. People are shouting, running. I see a truck losing control, heading straight for a group of children playing..."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and describe the accident.",
+      "Client: Okay... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. Suddenly, there's a commotion. People are shouting, running. I see a truck losing control, heading straight for a group of children playing...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm in the refugee camp. It's crowded, noisy. I can smell sweat and dust. Suddenly, there's a commotion. People are shouting, running. I see a truck losing control, heading straight for a group of children playing...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6. My heart's racing a bit."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, probably a 6. My heart's racing a bit.",
+      "Therapist: Okay. Continue."
+    ],
+    [
+      "Client: Um, probably a 6. My heart's racing a bit.",
+      "Therapist: Okay. Continue.",
+      "Client: The truck's getting closer. I'm frozen, can't move. The children are screaming, but it's like everything's in slow motion. I want to help, but my legs won't work. The truck hits a tent pole, starts to topple over..."
+    ],
+    [
+      "Therapist: Okay. Continue.",
+      "Client: The truck's getting closer. I'm frozen, can't move. The children are screaming, but it's like everything's in slow motion. I want to help, but my legs won't work. The truck hits a tent pole, starts to topple over...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The truck's getting closer. I'm frozen, can't move. The children are screaming, but it's like everything's in slow motion. I want to help, but my legs won't work. The truck hits a tent pole, starts to topple over...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's an 8. I feel sick to my stomach.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8. I feel sick to my stomach.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The truck crashes down. There's so much dust, I can't see. But I hear... oh god, I hear the screams. Children crying, adults yelling for help. I finally snap out of it and run towards the crash. There's blood... so much blood..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The truck crashes down. There's so much dust, I can't see. But I hear... oh god, I hear the screams. Children crying, adults yelling for help. I finally snap out of it and run towards the crash. There's blood... so much blood...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: The truck crashes down. There's so much dust, I can't see. But I hear... oh god, I hear the screams. Children crying, adults yelling for help. I finally snap out of it and run towards the crash. There's blood... so much blood...",
+      "Therapist: SUDS?",
+      "Client: 9. I'm shaking. My hands are sweating."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: 9. I'm shaking. My hands are sweating.",
+      "Therapist: That's okay. You're safe here. Keep describing what you see."
+    ],
+    [
+      "Client: 9. I'm shaking. My hands are sweating.",
+      "Therapist: That's okay. You're safe here. Keep describing what you see.",
+      "Client: I... I see a little girl. She's trapped under the truck. Her eyes are wide open, looking right at me. She's reaching out her hand. I grab it, try to pull her out, but she's stuck. She's crying, begging for help. I feel so helpless..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep describing what you see.",
+      "Client: I... I see a little girl. She's trapped under the truck. Her eyes are wide open, looking right at me. She's reaching out her hand. I grab it, try to pull her out, but she's stuck. She's crying, begging for help. I feel so helpless...",
+      "Therapist: Your SUDS rating now?"
+    ],
+    [
+      "Client: I... I see a little girl. She's trapped under the truck. Her eyes are wide open, looking right at me. She's reaching out her hand. I grab it, try to pull her out, but she's stuck. She's crying, begging for help. I feel so helpless...",
+      "Therapist: Your SUDS rating now?",
+      "Client: It's... it's a 10. I can't... I can't breathe properly."
+    ],
+    [
+      "Therapist: Your SUDS rating now?",
+      "Client: It's... it's a 10. I can't... I can't breathe properly.",
+      "Therapist: Take a deep breath. You're doing great. Stay with the memory."
+    ],
+    [
+      "Client: It's... it's a 10. I can't... I can't breathe properly.",
+      "Therapist: Take a deep breath. You're doing great. Stay with the memory.",
+      "Client: I... okay. People are gathering around, trying to lift the truck. Someone's calling for a doctor. The girl's grip on my hand is getting weaker. I'm talking to her, telling her to hold on, but her eyes are starting to close. I feel like I'm failing her..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great. Stay with the memory.",
+      "Client: I... okay. People are gathering around, trying to lift the truck. Someone's calling for a doctor. The girl's grip on my hand is getting weaker. I'm talking to her, telling her to hold on, but her eyes are starting to close. I feel like I'm failing her...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I... okay. People are gathering around, trying to lift the truck. Someone's calling for a doctor. The girl's grip on my hand is getting weaker. I'm talking to her, telling her to hold on, but her eyes are starting to close. I feel like I'm failing her...",
+      "Therapist: And your SUDS?",
+      "Client: Still a 10. My chest feels tight. I feel like I'm back there."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Still a 10. My chest feels tight. I feel like I'm back there.",
+      "Therapist: You're safe here. Keep going."
+    ],
+    [
+      "Client: Still a 10. My chest feels tight. I feel like I'm back there.",
+      "Therapist: You're safe here. Keep going.",
+      "Client: Finally, we manage to lift the truck enough to pull her out. She's unconscious, covered in blood. Someone takes her away. I'm left standing there, covered in dust and blood, feeling completely useless. People are crying, mourning. I just... I just walk away. I can't handle it anymore."
+    ],
+    [
+      "Therapist: You're safe here. Keep going.",
+      "Client: Finally, we manage to lift the truck enough to pull her out. She's unconscious, covered in blood. Someone takes her away. I'm left standing there, covered in dust and blood, feeling completely useless. People are crying, mourning. I just... I just walk away. I can't handle it anymore.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Finally, we manage to lift the truck enough to pull her out. She's unconscious, covered in blood. Someone takes her away. I'm left standing there, covered in dust and blood, feeling completely useless. People are crying, mourning. I just... I just walk away. I can't handle it anymore.",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's gone down to an 8. I feel drained."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's gone down to an 8. I feel drained.",
+      "Therapist: You've done well. How are you feeling now?"
+    ],
+    [
+      "Client: It's... it's gone down to an 8. I feel drained.",
+      "Therapist: You've done well. How are you feeling now?",
+      "Client: Exhausted. Sad. But... also a bit relieved? Like a weight's been lifted."
+    ],
+    [
+      "Therapist: You've done well. How are you feeling now?",
+      "Client: Exhausted. Sad. But... also a bit relieved? Like a weight's been lifted.",
+      "Therapist: That's normal. Let's take a moment to ground ourselves."
+    ],
+    [
+      "Client: Exhausted. Sad. But... also a bit relieved? Like a weight's been lifted.",
+      "Therapist: That's normal. Let's take a moment to ground ourselves.",
+      "Client: Okay... yeah, that sounds good. I didn't realize how much that memory still affected me."
+    ],
+    [
+      "Therapist: That's normal. Let's take a moment to ground ourselves.",
+      "Client: Okay... yeah, that sounds good. I didn't realize how much that memory still affected me.",
+      "Therapist: It's a significant event. How are you feeling physically now?"
+    ],
+    [
+      "Client: Okay... yeah, that sounds good. I didn't realize how much that memory still affected me.",
+      "Therapist: It's a significant event. How are you feeling physically now?",
+      "Client: My heart's slowed down. I'm still a bit shaky, but better. My SUDS is probably around a 5 now."
+    ],
+    [
+      "Therapist: It's a significant event. How are you feeling physically now?",
+      "Client: My heart's slowed down. I'm still a bit shaky, but better. My SUDS is probably around a 5 now.",
+      "Therapist: Good. Let's end the exercise here. You did very well today."
+    ]
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, John. How are you feeling today?",
+    "Client: Morning, Dr. Thompson. I'm... I'm alright, I suppose. A bit on edge, to be honest. The traffic was terrible coming here, and it brought back some memories of my accident. I've been trying those breathing exercises you taught me, but they only help so much.",
+    "Therapist: I'm glad you're using the techniques. Today, we'll try something new.",
+    "Client: New? What do you mean? I thought we were making progress with what we've been doing.",
+    "Therapist: We are. This is the next step - imaginal exposure.",
+    "Client: Imaginal exposure? That sounds... intense. What exactly does that involve?",
+    "Therapist: It's revisiting your trauma memory in a safe environment.",
+    "Client: Revisit the accident? I... I don't know if I'm ready for that. Just thinking about it makes my heart race. And why would I want to put myself through that again?",
+    "Therapist: It helps reduce PTSD symptoms over time.",
+    "Client: Reduce symptoms? How? It seems counterintuitive to relive something I've been trying to forget. And what if it makes things worse? I mean, I've only just started feeling a bit more stable in my daily life.",
+    "Therapist: It's natural to feel apprehensive. We'll go at your pace.",
+    "Client: My pace? That's... that's good to hear. But what exactly will happen during this exposure? Will I have to close my eyes? Will you be guiding me through it? I'm just trying to picture how this will work.",
+    "Therapist: You'll describe the memory aloud. I'll be here to support you.",
+    "Client: Describe it aloud? That's... well, I suppose that's a bit less daunting than what I was imagining. But still, talking about it in detail... I'm not sure how I'll react. What if I panic? Or what if I can't get the words out?",
+    "Therapist: We have coping strategies ready if needed. You're in control.",
+    "Client: I'm in control... okay. That helps. I appreciate you explaining this to me, Dr. Thompson. It's still scary, but I think I understand the purpose better now. How long will this process take? Is it just for today's session, or will we be doing this multiple times?",
+    "Therapist: We'll do multiple sessions. Each one builds on the last.",
+    "Client: Multiple sessions... I see. That makes sense, I suppose. It's not going to be a quick fix, is it? But if it helps in the long run... I'm willing to give it a try. I trust you, Dr. Thompson. You've helped me a lot so far. I just hope I can get through this without falling apart.",
+    "Therapist: Your courage is admirable, John. We'll take it step by step.",
+    "Client: Thank you. That means a lot. I've been feeling so... broken since the accident. Like I'm not the same person anymore. If this can help me feel more like myself again, then it's worth trying. I just need to keep reminding myself of that, I guess.",
+    "Therapist: Exactly. This process is about reclaiming your life.",
+    "Client: Reclaiming my life... I like the sound of that. It's been so long since I've felt in control. Alright, Dr. Thompson. I'm nervous, but I'm ready to give this a shot. Where do we start?",
+    "Therapist: We'll begin with a relaxation exercise. Then you'll start describing.",
+    "Client: Okay, a relaxation exercise first. That sounds good. It might help calm these butterflies in my stomach. And then I just... start talking about the accident? Do I need to include every detail, or just the main parts?",
+    "Therapist: Include as much detail as you can. We'll work through it together.",
+    "Client: As much detail as I can... alright. I'll do my best. I appreciate your guidance, Dr. Thompson. I know this won't be easy, but knowing you're here to help me through it makes a big difference. I'm ready whenever you are.",
+    "Therapist: You're showing great strength, John. Let's begin the relaxation."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, John. How are you feeling today?",
+      "Client: Morning, Dr. Thompson. I'm... I'm alright, I suppose. A bit on edge, to be honest. The traffic was terrible coming here, and it brought back some memories of my accident. I've been trying those breathing exercises you taught me, but they only help so much.",
+      "Therapist: I'm glad you're using the techniques. Today, we'll try something new."
+    ],
+    [
+      "Client: Morning, Dr. Thompson. I'm... I'm alright, I suppose. A bit on edge, to be honest. The traffic was terrible coming here, and it brought back some memories of my accident. I've been trying those breathing exercises you taught me, but they only help so much.",
+      "Therapist: I'm glad you're using the techniques. Today, we'll try something new.",
+      "Client: New? What do you mean? I thought we were making progress with what we've been doing."
+    ],
+    [
+      "Therapist: I'm glad you're using the techniques. Today, we'll try something new.",
+      "Client: New? What do you mean? I thought we were making progress with what we've been doing.",
+      "Therapist: We are. This is the next step - imaginal exposure."
+    ],
+    [
+      "Client: New? What do you mean? I thought we were making progress with what we've been doing.",
+      "Therapist: We are. This is the next step - imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that involve?"
+    ],
+    [
+      "Therapist: We are. This is the next step - imaginal exposure.",
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that involve?",
+      "Therapist: It's revisiting your trauma memory in a safe environment."
+    ],
+    [
+      "Client: Imaginal exposure? That sounds... intense. What exactly does that involve?",
+      "Therapist: It's revisiting your trauma memory in a safe environment.",
+      "Client: Revisit the accident? I... I don't know if I'm ready for that. Just thinking about it makes my heart race. And why would I want to put myself through that again?"
+    ],
+    [
+      "Therapist: It's revisiting your trauma memory in a safe environment.",
+      "Client: Revisit the accident? I... I don't know if I'm ready for that. Just thinking about it makes my heart race. And why would I want to put myself through that again?",
+      "Therapist: It helps reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: Revisit the accident? I... I don't know if I'm ready for that. Just thinking about it makes my heart race. And why would I want to put myself through that again?",
+      "Therapist: It helps reduce PTSD symptoms over time.",
+      "Client: Reduce symptoms? How? It seems counterintuitive to relive something I've been trying to forget. And what if it makes things worse? I mean, I've only just started feeling a bit more stable in my daily life."
+    ],
+    [
+      "Therapist: It helps reduce PTSD symptoms over time.",
+      "Client: Reduce symptoms? How? It seems counterintuitive to relive something I've been trying to forget. And what if it makes things worse? I mean, I've only just started feeling a bit more stable in my daily life.",
+      "Therapist: It's natural to feel apprehensive. We'll go at your pace."
+    ],
+    [
+      "Client: Reduce symptoms? How? It seems counterintuitive to relive something I've been trying to forget. And what if it makes things worse? I mean, I've only just started feeling a bit more stable in my daily life.",
+      "Therapist: It's natural to feel apprehensive. We'll go at your pace.",
+      "Client: My pace? That's... that's good to hear. But what exactly will happen during this exposure? Will I have to close my eyes? Will you be guiding me through it? I'm just trying to picture how this will work."
+    ],
+    [
+      "Therapist: It's natural to feel apprehensive. We'll go at your pace.",
+      "Client: My pace? That's... that's good to hear. But what exactly will happen during this exposure? Will I have to close my eyes? Will you be guiding me through it? I'm just trying to picture how this will work.",
+      "Therapist: You'll describe the memory aloud. I'll be here to support you."
+    ],
+    [
+      "Client: My pace? That's... that's good to hear. But what exactly will happen during this exposure? Will I have to close my eyes? Will you be guiding me through it? I'm just trying to picture how this will work.",
+      "Therapist: You'll describe the memory aloud. I'll be here to support you.",
+      "Client: Describe it aloud? That's... well, I suppose that's a bit less daunting than what I was imagining. But still, talking about it in detail... I'm not sure how I'll react. What if I panic? Or what if I can't get the words out?"
+    ],
+    [
+      "Therapist: You'll describe the memory aloud. I'll be here to support you.",
+      "Client: Describe it aloud? That's... well, I suppose that's a bit less daunting than what I was imagining. But still, talking about it in detail... I'm not sure how I'll react. What if I panic? Or what if I can't get the words out?",
+      "Therapist: We have coping strategies ready if needed. You're in control."
+    ],
+    [
+      "Client: Describe it aloud? That's... well, I suppose that's a bit less daunting than what I was imagining. But still, talking about it in detail... I'm not sure how I'll react. What if I panic? Or what if I can't get the words out?",
+      "Therapist: We have coping strategies ready if needed. You're in control.",
+      "Client: I'm in control... okay. That helps. I appreciate you explaining this to me, Dr. Thompson. It's still scary, but I think I understand the purpose better now. How long will this process take? Is it just for today's session, or will we be doing this multiple times?"
+    ],
+    [
+      "Therapist: We have coping strategies ready if needed. You're in control.",
+      "Client: I'm in control... okay. That helps. I appreciate you explaining this to me, Dr. Thompson. It's still scary, but I think I understand the purpose better now. How long will this process take? Is it just for today's session, or will we be doing this multiple times?",
+      "Therapist: We'll do multiple sessions. Each one builds on the last."
+    ],
+    [
+      "Client: I'm in control... okay. That helps. I appreciate you explaining this to me, Dr. Thompson. It's still scary, but I think I understand the purpose better now. How long will this process take? Is it just for today's session, or will we be doing this multiple times?",
+      "Therapist: We'll do multiple sessions. Each one builds on the last.",
+      "Client: Multiple sessions... I see. That makes sense, I suppose. It's not going to be a quick fix, is it? But if it helps in the long run... I'm willing to give it a try. I trust you, Dr. Thompson. You've helped me a lot so far. I just hope I can get through this without falling apart."
+    ],
+    [
+      "Therapist: We'll do multiple sessions. Each one builds on the last.",
+      "Client: Multiple sessions... I see. That makes sense, I suppose. It's not going to be a quick fix, is it? But if it helps in the long run... I'm willing to give it a try. I trust you, Dr. Thompson. You've helped me a lot so far. I just hope I can get through this without falling apart.",
+      "Therapist: Your courage is admirable, John. We'll take it step by step."
+    ],
+    [
+      "Client: Multiple sessions... I see. That makes sense, I suppose. It's not going to be a quick fix, is it? But if it helps in the long run... I'm willing to give it a try. I trust you, Dr. Thompson. You've helped me a lot so far. I just hope I can get through this without falling apart.",
+      "Therapist: Your courage is admirable, John. We'll take it step by step.",
+      "Client: Thank you. That means a lot. I've been feeling so... broken since the accident. Like I'm not the same person anymore. If this can help me feel more like myself again, then it's worth trying. I just need to keep reminding myself of that, I guess."
+    ],
+    [
+      "Therapist: Your courage is admirable, John. We'll take it step by step.",
+      "Client: Thank you. That means a lot. I've been feeling so... broken since the accident. Like I'm not the same person anymore. If this can help me feel more like myself again, then it's worth trying. I just need to keep reminding myself of that, I guess.",
+      "Therapist: Exactly. This process is about reclaiming your life."
+    ],
+    [
+      "Client: Thank you. That means a lot. I've been feeling so... broken since the accident. Like I'm not the same person anymore. If this can help me feel more like myself again, then it's worth trying. I just need to keep reminding myself of that, I guess.",
+      "Therapist: Exactly. This process is about reclaiming your life.",
+      "Client: Reclaiming my life... I like the sound of that. It's been so long since I've felt in control. Alright, Dr. Thompson. I'm nervous, but I'm ready to give this a shot. Where do we start?"
+    ],
+    [
+      "Therapist: Exactly. This process is about reclaiming your life.",
+      "Client: Reclaiming my life... I like the sound of that. It's been so long since I've felt in control. Alright, Dr. Thompson. I'm nervous, but I'm ready to give this a shot. Where do we start?",
+      "Therapist: We'll begin with a relaxation exercise. Then you'll start describing."
+    ],
+    [
+      "Client: Reclaiming my life... I like the sound of that. It's been so long since I've felt in control. Alright, Dr. Thompson. I'm nervous, but I'm ready to give this a shot. Where do we start?",
+      "Therapist: We'll begin with a relaxation exercise. Then you'll start describing.",
+      "Client: Okay, a relaxation exercise first. That sounds good. It might help calm these butterflies in my stomach. And then I just... start talking about the accident? Do I need to include every detail, or just the main parts?"
+    ],
+    [
+      "Therapist: We'll begin with a relaxation exercise. Then you'll start describing.",
+      "Client: Okay, a relaxation exercise first. That sounds good. It might help calm these butterflies in my stomach. And then I just... start talking about the accident? Do I need to include every detail, or just the main parts?",
+      "Therapist: Include as much detail as you can. We'll work through it together."
+    ],
+    [
+      "Client: Okay, a relaxation exercise first. That sounds good. It might help calm these butterflies in my stomach. And then I just... start talking about the accident? Do I need to include every detail, or just the main parts?",
+      "Therapist: Include as much detail as you can. We'll work through it together.",
+      "Client: As much detail as I can... alright. I'll do my best. I appreciate your guidance, Dr. Thompson. I know this won't be easy, but knowing you're here to help me through it makes a big difference. I'm ready whenever you are."
+    ],
+    [
+      "Therapist: Include as much detail as you can. We'll work through it together.",
+      "Client: As much detail as I can... alright. I'll do my best. I appreciate your guidance, Dr. Thompson. I know this won't be easy, but knowing you're here to help me through it makes a big difference. I'm ready whenever you are.",
+      "Therapist: You're showing great strength, John. Let's begin the relaxation."
+    ]
+  ]
+}

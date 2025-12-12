@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+    "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating.",
+    "Client: I'd say about a 4 right now. Just thinking about revisiting that memory makes me tense up a bit.",
+    "Therapist: Okay. Take a deep breath and begin when you're ready.",
+    "Client: Alright... I'm standing on the street corner, waiting for the bus. It's a sunny day, but there's a chill in the air. I can hear cars passing by and people chatting as they walk past. Suddenly, I hear raised voices. Two men are arguing loudly near the bus stop. Their voices are getting angrier, and I'm starting to feel uneasy.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's creeping up, maybe a 6. My heart is beating faster as I remember how quickly things escalated.",
+    "Therapist: You're doing well. Continue.",
+    "Client: The men are shouting now. One of them, a white man, is yelling racial slurs at the other man, who's Black. I feel sick to my stomach. I want to intervene, but I'm frozen. Then... oh God, the white man pushes the Black man hard. He stumbles backward into the street, nearly getting hit by a car. I can still hear the screeching of tires...",
+    "Therapist: Take a breath. What's your SUDS?",
+    "Client: It's... it's an 8. My hands are shaking, and I feel like I can't breathe properly.",
+    "Therapist: That's okay. You're safe here. Keep going if you can.",
+    "Client: The Black man regains his balance and lunges at the other guy. They're grappling now, right there on the sidewalk. People are shouting, some are running away. I hear someone yell, \"Call the police!\" But I'm just standing there, watching it happen. I feel so ashamed that I didn't do anything...",
+    "Therapist: Your feelings are valid. What's your SUDS now?",
+    "Client: It's still an 8. My chest feels tight, and I'm sweating. I keep replaying it in my head, wondering what I could have done differently.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The fight gets worse. The white man pulls out a knife. Everything seems to slow down. I see the blade glinting in the sunlight. The Black man sees it too and tries to back away, but he trips and falls. The white man lunges forward with the knife. I scream, but it feels like no sound comes out. There's blood... so much blood...",
+    "Therapist: Pause for a moment. How are you feeling?",
+    "Client: I... I'm at a 9. My heart is racing, and I feel dizzy. It's like I'm right back there again.",
+    "Therapist: You're safe here. Breathe slowly. Continue when ready.",
+    "Client: Okay... People are rushing to help now. Someone's putting pressure on the wound. Sirens are approaching. I'm still just standing there, useless. The white man has dropped the knife and is trying to run away, but a couple of bystanders tackle him. The police arrive, then an ambulance. It's chaos. I give a statement, but I feel numb. I can't stop staring at the blood on the sidewalk...",
+    "Therapist: And now? Your SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7. I feel drained, but the panic is subsiding.",
+    "Therapist: You've done well. How do you feel about the exercise?",
+    "Client: It was intense. But... I think it helped. I feel like I processed some of it. Is that normal?",
+    "Therapist: Yes, it's a common experience. Well done today.",
+    "Client: Thank you. I'm exhausted, but I feel a little lighter.",
+    "Therapist: That's great progress. We'll end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. Today we'll continue with our imaginal exposure exercise. Are you ready to begin?",
+      "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 right now. Just thinking about revisiting that memory makes me tense up a bit."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 right now. Just thinking about revisiting that memory makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: I'd say about a 4 right now. Just thinking about revisiting that memory makes me tense up a bit.",
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm standing on the street corner, waiting for the bus. It's a sunny day, but there's a chill in the air. I can hear cars passing by and people chatting as they walk past. Suddenly, I hear raised voices. Two men are arguing loudly near the bus stop. Their voices are getting angrier, and I'm starting to feel uneasy."
+    ],
+    [
+      "Therapist: Okay. Take a deep breath and begin when you're ready.",
+      "Client: Alright... I'm standing on the street corner, waiting for the bus. It's a sunny day, but there's a chill in the air. I can hear cars passing by and people chatting as they walk past. Suddenly, I hear raised voices. Two men are arguing loudly near the bus stop. Their voices are getting angrier, and I'm starting to feel uneasy.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: Alright... I'm standing on the street corner, waiting for the bus. It's a sunny day, but there's a chill in the air. I can hear cars passing by and people chatting as they walk past. Suddenly, I hear raised voices. Two men are arguing loudly near the bus stop. Their voices are getting angrier, and I'm starting to feel uneasy.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's creeping up, maybe a 6. My heart is beating faster as I remember how quickly things escalated."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's creeping up, maybe a 6. My heart is beating faster as I remember how quickly things escalated.",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: It's creeping up, maybe a 6. My heart is beating faster as I remember how quickly things escalated.",
+      "Therapist: You're doing well. Continue.",
+      "Client: The men are shouting now. One of them, a white man, is yelling racial slurs at the other man, who's Black. I feel sick to my stomach. I want to intervene, but I'm frozen. Then... oh God, the white man pushes the Black man hard. He stumbles backward into the street, nearly getting hit by a car. I can still hear the screeching of tires..."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The men are shouting now. One of them, a white man, is yelling racial slurs at the other man, who's Black. I feel sick to my stomach. I want to intervene, but I'm frozen. Then... oh God, the white man pushes the Black man hard. He stumbles backward into the street, nearly getting hit by a car. I can still hear the screeching of tires...",
+      "Therapist: Take a breath. What's your SUDS?"
+    ],
+    [
+      "Client: The men are shouting now. One of them, a white man, is yelling racial slurs at the other man, who's Black. I feel sick to my stomach. I want to intervene, but I'm frozen. Then... oh God, the white man pushes the Black man hard. He stumbles backward into the street, nearly getting hit by a car. I can still hear the screeching of tires...",
+      "Therapist: Take a breath. What's your SUDS?",
+      "Client: It's... it's an 8. My hands are shaking, and I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: Take a breath. What's your SUDS?",
+      "Client: It's... it's an 8. My hands are shaking, and I feel like I can't breathe properly.",
+      "Therapist: That's okay. You're safe here. Keep going if you can."
+    ],
+    [
+      "Client: It's... it's an 8. My hands are shaking, and I feel like I can't breathe properly.",
+      "Therapist: That's okay. You're safe here. Keep going if you can.",
+      "Client: The Black man regains his balance and lunges at the other guy. They're grappling now, right there on the sidewalk. People are shouting, some are running away. I hear someone yell, \"Call the police!\" But I'm just standing there, watching it happen. I feel so ashamed that I didn't do anything..."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going if you can.",
+      "Client: The Black man regains his balance and lunges at the other guy. They're grappling now, right there on the sidewalk. People are shouting, some are running away. I hear someone yell, \"Call the police!\" But I'm just standing there, watching it happen. I feel so ashamed that I didn't do anything...",
+      "Therapist: Your feelings are valid. What's your SUDS now?"
+    ],
+    [
+      "Client: The Black man regains his balance and lunges at the other guy. They're grappling now, right there on the sidewalk. People are shouting, some are running away. I hear someone yell, \"Call the police!\" But I'm just standing there, watching it happen. I feel so ashamed that I didn't do anything...",
+      "Therapist: Your feelings are valid. What's your SUDS now?",
+      "Client: It's still an 8. My chest feels tight, and I'm sweating. I keep replaying it in my head, wondering what I could have done differently."
+    ],
+    [
+      "Therapist: Your feelings are valid. What's your SUDS now?",
+      "Client: It's still an 8. My chest feels tight, and I'm sweating. I keep replaying it in my head, wondering what I could have done differently.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: It's still an 8. My chest feels tight, and I'm sweating. I keep replaying it in my head, wondering what I could have done differently.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The fight gets worse. The white man pulls out a knife. Everything seems to slow down. I see the blade glinting in the sunlight. The Black man sees it too and tries to back away, but he trips and falls. The white man lunges forward with the knife. I scream, but it feels like no sound comes out. There's blood... so much blood..."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The fight gets worse. The white man pulls out a knife. Everything seems to slow down. I see the blade glinting in the sunlight. The Black man sees it too and tries to back away, but he trips and falls. The white man lunges forward with the knife. I scream, but it feels like no sound comes out. There's blood... so much blood...",
+      "Therapist: Pause for a moment. How are you feeling?"
+    ],
+    [
+      "Client: The fight gets worse. The white man pulls out a knife. Everything seems to slow down. I see the blade glinting in the sunlight. The Black man sees it too and tries to back away, but he trips and falls. The white man lunges forward with the knife. I scream, but it feels like no sound comes out. There's blood... so much blood...",
+      "Therapist: Pause for a moment. How are you feeling?",
+      "Client: I... I'm at a 9. My heart is racing, and I feel dizzy. It's like I'm right back there again."
+    ],
+    [
+      "Therapist: Pause for a moment. How are you feeling?",
+      "Client: I... I'm at a 9. My heart is racing, and I feel dizzy. It's like I'm right back there again.",
+      "Therapist: You're safe here. Breathe slowly. Continue when ready."
+    ],
+    [
+      "Client: I... I'm at a 9. My heart is racing, and I feel dizzy. It's like I'm right back there again.",
+      "Therapist: You're safe here. Breathe slowly. Continue when ready.",
+      "Client: Okay... People are rushing to help now. Someone's putting pressure on the wound. Sirens are approaching. I'm still just standing there, useless. The white man has dropped the knife and is trying to run away, but a couple of bystanders tackle him. The police arrive, then an ambulance. It's chaos. I give a statement, but I feel numb. I can't stop staring at the blood on the sidewalk..."
+    ],
+    [
+      "Therapist: You're safe here. Breathe slowly. Continue when ready.",
+      "Client: Okay... People are rushing to help now. Someone's putting pressure on the wound. Sirens are approaching. I'm still just standing there, useless. The white man has dropped the knife and is trying to run away, but a couple of bystanders tackle him. The police arrive, then an ambulance. It's chaos. I give a statement, but I feel numb. I can't stop staring at the blood on the sidewalk...",
+      "Therapist: And now? Your SUDS?"
+    ],
+    [
+      "Client: Okay... People are rushing to help now. Someone's putting pressure on the wound. Sirens are approaching. I'm still just standing there, useless. The white man has dropped the knife and is trying to run away, but a couple of bystanders tackle him. The police arrive, then an ambulance. It's chaos. I give a statement, but I feel numb. I can't stop staring at the blood on the sidewalk...",
+      "Therapist: And now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7. I feel drained, but the panic is subsiding."
+    ],
+    [
+      "Therapist: And now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7. I feel drained, but the panic is subsiding.",
+      "Therapist: You've done well. How do you feel about the exercise?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7. I feel drained, but the panic is subsiding.",
+      "Therapist: You've done well. How do you feel about the exercise?",
+      "Client: It was intense. But... I think it helped. I feel like I processed some of it. Is that normal?"
+    ],
+    [
+      "Therapist: You've done well. How do you feel about the exercise?",
+      "Client: It was intense. But... I think it helped. I feel like I processed some of it. Is that normal?",
+      "Therapist: Yes, it's a common experience. Well done today."
+    ],
+    [
+      "Client: It was intense. But... I think it helped. I feel like I processed some of it. Is that normal?",
+      "Therapist: Yes, it's a common experience. Well done today.",
+      "Client: Thank you. I'm exhausted, but I feel a little lighter."
+    ],
+    [
+      "Therapist: Yes, it's a common experience. Well done today.",
+      "Client: Thank you. I'm exhausted, but I feel a little lighter.",
+      "Therapist: That's great progress. We'll end here for today."
+    ]
+  ]
+}

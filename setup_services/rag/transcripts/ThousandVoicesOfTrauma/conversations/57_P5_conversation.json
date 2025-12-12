@@ -1,0 +1,92 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Johnson. Today, we'll be starting imaginal exposure. How are you feeling about this?",
+    "Client: Good morning, Doctor. To be honest, I'm a bit nervous. I've been dreading this part of the therapy. The idea of reliving that horrible accident... it's unsettling. I've spent years trying to forget it, and now you're asking me to remember it in detail. It's... well, it's frightening.",
+    "Therapist: I understand your apprehension. It's a challenging but crucial step. Shall we discuss the process?",
+    "Client: Yes, please. I need to know what I'm getting into. Will this make things worse? I mean, I've been managing okay lately, but I'm worried this might set me back. And... well, I'm not sure I can handle reliving those moments. The screaming, the blood... it's all so vivid in my mind already.",
+    "Therapist: Your concerns are valid. This process aims to reduce, not increase, your distress long-term. How about we outline the session?",
+    "Client: That would be helpful, yes. I suppose I should know what to expect. Will you be guiding me through it? And how long does this typically last? I'm worried I might... I don't know, lose control or something. It's been years since I've allowed myself to think about that day in any detail.",
+    "Therapist: I'll guide you throughout. Sessions usually last about 30-45 minutes. Your safety is my priority. Any other concerns?",
+    "Client: Well, I'm worried about how I'll feel afterward. Will I be able to drive home? And what if I can't stop thinking about it once we start? I've worked hard to keep these memories at bay, and I'm afraid of opening floodgates I can't close. Also, is it normal to feel this anxious before we even begin?",
+    "Therapist: Your anxiety is normal. We'll ensure you're stable before leaving. Shall we discuss coping strategies for after the session?",
+    "Client: Yes, that would be very helpful. I live alone, you see, since my wife passed. I don't have anyone at home to talk to if things get overwhelming. And frankly, I'm not sure I'd want to burden my children with this. They've moved on with their lives, and I don't want to drag them back into my problems. So, any strategies you can give me would be greatly appreciated.",
+    "Therapist: I'm glad you brought that up. Let's create a post-session plan tailored to your situation.",
+    "Client: Thank you, that's reassuring. I suppose I should also ask - will this really help? I mean, I've been carrying this burden for so long, it's hard to imagine that revisiting it will make things better. But I trust your expertise, and I'm willing to try if you think it will help. I just... I want to be sure this isn't going to make everything worse.",
+    "Therapist: Your willingness is commendable. Research shows this approach effectively reduces PTSD symptoms over time. Ready to begin?",
+    "Client: I... I think so. I'm still nervous, but I understand the importance. You'll be here the whole time, right? And we can stop if it becomes too much? I want to do this, I really do. I'm tired of living with this shadow over me. If this can help me move forward, then I'm willing to face it. Let's... let's give it a try.",
+    "Therapist: Absolutely. I'll be here throughout. We can pause anytime. Your courage is admirable. Shall we start?",
+    "Client: Okay, yes. Let's do this. I'm as ready as I'll ever be, I suppose. Thank you for your patience and guidance. I'm putting my trust in you and this process. Here goes nothing..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Johnson. Today, we'll be starting imaginal exposure. How are you feeling about this?",
+      "Client: Good morning, Doctor. To be honest, I'm a bit nervous. I've been dreading this part of the therapy. The idea of reliving that horrible accident... it's unsettling. I've spent years trying to forget it, and now you're asking me to remember it in detail. It's... well, it's frightening.",
+      "Therapist: I understand your apprehension. It's a challenging but crucial step. Shall we discuss the process?"
+    ],
+    [
+      "Client: Good morning, Doctor. To be honest, I'm a bit nervous. I've been dreading this part of the therapy. The idea of reliving that horrible accident... it's unsettling. I've spent years trying to forget it, and now you're asking me to remember it in detail. It's... well, it's frightening.",
+      "Therapist: I understand your apprehension. It's a challenging but crucial step. Shall we discuss the process?",
+      "Client: Yes, please. I need to know what I'm getting into. Will this make things worse? I mean, I've been managing okay lately, but I'm worried this might set me back. And... well, I'm not sure I can handle reliving those moments. The screaming, the blood... it's all so vivid in my mind already."
+    ],
+    [
+      "Therapist: I understand your apprehension. It's a challenging but crucial step. Shall we discuss the process?",
+      "Client: Yes, please. I need to know what I'm getting into. Will this make things worse? I mean, I've been managing okay lately, but I'm worried this might set me back. And... well, I'm not sure I can handle reliving those moments. The screaming, the blood... it's all so vivid in my mind already.",
+      "Therapist: Your concerns are valid. This process aims to reduce, not increase, your distress long-term. How about we outline the session?"
+    ],
+    [
+      "Client: Yes, please. I need to know what I'm getting into. Will this make things worse? I mean, I've been managing okay lately, but I'm worried this might set me back. And... well, I'm not sure I can handle reliving those moments. The screaming, the blood... it's all so vivid in my mind already.",
+      "Therapist: Your concerns are valid. This process aims to reduce, not increase, your distress long-term. How about we outline the session?",
+      "Client: That would be helpful, yes. I suppose I should know what to expect. Will you be guiding me through it? And how long does this typically last? I'm worried I might... I don't know, lose control or something. It's been years since I've allowed myself to think about that day in any detail."
+    ],
+    [
+      "Therapist: Your concerns are valid. This process aims to reduce, not increase, your distress long-term. How about we outline the session?",
+      "Client: That would be helpful, yes. I suppose I should know what to expect. Will you be guiding me through it? And how long does this typically last? I'm worried I might... I don't know, lose control or something. It's been years since I've allowed myself to think about that day in any detail.",
+      "Therapist: I'll guide you throughout. Sessions usually last about 30-45 minutes. Your safety is my priority. Any other concerns?"
+    ],
+    [
+      "Client: That would be helpful, yes. I suppose I should know what to expect. Will you be guiding me through it? And how long does this typically last? I'm worried I might... I don't know, lose control or something. It's been years since I've allowed myself to think about that day in any detail.",
+      "Therapist: I'll guide you throughout. Sessions usually last about 30-45 minutes. Your safety is my priority. Any other concerns?",
+      "Client: Well, I'm worried about how I'll feel afterward. Will I be able to drive home? And what if I can't stop thinking about it once we start? I've worked hard to keep these memories at bay, and I'm afraid of opening floodgates I can't close. Also, is it normal to feel this anxious before we even begin?"
+    ],
+    [
+      "Therapist: I'll guide you throughout. Sessions usually last about 30-45 minutes. Your safety is my priority. Any other concerns?",
+      "Client: Well, I'm worried about how I'll feel afterward. Will I be able to drive home? And what if I can't stop thinking about it once we start? I've worked hard to keep these memories at bay, and I'm afraid of opening floodgates I can't close. Also, is it normal to feel this anxious before we even begin?",
+      "Therapist: Your anxiety is normal. We'll ensure you're stable before leaving. Shall we discuss coping strategies for after the session?"
+    ],
+    [
+      "Client: Well, I'm worried about how I'll feel afterward. Will I be able to drive home? And what if I can't stop thinking about it once we start? I've worked hard to keep these memories at bay, and I'm afraid of opening floodgates I can't close. Also, is it normal to feel this anxious before we even begin?",
+      "Therapist: Your anxiety is normal. We'll ensure you're stable before leaving. Shall we discuss coping strategies for after the session?",
+      "Client: Yes, that would be very helpful. I live alone, you see, since my wife passed. I don't have anyone at home to talk to if things get overwhelming. And frankly, I'm not sure I'd want to burden my children with this. They've moved on with their lives, and I don't want to drag them back into my problems. So, any strategies you can give me would be greatly appreciated."
+    ],
+    [
+      "Therapist: Your anxiety is normal. We'll ensure you're stable before leaving. Shall we discuss coping strategies for after the session?",
+      "Client: Yes, that would be very helpful. I live alone, you see, since my wife passed. I don't have anyone at home to talk to if things get overwhelming. And frankly, I'm not sure I'd want to burden my children with this. They've moved on with their lives, and I don't want to drag them back into my problems. So, any strategies you can give me would be greatly appreciated.",
+      "Therapist: I'm glad you brought that up. Let's create a post-session plan tailored to your situation."
+    ],
+    [
+      "Client: Yes, that would be very helpful. I live alone, you see, since my wife passed. I don't have anyone at home to talk to if things get overwhelming. And frankly, I'm not sure I'd want to burden my children with this. They've moved on with their lives, and I don't want to drag them back into my problems. So, any strategies you can give me would be greatly appreciated.",
+      "Therapist: I'm glad you brought that up. Let's create a post-session plan tailored to your situation.",
+      "Client: Thank you, that's reassuring. I suppose I should also ask - will this really help? I mean, I've been carrying this burden for so long, it's hard to imagine that revisiting it will make things better. But I trust your expertise, and I'm willing to try if you think it will help. I just... I want to be sure this isn't going to make everything worse."
+    ],
+    [
+      "Therapist: I'm glad you brought that up. Let's create a post-session plan tailored to your situation.",
+      "Client: Thank you, that's reassuring. I suppose I should also ask - will this really help? I mean, I've been carrying this burden for so long, it's hard to imagine that revisiting it will make things better. But I trust your expertise, and I'm willing to try if you think it will help. I just... I want to be sure this isn't going to make everything worse.",
+      "Therapist: Your willingness is commendable. Research shows this approach effectively reduces PTSD symptoms over time. Ready to begin?"
+    ],
+    [
+      "Client: Thank you, that's reassuring. I suppose I should also ask - will this really help? I mean, I've been carrying this burden for so long, it's hard to imagine that revisiting it will make things better. But I trust your expertise, and I'm willing to try if you think it will help. I just... I want to be sure this isn't going to make everything worse.",
+      "Therapist: Your willingness is commendable. Research shows this approach effectively reduces PTSD symptoms over time. Ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I understand the importance. You'll be here the whole time, right? And we can stop if it becomes too much? I want to do this, I really do. I'm tired of living with this shadow over me. If this can help me move forward, then I'm willing to face it. Let's... let's give it a try."
+    ],
+    [
+      "Therapist: Your willingness is commendable. Research shows this approach effectively reduces PTSD symptoms over time. Ready to begin?",
+      "Client: I... I think so. I'm still nervous, but I understand the importance. You'll be here the whole time, right? And we can stop if it becomes too much? I want to do this, I really do. I'm tired of living with this shadow over me. If this can help me move forward, then I'm willing to face it. Let's... let's give it a try.",
+      "Therapist: Absolutely. I'll be here throughout. We can pause anytime. Your courage is admirable. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. I'm still nervous, but I understand the importance. You'll be here the whole time, right? And we can stop if it becomes too much? I want to do this, I really do. I'm tired of living with this shadow over me. If this can help me move forward, then I'm willing to face it. Let's... let's give it a try.",
+      "Therapist: Absolutely. I'll be here throughout. We can pause anytime. Your courage is admirable. Shall we start?",
+      "Client: Okay, yes. Let's do this. I'm as ready as I'll ever be, I suppose. Thank you for your patience and guidance. I'm putting my trust in you and this process. Here goes nothing..."
+    ]
+  ]
+}

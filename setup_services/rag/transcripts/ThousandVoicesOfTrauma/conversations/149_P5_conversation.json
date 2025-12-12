@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Singh. How are you feeling today?",
+    "Client: Good morning, Doctor. I'm... I'm alright, I suppose. A bit nervous about what we're going to do today. I've been thinking about it since our last session.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, it's just... I've spent so long trying to forget about what happened during my marriage. The idea of purposely bringing those memories back... it's terrifying. I've worked hard to build a life for myself after the divorce, and I'm afraid this might undo all of that progress.",
+    "Therapist: I appreciate your honesty. How do you think revisiting might affect you?",
+    "Client: I'm worried I might fall apart completely. What if I can't handle it? What if I leave here feeling worse than when I came in? I've managed to keep myself together for my work and my daily life, but this feels like opening Pandora's box.",
+    "Therapist: Your concerns are valid. How can I support you today?",
+    "Client: I... I'm not sure. I guess I need to know that you'll be here to help me if things get too intense. And maybe some reassurance that this is actually going to help in the long run. It's hard to see how reliving those painful memories could possibly be beneficial.",
+    "Therapist: I understand. Let me explain the process and benefits. Ready?",
+    "Client: Alright, I'm listening. But I have to admit, I'm still skeptical about this whole thing. It goes against everything I've been doing to cope for the past few years.",
+    "Therapist: That's natural. Imaginal exposure helps process trauma memories. It can reduce PTSD symptoms over time.",
+    "Client: I see. But how exactly does it work? I mean, I understand the concept of exposure therapy for phobias, but this seems different. We're not talking about a fear of heights or spiders here. This is... this is my life, my past.",
+    "Therapist: You're right, it is different. We'll revisit memories safely, helping your brain process them.",
+    "Client: Process them? What does that mean exactly? I feel like I've been processing these memories for years, and it hasn't exactly made things better.",
+    "Therapist: Processing means integrating the memories, reducing their emotional impact. It's different from rumination.",
+    "Client: I see. So, it's not just about remembering, but about changing how those memories affect me? That does sound potentially helpful. But I'm still worried about how intense it might be. What if I can't handle it?",
+    "Therapist: We'll go at your pace. You're in control. We can pause anytime you need.",
+    "Client: That's reassuring. I appreciate that you're not pushing me into this. It helps to know I have some control over the process. Can you tell me more about what to expect during the actual exposure?",
+    "Therapist: Of course. You'll describe a specific memory in detail. I'll guide you through it.",
+    "Client: In detail? That sounds... challenging. I've spent so long trying to avoid thinking about these things in detail. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+    "Therapist: Eyes open or closed - your choice. The goal is to engage with the memory fully.",
+    "Client: I see. I think I'd prefer to keep my eyes open, at least at first. It might help me feel more grounded in the present. How long does this process usually take? Is it something we'll do in just one session?",
+    "Therapist: It varies. We'll likely do multiple sessions, each building on the last.",
+    "Client: Multiple sessions... I suppose that makes sense. It's not like years of trauma can be undone in an hour. I'm curious, though - what kind of changes might I notice after we start this process?",
+    "Therapist: You may experience reduced nightmares, less avoidance, and improved daily functioning.",
+    "Client: That sounds... promising. I have to admit, the idea of fewer nightmares is appealing. They've been a constant in my life for so long. And the avoidance... well, it's affected my relationships, my work. If this could help with that, it might be worth the discomfort.",
+    "Therapist: Your courage is admirable. Are you ready to begin?",
+    "Client: I... I think so. Yes. I'm still nervous, but I trust you, and I want to get better. Let's do this. Where do we start?",
+    "Therapist: We'll start with a less intense memory. Choose one you feel ready to explore.",
+    "Client: Okay. I think I can do that. There's one memory... it's not the worst, but it was a turning point. It was the first time I realized things weren't going to get better in my marriage. Is that okay to start with?",
+    "Therapist: That's perfect. Take a deep breath. When you're ready, describe the scene."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Singh. How are you feeling today?",
+      "Client: Good morning, Doctor. I'm... I'm alright, I suppose. A bit nervous about what we're going to do today. I've been thinking about it since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Good morning, Doctor. I'm... I'm alright, I suppose. A bit nervous about what we're going to do today. I've been thinking about it since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my marriage. The idea of purposely bringing those memories back... it's terrifying. I've worked hard to build a life for myself after the divorce, and I'm afraid this might undo all of that progress."
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my marriage. The idea of purposely bringing those memories back... it's terrifying. I've worked hard to build a life for myself after the divorce, and I'm afraid this might undo all of that progress.",
+      "Therapist: I appreciate your honesty. How do you think revisiting might affect you?"
+    ],
+    [
+      "Client: Well, it's just... I've spent so long trying to forget about what happened during my marriage. The idea of purposely bringing those memories back... it's terrifying. I've worked hard to build a life for myself after the divorce, and I'm afraid this might undo all of that progress.",
+      "Therapist: I appreciate your honesty. How do you think revisiting might affect you?",
+      "Client: I'm worried I might fall apart completely. What if I can't handle it? What if I leave here feeling worse than when I came in? I've managed to keep myself together for my work and my daily life, but this feels like opening Pandora's box."
+    ],
+    [
+      "Therapist: I appreciate your honesty. How do you think revisiting might affect you?",
+      "Client: I'm worried I might fall apart completely. What if I can't handle it? What if I leave here feeling worse than when I came in? I've managed to keep myself together for my work and my daily life, but this feels like opening Pandora's box.",
+      "Therapist: Your concerns are valid. How can I support you today?"
+    ],
+    [
+      "Client: I'm worried I might fall apart completely. What if I can't handle it? What if I leave here feeling worse than when I came in? I've managed to keep myself together for my work and my daily life, but this feels like opening Pandora's box.",
+      "Therapist: Your concerns are valid. How can I support you today?",
+      "Client: I... I'm not sure. I guess I need to know that you'll be here to help me if things get too intense. And maybe some reassurance that this is actually going to help in the long run. It's hard to see how reliving those painful memories could possibly be beneficial."
+    ],
+    [
+      "Therapist: Your concerns are valid. How can I support you today?",
+      "Client: I... I'm not sure. I guess I need to know that you'll be here to help me if things get too intense. And maybe some reassurance that this is actually going to help in the long run. It's hard to see how reliving those painful memories could possibly be beneficial.",
+      "Therapist: I understand. Let me explain the process and benefits. Ready?"
+    ],
+    [
+      "Client: I... I'm not sure. I guess I need to know that you'll be here to help me if things get too intense. And maybe some reassurance that this is actually going to help in the long run. It's hard to see how reliving those painful memories could possibly be beneficial.",
+      "Therapist: I understand. Let me explain the process and benefits. Ready?",
+      "Client: Alright, I'm listening. But I have to admit, I'm still skeptical about this whole thing. It goes against everything I've been doing to cope for the past few years."
+    ],
+    [
+      "Therapist: I understand. Let me explain the process and benefits. Ready?",
+      "Client: Alright, I'm listening. But I have to admit, I'm still skeptical about this whole thing. It goes against everything I've been doing to cope for the past few years.",
+      "Therapist: That's natural. Imaginal exposure helps process trauma memories. It can reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: Alright, I'm listening. But I have to admit, I'm still skeptical about this whole thing. It goes against everything I've been doing to cope for the past few years.",
+      "Therapist: That's natural. Imaginal exposure helps process trauma memories. It can reduce PTSD symptoms over time.",
+      "Client: I see. But how exactly does it work? I mean, I understand the concept of exposure therapy for phobias, but this seems different. We're not talking about a fear of heights or spiders here. This is... this is my life, my past."
+    ],
+    [
+      "Therapist: That's natural. Imaginal exposure helps process trauma memories. It can reduce PTSD symptoms over time.",
+      "Client: I see. But how exactly does it work? I mean, I understand the concept of exposure therapy for phobias, but this seems different. We're not talking about a fear of heights or spiders here. This is... this is my life, my past.",
+      "Therapist: You're right, it is different. We'll revisit memories safely, helping your brain process them."
+    ],
+    [
+      "Client: I see. But how exactly does it work? I mean, I understand the concept of exposure therapy for phobias, but this seems different. We're not talking about a fear of heights or spiders here. This is... this is my life, my past.",
+      "Therapist: You're right, it is different. We'll revisit memories safely, helping your brain process them.",
+      "Client: Process them? What does that mean exactly? I feel like I've been processing these memories for years, and it hasn't exactly made things better."
+    ],
+    [
+      "Therapist: You're right, it is different. We'll revisit memories safely, helping your brain process them.",
+      "Client: Process them? What does that mean exactly? I feel like I've been processing these memories for years, and it hasn't exactly made things better.",
+      "Therapist: Processing means integrating the memories, reducing their emotional impact. It's different from rumination."
+    ],
+    [
+      "Client: Process them? What does that mean exactly? I feel like I've been processing these memories for years, and it hasn't exactly made things better.",
+      "Therapist: Processing means integrating the memories, reducing their emotional impact. It's different from rumination.",
+      "Client: I see. So, it's not just about remembering, but about changing how those memories affect me? That does sound potentially helpful. But I'm still worried about how intense it might be. What if I can't handle it?"
+    ],
+    [
+      "Therapist: Processing means integrating the memories, reducing their emotional impact. It's different from rumination.",
+      "Client: I see. So, it's not just about remembering, but about changing how those memories affect me? That does sound potentially helpful. But I'm still worried about how intense it might be. What if I can't handle it?",
+      "Therapist: We'll go at your pace. You're in control. We can pause anytime you need."
+    ],
+    [
+      "Client: I see. So, it's not just about remembering, but about changing how those memories affect me? That does sound potentially helpful. But I'm still worried about how intense it might be. What if I can't handle it?",
+      "Therapist: We'll go at your pace. You're in control. We can pause anytime you need.",
+      "Client: That's reassuring. I appreciate that you're not pushing me into this. It helps to know I have some control over the process. Can you tell me more about what to expect during the actual exposure?"
+    ],
+    [
+      "Therapist: We'll go at your pace. You're in control. We can pause anytime you need.",
+      "Client: That's reassuring. I appreciate that you're not pushing me into this. It helps to know I have some control over the process. Can you tell me more about what to expect during the actual exposure?",
+      "Therapist: Of course. You'll describe a specific memory in detail. I'll guide you through it."
+    ],
+    [
+      "Client: That's reassuring. I appreciate that you're not pushing me into this. It helps to know I have some control over the process. Can you tell me more about what to expect during the actual exposure?",
+      "Therapist: Of course. You'll describe a specific memory in detail. I'll guide you through it.",
+      "Client: In detail? That sounds... challenging. I've spent so long trying to avoid thinking about these things in detail. Will I have to close my eyes? I'm not sure I'd be comfortable with that."
+    ],
+    [
+      "Therapist: Of course. You'll describe a specific memory in detail. I'll guide you through it.",
+      "Client: In detail? That sounds... challenging. I've spent so long trying to avoid thinking about these things in detail. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+      "Therapist: Eyes open or closed - your choice. The goal is to engage with the memory fully."
+    ],
+    [
+      "Client: In detail? That sounds... challenging. I've spent so long trying to avoid thinking about these things in detail. Will I have to close my eyes? I'm not sure I'd be comfortable with that.",
+      "Therapist: Eyes open or closed - your choice. The goal is to engage with the memory fully.",
+      "Client: I see. I think I'd prefer to keep my eyes open, at least at first. It might help me feel more grounded in the present. How long does this process usually take? Is it something we'll do in just one session?"
+    ],
+    [
+      "Therapist: Eyes open or closed - your choice. The goal is to engage with the memory fully.",
+      "Client: I see. I think I'd prefer to keep my eyes open, at least at first. It might help me feel more grounded in the present. How long does this process usually take? Is it something we'll do in just one session?",
+      "Therapist: It varies. We'll likely do multiple sessions, each building on the last."
+    ],
+    [
+      "Client: I see. I think I'd prefer to keep my eyes open, at least at first. It might help me feel more grounded in the present. How long does this process usually take? Is it something we'll do in just one session?",
+      "Therapist: It varies. We'll likely do multiple sessions, each building on the last.",
+      "Client: Multiple sessions... I suppose that makes sense. It's not like years of trauma can be undone in an hour. I'm curious, though - what kind of changes might I notice after we start this process?"
+    ],
+    [
+      "Therapist: It varies. We'll likely do multiple sessions, each building on the last.",
+      "Client: Multiple sessions... I suppose that makes sense. It's not like years of trauma can be undone in an hour. I'm curious, though - what kind of changes might I notice after we start this process?",
+      "Therapist: You may experience reduced nightmares, less avoidance, and improved daily functioning."
+    ],
+    [
+      "Client: Multiple sessions... I suppose that makes sense. It's not like years of trauma can be undone in an hour. I'm curious, though - what kind of changes might I notice after we start this process?",
+      "Therapist: You may experience reduced nightmares, less avoidance, and improved daily functioning.",
+      "Client: That sounds... promising. I have to admit, the idea of fewer nightmares is appealing. They've been a constant in my life for so long. And the avoidance... well, it's affected my relationships, my work. If this could help with that, it might be worth the discomfort."
+    ],
+    [
+      "Therapist: You may experience reduced nightmares, less avoidance, and improved daily functioning.",
+      "Client: That sounds... promising. I have to admit, the idea of fewer nightmares is appealing. They've been a constant in my life for so long. And the avoidance... well, it's affected my relationships, my work. If this could help with that, it might be worth the discomfort.",
+      "Therapist: Your courage is admirable. Are you ready to begin?"
+    ],
+    [
+      "Client: That sounds... promising. I have to admit, the idea of fewer nightmares is appealing. They've been a constant in my life for so long. And the avoidance... well, it's affected my relationships, my work. If this could help with that, it might be worth the discomfort.",
+      "Therapist: Your courage is admirable. Are you ready to begin?",
+      "Client: I... I think so. Yes. I'm still nervous, but I trust you, and I want to get better. Let's do this. Where do we start?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Are you ready to begin?",
+      "Client: I... I think so. Yes. I'm still nervous, but I trust you, and I want to get better. Let's do this. Where do we start?",
+      "Therapist: We'll start with a less intense memory. Choose one you feel ready to explore."
+    ],
+    [
+      "Client: I... I think so. Yes. I'm still nervous, but I trust you, and I want to get better. Let's do this. Where do we start?",
+      "Therapist: We'll start with a less intense memory. Choose one you feel ready to explore.",
+      "Client: Okay. I think I can do that. There's one memory... it's not the worst, but it was a turning point. It was the first time I realized things weren't going to get better in my marriage. Is that okay to start with?"
+    ],
+    [
+      "Therapist: We'll start with a less intense memory. Choose one you feel ready to explore.",
+      "Client: Okay. I think I can do that. There's one memory... it's not the worst, but it was a turning point. It was the first time I realized things weren't going to get better in my marriage. Is that okay to start with?",
+      "Therapist: That's perfect. Take a deep breath. When you're ready, describe the scene."
+    ]
+  ]
+}

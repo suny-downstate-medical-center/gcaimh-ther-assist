@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to be doing something different today, and I'm not sure what to expect. My anxiety has been pretty high lately, especially with my upcoming exams.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+    "Client: Not really. I mean, I've heard the term, but I'm not sure what it actually involves. Can you explain it to me?",
+    "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe environment. How does that sound?",
+    "Client: That sounds... scary. I've been trying so hard not to think about what happened. Won't it make things worse if I deliberately remember it?",
+    "Therapist: It's a common concern. However, facing the memory can actually reduce its power over you. What are your thoughts on that?",
+    "Client: I guess that makes sense, but I'm still worried. What if I can't handle it? What if I have a panic attack or something?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you. How does that reassurance feel?",
+    "Client: It helps a little. I trust you, but I'm still scared. Can you tell me more about what exactly we'll be doing?",
+    "Therapist: We'll start with a brief relaxation exercise, then you'll describe the traumatic event in present tense. How does that sound?",
+    "Client: Present tense? Like it's happening right now? That seems intense. How long will I have to do that for?",
+    "Therapist: We'll aim for about 30-45 minutes. Remember, you're in control. We can pause anytime. Does that help?",
+    "Client: A little, yes. But that still seems like a long time to be reliving something so awful. What if I get overwhelmed?",
+    "Therapist: If you feel overwhelmed, we'll use grounding techniques. Your safety is our priority. How does that plan sound?",
+    "Client: Okay, that's good to know. I appreciate that you have strategies in place. Can I ask, why is this considered effective for PTSD?",
+    "Therapist: Great question. It helps process the memory and reduce its emotional impact over time. What are your thoughts on that?",
+    "Client: I suppose that makes sense. It's just hard to imagine feeling better about it. Do you really think this will help me?",
+    "Therapist: Many find it very helpful. Your courage in trying is admirable. How do you feel about giving it a try?",
+    "Client: I'm still nervous, but I'm willing to try. I want to get better, and if this can help... I guess I'm ready to face it.",
+    "Therapist: Your willingness is a big step. Shall we start with some relaxation exercises?",
+    "Client: Yes, I think that would be good. I could use some relaxation right now. What kind of exercises will we do?",
+    "Therapist: We'll start with deep breathing and progressive muscle relaxation. Ready to begin?",
+    "Client: Okay, I'm ready. Thank you for explaining everything and being patient with all my questions. I feel a bit more prepared now.",
+    "Therapist: You're welcome. Your engagement is crucial. Let's start our relaxation exercise..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be doing something different today, and I'm not sure what to expect. My anxiety has been pretty high lately, especially with my upcoming exams.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be doing something different today, and I'm not sure what to expect. My anxiety has been pretty high lately, especially with my upcoming exams.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it actually involves. Can you explain it to me?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it actually involves. Can you explain it to me?",
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe environment. How does that sound?"
+    ],
+    [
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it actually involves. Can you explain it to me?",
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe environment. How does that sound?",
+      "Client: That sounds... scary. I've been trying so hard not to think about what happened. Won't it make things worse if I deliberately remember it?"
+    ],
+    [
+      "Therapist: Of course. It's a technique where you'll revisit your trauma memory in a safe environment. How does that sound?",
+      "Client: That sounds... scary. I've been trying so hard not to think about what happened. Won't it make things worse if I deliberately remember it?",
+      "Therapist: It's a common concern. However, facing the memory can actually reduce its power over you. What are your thoughts on that?"
+    ],
+    [
+      "Client: That sounds... scary. I've been trying so hard not to think about what happened. Won't it make things worse if I deliberately remember it?",
+      "Therapist: It's a common concern. However, facing the memory can actually reduce its power over you. What are your thoughts on that?",
+      "Client: I guess that makes sense, but I'm still worried. What if I can't handle it? What if I have a panic attack or something?"
+    ],
+    [
+      "Therapist: It's a common concern. However, facing the memory can actually reduce its power over you. What are your thoughts on that?",
+      "Client: I guess that makes sense, but I'm still worried. What if I can't handle it? What if I have a panic attack or something?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you. How does that reassurance feel?"
+    ],
+    [
+      "Client: I guess that makes sense, but I'm still worried. What if I can't handle it? What if I have a panic attack or something?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, but I'm still scared. Can you tell me more about what exactly we'll be doing?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here to support you. How does that reassurance feel?",
+      "Client: It helps a little. I trust you, but I'm still scared. Can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll start with a brief relaxation exercise, then you'll describe the traumatic event in present tense. How does that sound?"
+    ],
+    [
+      "Client: It helps a little. I trust you, but I'm still scared. Can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll start with a brief relaxation exercise, then you'll describe the traumatic event in present tense. How does that sound?",
+      "Client: Present tense? Like it's happening right now? That seems intense. How long will I have to do that for?"
+    ],
+    [
+      "Therapist: We'll start with a brief relaxation exercise, then you'll describe the traumatic event in present tense. How does that sound?",
+      "Client: Present tense? Like it's happening right now? That seems intense. How long will I have to do that for?",
+      "Therapist: We'll aim for about 30-45 minutes. Remember, you're in control. We can pause anytime. Does that help?"
+    ],
+    [
+      "Client: Present tense? Like it's happening right now? That seems intense. How long will I have to do that for?",
+      "Therapist: We'll aim for about 30-45 minutes. Remember, you're in control. We can pause anytime. Does that help?",
+      "Client: A little, yes. But that still seems like a long time to be reliving something so awful. What if I get overwhelmed?"
+    ],
+    [
+      "Therapist: We'll aim for about 30-45 minutes. Remember, you're in control. We can pause anytime. Does that help?",
+      "Client: A little, yes. But that still seems like a long time to be reliving something so awful. What if I get overwhelmed?",
+      "Therapist: If you feel overwhelmed, we'll use grounding techniques. Your safety is our priority. How does that plan sound?"
+    ],
+    [
+      "Client: A little, yes. But that still seems like a long time to be reliving something so awful. What if I get overwhelmed?",
+      "Therapist: If you feel overwhelmed, we'll use grounding techniques. Your safety is our priority. How does that plan sound?",
+      "Client: Okay, that's good to know. I appreciate that you have strategies in place. Can I ask, why is this considered effective for PTSD?"
+    ],
+    [
+      "Therapist: If you feel overwhelmed, we'll use grounding techniques. Your safety is our priority. How does that plan sound?",
+      "Client: Okay, that's good to know. I appreciate that you have strategies in place. Can I ask, why is this considered effective for PTSD?",
+      "Therapist: Great question. It helps process the memory and reduce its emotional impact over time. What are your thoughts on that?"
+    ],
+    [
+      "Client: Okay, that's good to know. I appreciate that you have strategies in place. Can I ask, why is this considered effective for PTSD?",
+      "Therapist: Great question. It helps process the memory and reduce its emotional impact over time. What are your thoughts on that?",
+      "Client: I suppose that makes sense. It's just hard to imagine feeling better about it. Do you really think this will help me?"
+    ],
+    [
+      "Therapist: Great question. It helps process the memory and reduce its emotional impact over time. What are your thoughts on that?",
+      "Client: I suppose that makes sense. It's just hard to imagine feeling better about it. Do you really think this will help me?",
+      "Therapist: Many find it very helpful. Your courage in trying is admirable. How do you feel about giving it a try?"
+    ],
+    [
+      "Client: I suppose that makes sense. It's just hard to imagine feeling better about it. Do you really think this will help me?",
+      "Therapist: Many find it very helpful. Your courage in trying is admirable. How do you feel about giving it a try?",
+      "Client: I'm still nervous, but I'm willing to try. I want to get better, and if this can help... I guess I'm ready to face it."
+    ],
+    [
+      "Therapist: Many find it very helpful. Your courage in trying is admirable. How do you feel about giving it a try?",
+      "Client: I'm still nervous, but I'm willing to try. I want to get better, and if this can help... I guess I'm ready to face it.",
+      "Therapist: Your willingness is a big step. Shall we start with some relaxation exercises?"
+    ],
+    [
+      "Client: I'm still nervous, but I'm willing to try. I want to get better, and if this can help... I guess I'm ready to face it.",
+      "Therapist: Your willingness is a big step. Shall we start with some relaxation exercises?",
+      "Client: Yes, I think that would be good. I could use some relaxation right now. What kind of exercises will we do?"
+    ],
+    [
+      "Therapist: Your willingness is a big step. Shall we start with some relaxation exercises?",
+      "Client: Yes, I think that would be good. I could use some relaxation right now. What kind of exercises will we do?",
+      "Therapist: We'll start with deep breathing and progressive muscle relaxation. Ready to begin?"
+    ],
+    [
+      "Client: Yes, I think that would be good. I could use some relaxation right now. What kind of exercises will we do?",
+      "Therapist: We'll start with deep breathing and progressive muscle relaxation. Ready to begin?",
+      "Client: Okay, I'm ready. Thank you for explaining everything and being patient with all my questions. I feel a bit more prepared now."
+    ],
+    [
+      "Therapist: We'll start with deep breathing and progressive muscle relaxation. Ready to begin?",
+      "Client: Okay, I'm ready. Thank you for explaining everything and being patient with all my questions. I feel a bit more prepared now.",
+      "Therapist: You're welcome. Your engagement is crucial. Let's start our relaxation exercise..."
+    ]
+  ]
+}

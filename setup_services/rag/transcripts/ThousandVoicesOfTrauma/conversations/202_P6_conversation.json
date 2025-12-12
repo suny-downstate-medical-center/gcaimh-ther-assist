@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's understandable. Let's begin. Close your eyes and recall the airplane crash.",
+    "Client: Okay... I'm on the plane. It's a night flight, and I can see the lights of the city below. The cabin is dim, and most passengers are sleeping. Suddenly, there's a loud bang, and the plane starts shaking violently. People are waking up, looking around confused and scared. I can feel my heart racing, and my palms are getting sweaty.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: Um, I'd say about a 5 out of 10.",
+    "Therapist: Okay. Continue describing what you're experiencing.",
+    "Client: The oxygen masks drop down, and there's chaos everywhere. People are screaming, and I can hear a child crying nearby. The plane is losing altitude quickly, and I'm gripping the armrests so hard my knuckles are white. I keep thinking about my family and how I might never see them again. The fear is overwhelming.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone up to a 7. My chest feels tight, and I'm starting to feel dizzy.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: The plane is plummeting now. I can see the ground getting closer through the window. The flight attendants are strapped in, looking terrified. I'm trying to brace myself, but I feel so helpless. There's a deafening roar as we hit the ground, and everything goes dark. I can smell smoke and feel intense heat. I'm trapped in my seat, and I can't move. I'm panicking, thinking I'm going to die here.",
+    "Therapist: Take a deep breath. What's your SUDS rating?",
+    "Client: It's... it's a 9. I feel like I can't breathe. My heart is pounding so hard.",
+    "Therapist: You're safe here. Remember, this is a memory. Keep going if you can.",
+    "Client: I... I can hear people screaming and crying for help. The smoke is getting thicker, and I'm coughing. I manage to unbuckle my seatbelt and stumble towards where I think the exit is. I can barely see anything. I'm bumping into seats and people. Finally, I feel a rush of cold air and realize I've made it out. I collapse on the ground outside, gasping for air. I can see the plane engulfed in flames behind me.",
+    "Therapist: How are you feeling now? What's your SUDS?",
+    "Client: It's still high... maybe an 8. I feel shaky and nauseous.",
+    "Therapist: That's normal. You're doing great. Keep describing what you remember.",
+    "Client: I'm lying on the ground, watching as rescue workers arrive. There's so much chaos and confusion. I can hear sirens and see flashing lights everywhere. I'm in shock, I think. I can't stop shaking, and I feel so cold. Someone puts a blanket around me and helps me to an ambulance. I keep looking back at the burning plane, wondering how I survived when so many others didn't.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's starting to come down a bit. Maybe a 6? I still feel anxious, but not as overwhelmed.",
+    "Therapist: That's good. How are you feeling physically?",
+    "Client: My breathing is slowing down, but I still feel tense all over. My hands are clammy, and I have a headache.",
+    "Therapist: Those are normal reactions. You're doing well. Let's continue.",
+    "Client: In the ambulance, they're checking me for injuries. I'm mostly unharmed physically, but I feel completely numb emotionally. I can't stop thinking about the other passengers, wondering who made it out and who didn't. The guilt is starting to set in. Why did I survive when others didn't? It doesn't seem fair.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's about a 5. I feel sad and guilty more than anxious now.",
+    "Therapist: That's understandable. How are you feeling about the exercise?",
+    "Client: It's... it's intense. But I think it's helping me process what happened. I've never talked about it in this much detail before.",
+    "Therapist: You're doing great. Let's wrap up. Slowly open your eyes when you're ready.",
+    "Client: Okay... I'm back in the room now. That was... wow. It was hard, but I feel a sense of relief, too.",
+    "Therapist: How are you feeling now? Final SUDS rating?",
+    "Client: I'd say about a 3. I feel drained but also lighter somehow.",
+    "Therapist: That's excellent progress. We'll discuss this more next time. Well done today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the airplane crash."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the airplane crash.",
+      "Client: Okay... I'm on the plane. It's a night flight, and I can see the lights of the city below. The cabin is dim, and most passengers are sleeping. Suddenly, there's a loud bang, and the plane starts shaking violently. People are waking up, looking around confused and scared. I can feel my heart racing, and my palms are getting sweaty."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin. Close your eyes and recall the airplane crash.",
+      "Client: Okay... I'm on the plane. It's a night flight, and I can see the lights of the city below. The cabin is dim, and most passengers are sleeping. Suddenly, there's a loud bang, and the plane starts shaking violently. People are waking up, looking around confused and scared. I can feel my heart racing, and my palms are getting sweaty.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm on the plane. It's a night flight, and I can see the lights of the city below. The cabin is dim, and most passengers are sleeping. Suddenly, there's a loud bang, and the plane starts shaking violently. People are waking up, looking around confused and scared. I can feel my heart racing, and my palms are getting sweaty.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5 out of 10."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: Um, I'd say about a 5 out of 10.",
+      "Therapist: Okay. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, I'd say about a 5 out of 10.",
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: The oxygen masks drop down, and there's chaos everywhere. People are screaming, and I can hear a child crying nearby. The plane is losing altitude quickly, and I'm gripping the armrests so hard my knuckles are white. I keep thinking about my family and how I might never see them again. The fear is overwhelming."
+    ],
+    [
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: The oxygen masks drop down, and there's chaos everywhere. People are screaming, and I can hear a child crying nearby. The plane is losing altitude quickly, and I'm gripping the armrests so hard my knuckles are white. I keep thinking about my family and how I might never see them again. The fear is overwhelming.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The oxygen masks drop down, and there's chaos everywhere. People are screaming, and I can hear a child crying nearby. The plane is losing altitude quickly, and I'm gripping the armrests so hard my knuckles are white. I keep thinking about my family and how I might never see them again. The fear is overwhelming.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to a 7. My chest feels tight, and I'm starting to feel dizzy."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone up to a 7. My chest feels tight, and I'm starting to feel dizzy.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 7. My chest feels tight, and I'm starting to feel dizzy.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The plane is plummeting now. I can see the ground getting closer through the window. The flight attendants are strapped in, looking terrified. I'm trying to brace myself, but I feel so helpless. There's a deafening roar as we hit the ground, and everything goes dark. I can smell smoke and feel intense heat. I'm trapped in my seat, and I can't move. I'm panicking, thinking I'm going to die here."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The plane is plummeting now. I can see the ground getting closer through the window. The flight attendants are strapped in, looking terrified. I'm trying to brace myself, but I feel so helpless. There's a deafening roar as we hit the ground, and everything goes dark. I can smell smoke and feel intense heat. I'm trapped in my seat, and I can't move. I'm panicking, thinking I'm going to die here.",
+      "Therapist: Take a deep breath. What's your SUDS rating?"
+    ],
+    [
+      "Client: The plane is plummeting now. I can see the ground getting closer through the window. The flight attendants are strapped in, looking terrified. I'm trying to brace myself, but I feel so helpless. There's a deafening roar as we hit the ground, and everything goes dark. I can smell smoke and feel intense heat. I'm trapped in my seat, and I can't move. I'm panicking, thinking I'm going to die here.",
+      "Therapist: Take a deep breath. What's your SUDS rating?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My heart is pounding so hard."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS rating?",
+      "Client: It's... it's a 9. I feel like I can't breathe. My heart is pounding so hard.",
+      "Therapist: You're safe here. Remember, this is a memory. Keep going if you can."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe. My heart is pounding so hard.",
+      "Therapist: You're safe here. Remember, this is a memory. Keep going if you can.",
+      "Client: I... I can hear people screaming and crying for help. The smoke is getting thicker, and I'm coughing. I manage to unbuckle my seatbelt and stumble towards where I think the exit is. I can barely see anything. I'm bumping into seats and people. Finally, I feel a rush of cold air and realize I've made it out. I collapse on the ground outside, gasping for air. I can see the plane engulfed in flames behind me."
+    ],
+    [
+      "Therapist: You're safe here. Remember, this is a memory. Keep going if you can.",
+      "Client: I... I can hear people screaming and crying for help. The smoke is getting thicker, and I'm coughing. I manage to unbuckle my seatbelt and stumble towards where I think the exit is. I can barely see anything. I'm bumping into seats and people. Finally, I feel a rush of cold air and realize I've made it out. I collapse on the ground outside, gasping for air. I can see the plane engulfed in flames behind me.",
+      "Therapist: How are you feeling now? What's your SUDS?"
+    ],
+    [
+      "Client: I... I can hear people screaming and crying for help. The smoke is getting thicker, and I'm coughing. I manage to unbuckle my seatbelt and stumble towards where I think the exit is. I can barely see anything. I'm bumping into seats and people. Finally, I feel a rush of cold air and realize I've made it out. I collapse on the ground outside, gasping for air. I can see the plane engulfed in flames behind me.",
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still high... maybe an 8. I feel shaky and nauseous."
+    ],
+    [
+      "Therapist: How are you feeling now? What's your SUDS?",
+      "Client: It's still high... maybe an 8. I feel shaky and nauseous.",
+      "Therapist: That's normal. You're doing great. Keep describing what you remember."
+    ],
+    [
+      "Client: It's still high... maybe an 8. I feel shaky and nauseous.",
+      "Therapist: That's normal. You're doing great. Keep describing what you remember.",
+      "Client: I'm lying on the ground, watching as rescue workers arrive. There's so much chaos and confusion. I can hear sirens and see flashing lights everywhere. I'm in shock, I think. I can't stop shaking, and I feel so cold. Someone puts a blanket around me and helps me to an ambulance. I keep looking back at the burning plane, wondering how I survived when so many others didn't."
+    ],
+    [
+      "Therapist: That's normal. You're doing great. Keep describing what you remember.",
+      "Client: I'm lying on the ground, watching as rescue workers arrive. There's so much chaos and confusion. I can hear sirens and see flashing lights everywhere. I'm in shock, I think. I can't stop shaking, and I feel so cold. Someone puts a blanket around me and helps me to an ambulance. I keep looking back at the burning plane, wondering how I survived when so many others didn't.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I'm lying on the ground, watching as rescue workers arrive. There's so much chaos and confusion. I can hear sirens and see flashing lights everywhere. I'm in shock, I think. I can't stop shaking, and I feel so cold. Someone puts a blanket around me and helps me to an ambulance. I keep looking back at the burning plane, wondering how I survived when so many others didn't.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's starting to come down a bit. Maybe a 6? I still feel anxious, but not as overwhelmed."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's starting to come down a bit. Maybe a 6? I still feel anxious, but not as overwhelmed.",
+      "Therapist: That's good. How are you feeling physically?"
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe a 6? I still feel anxious, but not as overwhelmed.",
+      "Therapist: That's good. How are you feeling physically?",
+      "Client: My breathing is slowing down, but I still feel tense all over. My hands are clammy, and I have a headache."
+    ],
+    [
+      "Therapist: That's good. How are you feeling physically?",
+      "Client: My breathing is slowing down, but I still feel tense all over. My hands are clammy, and I have a headache.",
+      "Therapist: Those are normal reactions. You're doing well. Let's continue."
+    ],
+    [
+      "Client: My breathing is slowing down, but I still feel tense all over. My hands are clammy, and I have a headache.",
+      "Therapist: Those are normal reactions. You're doing well. Let's continue.",
+      "Client: In the ambulance, they're checking me for injuries. I'm mostly unharmed physically, but I feel completely numb emotionally. I can't stop thinking about the other passengers, wondering who made it out and who didn't. The guilt is starting to set in. Why did I survive when others didn't? It doesn't seem fair."
+    ],
+    [
+      "Therapist: Those are normal reactions. You're doing well. Let's continue.",
+      "Client: In the ambulance, they're checking me for injuries. I'm mostly unharmed physically, but I feel completely numb emotionally. I can't stop thinking about the other passengers, wondering who made it out and who didn't. The guilt is starting to set in. Why did I survive when others didn't? It doesn't seem fair.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: In the ambulance, they're checking me for injuries. I'm mostly unharmed physically, but I feel completely numb emotionally. I can't stop thinking about the other passengers, wondering who made it out and who didn't. The guilt is starting to set in. Why did I survive when others didn't? It doesn't seem fair.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's about a 5. I feel sad and guilty more than anxious now."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's about a 5. I feel sad and guilty more than anxious now.",
+      "Therapist: That's understandable. How are you feeling about the exercise?"
+    ],
+    [
+      "Client: It's about a 5. I feel sad and guilty more than anxious now.",
+      "Therapist: That's understandable. How are you feeling about the exercise?",
+      "Client: It's... it's intense. But I think it's helping me process what happened. I've never talked about it in this much detail before."
+    ],
+    [
+      "Therapist: That's understandable. How are you feeling about the exercise?",
+      "Client: It's... it's intense. But I think it's helping me process what happened. I've never talked about it in this much detail before.",
+      "Therapist: You're doing great. Let's wrap up. Slowly open your eyes when you're ready."
+    ],
+    [
+      "Client: It's... it's intense. But I think it's helping me process what happened. I've never talked about it in this much detail before.",
+      "Therapist: You're doing great. Let's wrap up. Slowly open your eyes when you're ready.",
+      "Client: Okay... I'm back in the room now. That was... wow. It was hard, but I feel a sense of relief, too."
+    ],
+    [
+      "Therapist: You're doing great. Let's wrap up. Slowly open your eyes when you're ready.",
+      "Client: Okay... I'm back in the room now. That was... wow. It was hard, but I feel a sense of relief, too.",
+      "Therapist: How are you feeling now? Final SUDS rating?"
+    ],
+    [
+      "Client: Okay... I'm back in the room now. That was... wow. It was hard, but I feel a sense of relief, too.",
+      "Therapist: How are you feeling now? Final SUDS rating?",
+      "Client: I'd say about a 3. I feel drained but also lighter somehow."
+    ],
+    [
+      "Therapist: How are you feeling now? Final SUDS rating?",
+      "Client: I'd say about a 3. I feel drained but also lighter somehow.",
+      "Therapist: That's excellent progress. We'll discuss this more next time. Well done today."
+    ]
+  ]
+}

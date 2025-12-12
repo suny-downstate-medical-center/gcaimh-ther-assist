@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, John. How are you feeling today?",
+    "Client: Hi, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+    "Therapist: That's understandable. Can you tell me more about your concerns?",
+    "Client: Well, it's just... the idea of reliving that moment when I witnessed the violence at work. It's been haunting me for months now. I'm worried about how I'll react, you know? What if I completely lose it or can't handle it?",
+    "Therapist: Your concerns are valid. Let's discuss the process.",
+    "Client: Okay, I appreciate that. It's just... I've been trying so hard to avoid thinking about it. The thought of purposely bringing it up feels counterintuitive and, frankly, terrifying.",
+    "Therapist: Avoidance can actually maintain PTSD. This exercise helps process the memory.",
+    "Client: I understand that logically, but emotionally it's hard to grasp. How exactly is reliving it going to help? Won't it just make everything worse?",
+    "Therapist: It may be difficult initially, but it reduces symptoms over time.",
+    "Client: I see. So, it's like facing it head-on instead of running away. But what if I panic during the exercise? Or what if I can't remember everything clearly?",
+    "Therapist: I'll be here to support you. We can pause anytime you need.",
+    "Client: That's reassuring. I guess knowing I'm not alone in this helps. Can you walk me through what exactly we'll be doing? What should I expect?",
+    "Therapist: You'll recount the event in detail. I'll guide you through it.",
+    "Client: Okay, that sounds intense but manageable. Will I need to close my eyes? And how long will this take? Sorry for all the questions, I just want to be prepared.",
+    "Therapist: Eyes closed helps, but not required. It'll take about 30-45 minutes.",
+    "Client: Alright, I think I can handle that. It's shorter than I expected. I'm still nervous, but I'm also feeling a bit... I don't know, maybe hopeful? Like this could actually help me move forward.",
+    "Therapist: Your courage is commendable. This is a big step towards healing.",
+    "Client: Thank you, that means a lot. I've been feeling stuck for so long, and even though this is scary, it feels like I'm finally doing something proactive. Is there anything else I should know before we start?",
+    "Therapist: Remember, you're safe here. We'll go at your pace.",
+    "Client: Okay, I appreciate that. I think... I think I'm ready to give this a try. It won't be easy, but if it can help me get past this and stop the nightmares and constant anxiety, it'll be worth it. Let's do this.",
+    "Therapist: Excellent. Take a deep breath. We'll begin when you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, John. How are you feeling today?",
+      "Client: Hi, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: Hi, Dr. Thompson. I'm... okay, I guess. A bit nervous about what we're going to do today. I've been thinking about it a lot since our last session.",
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... the idea of reliving that moment when I witnessed the violence at work. It's been haunting me for months now. I'm worried about how I'll react, you know? What if I completely lose it or can't handle it?"
+    ],
+    [
+      "Therapist: That's understandable. Can you tell me more about your concerns?",
+      "Client: Well, it's just... the idea of reliving that moment when I witnessed the violence at work. It's been haunting me for months now. I'm worried about how I'll react, you know? What if I completely lose it or can't handle it?",
+      "Therapist: Your concerns are valid. Let's discuss the process."
+    ],
+    [
+      "Client: Well, it's just... the idea of reliving that moment when I witnessed the violence at work. It's been haunting me for months now. I'm worried about how I'll react, you know? What if I completely lose it or can't handle it?",
+      "Therapist: Your concerns are valid. Let's discuss the process.",
+      "Client: Okay, I appreciate that. It's just... I've been trying so hard to avoid thinking about it. The thought of purposely bringing it up feels counterintuitive and, frankly, terrifying."
+    ],
+    [
+      "Therapist: Your concerns are valid. Let's discuss the process.",
+      "Client: Okay, I appreciate that. It's just... I've been trying so hard to avoid thinking about it. The thought of purposely bringing it up feels counterintuitive and, frankly, terrifying.",
+      "Therapist: Avoidance can actually maintain PTSD. This exercise helps process the memory."
+    ],
+    [
+      "Client: Okay, I appreciate that. It's just... I've been trying so hard to avoid thinking about it. The thought of purposely bringing it up feels counterintuitive and, frankly, terrifying.",
+      "Therapist: Avoidance can actually maintain PTSD. This exercise helps process the memory.",
+      "Client: I understand that logically, but emotionally it's hard to grasp. How exactly is reliving it going to help? Won't it just make everything worse?"
+    ],
+    [
+      "Therapist: Avoidance can actually maintain PTSD. This exercise helps process the memory.",
+      "Client: I understand that logically, but emotionally it's hard to grasp. How exactly is reliving it going to help? Won't it just make everything worse?",
+      "Therapist: It may be difficult initially, but it reduces symptoms over time."
+    ],
+    [
+      "Client: I understand that logically, but emotionally it's hard to grasp. How exactly is reliving it going to help? Won't it just make everything worse?",
+      "Therapist: It may be difficult initially, but it reduces symptoms over time.",
+      "Client: I see. So, it's like facing it head-on instead of running away. But what if I panic during the exercise? Or what if I can't remember everything clearly?"
+    ],
+    [
+      "Therapist: It may be difficult initially, but it reduces symptoms over time.",
+      "Client: I see. So, it's like facing it head-on instead of running away. But what if I panic during the exercise? Or what if I can't remember everything clearly?",
+      "Therapist: I'll be here to support you. We can pause anytime you need."
+    ],
+    [
+      "Client: I see. So, it's like facing it head-on instead of running away. But what if I panic during the exercise? Or what if I can't remember everything clearly?",
+      "Therapist: I'll be here to support you. We can pause anytime you need.",
+      "Client: That's reassuring. I guess knowing I'm not alone in this helps. Can you walk me through what exactly we'll be doing? What should I expect?"
+    ],
+    [
+      "Therapist: I'll be here to support you. We can pause anytime you need.",
+      "Client: That's reassuring. I guess knowing I'm not alone in this helps. Can you walk me through what exactly we'll be doing? What should I expect?",
+      "Therapist: You'll recount the event in detail. I'll guide you through it."
+    ],
+    [
+      "Client: That's reassuring. I guess knowing I'm not alone in this helps. Can you walk me through what exactly we'll be doing? What should I expect?",
+      "Therapist: You'll recount the event in detail. I'll guide you through it.",
+      "Client: Okay, that sounds intense but manageable. Will I need to close my eyes? And how long will this take? Sorry for all the questions, I just want to be prepared."
+    ],
+    [
+      "Therapist: You'll recount the event in detail. I'll guide you through it.",
+      "Client: Okay, that sounds intense but manageable. Will I need to close my eyes? And how long will this take? Sorry for all the questions, I just want to be prepared.",
+      "Therapist: Eyes closed helps, but not required. It'll take about 30-45 minutes."
+    ],
+    [
+      "Client: Okay, that sounds intense but manageable. Will I need to close my eyes? And how long will this take? Sorry for all the questions, I just want to be prepared.",
+      "Therapist: Eyes closed helps, but not required. It'll take about 30-45 minutes.",
+      "Client: Alright, I think I can handle that. It's shorter than I expected. I'm still nervous, but I'm also feeling a bit... I don't know, maybe hopeful? Like this could actually help me move forward."
+    ],
+    [
+      "Therapist: Eyes closed helps, but not required. It'll take about 30-45 minutes.",
+      "Client: Alright, I think I can handle that. It's shorter than I expected. I'm still nervous, but I'm also feeling a bit... I don't know, maybe hopeful? Like this could actually help me move forward.",
+      "Therapist: Your courage is commendable. This is a big step towards healing."
+    ],
+    [
+      "Client: Alright, I think I can handle that. It's shorter than I expected. I'm still nervous, but I'm also feeling a bit... I don't know, maybe hopeful? Like this could actually help me move forward.",
+      "Therapist: Your courage is commendable. This is a big step towards healing.",
+      "Client: Thank you, that means a lot. I've been feeling stuck for so long, and even though this is scary, it feels like I'm finally doing something proactive. Is there anything else I should know before we start?"
+    ],
+    [
+      "Therapist: Your courage is commendable. This is a big step towards healing.",
+      "Client: Thank you, that means a lot. I've been feeling stuck for so long, and even though this is scary, it feels like I'm finally doing something proactive. Is there anything else I should know before we start?",
+      "Therapist: Remember, you're safe here. We'll go at your pace."
+    ],
+    [
+      "Client: Thank you, that means a lot. I've been feeling stuck for so long, and even though this is scary, it feels like I'm finally doing something proactive. Is there anything else I should know before we start?",
+      "Therapist: Remember, you're safe here. We'll go at your pace.",
+      "Client: Okay, I appreciate that. I think... I think I'm ready to give this a try. It won't be easy, but if it can help me get past this and stop the nightmares and constant anxiety, it'll be worth it. Let's do this."
+    ],
+    [
+      "Therapist: Remember, you're safe here. We'll go at your pace.",
+      "Client: Okay, I appreciate that. I think... I think I'm ready to give this a try. It won't be easy, but if it can help me get past this and stop the nightmares and constant anxiety, it'll be worth it. Let's do this.",
+      "Therapist: Excellent. Take a deep breath. We'll begin when you're ready."
+    ]
+  ]
+}

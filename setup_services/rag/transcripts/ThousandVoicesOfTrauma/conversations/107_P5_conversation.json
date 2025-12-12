@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mrs. Chen. How are you feeling today?",
+    "Client: Oh, good morning, Dr. Patel. I'm... I'm a bit nervous, to be honest. I've been having more anxiety lately, especially after watching the news about those floods in Thailand. It brought back memories of... well, you know.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: Imaginal exposure? I'm not sure what that means. Is it going to make me relive the tsunami? Because I don't know if I can handle that right now.",
+    "Therapist: It's facing memories gradually, in a safe space. How does that sound?",
+    "Client: Well, I suppose if it's gradual, it might be okay. But what exactly will we be doing? Will I have to close my eyes and picture everything?",
+    "Therapist: Yes, you'll recall the event with eyes closed. I'll guide you through it.",
+    "Client: That sounds terrifying. I've spent years trying not to think about it. What if I panic? Or what if I can't stop thinking about it afterward?",
+    "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here throughout.",
+    "Client: Okay... I appreciate that. It's just... ever since that day, I've been so scared of water. Even rain makes me anxious sometimes. Will this help with that?",
+    "Therapist: Yes, it can help reduce those fears over time. Shall we begin?",
+    "Client: I guess so. But can we stop if it gets too overwhelming? And... will you hold my hand if I need it? I know it sounds silly at my age, but...",
+    "Therapist: Of course. We can pause anytime, and I'm here to support you.",
+    "Client: Thank you, Dr. Patel. That means a lot. I'm still nervous, but I trust you. Let's... let's give it a try.",
+    "Therapist: Your bravery is commendable. Ready to start?",
+    "Client: As ready as I'll ever be, I suppose. Just... please be patient with me if I struggle. This is bringing up a lot of emotions I've buried for a long time.",
+    "Therapist: Absolutely. Your feelings are valid. Let's begin slowly..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mrs. Chen. How are you feeling today?",
+      "Client: Oh, good morning, Dr. Patel. I'm... I'm a bit nervous, to be honest. I've been having more anxiety lately, especially after watching the news about those floods in Thailand. It brought back memories of... well, you know.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: Oh, good morning, Dr. Patel. I'm... I'm a bit nervous, to be honest. I've been having more anxiety lately, especially after watching the news about those floods in Thailand. It brought back memories of... well, you know.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? I'm not sure what that means. Is it going to make me relive the tsunami? Because I don't know if I can handle that right now."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: Imaginal exposure? I'm not sure what that means. Is it going to make me relive the tsunami? Because I don't know if I can handle that right now.",
+      "Therapist: It's facing memories gradually, in a safe space. How does that sound?"
+    ],
+    [
+      "Client: Imaginal exposure? I'm not sure what that means. Is it going to make me relive the tsunami? Because I don't know if I can handle that right now.",
+      "Therapist: It's facing memories gradually, in a safe space. How does that sound?",
+      "Client: Well, I suppose if it's gradual, it might be okay. But what exactly will we be doing? Will I have to close my eyes and picture everything?"
+    ],
+    [
+      "Therapist: It's facing memories gradually, in a safe space. How does that sound?",
+      "Client: Well, I suppose if it's gradual, it might be okay. But what exactly will we be doing? Will I have to close my eyes and picture everything?",
+      "Therapist: Yes, you'll recall the event with eyes closed. I'll guide you through it."
+    ],
+    [
+      "Client: Well, I suppose if it's gradual, it might be okay. But what exactly will we be doing? Will I have to close my eyes and picture everything?",
+      "Therapist: Yes, you'll recall the event with eyes closed. I'll guide you through it.",
+      "Client: That sounds terrifying. I've spent years trying not to think about it. What if I panic? Or what if I can't stop thinking about it afterward?"
+    ],
+    [
+      "Therapist: Yes, you'll recall the event with eyes closed. I'll guide you through it.",
+      "Client: That sounds terrifying. I've spent years trying not to think about it. What if I panic? Or what if I can't stop thinking about it afterward?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here throughout."
+    ],
+    [
+      "Client: That sounds terrifying. I've spent years trying not to think about it. What if I panic? Or what if I can't stop thinking about it afterward?",
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here throughout.",
+      "Client: Okay... I appreciate that. It's just... ever since that day, I've been so scared of water. Even rain makes me anxious sometimes. Will this help with that?"
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace, and I'll be here throughout.",
+      "Client: Okay... I appreciate that. It's just... ever since that day, I've been so scared of water. Even rain makes me anxious sometimes. Will this help with that?",
+      "Therapist: Yes, it can help reduce those fears over time. Shall we begin?"
+    ],
+    [
+      "Client: Okay... I appreciate that. It's just... ever since that day, I've been so scared of water. Even rain makes me anxious sometimes. Will this help with that?",
+      "Therapist: Yes, it can help reduce those fears over time. Shall we begin?",
+      "Client: I guess so. But can we stop if it gets too overwhelming? And... will you hold my hand if I need it? I know it sounds silly at my age, but..."
+    ],
+    [
+      "Therapist: Yes, it can help reduce those fears over time. Shall we begin?",
+      "Client: I guess so. But can we stop if it gets too overwhelming? And... will you hold my hand if I need it? I know it sounds silly at my age, but...",
+      "Therapist: Of course. We can pause anytime, and I'm here to support you."
+    ],
+    [
+      "Client: I guess so. But can we stop if it gets too overwhelming? And... will you hold my hand if I need it? I know it sounds silly at my age, but...",
+      "Therapist: Of course. We can pause anytime, and I'm here to support you.",
+      "Client: Thank you, Dr. Patel. That means a lot. I'm still nervous, but I trust you. Let's... let's give it a try."
+    ],
+    [
+      "Therapist: Of course. We can pause anytime, and I'm here to support you.",
+      "Client: Thank you, Dr. Patel. That means a lot. I'm still nervous, but I trust you. Let's... let's give it a try.",
+      "Therapist: Your bravery is commendable. Ready to start?"
+    ],
+    [
+      "Client: Thank you, Dr. Patel. That means a lot. I'm still nervous, but I trust you. Let's... let's give it a try.",
+      "Therapist: Your bravery is commendable. Ready to start?",
+      "Client: As ready as I'll ever be, I suppose. Just... please be patient with me if I struggle. This is bringing up a lot of emotions I've buried for a long time."
+    ],
+    [
+      "Therapist: Your bravery is commendable. Ready to start?",
+      "Client: As ready as I'll ever be, I suppose. Just... please be patient with me if I struggle. This is bringing up a lot of emotions I've buried for a long time.",
+      "Therapist: Absolutely. Your feelings are valid. Let's begin slowly..."
+    ]
+  ]
+}

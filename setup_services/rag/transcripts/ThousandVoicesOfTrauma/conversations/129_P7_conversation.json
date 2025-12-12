@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+    "Client: Oh, hello Dr. Evans. I'm... I'm okay, I suppose. A bit nervous about today's session, if I'm being honest.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thank you. I know, it's just... talking about that day with the dog always makes me anxious.",
+    "Therapist: Take your time. We'll go at your pace.",
+    "Client: Alright. Well, it was a sunny afternoon. I was taking my usual walk in the park near my old house. Everything seemed normal at first...",
+    "Therapist: You're doing well. Continue when you're ready.",
+    "Client: I remember hearing barking in the distance. I didn't think much of it at first, you know? But then... then I saw this large dog running towards me. It looked... angry. I froze. I couldn't move.",
+    "Therapist: Stay with that moment. You're safe here.",
+    "Client: (breathing heavily) The dog... it was so fast. Before I knew it, it was on me. I felt its teeth sink into my arm. The pain was... it was excruciating. I screamed, but no one seemed to be around.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: I... I tried to fight it off, but I'm not as strong as I used to be. I felt so helpless. The dog kept growling and biting. I thought... I thought I was going to die right there in the park.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: (voice trembling) I could feel the blood running down my arm. The dog's eyes... they were so wild. I've never felt terror like that before. Not even during... during the times with my father.",
+    "Therapist: You're very brave for sharing this. Continue when you're ready.",
+    "Client: I don't know how long it lasted. It felt like forever. Eventually, I heard someone yelling. The dog's owner, I think. He managed to pull the dog off me, but... the damage was done.",
+    "Therapist: You're handling this well. How are you feeling right now?",
+    "Client: I... I feel shaky. My heart's racing. It's like I'm back there again.",
+    "Therapist: That's normal. Remember your breathing exercises.",
+    "Client: (takes a deep breath) Right, thank you. After the attack, I was rushed to the hospital. The wounds healed, but... the fear never really went away. I can't even look at dogs anymore without panicking.",
+    "Therapist: You've shown incredible strength. How do you feel about sharing this?",
+    "Client: It's hard, but... I think it helps. Sometimes I feel silly, being so afraid of dogs at my age.",
+    "Therapist: Your feelings are valid. There's no shame in your reaction.",
+    "Client: I suppose you're right. It's just... it's changed so much. I used to love going for walks. Now I barely leave the assisted living facility. I feel... trapped.",
+    "Therapist: Your feelings are understandable. We'll work through this together.",
+    "Client: Thank you, Dr. Evans. I... I hope so. I miss the person I used to be before all this.",
+    "Therapist: You're making progress. Every session is a step forward.",
+    "Client: I know, I know. It's just... sometimes it feels like two steps forward, one step back. Especially when I have nightmares about the attack.",
+    "Therapist: That's a normal part of the process. You're doing well.",
+    "Client: I appreciate that. I... I think I need a moment. This has been quite intense.",
+    "Therapist: Of course. Take all the time you need.",
+    "Client: (after a pause) You know, talking about it... it's hard, but I think it does help. It's like... like I'm facing it head-on instead of running away.",
+    "Therapist: That's an excellent observation. You should be proud of yourself.",
+    "Client: Thank you. I... I think I am, a little bit. It's not easy, but... I'm trying.",
+    "Therapist: Your effort is commendable. How are you feeling now?",
+    "Client: A bit drained, to be honest. But also... I don't know, maybe a little lighter? Like I've let some of it out.",
+    "Therapist: That's a positive sign. Would you like to end here for today?",
+    "Client: Yes, I think that would be good. Thank you for your patience, Dr. Evans.",
+    "Therapist: You've done excellent work today, Mr. Johnson. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Johnson. How are you feeling today?",
+      "Client: Oh, hello Dr. Evans. I'm... I'm okay, I suppose. A bit nervous about today's session, if I'm being honest.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Oh, hello Dr. Evans. I'm... I'm okay, I suppose. A bit nervous about today's session, if I'm being honest.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I know, it's just... talking about that day with the dog always makes me anxious."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thank you. I know, it's just... talking about that day with the dog always makes me anxious.",
+      "Therapist: Take your time. We'll go at your pace."
+    ],
+    [
+      "Client: Thank you. I know, it's just... talking about that day with the dog always makes me anxious.",
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Alright. Well, it was a sunny afternoon. I was taking my usual walk in the park near my old house. Everything seemed normal at first..."
+    ],
+    [
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Alright. Well, it was a sunny afternoon. I was taking my usual walk in the park near my old house. Everything seemed normal at first...",
+      "Therapist: You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: Alright. Well, it was a sunny afternoon. I was taking my usual walk in the park near my old house. Everything seemed normal at first...",
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: I remember hearing barking in the distance. I didn't think much of it at first, you know? But then... then I saw this large dog running towards me. It looked... angry. I froze. I couldn't move."
+    ],
+    [
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: I remember hearing barking in the distance. I didn't think much of it at first, you know? But then... then I saw this large dog running towards me. It looked... angry. I froze. I couldn't move.",
+      "Therapist: Stay with that moment. You're safe here."
+    ],
+    [
+      "Client: I remember hearing barking in the distance. I didn't think much of it at first, you know? But then... then I saw this large dog running towards me. It looked... angry. I froze. I couldn't move.",
+      "Therapist: Stay with that moment. You're safe here.",
+      "Client: (breathing heavily) The dog... it was so fast. Before I knew it, it was on me. I felt its teeth sink into my arm. The pain was... it was excruciating. I screamed, but no one seemed to be around."
+    ],
+    [
+      "Therapist: Stay with that moment. You're safe here.",
+      "Client: (breathing heavily) The dog... it was so fast. Before I knew it, it was on me. I felt its teeth sink into my arm. The pain was... it was excruciating. I screamed, but no one seemed to be around.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: (breathing heavily) The dog... it was so fast. Before I knew it, it was on me. I felt its teeth sink into my arm. The pain was... it was excruciating. I screamed, but no one seemed to be around.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: I... I tried to fight it off, but I'm not as strong as I used to be. I felt so helpless. The dog kept growling and biting. I thought... I thought I was going to die right there in the park."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: I... I tried to fight it off, but I'm not as strong as I used to be. I felt so helpless. The dog kept growling and biting. I thought... I thought I was going to die right there in the park.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: I... I tried to fight it off, but I'm not as strong as I used to be. I felt so helpless. The dog kept growling and biting. I thought... I thought I was going to die right there in the park.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (voice trembling) I could feel the blood running down my arm. The dog's eyes... they were so wild. I've never felt terror like that before. Not even during... during the times with my father."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: (voice trembling) I could feel the blood running down my arm. The dog's eyes... they were so wild. I've never felt terror like that before. Not even during... during the times with my father.",
+      "Therapist: You're very brave for sharing this. Continue when you're ready."
+    ],
+    [
+      "Client: (voice trembling) I could feel the blood running down my arm. The dog's eyes... they were so wild. I've never felt terror like that before. Not even during... during the times with my father.",
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: I don't know how long it lasted. It felt like forever. Eventually, I heard someone yelling. The dog's owner, I think. He managed to pull the dog off me, but... the damage was done."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. Continue when you're ready.",
+      "Client: I don't know how long it lasted. It felt like forever. Eventually, I heard someone yelling. The dog's owner, I think. He managed to pull the dog off me, but... the damage was done.",
+      "Therapist: You're handling this well. How are you feeling right now?"
+    ],
+    [
+      "Client: I don't know how long it lasted. It felt like forever. Eventually, I heard someone yelling. The dog's owner, I think. He managed to pull the dog off me, but... the damage was done.",
+      "Therapist: You're handling this well. How are you feeling right now?",
+      "Client: I... I feel shaky. My heart's racing. It's like I'm back there again."
+    ],
+    [
+      "Therapist: You're handling this well. How are you feeling right now?",
+      "Client: I... I feel shaky. My heart's racing. It's like I'm back there again.",
+      "Therapist: That's normal. Remember your breathing exercises."
+    ],
+    [
+      "Client: I... I feel shaky. My heart's racing. It's like I'm back there again.",
+      "Therapist: That's normal. Remember your breathing exercises.",
+      "Client: (takes a deep breath) Right, thank you. After the attack, I was rushed to the hospital. The wounds healed, but... the fear never really went away. I can't even look at dogs anymore without panicking."
+    ],
+    [
+      "Therapist: That's normal. Remember your breathing exercises.",
+      "Client: (takes a deep breath) Right, thank you. After the attack, I was rushed to the hospital. The wounds healed, but... the fear never really went away. I can't even look at dogs anymore without panicking.",
+      "Therapist: You've shown incredible strength. How do you feel about sharing this?"
+    ],
+    [
+      "Client: (takes a deep breath) Right, thank you. After the attack, I was rushed to the hospital. The wounds healed, but... the fear never really went away. I can't even look at dogs anymore without panicking.",
+      "Therapist: You've shown incredible strength. How do you feel about sharing this?",
+      "Client: It's hard, but... I think it helps. Sometimes I feel silly, being so afraid of dogs at my age."
+    ],
+    [
+      "Therapist: You've shown incredible strength. How do you feel about sharing this?",
+      "Client: It's hard, but... I think it helps. Sometimes I feel silly, being so afraid of dogs at my age.",
+      "Therapist: Your feelings are valid. There's no shame in your reaction."
+    ],
+    [
+      "Client: It's hard, but... I think it helps. Sometimes I feel silly, being so afraid of dogs at my age.",
+      "Therapist: Your feelings are valid. There's no shame in your reaction.",
+      "Client: I suppose you're right. It's just... it's changed so much. I used to love going for walks. Now I barely leave the assisted living facility. I feel... trapped."
+    ],
+    [
+      "Therapist: Your feelings are valid. There's no shame in your reaction.",
+      "Client: I suppose you're right. It's just... it's changed so much. I used to love going for walks. Now I barely leave the assisted living facility. I feel... trapped.",
+      "Therapist: Your feelings are understandable. We'll work through this together."
+    ],
+    [
+      "Client: I suppose you're right. It's just... it's changed so much. I used to love going for walks. Now I barely leave the assisted living facility. I feel... trapped.",
+      "Therapist: Your feelings are understandable. We'll work through this together.",
+      "Client: Thank you, Dr. Evans. I... I hope so. I miss the person I used to be before all this."
+    ],
+    [
+      "Therapist: Your feelings are understandable. We'll work through this together.",
+      "Client: Thank you, Dr. Evans. I... I hope so. I miss the person I used to be before all this.",
+      "Therapist: You're making progress. Every session is a step forward."
+    ],
+    [
+      "Client: Thank you, Dr. Evans. I... I hope so. I miss the person I used to be before all this.",
+      "Therapist: You're making progress. Every session is a step forward.",
+      "Client: I know, I know. It's just... sometimes it feels like two steps forward, one step back. Especially when I have nightmares about the attack."
+    ],
+    [
+      "Therapist: You're making progress. Every session is a step forward.",
+      "Client: I know, I know. It's just... sometimes it feels like two steps forward, one step back. Especially when I have nightmares about the attack.",
+      "Therapist: That's a normal part of the process. You're doing well."
+    ],
+    [
+      "Client: I know, I know. It's just... sometimes it feels like two steps forward, one step back. Especially when I have nightmares about the attack.",
+      "Therapist: That's a normal part of the process. You're doing well.",
+      "Client: I appreciate that. I... I think I need a moment. This has been quite intense."
+    ],
+    [
+      "Therapist: That's a normal part of the process. You're doing well.",
+      "Client: I appreciate that. I... I think I need a moment. This has been quite intense.",
+      "Therapist: Of course. Take all the time you need."
+    ],
+    [
+      "Client: I appreciate that. I... I think I need a moment. This has been quite intense.",
+      "Therapist: Of course. Take all the time you need.",
+      "Client: (after a pause) You know, talking about it... it's hard, but I think it does help. It's like... like I'm facing it head-on instead of running away."
+    ],
+    [
+      "Therapist: Of course. Take all the time you need.",
+      "Client: (after a pause) You know, talking about it... it's hard, but I think it does help. It's like... like I'm facing it head-on instead of running away.",
+      "Therapist: That's an excellent observation. You should be proud of yourself."
+    ],
+    [
+      "Client: (after a pause) You know, talking about it... it's hard, but I think it does help. It's like... like I'm facing it head-on instead of running away.",
+      "Therapist: That's an excellent observation. You should be proud of yourself.",
+      "Client: Thank you. I... I think I am, a little bit. It's not easy, but... I'm trying."
+    ],
+    [
+      "Therapist: That's an excellent observation. You should be proud of yourself.",
+      "Client: Thank you. I... I think I am, a little bit. It's not easy, but... I'm trying.",
+      "Therapist: Your effort is commendable. How are you feeling now?"
+    ],
+    [
+      "Client: Thank you. I... I think I am, a little bit. It's not easy, but... I'm trying.",
+      "Therapist: Your effort is commendable. How are you feeling now?",
+      "Client: A bit drained, to be honest. But also... I don't know, maybe a little lighter? Like I've let some of it out."
+    ],
+    [
+      "Therapist: Your effort is commendable. How are you feeling now?",
+      "Client: A bit drained, to be honest. But also... I don't know, maybe a little lighter? Like I've let some of it out.",
+      "Therapist: That's a positive sign. Would you like to end here for today?"
+    ],
+    [
+      "Client: A bit drained, to be honest. But also... I don't know, maybe a little lighter? Like I've let some of it out.",
+      "Therapist: That's a positive sign. Would you like to end here for today?",
+      "Client: Yes, I think that would be good. Thank you for your patience, Dr. Evans."
+    ],
+    [
+      "Therapist: That's a positive sign. Would you like to end here for today?",
+      "Client: Yes, I think that would be good. Thank you for your patience, Dr. Evans.",
+      "Therapist: You've done excellent work today, Mr. Johnson. We'll continue next session."
+    ]
+  ]
+}

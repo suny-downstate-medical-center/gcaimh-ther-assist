@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm back in high school, walking down the hallway. I can hear the chatter of other students, lockers slamming shut. I'm trying to keep my head down, hoping they won't notice me today.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably around a 4. I'm feeling tense, but it's manageable.",
+    "Therapist: Alright. Continue.",
+    "Client: I see them at the end of the hall. The group of popular kids who always pick on me. My heart starts racing, and I feel sweat forming on my palms. I want to turn around, but I know I can't. I have to get to class.",
+    "Therapist: How are you feeling now?",
+    "Client: It's getting worse. Maybe a 6? My stomach is in knots, and I'm having trouble swallowing.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: As I get closer, one of them notices me. He nudges his friends, and they all turn to look. I can see the smirks on their faces. I try to walk faster, but my legs feel heavy. Suddenly, one of them sticks out his foot, and I trip. My books scatter across the floor, and everyone starts laughing.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's an 8 now. I can feel the humiliation burning in my chest. My face is hot, and I'm struggling to breathe normally.",
+    "Therapist: You're doing great. Remember, you're safe here.",
+    "Client: I'm on the floor, trying to gather my things. People are pointing and laughing. Someone kicks one of my books further down the hall. I can hear them making fun of my clothes, my hair... everything. I just want to disappear.",
+    "Therapist: And your SUDS now?",
+    "Client: It's a 9. I feel like I'm right back there. My hands are shaking, and I can feel tears starting to form in my eyes.",
+    "Therapist: That's okay. Take a moment if you need to.",
+    "Client: I... I manage to stand up, clutching my books to my chest. I'm trying not to cry, but I can feel the tears running down my face. I push past them and run to the bathroom. I lock myself in a stall and just break down sobbing. I can't stop shaking, and I feel so alone and worthless.",
+    "Therapist: What's your SUDS level?",
+    "Client: It's still a 9. I can feel the cold tile of the bathroom floor, smell the harsh cleaning products. It's like I'm right back there.",
+    "Therapist: You're doing really well. Stay with it.",
+    "Client: I sit there for what feels like hours, trying to calm down. I can hear other students coming and going, but I'm too afraid to leave. I'm terrified of facing them again. My mind keeps replaying the incident over and over. I feel so small, so insignificant.",
+    "Therapist: And your SUDS now?",
+    "Client: It's starting to come down a little. Maybe an 8? I'm still shaky, but the intensity is fading slightly.",
+    "Therapist: That's good. What happens next?",
+    "Client: Eventually, I hear the bell ring for the next class. I know I have to leave. I splash some water on my face and try to make myself look presentable. As I step out of the bathroom, the hallway is mostly empty. I feel a mix of relief and dread as I head to my next class.",
+    "Therapist: How are you feeling now?",
+    "Client: I'd say I'm at a 7. The immediate panic has subsided, but I still feel on edge, like it could happen again at any moment.",
+    "Therapist: You've done an excellent job. Let's start winding down.",
+    "Client: Okay. As I sit in my next class, I can't focus on anything the teacher is saying. My mind keeps going back to what happened. I feel so alone and isolated, even though I'm surrounded by other students. The rest of the day is a blur of anxiety and shame.",
+    "Therapist: And your final SUDS rating?",
+    "Client: I think I'm at a 6 now. I still feel upset, but it's not as overwhelming as before.",
+    "Therapist: Thank you for sharing that difficult memory. How are you feeling now that we've finished?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll try my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in high school, walking down the hallway. I can hear the chatter of other students, lockers slamming shut. I'm trying to keep my head down, hoping they won't notice me today."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in high school, walking down the hallway. I can hear the chatter of other students, lockers slamming shut. I'm trying to keep my head down, hoping they won't notice me today.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in high school, walking down the hallway. I can hear the chatter of other students, lockers slamming shut. I'm trying to keep my head down, hoping they won't notice me today.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 4. I'm feeling tense, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 4. I'm feeling tense, but it's manageable.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, probably around a 4. I'm feeling tense, but it's manageable.",
+      "Therapist: Alright. Continue.",
+      "Client: I see them at the end of the hall. The group of popular kids who always pick on me. My heart starts racing, and I feel sweat forming on my palms. I want to turn around, but I know I can't. I have to get to class."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: I see them at the end of the hall. The group of popular kids who always pick on me. My heart starts racing, and I feel sweat forming on my palms. I want to turn around, but I know I can't. I have to get to class.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I see them at the end of the hall. The group of popular kids who always pick on me. My heart starts racing, and I feel sweat forming on my palms. I want to turn around, but I know I can't. I have to get to class.",
+      "Therapist: How are you feeling now?",
+      "Client: It's getting worse. Maybe a 6? My stomach is in knots, and I'm having trouble swallowing."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's getting worse. Maybe a 6? My stomach is in knots, and I'm having trouble swallowing.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's getting worse. Maybe a 6? My stomach is in knots, and I'm having trouble swallowing.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: As I get closer, one of them notices me. He nudges his friends, and they all turn to look. I can see the smirks on their faces. I try to walk faster, but my legs feel heavy. Suddenly, one of them sticks out his foot, and I trip. My books scatter across the floor, and everyone starts laughing."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: As I get closer, one of them notices me. He nudges his friends, and they all turn to look. I can see the smirks on their faces. I try to walk faster, but my legs feel heavy. Suddenly, one of them sticks out his foot, and I trip. My books scatter across the floor, and everyone starts laughing.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: As I get closer, one of them notices me. He nudges his friends, and they all turn to look. I can see the smirks on their faces. I try to walk faster, but my legs feel heavy. Suddenly, one of them sticks out his foot, and I trip. My books scatter across the floor, and everyone starts laughing.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's an 8 now. I can feel the humiliation burning in my chest. My face is hot, and I'm struggling to breathe normally."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's an 8 now. I can feel the humiliation burning in my chest. My face is hot, and I'm struggling to breathe normally.",
+      "Therapist: You're doing great. Remember, you're safe here."
+    ],
+    [
+      "Client: It's... it's an 8 now. I can feel the humiliation burning in my chest. My face is hot, and I'm struggling to breathe normally.",
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: I'm on the floor, trying to gather my things. People are pointing and laughing. Someone kicks one of my books further down the hall. I can hear them making fun of my clothes, my hair... everything. I just want to disappear."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: I'm on the floor, trying to gather my things. People are pointing and laughing. Someone kicks one of my books further down the hall. I can hear them making fun of my clothes, my hair... everything. I just want to disappear.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I'm on the floor, trying to gather my things. People are pointing and laughing. Someone kicks one of my books further down the hall. I can hear them making fun of my clothes, my hair... everything. I just want to disappear.",
+      "Therapist: And your SUDS now?",
+      "Client: It's a 9. I feel like I'm right back there. My hands are shaking, and I can feel tears starting to form in my eyes."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's a 9. I feel like I'm right back there. My hands are shaking, and I can feel tears starting to form in my eyes.",
+      "Therapist: That's okay. Take a moment if you need to."
+    ],
+    [
+      "Client: It's a 9. I feel like I'm right back there. My hands are shaking, and I can feel tears starting to form in my eyes.",
+      "Therapist: That's okay. Take a moment if you need to.",
+      "Client: I... I manage to stand up, clutching my books to my chest. I'm trying not to cry, but I can feel the tears running down my face. I push past them and run to the bathroom. I lock myself in a stall and just break down sobbing. I can't stop shaking, and I feel so alone and worthless."
+    ],
+    [
+      "Therapist: That's okay. Take a moment if you need to.",
+      "Client: I... I manage to stand up, clutching my books to my chest. I'm trying not to cry, but I can feel the tears running down my face. I push past them and run to the bathroom. I lock myself in a stall and just break down sobbing. I can't stop shaking, and I feel so alone and worthless.",
+      "Therapist: What's your SUDS level?"
+    ],
+    [
+      "Client: I... I manage to stand up, clutching my books to my chest. I'm trying not to cry, but I can feel the tears running down my face. I push past them and run to the bathroom. I lock myself in a stall and just break down sobbing. I can't stop shaking, and I feel so alone and worthless.",
+      "Therapist: What's your SUDS level?",
+      "Client: It's still a 9. I can feel the cold tile of the bathroom floor, smell the harsh cleaning products. It's like I'm right back there."
+    ],
+    [
+      "Therapist: What's your SUDS level?",
+      "Client: It's still a 9. I can feel the cold tile of the bathroom floor, smell the harsh cleaning products. It's like I'm right back there.",
+      "Therapist: You're doing really well. Stay with it."
+    ],
+    [
+      "Client: It's still a 9. I can feel the cold tile of the bathroom floor, smell the harsh cleaning products. It's like I'm right back there.",
+      "Therapist: You're doing really well. Stay with it.",
+      "Client: I sit there for what feels like hours, trying to calm down. I can hear other students coming and going, but I'm too afraid to leave. I'm terrified of facing them again. My mind keeps replaying the incident over and over. I feel so small, so insignificant."
+    ],
+    [
+      "Therapist: You're doing really well. Stay with it.",
+      "Client: I sit there for what feels like hours, trying to calm down. I can hear other students coming and going, but I'm too afraid to leave. I'm terrified of facing them again. My mind keeps replaying the incident over and over. I feel so small, so insignificant.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I sit there for what feels like hours, trying to calm down. I can hear other students coming and going, but I'm too afraid to leave. I'm terrified of facing them again. My mind keeps replaying the incident over and over. I feel so small, so insignificant.",
+      "Therapist: And your SUDS now?",
+      "Client: It's starting to come down a little. Maybe an 8? I'm still shaky, but the intensity is fading slightly."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's starting to come down a little. Maybe an 8? I'm still shaky, but the intensity is fading slightly.",
+      "Therapist: That's good. What happens next?"
+    ],
+    [
+      "Client: It's starting to come down a little. Maybe an 8? I'm still shaky, but the intensity is fading slightly.",
+      "Therapist: That's good. What happens next?",
+      "Client: Eventually, I hear the bell ring for the next class. I know I have to leave. I splash some water on my face and try to make myself look presentable. As I step out of the bathroom, the hallway is mostly empty. I feel a mix of relief and dread as I head to my next class."
+    ],
+    [
+      "Therapist: That's good. What happens next?",
+      "Client: Eventually, I hear the bell ring for the next class. I know I have to leave. I splash some water on my face and try to make myself look presentable. As I step out of the bathroom, the hallway is mostly empty. I feel a mix of relief and dread as I head to my next class.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: Eventually, I hear the bell ring for the next class. I know I have to leave. I splash some water on my face and try to make myself look presentable. As I step out of the bathroom, the hallway is mostly empty. I feel a mix of relief and dread as I head to my next class.",
+      "Therapist: How are you feeling now?",
+      "Client: I'd say I'm at a 7. The immediate panic has subsided, but I still feel on edge, like it could happen again at any moment."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'd say I'm at a 7. The immediate panic has subsided, but I still feel on edge, like it could happen again at any moment.",
+      "Therapist: You've done an excellent job. Let's start winding down."
+    ],
+    [
+      "Client: I'd say I'm at a 7. The immediate panic has subsided, but I still feel on edge, like it could happen again at any moment.",
+      "Therapist: You've done an excellent job. Let's start winding down.",
+      "Client: Okay. As I sit in my next class, I can't focus on anything the teacher is saying. My mind keeps going back to what happened. I feel so alone and isolated, even though I'm surrounded by other students. The rest of the day is a blur of anxiety and shame."
+    ],
+    [
+      "Therapist: You've done an excellent job. Let's start winding down.",
+      "Client: Okay. As I sit in my next class, I can't focus on anything the teacher is saying. My mind keeps going back to what happened. I feel so alone and isolated, even though I'm surrounded by other students. The rest of the day is a blur of anxiety and shame.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: Okay. As I sit in my next class, I can't focus on anything the teacher is saying. My mind keeps going back to what happened. I feel so alone and isolated, even though I'm surrounded by other students. The rest of the day is a blur of anxiety and shame.",
+      "Therapist: And your final SUDS rating?",
+      "Client: I think I'm at a 6 now. I still feel upset, but it's not as overwhelming as before."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: I think I'm at a 6 now. I still feel upset, but it's not as overwhelming as before.",
+      "Therapist: Thank you for sharing that difficult memory. How are you feeling now that we've finished?"
+    ]
+  ]
+}

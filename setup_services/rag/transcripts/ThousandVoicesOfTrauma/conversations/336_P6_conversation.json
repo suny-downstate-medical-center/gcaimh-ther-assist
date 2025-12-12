@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+    "Client: Okay... I'm back there, at the cult compound. It's early morning, and I can smell the damp earth. The leader is calling us for the daily meeting. My stomach is in knots.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, about a 4 out of 10. I'm tense, but it's manageable.",
+    "Therapist: Good. Continue.",
+    "Client: We're all gathering in the main hall. I can see the other members' faces - they look eager, but I feel sick. The leader starts speaking about loyalty and sacrifice. His words make my skin crawl.",
+    "Therapist: And now?",
+    "Client: It's climbing... maybe a 6? My palms are sweaty, and I'm feeling a tightness in my chest.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: He's singling people out, praising some, criticizing others. I'm terrified he'll call on me. My heart is racing. I can feel the eyes of others on me, judging, waiting to see if I'll be next.",
+    "Therapist: SUDS?",
+    "Client: It's an 8 now. I feel like I can't breathe. My legs are shaky, even though I'm sitting down. I want to run, but I'm frozen in place.",
+    "Therapist: Stay with it. You're safe here.",
+    "Client: The leader is walking towards me. His eyes are locked on mine. I can smell his cologne - it's overpowering. He puts his hand on my shoulder, and I flinch. He's asking me to stand up, to share my devotion to the group. I... I can't...",
+    "Therapist: Take a deep breath. What's your SUDS now?",
+    "Client: It's... it's a 9. I feel like I'm right back there. My throat is tight, and I'm fighting back tears.",
+    "Therapist: You're doing great. Remember, you're here with me, not there.",
+    "Client: I stand up, my legs barely supporting me. Everyone's staring. I start to speak, but the words feel hollow. I'm lying, telling them what they want to hear. I hate myself for it. I feel so weak, so trapped.",
+    "Therapist: And now?",
+    "Client: Still a 9. My head is pounding. I feel dizzy and nauseous. I want this to be over.",
+    "Therapist: You're incredibly brave. Keep going.",
+    "Client: The leader is praising me now, but it feels like poison. I sit down, feeling drained and empty. The meeting continues, but I'm not really there anymore. I'm just... numb.",
+    "Therapist: What's your SUDS level?",
+    "Client: It's... dropping a bit. Maybe a 7 now. I feel exhausted, wrung out.",
+    "Therapist: That's normal. How are you feeling now, here with me?",
+    "Client: Shaken. It felt so real. But... I got through it. I'm surprised I could describe it in such detail.",
+    "Therapist: You did extremely well. Let's take a moment to ground ourselves.",
+    "Client: Okay. I'm taking deep breaths. The memory is fading a bit.",
+    "Therapist: Good. What's your final SUDS rating?",
+    "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little stronger?",
+    "Therapist: That's excellent progress. How about we discuss what you experienced?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm back there, at the cult compound. It's early morning, and I can smell the damp earth. The leader is calling us for the daily meeting. My stomach is in knots."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm back there, at the cult compound. It's early morning, and I can smell the damp earth. The leader is calling us for the daily meeting. My stomach is in knots.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back there, at the cult compound. It's early morning, and I can smell the damp earth. The leader is calling us for the daily meeting. My stomach is in knots.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4 out of 10. I'm tense, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4 out of 10. I'm tense, but it's manageable.",
+      "Therapist: Good. Continue."
+    ],
+    [
+      "Client: Um, about a 4 out of 10. I'm tense, but it's manageable.",
+      "Therapist: Good. Continue.",
+      "Client: We're all gathering in the main hall. I can see the other members' faces - they look eager, but I feel sick. The leader starts speaking about loyalty and sacrifice. His words make my skin crawl."
+    ],
+    [
+      "Therapist: Good. Continue.",
+      "Client: We're all gathering in the main hall. I can see the other members' faces - they look eager, but I feel sick. The leader starts speaking about loyalty and sacrifice. His words make my skin crawl.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: We're all gathering in the main hall. I can see the other members' faces - they look eager, but I feel sick. The leader starts speaking about loyalty and sacrifice. His words make my skin crawl.",
+      "Therapist: And now?",
+      "Client: It's climbing... maybe a 6? My palms are sweaty, and I'm feeling a tightness in my chest."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: It's climbing... maybe a 6? My palms are sweaty, and I'm feeling a tightness in my chest.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's climbing... maybe a 6? My palms are sweaty, and I'm feeling a tightness in my chest.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: He's singling people out, praising some, criticizing others. I'm terrified he'll call on me. My heart is racing. I can feel the eyes of others on me, judging, waiting to see if I'll be next."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: He's singling people out, praising some, criticizing others. I'm terrified he'll call on me. My heart is racing. I can feel the eyes of others on me, judging, waiting to see if I'll be next.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: He's singling people out, praising some, criticizing others. I'm terrified he'll call on me. My heart is racing. I can feel the eyes of others on me, judging, waiting to see if I'll be next.",
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. I feel like I can't breathe. My legs are shaky, even though I'm sitting down. I want to run, but I'm frozen in place."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. I feel like I can't breathe. My legs are shaky, even though I'm sitting down. I want to run, but I'm frozen in place.",
+      "Therapist: Stay with it. You're safe here."
+    ],
+    [
+      "Client: It's an 8 now. I feel like I can't breathe. My legs are shaky, even though I'm sitting down. I want to run, but I'm frozen in place.",
+      "Therapist: Stay with it. You're safe here.",
+      "Client: The leader is walking towards me. His eyes are locked on mine. I can smell his cologne - it's overpowering. He puts his hand on my shoulder, and I flinch. He's asking me to stand up, to share my devotion to the group. I... I can't..."
+    ],
+    [
+      "Therapist: Stay with it. You're safe here.",
+      "Client: The leader is walking towards me. His eyes are locked on mine. I can smell his cologne - it's overpowering. He puts his hand on my shoulder, and I flinch. He's asking me to stand up, to share my devotion to the group. I... I can't...",
+      "Therapist: Take a deep breath. What's your SUDS now?"
+    ],
+    [
+      "Client: The leader is walking towards me. His eyes are locked on mine. I can smell his cologne - it's overpowering. He puts his hand on my shoulder, and I flinch. He's asking me to stand up, to share my devotion to the group. I... I can't...",
+      "Therapist: Take a deep breath. What's your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My throat is tight, and I'm fighting back tears."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS now?",
+      "Client: It's... it's a 9. I feel like I'm right back there. My throat is tight, and I'm fighting back tears.",
+      "Therapist: You're doing great. Remember, you're here with me, not there."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there. My throat is tight, and I'm fighting back tears.",
+      "Therapist: You're doing great. Remember, you're here with me, not there.",
+      "Client: I stand up, my legs barely supporting me. Everyone's staring. I start to speak, but the words feel hollow. I'm lying, telling them what they want to hear. I hate myself for it. I feel so weak, so trapped."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're here with me, not there.",
+      "Client: I stand up, my legs barely supporting me. Everyone's staring. I start to speak, but the words feel hollow. I'm lying, telling them what they want to hear. I hate myself for it. I feel so weak, so trapped.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: I stand up, my legs barely supporting me. Everyone's staring. I start to speak, but the words feel hollow. I'm lying, telling them what they want to hear. I hate myself for it. I feel so weak, so trapped.",
+      "Therapist: And now?",
+      "Client: Still a 9. My head is pounding. I feel dizzy and nauseous. I want this to be over."
+    ],
+    [
+      "Therapist: And now?",
+      "Client: Still a 9. My head is pounding. I feel dizzy and nauseous. I want this to be over.",
+      "Therapist: You're incredibly brave. Keep going."
+    ],
+    [
+      "Client: Still a 9. My head is pounding. I feel dizzy and nauseous. I want this to be over.",
+      "Therapist: You're incredibly brave. Keep going.",
+      "Client: The leader is praising me now, but it feels like poison. I sit down, feeling drained and empty. The meeting continues, but I'm not really there anymore. I'm just... numb."
+    ],
+    [
+      "Therapist: You're incredibly brave. Keep going.",
+      "Client: The leader is praising me now, but it feels like poison. I sit down, feeling drained and empty. The meeting continues, but I'm not really there anymore. I'm just... numb.",
+      "Therapist: What's your SUDS level?"
+    ],
+    [
+      "Client: The leader is praising me now, but it feels like poison. I sit down, feeling drained and empty. The meeting continues, but I'm not really there anymore. I'm just... numb.",
+      "Therapist: What's your SUDS level?",
+      "Client: It's... dropping a bit. Maybe a 7 now. I feel exhausted, wrung out."
+    ],
+    [
+      "Therapist: What's your SUDS level?",
+      "Client: It's... dropping a bit. Maybe a 7 now. I feel exhausted, wrung out.",
+      "Therapist: That's normal. How are you feeling now, here with me?"
+    ],
+    [
+      "Client: It's... dropping a bit. Maybe a 7 now. I feel exhausted, wrung out.",
+      "Therapist: That's normal. How are you feeling now, here with me?",
+      "Client: Shaken. It felt so real. But... I got through it. I'm surprised I could describe it in such detail."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling now, here with me?",
+      "Client: Shaken. It felt so real. But... I got through it. I'm surprised I could describe it in such detail.",
+      "Therapist: You did extremely well. Let's take a moment to ground ourselves."
+    ],
+    [
+      "Client: Shaken. It felt so real. But... I got through it. I'm surprised I could describe it in such detail.",
+      "Therapist: You did extremely well. Let's take a moment to ground ourselves.",
+      "Client: Okay. I'm taking deep breaths. The memory is fading a bit."
+    ],
+    [
+      "Therapist: You did extremely well. Let's take a moment to ground ourselves.",
+      "Client: Okay. I'm taking deep breaths. The memory is fading a bit.",
+      "Therapist: Good. What's your final SUDS rating?"
+    ],
+    [
+      "Client: Okay. I'm taking deep breaths. The memory is fading a bit.",
+      "Therapist: Good. What's your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little stronger?"
+    ],
+    [
+      "Therapist: Good. What's your final SUDS rating?",
+      "Client: It's down to a 5 now. I feel drained, but also... I don't know, maybe a little stronger?",
+      "Therapist: That's excellent progress. How about we discuss what you experienced?"
+    ]
+  ]
+}

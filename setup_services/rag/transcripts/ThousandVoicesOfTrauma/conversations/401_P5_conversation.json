@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Tom. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about what I saw, and it's been hard to focus on my studies.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+    "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it actually involves. Is it... is it going to be difficult?",
+    "Therapist: It can be challenging, but it's a crucial step in your recovery. Shall I explain more?",
+    "Client: Yes, please. I want to know what I'm getting into. The nightmares are already bad enough, and I'm worried this might make things worse. But at the same time, I know I need to do something. It's affecting my grades, and I can't keep living like this.",
+    "Therapist: Imaginal exposure involves revisiting your trauma memory in a safe environment. Ready to hear more?",
+    "Client: I think so. But how is reliving it going to help? Won't it just make everything worse? I've been trying so hard to forget what I saw that day at the docks. Those people... they looked so scared and helpless.",
+    "Therapist: By facing the memory, we can process it and reduce its power over you. It may be uncomfortable initially.",
+    "Client: Uncomfortable seems like an understatement. I'm already feeling anxious just thinking about it. But I trust you, and if you think this will help, I'm willing to try. What exactly will I need to do?",
+    "Therapist: You'll recount the traumatic event in detail, in the present tense. I'll guide you through it.",
+    "Client: In the present tense? Like I'm there again? That sounds terrifying. I've been avoiding thinking about it for so long. What if I panic or can't handle it? And what do you mean by 'guide me through it'?",
+    "Therapist: I'll be here to support you. We'll go at your pace, and you can stop anytime. How does that sound?",
+    "Client: It sounds scary, but also like it might be necessary. I'm tired of feeling this way, always on edge, always afraid. If this can help me move past what I saw and get back to my normal life, then I want to try. Can you tell me more about what to expect during the session?",
+    "Therapist: You may experience strong emotions. This is normal and part of the healing process. Any questions?",
+    "Client: Yeah, a few. How long will the session last? And what happens if I get overwhelmed? I'm worried I might have a panic attack or something. Also, will we be doing this every session from now on?",
+    "Therapist: Sessions typically last about an hour. We can pause if needed. We'll do this regularly, but not every time.",
+    "Client: Okay, that's good to know. An hour seems like a long time to relive that memory, but I guess that's the point, right? To face it head-on? I'm still nervous, but I'm also feeling a bit more prepared now. Is there anything I should do to get ready for our next session when we start this?",
+    "Therapist: Just come as you are. Your willingness to participate is what matters most. You're very courageous, Tom.",
+    "Client: Thank you, that means a lot. I don't feel very courageous most of the time, especially when I'm having flashbacks or avoiding certain places because they remind me of what I saw. But I'm trying to remind myself that seeking help and facing this is a form of bravery too. I just hope it works. Is there anything else I should know before we wrap up today?",
+    "Therapist: You're on the right path. Remember, healing takes time. Any final thoughts or concerns?",
+    "Client: I think I'm as ready as I'll ever be. I'm scared, but also hopeful that this might be the key to moving forward. Thank you for explaining everything so patiently. I'll try to come to our next session with an open mind and remember that you're here to support me through this process.",
+    "Therapist: That's a great attitude, Tom. I'll see you next week. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Tom. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about what I saw, and it's been hard to focus on my studies.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about what I saw, and it's been hard to focus on my studies.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it actually involves. Is it... is it going to be difficult?"
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it actually involves. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's a crucial step in your recovery. Shall I explain more?"
+    ],
+    [
+      "Client: Not really. I mean, I've heard you mention it before, but I'm not sure what it actually involves. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's a crucial step in your recovery. Shall I explain more?",
+      "Client: Yes, please. I want to know what I'm getting into. The nightmares are already bad enough, and I'm worried this might make things worse. But at the same time, I know I need to do something. It's affecting my grades, and I can't keep living like this."
+    ],
+    [
+      "Therapist: It can be challenging, but it's a crucial step in your recovery. Shall I explain more?",
+      "Client: Yes, please. I want to know what I'm getting into. The nightmares are already bad enough, and I'm worried this might make things worse. But at the same time, I know I need to do something. It's affecting my grades, and I can't keep living like this.",
+      "Therapist: Imaginal exposure involves revisiting your trauma memory in a safe environment. Ready to hear more?"
+    ],
+    [
+      "Client: Yes, please. I want to know what I'm getting into. The nightmares are already bad enough, and I'm worried this might make things worse. But at the same time, I know I need to do something. It's affecting my grades, and I can't keep living like this.",
+      "Therapist: Imaginal exposure involves revisiting your trauma memory in a safe environment. Ready to hear more?",
+      "Client: I think so. But how is reliving it going to help? Won't it just make everything worse? I've been trying so hard to forget what I saw that day at the docks. Those people... they looked so scared and helpless."
+    ],
+    [
+      "Therapist: Imaginal exposure involves revisiting your trauma memory in a safe environment. Ready to hear more?",
+      "Client: I think so. But how is reliving it going to help? Won't it just make everything worse? I've been trying so hard to forget what I saw that day at the docks. Those people... they looked so scared and helpless.",
+      "Therapist: By facing the memory, we can process it and reduce its power over you. It may be uncomfortable initially."
+    ],
+    [
+      "Client: I think so. But how is reliving it going to help? Won't it just make everything worse? I've been trying so hard to forget what I saw that day at the docks. Those people... they looked so scared and helpless.",
+      "Therapist: By facing the memory, we can process it and reduce its power over you. It may be uncomfortable initially.",
+      "Client: Uncomfortable seems like an understatement. I'm already feeling anxious just thinking about it. But I trust you, and if you think this will help, I'm willing to try. What exactly will I need to do?"
+    ],
+    [
+      "Therapist: By facing the memory, we can process it and reduce its power over you. It may be uncomfortable initially.",
+      "Client: Uncomfortable seems like an understatement. I'm already feeling anxious just thinking about it. But I trust you, and if you think this will help, I'm willing to try. What exactly will I need to do?",
+      "Therapist: You'll recount the traumatic event in detail, in the present tense. I'll guide you through it."
+    ],
+    [
+      "Client: Uncomfortable seems like an understatement. I'm already feeling anxious just thinking about it. But I trust you, and if you think this will help, I'm willing to try. What exactly will I need to do?",
+      "Therapist: You'll recount the traumatic event in detail, in the present tense. I'll guide you through it.",
+      "Client: In the present tense? Like I'm there again? That sounds terrifying. I've been avoiding thinking about it for so long. What if I panic or can't handle it? And what do you mean by 'guide me through it'?"
+    ],
+    [
+      "Therapist: You'll recount the traumatic event in detail, in the present tense. I'll guide you through it.",
+      "Client: In the present tense? Like I'm there again? That sounds terrifying. I've been avoiding thinking about it for so long. What if I panic or can't handle it? And what do you mean by 'guide me through it'?",
+      "Therapist: I'll be here to support you. We'll go at your pace, and you can stop anytime. How does that sound?"
+    ],
+    [
+      "Client: In the present tense? Like I'm there again? That sounds terrifying. I've been avoiding thinking about it for so long. What if I panic or can't handle it? And what do you mean by 'guide me through it'?",
+      "Therapist: I'll be here to support you. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: It sounds scary, but also like it might be necessary. I'm tired of feeling this way, always on edge, always afraid. If this can help me move past what I saw and get back to my normal life, then I want to try. Can you tell me more about what to expect during the session?"
+    ],
+    [
+      "Therapist: I'll be here to support you. We'll go at your pace, and you can stop anytime. How does that sound?",
+      "Client: It sounds scary, but also like it might be necessary. I'm tired of feeling this way, always on edge, always afraid. If this can help me move past what I saw and get back to my normal life, then I want to try. Can you tell me more about what to expect during the session?",
+      "Therapist: You may experience strong emotions. This is normal and part of the healing process. Any questions?"
+    ],
+    [
+      "Client: It sounds scary, but also like it might be necessary. I'm tired of feeling this way, always on edge, always afraid. If this can help me move past what I saw and get back to my normal life, then I want to try. Can you tell me more about what to expect during the session?",
+      "Therapist: You may experience strong emotions. This is normal and part of the healing process. Any questions?",
+      "Client: Yeah, a few. How long will the session last? And what happens if I get overwhelmed? I'm worried I might have a panic attack or something. Also, will we be doing this every session from now on?"
+    ],
+    [
+      "Therapist: You may experience strong emotions. This is normal and part of the healing process. Any questions?",
+      "Client: Yeah, a few. How long will the session last? And what happens if I get overwhelmed? I'm worried I might have a panic attack or something. Also, will we be doing this every session from now on?",
+      "Therapist: Sessions typically last about an hour. We can pause if needed. We'll do this regularly, but not every time."
+    ],
+    [
+      "Client: Yeah, a few. How long will the session last? And what happens if I get overwhelmed? I'm worried I might have a panic attack or something. Also, will we be doing this every session from now on?",
+      "Therapist: Sessions typically last about an hour. We can pause if needed. We'll do this regularly, but not every time.",
+      "Client: Okay, that's good to know. An hour seems like a long time to relive that memory, but I guess that's the point, right? To face it head-on? I'm still nervous, but I'm also feeling a bit more prepared now. Is there anything I should do to get ready for our next session when we start this?"
+    ],
+    [
+      "Therapist: Sessions typically last about an hour. We can pause if needed. We'll do this regularly, but not every time.",
+      "Client: Okay, that's good to know. An hour seems like a long time to relive that memory, but I guess that's the point, right? To face it head-on? I'm still nervous, but I'm also feeling a bit more prepared now. Is there anything I should do to get ready for our next session when we start this?",
+      "Therapist: Just come as you are. Your willingness to participate is what matters most. You're very courageous, Tom."
+    ],
+    [
+      "Client: Okay, that's good to know. An hour seems like a long time to relive that memory, but I guess that's the point, right? To face it head-on? I'm still nervous, but I'm also feeling a bit more prepared now. Is there anything I should do to get ready for our next session when we start this?",
+      "Therapist: Just come as you are. Your willingness to participate is what matters most. You're very courageous, Tom.",
+      "Client: Thank you, that means a lot. I don't feel very courageous most of the time, especially when I'm having flashbacks or avoiding certain places because they remind me of what I saw. But I'm trying to remind myself that seeking help and facing this is a form of bravery too. I just hope it works. Is there anything else I should know before we wrap up today?"
+    ],
+    [
+      "Therapist: Just come as you are. Your willingness to participate is what matters most. You're very courageous, Tom.",
+      "Client: Thank you, that means a lot. I don't feel very courageous most of the time, especially when I'm having flashbacks or avoiding certain places because they remind me of what I saw. But I'm trying to remind myself that seeking help and facing this is a form of bravery too. I just hope it works. Is there anything else I should know before we wrap up today?",
+      "Therapist: You're on the right path. Remember, healing takes time. Any final thoughts or concerns?"
+    ],
+    [
+      "Client: Thank you, that means a lot. I don't feel very courageous most of the time, especially when I'm having flashbacks or avoiding certain places because they remind me of what I saw. But I'm trying to remind myself that seeking help and facing this is a form of bravery too. I just hope it works. Is there anything else I should know before we wrap up today?",
+      "Therapist: You're on the right path. Remember, healing takes time. Any final thoughts or concerns?",
+      "Client: I think I'm as ready as I'll ever be. I'm scared, but also hopeful that this might be the key to moving forward. Thank you for explaining everything so patiently. I'll try to come to our next session with an open mind and remember that you're here to support me through this process."
+    ],
+    [
+      "Therapist: You're on the right path. Remember, healing takes time. Any final thoughts or concerns?",
+      "Client: I think I'm as ready as I'll ever be. I'm scared, but also hopeful that this might be the key to moving forward. Thank you for explaining everything so patiently. I'll try to come to our next session with an open mind and remember that you're here to support me through this process.",
+      "Therapist: That's a great attitude, Tom. I'll see you next week. Take care."
+    ]
+  ]
+}

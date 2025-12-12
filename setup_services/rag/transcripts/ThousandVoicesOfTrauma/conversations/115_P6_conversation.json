@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Okay, John, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's begin when you're comfortable.",
+    "Client: Alright. I'm back in Afghanistan. It's hot, dusty. The air feels thick with tension. We're on patrol, moving through a small village. Everything seems quiet, but something doesn't feel right. My heart's racing, palms are sweaty on my rifle. Then suddenly, there's a loud explosion. I'm thrown to the ground, ears ringing. I can't... I can't hear anything clearly. There's dust everywhere, and I smell something burning...",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's... it's about a 7. My heart's pounding just thinking about it.",
+    "Therapist: That's okay. Keep going.",
+    "Client: I'm trying to get up, but my legs feel weak. I see movement through the dust - it's Jenkins, he's not moving. I crawl over to him, and... oh God, there's so much blood. His leg is... it's gone. I'm yelling for a medic, but I can barely hear my own voice. Everything's muffled, like I'm underwater. I start applying a tourniquet, my hands are shaking so badly...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's up to an 8. I feel like I can't breathe properly.",
+    "Therapist: You're doing well. Take a deep breath. Continue when ready.",
+    "Client: Okay... The medic arrives, takes over. I stand up, trying to secure the area. That's when I see them - two local kids, maybe 8 or 9 years old. They're just... lying there, not moving. Their bodies are so small, so still. I feel sick, my stomach's churning. I want to help them, but I know it's too late. I failed them. I failed to protect them...",
+    "Therapist: SUDS rating?",
+    "Client: It's... it's a 9 now. I feel like I'm right back there.",
+    "Therapist: You're safe here. Remember, this is a memory. Keep going.",
+    "Client: I can't stop staring at those kids. Their faces... they look so peaceful, like they're sleeping. But I know they're not. I hear shouting, gunfire in the distance. I should be doing something, but I'm frozen. I can't move. I can't think. I just keep seeing those kids, over and over...",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's still... still a 9. My chest feels tight. I'm sweating.",
+    "Therapist: That's okay. You're doing great. Continue.",
+    "Client: The rest of the patrol is a blur. We secure the area, evacuate the wounded. I'm moving on autopilot. Later, back at base, I can't sleep. Every time I close my eyes, I see those kids. I feel... I feel so guilty. Why couldn't I save them? Why did they have to die? I keep thinking about their families, how they'll never see them again. It's... it's overwhelming.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's coming down a bit. Maybe an 8 now.",
+    "Therapist: Good. How are you feeling physically?",
+    "Client: My heart rate's slowing down. I feel... drained. Exhausted.",
+    "Therapist: That's normal. You did well today, John.",
+    "Client: Thanks. It's... it's still hard to talk about.",
+    "Therapist: I understand. We'll work through this together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Okay, John, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Alright. I'm back in Afghanistan. It's hot, dusty. The air feels thick with tension. We're on patrol, moving through a small village. Everything seems quiet, but something doesn't feel right. My heart's racing, palms are sweaty on my rifle. Then suddenly, there's a loud explosion. I'm thrown to the ground, ears ringing. I can't... I can't hear anything clearly. There's dust everywhere, and I smell something burning..."
+    ],
+    [
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Alright. I'm back in Afghanistan. It's hot, dusty. The air feels thick with tension. We're on patrol, moving through a small village. Everything seems quiet, but something doesn't feel right. My heart's racing, palms are sweaty on my rifle. Then suddenly, there's a loud explosion. I'm thrown to the ground, ears ringing. I can't... I can't hear anything clearly. There's dust everywhere, and I smell something burning...",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Alright. I'm back in Afghanistan. It's hot, dusty. The air feels thick with tension. We're on patrol, moving through a small village. Everything seems quiet, but something doesn't feel right. My heart's racing, palms are sweaty on my rifle. Then suddenly, there's a loud explosion. I'm thrown to the ground, ears ringing. I can't... I can't hear anything clearly. There's dust everywhere, and I smell something burning...",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's... it's about a 7. My heart's pounding just thinking about it."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's... it's about a 7. My heart's pounding just thinking about it.",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's... it's about a 7. My heart's pounding just thinking about it.",
+      "Therapist: That's okay. Keep going.",
+      "Client: I'm trying to get up, but my legs feel weak. I see movement through the dust - it's Jenkins, he's not moving. I crawl over to him, and... oh God, there's so much blood. His leg is... it's gone. I'm yelling for a medic, but I can barely hear my own voice. Everything's muffled, like I'm underwater. I start applying a tourniquet, my hands are shaking so badly..."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: I'm trying to get up, but my legs feel weak. I see movement through the dust - it's Jenkins, he's not moving. I crawl over to him, and... oh God, there's so much blood. His leg is... it's gone. I'm yelling for a medic, but I can barely hear my own voice. Everything's muffled, like I'm underwater. I start applying a tourniquet, my hands are shaking so badly...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I'm trying to get up, but my legs feel weak. I see movement through the dust - it's Jenkins, he's not moving. I crawl over to him, and... oh God, there's so much blood. His leg is... it's gone. I'm yelling for a medic, but I can barely hear my own voice. Everything's muffled, like I'm underwater. I start applying a tourniquet, my hands are shaking so badly...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's up to an 8. I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's up to an 8. I feel like I can't breathe properly.",
+      "Therapist: You're doing well. Take a deep breath. Continue when ready."
+    ],
+    [
+      "Client: It's... it's up to an 8. I feel like I can't breathe properly.",
+      "Therapist: You're doing well. Take a deep breath. Continue when ready.",
+      "Client: Okay... The medic arrives, takes over. I stand up, trying to secure the area. That's when I see them - two local kids, maybe 8 or 9 years old. They're just... lying there, not moving. Their bodies are so small, so still. I feel sick, my stomach's churning. I want to help them, but I know it's too late. I failed them. I failed to protect them..."
+    ],
+    [
+      "Therapist: You're doing well. Take a deep breath. Continue when ready.",
+      "Client: Okay... The medic arrives, takes over. I stand up, trying to secure the area. That's when I see them - two local kids, maybe 8 or 9 years old. They're just... lying there, not moving. Their bodies are so small, so still. I feel sick, my stomach's churning. I want to help them, but I know it's too late. I failed them. I failed to protect them...",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: Okay... The medic arrives, takes over. I stand up, trying to secure the area. That's when I see them - two local kids, maybe 8 or 9 years old. They're just... lying there, not moving. Their bodies are so small, so still. I feel sick, my stomach's churning. I want to help them, but I know it's too late. I failed them. I failed to protect them...",
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9 now. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... it's a 9 now. I feel like I'm right back there.",
+      "Therapist: You're safe here. Remember, this is a memory. Keep going."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I'm right back there.",
+      "Therapist: You're safe here. Remember, this is a memory. Keep going.",
+      "Client: I can't stop staring at those kids. Their faces... they look so peaceful, like they're sleeping. But I know they're not. I hear shouting, gunfire in the distance. I should be doing something, but I'm frozen. I can't move. I can't think. I just keep seeing those kids, over and over..."
+    ],
+    [
+      "Therapist: You're safe here. Remember, this is a memory. Keep going.",
+      "Client: I can't stop staring at those kids. Their faces... they look so peaceful, like they're sleeping. But I know they're not. I hear shouting, gunfire in the distance. I should be doing something, but I'm frozen. I can't move. I can't think. I just keep seeing those kids, over and over...",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: I can't stop staring at those kids. Their faces... they look so peaceful, like they're sleeping. But I know they're not. I hear shouting, gunfire in the distance. I should be doing something, but I'm frozen. I can't move. I can't think. I just keep seeing those kids, over and over...",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's still... still a 9. My chest feels tight. I'm sweating."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's still... still a 9. My chest feels tight. I'm sweating.",
+      "Therapist: That's okay. You're doing great. Continue."
+    ],
+    [
+      "Client: It's still... still a 9. My chest feels tight. I'm sweating.",
+      "Therapist: That's okay. You're doing great. Continue.",
+      "Client: The rest of the patrol is a blur. We secure the area, evacuate the wounded. I'm moving on autopilot. Later, back at base, I can't sleep. Every time I close my eyes, I see those kids. I feel... I feel so guilty. Why couldn't I save them? Why did they have to die? I keep thinking about their families, how they'll never see them again. It's... it's overwhelming."
+    ],
+    [
+      "Therapist: That's okay. You're doing great. Continue.",
+      "Client: The rest of the patrol is a blur. We secure the area, evacuate the wounded. I'm moving on autopilot. Later, back at base, I can't sleep. Every time I close my eyes, I see those kids. I feel... I feel so guilty. Why couldn't I save them? Why did they have to die? I keep thinking about their families, how they'll never see them again. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The rest of the patrol is a blur. We secure the area, evacuate the wounded. I'm moving on autopilot. Later, back at base, I can't sleep. Every time I close my eyes, I see those kids. I feel... I feel so guilty. Why couldn't I save them? Why did they have to die? I keep thinking about their families, how they'll never see them again. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's coming down a bit. Maybe an 8 now.",
+      "Therapist: Good. How are you feeling physically?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe an 8 now.",
+      "Therapist: Good. How are you feeling physically?",
+      "Client: My heart rate's slowing down. I feel... drained. Exhausted."
+    ],
+    [
+      "Therapist: Good. How are you feeling physically?",
+      "Client: My heart rate's slowing down. I feel... drained. Exhausted.",
+      "Therapist: That's normal. You did well today, John."
+    ],
+    [
+      "Client: My heart rate's slowing down. I feel... drained. Exhausted.",
+      "Therapist: That's normal. You did well today, John.",
+      "Client: Thanks. It's... it's still hard to talk about."
+    ],
+    [
+      "Therapist: That's normal. You did well today, John.",
+      "Client: Thanks. It's... it's still hard to talk about.",
+      "Therapist: I understand. We'll work through this together."
+    ]
+  ]
+}

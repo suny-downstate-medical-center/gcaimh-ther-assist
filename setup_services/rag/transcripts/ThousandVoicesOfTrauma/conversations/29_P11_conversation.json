@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+    "Client: I... I'm not sure, Dr. Johnson. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. That memory... it's like I was right back there in the thick of it, you know?",
+    "Therapist: Understandable. What stood out most to you?",
+    "Client: The sounds, definitely. The explosions, the shouting... It was so vivid. I could almost smell the smoke and feel the heat on my skin. And then, when I got to the part about seeing my buddy go down... (voice breaks) I felt so helpless, just like I did then.",
+    "Therapist: That sounds incredibly intense. How are you coping with those feelings now?",
+    "Client: It's... it's tough. I'm trying to remind myself that I'm here, safe in your office, but part of me still feels on edge. Like I need to be ready for anything. I keep glancing at the door, even though I know there's no threat here.",
+    "Therapist: You're very aware of your surroundings. How does this compare to your daily life?",
+    "Client: (sighs) It's similar, I guess. I'm always on guard, always watching. It's exhausting. My wife says I never relax, even at home. And when we argue... sometimes I feel like I'm back in combat mode. It's not fair to her.",
+    "Therapist: How do you think this relates to your PTSD symptoms?",
+    "Client: I... I never really made that connection before. But yeah, I suppose this constant state of alertness, it's like I never left the war zone. Even the way I react to conflicts at home... it's like I'm still fighting.",
+    "Therapist: That's an important insight. How might this awareness help you?",
+    "Client: Maybe... maybe if I can recognize when I'm slipping into that combat mindset, I can try to step back. Remind myself that I'm not in danger anymore. That my family isn't the enemy.",
+    "Therapist: Excellent observation. What else?",
+    "Client: I guess... I need to work on feeling safe again. Not just knowing it in my head, but really feeling it. And maybe... maybe I need to talk to my wife about this. Help her understand why I react the way I do sometimes.",
+    "Therapist: Those are great goals. How do you feel about continuing this work?",
+    "Client: It's hard, doc. Really hard. But... I think it's helping. I want to be better for my family, for myself. So yeah, I'm willing to keep going. Just... be patient with me, okay?",
+    "Therapist: Of course. Your commitment is commendable. Shall we schedule our next session?",
+    "Client: Yeah, let's do that. And... thanks, Dr. Johnson. For listening, for helping me make sense of all this. It means a lot.",
+    "Therapist: You're welcome, Mr. Ramirez. Until next time, take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+      "Client: I... I'm not sure, Dr. Johnson. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. That memory... it's like I was right back there in the thick of it, you know?",
+      "Therapist: Understandable. What stood out most to you?"
+    ],
+    [
+      "Client: I... I'm not sure, Dr. Johnson. It's a lot to process. My heart's still racing a bit, and I feel kind of shaky. That memory... it's like I was right back there in the thick of it, you know?",
+      "Therapist: Understandable. What stood out most to you?",
+      "Client: The sounds, definitely. The explosions, the shouting... It was so vivid. I could almost smell the smoke and feel the heat on my skin. And then, when I got to the part about seeing my buddy go down... (voice breaks) I felt so helpless, just like I did then."
+    ],
+    [
+      "Therapist: Understandable. What stood out most to you?",
+      "Client: The sounds, definitely. The explosions, the shouting... It was so vivid. I could almost smell the smoke and feel the heat on my skin. And then, when I got to the part about seeing my buddy go down... (voice breaks) I felt so helpless, just like I did then.",
+      "Therapist: That sounds incredibly intense. How are you coping with those feelings now?"
+    ],
+    [
+      "Client: The sounds, definitely. The explosions, the shouting... It was so vivid. I could almost smell the smoke and feel the heat on my skin. And then, when I got to the part about seeing my buddy go down... (voice breaks) I felt so helpless, just like I did then.",
+      "Therapist: That sounds incredibly intense. How are you coping with those feelings now?",
+      "Client: It's... it's tough. I'm trying to remind myself that I'm here, safe in your office, but part of me still feels on edge. Like I need to be ready for anything. I keep glancing at the door, even though I know there's no threat here."
+    ],
+    [
+      "Therapist: That sounds incredibly intense. How are you coping with those feelings now?",
+      "Client: It's... it's tough. I'm trying to remind myself that I'm here, safe in your office, but part of me still feels on edge. Like I need to be ready for anything. I keep glancing at the door, even though I know there's no threat here.",
+      "Therapist: You're very aware of your surroundings. How does this compare to your daily life?"
+    ],
+    [
+      "Client: It's... it's tough. I'm trying to remind myself that I'm here, safe in your office, but part of me still feels on edge. Like I need to be ready for anything. I keep glancing at the door, even though I know there's no threat here.",
+      "Therapist: You're very aware of your surroundings. How does this compare to your daily life?",
+      "Client: (sighs) It's similar, I guess. I'm always on guard, always watching. It's exhausting. My wife says I never relax, even at home. And when we argue... sometimes I feel like I'm back in combat mode. It's not fair to her."
+    ],
+    [
+      "Therapist: You're very aware of your surroundings. How does this compare to your daily life?",
+      "Client: (sighs) It's similar, I guess. I'm always on guard, always watching. It's exhausting. My wife says I never relax, even at home. And when we argue... sometimes I feel like I'm back in combat mode. It's not fair to her.",
+      "Therapist: How do you think this relates to your PTSD symptoms?"
+    ],
+    [
+      "Client: (sighs) It's similar, I guess. I'm always on guard, always watching. It's exhausting. My wife says I never relax, even at home. And when we argue... sometimes I feel like I'm back in combat mode. It's not fair to her.",
+      "Therapist: How do you think this relates to your PTSD symptoms?",
+      "Client: I... I never really made that connection before. But yeah, I suppose this constant state of alertness, it's like I never left the war zone. Even the way I react to conflicts at home... it's like I'm still fighting."
+    ],
+    [
+      "Therapist: How do you think this relates to your PTSD symptoms?",
+      "Client: I... I never really made that connection before. But yeah, I suppose this constant state of alertness, it's like I never left the war zone. Even the way I react to conflicts at home... it's like I'm still fighting.",
+      "Therapist: That's an important insight. How might this awareness help you?"
+    ],
+    [
+      "Client: I... I never really made that connection before. But yeah, I suppose this constant state of alertness, it's like I never left the war zone. Even the way I react to conflicts at home... it's like I'm still fighting.",
+      "Therapist: That's an important insight. How might this awareness help you?",
+      "Client: Maybe... maybe if I can recognize when I'm slipping into that combat mindset, I can try to step back. Remind myself that I'm not in danger anymore. That my family isn't the enemy."
+    ],
+    [
+      "Therapist: That's an important insight. How might this awareness help you?",
+      "Client: Maybe... maybe if I can recognize when I'm slipping into that combat mindset, I can try to step back. Remind myself that I'm not in danger anymore. That my family isn't the enemy.",
+      "Therapist: Excellent observation. What else?"
+    ],
+    [
+      "Client: Maybe... maybe if I can recognize when I'm slipping into that combat mindset, I can try to step back. Remind myself that I'm not in danger anymore. That my family isn't the enemy.",
+      "Therapist: Excellent observation. What else?",
+      "Client: I guess... I need to work on feeling safe again. Not just knowing it in my head, but really feeling it. And maybe... maybe I need to talk to my wife about this. Help her understand why I react the way I do sometimes."
+    ],
+    [
+      "Therapist: Excellent observation. What else?",
+      "Client: I guess... I need to work on feeling safe again. Not just knowing it in my head, but really feeling it. And maybe... maybe I need to talk to my wife about this. Help her understand why I react the way I do sometimes.",
+      "Therapist: Those are great goals. How do you feel about continuing this work?"
+    ],
+    [
+      "Client: I guess... I need to work on feeling safe again. Not just knowing it in my head, but really feeling it. And maybe... maybe I need to talk to my wife about this. Help her understand why I react the way I do sometimes.",
+      "Therapist: Those are great goals. How do you feel about continuing this work?",
+      "Client: It's hard, doc. Really hard. But... I think it's helping. I want to be better for my family, for myself. So yeah, I'm willing to keep going. Just... be patient with me, okay?"
+    ],
+    [
+      "Therapist: Those are great goals. How do you feel about continuing this work?",
+      "Client: It's hard, doc. Really hard. But... I think it's helping. I want to be better for my family, for myself. So yeah, I'm willing to keep going. Just... be patient with me, okay?",
+      "Therapist: Of course. Your commitment is commendable. Shall we schedule our next session?"
+    ],
+    [
+      "Client: It's hard, doc. Really hard. But... I think it's helping. I want to be better for my family, for myself. So yeah, I'm willing to keep going. Just... be patient with me, okay?",
+      "Therapist: Of course. Your commitment is commendable. Shall we schedule our next session?",
+      "Client: Yeah, let's do that. And... thanks, Dr. Johnson. For listening, for helping me make sense of all this. It means a lot."
+    ],
+    [
+      "Therapist: Of course. Your commitment is commendable. Shall we schedule our next session?",
+      "Client: Yeah, let's do that. And... thanks, Dr. Johnson. For listening, for helping me make sense of all this. It means a lot.",
+      "Therapist: You're welcome, Mr. Ramirez. Until next time, take care."
+    ]
+  ]
+}

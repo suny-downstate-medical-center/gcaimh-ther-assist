@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Today, we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: I'm not sure, to be honest. I've been dreading this part. The idea of reliving that car accident... it makes my stomach churn. I've spent so long trying to forget it. Do we really have to do this?",
+    "Therapist: Your hesitation is understandable. Why do you think it's important?",
+    "Client: Well, I suppose it's because avoiding it hasn't really helped. The nightmares are still there, and I still can't drive without panicking. But the thought of talking about it in detail... it's terrifying.",
+    "Therapist: Exactly. How might facing it help?",
+    "Client: I guess... maybe it could help me process what happened? Maybe if I face it head-on, it won't have so much power over me. But what if it makes things worse? What if I can't handle it?",
+    "Therapist: Valid concerns. How can I support you?",
+    "Client: I'm not sure. Maybe... could you remind me that I'm safe here? And maybe we could have a signal if I need to stop? I'm worried I might get overwhelmed.",
+    "Therapist: Absolutely. What signal would you prefer?",
+    "Client: Perhaps I could just raise my hand? That seems simple enough. But what exactly will this involve? Will I need to close my eyes and picture everything?",
+    "Therapist: Yes, eyes closed, describing the event in detail.",
+    "Client: In detail? God, that's... that's going to be tough. I can already feel my heart racing just thinking about it. How long will we do this for?",
+    "Therapist: About 30-45 minutes. We'll go at your pace.",
+    "Client: That's a long time to be in that headspace. But I guess that's the point, right? To stay with it instead of running away. I'm scared, but I also want to get better. This might help with the flashbacks too, right?",
+    "Therapist: Yes, it often reduces flashbacks and nightmares.",
+    "Client: Okay. I think I'm ready to try. It won't be easy, but nothing about this recovery has been. I appreciate your guidance through this. Let's do it.",
+    "Therapist: Your courage is admirable. Shall we begin?",
+    "Client: Yes, let's start. I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is going to be really hard.",
+    "Therapist: Of course. Take a deep breath. We'll start when you're ready."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Today, we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: I'm not sure, to be honest. I've been dreading this part. The idea of reliving that car accident... it makes my stomach churn. I've spent so long trying to forget it. Do we really have to do this?",
+      "Therapist: Your hesitation is understandable. Why do you think it's important?"
+    ],
+    [
+      "Client: I'm not sure, to be honest. I've been dreading this part. The idea of reliving that car accident... it makes my stomach churn. I've spent so long trying to forget it. Do we really have to do this?",
+      "Therapist: Your hesitation is understandable. Why do you think it's important?",
+      "Client: Well, I suppose it's because avoiding it hasn't really helped. The nightmares are still there, and I still can't drive without panicking. But the thought of talking about it in detail... it's terrifying."
+    ],
+    [
+      "Therapist: Your hesitation is understandable. Why do you think it's important?",
+      "Client: Well, I suppose it's because avoiding it hasn't really helped. The nightmares are still there, and I still can't drive without panicking. But the thought of talking about it in detail... it's terrifying.",
+      "Therapist: Exactly. How might facing it help?"
+    ],
+    [
+      "Client: Well, I suppose it's because avoiding it hasn't really helped. The nightmares are still there, and I still can't drive without panicking. But the thought of talking about it in detail... it's terrifying.",
+      "Therapist: Exactly. How might facing it help?",
+      "Client: I guess... maybe it could help me process what happened? Maybe if I face it head-on, it won't have so much power over me. But what if it makes things worse? What if I can't handle it?"
+    ],
+    [
+      "Therapist: Exactly. How might facing it help?",
+      "Client: I guess... maybe it could help me process what happened? Maybe if I face it head-on, it won't have so much power over me. But what if it makes things worse? What if I can't handle it?",
+      "Therapist: Valid concerns. How can I support you?"
+    ],
+    [
+      "Client: I guess... maybe it could help me process what happened? Maybe if I face it head-on, it won't have so much power over me. But what if it makes things worse? What if I can't handle it?",
+      "Therapist: Valid concerns. How can I support you?",
+      "Client: I'm not sure. Maybe... could you remind me that I'm safe here? And maybe we could have a signal if I need to stop? I'm worried I might get overwhelmed."
+    ],
+    [
+      "Therapist: Valid concerns. How can I support you?",
+      "Client: I'm not sure. Maybe... could you remind me that I'm safe here? And maybe we could have a signal if I need to stop? I'm worried I might get overwhelmed.",
+      "Therapist: Absolutely. What signal would you prefer?"
+    ],
+    [
+      "Client: I'm not sure. Maybe... could you remind me that I'm safe here? And maybe we could have a signal if I need to stop? I'm worried I might get overwhelmed.",
+      "Therapist: Absolutely. What signal would you prefer?",
+      "Client: Perhaps I could just raise my hand? That seems simple enough. But what exactly will this involve? Will I need to close my eyes and picture everything?"
+    ],
+    [
+      "Therapist: Absolutely. What signal would you prefer?",
+      "Client: Perhaps I could just raise my hand? That seems simple enough. But what exactly will this involve? Will I need to close my eyes and picture everything?",
+      "Therapist: Yes, eyes closed, describing the event in detail."
+    ],
+    [
+      "Client: Perhaps I could just raise my hand? That seems simple enough. But what exactly will this involve? Will I need to close my eyes and picture everything?",
+      "Therapist: Yes, eyes closed, describing the event in detail.",
+      "Client: In detail? God, that's... that's going to be tough. I can already feel my heart racing just thinking about it. How long will we do this for?"
+    ],
+    [
+      "Therapist: Yes, eyes closed, describing the event in detail.",
+      "Client: In detail? God, that's... that's going to be tough. I can already feel my heart racing just thinking about it. How long will we do this for?",
+      "Therapist: About 30-45 minutes. We'll go at your pace."
+    ],
+    [
+      "Client: In detail? God, that's... that's going to be tough. I can already feel my heart racing just thinking about it. How long will we do this for?",
+      "Therapist: About 30-45 minutes. We'll go at your pace.",
+      "Client: That's a long time to be in that headspace. But I guess that's the point, right? To stay with it instead of running away. I'm scared, but I also want to get better. This might help with the flashbacks too, right?"
+    ],
+    [
+      "Therapist: About 30-45 minutes. We'll go at your pace.",
+      "Client: That's a long time to be in that headspace. But I guess that's the point, right? To stay with it instead of running away. I'm scared, but I also want to get better. This might help with the flashbacks too, right?",
+      "Therapist: Yes, it often reduces flashbacks and nightmares."
+    ],
+    [
+      "Client: That's a long time to be in that headspace. But I guess that's the point, right? To stay with it instead of running away. I'm scared, but I also want to get better. This might help with the flashbacks too, right?",
+      "Therapist: Yes, it often reduces flashbacks and nightmares.",
+      "Client: Okay. I think I'm ready to try. It won't be easy, but nothing about this recovery has been. I appreciate your guidance through this. Let's do it."
+    ],
+    [
+      "Therapist: Yes, it often reduces flashbacks and nightmares.",
+      "Client: Okay. I think I'm ready to try. It won't be easy, but nothing about this recovery has been. I appreciate your guidance through this. Let's do it.",
+      "Therapist: Your courage is admirable. Shall we begin?"
+    ],
+    [
+      "Client: Okay. I think I'm ready to try. It won't be easy, but nothing about this recovery has been. I appreciate your guidance through this. Let's do it.",
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Yes, let's start. I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is going to be really hard."
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we begin?",
+      "Client: Yes, let's start. I'm as ready as I'll ever be. Just... please be patient with me if I struggle. This is going to be really hard.",
+      "Therapist: Of course. Take a deep breath. We'll start when you're ready."
+    ]
+  ]
+}

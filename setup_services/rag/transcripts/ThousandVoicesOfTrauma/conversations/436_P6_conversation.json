@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's understandable. Let's start. Close your eyes and bring yourself back to that moment.",
+    "Client: Okay... I'm sitting at my computer, scrolling through social media. Suddenly, I see a post about my son. It's... it's mocking him. Making fun of the way he died. I feel my heart racing, my palms are sweating. I can't believe someone would do this.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6. I'm feeling angry and hurt.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: I'm reading the comments. People are laughing, sharing it. I feel so powerless. My son isn't here to defend himself. I want to scream at them, but I know it won't help. My chest feels tight, like I can't breathe properly.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I'm feeling overwhelmed.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: I'm trying to report the post, but my hands are shaking. I can't seem to click the right buttons. I feel so useless. Why can't I protect him, even now? I'm his father, I should be able to do something.",
+    "Therapist: How's your distress level?",
+    "Client: It's still at an 8. My mouth is dry, and I feel like I might be sick.",
+    "Therapist: You're handling this well. Continue.",
+    "Client: I finally manage to report the post, but I know it might not do any good. I'm imagining my son's face if he could see this. He was always so sensitive. This would have crushed him. I feel like I've failed him all over again.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's actually dropped to a 7. I'm still upset, but talking about it... it helps somehow.",
+    "Therapist: That's good. You're processing this. Keep going.",
+    "Client: I shut down the computer. I can't bear to look anymore. But the images, the comments, they're stuck in my head. I want to call my wife, but I don't want to upset her too. I feel so alone with this pain.",
+    "Therapist: And your SUDS?",
+    "Client: It's back up to an 8. I'm feeling really isolated right now.",
+    "Therapist: That's a normal reaction. You're doing great. Continue.",
+    "Client: I'm pacing around the room now. I can't sit still. I'm angry at the world, at the people who did this, at myself for not being able to stop it. I keep thinking about all the times I should have been there for my son when he was alive. Maybe if I had been a better father, this wouldn't have happened.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's actually down to a 6 now. I'm still upset, but talking about it... it's like letting out some of the pressure.",
+    "Therapist: That's excellent progress. How are you feeling now?",
+    "Client: I'm feeling drained, but also a bit lighter. Like I've shared some of the burden. It's still painful, but not as overwhelming as before.",
+    "Therapist: You've done very well today. Let's start winding down."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's understandable. Let's start. Close your eyes and bring yourself back to that moment."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's understandable. Let's start. Close your eyes and bring yourself back to that moment.",
+      "Client: Okay... I'm sitting at my computer, scrolling through social media. Suddenly, I see a post about my son. It's... it's mocking him. Making fun of the way he died. I feel my heart racing, my palms are sweating. I can't believe someone would do this."
+    ],
+    [
+      "Therapist: That's understandable. Let's start. Close your eyes and bring yourself back to that moment.",
+      "Client: Okay... I'm sitting at my computer, scrolling through social media. Suddenly, I see a post about my son. It's... it's mocking him. Making fun of the way he died. I feel my heart racing, my palms are sweating. I can't believe someone would do this.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm sitting at my computer, scrolling through social media. Suddenly, I see a post about my son. It's... it's mocking him. Making fun of the way he died. I feel my heart racing, my palms are sweating. I can't believe someone would do this.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm feeling angry and hurt."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm feeling angry and hurt.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's about a 6. I'm feeling angry and hurt.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: I'm reading the comments. People are laughing, sharing it. I feel so powerless. My son isn't here to defend himself. I want to scream at them, but I know it won't help. My chest feels tight, like I can't breathe properly."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: I'm reading the comments. People are laughing, sharing it. I feel so powerless. My son isn't here to defend himself. I want to scream at them, but I know it won't help. My chest feels tight, like I can't breathe properly.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I'm reading the comments. People are laughing, sharing it. I feel so powerless. My son isn't here to defend himself. I want to scream at them, but I know it won't help. My chest feels tight, like I can't breathe properly.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling overwhelmed."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling overwhelmed.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm feeling overwhelmed.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I'm trying to report the post, but my hands are shaking. I can't seem to click the right buttons. I feel so useless. Why can't I protect him, even now? I'm his father, I should be able to do something."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: I'm trying to report the post, but my hands are shaking. I can't seem to click the right buttons. I feel so useless. Why can't I protect him, even now? I'm his father, I should be able to do something.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: I'm trying to report the post, but my hands are shaking. I can't seem to click the right buttons. I feel so useless. Why can't I protect him, even now? I'm his father, I should be able to do something.",
+      "Therapist: How's your distress level?",
+      "Client: It's still at an 8. My mouth is dry, and I feel like I might be sick."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: It's still at an 8. My mouth is dry, and I feel like I might be sick.",
+      "Therapist: You're handling this well. Continue."
+    ],
+    [
+      "Client: It's still at an 8. My mouth is dry, and I feel like I might be sick.",
+      "Therapist: You're handling this well. Continue.",
+      "Client: I finally manage to report the post, but I know it might not do any good. I'm imagining my son's face if he could see this. He was always so sensitive. This would have crushed him. I feel like I've failed him all over again."
+    ],
+    [
+      "Therapist: You're handling this well. Continue.",
+      "Client: I finally manage to report the post, but I know it might not do any good. I'm imagining my son's face if he could see this. He was always so sensitive. This would have crushed him. I feel like I've failed him all over again.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: I finally manage to report the post, but I know it might not do any good. I'm imagining my son's face if he could see this. He was always so sensitive. This would have crushed him. I feel like I've failed him all over again.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's actually dropped to a 7. I'm still upset, but talking about it... it helps somehow."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's actually dropped to a 7. I'm still upset, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're processing this. Keep going."
+    ],
+    [
+      "Client: It's... it's actually dropped to a 7. I'm still upset, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're processing this. Keep going.",
+      "Client: I shut down the computer. I can't bear to look anymore. But the images, the comments, they're stuck in my head. I want to call my wife, but I don't want to upset her too. I feel so alone with this pain."
+    ],
+    [
+      "Therapist: That's good. You're processing this. Keep going.",
+      "Client: I shut down the computer. I can't bear to look anymore. But the images, the comments, they're stuck in my head. I want to call my wife, but I don't want to upset her too. I feel so alone with this pain.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I shut down the computer. I can't bear to look anymore. But the images, the comments, they're stuck in my head. I want to call my wife, but I don't want to upset her too. I feel so alone with this pain.",
+      "Therapist: And your SUDS?",
+      "Client: It's back up to an 8. I'm feeling really isolated right now."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's back up to an 8. I'm feeling really isolated right now.",
+      "Therapist: That's a normal reaction. You're doing great. Continue."
+    ],
+    [
+      "Client: It's back up to an 8. I'm feeling really isolated right now.",
+      "Therapist: That's a normal reaction. You're doing great. Continue.",
+      "Client: I'm pacing around the room now. I can't sit still. I'm angry at the world, at the people who did this, at myself for not being able to stop it. I keep thinking about all the times I should have been there for my son when he was alive. Maybe if I had been a better father, this wouldn't have happened."
+    ],
+    [
+      "Therapist: That's a normal reaction. You're doing great. Continue.",
+      "Client: I'm pacing around the room now. I can't sit still. I'm angry at the world, at the people who did this, at myself for not being able to stop it. I keep thinking about all the times I should have been there for my son when he was alive. Maybe if I had been a better father, this wouldn't have happened.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: I'm pacing around the room now. I can't sit still. I'm angry at the world, at the people who did this, at myself for not being able to stop it. I keep thinking about all the times I should have been there for my son when he was alive. Maybe if I had been a better father, this wouldn't have happened.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually down to a 6 now. I'm still upset, but talking about it... it's like letting out some of the pressure."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's actually down to a 6 now. I'm still upset, but talking about it... it's like letting out some of the pressure.",
+      "Therapist: That's excellent progress. How are you feeling now?"
+    ],
+    [
+      "Client: It's... it's actually down to a 6 now. I'm still upset, but talking about it... it's like letting out some of the pressure.",
+      "Therapist: That's excellent progress. How are you feeling now?",
+      "Client: I'm feeling drained, but also a bit lighter. Like I've shared some of the burden. It's still painful, but not as overwhelming as before."
+    ],
+    [
+      "Therapist: That's excellent progress. How are you feeling now?",
+      "Client: I'm feeling drained, but also a bit lighter. Like I've shared some of the burden. It's still painful, but not as overwhelming as before.",
+      "Therapist: You've done very well today. Let's start winding down."
+    ]
+  ]
+}

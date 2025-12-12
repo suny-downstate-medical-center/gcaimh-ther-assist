@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Good morning, Mr. Rodriguez. How are you feeling today?",
+    "Client: Buenos d\u00edas, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. My wife kept telling me it's important, but I'm not sure I can do this.",
+    "Therapist: I understand. Your feelings are valid. Shall we discuss the exercise?",
+    "Client: S\u00ed, I suppose we should. But I have to tell you, just thinking about reliving that accident makes my hands shake. It's been months, but it feels like yesterday. I can still hear the screeching tires, the crushing metal...",
+    "Therapist: That's precisely why we're here. Can you tell me what you know about imaginal exposure?",
+    "Client: Not much, really. I know it involves talking about the trauma, but beyond that, I'm lost. Will it make things worse? I'm already struggling with my depression, and this seems like it could push me over the edge.",
+    "Therapist: It's a controlled way to process the memory. It may be uncomfortable, but it's safe. How do you feel about trying?",
+    "Client: I... I don't know. Part of me wants to run out that door right now. But another part of me is so tired of living like this, jumping at every loud noise, having nightmares. If this can help, maybe it's worth the discomfort. Can you tell me more about what to expect?",
+    "Therapist: Of course. You'll recount the accident in detail. I'll guide you through it. It might be intense, but I'm here to support you.",
+    "Client: Intense? That's an understatement, Doctor. Every time I close my eyes, I see that truck coming at me. I smell the burning rubber. I feel the airbag slamming into my chest. How is reliving that supposed to help?",
+    "Therapist: By facing it repeatedly, the memory loses power. Your brain reprocesses it. Does that make sense?",
+    "Client: I suppose... but it sounds terrifying. What if I panic? What if I can't handle it? I'm not as young as I used to be, you know. My heart races just thinking about it.",
+    "Therapist: We'll go at your pace. You're in control. We can stop anytime. Remember, you're safe here.",
+    "Client: Safe... that's a word I haven't felt in a long time. Not since the accident. Not even in my own home, with my wife. She's been so patient, but I know this is affecting her too. We used to love going for drives together, and now... now I can barely get in a car without breaking into a cold sweat.",
+    "Therapist: Your courage is admirable. This process can help reduce those reactions. Shall we begin?",
+    "Client: I... yes. Yes, let's do it. For my wife, for myself. I want my life back. But... can you stay close? Just in case?",
+    "Therapist: Absolutely. I'm right here with you. Let's start when you're ready.",
+    "Client: Okay. I'm as ready as I'll ever be. Just... just give me a moment to breathe. (Takes a deep breath) Alright. Where do I start? The beginning of that day, or right before the accident?",
+    "Therapist: Start wherever feels right for you. Take your time.",
+    "Client: Okay. Here goes..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Good morning, Mr. Rodriguez. How are you feeling today?",
+      "Client: Buenos d\u00edas, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. My wife kept telling me it's important, but I'm not sure I can do this.",
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the exercise?"
+    ],
+    [
+      "Client: Buenos d\u00edas, Doctor. I'm... well, I'm a bit nervous, to be honest. I've been dreading this session all week. My wife kept telling me it's important, but I'm not sure I can do this.",
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the exercise?",
+      "Client: S\u00ed, I suppose we should. But I have to tell you, just thinking about reliving that accident makes my hands shake. It's been months, but it feels like yesterday. I can still hear the screeching tires, the crushing metal..."
+    ],
+    [
+      "Therapist: I understand. Your feelings are valid. Shall we discuss the exercise?",
+      "Client: S\u00ed, I suppose we should. But I have to tell you, just thinking about reliving that accident makes my hands shake. It's been months, but it feels like yesterday. I can still hear the screeching tires, the crushing metal...",
+      "Therapist: That's precisely why we're here. Can you tell me what you know about imaginal exposure?"
+    ],
+    [
+      "Client: S\u00ed, I suppose we should. But I have to tell you, just thinking about reliving that accident makes my hands shake. It's been months, but it feels like yesterday. I can still hear the screeching tires, the crushing metal...",
+      "Therapist: That's precisely why we're here. Can you tell me what you know about imaginal exposure?",
+      "Client: Not much, really. I know it involves talking about the trauma, but beyond that, I'm lost. Will it make things worse? I'm already struggling with my depression, and this seems like it could push me over the edge."
+    ],
+    [
+      "Therapist: That's precisely why we're here. Can you tell me what you know about imaginal exposure?",
+      "Client: Not much, really. I know it involves talking about the trauma, but beyond that, I'm lost. Will it make things worse? I'm already struggling with my depression, and this seems like it could push me over the edge.",
+      "Therapist: It's a controlled way to process the memory. It may be uncomfortable, but it's safe. How do you feel about trying?"
+    ],
+    [
+      "Client: Not much, really. I know it involves talking about the trauma, but beyond that, I'm lost. Will it make things worse? I'm already struggling with my depression, and this seems like it could push me over the edge.",
+      "Therapist: It's a controlled way to process the memory. It may be uncomfortable, but it's safe. How do you feel about trying?",
+      "Client: I... I don't know. Part of me wants to run out that door right now. But another part of me is so tired of living like this, jumping at every loud noise, having nightmares. If this can help, maybe it's worth the discomfort. Can you tell me more about what to expect?"
+    ],
+    [
+      "Therapist: It's a controlled way to process the memory. It may be uncomfortable, but it's safe. How do you feel about trying?",
+      "Client: I... I don't know. Part of me wants to run out that door right now. But another part of me is so tired of living like this, jumping at every loud noise, having nightmares. If this can help, maybe it's worth the discomfort. Can you tell me more about what to expect?",
+      "Therapist: Of course. You'll recount the accident in detail. I'll guide you through it. It might be intense, but I'm here to support you."
+    ],
+    [
+      "Client: I... I don't know. Part of me wants to run out that door right now. But another part of me is so tired of living like this, jumping at every loud noise, having nightmares. If this can help, maybe it's worth the discomfort. Can you tell me more about what to expect?",
+      "Therapist: Of course. You'll recount the accident in detail. I'll guide you through it. It might be intense, but I'm here to support you.",
+      "Client: Intense? That's an understatement, Doctor. Every time I close my eyes, I see that truck coming at me. I smell the burning rubber. I feel the airbag slamming into my chest. How is reliving that supposed to help?"
+    ],
+    [
+      "Therapist: Of course. You'll recount the accident in detail. I'll guide you through it. It might be intense, but I'm here to support you.",
+      "Client: Intense? That's an understatement, Doctor. Every time I close my eyes, I see that truck coming at me. I smell the burning rubber. I feel the airbag slamming into my chest. How is reliving that supposed to help?",
+      "Therapist: By facing it repeatedly, the memory loses power. Your brain reprocesses it. Does that make sense?"
+    ],
+    [
+      "Client: Intense? That's an understatement, Doctor. Every time I close my eyes, I see that truck coming at me. I smell the burning rubber. I feel the airbag slamming into my chest. How is reliving that supposed to help?",
+      "Therapist: By facing it repeatedly, the memory loses power. Your brain reprocesses it. Does that make sense?",
+      "Client: I suppose... but it sounds terrifying. What if I panic? What if I can't handle it? I'm not as young as I used to be, you know. My heart races just thinking about it."
+    ],
+    [
+      "Therapist: By facing it repeatedly, the memory loses power. Your brain reprocesses it. Does that make sense?",
+      "Client: I suppose... but it sounds terrifying. What if I panic? What if I can't handle it? I'm not as young as I used to be, you know. My heart races just thinking about it.",
+      "Therapist: We'll go at your pace. You're in control. We can stop anytime. Remember, you're safe here."
+    ],
+    [
+      "Client: I suppose... but it sounds terrifying. What if I panic? What if I can't handle it? I'm not as young as I used to be, you know. My heart races just thinking about it.",
+      "Therapist: We'll go at your pace. You're in control. We can stop anytime. Remember, you're safe here.",
+      "Client: Safe... that's a word I haven't felt in a long time. Not since the accident. Not even in my own home, with my wife. She's been so patient, but I know this is affecting her too. We used to love going for drives together, and now... now I can barely get in a car without breaking into a cold sweat."
+    ],
+    [
+      "Therapist: We'll go at your pace. You're in control. We can stop anytime. Remember, you're safe here.",
+      "Client: Safe... that's a word I haven't felt in a long time. Not since the accident. Not even in my own home, with my wife. She's been so patient, but I know this is affecting her too. We used to love going for drives together, and now... now I can barely get in a car without breaking into a cold sweat.",
+      "Therapist: Your courage is admirable. This process can help reduce those reactions. Shall we begin?"
+    ],
+    [
+      "Client: Safe... that's a word I haven't felt in a long time. Not since the accident. Not even in my own home, with my wife. She's been so patient, but I know this is affecting her too. We used to love going for drives together, and now... now I can barely get in a car without breaking into a cold sweat.",
+      "Therapist: Your courage is admirable. This process can help reduce those reactions. Shall we begin?",
+      "Client: I... yes. Yes, let's do it. For my wife, for myself. I want my life back. But... can you stay close? Just in case?"
+    ],
+    [
+      "Therapist: Your courage is admirable. This process can help reduce those reactions. Shall we begin?",
+      "Client: I... yes. Yes, let's do it. For my wife, for myself. I want my life back. But... can you stay close? Just in case?",
+      "Therapist: Absolutely. I'm right here with you. Let's start when you're ready."
+    ],
+    [
+      "Client: I... yes. Yes, let's do it. For my wife, for myself. I want my life back. But... can you stay close? Just in case?",
+      "Therapist: Absolutely. I'm right here with you. Let's start when you're ready.",
+      "Client: Okay. I'm as ready as I'll ever be. Just... just give me a moment to breathe. (Takes a deep breath) Alright. Where do I start? The beginning of that day, or right before the accident?"
+    ],
+    [
+      "Therapist: Absolutely. I'm right here with you. Let's start when you're ready.",
+      "Client: Okay. I'm as ready as I'll ever be. Just... just give me a moment to breathe. (Takes a deep breath) Alright. Where do I start? The beginning of that day, or right before the accident?",
+      "Therapist: Start wherever feels right for you. Take your time."
+    ],
+    [
+      "Client: Okay. I'm as ready as I'll ever be. Just... just give me a moment to breathe. (Takes a deep breath) Alright. Where do I start? The beginning of that day, or right before the accident?",
+      "Therapist: Start wherever feels right for you. Take your time.",
+      "Client: Okay. Here goes..."
+    ]
+  ]
+}

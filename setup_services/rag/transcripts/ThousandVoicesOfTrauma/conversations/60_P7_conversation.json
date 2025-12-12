@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin our imaginal exposure. Can you describe the hostage situation?",
+    "Client: I... I don't know if I can do this. It's been so long, but it still feels so fresh.",
+    "Therapist: You're safe here. Take your time.",
+    "Client: Okay... I was at the bank. It was just a normal day. I was depositing my pension check. Then suddenly, these men burst in with guns. They were shouting, telling everyone to get down. I remember the cold floor against my cheek...",
+    "Therapist: You're doing well. Continue.",
+    "Client: The smell of gunpowder was overwhelming. One of the men grabbed me, used me as a shield. I could feel the gun pressed against my temple. My heart was racing so fast, I thought it might explode.",
+    "Therapist: Stay with that feeling.",
+    "Client: I... I can't. It's too much.",
+    "Therapist: You're safe now. Breathe deeply.",
+    "Client: (deep breath) Okay... I remember thinking about my late husband. How I might join him soon. The hostage negotiator's voice was calm, but I could hear the tension. Hours passed. My legs were cramping from sitting on the floor.",
+    "Therapist: You're handling this bravely.",
+    "Client: Thank you... The robber holding me started to panic. His grip tightened, and I winced in pain. That's when I heard the gunshot. I thought I'd been hit, but it was him. He fell, taking me down with him. There was so much blood...",
+    "Therapist: It's okay to feel upset. You're here now.",
+    "Client: I know, but... sometimes I still feel his weight on me, smell the blood. It's like I never left that bank.",
+    "Therapist: Your feelings are valid.",
+    "Client: After that, everything's a blur. Police swarming in, paramedics checking me. I was in shock, I think. I couldn't stop shaking for days. The nightmares... they were relentless.",
+    "Therapist: You survived a terrifying ordeal.",
+    "Client: Yes, I did. But sometimes I wonder if a part of me is still there, trapped in that moment.",
+    "Therapist: You're here now, processing it.",
+    "Client: I suppose you're right. It's just... hard to believe it's over sometimes. The fear, it lingers. Especially at night, when I'm alone in my house. Every creak, every shadow... it all takes me back.",
+    "Therapist: Your resilience is remarkable.",
+    "Client: Thank you. I'm trying. It's been difficult since losing my husband. He was always my rock. Going through this without him... it's made everything harder.",
+    "Therapist: Your strength shines through.",
+    "Client: I hope so. I want to be strong, for my grandchildren. They shouldn't have to see their grandmother so afraid all the time. But it's hard to shake off.",
+    "Therapist: It's a process. You're making progress.",
+    "Client: I suppose I am. It's just... some days are harder than others. The chronic pain doesn't help either. It's a constant reminder of that day, of how my body was pushed beyond its limits.",
+    "Therapist: Pain can be complex. You're managing well.",
+    "Client: I'm trying. Some days, I feel like I'm making progress. Other days, it feels like I'm right back in that bank. But I'm here, talking about it. That's something, isn't it?",
+    "Therapist: It's significant progress. Well done.",
+    "Client: Thank you. I never thought I'd be able to talk about this without completely breaking down. It's still hard, but... I feel a little stronger each time.",
+    "Therapist: That's the goal. You're doing great.",
+    "Client: I appreciate that. It helps to know that someone understands, even if they weren't there. Sometimes I feel so alone with these memories.",
+    "Therapist: You're not alone. I'm here to support you.",
+    "Client: That means a lot. I think... I think I'm ready to stop for today. It's been intense, but I feel like I've made some progress.",
+    "Therapist: You've done excellent work today. How are you feeling?",
+    "Client: Exhausted, but... lighter, somehow. Like I've set down a heavy burden, even if just for a moment.",
+    "Therapist: That's a positive sign. Let's end here.",
+    "Client: Thank you. Same time next week?",
+    "Therapist: Yes, I'll see you then. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin our imaginal exposure. Can you describe the hostage situation?",
+      "Client: I... I don't know if I can do this. It's been so long, but it still feels so fresh.",
+      "Therapist: You're safe here. Take your time."
+    ],
+    [
+      "Client: I... I don't know if I can do this. It's been so long, but it still feels so fresh.",
+      "Therapist: You're safe here. Take your time.",
+      "Client: Okay... I was at the bank. It was just a normal day. I was depositing my pension check. Then suddenly, these men burst in with guns. They were shouting, telling everyone to get down. I remember the cold floor against my cheek..."
+    ],
+    [
+      "Therapist: You're safe here. Take your time.",
+      "Client: Okay... I was at the bank. It was just a normal day. I was depositing my pension check. Then suddenly, these men burst in with guns. They were shouting, telling everyone to get down. I remember the cold floor against my cheek...",
+      "Therapist: You're doing well. Continue."
+    ],
+    [
+      "Client: Okay... I was at the bank. It was just a normal day. I was depositing my pension check. Then suddenly, these men burst in with guns. They were shouting, telling everyone to get down. I remember the cold floor against my cheek...",
+      "Therapist: You're doing well. Continue.",
+      "Client: The smell of gunpowder was overwhelming. One of the men grabbed me, used me as a shield. I could feel the gun pressed against my temple. My heart was racing so fast, I thought it might explode."
+    ],
+    [
+      "Therapist: You're doing well. Continue.",
+      "Client: The smell of gunpowder was overwhelming. One of the men grabbed me, used me as a shield. I could feel the gun pressed against my temple. My heart was racing so fast, I thought it might explode.",
+      "Therapist: Stay with that feeling."
+    ],
+    [
+      "Client: The smell of gunpowder was overwhelming. One of the men grabbed me, used me as a shield. I could feel the gun pressed against my temple. My heart was racing so fast, I thought it might explode.",
+      "Therapist: Stay with that feeling.",
+      "Client: I... I can't. It's too much."
+    ],
+    [
+      "Therapist: Stay with that feeling.",
+      "Client: I... I can't. It's too much.",
+      "Therapist: You're safe now. Breathe deeply."
+    ],
+    [
+      "Client: I... I can't. It's too much.",
+      "Therapist: You're safe now. Breathe deeply.",
+      "Client: (deep breath) Okay... I remember thinking about my late husband. How I might join him soon. The hostage negotiator's voice was calm, but I could hear the tension. Hours passed. My legs were cramping from sitting on the floor."
+    ],
+    [
+      "Therapist: You're safe now. Breathe deeply.",
+      "Client: (deep breath) Okay... I remember thinking about my late husband. How I might join him soon. The hostage negotiator's voice was calm, but I could hear the tension. Hours passed. My legs were cramping from sitting on the floor.",
+      "Therapist: You're handling this bravely."
+    ],
+    [
+      "Client: (deep breath) Okay... I remember thinking about my late husband. How I might join him soon. The hostage negotiator's voice was calm, but I could hear the tension. Hours passed. My legs were cramping from sitting on the floor.",
+      "Therapist: You're handling this bravely.",
+      "Client: Thank you... The robber holding me started to panic. His grip tightened, and I winced in pain. That's when I heard the gunshot. I thought I'd been hit, but it was him. He fell, taking me down with him. There was so much blood..."
+    ],
+    [
+      "Therapist: You're handling this bravely.",
+      "Client: Thank you... The robber holding me started to panic. His grip tightened, and I winced in pain. That's when I heard the gunshot. I thought I'd been hit, but it was him. He fell, taking me down with him. There was so much blood...",
+      "Therapist: It's okay to feel upset. You're here now."
+    ],
+    [
+      "Client: Thank you... The robber holding me started to panic. His grip tightened, and I winced in pain. That's when I heard the gunshot. I thought I'd been hit, but it was him. He fell, taking me down with him. There was so much blood...",
+      "Therapist: It's okay to feel upset. You're here now.",
+      "Client: I know, but... sometimes I still feel his weight on me, smell the blood. It's like I never left that bank."
+    ],
+    [
+      "Therapist: It's okay to feel upset. You're here now.",
+      "Client: I know, but... sometimes I still feel his weight on me, smell the blood. It's like I never left that bank.",
+      "Therapist: Your feelings are valid."
+    ],
+    [
+      "Client: I know, but... sometimes I still feel his weight on me, smell the blood. It's like I never left that bank.",
+      "Therapist: Your feelings are valid.",
+      "Client: After that, everything's a blur. Police swarming in, paramedics checking me. I was in shock, I think. I couldn't stop shaking for days. The nightmares... they were relentless."
+    ],
+    [
+      "Therapist: Your feelings are valid.",
+      "Client: After that, everything's a blur. Police swarming in, paramedics checking me. I was in shock, I think. I couldn't stop shaking for days. The nightmares... they were relentless.",
+      "Therapist: You survived a terrifying ordeal."
+    ],
+    [
+      "Client: After that, everything's a blur. Police swarming in, paramedics checking me. I was in shock, I think. I couldn't stop shaking for days. The nightmares... they were relentless.",
+      "Therapist: You survived a terrifying ordeal.",
+      "Client: Yes, I did. But sometimes I wonder if a part of me is still there, trapped in that moment."
+    ],
+    [
+      "Therapist: You survived a terrifying ordeal.",
+      "Client: Yes, I did. But sometimes I wonder if a part of me is still there, trapped in that moment.",
+      "Therapist: You're here now, processing it."
+    ],
+    [
+      "Client: Yes, I did. But sometimes I wonder if a part of me is still there, trapped in that moment.",
+      "Therapist: You're here now, processing it.",
+      "Client: I suppose you're right. It's just... hard to believe it's over sometimes. The fear, it lingers. Especially at night, when I'm alone in my house. Every creak, every shadow... it all takes me back."
+    ],
+    [
+      "Therapist: You're here now, processing it.",
+      "Client: I suppose you're right. It's just... hard to believe it's over sometimes. The fear, it lingers. Especially at night, when I'm alone in my house. Every creak, every shadow... it all takes me back.",
+      "Therapist: Your resilience is remarkable."
+    ],
+    [
+      "Client: I suppose you're right. It's just... hard to believe it's over sometimes. The fear, it lingers. Especially at night, when I'm alone in my house. Every creak, every shadow... it all takes me back.",
+      "Therapist: Your resilience is remarkable.",
+      "Client: Thank you. I'm trying. It's been difficult since losing my husband. He was always my rock. Going through this without him... it's made everything harder."
+    ],
+    [
+      "Therapist: Your resilience is remarkable.",
+      "Client: Thank you. I'm trying. It's been difficult since losing my husband. He was always my rock. Going through this without him... it's made everything harder.",
+      "Therapist: Your strength shines through."
+    ],
+    [
+      "Client: Thank you. I'm trying. It's been difficult since losing my husband. He was always my rock. Going through this without him... it's made everything harder.",
+      "Therapist: Your strength shines through.",
+      "Client: I hope so. I want to be strong, for my grandchildren. They shouldn't have to see their grandmother so afraid all the time. But it's hard to shake off."
+    ],
+    [
+      "Therapist: Your strength shines through.",
+      "Client: I hope so. I want to be strong, for my grandchildren. They shouldn't have to see their grandmother so afraid all the time. But it's hard to shake off.",
+      "Therapist: It's a process. You're making progress."
+    ],
+    [
+      "Client: I hope so. I want to be strong, for my grandchildren. They shouldn't have to see their grandmother so afraid all the time. But it's hard to shake off.",
+      "Therapist: It's a process. You're making progress.",
+      "Client: I suppose I am. It's just... some days are harder than others. The chronic pain doesn't help either. It's a constant reminder of that day, of how my body was pushed beyond its limits."
+    ],
+    [
+      "Therapist: It's a process. You're making progress.",
+      "Client: I suppose I am. It's just... some days are harder than others. The chronic pain doesn't help either. It's a constant reminder of that day, of how my body was pushed beyond its limits.",
+      "Therapist: Pain can be complex. You're managing well."
+    ],
+    [
+      "Client: I suppose I am. It's just... some days are harder than others. The chronic pain doesn't help either. It's a constant reminder of that day, of how my body was pushed beyond its limits.",
+      "Therapist: Pain can be complex. You're managing well.",
+      "Client: I'm trying. Some days, I feel like I'm making progress. Other days, it feels like I'm right back in that bank. But I'm here, talking about it. That's something, isn't it?"
+    ],
+    [
+      "Therapist: Pain can be complex. You're managing well.",
+      "Client: I'm trying. Some days, I feel like I'm making progress. Other days, it feels like I'm right back in that bank. But I'm here, talking about it. That's something, isn't it?",
+      "Therapist: It's significant progress. Well done."
+    ],
+    [
+      "Client: I'm trying. Some days, I feel like I'm making progress. Other days, it feels like I'm right back in that bank. But I'm here, talking about it. That's something, isn't it?",
+      "Therapist: It's significant progress. Well done.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely breaking down. It's still hard, but... I feel a little stronger each time."
+    ],
+    [
+      "Therapist: It's significant progress. Well done.",
+      "Client: Thank you. I never thought I'd be able to talk about this without completely breaking down. It's still hard, but... I feel a little stronger each time.",
+      "Therapist: That's the goal. You're doing great."
+    ],
+    [
+      "Client: Thank you. I never thought I'd be able to talk about this without completely breaking down. It's still hard, but... I feel a little stronger each time.",
+      "Therapist: That's the goal. You're doing great.",
+      "Client: I appreciate that. It helps to know that someone understands, even if they weren't there. Sometimes I feel so alone with these memories."
+    ],
+    [
+      "Therapist: That's the goal. You're doing great.",
+      "Client: I appreciate that. It helps to know that someone understands, even if they weren't there. Sometimes I feel so alone with these memories.",
+      "Therapist: You're not alone. I'm here to support you."
+    ],
+    [
+      "Client: I appreciate that. It helps to know that someone understands, even if they weren't there. Sometimes I feel so alone with these memories.",
+      "Therapist: You're not alone. I'm here to support you.",
+      "Client: That means a lot. I think... I think I'm ready to stop for today. It's been intense, but I feel like I've made some progress."
+    ],
+    [
+      "Therapist: You're not alone. I'm here to support you.",
+      "Client: That means a lot. I think... I think I'm ready to stop for today. It's been intense, but I feel like I've made some progress.",
+      "Therapist: You've done excellent work today. How are you feeling?"
+    ],
+    [
+      "Client: That means a lot. I think... I think I'm ready to stop for today. It's been intense, but I feel like I've made some progress.",
+      "Therapist: You've done excellent work today. How are you feeling?",
+      "Client: Exhausted, but... lighter, somehow. Like I've set down a heavy burden, even if just for a moment."
+    ],
+    [
+      "Therapist: You've done excellent work today. How are you feeling?",
+      "Client: Exhausted, but... lighter, somehow. Like I've set down a heavy burden, even if just for a moment.",
+      "Therapist: That's a positive sign. Let's end here."
+    ],
+    [
+      "Client: Exhausted, but... lighter, somehow. Like I've set down a heavy burden, even if just for a moment.",
+      "Therapist: That's a positive sign. Let's end here.",
+      "Client: Thank you. Same time next week?"
+    ],
+    [
+      "Therapist: That's a positive sign. Let's end here.",
+      "Client: Thank you. Same time next week?",
+      "Therapist: Yes, I'll see you then. Take care."
+    ]
+  ]
+}

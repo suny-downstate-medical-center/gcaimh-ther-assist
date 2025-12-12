@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Can you tell me about the airplane crash?",
+    "Client: (Takes a deep breath) Okay... I was on my way to visit my daughter in Australia. The flight had been smooth until about halfway through. Suddenly, there was a loud bang, and the plane started shaking violently. The oxygen masks dropped, and people started screaming. I... I remember the panic rising in my chest.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: I'd say about a 4 out of 10. I'm feeling a bit anxious, but it's manageable.",
+    "Therapist: Okay. Continue describing what happened.",
+    "Client: The plane started losing altitude rapidly. I could see the ocean getting closer through the window. My hands were shaking so much I could barely fasten my seatbelt. The flight attendants were trying to keep everyone calm, but their voices were trembling. I remember thinking, \"This is it. I'm going to die.\"",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to a 6. My heart is racing a bit.",
+    "Therapist: That's understandable. Keep going.",
+    "Client: There was a terrible crunching sound as we hit the water. The impact was so strong, I thought my teeth would shatter. Water started rushing in immediately. The plane was tilting, and people were scrambling to get out. I was frozen in my seat, unable to move. A flight attendant had to shake me to snap me out of it.",
+    "Therapist: How are you feeling now?",
+    "Client: I'm at an 8. My palms are sweating, and I feel like I can't catch my breath.",
+    "Therapist: Take a moment. Remember, you're safe here.",
+    "Client: (Takes several deep breaths) Thank you. It's just... the memory is so vivid. I can still smell the jet fuel and seawater. As I was trying to get out, I saw people struggling, some unconscious. I wanted to help, but I couldn't. I just focused on getting to the emergency exit. The life raft was already inflating when I got out.",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's still at an 8. My chest feels tight.",
+    "Therapist: You're doing well. Keep breathing.",
+    "Client: In the water, everything was chaos. People were screaming, crying. I managed to climb onto a life raft. The waves were so high, I thought we'd capsize any moment. We floated for hours before rescue came. I kept thinking about my family, wondering if I'd ever see them again.",
+    "Therapist: And your SUDS now?",
+    "Client: It's dropped to a 7. I'm feeling a bit calmer, but still shaky.",
+    "Therapist: That's progress. How are you feeling overall?",
+    "Client: Exhausted, mostly. Reliving it is draining, but... I also feel a sense of relief. Like I'm finally facing it instead of running away.",
+    "Therapist: That's a positive step. What's your SUDS?",
+    "Client: I'd say it's down to a 5 now. The worst of the panic has subsided.",
+    "Therapist: Good. Let's take a break. How was this experience for you?",
+    "Client: It was intense, but... I think it helped. I've never talked about it in such detail before. It's like... I'm starting to process it, you know? I still feel the fear, but it's not overwhelming me like it used to.",
+    "Therapist: That's excellent progress. We'll continue working through this.",
+    "Client: Thank you. I... I think I'm ready to face this now. It's not easy, but I feel like I'm finally moving forward.",
+    "Therapist: You've shown great courage today. We'll end here for now."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Can you tell me about the airplane crash?",
+      "Client: (Takes a deep breath) Okay... I was on my way to visit my daughter in Australia. The flight had been smooth until about halfway through. Suddenly, there was a loud bang, and the plane started shaking violently. The oxygen masks dropped, and people started screaming. I... I remember the panic rising in my chest.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: (Takes a deep breath) Okay... I was on my way to visit my daughter in Australia. The flight had been smooth until about halfway through. Suddenly, there was a loud bang, and the plane started shaking violently. The oxygen masks dropped, and people started screaming. I... I remember the panic rising in my chest.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: I'd say about a 4 out of 10. I'm feeling a bit anxious, but it's manageable."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: I'd say about a 4 out of 10. I'm feeling a bit anxious, but it's manageable.",
+      "Therapist: Okay. Continue describing what happened."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. I'm feeling a bit anxious, but it's manageable.",
+      "Therapist: Okay. Continue describing what happened.",
+      "Client: The plane started losing altitude rapidly. I could see the ocean getting closer through the window. My hands were shaking so much I could barely fasten my seatbelt. The flight attendants were trying to keep everyone calm, but their voices were trembling. I remember thinking, \"This is it. I'm going to die.\""
+    ],
+    [
+      "Therapist: Okay. Continue describing what happened.",
+      "Client: The plane started losing altitude rapidly. I could see the ocean getting closer through the window. My hands were shaking so much I could barely fasten my seatbelt. The flight attendants were trying to keep everyone calm, but their voices were trembling. I remember thinking, \"This is it. I'm going to die.\"",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The plane started losing altitude rapidly. I could see the ocean getting closer through the window. My hands were shaking so much I could barely fasten my seatbelt. The flight attendants were trying to keep everyone calm, but their voices were trembling. I remember thinking, \"This is it. I'm going to die.\"",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to a 6. My heart is racing a bit."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to a 6. My heart is racing a bit.",
+      "Therapist: That's understandable. Keep going."
+    ],
+    [
+      "Client: It's gone up to a 6. My heart is racing a bit.",
+      "Therapist: That's understandable. Keep going.",
+      "Client: There was a terrible crunching sound as we hit the water. The impact was so strong, I thought my teeth would shatter. Water started rushing in immediately. The plane was tilting, and people were scrambling to get out. I was frozen in my seat, unable to move. A flight attendant had to shake me to snap me out of it."
+    ],
+    [
+      "Therapist: That's understandable. Keep going.",
+      "Client: There was a terrible crunching sound as we hit the water. The impact was so strong, I thought my teeth would shatter. Water started rushing in immediately. The plane was tilting, and people were scrambling to get out. I was frozen in my seat, unable to move. A flight attendant had to shake me to snap me out of it.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: There was a terrible crunching sound as we hit the water. The impact was so strong, I thought my teeth would shatter. Water started rushing in immediately. The plane was tilting, and people were scrambling to get out. I was frozen in my seat, unable to move. A flight attendant had to shake me to snap me out of it.",
+      "Therapist: How are you feeling now?",
+      "Client: I'm at an 8. My palms are sweating, and I feel like I can't catch my breath."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: I'm at an 8. My palms are sweating, and I feel like I can't catch my breath.",
+      "Therapist: Take a moment. Remember, you're safe here."
+    ],
+    [
+      "Client: I'm at an 8. My palms are sweating, and I feel like I can't catch my breath.",
+      "Therapist: Take a moment. Remember, you're safe here.",
+      "Client: (Takes several deep breaths) Thank you. It's just... the memory is so vivid. I can still smell the jet fuel and seawater. As I was trying to get out, I saw people struggling, some unconscious. I wanted to help, but I couldn't. I just focused on getting to the emergency exit. The life raft was already inflating when I got out."
+    ],
+    [
+      "Therapist: Take a moment. Remember, you're safe here.",
+      "Client: (Takes several deep breaths) Thank you. It's just... the memory is so vivid. I can still smell the jet fuel and seawater. As I was trying to get out, I saw people struggling, some unconscious. I wanted to help, but I couldn't. I just focused on getting to the emergency exit. The life raft was already inflating when I got out.",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: (Takes several deep breaths) Thank you. It's just... the memory is so vivid. I can still smell the jet fuel and seawater. As I was trying to get out, I saw people struggling, some unconscious. I wanted to help, but I couldn't. I just focused on getting to the emergency exit. The life raft was already inflating when I got out.",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's still at an 8. My chest feels tight."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's still at an 8. My chest feels tight.",
+      "Therapist: You're doing well. Keep breathing."
+    ],
+    [
+      "Client: It's still at an 8. My chest feels tight.",
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: In the water, everything was chaos. People were screaming, crying. I managed to climb onto a life raft. The waves were so high, I thought we'd capsize any moment. We floated for hours before rescue came. I kept thinking about my family, wondering if I'd ever see them again."
+    ],
+    [
+      "Therapist: You're doing well. Keep breathing.",
+      "Client: In the water, everything was chaos. People were screaming, crying. I managed to climb onto a life raft. The waves were so high, I thought we'd capsize any moment. We floated for hours before rescue came. I kept thinking about my family, wondering if I'd ever see them again.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: In the water, everything was chaos. People were screaming, crying. I managed to climb onto a life raft. The waves were so high, I thought we'd capsize any moment. We floated for hours before rescue came. I kept thinking about my family, wondering if I'd ever see them again.",
+      "Therapist: And your SUDS now?",
+      "Client: It's dropped to a 7. I'm feeling a bit calmer, but still shaky."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's dropped to a 7. I'm feeling a bit calmer, but still shaky.",
+      "Therapist: That's progress. How are you feeling overall?"
+    ],
+    [
+      "Client: It's dropped to a 7. I'm feeling a bit calmer, but still shaky.",
+      "Therapist: That's progress. How are you feeling overall?",
+      "Client: Exhausted, mostly. Reliving it is draining, but... I also feel a sense of relief. Like I'm finally facing it instead of running away."
+    ],
+    [
+      "Therapist: That's progress. How are you feeling overall?",
+      "Client: Exhausted, mostly. Reliving it is draining, but... I also feel a sense of relief. Like I'm finally facing it instead of running away.",
+      "Therapist: That's a positive step. What's your SUDS?"
+    ],
+    [
+      "Client: Exhausted, mostly. Reliving it is draining, but... I also feel a sense of relief. Like I'm finally facing it instead of running away.",
+      "Therapist: That's a positive step. What's your SUDS?",
+      "Client: I'd say it's down to a 5 now. The worst of the panic has subsided."
+    ],
+    [
+      "Therapist: That's a positive step. What's your SUDS?",
+      "Client: I'd say it's down to a 5 now. The worst of the panic has subsided.",
+      "Therapist: Good. Let's take a break. How was this experience for you?"
+    ],
+    [
+      "Client: I'd say it's down to a 5 now. The worst of the panic has subsided.",
+      "Therapist: Good. Let's take a break. How was this experience for you?",
+      "Client: It was intense, but... I think it helped. I've never talked about it in such detail before. It's like... I'm starting to process it, you know? I still feel the fear, but it's not overwhelming me like it used to."
+    ],
+    [
+      "Therapist: Good. Let's take a break. How was this experience for you?",
+      "Client: It was intense, but... I think it helped. I've never talked about it in such detail before. It's like... I'm starting to process it, you know? I still feel the fear, but it's not overwhelming me like it used to.",
+      "Therapist: That's excellent progress. We'll continue working through this."
+    ],
+    [
+      "Client: It was intense, but... I think it helped. I've never talked about it in such detail before. It's like... I'm starting to process it, you know? I still feel the fear, but it's not overwhelming me like it used to.",
+      "Therapist: That's excellent progress. We'll continue working through this.",
+      "Client: Thank you. I... I think I'm ready to face this now. It's not easy, but I feel like I'm finally moving forward."
+    ],
+    [
+      "Therapist: That's excellent progress. We'll continue working through this.",
+      "Client: Thank you. I... I think I'm ready to face this now. It's not easy, but I feel like I'm finally moving forward.",
+      "Therapist: You've shown great courage today. We'll end here for now."
+    ]
+  ]
+}

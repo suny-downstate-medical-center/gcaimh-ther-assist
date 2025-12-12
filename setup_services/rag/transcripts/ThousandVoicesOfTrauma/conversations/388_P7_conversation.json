@@ -1,0 +1,218 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Tom. How are you feeling today?",
+    "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thanks. I know we're supposed to talk about... about what happened to Sarah. I'm just not sure if I'm ready.",
+    "Therapist: Take your time. We'll go at your pace.",
+    "Client: Okay... Well, it was about six months ago. Sarah and I were studying late at the library. We'd been friends since high school, you know? She was always so bright, so full of life...",
+    "Therapist: You're doing well. Continue when you're ready.",
+    "Client: Right... So, we left the library around midnight. I offered to walk her home, but she said she'd be fine. I should've insisted... God, I should've gone with her.",
+    "Therapist: It's okay to feel this way. You're safe here.",
+    "Client: I... I got a call the next morning from her roommate. Sarah never made it home. They found her bag in an alley near campus. The police... they said there were signs of a struggle.",
+    "Therapist: Stay with the memory. You're doing great.",
+    "Client: It's just... The thought of her being scared, alone... I can't bear it. The police investigation revealed a human trafficking ring operating in our area. They think Sarah was... was taken by them.",
+    "Therapist: I know this is difficult. You're very brave.",
+    "Client: I keep imagining what she must have gone through. The fear, the pain... It's overwhelming. And the guilt... Why her? Why not me? I should've protected her.",
+    "Therapist: It's natural to have these feelings. Keep going.",
+    "Client: The worst part is not knowing. It's been six months, and there's been no trace of her. Sometimes I think... maybe it would be easier if we knew for sure she was... gone. But then I feel guilty for even thinking that.",
+    "Therapist: You're handling this incredibly well. Continue.",
+    "Client: I can't sleep most nights. I keep replaying that last conversation in my head. Her laugh, her smile... And then I imagine her screaming, calling for help. It's torture.",
+    "Therapist: You're safe here. These memories can't hurt you.",
+    "Client: I've been struggling with my studies. Everything seems pointless now. Sarah had such big dreams, you know? She wanted to change the world. And now... now she's just gone. It's not fair.",
+    "Therapist: I hear your pain. You're doing well expressing it.",
+    "Client: Sometimes I wonder if I'll ever be able to move on. How can I when she's still out there somewhere? I feel like I'm betraying her by trying to live my life.",
+    "Therapist: It's okay to have conflicting emotions.",
+    "Client: I miss her so much. We had plans, you know? We were going to travel after graduation, see the world. Now I can barely leave my room some days. The world feels so dangerous, so unpredictable.",
+    "Therapist: You're showing great courage. Keep going.",
+    "Client: I've been having these... these nightmares. I see Sarah, reaching out to me, begging for help. But no matter how fast I run, I can never reach her. I wake up in cold sweats, feeling helpless and terrified.",
+    "Therapist: These reactions are normal. You're processing trauma.",
+    "Client: I just... I just want her back. I want to know she's safe. The uncertainty is killing me. Every time my phone rings, I hope it's news about her. But it never is.",
+    "Therapist: I understand. You're doing well expressing these feelings.",
+    "Client: I feel so angry sometimes. At the people who took her, at the world for being so cruel, at myself for not protecting her. And then I feel guilty for being angry when Sarah's the one suffering.",
+    "Therapist: It's okay to feel angry. You're processing complex emotions.",
+    "Client: I've been thinking about quitting school. I can't focus anyway. But then I think about how disappointed Sarah would be. She always pushed me to do my best.",
+    "Therapist: You're showing strength by continuing. That's admirable.",
+    "Client: I just... I don't know how to move forward. How to live with this constant pain and uncertainty. It feels like a part of me is missing, and I don't know if I'll ever get it back.",
+    "Therapist: It's okay to feel lost. You're navigating difficult emotions.",
+    "Client: I'm sorry, I... I think I need a moment. This is all so overwhelming.",
+    "Therapist: Of course. Take your time. You've done exceptionally well today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Tom. How are you feeling today?",
+      "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Hi, Dr. Thompson. I'm... I'm okay, I guess. A bit nervous about today's session.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I know we're supposed to talk about... about what happened to Sarah. I'm just not sure if I'm ready."
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I know we're supposed to talk about... about what happened to Sarah. I'm just not sure if I'm ready.",
+      "Therapist: Take your time. We'll go at your pace."
+    ],
+    [
+      "Client: Thanks. I know we're supposed to talk about... about what happened to Sarah. I'm just not sure if I'm ready.",
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay... Well, it was about six months ago. Sarah and I were studying late at the library. We'd been friends since high school, you know? She was always so bright, so full of life..."
+    ],
+    [
+      "Therapist: Take your time. We'll go at your pace.",
+      "Client: Okay... Well, it was about six months ago. Sarah and I were studying late at the library. We'd been friends since high school, you know? She was always so bright, so full of life...",
+      "Therapist: You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: Okay... Well, it was about six months ago. Sarah and I were studying late at the library. We'd been friends since high school, you know? She was always so bright, so full of life...",
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: Right... So, we left the library around midnight. I offered to walk her home, but she said she'd be fine. I should've insisted... God, I should've gone with her."
+    ],
+    [
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: Right... So, we left the library around midnight. I offered to walk her home, but she said she'd be fine. I should've insisted... God, I should've gone with her.",
+      "Therapist: It's okay to feel this way. You're safe here."
+    ],
+    [
+      "Client: Right... So, we left the library around midnight. I offered to walk her home, but she said she'd be fine. I should've insisted... God, I should've gone with her.",
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I... I got a call the next morning from her roommate. Sarah never made it home. They found her bag in an alley near campus. The police... they said there were signs of a struggle."
+    ],
+    [
+      "Therapist: It's okay to feel this way. You're safe here.",
+      "Client: I... I got a call the next morning from her roommate. Sarah never made it home. They found her bag in an alley near campus. The police... they said there were signs of a struggle.",
+      "Therapist: Stay with the memory. You're doing great."
+    ],
+    [
+      "Client: I... I got a call the next morning from her roommate. Sarah never made it home. They found her bag in an alley near campus. The police... they said there were signs of a struggle.",
+      "Therapist: Stay with the memory. You're doing great.",
+      "Client: It's just... The thought of her being scared, alone... I can't bear it. The police investigation revealed a human trafficking ring operating in our area. They think Sarah was... was taken by them."
+    ],
+    [
+      "Therapist: Stay with the memory. You're doing great.",
+      "Client: It's just... The thought of her being scared, alone... I can't bear it. The police investigation revealed a human trafficking ring operating in our area. They think Sarah was... was taken by them.",
+      "Therapist: I know this is difficult. You're very brave."
+    ],
+    [
+      "Client: It's just... The thought of her being scared, alone... I can't bear it. The police investigation revealed a human trafficking ring operating in our area. They think Sarah was... was taken by them.",
+      "Therapist: I know this is difficult. You're very brave.",
+      "Client: I keep imagining what she must have gone through. The fear, the pain... It's overwhelming. And the guilt... Why her? Why not me? I should've protected her."
+    ],
+    [
+      "Therapist: I know this is difficult. You're very brave.",
+      "Client: I keep imagining what she must have gone through. The fear, the pain... It's overwhelming. And the guilt... Why her? Why not me? I should've protected her.",
+      "Therapist: It's natural to have these feelings. Keep going."
+    ],
+    [
+      "Client: I keep imagining what she must have gone through. The fear, the pain... It's overwhelming. And the guilt... Why her? Why not me? I should've protected her.",
+      "Therapist: It's natural to have these feelings. Keep going.",
+      "Client: The worst part is not knowing. It's been six months, and there's been no trace of her. Sometimes I think... maybe it would be easier if we knew for sure she was... gone. But then I feel guilty for even thinking that."
+    ],
+    [
+      "Therapist: It's natural to have these feelings. Keep going.",
+      "Client: The worst part is not knowing. It's been six months, and there's been no trace of her. Sometimes I think... maybe it would be easier if we knew for sure she was... gone. But then I feel guilty for even thinking that.",
+      "Therapist: You're handling this incredibly well. Continue."
+    ],
+    [
+      "Client: The worst part is not knowing. It's been six months, and there's been no trace of her. Sometimes I think... maybe it would be easier if we knew for sure she was... gone. But then I feel guilty for even thinking that.",
+      "Therapist: You're handling this incredibly well. Continue.",
+      "Client: I can't sleep most nights. I keep replaying that last conversation in my head. Her laugh, her smile... And then I imagine her screaming, calling for help. It's torture."
+    ],
+    [
+      "Therapist: You're handling this incredibly well. Continue.",
+      "Client: I can't sleep most nights. I keep replaying that last conversation in my head. Her laugh, her smile... And then I imagine her screaming, calling for help. It's torture.",
+      "Therapist: You're safe here. These memories can't hurt you."
+    ],
+    [
+      "Client: I can't sleep most nights. I keep replaying that last conversation in my head. Her laugh, her smile... And then I imagine her screaming, calling for help. It's torture.",
+      "Therapist: You're safe here. These memories can't hurt you.",
+      "Client: I've been struggling with my studies. Everything seems pointless now. Sarah had such big dreams, you know? She wanted to change the world. And now... now she's just gone. It's not fair."
+    ],
+    [
+      "Therapist: You're safe here. These memories can't hurt you.",
+      "Client: I've been struggling with my studies. Everything seems pointless now. Sarah had such big dreams, you know? She wanted to change the world. And now... now she's just gone. It's not fair.",
+      "Therapist: I hear your pain. You're doing well expressing it."
+    ],
+    [
+      "Client: I've been struggling with my studies. Everything seems pointless now. Sarah had such big dreams, you know? She wanted to change the world. And now... now she's just gone. It's not fair.",
+      "Therapist: I hear your pain. You're doing well expressing it.",
+      "Client: Sometimes I wonder if I'll ever be able to move on. How can I when she's still out there somewhere? I feel like I'm betraying her by trying to live my life."
+    ],
+    [
+      "Therapist: I hear your pain. You're doing well expressing it.",
+      "Client: Sometimes I wonder if I'll ever be able to move on. How can I when she's still out there somewhere? I feel like I'm betraying her by trying to live my life.",
+      "Therapist: It's okay to have conflicting emotions."
+    ],
+    [
+      "Client: Sometimes I wonder if I'll ever be able to move on. How can I when she's still out there somewhere? I feel like I'm betraying her by trying to live my life.",
+      "Therapist: It's okay to have conflicting emotions.",
+      "Client: I miss her so much. We had plans, you know? We were going to travel after graduation, see the world. Now I can barely leave my room some days. The world feels so dangerous, so unpredictable."
+    ],
+    [
+      "Therapist: It's okay to have conflicting emotions.",
+      "Client: I miss her so much. We had plans, you know? We were going to travel after graduation, see the world. Now I can barely leave my room some days. The world feels so dangerous, so unpredictable.",
+      "Therapist: You're showing great courage. Keep going."
+    ],
+    [
+      "Client: I miss her so much. We had plans, you know? We were going to travel after graduation, see the world. Now I can barely leave my room some days. The world feels so dangerous, so unpredictable.",
+      "Therapist: You're showing great courage. Keep going.",
+      "Client: I've been having these... these nightmares. I see Sarah, reaching out to me, begging for help. But no matter how fast I run, I can never reach her. I wake up in cold sweats, feeling helpless and terrified."
+    ],
+    [
+      "Therapist: You're showing great courage. Keep going.",
+      "Client: I've been having these... these nightmares. I see Sarah, reaching out to me, begging for help. But no matter how fast I run, I can never reach her. I wake up in cold sweats, feeling helpless and terrified.",
+      "Therapist: These reactions are normal. You're processing trauma."
+    ],
+    [
+      "Client: I've been having these... these nightmares. I see Sarah, reaching out to me, begging for help. But no matter how fast I run, I can never reach her. I wake up in cold sweats, feeling helpless and terrified.",
+      "Therapist: These reactions are normal. You're processing trauma.",
+      "Client: I just... I just want her back. I want to know she's safe. The uncertainty is killing me. Every time my phone rings, I hope it's news about her. But it never is."
+    ],
+    [
+      "Therapist: These reactions are normal. You're processing trauma.",
+      "Client: I just... I just want her back. I want to know she's safe. The uncertainty is killing me. Every time my phone rings, I hope it's news about her. But it never is.",
+      "Therapist: I understand. You're doing well expressing these feelings."
+    ],
+    [
+      "Client: I just... I just want her back. I want to know she's safe. The uncertainty is killing me. Every time my phone rings, I hope it's news about her. But it never is.",
+      "Therapist: I understand. You're doing well expressing these feelings.",
+      "Client: I feel so angry sometimes. At the people who took her, at the world for being so cruel, at myself for not protecting her. And then I feel guilty for being angry when Sarah's the one suffering."
+    ],
+    [
+      "Therapist: I understand. You're doing well expressing these feelings.",
+      "Client: I feel so angry sometimes. At the people who took her, at the world for being so cruel, at myself for not protecting her. And then I feel guilty for being angry when Sarah's the one suffering.",
+      "Therapist: It's okay to feel angry. You're processing complex emotions."
+    ],
+    [
+      "Client: I feel so angry sometimes. At the people who took her, at the world for being so cruel, at myself for not protecting her. And then I feel guilty for being angry when Sarah's the one suffering.",
+      "Therapist: It's okay to feel angry. You're processing complex emotions.",
+      "Client: I've been thinking about quitting school. I can't focus anyway. But then I think about how disappointed Sarah would be. She always pushed me to do my best."
+    ],
+    [
+      "Therapist: It's okay to feel angry. You're processing complex emotions.",
+      "Client: I've been thinking about quitting school. I can't focus anyway. But then I think about how disappointed Sarah would be. She always pushed me to do my best.",
+      "Therapist: You're showing strength by continuing. That's admirable."
+    ],
+    [
+      "Client: I've been thinking about quitting school. I can't focus anyway. But then I think about how disappointed Sarah would be. She always pushed me to do my best.",
+      "Therapist: You're showing strength by continuing. That's admirable.",
+      "Client: I just... I don't know how to move forward. How to live with this constant pain and uncertainty. It feels like a part of me is missing, and I don't know if I'll ever get it back."
+    ],
+    [
+      "Therapist: You're showing strength by continuing. That's admirable.",
+      "Client: I just... I don't know how to move forward. How to live with this constant pain and uncertainty. It feels like a part of me is missing, and I don't know if I'll ever get it back.",
+      "Therapist: It's okay to feel lost. You're navigating difficult emotions."
+    ],
+    [
+      "Client: I just... I don't know how to move forward. How to live with this constant pain and uncertainty. It feels like a part of me is missing, and I don't know if I'll ever get it back.",
+      "Therapist: It's okay to feel lost. You're navigating difficult emotions.",
+      "Client: I'm sorry, I... I think I need a moment. This is all so overwhelming."
+    ],
+    [
+      "Therapist: It's okay to feel lost. You're navigating difficult emotions.",
+      "Client: I'm sorry, I... I think I need a moment. This is all so overwhelming.",
+      "Therapist: Of course. Take your time. You've done exceptionally well today."
+    ]
+  ]
+}

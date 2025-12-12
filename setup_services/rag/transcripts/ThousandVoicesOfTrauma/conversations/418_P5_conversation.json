@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. I've been having more nightmares lately about the... incident.",
+    "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+    "Client: Not really. Is it... is it going to be difficult? I'm already feeling anxious just thinking about it.",
+    "Therapist: It can be challenging, but it's very helpful. Shall I explain more?",
+    "Client: Yes, please. I want to understand what I'm getting into. It's been so long since the attack, but sometimes it feels like it just happened yesterday. Will this really help?",
+    "Therapist: It will. We'll revisit the memory in a safe space. It helps process the trauma.",
+    "Client: Revisit it? Oh dear, I don't know if I can do that. Just thinking about those teeth and claws... (voice trembles) I'm sorry, I'm already getting upset.",
+    "Therapist: That's normal. We'll go at your pace. How does that sound?",
+    "Client: I appreciate that. It's just... since my husband passed, I've felt so vulnerable. This attack made it worse. But I want to get better. For my children, you know?",
+    "Therapist: Your courage is admirable. Shall we discuss what to expect?",
+    "Client: Yes, please. I need to know what's coming. Will I have to close my eyes? Will you be guiding me through it? I'm worried I might... I don't know, lose control or something.",
+    "Therapist: You'll describe the memory aloud. I'll be here to support you throughout.",
+    "Client: Alright, I can try that. But what if I start panicking? Sometimes when I think about it, my heart races and I feel like I can't breathe. It's embarrassing, but it happens.",
+    "Therapist: That's a normal reaction. We have techniques to help if that happens.",
+    "Client: Okay, that's reassuring. I've been trying to be strong, you know? Running my business, taking care of everything alone. But this... it's been hard to shake off. Will this really help me move forward?",
+    "Therapist: Yes, it's a proven method for reducing PTSD symptoms. You're very brave.",
+    "Client: Thank you. I don't always feel brave, but I'm trying. So, how long will this take? And will we do this every session from now on?",
+    "Therapist: We'll do this for about 30-45 minutes today. We'll continue in future sessions too.",
+    "Client: I see. That's quite a long time to talk about... that. But I suppose if it helps, I'll do my best. Is there anything I should do to prepare myself before we start?",
+    "Therapist: Just try to relax. Remember, you're safe here. Ready to begin?",
+    "Client: I... I think so. Yes, let's do this. I want to get better, to not be afraid anymore. Thank you for being so patient with me. I'm nervous, but I trust you.",
+    "Therapist: That's great. Let's start by taking a deep breath together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. I've been having more nightmares lately about the... incident.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?"
+    ],
+    [
+      "Client: I'm... okay, I suppose. A bit nervous about what we're going to do. I've been having more nightmares lately about the... incident.",
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. Is it... is it going to be difficult? I'm already feeling anxious just thinking about it."
+    ],
+    [
+      "Therapist: I understand. Today, we'll start imaginal exposure. Are you familiar with this?",
+      "Client: Not really. Is it... is it going to be difficult? I'm already feeling anxious just thinking about it.",
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain more?"
+    ],
+    [
+      "Client: Not really. Is it... is it going to be difficult? I'm already feeling anxious just thinking about it.",
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain more?",
+      "Client: Yes, please. I want to understand what I'm getting into. It's been so long since the attack, but sometimes it feels like it just happened yesterday. Will this really help?"
+    ],
+    [
+      "Therapist: It can be challenging, but it's very helpful. Shall I explain more?",
+      "Client: Yes, please. I want to understand what I'm getting into. It's been so long since the attack, but sometimes it feels like it just happened yesterday. Will this really help?",
+      "Therapist: It will. We'll revisit the memory in a safe space. It helps process the trauma."
+    ],
+    [
+      "Client: Yes, please. I want to understand what I'm getting into. It's been so long since the attack, but sometimes it feels like it just happened yesterday. Will this really help?",
+      "Therapist: It will. We'll revisit the memory in a safe space. It helps process the trauma.",
+      "Client: Revisit it? Oh dear, I don't know if I can do that. Just thinking about those teeth and claws... (voice trembles) I'm sorry, I'm already getting upset."
+    ],
+    [
+      "Therapist: It will. We'll revisit the memory in a safe space. It helps process the trauma.",
+      "Client: Revisit it? Oh dear, I don't know if I can do that. Just thinking about those teeth and claws... (voice trembles) I'm sorry, I'm already getting upset.",
+      "Therapist: That's normal. We'll go at your pace. How does that sound?"
+    ],
+    [
+      "Client: Revisit it? Oh dear, I don't know if I can do that. Just thinking about those teeth and claws... (voice trembles) I'm sorry, I'm already getting upset.",
+      "Therapist: That's normal. We'll go at your pace. How does that sound?",
+      "Client: I appreciate that. It's just... since my husband passed, I've felt so vulnerable. This attack made it worse. But I want to get better. For my children, you know?"
+    ],
+    [
+      "Therapist: That's normal. We'll go at your pace. How does that sound?",
+      "Client: I appreciate that. It's just... since my husband passed, I've felt so vulnerable. This attack made it worse. But I want to get better. For my children, you know?",
+      "Therapist: Your courage is admirable. Shall we discuss what to expect?"
+    ],
+    [
+      "Client: I appreciate that. It's just... since my husband passed, I've felt so vulnerable. This attack made it worse. But I want to get better. For my children, you know?",
+      "Therapist: Your courage is admirable. Shall we discuss what to expect?",
+      "Client: Yes, please. I need to know what's coming. Will I have to close my eyes? Will you be guiding me through it? I'm worried I might... I don't know, lose control or something."
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we discuss what to expect?",
+      "Client: Yes, please. I need to know what's coming. Will I have to close my eyes? Will you be guiding me through it? I'm worried I might... I don't know, lose control or something.",
+      "Therapist: You'll describe the memory aloud. I'll be here to support you throughout."
+    ],
+    [
+      "Client: Yes, please. I need to know what's coming. Will I have to close my eyes? Will you be guiding me through it? I'm worried I might... I don't know, lose control or something.",
+      "Therapist: You'll describe the memory aloud. I'll be here to support you throughout.",
+      "Client: Alright, I can try that. But what if I start panicking? Sometimes when I think about it, my heart races and I feel like I can't breathe. It's embarrassing, but it happens."
+    ],
+    [
+      "Therapist: You'll describe the memory aloud. I'll be here to support you throughout.",
+      "Client: Alright, I can try that. But what if I start panicking? Sometimes when I think about it, my heart races and I feel like I can't breathe. It's embarrassing, but it happens.",
+      "Therapist: That's a normal reaction. We have techniques to help if that happens."
+    ],
+    [
+      "Client: Alright, I can try that. But what if I start panicking? Sometimes when I think about it, my heart races and I feel like I can't breathe. It's embarrassing, but it happens.",
+      "Therapist: That's a normal reaction. We have techniques to help if that happens.",
+      "Client: Okay, that's reassuring. I've been trying to be strong, you know? Running my business, taking care of everything alone. But this... it's been hard to shake off. Will this really help me move forward?"
+    ],
+    [
+      "Therapist: That's a normal reaction. We have techniques to help if that happens.",
+      "Client: Okay, that's reassuring. I've been trying to be strong, you know? Running my business, taking care of everything alone. But this... it's been hard to shake off. Will this really help me move forward?",
+      "Therapist: Yes, it's a proven method for reducing PTSD symptoms. You're very brave."
+    ],
+    [
+      "Client: Okay, that's reassuring. I've been trying to be strong, you know? Running my business, taking care of everything alone. But this... it's been hard to shake off. Will this really help me move forward?",
+      "Therapist: Yes, it's a proven method for reducing PTSD symptoms. You're very brave.",
+      "Client: Thank you. I don't always feel brave, but I'm trying. So, how long will this take? And will we do this every session from now on?"
+    ],
+    [
+      "Therapist: Yes, it's a proven method for reducing PTSD symptoms. You're very brave.",
+      "Client: Thank you. I don't always feel brave, but I'm trying. So, how long will this take? And will we do this every session from now on?",
+      "Therapist: We'll do this for about 30-45 minutes today. We'll continue in future sessions too."
+    ],
+    [
+      "Client: Thank you. I don't always feel brave, but I'm trying. So, how long will this take? And will we do this every session from now on?",
+      "Therapist: We'll do this for about 30-45 minutes today. We'll continue in future sessions too.",
+      "Client: I see. That's quite a long time to talk about... that. But I suppose if it helps, I'll do my best. Is there anything I should do to prepare myself before we start?"
+    ],
+    [
+      "Therapist: We'll do this for about 30-45 minutes today. We'll continue in future sessions too.",
+      "Client: I see. That's quite a long time to talk about... that. But I suppose if it helps, I'll do my best. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Just try to relax. Remember, you're safe here. Ready to begin?"
+    ],
+    [
+      "Client: I see. That's quite a long time to talk about... that. But I suppose if it helps, I'll do my best. Is there anything I should do to prepare myself before we start?",
+      "Therapist: Just try to relax. Remember, you're safe here. Ready to begin?",
+      "Client: I... I think so. Yes, let's do this. I want to get better, to not be afraid anymore. Thank you for being so patient with me. I'm nervous, but I trust you."
+    ],
+    [
+      "Therapist: Just try to relax. Remember, you're safe here. Ready to begin?",
+      "Client: I... I think so. Yes, let's do this. I want to get better, to not be afraid anymore. Thank you for being so patient with me. I'm nervous, but I trust you.",
+      "Therapist: That's great. Let's start by taking a deep breath together."
+    ]
+  ]
+}

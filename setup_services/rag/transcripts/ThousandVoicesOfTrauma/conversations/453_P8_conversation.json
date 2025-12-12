@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... tense. Like I'm back there, you know? The sounds, the smells... it's all so vivid.",
+    "Therapist: What specific sensations are you noticing in your body right now?",
+    "Client: My palms are sweaty, and there's this tightness in my chest. It's like I can't catch my breath properly. And my stomach... it's all knotted up. I keep hearing the explosions in my head, even though I know I'm here in your office.",
+    "Therapist: And what thoughts are going through your mind?",
+    "Client: I keep thinking... \"Why didn't I do more?\" There were so many people who needed help, and I... I couldn't save them all. I feel guilty, like I failed them somehow. And then I feel angry at myself for still being affected by this after all these years.",
+    "Therapist: How does that anger feel in your body?",
+    "Client: It's... it's hot. Like a burning sensation in my gut. My jaw is clenched, and I want to... I don't know, punch something? But then I feel ashamed for feeling angry. It's a cycle, you know? Guilt, anger, shame... round and round it goes.",
+    "Therapist: What's the hardest part of reliving this memory?",
+    "Client: The helplessness, I think. In that moment, I was trained, I was prepared, but nothing could have readied me for the chaos. The screams, the blood... I keep seeing their faces. The ones I couldn't save. And I wonder, \"What if I had been faster? What if I had made different decisions?\"",
+    "Therapist: How do these thoughts impact you in your daily life now?",
+    "Client: They... they haunt me. Sometimes I'll be doing something completely ordinary, like having dinner with my family, and suddenly I'm back there. I become distant, irritable. My wife notices, but I can't explain it to her. How do you describe that level of horror to someone who hasn't experienced it?",
+    "Therapist: What do you think your younger self needed in that moment?",
+    "Client: I... I've never thought about it that way. I guess... support? Understanding? Maybe someone to tell me that I did the best I could under impossible circumstances. But in the military, you're not supposed to show weakness. You just carry on, no matter what.",
+    "Therapist: How does it feel to acknowledge that need now?",
+    "Client: It's... strange. Part of me feels relieved, like a weight's been lifted. But there's also this voice saying I'm weak for needing that. It's confusing, you know? I've spent so long trying to be strong, to not let it affect me.",
+    "Therapist: What would you say to a fellow soldier in your position?",
+    "Client: I'd... I'd tell them it's okay. That what we went through was beyond anything we could have prepared for. That feeling affected by it doesn't make them weak, it makes them human. But... it's harder to apply that to myself, you know?",
+    "Therapist: How might showing yourself that compassion change things?",
+    "Client: I... I'm not sure. Maybe I'd be less hard on myself? It might help with the anxiety, the constant feeling of being on edge. Perhaps I could be more present with my family instead of always having one foot in the past. But it feels... scary. Like I'm letting my guard down.",
+    "Therapist: What small step could you take towards self-compassion?",
+    "Client: I suppose... maybe I could try talking to my wife about it more? Not the gory details, but... how it affects me. And maybe... maybe I could join that veterans' support group you mentioned. It might help to talk to people who understand.",
+    "Therapist: How do you feel about those ideas?",
+    "Client: Nervous, definitely. But also... hopeful? Like maybe there's a way forward that doesn't involve constantly battling with myself. It's exhausting, you know? Always being on guard, always fighting these memories. I'm... I'm tired of it.",
+    "Therapist: What's giving you hope in this moment?",
+    "Client: I guess... the fact that I'm here, talking about it. That's something I couldn't have done a year ago. And... and the fact that I can imagine a future where this doesn't control me so much. It's a small thing, but it feels significant.",
+    "Therapist: How would you like to close our session today?",
+    "Client: I think... I'd like to take a moment to just breathe. To remind myself that I'm here, now, and that I'm safe. And maybe... maybe to acknowledge that younger version of myself, to tell him that he did his best. Is that okay?",
+    "Therapist: Of course. Let's do that together.",
+    "Client: (Takes a deep breath) Okay... I'm here. I'm safe. And to that younger me... you did your best. You survived. And... and I'm proud of you for that. (Exhales slowly) Thank you for this session. It was tough, but... I think it was important.",
+    "Therapist: Thank you for your courage today. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... tense. Like I'm back there, you know? The sounds, the smells... it's all so vivid.",
+      "Therapist: What specific sensations are you noticing in your body right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming. My heart's still racing, and I feel... tense. Like I'm back there, you know? The sounds, the smells... it's all so vivid.",
+      "Therapist: What specific sensations are you noticing in your body right now?",
+      "Client: My palms are sweaty, and there's this tightness in my chest. It's like I can't catch my breath properly. And my stomach... it's all knotted up. I keep hearing the explosions in my head, even though I know I'm here in your office."
+    ],
+    [
+      "Therapist: What specific sensations are you noticing in your body right now?",
+      "Client: My palms are sweaty, and there's this tightness in my chest. It's like I can't catch my breath properly. And my stomach... it's all knotted up. I keep hearing the explosions in my head, even though I know I'm here in your office.",
+      "Therapist: And what thoughts are going through your mind?"
+    ],
+    [
+      "Client: My palms are sweaty, and there's this tightness in my chest. It's like I can't catch my breath properly. And my stomach... it's all knotted up. I keep hearing the explosions in my head, even though I know I'm here in your office.",
+      "Therapist: And what thoughts are going through your mind?",
+      "Client: I keep thinking... \"Why didn't I do more?\" There were so many people who needed help, and I... I couldn't save them all. I feel guilty, like I failed them somehow. And then I feel angry at myself for still being affected by this after all these years."
+    ],
+    [
+      "Therapist: And what thoughts are going through your mind?",
+      "Client: I keep thinking... \"Why didn't I do more?\" There were so many people who needed help, and I... I couldn't save them all. I feel guilty, like I failed them somehow. And then I feel angry at myself for still being affected by this after all these years.",
+      "Therapist: How does that anger feel in your body?"
+    ],
+    [
+      "Client: I keep thinking... \"Why didn't I do more?\" There were so many people who needed help, and I... I couldn't save them all. I feel guilty, like I failed them somehow. And then I feel angry at myself for still being affected by this after all these years.",
+      "Therapist: How does that anger feel in your body?",
+      "Client: It's... it's hot. Like a burning sensation in my gut. My jaw is clenched, and I want to... I don't know, punch something? But then I feel ashamed for feeling angry. It's a cycle, you know? Guilt, anger, shame... round and round it goes."
+    ],
+    [
+      "Therapist: How does that anger feel in your body?",
+      "Client: It's... it's hot. Like a burning sensation in my gut. My jaw is clenched, and I want to... I don't know, punch something? But then I feel ashamed for feeling angry. It's a cycle, you know? Guilt, anger, shame... round and round it goes.",
+      "Therapist: What's the hardest part of reliving this memory?"
+    ],
+    [
+      "Client: It's... it's hot. Like a burning sensation in my gut. My jaw is clenched, and I want to... I don't know, punch something? But then I feel ashamed for feeling angry. It's a cycle, you know? Guilt, anger, shame... round and round it goes.",
+      "Therapist: What's the hardest part of reliving this memory?",
+      "Client: The helplessness, I think. In that moment, I was trained, I was prepared, but nothing could have readied me for the chaos. The screams, the blood... I keep seeing their faces. The ones I couldn't save. And I wonder, \"What if I had been faster? What if I had made different decisions?\""
+    ],
+    [
+      "Therapist: What's the hardest part of reliving this memory?",
+      "Client: The helplessness, I think. In that moment, I was trained, I was prepared, but nothing could have readied me for the chaos. The screams, the blood... I keep seeing their faces. The ones I couldn't save. And I wonder, \"What if I had been faster? What if I had made different decisions?\"",
+      "Therapist: How do these thoughts impact you in your daily life now?"
+    ],
+    [
+      "Client: The helplessness, I think. In that moment, I was trained, I was prepared, but nothing could have readied me for the chaos. The screams, the blood... I keep seeing their faces. The ones I couldn't save. And I wonder, \"What if I had been faster? What if I had made different decisions?\"",
+      "Therapist: How do these thoughts impact you in your daily life now?",
+      "Client: They... they haunt me. Sometimes I'll be doing something completely ordinary, like having dinner with my family, and suddenly I'm back there. I become distant, irritable. My wife notices, but I can't explain it to her. How do you describe that level of horror to someone who hasn't experienced it?"
+    ],
+    [
+      "Therapist: How do these thoughts impact you in your daily life now?",
+      "Client: They... they haunt me. Sometimes I'll be doing something completely ordinary, like having dinner with my family, and suddenly I'm back there. I become distant, irritable. My wife notices, but I can't explain it to her. How do you describe that level of horror to someone who hasn't experienced it?",
+      "Therapist: What do you think your younger self needed in that moment?"
+    ],
+    [
+      "Client: They... they haunt me. Sometimes I'll be doing something completely ordinary, like having dinner with my family, and suddenly I'm back there. I become distant, irritable. My wife notices, but I can't explain it to her. How do you describe that level of horror to someone who hasn't experienced it?",
+      "Therapist: What do you think your younger self needed in that moment?",
+      "Client: I... I've never thought about it that way. I guess... support? Understanding? Maybe someone to tell me that I did the best I could under impossible circumstances. But in the military, you're not supposed to show weakness. You just carry on, no matter what."
+    ],
+    [
+      "Therapist: What do you think your younger self needed in that moment?",
+      "Client: I... I've never thought about it that way. I guess... support? Understanding? Maybe someone to tell me that I did the best I could under impossible circumstances. But in the military, you're not supposed to show weakness. You just carry on, no matter what.",
+      "Therapist: How does it feel to acknowledge that need now?"
+    ],
+    [
+      "Client: I... I've never thought about it that way. I guess... support? Understanding? Maybe someone to tell me that I did the best I could under impossible circumstances. But in the military, you're not supposed to show weakness. You just carry on, no matter what.",
+      "Therapist: How does it feel to acknowledge that need now?",
+      "Client: It's... strange. Part of me feels relieved, like a weight's been lifted. But there's also this voice saying I'm weak for needing that. It's confusing, you know? I've spent so long trying to be strong, to not let it affect me."
+    ],
+    [
+      "Therapist: How does it feel to acknowledge that need now?",
+      "Client: It's... strange. Part of me feels relieved, like a weight's been lifted. But there's also this voice saying I'm weak for needing that. It's confusing, you know? I've spent so long trying to be strong, to not let it affect me.",
+      "Therapist: What would you say to a fellow soldier in your position?"
+    ],
+    [
+      "Client: It's... strange. Part of me feels relieved, like a weight's been lifted. But there's also this voice saying I'm weak for needing that. It's confusing, you know? I've spent so long trying to be strong, to not let it affect me.",
+      "Therapist: What would you say to a fellow soldier in your position?",
+      "Client: I'd... I'd tell them it's okay. That what we went through was beyond anything we could have prepared for. That feeling affected by it doesn't make them weak, it makes them human. But... it's harder to apply that to myself, you know?"
+    ],
+    [
+      "Therapist: What would you say to a fellow soldier in your position?",
+      "Client: I'd... I'd tell them it's okay. That what we went through was beyond anything we could have prepared for. That feeling affected by it doesn't make them weak, it makes them human. But... it's harder to apply that to myself, you know?",
+      "Therapist: How might showing yourself that compassion change things?"
+    ],
+    [
+      "Client: I'd... I'd tell them it's okay. That what we went through was beyond anything we could have prepared for. That feeling affected by it doesn't make them weak, it makes them human. But... it's harder to apply that to myself, you know?",
+      "Therapist: How might showing yourself that compassion change things?",
+      "Client: I... I'm not sure. Maybe I'd be less hard on myself? It might help with the anxiety, the constant feeling of being on edge. Perhaps I could be more present with my family instead of always having one foot in the past. But it feels... scary. Like I'm letting my guard down."
+    ],
+    [
+      "Therapist: How might showing yourself that compassion change things?",
+      "Client: I... I'm not sure. Maybe I'd be less hard on myself? It might help with the anxiety, the constant feeling of being on edge. Perhaps I could be more present with my family instead of always having one foot in the past. But it feels... scary. Like I'm letting my guard down.",
+      "Therapist: What small step could you take towards self-compassion?"
+    ],
+    [
+      "Client: I... I'm not sure. Maybe I'd be less hard on myself? It might help with the anxiety, the constant feeling of being on edge. Perhaps I could be more present with my family instead of always having one foot in the past. But it feels... scary. Like I'm letting my guard down.",
+      "Therapist: What small step could you take towards self-compassion?",
+      "Client: I suppose... maybe I could try talking to my wife about it more? Not the gory details, but... how it affects me. And maybe... maybe I could join that veterans' support group you mentioned. It might help to talk to people who understand."
+    ],
+    [
+      "Therapist: What small step could you take towards self-compassion?",
+      "Client: I suppose... maybe I could try talking to my wife about it more? Not the gory details, but... how it affects me. And maybe... maybe I could join that veterans' support group you mentioned. It might help to talk to people who understand.",
+      "Therapist: How do you feel about those ideas?"
+    ],
+    [
+      "Client: I suppose... maybe I could try talking to my wife about it more? Not the gory details, but... how it affects me. And maybe... maybe I could join that veterans' support group you mentioned. It might help to talk to people who understand.",
+      "Therapist: How do you feel about those ideas?",
+      "Client: Nervous, definitely. But also... hopeful? Like maybe there's a way forward that doesn't involve constantly battling with myself. It's exhausting, you know? Always being on guard, always fighting these memories. I'm... I'm tired of it."
+    ],
+    [
+      "Therapist: How do you feel about those ideas?",
+      "Client: Nervous, definitely. But also... hopeful? Like maybe there's a way forward that doesn't involve constantly battling with myself. It's exhausting, you know? Always being on guard, always fighting these memories. I'm... I'm tired of it.",
+      "Therapist: What's giving you hope in this moment?"
+    ],
+    [
+      "Client: Nervous, definitely. But also... hopeful? Like maybe there's a way forward that doesn't involve constantly battling with myself. It's exhausting, you know? Always being on guard, always fighting these memories. I'm... I'm tired of it.",
+      "Therapist: What's giving you hope in this moment?",
+      "Client: I guess... the fact that I'm here, talking about it. That's something I couldn't have done a year ago. And... and the fact that I can imagine a future where this doesn't control me so much. It's a small thing, but it feels significant."
+    ],
+    [
+      "Therapist: What's giving you hope in this moment?",
+      "Client: I guess... the fact that I'm here, talking about it. That's something I couldn't have done a year ago. And... and the fact that I can imagine a future where this doesn't control me so much. It's a small thing, but it feels significant.",
+      "Therapist: How would you like to close our session today?"
+    ],
+    [
+      "Client: I guess... the fact that I'm here, talking about it. That's something I couldn't have done a year ago. And... and the fact that I can imagine a future where this doesn't control me so much. It's a small thing, but it feels significant.",
+      "Therapist: How would you like to close our session today?",
+      "Client: I think... I'd like to take a moment to just breathe. To remind myself that I'm here, now, and that I'm safe. And maybe... maybe to acknowledge that younger version of myself, to tell him that he did his best. Is that okay?"
+    ],
+    [
+      "Therapist: How would you like to close our session today?",
+      "Client: I think... I'd like to take a moment to just breathe. To remind myself that I'm here, now, and that I'm safe. And maybe... maybe to acknowledge that younger version of myself, to tell him that he did his best. Is that okay?",
+      "Therapist: Of course. Let's do that together."
+    ],
+    [
+      "Client: I think... I'd like to take a moment to just breathe. To remind myself that I'm here, now, and that I'm safe. And maybe... maybe to acknowledge that younger version of myself, to tell him that he did his best. Is that okay?",
+      "Therapist: Of course. Let's do that together.",
+      "Client: (Takes a deep breath) Okay... I'm here. I'm safe. And to that younger me... you did your best. You survived. And... and I'm proud of you for that. (Exhales slowly) Thank you for this session. It was tough, but... I think it was important."
+    ],
+    [
+      "Therapist: Of course. Let's do that together.",
+      "Client: (Takes a deep breath) Okay... I'm here. I'm safe. And to that younger me... you did your best. You survived. And... and I'm proud of you for that. (Exhales slowly) Thank you for this session. It was tough, but... I think it was important.",
+      "Therapist: Thank you for your courage today. We'll continue next week."
+    ]
+  ]
+}

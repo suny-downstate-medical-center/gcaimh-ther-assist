@@ -1,0 +1,188 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was back there on that plane. I can still hear the screaming, the alarms... It's overwhelming.",
+    "Therapist: Take a deep breath. What's the strongest emotion you're experiencing right now?",
+    "Client: Fear, definitely fear. But also this... helplessness. Like I'm trapped and there's nothing I can do. It's suffocating.",
+    "Therapist: Where do you feel that in your body?",
+    "Client: My chest feels tight, like there's a weight on it. And my hands are shaky. I keep clenching and unclenching them, trying to get rid of this nervous energy.",
+    "Therapist: What thoughts are going through your mind?",
+    "Client: I keep thinking, \"This is it. I'm going to die.\" And then I feel guilty because I survived when others didn't. Why me? Why did I make it out? It doesn't make sense.",
+    "Therapist: How does that guilt connect to your past experiences?",
+    "Client: I... I guess it reminds me of when I was a kid. The physical abuse, you know? I always wondered why it was happening to me, why I couldn't stop it. It's that same feeling of powerlessness.",
+    "Therapist: I see. What else comes up for you?",
+    "Client: Anger, I think. I'm angry at the situation, at the universe maybe? For putting me through this. First the abuse, now this. It's like... haven't I been through enough? And then I feel selfish for thinking that way.",
+    "Therapist: It's okay to have those feelings. What do you notice as you express that anger?",
+    "Client: It's... liberating, in a way. I've been holding it in for so long. But it's also scary. I'm not used to feeling angry. I always tried to be the good kid, you know? To not cause trouble.",
+    "Therapist: How does allowing yourself to feel angry now differ from your past?",
+    "Client: It's... new. Uncomfortable. But also kind of empowering? Like, maybe it's okay to be angry about what happened. Both on the plane and... and when I was younger.",
+    "Therapist: What's coming up for you as you make that connection?",
+    "Client: A mix of things. Sadness for the kid I was, who didn't understand why bad things were happening. Relief that I can finally acknowledge these feelings. And... hope, maybe? That I can work through this, that I'm not permanently broken by what happened.",
+    "Therapist: That's a powerful realization. How does your body feel now?",
+    "Client: It's... calmer, I think. The tightness in my chest is easing up a bit. I feel drained, but also lighter somehow. Like I've put down a heavy backpack I've been carrying for years.",
+    "Therapist: What do you make of that change?",
+    "Client: I think... maybe it's okay to feel these things. To let myself experience the fear and anger without judging it. It's exhausting, but also... freeing? Like I'm finally allowing myself to process everything.",
+    "Therapist: That's a big step. What do you need right now?",
+    "Client: I... I'm not sure. Part of me wants to curl up and sleep for days. But another part feels more alive than I have in a long time. It's confusing. I guess... maybe just to know that it's okay to feel all of this?",
+    "Therapist: It absolutely is. How would you like to take care of yourself for the rest of the day?",
+    "Client: I think I need some quiet time. Maybe go for a walk in the park near my place. Being in nature always helps ground me. And then maybe call my sister. She's been really supportive through all of this.",
+    "Therapist: That sounds like a good plan. Is there anything else you'd like to share before we wrap up?",
+    "Client: Just... thank you. For listening, for guiding me through this. It's tough, but I think I'm starting to see a way forward. It's like... the memories are still there, but they don't have the same power over me. Does that make sense?",
+    "Therapist: It does. You've shown incredible strength today. How are you feeling as we end our session?",
+    "Client: Tired, but... hopeful. Like I've taken a step in the right direction. It's scary, but I think I'm ready to keep moving forward.",
+    "Therapist: That's wonderful. Remember to be gentle with yourself. We'll continue this work next time.",
+    "Client: Thank you. I... I appreciate your help more than I can say. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was back there on that plane. I can still hear the screaming, the alarms... It's overwhelming.",
+      "Therapist: Take a deep breath. What's the strongest emotion you're experiencing right now?"
+    ],
+    [
+      "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was back there on that plane. I can still hear the screaming, the alarms... It's overwhelming.",
+      "Therapist: Take a deep breath. What's the strongest emotion you're experiencing right now?",
+      "Client: Fear, definitely fear. But also this... helplessness. Like I'm trapped and there's nothing I can do. It's suffocating."
+    ],
+    [
+      "Therapist: Take a deep breath. What's the strongest emotion you're experiencing right now?",
+      "Client: Fear, definitely fear. But also this... helplessness. Like I'm trapped and there's nothing I can do. It's suffocating.",
+      "Therapist: Where do you feel that in your body?"
+    ],
+    [
+      "Client: Fear, definitely fear. But also this... helplessness. Like I'm trapped and there's nothing I can do. It's suffocating.",
+      "Therapist: Where do you feel that in your body?",
+      "Client: My chest feels tight, like there's a weight on it. And my hands are shaky. I keep clenching and unclenching them, trying to get rid of this nervous energy."
+    ],
+    [
+      "Therapist: Where do you feel that in your body?",
+      "Client: My chest feels tight, like there's a weight on it. And my hands are shaky. I keep clenching and unclenching them, trying to get rid of this nervous energy.",
+      "Therapist: What thoughts are going through your mind?"
+    ],
+    [
+      "Client: My chest feels tight, like there's a weight on it. And my hands are shaky. I keep clenching and unclenching them, trying to get rid of this nervous energy.",
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"This is it. I'm going to die.\" And then I feel guilty because I survived when others didn't. Why me? Why did I make it out? It doesn't make sense."
+    ],
+    [
+      "Therapist: What thoughts are going through your mind?",
+      "Client: I keep thinking, \"This is it. I'm going to die.\" And then I feel guilty because I survived when others didn't. Why me? Why did I make it out? It doesn't make sense.",
+      "Therapist: How does that guilt connect to your past experiences?"
+    ],
+    [
+      "Client: I keep thinking, \"This is it. I'm going to die.\" And then I feel guilty because I survived when others didn't. Why me? Why did I make it out? It doesn't make sense.",
+      "Therapist: How does that guilt connect to your past experiences?",
+      "Client: I... I guess it reminds me of when I was a kid. The physical abuse, you know? I always wondered why it was happening to me, why I couldn't stop it. It's that same feeling of powerlessness."
+    ],
+    [
+      "Therapist: How does that guilt connect to your past experiences?",
+      "Client: I... I guess it reminds me of when I was a kid. The physical abuse, you know? I always wondered why it was happening to me, why I couldn't stop it. It's that same feeling of powerlessness.",
+      "Therapist: I see. What else comes up for you?"
+    ],
+    [
+      "Client: I... I guess it reminds me of when I was a kid. The physical abuse, you know? I always wondered why it was happening to me, why I couldn't stop it. It's that same feeling of powerlessness.",
+      "Therapist: I see. What else comes up for you?",
+      "Client: Anger, I think. I'm angry at the situation, at the universe maybe? For putting me through this. First the abuse, now this. It's like... haven't I been through enough? And then I feel selfish for thinking that way."
+    ],
+    [
+      "Therapist: I see. What else comes up for you?",
+      "Client: Anger, I think. I'm angry at the situation, at the universe maybe? For putting me through this. First the abuse, now this. It's like... haven't I been through enough? And then I feel selfish for thinking that way.",
+      "Therapist: It's okay to have those feelings. What do you notice as you express that anger?"
+    ],
+    [
+      "Client: Anger, I think. I'm angry at the situation, at the universe maybe? For putting me through this. First the abuse, now this. It's like... haven't I been through enough? And then I feel selfish for thinking that way.",
+      "Therapist: It's okay to have those feelings. What do you notice as you express that anger?",
+      "Client: It's... liberating, in a way. I've been holding it in for so long. But it's also scary. I'm not used to feeling angry. I always tried to be the good kid, you know? To not cause trouble."
+    ],
+    [
+      "Therapist: It's okay to have those feelings. What do you notice as you express that anger?",
+      "Client: It's... liberating, in a way. I've been holding it in for so long. But it's also scary. I'm not used to feeling angry. I always tried to be the good kid, you know? To not cause trouble.",
+      "Therapist: How does allowing yourself to feel angry now differ from your past?"
+    ],
+    [
+      "Client: It's... liberating, in a way. I've been holding it in for so long. But it's also scary. I'm not used to feeling angry. I always tried to be the good kid, you know? To not cause trouble.",
+      "Therapist: How does allowing yourself to feel angry now differ from your past?",
+      "Client: It's... new. Uncomfortable. But also kind of empowering? Like, maybe it's okay to be angry about what happened. Both on the plane and... and when I was younger."
+    ],
+    [
+      "Therapist: How does allowing yourself to feel angry now differ from your past?",
+      "Client: It's... new. Uncomfortable. But also kind of empowering? Like, maybe it's okay to be angry about what happened. Both on the plane and... and when I was younger.",
+      "Therapist: What's coming up for you as you make that connection?"
+    ],
+    [
+      "Client: It's... new. Uncomfortable. But also kind of empowering? Like, maybe it's okay to be angry about what happened. Both on the plane and... and when I was younger.",
+      "Therapist: What's coming up for you as you make that connection?",
+      "Client: A mix of things. Sadness for the kid I was, who didn't understand why bad things were happening. Relief that I can finally acknowledge these feelings. And... hope, maybe? That I can work through this, that I'm not permanently broken by what happened."
+    ],
+    [
+      "Therapist: What's coming up for you as you make that connection?",
+      "Client: A mix of things. Sadness for the kid I was, who didn't understand why bad things were happening. Relief that I can finally acknowledge these feelings. And... hope, maybe? That I can work through this, that I'm not permanently broken by what happened.",
+      "Therapist: That's a powerful realization. How does your body feel now?"
+    ],
+    [
+      "Client: A mix of things. Sadness for the kid I was, who didn't understand why bad things were happening. Relief that I can finally acknowledge these feelings. And... hope, maybe? That I can work through this, that I'm not permanently broken by what happened.",
+      "Therapist: That's a powerful realization. How does your body feel now?",
+      "Client: It's... calmer, I think. The tightness in my chest is easing up a bit. I feel drained, but also lighter somehow. Like I've put down a heavy backpack I've been carrying for years."
+    ],
+    [
+      "Therapist: That's a powerful realization. How does your body feel now?",
+      "Client: It's... calmer, I think. The tightness in my chest is easing up a bit. I feel drained, but also lighter somehow. Like I've put down a heavy backpack I've been carrying for years.",
+      "Therapist: What do you make of that change?"
+    ],
+    [
+      "Client: It's... calmer, I think. The tightness in my chest is easing up a bit. I feel drained, but also lighter somehow. Like I've put down a heavy backpack I've been carrying for years.",
+      "Therapist: What do you make of that change?",
+      "Client: I think... maybe it's okay to feel these things. To let myself experience the fear and anger without judging it. It's exhausting, but also... freeing? Like I'm finally allowing myself to process everything."
+    ],
+    [
+      "Therapist: What do you make of that change?",
+      "Client: I think... maybe it's okay to feel these things. To let myself experience the fear and anger without judging it. It's exhausting, but also... freeing? Like I'm finally allowing myself to process everything.",
+      "Therapist: That's a big step. What do you need right now?"
+    ],
+    [
+      "Client: I think... maybe it's okay to feel these things. To let myself experience the fear and anger without judging it. It's exhausting, but also... freeing? Like I'm finally allowing myself to process everything.",
+      "Therapist: That's a big step. What do you need right now?",
+      "Client: I... I'm not sure. Part of me wants to curl up and sleep for days. But another part feels more alive than I have in a long time. It's confusing. I guess... maybe just to know that it's okay to feel all of this?"
+    ],
+    [
+      "Therapist: That's a big step. What do you need right now?",
+      "Client: I... I'm not sure. Part of me wants to curl up and sleep for days. But another part feels more alive than I have in a long time. It's confusing. I guess... maybe just to know that it's okay to feel all of this?",
+      "Therapist: It absolutely is. How would you like to take care of yourself for the rest of the day?"
+    ],
+    [
+      "Client: I... I'm not sure. Part of me wants to curl up and sleep for days. But another part feels more alive than I have in a long time. It's confusing. I guess... maybe just to know that it's okay to feel all of this?",
+      "Therapist: It absolutely is. How would you like to take care of yourself for the rest of the day?",
+      "Client: I think I need some quiet time. Maybe go for a walk in the park near my place. Being in nature always helps ground me. And then maybe call my sister. She's been really supportive through all of this."
+    ],
+    [
+      "Therapist: It absolutely is. How would you like to take care of yourself for the rest of the day?",
+      "Client: I think I need some quiet time. Maybe go for a walk in the park near my place. Being in nature always helps ground me. And then maybe call my sister. She's been really supportive through all of this.",
+      "Therapist: That sounds like a good plan. Is there anything else you'd like to share before we wrap up?"
+    ],
+    [
+      "Client: I think I need some quiet time. Maybe go for a walk in the park near my place. Being in nature always helps ground me. And then maybe call my sister. She's been really supportive through all of this.",
+      "Therapist: That sounds like a good plan. Is there anything else you'd like to share before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's tough, but I think I'm starting to see a way forward. It's like... the memories are still there, but they don't have the same power over me. Does that make sense?"
+    ],
+    [
+      "Therapist: That sounds like a good plan. Is there anything else you'd like to share before we wrap up?",
+      "Client: Just... thank you. For listening, for guiding me through this. It's tough, but I think I'm starting to see a way forward. It's like... the memories are still there, but they don't have the same power over me. Does that make sense?",
+      "Therapist: It does. You've shown incredible strength today. How are you feeling as we end our session?"
+    ],
+    [
+      "Client: Just... thank you. For listening, for guiding me through this. It's tough, but I think I'm starting to see a way forward. It's like... the memories are still there, but they don't have the same power over me. Does that make sense?",
+      "Therapist: It does. You've shown incredible strength today. How are you feeling as we end our session?",
+      "Client: Tired, but... hopeful. Like I've taken a step in the right direction. It's scary, but I think I'm ready to keep moving forward."
+    ],
+    [
+      "Therapist: It does. You've shown incredible strength today. How are you feeling as we end our session?",
+      "Client: Tired, but... hopeful. Like I've taken a step in the right direction. It's scary, but I think I'm ready to keep moving forward.",
+      "Therapist: That's wonderful. Remember to be gentle with yourself. We'll continue this work next time."
+    ],
+    [
+      "Client: Tired, but... hopeful. Like I've taken a step in the right direction. It's scary, but I think I'm ready to keep moving forward.",
+      "Therapist: That's wonderful. Remember to be gentle with yourself. We'll continue this work next time.",
+      "Client: Thank you. I... I appreciate your help more than I can say. See you next week."
+    ]
+  ]
+}

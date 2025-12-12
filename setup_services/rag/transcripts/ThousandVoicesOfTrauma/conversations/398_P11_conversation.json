@@ -1,0 +1,122 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+    "Client: I... I'm not sure. It's always intense, you know? Reliving that airplane crash... it brings everything back. The sounds, the smells, the fear. It's like I'm right there again, feeling the plane shake and hearing people scream. It's exhausting, but... I guess it's also a relief to get through it.",
+    "Therapist: Understandable. What stood out to you this time?",
+    "Client: The faces. I keep seeing the faces of the other soldiers. We were all so young, barely out of training. There was this one guy, Rodriguez, sitting across from me. When the plane started going down, he looked at me with such... terror. I've never seen someone so scared. I couldn't do anything to help him. I... I don't even know if he survived.",
+    "Therapist: That sounds incredibly difficult. How did it feel to recall that today?",
+    "Client: It was... hard. Really hard. But different from before. I used to feel completely overwhelmed, like I was drowning in the memory. This time, I could... I could sort of step back a little. Does that make sense? Like, I was still there, but I could also observe it happening. It's still painful, but... maybe a bit less consuming?",
+    "Therapist: That's a significant observation. How do you think this relates to your day-to-day experiences?",
+    "Client: Well, I've noticed that I'm not as jumpy lately when I hear loud noises. Like, last week, a car backfired near me, and I flinched, but I didn't have a full-blown panic attack like I used to. Maybe... maybe I'm starting to process things differently? I don't know. It's confusing.",
+    "Therapist: That's an insightful connection. What else have you noticed?",
+    "Client: I've been sleeping a bit better. Not great, but... better. The nightmares are less frequent. And when I do have them, I can sometimes recognize that they're just dreams. It's like... like I'm gaining some control back. But then there are days when it all comes crashing down again, and I feel like I'm right back where I started.",
+    "Therapist: That's normal in recovery. How do you cope on those difficult days?",
+    "Client: I try to use those breathing exercises we practiced. Sometimes they help, sometimes they don't. On really bad days, I call my sister. She doesn't fully understand, but she listens. And... I've started writing. Just... jotting down thoughts, memories. It's painful, but sometimes it helps to get it out of my head.",
+    "Therapist: Those are excellent strategies. How does this progress make you feel?",
+    "Client: It's... bittersweet, I guess. I'm relieved to see some improvement, but it also makes me angry. Angry that I have to go through this at all. That one event changed my entire life. I lost my marriage, my job... sometimes I wonder who I'd be if it hadn't happened. But then I feel guilty for thinking that way. So many others didn't make it out alive.",
+    "Therapist: It's okay to have mixed feelings. What helps you move forward?",
+    "Client: Honestly? These sessions. As hard as they are, they give me hope. And my kids. They're grown now, but... I want to be better for them. To be present when I'm with them, not lost in my head. And... maybe it sounds silly, but I've started volunteering at a local veterans' center. Talking to others who've been through similar experiences... it helps. Makes me feel less alone.",
+    "Therapist: That's not silly at all. It's very meaningful. Any final thoughts on today's session?",
+    "Client: I'm... I'm proud of myself, I think. For sticking with this, even when it's tough. There's still a long way to go, but... maybe I'm stronger than I thought. And maybe... maybe I can learn to live with what happened without letting it control me. Is that... is that possible?",
+    "Therapist: Absolutely. You're making real progress. Shall we wrap up?",
+    "Client: Yeah, I think so. Thanks, doc. Same time next week?",
+    "Therapist: See you then. Take care, Mr. Ramirez."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Ramirez?",
+      "Client: I... I'm not sure. It's always intense, you know? Reliving that airplane crash... it brings everything back. The sounds, the smells, the fear. It's like I'm right there again, feeling the plane shake and hearing people scream. It's exhausting, but... I guess it's also a relief to get through it.",
+      "Therapist: Understandable. What stood out to you this time?"
+    ],
+    [
+      "Client: I... I'm not sure. It's always intense, you know? Reliving that airplane crash... it brings everything back. The sounds, the smells, the fear. It's like I'm right there again, feeling the plane shake and hearing people scream. It's exhausting, but... I guess it's also a relief to get through it.",
+      "Therapist: Understandable. What stood out to you this time?",
+      "Client: The faces. I keep seeing the faces of the other soldiers. We were all so young, barely out of training. There was this one guy, Rodriguez, sitting across from me. When the plane started going down, he looked at me with such... terror. I've never seen someone so scared. I couldn't do anything to help him. I... I don't even know if he survived."
+    ],
+    [
+      "Therapist: Understandable. What stood out to you this time?",
+      "Client: The faces. I keep seeing the faces of the other soldiers. We were all so young, barely out of training. There was this one guy, Rodriguez, sitting across from me. When the plane started going down, he looked at me with such... terror. I've never seen someone so scared. I couldn't do anything to help him. I... I don't even know if he survived.",
+      "Therapist: That sounds incredibly difficult. How did it feel to recall that today?"
+    ],
+    [
+      "Client: The faces. I keep seeing the faces of the other soldiers. We were all so young, barely out of training. There was this one guy, Rodriguez, sitting across from me. When the plane started going down, he looked at me with such... terror. I've never seen someone so scared. I couldn't do anything to help him. I... I don't even know if he survived.",
+      "Therapist: That sounds incredibly difficult. How did it feel to recall that today?",
+      "Client: It was... hard. Really hard. But different from before. I used to feel completely overwhelmed, like I was drowning in the memory. This time, I could... I could sort of step back a little. Does that make sense? Like, I was still there, but I could also observe it happening. It's still painful, but... maybe a bit less consuming?"
+    ],
+    [
+      "Therapist: That sounds incredibly difficult. How did it feel to recall that today?",
+      "Client: It was... hard. Really hard. But different from before. I used to feel completely overwhelmed, like I was drowning in the memory. This time, I could... I could sort of step back a little. Does that make sense? Like, I was still there, but I could also observe it happening. It's still painful, but... maybe a bit less consuming?",
+      "Therapist: That's a significant observation. How do you think this relates to your day-to-day experiences?"
+    ],
+    [
+      "Client: It was... hard. Really hard. But different from before. I used to feel completely overwhelmed, like I was drowning in the memory. This time, I could... I could sort of step back a little. Does that make sense? Like, I was still there, but I could also observe it happening. It's still painful, but... maybe a bit less consuming?",
+      "Therapist: That's a significant observation. How do you think this relates to your day-to-day experiences?",
+      "Client: Well, I've noticed that I'm not as jumpy lately when I hear loud noises. Like, last week, a car backfired near me, and I flinched, but I didn't have a full-blown panic attack like I used to. Maybe... maybe I'm starting to process things differently? I don't know. It's confusing."
+    ],
+    [
+      "Therapist: That's a significant observation. How do you think this relates to your day-to-day experiences?",
+      "Client: Well, I've noticed that I'm not as jumpy lately when I hear loud noises. Like, last week, a car backfired near me, and I flinched, but I didn't have a full-blown panic attack like I used to. Maybe... maybe I'm starting to process things differently? I don't know. It's confusing.",
+      "Therapist: That's an insightful connection. What else have you noticed?"
+    ],
+    [
+      "Client: Well, I've noticed that I'm not as jumpy lately when I hear loud noises. Like, last week, a car backfired near me, and I flinched, but I didn't have a full-blown panic attack like I used to. Maybe... maybe I'm starting to process things differently? I don't know. It's confusing.",
+      "Therapist: That's an insightful connection. What else have you noticed?",
+      "Client: I've been sleeping a bit better. Not great, but... better. The nightmares are less frequent. And when I do have them, I can sometimes recognize that they're just dreams. It's like... like I'm gaining some control back. But then there are days when it all comes crashing down again, and I feel like I'm right back where I started."
+    ],
+    [
+      "Therapist: That's an insightful connection. What else have you noticed?",
+      "Client: I've been sleeping a bit better. Not great, but... better. The nightmares are less frequent. And when I do have them, I can sometimes recognize that they're just dreams. It's like... like I'm gaining some control back. But then there are days when it all comes crashing down again, and I feel like I'm right back where I started.",
+      "Therapist: That's normal in recovery. How do you cope on those difficult days?"
+    ],
+    [
+      "Client: I've been sleeping a bit better. Not great, but... better. The nightmares are less frequent. And when I do have them, I can sometimes recognize that they're just dreams. It's like... like I'm gaining some control back. But then there are days when it all comes crashing down again, and I feel like I'm right back where I started.",
+      "Therapist: That's normal in recovery. How do you cope on those difficult days?",
+      "Client: I try to use those breathing exercises we practiced. Sometimes they help, sometimes they don't. On really bad days, I call my sister. She doesn't fully understand, but she listens. And... I've started writing. Just... jotting down thoughts, memories. It's painful, but sometimes it helps to get it out of my head."
+    ],
+    [
+      "Therapist: That's normal in recovery. How do you cope on those difficult days?",
+      "Client: I try to use those breathing exercises we practiced. Sometimes they help, sometimes they don't. On really bad days, I call my sister. She doesn't fully understand, but she listens. And... I've started writing. Just... jotting down thoughts, memories. It's painful, but sometimes it helps to get it out of my head.",
+      "Therapist: Those are excellent strategies. How does this progress make you feel?"
+    ],
+    [
+      "Client: I try to use those breathing exercises we practiced. Sometimes they help, sometimes they don't. On really bad days, I call my sister. She doesn't fully understand, but she listens. And... I've started writing. Just... jotting down thoughts, memories. It's painful, but sometimes it helps to get it out of my head.",
+      "Therapist: Those are excellent strategies. How does this progress make you feel?",
+      "Client: It's... bittersweet, I guess. I'm relieved to see some improvement, but it also makes me angry. Angry that I have to go through this at all. That one event changed my entire life. I lost my marriage, my job... sometimes I wonder who I'd be if it hadn't happened. But then I feel guilty for thinking that way. So many others didn't make it out alive."
+    ],
+    [
+      "Therapist: Those are excellent strategies. How does this progress make you feel?",
+      "Client: It's... bittersweet, I guess. I'm relieved to see some improvement, but it also makes me angry. Angry that I have to go through this at all. That one event changed my entire life. I lost my marriage, my job... sometimes I wonder who I'd be if it hadn't happened. But then I feel guilty for thinking that way. So many others didn't make it out alive.",
+      "Therapist: It's okay to have mixed feelings. What helps you move forward?"
+    ],
+    [
+      "Client: It's... bittersweet, I guess. I'm relieved to see some improvement, but it also makes me angry. Angry that I have to go through this at all. That one event changed my entire life. I lost my marriage, my job... sometimes I wonder who I'd be if it hadn't happened. But then I feel guilty for thinking that way. So many others didn't make it out alive.",
+      "Therapist: It's okay to have mixed feelings. What helps you move forward?",
+      "Client: Honestly? These sessions. As hard as they are, they give me hope. And my kids. They're grown now, but... I want to be better for them. To be present when I'm with them, not lost in my head. And... maybe it sounds silly, but I've started volunteering at a local veterans' center. Talking to others who've been through similar experiences... it helps. Makes me feel less alone."
+    ],
+    [
+      "Therapist: It's okay to have mixed feelings. What helps you move forward?",
+      "Client: Honestly? These sessions. As hard as they are, they give me hope. And my kids. They're grown now, but... I want to be better for them. To be present when I'm with them, not lost in my head. And... maybe it sounds silly, but I've started volunteering at a local veterans' center. Talking to others who've been through similar experiences... it helps. Makes me feel less alone.",
+      "Therapist: That's not silly at all. It's very meaningful. Any final thoughts on today's session?"
+    ],
+    [
+      "Client: Honestly? These sessions. As hard as they are, they give me hope. And my kids. They're grown now, but... I want to be better for them. To be present when I'm with them, not lost in my head. And... maybe it sounds silly, but I've started volunteering at a local veterans' center. Talking to others who've been through similar experiences... it helps. Makes me feel less alone.",
+      "Therapist: That's not silly at all. It's very meaningful. Any final thoughts on today's session?",
+      "Client: I'm... I'm proud of myself, I think. For sticking with this, even when it's tough. There's still a long way to go, but... maybe I'm stronger than I thought. And maybe... maybe I can learn to live with what happened without letting it control me. Is that... is that possible?"
+    ],
+    [
+      "Therapist: That's not silly at all. It's very meaningful. Any final thoughts on today's session?",
+      "Client: I'm... I'm proud of myself, I think. For sticking with this, even when it's tough. There's still a long way to go, but... maybe I'm stronger than I thought. And maybe... maybe I can learn to live with what happened without letting it control me. Is that... is that possible?",
+      "Therapist: Absolutely. You're making real progress. Shall we wrap up?"
+    ],
+    [
+      "Client: I'm... I'm proud of myself, I think. For sticking with this, even when it's tough. There's still a long way to go, but... maybe I'm stronger than I thought. And maybe... maybe I can learn to live with what happened without letting it control me. Is that... is that possible?",
+      "Therapist: Absolutely. You're making real progress. Shall we wrap up?",
+      "Client: Yeah, I think so. Thanks, doc. Same time next week?"
+    ],
+    [
+      "Therapist: Absolutely. You're making real progress. Shall we wrap up?",
+      "Client: Yeah, I think so. Thanks, doc. Same time next week?",
+      "Therapist: See you then. Take care, Mr. Ramirez."
+    ]
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Thompson, today we'll begin imaginal exposure. Are you ready to discuss this?",
+    "Client: I suppose so, but I'm not quite sure what that means. It sounds a bit intimidating, to be honest. At my age, I'm not sure I can handle anything too intense.",
+    "Therapist: I understand. It's a technique to help process trauma. What concerns you most?",
+    "Client: Well, I've spent decades trying to forget what happened. The idea of purposely thinking about it... it makes my heart race. What if I can't handle it? What if it makes things worse?",
+    "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+    "Client: That's reassuring, I guess. But what exactly will we be doing? And why do you think this will help me? I've managed this long without dredging up the past.",
+    "Therapist: We'll revisit the traumatic memory in a safe environment. It can reduce PTSD symptoms over time.",
+    "Client: I see. But won't that be incredibly distressing? I'm worried about how I'll react. Sometimes when I think about what happened, I feel like I'm right back there again. It's terrifying.",
+    "Therapist: Those reactions are normal. We'll work through them together. How are you feeling about trying?",
+    "Client: I'm scared, but I also want to feel better. My depression has been worse lately, and my family is worried. If this could help... I suppose I'm willing to give it a try. But can we stop if it becomes too much?",
+    "Therapist: Absolutely. You're in control. We can pause or stop anytime. Your bravery is admirable.",
+    "Client: Thank you, that means a lot. I've never really talked about this with anyone before, not even my husband. It's been my burden to bear all these years. I'm nervous, but also feeling a glimmer of hope that maybe, just maybe, things could get better.",
+    "Therapist: Your strength is inspiring. Shall we begin with some relaxation exercises first?",
+    "Client: Yes, I think that would be helpful. My hands are shaking a bit, and my breathing feels shallow. I could use some help calming down before we start. This is all so new and overwhelming, but I'm trying to keep an open mind.",
+    "Therapist: Perfect. Let's start with deep breathing. Inhale slowly through your nose..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Thompson, today we'll begin imaginal exposure. Are you ready to discuss this?",
+      "Client: I suppose so, but I'm not quite sure what that means. It sounds a bit intimidating, to be honest. At my age, I'm not sure I can handle anything too intense.",
+      "Therapist: I understand. It's a technique to help process trauma. What concerns you most?"
+    ],
+    [
+      "Client: I suppose so, but I'm not quite sure what that means. It sounds a bit intimidating, to be honest. At my age, I'm not sure I can handle anything too intense.",
+      "Therapist: I understand. It's a technique to help process trauma. What concerns you most?",
+      "Client: Well, I've spent decades trying to forget what happened. The idea of purposely thinking about it... it makes my heart race. What if I can't handle it? What if it makes things worse?"
+    ],
+    [
+      "Therapist: I understand. It's a technique to help process trauma. What concerns you most?",
+      "Client: Well, I've spent decades trying to forget what happened. The idea of purposely thinking about it... it makes my heart race. What if I can't handle it? What if it makes things worse?",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout."
+    ],
+    [
+      "Client: Well, I've spent decades trying to forget what happened. The idea of purposely thinking about it... it makes my heart race. What if I can't handle it? What if it makes things worse?",
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: That's reassuring, I guess. But what exactly will we be doing? And why do you think this will help me? I've managed this long without dredging up the past."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go at your pace and I'll support you throughout.",
+      "Client: That's reassuring, I guess. But what exactly will we be doing? And why do you think this will help me? I've managed this long without dredging up the past.",
+      "Therapist: We'll revisit the traumatic memory in a safe environment. It can reduce PTSD symptoms over time."
+    ],
+    [
+      "Client: That's reassuring, I guess. But what exactly will we be doing? And why do you think this will help me? I've managed this long without dredging up the past.",
+      "Therapist: We'll revisit the traumatic memory in a safe environment. It can reduce PTSD symptoms over time.",
+      "Client: I see. But won't that be incredibly distressing? I'm worried about how I'll react. Sometimes when I think about what happened, I feel like I'm right back there again. It's terrifying."
+    ],
+    [
+      "Therapist: We'll revisit the traumatic memory in a safe environment. It can reduce PTSD symptoms over time.",
+      "Client: I see. But won't that be incredibly distressing? I'm worried about how I'll react. Sometimes when I think about what happened, I feel like I'm right back there again. It's terrifying.",
+      "Therapist: Those reactions are normal. We'll work through them together. How are you feeling about trying?"
+    ],
+    [
+      "Client: I see. But won't that be incredibly distressing? I'm worried about how I'll react. Sometimes when I think about what happened, I feel like I'm right back there again. It's terrifying.",
+      "Therapist: Those reactions are normal. We'll work through them together. How are you feeling about trying?",
+      "Client: I'm scared, but I also want to feel better. My depression has been worse lately, and my family is worried. If this could help... I suppose I'm willing to give it a try. But can we stop if it becomes too much?"
+    ],
+    [
+      "Therapist: Those reactions are normal. We'll work through them together. How are you feeling about trying?",
+      "Client: I'm scared, but I also want to feel better. My depression has been worse lately, and my family is worried. If this could help... I suppose I'm willing to give it a try. But can we stop if it becomes too much?",
+      "Therapist: Absolutely. You're in control. We can pause or stop anytime. Your bravery is admirable."
+    ],
+    [
+      "Client: I'm scared, but I also want to feel better. My depression has been worse lately, and my family is worried. If this could help... I suppose I'm willing to give it a try. But can we stop if it becomes too much?",
+      "Therapist: Absolutely. You're in control. We can pause or stop anytime. Your bravery is admirable.",
+      "Client: Thank you, that means a lot. I've never really talked about this with anyone before, not even my husband. It's been my burden to bear all these years. I'm nervous, but also feeling a glimmer of hope that maybe, just maybe, things could get better."
+    ],
+    [
+      "Therapist: Absolutely. You're in control. We can pause or stop anytime. Your bravery is admirable.",
+      "Client: Thank you, that means a lot. I've never really talked about this with anyone before, not even my husband. It's been my burden to bear all these years. I'm nervous, but also feeling a glimmer of hope that maybe, just maybe, things could get better.",
+      "Therapist: Your strength is inspiring. Shall we begin with some relaxation exercises first?"
+    ],
+    [
+      "Client: Thank you, that means a lot. I've never really talked about this with anyone before, not even my husband. It's been my burden to bear all these years. I'm nervous, but also feeling a glimmer of hope that maybe, just maybe, things could get better.",
+      "Therapist: Your strength is inspiring. Shall we begin with some relaxation exercises first?",
+      "Client: Yes, I think that would be helpful. My hands are shaking a bit, and my breathing feels shallow. I could use some help calming down before we start. This is all so new and overwhelming, but I'm trying to keep an open mind."
+    ],
+    [
+      "Therapist: Your strength is inspiring. Shall we begin with some relaxation exercises first?",
+      "Client: Yes, I think that would be helpful. My hands are shaking a bit, and my breathing feels shallow. I could use some help calming down before we start. This is all so new and overwhelming, but I'm trying to keep an open mind.",
+      "Therapist: Perfect. Let's start with deep breathing. Inhale slowly through your nose..."
+    ]
+  ]
+}

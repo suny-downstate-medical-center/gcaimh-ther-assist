@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Mr. Rodriguez?",
+    "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Reliving that moment when I saw my father hit my mother... it's like I was right there again, you know? I could smell the alcohol on his breath, hear the sound of his hand connecting with her face. It's so vivid, even after all these years.",
+    "Therapist: That sounds intense. What stood out to you most?",
+    "Client: The fear. I remember feeling so helpless, so small. I wanted to protect my mom, but I was just a kid. I couldn't do anything. And now, as an adult, I still sometimes feel that way - powerless, like I can't control what's happening around me. It's frustrating, you know?",
+    "Therapist: How did it feel to confront those memories today?",
+    "Client: It was... hard. Really hard. But also, I don't know, maybe a little empowering? Like, I'm facing this thing that's haunted me for so long. It still hurts, but I'm here, I'm talking about it. That's something, right?",
+    "Therapist: Absolutely. How do you think this connects to your symptoms?",
+    "Client: Well, I guess... my anxiety, the nightmares, the way I sometimes flinch when someone raises their voice - it all goes back to that fear, that feeling of helplessness. And maybe that's why I work so hard to control everything in my life now. It's like I'm trying to make up for not being able to control what happened then.",
+    "Therapist: That's an insightful connection. What else?",
+    "Client: I think it also explains why I have trouble trusting people sometimes, especially in my marriage. I love my wife, but there's always this fear in the back of my mind that things could turn violent, even though she's never given me any reason to think that. It's not fair to her, but I can't seem to shake it.",
+    "Therapist: How might addressing this memory help your goals?",
+    "Client: I... I think if I can process this, really deal with it, maybe I can start to let go of some of that fear. Maybe I can trust more, relax a little. I want to be a better husband, a better father to my kids. I don't want them to see me jump at every loud noise or get anxious over nothing.",
+    "Therapist: That's a great goal. What's one step you can take?",
+    "Client: I think... maybe I need to talk to my wife about this. Not all the details, but enough so she understands where some of my reactions come from. And maybe... maybe I can try to catch myself when I'm falling into those old patterns of fear and remind myself that I'm safe now, that I'm not that helpless kid anymore.",
+    "Therapist: That sounds like a good plan. How are you feeling now?",
+    "Client: Tired, definitely. But also... I don't know, maybe a little lighter? Like I've put down a heavy backpack I've been carrying for a long time. It's still there, but I feel like I can breathe a little easier. Is that normal?",
+    "Therapist: Very normal. What would help you this week?",
+    "Client: I think I need to be kind to myself. This is hard work, and I'm doing it. Maybe I'll try that meditation app you suggested, try to calm my mind when the memories get too intense. And I'll keep reminding myself that I'm making progress, even if it doesn't always feel like it.",
+    "Therapist: Excellent. Anything else you want to discuss?",
+    "Client: No, I think that's it for now. Thank you for guiding me through this. It's not easy, but I feel like I'm finally starting to understand myself better. I just hope it gets easier with time.",
+    "Therapist: It often does. You're doing great work, Mr. Rodriguez.",
+    "Client: Thanks, doc. I appreciate that. It means a lot to hear you say that. Sometimes I doubt myself, wonder if I'm making any progress at all. But sessions like this, as hard as they are, they remind me that I am moving forward. Slowly, maybe, but still forward. I'm looking forward to seeing where this journey takes me, even if I'm a little scared too.",
+    "Therapist: That's a healthy perspective. See you next week?",
+    "Client: Yeah, I'll be here. Thanks again, doc. Have a good week.",
+    "Therapist: You too, Mr. Rodriguez. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Mr. Rodriguez?",
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Reliving that moment when I saw my father hit my mother... it's like I was right there again, you know? I could smell the alcohol on his breath, hear the sound of his hand connecting with her face. It's so vivid, even after all these years.",
+      "Therapist: That sounds intense. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. My heart is still racing a bit, and I feel kind of shaky. Reliving that moment when I saw my father hit my mother... it's like I was right there again, you know? I could smell the alcohol on his breath, hear the sound of his hand connecting with her face. It's so vivid, even after all these years.",
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear. I remember feeling so helpless, so small. I wanted to protect my mom, but I was just a kid. I couldn't do anything. And now, as an adult, I still sometimes feel that way - powerless, like I can't control what's happening around me. It's frustrating, you know?"
+    ],
+    [
+      "Therapist: That sounds intense. What stood out to you most?",
+      "Client: The fear. I remember feeling so helpless, so small. I wanted to protect my mom, but I was just a kid. I couldn't do anything. And now, as an adult, I still sometimes feel that way - powerless, like I can't control what's happening around me. It's frustrating, you know?",
+      "Therapist: How did it feel to confront those memories today?"
+    ],
+    [
+      "Client: The fear. I remember feeling so helpless, so small. I wanted to protect my mom, but I was just a kid. I couldn't do anything. And now, as an adult, I still sometimes feel that way - powerless, like I can't control what's happening around me. It's frustrating, you know?",
+      "Therapist: How did it feel to confront those memories today?",
+      "Client: It was... hard. Really hard. But also, I don't know, maybe a little empowering? Like, I'm facing this thing that's haunted me for so long. It still hurts, but I'm here, I'm talking about it. That's something, right?"
+    ],
+    [
+      "Therapist: How did it feel to confront those memories today?",
+      "Client: It was... hard. Really hard. But also, I don't know, maybe a little empowering? Like, I'm facing this thing that's haunted me for so long. It still hurts, but I'm here, I'm talking about it. That's something, right?",
+      "Therapist: Absolutely. How do you think this connects to your symptoms?"
+    ],
+    [
+      "Client: It was... hard. Really hard. But also, I don't know, maybe a little empowering? Like, I'm facing this thing that's haunted me for so long. It still hurts, but I'm here, I'm talking about it. That's something, right?",
+      "Therapist: Absolutely. How do you think this connects to your symptoms?",
+      "Client: Well, I guess... my anxiety, the nightmares, the way I sometimes flinch when someone raises their voice - it all goes back to that fear, that feeling of helplessness. And maybe that's why I work so hard to control everything in my life now. It's like I'm trying to make up for not being able to control what happened then."
+    ],
+    [
+      "Therapist: Absolutely. How do you think this connects to your symptoms?",
+      "Client: Well, I guess... my anxiety, the nightmares, the way I sometimes flinch when someone raises their voice - it all goes back to that fear, that feeling of helplessness. And maybe that's why I work so hard to control everything in my life now. It's like I'm trying to make up for not being able to control what happened then.",
+      "Therapist: That's an insightful connection. What else?"
+    ],
+    [
+      "Client: Well, I guess... my anxiety, the nightmares, the way I sometimes flinch when someone raises their voice - it all goes back to that fear, that feeling of helplessness. And maybe that's why I work so hard to control everything in my life now. It's like I'm trying to make up for not being able to control what happened then.",
+      "Therapist: That's an insightful connection. What else?",
+      "Client: I think it also explains why I have trouble trusting people sometimes, especially in my marriage. I love my wife, but there's always this fear in the back of my mind that things could turn violent, even though she's never given me any reason to think that. It's not fair to her, but I can't seem to shake it."
+    ],
+    [
+      "Therapist: That's an insightful connection. What else?",
+      "Client: I think it also explains why I have trouble trusting people sometimes, especially in my marriage. I love my wife, but there's always this fear in the back of my mind that things could turn violent, even though she's never given me any reason to think that. It's not fair to her, but I can't seem to shake it.",
+      "Therapist: How might addressing this memory help your goals?"
+    ],
+    [
+      "Client: I think it also explains why I have trouble trusting people sometimes, especially in my marriage. I love my wife, but there's always this fear in the back of my mind that things could turn violent, even though she's never given me any reason to think that. It's not fair to her, but I can't seem to shake it.",
+      "Therapist: How might addressing this memory help your goals?",
+      "Client: I... I think if I can process this, really deal with it, maybe I can start to let go of some of that fear. Maybe I can trust more, relax a little. I want to be a better husband, a better father to my kids. I don't want them to see me jump at every loud noise or get anxious over nothing."
+    ],
+    [
+      "Therapist: How might addressing this memory help your goals?",
+      "Client: I... I think if I can process this, really deal with it, maybe I can start to let go of some of that fear. Maybe I can trust more, relax a little. I want to be a better husband, a better father to my kids. I don't want them to see me jump at every loud noise or get anxious over nothing.",
+      "Therapist: That's a great goal. What's one step you can take?"
+    ],
+    [
+      "Client: I... I think if I can process this, really deal with it, maybe I can start to let go of some of that fear. Maybe I can trust more, relax a little. I want to be a better husband, a better father to my kids. I don't want them to see me jump at every loud noise or get anxious over nothing.",
+      "Therapist: That's a great goal. What's one step you can take?",
+      "Client: I think... maybe I need to talk to my wife about this. Not all the details, but enough so she understands where some of my reactions come from. And maybe... maybe I can try to catch myself when I'm falling into those old patterns of fear and remind myself that I'm safe now, that I'm not that helpless kid anymore."
+    ],
+    [
+      "Therapist: That's a great goal. What's one step you can take?",
+      "Client: I think... maybe I need to talk to my wife about this. Not all the details, but enough so she understands where some of my reactions come from. And maybe... maybe I can try to catch myself when I'm falling into those old patterns of fear and remind myself that I'm safe now, that I'm not that helpless kid anymore.",
+      "Therapist: That sounds like a good plan. How are you feeling now?"
+    ],
+    [
+      "Client: I think... maybe I need to talk to my wife about this. Not all the details, but enough so she understands where some of my reactions come from. And maybe... maybe I can try to catch myself when I'm falling into those old patterns of fear and remind myself that I'm safe now, that I'm not that helpless kid anymore.",
+      "Therapist: That sounds like a good plan. How are you feeling now?",
+      "Client: Tired, definitely. But also... I don't know, maybe a little lighter? Like I've put down a heavy backpack I've been carrying for a long time. It's still there, but I feel like I can breathe a little easier. Is that normal?"
+    ],
+    [
+      "Therapist: That sounds like a good plan. How are you feeling now?",
+      "Client: Tired, definitely. But also... I don't know, maybe a little lighter? Like I've put down a heavy backpack I've been carrying for a long time. It's still there, but I feel like I can breathe a little easier. Is that normal?",
+      "Therapist: Very normal. What would help you this week?"
+    ],
+    [
+      "Client: Tired, definitely. But also... I don't know, maybe a little lighter? Like I've put down a heavy backpack I've been carrying for a long time. It's still there, but I feel like I can breathe a little easier. Is that normal?",
+      "Therapist: Very normal. What would help you this week?",
+      "Client: I think I need to be kind to myself. This is hard work, and I'm doing it. Maybe I'll try that meditation app you suggested, try to calm my mind when the memories get too intense. And I'll keep reminding myself that I'm making progress, even if it doesn't always feel like it."
+    ],
+    [
+      "Therapist: Very normal. What would help you this week?",
+      "Client: I think I need to be kind to myself. This is hard work, and I'm doing it. Maybe I'll try that meditation app you suggested, try to calm my mind when the memories get too intense. And I'll keep reminding myself that I'm making progress, even if it doesn't always feel like it.",
+      "Therapist: Excellent. Anything else you want to discuss?"
+    ],
+    [
+      "Client: I think I need to be kind to myself. This is hard work, and I'm doing it. Maybe I'll try that meditation app you suggested, try to calm my mind when the memories get too intense. And I'll keep reminding myself that I'm making progress, even if it doesn't always feel like it.",
+      "Therapist: Excellent. Anything else you want to discuss?",
+      "Client: No, I think that's it for now. Thank you for guiding me through this. It's not easy, but I feel like I'm finally starting to understand myself better. I just hope it gets easier with time."
+    ],
+    [
+      "Therapist: Excellent. Anything else you want to discuss?",
+      "Client: No, I think that's it for now. Thank you for guiding me through this. It's not easy, but I feel like I'm finally starting to understand myself better. I just hope it gets easier with time.",
+      "Therapist: It often does. You're doing great work, Mr. Rodriguez."
+    ],
+    [
+      "Client: No, I think that's it for now. Thank you for guiding me through this. It's not easy, but I feel like I'm finally starting to understand myself better. I just hope it gets easier with time.",
+      "Therapist: It often does. You're doing great work, Mr. Rodriguez.",
+      "Client: Thanks, doc. I appreciate that. It means a lot to hear you say that. Sometimes I doubt myself, wonder if I'm making any progress at all. But sessions like this, as hard as they are, they remind me that I am moving forward. Slowly, maybe, but still forward. I'm looking forward to seeing where this journey takes me, even if I'm a little scared too."
+    ],
+    [
+      "Therapist: It often does. You're doing great work, Mr. Rodriguez.",
+      "Client: Thanks, doc. I appreciate that. It means a lot to hear you say that. Sometimes I doubt myself, wonder if I'm making any progress at all. But sessions like this, as hard as they are, they remind me that I am moving forward. Slowly, maybe, but still forward. I'm looking forward to seeing where this journey takes me, even if I'm a little scared too.",
+      "Therapist: That's a healthy perspective. See you next week?"
+    ],
+    [
+      "Client: Thanks, doc. I appreciate that. It means a lot to hear you say that. Sometimes I doubt myself, wonder if I'm making any progress at all. But sessions like this, as hard as they are, they remind me that I am moving forward. Slowly, maybe, but still forward. I'm looking forward to seeing where this journey takes me, even if I'm a little scared too.",
+      "Therapist: That's a healthy perspective. See you next week?",
+      "Client: Yeah, I'll be here. Thanks again, doc. Have a good week."
+    ],
+    [
+      "Therapist: That's a healthy perspective. See you next week?",
+      "Client: Yeah, I'll be here. Thanks again, doc. Have a good week.",
+      "Therapist: You too, Mr. Rodriguez. Take care."
+    ]
+  ]
+}

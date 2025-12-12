@@ -1,0 +1,128 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's a lot to process. Going through that memory of when I first got diagnosed with my chronic illness... it's intense. I can still feel the weight of it, you know? The fear, the uncertainty. It's like I'm right back in that hospital room.",
+    "Therapist: What stood out to you most?",
+    "Client: The look on my parents' faces. They were trying so hard to be strong for me, but I could see the worry in their eyes. It made me feel so... guilty, I guess. Like I was letting them down somehow.",
+    "Therapist: How did that make you feel?",
+    "Client: Overwhelmed. Scared. But also... angry? I remember thinking, \"Why me? I'm only 21, I have my whole life ahead of me.\" It's not fair, you know?",
+    "Therapist: That's a lot to carry. How does it feel to share that now?",
+    "Client: It's... oddly relieving? I've never really talked about it like this before. I've always tried to be the \"strong one\" for my family, to not let it get to me. But going through it again in my mind, it's like... I'm finally acknowledging how much it affected me.",
+    "Therapist: That's a significant realization. How does it connect to your current experiences?",
+    "Client: I think... I think I've been holding onto that fear and anger. It comes out in weird ways, like getting irritated with my girlfriend over small things or pushing myself too hard at uni. It's like I'm still trying to prove that I'm okay, that the illness hasn't beaten me.",
+    "Therapist: What do you think about that insight?",
+    "Client: It's eye-opening, honestly. I never realized how much that diagnosis day was still affecting me. It's like... it's shaped so much of how I've been living my life since then. Always trying to be perfect, to show everyone I'm fine.",
+    "Therapist: How might recognizing this impact your recovery?",
+    "Client: I think... maybe I need to be kinder to myself? Accept that it's okay to struggle sometimes, to not always be \"fine.\" And maybe... maybe I need to talk to my parents about how I felt that day. We've never really discussed it.",
+    "Therapist: That sounds like a valuable step. What else?",
+    "Client: I think I also need to work on expressing my feelings more. Not just about the illness, but in general. I've been bottling things up for so long, trying to be strong. But that's not really helping anyone, is it?",
+    "Therapist: How do you feel about making those changes?",
+    "Client: It's scary, to be honest. Opening up, being vulnerable... it's not something I'm used to. But I also feel... hopeful? Like maybe this is the key to feeling better, to not being so angry and frustrated all the time.",
+    "Therapist: That's a powerful realization. What's your next step?",
+    "Client: I think... I want to try talking to my girlfriend about this first. She's always been supportive, and I think she'd understand. And then maybe... maybe I'll work up to talking to my parents. Baby steps, right?",
+    "Therapist: Sounds like a good plan. How are you feeling now?",
+    "Client: Tired, but... lighter? Like I've put down a weight I didn't even know I was carrying. It's a weird feeling, but not a bad one. I'm... I'm glad we did this today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of when I first got diagnosed with my chronic illness... it's intense. I can still feel the weight of it, you know? The fear, the uncertainty. It's like I'm right back in that hospital room.",
+      "Therapist: What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. Going through that memory of when I first got diagnosed with my chronic illness... it's intense. I can still feel the weight of it, you know? The fear, the uncertainty. It's like I'm right back in that hospital room.",
+      "Therapist: What stood out to you most?",
+      "Client: The look on my parents' faces. They were trying so hard to be strong for me, but I could see the worry in their eyes. It made me feel so... guilty, I guess. Like I was letting them down somehow."
+    ],
+    [
+      "Therapist: What stood out to you most?",
+      "Client: The look on my parents' faces. They were trying so hard to be strong for me, but I could see the worry in their eyes. It made me feel so... guilty, I guess. Like I was letting them down somehow.",
+      "Therapist: How did that make you feel?"
+    ],
+    [
+      "Client: The look on my parents' faces. They were trying so hard to be strong for me, but I could see the worry in their eyes. It made me feel so... guilty, I guess. Like I was letting them down somehow.",
+      "Therapist: How did that make you feel?",
+      "Client: Overwhelmed. Scared. But also... angry? I remember thinking, \"Why me? I'm only 21, I have my whole life ahead of me.\" It's not fair, you know?"
+    ],
+    [
+      "Therapist: How did that make you feel?",
+      "Client: Overwhelmed. Scared. But also... angry? I remember thinking, \"Why me? I'm only 21, I have my whole life ahead of me.\" It's not fair, you know?",
+      "Therapist: That's a lot to carry. How does it feel to share that now?"
+    ],
+    [
+      "Client: Overwhelmed. Scared. But also... angry? I remember thinking, \"Why me? I'm only 21, I have my whole life ahead of me.\" It's not fair, you know?",
+      "Therapist: That's a lot to carry. How does it feel to share that now?",
+      "Client: It's... oddly relieving? I've never really talked about it like this before. I've always tried to be the \"strong one\" for my family, to not let it get to me. But going through it again in my mind, it's like... I'm finally acknowledging how much it affected me."
+    ],
+    [
+      "Therapist: That's a lot to carry. How does it feel to share that now?",
+      "Client: It's... oddly relieving? I've never really talked about it like this before. I've always tried to be the \"strong one\" for my family, to not let it get to me. But going through it again in my mind, it's like... I'm finally acknowledging how much it affected me.",
+      "Therapist: That's a significant realization. How does it connect to your current experiences?"
+    ],
+    [
+      "Client: It's... oddly relieving? I've never really talked about it like this before. I've always tried to be the \"strong one\" for my family, to not let it get to me. But going through it again in my mind, it's like... I'm finally acknowledging how much it affected me.",
+      "Therapist: That's a significant realization. How does it connect to your current experiences?",
+      "Client: I think... I think I've been holding onto that fear and anger. It comes out in weird ways, like getting irritated with my girlfriend over small things or pushing myself too hard at uni. It's like I'm still trying to prove that I'm okay, that the illness hasn't beaten me."
+    ],
+    [
+      "Therapist: That's a significant realization. How does it connect to your current experiences?",
+      "Client: I think... I think I've been holding onto that fear and anger. It comes out in weird ways, like getting irritated with my girlfriend over small things or pushing myself too hard at uni. It's like I'm still trying to prove that I'm okay, that the illness hasn't beaten me.",
+      "Therapist: What do you think about that insight?"
+    ],
+    [
+      "Client: I think... I think I've been holding onto that fear and anger. It comes out in weird ways, like getting irritated with my girlfriend over small things or pushing myself too hard at uni. It's like I'm still trying to prove that I'm okay, that the illness hasn't beaten me.",
+      "Therapist: What do you think about that insight?",
+      "Client: It's eye-opening, honestly. I never realized how much that diagnosis day was still affecting me. It's like... it's shaped so much of how I've been living my life since then. Always trying to be perfect, to show everyone I'm fine."
+    ],
+    [
+      "Therapist: What do you think about that insight?",
+      "Client: It's eye-opening, honestly. I never realized how much that diagnosis day was still affecting me. It's like... it's shaped so much of how I've been living my life since then. Always trying to be perfect, to show everyone I'm fine.",
+      "Therapist: How might recognizing this impact your recovery?"
+    ],
+    [
+      "Client: It's eye-opening, honestly. I never realized how much that diagnosis day was still affecting me. It's like... it's shaped so much of how I've been living my life since then. Always trying to be perfect, to show everyone I'm fine.",
+      "Therapist: How might recognizing this impact your recovery?",
+      "Client: I think... maybe I need to be kinder to myself? Accept that it's okay to struggle sometimes, to not always be \"fine.\" And maybe... maybe I need to talk to my parents about how I felt that day. We've never really discussed it."
+    ],
+    [
+      "Therapist: How might recognizing this impact your recovery?",
+      "Client: I think... maybe I need to be kinder to myself? Accept that it's okay to struggle sometimes, to not always be \"fine.\" And maybe... maybe I need to talk to my parents about how I felt that day. We've never really discussed it.",
+      "Therapist: That sounds like a valuable step. What else?"
+    ],
+    [
+      "Client: I think... maybe I need to be kinder to myself? Accept that it's okay to struggle sometimes, to not always be \"fine.\" And maybe... maybe I need to talk to my parents about how I felt that day. We've never really discussed it.",
+      "Therapist: That sounds like a valuable step. What else?",
+      "Client: I think I also need to work on expressing my feelings more. Not just about the illness, but in general. I've been bottling things up for so long, trying to be strong. But that's not really helping anyone, is it?"
+    ],
+    [
+      "Therapist: That sounds like a valuable step. What else?",
+      "Client: I think I also need to work on expressing my feelings more. Not just about the illness, but in general. I've been bottling things up for so long, trying to be strong. But that's not really helping anyone, is it?",
+      "Therapist: How do you feel about making those changes?"
+    ],
+    [
+      "Client: I think I also need to work on expressing my feelings more. Not just about the illness, but in general. I've been bottling things up for so long, trying to be strong. But that's not really helping anyone, is it?",
+      "Therapist: How do you feel about making those changes?",
+      "Client: It's scary, to be honest. Opening up, being vulnerable... it's not something I'm used to. But I also feel... hopeful? Like maybe this is the key to feeling better, to not being so angry and frustrated all the time."
+    ],
+    [
+      "Therapist: How do you feel about making those changes?",
+      "Client: It's scary, to be honest. Opening up, being vulnerable... it's not something I'm used to. But I also feel... hopeful? Like maybe this is the key to feeling better, to not being so angry and frustrated all the time.",
+      "Therapist: That's a powerful realization. What's your next step?"
+    ],
+    [
+      "Client: It's scary, to be honest. Opening up, being vulnerable... it's not something I'm used to. But I also feel... hopeful? Like maybe this is the key to feeling better, to not being so angry and frustrated all the time.",
+      "Therapist: That's a powerful realization. What's your next step?",
+      "Client: I think... I want to try talking to my girlfriend about this first. She's always been supportive, and I think she'd understand. And then maybe... maybe I'll work up to talking to my parents. Baby steps, right?"
+    ],
+    [
+      "Therapist: That's a powerful realization. What's your next step?",
+      "Client: I think... I want to try talking to my girlfriend about this first. She's always been supportive, and I think she'd understand. And then maybe... maybe I'll work up to talking to my parents. Baby steps, right?",
+      "Therapist: Sounds like a good plan. How are you feeling now?"
+    ],
+    [
+      "Client: I think... I want to try talking to my girlfriend about this first. She's always been supportive, and I think she'd understand. And then maybe... maybe I'll work up to talking to my parents. Baby steps, right?",
+      "Therapist: Sounds like a good plan. How are you feeling now?",
+      "Client: Tired, but... lighter? Like I've put down a weight I didn't even know I was carrying. It's a weird feeling, but not a bad one. I'm... I'm glad we did this today."
+    ]
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Lee. How are you feeling today?",
+    "Client: I'm... I'm not sure, doctor. The memories have been bothering me more lately. Especially at night when I try to sleep.",
+    "Therapist: I understand. We'll work through this together.",
+    "Client: Thank you. I'm just... I'm worried about revisiting that day. The hostage situation. It brings back so many painful memories from my childhood too.",
+    "Therapist: You're safe here. Take your time.",
+    "Client: Okay... I'll try. It was a sunny day. I remember because the light was so bright through the bank windows. I was there to deposit my pension check. Everything seemed normal until... until that man walked in. He had a gun. I... I froze.",
+    "Therapist: You're doing well. Continue when you're ready.",
+    "Client: The gunman, he... he started shouting. Demanding money. I could smell his sweat. It reminded me of... of my father when he used to get angry. I felt like a child again, helpless and scared.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: I... I can't... The fear is overwhelming. My heart is racing just thinking about it.",
+    "Therapist: Take a deep breath. You're handling this bravely.",
+    "Client: Thank you... The gunman made us all lie on the floor. The tile was cold. I could hear a woman crying softly nearby. I wanted to comfort her, but I was paralyzed with fear. Just like when my father would...",
+    "Therapist: Stay with the memory. You're doing great.",
+    "Client: I... I can't shake the feeling of helplessness. It's suffocating. The gunman kept pacing, his footsteps echoing. Each step made me flinch, expecting... expecting the worst. Just like at home when I was young.",
+    "Therapist: You're very brave for sharing this. Keep going.",
+    "Client: The police arrived after what felt like hours. There was shouting, confusion. I heard a loud bang and thought... I thought it was over. But it was just them breaking down the door. When they finally got us out, I couldn't stop shaking. I felt so ashamed, so weak. Like I should have done something, anything.",
+    "Therapist: It's natural to feel that way. You survived a traumatic event.",
+    "Client: But I feel like I should have been stronger. I'm a grown man, not a child anymore. Yet there I was, cowering on the floor, useless.",
+    "Therapist: You're not useless. You survived.",
+    "Client: I suppose... But the nightmares, the flashbacks. They make me feel like I'm still there, still that scared little boy. I wake up in cold sweats, my heart pounding. Sometimes I can still smell the gunman's sweat, hear the woman crying. It's like I never left that bank.",
+    "Therapist: Your reactions are valid. We'll work through this.",
+    "Client: I hope so. I'm tired of feeling this way. Tired of being afraid. I want to be able to go to the bank without panicking. I want to sleep through the night without reliving that day or my childhood traumas. Is that even possible?",
+    "Therapist: It is. You're making progress already.",
+    "Client: Thank you for saying that. It's hard to believe sometimes. But being here, talking about it... it helps. Even though it's painful, it feels like I'm finally facing it instead of running away. I just wish I could shake this feeling of weakness.",
+    "Therapist: You're showing strength by confronting this.",
+    "Client: I... I suppose you're right. It's not easy to talk about these things. But I want to get better. For myself, and for my grandchildren. I don't want them to see me as a frightened old man. I want to be someone they can look up to.",
+    "Therapist: That's a wonderful goal. You're on the right path.",
+    "Client: Thank you, doctor. I know we're almost out of time, but I wanted to say... I appreciate your patience with me. It means a lot to have someone listen without judgment.",
+    "Therapist: You're welcome. We'll continue next week.",
+    "Client: Alright. I'll try to keep working on this between sessions. Maybe write in that journal you suggested. Thank you again for your help.",
+    "Therapist: Take care, Mr. Lee. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Lee. How are you feeling today?",
+      "Client: I'm... I'm not sure, doctor. The memories have been bothering me more lately. Especially at night when I try to sleep.",
+      "Therapist: I understand. We'll work through this together."
+    ],
+    [
+      "Client: I'm... I'm not sure, doctor. The memories have been bothering me more lately. Especially at night when I try to sleep.",
+      "Therapist: I understand. We'll work through this together.",
+      "Client: Thank you. I'm just... I'm worried about revisiting that day. The hostage situation. It brings back so many painful memories from my childhood too."
+    ],
+    [
+      "Therapist: I understand. We'll work through this together.",
+      "Client: Thank you. I'm just... I'm worried about revisiting that day. The hostage situation. It brings back so many painful memories from my childhood too.",
+      "Therapist: You're safe here. Take your time."
+    ],
+    [
+      "Client: Thank you. I'm just... I'm worried about revisiting that day. The hostage situation. It brings back so many painful memories from my childhood too.",
+      "Therapist: You're safe here. Take your time.",
+      "Client: Okay... I'll try. It was a sunny day. I remember because the light was so bright through the bank windows. I was there to deposit my pension check. Everything seemed normal until... until that man walked in. He had a gun. I... I froze."
+    ],
+    [
+      "Therapist: You're safe here. Take your time.",
+      "Client: Okay... I'll try. It was a sunny day. I remember because the light was so bright through the bank windows. I was there to deposit my pension check. Everything seemed normal until... until that man walked in. He had a gun. I... I froze.",
+      "Therapist: You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: Okay... I'll try. It was a sunny day. I remember because the light was so bright through the bank windows. I was there to deposit my pension check. Everything seemed normal until... until that man walked in. He had a gun. I... I froze.",
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: The gunman, he... he started shouting. Demanding money. I could smell his sweat. It reminded me of... of my father when he used to get angry. I felt like a child again, helpless and scared."
+    ],
+    [
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: The gunman, he... he started shouting. Demanding money. I could smell his sweat. It reminded me of... of my father when he used to get angry. I felt like a child again, helpless and scared.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: The gunman, he... he started shouting. Demanding money. I could smell his sweat. It reminded me of... of my father when he used to get angry. I felt like a child again, helpless and scared.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't... The fear is overwhelming. My heart is racing just thinking about it."
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: I... I can't... The fear is overwhelming. My heart is racing just thinking about it.",
+      "Therapist: Take a deep breath. You're handling this bravely."
+    ],
+    [
+      "Client: I... I can't... The fear is overwhelming. My heart is racing just thinking about it.",
+      "Therapist: Take a deep breath. You're handling this bravely.",
+      "Client: Thank you... The gunman made us all lie on the floor. The tile was cold. I could hear a woman crying softly nearby. I wanted to comfort her, but I was paralyzed with fear. Just like when my father would..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're handling this bravely.",
+      "Client: Thank you... The gunman made us all lie on the floor. The tile was cold. I could hear a woman crying softly nearby. I wanted to comfort her, but I was paralyzed with fear. Just like when my father would...",
+      "Therapist: Stay with the memory. You're doing great."
+    ],
+    [
+      "Client: Thank you... The gunman made us all lie on the floor. The tile was cold. I could hear a woman crying softly nearby. I wanted to comfort her, but I was paralyzed with fear. Just like when my father would...",
+      "Therapist: Stay with the memory. You're doing great.",
+      "Client: I... I can't shake the feeling of helplessness. It's suffocating. The gunman kept pacing, his footsteps echoing. Each step made me flinch, expecting... expecting the worst. Just like at home when I was young."
+    ],
+    [
+      "Therapist: Stay with the memory. You're doing great.",
+      "Client: I... I can't shake the feeling of helplessness. It's suffocating. The gunman kept pacing, his footsteps echoing. Each step made me flinch, expecting... expecting the worst. Just like at home when I was young.",
+      "Therapist: You're very brave for sharing this. Keep going."
+    ],
+    [
+      "Client: I... I can't shake the feeling of helplessness. It's suffocating. The gunman kept pacing, his footsteps echoing. Each step made me flinch, expecting... expecting the worst. Just like at home when I was young.",
+      "Therapist: You're very brave for sharing this. Keep going.",
+      "Client: The police arrived after what felt like hours. There was shouting, confusion. I heard a loud bang and thought... I thought it was over. But it was just them breaking down the door. When they finally got us out, I couldn't stop shaking. I felt so ashamed, so weak. Like I should have done something, anything."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. Keep going.",
+      "Client: The police arrived after what felt like hours. There was shouting, confusion. I heard a loud bang and thought... I thought it was over. But it was just them breaking down the door. When they finally got us out, I couldn't stop shaking. I felt so ashamed, so weak. Like I should have done something, anything.",
+      "Therapist: It's natural to feel that way. You survived a traumatic event."
+    ],
+    [
+      "Client: The police arrived after what felt like hours. There was shouting, confusion. I heard a loud bang and thought... I thought it was over. But it was just them breaking down the door. When they finally got us out, I couldn't stop shaking. I felt so ashamed, so weak. Like I should have done something, anything.",
+      "Therapist: It's natural to feel that way. You survived a traumatic event.",
+      "Client: But I feel like I should have been stronger. I'm a grown man, not a child anymore. Yet there I was, cowering on the floor, useless."
+    ],
+    [
+      "Therapist: It's natural to feel that way. You survived a traumatic event.",
+      "Client: But I feel like I should have been stronger. I'm a grown man, not a child anymore. Yet there I was, cowering on the floor, useless.",
+      "Therapist: You're not useless. You survived."
+    ],
+    [
+      "Client: But I feel like I should have been stronger. I'm a grown man, not a child anymore. Yet there I was, cowering on the floor, useless.",
+      "Therapist: You're not useless. You survived.",
+      "Client: I suppose... But the nightmares, the flashbacks. They make me feel like I'm still there, still that scared little boy. I wake up in cold sweats, my heart pounding. Sometimes I can still smell the gunman's sweat, hear the woman crying. It's like I never left that bank."
+    ],
+    [
+      "Therapist: You're not useless. You survived.",
+      "Client: I suppose... But the nightmares, the flashbacks. They make me feel like I'm still there, still that scared little boy. I wake up in cold sweats, my heart pounding. Sometimes I can still smell the gunman's sweat, hear the woman crying. It's like I never left that bank.",
+      "Therapist: Your reactions are valid. We'll work through this."
+    ],
+    [
+      "Client: I suppose... But the nightmares, the flashbacks. They make me feel like I'm still there, still that scared little boy. I wake up in cold sweats, my heart pounding. Sometimes I can still smell the gunman's sweat, hear the woman crying. It's like I never left that bank.",
+      "Therapist: Your reactions are valid. We'll work through this.",
+      "Client: I hope so. I'm tired of feeling this way. Tired of being afraid. I want to be able to go to the bank without panicking. I want to sleep through the night without reliving that day or my childhood traumas. Is that even possible?"
+    ],
+    [
+      "Therapist: Your reactions are valid. We'll work through this.",
+      "Client: I hope so. I'm tired of feeling this way. Tired of being afraid. I want to be able to go to the bank without panicking. I want to sleep through the night without reliving that day or my childhood traumas. Is that even possible?",
+      "Therapist: It is. You're making progress already."
+    ],
+    [
+      "Client: I hope so. I'm tired of feeling this way. Tired of being afraid. I want to be able to go to the bank without panicking. I want to sleep through the night without reliving that day or my childhood traumas. Is that even possible?",
+      "Therapist: It is. You're making progress already.",
+      "Client: Thank you for saying that. It's hard to believe sometimes. But being here, talking about it... it helps. Even though it's painful, it feels like I'm finally facing it instead of running away. I just wish I could shake this feeling of weakness."
+    ],
+    [
+      "Therapist: It is. You're making progress already.",
+      "Client: Thank you for saying that. It's hard to believe sometimes. But being here, talking about it... it helps. Even though it's painful, it feels like I'm finally facing it instead of running away. I just wish I could shake this feeling of weakness.",
+      "Therapist: You're showing strength by confronting this."
+    ],
+    [
+      "Client: Thank you for saying that. It's hard to believe sometimes. But being here, talking about it... it helps. Even though it's painful, it feels like I'm finally facing it instead of running away. I just wish I could shake this feeling of weakness.",
+      "Therapist: You're showing strength by confronting this.",
+      "Client: I... I suppose you're right. It's not easy to talk about these things. But I want to get better. For myself, and for my grandchildren. I don't want them to see me as a frightened old man. I want to be someone they can look up to."
+    ],
+    [
+      "Therapist: You're showing strength by confronting this.",
+      "Client: I... I suppose you're right. It's not easy to talk about these things. But I want to get better. For myself, and for my grandchildren. I don't want them to see me as a frightened old man. I want to be someone they can look up to.",
+      "Therapist: That's a wonderful goal. You're on the right path."
+    ],
+    [
+      "Client: I... I suppose you're right. It's not easy to talk about these things. But I want to get better. For myself, and for my grandchildren. I don't want them to see me as a frightened old man. I want to be someone they can look up to.",
+      "Therapist: That's a wonderful goal. You're on the right path.",
+      "Client: Thank you, doctor. I know we're almost out of time, but I wanted to say... I appreciate your patience with me. It means a lot to have someone listen without judgment."
+    ],
+    [
+      "Therapist: That's a wonderful goal. You're on the right path.",
+      "Client: Thank you, doctor. I know we're almost out of time, but I wanted to say... I appreciate your patience with me. It means a lot to have someone listen without judgment.",
+      "Therapist: You're welcome. We'll continue next week."
+    ],
+    [
+      "Client: Thank you, doctor. I know we're almost out of time, but I wanted to say... I appreciate your patience with me. It means a lot to have someone listen without judgment.",
+      "Therapist: You're welcome. We'll continue next week.",
+      "Client: Alright. I'll try to keep working on this between sessions. Maybe write in that journal you suggested. Thank you again for your help."
+    ],
+    [
+      "Therapist: You're welcome. We'll continue next week.",
+      "Client: Alright. I'll try to keep working on this between sessions. Maybe write in that journal you suggested. Thank you again for your help.",
+      "Therapist: Take care, Mr. Lee. See you next week."
+    ]
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back. Today we'll focus on imaginal exposure related to your experience with severe illness. Are you ready to begin?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating.",
+    "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes my stomach tighten a bit.",
+    "Therapist: Noted. Let's begin. Close your eyes and describe the memory.",
+    "Client: Okay... I'm in the hospital room. The beeping of machines is constant. The smell of disinfectant is overwhelming. I feel so weak, like I can barely lift my arm. The doctor just left after telling me the diagnosis. I... I don't know how to process this information.",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: Fear. Intense fear. My heart is racing. I'm thinking about all the things I might never get to do. It's hard to breathe. The room feels like it's closing in on me.",
+    "Therapist: SUDS rating now?",
+    "Client: It's... it's up to a 7. My palms are sweating, and I feel dizzy.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The nurse comes in to check my vitals. She's trying to be cheerful, but I can see the pity in her eyes. It makes me angry. I don't want pity. I want to be healthy again. I'm scared of what's going to happen next. Will the treatment work? Will I suffer? The uncertainty is crushing.",
+    "Therapist: How's your distress level?",
+    "Client: Still at a 7. My chest feels tight, and I'm clenching my fists without realizing it.",
+    "Therapist: That's okay. You're handling this well. Continue.",
+    "Client: I'm thinking about my family, my friends. How will I tell them? Will they treat me differently? I feel so alone in this sterile room. The sunlight coming through the window seems mocking. It's a beautiful day outside, and I'm trapped here, fighting for my life. I feel... I feel cheated by fate.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... actually down to a 6. Talking about it is hard, but it's also... releasing something.",
+    "Therapist: That's common. Keep going.",
+    "Client: I'm trying to be strong, but inside I'm terrified. I'm imagining the worst-case scenarios. What if the treatment doesn't work? What if this is the beginning of the end? I've never felt so vulnerable and mortal before. It's like a veil has been lifted, and I'm seeing the fragility of life for the first time.",
+    "Therapist: How are you feeling now?",
+    "Client: My SUDS is back up to a 7. My throat feels tight, like I'm holding back tears.",
+    "Therapist: It's okay to express those emotions.",
+    "Client: (voice breaking) I... I don't want to die. I'm not ready. There's so much I haven't done yet. The weight of it all is crushing. I feel like I'm drowning in fear and uncertainty. But at the same time, there's this small voice inside telling me to fight, to not give up. It's exhausting, this internal battle.",
+    "Therapist: Your SUDS?",
+    "Client: It's... it's an 8 now. I can feel tears on my cheeks, and my body is shaking a bit.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: I'm looking at the IV in my arm, feeling the coldness of the fluid entering my body. It's a stark reminder of how serious this is. I'm trying to find hope, but it feels so elusive. The room is silent except for the machines, and I've never felt more alone. I want to scream, to rage against this unfairness, but I don't have the energy. I just lie there, feeling small and powerless.",
+    "Therapist: And now?",
+    "Client: (deep breath) It's... it's starting to come down. Maybe a 6? I feel drained, but also... I don't know, maybe a little lighter?",
+    "Therapist: That's normal. We'll stop here. How are you feeling?",
+    "Client: Exhausted, but... okay. It was intense, but I got through it.",
+    "Therapist: You did wonderfully. Let's debrief..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back. Today we'll focus on imaginal exposure related to your experience with severe illness. Are you ready to begin?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes my stomach tighten a bit."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes my stomach tighten a bit.",
+      "Therapist: Noted. Let's begin. Close your eyes and describe the memory."
+    ],
+    [
+      "Client: Um, I'd say about a 4 out of 10 right now. Just thinking about it makes my stomach tighten a bit.",
+      "Therapist: Noted. Let's begin. Close your eyes and describe the memory.",
+      "Client: Okay... I'm in the hospital room. The beeping of machines is constant. The smell of disinfectant is overwhelming. I feel so weak, like I can barely lift my arm. The doctor just left after telling me the diagnosis. I... I don't know how to process this information."
+    ],
+    [
+      "Therapist: Noted. Let's begin. Close your eyes and describe the memory.",
+      "Client: Okay... I'm in the hospital room. The beeping of machines is constant. The smell of disinfectant is overwhelming. I feel so weak, like I can barely lift my arm. The doctor just left after telling me the diagnosis. I... I don't know how to process this information.",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: Okay... I'm in the hospital room. The beeping of machines is constant. The smell of disinfectant is overwhelming. I feel so weak, like I can barely lift my arm. The doctor just left after telling me the diagnosis. I... I don't know how to process this information.",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: Fear. Intense fear. My heart is racing. I'm thinking about all the things I might never get to do. It's hard to breathe. The room feels like it's closing in on me."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: Fear. Intense fear. My heart is racing. I'm thinking about all the things I might never get to do. It's hard to breathe. The room feels like it's closing in on me.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: Fear. Intense fear. My heart is racing. I'm thinking about all the things I might never get to do. It's hard to breathe. The room feels like it's closing in on me.",
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's up to a 7. My palms are sweating, and I feel dizzy."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's... it's up to a 7. My palms are sweating, and I feel dizzy.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's up to a 7. My palms are sweating, and I feel dizzy.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The nurse comes in to check my vitals. She's trying to be cheerful, but I can see the pity in her eyes. It makes me angry. I don't want pity. I want to be healthy again. I'm scared of what's going to happen next. Will the treatment work? Will I suffer? The uncertainty is crushing."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The nurse comes in to check my vitals. She's trying to be cheerful, but I can see the pity in her eyes. It makes me angry. I don't want pity. I want to be healthy again. I'm scared of what's going to happen next. Will the treatment work? Will I suffer? The uncertainty is crushing.",
+      "Therapist: How's your distress level?"
+    ],
+    [
+      "Client: The nurse comes in to check my vitals. She's trying to be cheerful, but I can see the pity in her eyes. It makes me angry. I don't want pity. I want to be healthy again. I'm scared of what's going to happen next. Will the treatment work? Will I suffer? The uncertainty is crushing.",
+      "Therapist: How's your distress level?",
+      "Client: Still at a 7. My chest feels tight, and I'm clenching my fists without realizing it."
+    ],
+    [
+      "Therapist: How's your distress level?",
+      "Client: Still at a 7. My chest feels tight, and I'm clenching my fists without realizing it.",
+      "Therapist: That's okay. You're handling this well. Continue."
+    ],
+    [
+      "Client: Still at a 7. My chest feels tight, and I'm clenching my fists without realizing it.",
+      "Therapist: That's okay. You're handling this well. Continue.",
+      "Client: I'm thinking about my family, my friends. How will I tell them? Will they treat me differently? I feel so alone in this sterile room. The sunlight coming through the window seems mocking. It's a beautiful day outside, and I'm trapped here, fighting for my life. I feel... I feel cheated by fate."
+    ],
+    [
+      "Therapist: That's okay. You're handling this well. Continue.",
+      "Client: I'm thinking about my family, my friends. How will I tell them? Will they treat me differently? I feel so alone in this sterile room. The sunlight coming through the window seems mocking. It's a beautiful day outside, and I'm trapped here, fighting for my life. I feel... I feel cheated by fate.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I'm thinking about my family, my friends. How will I tell them? Will they treat me differently? I feel so alone in this sterile room. The sunlight coming through the window seems mocking. It's a beautiful day outside, and I'm trapped here, fighting for my life. I feel... I feel cheated by fate.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... actually down to a 6. Talking about it is hard, but it's also... releasing something."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... actually down to a 6. Talking about it is hard, but it's also... releasing something.",
+      "Therapist: That's common. Keep going."
+    ],
+    [
+      "Client: It's... actually down to a 6. Talking about it is hard, but it's also... releasing something.",
+      "Therapist: That's common. Keep going.",
+      "Client: I'm trying to be strong, but inside I'm terrified. I'm imagining the worst-case scenarios. What if the treatment doesn't work? What if this is the beginning of the end? I've never felt so vulnerable and mortal before. It's like a veil has been lifted, and I'm seeing the fragility of life for the first time."
+    ],
+    [
+      "Therapist: That's common. Keep going.",
+      "Client: I'm trying to be strong, but inside I'm terrified. I'm imagining the worst-case scenarios. What if the treatment doesn't work? What if this is the beginning of the end? I've never felt so vulnerable and mortal before. It's like a veil has been lifted, and I'm seeing the fragility of life for the first time.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: I'm trying to be strong, but inside I'm terrified. I'm imagining the worst-case scenarios. What if the treatment doesn't work? What if this is the beginning of the end? I've never felt so vulnerable and mortal before. It's like a veil has been lifted, and I'm seeing the fragility of life for the first time.",
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is back up to a 7. My throat feels tight, like I'm holding back tears."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: My SUDS is back up to a 7. My throat feels tight, like I'm holding back tears.",
+      "Therapist: It's okay to express those emotions."
+    ],
+    [
+      "Client: My SUDS is back up to a 7. My throat feels tight, like I'm holding back tears.",
+      "Therapist: It's okay to express those emotions.",
+      "Client: (voice breaking) I... I don't want to die. I'm not ready. There's so much I haven't done yet. The weight of it all is crushing. I feel like I'm drowning in fear and uncertainty. But at the same time, there's this small voice inside telling me to fight, to not give up. It's exhausting, this internal battle."
+    ],
+    [
+      "Therapist: It's okay to express those emotions.",
+      "Client: (voice breaking) I... I don't want to die. I'm not ready. There's so much I haven't done yet. The weight of it all is crushing. I feel like I'm drowning in fear and uncertainty. But at the same time, there's this small voice inside telling me to fight, to not give up. It's exhausting, this internal battle.",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: (voice breaking) I... I don't want to die. I'm not ready. There's so much I haven't done yet. The weight of it all is crushing. I feel like I'm drowning in fear and uncertainty. But at the same time, there's this small voice inside telling me to fight, to not give up. It's exhausting, this internal battle.",
+      "Therapist: Your SUDS?",
+      "Client: It's... it's an 8 now. I can feel tears on my cheeks, and my body is shaking a bit."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: It's... it's an 8 now. I can feel tears on my cheeks, and my body is shaking a bit.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's an 8 now. I can feel tears on my cheeks, and my body is shaking a bit.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I'm looking at the IV in my arm, feeling the coldness of the fluid entering my body. It's a stark reminder of how serious this is. I'm trying to find hope, but it feels so elusive. The room is silent except for the machines, and I've never felt more alone. I want to scream, to rage against this unfairness, but I don't have the energy. I just lie there, feeling small and powerless."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: I'm looking at the IV in my arm, feeling the coldness of the fluid entering my body. It's a stark reminder of how serious this is. I'm trying to find hope, but it feels so elusive. The room is silent except for the machines, and I've never felt more alone. I want to scream, to rage against this unfairness, but I don't have the energy. I just lie there, feeling small and powerless.",
+      "Therapist: And now?"
+    ],
+    [
+      "Client: I'm looking at the IV in my arm, feeling the coldness of the fluid entering my body. It's a stark reminder of how serious this is. I'm trying to find hope, but it feels so elusive. The room is silent except for the machines, and I've never felt more alone. I want to scream, to rage against this unfairness, but I don't have the energy. I just lie there, feeling small and powerless.",
+      "Therapist: And now?",
+      "Client: (deep breath) It's... it's starting to come down. Maybe a 6? I feel drained, but also... I don't know, maybe a little lighter?"
+    ],
+    [
+      "Therapist: And now?",
+      "Client: (deep breath) It's... it's starting to come down. Maybe a 6? I feel drained, but also... I don't know, maybe a little lighter?",
+      "Therapist: That's normal. We'll stop here. How are you feeling?"
+    ],
+    [
+      "Client: (deep breath) It's... it's starting to come down. Maybe a 6? I feel drained, but also... I don't know, maybe a little lighter?",
+      "Therapist: That's normal. We'll stop here. How are you feeling?",
+      "Client: Exhausted, but... okay. It was intense, but I got through it."
+    ],
+    [
+      "Therapist: That's normal. We'll stop here. How are you feeling?",
+      "Client: Exhausted, but... okay. It was intense, but I got through it.",
+      "Therapist: You did wonderfully. Let's debrief..."
+    ]
+  ]
+}

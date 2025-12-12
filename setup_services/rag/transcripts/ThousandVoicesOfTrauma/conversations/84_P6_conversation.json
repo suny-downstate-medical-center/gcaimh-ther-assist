@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mr. Singh. Today we'll continue our imaginal exposure exercise. Are you ready to begin?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand it's part of the process.",
+    "Therapist: That's normal. Remember, you're in control. Let's start with your SUDS rating.",
+    "Client: I'd say about a 4 out of 10 right now. Just thinking about revisiting the memory makes me a bit anxious.",
+    "Therapist: Okay. Close your eyes and describe the scene.",
+    "Client: (Takes a deep breath) It was a sunny day in Mumbai. I was at work when the earthquake hit. The ground started shaking violently. I remember the sound of glass shattering and people screaming. I... I froze. I couldn't move.",
+    "Therapist: Stay with that moment. What are you feeling?",
+    "Client: My heart is racing. I feel... helpless. Like I did then. The fear is creeping back.",
+    "Therapist: SUDS rating now?",
+    "Client: It's gone up to a 6. My palms are sweaty, and I'm feeling a tightness in my chest.",
+    "Therapist: That's okay. You're safe here. Continue.",
+    "Client: (Voice trembling) People were running past me. I saw a colleague trapped under fallen debris. I wanted to help, but I was paralyzed with fear. The guilt... it's overwhelming.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's an 8. I feel shame. I should have done more.",
+    "Therapist: You're doing well. These feelings are part of processing.",
+    "Client: (Breathing heavily) The aftershocks kept coming. I finally managed to move, but the city was in chaos. Buildings had crumbled. There was dust everywhere. I couldn't breathe properly.",
+    "Therapist: Take a moment. How's your distress level?",
+    "Client: Still at an 8. My chest feels tight. I'm reliving the panic.",
+    "Therapist: You're safe. This is just a memory.",
+    "Client: (Nods) I made it outside, but the streets were unrecognizable. I couldn't contact my family. The uncertainty was unbearable. I felt so alone, so... helpless.",
+    "Therapist: SUDS rating?",
+    "Client: It's... actually down to a 7 now. Talking about it... it's hard, but I feel like I'm facing it.",
+    "Therapist: That's progress. Keep going.",
+    "Client: I spent hours wandering, trying to find a way home. The devastation was... indescribable. When I finally reached my family, the relief was overwhelming. But the guilt of not helping others... it's stayed with me.",
+    "Therapist: Current SUDS?",
+    "Client: It's a 6 now. I feel drained, but... lighter somehow.",
+    "Therapist: That's normal. You've done great work today.",
+    "Client: (Opens eyes, looks exhausted but calm) Thank you. It's still difficult, but I feel like I'm starting to process it better.",
+    "Therapist: That's the goal. We'll end here for today. Well done."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mr. Singh. Today we'll continue our imaginal exposure exercise. Are you ready to begin?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand it's part of the process.",
+      "Therapist: That's normal. Remember, you're in control. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand it's part of the process.",
+      "Therapist: That's normal. Remember, you're in control. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about revisiting the memory makes me a bit anxious."
+    ],
+    [
+      "Therapist: That's normal. Remember, you're in control. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about revisiting the memory makes me a bit anxious.",
+      "Therapist: Okay. Close your eyes and describe the scene."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about revisiting the memory makes me a bit anxious.",
+      "Therapist: Okay. Close your eyes and describe the scene.",
+      "Client: (Takes a deep breath) It was a sunny day in Mumbai. I was at work when the earthquake hit. The ground started shaking violently. I remember the sound of glass shattering and people screaming. I... I froze. I couldn't move."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and describe the scene.",
+      "Client: (Takes a deep breath) It was a sunny day in Mumbai. I was at work when the earthquake hit. The ground started shaking violently. I remember the sound of glass shattering and people screaming. I... I froze. I couldn't move.",
+      "Therapist: Stay with that moment. What are you feeling?"
+    ],
+    [
+      "Client: (Takes a deep breath) It was a sunny day in Mumbai. I was at work when the earthquake hit. The ground started shaking violently. I remember the sound of glass shattering and people screaming. I... I froze. I couldn't move.",
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: My heart is racing. I feel... helpless. Like I did then. The fear is creeping back."
+    ],
+    [
+      "Therapist: Stay with that moment. What are you feeling?",
+      "Client: My heart is racing. I feel... helpless. Like I did then. The fear is creeping back.",
+      "Therapist: SUDS rating now?"
+    ],
+    [
+      "Client: My heart is racing. I feel... helpless. Like I did then. The fear is creeping back.",
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to a 6. My palms are sweaty, and I'm feeling a tightness in my chest."
+    ],
+    [
+      "Therapist: SUDS rating now?",
+      "Client: It's gone up to a 6. My palms are sweaty, and I'm feeling a tightness in my chest.",
+      "Therapist: That's okay. You're safe here. Continue."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are sweaty, and I'm feeling a tightness in my chest.",
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: (Voice trembling) People were running past me. I saw a colleague trapped under fallen debris. I wanted to help, but I was paralyzed with fear. The guilt... it's overwhelming."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Continue.",
+      "Client: (Voice trembling) People were running past me. I saw a colleague trapped under fallen debris. I wanted to help, but I was paralyzed with fear. The guilt... it's overwhelming.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: (Voice trembling) People were running past me. I saw a colleague trapped under fallen debris. I wanted to help, but I was paralyzed with fear. The guilt... it's overwhelming.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's an 8. I feel shame. I should have done more."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's an 8. I feel shame. I should have done more.",
+      "Therapist: You're doing well. These feelings are part of processing."
+    ],
+    [
+      "Client: It's... it's an 8. I feel shame. I should have done more.",
+      "Therapist: You're doing well. These feelings are part of processing.",
+      "Client: (Breathing heavily) The aftershocks kept coming. I finally managed to move, but the city was in chaos. Buildings had crumbled. There was dust everywhere. I couldn't breathe properly."
+    ],
+    [
+      "Therapist: You're doing well. These feelings are part of processing.",
+      "Client: (Breathing heavily) The aftershocks kept coming. I finally managed to move, but the city was in chaos. Buildings had crumbled. There was dust everywhere. I couldn't breathe properly.",
+      "Therapist: Take a moment. How's your distress level?"
+    ],
+    [
+      "Client: (Breathing heavily) The aftershocks kept coming. I finally managed to move, but the city was in chaos. Buildings had crumbled. There was dust everywhere. I couldn't breathe properly.",
+      "Therapist: Take a moment. How's your distress level?",
+      "Client: Still at an 8. My chest feels tight. I'm reliving the panic."
+    ],
+    [
+      "Therapist: Take a moment. How's your distress level?",
+      "Client: Still at an 8. My chest feels tight. I'm reliving the panic.",
+      "Therapist: You're safe. This is just a memory."
+    ],
+    [
+      "Client: Still at an 8. My chest feels tight. I'm reliving the panic.",
+      "Therapist: You're safe. This is just a memory.",
+      "Client: (Nods) I made it outside, but the streets were unrecognizable. I couldn't contact my family. The uncertainty was unbearable. I felt so alone, so... helpless."
+    ],
+    [
+      "Therapist: You're safe. This is just a memory.",
+      "Client: (Nods) I made it outside, but the streets were unrecognizable. I couldn't contact my family. The uncertainty was unbearable. I felt so alone, so... helpless.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: (Nods) I made it outside, but the streets were unrecognizable. I couldn't contact my family. The uncertainty was unbearable. I felt so alone, so... helpless.",
+      "Therapist: SUDS rating?",
+      "Client: It's... actually down to a 7 now. Talking about it... it's hard, but I feel like I'm facing it."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's... actually down to a 7 now. Talking about it... it's hard, but I feel like I'm facing it.",
+      "Therapist: That's progress. Keep going."
+    ],
+    [
+      "Client: It's... actually down to a 7 now. Talking about it... it's hard, but I feel like I'm facing it.",
+      "Therapist: That's progress. Keep going.",
+      "Client: I spent hours wandering, trying to find a way home. The devastation was... indescribable. When I finally reached my family, the relief was overwhelming. But the guilt of not helping others... it's stayed with me."
+    ],
+    [
+      "Therapist: That's progress. Keep going.",
+      "Client: I spent hours wandering, trying to find a way home. The devastation was... indescribable. When I finally reached my family, the relief was overwhelming. But the guilt of not helping others... it's stayed with me.",
+      "Therapist: Current SUDS?"
+    ],
+    [
+      "Client: I spent hours wandering, trying to find a way home. The devastation was... indescribable. When I finally reached my family, the relief was overwhelming. But the guilt of not helping others... it's stayed with me.",
+      "Therapist: Current SUDS?",
+      "Client: It's a 6 now. I feel drained, but... lighter somehow."
+    ],
+    [
+      "Therapist: Current SUDS?",
+      "Client: It's a 6 now. I feel drained, but... lighter somehow.",
+      "Therapist: That's normal. You've done great work today."
+    ],
+    [
+      "Client: It's a 6 now. I feel drained, but... lighter somehow.",
+      "Therapist: That's normal. You've done great work today.",
+      "Client: (Opens eyes, looks exhausted but calm) Thank you. It's still difficult, but I feel like I'm starting to process it better."
+    ],
+    [
+      "Therapist: That's normal. You've done great work today.",
+      "Client: (Opens eyes, looks exhausted but calm) Thank you. It's still difficult, but I feel like I'm starting to process it better.",
+      "Therapist: That's the goal. We'll end here for today. Well done."
+    ]
+  ]
+}

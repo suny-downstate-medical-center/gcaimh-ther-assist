@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Maria. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about... you know, that day.",
+    "Therapist: I understand. We'll address that. Today, we'll start imaginal exposure. Are you familiar with it?",
+    "Client: Not really. I mean, I remember you mentioning it before, but I'm not sure what it involves exactly. Is it... is it going to be difficult?",
+    "Therapist: It can be challenging, but it's crucial for healing. Shall I explain more?",
+    "Client: Yes, please. I want to know what I'm getting into.",
+    "Therapist: We'll revisit your trauma memory in a safe space. You'll describe it in detail, present tense.",
+    "Client: Oh God... I don't know if I can do that. Just thinking about it makes my heart race. What if I panic?",
+    "Therapist: Your reaction is normal. I'll be here to support you throughout. How else can I help?",
+    "Client: I... I guess I'm worried about losing control. What if I can't handle it? What if I completely fall apart?",
+    "Therapist: You're stronger than you think. We'll go at your pace. Remember, you're safe here.",
+    "Client: Okay... I'll try. But what if I get stuck? Or if I can't remember everything?",
+    "Therapist: That's okay. We'll work with what you recall. There's no pressure to remember everything.",
+    "Client: Alright. I'm still scared, but I trust you. How long will this take?",
+    "Therapist: About 30-45 minutes. We can take breaks if needed. How does that sound?",
+    "Client: That's... a long time to think about it. But I guess that's the point, right? To face it head-on?",
+    "Therapist: Exactly. It's about processing the memory. Your bravery is commendable.",
+    "Client: Thank you. I'm trying to be brave, but it's hard. Will this really help with my nightmares and flashbacks?",
+    "Therapist: Many find it reduces symptoms over time. It's a proven method for PTSD.",
+    "Client: Okay. I'm willing to try. Can you... can you hold my hand if it gets too intense?",
+    "Therapist: Of course. I'm here to support you. Shall we begin?",
+    "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle.",
+    "Therapist: Always. Your courage is inspiring. Let's start when you're comfortable."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Maria. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about... you know, that day.",
+      "Therapist: I understand. We'll address that. Today, we'll start imaginal exposure. Are you familiar with it?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about... you know, that day.",
+      "Therapist: I understand. We'll address that. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I remember you mentioning it before, but I'm not sure what it involves exactly. Is it... is it going to be difficult?"
+    ],
+    [
+      "Therapist: I understand. We'll address that. Today, we'll start imaginal exposure. Are you familiar with it?",
+      "Client: Not really. I mean, I remember you mentioning it before, but I'm not sure what it involves exactly. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's crucial for healing. Shall I explain more?"
+    ],
+    [
+      "Client: Not really. I mean, I remember you mentioning it before, but I'm not sure what it involves exactly. Is it... is it going to be difficult?",
+      "Therapist: It can be challenging, but it's crucial for healing. Shall I explain more?",
+      "Client: Yes, please. I want to know what I'm getting into."
+    ],
+    [
+      "Therapist: It can be challenging, but it's crucial for healing. Shall I explain more?",
+      "Client: Yes, please. I want to know what I'm getting into.",
+      "Therapist: We'll revisit your trauma memory in a safe space. You'll describe it in detail, present tense."
+    ],
+    [
+      "Client: Yes, please. I want to know what I'm getting into.",
+      "Therapist: We'll revisit your trauma memory in a safe space. You'll describe it in detail, present tense.",
+      "Client: Oh God... I don't know if I can do that. Just thinking about it makes my heart race. What if I panic?"
+    ],
+    [
+      "Therapist: We'll revisit your trauma memory in a safe space. You'll describe it in detail, present tense.",
+      "Client: Oh God... I don't know if I can do that. Just thinking about it makes my heart race. What if I panic?",
+      "Therapist: Your reaction is normal. I'll be here to support you throughout. How else can I help?"
+    ],
+    [
+      "Client: Oh God... I don't know if I can do that. Just thinking about it makes my heart race. What if I panic?",
+      "Therapist: Your reaction is normal. I'll be here to support you throughout. How else can I help?",
+      "Client: I... I guess I'm worried about losing control. What if I can't handle it? What if I completely fall apart?"
+    ],
+    [
+      "Therapist: Your reaction is normal. I'll be here to support you throughout. How else can I help?",
+      "Client: I... I guess I'm worried about losing control. What if I can't handle it? What if I completely fall apart?",
+      "Therapist: You're stronger than you think. We'll go at your pace. Remember, you're safe here."
+    ],
+    [
+      "Client: I... I guess I'm worried about losing control. What if I can't handle it? What if I completely fall apart?",
+      "Therapist: You're stronger than you think. We'll go at your pace. Remember, you're safe here.",
+      "Client: Okay... I'll try. But what if I get stuck? Or if I can't remember everything?"
+    ],
+    [
+      "Therapist: You're stronger than you think. We'll go at your pace. Remember, you're safe here.",
+      "Client: Okay... I'll try. But what if I get stuck? Or if I can't remember everything?",
+      "Therapist: That's okay. We'll work with what you recall. There's no pressure to remember everything."
+    ],
+    [
+      "Client: Okay... I'll try. But what if I get stuck? Or if I can't remember everything?",
+      "Therapist: That's okay. We'll work with what you recall. There's no pressure to remember everything.",
+      "Client: Alright. I'm still scared, but I trust you. How long will this take?"
+    ],
+    [
+      "Therapist: That's okay. We'll work with what you recall. There's no pressure to remember everything.",
+      "Client: Alright. I'm still scared, but I trust you. How long will this take?",
+      "Therapist: About 30-45 minutes. We can take breaks if needed. How does that sound?"
+    ],
+    [
+      "Client: Alright. I'm still scared, but I trust you. How long will this take?",
+      "Therapist: About 30-45 minutes. We can take breaks if needed. How does that sound?",
+      "Client: That's... a long time to think about it. But I guess that's the point, right? To face it head-on?"
+    ],
+    [
+      "Therapist: About 30-45 minutes. We can take breaks if needed. How does that sound?",
+      "Client: That's... a long time to think about it. But I guess that's the point, right? To face it head-on?",
+      "Therapist: Exactly. It's about processing the memory. Your bravery is commendable."
+    ],
+    [
+      "Client: That's... a long time to think about it. But I guess that's the point, right? To face it head-on?",
+      "Therapist: Exactly. It's about processing the memory. Your bravery is commendable.",
+      "Client: Thank you. I'm trying to be brave, but it's hard. Will this really help with my nightmares and flashbacks?"
+    ],
+    [
+      "Therapist: Exactly. It's about processing the memory. Your bravery is commendable.",
+      "Client: Thank you. I'm trying to be brave, but it's hard. Will this really help with my nightmares and flashbacks?",
+      "Therapist: Many find it reduces symptoms over time. It's a proven method for PTSD."
+    ],
+    [
+      "Client: Thank you. I'm trying to be brave, but it's hard. Will this really help with my nightmares and flashbacks?",
+      "Therapist: Many find it reduces symptoms over time. It's a proven method for PTSD.",
+      "Client: Okay. I'm willing to try. Can you... can you hold my hand if it gets too intense?"
+    ],
+    [
+      "Therapist: Many find it reduces symptoms over time. It's a proven method for PTSD.",
+      "Client: Okay. I'm willing to try. Can you... can you hold my hand if it gets too intense?",
+      "Therapist: Of course. I'm here to support you. Shall we begin?"
+    ],
+    [
+      "Client: Okay. I'm willing to try. Can you... can you hold my hand if it gets too intense?",
+      "Therapist: Of course. I'm here to support you. Shall we begin?",
+      "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle."
+    ],
+    [
+      "Therapist: Of course. I'm here to support you. Shall we begin?",
+      "Client: Yes, I think I'm ready. Just... please be patient with me if I struggle.",
+      "Therapist: Always. Your courage is inspiring. Let's start when you're comfortable."
+    ]
+  ]
+}

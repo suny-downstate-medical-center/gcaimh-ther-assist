@@ -1,0 +1,206 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's understandable. Let's begin when you're comfortable.",
+    "Client: Okay... I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant, it's so strong. I'm lying in the bed, and I feel so... trapped. Like I can't move. There are tubes and wires everywhere.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6. I can feel my heart starting to race a little.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: The doctor comes in. He's looking at my chart, and his face is so serious. I remember thinking, \"This is it. This is how I die.\" My mouth goes dry, and I can barely speak when he starts talking. He's telling me about the procedure, but all I can focus on is how final it all sounds. Like I'm being sentenced to something I can't escape.",
+    "Therapist: And your SUDS now?",
+    "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweating.",
+    "Therapist: I see. You're doing well. Keep going.",
+    "Client: They start prepping me for surgery. The nurses are bustling around, and I feel so small, so insignificant. It's like I'm not even a person anymore, just a body they need to fix. I want to tell them I'm scared, but the words won't come out. I'm shaking now, I can't stop it. And then they're wheeling me down the hallway. The ceiling lights are flashing by, and I think, \"This is what it's like to be led to your execution.\" God, it's awful.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's... it's a 9. I feel like I can't breathe.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (audible deep breath) Okay... okay. In the operating room, it's so cold. The table is hard beneath me, and I'm shivering. The anesthesiologist is talking to me, but his voice sounds far away. I'm trying to focus on his words, but all I can think is, \"What if I don't wake up?\" And then the mask is coming down over my face, and I'm fighting the urge to panic. I want to scream, to tell them to stop, but I can't move. The edges of my vision are going dark, and I'm terrified. It feels like I'm being buried alive.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's still a 9. My chest feels tight, and I'm dizzy.",
+    "Therapist: You're doing great. Stay with it.",
+    "Client: As I'm losing consciousness, I have this overwhelming feeling of regret. All the things I never said, never did. And then... nothing. Just blackness. When I start to wake up, everything is hazy. I'm in so much pain, and I can't move. It's like being trapped in my own body. I can hear voices, but I can't respond. I'm panicking inside, thinking maybe the surgery went wrong, maybe I'm paralyzed. It feels like I'm screaming, but no sound is coming out.",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's... it's down to a 7. I'm starting to feel a little calmer.",
+    "Therapist: Good. Keep going.",
+    "Client: Gradually, things become clearer. I realize I can move, just a little. The pain is still intense, but at least I know I'm alive. But then the fear sets in again. What if something went wrong? What if I'm not really okay? The doctors and nurses keep coming in and out, but I feel so alone. Like I'm trapped in this bubble of fear and pain, and no one can reach me. It's... it's overwhelming.",
+    "Therapist: And your SUDS now?",
+    "Client: It's back up to an 8. I'm feeling really anxious again.",
+    "Therapist: That's okay. You're doing well.",
+    "Client: The days in the hospital blur together. I feel so helpless, so dependent on others. It's humiliating. I keep thinking about how my life might never be the same. Will I ever be able to do the things I love again? Will I always be in pain? The uncertainty is almost worse than the physical discomfort. I feel like I've lost control of everything.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's... it's down to a 6 now. I'm feeling a bit drained.",
+    "Therapist: That's normal. We're almost done.",
+    "Client: As I start to recover, I'm filled with a mix of relief and dread. Relief that I survived, but dread about what comes next. The trauma of the experience lingers. Every time I see a doctor or smell disinfectant, I'm right back in that hospital room. It's like... like I left a part of myself there, and I don't know how to get it back.",
+    "Therapist: And your final SUDS rating?",
+    "Client: It's a 5 now. I feel... I feel tired, but also a little lighter.",
+    "Therapist: Thank you, John. You did very well today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, John. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant, it's so strong. I'm lying in the bed, and I feel so... trapped. Like I can't move. There are tubes and wires everywhere."
+    ],
+    [
+      "Therapist: That's understandable. Let's begin when you're comfortable.",
+      "Client: Okay... I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant, it's so strong. I'm lying in the bed, and I feel so... trapped. Like I can't move. There are tubes and wires everywhere.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in that hospital room. The lights are so bright, and there's this constant beeping from the machines. I can smell the disinfectant, it's so strong. I'm lying in the bed, and I feel so... trapped. Like I can't move. There are tubes and wires everywhere.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I can feel my heart starting to race a little."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I can feel my heart starting to race a little.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's about a 6. I can feel my heart starting to race a little.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The doctor comes in. He's looking at my chart, and his face is so serious. I remember thinking, \"This is it. This is how I die.\" My mouth goes dry, and I can barely speak when he starts talking. He's telling me about the procedure, but all I can focus on is how final it all sounds. Like I'm being sentenced to something I can't escape."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The doctor comes in. He's looking at my chart, and his face is so serious. I remember thinking, \"This is it. This is how I die.\" My mouth goes dry, and I can barely speak when he starts talking. He's telling me about the procedure, but all I can focus on is how final it all sounds. Like I'm being sentenced to something I can't escape.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: The doctor comes in. He's looking at my chart, and his face is so serious. I remember thinking, \"This is it. This is how I die.\" My mouth goes dry, and I can barely speak when he starts talking. He's telling me about the procedure, but all I can focus on is how final it all sounds. Like I'm being sentenced to something I can't escape.",
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweating."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweating.",
+      "Therapist: I see. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm feeling really anxious, my palms are sweating.",
+      "Therapist: I see. You're doing well. Keep going.",
+      "Client: They start prepping me for surgery. The nurses are bustling around, and I feel so small, so insignificant. It's like I'm not even a person anymore, just a body they need to fix. I want to tell them I'm scared, but the words won't come out. I'm shaking now, I can't stop it. And then they're wheeling me down the hallway. The ceiling lights are flashing by, and I think, \"This is what it's like to be led to your execution.\" God, it's awful."
+    ],
+    [
+      "Therapist: I see. You're doing well. Keep going.",
+      "Client: They start prepping me for surgery. The nurses are bustling around, and I feel so small, so insignificant. It's like I'm not even a person anymore, just a body they need to fix. I want to tell them I'm scared, but the words won't come out. I'm shaking now, I can't stop it. And then they're wheeling me down the hallway. The ceiling lights are flashing by, and I think, \"This is what it's like to be led to your execution.\" God, it's awful.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: They start prepping me for surgery. The nurses are bustling around, and I feel so small, so insignificant. It's like I'm not even a person anymore, just a body they need to fix. I want to tell them I'm scared, but the words won't come out. I'm shaking now, I can't stop it. And then they're wheeling me down the hallway. The ceiling lights are flashing by, and I think, \"This is what it's like to be led to your execution.\" God, it's awful.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's a 9. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's a 9. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I can't breathe.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (audible deep breath) Okay... okay. In the operating room, it's so cold. The table is hard beneath me, and I'm shivering. The anesthesiologist is talking to me, but his voice sounds far away. I'm trying to focus on his words, but all I can think is, \"What if I don't wake up?\" And then the mask is coming down over my face, and I'm fighting the urge to panic. I want to scream, to tell them to stop, but I can't move. The edges of my vision are going dark, and I'm terrified. It feels like I'm being buried alive."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (audible deep breath) Okay... okay. In the operating room, it's so cold. The table is hard beneath me, and I'm shivering. The anesthesiologist is talking to me, but his voice sounds far away. I'm trying to focus on his words, but all I can think is, \"What if I don't wake up?\" And then the mask is coming down over my face, and I'm fighting the urge to panic. I want to scream, to tell them to stop, but I can't move. The edges of my vision are going dark, and I'm terrified. It feels like I'm being buried alive.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (audible deep breath) Okay... okay. In the operating room, it's so cold. The table is hard beneath me, and I'm shivering. The anesthesiologist is talking to me, but his voice sounds far away. I'm trying to focus on his words, but all I can think is, \"What if I don't wake up?\" And then the mask is coming down over my face, and I'm fighting the urge to panic. I want to scream, to tell them to stop, but I can't move. The edges of my vision are going dark, and I'm terrified. It feels like I'm being buried alive.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's still a 9. My chest feels tight, and I'm dizzy."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's still a 9. My chest feels tight, and I'm dizzy.",
+      "Therapist: You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's... it's still a 9. My chest feels tight, and I'm dizzy.",
+      "Therapist: You're doing great. Stay with it.",
+      "Client: As I'm losing consciousness, I have this overwhelming feeling of regret. All the things I never said, never did. And then... nothing. Just blackness. When I start to wake up, everything is hazy. I'm in so much pain, and I can't move. It's like being trapped in my own body. I can hear voices, but I can't respond. I'm panicking inside, thinking maybe the surgery went wrong, maybe I'm paralyzed. It feels like I'm screaming, but no sound is coming out."
+    ],
+    [
+      "Therapist: You're doing great. Stay with it.",
+      "Client: As I'm losing consciousness, I have this overwhelming feeling of regret. All the things I never said, never did. And then... nothing. Just blackness. When I start to wake up, everything is hazy. I'm in so much pain, and I can't move. It's like being trapped in my own body. I can hear voices, but I can't respond. I'm panicking inside, thinking maybe the surgery went wrong, maybe I'm paralyzed. It feels like I'm screaming, but no sound is coming out.",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: As I'm losing consciousness, I have this overwhelming feeling of regret. All the things I never said, never did. And then... nothing. Just blackness. When I start to wake up, everything is hazy. I'm in so much pain, and I can't move. It's like being trapped in my own body. I can hear voices, but I can't respond. I'm panicking inside, thinking maybe the surgery went wrong, maybe I'm paralyzed. It feels like I'm screaming, but no sound is coming out.",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's down to a 7. I'm starting to feel a little calmer."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's... it's down to a 7. I'm starting to feel a little calmer.",
+      "Therapist: Good. Keep going."
+    ],
+    [
+      "Client: It's... it's down to a 7. I'm starting to feel a little calmer.",
+      "Therapist: Good. Keep going.",
+      "Client: Gradually, things become clearer. I realize I can move, just a little. The pain is still intense, but at least I know I'm alive. But then the fear sets in again. What if something went wrong? What if I'm not really okay? The doctors and nurses keep coming in and out, but I feel so alone. Like I'm trapped in this bubble of fear and pain, and no one can reach me. It's... it's overwhelming."
+    ],
+    [
+      "Therapist: Good. Keep going.",
+      "Client: Gradually, things become clearer. I realize I can move, just a little. The pain is still intense, but at least I know I'm alive. But then the fear sets in again. What if something went wrong? What if I'm not really okay? The doctors and nurses keep coming in and out, but I feel so alone. Like I'm trapped in this bubble of fear and pain, and no one can reach me. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Gradually, things become clearer. I realize I can move, just a little. The pain is still intense, but at least I know I'm alive. But then the fear sets in again. What if something went wrong? What if I'm not really okay? The doctors and nurses keep coming in and out, but I feel so alone. Like I'm trapped in this bubble of fear and pain, and no one can reach me. It's... it's overwhelming.",
+      "Therapist: And your SUDS now?",
+      "Client: It's back up to an 8. I'm feeling really anxious again."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's back up to an 8. I'm feeling really anxious again.",
+      "Therapist: That's okay. You're doing well."
+    ],
+    [
+      "Client: It's back up to an 8. I'm feeling really anxious again.",
+      "Therapist: That's okay. You're doing well.",
+      "Client: The days in the hospital blur together. I feel so helpless, so dependent on others. It's humiliating. I keep thinking about how my life might never be the same. Will I ever be able to do the things I love again? Will I always be in pain? The uncertainty is almost worse than the physical discomfort. I feel like I've lost control of everything."
+    ],
+    [
+      "Therapist: That's okay. You're doing well.",
+      "Client: The days in the hospital blur together. I feel so helpless, so dependent on others. It's humiliating. I keep thinking about how my life might never be the same. Will I ever be able to do the things I love again? Will I always be in pain? The uncertainty is almost worse than the physical discomfort. I feel like I've lost control of everything.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: The days in the hospital blur together. I feel so helpless, so dependent on others. It's humiliating. I keep thinking about how my life might never be the same. Will I ever be able to do the things I love again? Will I always be in pain? The uncertainty is almost worse than the physical discomfort. I feel like I've lost control of everything.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's down to a 6 now. I'm feeling a bit drained."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... it's down to a 6 now. I'm feeling a bit drained.",
+      "Therapist: That's normal. We're almost done."
+    ],
+    [
+      "Client: It's... it's down to a 6 now. I'm feeling a bit drained.",
+      "Therapist: That's normal. We're almost done.",
+      "Client: As I start to recover, I'm filled with a mix of relief and dread. Relief that I survived, but dread about what comes next. The trauma of the experience lingers. Every time I see a doctor or smell disinfectant, I'm right back in that hospital room. It's like... like I left a part of myself there, and I don't know how to get it back."
+    ],
+    [
+      "Therapist: That's normal. We're almost done.",
+      "Client: As I start to recover, I'm filled with a mix of relief and dread. Relief that I survived, but dread about what comes next. The trauma of the experience lingers. Every time I see a doctor or smell disinfectant, I'm right back in that hospital room. It's like... like I left a part of myself there, and I don't know how to get it back.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: As I start to recover, I'm filled with a mix of relief and dread. Relief that I survived, but dread about what comes next. The trauma of the experience lingers. Every time I see a doctor or smell disinfectant, I'm right back in that hospital room. It's like... like I left a part of myself there, and I don't know how to get it back.",
+      "Therapist: And your final SUDS rating?",
+      "Client: It's a 5 now. I feel... I feel tired, but also a little lighter."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: It's a 5 now. I feel... I feel tired, but also a little lighter.",
+      "Therapist: Thank you, John. You did very well today."
+    ]
+  ]
+}

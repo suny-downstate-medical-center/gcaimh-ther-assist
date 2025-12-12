@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+    "Client: Okay... I'm back in Afghanistan. It's hot, dusty. The air feels thick. We're on patrol, walking through a small village. The streets are narrow, buildings close together. It's eerily quiet...",
+    "Therapist: Good. What's your SUDS right now?",
+    "Client: Um, about a 4, I'd say.",
+    "Therapist: Alright. Continue.",
+    "Client: We turn a corner, and suddenly there's shouting. I can't understand the words, but the tone is angry, threatening. My heart starts racing. I grip my weapon tighter...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up. Maybe a 6?",
+    "Therapist: That's okay. Keep going.",
+    "Client: There's a group of men arguing. One of them pulls out a knife. It all happens so fast. Before we can react, he's stabbed another man. There's blood... so much blood. The victim falls to the ground, clutching his stomach. I... I freeze. I can't move...",
+    "Therapist: What's your SUDS?",
+    "Client: It's... it's an 8 now. My hands are shaking. I can feel sweat on my forehead.",
+    "Therapist: You're doing well. Stay with it.",
+    "Client: My squadmate pushes past me, tries to help the victim. But it's too late. The attacker is running away. We're supposed to pursue, but I'm just... standing there. I can smell the blood, the dust... I feel useless, scared...",
+    "Therapist: And your SUDS now?",
+    "Client: It's still an 8. My chest feels tight. I'm having trouble breathing...",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (takes a shaky breath) Okay... The village is in chaos now. People are screaming, running. My squadmate is yelling at me to help, but I can't move. I'm paralyzed. I've never felt so ashamed...",
+    "Therapist: What's your SUDS rating?",
+    "Client: It's... it's gone up to a 9. I feel like I'm right back there. My heart is pounding so hard...",
+    "Therapist: You're doing great. Remember, you're here with me.",
+    "Client: (nods) The victim... he's not moving anymore. There's so much blood on the ground. I finally snap out of it, try to help, but it's too late. We failed. I failed. I should have done something...",
+    "Therapist: How about your SUDS now?",
+    "Client: It's still at 9. I feel so guilty, so ashamed. I can't stop shaking...",
+    "Therapist: That's okay. You're processing it. Keep going.",
+    "Client: We call for backup, secure the area. But all I can focus on is the body. The man's eyes are open, staring blankly. I can't look away. I feel sick to my stomach...",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's starting to come down a bit. Maybe an 8 now. I'm still shaking, but not as badly.",
+    "Therapist: Good. You're doing well. Continue.",
+    "Client: We have to wait for the local authorities. It feels like hours. The sun is beating down, the smell of blood is overwhelming. I keep replaying those moments in my head, thinking about what I should have done differently...",
+    "Therapist: What's your SUDS rating now?",
+    "Client: It's down to a 7. I'm feeling drained, exhausted...",
+    "Therapist: That's normal. We're almost done.",
+    "Client: Finally, we're cleared to leave. As we walk away, I can't help but look back. The blood stain on the ground... it's like it's burned into my memory. I know I'll never forget this day, never forget my failure...",
+    "Therapist: And your final SUDS?",
+    "Client: It's a 6 now. I feel... hollow. Drained. But also relieved it's over.",
+    "Therapist: You did incredibly well. Let's take a moment to ground ourselves."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. The air feels thick. We're on patrol, walking through a small village. The streets are narrow, buildings close together. It's eerily quiet..."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and describe the scene.",
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. The air feels thick. We're on patrol, walking through a small village. The streets are narrow, buildings close together. It's eerily quiet...",
+      "Therapist: Good. What's your SUDS right now?"
+    ],
+    [
+      "Client: Okay... I'm back in Afghanistan. It's hot, dusty. The air feels thick. We're on patrol, walking through a small village. The streets are narrow, buildings close together. It's eerily quiet...",
+      "Therapist: Good. What's your SUDS right now?",
+      "Client: Um, about a 4, I'd say."
+    ],
+    [
+      "Therapist: Good. What's your SUDS right now?",
+      "Client: Um, about a 4, I'd say.",
+      "Therapist: Alright. Continue."
+    ],
+    [
+      "Client: Um, about a 4, I'd say.",
+      "Therapist: Alright. Continue.",
+      "Client: We turn a corner, and suddenly there's shouting. I can't understand the words, but the tone is angry, threatening. My heart starts racing. I grip my weapon tighter..."
+    ],
+    [
+      "Therapist: Alright. Continue.",
+      "Client: We turn a corner, and suddenly there's shouting. I can't understand the words, but the tone is angry, threatening. My heart starts racing. I grip my weapon tighter...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: We turn a corner, and suddenly there's shouting. I can't understand the words, but the tone is angry, threatening. My heart starts racing. I grip my weapon tighter...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up. Maybe a 6?"
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up. Maybe a 6?",
+      "Therapist: That's okay. Keep going."
+    ],
+    [
+      "Client: It's gone up. Maybe a 6?",
+      "Therapist: That's okay. Keep going.",
+      "Client: There's a group of men arguing. One of them pulls out a knife. It all happens so fast. Before we can react, he's stabbed another man. There's blood... so much blood. The victim falls to the ground, clutching his stomach. I... I freeze. I can't move..."
+    ],
+    [
+      "Therapist: That's okay. Keep going.",
+      "Client: There's a group of men arguing. One of them pulls out a knife. It all happens so fast. Before we can react, he's stabbed another man. There's blood... so much blood. The victim falls to the ground, clutching his stomach. I... I freeze. I can't move...",
+      "Therapist: What's your SUDS?"
+    ],
+    [
+      "Client: There's a group of men arguing. One of them pulls out a knife. It all happens so fast. Before we can react, he's stabbed another man. There's blood... so much blood. The victim falls to the ground, clutching his stomach. I... I freeze. I can't move...",
+      "Therapist: What's your SUDS?",
+      "Client: It's... it's an 8 now. My hands are shaking. I can feel sweat on my forehead."
+    ],
+    [
+      "Therapist: What's your SUDS?",
+      "Client: It's... it's an 8 now. My hands are shaking. I can feel sweat on my forehead.",
+      "Therapist: You're doing well. Stay with it."
+    ],
+    [
+      "Client: It's... it's an 8 now. My hands are shaking. I can feel sweat on my forehead.",
+      "Therapist: You're doing well. Stay with it.",
+      "Client: My squadmate pushes past me, tries to help the victim. But it's too late. The attacker is running away. We're supposed to pursue, but I'm just... standing there. I can smell the blood, the dust... I feel useless, scared..."
+    ],
+    [
+      "Therapist: You're doing well. Stay with it.",
+      "Client: My squadmate pushes past me, tries to help the victim. But it's too late. The attacker is running away. We're supposed to pursue, but I'm just... standing there. I can smell the blood, the dust... I feel useless, scared...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: My squadmate pushes past me, tries to help the victim. But it's too late. The attacker is running away. We're supposed to pursue, but I'm just... standing there. I can smell the blood, the dust... I feel useless, scared...",
+      "Therapist: And your SUDS now?",
+      "Client: It's still an 8. My chest feels tight. I'm having trouble breathing..."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still an 8. My chest feels tight. I'm having trouble breathing...",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's still an 8. My chest feels tight. I'm having trouble breathing...",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) Okay... The village is in chaos now. People are screaming, running. My squadmate is yelling at me to help, but I can't move. I'm paralyzed. I've never felt so ashamed..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) Okay... The village is in chaos now. People are screaming, running. My squadmate is yelling at me to help, but I can't move. I'm paralyzed. I've never felt so ashamed...",
+      "Therapist: What's your SUDS rating?"
+    ],
+    [
+      "Client: (takes a shaky breath) Okay... The village is in chaos now. People are screaming, running. My squadmate is yelling at me to help, but I can't move. I'm paralyzed. I've never felt so ashamed...",
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My heart is pounding so hard..."
+    ],
+    [
+      "Therapist: What's your SUDS rating?",
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My heart is pounding so hard...",
+      "Therapist: You're doing great. Remember, you're here with me."
+    ],
+    [
+      "Client: It's... it's gone up to a 9. I feel like I'm right back there. My heart is pounding so hard...",
+      "Therapist: You're doing great. Remember, you're here with me.",
+      "Client: (nods) The victim... he's not moving anymore. There's so much blood on the ground. I finally snap out of it, try to help, but it's too late. We failed. I failed. I should have done something..."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're here with me.",
+      "Client: (nods) The victim... he's not moving anymore. There's so much blood on the ground. I finally snap out of it, try to help, but it's too late. We failed. I failed. I should have done something...",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: (nods) The victim... he's not moving anymore. There's so much blood on the ground. I finally snap out of it, try to help, but it's too late. We failed. I failed. I should have done something...",
+      "Therapist: How about your SUDS now?",
+      "Client: It's still at 9. I feel so guilty, so ashamed. I can't stop shaking..."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's still at 9. I feel so guilty, so ashamed. I can't stop shaking...",
+      "Therapist: That's okay. You're processing it. Keep going."
+    ],
+    [
+      "Client: It's still at 9. I feel so guilty, so ashamed. I can't stop shaking...",
+      "Therapist: That's okay. You're processing it. Keep going.",
+      "Client: We call for backup, secure the area. But all I can focus on is the body. The man's eyes are open, staring blankly. I can't look away. I feel sick to my stomach..."
+    ],
+    [
+      "Therapist: That's okay. You're processing it. Keep going.",
+      "Client: We call for backup, secure the area. But all I can focus on is the body. The man's eyes are open, staring blankly. I can't look away. I feel sick to my stomach...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: We call for backup, secure the area. But all I can focus on is the body. The man's eyes are open, staring blankly. I can't look away. I feel sick to my stomach...",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now. I'm still shaking, but not as badly."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now. I'm still shaking, but not as badly.",
+      "Therapist: Good. You're doing well. Continue."
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe an 8 now. I'm still shaking, but not as badly.",
+      "Therapist: Good. You're doing well. Continue.",
+      "Client: We have to wait for the local authorities. It feels like hours. The sun is beating down, the smell of blood is overwhelming. I keep replaying those moments in my head, thinking about what I should have done differently..."
+    ],
+    [
+      "Therapist: Good. You're doing well. Continue.",
+      "Client: We have to wait for the local authorities. It feels like hours. The sun is beating down, the smell of blood is overwhelming. I keep replaying those moments in my head, thinking about what I should have done differently...",
+      "Therapist: What's your SUDS rating now?"
+    ],
+    [
+      "Client: We have to wait for the local authorities. It feels like hours. The sun is beating down, the smell of blood is overwhelming. I keep replaying those moments in my head, thinking about what I should have done differently...",
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 7. I'm feeling drained, exhausted..."
+    ],
+    [
+      "Therapist: What's your SUDS rating now?",
+      "Client: It's down to a 7. I'm feeling drained, exhausted...",
+      "Therapist: That's normal. We're almost done."
+    ],
+    [
+      "Client: It's down to a 7. I'm feeling drained, exhausted...",
+      "Therapist: That's normal. We're almost done.",
+      "Client: Finally, we're cleared to leave. As we walk away, I can't help but look back. The blood stain on the ground... it's like it's burned into my memory. I know I'll never forget this day, never forget my failure..."
+    ],
+    [
+      "Therapist: That's normal. We're almost done.",
+      "Client: Finally, we're cleared to leave. As we walk away, I can't help but look back. The blood stain on the ground... it's like it's burned into my memory. I know I'll never forget this day, never forget my failure...",
+      "Therapist: And your final SUDS?"
+    ],
+    [
+      "Client: Finally, we're cleared to leave. As we walk away, I can't help but look back. The blood stain on the ground... it's like it's burned into my memory. I know I'll never forget this day, never forget my failure...",
+      "Therapist: And your final SUDS?",
+      "Client: It's a 6 now. I feel... hollow. Drained. But also relieved it's over."
+    ],
+    [
+      "Therapist: And your final SUDS?",
+      "Client: It's a 6 now. I feel... hollow. Drained. But also relieved it's over.",
+      "Therapist: You did incredibly well. Let's take a moment to ground ourselves."
+    ]
+  ]
+}

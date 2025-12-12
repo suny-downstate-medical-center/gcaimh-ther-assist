@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, let's begin our imaginal exposure exercise. Can you start by describing the car accident and give me your initial SUDS rating?",
+    "Client: Okay... I'm driving home from work, it's late afternoon. The sun is low, making it hard to see. I'm approaching an intersection and... (voice trembles) I see a car run the red light. It's coming straight at me. My SUDS... it's about a 6 right now.",
+    "Therapist: Thank you. Keep going, you're doing well.",
+    "Client: I slam on the brakes, but it's too late. The impact is deafening. Metal crunches, glass shatters. I'm thrown forward, the seatbelt cutting into my chest. The airbag explodes in my face. I can't breathe. I... I smell gasoline and burning rubber. My head is throbbing, and I taste blood in my mouth.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's up to an 8. My heart is racing, and my palms are sweaty.",
+    "Therapist: That's normal. You're safe here. Continue.",
+    "Client: I'm trapped in the car. I can hear people shouting outside, but it sounds muffled. I'm dizzy, and my vision is blurry. I try to move, but pain shoots through my left arm. I think it's broken. I'm panicking, thinking the car might catch fire. I can't get out. I'm... I'm scared I might die here.",
+    "Therapist: How are you feeling now? SUDS?",
+    "Client: It's... still an 8. My chest feels tight, and I'm having trouble catching my breath.",
+    "Therapist: Take a deep breath. You're doing great.",
+    "Client: I hear sirens in the distance. They're getting closer. Someone is at my window, telling me help is coming. I'm trying to focus on their voice, but the pain is overwhelming. I'm going in and out of consciousness. The next thing I remember clearly is being in the ambulance. The paramedic is asking me questions, but I can barely respond. I'm terrified, thinking about my wife, wondering if I'll see her again.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's down to a 7. I'm still feeling anxious, but talking about the ambulance... it feels a bit safer.",
+    "Therapist: I understand. You're doing well. Keep going.",
+    "Client: At the hospital, everything is a blur of bright lights and urgent voices. I'm wheeled into the ER, doctors and nurses swarming around me. They're cutting off my clothes, attaching monitors. I hear them talking about internal bleeding and possible head trauma. I'm trying to stay awake, but I'm so tired. I keep thinking about my time in combat, how I survived that only to maybe die in a car accident. It seems so... unfair.",
+    "Therapist: How's your distress level now?",
+    "Client: It's... back up to an 8. Remembering those thoughts... it's bringing back a lot of fear and anger.",
+    "Therapist: That's understandable. You're safe now. Continue when you're ready.",
+    "Client: I wake up in a hospital room. My wife is there, holding my hand. She looks worried, but relieved. The doctor comes in and explains my injuries - broken arm, concussion, some internal bruising. They want to keep me for observation. I'm relieved, but also... angry. Angry at the other driver, angry at myself for not reacting faster. I keep replaying the accident in my mind, wondering if I could have done something differently.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's... down to a 6. Talking about being in the hospital, seeing my wife... it helps. But I still feel this underlying tension.",
+    "Therapist: That's progress. How are you feeling overall?",
+    "Client: I'm... I'm exhausted. Emotionally drained. But also... I don't know, maybe a little relieved? Talking about it... it's hard, but it feels like I'm facing it instead of running from it.",
+    "Therapist: That's exactly right. You've done excellent work today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, let's begin our imaginal exposure exercise. Can you start by describing the car accident and give me your initial SUDS rating?",
+      "Client: Okay... I'm driving home from work, it's late afternoon. The sun is low, making it hard to see. I'm approaching an intersection and... (voice trembles) I see a car run the red light. It's coming straight at me. My SUDS... it's about a 6 right now.",
+      "Therapist: Thank you. Keep going, you're doing well."
+    ],
+    [
+      "Client: Okay... I'm driving home from work, it's late afternoon. The sun is low, making it hard to see. I'm approaching an intersection and... (voice trembles) I see a car run the red light. It's coming straight at me. My SUDS... it's about a 6 right now.",
+      "Therapist: Thank you. Keep going, you're doing well.",
+      "Client: I slam on the brakes, but it's too late. The impact is deafening. Metal crunches, glass shatters. I'm thrown forward, the seatbelt cutting into my chest. The airbag explodes in my face. I can't breathe. I... I smell gasoline and burning rubber. My head is throbbing, and I taste blood in my mouth."
+    ],
+    [
+      "Therapist: Thank you. Keep going, you're doing well.",
+      "Client: I slam on the brakes, but it's too late. The impact is deafening. Metal crunches, glass shatters. I'm thrown forward, the seatbelt cutting into my chest. The airbag explodes in my face. I can't breathe. I... I smell gasoline and burning rubber. My head is throbbing, and I taste blood in my mouth.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: I slam on the brakes, but it's too late. The impact is deafening. Metal crunches, glass shatters. I'm thrown forward, the seatbelt cutting into my chest. The airbag explodes in my face. I can't breathe. I... I smell gasoline and burning rubber. My head is throbbing, and I taste blood in my mouth.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's up to an 8. My heart is racing, and my palms are sweaty."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's up to an 8. My heart is racing, and my palms are sweaty.",
+      "Therapist: That's normal. You're safe here. Continue."
+    ],
+    [
+      "Client: It's... it's up to an 8. My heart is racing, and my palms are sweaty.",
+      "Therapist: That's normal. You're safe here. Continue.",
+      "Client: I'm trapped in the car. I can hear people shouting outside, but it sounds muffled. I'm dizzy, and my vision is blurry. I try to move, but pain shoots through my left arm. I think it's broken. I'm panicking, thinking the car might catch fire. I can't get out. I'm... I'm scared I might die here."
+    ],
+    [
+      "Therapist: That's normal. You're safe here. Continue.",
+      "Client: I'm trapped in the car. I can hear people shouting outside, but it sounds muffled. I'm dizzy, and my vision is blurry. I try to move, but pain shoots through my left arm. I think it's broken. I'm panicking, thinking the car might catch fire. I can't get out. I'm... I'm scared I might die here.",
+      "Therapist: How are you feeling now? SUDS?"
+    ],
+    [
+      "Client: I'm trapped in the car. I can hear people shouting outside, but it sounds muffled. I'm dizzy, and my vision is blurry. I try to move, but pain shoots through my left arm. I think it's broken. I'm panicking, thinking the car might catch fire. I can't get out. I'm... I'm scared I might die here.",
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... still an 8. My chest feels tight, and I'm having trouble catching my breath."
+    ],
+    [
+      "Therapist: How are you feeling now? SUDS?",
+      "Client: It's... still an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: Take a deep breath. You're doing great."
+    ],
+    [
+      "Client: It's... still an 8. My chest feels tight, and I'm having trouble catching my breath.",
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I hear sirens in the distance. They're getting closer. Someone is at my window, telling me help is coming. I'm trying to focus on their voice, but the pain is overwhelming. I'm going in and out of consciousness. The next thing I remember clearly is being in the ambulance. The paramedic is asking me questions, but I can barely respond. I'm terrified, thinking about my wife, wondering if I'll see her again."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing great.",
+      "Client: I hear sirens in the distance. They're getting closer. Someone is at my window, telling me help is coming. I'm trying to focus on their voice, but the pain is overwhelming. I'm going in and out of consciousness. The next thing I remember clearly is being in the ambulance. The paramedic is asking me questions, but I can barely respond. I'm terrified, thinking about my wife, wondering if I'll see her again.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: I hear sirens in the distance. They're getting closer. Someone is at my window, telling me help is coming. I'm trying to focus on their voice, but the pain is overwhelming. I'm going in and out of consciousness. The next thing I remember clearly is being in the ambulance. The paramedic is asking me questions, but I can barely respond. I'm terrified, thinking about my wife, wondering if I'll see her again.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's down to a 7. I'm still feeling anxious, but talking about the ambulance... it feels a bit safer."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's down to a 7. I'm still feeling anxious, but talking about the ambulance... it feels a bit safer.",
+      "Therapist: I understand. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's down to a 7. I'm still feeling anxious, but talking about the ambulance... it feels a bit safer.",
+      "Therapist: I understand. You're doing well. Keep going.",
+      "Client: At the hospital, everything is a blur of bright lights and urgent voices. I'm wheeled into the ER, doctors and nurses swarming around me. They're cutting off my clothes, attaching monitors. I hear them talking about internal bleeding and possible head trauma. I'm trying to stay awake, but I'm so tired. I keep thinking about my time in combat, how I survived that only to maybe die in a car accident. It seems so... unfair."
+    ],
+    [
+      "Therapist: I understand. You're doing well. Keep going.",
+      "Client: At the hospital, everything is a blur of bright lights and urgent voices. I'm wheeled into the ER, doctors and nurses swarming around me. They're cutting off my clothes, attaching monitors. I hear them talking about internal bleeding and possible head trauma. I'm trying to stay awake, but I'm so tired. I keep thinking about my time in combat, how I survived that only to maybe die in a car accident. It seems so... unfair.",
+      "Therapist: How's your distress level now?"
+    ],
+    [
+      "Client: At the hospital, everything is a blur of bright lights and urgent voices. I'm wheeled into the ER, doctors and nurses swarming around me. They're cutting off my clothes, attaching monitors. I hear them talking about internal bleeding and possible head trauma. I'm trying to stay awake, but I'm so tired. I keep thinking about my time in combat, how I survived that only to maybe die in a car accident. It seems so... unfair.",
+      "Therapist: How's your distress level now?",
+      "Client: It's... back up to an 8. Remembering those thoughts... it's bringing back a lot of fear and anger."
+    ],
+    [
+      "Therapist: How's your distress level now?",
+      "Client: It's... back up to an 8. Remembering those thoughts... it's bringing back a lot of fear and anger.",
+      "Therapist: That's understandable. You're safe now. Continue when you're ready."
+    ],
+    [
+      "Client: It's... back up to an 8. Remembering those thoughts... it's bringing back a lot of fear and anger.",
+      "Therapist: That's understandable. You're safe now. Continue when you're ready.",
+      "Client: I wake up in a hospital room. My wife is there, holding my hand. She looks worried, but relieved. The doctor comes in and explains my injuries - broken arm, concussion, some internal bruising. They want to keep me for observation. I'm relieved, but also... angry. Angry at the other driver, angry at myself for not reacting faster. I keep replaying the accident in my mind, wondering if I could have done something differently."
+    ],
+    [
+      "Therapist: That's understandable. You're safe now. Continue when you're ready.",
+      "Client: I wake up in a hospital room. My wife is there, holding my hand. She looks worried, but relieved. The doctor comes in and explains my injuries - broken arm, concussion, some internal bruising. They want to keep me for observation. I'm relieved, but also... angry. Angry at the other driver, angry at myself for not reacting faster. I keep replaying the accident in my mind, wondering if I could have done something differently.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: I wake up in a hospital room. My wife is there, holding my hand. She looks worried, but relieved. The doctor comes in and explains my injuries - broken arm, concussion, some internal bruising. They want to keep me for observation. I'm relieved, but also... angry. Angry at the other driver, angry at myself for not reacting faster. I keep replaying the accident in my mind, wondering if I could have done something differently.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... down to a 6. Talking about being in the hospital, seeing my wife... it helps. But I still feel this underlying tension."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's... down to a 6. Talking about being in the hospital, seeing my wife... it helps. But I still feel this underlying tension.",
+      "Therapist: That's progress. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... down to a 6. Talking about being in the hospital, seeing my wife... it helps. But I still feel this underlying tension.",
+      "Therapist: That's progress. How are you feeling overall?",
+      "Client: I'm... I'm exhausted. Emotionally drained. But also... I don't know, maybe a little relieved? Talking about it... it's hard, but it feels like I'm facing it instead of running from it."
+    ],
+    [
+      "Therapist: That's progress. How are you feeling overall?",
+      "Client: I'm... I'm exhausted. Emotionally drained. But also... I don't know, maybe a little relieved? Talking about it... it's hard, but it feels like I'm facing it instead of running from it.",
+      "Therapist: That's exactly right. You've done excellent work today."
+    ]
+  ]
+}

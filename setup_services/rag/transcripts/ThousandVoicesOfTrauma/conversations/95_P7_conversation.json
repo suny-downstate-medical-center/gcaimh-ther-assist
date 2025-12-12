@@ -1,0 +1,134 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Nadia. How are you feeling today?",
+    "Client: Hi Dr. Adams. I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience in the hospital, and just thinking about it makes my heart race.",
+    "Therapist: That's understandable. We'll take it slow.",
+    "Client: Okay, I'll try. It's just... every time I think about it, I feel like I'm right back there in that hospital bed, struggling to breathe.",
+    "Therapist: You're safe here. Let's begin when you're ready.",
+    "Client: Alright. I remember waking up in the middle of the night, feeling like my chest was on fire. I couldn't catch my breath, and I was terrified. My roommate called an ambulance, and everything after that is a blur of bright lights and beeping machines. The doctors were talking so fast, using words I didn't understand. I felt so alone and scared.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: The worst part was when they put me on the ventilator. I couldn't speak, couldn't move. I felt trapped in my own body. The tube in my throat was so uncomfortable, and I was panicking, thinking I might never be able to breathe on my own again. Every time a nurse or doctor came in, I tried to communicate with my eyes, silently begging them to help me, to tell me what was happening.",
+    "Therapist: That sounds terrifying. You're very brave for sharing this.",
+    "Client: It was. I remember one night, the alarms on the machines started going off. Doctors and nurses rushed in, and I could see the panic in their eyes. I thought I was dying. I couldn't even cry or scream. I just lay there, feeling utterly helpless and afraid.",
+    "Therapist: You're handling this well. Remember, you're safe now.",
+    "Client: I know, but it still feels so real. Even after they took me off the ventilator, I was afraid to fall asleep. I kept thinking I'd stop breathing again. The constant tests, the needles, the uncertainty - it was all too much. I felt like I'd lost control of my own body and my life.",
+    "Therapist: It's okay to feel overwhelmed. You're processing it well.",
+    "Client: Sometimes, I still wake up in a cold sweat, feeling like I can't breathe. It's hard to shake off that feeling of vulnerability. I used to be so independent, and now I find myself constantly worried about my health. It's like I don't trust my own body anymore.",
+    "Therapist: Your feelings are valid. You've come a long way.",
+    "Client: Thank you. It helps to talk about it, even though it's difficult. I just want to feel normal again, you know? To not be afraid of getting sick or ending up back in the hospital. But every time I feel even a little under the weather, I start to panic.",
+    "Therapist: That's a common reaction. We'll work through it together.",
+    "Client: I hope so. It's affecting my studies too. I find it hard to concentrate sometimes, especially when we have classes related to health or biology. It just brings everything back. And I feel guilty for being so affected by this when other people have gone through worse.",
+    "Therapist: There's no need for guilt. Your experience matters.",
+    "Client: You're right. I'm trying to remind myself of that. It's just... sometimes I feel like I'm overreacting. But then I remember how it felt to be there, thinking each breath might be my last, and it all comes rushing back. I want to move past this, but I don't know how.",
+    "Therapist: You're making progress. Let's continue working on this.",
+    "Client: Okay. I think I need a break now, though. This session has been intense, but I feel like I've gotten some things off my chest that I've been holding in for a long time. Thank you for listening and guiding me through this.",
+    "Therapist: You did exceptionally well today, Nadia. We'll end here."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Nadia. How are you feeling today?",
+      "Client: Hi Dr. Adams. I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience in the hospital, and just thinking about it makes my heart race.",
+      "Therapist: That's understandable. We'll take it slow."
+    ],
+    [
+      "Client: Hi Dr. Adams. I'm feeling a bit nervous, to be honest. I know we're going to talk about my experience in the hospital, and just thinking about it makes my heart race.",
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Okay, I'll try. It's just... every time I think about it, I feel like I'm right back there in that hospital bed, struggling to breathe."
+    ],
+    [
+      "Therapist: That's understandable. We'll take it slow.",
+      "Client: Okay, I'll try. It's just... every time I think about it, I feel like I'm right back there in that hospital bed, struggling to breathe.",
+      "Therapist: You're safe here. Let's begin when you're ready."
+    ],
+    [
+      "Client: Okay, I'll try. It's just... every time I think about it, I feel like I'm right back there in that hospital bed, struggling to breathe.",
+      "Therapist: You're safe here. Let's begin when you're ready.",
+      "Client: Alright. I remember waking up in the middle of the night, feeling like my chest was on fire. I couldn't catch my breath, and I was terrified. My roommate called an ambulance, and everything after that is a blur of bright lights and beeping machines. The doctors were talking so fast, using words I didn't understand. I felt so alone and scared."
+    ],
+    [
+      "Therapist: You're safe here. Let's begin when you're ready.",
+      "Client: Alright. I remember waking up in the middle of the night, feeling like my chest was on fire. I couldn't catch my breath, and I was terrified. My roommate called an ambulance, and everything after that is a blur of bright lights and beeping machines. The doctors were talking so fast, using words I didn't understand. I felt so alone and scared.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Alright. I remember waking up in the middle of the night, feeling like my chest was on fire. I couldn't catch my breath, and I was terrified. My roommate called an ambulance, and everything after that is a blur of bright lights and beeping machines. The doctors were talking so fast, using words I didn't understand. I felt so alone and scared.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: The worst part was when they put me on the ventilator. I couldn't speak, couldn't move. I felt trapped in my own body. The tube in my throat was so uncomfortable, and I was panicking, thinking I might never be able to breathe on my own again. Every time a nurse or doctor came in, I tried to communicate with my eyes, silently begging them to help me, to tell me what was happening."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: The worst part was when they put me on the ventilator. I couldn't speak, couldn't move. I felt trapped in my own body. The tube in my throat was so uncomfortable, and I was panicking, thinking I might never be able to breathe on my own again. Every time a nurse or doctor came in, I tried to communicate with my eyes, silently begging them to help me, to tell me what was happening.",
+      "Therapist: That sounds terrifying. You're very brave for sharing this."
+    ],
+    [
+      "Client: The worst part was when they put me on the ventilator. I couldn't speak, couldn't move. I felt trapped in my own body. The tube in my throat was so uncomfortable, and I was panicking, thinking I might never be able to breathe on my own again. Every time a nurse or doctor came in, I tried to communicate with my eyes, silently begging them to help me, to tell me what was happening.",
+      "Therapist: That sounds terrifying. You're very brave for sharing this.",
+      "Client: It was. I remember one night, the alarms on the machines started going off. Doctors and nurses rushed in, and I could see the panic in their eyes. I thought I was dying. I couldn't even cry or scream. I just lay there, feeling utterly helpless and afraid."
+    ],
+    [
+      "Therapist: That sounds terrifying. You're very brave for sharing this.",
+      "Client: It was. I remember one night, the alarms on the machines started going off. Doctors and nurses rushed in, and I could see the panic in their eyes. I thought I was dying. I couldn't even cry or scream. I just lay there, feeling utterly helpless and afraid.",
+      "Therapist: You're handling this well. Remember, you're safe now."
+    ],
+    [
+      "Client: It was. I remember one night, the alarms on the machines started going off. Doctors and nurses rushed in, and I could see the panic in their eyes. I thought I was dying. I couldn't even cry or scream. I just lay there, feeling utterly helpless and afraid.",
+      "Therapist: You're handling this well. Remember, you're safe now.",
+      "Client: I know, but it still feels so real. Even after they took me off the ventilator, I was afraid to fall asleep. I kept thinking I'd stop breathing again. The constant tests, the needles, the uncertainty - it was all too much. I felt like I'd lost control of my own body and my life."
+    ],
+    [
+      "Therapist: You're handling this well. Remember, you're safe now.",
+      "Client: I know, but it still feels so real. Even after they took me off the ventilator, I was afraid to fall asleep. I kept thinking I'd stop breathing again. The constant tests, the needles, the uncertainty - it was all too much. I felt like I'd lost control of my own body and my life.",
+      "Therapist: It's okay to feel overwhelmed. You're processing it well."
+    ],
+    [
+      "Client: I know, but it still feels so real. Even after they took me off the ventilator, I was afraid to fall asleep. I kept thinking I'd stop breathing again. The constant tests, the needles, the uncertainty - it was all too much. I felt like I'd lost control of my own body and my life.",
+      "Therapist: It's okay to feel overwhelmed. You're processing it well.",
+      "Client: Sometimes, I still wake up in a cold sweat, feeling like I can't breathe. It's hard to shake off that feeling of vulnerability. I used to be so independent, and now I find myself constantly worried about my health. It's like I don't trust my own body anymore."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. You're processing it well.",
+      "Client: Sometimes, I still wake up in a cold sweat, feeling like I can't breathe. It's hard to shake off that feeling of vulnerability. I used to be so independent, and now I find myself constantly worried about my health. It's like I don't trust my own body anymore.",
+      "Therapist: Your feelings are valid. You've come a long way."
+    ],
+    [
+      "Client: Sometimes, I still wake up in a cold sweat, feeling like I can't breathe. It's hard to shake off that feeling of vulnerability. I used to be so independent, and now I find myself constantly worried about my health. It's like I don't trust my own body anymore.",
+      "Therapist: Your feelings are valid. You've come a long way.",
+      "Client: Thank you. It helps to talk about it, even though it's difficult. I just want to feel normal again, you know? To not be afraid of getting sick or ending up back in the hospital. But every time I feel even a little under the weather, I start to panic."
+    ],
+    [
+      "Therapist: Your feelings are valid. You've come a long way.",
+      "Client: Thank you. It helps to talk about it, even though it's difficult. I just want to feel normal again, you know? To not be afraid of getting sick or ending up back in the hospital. But every time I feel even a little under the weather, I start to panic.",
+      "Therapist: That's a common reaction. We'll work through it together."
+    ],
+    [
+      "Client: Thank you. It helps to talk about it, even though it's difficult. I just want to feel normal again, you know? To not be afraid of getting sick or ending up back in the hospital. But every time I feel even a little under the weather, I start to panic.",
+      "Therapist: That's a common reaction. We'll work through it together.",
+      "Client: I hope so. It's affecting my studies too. I find it hard to concentrate sometimes, especially when we have classes related to health or biology. It just brings everything back. And I feel guilty for being so affected by this when other people have gone through worse."
+    ],
+    [
+      "Therapist: That's a common reaction. We'll work through it together.",
+      "Client: I hope so. It's affecting my studies too. I find it hard to concentrate sometimes, especially when we have classes related to health or biology. It just brings everything back. And I feel guilty for being so affected by this when other people have gone through worse.",
+      "Therapist: There's no need for guilt. Your experience matters."
+    ],
+    [
+      "Client: I hope so. It's affecting my studies too. I find it hard to concentrate sometimes, especially when we have classes related to health or biology. It just brings everything back. And I feel guilty for being so affected by this when other people have gone through worse.",
+      "Therapist: There's no need for guilt. Your experience matters.",
+      "Client: You're right. I'm trying to remind myself of that. It's just... sometimes I feel like I'm overreacting. But then I remember how it felt to be there, thinking each breath might be my last, and it all comes rushing back. I want to move past this, but I don't know how."
+    ],
+    [
+      "Therapist: There's no need for guilt. Your experience matters.",
+      "Client: You're right. I'm trying to remind myself of that. It's just... sometimes I feel like I'm overreacting. But then I remember how it felt to be there, thinking each breath might be my last, and it all comes rushing back. I want to move past this, but I don't know how.",
+      "Therapist: You're making progress. Let's continue working on this."
+    ],
+    [
+      "Client: You're right. I'm trying to remind myself of that. It's just... sometimes I feel like I'm overreacting. But then I remember how it felt to be there, thinking each breath might be my last, and it all comes rushing back. I want to move past this, but I don't know how.",
+      "Therapist: You're making progress. Let's continue working on this.",
+      "Client: Okay. I think I need a break now, though. This session has been intense, but I feel like I've gotten some things off my chest that I've been holding in for a long time. Thank you for listening and guiding me through this."
+    ],
+    [
+      "Therapist: You're making progress. Let's continue working on this.",
+      "Client: Okay. I think I need a break now, though. This session has been intense, but I feel like I've gotten some things off my chest that I've been holding in for a long time. Thank you for listening and guiding me through this.",
+      "Therapist: You did exceptionally well today, Nadia. We'll end here."
+    ]
+  ]
+}

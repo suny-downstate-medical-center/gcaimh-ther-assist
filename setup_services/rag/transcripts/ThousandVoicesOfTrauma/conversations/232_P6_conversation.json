@@ -1,0 +1,242 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure. Close your eyes and describe the memory of your imprisonment. Remember to stay present in the moment. What's your initial SUDS rating?",
+    "Client: Okay... I'm closing my eyes. My SUDS is about a 6 right now. I can see the small, dark cell. The air is thick and musty. I hear footsteps echoing down the hallway...",
+    "Therapist: Good. Continue describing what you're experiencing.",
+    "Client: The footsteps are getting louder. My heart is racing. I'm pressed against the cold wall, trying to make myself invisible. The door creaks open, and I see a silhouette... I'm trembling...",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's an 8. I feel like I can't breathe. My chest is so tight.",
+    "Therapist: You're doing well. Keep going.",
+    "Client: The guard enters. His face is stern, emotionless. I can smell cigarette smoke on his uniform. He barks an order, but I can't understand the language. I'm frozen in fear, unsure what to do...",
+    "Therapist: How are you feeling right now?",
+    "Client: Terrified. My palms are sweaty, and I feel nauseous. The room seems to be spinning a bit.",
+    "Therapist: That's normal. What's your SUDS?",
+    "Client: It's a 9. I... I don't know if I can continue.",
+    "Therapist: You're doing great. Try to stay with it. What happens next?",
+    "Client: The guard grabs my arm roughly. I'm being dragged out of the cell. The hallway is blinding after the darkness. Other prisoners are watching silently as I pass. I feel so ashamed, so helpless...",
+    "Therapist: You're very brave. How's your SUDS now?",
+    "Client: Still a 9. My legs feel weak, like they might give out.",
+    "Therapist: That's okay. Keep breathing. What do you see next?",
+    "Client: We're entering an interrogation room. There's a single chair in the center, a bright light above it. The guard pushes me into the chair. I can hear my heart pounding in my ears...",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's down to an 8. I'm still scared, but I'm starting to feel a bit numb.",
+    "Therapist: That's common. Continue when you're ready.",
+    "Client: An officer enters the room. He's carrying a file. He starts asking questions, but I can't focus on the words. I'm staring at his hands, wondering if he's going to hit me. My mouth is so dry...",
+    "Therapist: How are you feeling now?",
+    "Client: Surprisingly, a bit calmer. Maybe a 7? The anticipation was worse than what's actually happening.",
+    "Therapist: That's insightful. What happens next?",
+    "Client: The questioning goes on for hours. I'm exhausted, thirsty. My wrists hurt from the handcuffs. The officer seems frustrated with my answers. He slams his fist on the table, and I flinch...",
+    "Therapist: And your SUDS?",
+    "Client: Back up to an 8. I'm feeling more panicked again.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: The officer leaves the room. I'm alone, but the bright light is still on. Time seems to stand still. I don't know if it's day or night. I'm so tired, but I can't relax...",
+    "Therapist: How are you feeling right now?",
+    "Client: Drained. Hopeless. My SUDS is about a 6 now. I just feel... empty.",
+    "Therapist: That's understandable. We're almost done. Can you describe how it ends?",
+    "Client: Eventually, the guard returns. He roughly pulls me to my feet and leads me back to my cell. As the door closes behind me, I collapse onto the thin mattress. I'm relieved it's over, but terrified it will happen again...",
+    "Therapist: And your final SUDS?",
+    "Client: It's down to a 5. I feel... I don't know. Sad. Angry. Relieved it's over.",
+    "Therapist: You did excellently. Let's start grounding. Open your eyes and look around the room.",
+    "Client: *opens eyes, takes a deep breath* Okay. I'm here. I'm safe.",
+    "Therapist: Well done. How do you feel now?",
+    "Client: Exhausted, but... lighter somehow. Like I've let go of something heavy.",
+    "Therapist: That's great progress. Let's discuss what you experienced."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure. Close your eyes and describe the memory of your imprisonment. Remember to stay present in the moment. What's your initial SUDS rating?",
+      "Client: Okay... I'm closing my eyes. My SUDS is about a 6 right now. I can see the small, dark cell. The air is thick and musty. I hear footsteps echoing down the hallway...",
+      "Therapist: Good. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Okay... I'm closing my eyes. My SUDS is about a 6 right now. I can see the small, dark cell. The air is thick and musty. I hear footsteps echoing down the hallway...",
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: The footsteps are getting louder. My heart is racing. I'm pressed against the cold wall, trying to make myself invisible. The door creaks open, and I see a silhouette... I'm trembling..."
+    ],
+    [
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: The footsteps are getting louder. My heart is racing. I'm pressed against the cold wall, trying to make myself invisible. The door creaks open, and I see a silhouette... I'm trembling...",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: The footsteps are getting louder. My heart is racing. I'm pressed against the cold wall, trying to make myself invisible. The door creaks open, and I see a silhouette... I'm trembling...",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's an 8. I feel like I can't breathe. My chest is so tight."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's an 8. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8. I feel like I can't breathe. My chest is so tight.",
+      "Therapist: You're doing well. Keep going.",
+      "Client: The guard enters. His face is stern, emotionless. I can smell cigarette smoke on his uniform. He barks an order, but I can't understand the language. I'm frozen in fear, unsure what to do..."
+    ],
+    [
+      "Therapist: You're doing well. Keep going.",
+      "Client: The guard enters. His face is stern, emotionless. I can smell cigarette smoke on his uniform. He barks an order, but I can't understand the language. I'm frozen in fear, unsure what to do...",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: The guard enters. His face is stern, emotionless. I can smell cigarette smoke on his uniform. He barks an order, but I can't understand the language. I'm frozen in fear, unsure what to do...",
+      "Therapist: How are you feeling right now?",
+      "Client: Terrified. My palms are sweaty, and I feel nauseous. The room seems to be spinning a bit."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Terrified. My palms are sweaty, and I feel nauseous. The room seems to be spinning a bit.",
+      "Therapist: That's normal. What's your SUDS?"
+    ],
+    [
+      "Client: Terrified. My palms are sweaty, and I feel nauseous. The room seems to be spinning a bit.",
+      "Therapist: That's normal. What's your SUDS?",
+      "Client: It's a 9. I... I don't know if I can continue."
+    ],
+    [
+      "Therapist: That's normal. What's your SUDS?",
+      "Client: It's a 9. I... I don't know if I can continue.",
+      "Therapist: You're doing great. Try to stay with it. What happens next?"
+    ],
+    [
+      "Client: It's a 9. I... I don't know if I can continue.",
+      "Therapist: You're doing great. Try to stay with it. What happens next?",
+      "Client: The guard grabs my arm roughly. I'm being dragged out of the cell. The hallway is blinding after the darkness. Other prisoners are watching silently as I pass. I feel so ashamed, so helpless..."
+    ],
+    [
+      "Therapist: You're doing great. Try to stay with it. What happens next?",
+      "Client: The guard grabs my arm roughly. I'm being dragged out of the cell. The hallway is blinding after the darkness. Other prisoners are watching silently as I pass. I feel so ashamed, so helpless...",
+      "Therapist: You're very brave. How's your SUDS now?"
+    ],
+    [
+      "Client: The guard grabs my arm roughly. I'm being dragged out of the cell. The hallway is blinding after the darkness. Other prisoners are watching silently as I pass. I feel so ashamed, so helpless...",
+      "Therapist: You're very brave. How's your SUDS now?",
+      "Client: Still a 9. My legs feel weak, like they might give out."
+    ],
+    [
+      "Therapist: You're very brave. How's your SUDS now?",
+      "Client: Still a 9. My legs feel weak, like they might give out.",
+      "Therapist: That's okay. Keep breathing. What do you see next?"
+    ],
+    [
+      "Client: Still a 9. My legs feel weak, like they might give out.",
+      "Therapist: That's okay. Keep breathing. What do you see next?",
+      "Client: We're entering an interrogation room. There's a single chair in the center, a bright light above it. The guard pushes me into the chair. I can hear my heart pounding in my ears..."
+    ],
+    [
+      "Therapist: That's okay. Keep breathing. What do you see next?",
+      "Client: We're entering an interrogation room. There's a single chair in the center, a bright light above it. The guard pushes me into the chair. I can hear my heart pounding in my ears...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: We're entering an interrogation room. There's a single chair in the center, a bright light above it. The guard pushes me into the chair. I can hear my heart pounding in my ears...",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's down to an 8. I'm still scared, but I'm starting to feel a bit numb."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's down to an 8. I'm still scared, but I'm starting to feel a bit numb.",
+      "Therapist: That's common. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's down to an 8. I'm still scared, but I'm starting to feel a bit numb.",
+      "Therapist: That's common. Continue when you're ready.",
+      "Client: An officer enters the room. He's carrying a file. He starts asking questions, but I can't focus on the words. I'm staring at his hands, wondering if he's going to hit me. My mouth is so dry..."
+    ],
+    [
+      "Therapist: That's common. Continue when you're ready.",
+      "Client: An officer enters the room. He's carrying a file. He starts asking questions, but I can't focus on the words. I'm staring at his hands, wondering if he's going to hit me. My mouth is so dry...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: An officer enters the room. He's carrying a file. He starts asking questions, but I can't focus on the words. I'm staring at his hands, wondering if he's going to hit me. My mouth is so dry...",
+      "Therapist: How are you feeling now?",
+      "Client: Surprisingly, a bit calmer. Maybe a 7? The anticipation was worse than what's actually happening."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: Surprisingly, a bit calmer. Maybe a 7? The anticipation was worse than what's actually happening.",
+      "Therapist: That's insightful. What happens next?"
+    ],
+    [
+      "Client: Surprisingly, a bit calmer. Maybe a 7? The anticipation was worse than what's actually happening.",
+      "Therapist: That's insightful. What happens next?",
+      "Client: The questioning goes on for hours. I'm exhausted, thirsty. My wrists hurt from the handcuffs. The officer seems frustrated with my answers. He slams his fist on the table, and I flinch..."
+    ],
+    [
+      "Therapist: That's insightful. What happens next?",
+      "Client: The questioning goes on for hours. I'm exhausted, thirsty. My wrists hurt from the handcuffs. The officer seems frustrated with my answers. He slams his fist on the table, and I flinch...",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: The questioning goes on for hours. I'm exhausted, thirsty. My wrists hurt from the handcuffs. The officer seems frustrated with my answers. He slams his fist on the table, and I flinch...",
+      "Therapist: And your SUDS?",
+      "Client: Back up to an 8. I'm feeling more panicked again."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: Back up to an 8. I'm feeling more panicked again.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: Back up to an 8. I'm feeling more panicked again.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The officer leaves the room. I'm alone, but the bright light is still on. Time seems to stand still. I don't know if it's day or night. I'm so tired, but I can't relax..."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: The officer leaves the room. I'm alone, but the bright light is still on. Time seems to stand still. I don't know if it's day or night. I'm so tired, but I can't relax...",
+      "Therapist: How are you feeling right now?"
+    ],
+    [
+      "Client: The officer leaves the room. I'm alone, but the bright light is still on. Time seems to stand still. I don't know if it's day or night. I'm so tired, but I can't relax...",
+      "Therapist: How are you feeling right now?",
+      "Client: Drained. Hopeless. My SUDS is about a 6 now. I just feel... empty."
+    ],
+    [
+      "Therapist: How are you feeling right now?",
+      "Client: Drained. Hopeless. My SUDS is about a 6 now. I just feel... empty.",
+      "Therapist: That's understandable. We're almost done. Can you describe how it ends?"
+    ],
+    [
+      "Client: Drained. Hopeless. My SUDS is about a 6 now. I just feel... empty.",
+      "Therapist: That's understandable. We're almost done. Can you describe how it ends?",
+      "Client: Eventually, the guard returns. He roughly pulls me to my feet and leads me back to my cell. As the door closes behind me, I collapse onto the thin mattress. I'm relieved it's over, but terrified it will happen again..."
+    ],
+    [
+      "Therapist: That's understandable. We're almost done. Can you describe how it ends?",
+      "Client: Eventually, the guard returns. He roughly pulls me to my feet and leads me back to my cell. As the door closes behind me, I collapse onto the thin mattress. I'm relieved it's over, but terrified it will happen again...",
+      "Therapist: And your final SUDS?"
+    ],
+    [
+      "Client: Eventually, the guard returns. He roughly pulls me to my feet and leads me back to my cell. As the door closes behind me, I collapse onto the thin mattress. I'm relieved it's over, but terrified it will happen again...",
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 5. I feel... I don't know. Sad. Angry. Relieved it's over."
+    ],
+    [
+      "Therapist: And your final SUDS?",
+      "Client: It's down to a 5. I feel... I don't know. Sad. Angry. Relieved it's over.",
+      "Therapist: You did excellently. Let's start grounding. Open your eyes and look around the room."
+    ],
+    [
+      "Client: It's down to a 5. I feel... I don't know. Sad. Angry. Relieved it's over.",
+      "Therapist: You did excellently. Let's start grounding. Open your eyes and look around the room.",
+      "Client: *opens eyes, takes a deep breath* Okay. I'm here. I'm safe."
+    ],
+    [
+      "Therapist: You did excellently. Let's start grounding. Open your eyes and look around the room.",
+      "Client: *opens eyes, takes a deep breath* Okay. I'm here. I'm safe.",
+      "Therapist: Well done. How do you feel now?"
+    ],
+    [
+      "Client: *opens eyes, takes a deep breath* Okay. I'm here. I'm safe.",
+      "Therapist: Well done. How do you feel now?",
+      "Client: Exhausted, but... lighter somehow. Like I've let go of something heavy."
+    ],
+    [
+      "Therapist: Well done. How do you feel now?",
+      "Client: Exhausted, but... lighter somehow. Like I've let go of something heavy.",
+      "Therapist: That's great progress. Let's discuss what you experienced."
+    ]
+  ]
+}

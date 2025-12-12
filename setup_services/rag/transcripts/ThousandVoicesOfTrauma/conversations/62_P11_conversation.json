@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after going through that memory today, Mr. Singh?",
+    "Client: I... it's hard to put into words, doctor. I feel drained, like I've run a marathon. My hands are still shaking a bit. It's strange, you know? I've lived with this memory for so long, but reliving it like that... it feels different.",
+    "Therapist: Different how?",
+    "Client: Well, it's more... immediate, I suppose. When I usually think about that night, it's like watching an old film. But today, it was like I was there again. I could smell the curry my wife had made for dinner, hear the clock ticking on the wall. It's... unsettling.",
+    "Therapist: What stood out most to you?",
+    "Client: The sound of glass breaking. When my son threw that vase at his wife... I can still hear it shattering. It's funny, isn't it? Out of everything, that's what sticks with me. Not the shouting or the crying, but that sound of breaking glass.",
+    "Therapist: How did that make you feel?",
+    "Client: Helpless. Utterly helpless. I should have done something, said something. But I just stood there, frozen. What kind of father am I? What kind of man?",
+    "Therapist: It's common to feel that way. How do you think this relates to your current symptoms?",
+    "Client: I... I suppose it's why I can't stand conflict now. Even a raised voice makes me panic. And the guilt... it eats at me. Maybe that's why I've been so down lately. I failed them both that night.",
+    "Therapist: You're making important connections. What else?",
+    "Client: I've been avoiding my son, you know. He's tried to reconnect, but I... I can't face him. Every time I see him, I'm back in that moment. It's easier to be alone.",
+    "Therapist: How has that isolation affected you?",
+    "Client: It's... lonely. Very lonely. Especially since my wife passed. But it feels safer, somehow. No risk of disappointing anyone else.",
+    "Therapist: I hear you. What do you think about challenging that belief?",
+    "Client: Challenge it? I... I'm not sure. The thought of facing my son, it makes my heart race. But... I miss him. And my grandchildren. Maybe... maybe it's time to try?",
+    "Therapist: That's brave of you to consider. How might you start?",
+    "Client: Perhaps... a phone call? Just to hear his voice. Baby steps, right?",
+    "Therapist: Excellent idea. How are you feeling now?",
+    "Client: Tired, but... lighter, somehow. Like I've set down a heavy bag I've been carrying. Is that normal?",
+    "Therapist: Very normal. What's your takeaway from today?",
+    "Client: That maybe... maybe I'm not as helpless now as I was then. That I can choose to act differently. It's terrifying, but also... hopeful? Does that make sense?",
+    "Therapist: It makes perfect sense. Well done today.",
+    "Client: Thank you, doctor. I... I think I'm ready to go home now. Same time next week?",
+    "Therapist: Yes, see you then. Take care, Mr. Singh."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after going through that memory today, Mr. Singh?",
+      "Client: I... it's hard to put into words, doctor. I feel drained, like I've run a marathon. My hands are still shaking a bit. It's strange, you know? I've lived with this memory for so long, but reliving it like that... it feels different.",
+      "Therapist: Different how?"
+    ],
+    [
+      "Client: I... it's hard to put into words, doctor. I feel drained, like I've run a marathon. My hands are still shaking a bit. It's strange, you know? I've lived with this memory for so long, but reliving it like that... it feels different.",
+      "Therapist: Different how?",
+      "Client: Well, it's more... immediate, I suppose. When I usually think about that night, it's like watching an old film. But today, it was like I was there again. I could smell the curry my wife had made for dinner, hear the clock ticking on the wall. It's... unsettling."
+    ],
+    [
+      "Therapist: Different how?",
+      "Client: Well, it's more... immediate, I suppose. When I usually think about that night, it's like watching an old film. But today, it was like I was there again. I could smell the curry my wife had made for dinner, hear the clock ticking on the wall. It's... unsettling.",
+      "Therapist: What stood out most to you?"
+    ],
+    [
+      "Client: Well, it's more... immediate, I suppose. When I usually think about that night, it's like watching an old film. But today, it was like I was there again. I could smell the curry my wife had made for dinner, hear the clock ticking on the wall. It's... unsettling.",
+      "Therapist: What stood out most to you?",
+      "Client: The sound of glass breaking. When my son threw that vase at his wife... I can still hear it shattering. It's funny, isn't it? Out of everything, that's what sticks with me. Not the shouting or the crying, but that sound of breaking glass."
+    ],
+    [
+      "Therapist: What stood out most to you?",
+      "Client: The sound of glass breaking. When my son threw that vase at his wife... I can still hear it shattering. It's funny, isn't it? Out of everything, that's what sticks with me. Not the shouting or the crying, but that sound of breaking glass.",
+      "Therapist: How did that make you feel?"
+    ],
+    [
+      "Client: The sound of glass breaking. When my son threw that vase at his wife... I can still hear it shattering. It's funny, isn't it? Out of everything, that's what sticks with me. Not the shouting or the crying, but that sound of breaking glass.",
+      "Therapist: How did that make you feel?",
+      "Client: Helpless. Utterly helpless. I should have done something, said something. But I just stood there, frozen. What kind of father am I? What kind of man?"
+    ],
+    [
+      "Therapist: How did that make you feel?",
+      "Client: Helpless. Utterly helpless. I should have done something, said something. But I just stood there, frozen. What kind of father am I? What kind of man?",
+      "Therapist: It's common to feel that way. How do you think this relates to your current symptoms?"
+    ],
+    [
+      "Client: Helpless. Utterly helpless. I should have done something, said something. But I just stood there, frozen. What kind of father am I? What kind of man?",
+      "Therapist: It's common to feel that way. How do you think this relates to your current symptoms?",
+      "Client: I... I suppose it's why I can't stand conflict now. Even a raised voice makes me panic. And the guilt... it eats at me. Maybe that's why I've been so down lately. I failed them both that night."
+    ],
+    [
+      "Therapist: It's common to feel that way. How do you think this relates to your current symptoms?",
+      "Client: I... I suppose it's why I can't stand conflict now. Even a raised voice makes me panic. And the guilt... it eats at me. Maybe that's why I've been so down lately. I failed them both that night.",
+      "Therapist: You're making important connections. What else?"
+    ],
+    [
+      "Client: I... I suppose it's why I can't stand conflict now. Even a raised voice makes me panic. And the guilt... it eats at me. Maybe that's why I've been so down lately. I failed them both that night.",
+      "Therapist: You're making important connections. What else?",
+      "Client: I've been avoiding my son, you know. He's tried to reconnect, but I... I can't face him. Every time I see him, I'm back in that moment. It's easier to be alone."
+    ],
+    [
+      "Therapist: You're making important connections. What else?",
+      "Client: I've been avoiding my son, you know. He's tried to reconnect, but I... I can't face him. Every time I see him, I'm back in that moment. It's easier to be alone.",
+      "Therapist: How has that isolation affected you?"
+    ],
+    [
+      "Client: I've been avoiding my son, you know. He's tried to reconnect, but I... I can't face him. Every time I see him, I'm back in that moment. It's easier to be alone.",
+      "Therapist: How has that isolation affected you?",
+      "Client: It's... lonely. Very lonely. Especially since my wife passed. But it feels safer, somehow. No risk of disappointing anyone else."
+    ],
+    [
+      "Therapist: How has that isolation affected you?",
+      "Client: It's... lonely. Very lonely. Especially since my wife passed. But it feels safer, somehow. No risk of disappointing anyone else.",
+      "Therapist: I hear you. What do you think about challenging that belief?"
+    ],
+    [
+      "Client: It's... lonely. Very lonely. Especially since my wife passed. But it feels safer, somehow. No risk of disappointing anyone else.",
+      "Therapist: I hear you. What do you think about challenging that belief?",
+      "Client: Challenge it? I... I'm not sure. The thought of facing my son, it makes my heart race. But... I miss him. And my grandchildren. Maybe... maybe it's time to try?"
+    ],
+    [
+      "Therapist: I hear you. What do you think about challenging that belief?",
+      "Client: Challenge it? I... I'm not sure. The thought of facing my son, it makes my heart race. But... I miss him. And my grandchildren. Maybe... maybe it's time to try?",
+      "Therapist: That's brave of you to consider. How might you start?"
+    ],
+    [
+      "Client: Challenge it? I... I'm not sure. The thought of facing my son, it makes my heart race. But... I miss him. And my grandchildren. Maybe... maybe it's time to try?",
+      "Therapist: That's brave of you to consider. How might you start?",
+      "Client: Perhaps... a phone call? Just to hear his voice. Baby steps, right?"
+    ],
+    [
+      "Therapist: That's brave of you to consider. How might you start?",
+      "Client: Perhaps... a phone call? Just to hear his voice. Baby steps, right?",
+      "Therapist: Excellent idea. How are you feeling now?"
+    ],
+    [
+      "Client: Perhaps... a phone call? Just to hear his voice. Baby steps, right?",
+      "Therapist: Excellent idea. How are you feeling now?",
+      "Client: Tired, but... lighter, somehow. Like I've set down a heavy bag I've been carrying. Is that normal?"
+    ],
+    [
+      "Therapist: Excellent idea. How are you feeling now?",
+      "Client: Tired, but... lighter, somehow. Like I've set down a heavy bag I've been carrying. Is that normal?",
+      "Therapist: Very normal. What's your takeaway from today?"
+    ],
+    [
+      "Client: Tired, but... lighter, somehow. Like I've set down a heavy bag I've been carrying. Is that normal?",
+      "Therapist: Very normal. What's your takeaway from today?",
+      "Client: That maybe... maybe I'm not as helpless now as I was then. That I can choose to act differently. It's terrifying, but also... hopeful? Does that make sense?"
+    ],
+    [
+      "Therapist: Very normal. What's your takeaway from today?",
+      "Client: That maybe... maybe I'm not as helpless now as I was then. That I can choose to act differently. It's terrifying, but also... hopeful? Does that make sense?",
+      "Therapist: It makes perfect sense. Well done today."
+    ],
+    [
+      "Client: That maybe... maybe I'm not as helpless now as I was then. That I can choose to act differently. It's terrifying, but also... hopeful? Does that make sense?",
+      "Therapist: It makes perfect sense. Well done today.",
+      "Client: Thank you, doctor. I... I think I'm ready to go home now. Same time next week?"
+    ],
+    [
+      "Therapist: It makes perfect sense. Well done today.",
+      "Client: Thank you, doctor. I... I think I'm ready to go home now. Same time next week?",
+      "Therapist: Yes, see you then. Take care, Mr. Singh."
+    ]
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure?",
+    "Client: I... I'm not sure. It's a lot to process. The memory of that animal attack during my deployment... it's still so vivid. I can feel my heart racing even now.",
+    "Therapist: Take a deep breath. What stood out to you?",
+    "Client: The sounds. The growling, my teammates shouting... it was chaos. I felt so helpless, you know? Like I was frozen in place while everything happened around me.",
+    "Therapist: Mm-hmm. How did reliving that feel today?",
+    "Client: Honestly? Terrifying. But... also different. I noticed I could breathe through it this time. It's still intense, but I felt more... in control, I guess?",
+    "Therapist: That's significant progress. How does this connect to your daily life?",
+    "Client: Well, I've been jumpy lately, especially around dogs. But going through this memory... I'm starting to see it's separate from now. It's in the past.",
+    "Therapist: Good insight. What else?",
+    "Client: I... I've been using substances to numb these feelings. But facing them head-on, it's hard, but... maybe I don't need to escape so much?",
+    "Therapist: That's a powerful realization. How might you apply this?",
+    "Client: I could... try to face my fears more? Like, maybe start with smaller dogs, work my way up. And... maybe cut back on the drinking. It's not really helping.",
+    "Therapist: Sounds like a thoughtful plan. How do you feel about continuing?",
+    "Client: It's scary, but... I want to get better. For myself, for my partner. I'm tired of letting this control me. I want to feel... normal again, you know?",
+    "Therapist: Your determination is admirable. What support do you need?",
+    "Client: I think... maybe talking to my partner about this? And... can we work on more coping strategies for when the memories hit?",
+    "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+    "Client: Drained, but... okay. Like I've climbed a mountain, but the view's worth it. Thank you for guiding me through this.",
+    "Therapist: You did the hard work. What's your takeaway today?",
+    "Client: That I'm stronger than I thought. And that... maybe there's hope. I can face this, bit by bit. It won't be easy, but... I'm not alone in this fight.",
+    "Therapist: That's a powerful conclusion. Shall we end here?",
+    "Client: Yeah, I think so. I need to process all this. But... I'm looking forward to our next session. Is that weird?",
+    "Therapist: Not at all. It shows your commitment. Take care until next time.",
+    "Client: Thank you. I will. See you next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure?",
+      "Client: I... I'm not sure. It's a lot to process. The memory of that animal attack during my deployment... it's still so vivid. I can feel my heart racing even now.",
+      "Therapist: Take a deep breath. What stood out to you?"
+    ],
+    [
+      "Client: I... I'm not sure. It's a lot to process. The memory of that animal attack during my deployment... it's still so vivid. I can feel my heart racing even now.",
+      "Therapist: Take a deep breath. What stood out to you?",
+      "Client: The sounds. The growling, my teammates shouting... it was chaos. I felt so helpless, you know? Like I was frozen in place while everything happened around me."
+    ],
+    [
+      "Therapist: Take a deep breath. What stood out to you?",
+      "Client: The sounds. The growling, my teammates shouting... it was chaos. I felt so helpless, you know? Like I was frozen in place while everything happened around me.",
+      "Therapist: Mm-hmm. How did reliving that feel today?"
+    ],
+    [
+      "Client: The sounds. The growling, my teammates shouting... it was chaos. I felt so helpless, you know? Like I was frozen in place while everything happened around me.",
+      "Therapist: Mm-hmm. How did reliving that feel today?",
+      "Client: Honestly? Terrifying. But... also different. I noticed I could breathe through it this time. It's still intense, but I felt more... in control, I guess?"
+    ],
+    [
+      "Therapist: Mm-hmm. How did reliving that feel today?",
+      "Client: Honestly? Terrifying. But... also different. I noticed I could breathe through it this time. It's still intense, but I felt more... in control, I guess?",
+      "Therapist: That's significant progress. How does this connect to your daily life?"
+    ],
+    [
+      "Client: Honestly? Terrifying. But... also different. I noticed I could breathe through it this time. It's still intense, but I felt more... in control, I guess?",
+      "Therapist: That's significant progress. How does this connect to your daily life?",
+      "Client: Well, I've been jumpy lately, especially around dogs. But going through this memory... I'm starting to see it's separate from now. It's in the past."
+    ],
+    [
+      "Therapist: That's significant progress. How does this connect to your daily life?",
+      "Client: Well, I've been jumpy lately, especially around dogs. But going through this memory... I'm starting to see it's separate from now. It's in the past.",
+      "Therapist: Good insight. What else?"
+    ],
+    [
+      "Client: Well, I've been jumpy lately, especially around dogs. But going through this memory... I'm starting to see it's separate from now. It's in the past.",
+      "Therapist: Good insight. What else?",
+      "Client: I... I've been using substances to numb these feelings. But facing them head-on, it's hard, but... maybe I don't need to escape so much?"
+    ],
+    [
+      "Therapist: Good insight. What else?",
+      "Client: I... I've been using substances to numb these feelings. But facing them head-on, it's hard, but... maybe I don't need to escape so much?",
+      "Therapist: That's a powerful realization. How might you apply this?"
+    ],
+    [
+      "Client: I... I've been using substances to numb these feelings. But facing them head-on, it's hard, but... maybe I don't need to escape so much?",
+      "Therapist: That's a powerful realization. How might you apply this?",
+      "Client: I could... try to face my fears more? Like, maybe start with smaller dogs, work my way up. And... maybe cut back on the drinking. It's not really helping."
+    ],
+    [
+      "Therapist: That's a powerful realization. How might you apply this?",
+      "Client: I could... try to face my fears more? Like, maybe start with smaller dogs, work my way up. And... maybe cut back on the drinking. It's not really helping.",
+      "Therapist: Sounds like a thoughtful plan. How do you feel about continuing?"
+    ],
+    [
+      "Client: I could... try to face my fears more? Like, maybe start with smaller dogs, work my way up. And... maybe cut back on the drinking. It's not really helping.",
+      "Therapist: Sounds like a thoughtful plan. How do you feel about continuing?",
+      "Client: It's scary, but... I want to get better. For myself, for my partner. I'm tired of letting this control me. I want to feel... normal again, you know?"
+    ],
+    [
+      "Therapist: Sounds like a thoughtful plan. How do you feel about continuing?",
+      "Client: It's scary, but... I want to get better. For myself, for my partner. I'm tired of letting this control me. I want to feel... normal again, you know?",
+      "Therapist: Your determination is admirable. What support do you need?"
+    ],
+    [
+      "Client: It's scary, but... I want to get better. For myself, for my partner. I'm tired of letting this control me. I want to feel... normal again, you know?",
+      "Therapist: Your determination is admirable. What support do you need?",
+      "Client: I think... maybe talking to my partner about this? And... can we work on more coping strategies for when the memories hit?"
+    ],
+    [
+      "Therapist: Your determination is admirable. What support do you need?",
+      "Client: I think... maybe talking to my partner about this? And... can we work on more coping strategies for when the memories hit?",
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?"
+    ],
+    [
+      "Client: I think... maybe talking to my partner about this? And... can we work on more coping strategies for when the memories hit?",
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+      "Client: Drained, but... okay. Like I've climbed a mountain, but the view's worth it. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: Absolutely. We'll focus on that next time. How are you feeling now?",
+      "Client: Drained, but... okay. Like I've climbed a mountain, but the view's worth it. Thank you for guiding me through this.",
+      "Therapist: You did the hard work. What's your takeaway today?"
+    ],
+    [
+      "Client: Drained, but... okay. Like I've climbed a mountain, but the view's worth it. Thank you for guiding me through this.",
+      "Therapist: You did the hard work. What's your takeaway today?",
+      "Client: That I'm stronger than I thought. And that... maybe there's hope. I can face this, bit by bit. It won't be easy, but... I'm not alone in this fight."
+    ],
+    [
+      "Therapist: You did the hard work. What's your takeaway today?",
+      "Client: That I'm stronger than I thought. And that... maybe there's hope. I can face this, bit by bit. It won't be easy, but... I'm not alone in this fight.",
+      "Therapist: That's a powerful conclusion. Shall we end here?"
+    ],
+    [
+      "Client: That I'm stronger than I thought. And that... maybe there's hope. I can face this, bit by bit. It won't be easy, but... I'm not alone in this fight.",
+      "Therapist: That's a powerful conclusion. Shall we end here?",
+      "Client: Yeah, I think so. I need to process all this. But... I'm looking forward to our next session. Is that weird?"
+    ],
+    [
+      "Therapist: That's a powerful conclusion. Shall we end here?",
+      "Client: Yeah, I think so. I need to process all this. But... I'm looking forward to our next session. Is that weird?",
+      "Therapist: Not at all. It shows your commitment. Take care until next time."
+    ],
+    [
+      "Client: Yeah, I think so. I need to process all this. But... I'm looking forward to our next session. Is that weird?",
+      "Therapist: Not at all. It shows your commitment. Take care until next time.",
+      "Client: Thank you. I will. See you next week."
+    ]
+  ]
+}

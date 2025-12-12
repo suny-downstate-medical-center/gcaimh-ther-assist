@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, Raj. How are you feeling today?",
+    "Client: I'm... not great, to be honest. Work's been stressful, and I've been having more nightmares about the incident. It's affecting my relationship too. My partner's trying to be supportive, but I can tell she's getting frustrated with my mood swings.",
+    "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+    "Client: I'm not sure. What exactly does that involve? It sounds a bit intimidating.",
+    "Therapist: It's revisiting the traumatic memory in detail. We'll go slowly. How do you feel about that?",
+    "Client: Revisiting the memory? I... I don't know if I can do that. Just thinking about it makes my heart race. Is this really necessary?",
+    "Therapist: It's a crucial part of healing. What concerns you most?",
+    "Client: I'm worried I'll lose control. What if I can't handle reliving it? And... what if it makes things worse instead of better?",
+    "Therapist: Those are valid concerns. We'll go at your pace. How can I support you?",
+    "Client: I appreciate that. Maybe... could you explain more about why this is important? And what should I expect to feel during and after?",
+    "Therapist: Certainly. Exposure helps process the memory. You might feel anxious, but it'll decrease over time. What else?",
+    "Client: That makes sense, I guess. Will this help with the nightmares and flashbacks? They've been getting more intense lately, especially after arguments with my partner about the domestic violence we witnessed.",
+    "Therapist: Yes, it often reduces those symptoms. Your courage is commendable. Shall we begin?",
+    "Client: Okay, I think I'm ready. But can we stop if it gets too overwhelming? And... will you be here with me the whole time?",
+    "Therapist: Absolutely. We can pause anytime. I'll guide you throughout. How does that sound?",
+    "Client: That's reassuring. I'm still nervous, but I trust you. I want to get better, for myself and my relationship. Let's do this.",
+    "Therapist: Excellent. Find a comfortable position. We'll start with some breathing exercises.",
+    "Client: Alright, I'm sitting comfortably. My hands are a bit shaky, but I'm trying to stay calm. What should I do first?",
+    "Therapist: Close your eyes. Take a deep breath. When you're ready, describe the scene.",
+    "Client: Okay... I'm closing my eyes. *deep breath* I... I can see our apartment. It's late evening. We're having dinner when we hear shouting from next door..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, Raj. How are you feeling today?",
+      "Client: I'm... not great, to be honest. Work's been stressful, and I've been having more nightmares about the incident. It's affecting my relationship too. My partner's trying to be supportive, but I can tell she's getting frustrated with my mood swings.",
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?"
+    ],
+    [
+      "Client: I'm... not great, to be honest. Work's been stressful, and I've been having more nightmares about the incident. It's affecting my relationship too. My partner's trying to be supportive, but I can tell she's getting frustrated with my mood swings.",
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that involve? It sounds a bit intimidating."
+    ],
+    [
+      "Therapist: I'm sorry to hear that. Today, we'll start imaginal exposure. Are you ready?",
+      "Client: I'm not sure. What exactly does that involve? It sounds a bit intimidating.",
+      "Therapist: It's revisiting the traumatic memory in detail. We'll go slowly. How do you feel about that?"
+    ],
+    [
+      "Client: I'm not sure. What exactly does that involve? It sounds a bit intimidating.",
+      "Therapist: It's revisiting the traumatic memory in detail. We'll go slowly. How do you feel about that?",
+      "Client: Revisiting the memory? I... I don't know if I can do that. Just thinking about it makes my heart race. Is this really necessary?"
+    ],
+    [
+      "Therapist: It's revisiting the traumatic memory in detail. We'll go slowly. How do you feel about that?",
+      "Client: Revisiting the memory? I... I don't know if I can do that. Just thinking about it makes my heart race. Is this really necessary?",
+      "Therapist: It's a crucial part of healing. What concerns you most?"
+    ],
+    [
+      "Client: Revisiting the memory? I... I don't know if I can do that. Just thinking about it makes my heart race. Is this really necessary?",
+      "Therapist: It's a crucial part of healing. What concerns you most?",
+      "Client: I'm worried I'll lose control. What if I can't handle reliving it? And... what if it makes things worse instead of better?"
+    ],
+    [
+      "Therapist: It's a crucial part of healing. What concerns you most?",
+      "Client: I'm worried I'll lose control. What if I can't handle reliving it? And... what if it makes things worse instead of better?",
+      "Therapist: Those are valid concerns. We'll go at your pace. How can I support you?"
+    ],
+    [
+      "Client: I'm worried I'll lose control. What if I can't handle reliving it? And... what if it makes things worse instead of better?",
+      "Therapist: Those are valid concerns. We'll go at your pace. How can I support you?",
+      "Client: I appreciate that. Maybe... could you explain more about why this is important? And what should I expect to feel during and after?"
+    ],
+    [
+      "Therapist: Those are valid concerns. We'll go at your pace. How can I support you?",
+      "Client: I appreciate that. Maybe... could you explain more about why this is important? And what should I expect to feel during and after?",
+      "Therapist: Certainly. Exposure helps process the memory. You might feel anxious, but it'll decrease over time. What else?"
+    ],
+    [
+      "Client: I appreciate that. Maybe... could you explain more about why this is important? And what should I expect to feel during and after?",
+      "Therapist: Certainly. Exposure helps process the memory. You might feel anxious, but it'll decrease over time. What else?",
+      "Client: That makes sense, I guess. Will this help with the nightmares and flashbacks? They've been getting more intense lately, especially after arguments with my partner about the domestic violence we witnessed."
+    ],
+    [
+      "Therapist: Certainly. Exposure helps process the memory. You might feel anxious, but it'll decrease over time. What else?",
+      "Client: That makes sense, I guess. Will this help with the nightmares and flashbacks? They've been getting more intense lately, especially after arguments with my partner about the domestic violence we witnessed.",
+      "Therapist: Yes, it often reduces those symptoms. Your courage is commendable. Shall we begin?"
+    ],
+    [
+      "Client: That makes sense, I guess. Will this help with the nightmares and flashbacks? They've been getting more intense lately, especially after arguments with my partner about the domestic violence we witnessed.",
+      "Therapist: Yes, it often reduces those symptoms. Your courage is commendable. Shall we begin?",
+      "Client: Okay, I think I'm ready. But can we stop if it gets too overwhelming? And... will you be here with me the whole time?"
+    ],
+    [
+      "Therapist: Yes, it often reduces those symptoms. Your courage is commendable. Shall we begin?",
+      "Client: Okay, I think I'm ready. But can we stop if it gets too overwhelming? And... will you be here with me the whole time?",
+      "Therapist: Absolutely. We can pause anytime. I'll guide you throughout. How does that sound?"
+    ],
+    [
+      "Client: Okay, I think I'm ready. But can we stop if it gets too overwhelming? And... will you be here with me the whole time?",
+      "Therapist: Absolutely. We can pause anytime. I'll guide you throughout. How does that sound?",
+      "Client: That's reassuring. I'm still nervous, but I trust you. I want to get better, for myself and my relationship. Let's do this."
+    ],
+    [
+      "Therapist: Absolutely. We can pause anytime. I'll guide you throughout. How does that sound?",
+      "Client: That's reassuring. I'm still nervous, but I trust you. I want to get better, for myself and my relationship. Let's do this.",
+      "Therapist: Excellent. Find a comfortable position. We'll start with some breathing exercises."
+    ],
+    [
+      "Client: That's reassuring. I'm still nervous, but I trust you. I want to get better, for myself and my relationship. Let's do this.",
+      "Therapist: Excellent. Find a comfortable position. We'll start with some breathing exercises.",
+      "Client: Alright, I'm sitting comfortably. My hands are a bit shaky, but I'm trying to stay calm. What should I do first?"
+    ],
+    [
+      "Therapist: Excellent. Find a comfortable position. We'll start with some breathing exercises.",
+      "Client: Alright, I'm sitting comfortably. My hands are a bit shaky, but I'm trying to stay calm. What should I do first?",
+      "Therapist: Close your eyes. Take a deep breath. When you're ready, describe the scene."
+    ],
+    [
+      "Client: Alright, I'm sitting comfortably. My hands are a bit shaky, but I'm trying to stay calm. What should I do first?",
+      "Therapist: Close your eyes. Take a deep breath. When you're ready, describe the scene.",
+      "Client: Okay... I'm closing my eyes. *deep breath* I... I can see our apartment. It's late evening. We're having dinner when we hear shouting from next door..."
+    ]
+  ]
+}

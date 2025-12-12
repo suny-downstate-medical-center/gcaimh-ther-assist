@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome back, John. Are you ready to begin our imaginal exposure exercise?",
+    "Client: I think so. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's understandable. Let's start with your SUDS rating.",
+    "Client: I'd say about a 4 right now. Just thinking about it makes me tense up a little.",
+    "Therapist: Okay. Begin when you're ready.",
+    "Client: Alright... I'm in the hospital room. The beeping of the machines is so loud. I can smell the antiseptic. My wife... ex-wife now... she's holding my hand. The doctor comes in with my test results. His face is grim. I can feel my heart racing...",
+    "Therapist: SUDS?",
+    "Client: It's up to a 6 now. My palms are sweating just thinking about it.",
+    "Therapist: Continue. You're doing well.",
+    "Client: The doctor starts talking about treatment options, but all I can think about is how scared I am. Will I see my kids grow up? Will I be able to work? My wife squeezes my hand tighter, but I feel so alone...",
+    "Therapist: How are you feeling now?",
+    "Client: It's... it's getting harder. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (inhales deeply) Okay... The doctor keeps talking, but his words are a blur. I'm thinking about all the things I might miss out on. My daughter's graduation, my son's first game... I feel so helpless and angry. Why me? What did I do to deserve this?",
+    "Therapist: SUDS rating?",
+    "Client: It's still an 8. My hands are shaking. I remember looking at my wife, seeing the fear in her eyes. I wanted to be strong for her, but I felt like I was crumbling inside.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: After the doctor leaves, we just sit there in silence. I can hear my wife crying softly, and I don't know what to say. I feel like I've let her down somehow. Like I'm not the man she married anymore. The weight of it all is crushing me...",
+    "Therapist: How's your distress level now?",
+    "Client: It's... it's actually gone down a bit. Maybe a 7? Talking about it... it's hard, but it's also releasing something.",
+    "Therapist: That's normal. Continue when you're ready.",
+    "Client: We leave the hospital, and the sunlight hits my face. It feels surreal, like the world shouldn't be going on as normal. People are walking by, laughing, living their lives. And here I am, feeling like my world has ended. I remember thinking, \"Will I ever feel normal again?\"",
+    "Therapist: SUDS?",
+    "Client: It's back up to an 8. Remembering that feeling of hopelessness... it's overwhelming.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: The drive home is silent. I can see my wife glancing at me, worried. I want to reassure her, but I can't find the words. When we get home, I go straight to our bedroom. I sit on the edge of the bed, staring at nothing. That's when it really hits me - everything is going to change. And I'm terrified.",
+    "Therapist: How are you feeling now?",
+    "Client: It's... it's intense. A 9, I think. My heart is pounding, and I feel a lump in my throat.",
+    "Therapist: Take a moment. Breathe. You're safe here.",
+    "Client: (takes a shaky breath) Okay... I remember lying in bed that night, unable to sleep. My wife is next to me, but I feel miles away from her. I'm thinking about all the fights we've had, all the stress... and now this. I wonder if this will be the thing that breaks us. And I hate myself for even thinking that.",
+    "Therapist: SUDS rating?",
+    "Client: It's still high... maybe an 8.5 now? Talking about it... it hurts, but it's also like letting out a breath I've been holding for years.",
+    "Therapist: You're doing incredibly well. Keep going.",
+    "Client: The next few weeks are a blur of doctor's appointments and arguments. I'm angry all the time, lashing out at my wife for little things. I can see the hurt in her eyes, but I can't stop myself. It's like I'm watching our marriage crumble, and I'm powerless to stop it...",
+    "Therapist: How are you feeling now?",
+    "Client: It's... it's actually dropping. Maybe a 7? Talking about it... it's hard, but it's also helping me make sense of things.",
+    "Therapist: That's great progress. We'll stop here for today.",
+    "Client: Thank you. This was tough, but... I think it's helping.",
+    "Therapist: You did excellent work. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome back, John. Are you ready to begin our imaginal exposure exercise?",
+      "Client: I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 right now. Just thinking about it makes me tense up a little."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 right now. Just thinking about it makes me tense up a little.",
+      "Therapist: Okay. Begin when you're ready."
+    ],
+    [
+      "Client: I'd say about a 4 right now. Just thinking about it makes me tense up a little.",
+      "Therapist: Okay. Begin when you're ready.",
+      "Client: Alright... I'm in the hospital room. The beeping of the machines is so loud. I can smell the antiseptic. My wife... ex-wife now... she's holding my hand. The doctor comes in with my test results. His face is grim. I can feel my heart racing..."
+    ],
+    [
+      "Therapist: Okay. Begin when you're ready.",
+      "Client: Alright... I'm in the hospital room. The beeping of the machines is so loud. I can smell the antiseptic. My wife... ex-wife now... she's holding my hand. The doctor comes in with my test results. His face is grim. I can feel my heart racing...",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: Alright... I'm in the hospital room. The beeping of the machines is so loud. I can smell the antiseptic. My wife... ex-wife now... she's holding my hand. The doctor comes in with my test results. His face is grim. I can feel my heart racing...",
+      "Therapist: SUDS?",
+      "Client: It's up to a 6 now. My palms are sweating just thinking about it."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's up to a 6 now. My palms are sweating just thinking about it.",
+      "Therapist: Continue. You're doing well."
+    ],
+    [
+      "Client: It's up to a 6 now. My palms are sweating just thinking about it.",
+      "Therapist: Continue. You're doing well.",
+      "Client: The doctor starts talking about treatment options, but all I can think about is how scared I am. Will I see my kids grow up? Will I be able to work? My wife squeezes my hand tighter, but I feel so alone..."
+    ],
+    [
+      "Therapist: Continue. You're doing well.",
+      "Client: The doctor starts talking about treatment options, but all I can think about is how scared I am. Will I see my kids grow up? Will I be able to work? My wife squeezes my hand tighter, but I feel so alone...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The doctor starts talking about treatment options, but all I can think about is how scared I am. Will I see my kids grow up? Will I be able to work? My wife squeezes my hand tighter, but I feel so alone...",
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's getting harder. Maybe an 8? My chest feels tight, like I can't breathe properly."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's getting harder. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's getting harder. Maybe an 8? My chest feels tight, like I can't breathe properly.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (inhales deeply) Okay... The doctor keeps talking, but his words are a blur. I'm thinking about all the things I might miss out on. My daughter's graduation, my son's first game... I feel so helpless and angry. Why me? What did I do to deserve this?"
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (inhales deeply) Okay... The doctor keeps talking, but his words are a blur. I'm thinking about all the things I might miss out on. My daughter's graduation, my son's first game... I feel so helpless and angry. Why me? What did I do to deserve this?",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: (inhales deeply) Okay... The doctor keeps talking, but his words are a blur. I'm thinking about all the things I might miss out on. My daughter's graduation, my son's first game... I feel so helpless and angry. Why me? What did I do to deserve this?",
+      "Therapist: SUDS rating?",
+      "Client: It's still an 8. My hands are shaking. I remember looking at my wife, seeing the fear in her eyes. I wanted to be strong for her, but I felt like I was crumbling inside."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's still an 8. My hands are shaking. I remember looking at my wife, seeing the fear in her eyes. I wanted to be strong for her, but I felt like I was crumbling inside.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: It's still an 8. My hands are shaking. I remember looking at my wife, seeing the fear in her eyes. I wanted to be strong for her, but I felt like I was crumbling inside.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: After the doctor leaves, we just sit there in silence. I can hear my wife crying softly, and I don't know what to say. I feel like I've let her down somehow. Like I'm not the man she married anymore. The weight of it all is crushing me..."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: After the doctor leaves, we just sit there in silence. I can hear my wife crying softly, and I don't know what to say. I feel like I've let her down somehow. Like I'm not the man she married anymore. The weight of it all is crushing me...",
+      "Therapist: How's your distress level now?"
+    ],
+    [
+      "Client: After the doctor leaves, we just sit there in silence. I can hear my wife crying softly, and I don't know what to say. I feel like I've let her down somehow. Like I'm not the man she married anymore. The weight of it all is crushing me...",
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's actually gone down a bit. Maybe a 7? Talking about it... it's hard, but it's also releasing something."
+    ],
+    [
+      "Therapist: How's your distress level now?",
+      "Client: It's... it's actually gone down a bit. Maybe a 7? Talking about it... it's hard, but it's also releasing something.",
+      "Therapist: That's normal. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's actually gone down a bit. Maybe a 7? Talking about it... it's hard, but it's also releasing something.",
+      "Therapist: That's normal. Continue when you're ready.",
+      "Client: We leave the hospital, and the sunlight hits my face. It feels surreal, like the world shouldn't be going on as normal. People are walking by, laughing, living their lives. And here I am, feeling like my world has ended. I remember thinking, \"Will I ever feel normal again?\""
+    ],
+    [
+      "Therapist: That's normal. Continue when you're ready.",
+      "Client: We leave the hospital, and the sunlight hits my face. It feels surreal, like the world shouldn't be going on as normal. People are walking by, laughing, living their lives. And here I am, feeling like my world has ended. I remember thinking, \"Will I ever feel normal again?\"",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: We leave the hospital, and the sunlight hits my face. It feels surreal, like the world shouldn't be going on as normal. People are walking by, laughing, living their lives. And here I am, feeling like my world has ended. I remember thinking, \"Will I ever feel normal again?\"",
+      "Therapist: SUDS?",
+      "Client: It's back up to an 8. Remembering that feeling of hopelessness... it's overwhelming."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's back up to an 8. Remembering that feeling of hopelessness... it's overwhelming.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: It's back up to an 8. Remembering that feeling of hopelessness... it's overwhelming.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: The drive home is silent. I can see my wife glancing at me, worried. I want to reassure her, but I can't find the words. When we get home, I go straight to our bedroom. I sit on the edge of the bed, staring at nothing. That's when it really hits me - everything is going to change. And I'm terrified."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: The drive home is silent. I can see my wife glancing at me, worried. I want to reassure her, but I can't find the words. When we get home, I go straight to our bedroom. I sit on the edge of the bed, staring at nothing. That's when it really hits me - everything is going to change. And I'm terrified.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The drive home is silent. I can see my wife glancing at me, worried. I want to reassure her, but I can't find the words. When we get home, I go straight to our bedroom. I sit on the edge of the bed, staring at nothing. That's when it really hits me - everything is going to change. And I'm terrified.",
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's intense. A 9, I think. My heart is pounding, and I feel a lump in my throat."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's intense. A 9, I think. My heart is pounding, and I feel a lump in my throat.",
+      "Therapist: Take a moment. Breathe. You're safe here."
+    ],
+    [
+      "Client: It's... it's intense. A 9, I think. My heart is pounding, and I feel a lump in my throat.",
+      "Therapist: Take a moment. Breathe. You're safe here.",
+      "Client: (takes a shaky breath) Okay... I remember lying in bed that night, unable to sleep. My wife is next to me, but I feel miles away from her. I'm thinking about all the fights we've had, all the stress... and now this. I wonder if this will be the thing that breaks us. And I hate myself for even thinking that."
+    ],
+    [
+      "Therapist: Take a moment. Breathe. You're safe here.",
+      "Client: (takes a shaky breath) Okay... I remember lying in bed that night, unable to sleep. My wife is next to me, but I feel miles away from her. I'm thinking about all the fights we've had, all the stress... and now this. I wonder if this will be the thing that breaks us. And I hate myself for even thinking that.",
+      "Therapist: SUDS rating?"
+    ],
+    [
+      "Client: (takes a shaky breath) Okay... I remember lying in bed that night, unable to sleep. My wife is next to me, but I feel miles away from her. I'm thinking about all the fights we've had, all the stress... and now this. I wonder if this will be the thing that breaks us. And I hate myself for even thinking that.",
+      "Therapist: SUDS rating?",
+      "Client: It's still high... maybe an 8.5 now? Talking about it... it hurts, but it's also like letting out a breath I've been holding for years."
+    ],
+    [
+      "Therapist: SUDS rating?",
+      "Client: It's still high... maybe an 8.5 now? Talking about it... it hurts, but it's also like letting out a breath I've been holding for years.",
+      "Therapist: You're doing incredibly well. Keep going."
+    ],
+    [
+      "Client: It's still high... maybe an 8.5 now? Talking about it... it hurts, but it's also like letting out a breath I've been holding for years.",
+      "Therapist: You're doing incredibly well. Keep going.",
+      "Client: The next few weeks are a blur of doctor's appointments and arguments. I'm angry all the time, lashing out at my wife for little things. I can see the hurt in her eyes, but I can't stop myself. It's like I'm watching our marriage crumble, and I'm powerless to stop it..."
+    ],
+    [
+      "Therapist: You're doing incredibly well. Keep going.",
+      "Client: The next few weeks are a blur of doctor's appointments and arguments. I'm angry all the time, lashing out at my wife for little things. I can see the hurt in her eyes, but I can't stop myself. It's like I'm watching our marriage crumble, and I'm powerless to stop it...",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: The next few weeks are a blur of doctor's appointments and arguments. I'm angry all the time, lashing out at my wife for little things. I can see the hurt in her eyes, but I can't stop myself. It's like I'm watching our marriage crumble, and I'm powerless to stop it...",
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's actually dropping. Maybe a 7? Talking about it... it's hard, but it's also helping me make sense of things."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: It's... it's actually dropping. Maybe a 7? Talking about it... it's hard, but it's also helping me make sense of things.",
+      "Therapist: That's great progress. We'll stop here for today."
+    ],
+    [
+      "Client: It's... it's actually dropping. Maybe a 7? Talking about it... it's hard, but it's also helping me make sense of things.",
+      "Therapist: That's great progress. We'll stop here for today.",
+      "Client: Thank you. This was tough, but... I think it's helping."
+    ],
+    [
+      "Therapist: That's great progress. We'll stop here for today.",
+      "Client: Thank you. This was tough, but... I think it's helping.",
+      "Therapist: You did excellent work. We'll continue next session."
+    ]
+  ]
+}

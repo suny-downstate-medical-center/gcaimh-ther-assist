@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Mr. Singh, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+    "Therapist: That's normal. Let's start with your current SUDS rating.",
+    "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+    "Therapist: Okay. Please begin describing the memory.",
+    "Client: It was a quiet evening. I was in my living room, reading the newspaper. Suddenly, I heard shouting from next door. It was my neighbor, Rajesh, yelling at his wife, Priya. The walls were thin, and I could hear everything clearly. I felt my heart starting to race...",
+    "Therapist: How's your SUDS now?",
+    "Client: It's gone up to a 6. My palms are sweating more now.",
+    "Therapist: That's okay. Continue, please.",
+    "Client: The shouting got louder. I heard a crash, like something breaking. Priya was crying, begging him to stop. I... I froze. I didn't know what to do. Should I have intervened? Called the police? I just sat there, paralyzed...",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's an 8. My chest feels tight. I'm having trouble breathing.",
+    "Therapist: Take a deep breath. You're safe here. Keep going.",
+    "Client: I heard Priya scream. There was a loud thud. Then silence. Oh God, I thought he might have killed her. I was shaking, but I still didn't move. What kind of person am I? I should have done something!",
+    "Therapist: Your SUDS?",
+    "Client: It's... it's a 9. I feel so ashamed. My heart is pounding.",
+    "Therapist: It's a difficult memory. You're doing well. Continue.",
+    "Client: After what felt like hours, I heard Priya sobbing quietly. Rajesh stormed out, slamming the door. I wanted to go check on her, but I was too scared. I just sat there, listening to her cry. I've never felt so helpless and cowardly in my life.",
+    "Therapist: Current SUDS?",
+    "Client: Still a 9. I feel sick to my stomach.",
+    "Therapist: That's okay. You're handling this well.",
+    "Client: The next day, I saw Priya outside. She had bruises on her arms. She avoided eye contact with me. I wanted to say something, to apologize for not helping, but I couldn't find the words. I've carried this guilt ever since.",
+    "Therapist: How about now? Your SUDS?",
+    "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+    "Therapist: That's normal. How are you feeling overall?",
+    "Client: Exhausted. Sad. But... also a little relieved to have talked about it.",
+    "Therapist: That's good. Let's take a moment to breathe.",
+    "Client: *deep breath* Thank you. This wasn't easy, but I think it helped.",
+    "Therapist: You did very well. How's your SUDS now?",
+    "Client: It's down to a 5. I feel more... grounded.",
+    "Therapist: Excellent. Let's discuss what you've experienced."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Mr. Singh, let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start with your current SUDS rating."
+    ],
+    [
+      "Client: Yes, I think so. I'm feeling a bit nervous, but I understand why we're doing this.",
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your current SUDS rating.",
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+      "Therapist: Okay. Please begin describing the memory."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10. My hands are a little clammy.",
+      "Therapist: Okay. Please begin describing the memory.",
+      "Client: It was a quiet evening. I was in my living room, reading the newspaper. Suddenly, I heard shouting from next door. It was my neighbor, Rajesh, yelling at his wife, Priya. The walls were thin, and I could hear everything clearly. I felt my heart starting to race..."
+    ],
+    [
+      "Therapist: Okay. Please begin describing the memory.",
+      "Client: It was a quiet evening. I was in my living room, reading the newspaper. Suddenly, I heard shouting from next door. It was my neighbor, Rajesh, yelling at his wife, Priya. The walls were thin, and I could hear everything clearly. I felt my heart starting to race...",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: It was a quiet evening. I was in my living room, reading the newspaper. Suddenly, I heard shouting from next door. It was my neighbor, Rajesh, yelling at his wife, Priya. The walls were thin, and I could hear everything clearly. I felt my heart starting to race...",
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are sweating more now."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's gone up to a 6. My palms are sweating more now.",
+      "Therapist: That's okay. Continue, please."
+    ],
+    [
+      "Client: It's gone up to a 6. My palms are sweating more now.",
+      "Therapist: That's okay. Continue, please.",
+      "Client: The shouting got louder. I heard a crash, like something breaking. Priya was crying, begging him to stop. I... I froze. I didn't know what to do. Should I have intervened? Called the police? I just sat there, paralyzed..."
+    ],
+    [
+      "Therapist: That's okay. Continue, please.",
+      "Client: The shouting got louder. I heard a crash, like something breaking. Priya was crying, begging him to stop. I... I froze. I didn't know what to do. Should I have intervened? Called the police? I just sat there, paralyzed...",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: The shouting got louder. I heard a crash, like something breaking. Priya was crying, begging him to stop. I... I froze. I didn't know what to do. Should I have intervened? Called the police? I just sat there, paralyzed...",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's an 8. My chest feels tight. I'm having trouble breathing."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's an 8. My chest feels tight. I'm having trouble breathing.",
+      "Therapist: Take a deep breath. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's... it's an 8. My chest feels tight. I'm having trouble breathing.",
+      "Therapist: Take a deep breath. You're safe here. Keep going.",
+      "Client: I heard Priya scream. There was a loud thud. Then silence. Oh God, I thought he might have killed her. I was shaking, but I still didn't move. What kind of person am I? I should have done something!"
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Keep going.",
+      "Client: I heard Priya scream. There was a loud thud. Then silence. Oh God, I thought he might have killed her. I was shaking, but I still didn't move. What kind of person am I? I should have done something!",
+      "Therapist: Your SUDS?"
+    ],
+    [
+      "Client: I heard Priya scream. There was a loud thud. Then silence. Oh God, I thought he might have killed her. I was shaking, but I still didn't move. What kind of person am I? I should have done something!",
+      "Therapist: Your SUDS?",
+      "Client: It's... it's a 9. I feel so ashamed. My heart is pounding."
+    ],
+    [
+      "Therapist: Your SUDS?",
+      "Client: It's... it's a 9. I feel so ashamed. My heart is pounding.",
+      "Therapist: It's a difficult memory. You're doing well. Continue."
+    ],
+    [
+      "Client: It's... it's a 9. I feel so ashamed. My heart is pounding.",
+      "Therapist: It's a difficult memory. You're doing well. Continue.",
+      "Client: After what felt like hours, I heard Priya sobbing quietly. Rajesh stormed out, slamming the door. I wanted to go check on her, but I was too scared. I just sat there, listening to her cry. I've never felt so helpless and cowardly in my life."
+    ],
+    [
+      "Therapist: It's a difficult memory. You're doing well. Continue.",
+      "Client: After what felt like hours, I heard Priya sobbing quietly. Rajesh stormed out, slamming the door. I wanted to go check on her, but I was too scared. I just sat there, listening to her cry. I've never felt so helpless and cowardly in my life.",
+      "Therapist: Current SUDS?"
+    ],
+    [
+      "Client: After what felt like hours, I heard Priya sobbing quietly. Rajesh stormed out, slamming the door. I wanted to go check on her, but I was too scared. I just sat there, listening to her cry. I've never felt so helpless and cowardly in my life.",
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: Current SUDS?",
+      "Client: Still a 9. I feel sick to my stomach.",
+      "Therapist: That's okay. You're handling this well."
+    ],
+    [
+      "Client: Still a 9. I feel sick to my stomach.",
+      "Therapist: That's okay. You're handling this well.",
+      "Client: The next day, I saw Priya outside. She had bruises on her arms. She avoided eye contact with me. I wanted to say something, to apologize for not helping, but I couldn't find the words. I've carried this guilt ever since."
+    ],
+    [
+      "Therapist: That's okay. You're handling this well.",
+      "Client: The next day, I saw Priya outside. She had bruises on her arms. She avoided eye contact with me. I wanted to say something, to apologize for not helping, but I couldn't find the words. I've carried this guilt ever since.",
+      "Therapist: How about now? Your SUDS?"
+    ],
+    [
+      "Client: The next day, I saw Priya outside. She had bruises on her arms. She avoided eye contact with me. I wanted to say something, to apologize for not helping, but I couldn't find the words. I've carried this guilt ever since.",
+      "Therapist: How about now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained."
+    ],
+    [
+      "Therapist: How about now? Your SUDS?",
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+      "Therapist: That's normal. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's coming down a bit. Maybe a 7? I feel drained.",
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it."
+    ],
+    [
+      "Therapist: That's normal. How are you feeling overall?",
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it.",
+      "Therapist: That's good. Let's take a moment to breathe."
+    ],
+    [
+      "Client: Exhausted. Sad. But... also a little relieved to have talked about it.",
+      "Therapist: That's good. Let's take a moment to breathe.",
+      "Client: *deep breath* Thank you. This wasn't easy, but I think it helped."
+    ],
+    [
+      "Therapist: That's good. Let's take a moment to breathe.",
+      "Client: *deep breath* Thank you. This wasn't easy, but I think it helped.",
+      "Therapist: You did very well. How's your SUDS now?"
+    ],
+    [
+      "Client: *deep breath* Thank you. This wasn't easy, but I think it helped.",
+      "Therapist: You did very well. How's your SUDS now?",
+      "Client: It's down to a 5. I feel more... grounded."
+    ],
+    [
+      "Therapist: You did very well. How's your SUDS now?",
+      "Client: It's down to a 5. I feel more... grounded.",
+      "Therapist: Excellent. Let's discuss what you've experienced."
+    ]
+  ]
+}

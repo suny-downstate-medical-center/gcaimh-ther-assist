@@ -1,0 +1,80 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Lee, today we'll be starting imaginal exposure. How are you feeling about this?",
+    "Client: I'm... I'm not sure, Dr. Chen. To be honest, I'm a bit nervous. I've been trying to avoid thinking about my husband's experiences in Vietnam for so long. The idea of deliberately bringing those memories up is frightening.",
+    "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+    "Client: Well, it's just... every time I think about what he went through, I feel this overwhelming sadness and guilt. He suffered so much, and I couldn't help him. And now that he's gone, it feels like reopening an old wound. I'm afraid I might fall apart if I have to relive those moments.",
+    "Therapist: I understand. How do you think this might help?",
+    "Client: I suppose... maybe it could help me process these feelings better? It's been years, but sometimes it feels like it just happened yesterday. Perhaps facing these memories head-on might help me find some peace. But I'm still scared, Dr. Chen.",
+    "Therapist: Your courage is admirable. What support do you need?",
+    "Client: I think I need reassurance that you'll be here with me through this process. And maybe... maybe some guidance on what to do if it becomes too overwhelming? I've never done anything like this before, and I'm worried about how I'll react.",
+    "Therapist: I'll be here every step. We can pause anytime. Ready to begin?",
+    "Client: I... I think so. Can you explain once more what we'll be doing? Just so I'm absolutely clear on the process. And maybe... could you tell me how this has helped other people? I think hearing that might give me a bit more confidence.",
+    "Therapist: Of course. We'll revisit memories gradually. Many find it healing. Shall we start?",
+    "Client: Okay, yes. I'm ready. But... can we start with a less intense memory first? Maybe something from when my husband first returned home? I think that might be easier to handle than jumping straight into the worst parts.",
+    "Therapist: Absolutely. Let's begin there. Close your eyes when ready.",
+    "Client: (Takes a deep breath) Alright, I'm closing my eyes now. I can... I can see our front porch. It was a sunny day when he came home. I remember feeling so nervous and excited..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Lee, today we'll be starting imaginal exposure. How are you feeling about this?",
+      "Client: I'm... I'm not sure, Dr. Chen. To be honest, I'm a bit nervous. I've been trying to avoid thinking about my husband's experiences in Vietnam for so long. The idea of deliberately bringing those memories up is frightening.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... I'm not sure, Dr. Chen. To be honest, I'm a bit nervous. I've been trying to avoid thinking about my husband's experiences in Vietnam for so long. The idea of deliberately bringing those memories up is frightening.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about what he went through, I feel this overwhelming sadness and guilt. He suffered so much, and I couldn't help him. And now that he's gone, it feels like reopening an old wound. I'm afraid I might fall apart if I have to relive those moments."
+    ],
+    [
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about what he went through, I feel this overwhelming sadness and guilt. He suffered so much, and I couldn't help him. And now that he's gone, it feels like reopening an old wound. I'm afraid I might fall apart if I have to relive those moments.",
+      "Therapist: I understand. How do you think this might help?"
+    ],
+    [
+      "Client: Well, it's just... every time I think about what he went through, I feel this overwhelming sadness and guilt. He suffered so much, and I couldn't help him. And now that he's gone, it feels like reopening an old wound. I'm afraid I might fall apart if I have to relive those moments.",
+      "Therapist: I understand. How do you think this might help?",
+      "Client: I suppose... maybe it could help me process these feelings better? It's been years, but sometimes it feels like it just happened yesterday. Perhaps facing these memories head-on might help me find some peace. But I'm still scared, Dr. Chen."
+    ],
+    [
+      "Therapist: I understand. How do you think this might help?",
+      "Client: I suppose... maybe it could help me process these feelings better? It's been years, but sometimes it feels like it just happened yesterday. Perhaps facing these memories head-on might help me find some peace. But I'm still scared, Dr. Chen.",
+      "Therapist: Your courage is admirable. What support do you need?"
+    ],
+    [
+      "Client: I suppose... maybe it could help me process these feelings better? It's been years, but sometimes it feels like it just happened yesterday. Perhaps facing these memories head-on might help me find some peace. But I'm still scared, Dr. Chen.",
+      "Therapist: Your courage is admirable. What support do you need?",
+      "Client: I think I need reassurance that you'll be here with me through this process. And maybe... maybe some guidance on what to do if it becomes too overwhelming? I've never done anything like this before, and I'm worried about how I'll react."
+    ],
+    [
+      "Therapist: Your courage is admirable. What support do you need?",
+      "Client: I think I need reassurance that you'll be here with me through this process. And maybe... maybe some guidance on what to do if it becomes too overwhelming? I've never done anything like this before, and I'm worried about how I'll react.",
+      "Therapist: I'll be here every step. We can pause anytime. Ready to begin?"
+    ],
+    [
+      "Client: I think I need reassurance that you'll be here with me through this process. And maybe... maybe some guidance on what to do if it becomes too overwhelming? I've never done anything like this before, and I'm worried about how I'll react.",
+      "Therapist: I'll be here every step. We can pause anytime. Ready to begin?",
+      "Client: I... I think so. Can you explain once more what we'll be doing? Just so I'm absolutely clear on the process. And maybe... could you tell me how this has helped other people? I think hearing that might give me a bit more confidence."
+    ],
+    [
+      "Therapist: I'll be here every step. We can pause anytime. Ready to begin?",
+      "Client: I... I think so. Can you explain once more what we'll be doing? Just so I'm absolutely clear on the process. And maybe... could you tell me how this has helped other people? I think hearing that might give me a bit more confidence.",
+      "Therapist: Of course. We'll revisit memories gradually. Many find it healing. Shall we start?"
+    ],
+    [
+      "Client: I... I think so. Can you explain once more what we'll be doing? Just so I'm absolutely clear on the process. And maybe... could you tell me how this has helped other people? I think hearing that might give me a bit more confidence.",
+      "Therapist: Of course. We'll revisit memories gradually. Many find it healing. Shall we start?",
+      "Client: Okay, yes. I'm ready. But... can we start with a less intense memory first? Maybe something from when my husband first returned home? I think that might be easier to handle than jumping straight into the worst parts."
+    ],
+    [
+      "Therapist: Of course. We'll revisit memories gradually. Many find it healing. Shall we start?",
+      "Client: Okay, yes. I'm ready. But... can we start with a less intense memory first? Maybe something from when my husband first returned home? I think that might be easier to handle than jumping straight into the worst parts.",
+      "Therapist: Absolutely. Let's begin there. Close your eyes when ready."
+    ],
+    [
+      "Client: Okay, yes. I'm ready. But... can we start with a less intense memory first? Maybe something from when my husband first returned home? I think that might be easier to handle than jumping straight into the worst parts.",
+      "Therapist: Absolutely. Let's begin there. Close your eyes when ready.",
+      "Client: (Takes a deep breath) Alright, I'm closing my eyes now. I can... I can see our front porch. It was a sunny day when he came home. I remember feeling so nervous and excited..."
+    ]
+  ]
+}

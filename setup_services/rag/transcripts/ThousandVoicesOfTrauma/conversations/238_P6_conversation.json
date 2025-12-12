@@ -1,0 +1,170 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, James. Today we'll continue with imaginal exposure. Remember, you can pause anytime. Are you ready to begin?",
+    "Client: Yeah, I think so. I'm a bit nervous, but I know it's important.",
+    "Therapist: That's normal. Let's start with your SUDS rating.",
+    "Client: I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+    "Therapist: Okay. Close your eyes and describe the accident.",
+    "Client: I'm driving home from class. It's raining, and the roads are slick. I'm going around a curve, and suddenly... I lose control. The car starts spinning. My heart is racing, and I can't breathe. I see the other car coming towards me, and I... I can't do anything. The crash is so loud. Metal crunching, glass shattering. I'm trapped, and everything hurts. I can smell gasoline and blood. I'm terrified I'm going to die.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's... it's about a 7. My hands are shaking, and I feel sick to my stomach.",
+    "Therapist: That's okay. Keep going. What happened next?",
+    "Client: I hear sirens in the distance. People are shouting, but it sounds muffled. I'm drifting in and out of consciousness. The pain is excruciating. I can taste blood in my mouth. Someone's telling me to stay awake, but I'm so tired. I just want it to be over.",
+    "Therapist: And your SUDS?",
+    "Client: It's an 8 now. My chest feels tight, and I'm sweating. It's like I'm back there again.",
+    "Therapist: You're doing well. Remember, you're safe here.",
+    "Client: (deep breath) Okay. They're cutting me out of the car. The sound of metal being torn apart is deafening. I'm scared they'll hurt me more. They put me on a stretcher, and the movement sends waves of pain through my body. The ambulance ride is a blur of sirens and voices. I keep thinking I'm going to die.",
+    "Therapist: How's your SUDS now?",
+    "Client: It's still at an 8. My heart's pounding so hard.",
+    "Therapist: That's normal. You're handling this bravely.",
+    "Client: At the hospital, everything's chaotic. Bright lights, people rushing around. They're cutting off my clothes, sticking needles in me. I hear them talking about internal bleeding. I'm crying, begging them to help me. The pain is unbearable. I'm so scared and alone.",
+    "Therapist: And your SUDS?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe. It's too much.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (breathing heavily) I... I remember waking up in the ICU. The beeping of machines, the smell of antiseptic. My whole body hurts. My parents are there, crying. I try to speak, but I can't because of the tube in my throat. I'm so relieved to be alive, but I'm terrified of what's going to happen next.",
+    "Therapist: How are you feeling now?",
+    "Client: The SUDS is down to about a 7. I'm still shaky, but not as bad as before.",
+    "Therapist: You did great. Let's take a moment to ground ourselves.",
+    "Client: (deep breath) Okay. That was intense. But... I got through it.",
+    "Therapist: Yes, you did. How are you feeling overall?",
+    "Client: Exhausted, but also... I don't know, maybe a little stronger? Like I faced it head-on this time.",
+    "Therapist: That's progress. We'll end here today. Well done, James."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, James. Today we'll continue with imaginal exposure. Remember, you can pause anytime. Are you ready to begin?",
+      "Client: Yeah, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's normal. Let's start with your SUDS rating."
+    ],
+    [
+      "Client: Yeah, I think so. I'm a bit nervous, but I know it's important.",
+      "Therapist: That's normal. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit."
+    ],
+    [
+      "Therapist: That's normal. Let's start with your SUDS rating.",
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Close your eyes and describe the accident."
+    ],
+    [
+      "Client: I'd say about a 4 out of 10 right now. Just thinking about it makes me tense up a bit.",
+      "Therapist: Okay. Close your eyes and describe the accident.",
+      "Client: I'm driving home from class. It's raining, and the roads are slick. I'm going around a curve, and suddenly... I lose control. The car starts spinning. My heart is racing, and I can't breathe. I see the other car coming towards me, and I... I can't do anything. The crash is so loud. Metal crunching, glass shattering. I'm trapped, and everything hurts. I can smell gasoline and blood. I'm terrified I'm going to die."
+    ],
+    [
+      "Therapist: Okay. Close your eyes and describe the accident.",
+      "Client: I'm driving home from class. It's raining, and the roads are slick. I'm going around a curve, and suddenly... I lose control. The car starts spinning. My heart is racing, and I can't breathe. I see the other car coming towards me, and I... I can't do anything. The crash is so loud. Metal crunching, glass shattering. I'm trapped, and everything hurts. I can smell gasoline and blood. I'm terrified I'm going to die.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: I'm driving home from class. It's raining, and the roads are slick. I'm going around a curve, and suddenly... I lose control. The car starts spinning. My heart is racing, and I can't breathe. I see the other car coming towards me, and I... I can't do anything. The crash is so loud. Metal crunching, glass shattering. I'm trapped, and everything hurts. I can smell gasoline and blood. I'm terrified I'm going to die.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's about a 7. My hands are shaking, and I feel sick to my stomach."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's... it's about a 7. My hands are shaking, and I feel sick to my stomach.",
+      "Therapist: That's okay. Keep going. What happened next?"
+    ],
+    [
+      "Client: It's... it's about a 7. My hands are shaking, and I feel sick to my stomach.",
+      "Therapist: That's okay. Keep going. What happened next?",
+      "Client: I hear sirens in the distance. People are shouting, but it sounds muffled. I'm drifting in and out of consciousness. The pain is excruciating. I can taste blood in my mouth. Someone's telling me to stay awake, but I'm so tired. I just want it to be over."
+    ],
+    [
+      "Therapist: That's okay. Keep going. What happened next?",
+      "Client: I hear sirens in the distance. People are shouting, but it sounds muffled. I'm drifting in and out of consciousness. The pain is excruciating. I can taste blood in my mouth. Someone's telling me to stay awake, but I'm so tired. I just want it to be over.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: I hear sirens in the distance. People are shouting, but it sounds muffled. I'm drifting in and out of consciousness. The pain is excruciating. I can taste blood in my mouth. Someone's telling me to stay awake, but I'm so tired. I just want it to be over.",
+      "Therapist: And your SUDS?",
+      "Client: It's an 8 now. My chest feels tight, and I'm sweating. It's like I'm back there again."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's an 8 now. My chest feels tight, and I'm sweating. It's like I'm back there again.",
+      "Therapist: You're doing well. Remember, you're safe here."
+    ],
+    [
+      "Client: It's an 8 now. My chest feels tight, and I'm sweating. It's like I'm back there again.",
+      "Therapist: You're doing well. Remember, you're safe here.",
+      "Client: (deep breath) Okay. They're cutting me out of the car. The sound of metal being torn apart is deafening. I'm scared they'll hurt me more. They put me on a stretcher, and the movement sends waves of pain through my body. The ambulance ride is a blur of sirens and voices. I keep thinking I'm going to die."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're safe here.",
+      "Client: (deep breath) Okay. They're cutting me out of the car. The sound of metal being torn apart is deafening. I'm scared they'll hurt me more. They put me on a stretcher, and the movement sends waves of pain through my body. The ambulance ride is a blur of sirens and voices. I keep thinking I'm going to die.",
+      "Therapist: How's your SUDS now?"
+    ],
+    [
+      "Client: (deep breath) Okay. They're cutting me out of the car. The sound of metal being torn apart is deafening. I'm scared they'll hurt me more. They put me on a stretcher, and the movement sends waves of pain through my body. The ambulance ride is a blur of sirens and voices. I keep thinking I'm going to die.",
+      "Therapist: How's your SUDS now?",
+      "Client: It's still at an 8. My heart's pounding so hard."
+    ],
+    [
+      "Therapist: How's your SUDS now?",
+      "Client: It's still at an 8. My heart's pounding so hard.",
+      "Therapist: That's normal. You're handling this bravely."
+    ],
+    [
+      "Client: It's still at an 8. My heart's pounding so hard.",
+      "Therapist: That's normal. You're handling this bravely.",
+      "Client: At the hospital, everything's chaotic. Bright lights, people rushing around. They're cutting off my clothes, sticking needles in me. I hear them talking about internal bleeding. I'm crying, begging them to help me. The pain is unbearable. I'm so scared and alone."
+    ],
+    [
+      "Therapist: That's normal. You're handling this bravely.",
+      "Client: At the hospital, everything's chaotic. Bright lights, people rushing around. They're cutting off my clothes, sticking needles in me. I hear them talking about internal bleeding. I'm crying, begging them to help me. The pain is unbearable. I'm so scared and alone.",
+      "Therapist: And your SUDS?"
+    ],
+    [
+      "Client: At the hospital, everything's chaotic. Bright lights, people rushing around. They're cutting off my clothes, sticking needles in me. I hear them talking about internal bleeding. I'm crying, begging them to help me. The pain is unbearable. I'm so scared and alone.",
+      "Therapist: And your SUDS?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. It's too much."
+    ],
+    [
+      "Therapist: And your SUDS?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe. It's too much.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe. It's too much.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (breathing heavily) I... I remember waking up in the ICU. The beeping of machines, the smell of antiseptic. My whole body hurts. My parents are there, crying. I try to speak, but I can't because of the tube in my throat. I'm so relieved to be alive, but I'm terrified of what's going to happen next."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (breathing heavily) I... I remember waking up in the ICU. The beeping of machines, the smell of antiseptic. My whole body hurts. My parents are there, crying. I try to speak, but I can't because of the tube in my throat. I'm so relieved to be alive, but I'm terrified of what's going to happen next.",
+      "Therapist: How are you feeling now?"
+    ],
+    [
+      "Client: (breathing heavily) I... I remember waking up in the ICU. The beeping of machines, the smell of antiseptic. My whole body hurts. My parents are there, crying. I try to speak, but I can't because of the tube in my throat. I'm so relieved to be alive, but I'm terrified of what's going to happen next.",
+      "Therapist: How are you feeling now?",
+      "Client: The SUDS is down to about a 7. I'm still shaky, but not as bad as before."
+    ],
+    [
+      "Therapist: How are you feeling now?",
+      "Client: The SUDS is down to about a 7. I'm still shaky, but not as bad as before.",
+      "Therapist: You did great. Let's take a moment to ground ourselves."
+    ],
+    [
+      "Client: The SUDS is down to about a 7. I'm still shaky, but not as bad as before.",
+      "Therapist: You did great. Let's take a moment to ground ourselves.",
+      "Client: (deep breath) Okay. That was intense. But... I got through it."
+    ],
+    [
+      "Therapist: You did great. Let's take a moment to ground ourselves.",
+      "Client: (deep breath) Okay. That was intense. But... I got through it.",
+      "Therapist: Yes, you did. How are you feeling overall?"
+    ],
+    [
+      "Client: (deep breath) Okay. That was intense. But... I got through it.",
+      "Therapist: Yes, you did. How are you feeling overall?",
+      "Client: Exhausted, but also... I don't know, maybe a little stronger? Like I faced it head-on this time."
+    ],
+    [
+      "Therapist: Yes, you did. How are you feeling overall?",
+      "Client: Exhausted, but also... I don't know, maybe a little stronger? Like I faced it head-on this time.",
+      "Therapist: That's progress. We'll end here today. Well done, James."
+    ]
+  ]
+}

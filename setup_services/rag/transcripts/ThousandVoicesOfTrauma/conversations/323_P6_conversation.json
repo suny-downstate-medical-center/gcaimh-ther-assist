@@ -1,0 +1,230 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+    "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+    "Client: Okay... I'm there. I can see our living room. It's dark outside, probably around 9 PM. I hear raised voices... my parents arguing again.",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, about a 4. I'm tense, but okay.",
+    "Therapist: Good. Continue describing what you're experiencing.",
+    "Client: The shouting is getting louder. I'm hiding behind the couch, peeking around. My heart's racing. Dad's face is red, he's towering over Mom. She looks so small...",
+    "Therapist: Stay with that. What are you feeling?",
+    "Client: Scared. Really scared. My palms are sweaty, and I feel like I can't breathe properly.",
+    "Therapist: SUDS level now?",
+    "Client: It's... it's gone up to a 7.",
+    "Therapist: That's okay. You're doing well. Keep going.",
+    "Client: Dad's grabbing Mom's arm. She's crying, begging him to stop. I want to help her, but I'm frozen. I feel so helpless...",
+    "Therapist: What sensations are you noticing in your body?",
+    "Client: My stomach's in knots. I feel nauseous. My chest is tight, like there's a weight on it.",
+    "Therapist: SUDS?",
+    "Client: It's an 8 now. This is hard...",
+    "Therapist: You're doing great. Remember, you're safe here.",
+    "Client: I hear a loud slap. Mom's on the floor. There's blood... oh god, there's blood on her face. I'm shaking. I can't stop shaking.",
+    "Therapist: Stay with it. What are you thinking?",
+    "Client: I should help her. Why can't I move? I'm a coward. I'm letting her down.",
+    "Therapist: SUDS level?",
+    "Client: It's... it's a 9. I feel overwhelmed.",
+    "Therapist: That's okay. You're safe now. Take a deep breath.",
+    "Client: (breathing deeply) I'm trying. It's just... it's so vivid.",
+    "Therapist: You're doing well. Continue when you're ready.",
+    "Client: Dad's storming out. The door slams. Mom's crying softly. I finally move, crawling to her. She hugs me, tells me it's not my fault. But I feel... I feel so guilty.",
+    "Therapist: What's your SUDS now?",
+    "Client: It's gone down a bit. Maybe a 7.",
+    "Therapist: That's good. How are you feeling now?",
+    "Client: Drained. Sad. But also... relieved it's over.",
+    "Therapist: That's normal. You did great today.",
+    "Client: Thank you. It was tough, but I think it helped.",
+    "Therapist: We'll process this next session. How are you feeling overall?",
+    "Client: Exhausted, but oddly lighter. Like I've released something.",
+    "Therapist: That's common. Remember self-care tonight.",
+    "Client: I will. Thanks for guiding me through this.",
+    "Therapist: You're welcome. We'll end here for today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I know this is important.",
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm there. I can see our living room. It's dark outside, probably around 9 PM. I hear raised voices... my parents arguing again."
+    ],
+    [
+      "Therapist: That's normal. Let's start. Close your eyes and bring up the memory.",
+      "Client: Okay... I'm there. I can see our living room. It's dark outside, probably around 9 PM. I hear raised voices... my parents arguing again.",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm there. I can see our living room. It's dark outside, probably around 9 PM. I hear raised voices... my parents arguing again.",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4. I'm tense, but okay."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, about a 4. I'm tense, but okay.",
+      "Therapist: Good. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: Um, about a 4. I'm tense, but okay.",
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: The shouting is getting louder. I'm hiding behind the couch, peeking around. My heart's racing. Dad's face is red, he's towering over Mom. She looks so small..."
+    ],
+    [
+      "Therapist: Good. Continue describing what you're experiencing.",
+      "Client: The shouting is getting louder. I'm hiding behind the couch, peeking around. My heart's racing. Dad's face is red, he's towering over Mom. She looks so small...",
+      "Therapist: Stay with that. What are you feeling?"
+    ],
+    [
+      "Client: The shouting is getting louder. I'm hiding behind the couch, peeking around. My heart's racing. Dad's face is red, he's towering over Mom. She looks so small...",
+      "Therapist: Stay with that. What are you feeling?",
+      "Client: Scared. Really scared. My palms are sweaty, and I feel like I can't breathe properly."
+    ],
+    [
+      "Therapist: Stay with that. What are you feeling?",
+      "Client: Scared. Really scared. My palms are sweaty, and I feel like I can't breathe properly.",
+      "Therapist: SUDS level now?"
+    ],
+    [
+      "Client: Scared. Really scared. My palms are sweaty, and I feel like I can't breathe properly.",
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone up to a 7."
+    ],
+    [
+      "Therapist: SUDS level now?",
+      "Client: It's... it's gone up to a 7.",
+      "Therapist: That's okay. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to a 7.",
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: Dad's grabbing Mom's arm. She's crying, begging him to stop. I want to help her, but I'm frozen. I feel so helpless..."
+    ],
+    [
+      "Therapist: That's okay. You're doing well. Keep going.",
+      "Client: Dad's grabbing Mom's arm. She's crying, begging him to stop. I want to help her, but I'm frozen. I feel so helpless...",
+      "Therapist: What sensations are you noticing in your body?"
+    ],
+    [
+      "Client: Dad's grabbing Mom's arm. She's crying, begging him to stop. I want to help her, but I'm frozen. I feel so helpless...",
+      "Therapist: What sensations are you noticing in your body?",
+      "Client: My stomach's in knots. I feel nauseous. My chest is tight, like there's a weight on it."
+    ],
+    [
+      "Therapist: What sensations are you noticing in your body?",
+      "Client: My stomach's in knots. I feel nauseous. My chest is tight, like there's a weight on it.",
+      "Therapist: SUDS?"
+    ],
+    [
+      "Client: My stomach's in knots. I feel nauseous. My chest is tight, like there's a weight on it.",
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. This is hard..."
+    ],
+    [
+      "Therapist: SUDS?",
+      "Client: It's an 8 now. This is hard...",
+      "Therapist: You're doing great. Remember, you're safe here."
+    ],
+    [
+      "Client: It's an 8 now. This is hard...",
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: I hear a loud slap. Mom's on the floor. There's blood... oh god, there's blood on her face. I'm shaking. I can't stop shaking."
+    ],
+    [
+      "Therapist: You're doing great. Remember, you're safe here.",
+      "Client: I hear a loud slap. Mom's on the floor. There's blood... oh god, there's blood on her face. I'm shaking. I can't stop shaking.",
+      "Therapist: Stay with it. What are you thinking?"
+    ],
+    [
+      "Client: I hear a loud slap. Mom's on the floor. There's blood... oh god, there's blood on her face. I'm shaking. I can't stop shaking.",
+      "Therapist: Stay with it. What are you thinking?",
+      "Client: I should help her. Why can't I move? I'm a coward. I'm letting her down."
+    ],
+    [
+      "Therapist: Stay with it. What are you thinking?",
+      "Client: I should help her. Why can't I move? I'm a coward. I'm letting her down.",
+      "Therapist: SUDS level?"
+    ],
+    [
+      "Client: I should help her. Why can't I move? I'm a coward. I'm letting her down.",
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I feel overwhelmed."
+    ],
+    [
+      "Therapist: SUDS level?",
+      "Client: It's... it's a 9. I feel overwhelmed.",
+      "Therapist: That's okay. You're safe now. Take a deep breath."
+    ],
+    [
+      "Client: It's... it's a 9. I feel overwhelmed.",
+      "Therapist: That's okay. You're safe now. Take a deep breath.",
+      "Client: (breathing deeply) I'm trying. It's just... it's so vivid."
+    ],
+    [
+      "Therapist: That's okay. You're safe now. Take a deep breath.",
+      "Client: (breathing deeply) I'm trying. It's just... it's so vivid.",
+      "Therapist: You're doing well. Continue when you're ready."
+    ],
+    [
+      "Client: (breathing deeply) I'm trying. It's just... it's so vivid.",
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: Dad's storming out. The door slams. Mom's crying softly. I finally move, crawling to her. She hugs me, tells me it's not my fault. But I feel... I feel so guilty."
+    ],
+    [
+      "Therapist: You're doing well. Continue when you're ready.",
+      "Client: Dad's storming out. The door slams. Mom's crying softly. I finally move, crawling to her. She hugs me, tells me it's not my fault. But I feel... I feel so guilty.",
+      "Therapist: What's your SUDS now?"
+    ],
+    [
+      "Client: Dad's storming out. The door slams. Mom's crying softly. I finally move, crawling to her. She hugs me, tells me it's not my fault. But I feel... I feel so guilty.",
+      "Therapist: What's your SUDS now?",
+      "Client: It's gone down a bit. Maybe a 7."
+    ],
+    [
+      "Therapist: What's your SUDS now?",
+      "Client: It's gone down a bit. Maybe a 7.",
+      "Therapist: That's good. How are you feeling now?"
+    ],
+    [
+      "Client: It's gone down a bit. Maybe a 7.",
+      "Therapist: That's good. How are you feeling now?",
+      "Client: Drained. Sad. But also... relieved it's over."
+    ],
+    [
+      "Therapist: That's good. How are you feeling now?",
+      "Client: Drained. Sad. But also... relieved it's over.",
+      "Therapist: That's normal. You did great today."
+    ],
+    [
+      "Client: Drained. Sad. But also... relieved it's over.",
+      "Therapist: That's normal. You did great today.",
+      "Client: Thank you. It was tough, but I think it helped."
+    ],
+    [
+      "Therapist: That's normal. You did great today.",
+      "Client: Thank you. It was tough, but I think it helped.",
+      "Therapist: We'll process this next session. How are you feeling overall?"
+    ],
+    [
+      "Client: Thank you. It was tough, but I think it helped.",
+      "Therapist: We'll process this next session. How are you feeling overall?",
+      "Client: Exhausted, but oddly lighter. Like I've released something."
+    ],
+    [
+      "Therapist: We'll process this next session. How are you feeling overall?",
+      "Client: Exhausted, but oddly lighter. Like I've released something.",
+      "Therapist: That's common. Remember self-care tonight."
+    ],
+    [
+      "Client: Exhausted, but oddly lighter. Like I've released something.",
+      "Therapist: That's common. Remember self-care tonight.",
+      "Client: I will. Thanks for guiding me through this."
+    ],
+    [
+      "Therapist: That's common. Remember self-care tonight.",
+      "Client: I will. Thanks for guiding me through this.",
+      "Therapist: You're welcome. We'll end here for today."
+    ]
+  ]
+}

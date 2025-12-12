@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Let's begin when you're comfortable.",
+    "Client: Alright... I'm back in the refugee camp. It's crowded, noisy, and the air is thick with dust. I can see the makeshift tents stretching out as far as the eye can see. The smell of unwashed bodies and fear is overwhelming. I'm sitting on the ground, huddled with my family, trying to stay out of sight of the guards. My heart is racing, and I can feel sweat trickling down my back.",
+    "Therapist: How would you rate your SUDS now?",
+    "Client: I'd say about a 6 out of 10. It's uncomfortable, but manageable.",
+    "Therapist: Okay. Continue describing what you're experiencing.",
+    "Client: Suddenly, there's shouting. One of the guards is yelling at a young man who accidentally bumped into him. The guard's face is red with anger, and he's raising his baton. I want to look away, but I can't. The young man is cowering, pleading, but the guard doesn't care. He strikes him once, twice, three times. I can hear the sickening thud of the baton hitting flesh. My stomach churns, and I feel like I might be sick.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's... it's gone up to an 8. I can feel my hands shaking, and my mouth has gone dry.",
+    "Therapist: That's understandable. You're doing well. Keep going.",
+    "Client: The young man falls to the ground, and the guard keeps hitting him. I want to help, but I'm frozen in fear. What if they turn on me next? What if they hurt my family? I can hear my wife whimpering beside me, and my children are crying softly. I feel so helpless, so angry. Why are they doing this to us? We've done nothing wrong. We're just trying to survive.",
+    "Therapist: How about your SUDS now?",
+    "Client: It's... it's a 9. I can barely breathe. My chest feels tight, and I'm dizzy.",
+    "Therapist: Take a deep breath. You're safe here.",
+    "Client: (takes a shaky breath) The guard finally stops. The young man isn't moving. Two other refugees drag him away, leaving a trail of blood on the dusty ground. The guard looks around, his eyes wild, daring anyone else to step out of line. I hold my breath, praying he doesn't see us. After what feels like an eternity, he walks away. The camp is eerily quiet now, except for muffled sobs. I feel... I feel...",
+    "Therapist: What are you feeling?",
+    "Client: Guilty. Ashamed. I should have done something. I should have helped that poor boy. But I was too afraid. I'm a coward.",
+    "Therapist: Your SUDS rating?",
+    "Client: It's still a 9. I feel sick to my stomach.",
+    "Therapist: Remember, you're safe now. This is a memory.",
+    "Client: (nods slowly) The rest of the day, we barely move. We're all in shock. When night falls, I can't sleep. I keep seeing that young man's face, hearing the sound of the baton. I wonder if he survived. I wonder if his family is looking for him. And I wonder... will we be next? The fear is paralyzing. I feel like I can't breathe, like the walls of the tent are closing in on me.",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's gone down a bit. Maybe a 7? I'm still upset, but talking about it... it helps somehow.",
+    "Therapist: That's good. You're doing great. Continue.",
+    "Client: As the days pass, the incident fades into the background of daily survival. But it never really leaves me. Every time I see a guard, every time I hear shouting, I'm right back there. The guilt, the fear, the helplessness... it's always there, just beneath the surface. I try to be strong for my family, but inside, I'm falling apart. I don't know how much longer I can endure this.",
+    "Therapist: How would you rate your SUDS now?",
+    "Client: It's down to a 5, I think. Talking about it... it's hard, but it's also a relief.",
+    "Therapist: You've done well. Let's end the exercise here.",
+    "Client: (takes a deep breath) Thank you. It's... it's not easy to relive that.",
+    "Therapist: You showed great courage today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's begin when you're comfortable."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Alright... I'm back in the refugee camp. It's crowded, noisy, and the air is thick with dust. I can see the makeshift tents stretching out as far as the eye can see. The smell of unwashed bodies and fear is overwhelming. I'm sitting on the ground, huddled with my family, trying to stay out of sight of the guards. My heart is racing, and I can feel sweat trickling down my back."
+    ],
+    [
+      "Therapist: That's normal. Let's begin when you're comfortable.",
+      "Client: Alright... I'm back in the refugee camp. It's crowded, noisy, and the air is thick with dust. I can see the makeshift tents stretching out as far as the eye can see. The smell of unwashed bodies and fear is overwhelming. I'm sitting on the ground, huddled with my family, trying to stay out of sight of the guards. My heart is racing, and I can feel sweat trickling down my back.",
+      "Therapist: How would you rate your SUDS now?"
+    ],
+    [
+      "Client: Alright... I'm back in the refugee camp. It's crowded, noisy, and the air is thick with dust. I can see the makeshift tents stretching out as far as the eye can see. The smell of unwashed bodies and fear is overwhelming. I'm sitting on the ground, huddled with my family, trying to stay out of sight of the guards. My heart is racing, and I can feel sweat trickling down my back.",
+      "Therapist: How would you rate your SUDS now?",
+      "Client: I'd say about a 6 out of 10. It's uncomfortable, but manageable."
+    ],
+    [
+      "Therapist: How would you rate your SUDS now?",
+      "Client: I'd say about a 6 out of 10. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: I'd say about a 6 out of 10. It's uncomfortable, but manageable.",
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: Suddenly, there's shouting. One of the guards is yelling at a young man who accidentally bumped into him. The guard's face is red with anger, and he's raising his baton. I want to look away, but I can't. The young man is cowering, pleading, but the guard doesn't care. He strikes him once, twice, three times. I can hear the sickening thud of the baton hitting flesh. My stomach churns, and I feel like I might be sick."
+    ],
+    [
+      "Therapist: Okay. Continue describing what you're experiencing.",
+      "Client: Suddenly, there's shouting. One of the guards is yelling at a young man who accidentally bumped into him. The guard's face is red with anger, and he's raising his baton. I want to look away, but I can't. The young man is cowering, pleading, but the guard doesn't care. He strikes him once, twice, three times. I can hear the sickening thud of the baton hitting flesh. My stomach churns, and I feel like I might be sick.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: Suddenly, there's shouting. One of the guards is yelling at a young man who accidentally bumped into him. The guard's face is red with anger, and he's raising his baton. I want to look away, but I can't. The young man is cowering, pleading, but the guard doesn't care. He strikes him once, twice, three times. I can hear the sickening thud of the baton hitting flesh. My stomach churns, and I feel like I might be sick.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's gone up to an 8. I can feel my hands shaking, and my mouth has gone dry."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's... it's gone up to an 8. I can feel my hands shaking, and my mouth has gone dry.",
+      "Therapist: That's understandable. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's gone up to an 8. I can feel my hands shaking, and my mouth has gone dry.",
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: The young man falls to the ground, and the guard keeps hitting him. I want to help, but I'm frozen in fear. What if they turn on me next? What if they hurt my family? I can hear my wife whimpering beside me, and my children are crying softly. I feel so helpless, so angry. Why are they doing this to us? We've done nothing wrong. We're just trying to survive."
+    ],
+    [
+      "Therapist: That's understandable. You're doing well. Keep going.",
+      "Client: The young man falls to the ground, and the guard keeps hitting him. I want to help, but I'm frozen in fear. What if they turn on me next? What if they hurt my family? I can hear my wife whimpering beside me, and my children are crying softly. I feel so helpless, so angry. Why are they doing this to us? We've done nothing wrong. We're just trying to survive.",
+      "Therapist: How about your SUDS now?"
+    ],
+    [
+      "Client: The young man falls to the ground, and the guard keeps hitting him. I want to help, but I'm frozen in fear. What if they turn on me next? What if they hurt my family? I can hear my wife whimpering beside me, and my children are crying softly. I feel so helpless, so angry. Why are they doing this to us? We've done nothing wrong. We're just trying to survive.",
+      "Therapist: How about your SUDS now?",
+      "Client: It's... it's a 9. I can barely breathe. My chest feels tight, and I'm dizzy."
+    ],
+    [
+      "Therapist: How about your SUDS now?",
+      "Client: It's... it's a 9. I can barely breathe. My chest feels tight, and I'm dizzy.",
+      "Therapist: Take a deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's a 9. I can barely breathe. My chest feels tight, and I'm dizzy.",
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) The guard finally stops. The young man isn't moving. Two other refugees drag him away, leaving a trail of blood on the dusty ground. The guard looks around, his eyes wild, daring anyone else to step out of line. I hold my breath, praying he doesn't see us. After what feels like an eternity, he walks away. The camp is eerily quiet now, except for muffled sobs. I feel... I feel..."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here.",
+      "Client: (takes a shaky breath) The guard finally stops. The young man isn't moving. Two other refugees drag him away, leaving a trail of blood on the dusty ground. The guard looks around, his eyes wild, daring anyone else to step out of line. I hold my breath, praying he doesn't see us. After what feels like an eternity, he walks away. The camp is eerily quiet now, except for muffled sobs. I feel... I feel...",
+      "Therapist: What are you feeling?"
+    ],
+    [
+      "Client: (takes a shaky breath) The guard finally stops. The young man isn't moving. Two other refugees drag him away, leaving a trail of blood on the dusty ground. The guard looks around, his eyes wild, daring anyone else to step out of line. I hold my breath, praying he doesn't see us. After what feels like an eternity, he walks away. The camp is eerily quiet now, except for muffled sobs. I feel... I feel...",
+      "Therapist: What are you feeling?",
+      "Client: Guilty. Ashamed. I should have done something. I should have helped that poor boy. But I was too afraid. I'm a coward."
+    ],
+    [
+      "Therapist: What are you feeling?",
+      "Client: Guilty. Ashamed. I should have done something. I should have helped that poor boy. But I was too afraid. I'm a coward.",
+      "Therapist: Your SUDS rating?"
+    ],
+    [
+      "Client: Guilty. Ashamed. I should have done something. I should have helped that poor boy. But I was too afraid. I'm a coward.",
+      "Therapist: Your SUDS rating?",
+      "Client: It's still a 9. I feel sick to my stomach."
+    ],
+    [
+      "Therapist: Your SUDS rating?",
+      "Client: It's still a 9. I feel sick to my stomach.",
+      "Therapist: Remember, you're safe now. This is a memory."
+    ],
+    [
+      "Client: It's still a 9. I feel sick to my stomach.",
+      "Therapist: Remember, you're safe now. This is a memory.",
+      "Client: (nods slowly) The rest of the day, we barely move. We're all in shock. When night falls, I can't sleep. I keep seeing that young man's face, hearing the sound of the baton. I wonder if he survived. I wonder if his family is looking for him. And I wonder... will we be next? The fear is paralyzing. I feel like I can't breathe, like the walls of the tent are closing in on me."
+    ],
+    [
+      "Therapist: Remember, you're safe now. This is a memory.",
+      "Client: (nods slowly) The rest of the day, we barely move. We're all in shock. When night falls, I can't sleep. I keep seeing that young man's face, hearing the sound of the baton. I wonder if he survived. I wonder if his family is looking for him. And I wonder... will we be next? The fear is paralyzing. I feel like I can't breathe, like the walls of the tent are closing in on me.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: (nods slowly) The rest of the day, we barely move. We're all in shock. When night falls, I can't sleep. I keep seeing that young man's face, hearing the sound of the baton. I wonder if he survived. I wonder if his family is looking for him. And I wonder... will we be next? The fear is paralyzing. I feel like I can't breathe, like the walls of the tent are closing in on me.",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm still upset, but talking about it... it helps somehow."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm still upset, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're doing great. Continue."
+    ],
+    [
+      "Client: It's... it's gone down a bit. Maybe a 7? I'm still upset, but talking about it... it helps somehow.",
+      "Therapist: That's good. You're doing great. Continue.",
+      "Client: As the days pass, the incident fades into the background of daily survival. But it never really leaves me. Every time I see a guard, every time I hear shouting, I'm right back there. The guilt, the fear, the helplessness... it's always there, just beneath the surface. I try to be strong for my family, but inside, I'm falling apart. I don't know how much longer I can endure this."
+    ],
+    [
+      "Therapist: That's good. You're doing great. Continue.",
+      "Client: As the days pass, the incident fades into the background of daily survival. But it never really leaves me. Every time I see a guard, every time I hear shouting, I'm right back there. The guilt, the fear, the helplessness... it's always there, just beneath the surface. I try to be strong for my family, but inside, I'm falling apart. I don't know how much longer I can endure this.",
+      "Therapist: How would you rate your SUDS now?"
+    ],
+    [
+      "Client: As the days pass, the incident fades into the background of daily survival. But it never really leaves me. Every time I see a guard, every time I hear shouting, I'm right back there. The guilt, the fear, the helplessness... it's always there, just beneath the surface. I try to be strong for my family, but inside, I'm falling apart. I don't know how much longer I can endure this.",
+      "Therapist: How would you rate your SUDS now?",
+      "Client: It's down to a 5, I think. Talking about it... it's hard, but it's also a relief."
+    ],
+    [
+      "Therapist: How would you rate your SUDS now?",
+      "Client: It's down to a 5, I think. Talking about it... it's hard, but it's also a relief.",
+      "Therapist: You've done well. Let's end the exercise here."
+    ],
+    [
+      "Client: It's down to a 5, I think. Talking about it... it's hard, but it's also a relief.",
+      "Therapist: You've done well. Let's end the exercise here.",
+      "Client: (takes a deep breath) Thank you. It's... it's not easy to relive that."
+    ],
+    [
+      "Therapist: You've done well. Let's end the exercise here.",
+      "Client: (takes a deep breath) Thank you. It's... it's not easy to relive that.",
+      "Therapist: You showed great courage today."
+    ]
+  ]
+}

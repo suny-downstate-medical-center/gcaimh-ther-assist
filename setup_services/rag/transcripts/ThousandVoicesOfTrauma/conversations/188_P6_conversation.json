@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+    "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+    "Client: Okay... I'm back in my old house. It's late at night, and I can hear shouting from downstairs. My heart is racing, and I feel like I can't move. The voices are getting louder, and I recognize them as my parents. I'm frozen in my bed, trying to block out the sound, but I can't.",
+    "Therapist: What's your SUDS rating right now?",
+    "Client: It's about a 6. I'm feeling anxious, and my palms are sweaty.",
+    "Therapist: Thank you. Continue describing what you're experiencing.",
+    "Client: The shouting is getting worse. I hear something crash downstairs, and I flinch. I want to go check, but I'm too scared. My stomach is in knots, and I feel like I might be sick. I can hear my mom crying now, and my dad's voice is so angry. I've never heard him like this before.",
+    "Therapist: And your SUDS rating now?",
+    "Client: It's gone up to an 8. I'm shaking, and my chest feels tight.",
+    "Therapist: That's okay. You're safe here. Keep going.",
+    "Client: I finally get the courage to creep out of bed. My legs feel weak as I tiptoe to the top of the stairs. I can see into the living room, and... oh god, my dad has my mom by the arm. He's shaking her, and she looks so scared. I want to help, but I'm paralyzed. I can't breathe.",
+    "Therapist: Take a deep breath. What's your SUDS rating?",
+    "Client: It's a 9. I feel like I'm right back there, helpless and terrified.",
+    "Therapist: You're doing well. Remember, you're here with me now.",
+    "Client: I watch as my dad pushes my mom, and she falls. She's crying and begging him to stop. I want to scream, but no sound comes out. My whole body is trembling, and I feel like I might pass out. I can't believe this is happening in my home, to my parents.",
+    "Therapist: And your SUDS now?",
+    "Client: It's still at a 9. I feel so overwhelmed, like I can't escape this memory.",
+    "Therapist: It's okay to feel overwhelmed. You're facing this bravely.",
+    "Client: Suddenly, my dad looks up and sees me. His face changes, and he looks... ashamed? Scared? I don't know. He backs away from my mom, and she's sobbing on the floor. I want to run to her, but I'm still frozen. The air feels thick, and I can hardly breathe.",
+    "Therapist: What's your SUDS rating at this point?",
+    "Client: It's dropped to a 7. I still feel shaky, but seeing my dad's reaction... it's different.",
+    "Therapist: I see. How does the memory continue?",
+    "Client: My mom notices me too, and she quickly tries to compose herself. She's telling me to go back to bed, that everything's fine. But I know it's not. I slowly back away, feeling confused and scared. As I return to my room, I can hear hushed, intense whispers. I curl up in my bed, pulling the covers tight around me, wishing I could disappear.",
+    "Therapist: And your final SUDS rating?",
+    "Client: It's down to a 6 now. I feel drained and sad, but the intense fear has subsided a bit.",
+    "Therapist: Thank you for sharing that difficult memory. How are you feeling now?"
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Let's begin the imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready to start?",
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready."
+    ],
+    [
+      "Client: I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in my old house. It's late at night, and I can hear shouting from downstairs. My heart is racing, and I feel like I can't move. The voices are getting louder, and I recognize them as my parents. I'm frozen in my bed, trying to block out the sound, but I can't."
+    ],
+    [
+      "Therapist: That's normal. Take a deep breath and begin when you're ready.",
+      "Client: Okay... I'm back in my old house. It's late at night, and I can hear shouting from downstairs. My heart is racing, and I feel like I can't move. The voices are getting louder, and I recognize them as my parents. I'm frozen in my bed, trying to block out the sound, but I can't.",
+      "Therapist: What's your SUDS rating right now?"
+    ],
+    [
+      "Client: Okay... I'm back in my old house. It's late at night, and I can hear shouting from downstairs. My heart is racing, and I feel like I can't move. The voices are getting louder, and I recognize them as my parents. I'm frozen in my bed, trying to block out the sound, but I can't.",
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm feeling anxious, and my palms are sweaty."
+    ],
+    [
+      "Therapist: What's your SUDS rating right now?",
+      "Client: It's about a 6. I'm feeling anxious, and my palms are sweaty.",
+      "Therapist: Thank you. Continue describing what you're experiencing."
+    ],
+    [
+      "Client: It's about a 6. I'm feeling anxious, and my palms are sweaty.",
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The shouting is getting worse. I hear something crash downstairs, and I flinch. I want to go check, but I'm too scared. My stomach is in knots, and I feel like I might be sick. I can hear my mom crying now, and my dad's voice is so angry. I've never heard him like this before."
+    ],
+    [
+      "Therapist: Thank you. Continue describing what you're experiencing.",
+      "Client: The shouting is getting worse. I hear something crash downstairs, and I flinch. I want to go check, but I'm too scared. My stomach is in knots, and I feel like I might be sick. I can hear my mom crying now, and my dad's voice is so angry. I've never heard him like this before.",
+      "Therapist: And your SUDS rating now?"
+    ],
+    [
+      "Client: The shouting is getting worse. I hear something crash downstairs, and I flinch. I want to go check, but I'm too scared. My stomach is in knots, and I feel like I might be sick. I can hear my mom crying now, and my dad's voice is so angry. I've never heard him like this before.",
+      "Therapist: And your SUDS rating now?",
+      "Client: It's gone up to an 8. I'm shaking, and my chest feels tight."
+    ],
+    [
+      "Therapist: And your SUDS rating now?",
+      "Client: It's gone up to an 8. I'm shaking, and my chest feels tight.",
+      "Therapist: That's okay. You're safe here. Keep going."
+    ],
+    [
+      "Client: It's gone up to an 8. I'm shaking, and my chest feels tight.",
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I finally get the courage to creep out of bed. My legs feel weak as I tiptoe to the top of the stairs. I can see into the living room, and... oh god, my dad has my mom by the arm. He's shaking her, and she looks so scared. I want to help, but I'm paralyzed. I can't breathe."
+    ],
+    [
+      "Therapist: That's okay. You're safe here. Keep going.",
+      "Client: I finally get the courage to creep out of bed. My legs feel weak as I tiptoe to the top of the stairs. I can see into the living room, and... oh god, my dad has my mom by the arm. He's shaking her, and she looks so scared. I want to help, but I'm paralyzed. I can't breathe.",
+      "Therapist: Take a deep breath. What's your SUDS rating?"
+    ],
+    [
+      "Client: I finally get the courage to creep out of bed. My legs feel weak as I tiptoe to the top of the stairs. I can see into the living room, and... oh god, my dad has my mom by the arm. He's shaking her, and she looks so scared. I want to help, but I'm paralyzed. I can't breathe.",
+      "Therapist: Take a deep breath. What's your SUDS rating?",
+      "Client: It's a 9. I feel like I'm right back there, helpless and terrified."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS rating?",
+      "Client: It's a 9. I feel like I'm right back there, helpless and terrified.",
+      "Therapist: You're doing well. Remember, you're here with me now."
+    ],
+    [
+      "Client: It's a 9. I feel like I'm right back there, helpless and terrified.",
+      "Therapist: You're doing well. Remember, you're here with me now.",
+      "Client: I watch as my dad pushes my mom, and she falls. She's crying and begging him to stop. I want to scream, but no sound comes out. My whole body is trembling, and I feel like I might pass out. I can't believe this is happening in my home, to my parents."
+    ],
+    [
+      "Therapist: You're doing well. Remember, you're here with me now.",
+      "Client: I watch as my dad pushes my mom, and she falls. She's crying and begging him to stop. I want to scream, but no sound comes out. My whole body is trembling, and I feel like I might pass out. I can't believe this is happening in my home, to my parents.",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I watch as my dad pushes my mom, and she falls. She's crying and begging him to stop. I want to scream, but no sound comes out. My whole body is trembling, and I feel like I might pass out. I can't believe this is happening in my home, to my parents.",
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 9. I feel so overwhelmed, like I can't escape this memory."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still at a 9. I feel so overwhelmed, like I can't escape this memory.",
+      "Therapist: It's okay to feel overwhelmed. You're facing this bravely."
+    ],
+    [
+      "Client: It's still at a 9. I feel so overwhelmed, like I can't escape this memory.",
+      "Therapist: It's okay to feel overwhelmed. You're facing this bravely.",
+      "Client: Suddenly, my dad looks up and sees me. His face changes, and he looks... ashamed? Scared? I don't know. He backs away from my mom, and she's sobbing on the floor. I want to run to her, but I'm still frozen. The air feels thick, and I can hardly breathe."
+    ],
+    [
+      "Therapist: It's okay to feel overwhelmed. You're facing this bravely.",
+      "Client: Suddenly, my dad looks up and sees me. His face changes, and he looks... ashamed? Scared? I don't know. He backs away from my mom, and she's sobbing on the floor. I want to run to her, but I'm still frozen. The air feels thick, and I can hardly breathe.",
+      "Therapist: What's your SUDS rating at this point?"
+    ],
+    [
+      "Client: Suddenly, my dad looks up and sees me. His face changes, and he looks... ashamed? Scared? I don't know. He backs away from my mom, and she's sobbing on the floor. I want to run to her, but I'm still frozen. The air feels thick, and I can hardly breathe.",
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's dropped to a 7. I still feel shaky, but seeing my dad's reaction... it's different."
+    ],
+    [
+      "Therapist: What's your SUDS rating at this point?",
+      "Client: It's dropped to a 7. I still feel shaky, but seeing my dad's reaction... it's different.",
+      "Therapist: I see. How does the memory continue?"
+    ],
+    [
+      "Client: It's dropped to a 7. I still feel shaky, but seeing my dad's reaction... it's different.",
+      "Therapist: I see. How does the memory continue?",
+      "Client: My mom notices me too, and she quickly tries to compose herself. She's telling me to go back to bed, that everything's fine. But I know it's not. I slowly back away, feeling confused and scared. As I return to my room, I can hear hushed, intense whispers. I curl up in my bed, pulling the covers tight around me, wishing I could disappear."
+    ],
+    [
+      "Therapist: I see. How does the memory continue?",
+      "Client: My mom notices me too, and she quickly tries to compose herself. She's telling me to go back to bed, that everything's fine. But I know it's not. I slowly back away, feeling confused and scared. As I return to my room, I can hear hushed, intense whispers. I curl up in my bed, pulling the covers tight around me, wishing I could disappear.",
+      "Therapist: And your final SUDS rating?"
+    ],
+    [
+      "Client: My mom notices me too, and she quickly tries to compose herself. She's telling me to go back to bed, that everything's fine. But I know it's not. I slowly back away, feeling confused and scared. As I return to my room, I can hear hushed, intense whispers. I curl up in my bed, pulling the covers tight around me, wishing I could disappear.",
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 6 now. I feel drained and sad, but the intense fear has subsided a bit."
+    ],
+    [
+      "Therapist: And your final SUDS rating?",
+      "Client: It's down to a 6 now. I feel drained and sad, but the intense fear has subsided a bit.",
+      "Therapist: Thank you for sharing that difficult memory. How are you feeling now?"
+    ]
+  ]
+}

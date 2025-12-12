@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+    "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things today.",
+    "Therapist: That's understandable. We're here to support you.",
+    "Client: Thank you. I appreciate that. I've been thinking a lot about what we discussed last time, about the bullying I experienced in school. It's been bringing up a lot of emotions.",
+    "Therapist: You're very brave. Are you ready to explore that memory?",
+    "Client: I think so. Where should I start?",
+    "Therapist: Begin with a specific incident. Take your time.",
+    "Client: Okay... I remember this one day in high school. I was 16. I was walking to my locker after lunch, and I could hear a group of girls behind me. They were whispering and giggling. I knew they were talking about me. I could feel my heart racing, my palms getting sweaty. I tried to walk faster, but then one of them called out, \"Hey, curry girl! Why don't you go back to where you came from?\" Their laughter felt so loud, like it was echoing through the hallway.",
+    "Therapist: You're doing great. Stay with that memory.",
+    "Client: It's hard. I can feel that same panic rising in my chest now. I remember frantically trying to open my locker, but my hands were shaking so much. I couldn't get the combination right. They kept getting closer, still laughing and making more comments. I felt so alone, so exposed. I wanted to disappear.",
+    "Therapist: It's okay to feel these emotions. You're safe here.",
+    "Client: I... I can see their faces so clearly. The leader of the group, Sarah, she had this cruel smirk on her face. She walked right up to me and said, \"What's wrong? Can't you understand English?\" Then she knocked my books out of my hands. Everything scattered across the floor. I felt so humiliated.",
+    "Therapist: You're handling this well. Keep going.",
+    "Client: I bent down to pick up my things, trying not to cry. I could hear them laughing above me. Someone kicked one of my books further down the hall. I remember thinking, \"Why me? What did I do to deserve this?\" I felt so small, so worthless. I wished I could just blend in, be invisible. But my skin color, my accent, everything about me stood out. I didn't belong, and they made sure I knew it.",
+    "Therapist: You're very brave for sharing this. How are you feeling?",
+    "Client: It's... it's overwhelming. I can feel the shame and fear as if it were happening right now. My heart is pounding. I... I don't know if I can continue.",
+    "Therapist: Take a deep breath. You're doing incredibly well.",
+    "Client: Okay... okay. I'm trying. After I gathered my things, I ran to the bathroom. I locked myself in a stall and just cried. I couldn't stop shaking. I missed my next class because I was too afraid to leave. I kept replaying their words in my head, wondering if they were right. Maybe I didn't belong here. Maybe I should go back to where I came from. But this was my home. I was born here. I just wanted to be accepted.",
+    "Therapist: You're showing great strength. Keep going if you can.",
+    "Client: I stayed in that bathroom until the final bell rang. I waited until I was sure the halls were empty before I left. I remember walking home that day, feeling so alone and defeated. I didn't tell anyone what happened. Not my parents, not my teachers. I was too ashamed. I thought maybe if I just tried harder to fit in, to be more \"American,\" it would stop. But it didn't. It just got worse.",
+    "Therapist: You're doing an amazing job. How do you feel now?",
+    "Client: I feel... drained. But also, there's a part of me that feels relieved to finally talk about this. For so long, I've kept these memories locked away. I never realized how much they still affected me. Even now, at 60, I sometimes feel that same insecurity, that fear of not belonging. It's like those girls are still there, whispering in the back of my mind.",
+    "Therapist: You've shown incredible resilience. We'll work through this together.",
+    "Client: Thank you. I appreciate your support. It's hard to revisit these memories, but I think I understand now why it's important. I've carried this weight for so long. Maybe it's time to start letting it go.",
+    "Therapist: That's a powerful realization. How do you feel about ending here today?",
+    "Client: I think that would be good. This has been intense, but I feel like I've taken a step forward. Thank you for guiding me through this.",
+    "Therapist: You've done excellent work today. We'll continue next session."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Mrs. Patel. How are you feeling today?",
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things today.",
+      "Therapist: That's understandable. We're here to support you."
+    ],
+    [
+      "Client: I'm feeling a bit nervous, to be honest. I know we're going to be talking about some difficult things today.",
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I appreciate that. I've been thinking a lot about what we discussed last time, about the bullying I experienced in school. It's been bringing up a lot of emotions."
+    ],
+    [
+      "Therapist: That's understandable. We're here to support you.",
+      "Client: Thank you. I appreciate that. I've been thinking a lot about what we discussed last time, about the bullying I experienced in school. It's been bringing up a lot of emotions.",
+      "Therapist: You're very brave. Are you ready to explore that memory?"
+    ],
+    [
+      "Client: Thank you. I appreciate that. I've been thinking a lot about what we discussed last time, about the bullying I experienced in school. It's been bringing up a lot of emotions.",
+      "Therapist: You're very brave. Are you ready to explore that memory?",
+      "Client: I think so. Where should I start?"
+    ],
+    [
+      "Therapist: You're very brave. Are you ready to explore that memory?",
+      "Client: I think so. Where should I start?",
+      "Therapist: Begin with a specific incident. Take your time."
+    ],
+    [
+      "Client: I think so. Where should I start?",
+      "Therapist: Begin with a specific incident. Take your time.",
+      "Client: Okay... I remember this one day in high school. I was 16. I was walking to my locker after lunch, and I could hear a group of girls behind me. They were whispering and giggling. I knew they were talking about me. I could feel my heart racing, my palms getting sweaty. I tried to walk faster, but then one of them called out, \"Hey, curry girl! Why don't you go back to where you came from?\" Their laughter felt so loud, like it was echoing through the hallway."
+    ],
+    [
+      "Therapist: Begin with a specific incident. Take your time.",
+      "Client: Okay... I remember this one day in high school. I was 16. I was walking to my locker after lunch, and I could hear a group of girls behind me. They were whispering and giggling. I knew they were talking about me. I could feel my heart racing, my palms getting sweaty. I tried to walk faster, but then one of them called out, \"Hey, curry girl! Why don't you go back to where you came from?\" Their laughter felt so loud, like it was echoing through the hallway.",
+      "Therapist: You're doing great. Stay with that memory."
+    ],
+    [
+      "Client: Okay... I remember this one day in high school. I was 16. I was walking to my locker after lunch, and I could hear a group of girls behind me. They were whispering and giggling. I knew they were talking about me. I could feel my heart racing, my palms getting sweaty. I tried to walk faster, but then one of them called out, \"Hey, curry girl! Why don't you go back to where you came from?\" Their laughter felt so loud, like it was echoing through the hallway.",
+      "Therapist: You're doing great. Stay with that memory.",
+      "Client: It's hard. I can feel that same panic rising in my chest now. I remember frantically trying to open my locker, but my hands were shaking so much. I couldn't get the combination right. They kept getting closer, still laughing and making more comments. I felt so alone, so exposed. I wanted to disappear."
+    ],
+    [
+      "Therapist: You're doing great. Stay with that memory.",
+      "Client: It's hard. I can feel that same panic rising in my chest now. I remember frantically trying to open my locker, but my hands were shaking so much. I couldn't get the combination right. They kept getting closer, still laughing and making more comments. I felt so alone, so exposed. I wanted to disappear.",
+      "Therapist: It's okay to feel these emotions. You're safe here."
+    ],
+    [
+      "Client: It's hard. I can feel that same panic rising in my chest now. I remember frantically trying to open my locker, but my hands were shaking so much. I couldn't get the combination right. They kept getting closer, still laughing and making more comments. I felt so alone, so exposed. I wanted to disappear.",
+      "Therapist: It's okay to feel these emotions. You're safe here.",
+      "Client: I... I can see their faces so clearly. The leader of the group, Sarah, she had this cruel smirk on her face. She walked right up to me and said, \"What's wrong? Can't you understand English?\" Then she knocked my books out of my hands. Everything scattered across the floor. I felt so humiliated."
+    ],
+    [
+      "Therapist: It's okay to feel these emotions. You're safe here.",
+      "Client: I... I can see their faces so clearly. The leader of the group, Sarah, she had this cruel smirk on her face. She walked right up to me and said, \"What's wrong? Can't you understand English?\" Then she knocked my books out of my hands. Everything scattered across the floor. I felt so humiliated.",
+      "Therapist: You're handling this well. Keep going."
+    ],
+    [
+      "Client: I... I can see their faces so clearly. The leader of the group, Sarah, she had this cruel smirk on her face. She walked right up to me and said, \"What's wrong? Can't you understand English?\" Then she knocked my books out of my hands. Everything scattered across the floor. I felt so humiliated.",
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I bent down to pick up my things, trying not to cry. I could hear them laughing above me. Someone kicked one of my books further down the hall. I remember thinking, \"Why me? What did I do to deserve this?\" I felt so small, so worthless. I wished I could just blend in, be invisible. But my skin color, my accent, everything about me stood out. I didn't belong, and they made sure I knew it."
+    ],
+    [
+      "Therapist: You're handling this well. Keep going.",
+      "Client: I bent down to pick up my things, trying not to cry. I could hear them laughing above me. Someone kicked one of my books further down the hall. I remember thinking, \"Why me? What did I do to deserve this?\" I felt so small, so worthless. I wished I could just blend in, be invisible. But my skin color, my accent, everything about me stood out. I didn't belong, and they made sure I knew it.",
+      "Therapist: You're very brave for sharing this. How are you feeling?"
+    ],
+    [
+      "Client: I bent down to pick up my things, trying not to cry. I could hear them laughing above me. Someone kicked one of my books further down the hall. I remember thinking, \"Why me? What did I do to deserve this?\" I felt so small, so worthless. I wished I could just blend in, be invisible. But my skin color, my accent, everything about me stood out. I didn't belong, and they made sure I knew it.",
+      "Therapist: You're very brave for sharing this. How are you feeling?",
+      "Client: It's... it's overwhelming. I can feel the shame and fear as if it were happening right now. My heart is pounding. I... I don't know if I can continue."
+    ],
+    [
+      "Therapist: You're very brave for sharing this. How are you feeling?",
+      "Client: It's... it's overwhelming. I can feel the shame and fear as if it were happening right now. My heart is pounding. I... I don't know if I can continue.",
+      "Therapist: Take a deep breath. You're doing incredibly well."
+    ],
+    [
+      "Client: It's... it's overwhelming. I can feel the shame and fear as if it were happening right now. My heart is pounding. I... I don't know if I can continue.",
+      "Therapist: Take a deep breath. You're doing incredibly well.",
+      "Client: Okay... okay. I'm trying. After I gathered my things, I ran to the bathroom. I locked myself in a stall and just cried. I couldn't stop shaking. I missed my next class because I was too afraid to leave. I kept replaying their words in my head, wondering if they were right. Maybe I didn't belong here. Maybe I should go back to where I came from. But this was my home. I was born here. I just wanted to be accepted."
+    ],
+    [
+      "Therapist: Take a deep breath. You're doing incredibly well.",
+      "Client: Okay... okay. I'm trying. After I gathered my things, I ran to the bathroom. I locked myself in a stall and just cried. I couldn't stop shaking. I missed my next class because I was too afraid to leave. I kept replaying their words in my head, wondering if they were right. Maybe I didn't belong here. Maybe I should go back to where I came from. But this was my home. I was born here. I just wanted to be accepted.",
+      "Therapist: You're showing great strength. Keep going if you can."
+    ],
+    [
+      "Client: Okay... okay. I'm trying. After I gathered my things, I ran to the bathroom. I locked myself in a stall and just cried. I couldn't stop shaking. I missed my next class because I was too afraid to leave. I kept replaying their words in my head, wondering if they were right. Maybe I didn't belong here. Maybe I should go back to where I came from. But this was my home. I was born here. I just wanted to be accepted.",
+      "Therapist: You're showing great strength. Keep going if you can.",
+      "Client: I stayed in that bathroom until the final bell rang. I waited until I was sure the halls were empty before I left. I remember walking home that day, feeling so alone and defeated. I didn't tell anyone what happened. Not my parents, not my teachers. I was too ashamed. I thought maybe if I just tried harder to fit in, to be more \"American,\" it would stop. But it didn't. It just got worse."
+    ],
+    [
+      "Therapist: You're showing great strength. Keep going if you can.",
+      "Client: I stayed in that bathroom until the final bell rang. I waited until I was sure the halls were empty before I left. I remember walking home that day, feeling so alone and defeated. I didn't tell anyone what happened. Not my parents, not my teachers. I was too ashamed. I thought maybe if I just tried harder to fit in, to be more \"American,\" it would stop. But it didn't. It just got worse.",
+      "Therapist: You're doing an amazing job. How do you feel now?"
+    ],
+    [
+      "Client: I stayed in that bathroom until the final bell rang. I waited until I was sure the halls were empty before I left. I remember walking home that day, feeling so alone and defeated. I didn't tell anyone what happened. Not my parents, not my teachers. I was too ashamed. I thought maybe if I just tried harder to fit in, to be more \"American,\" it would stop. But it didn't. It just got worse.",
+      "Therapist: You're doing an amazing job. How do you feel now?",
+      "Client: I feel... drained. But also, there's a part of me that feels relieved to finally talk about this. For so long, I've kept these memories locked away. I never realized how much they still affected me. Even now, at 60, I sometimes feel that same insecurity, that fear of not belonging. It's like those girls are still there, whispering in the back of my mind."
+    ],
+    [
+      "Therapist: You're doing an amazing job. How do you feel now?",
+      "Client: I feel... drained. But also, there's a part of me that feels relieved to finally talk about this. For so long, I've kept these memories locked away. I never realized how much they still affected me. Even now, at 60, I sometimes feel that same insecurity, that fear of not belonging. It's like those girls are still there, whispering in the back of my mind.",
+      "Therapist: You've shown incredible resilience. We'll work through this together."
+    ],
+    [
+      "Client: I feel... drained. But also, there's a part of me that feels relieved to finally talk about this. For so long, I've kept these memories locked away. I never realized how much they still affected me. Even now, at 60, I sometimes feel that same insecurity, that fear of not belonging. It's like those girls are still there, whispering in the back of my mind.",
+      "Therapist: You've shown incredible resilience. We'll work through this together.",
+      "Client: Thank you. I appreciate your support. It's hard to revisit these memories, but I think I understand now why it's important. I've carried this weight for so long. Maybe it's time to start letting it go."
+    ],
+    [
+      "Therapist: You've shown incredible resilience. We'll work through this together.",
+      "Client: Thank you. I appreciate your support. It's hard to revisit these memories, but I think I understand now why it's important. I've carried this weight for so long. Maybe it's time to start letting it go.",
+      "Therapist: That's a powerful realization. How do you feel about ending here today?"
+    ],
+    [
+      "Client: Thank you. I appreciate your support. It's hard to revisit these memories, but I think I understand now why it's important. I've carried this weight for so long. Maybe it's time to start letting it go.",
+      "Therapist: That's a powerful realization. How do you feel about ending here today?",
+      "Client: I think that would be good. This has been intense, but I feel like I've taken a step forward. Thank you for guiding me through this."
+    ],
+    [
+      "Therapist: That's a powerful realization. How do you feel about ending here today?",
+      "Client: I think that would be good. This has been intense, but I feel like I've taken a step forward. Thank you for guiding me through this.",
+      "Therapist: You've done excellent work today. We'll continue next session."
+    ]
+  ]
+}

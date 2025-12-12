@@ -1,0 +1,176 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was right back there in that Humvee, hearing the explosion, feeling the heat...",
+    "Therapist: What's coming up for you now?",
+    "Client: It's a mix of things. There's this... heaviness in my chest. And my hands are clammy. I keep seeing flashes of that day - the dust, the smoke, the chaos. But there's also this weird sense of... I don't know, relief maybe? Like I faced it and I'm still here.",
+    "Therapist: Hmm. Tell me more about that relief.",
+    "Client: Well, it's like... for so long I've been avoiding thinking about it. But now that I've walked through it again, it's like... it doesn't have the same power over me? Don't get me wrong, it's still awful. But it's not this nameless, faceless monster anymore. It's just... a really bad thing that happened.",
+    "Therapist: How does that shift feel in your body?",
+    "Client: It's... lighter, I guess? My shoulders aren't as tense. But there's still this knot in my stomach. It's like my body remembers even when my mind is trying to process it differently.",
+    "Therapist: What thoughts are going through your mind right now?",
+    "Client: I keep thinking about Jones. He was right next to me when it happened. I see his face, hear him screaming... God, I couldn't do anything to help him. I just... froze. What kind of soldier does that make me?",
+    "Therapist: It sounds like you're grappling with some difficult feelings.",
+    "Client: Yeah, I... I feel guilty. Ashamed. Like I should have done more. But then there's this other part of me that knows there was nothing I could have done. It all happened so fast. But that doesn't make it any easier, you know?",
+    "Therapist: How do these feelings compare to before the exercise?",
+    "Client: They're... clearer, I think? Before, it was all just a jumble of panic and fear. Now, I can name what I'm feeling. It still hurts, but it's like... I can look at it from a distance. Does that make sense?",
+    "Therapist: Yes, it does. What else are you noticing?",
+    "Client: I'm realizing how much this has affected every part of my life. Like, the reason I can't hold down a job isn't because I'm lazy or incompetent. It's because I've been carrying all this around. And my relationship... I push people away because I'm afraid of losing them like I lost Jones.",
+    "Therapist: That's a powerful insight. How does it feel to make those connections?",
+    "Client: It's... overwhelming. But also kind of freeing? Like, maybe if I can understand it, I can start to change it. I don't want to be defined by this forever.",
+    "Therapist: What do you think might be a first step?",
+    "Client: I... I think I need to talk about it more. Not just here, but with my girlfriend. She's been so patient, but I've shut her out. Maybe if I let her in a little, it won't feel so isolating.",
+    "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+    "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? Like maybe I'm not completely broken. Maybe I can get through this.",
+    "Therapist: That's a significant shift. What's giving you that hope?",
+    "Client: I guess... the fact that I could face the memory and not completely fall apart. And talking about it like this, putting words to it... it makes it feel more manageable somehow. Like, it's still terrible, but it's not this unspeakable thing anymore.",
+    "Therapist: How might you carry this forward?",
+    "Client: I think... I want to try writing about it. Maybe if I can get it out on paper, it won't bounce around in my head so much. And I want to try talking to my girlfriend. Not all at once, but... maybe I can start letting her in a little.",
+    "Therapist: Those sound like positive steps. How do you feel about ending our session here?",
+    "Client: I think I'm okay with that. I feel... drained, but in a good way? Like I've done something important. Thank you for... for guiding me through this. It wasn't easy, but I think it was necessary.",
+    "Therapist: You've done incredibly well today. Take care of yourself this week.",
+    "Client: I will. Thanks again. See you next time."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was right back there in that Humvee, hearing the explosion, feeling the heat...",
+      "Therapist: What's coming up for you now?"
+    ],
+    [
+      "Client: I... I'm not sure. My heart's still racing a bit. It felt so real, you know? Like I was right back there in that Humvee, hearing the explosion, feeling the heat...",
+      "Therapist: What's coming up for you now?",
+      "Client: It's a mix of things. There's this... heaviness in my chest. And my hands are clammy. I keep seeing flashes of that day - the dust, the smoke, the chaos. But there's also this weird sense of... I don't know, relief maybe? Like I faced it and I'm still here."
+    ],
+    [
+      "Therapist: What's coming up for you now?",
+      "Client: It's a mix of things. There's this... heaviness in my chest. And my hands are clammy. I keep seeing flashes of that day - the dust, the smoke, the chaos. But there's also this weird sense of... I don't know, relief maybe? Like I faced it and I'm still here.",
+      "Therapist: Hmm. Tell me more about that relief."
+    ],
+    [
+      "Client: It's a mix of things. There's this... heaviness in my chest. And my hands are clammy. I keep seeing flashes of that day - the dust, the smoke, the chaos. But there's also this weird sense of... I don't know, relief maybe? Like I faced it and I'm still here.",
+      "Therapist: Hmm. Tell me more about that relief.",
+      "Client: Well, it's like... for so long I've been avoiding thinking about it. But now that I've walked through it again, it's like... it doesn't have the same power over me? Don't get me wrong, it's still awful. But it's not this nameless, faceless monster anymore. It's just... a really bad thing that happened."
+    ],
+    [
+      "Therapist: Hmm. Tell me more about that relief.",
+      "Client: Well, it's like... for so long I've been avoiding thinking about it. But now that I've walked through it again, it's like... it doesn't have the same power over me? Don't get me wrong, it's still awful. But it's not this nameless, faceless monster anymore. It's just... a really bad thing that happened.",
+      "Therapist: How does that shift feel in your body?"
+    ],
+    [
+      "Client: Well, it's like... for so long I've been avoiding thinking about it. But now that I've walked through it again, it's like... it doesn't have the same power over me? Don't get me wrong, it's still awful. But it's not this nameless, faceless monster anymore. It's just... a really bad thing that happened.",
+      "Therapist: How does that shift feel in your body?",
+      "Client: It's... lighter, I guess? My shoulders aren't as tense. But there's still this knot in my stomach. It's like my body remembers even when my mind is trying to process it differently."
+    ],
+    [
+      "Therapist: How does that shift feel in your body?",
+      "Client: It's... lighter, I guess? My shoulders aren't as tense. But there's still this knot in my stomach. It's like my body remembers even when my mind is trying to process it differently.",
+      "Therapist: What thoughts are going through your mind right now?"
+    ],
+    [
+      "Client: It's... lighter, I guess? My shoulders aren't as tense. But there's still this knot in my stomach. It's like my body remembers even when my mind is trying to process it differently.",
+      "Therapist: What thoughts are going through your mind right now?",
+      "Client: I keep thinking about Jones. He was right next to me when it happened. I see his face, hear him screaming... God, I couldn't do anything to help him. I just... froze. What kind of soldier does that make me?"
+    ],
+    [
+      "Therapist: What thoughts are going through your mind right now?",
+      "Client: I keep thinking about Jones. He was right next to me when it happened. I see his face, hear him screaming... God, I couldn't do anything to help him. I just... froze. What kind of soldier does that make me?",
+      "Therapist: It sounds like you're grappling with some difficult feelings."
+    ],
+    [
+      "Client: I keep thinking about Jones. He was right next to me when it happened. I see his face, hear him screaming... God, I couldn't do anything to help him. I just... froze. What kind of soldier does that make me?",
+      "Therapist: It sounds like you're grappling with some difficult feelings.",
+      "Client: Yeah, I... I feel guilty. Ashamed. Like I should have done more. But then there's this other part of me that knows there was nothing I could have done. It all happened so fast. But that doesn't make it any easier, you know?"
+    ],
+    [
+      "Therapist: It sounds like you're grappling with some difficult feelings.",
+      "Client: Yeah, I... I feel guilty. Ashamed. Like I should have done more. But then there's this other part of me that knows there was nothing I could have done. It all happened so fast. But that doesn't make it any easier, you know?",
+      "Therapist: How do these feelings compare to before the exercise?"
+    ],
+    [
+      "Client: Yeah, I... I feel guilty. Ashamed. Like I should have done more. But then there's this other part of me that knows there was nothing I could have done. It all happened so fast. But that doesn't make it any easier, you know?",
+      "Therapist: How do these feelings compare to before the exercise?",
+      "Client: They're... clearer, I think? Before, it was all just a jumble of panic and fear. Now, I can name what I'm feeling. It still hurts, but it's like... I can look at it from a distance. Does that make sense?"
+    ],
+    [
+      "Therapist: How do these feelings compare to before the exercise?",
+      "Client: They're... clearer, I think? Before, it was all just a jumble of panic and fear. Now, I can name what I'm feeling. It still hurts, but it's like... I can look at it from a distance. Does that make sense?",
+      "Therapist: Yes, it does. What else are you noticing?"
+    ],
+    [
+      "Client: They're... clearer, I think? Before, it was all just a jumble of panic and fear. Now, I can name what I'm feeling. It still hurts, but it's like... I can look at it from a distance. Does that make sense?",
+      "Therapist: Yes, it does. What else are you noticing?",
+      "Client: I'm realizing how much this has affected every part of my life. Like, the reason I can't hold down a job isn't because I'm lazy or incompetent. It's because I've been carrying all this around. And my relationship... I push people away because I'm afraid of losing them like I lost Jones."
+    ],
+    [
+      "Therapist: Yes, it does. What else are you noticing?",
+      "Client: I'm realizing how much this has affected every part of my life. Like, the reason I can't hold down a job isn't because I'm lazy or incompetent. It's because I've been carrying all this around. And my relationship... I push people away because I'm afraid of losing them like I lost Jones.",
+      "Therapist: That's a powerful insight. How does it feel to make those connections?"
+    ],
+    [
+      "Client: I'm realizing how much this has affected every part of my life. Like, the reason I can't hold down a job isn't because I'm lazy or incompetent. It's because I've been carrying all this around. And my relationship... I push people away because I'm afraid of losing them like I lost Jones.",
+      "Therapist: That's a powerful insight. How does it feel to make those connections?",
+      "Client: It's... overwhelming. But also kind of freeing? Like, maybe if I can understand it, I can start to change it. I don't want to be defined by this forever."
+    ],
+    [
+      "Therapist: That's a powerful insight. How does it feel to make those connections?",
+      "Client: It's... overwhelming. But also kind of freeing? Like, maybe if I can understand it, I can start to change it. I don't want to be defined by this forever.",
+      "Therapist: What do you think might be a first step?"
+    ],
+    [
+      "Client: It's... overwhelming. But also kind of freeing? Like, maybe if I can understand it, I can start to change it. I don't want to be defined by this forever.",
+      "Therapist: What do you think might be a first step?",
+      "Client: I... I think I need to talk about it more. Not just here, but with my girlfriend. She's been so patient, but I've shut her out. Maybe if I let her in a little, it won't feel so isolating."
+    ],
+    [
+      "Therapist: What do you think might be a first step?",
+      "Client: I... I think I need to talk about it more. Not just here, but with my girlfriend. She's been so patient, but I've shut her out. Maybe if I let her in a little, it won't feel so isolating.",
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?"
+    ],
+    [
+      "Client: I... I think I need to talk about it more. Not just here, but with my girlfriend. She's been so patient, but I've shut her out. Maybe if I let her in a little, it won't feel so isolating.",
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? Like maybe I'm not completely broken. Maybe I can get through this."
+    ],
+    [
+      "Therapist: That sounds like a thoughtful approach. How are you feeling now?",
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? Like maybe I'm not completely broken. Maybe I can get through this.",
+      "Therapist: That's a significant shift. What's giving you that hope?"
+    ],
+    [
+      "Client: Tired. Really tired. But also... I don't know, maybe a little hopeful? Like maybe I'm not completely broken. Maybe I can get through this.",
+      "Therapist: That's a significant shift. What's giving you that hope?",
+      "Client: I guess... the fact that I could face the memory and not completely fall apart. And talking about it like this, putting words to it... it makes it feel more manageable somehow. Like, it's still terrible, but it's not this unspeakable thing anymore."
+    ],
+    [
+      "Therapist: That's a significant shift. What's giving you that hope?",
+      "Client: I guess... the fact that I could face the memory and not completely fall apart. And talking about it like this, putting words to it... it makes it feel more manageable somehow. Like, it's still terrible, but it's not this unspeakable thing anymore.",
+      "Therapist: How might you carry this forward?"
+    ],
+    [
+      "Client: I guess... the fact that I could face the memory and not completely fall apart. And talking about it like this, putting words to it... it makes it feel more manageable somehow. Like, it's still terrible, but it's not this unspeakable thing anymore.",
+      "Therapist: How might you carry this forward?",
+      "Client: I think... I want to try writing about it. Maybe if I can get it out on paper, it won't bounce around in my head so much. And I want to try talking to my girlfriend. Not all at once, but... maybe I can start letting her in a little."
+    ],
+    [
+      "Therapist: How might you carry this forward?",
+      "Client: I think... I want to try writing about it. Maybe if I can get it out on paper, it won't bounce around in my head so much. And I want to try talking to my girlfriend. Not all at once, but... maybe I can start letting her in a little.",
+      "Therapist: Those sound like positive steps. How do you feel about ending our session here?"
+    ],
+    [
+      "Client: I think... I want to try writing about it. Maybe if I can get it out on paper, it won't bounce around in my head so much. And I want to try talking to my girlfriend. Not all at once, but... maybe I can start letting her in a little.",
+      "Therapist: Those sound like positive steps. How do you feel about ending our session here?",
+      "Client: I think I'm okay with that. I feel... drained, but in a good way? Like I've done something important. Thank you for... for guiding me through this. It wasn't easy, but I think it was necessary."
+    ],
+    [
+      "Therapist: Those sound like positive steps. How do you feel about ending our session here?",
+      "Client: I think I'm okay with that. I feel... drained, but in a good way? Like I've done something important. Thank you for... for guiding me through this. It wasn't easy, but I think it was necessary.",
+      "Therapist: You've done incredibly well today. Take care of yourself this week."
+    ],
+    [
+      "Client: I think I'm okay with that. I feel... drained, but in a good way? Like I've done something important. Thank you for... for guiding me through this. It wasn't easy, but I think it was necessary.",
+      "Therapist: You've done incredibly well today. Take care of yourself this week.",
+      "Client: I will. Thanks again. See you next time."
+    ]
+  ]
+}

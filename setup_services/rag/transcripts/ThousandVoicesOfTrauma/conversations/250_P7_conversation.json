@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to be talking about my experience with severe illness today, and it's bringing up some anxiety.",
+    "Therapist: That's understandable. Remember, you're safe here.",
+    "Client: Thanks. I guess I should start talking about it now?",
+    "Therapist: Whenever you're ready. Take your time.",
+    "Client: Okay. Well, it was about two years ago when I first started feeling unwell. At first, I thought it was just stress from my studies, but then the symptoms got worse. I was constantly exhausted, had severe headaches, and started losing weight rapidly. My roommates noticed and kept urging me to see a doctor, but I was stubborn. I didn't want to admit something was wrong.",
+    "Therapist: You're doing great. Keep going.",
+    "Client: It wasn't until I collapsed during a lecture that I finally went to the hospital. The doctors ran so many tests, and I was terrified. I remember lying in the hospital bed, feeling so alone and vulnerable. My parents were far away, and I didn't want to worry them. The uncertainty was killing me.",
+    "Therapist: It's okay to feel those emotions. You're safe now.",
+    "Client: When the doctor finally came in with the results, I could tell from his face it wasn't good news. He told me I had a rare autoimmune disorder that was attacking my organs. I felt like my world was crumbling around me. I couldn't process what he was saying about treatment options and prognosis. All I could think was, \"Why me? What did I do to deserve this?\"",
+    "Therapist: You're handling this well. Stay with the memory.",
+    "Client: The treatment was brutal. I had to drop out of university for a semester. The medications made me so sick, and I lost all my hair. I felt like I had lost control of my body and my life. My roommates tried to be supportive, but I could see the pity in their eyes. It made me feel even worse.",
+    "Therapist: That must have been incredibly difficult. You're very brave.",
+    "Client: The worst part was the isolation. I was too sick to go out, and many of my friends stopped coming around. I spent days alone in my room, scrolling through social media, seeing everyone else living their lives while mine felt like it had come to a standstill. I felt so angry and bitter.",
+    "Therapist: It's natural to have those feelings. Keep going.",
+    "Client: There were moments when I thought about giving up. The pain was unbearable sometimes, and I couldn't see a future for myself. But then I'd think about my parents, how devastated they'd be, and I'd force myself to keep fighting.",
+    "Therapist: You showed incredible strength. How are you feeling now?",
+    "Client: Talking about it... it's bringing back a lot of those feelings of fear and helplessness. But I also feel... I don't know, maybe a bit proud? That I got through it?",
+    "Therapist: That's a very positive realization. Well done.",
+    "Client: Yeah, I guess it is. I mean, I'm here now, right? I'm back at university, my health is stable. It's still a daily struggle, but I'm managing. Sometimes I still get angry about what happened, about the time I lost. But then I try to remind myself that I'm lucky to be here at all.",
+    "Therapist: That's an excellent perspective. You've come far.",
+    "Client: Thank you. It helps to talk about it, even though it's hard. There's still a part of me that's scared it could happen again, that I could lose everything I've worked to rebuild. But I'm trying to focus on the present, on the good days.",
+    "Therapist: That's a healthy approach. How do you feel now?",
+    "Client: Drained, but also... lighter? Like I've let go of something I've been carrying for a long time. It's still there, but it feels less overwhelming now that I've shared it.",
+    "Therapist: That's great progress. You should be proud.",
+    "Client: I think I am. It's strange to say that, but I am proud of myself. For surviving, for not giving up, for being here today and talking about it. I know there's still a long way to go, but I feel like I can face it now.",
+    "Therapist: Excellent work today, Sarah. We'll continue next week."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to be talking about my experience with severe illness today, and it's bringing up some anxiety.",
+      "Therapist: That's understandable. Remember, you're safe here."
+    ],
+    [
+      "Client: Hi Dr. Thompson. I'm feeling a bit nervous, to be honest. I know we're going to be talking about my experience with severe illness today, and it's bringing up some anxiety.",
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I guess I should start talking about it now?"
+    ],
+    [
+      "Therapist: That's understandable. Remember, you're safe here.",
+      "Client: Thanks. I guess I should start talking about it now?",
+      "Therapist: Whenever you're ready. Take your time."
+    ],
+    [
+      "Client: Thanks. I guess I should start talking about it now?",
+      "Therapist: Whenever you're ready. Take your time.",
+      "Client: Okay. Well, it was about two years ago when I first started feeling unwell. At first, I thought it was just stress from my studies, but then the symptoms got worse. I was constantly exhausted, had severe headaches, and started losing weight rapidly. My roommates noticed and kept urging me to see a doctor, but I was stubborn. I didn't want to admit something was wrong."
+    ],
+    [
+      "Therapist: Whenever you're ready. Take your time.",
+      "Client: Okay. Well, it was about two years ago when I first started feeling unwell. At first, I thought it was just stress from my studies, but then the symptoms got worse. I was constantly exhausted, had severe headaches, and started losing weight rapidly. My roommates noticed and kept urging me to see a doctor, but I was stubborn. I didn't want to admit something was wrong.",
+      "Therapist: You're doing great. Keep going."
+    ],
+    [
+      "Client: Okay. Well, it was about two years ago when I first started feeling unwell. At first, I thought it was just stress from my studies, but then the symptoms got worse. I was constantly exhausted, had severe headaches, and started losing weight rapidly. My roommates noticed and kept urging me to see a doctor, but I was stubborn. I didn't want to admit something was wrong.",
+      "Therapist: You're doing great. Keep going.",
+      "Client: It wasn't until I collapsed during a lecture that I finally went to the hospital. The doctors ran so many tests, and I was terrified. I remember lying in the hospital bed, feeling so alone and vulnerable. My parents were far away, and I didn't want to worry them. The uncertainty was killing me."
+    ],
+    [
+      "Therapist: You're doing great. Keep going.",
+      "Client: It wasn't until I collapsed during a lecture that I finally went to the hospital. The doctors ran so many tests, and I was terrified. I remember lying in the hospital bed, feeling so alone and vulnerable. My parents were far away, and I didn't want to worry them. The uncertainty was killing me.",
+      "Therapist: It's okay to feel those emotions. You're safe now."
+    ],
+    [
+      "Client: It wasn't until I collapsed during a lecture that I finally went to the hospital. The doctors ran so many tests, and I was terrified. I remember lying in the hospital bed, feeling so alone and vulnerable. My parents were far away, and I didn't want to worry them. The uncertainty was killing me.",
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: When the doctor finally came in with the results, I could tell from his face it wasn't good news. He told me I had a rare autoimmune disorder that was attacking my organs. I felt like my world was crumbling around me. I couldn't process what he was saying about treatment options and prognosis. All I could think was, \"Why me? What did I do to deserve this?\""
+    ],
+    [
+      "Therapist: It's okay to feel those emotions. You're safe now.",
+      "Client: When the doctor finally came in with the results, I could tell from his face it wasn't good news. He told me I had a rare autoimmune disorder that was attacking my organs. I felt like my world was crumbling around me. I couldn't process what he was saying about treatment options and prognosis. All I could think was, \"Why me? What did I do to deserve this?\"",
+      "Therapist: You're handling this well. Stay with the memory."
+    ],
+    [
+      "Client: When the doctor finally came in with the results, I could tell from his face it wasn't good news. He told me I had a rare autoimmune disorder that was attacking my organs. I felt like my world was crumbling around me. I couldn't process what he was saying about treatment options and prognosis. All I could think was, \"Why me? What did I do to deserve this?\"",
+      "Therapist: You're handling this well. Stay with the memory.",
+      "Client: The treatment was brutal. I had to drop out of university for a semester. The medications made me so sick, and I lost all my hair. I felt like I had lost control of my body and my life. My roommates tried to be supportive, but I could see the pity in their eyes. It made me feel even worse."
+    ],
+    [
+      "Therapist: You're handling this well. Stay with the memory.",
+      "Client: The treatment was brutal. I had to drop out of university for a semester. The medications made me so sick, and I lost all my hair. I felt like I had lost control of my body and my life. My roommates tried to be supportive, but I could see the pity in their eyes. It made me feel even worse.",
+      "Therapist: That must have been incredibly difficult. You're very brave."
+    ],
+    [
+      "Client: The treatment was brutal. I had to drop out of university for a semester. The medications made me so sick, and I lost all my hair. I felt like I had lost control of my body and my life. My roommates tried to be supportive, but I could see the pity in their eyes. It made me feel even worse.",
+      "Therapist: That must have been incredibly difficult. You're very brave.",
+      "Client: The worst part was the isolation. I was too sick to go out, and many of my friends stopped coming around. I spent days alone in my room, scrolling through social media, seeing everyone else living their lives while mine felt like it had come to a standstill. I felt so angry and bitter."
+    ],
+    [
+      "Therapist: That must have been incredibly difficult. You're very brave.",
+      "Client: The worst part was the isolation. I was too sick to go out, and many of my friends stopped coming around. I spent days alone in my room, scrolling through social media, seeing everyone else living their lives while mine felt like it had come to a standstill. I felt so angry and bitter.",
+      "Therapist: It's natural to have those feelings. Keep going."
+    ],
+    [
+      "Client: The worst part was the isolation. I was too sick to go out, and many of my friends stopped coming around. I spent days alone in my room, scrolling through social media, seeing everyone else living their lives while mine felt like it had come to a standstill. I felt so angry and bitter.",
+      "Therapist: It's natural to have those feelings. Keep going.",
+      "Client: There were moments when I thought about giving up. The pain was unbearable sometimes, and I couldn't see a future for myself. But then I'd think about my parents, how devastated they'd be, and I'd force myself to keep fighting."
+    ],
+    [
+      "Therapist: It's natural to have those feelings. Keep going.",
+      "Client: There were moments when I thought about giving up. The pain was unbearable sometimes, and I couldn't see a future for myself. But then I'd think about my parents, how devastated they'd be, and I'd force myself to keep fighting.",
+      "Therapist: You showed incredible strength. How are you feeling now?"
+    ],
+    [
+      "Client: There were moments when I thought about giving up. The pain was unbearable sometimes, and I couldn't see a future for myself. But then I'd think about my parents, how devastated they'd be, and I'd force myself to keep fighting.",
+      "Therapist: You showed incredible strength. How are you feeling now?",
+      "Client: Talking about it... it's bringing back a lot of those feelings of fear and helplessness. But I also feel... I don't know, maybe a bit proud? That I got through it?"
+    ],
+    [
+      "Therapist: You showed incredible strength. How are you feeling now?",
+      "Client: Talking about it... it's bringing back a lot of those feelings of fear and helplessness. But I also feel... I don't know, maybe a bit proud? That I got through it?",
+      "Therapist: That's a very positive realization. Well done."
+    ],
+    [
+      "Client: Talking about it... it's bringing back a lot of those feelings of fear and helplessness. But I also feel... I don't know, maybe a bit proud? That I got through it?",
+      "Therapist: That's a very positive realization. Well done.",
+      "Client: Yeah, I guess it is. I mean, I'm here now, right? I'm back at university, my health is stable. It's still a daily struggle, but I'm managing. Sometimes I still get angry about what happened, about the time I lost. But then I try to remind myself that I'm lucky to be here at all."
+    ],
+    [
+      "Therapist: That's a very positive realization. Well done.",
+      "Client: Yeah, I guess it is. I mean, I'm here now, right? I'm back at university, my health is stable. It's still a daily struggle, but I'm managing. Sometimes I still get angry about what happened, about the time I lost. But then I try to remind myself that I'm lucky to be here at all.",
+      "Therapist: That's an excellent perspective. You've come far."
+    ],
+    [
+      "Client: Yeah, I guess it is. I mean, I'm here now, right? I'm back at university, my health is stable. It's still a daily struggle, but I'm managing. Sometimes I still get angry about what happened, about the time I lost. But then I try to remind myself that I'm lucky to be here at all.",
+      "Therapist: That's an excellent perspective. You've come far.",
+      "Client: Thank you. It helps to talk about it, even though it's hard. There's still a part of me that's scared it could happen again, that I could lose everything I've worked to rebuild. But I'm trying to focus on the present, on the good days."
+    ],
+    [
+      "Therapist: That's an excellent perspective. You've come far.",
+      "Client: Thank you. It helps to talk about it, even though it's hard. There's still a part of me that's scared it could happen again, that I could lose everything I've worked to rebuild. But I'm trying to focus on the present, on the good days.",
+      "Therapist: That's a healthy approach. How do you feel now?"
+    ],
+    [
+      "Client: Thank you. It helps to talk about it, even though it's hard. There's still a part of me that's scared it could happen again, that I could lose everything I've worked to rebuild. But I'm trying to focus on the present, on the good days.",
+      "Therapist: That's a healthy approach. How do you feel now?",
+      "Client: Drained, but also... lighter? Like I've let go of something I've been carrying for a long time. It's still there, but it feels less overwhelming now that I've shared it."
+    ],
+    [
+      "Therapist: That's a healthy approach. How do you feel now?",
+      "Client: Drained, but also... lighter? Like I've let go of something I've been carrying for a long time. It's still there, but it feels less overwhelming now that I've shared it.",
+      "Therapist: That's great progress. You should be proud."
+    ],
+    [
+      "Client: Drained, but also... lighter? Like I've let go of something I've been carrying for a long time. It's still there, but it feels less overwhelming now that I've shared it.",
+      "Therapist: That's great progress. You should be proud.",
+      "Client: I think I am. It's strange to say that, but I am proud of myself. For surviving, for not giving up, for being here today and talking about it. I know there's still a long way to go, but I feel like I can face it now."
+    ],
+    [
+      "Therapist: That's great progress. You should be proud.",
+      "Client: I think I am. It's strange to say that, but I am proud of myself. For surviving, for not giving up, for being here today and talking about it. I know there's still a long way to go, but I feel like I can face it now.",
+      "Therapist: Excellent work today, Sarah. We'll continue next week."
+    ]
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Maria. How are you feeling about our imaginal exposure session today?",
+    "Client: I'm... I'm not sure, to be honest. Part of me wants to do this, but another part is terrified. It's like my stomach is in knots.",
+    "Therapist: That's understandable. Let's start with a SUDS rating. On a scale of 0-100, how distressed do you feel right now?",
+    "Client: Um... probably around 60. It's pretty high already.",
+    "Therapist: Okay. Remember, we're here together. Let's begin when you're ready.",
+    "Client: *deep breath* Alright. I'm sitting at my computer, scrolling through Facebook. It's late, maybe around 11 PM. I should be sleeping, but I can't. I'm too anxious about what I might find online. As I scroll, I see a notification. My heart starts racing immediately. It's from a group chat I'm part of for work... or, well, was part of. I click on it, my hand shaking slightly.",
+    "Therapist: You're doing well, Maria. What are you feeling in your body right now?",
+    "Client: My hands are clammy, and I feel like I can't breathe properly. It's like there's a weight on my chest.",
+    "Therapist: Focus on those sensations. Stay with the memory. What happens next?",
+    "Client: I... I can't stop reading. More messages keep coming in. Someone's shared a screenshot of my post. They're dissecting every word, finding ways to twist what I said. \"Always knew she was unstable.\" \"No wonder she can't keep a job.\" Each comment feels like a punch to the gut. I want to defend myself, but I'm paralyzed.",
+    "Therapist: You're doing great, Maria. What's your SUDS level now?",
+    "Client: It's... it's up to 80. This is really hard.",
+    "Therapist: I know it is. You're very brave. Take a deep breath and continue when you're ready.",
+    "Client: *inhales shakily* Okay. I'm still staring at the screen, my vision blurry from tears. I want to look away, but I can't. It's like watching a car crash. I scroll up, trying to see if anyone's defending me. But there's nothing. Just more cruel comments, more laughter at my expense.",
+    "Therapist: You're doing well, Maria. Remember, you're safe here. Can you tell me more about what you're thinking?",
+    "Client: I... I keep hearing their words in my head. \"Loser.\" \"Unstable.\" \"Can't keep a job.\" It's like they've confirmed every negative thought I've ever had about myself. I feel worthless, like maybe they're right. Maybe I am all those things they're saying.",
+    "Therapist: I hear how painful this is. What's your SUDS level right now?",
+    "Client: It's... it's 90. I feel like I can barely breathe.",
+    "Therapist: You're doing incredibly well, Maria. Take a moment to ground yourself. Feel your feet on the floor.",
+    "Client: *takes a deep breath* Okay. I'm... I'm still in that moment, but I can feel the floor. Um... I'm lying there, feeling utterly broken. My phone keeps buzzing with notifications, but I can't bear to look. Each sound makes me flinch. I feel so exposed, like my skin has been peeled away and everyone can see every flaw, every insecurity.",
+    "Therapist: You're doing really well, Maria. How are you feeling now?",
+    "Client: I... I feel drained. Exposed. It's like I'm reliving it all over again. My SUDS is probably around 85 now. It's still really high, but... I don't know, talking about it... it helps a little. Makes it feel less like this big, dark secret.",
+    "Therapist: That's a normal response. Can you continue with what happened next?",
+    "Client: Yeah, I... I called in sick to work. I couldn't face them. I spent the day in bed, alternating between crying and feeling numb. I kept checking my phone, hoping someone would reach out, apologize, tell me it was all a misunderstanding. But there was nothing. Just silence.",
+    "Therapist: You've shown incredible strength today, Maria. How are you feeling now?",
+    "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've finally let some of this out. My SUDS is down to about 70 now.",
+    "Therapist: That's significant progress. Would you like to end the exposure here?",
+    "Client: Yes, I think... I think that's enough for today. It's still painful, but... talking about it, it makes it feel a little less overwhelming.",
+    "Therapist: You did exceptionally well, Maria. Let's take a few moments to ground ourselves before we end the session.",
+    "Client: Okay. Thank you... for listening, for guiding me through this. It's hard, but... I think it's helping.",
+    "Therapist: You're very welcome, Maria. Your courage today was remarkable. We'll continue to work through this together."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Maria. How are you feeling about our imaginal exposure session today?",
+      "Client: I'm... I'm not sure, to be honest. Part of me wants to do this, but another part is terrified. It's like my stomach is in knots.",
+      "Therapist: That's understandable. Let's start with a SUDS rating. On a scale of 0-100, how distressed do you feel right now?"
+    ],
+    [
+      "Client: I'm... I'm not sure, to be honest. Part of me wants to do this, but another part is terrified. It's like my stomach is in knots.",
+      "Therapist: That's understandable. Let's start with a SUDS rating. On a scale of 0-100, how distressed do you feel right now?",
+      "Client: Um... probably around 60. It's pretty high already."
+    ],
+    [
+      "Therapist: That's understandable. Let's start with a SUDS rating. On a scale of 0-100, how distressed do you feel right now?",
+      "Client: Um... probably around 60. It's pretty high already.",
+      "Therapist: Okay. Remember, we're here together. Let's begin when you're ready."
+    ],
+    [
+      "Client: Um... probably around 60. It's pretty high already.",
+      "Therapist: Okay. Remember, we're here together. Let's begin when you're ready.",
+      "Client: *deep breath* Alright. I'm sitting at my computer, scrolling through Facebook. It's late, maybe around 11 PM. I should be sleeping, but I can't. I'm too anxious about what I might find online. As I scroll, I see a notification. My heart starts racing immediately. It's from a group chat I'm part of for work... or, well, was part of. I click on it, my hand shaking slightly."
+    ],
+    [
+      "Therapist: Okay. Remember, we're here together. Let's begin when you're ready.",
+      "Client: *deep breath* Alright. I'm sitting at my computer, scrolling through Facebook. It's late, maybe around 11 PM. I should be sleeping, but I can't. I'm too anxious about what I might find online. As I scroll, I see a notification. My heart starts racing immediately. It's from a group chat I'm part of for work... or, well, was part of. I click on it, my hand shaking slightly.",
+      "Therapist: You're doing well, Maria. What are you feeling in your body right now?"
+    ],
+    [
+      "Client: *deep breath* Alright. I'm sitting at my computer, scrolling through Facebook. It's late, maybe around 11 PM. I should be sleeping, but I can't. I'm too anxious about what I might find online. As I scroll, I see a notification. My heart starts racing immediately. It's from a group chat I'm part of for work... or, well, was part of. I click on it, my hand shaking slightly.",
+      "Therapist: You're doing well, Maria. What are you feeling in your body right now?",
+      "Client: My hands are clammy, and I feel like I can't breathe properly. It's like there's a weight on my chest."
+    ],
+    [
+      "Therapist: You're doing well, Maria. What are you feeling in your body right now?",
+      "Client: My hands are clammy, and I feel like I can't breathe properly. It's like there's a weight on my chest.",
+      "Therapist: Focus on those sensations. Stay with the memory. What happens next?"
+    ],
+    [
+      "Client: My hands are clammy, and I feel like I can't breathe properly. It's like there's a weight on my chest.",
+      "Therapist: Focus on those sensations. Stay with the memory. What happens next?",
+      "Client: I... I can't stop reading. More messages keep coming in. Someone's shared a screenshot of my post. They're dissecting every word, finding ways to twist what I said. \"Always knew she was unstable.\" \"No wonder she can't keep a job.\" Each comment feels like a punch to the gut. I want to defend myself, but I'm paralyzed."
+    ],
+    [
+      "Therapist: Focus on those sensations. Stay with the memory. What happens next?",
+      "Client: I... I can't stop reading. More messages keep coming in. Someone's shared a screenshot of my post. They're dissecting every word, finding ways to twist what I said. \"Always knew she was unstable.\" \"No wonder she can't keep a job.\" Each comment feels like a punch to the gut. I want to defend myself, but I'm paralyzed.",
+      "Therapist: You're doing great, Maria. What's your SUDS level now?"
+    ],
+    [
+      "Client: I... I can't stop reading. More messages keep coming in. Someone's shared a screenshot of my post. They're dissecting every word, finding ways to twist what I said. \"Always knew she was unstable.\" \"No wonder she can't keep a job.\" Each comment feels like a punch to the gut. I want to defend myself, but I'm paralyzed.",
+      "Therapist: You're doing great, Maria. What's your SUDS level now?",
+      "Client: It's... it's up to 80. This is really hard."
+    ],
+    [
+      "Therapist: You're doing great, Maria. What's your SUDS level now?",
+      "Client: It's... it's up to 80. This is really hard.",
+      "Therapist: I know it is. You're very brave. Take a deep breath and continue when you're ready."
+    ],
+    [
+      "Client: It's... it's up to 80. This is really hard.",
+      "Therapist: I know it is. You're very brave. Take a deep breath and continue when you're ready.",
+      "Client: *inhales shakily* Okay. I'm still staring at the screen, my vision blurry from tears. I want to look away, but I can't. It's like watching a car crash. I scroll up, trying to see if anyone's defending me. But there's nothing. Just more cruel comments, more laughter at my expense."
+    ],
+    [
+      "Therapist: I know it is. You're very brave. Take a deep breath and continue when you're ready.",
+      "Client: *inhales shakily* Okay. I'm still staring at the screen, my vision blurry from tears. I want to look away, but I can't. It's like watching a car crash. I scroll up, trying to see if anyone's defending me. But there's nothing. Just more cruel comments, more laughter at my expense.",
+      "Therapist: You're doing well, Maria. Remember, you're safe here. Can you tell me more about what you're thinking?"
+    ],
+    [
+      "Client: *inhales shakily* Okay. I'm still staring at the screen, my vision blurry from tears. I want to look away, but I can't. It's like watching a car crash. I scroll up, trying to see if anyone's defending me. But there's nothing. Just more cruel comments, more laughter at my expense.",
+      "Therapist: You're doing well, Maria. Remember, you're safe here. Can you tell me more about what you're thinking?",
+      "Client: I... I keep hearing their words in my head. \"Loser.\" \"Unstable.\" \"Can't keep a job.\" It's like they've confirmed every negative thought I've ever had about myself. I feel worthless, like maybe they're right. Maybe I am all those things they're saying."
+    ],
+    [
+      "Therapist: You're doing well, Maria. Remember, you're safe here. Can you tell me more about what you're thinking?",
+      "Client: I... I keep hearing their words in my head. \"Loser.\" \"Unstable.\" \"Can't keep a job.\" It's like they've confirmed every negative thought I've ever had about myself. I feel worthless, like maybe they're right. Maybe I am all those things they're saying.",
+      "Therapist: I hear how painful this is. What's your SUDS level right now?"
+    ],
+    [
+      "Client: I... I keep hearing their words in my head. \"Loser.\" \"Unstable.\" \"Can't keep a job.\" It's like they've confirmed every negative thought I've ever had about myself. I feel worthless, like maybe they're right. Maybe I am all those things they're saying.",
+      "Therapist: I hear how painful this is. What's your SUDS level right now?",
+      "Client: It's... it's 90. I feel like I can barely breathe."
+    ],
+    [
+      "Therapist: I hear how painful this is. What's your SUDS level right now?",
+      "Client: It's... it's 90. I feel like I can barely breathe.",
+      "Therapist: You're doing incredibly well, Maria. Take a moment to ground yourself. Feel your feet on the floor."
+    ],
+    [
+      "Client: It's... it's 90. I feel like I can barely breathe.",
+      "Therapist: You're doing incredibly well, Maria. Take a moment to ground yourself. Feel your feet on the floor.",
+      "Client: *takes a deep breath* Okay. I'm... I'm still in that moment, but I can feel the floor. Um... I'm lying there, feeling utterly broken. My phone keeps buzzing with notifications, but I can't bear to look. Each sound makes me flinch. I feel so exposed, like my skin has been peeled away and everyone can see every flaw, every insecurity."
+    ],
+    [
+      "Therapist: You're doing incredibly well, Maria. Take a moment to ground yourself. Feel your feet on the floor.",
+      "Client: *takes a deep breath* Okay. I'm... I'm still in that moment, but I can feel the floor. Um... I'm lying there, feeling utterly broken. My phone keeps buzzing with notifications, but I can't bear to look. Each sound makes me flinch. I feel so exposed, like my skin has been peeled away and everyone can see every flaw, every insecurity.",
+      "Therapist: You're doing really well, Maria. How are you feeling now?"
+    ],
+    [
+      "Client: *takes a deep breath* Okay. I'm... I'm still in that moment, but I can feel the floor. Um... I'm lying there, feeling utterly broken. My phone keeps buzzing with notifications, but I can't bear to look. Each sound makes me flinch. I feel so exposed, like my skin has been peeled away and everyone can see every flaw, every insecurity.",
+      "Therapist: You're doing really well, Maria. How are you feeling now?",
+      "Client: I... I feel drained. Exposed. It's like I'm reliving it all over again. My SUDS is probably around 85 now. It's still really high, but... I don't know, talking about it... it helps a little. Makes it feel less like this big, dark secret."
+    ],
+    [
+      "Therapist: You're doing really well, Maria. How are you feeling now?",
+      "Client: I... I feel drained. Exposed. It's like I'm reliving it all over again. My SUDS is probably around 85 now. It's still really high, but... I don't know, talking about it... it helps a little. Makes it feel less like this big, dark secret.",
+      "Therapist: That's a normal response. Can you continue with what happened next?"
+    ],
+    [
+      "Client: I... I feel drained. Exposed. It's like I'm reliving it all over again. My SUDS is probably around 85 now. It's still really high, but... I don't know, talking about it... it helps a little. Makes it feel less like this big, dark secret.",
+      "Therapist: That's a normal response. Can you continue with what happened next?",
+      "Client: Yeah, I... I called in sick to work. I couldn't face them. I spent the day in bed, alternating between crying and feeling numb. I kept checking my phone, hoping someone would reach out, apologize, tell me it was all a misunderstanding. But there was nothing. Just silence."
+    ],
+    [
+      "Therapist: That's a normal response. Can you continue with what happened next?",
+      "Client: Yeah, I... I called in sick to work. I couldn't face them. I spent the day in bed, alternating between crying and feeling numb. I kept checking my phone, hoping someone would reach out, apologize, tell me it was all a misunderstanding. But there was nothing. Just silence.",
+      "Therapist: You've shown incredible strength today, Maria. How are you feeling now?"
+    ],
+    [
+      "Client: Yeah, I... I called in sick to work. I couldn't face them. I spent the day in bed, alternating between crying and feeling numb. I kept checking my phone, hoping someone would reach out, apologize, tell me it was all a misunderstanding. But there was nothing. Just silence.",
+      "Therapist: You've shown incredible strength today, Maria. How are you feeling now?",
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've finally let some of this out. My SUDS is down to about 70 now."
+    ],
+    [
+      "Therapist: You've shown incredible strength today, Maria. How are you feeling now?",
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've finally let some of this out. My SUDS is down to about 70 now.",
+      "Therapist: That's significant progress. Would you like to end the exposure here?"
+    ],
+    [
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've finally let some of this out. My SUDS is down to about 70 now.",
+      "Therapist: That's significant progress. Would you like to end the exposure here?",
+      "Client: Yes, I think... I think that's enough for today. It's still painful, but... talking about it, it makes it feel a little less overwhelming."
+    ],
+    [
+      "Therapist: That's significant progress. Would you like to end the exposure here?",
+      "Client: Yes, I think... I think that's enough for today. It's still painful, but... talking about it, it makes it feel a little less overwhelming.",
+      "Therapist: You did exceptionally well, Maria. Let's take a few moments to ground ourselves before we end the session."
+    ],
+    [
+      "Client: Yes, I think... I think that's enough for today. It's still painful, but... talking about it, it makes it feel a little less overwhelming.",
+      "Therapist: You did exceptionally well, Maria. Let's take a few moments to ground ourselves before we end the session.",
+      "Client: Okay. Thank you... for listening, for guiding me through this. It's hard, but... I think it's helping."
+    ],
+    [
+      "Therapist: You did exceptionally well, Maria. Let's take a few moments to ground ourselves before we end the session.",
+      "Client: Okay. Thank you... for listening, for guiding me through this. It's hard, but... I think it's helping.",
+      "Therapist: You're very welcome, Maria. Your courage today was remarkable. We'll continue to work through this together."
+    ]
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "full_conversation": [
+    "Therapist: Mrs. Johnson, today we'll focus on imaginal exposure. How are you feeling about that?",
+    "Client: Oh, dear. I'm not quite sure what that means. It sounds a bit intimidating, to be honest. My memory isn't what it used to be, you know. Could you explain it to me, young man?",
+    "Therapist: Of course. It's revisiting your trauma memory in a safe space. Ready to hear more?",
+    "Client: Well, I suppose so. But I'm not sure I want to remember that awful night. It still gives me the shivers. Why do we need to do this?",
+    "Therapist: It helps reduce PTSD symptoms over time. Shall we discuss your concerns?",
+    "Client: I see. Well, I'm worried it might be too much for me at my age. What if I get too upset? I don't want to cause a fuss in the assisted living facility. And frankly, I'm not sure how much good it will do at this point in my life.",
+    "Therapist: Your concerns are valid. We'll go slowly and I'll support you throughout. Okay?",
+    "Client: That's kind of you to say. I appreciate your patience with an old lady like me. I've been through a lot, you know. Losing my Harold, moving here, and then that dreadful break-in. It's been quite overwhelming. But I suppose if you think this will help, I'll give it a try.",
+    "Therapist: Your resilience is admirable. What questions do you have about the process?",
+    "Client: Well, let's see. Do I have to close my eyes? And how long will this take? I get tired easily these days, and I wouldn't want to miss my afternoon tea. The ladies and I have a standing date, you understand.",
+    "Therapist: Eyes open or closed is your choice. We'll keep it brief. How's that?",
+    "Client: That's a relief. I do appreciate you taking my schedule into account. It's important to keep up with my social commitments, you know. They help keep me grounded. Now, what exactly will I need to do during this... imaginal exposure, was it?",
+    "Therapist: You'll describe the traumatic event in detail. I'll guide you through it.",
+    "Client: Oh my, that sounds rather intense. I'm not sure I remember all the details clearly. What if I get something wrong? Or what if I start to feel overwhelmed? I'm not as steady as I used to be, emotionally or physically.",
+    "Therapist: Memories may be unclear. That's okay. We can pause anytime. How does that sound?",
+    "Client: Well, that does make me feel a bit better. You're very understanding, young man. I suppose I can give it a try. But promise me you'll stop if it becomes too much? I don't want to have one of my episodes.",
+    "Therapist: Absolutely. Your comfort is paramount. Shall we begin?",
+    "Client: Alright then. I trust you, dear. You remind me a bit of my grandson, always so patient with me. I'll do my best to go through with this, even though it's frightening. I want to get better, you know. I'm tired of feeling so anxious all the time.",
+    "Therapist: Your courage is inspiring. Ready to start?",
+    "Client: Yes, I think I am. Thank you for being so kind. It means a lot to have someone listen and understand. Let's give this a try and see if we can make some progress. I'm as ready as I'll ever be."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mrs. Johnson, today we'll focus on imaginal exposure. How are you feeling about that?",
+      "Client: Oh, dear. I'm not quite sure what that means. It sounds a bit intimidating, to be honest. My memory isn't what it used to be, you know. Could you explain it to me, young man?",
+      "Therapist: Of course. It's revisiting your trauma memory in a safe space. Ready to hear more?"
+    ],
+    [
+      "Client: Oh, dear. I'm not quite sure what that means. It sounds a bit intimidating, to be honest. My memory isn't what it used to be, you know. Could you explain it to me, young man?",
+      "Therapist: Of course. It's revisiting your trauma memory in a safe space. Ready to hear more?",
+      "Client: Well, I suppose so. But I'm not sure I want to remember that awful night. It still gives me the shivers. Why do we need to do this?"
+    ],
+    [
+      "Therapist: Of course. It's revisiting your trauma memory in a safe space. Ready to hear more?",
+      "Client: Well, I suppose so. But I'm not sure I want to remember that awful night. It still gives me the shivers. Why do we need to do this?",
+      "Therapist: It helps reduce PTSD symptoms over time. Shall we discuss your concerns?"
+    ],
+    [
+      "Client: Well, I suppose so. But I'm not sure I want to remember that awful night. It still gives me the shivers. Why do we need to do this?",
+      "Therapist: It helps reduce PTSD symptoms over time. Shall we discuss your concerns?",
+      "Client: I see. Well, I'm worried it might be too much for me at my age. What if I get too upset? I don't want to cause a fuss in the assisted living facility. And frankly, I'm not sure how much good it will do at this point in my life."
+    ],
+    [
+      "Therapist: It helps reduce PTSD symptoms over time. Shall we discuss your concerns?",
+      "Client: I see. Well, I'm worried it might be too much for me at my age. What if I get too upset? I don't want to cause a fuss in the assisted living facility. And frankly, I'm not sure how much good it will do at this point in my life.",
+      "Therapist: Your concerns are valid. We'll go slowly and I'll support you throughout. Okay?"
+    ],
+    [
+      "Client: I see. Well, I'm worried it might be too much for me at my age. What if I get too upset? I don't want to cause a fuss in the assisted living facility. And frankly, I'm not sure how much good it will do at this point in my life.",
+      "Therapist: Your concerns are valid. We'll go slowly and I'll support you throughout. Okay?",
+      "Client: That's kind of you to say. I appreciate your patience with an old lady like me. I've been through a lot, you know. Losing my Harold, moving here, and then that dreadful break-in. It's been quite overwhelming. But I suppose if you think this will help, I'll give it a try."
+    ],
+    [
+      "Therapist: Your concerns are valid. We'll go slowly and I'll support you throughout. Okay?",
+      "Client: That's kind of you to say. I appreciate your patience with an old lady like me. I've been through a lot, you know. Losing my Harold, moving here, and then that dreadful break-in. It's been quite overwhelming. But I suppose if you think this will help, I'll give it a try.",
+      "Therapist: Your resilience is admirable. What questions do you have about the process?"
+    ],
+    [
+      "Client: That's kind of you to say. I appreciate your patience with an old lady like me. I've been through a lot, you know. Losing my Harold, moving here, and then that dreadful break-in. It's been quite overwhelming. But I suppose if you think this will help, I'll give it a try.",
+      "Therapist: Your resilience is admirable. What questions do you have about the process?",
+      "Client: Well, let's see. Do I have to close my eyes? And how long will this take? I get tired easily these days, and I wouldn't want to miss my afternoon tea. The ladies and I have a standing date, you understand."
+    ],
+    [
+      "Therapist: Your resilience is admirable. What questions do you have about the process?",
+      "Client: Well, let's see. Do I have to close my eyes? And how long will this take? I get tired easily these days, and I wouldn't want to miss my afternoon tea. The ladies and I have a standing date, you understand.",
+      "Therapist: Eyes open or closed is your choice. We'll keep it brief. How's that?"
+    ],
+    [
+      "Client: Well, let's see. Do I have to close my eyes? And how long will this take? I get tired easily these days, and I wouldn't want to miss my afternoon tea. The ladies and I have a standing date, you understand.",
+      "Therapist: Eyes open or closed is your choice. We'll keep it brief. How's that?",
+      "Client: That's a relief. I do appreciate you taking my schedule into account. It's important to keep up with my social commitments, you know. They help keep me grounded. Now, what exactly will I need to do during this... imaginal exposure, was it?"
+    ],
+    [
+      "Therapist: Eyes open or closed is your choice. We'll keep it brief. How's that?",
+      "Client: That's a relief. I do appreciate you taking my schedule into account. It's important to keep up with my social commitments, you know. They help keep me grounded. Now, what exactly will I need to do during this... imaginal exposure, was it?",
+      "Therapist: You'll describe the traumatic event in detail. I'll guide you through it."
+    ],
+    [
+      "Client: That's a relief. I do appreciate you taking my schedule into account. It's important to keep up with my social commitments, you know. They help keep me grounded. Now, what exactly will I need to do during this... imaginal exposure, was it?",
+      "Therapist: You'll describe the traumatic event in detail. I'll guide you through it.",
+      "Client: Oh my, that sounds rather intense. I'm not sure I remember all the details clearly. What if I get something wrong? Or what if I start to feel overwhelmed? I'm not as steady as I used to be, emotionally or physically."
+    ],
+    [
+      "Therapist: You'll describe the traumatic event in detail. I'll guide you through it.",
+      "Client: Oh my, that sounds rather intense. I'm not sure I remember all the details clearly. What if I get something wrong? Or what if I start to feel overwhelmed? I'm not as steady as I used to be, emotionally or physically.",
+      "Therapist: Memories may be unclear. That's okay. We can pause anytime. How does that sound?"
+    ],
+    [
+      "Client: Oh my, that sounds rather intense. I'm not sure I remember all the details clearly. What if I get something wrong? Or what if I start to feel overwhelmed? I'm not as steady as I used to be, emotionally or physically.",
+      "Therapist: Memories may be unclear. That's okay. We can pause anytime. How does that sound?",
+      "Client: Well, that does make me feel a bit better. You're very understanding, young man. I suppose I can give it a try. But promise me you'll stop if it becomes too much? I don't want to have one of my episodes."
+    ],
+    [
+      "Therapist: Memories may be unclear. That's okay. We can pause anytime. How does that sound?",
+      "Client: Well, that does make me feel a bit better. You're very understanding, young man. I suppose I can give it a try. But promise me you'll stop if it becomes too much? I don't want to have one of my episodes.",
+      "Therapist: Absolutely. Your comfort is paramount. Shall we begin?"
+    ],
+    [
+      "Client: Well, that does make me feel a bit better. You're very understanding, young man. I suppose I can give it a try. But promise me you'll stop if it becomes too much? I don't want to have one of my episodes.",
+      "Therapist: Absolutely. Your comfort is paramount. Shall we begin?",
+      "Client: Alright then. I trust you, dear. You remind me a bit of my grandson, always so patient with me. I'll do my best to go through with this, even though it's frightening. I want to get better, you know. I'm tired of feeling so anxious all the time."
+    ],
+    [
+      "Therapist: Absolutely. Your comfort is paramount. Shall we begin?",
+      "Client: Alright then. I trust you, dear. You remind me a bit of my grandson, always so patient with me. I'll do my best to go through with this, even though it's frightening. I want to get better, you know. I'm tired of feeling so anxious all the time.",
+      "Therapist: Your courage is inspiring. Ready to start?"
+    ],
+    [
+      "Client: Alright then. I trust you, dear. You remind me a bit of my grandson, always so patient with me. I'll do my best to go through with this, even though it's frightening. I want to get better, you know. I'm tired of feeling so anxious all the time.",
+      "Therapist: Your courage is inspiring. Ready to start?",
+      "Client: Yes, I think I am. Thank you for being so kind. It means a lot to have someone listen and understand. Let's give this a try and see if we can make some progress. I'm as ready as I'll ever be."
+    ]
+  ]
+}

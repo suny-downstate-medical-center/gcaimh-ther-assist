@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about my illness, and I'm not sure I'm ready to face it all again.",
+    "Therapist: I understand. Today, we'll begin imaginal exposure. Are you familiar with this?",
+    "Client: Not really. I mean, I've heard the term, but I'm not sure what it entails. Is it going to be intense? I'm worried it might trigger more nightmares or panic attacks.",
+    "Therapist: It's a technique to process traumatic memories. Can you share your main concerns?",
+    "Client: Well, I'm scared of reliving the pain and fear I felt during my illness. What if I can't handle it? What if I break down completely? I've worked so hard to keep it together, and I'm afraid this might undo all of that progress.",
+    "Therapist: Your concerns are valid. How do you typically cope with difficult emotions?",
+    "Client: I usually try to distract myself, you know? I throw myself into work or binge-watch TV shows. Sometimes I go for long walks. But I know that's not really dealing with the problem. It's just... the thought of facing it head-on is terrifying.",
+    "Therapist: Those coping strategies are common. How do you feel about trying something different today?",
+    "Client: I'm scared, but I also know I need to do something. The nightmares are getting worse, and I'm starting to avoid certain places that remind me of being sick. If this can help, I want to try. But can you tell me more about what exactly we'll be doing?",
+    "Therapist: We'll revisit your memories gradually, in a safe environment. What questions do you have?",
+    "Client: How long will it take? Will I have to relive everything in one go? And what happens if I panic during the session? I'm worried I might not be able to pull myself out of it.",
+    "Therapist: We'll go at your pace, and I'll be here to support you. What's your biggest fear about this process?",
+    "Client: I think my biggest fear is losing control. When I was sick, I felt so helpless and out of control of my own body. I'm afraid that revisiting those memories will bring back that feeling of powerlessness. But at the same time, I'm tired of letting this fear control my life. I want to be able to move forward.",
+    "Therapist: Your courage is admirable. Shall we start with a brief relaxation exercise?",
+    "Client: Yes, I think that would help. I'm still nervous, but I'm also feeling a bit more determined now. I know it won't be easy, but if this can help me regain some control over my life and reduce these nightmares, I'm willing to try. Can you guide me through the relaxation exercise?",
+    "Therapist: Of course. Let's begin with deep breathing. Close your eyes and follow my lead."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about my illness, and I'm not sure I'm ready to face it all again.",
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you familiar with this?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do today. I've been having more nightmares lately about my illness, and I'm not sure I'm ready to face it all again.",
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you familiar with this?",
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it entails. Is it going to be intense? I'm worried it might trigger more nightmares or panic attacks."
+    ],
+    [
+      "Therapist: I understand. Today, we'll begin imaginal exposure. Are you familiar with this?",
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it entails. Is it going to be intense? I'm worried it might trigger more nightmares or panic attacks.",
+      "Therapist: It's a technique to process traumatic memories. Can you share your main concerns?"
+    ],
+    [
+      "Client: Not really. I mean, I've heard the term, but I'm not sure what it entails. Is it going to be intense? I'm worried it might trigger more nightmares or panic attacks.",
+      "Therapist: It's a technique to process traumatic memories. Can you share your main concerns?",
+      "Client: Well, I'm scared of reliving the pain and fear I felt during my illness. What if I can't handle it? What if I break down completely? I've worked so hard to keep it together, and I'm afraid this might undo all of that progress."
+    ],
+    [
+      "Therapist: It's a technique to process traumatic memories. Can you share your main concerns?",
+      "Client: Well, I'm scared of reliving the pain and fear I felt during my illness. What if I can't handle it? What if I break down completely? I've worked so hard to keep it together, and I'm afraid this might undo all of that progress.",
+      "Therapist: Your concerns are valid. How do you typically cope with difficult emotions?"
+    ],
+    [
+      "Client: Well, I'm scared of reliving the pain and fear I felt during my illness. What if I can't handle it? What if I break down completely? I've worked so hard to keep it together, and I'm afraid this might undo all of that progress.",
+      "Therapist: Your concerns are valid. How do you typically cope with difficult emotions?",
+      "Client: I usually try to distract myself, you know? I throw myself into work or binge-watch TV shows. Sometimes I go for long walks. But I know that's not really dealing with the problem. It's just... the thought of facing it head-on is terrifying."
+    ],
+    [
+      "Therapist: Your concerns are valid. How do you typically cope with difficult emotions?",
+      "Client: I usually try to distract myself, you know? I throw myself into work or binge-watch TV shows. Sometimes I go for long walks. But I know that's not really dealing with the problem. It's just... the thought of facing it head-on is terrifying.",
+      "Therapist: Those coping strategies are common. How do you feel about trying something different today?"
+    ],
+    [
+      "Client: I usually try to distract myself, you know? I throw myself into work or binge-watch TV shows. Sometimes I go for long walks. But I know that's not really dealing with the problem. It's just... the thought of facing it head-on is terrifying.",
+      "Therapist: Those coping strategies are common. How do you feel about trying something different today?",
+      "Client: I'm scared, but I also know I need to do something. The nightmares are getting worse, and I'm starting to avoid certain places that remind me of being sick. If this can help, I want to try. But can you tell me more about what exactly we'll be doing?"
+    ],
+    [
+      "Therapist: Those coping strategies are common. How do you feel about trying something different today?",
+      "Client: I'm scared, but I also know I need to do something. The nightmares are getting worse, and I'm starting to avoid certain places that remind me of being sick. If this can help, I want to try. But can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll revisit your memories gradually, in a safe environment. What questions do you have?"
+    ],
+    [
+      "Client: I'm scared, but I also know I need to do something. The nightmares are getting worse, and I'm starting to avoid certain places that remind me of being sick. If this can help, I want to try. But can you tell me more about what exactly we'll be doing?",
+      "Therapist: We'll revisit your memories gradually, in a safe environment. What questions do you have?",
+      "Client: How long will it take? Will I have to relive everything in one go? And what happens if I panic during the session? I'm worried I might not be able to pull myself out of it."
+    ],
+    [
+      "Therapist: We'll revisit your memories gradually, in a safe environment. What questions do you have?",
+      "Client: How long will it take? Will I have to relive everything in one go? And what happens if I panic during the session? I'm worried I might not be able to pull myself out of it.",
+      "Therapist: We'll go at your pace, and I'll be here to support you. What's your biggest fear about this process?"
+    ],
+    [
+      "Client: How long will it take? Will I have to relive everything in one go? And what happens if I panic during the session? I'm worried I might not be able to pull myself out of it.",
+      "Therapist: We'll go at your pace, and I'll be here to support you. What's your biggest fear about this process?",
+      "Client: I think my biggest fear is losing control. When I was sick, I felt so helpless and out of control of my own body. I'm afraid that revisiting those memories will bring back that feeling of powerlessness. But at the same time, I'm tired of letting this fear control my life. I want to be able to move forward."
+    ],
+    [
+      "Therapist: We'll go at your pace, and I'll be here to support you. What's your biggest fear about this process?",
+      "Client: I think my biggest fear is losing control. When I was sick, I felt so helpless and out of control of my own body. I'm afraid that revisiting those memories will bring back that feeling of powerlessness. But at the same time, I'm tired of letting this fear control my life. I want to be able to move forward.",
+      "Therapist: Your courage is admirable. Shall we start with a brief relaxation exercise?"
+    ],
+    [
+      "Client: I think my biggest fear is losing control. When I was sick, I felt so helpless and out of control of my own body. I'm afraid that revisiting those memories will bring back that feeling of powerlessness. But at the same time, I'm tired of letting this fear control my life. I want to be able to move forward.",
+      "Therapist: Your courage is admirable. Shall we start with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. I'm still nervous, but I'm also feeling a bit more determined now. I know it won't be easy, but if this can help me regain some control over my life and reduce these nightmares, I'm willing to try. Can you guide me through the relaxation exercise?"
+    ],
+    [
+      "Therapist: Your courage is admirable. Shall we start with a brief relaxation exercise?",
+      "Client: Yes, I think that would help. I'm still nervous, but I'm also feeling a bit more determined now. I know it won't be easy, but if this can help me regain some control over my life and reduce these nightmares, I'm willing to try. Can you guide me through the relaxation exercise?",
+      "Therapist: Of course. Let's begin with deep breathing. Close your eyes and follow my lead."
+    ]
+  ]
+}

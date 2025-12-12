@@ -1,0 +1,146 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure, Maria?",
+    "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Revisiting that memory of the police brutality incident... it's bringing up a lot of emotions I've tried to push down for so long. I feel shaky, and my heart is still racing a bit.",
+    "Therapist: That's understandable. Take a deep breath. What stood out to you most?",
+    "Client: The sounds. The shouting, the sirens... it was so loud in my head. And the feeling of helplessness. I couldn't do anything to stop what was happening. I just froze, you know? I keep thinking maybe if I had done something, anything...",
+    "Therapist: How does that thought make you feel now?",
+    "Client: Guilty, I guess. And angry. At myself, at the officers, at the whole situation. It's like... I was neglected as a child, and now as an adult, I couldn't even protect myself or others. It makes me feel so... small.",
+    "Therapist: I hear your frustration. How does this connect to your day-to-day life?",
+    "Client: Well, I've been having trouble trusting authority figures at work. I'm always on edge, expecting something bad to happen. And with my depression... it's like this constant weight. I feel like I can't fully engage in my life or my relationships because part of me is always back there, in that moment.",
+    "Therapist: That sounds really challenging. What's helping you cope?",
+    "Client: Um, the breathing exercises we've been practicing help a bit. And talking to my partner... he's been really supportive. But sometimes I still feel so alone in this, you know?",
+    "Therapist: It's great you're using those skills. How was today's session different?",
+    "Client: It was... intense. But also, I don't know, maybe a little empowering? Like, I got through it. I faced that memory head-on and I'm still here. That's something, right?",
+    "Therapist: Absolutely. That's significant progress, Maria.",
+    "Client: Thanks. It's hard to see sometimes. I keep wondering if I'll ever feel... normal again. Will these memories always have so much power over me?",
+    "Therapist: What do you think? Has anything changed since we started?",
+    "Client: I guess... yeah, actually. The nightmares aren't as frequent. And I've been able to go to the park near our house without panicking. That's new. It's just... it's so slow, you know?",
+    "Therapist: Slow progress is still progress. What's your takeaway today?",
+    "Client: Maybe that... I'm stronger than I thought? And that facing these memories, as hard as it is, might actually be helping. It doesn't feel good in the moment, but afterwards, it's like... I don't know, like I've reclaimed a little piece of myself.",
+    "Therapist: That's a powerful insight, Maria. How will you care for yourself today?",
+    "Client: I think I'll call my sister. She doesn't know all the details, but she's always been a good listener. And maybe I'll try that meditation app you recommended. I need something calming after this.",
+    "Therapist: Sounds like a good plan. Any final thoughts?",
+    "Client: Just... thank you, I guess. For sitting with me through this. It means a lot to have someone witness this journey, as messy as it is. I'm scared, but I'm also... hopeful? Is that weird?",
+    "Therapist: Not at all. Hope is a sign of healing. We'll continue next week?",
+    "Client: Yeah, I'll be here. It's tough, but I'm starting to see the value in it. Thanks again, doc.",
+    "Therapist: You're welcome, Maria. Take care."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure, Maria?",
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Revisiting that memory of the police brutality incident... it's bringing up a lot of emotions I've tried to push down for so long. I feel shaky, and my heart is still racing a bit.",
+      "Therapist: That's understandable. Take a deep breath. What stood out to you most?"
+    ],
+    [
+      "Client: I... I'm not sure. It's all a bit overwhelming, to be honest. Revisiting that memory of the police brutality incident... it's bringing up a lot of emotions I've tried to push down for so long. I feel shaky, and my heart is still racing a bit.",
+      "Therapist: That's understandable. Take a deep breath. What stood out to you most?",
+      "Client: The sounds. The shouting, the sirens... it was so loud in my head. And the feeling of helplessness. I couldn't do anything to stop what was happening. I just froze, you know? I keep thinking maybe if I had done something, anything..."
+    ],
+    [
+      "Therapist: That's understandable. Take a deep breath. What stood out to you most?",
+      "Client: The sounds. The shouting, the sirens... it was so loud in my head. And the feeling of helplessness. I couldn't do anything to stop what was happening. I just froze, you know? I keep thinking maybe if I had done something, anything...",
+      "Therapist: How does that thought make you feel now?"
+    ],
+    [
+      "Client: The sounds. The shouting, the sirens... it was so loud in my head. And the feeling of helplessness. I couldn't do anything to stop what was happening. I just froze, you know? I keep thinking maybe if I had done something, anything...",
+      "Therapist: How does that thought make you feel now?",
+      "Client: Guilty, I guess. And angry. At myself, at the officers, at the whole situation. It's like... I was neglected as a child, and now as an adult, I couldn't even protect myself or others. It makes me feel so... small."
+    ],
+    [
+      "Therapist: How does that thought make you feel now?",
+      "Client: Guilty, I guess. And angry. At myself, at the officers, at the whole situation. It's like... I was neglected as a child, and now as an adult, I couldn't even protect myself or others. It makes me feel so... small.",
+      "Therapist: I hear your frustration. How does this connect to your day-to-day life?"
+    ],
+    [
+      "Client: Guilty, I guess. And angry. At myself, at the officers, at the whole situation. It's like... I was neglected as a child, and now as an adult, I couldn't even protect myself or others. It makes me feel so... small.",
+      "Therapist: I hear your frustration. How does this connect to your day-to-day life?",
+      "Client: Well, I've been having trouble trusting authority figures at work. I'm always on edge, expecting something bad to happen. And with my depression... it's like this constant weight. I feel like I can't fully engage in my life or my relationships because part of me is always back there, in that moment."
+    ],
+    [
+      "Therapist: I hear your frustration. How does this connect to your day-to-day life?",
+      "Client: Well, I've been having trouble trusting authority figures at work. I'm always on edge, expecting something bad to happen. And with my depression... it's like this constant weight. I feel like I can't fully engage in my life or my relationships because part of me is always back there, in that moment.",
+      "Therapist: That sounds really challenging. What's helping you cope?"
+    ],
+    [
+      "Client: Well, I've been having trouble trusting authority figures at work. I'm always on edge, expecting something bad to happen. And with my depression... it's like this constant weight. I feel like I can't fully engage in my life or my relationships because part of me is always back there, in that moment.",
+      "Therapist: That sounds really challenging. What's helping you cope?",
+      "Client: Um, the breathing exercises we've been practicing help a bit. And talking to my partner... he's been really supportive. But sometimes I still feel so alone in this, you know?"
+    ],
+    [
+      "Therapist: That sounds really challenging. What's helping you cope?",
+      "Client: Um, the breathing exercises we've been practicing help a bit. And talking to my partner... he's been really supportive. But sometimes I still feel so alone in this, you know?",
+      "Therapist: It's great you're using those skills. How was today's session different?"
+    ],
+    [
+      "Client: Um, the breathing exercises we've been practicing help a bit. And talking to my partner... he's been really supportive. But sometimes I still feel so alone in this, you know?",
+      "Therapist: It's great you're using those skills. How was today's session different?",
+      "Client: It was... intense. But also, I don't know, maybe a little empowering? Like, I got through it. I faced that memory head-on and I'm still here. That's something, right?"
+    ],
+    [
+      "Therapist: It's great you're using those skills. How was today's session different?",
+      "Client: It was... intense. But also, I don't know, maybe a little empowering? Like, I got through it. I faced that memory head-on and I'm still here. That's something, right?",
+      "Therapist: Absolutely. That's significant progress, Maria."
+    ],
+    [
+      "Client: It was... intense. But also, I don't know, maybe a little empowering? Like, I got through it. I faced that memory head-on and I'm still here. That's something, right?",
+      "Therapist: Absolutely. That's significant progress, Maria.",
+      "Client: Thanks. It's hard to see sometimes. I keep wondering if I'll ever feel... normal again. Will these memories always have so much power over me?"
+    ],
+    [
+      "Therapist: Absolutely. That's significant progress, Maria.",
+      "Client: Thanks. It's hard to see sometimes. I keep wondering if I'll ever feel... normal again. Will these memories always have so much power over me?",
+      "Therapist: What do you think? Has anything changed since we started?"
+    ],
+    [
+      "Client: Thanks. It's hard to see sometimes. I keep wondering if I'll ever feel... normal again. Will these memories always have so much power over me?",
+      "Therapist: What do you think? Has anything changed since we started?",
+      "Client: I guess... yeah, actually. The nightmares aren't as frequent. And I've been able to go to the park near our house without panicking. That's new. It's just... it's so slow, you know?"
+    ],
+    [
+      "Therapist: What do you think? Has anything changed since we started?",
+      "Client: I guess... yeah, actually. The nightmares aren't as frequent. And I've been able to go to the park near our house without panicking. That's new. It's just... it's so slow, you know?",
+      "Therapist: Slow progress is still progress. What's your takeaway today?"
+    ],
+    [
+      "Client: I guess... yeah, actually. The nightmares aren't as frequent. And I've been able to go to the park near our house without panicking. That's new. It's just... it's so slow, you know?",
+      "Therapist: Slow progress is still progress. What's your takeaway today?",
+      "Client: Maybe that... I'm stronger than I thought? And that facing these memories, as hard as it is, might actually be helping. It doesn't feel good in the moment, but afterwards, it's like... I don't know, like I've reclaimed a little piece of myself."
+    ],
+    [
+      "Therapist: Slow progress is still progress. What's your takeaway today?",
+      "Client: Maybe that... I'm stronger than I thought? And that facing these memories, as hard as it is, might actually be helping. It doesn't feel good in the moment, but afterwards, it's like... I don't know, like I've reclaimed a little piece of myself.",
+      "Therapist: That's a powerful insight, Maria. How will you care for yourself today?"
+    ],
+    [
+      "Client: Maybe that... I'm stronger than I thought? And that facing these memories, as hard as it is, might actually be helping. It doesn't feel good in the moment, but afterwards, it's like... I don't know, like I've reclaimed a little piece of myself.",
+      "Therapist: That's a powerful insight, Maria. How will you care for yourself today?",
+      "Client: I think I'll call my sister. She doesn't know all the details, but she's always been a good listener. And maybe I'll try that meditation app you recommended. I need something calming after this."
+    ],
+    [
+      "Therapist: That's a powerful insight, Maria. How will you care for yourself today?",
+      "Client: I think I'll call my sister. She doesn't know all the details, but she's always been a good listener. And maybe I'll try that meditation app you recommended. I need something calming after this.",
+      "Therapist: Sounds like a good plan. Any final thoughts?"
+    ],
+    [
+      "Client: I think I'll call my sister. She doesn't know all the details, but she's always been a good listener. And maybe I'll try that meditation app you recommended. I need something calming after this.",
+      "Therapist: Sounds like a good plan. Any final thoughts?",
+      "Client: Just... thank you, I guess. For sitting with me through this. It means a lot to have someone witness this journey, as messy as it is. I'm scared, but I'm also... hopeful? Is that weird?"
+    ],
+    [
+      "Therapist: Sounds like a good plan. Any final thoughts?",
+      "Client: Just... thank you, I guess. For sitting with me through this. It means a lot to have someone witness this journey, as messy as it is. I'm scared, but I'm also... hopeful? Is that weird?",
+      "Therapist: Not at all. Hope is a sign of healing. We'll continue next week?"
+    ],
+    [
+      "Client: Just... thank you, I guess. For sitting with me through this. It means a lot to have someone witness this journey, as messy as it is. I'm scared, but I'm also... hopeful? Is that weird?",
+      "Therapist: Not at all. Hope is a sign of healing. We'll continue next week?",
+      "Client: Yeah, I'll be here. It's tough, but I'm starting to see the value in it. Thanks again, doc."
+    ],
+    [
+      "Therapist: Not at all. Hope is a sign of healing. We'll continue next week?",
+      "Client: Yeah, I'll be here. It's tough, but I'm starting to see the value in it. Thanks again, doc.",
+      "Therapist: You're welcome, Maria. Take care."
+    ]
+  ]
+}

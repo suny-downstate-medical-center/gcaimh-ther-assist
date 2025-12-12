@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Hello, Maria. How are you feeling today?",
+    "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. Last session you mentioned something about imaginal exposure? I've been thinking about it all week, and I'm not sure I understand what it means or if I can handle it.",
+    "Therapist: I understand your nervousness. Let's talk about it.",
+    "Client: Yes, please. I mean, I trust you, but the idea of exposure... it sounds scary. Is it going to be like reliving everything that happened during my imprisonment? Because I don't know if I'm ready for that. I've spent so long trying to forget.",
+    "Therapist: It's a guided process. We'll go at your pace.",
+    "Client: My pace? That's... that's good to hear. But what exactly will we be doing? And why is it necessary? I've been managing okay most days, even though the nightmares are still pretty bad.",
+    "Therapist: We'll revisit your memories safely. It helps reduce PTSD symptoms.",
+    "Client: Reduce symptoms? That would be amazing. The flashbacks and anxiety... they've affected my life so much. I haven't been able to work, and it's put a strain on my marriage. But how does remembering help? Won't it make things worse?",
+    "Therapist: Facing memories can lessen their power. What are your main concerns?",
+    "Client: I guess... I'm afraid of losing control. What if I start crying and can't stop? Or what if I have a panic attack? And... I'm worried about disappointing you if I can't do it right.",
+    "Therapist: Your feelings are valid. We'll go slowly, and I'll support you.",
+    "Client: That's reassuring. I appreciate your patience with me. Can you tell me more about what to expect during the session? Will I need to close my eyes? How long will it last?",
+    "Therapist: You'll describe the memory. Eyes closed or open. We'll take breaks.",
+    "Client: Okay, that doesn't sound too overwhelming. And you'll be here the whole time, right? I think having your presence will help me feel safer. Is it normal to feel this anxious before starting?",
+    "Therapist: Yes, I'll be here. Anxiety is normal. Your courage is admirable.",
+    "Client: Thank you. That means a lot. I've been through so much, and sometimes I forget how far I've come. One more question - will this help with the guilt I feel? I know logically it wasn't my fault, but...",
+    "Therapist: Yes, it can help address guilt. Shall we begin?",
+    "Client: I think I'm ready. Or as ready as I'll ever be. Thank you for explaining everything and being so patient with my questions. Let's do this. I want to get better, for myself and my family.",
+    "Therapist: You're very brave. Let's start slowly. Remember, we're a team."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Hello, Maria. How are you feeling today?",
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. Last session you mentioned something about imaginal exposure? I've been thinking about it all week, and I'm not sure I understand what it means or if I can handle it.",
+      "Therapist: I understand your nervousness. Let's talk about it."
+    ],
+    [
+      "Client: I'm... I'm okay, I guess. A bit nervous about what we're going to do today. Last session you mentioned something about imaginal exposure? I've been thinking about it all week, and I'm not sure I understand what it means or if I can handle it.",
+      "Therapist: I understand your nervousness. Let's talk about it.",
+      "Client: Yes, please. I mean, I trust you, but the idea of exposure... it sounds scary. Is it going to be like reliving everything that happened during my imprisonment? Because I don't know if I'm ready for that. I've spent so long trying to forget."
+    ],
+    [
+      "Therapist: I understand your nervousness. Let's talk about it.",
+      "Client: Yes, please. I mean, I trust you, but the idea of exposure... it sounds scary. Is it going to be like reliving everything that happened during my imprisonment? Because I don't know if I'm ready for that. I've spent so long trying to forget.",
+      "Therapist: It's a guided process. We'll go at your pace."
+    ],
+    [
+      "Client: Yes, please. I mean, I trust you, but the idea of exposure... it sounds scary. Is it going to be like reliving everything that happened during my imprisonment? Because I don't know if I'm ready for that. I've spent so long trying to forget.",
+      "Therapist: It's a guided process. We'll go at your pace.",
+      "Client: My pace? That's... that's good to hear. But what exactly will we be doing? And why is it necessary? I've been managing okay most days, even though the nightmares are still pretty bad."
+    ],
+    [
+      "Therapist: It's a guided process. We'll go at your pace.",
+      "Client: My pace? That's... that's good to hear. But what exactly will we be doing? And why is it necessary? I've been managing okay most days, even though the nightmares are still pretty bad.",
+      "Therapist: We'll revisit your memories safely. It helps reduce PTSD symptoms."
+    ],
+    [
+      "Client: My pace? That's... that's good to hear. But what exactly will we be doing? And why is it necessary? I've been managing okay most days, even though the nightmares are still pretty bad.",
+      "Therapist: We'll revisit your memories safely. It helps reduce PTSD symptoms.",
+      "Client: Reduce symptoms? That would be amazing. The flashbacks and anxiety... they've affected my life so much. I haven't been able to work, and it's put a strain on my marriage. But how does remembering help? Won't it make things worse?"
+    ],
+    [
+      "Therapist: We'll revisit your memories safely. It helps reduce PTSD symptoms.",
+      "Client: Reduce symptoms? That would be amazing. The flashbacks and anxiety... they've affected my life so much. I haven't been able to work, and it's put a strain on my marriage. But how does remembering help? Won't it make things worse?",
+      "Therapist: Facing memories can lessen their power. What are your main concerns?"
+    ],
+    [
+      "Client: Reduce symptoms? That would be amazing. The flashbacks and anxiety... they've affected my life so much. I haven't been able to work, and it's put a strain on my marriage. But how does remembering help? Won't it make things worse?",
+      "Therapist: Facing memories can lessen their power. What are your main concerns?",
+      "Client: I guess... I'm afraid of losing control. What if I start crying and can't stop? Or what if I have a panic attack? And... I'm worried about disappointing you if I can't do it right."
+    ],
+    [
+      "Therapist: Facing memories can lessen their power. What are your main concerns?",
+      "Client: I guess... I'm afraid of losing control. What if I start crying and can't stop? Or what if I have a panic attack? And... I'm worried about disappointing you if I can't do it right.",
+      "Therapist: Your feelings are valid. We'll go slowly, and I'll support you."
+    ],
+    [
+      "Client: I guess... I'm afraid of losing control. What if I start crying and can't stop? Or what if I have a panic attack? And... I'm worried about disappointing you if I can't do it right.",
+      "Therapist: Your feelings are valid. We'll go slowly, and I'll support you.",
+      "Client: That's reassuring. I appreciate your patience with me. Can you tell me more about what to expect during the session? Will I need to close my eyes? How long will it last?"
+    ],
+    [
+      "Therapist: Your feelings are valid. We'll go slowly, and I'll support you.",
+      "Client: That's reassuring. I appreciate your patience with me. Can you tell me more about what to expect during the session? Will I need to close my eyes? How long will it last?",
+      "Therapist: You'll describe the memory. Eyes closed or open. We'll take breaks."
+    ],
+    [
+      "Client: That's reassuring. I appreciate your patience with me. Can you tell me more about what to expect during the session? Will I need to close my eyes? How long will it last?",
+      "Therapist: You'll describe the memory. Eyes closed or open. We'll take breaks.",
+      "Client: Okay, that doesn't sound too overwhelming. And you'll be here the whole time, right? I think having your presence will help me feel safer. Is it normal to feel this anxious before starting?"
+    ],
+    [
+      "Therapist: You'll describe the memory. Eyes closed or open. We'll take breaks.",
+      "Client: Okay, that doesn't sound too overwhelming. And you'll be here the whole time, right? I think having your presence will help me feel safer. Is it normal to feel this anxious before starting?",
+      "Therapist: Yes, I'll be here. Anxiety is normal. Your courage is admirable."
+    ],
+    [
+      "Client: Okay, that doesn't sound too overwhelming. And you'll be here the whole time, right? I think having your presence will help me feel safer. Is it normal to feel this anxious before starting?",
+      "Therapist: Yes, I'll be here. Anxiety is normal. Your courage is admirable.",
+      "Client: Thank you. That means a lot. I've been through so much, and sometimes I forget how far I've come. One more question - will this help with the guilt I feel? I know logically it wasn't my fault, but..."
+    ],
+    [
+      "Therapist: Yes, I'll be here. Anxiety is normal. Your courage is admirable.",
+      "Client: Thank you. That means a lot. I've been through so much, and sometimes I forget how far I've come. One more question - will this help with the guilt I feel? I know logically it wasn't my fault, but...",
+      "Therapist: Yes, it can help address guilt. Shall we begin?"
+    ],
+    [
+      "Client: Thank you. That means a lot. I've been through so much, and sometimes I forget how far I've come. One more question - will this help with the guilt I feel? I know logically it wasn't my fault, but...",
+      "Therapist: Yes, it can help address guilt. Shall we begin?",
+      "Client: I think I'm ready. Or as ready as I'll ever be. Thank you for explaining everything and being so patient with my questions. Let's do this. I want to get better, for myself and my family."
+    ],
+    [
+      "Therapist: Yes, it can help address guilt. Shall we begin?",
+      "Client: I think I'm ready. Or as ready as I'll ever be. Thank you for explaining everything and being so patient with my questions. Let's do this. I want to get better, for myself and my family.",
+      "Therapist: You're very brave. Let's start slowly. Remember, we're a team."
+    ]
+  ]
+}

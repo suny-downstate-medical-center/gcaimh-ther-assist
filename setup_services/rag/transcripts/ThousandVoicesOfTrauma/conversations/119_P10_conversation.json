@@ -1,0 +1,266 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling about today's session?",
+    "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be diving into the car accident today, and part of me wants to just run out that door. But I'm here, and I'm trying to remind myself why this is important.",
+    "Therapist: I appreciate your honesty. Let's start with a SUDS rating.",
+    "Client: Um, I'd say about a 6 right now. My heart's already racing a bit.",
+    "Therapist: Thank you. Remember, we'll go at your pace. Ready to begin?",
+    "Client: (Deep breath) Okay, yes. I think I'm ready.",
+    "Therapist: Close your eyes if you're comfortable. Take us to that day.",
+    "Client: It's... it's a sunny afternoon. I'm driving home from work, just like any other day. The radio's on, playing some pop song I can't quite remember. I'm thinking about what to make for dinner... (pauses) Oh God, I wish I'd taken a different route that day.",
+    "Therapist: Stay with it. What do you see next?",
+    "Client: I... I see the intersection up ahead. The light's green, so I'm not slowing down. Then, out of nowhere, this blue sedan comes barreling through the red light on the cross street. It's... it's moving so fast. (voice trembles) I slam on my brakes, but I know it's too late.",
+    "Therapist: You're doing well. What's your SUDS now?",
+    "Client: It's... it's up to an 8. My palms are sweating.",
+    "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+    "Client: (Inhales shakily) The impact is... it's deafening. Metal crunching, glass shattering. My car spins, and for a moment, everything's a blur. When it stops, I'm facing the wrong way on the street. There's... there's smoke, or steam maybe, coming from somewhere. The airbag... it smells strange. Chemical.",
+    "Therapist: What are you feeling in your body right now?",
+    "Client: My chest feels tight, like I can't get enough air. My hands are shaking.",
+    "Therapist: That's normal. Remember, you're here in the office. You're safe.",
+    "Client: (Nods) I... I look over at the other car. It's... it's much worse off than mine. The driver's side is completely caved in. I can see someone slumped over the wheel. They're not moving. (Voice cracks) Oh God, I thought they were dead.",
+    "Therapist: Stay with that moment. What happens next?",
+    "Client: I... I fumble for my phone. My hands are shaking so badly I can barely dial 911. I'm trying to explain what happened, but I'm not sure if I'm making any sense. There are people gathering around, someone's asking if I'm okay, but it all feels far away. I can't take my eyes off that other car.",
+    "Therapist: How's your SUDS level?",
+    "Client: It's... it's a 9 now. I feel like I can't breathe.",
+    "Therapist: Let's take a moment. Focus on my voice. You're here in the office, you're safe. Take a deep breath in... and out.",
+    "Client: (Breathes deeply) Okay... okay. I'm here.",
+    "Therapist: Good. When you're ready, continue.",
+    "Client: The... the ambulance arrives. It feels like it took forever, but it was probably only a few minutes. I watch as they work to get the other driver out. They're using some kind of tool to cut through the metal. The sound... it's awful. Like nails on a chalkboard, but so much worse.",
+    "Therapist: What are you feeling as you watch this?",
+    "Client: Helpless. Terrified. Guilty. Even though I know it wasn't my fault, I can't help but think... if I'd left work a minute later, or earlier...",
+    "Therapist: Remember, you're not responsible for the actions of the other driver.",
+    "Client: (Sighs) I know, logically. But in that moment... They finally get the other driver out. He's alive, but he looks... bad. There's so much blood. They rush him into the ambulance. Someone's talking to me, a paramedic I think, but I can barely focus on what they're saying. Everything feels surreal.",
+    "Therapist: You're doing great. What's your SUDS now?",
+    "Client: It's... it's still at a 9. My heart's pounding.",
+    "Therapist: Take another deep breath. You're safe here.",
+    "Client: (Breathes) The police are there now. They're asking me questions, but I feel like I'm underwater. Everything's muffled. I keep looking at the wreckage, at the shattered glass on the pavement. It glitters in the sunlight, and it's... it's almost beautiful in a terrible way. (Pauses) Is... is that a weird thing to think?",
+    "Therapist: There's no right or wrong way to perceive things in a traumatic situation.",
+    "Client: I guess... After that, it's all a blur. Someone drives me to the hospital to get checked out. I'm sitting in the ER, and it finally hits me. I start sobbing uncontrollably. A nurse comes over, tries to comfort me, but I can't stop. I keep seeing that other driver, slumped over the wheel...",
+    "Therapist: How are you feeling right now, describing this?",
+    "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've been carrying this around for so long, and now it's... it's out there.",
+    "Therapist: That's a common feeling. What's your SUDS now?",
+    "Client: It's down to a 7, I think. Still high, but... better.",
+    "Therapist: You did very well today, Sarah. How do you feel about the session?",
+    "Client: It was... intense. Harder than I expected. But I'm glad I did it. I think... I think this might actually help.",
+    "Therapist: That's great to hear. Let's work on some grounding techniques before we end.",
+    "Client: Okay. Thank you... for guiding me through this. It means a lot.",
+    "Therapist: You're welcome. You showed great courage today."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling about today's session?",
+      "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be diving into the car accident today, and part of me wants to just run out that door. But I'm here, and I'm trying to remind myself why this is important.",
+      "Therapist: I appreciate your honesty. Let's start with a SUDS rating."
+    ],
+    [
+      "Client: I'm... I'm a bit on edge, to be honest. I know we're going to be diving into the car accident today, and part of me wants to just run out that door. But I'm here, and I'm trying to remind myself why this is important.",
+      "Therapist: I appreciate your honesty. Let's start with a SUDS rating.",
+      "Client: Um, I'd say about a 6 right now. My heart's already racing a bit."
+    ],
+    [
+      "Therapist: I appreciate your honesty. Let's start with a SUDS rating.",
+      "Client: Um, I'd say about a 6 right now. My heart's already racing a bit.",
+      "Therapist: Thank you. Remember, we'll go at your pace. Ready to begin?"
+    ],
+    [
+      "Client: Um, I'd say about a 6 right now. My heart's already racing a bit.",
+      "Therapist: Thank you. Remember, we'll go at your pace. Ready to begin?",
+      "Client: (Deep breath) Okay, yes. I think I'm ready."
+    ],
+    [
+      "Therapist: Thank you. Remember, we'll go at your pace. Ready to begin?",
+      "Client: (Deep breath) Okay, yes. I think I'm ready.",
+      "Therapist: Close your eyes if you're comfortable. Take us to that day."
+    ],
+    [
+      "Client: (Deep breath) Okay, yes. I think I'm ready.",
+      "Therapist: Close your eyes if you're comfortable. Take us to that day.",
+      "Client: It's... it's a sunny afternoon. I'm driving home from work, just like any other day. The radio's on, playing some pop song I can't quite remember. I'm thinking about what to make for dinner... (pauses) Oh God, I wish I'd taken a different route that day."
+    ],
+    [
+      "Therapist: Close your eyes if you're comfortable. Take us to that day.",
+      "Client: It's... it's a sunny afternoon. I'm driving home from work, just like any other day. The radio's on, playing some pop song I can't quite remember. I'm thinking about what to make for dinner... (pauses) Oh God, I wish I'd taken a different route that day.",
+      "Therapist: Stay with it. What do you see next?"
+    ],
+    [
+      "Client: It's... it's a sunny afternoon. I'm driving home from work, just like any other day. The radio's on, playing some pop song I can't quite remember. I'm thinking about what to make for dinner... (pauses) Oh God, I wish I'd taken a different route that day.",
+      "Therapist: Stay with it. What do you see next?",
+      "Client: I... I see the intersection up ahead. The light's green, so I'm not slowing down. Then, out of nowhere, this blue sedan comes barreling through the red light on the cross street. It's... it's moving so fast. (voice trembles) I slam on my brakes, but I know it's too late."
+    ],
+    [
+      "Therapist: Stay with it. What do you see next?",
+      "Client: I... I see the intersection up ahead. The light's green, so I'm not slowing down. Then, out of nowhere, this blue sedan comes barreling through the red light on the cross street. It's... it's moving so fast. (voice trembles) I slam on my brakes, but I know it's too late.",
+      "Therapist: You're doing well. What's your SUDS now?"
+    ],
+    [
+      "Client: I... I see the intersection up ahead. The light's green, so I'm not slowing down. Then, out of nowhere, this blue sedan comes barreling through the red light on the cross street. It's... it's moving so fast. (voice trembles) I slam on my brakes, but I know it's too late.",
+      "Therapist: You're doing well. What's your SUDS now?",
+      "Client: It's... it's up to an 8. My palms are sweating."
+    ],
+    [
+      "Therapist: You're doing well. What's your SUDS now?",
+      "Client: It's... it's up to an 8. My palms are sweating.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready."
+    ],
+    [
+      "Client: It's... it's up to an 8. My palms are sweating.",
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: (Inhales shakily) The impact is... it's deafening. Metal crunching, glass shattering. My car spins, and for a moment, everything's a blur. When it stops, I'm facing the wrong way on the street. There's... there's smoke, or steam maybe, coming from somewhere. The airbag... it smells strange. Chemical."
+    ],
+    [
+      "Therapist: Take a deep breath. You're safe here. Continue when you're ready.",
+      "Client: (Inhales shakily) The impact is... it's deafening. Metal crunching, glass shattering. My car spins, and for a moment, everything's a blur. When it stops, I'm facing the wrong way on the street. There's... there's smoke, or steam maybe, coming from somewhere. The airbag... it smells strange. Chemical.",
+      "Therapist: What are you feeling in your body right now?"
+    ],
+    [
+      "Client: (Inhales shakily) The impact is... it's deafening. Metal crunching, glass shattering. My car spins, and for a moment, everything's a blur. When it stops, I'm facing the wrong way on the street. There's... there's smoke, or steam maybe, coming from somewhere. The airbag... it smells strange. Chemical.",
+      "Therapist: What are you feeling in your body right now?",
+      "Client: My chest feels tight, like I can't get enough air. My hands are shaking."
+    ],
+    [
+      "Therapist: What are you feeling in your body right now?",
+      "Client: My chest feels tight, like I can't get enough air. My hands are shaking.",
+      "Therapist: That's normal. Remember, you're here in the office. You're safe."
+    ],
+    [
+      "Client: My chest feels tight, like I can't get enough air. My hands are shaking.",
+      "Therapist: That's normal. Remember, you're here in the office. You're safe.",
+      "Client: (Nods) I... I look over at the other car. It's... it's much worse off than mine. The driver's side is completely caved in. I can see someone slumped over the wheel. They're not moving. (Voice cracks) Oh God, I thought they were dead."
+    ],
+    [
+      "Therapist: That's normal. Remember, you're here in the office. You're safe.",
+      "Client: (Nods) I... I look over at the other car. It's... it's much worse off than mine. The driver's side is completely caved in. I can see someone slumped over the wheel. They're not moving. (Voice cracks) Oh God, I thought they were dead.",
+      "Therapist: Stay with that moment. What happens next?"
+    ],
+    [
+      "Client: (Nods) I... I look over at the other car. It's... it's much worse off than mine. The driver's side is completely caved in. I can see someone slumped over the wheel. They're not moving. (Voice cracks) Oh God, I thought they were dead.",
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: I... I fumble for my phone. My hands are shaking so badly I can barely dial 911. I'm trying to explain what happened, but I'm not sure if I'm making any sense. There are people gathering around, someone's asking if I'm okay, but it all feels far away. I can't take my eyes off that other car."
+    ],
+    [
+      "Therapist: Stay with that moment. What happens next?",
+      "Client: I... I fumble for my phone. My hands are shaking so badly I can barely dial 911. I'm trying to explain what happened, but I'm not sure if I'm making any sense. There are people gathering around, someone's asking if I'm okay, but it all feels far away. I can't take my eyes off that other car.",
+      "Therapist: How's your SUDS level?"
+    ],
+    [
+      "Client: I... I fumble for my phone. My hands are shaking so badly I can barely dial 911. I'm trying to explain what happened, but I'm not sure if I'm making any sense. There are people gathering around, someone's asking if I'm okay, but it all feels far away. I can't take my eyes off that other car.",
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe."
+    ],
+    [
+      "Therapist: How's your SUDS level?",
+      "Client: It's... it's a 9 now. I feel like I can't breathe.",
+      "Therapist: Let's take a moment. Focus on my voice. You're here in the office, you're safe. Take a deep breath in... and out."
+    ],
+    [
+      "Client: It's... it's a 9 now. I feel like I can't breathe.",
+      "Therapist: Let's take a moment. Focus on my voice. You're here in the office, you're safe. Take a deep breath in... and out.",
+      "Client: (Breathes deeply) Okay... okay. I'm here."
+    ],
+    [
+      "Therapist: Let's take a moment. Focus on my voice. You're here in the office, you're safe. Take a deep breath in... and out.",
+      "Client: (Breathes deeply) Okay... okay. I'm here.",
+      "Therapist: Good. When you're ready, continue."
+    ],
+    [
+      "Client: (Breathes deeply) Okay... okay. I'm here.",
+      "Therapist: Good. When you're ready, continue.",
+      "Client: The... the ambulance arrives. It feels like it took forever, but it was probably only a few minutes. I watch as they work to get the other driver out. They're using some kind of tool to cut through the metal. The sound... it's awful. Like nails on a chalkboard, but so much worse."
+    ],
+    [
+      "Therapist: Good. When you're ready, continue.",
+      "Client: The... the ambulance arrives. It feels like it took forever, but it was probably only a few minutes. I watch as they work to get the other driver out. They're using some kind of tool to cut through the metal. The sound... it's awful. Like nails on a chalkboard, but so much worse.",
+      "Therapist: What are you feeling as you watch this?"
+    ],
+    [
+      "Client: The... the ambulance arrives. It feels like it took forever, but it was probably only a few minutes. I watch as they work to get the other driver out. They're using some kind of tool to cut through the metal. The sound... it's awful. Like nails on a chalkboard, but so much worse.",
+      "Therapist: What are you feeling as you watch this?",
+      "Client: Helpless. Terrified. Guilty. Even though I know it wasn't my fault, I can't help but think... if I'd left work a minute later, or earlier..."
+    ],
+    [
+      "Therapist: What are you feeling as you watch this?",
+      "Client: Helpless. Terrified. Guilty. Even though I know it wasn't my fault, I can't help but think... if I'd left work a minute later, or earlier...",
+      "Therapist: Remember, you're not responsible for the actions of the other driver."
+    ],
+    [
+      "Client: Helpless. Terrified. Guilty. Even though I know it wasn't my fault, I can't help but think... if I'd left work a minute later, or earlier...",
+      "Therapist: Remember, you're not responsible for the actions of the other driver.",
+      "Client: (Sighs) I know, logically. But in that moment... They finally get the other driver out. He's alive, but he looks... bad. There's so much blood. They rush him into the ambulance. Someone's talking to me, a paramedic I think, but I can barely focus on what they're saying. Everything feels surreal."
+    ],
+    [
+      "Therapist: Remember, you're not responsible for the actions of the other driver.",
+      "Client: (Sighs) I know, logically. But in that moment... They finally get the other driver out. He's alive, but he looks... bad. There's so much blood. They rush him into the ambulance. Someone's talking to me, a paramedic I think, but I can barely focus on what they're saying. Everything feels surreal.",
+      "Therapist: You're doing great. What's your SUDS now?"
+    ],
+    [
+      "Client: (Sighs) I know, logically. But in that moment... They finally get the other driver out. He's alive, but he looks... bad. There's so much blood. They rush him into the ambulance. Someone's talking to me, a paramedic I think, but I can barely focus on what they're saying. Everything feels surreal.",
+      "Therapist: You're doing great. What's your SUDS now?",
+      "Client: It's... it's still at a 9. My heart's pounding."
+    ],
+    [
+      "Therapist: You're doing great. What's your SUDS now?",
+      "Client: It's... it's still at a 9. My heart's pounding.",
+      "Therapist: Take another deep breath. You're safe here."
+    ],
+    [
+      "Client: It's... it's still at a 9. My heart's pounding.",
+      "Therapist: Take another deep breath. You're safe here.",
+      "Client: (Breathes) The police are there now. They're asking me questions, but I feel like I'm underwater. Everything's muffled. I keep looking at the wreckage, at the shattered glass on the pavement. It glitters in the sunlight, and it's... it's almost beautiful in a terrible way. (Pauses) Is... is that a weird thing to think?"
+    ],
+    [
+      "Therapist: Take another deep breath. You're safe here.",
+      "Client: (Breathes) The police are there now. They're asking me questions, but I feel like I'm underwater. Everything's muffled. I keep looking at the wreckage, at the shattered glass on the pavement. It glitters in the sunlight, and it's... it's almost beautiful in a terrible way. (Pauses) Is... is that a weird thing to think?",
+      "Therapist: There's no right or wrong way to perceive things in a traumatic situation."
+    ],
+    [
+      "Client: (Breathes) The police are there now. They're asking me questions, but I feel like I'm underwater. Everything's muffled. I keep looking at the wreckage, at the shattered glass on the pavement. It glitters in the sunlight, and it's... it's almost beautiful in a terrible way. (Pauses) Is... is that a weird thing to think?",
+      "Therapist: There's no right or wrong way to perceive things in a traumatic situation.",
+      "Client: I guess... After that, it's all a blur. Someone drives me to the hospital to get checked out. I'm sitting in the ER, and it finally hits me. I start sobbing uncontrollably. A nurse comes over, tries to comfort me, but I can't stop. I keep seeing that other driver, slumped over the wheel..."
+    ],
+    [
+      "Therapist: There's no right or wrong way to perceive things in a traumatic situation.",
+      "Client: I guess... After that, it's all a blur. Someone drives me to the hospital to get checked out. I'm sitting in the ER, and it finally hits me. I start sobbing uncontrollably. A nurse comes over, tries to comfort me, but I can't stop. I keep seeing that other driver, slumped over the wheel...",
+      "Therapist: How are you feeling right now, describing this?"
+    ],
+    [
+      "Client: I guess... After that, it's all a blur. Someone drives me to the hospital to get checked out. I'm sitting in the ER, and it finally hits me. I start sobbing uncontrollably. A nurse comes over, tries to comfort me, but I can't stop. I keep seeing that other driver, slumped over the wheel...",
+      "Therapist: How are you feeling right now, describing this?",
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've been carrying this around for so long, and now it's... it's out there."
+    ],
+    [
+      "Therapist: How are you feeling right now, describing this?",
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've been carrying this around for so long, and now it's... it's out there.",
+      "Therapist: That's a common feeling. What's your SUDS now?"
+    ],
+    [
+      "Client: I... I feel drained. Exhausted. But also... I don't know, maybe a little lighter? Like I've been carrying this around for so long, and now it's... it's out there.",
+      "Therapist: That's a common feeling. What's your SUDS now?",
+      "Client: It's down to a 7, I think. Still high, but... better."
+    ],
+    [
+      "Therapist: That's a common feeling. What's your SUDS now?",
+      "Client: It's down to a 7, I think. Still high, but... better.",
+      "Therapist: You did very well today, Sarah. How do you feel about the session?"
+    ],
+    [
+      "Client: It's down to a 7, I think. Still high, but... better.",
+      "Therapist: You did very well today, Sarah. How do you feel about the session?",
+      "Client: It was... intense. Harder than I expected. But I'm glad I did it. I think... I think this might actually help."
+    ],
+    [
+      "Therapist: You did very well today, Sarah. How do you feel about the session?",
+      "Client: It was... intense. Harder than I expected. But I'm glad I did it. I think... I think this might actually help.",
+      "Therapist: That's great to hear. Let's work on some grounding techniques before we end."
+    ],
+    [
+      "Client: It was... intense. Harder than I expected. But I'm glad I did it. I think... I think this might actually help.",
+      "Therapist: That's great to hear. Let's work on some grounding techniques before we end.",
+      "Client: Okay. Thank you... for guiding me through this. It means a lot."
+    ],
+    [
+      "Therapist: That's great to hear. Let's work on some grounding techniques before we end.",
+      "Client: Okay. Thank you... for guiding me through this. It means a lot.",
+      "Therapist: You're welcome. You showed great courage today."
+    ]
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "full_conversation": [
+    "Therapist: Alright, Jake. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+    "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll do my best.",
+    "Therapist: That's normal. Just focus on the memory and describe it to me.",
+    "Client: Okay... I'm back in Afghanistan. It's a hot day, and I'm on patrol with my unit. We're walking through a village, and everything seems quiet. Too quiet. I can feel sweat dripping down my back, and my hands are tight on my rifle. Suddenly, I hear a growl...",
+    "Therapist: What's your SUDS level right now?",
+    "Client: Um, probably around a 4 or 5. I'm starting to feel tense.",
+    "Therapist: Okay. Continue, please.",
+    "Client: Right. So, I hear this growl, and I turn to see this huge dog. It's like nothing I've ever seen before - mangy, with bared teeth and wild eyes. Before I can even react, it's lunging at me. I can smell its rancid breath, feel its claws tearing at my uniform. I'm yelling, trying to get my rifle up, but it's so fast...",
+    "Therapist: And your SUDS now?",
+    "Client: It's... it's going up. Maybe a 7? My heart's racing just thinking about it.",
+    "Therapist: That's alright. You're doing well. Keep going.",
+    "Client: The dog's jaws are snapping at my face, and I can feel its saliva on my skin. I'm terrified it's going to rip my throat out. My teammates are shouting, but it all sounds muffled. I manage to get my arm up to protect my neck, and then I feel this searing pain as its teeth sink into my forearm. The pain is... God, it's excruciating.",
+    "Therapist: Take a deep breath. What's your SUDS?",
+    "Client: It's... it's a 9. I feel like I'm right back there.",
+    "Therapist: You're safe here. Keep breathing.",
+    "Client: I... I can hear myself screaming. There's blood everywhere, and I can't shake the dog off. It feels like it's lasting forever. Then suddenly, there's a loud bang, and the dog goes limp. One of my teammates had to shoot it. I collapse to the ground, shaking, staring at my mangled arm. I can't stop trembling, and I feel like I'm going to throw up...",
+    "Therapist: And your SUDS now?",
+    "Client: It's still a 9. My hands are shaking, and I feel nauseous.",
+    "Therapist: That's okay. You're doing great. Stay with it.",
+    "Client: The next few minutes are a blur. My team is patching me up, calling for an evac. I keep looking at the dead dog, feeling this mix of relief and horror. I can't stop thinking about how close I came to dying. How helpless I felt. Even as they're loading me into the helicopter, I can't shake the feeling that I'm still in danger...",
+    "Therapist: What's your SUDS level now?",
+    "Client: It's... it's starting to come down a bit. Maybe an 8? I'm still shaky, but talking about it... it helps somehow.",
+    "Therapist: That's good. How are you feeling overall?",
+    "Client: Drained. But also... I don't know, maybe a little relieved? Like I've faced it head-on for once.",
+    "Therapist: That's a common reaction. You did very well today, Jake.",
+    "Client: Thanks. It was tough, but I'm glad we did it.",
+    "Therapist: We'll end here for today. Remember to practice your breathing exercises."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Alright, Jake. Let's begin our imaginal exposure exercise. Remember, I'll ask for your SUDS rating every few minutes. Are you ready?",
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Just focus on the memory and describe it to me."
+    ],
+    [
+      "Client: Yeah, I think so. I'm feeling a bit nervous, but I'll do my best.",
+      "Therapist: That's normal. Just focus on the memory and describe it to me.",
+      "Client: Okay... I'm back in Afghanistan. It's a hot day, and I'm on patrol with my unit. We're walking through a village, and everything seems quiet. Too quiet. I can feel sweat dripping down my back, and my hands are tight on my rifle. Suddenly, I hear a growl..."
+    ],
+    [
+      "Therapist: That's normal. Just focus on the memory and describe it to me.",
+      "Client: Okay... I'm back in Afghanistan. It's a hot day, and I'm on patrol with my unit. We're walking through a village, and everything seems quiet. Too quiet. I can feel sweat dripping down my back, and my hands are tight on my rifle. Suddenly, I hear a growl...",
+      "Therapist: What's your SUDS level right now?"
+    ],
+    [
+      "Client: Okay... I'm back in Afghanistan. It's a hot day, and I'm on patrol with my unit. We're walking through a village, and everything seems quiet. Too quiet. I can feel sweat dripping down my back, and my hands are tight on my rifle. Suddenly, I hear a growl...",
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 4 or 5. I'm starting to feel tense."
+    ],
+    [
+      "Therapist: What's your SUDS level right now?",
+      "Client: Um, probably around a 4 or 5. I'm starting to feel tense.",
+      "Therapist: Okay. Continue, please."
+    ],
+    [
+      "Client: Um, probably around a 4 or 5. I'm starting to feel tense.",
+      "Therapist: Okay. Continue, please.",
+      "Client: Right. So, I hear this growl, and I turn to see this huge dog. It's like nothing I've ever seen before - mangy, with bared teeth and wild eyes. Before I can even react, it's lunging at me. I can smell its rancid breath, feel its claws tearing at my uniform. I'm yelling, trying to get my rifle up, but it's so fast..."
+    ],
+    [
+      "Therapist: Okay. Continue, please.",
+      "Client: Right. So, I hear this growl, and I turn to see this huge dog. It's like nothing I've ever seen before - mangy, with bared teeth and wild eyes. Before I can even react, it's lunging at me. I can smell its rancid breath, feel its claws tearing at my uniform. I'm yelling, trying to get my rifle up, but it's so fast...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: Right. So, I hear this growl, and I turn to see this huge dog. It's like nothing I've ever seen before - mangy, with bared teeth and wild eyes. Before I can even react, it's lunging at me. I can smell its rancid breath, feel its claws tearing at my uniform. I'm yelling, trying to get my rifle up, but it's so fast...",
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's going up. Maybe a 7? My heart's racing just thinking about it."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's... it's going up. Maybe a 7? My heart's racing just thinking about it.",
+      "Therapist: That's alright. You're doing well. Keep going."
+    ],
+    [
+      "Client: It's... it's going up. Maybe a 7? My heart's racing just thinking about it.",
+      "Therapist: That's alright. You're doing well. Keep going.",
+      "Client: The dog's jaws are snapping at my face, and I can feel its saliva on my skin. I'm terrified it's going to rip my throat out. My teammates are shouting, but it all sounds muffled. I manage to get my arm up to protect my neck, and then I feel this searing pain as its teeth sink into my forearm. The pain is... God, it's excruciating."
+    ],
+    [
+      "Therapist: That's alright. You're doing well. Keep going.",
+      "Client: The dog's jaws are snapping at my face, and I can feel its saliva on my skin. I'm terrified it's going to rip my throat out. My teammates are shouting, but it all sounds muffled. I manage to get my arm up to protect my neck, and then I feel this searing pain as its teeth sink into my forearm. The pain is... God, it's excruciating.",
+      "Therapist: Take a deep breath. What's your SUDS?"
+    ],
+    [
+      "Client: The dog's jaws are snapping at my face, and I can feel its saliva on my skin. I'm terrified it's going to rip my throat out. My teammates are shouting, but it all sounds muffled. I manage to get my arm up to protect my neck, and then I feel this searing pain as its teeth sink into my forearm. The pain is... God, it's excruciating.",
+      "Therapist: Take a deep breath. What's your SUDS?",
+      "Client: It's... it's a 9. I feel like I'm right back there."
+    ],
+    [
+      "Therapist: Take a deep breath. What's your SUDS?",
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing."
+    ],
+    [
+      "Client: It's... it's a 9. I feel like I'm right back there.",
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I... I can hear myself screaming. There's blood everywhere, and I can't shake the dog off. It feels like it's lasting forever. Then suddenly, there's a loud bang, and the dog goes limp. One of my teammates had to shoot it. I collapse to the ground, shaking, staring at my mangled arm. I can't stop trembling, and I feel like I'm going to throw up..."
+    ],
+    [
+      "Therapist: You're safe here. Keep breathing.",
+      "Client: I... I can hear myself screaming. There's blood everywhere, and I can't shake the dog off. It feels like it's lasting forever. Then suddenly, there's a loud bang, and the dog goes limp. One of my teammates had to shoot it. I collapse to the ground, shaking, staring at my mangled arm. I can't stop trembling, and I feel like I'm going to throw up...",
+      "Therapist: And your SUDS now?"
+    ],
+    [
+      "Client: I... I can hear myself screaming. There's blood everywhere, and I can't shake the dog off. It feels like it's lasting forever. Then suddenly, there's a loud bang, and the dog goes limp. One of my teammates had to shoot it. I collapse to the ground, shaking, staring at my mangled arm. I can't stop trembling, and I feel like I'm going to throw up...",
+      "Therapist: And your SUDS now?",
+      "Client: It's still a 9. My hands are shaking, and I feel nauseous."
+    ],
+    [
+      "Therapist: And your SUDS now?",
+      "Client: It's still a 9. My hands are shaking, and I feel nauseous.",
+      "Therapist: That's okay. You're doing great. Stay with it."
+    ],
+    [
+      "Client: It's still a 9. My hands are shaking, and I feel nauseous.",
+      "Therapist: That's okay. You're doing great. Stay with it.",
+      "Client: The next few minutes are a blur. My team is patching me up, calling for an evac. I keep looking at the dead dog, feeling this mix of relief and horror. I can't stop thinking about how close I came to dying. How helpless I felt. Even as they're loading me into the helicopter, I can't shake the feeling that I'm still in danger..."
+    ],
+    [
+      "Therapist: That's okay. You're doing great. Stay with it.",
+      "Client: The next few minutes are a blur. My team is patching me up, calling for an evac. I keep looking at the dead dog, feeling this mix of relief and horror. I can't stop thinking about how close I came to dying. How helpless I felt. Even as they're loading me into the helicopter, I can't shake the feeling that I'm still in danger...",
+      "Therapist: What's your SUDS level now?"
+    ],
+    [
+      "Client: The next few minutes are a blur. My team is patching me up, calling for an evac. I keep looking at the dead dog, feeling this mix of relief and horror. I can't stop thinking about how close I came to dying. How helpless I felt. Even as they're loading me into the helicopter, I can't shake the feeling that I'm still in danger...",
+      "Therapist: What's your SUDS level now?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8? I'm still shaky, but talking about it... it helps somehow."
+    ],
+    [
+      "Therapist: What's your SUDS level now?",
+      "Client: It's... it's starting to come down a bit. Maybe an 8? I'm still shaky, but talking about it... it helps somehow.",
+      "Therapist: That's good. How are you feeling overall?"
+    ],
+    [
+      "Client: It's... it's starting to come down a bit. Maybe an 8? I'm still shaky, but talking about it... it helps somehow.",
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Drained. But also... I don't know, maybe a little relieved? Like I've faced it head-on for once."
+    ],
+    [
+      "Therapist: That's good. How are you feeling overall?",
+      "Client: Drained. But also... I don't know, maybe a little relieved? Like I've faced it head-on for once.",
+      "Therapist: That's a common reaction. You did very well today, Jake."
+    ],
+    [
+      "Client: Drained. But also... I don't know, maybe a little relieved? Like I've faced it head-on for once.",
+      "Therapist: That's a common reaction. You did very well today, Jake.",
+      "Client: Thanks. It was tough, but I'm glad we did it."
+    ],
+    [
+      "Therapist: That's a common reaction. You did very well today, Jake.",
+      "Client: Thanks. It was tough, but I'm glad we did it.",
+      "Therapist: We'll end here for today. Remember to practice your breathing exercises."
+    ]
+  ]
+}

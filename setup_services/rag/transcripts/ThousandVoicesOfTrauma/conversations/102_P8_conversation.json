@@ -1,0 +1,212 @@
+{
+  "full_conversation": [
+    "Therapist: How are you feeling after that imaginal exposure exercise?",
+    "Client: I... I'm not sure. It's like my mind is racing, but also blank at the same time. The images of the earthquake, they're so vivid. I can still feel the ground shaking beneath my feet, hear the cracking of buildings... It's overwhelming.",
+    "Therapist: Mmm. What's the strongest emotion coming up for you right now?",
+    "Client: Fear. Definitely fear. But also... guilt? I survived when so many others didn't. I keep seeing the faces of my neighbors, wondering if I could have done more to help them.",
+    "Therapist: I see. Can you tell me more about that guilt?",
+    "Client: It's... it's crushing. I was one of the lucky ones. My house only partially collapsed, and I managed to get out. But my next-door neighbor, Maria, she... she didn't make it. I keep thinking maybe if I'd gone to check on her sooner, maybe if I'd been braver... God, I can still hear her children crying for her.",
+    "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+    "Client: Tense. My shoulders are so tight they're almost up to my ears. And there's this heaviness in my chest, like I can't breathe properly. It's how I felt then, and it's how I feel now, reliving it.",
+    "Therapist: Mm-hmm. What thoughts are going through your mind?",
+    "Client: I... I keep thinking, \"Why me? Why did I survive?\" And then I feel guilty for even thinking that because I should be grateful. But then I remember all the racism and discrimination I've faced since coming to this country, and I wonder if that's why I hesitated to help others. Maybe if I felt more accepted, I would've been braver, you know?",
+    "Therapist: That's a lot to process. How do these thoughts impact you?",
+    "Client: They... they make me feel small. Worthless. Like I don't deserve to be here. And then I get angry at myself for feeling that way, because I know logically it's not true. But emotions aren't logical, are they? It's a constant battle in my head.",
+    "Therapist: I hear you. What do you need in this moment?",
+    "Client: I... I don't know. Part of me wants to run away from these feelings, to forget it all. But another part knows I need to face this. I guess... I need to know it's okay to feel this way. That I'm not a terrible person for having these thoughts and feelings.",
+    "Therapist: Absolutely. Your feelings are valid.",
+    "Client: Thank you. It's just... it's hard. The earthquake was bad enough, but the aftermath... feeling like an outsider in a place that's supposed to be my home now. It's like a double trauma, you know? The disaster and then the isolation.",
+    "Therapist: How does talking about this now feel different from before?",
+    "Client: It's... it's still painful, but there's something... I don't know, cathartic about it? Like I'm finally letting out this poison that's been inside me for so long. I've never really talked about the racial aspect of it before. I was afraid people wouldn't understand or would think I was making excuses.",
+    "Therapist: Mm. What's it like to share that now?",
+    "Client: It's... liberating, in a way. Scary, but also a relief. Like I'm finally acknowledging this whole other layer of my experience. I've spent so long trying to be the \"good immigrant,\" you know? Always grateful, never complaining. But the truth is, it's been hard. Really hard.",
+    "Therapist: I see. How does this realization affect you?",
+    "Client: It's... it's making me see things differently. Like maybe I've been too hard on myself. Maybe it's okay to acknowledge that yes, the earthquake was traumatic, but so was feeling like I didn't fully belong here. That doesn't make me ungrateful or weak. It just makes me... human, I guess.",
+    "Therapist: That's a powerful insight. What do you want to do with it?",
+    "Client: I... I think I want to explore it more. Maybe talk to other immigrants who've been through similar experiences. And... and maybe be a little kinder to myself. Stop beating myself up so much for not being the perfect survivor or the perfect immigrant. It's exhausting trying to be perfect all the time.",
+    "Therapist: That sounds like a positive direction. How are you feeling now?",
+    "Client: Tired. Really, really tired. But also... lighter? Like I've put down a heavy backpack I've been carrying for years. There's still a lot to work through, but for the first time in a long time, I feel like maybe, just maybe, I can do this. I can heal.",
+    "Therapist: That's great. What would you like to focus on next time?",
+    "Client: I think... I'd like to delve more into this idea of dual trauma. The natural disaster and the racial discrimination. I've always treated them as separate issues, but maybe they're more connected than I realized. And maybe understanding that connection will help me process both better.",
+    "Therapist: Sounds like a good plan. We'll explore that next session.",
+    "Client: Thank you. I... I know I'm not always the easiest client. I struggle to open up, and sometimes I feel like I'm not making progress. But today... today felt different. Like maybe I'm finally starting to break through some walls. I appreciate your patience with me.",
+    "Therapist: You're welcome. I'm glad you found today helpful.",
+    "Client: Me too. It's strange, you know? I came here feeling so heavy, so burdened. And I still feel those things, but there's also this tiny spark of... hope? Is that too strong a word? Maybe just possibility. Like maybe I don't have to carry all this alone anymore.",
+    "Therapist: That's a beautiful sentiment. Shall we end here for today?",
+    "Client: Yes, I think so. I have a lot to process. But... thank you. Really. For the first time in a long time, I'm looking forward to our next session instead of dreading it. That's... that's progress, right?",
+    "Therapist: Absolutely. Take care, and I'll see you next week.",
+    "Client: Thank you. See you then."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: How are you feeling after that imaginal exposure exercise?",
+      "Client: I... I'm not sure. It's like my mind is racing, but also blank at the same time. The images of the earthquake, they're so vivid. I can still feel the ground shaking beneath my feet, hear the cracking of buildings... It's overwhelming.",
+      "Therapist: Mmm. What's the strongest emotion coming up for you right now?"
+    ],
+    [
+      "Client: I... I'm not sure. It's like my mind is racing, but also blank at the same time. The images of the earthquake, they're so vivid. I can still feel the ground shaking beneath my feet, hear the cracking of buildings... It's overwhelming.",
+      "Therapist: Mmm. What's the strongest emotion coming up for you right now?",
+      "Client: Fear. Definitely fear. But also... guilt? I survived when so many others didn't. I keep seeing the faces of my neighbors, wondering if I could have done more to help them."
+    ],
+    [
+      "Therapist: Mmm. What's the strongest emotion coming up for you right now?",
+      "Client: Fear. Definitely fear. But also... guilt? I survived when so many others didn't. I keep seeing the faces of my neighbors, wondering if I could have done more to help them.",
+      "Therapist: I see. Can you tell me more about that guilt?"
+    ],
+    [
+      "Client: Fear. Definitely fear. But also... guilt? I survived when so many others didn't. I keep seeing the faces of my neighbors, wondering if I could have done more to help them.",
+      "Therapist: I see. Can you tell me more about that guilt?",
+      "Client: It's... it's crushing. I was one of the lucky ones. My house only partially collapsed, and I managed to get out. But my next-door neighbor, Maria, she... she didn't make it. I keep thinking maybe if I'd gone to check on her sooner, maybe if I'd been braver... God, I can still hear her children crying for her."
+    ],
+    [
+      "Therapist: I see. Can you tell me more about that guilt?",
+      "Client: It's... it's crushing. I was one of the lucky ones. My house only partially collapsed, and I managed to get out. But my next-door neighbor, Maria, she... she didn't make it. I keep thinking maybe if I'd gone to check on her sooner, maybe if I'd been braver... God, I can still hear her children crying for her.",
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?"
+    ],
+    [
+      "Client: It's... it's crushing. I was one of the lucky ones. My house only partially collapsed, and I managed to get out. But my next-door neighbor, Maria, she... she didn't make it. I keep thinking maybe if I'd gone to check on her sooner, maybe if I'd been braver... God, I can still hear her children crying for her.",
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+      "Client: Tense. My shoulders are so tight they're almost up to my ears. And there's this heaviness in my chest, like I can't breathe properly. It's how I felt then, and it's how I feel now, reliving it."
+    ],
+    [
+      "Therapist: That sounds incredibly difficult. How does your body feel as you recall this?",
+      "Client: Tense. My shoulders are so tight they're almost up to my ears. And there's this heaviness in my chest, like I can't breathe properly. It's how I felt then, and it's how I feel now, reliving it.",
+      "Therapist: Mm-hmm. What thoughts are going through your mind?"
+    ],
+    [
+      "Client: Tense. My shoulders are so tight they're almost up to my ears. And there's this heaviness in my chest, like I can't breathe properly. It's how I felt then, and it's how I feel now, reliving it.",
+      "Therapist: Mm-hmm. What thoughts are going through your mind?",
+      "Client: I... I keep thinking, \"Why me? Why did I survive?\" And then I feel guilty for even thinking that because I should be grateful. But then I remember all the racism and discrimination I've faced since coming to this country, and I wonder if that's why I hesitated to help others. Maybe if I felt more accepted, I would've been braver, you know?"
+    ],
+    [
+      "Therapist: Mm-hmm. What thoughts are going through your mind?",
+      "Client: I... I keep thinking, \"Why me? Why did I survive?\" And then I feel guilty for even thinking that because I should be grateful. But then I remember all the racism and discrimination I've faced since coming to this country, and I wonder if that's why I hesitated to help others. Maybe if I felt more accepted, I would've been braver, you know?",
+      "Therapist: That's a lot to process. How do these thoughts impact you?"
+    ],
+    [
+      "Client: I... I keep thinking, \"Why me? Why did I survive?\" And then I feel guilty for even thinking that because I should be grateful. But then I remember all the racism and discrimination I've faced since coming to this country, and I wonder if that's why I hesitated to help others. Maybe if I felt more accepted, I would've been braver, you know?",
+      "Therapist: That's a lot to process. How do these thoughts impact you?",
+      "Client: They... they make me feel small. Worthless. Like I don't deserve to be here. And then I get angry at myself for feeling that way, because I know logically it's not true. But emotions aren't logical, are they? It's a constant battle in my head."
+    ],
+    [
+      "Therapist: That's a lot to process. How do these thoughts impact you?",
+      "Client: They... they make me feel small. Worthless. Like I don't deserve to be here. And then I get angry at myself for feeling that way, because I know logically it's not true. But emotions aren't logical, are they? It's a constant battle in my head.",
+      "Therapist: I hear you. What do you need in this moment?"
+    ],
+    [
+      "Client: They... they make me feel small. Worthless. Like I don't deserve to be here. And then I get angry at myself for feeling that way, because I know logically it's not true. But emotions aren't logical, are they? It's a constant battle in my head.",
+      "Therapist: I hear you. What do you need in this moment?",
+      "Client: I... I don't know. Part of me wants to run away from these feelings, to forget it all. But another part knows I need to face this. I guess... I need to know it's okay to feel this way. That I'm not a terrible person for having these thoughts and feelings."
+    ],
+    [
+      "Therapist: I hear you. What do you need in this moment?",
+      "Client: I... I don't know. Part of me wants to run away from these feelings, to forget it all. But another part knows I need to face this. I guess... I need to know it's okay to feel this way. That I'm not a terrible person for having these thoughts and feelings.",
+      "Therapist: Absolutely. Your feelings are valid."
+    ],
+    [
+      "Client: I... I don't know. Part of me wants to run away from these feelings, to forget it all. But another part knows I need to face this. I guess... I need to know it's okay to feel this way. That I'm not a terrible person for having these thoughts and feelings.",
+      "Therapist: Absolutely. Your feelings are valid.",
+      "Client: Thank you. It's just... it's hard. The earthquake was bad enough, but the aftermath... feeling like an outsider in a place that's supposed to be my home now. It's like a double trauma, you know? The disaster and then the isolation."
+    ],
+    [
+      "Therapist: Absolutely. Your feelings are valid.",
+      "Client: Thank you. It's just... it's hard. The earthquake was bad enough, but the aftermath... feeling like an outsider in a place that's supposed to be my home now. It's like a double trauma, you know? The disaster and then the isolation.",
+      "Therapist: How does talking about this now feel different from before?"
+    ],
+    [
+      "Client: Thank you. It's just... it's hard. The earthquake was bad enough, but the aftermath... feeling like an outsider in a place that's supposed to be my home now. It's like a double trauma, you know? The disaster and then the isolation.",
+      "Therapist: How does talking about this now feel different from before?",
+      "Client: It's... it's still painful, but there's something... I don't know, cathartic about it? Like I'm finally letting out this poison that's been inside me for so long. I've never really talked about the racial aspect of it before. I was afraid people wouldn't understand or would think I was making excuses."
+    ],
+    [
+      "Therapist: How does talking about this now feel different from before?",
+      "Client: It's... it's still painful, but there's something... I don't know, cathartic about it? Like I'm finally letting out this poison that's been inside me for so long. I've never really talked about the racial aspect of it before. I was afraid people wouldn't understand or would think I was making excuses.",
+      "Therapist: Mm. What's it like to share that now?"
+    ],
+    [
+      "Client: It's... it's still painful, but there's something... I don't know, cathartic about it? Like I'm finally letting out this poison that's been inside me for so long. I've never really talked about the racial aspect of it before. I was afraid people wouldn't understand or would think I was making excuses.",
+      "Therapist: Mm. What's it like to share that now?",
+      "Client: It's... liberating, in a way. Scary, but also a relief. Like I'm finally acknowledging this whole other layer of my experience. I've spent so long trying to be the \"good immigrant,\" you know? Always grateful, never complaining. But the truth is, it's been hard. Really hard."
+    ],
+    [
+      "Therapist: Mm. What's it like to share that now?",
+      "Client: It's... liberating, in a way. Scary, but also a relief. Like I'm finally acknowledging this whole other layer of my experience. I've spent so long trying to be the \"good immigrant,\" you know? Always grateful, never complaining. But the truth is, it's been hard. Really hard.",
+      "Therapist: I see. How does this realization affect you?"
+    ],
+    [
+      "Client: It's... liberating, in a way. Scary, but also a relief. Like I'm finally acknowledging this whole other layer of my experience. I've spent so long trying to be the \"good immigrant,\" you know? Always grateful, never complaining. But the truth is, it's been hard. Really hard.",
+      "Therapist: I see. How does this realization affect you?",
+      "Client: It's... it's making me see things differently. Like maybe I've been too hard on myself. Maybe it's okay to acknowledge that yes, the earthquake was traumatic, but so was feeling like I didn't fully belong here. That doesn't make me ungrateful or weak. It just makes me... human, I guess."
+    ],
+    [
+      "Therapist: I see. How does this realization affect you?",
+      "Client: It's... it's making me see things differently. Like maybe I've been too hard on myself. Maybe it's okay to acknowledge that yes, the earthquake was traumatic, but so was feeling like I didn't fully belong here. That doesn't make me ungrateful or weak. It just makes me... human, I guess.",
+      "Therapist: That's a powerful insight. What do you want to do with it?"
+    ],
+    [
+      "Client: It's... it's making me see things differently. Like maybe I've been too hard on myself. Maybe it's okay to acknowledge that yes, the earthquake was traumatic, but so was feeling like I didn't fully belong here. That doesn't make me ungrateful or weak. It just makes me... human, I guess.",
+      "Therapist: That's a powerful insight. What do you want to do with it?",
+      "Client: I... I think I want to explore it more. Maybe talk to other immigrants who've been through similar experiences. And... and maybe be a little kinder to myself. Stop beating myself up so much for not being the perfect survivor or the perfect immigrant. It's exhausting trying to be perfect all the time."
+    ],
+    [
+      "Therapist: That's a powerful insight. What do you want to do with it?",
+      "Client: I... I think I want to explore it more. Maybe talk to other immigrants who've been through similar experiences. And... and maybe be a little kinder to myself. Stop beating myself up so much for not being the perfect survivor or the perfect immigrant. It's exhausting trying to be perfect all the time.",
+      "Therapist: That sounds like a positive direction. How are you feeling now?"
+    ],
+    [
+      "Client: I... I think I want to explore it more. Maybe talk to other immigrants who've been through similar experiences. And... and maybe be a little kinder to myself. Stop beating myself up so much for not being the perfect survivor or the perfect immigrant. It's exhausting trying to be perfect all the time.",
+      "Therapist: That sounds like a positive direction. How are you feeling now?",
+      "Client: Tired. Really, really tired. But also... lighter? Like I've put down a heavy backpack I've been carrying for years. There's still a lot to work through, but for the first time in a long time, I feel like maybe, just maybe, I can do this. I can heal."
+    ],
+    [
+      "Therapist: That sounds like a positive direction. How are you feeling now?",
+      "Client: Tired. Really, really tired. But also... lighter? Like I've put down a heavy backpack I've been carrying for years. There's still a lot to work through, but for the first time in a long time, I feel like maybe, just maybe, I can do this. I can heal.",
+      "Therapist: That's great. What would you like to focus on next time?"
+    ],
+    [
+      "Client: Tired. Really, really tired. But also... lighter? Like I've put down a heavy backpack I've been carrying for years. There's still a lot to work through, but for the first time in a long time, I feel like maybe, just maybe, I can do this. I can heal.",
+      "Therapist: That's great. What would you like to focus on next time?",
+      "Client: I think... I'd like to delve more into this idea of dual trauma. The natural disaster and the racial discrimination. I've always treated them as separate issues, but maybe they're more connected than I realized. And maybe understanding that connection will help me process both better."
+    ],
+    [
+      "Therapist: That's great. What would you like to focus on next time?",
+      "Client: I think... I'd like to delve more into this idea of dual trauma. The natural disaster and the racial discrimination. I've always treated them as separate issues, but maybe they're more connected than I realized. And maybe understanding that connection will help me process both better.",
+      "Therapist: Sounds like a good plan. We'll explore that next session."
+    ],
+    [
+      "Client: I think... I'd like to delve more into this idea of dual trauma. The natural disaster and the racial discrimination. I've always treated them as separate issues, but maybe they're more connected than I realized. And maybe understanding that connection will help me process both better.",
+      "Therapist: Sounds like a good plan. We'll explore that next session.",
+      "Client: Thank you. I... I know I'm not always the easiest client. I struggle to open up, and sometimes I feel like I'm not making progress. But today... today felt different. Like maybe I'm finally starting to break through some walls. I appreciate your patience with me."
+    ],
+    [
+      "Therapist: Sounds like a good plan. We'll explore that next session.",
+      "Client: Thank you. I... I know I'm not always the easiest client. I struggle to open up, and sometimes I feel like I'm not making progress. But today... today felt different. Like maybe I'm finally starting to break through some walls. I appreciate your patience with me.",
+      "Therapist: You're welcome. I'm glad you found today helpful."
+    ],
+    [
+      "Client: Thank you. I... I know I'm not always the easiest client. I struggle to open up, and sometimes I feel like I'm not making progress. But today... today felt different. Like maybe I'm finally starting to break through some walls. I appreciate your patience with me.",
+      "Therapist: You're welcome. I'm glad you found today helpful.",
+      "Client: Me too. It's strange, you know? I came here feeling so heavy, so burdened. And I still feel those things, but there's also this tiny spark of... hope? Is that too strong a word? Maybe just possibility. Like maybe I don't have to carry all this alone anymore."
+    ],
+    [
+      "Therapist: You're welcome. I'm glad you found today helpful.",
+      "Client: Me too. It's strange, you know? I came here feeling so heavy, so burdened. And I still feel those things, but there's also this tiny spark of... hope? Is that too strong a word? Maybe just possibility. Like maybe I don't have to carry all this alone anymore.",
+      "Therapist: That's a beautiful sentiment. Shall we end here for today?"
+    ],
+    [
+      "Client: Me too. It's strange, you know? I came here feeling so heavy, so burdened. And I still feel those things, but there's also this tiny spark of... hope? Is that too strong a word? Maybe just possibility. Like maybe I don't have to carry all this alone anymore.",
+      "Therapist: That's a beautiful sentiment. Shall we end here for today?",
+      "Client: Yes, I think so. I have a lot to process. But... thank you. Really. For the first time in a long time, I'm looking forward to our next session instead of dreading it. That's... that's progress, right?"
+    ],
+    [
+      "Therapist: That's a beautiful sentiment. Shall we end here for today?",
+      "Client: Yes, I think so. I have a lot to process. But... thank you. Really. For the first time in a long time, I'm looking forward to our next session instead of dreading it. That's... that's progress, right?",
+      "Therapist: Absolutely. Take care, and I'll see you next week."
+    ],
+    [
+      "Client: Yes, I think so. I have a lot to process. But... thank you. Really. For the first time in a long time, I'm looking forward to our next session instead of dreading it. That's... that's progress, right?",
+      "Therapist: Absolutely. Take care, and I'll see you next week.",
+      "Client: Thank you. See you then."
+    ]
+  ]
+}

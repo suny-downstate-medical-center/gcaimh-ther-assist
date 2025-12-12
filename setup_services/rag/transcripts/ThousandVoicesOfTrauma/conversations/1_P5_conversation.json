@@ -1,0 +1,110 @@
+{
+  "full_conversation": [
+    "Therapist: Mr. Lee, today we'll be starting imaginal exposure. How are you feeling about that?",
+    "Client: I'm a bit nervous, to be honest. I've been thinking about it since our last session. The idea of revisiting that airplane crash... it's not easy. I've spent years trying to forget it. But I trust you, doctor. Can you tell me more about what we'll be doing?",
+    "Therapist: Of course. It's natural to feel nervous. Can you share more about your concerns?",
+    "Client: Well, I'm worried about how I'll react. What if I panic? Or what if I can't handle it and break down? I've always prided myself on being strong, you know. My wife depends on me, and I don't want to let her down by falling apart here.",
+    "Therapist: Your concerns are valid. How have you managed difficult emotions in the past?",
+    "Client: I usually try to stay busy. I'll work in the garden or help my wife with household chores. Sometimes I'll go for a walk. But this feels different. It's like I'm voluntarily walking into my worst nightmare. I'm not sure my usual coping methods will work here.",
+    "Therapist: I understand. This exercise is designed to help you process the trauma. What questions do you have?",
+    "Client: How long will it take? And what exactly will I need to do? Will I need to close my eyes and relive the entire crash? The thought of that makes my heart race already.",
+    "Therapist: We'll go at your pace. You'll describe the event in present tense. I'll guide you throughout. How does that sound?",
+    "Client: It sounds challenging, but I suppose that's the point, isn't it? I appreciate your guidance. I'm still nervous, but I'm also hopeful. Maybe this will finally help me move past that terrible day. Can you tell me more about what I might experience during the exercise?",
+    "Therapist: You may feel strong emotions or physical sensations. This is normal. We'll work through it together. How do you feel about that?",
+    "Client: I'm grateful for your support. It's reassuring to know you'll be there with me. I'm curious, though. Have you done this with other patients who've been through similar traumas? How did they cope?",
+    "Therapist: Every experience is unique, but many find it helpful. Your courage is admirable. Are you ready to begin?",
+    "Client: Thank you for saying that. It means a lot to hear you acknowledge the difficulty of this. I think I'm as ready as I'll ever be. Before we start, can I ask one more thing? If it becomes too overwhelming, can we stop?",
+    "Therapist: Absolutely. You're in control. We can pause anytime. Shall we start with a breathing exercise?",
+    "Client: Yes, that would be helpful. I can feel my heart racing a bit. A breathing exercise sounds good. It reminds me of the meditation my wife and I do sometimes. She's been so supportive through all of this. I'm doing this for her too, you know. To be the husband she deserves.",
+    "Therapist: Your dedication is commendable. Let's begin with deep breaths. In through your nose, out through your mouth.",
+    "Client: (Takes a deep breath) Okay, I'm following your lead. This does help calm me down a bit. It's amazing how something as simple as breathing can make such a difference. I'm starting to feel a little more centered now. I think... I think I'm ready to face this memory.",
+    "Therapist: Excellent. Remember, you're safe here. Describe where you were before boarding the plane."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Mr. Lee, today we'll be starting imaginal exposure. How are you feeling about that?",
+      "Client: I'm a bit nervous, to be honest. I've been thinking about it since our last session. The idea of revisiting that airplane crash... it's not easy. I've spent years trying to forget it. But I trust you, doctor. Can you tell me more about what we'll be doing?",
+      "Therapist: Of course. It's natural to feel nervous. Can you share more about your concerns?"
+    ],
+    [
+      "Client: I'm a bit nervous, to be honest. I've been thinking about it since our last session. The idea of revisiting that airplane crash... it's not easy. I've spent years trying to forget it. But I trust you, doctor. Can you tell me more about what we'll be doing?",
+      "Therapist: Of course. It's natural to feel nervous. Can you share more about your concerns?",
+      "Client: Well, I'm worried about how I'll react. What if I panic? Or what if I can't handle it and break down? I've always prided myself on being strong, you know. My wife depends on me, and I don't want to let her down by falling apart here."
+    ],
+    [
+      "Therapist: Of course. It's natural to feel nervous. Can you share more about your concerns?",
+      "Client: Well, I'm worried about how I'll react. What if I panic? Or what if I can't handle it and break down? I've always prided myself on being strong, you know. My wife depends on me, and I don't want to let her down by falling apart here.",
+      "Therapist: Your concerns are valid. How have you managed difficult emotions in the past?"
+    ],
+    [
+      "Client: Well, I'm worried about how I'll react. What if I panic? Or what if I can't handle it and break down? I've always prided myself on being strong, you know. My wife depends on me, and I don't want to let her down by falling apart here.",
+      "Therapist: Your concerns are valid. How have you managed difficult emotions in the past?",
+      "Client: I usually try to stay busy. I'll work in the garden or help my wife with household chores. Sometimes I'll go for a walk. But this feels different. It's like I'm voluntarily walking into my worst nightmare. I'm not sure my usual coping methods will work here."
+    ],
+    [
+      "Therapist: Your concerns are valid. How have you managed difficult emotions in the past?",
+      "Client: I usually try to stay busy. I'll work in the garden or help my wife with household chores. Sometimes I'll go for a walk. But this feels different. It's like I'm voluntarily walking into my worst nightmare. I'm not sure my usual coping methods will work here.",
+      "Therapist: I understand. This exercise is designed to help you process the trauma. What questions do you have?"
+    ],
+    [
+      "Client: I usually try to stay busy. I'll work in the garden or help my wife with household chores. Sometimes I'll go for a walk. But this feels different. It's like I'm voluntarily walking into my worst nightmare. I'm not sure my usual coping methods will work here.",
+      "Therapist: I understand. This exercise is designed to help you process the trauma. What questions do you have?",
+      "Client: How long will it take? And what exactly will I need to do? Will I need to close my eyes and relive the entire crash? The thought of that makes my heart race already."
+    ],
+    [
+      "Therapist: I understand. This exercise is designed to help you process the trauma. What questions do you have?",
+      "Client: How long will it take? And what exactly will I need to do? Will I need to close my eyes and relive the entire crash? The thought of that makes my heart race already.",
+      "Therapist: We'll go at your pace. You'll describe the event in present tense. I'll guide you throughout. How does that sound?"
+    ],
+    [
+      "Client: How long will it take? And what exactly will I need to do? Will I need to close my eyes and relive the entire crash? The thought of that makes my heart race already.",
+      "Therapist: We'll go at your pace. You'll describe the event in present tense. I'll guide you throughout. How does that sound?",
+      "Client: It sounds challenging, but I suppose that's the point, isn't it? I appreciate your guidance. I'm still nervous, but I'm also hopeful. Maybe this will finally help me move past that terrible day. Can you tell me more about what I might experience during the exercise?"
+    ],
+    [
+      "Therapist: We'll go at your pace. You'll describe the event in present tense. I'll guide you throughout. How does that sound?",
+      "Client: It sounds challenging, but I suppose that's the point, isn't it? I appreciate your guidance. I'm still nervous, but I'm also hopeful. Maybe this will finally help me move past that terrible day. Can you tell me more about what I might experience during the exercise?",
+      "Therapist: You may feel strong emotions or physical sensations. This is normal. We'll work through it together. How do you feel about that?"
+    ],
+    [
+      "Client: It sounds challenging, but I suppose that's the point, isn't it? I appreciate your guidance. I'm still nervous, but I'm also hopeful. Maybe this will finally help me move past that terrible day. Can you tell me more about what I might experience during the exercise?",
+      "Therapist: You may feel strong emotions or physical sensations. This is normal. We'll work through it together. How do you feel about that?",
+      "Client: I'm grateful for your support. It's reassuring to know you'll be there with me. I'm curious, though. Have you done this with other patients who've been through similar traumas? How did they cope?"
+    ],
+    [
+      "Therapist: You may feel strong emotions or physical sensations. This is normal. We'll work through it together. How do you feel about that?",
+      "Client: I'm grateful for your support. It's reassuring to know you'll be there with me. I'm curious, though. Have you done this with other patients who've been through similar traumas? How did they cope?",
+      "Therapist: Every experience is unique, but many find it helpful. Your courage is admirable. Are you ready to begin?"
+    ],
+    [
+      "Client: I'm grateful for your support. It's reassuring to know you'll be there with me. I'm curious, though. Have you done this with other patients who've been through similar traumas? How did they cope?",
+      "Therapist: Every experience is unique, but many find it helpful. Your courage is admirable. Are you ready to begin?",
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge the difficulty of this. I think I'm as ready as I'll ever be. Before we start, can I ask one more thing? If it becomes too overwhelming, can we stop?"
+    ],
+    [
+      "Therapist: Every experience is unique, but many find it helpful. Your courage is admirable. Are you ready to begin?",
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge the difficulty of this. I think I'm as ready as I'll ever be. Before we start, can I ask one more thing? If it becomes too overwhelming, can we stop?",
+      "Therapist: Absolutely. You're in control. We can pause anytime. Shall we start with a breathing exercise?"
+    ],
+    [
+      "Client: Thank you for saying that. It means a lot to hear you acknowledge the difficulty of this. I think I'm as ready as I'll ever be. Before we start, can I ask one more thing? If it becomes too overwhelming, can we stop?",
+      "Therapist: Absolutely. You're in control. We can pause anytime. Shall we start with a breathing exercise?",
+      "Client: Yes, that would be helpful. I can feel my heart racing a bit. A breathing exercise sounds good. It reminds me of the meditation my wife and I do sometimes. She's been so supportive through all of this. I'm doing this for her too, you know. To be the husband she deserves."
+    ],
+    [
+      "Therapist: Absolutely. You're in control. We can pause anytime. Shall we start with a breathing exercise?",
+      "Client: Yes, that would be helpful. I can feel my heart racing a bit. A breathing exercise sounds good. It reminds me of the meditation my wife and I do sometimes. She's been so supportive through all of this. I'm doing this for her too, you know. To be the husband she deserves.",
+      "Therapist: Your dedication is commendable. Let's begin with deep breaths. In through your nose, out through your mouth."
+    ],
+    [
+      "Client: Yes, that would be helpful. I can feel my heart racing a bit. A breathing exercise sounds good. It reminds me of the meditation my wife and I do sometimes. She's been so supportive through all of this. I'm doing this for her too, you know. To be the husband she deserves.",
+      "Therapist: Your dedication is commendable. Let's begin with deep breaths. In through your nose, out through your mouth.",
+      "Client: (Takes a deep breath) Okay, I'm following your lead. This does help calm me down a bit. It's amazing how something as simple as breathing can make such a difference. I'm starting to feel a little more centered now. I think... I think I'm ready to face this memory."
+    ],
+    [
+      "Therapist: Your dedication is commendable. Let's begin with deep breaths. In through your nose, out through your mouth.",
+      "Client: (Takes a deep breath) Okay, I'm following your lead. This does help calm me down a bit. It's amazing how something as simple as breathing can make such a difference. I'm starting to feel a little more centered now. I think... I think I'm ready to face this memory.",
+      "Therapist: Excellent. Remember, you're safe here. Describe where you were before boarding the plane."
+    ]
+  ]
+}

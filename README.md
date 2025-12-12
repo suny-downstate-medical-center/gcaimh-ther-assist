@@ -17,6 +17,15 @@ Ther-Assist listens ambiently to therapy sessions and provides near real-time gu
 
 ## Architecture
 
+### Diagram
+![Architecture](./assets/architecture.png)
+
+### Frontend (React + Vite)
+- **Clinician-Optimized UI**: Large, readable alerts with visual priority system
+- **Live Transcript Display**: Real-time speaker-labeled conversation
+- **Alert System**: Critical (red), Suggestion (yellow), Info (green) alerts
+- **Session Metrics Dashboard**: Visual indicators for therapeutic progress
+
 ### Backend Services
 1. **Streaming Transcription Service** (`backend/streaming-transcription-service/`)
    - FastAPI WebSocket service deployed on Cloud Run
@@ -30,12 +39,6 @@ Ther-Assist listens ambiently to therapy sessions and provides near real-time gu
    - Provides real-time therapeutic guidance
    - Generates session summaries
 
-### Frontend (React + Vite)
-- **Clinician-Optimized UI**: Large, readable alerts with visual priority system
-- **Live Transcript Display**: Real-time speaker-labeled conversation
-- **Alert System**: Critical (red), Suggestion (yellow), Info (green) alerts
-- **Session Metrics Dashboard**: Visual indicators for therapeutic progress
-
 ## Deployment Instructions
 
 ### Prerequisites
@@ -43,72 +46,42 @@ Ther-Assist listens ambiently to therapy sessions and provides near real-time gu
 - Google Cloud Project with billing enabled
 - Google Cloud CLI (`gcloud`) installed and authenticated
 
-### 1. Google Cloud Setup
+### Initial GCP & Firebase Setup
 
+1. Enable APIs
 ```bash
 # Set your project ID
-export PROJECT_ID="your-project-id"
-gcloud config set project $PROJECT_ID
+gcloud init
+gcloud auth application-default login
 
 # Enable required APIs
 gcloud services enable speech.googleapis.com
 gcloud services enable aiplatform.googleapis.com
 gcloud services enable discoveryengine.googleapis.com
-gcloud services enable cloudfunctions.googleapis.com
+gcloud services enable generativelanguage.googleapis.com
+gcloud services enable artifactregistry.googleapis.com
 gcloud services enable cloudbuild.googleapis.com
-
-# Create Vertex AI Search datastore for EBT corpus
-# (Follow Google Cloud Console to create a datastore and upload PDF manuals)
+gcloud services enable run.googleapis.com
+gcloud services enable cloudfunctions.googleapis.com
+gcloud services enable compute.googleapis.com
+gcloud services enable storage.googleapis.com
 ```
 
-### 2. Create RAG Corpuses
-Follow the instructions in the [RAG README.MD](./backend/rag/README)
-
-### 3. Backend Deployment
-
-Deploy Cloud Functions:
-
-#### Deploy Streaming Transcription Service
-```bash
-cd backend/streaming-transcription-service
-export PROJECT_ID="your-project-id"
-./deploy.sh
+2. Enable Firebase Authentication
+- Search for Firebase in your GCP project. Click into Firebase Authenticaiton, and click into the Firebase Portal
+- Enable Google Authentication within Firebase
+- Go to your project settings, enable a web application, and grab the Firebase config object. It should look like this:
+```javascript
+{
+  apiKey: "api-key",
+  authDomain: "your-gcp-project.firebaseapp.com",
+  projectId: "your-gcp-project",
+  storageBucket: "your-gcp-project.firebasestorage.app",
+  messagingSenderId: "message-sender-id",
+  appId: "1:app-id"i
+}
 ```
-
-#### Deploy Storage Access Function
-First give your default compute engine SA the role for Cloud Build Builder, Vertex AI User, Discovery Engine User, and finally the Storage Object & Bucket Viewer roles. Then run the following commands:
-```bash
-cd backend/storage-access-function
-./deploy.sh
-```
-
-#### Deploy analysis function
-```bash
-cd ../therapy-analysis-function
-gcloud functions deploy therapy_analysis \
-  --runtime python312 \
-  --trigger-http \
-  --allow-unauthenticated \
-  --memory 1GB \
-  --timeout 540s \
-  --set-env-vars GOOGLE_CLOUD_PROJECT=$PROJECT_ID
-```
-
-Note: Org policies may block your functions from deploying with public access enabled. You'll have to change that setting manually.
-
-### 4. Frontend Setup
-
-1. Install dependencies
-```bash
-cd frontend
-
-# Copy environment variables and update with your own
-cp .env.example .env
-```
-
-2. Update your .env file with your project's variables
-
-3. Enable Firebase in your project, enable Google authentication, register an app, get the Firebase config object, and use that object to create `frontend/firebase-config-object.ts`:
+3. Create a file in frontend/firebase-config-object.ts like this:
 ```javascript
 export const firebaseConfig = {
   apiKey: "api-key",
@@ -116,49 +89,44 @@ export const firebaseConfig = {
   projectId: "your-gcp-project",
   storageBucket: "your-gcp-project.firebasestorage.app",
   messagingSenderId: "message-sender-id",
-  appId: "1:app-id"
+  appId: "1:app-id"i
 };
 ```
-
-4. Create the following file `frontend/firebaserc` with your own information:
-```javascript
+4. Also create a file in frontend/.firebaserc like this:
+```json
 {
   "projects": {
-    "default": "your-gcp-project-id"
+    "default": "you-gcp-project"
   }
 }
 ```
+5. Grant you default compute engine service account project editor access
 
-5. Build your app
+### Deploy Services
+
+1. Create RAG Corpuses
+Follow the instructions in the [RAG README.MD](./setup_services/rag/README)
+
+2. Deploy Cloud Run & Cloud Run Functions using Terraform
+- Set up Terraform variables:
 ```bash
-npm run build
+cd terraform
+cp terraform.tfvars.example terraform.tfvars
+```
+- Edit `terraform.tfvars` with your values
+- Initialize and deploy:
+```bash
+terraform init
+terraform plan
+terraform apply
 ```
 
-6. Deploy to Firebase
-```bash
-firebase deploy
-```
+3. Go back to Firebase settings and allowlist authentication for every single domain in the backend and for your frontend domain
+
+4. Go to each deployed step and enable unauthorized access for each (manual step due to org policies)
 
 ## Local Dev
-
-### Frontend
-1. Create .env.development
-```bash
-# Backend API endpoints
-VITE_ANALYSIS_API=http://localhost:8080
-VITE_STORAGE_ACCESS_URL=http://localhost:8081
-VITE_TRANSCRIPTION_WS=ws://localhost:8082
-
-# Google Cloud settings
-VITE_GOOGLE_CLOUD_PROJECT=your-gcp-project
-```
-
-2. Install dependencies and run frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
+Note: if you haven't completed deployments then you'll need to update .env values manually
 
 ### Backend therapy-analysis-function
 1. Navigate to the directory
@@ -166,10 +134,30 @@ npm run dev
 cd backend/therapy-analysis-function
 ```
 2. Configure your venv & install dependencies
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 3. Run the Cloud Run Function locally
 ```bash
-export GOOGLE_CLOUD_PROJECT="your-project-id"
 functions-framework --target=therapy_analysis --port=8080
+```
+
+### Backend storage-access-function
+1. Navigate to the directory
+```bash
+cd backend/storage-access-function
+```
+2. Configure your venv & install dependencies
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+3. Run the Cloud Function locally
+```bash
+functions-framework --target=storage_access --port=8081
 ```
 
 ### Backend streaming-transcription-service
@@ -179,41 +167,30 @@ cd backend/streaming-transcription-service
 ```
 2. Configure your venv & install dependencies
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
-3. Run the service locally
+3. Be sure to update the .env file so that the port is 8082 
+
+4. Run the service locally
 ```bash
-export GOOGLE_CLOUD_PROJECT="your-project-id"
 python main.py
 ```
 
-### Backend storage-acccess-function
-1. Navigate to the directory
+### Frontend
+1. Create .env.development & update with your own values
 ```bash
-cd backend/storage-access-function
-```
-2. Configure your venv & install dependencies
-3. Run the Cloud Run Function locally
-```bash
-export GOOGLE_CLOUD_PROJECT="your-project-id"
-functions-framework --target=storage_access --port=8081
+cd frontend
+cp .env.example .env.development
 ```
 
-## Usage
-
-1. **Start Session**: Click "Start Session" to begin recording
-2. **Real-time Monitoring**: Watch the transcript and guidance panels
-3. **Critical Alerts**: Respond to red alerts immediately
-4. **Pathway Changes**: Consider yellow suggestions for approach modifications
-5. **End Session**: Click "End Session" to stop recording and generate summary
-
-## EBT Corpus
-
-Place evidence-based treatment manuals in `backend/rag/corpus/`:
-- CBT manuals
-- PE (Prolonged Exposure) protocols
-- Social phobia treatment guides
-- Other EBT resources
+2. Install dependencies and run frontend
+```bash
+cd frontend
+npm i
+npm run dev
+```
 
 ## Security & Privacy
 
@@ -224,37 +201,6 @@ Place evidence-based treatment manuals in `backend/rag/corpus/`:
   - Enable VPC Service Controls
   - Use Customer-Managed Encryption Keys (CMEK)
   - Implement proper access controls
-
-## Development
-
-### Local Development
-
-For local development without Google Cloud:
-
-1. Use mock services in `frontend/services/mockServices.ts`
-2. Test with pre-recorded audio files
-3. Use sample transcripts for UI development
-
-### Testing
-
-TODO
-<!-- ```bash
-# Frontend tests
-cd frontend
-npm test
-
-# Backend function tests
-cd backend/therapy-analysis-function
-python -m pytest test_scripts/
-``` -->
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
 
 ## License
 

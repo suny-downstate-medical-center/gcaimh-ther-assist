@@ -1,0 +1,98 @@
+{
+  "full_conversation": [
+    "Therapist: Welcome, Sarah. How are you feeling today?",
+    "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about the incident, and I'm not sure if I'm ready for this.",
+    "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+    "Client: Well, it's just... every time I think about what happened, it's like I'm right back there. My heart races, I feel sick to my stomach, and sometimes I even feel like I can't breathe. I'm worried that if we talk about it in detail, I'll completely fall apart. And... I'm embarrassed. I don't want to cry or look weak in front of you.",
+    "Therapist: Thank you for sharing. Your reactions are normal. How do you typically cope with these feelings?",
+    "Client: I usually try to distract myself. I'll watch TV, scroll through social media, or sometimes... well, I've been drinking more lately to numb everything. I know it's not healthy, but it helps me forget for a while.",
+    "Therapist: I understand. Let's discuss the imaginal exposure exercise. Are you ready?",
+    "Client: I guess so. Can you explain what exactly we'll be doing? I'm still not sure I understand how reliving the trauma is supposed to help me.",
+    "Therapist: Of course. We'll revisit the memory in a safe environment. It helps process the trauma. Any questions?",
+    "Client: Yeah, actually. What if I panic during the exercise? Or what if it makes my nightmares worse? I'm already struggling to sleep as it is.",
+    "Therapist: Valid concerns. We'll go at your pace. I'll be here to support you throughout. Shall we begin?",
+    "Client: Okay... I think I'm ready. But can we stop if it gets too overwhelming? And... is it normal to feel this scared about just talking about something that's already happened?",
+    "Therapist: Absolutely. We can pause anytime. Your fear is normal. You're very brave for doing this.",
+    "Client: Thank you. That helps a bit. I guess I'm just worried about what might come up. There's so much I've been trying to forget, and I'm not sure how I'll react when I have to face it all again.",
+    "Therapist: Your concerns are understandable. Remember, this is to help you heal. Ready to start?",
+    "Client: Yes, I think so. Just... please be patient with me if I struggle. This is harder than I thought it would be, but I want to get better. I'm tired of feeling this way all the time.",
+    "Therapist: You're showing incredible strength. Let's begin. Close your eyes and take a deep breath..."
+  ],
+  "three_turn_sequences": [
+    [
+      "Therapist: Welcome, Sarah. How are you feeling today?",
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about the incident, and I'm not sure if I'm ready for this.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?"
+    ],
+    [
+      "Client: I'm... okay, I guess. A bit nervous about what we're going to do. I've been having more nightmares lately about the incident, and I'm not sure if I'm ready for this.",
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about what happened, it's like I'm right back there. My heart races, I feel sick to my stomach, and sometimes I even feel like I can't breathe. I'm worried that if we talk about it in detail, I'll completely fall apart. And... I'm embarrassed. I don't want to cry or look weak in front of you."
+    ],
+    [
+      "Therapist: Your feelings are valid. Can you tell me more about your concerns?",
+      "Client: Well, it's just... every time I think about what happened, it's like I'm right back there. My heart races, I feel sick to my stomach, and sometimes I even feel like I can't breathe. I'm worried that if we talk about it in detail, I'll completely fall apart. And... I'm embarrassed. I don't want to cry or look weak in front of you.",
+      "Therapist: Thank you for sharing. Your reactions are normal. How do you typically cope with these feelings?"
+    ],
+    [
+      "Client: Well, it's just... every time I think about what happened, it's like I'm right back there. My heart races, I feel sick to my stomach, and sometimes I even feel like I can't breathe. I'm worried that if we talk about it in detail, I'll completely fall apart. And... I'm embarrassed. I don't want to cry or look weak in front of you.",
+      "Therapist: Thank you for sharing. Your reactions are normal. How do you typically cope with these feelings?",
+      "Client: I usually try to distract myself. I'll watch TV, scroll through social media, or sometimes... well, I've been drinking more lately to numb everything. I know it's not healthy, but it helps me forget for a while."
+    ],
+    [
+      "Therapist: Thank you for sharing. Your reactions are normal. How do you typically cope with these feelings?",
+      "Client: I usually try to distract myself. I'll watch TV, scroll through social media, or sometimes... well, I've been drinking more lately to numb everything. I know it's not healthy, but it helps me forget for a while.",
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise. Are you ready?"
+    ],
+    [
+      "Client: I usually try to distract myself. I'll watch TV, scroll through social media, or sometimes... well, I've been drinking more lately to numb everything. I know it's not healthy, but it helps me forget for a while.",
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise. Are you ready?",
+      "Client: I guess so. Can you explain what exactly we'll be doing? I'm still not sure I understand how reliving the trauma is supposed to help me."
+    ],
+    [
+      "Therapist: I understand. Let's discuss the imaginal exposure exercise. Are you ready?",
+      "Client: I guess so. Can you explain what exactly we'll be doing? I'm still not sure I understand how reliving the trauma is supposed to help me.",
+      "Therapist: Of course. We'll revisit the memory in a safe environment. It helps process the trauma. Any questions?"
+    ],
+    [
+      "Client: I guess so. Can you explain what exactly we'll be doing? I'm still not sure I understand how reliving the trauma is supposed to help me.",
+      "Therapist: Of course. We'll revisit the memory in a safe environment. It helps process the trauma. Any questions?",
+      "Client: Yeah, actually. What if I panic during the exercise? Or what if it makes my nightmares worse? I'm already struggling to sleep as it is."
+    ],
+    [
+      "Therapist: Of course. We'll revisit the memory in a safe environment. It helps process the trauma. Any questions?",
+      "Client: Yeah, actually. What if I panic during the exercise? Or what if it makes my nightmares worse? I'm already struggling to sleep as it is.",
+      "Therapist: Valid concerns. We'll go at your pace. I'll be here to support you throughout. Shall we begin?"
+    ],
+    [
+      "Client: Yeah, actually. What if I panic during the exercise? Or what if it makes my nightmares worse? I'm already struggling to sleep as it is.",
+      "Therapist: Valid concerns. We'll go at your pace. I'll be here to support you throughout. Shall we begin?",
+      "Client: Okay... I think I'm ready. But can we stop if it gets too overwhelming? And... is it normal to feel this scared about just talking about something that's already happened?"
+    ],
+    [
+      "Therapist: Valid concerns. We'll go at your pace. I'll be here to support you throughout. Shall we begin?",
+      "Client: Okay... I think I'm ready. But can we stop if it gets too overwhelming? And... is it normal to feel this scared about just talking about something that's already happened?",
+      "Therapist: Absolutely. We can pause anytime. Your fear is normal. You're very brave for doing this."
+    ],
+    [
+      "Client: Okay... I think I'm ready. But can we stop if it gets too overwhelming? And... is it normal to feel this scared about just talking about something that's already happened?",
+      "Therapist: Absolutely. We can pause anytime. Your fear is normal. You're very brave for doing this.",
+      "Client: Thank you. That helps a bit. I guess I'm just worried about what might come up. There's so much I've been trying to forget, and I'm not sure how I'll react when I have to face it all again."
+    ],
+    [
+      "Therapist: Absolutely. We can pause anytime. Your fear is normal. You're very brave for doing this.",
+      "Client: Thank you. That helps a bit. I guess I'm just worried about what might come up. There's so much I've been trying to forget, and I'm not sure how I'll react when I have to face it all again.",
+      "Therapist: Your concerns are understandable. Remember, this is to help you heal. Ready to start?"
+    ],
+    [
+      "Client: Thank you. That helps a bit. I guess I'm just worried about what might come up. There's so much I've been trying to forget, and I'm not sure how I'll react when I have to face it all again.",
+      "Therapist: Your concerns are understandable. Remember, this is to help you heal. Ready to start?",
+      "Client: Yes, I think so. Just... please be patient with me if I struggle. This is harder than I thought it would be, but I want to get better. I'm tired of feeling this way all the time."
+    ],
+    [
+      "Therapist: Your concerns are understandable. Remember, this is to help you heal. Ready to start?",
+      "Client: Yes, I think so. Just... please be patient with me if I struggle. This is harder than I thought it would be, but I want to get better. I'm tired of feeling this way all the time.",
+      "Therapist: You're showing incredible strength. Let's begin. Close your eyes and take a deep breath..."
+    ]
+  ]
+}
