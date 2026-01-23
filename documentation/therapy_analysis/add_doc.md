@@ -1,3 +1,4 @@
+## created by gemini CLI
 # How to Add New Knowledge to the Ther-Assist RAG System
 
 This guide explains how to extend the Ther-Assist application to include knowledge about new topics, using Obsessive Compulsive Disorder (OCD) as an example.

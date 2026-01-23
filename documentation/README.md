@@ -10,3 +10,4 @@ project - documents at a project level scope, anything that documents sequence f
 
 therapy_analysis - documents for the therapy_analysis function (backend entrypoint for gemini calls), including interactions that are integrated into the therapy analysis as well (setup_services...)
 
+wip_docs - docs that may eventually be useful during dissemination

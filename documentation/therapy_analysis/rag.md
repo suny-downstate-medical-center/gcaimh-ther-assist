@@ -1,3 +1,4 @@
+## created w/ gemini CLI assistance
 # High Level Description of RAG backend
 
 Retrieval-Augmented Generation in ther-assist is triggered by the frontend
@@ -33,8 +34,8 @@ creates a `Vertex AI` datastore which includes:
 creates the Google Cloud Storage (GCS) bucket `<PROJECT_ID>-transcript-patterns`
 uploads all files found in `setup_services/rag/transcripts` to the transcript GCS bucket.
    some metadata is already added in `process_json_conversation` and `process_pdf_transcript`
-https://github.com/jchen6727/gcaimh-ther-assist/blob/main/rag/setup_transcript_datastore.py#L159
-https://github.com/jchen6727/gcaimh-ther-assist/blob/main/rag/setup_transcript_datastore.py#L179
+https://github.com/jchen6727/gcaimh-ther-assist/blob/main/setup_services/rag/setup_transcript_datastore.py#L159
+https://github.com/jchen6727/gcaimh-ther-assist/blob/main/setup_services/rag/setup_transcript_datastore.py#L179
 `trauma` -> `PTSD`
 `BB3` -> `Beck CBT`
 `PE` -> `PE/PTSD`
