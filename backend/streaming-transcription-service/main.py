@@ -12,6 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""
+Therapy Session Streaming Service — Speech-to-Text v2
+
+Receives raw PCM 16kHz 16-bit mono audio from the browser via WebSocket,
+streams it to Google Cloud Speech-to-Text v2 for real-time transcription,
+and sends transcripts back to the frontend. Clinical analysis is handled
+by the separate therapy-analysis HTTP backend (Gemini Pro + RAG).
+
+Also runs a deterministic safety keyword scanner on every transcript
+to flag crisis language immediately.
+"""
+
 import os
 import json
 import asyncio
@@ -20,7 +32,6 @@ import threading
 import queue
 from typing import Generator, Optional
 from datetime import datetime
-import base64
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException, Depends
@@ -33,11 +44,10 @@ import google.auth
 import firebase_admin
 from firebase_admin import auth, credentials
 
-# Load environment variables
-# Load base .env file first
-load_dotenv('.env')
+from prompts import SAFETY_KEYWORDS
 
-# Load development overrides if .env.development exists
+# Load environment variables
+load_dotenv('.env')
 if os.path.exists('.env.development'):
     load_dotenv('.env.development', override=True)
     logger_env = "development"
@@ -53,7 +63,6 @@ logger = logging.getLogger(__name__)
 
 # --- Initialize Firebase Admin ---
 try:
-    # Firebase Admin SDK will automatically use the service account when running in Google Cloud
     if not firebase_admin._apps:
         firebase_admin.initialize_app()
     logger.info("Firebase Admin SDK initialized")
@@ -64,379 +73,388 @@ except Exception as e:
 ALLOWED_DOMAINS = set(os.environ.get('AUTH_ALLOWED_DOMAINS', '').split(',')) if os.environ.get('AUTH_ALLOWED_DOMAINS') else set()
 ALLOWED_EMAILS = set(os.environ.get('AUTH_ALLOWED_EMAILS', '').split(',')) if os.environ.get('AUTH_ALLOWED_EMAILS') else set()
 
+
 def is_email_authorized(email: str) -> bool:
-    """Check if email is authorized based on domain or explicit allowlist"""
     if not email:
         return False
-    
-    # Check explicit email allowlist
     if email in ALLOWED_EMAILS:
         return True
-        
-    # Check domain allowlist
     email_domain = email.split('@')[-1] if '@' in email else ''
     return email_domain in ALLOWED_DOMAINS
 
+
 def verify_firebase_token(token: str) -> Optional[dict]:
-    """Verify Firebase ID token and return decoded claims"""
     try:
         decoded_token = auth.verify_id_token(token)
         email = decoded_token.get('email')
-        
         if not is_email_authorized(email):
             logger.warning(f"Unauthorized email attempted access: {email}")
             return None
-            
         logger.info(f"Authorized user authenticated: {email}")
         return decoded_token
     except Exception as e:
         logger.error(f"Token verification failed: {e}")
         return None
 
-# Initialize FastAPI app
-app = FastAPI(title="Therapy Transcription Streaming Service")
 
-# Security scheme
+# Initialize FastAPI app
+app = FastAPI(title="Therapy Session Streaming Service — STT v2")
+
 security = HTTPBearer()
 
+
 async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    """Dependency to verify Firebase authentication"""
     decoded_token = verify_firebase_token(credentials.credentials)
     if not decoded_token:
         raise HTTPException(status_code=401, detail="Invalid or unauthorized token")
     return decoded_token
 
-# Add CORS middleware
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify your frontend URL
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Get project ID from environment variable (required)
+# --- Google Cloud Configuration ---
 project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
 if not project_id:
     raise ValueError("GOOGLE_CLOUD_PROJECT environment variable must be set")
-logger.info(f"Using Google Cloud project: {project_id}")
-location = "global"
 
-# Initialize Speech client
-speech_client = speech_v2.SpeechClient()
+location = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+logger.info(f"Using Google Cloud project: {project_id}, location: {location}")
+
+# Initialize Speech client with regional endpoint (required by org policy)
+speech_client = speech_v2.SpeechClient(
+    client_options={"api_endpoint": f"{location}-speech.googleapis.com"}
+)
+logger.info(f"Speech client initialized: {location}-speech.googleapis.com")
+
+
+def scan_safety_keywords(text: str) -> list[dict]:
+    """Deterministic safety keyword scan."""
+    text_lower = text.lower()
+    matches = []
+    for category, keywords in SAFETY_KEYWORDS.items():
+        found = [kw for kw in keywords if kw in text_lower]
+        if found:
+            matches.append({"category": category, "keywords": found})
+    return matches
+
 
 class StreamingTranscriptionSession:
-    """Manages a true streaming transcription session with low latency"""
-    
+    """Manages a streaming STT v2 transcription session.
+
+    Receives PCM 16kHz 16-bit mono audio from the browser, streams it
+    to Speech-to-Text v2, and sends transcripts back via WebSocket.
+    """
+
     def __init__(self, session_id: str, websocket: WebSocket):
         self.session_id = session_id
         self.websocket = websocket
         self.is_active = True
         self.recognizer_name = f"projects/{project_id}/locations/{location}/recognizers/_"
-        # Use thread-safe queue for audio data
         self.audio_queue = queue.Queue()
         self.response_queue = asyncio.Queue()
         self.streaming_thread = None
-        # Store the main event loop for cross-thread communication
         self.main_loop = asyncio.get_event_loop()
-        
+
     def get_streaming_config(self) -> types.StreamingRecognitionConfig:
-        """Get streaming recognition config optimized for low latency"""
         return types.StreamingRecognitionConfig(
             config=types.RecognitionConfig(
-                # Auto-detect encoding from browser
-                auto_decoding_config=types.AutoDetectDecodingConfig(),
+                explicit_decoding_config=types.ExplicitDecodingConfig(
+                    encoding=types.ExplicitDecodingConfig.AudioEncoding.LINEAR16,
+                    sample_rate_hertz=16000,
+                    audio_channel_count=1,
+                ),
                 language_codes=["en-US"],
-                model="latest_long",  # Best model for medical/therapy conversations
+                model="latest_long",
                 features=types.RecognitionFeatures(
                     enable_automatic_punctuation=True,
                     profanity_filter=False,
                     enable_word_time_offsets=True,
                     enable_word_confidence=True,
-                    # Note: Speaker diarization not supported in streaming
-                    # The LLM will identify speakers from context
                     max_alternatives=1,
                 ),
             ),
             streaming_features=types.StreamingRecognitionFeatures(
-                interim_results=True,  # Critical for low latency
+                interim_results=True,
                 enable_voice_activity_events=True,
                 voice_activity_timeout=types.StreamingRecognitionFeatures.VoiceActivityTimeout(
-                    speech_start_timeout={"seconds": 30},  # Wait longer for initial speech
-                    speech_end_timeout={"seconds": 6},      # Natural pause between segments
+                    speech_start_timeout={"seconds": 30},
+                    speech_end_timeout={"seconds": 6},
                 ),
             ),
         )
-    
+
     def audio_generator(self) -> Generator[types.StreamingRecognizeRequest, None, None]:
-        """Synchronous generator for streaming requests"""
-        # First request contains config
+        # First request: config
         yield types.StreamingRecognizeRequest(
             recognizer=self.recognizer_name,
             streaming_config=self.get_streaming_config(),
         )
-        
-        # Subsequent requests contain audio
+        # Subsequent: audio data
         while self.is_active:
             try:
-                # Get audio from queue with timeout (blocking)
                 audio_data = self.audio_queue.get(timeout=0.1)
-                
-                if audio_data is None:  # Poison pill to stop
+                if audio_data is None:
                     break
-                    
                 yield types.StreamingRecognizeRequest(audio=audio_data)
-                
             except queue.Empty:
                 continue
             except Exception as e:
-                logger.error(f"Error in audio generator: {e}")
+                logger.error(f"Audio generator error: {e}")
                 break
-    
+
     def streaming_recognize_thread(self):
-        """Run the synchronous gRPC streaming in a separate thread"""
         try:
-            logger.info("Starting streaming recognition thread")
-            # Create the request generator
-            request_generator = self.audio_generator()
-            
-            # Call the synchronous streaming_recognize
+            logger.info(f"[{self.session_id}] Starting STT v2 streaming thread")
             responses = speech_client.streaming_recognize(
-                requests=request_generator,
+                requests=self.audio_generator(),
             )
-            
-            # Process responses
-            response_count = 0
             for response in responses:
-                response_count += 1
-                logger.debug(f"Received response #{response_count}")
-                # Put response in async queue for WebSocket processing
                 asyncio.run_coroutine_threadsafe(
                     self.response_queue.put(response),
                     self.main_loop
                 )
-                
         except Exception as e:
-            logger.error(f"Streaming thread error: {e}", exc_info=True)
-            # Put error in response queue using the main loop
+            logger.error(f"[{self.session_id}] STT streaming error: {e}", exc_info=True)
             asyncio.run_coroutine_threadsafe(
                 self.response_queue.put({"error": str(e)}),
                 self.main_loop
             )
-    
+
     async def process_responses(self):
-        """Process responses from the queue and send to WebSocket"""
         try:
             while self.is_active:
                 try:
-                    # Get response from queue with timeout
                     response = await asyncio.wait_for(
-                        self.response_queue.get(),
-                        timeout=0.1
+                        self.response_queue.get(), timeout=0.1
                     )
-                    
-                    # Check for error
+
                     if isinstance(response, dict) and "error" in response:
                         await self.websocket.send_json({
                             "type": "error",
                             "error": response["error"],
-                            "timestamp": datetime.now().isoformat()
+                            "timestamp": datetime.now().isoformat(),
                         })
                         continue
-                    
-                    # Process speech recognition results
+
                     for result in response.results:
                         for alternative in result.alternatives:
-                            # Log transcript for debugging
-                            logger.info(f"Transcript: {'[FINAL]' if result.is_final else '[INTERIM]'} {alternative.transcript}")
-                            
-                            # Send transcript result (no speaker labeling needed)
+                            transcript_text = alternative.transcript
+                            is_final = result.is_final
+
+                            logger.info(
+                                f"[{self.session_id}] {'[FINAL]' if is_final else '[INTERIM]'} "
+                                f"{transcript_text[:80]}"
+                            )
+
                             result_data = {
                                 "type": "transcript",
-                                "transcript": alternative.transcript,
+                                "transcript": transcript_text,
                                 "confidence": alternative.confidence if hasattr(alternative, 'confidence') else 1.0,
-                                "is_final": result.is_final,
+                                "is_final": is_final,
+                                "speaker": "conversation",
                                 "timestamp": datetime.now().isoformat(),
                                 "result_end_offset": result.result_end_offset.total_seconds() if hasattr(result, 'result_end_offset') else 0,
                             }
-                            
-                            # Add word-level timing for final results
-                            if result.is_final and hasattr(alternative, 'words'):
+
+                            if is_final and hasattr(alternative, 'words'):
                                 result_data["words"] = [
                                     {
                                         "word": word.word,
                                         "start_time": word.start_offset.total_seconds() if hasattr(word, 'start_offset') else 0,
                                         "end_time": word.end_offset.total_seconds() if hasattr(word, 'end_offset') else 0,
                                         "confidence": word.confidence if hasattr(word, 'confidence') else 1.0,
-                                        "speaker": word.speaker_label if hasattr(word, 'speaker_label') else 0,
                                     }
                                     for word in alternative.words
                                 ]
-                            
+
                             await self.websocket.send_json(result_data)
-                    
-                    # Handle voice activity events
+
+                            # Safety keyword scan on final transcripts
+                            if is_final:
+                                safety_matches = scan_safety_keywords(transcript_text)
+                                if safety_matches:
+                                    logger.warning(
+                                        f"[{self.session_id}] Safety keywords: {safety_matches}"
+                                    )
+                                    categories = [m["category"] for m in safety_matches]
+                                    keywords = []
+                                    for m in safety_matches:
+                                        keywords.extend(m["keywords"])
+                                    await self.websocket.send_json({
+                                        "type": "analysis",
+                                        "alert": {
+                                            "timing": "now",
+                                            "category": "safety",
+                                            "title": f"Safety Concern: {', '.join(categories)}",
+                                            "message": f"Safety keywords detected: {', '.join(keywords[:5])}",
+                                            "evidence": [transcript_text[:200]],
+                                            "recommendation": [
+                                                "Assess current risk level immediately",
+                                                "Follow clinical protocol",
+                                            ],
+                                            "immediateActions": ["Conduct safety assessment"],
+                                            "contraindications": ["Do not ignore or dismiss"],
+                                            "crisis_resources": [
+                                                "988 Suicide & Crisis Lifeline: call or text 988",
+                                                "Crisis Text Line: text HOME to 741741",
+                                                "SAMHSA Helpline: 1-800-662-4357",
+                                            ],
+                                        },
+                                        "session_metrics": None,
+                                        "session_phase": None,
+                                    })
+
+                    # Voice activity events
                     if hasattr(response, 'speech_event_type'):
                         event_type = response.speech_event_type
                         if event_type == types.StreamingRecognizeResponse.SpeechEventType.SPEECH_ACTIVITY_BEGIN:
                             await self.websocket.send_json({
                                 "type": "speech_event",
                                 "event": "speech_start",
-                                "timestamp": datetime.now().isoformat()
+                                "timestamp": datetime.now().isoformat(),
                             })
                         elif event_type == types.StreamingRecognizeResponse.SpeechEventType.SPEECH_ACTIVITY_END:
                             await self.websocket.send_json({
                                 "type": "speech_event",
                                 "event": "speech_end",
-                                "timestamp": datetime.now().isoformat()
+                                "timestamp": datetime.now().isoformat(),
                             })
-                            
+
                 except asyncio.TimeoutError:
                     continue
                 except Exception as e:
-                    logger.error(f"Error processing response: {e}")
-                    
+                    logger.error(f"[{self.session_id}] Response processing error: {e}")
+
         except Exception as e:
-            logger.error(f"Response processor error: {e}")
-    
+            logger.error(f"[{self.session_id}] Response processor error: {e}")
+
     def start_streaming(self):
-        """Start the streaming recognition in a separate thread"""
         self.streaming_thread = threading.Thread(
-            target=self.streaming_recognize_thread,
-            daemon=True
+            target=self.streaming_recognize_thread, daemon=True
         )
         self.streaming_thread.start()
-    
+
     def add_audio(self, audio_data: bytes):
-        """Add audio to the queue for streaming"""
         try:
             self.audio_queue.put(audio_data, block=False)
         except queue.Full:
-            logger.warning("Audio queue is full, dropping audio chunk")
-    
+            logger.warning(f"[{self.session_id}] Audio queue full, dropping chunk")
+
     def stop(self):
-        """Stop the streaming session"""
         self.is_active = False
-        self.audio_queue.put(None)  # Poison pill
+        self.audio_queue.put(None)
         if self.streaming_thread:
             self.streaming_thread.join(timeout=2)
 
-# WebSocket endpoint for streaming transcription
+
+# ─── WebSocket endpoint ─────────────────────────────────────────────
+
 @app.websocket("/ws/transcribe")
 async def websocket_transcribe(websocket: WebSocket):
-    """WebSocket endpoint for real-time audio streaming and transcription"""
     await websocket.accept()
     session: Optional[StreamingTranscriptionSession] = None
     response_task = None
-    
+
     try:
-        # Wait for initial session configuration with authentication
         init_message = await websocket.receive()
-        
-        # Parse initialization and authenticate
+
         if init_message["type"] == "websocket.receive" and "text" in init_message:
             init_data = json.loads(init_message["text"])
-            
-            # --- Authentication Check ---
+
+            is_local_dev = not os.environ.get("K_SERVICE")
             token = init_data.get("token")
-            if not token:
-                await websocket.send_json({
-                    "type": "error",
-                    "error": "Authentication token required in initialization message",
-                    "timestamp": datetime.now().isoformat()
-                })
-                await websocket.close(code=1008, reason="Authentication required")
-                return
-            
-            decoded_token = verify_firebase_token(token)
-            if not decoded_token:
-                await websocket.send_json({
-                    "type": "error", 
-                    "error": "Invalid or unauthorized token",
-                    "timestamp": datetime.now().isoformat()
-                })
-                await websocket.close(code=1008, reason="Authentication failed")
-                return
-            
-            user_email = decoded_token.get('email')
-            session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
-            logger.info(f"Authenticated session initialized: {session_id} for user: {user_email}")
-            logger.info(f"Client config: {init_data.get('config', {})}")
+
+            if is_local_dev:
+                user_email = "local-dev@localhost"
+                session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
+                logger.info(f"[LOCAL DEV] Auth bypassed — session: {session_id}")
+                logger.info(f"Client config: {init_data.get('config', {})}")
+            else:
+                if not token:
+                    await websocket.send_json({
+                        "type": "error",
+                        "error": "Authentication token required",
+                        "timestamp": datetime.now().isoformat(),
+                    })
+                    await websocket.close(code=1008, reason="Authentication required")
+                    return
+
+                decoded_token = verify_firebase_token(token)
+                if not decoded_token:
+                    await websocket.send_json({
+                        "type": "error",
+                        "error": "Invalid or unauthorized token",
+                        "timestamp": datetime.now().isoformat(),
+                    })
+                    await websocket.close(code=1008, reason="Authentication failed")
+                    return
+
+                user_email = decoded_token.get('email')
+                session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
+                logger.info(f"Authenticated session: {session_id} for user: {user_email}")
         else:
             await websocket.send_json({
                 "type": "error",
                 "error": "Invalid initialization message format",
-                "timestamp": datetime.now().isoformat()
+                "timestamp": datetime.now().isoformat(),
             })
             await websocket.close(code=1003, reason="Invalid message format")
             return
-        
-        # Create transcription session
+
         session = StreamingTranscriptionSession(session_id, websocket)
-        
-        # Start streaming in background thread
         session.start_streaming()
-        
-        # Start response processor
         response_task = asyncio.create_task(session.process_responses())
-        
-        # Send ready signal
+
         await websocket.send_json({
             "type": "ready",
             "session_id": session_id,
             "timestamp": datetime.now().isoformat(),
             "config": {
-                "sample_rate": 48000,
-                "encoding": "WEBM_OPUS",
-                "chunk_duration_ms": 100,
-                "features": {
-                    "interim_results": True,
-                }
-            }
+                "sample_rate": 16000,
+                "encoding": "PCM_16BIT",
+                "model": "latest_long",
+            },
         })
-        
-        # Handle incoming messages
+
         while session.is_active:
             try:
                 message = await websocket.receive()
-                
+
                 if message["type"] == "websocket.disconnect":
                     break
-                    
+
                 if message["type"] == "websocket.receive":
                     if "bytes" in message:
-                        # Handle binary audio data
-                        audio_size = len(message["bytes"])
-                        logger.debug(f"Received audio chunk: {audio_size} bytes")
                         session.add_audio(message["bytes"])
                     elif "text" in message:
-                        # Handle control messages
                         data = json.loads(message["text"])
                         if data.get("type") == "stop":
-                            logger.info("Received stop signal")
+                            logger.info(f"[{session_id}] Received stop signal")
                             break
-                        elif data.get("type") == "audio" and "data" in data:
-                            # Handle base64 audio if sent as JSON
-                            audio_bytes = base64.b64decode(data["data"])
-                            logger.debug(f"Received base64 audio: {len(audio_bytes)} bytes")
-                            session.add_audio(audio_bytes)
-                    
+
             except WebSocketDisconnect:
                 break
             except Exception as e:
-                logger.error(f"Error receiving message: {e}")
+                logger.error(f"[{session_id}] Error receiving message: {e}")
                 continue
-        
+
     except Exception as e:
-        logger.error(f"WebSocket error: {e}")
-        if websocket.client_state.value == 1:  # OPEN
+        logger.error(f"WebSocket error: {e}", exc_info=True)
+        try:
             await websocket.send_json({
                 "type": "error",
                 "error": str(e),
-                "timestamp": datetime.now().isoformat()
+                "timestamp": datetime.now().isoformat(),
             })
+        except Exception:
+            pass
     finally:
-        # Clean up
         if session:
             session.stop()
         if response_task:
@@ -446,55 +464,51 @@ async def websocket_transcribe(websocket: WebSocket):
             except asyncio.CancelledError:
                 pass
 
-# REST endpoints for health checks and info
+
+# ─── REST endpoints ──────────────────────────────────────────────────
+
 @app.get("/")
 async def root():
-    """Health check endpoint"""
     return {
         "status": "healthy",
-        "service": "Therapy Transcription Streaming Service (Low Latency)",
+        "service": "Therapy Session Streaming Service — STT v2",
+        "model": "latest_long",
         "features": {
             "streaming": True,
             "interim_results": True,
-            "latency": "200-500ms"
+            "safety_keyword_scan": True,
+            "pcm_16khz": True,
         },
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
     }
+
 
 @app.get("/health")
 async def health(current_user: dict = Depends(get_current_user)):
-    """Detailed health check (requires authentication)"""
-    try:
-        # Test Speech API connectivity
-        parent = f"projects/{project_id}/locations/{location}"
-        recognizers = speech_client.list_recognizers(parent=parent)
-        api_status = "connected"
-    except Exception as e:
-        api_status = f"error: {str(e)}"
-    
     return {
         "status": "healthy",
-        "speech_api": api_status,
+        "stt_endpoint": f"{location}-speech.googleapis.com",
         "project_id": project_id,
-        "streaming_enabled": True,
+        "location": location,
         "authenticated_user": current_user.get('email'),
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
     }
+
 
 @app.get("/auth/test")
 async def test_auth(current_user: dict = Depends(get_current_user)):
-    """Test authentication endpoint"""
     return {
         "message": "Authentication successful",
         "user": {
             "email": current_user.get('email'),
             "uid": current_user.get('uid'),
-            "name": current_user.get('name')
+            "name": current_user.get('name'),
         },
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
     }
+
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 8082))
     uvicorn.run(app, host="0.0.0.0", port=port)

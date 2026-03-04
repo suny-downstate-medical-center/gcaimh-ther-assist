@@ -3,36 +3,22 @@
 # Set variables
 PROJECT_ID="${PROJECT_ID}"
 REGION="us-central1"
-SERVICE_NAME="storage-access"
+SERVICE_NAME="ther-assist-frontend"
 IMAGE_NAME="${REGION}-docker.pkg.dev/${PROJECT_ID}/therapy-images/${SERVICE_NAME}"
-SERVICE_ACCOUNT="storage-access-sa@${PROJECT_ID}.iam.gserviceaccount.com"
 
-echo "=== Deploying Storage Access Service to Cloud Run ==="
+echo "=== Deploying TherAssist Frontend to Cloud Run ==="
 echo "Project: ${PROJECT_ID}"
 echo "Region: ${REGION}"
 echo "Service: ${SERVICE_NAME}"
 
-# Create service account if it doesn't exist
-echo "Checking service account..."
-if ! gcloud iam service-accounts describe ${SERVICE_ACCOUNT} --project=${PROJECT_ID} &>/dev/null; then
-    echo "Creating service account..."
-    gcloud iam service-accounts create storage-access-sa \
-        --display-name="Storage Access Service Account" \
-        --project=${PROJECT_ID}
-
-    echo "Granting Storage Object Viewer role..."
-    gcloud projects add-iam-policy-binding ${PROJECT_ID} \
-        --member="serviceAccount:${SERVICE_ACCOUNT}" \
-        --role="roles/storage.objectViewer"
-fi
-
 # Build and push Docker image via Cloud Build
-echo "Building Docker image..."
+echo "Building Docker image (includes npm build)..."
 gcloud builds submit --tag ${IMAGE_NAME} \
     --project=${PROJECT_ID} \
     --region=${REGION} \
     --service-account="projects/${PROJECT_ID}/serviceAccounts/${BUILD_SERVICE_ACCOUNT}" \
     --default-buckets-behavior=REGIONAL_USER_OWNED_BUCKET \
+    --timeout=600 \
     --quiet
 
 # Deploy to Cloud Run with org policy compliance
@@ -46,10 +32,9 @@ gcloud run deploy ${SERVICE_NAME} \
     --memory 256Mi \
     --cpu 1 \
     --timeout 60 \
-    --max-instances 5 \
+    --max-instances 10 \
     --concurrency 80 \
-    --service-account ${SERVICE_ACCOUNT} \
-    --set-env-vars "GOOGLE_CLOUD_PROJECT=${PROJECT_ID}" \
+    --port 8080 \
     --ingress=${INGRESS} \
     --network=${SHARED_VPC_NETWORK} \
     --subnet=${SHARED_VPC_SUBNET} \
@@ -64,8 +49,6 @@ SERVICE_URL=$(gcloud run services describe ${SERVICE_NAME} \
     --format 'value(status.url)')
 
 echo "=== Deployment Complete ==="
-echo "Service URL: ${SERVICE_URL}"
-echo "Storage access endpoint: ${SERVICE_URL}/storage_access"
+echo "Frontend URL: ${SERVICE_URL}"
 echo ""
-echo "To test:"
-echo "curl '${SERVICE_URL}/storage_access?uri=gs://bucket-name/path/to/file.pdf'"
+echo "Open in browser: ${SERVICE_URL}"

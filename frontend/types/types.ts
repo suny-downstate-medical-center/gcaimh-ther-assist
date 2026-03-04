@@ -16,6 +16,7 @@ export interface SessionContext {
   session_type: string;
   primary_concern: string;
   current_approach: string;
+  therapist_selected_modality?: boolean;  // True when therapist explicitly chose the modality at session start
 }
 
 export interface Alert {
@@ -27,6 +28,8 @@ export interface Alert {
   recommendation?: string | string[]; // Allow both string and array formats
   immediateActions?: string[];
   contraindications?: string[];
+  citation?: string;  // Source citation for safety alerts from RAG
+  crisis_resources?: string[];  // Crisis hotline numbers (populated for safety alerts)
   manual_reference?: {
     source: string;
     page?: number;
@@ -34,16 +37,32 @@ export interface Alert {
   };
   timestamp?: string;
   sessionTime?: number;
-  
+
   // Legacy fields for backward compatibility (to be removed)
   level?: 'critical' | 'suggestion' | 'info';
   urgency?: 'immediate' | 'next_pause' | 'end_of_topic';
+}
+
+// Safety scanner metadata returned by backend deterministic keyword scanner
+export interface SafetyScanResult {
+  scanner_triggered: boolean;
+  categories: string[];
+  keywords_matched: string[];
+  highest_severity: string | null;
+}
+
+export interface DetectedModality {
+  code: 'CBT' | 'DBT' | 'IPT';
+  name: string;
+  confidence: number;
+  evidence: string[];
 }
 
 export interface SessionMetrics {
   engagement_level: number;
   therapeutic_alliance: 'weak' | 'moderate' | 'strong';
   techniques_detected: string[];
+  detected_modality?: DetectedModality;
   emotional_state: 'calm' | 'anxious' | 'distressed' | 'dissociated' | 'engaged' | 'unknown';
   arousal_level?: 'low' | 'moderate' | 'high' | 'elevated' | 'unknown';
   phase_appropriate: boolean;
@@ -91,9 +110,18 @@ export interface TranscriptionConfig {
   chunk_size_ms: number;
 }
 
+export interface AlternateTherapyPath {
+  therapy_type: 'CBT' | 'DBT' | 'IPT';
+  reason: string;
+  key_indicators: string[];
+  techniques_to_try: string[];
+}
+
 export interface SessionSummary {
   session_date: string;
   duration_minutes: number;
+  overall_assessment?: string;
+  session_overview?: string;
   key_moments: Array<{
     time: string;
     description: string;
@@ -112,6 +140,7 @@ export interface SessionSummary {
     level: 'low' | 'moderate' | 'high';
     factors: string[];
   };
+  alternate_therapy_paths?: AlternateTherapyPath[];
 }
 
 export interface SessionHistory {

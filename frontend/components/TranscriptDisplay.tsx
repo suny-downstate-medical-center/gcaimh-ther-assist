@@ -19,6 +19,7 @@ interface TranscriptEntry {
   text: string;
   timestamp: string;
   is_interim?: boolean;
+  speaker?: string;  // "Therapist", "Patient", or "conversation" (from diarization)
 }
 
 interface TranscriptDisplayProps {
@@ -70,43 +71,85 @@ const TranscriptDisplay: React.FC<TranscriptDisplayProps> = ({ transcript }) => 
         },
       }}
     >
-      {/* Display final transcripts as separate paragraphs */}
-      {finalTranscripts.map((entry, index) => (
-        <Box
-          key={index}
-          sx={{
-            mb: 2.5,
-            pb: 2,
-            borderBottom: index < finalTranscripts.length - 1 ? '1px solid rgba(0, 0, 0, 0.06)' : 'none',
-          }}
-        >
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 2 }}>
-            <Typography 
-              variant="body1" 
-              sx={{ 
-                lineHeight: 1.7,
-                flex: 1,
-                color: 'var(--on-surface)',
-                fontSize: '0.95rem',
+      {/* Display final transcripts with speaker differentiation */}
+      {finalTranscripts.map((entry, index) => {
+        const isTherapist = entry.speaker === 'Therapist';
+        const isPatient = entry.speaker === 'Patient';
+        const hasSpeaker = isTherapist || isPatient;
+
+        return (
+          <Box
+            key={index}
+            sx={{
+              mb: 2,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: isTherapist ? 'flex-start' : isPatient ? 'flex-end' : 'stretch',
+            }}
+          >
+            {/* Speaker label */}
+            {hasSpeaker && (
+              <Typography
+                variant="caption"
+                sx={{
+                  fontSize: '0.65rem',
+                  fontWeight: 700,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.06em',
+                  color: isTherapist ? '#00695c' : '#546e7a',
+                  mb: 0.5,
+                  px: 1.5,
+                }}
+              >
+                {entry.speaker}
+              </Typography>
+            )}
+            <Box
+              sx={{
+                maxWidth: hasSpeaker ? '85%' : '100%',
+                p: 1.5,
+                borderRadius: hasSpeaker
+                  ? isTherapist ? '4px 16px 16px 16px' : '16px 4px 16px 16px'
+                  : '8px',
+                background: isTherapist
+                  ? 'linear-gradient(135deg, rgba(0, 105, 92, 0.08) 0%, rgba(0, 150, 136, 0.06) 100%)'
+                  : isPatient
+                    ? 'rgba(84, 110, 122, 0.06)'
+                    : 'transparent',
+                borderBottom: !hasSpeaker && index < finalTranscripts.length - 1
+                  ? '1px solid rgba(0, 0, 0, 0.06)' : 'none',
+                borderLeft: isTherapist ? '3px solid rgba(0, 105, 92, 0.4)' : 'none',
+                borderRight: isPatient ? '3px solid rgba(84, 110, 122, 0.3)' : 'none',
               }}
             >
-              {entry.text}
-            </Typography>
-            <Typography 
-              variant="caption" 
-              sx={{ 
-                minWidth: 'fit-content',
-                fontSize: '0.7rem',
-                color: 'var(--on-surface-variant)',
-                opacity: 0.7,
-                fontWeight: 500,
-              }}
-            >
-              {formatTime(entry.timestamp)}
-            </Typography>
+              <Typography
+                variant="body1"
+                sx={{
+                  lineHeight: 1.7,
+                  color: 'var(--on-surface)',
+                  fontSize: '0.95rem',
+                }}
+              >
+                {entry.text}
+              </Typography>
+              <Typography
+                variant="caption"
+                sx={{
+                  display: 'block',
+                  textAlign: isPatient ? 'left' : 'right',
+                  fontSize: '0.65rem',
+                  color: 'var(--on-surface-variant)',
+                  opacity: 0.6,
+                  fontWeight: 500,
+                  mt: 0.5,
+                }}
+              >
+                {formatTime(entry.timestamp)}
+              </Typography>
+            </Box>
           </Box>
-        </Box>
-      ))}
+        );
+      })}
       
       {/* Show interim/partial transcript */}
       {interimTranscript && (

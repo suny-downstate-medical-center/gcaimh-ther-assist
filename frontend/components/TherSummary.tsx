@@ -38,6 +38,8 @@ import {
   AccessTime,
   Description,
   ArrowForward,
+  PersonOutline,
+  AltRoute,
 } from '@mui/icons-material';
 import SessionLineChart from './SessionLineChart';
 import { formatDuration } from '../utils/timeUtils';
@@ -45,6 +47,7 @@ import { testTranscriptData } from '../utils/mockTranscript';
 
 interface TherSummaryProps {
   onNavigateBack?: () => void;
+  onViewPatientSummary?: () => void;
   sessionData?: {
     id: string;
     date: string;
@@ -61,10 +64,17 @@ interface TherSummaryProps {
     description: string;
     reference: string;
   }>;
+  alternateTherapyPaths?: Array<{
+    therapy_type: string;
+    reason: string;
+    key_indicators: string[];
+    techniques_to_try: string[];
+  }>;
 }
 
 const TherSummary: React.FC<TherSummaryProps> = ({
   onNavigateBack,
+  onViewPatientSummary,
   sessionData = {
     id: 'Session ID',
     date: 'September 5, 2026 at 10:45 AM',
@@ -98,6 +108,7 @@ const TherSummary: React.FC<TherSummaryProps> = ({
       reference: 'CBT Manual p.45-47',
     },
   ],
+  alternateTherapyPaths = [],
 }) => {
   const theme = useTheme();
   const [activeTab, setActiveTab] = useState<'performance' | 'key-moments' | 'transcript'>('performance');
@@ -382,9 +393,97 @@ const TherSummary: React.FC<TherSummaryProps> = ({
                     ))}
                   </Box>
                 </Box>
+
+                {/* Alternate Therapy Paths Section */}
+                {alternateTherapyPaths && alternateTherapyPaths.length > 0 && (
+                  <Box sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 2,
+                    pt: 4,
+                  }}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                      <AltRoute sx={{ fontSize: 20, color: '#7b5ea7' }} />
+                      <Typography variant="body2" sx={{
+                        fontSize: '14px',
+                        fontWeight: 700,
+                        color: '#444746',
+                        letterSpacing: '0.1px',
+                      }}>
+                        ALTERNATE THERAPY PATHS
+                      </Typography>
+                    </Box>
+                    <Box sx={{ display: 'flex', gap: 2 }}>
+                      {alternateTherapyPaths.map((path, index) => (
+                        <Paper
+                          key={index}
+                          sx={{
+                            flex: 1,
+                            p: 2.5,
+                            border: '1px solid #d3c4e9',
+                            borderRadius: '16px',
+                            backgroundColor: '#faf8fd',
+                            boxShadow: 'none',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: 1.5,
+                          }}
+                        >
+                          <Chip
+                            label={path.therapy_type}
+                            size="small"
+                            sx={{
+                              alignSelf: 'flex-start',
+                              backgroundColor: '#7b5ea7',
+                              color: 'white',
+                              fontWeight: 600,
+                              fontSize: '12px',
+                            }}
+                          />
+                          <Typography variant="body2" sx={{
+                            fontSize: '14px',
+                            color: '#1f1f1f',
+                            fontWeight: 500,
+                          }}>
+                            {path.reason}
+                          </Typography>
+                          {path.key_indicators.length > 0 && (
+                            <Box>
+                              <Typography variant="caption" sx={{ fontSize: '11px', color: '#444746', fontWeight: 600 }}>
+                                Key Indicators
+                              </Typography>
+                              {path.key_indicators.map((indicator, i) => (
+                                <Typography key={i} variant="body2" sx={{ fontSize: '13px', color: '#444746', pl: 1 }}>
+                                  {indicator}
+                                </Typography>
+                              ))}
+                            </Box>
+                          )}
+                          {path.techniques_to_try.length > 0 && (
+                            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 0.5 }}>
+                              {path.techniques_to_try.map((technique, i) => (
+                                <Chip
+                                  key={i}
+                                  label={technique}
+                                  size="small"
+                                  variant="outlined"
+                                  sx={{
+                                    fontSize: '11px',
+                                    borderColor: '#d3c4e9',
+                                    color: '#5e4180',
+                                  }}
+                                />
+                              ))}
+                            </Box>
+                          )}
+                        </Paper>
+                      ))}
+                    </Box>
+                  </Box>
+                )}
               </Box>
             )}
-            
+
             {activeTab === 'key-moments' && (
               <Box sx={{ 
                 display: 'flex', 
@@ -1026,6 +1125,22 @@ const TherSummary: React.FC<TherSummaryProps> = ({
               px: 2, 
               py: 2,
             }}>
+              {onViewPatientSummary && (
+                <Button
+                  startIcon={<PersonOutline sx={{ fontSize: 20 }} />}
+                  onClick={onViewPatientSummary}
+                  sx={{
+                    color: '#0b57d0',
+                    textTransform: 'none',
+                    fontSize: '13px',
+                    fontWeight: 500,
+                    mr: 1,
+                    '&:hover': { backgroundColor: 'rgba(11, 87, 208, 0.04)' },
+                  }}
+                >
+                  Patient View
+                </Button>
+              )}
               <IconButton
                 sx={{
                   color: '#444746',

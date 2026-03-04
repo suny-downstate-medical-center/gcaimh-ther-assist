@@ -34,6 +34,9 @@ import {
   Build,
   Lightbulb,
   Assessment,
+  Phone,
+  CheckCircle,
+  Warning,
 } from '@mui/icons-material';
 import { Alert, Citation } from '../types/types';
 import RationaleModal from './RationaleModal';
@@ -42,11 +45,13 @@ import CitationModal from './CitationModal';
 interface AlertDisplayProps {
   alert: Alert;
   onDismiss: () => void;
+  onAcknowledge?: () => void;
+  isAcknowledged?: boolean;
   citations?: Citation[];
   isSelected?: boolean;
 }
 
-const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, citations = [], isSelected = false }) => {
+const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, onAcknowledge, isAcknowledged = false, citations = [], isSelected = false }) => {
   const [expanded, setExpanded] = useState(false);
   const [rationaleModalOpen, setRationaleModalOpen] = useState(false);
   const [citationModalOpen, setCitationModalOpen] = useState(false);
@@ -102,6 +107,7 @@ const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, citations
   };
 
   const alertColor = getAlertColor();
+  const isCriticalSafety = alert.category === 'safety' && timing === 'now';
 
   // Function to parse the message and create clickable citation links
   const renderMessageWithCitations = (text: string) => {
@@ -302,10 +308,10 @@ const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, citations
                   borderLeft: `3px solid ${alertColor}`,
                 }}
               >
-                <Typography 
-                  variant="body2" 
-                  sx={{ 
-                    fontWeight: 600, 
+                <Typography
+                  variant="body2"
+                  sx={{
+                    fontWeight: 600,
                     mb: 0.5,
                     color: alertColor,
                   }}
@@ -319,6 +325,95 @@ const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, citations
                     </Box>
                   ))}
                 </Box>
+              </Box>
+            )}
+
+            {/* Crisis Resources — only for safety alerts with crisis_resources */}
+            {isCriticalSafety && alert.crisis_resources && alert.crisis_resources.length > 0 && (
+              <Box
+                sx={{
+                  mt: 2,
+                  p: 1.5,
+                  bgcolor: '#fef2f2',
+                  borderRadius: 1,
+                  border: '1px solid #fecaca',
+                }}
+              >
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
+                  <Phone sx={{ fontSize: 18, color: '#dc2626' }} />
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      fontWeight: 700,
+                      color: '#dc2626',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.05em',
+                      fontSize: '0.75rem',
+                    }}
+                  >
+                    Crisis Resources
+                  </Typography>
+                </Box>
+                {alert.crisis_resources.map((resource, idx) => (
+                  <Typography
+                    key={idx}
+                    variant="body2"
+                    sx={{
+                      mt: 0.5,
+                      fontWeight: 600,
+                      color: '#991b1b',
+                      fontSize: '0.875rem',
+                    }}
+                  >
+                    • {resource}
+                  </Typography>
+                ))}
+              </Box>
+            )}
+
+            {/* Acknowledge Button — safety alerts require therapist acknowledgement */}
+            {isCriticalSafety && onAcknowledge && (
+              <Box sx={{ mt: 2 }}>
+                {isAcknowledged ? (
+                  <Chip
+                    icon={<CheckCircle sx={{ fontSize: 16 }} />}
+                    label="Acknowledged"
+                    size="small"
+                    sx={{
+                      bgcolor: '#dcfce7',
+                      color: '#166534',
+                      fontWeight: 600,
+                      '& .MuiChip-icon': { color: '#16a34a' },
+                    }}
+                  />
+                ) : (
+                  <Button
+                    variant="contained"
+                    size="small"
+                    startIcon={<Warning />}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onAcknowledge();
+                    }}
+                    sx={{
+                      bgcolor: '#dc2626',
+                      color: 'white',
+                      fontWeight: 700,
+                      textTransform: 'none',
+                      '&:hover': {
+                        bgcolor: '#b91c1c',
+                      },
+                      animation: 'acknowledgePulse 2s infinite',
+                      '@keyframes acknowledgePulse': {
+                        '0%': { boxShadow: '0 0 0 0 rgba(220, 38, 38, 0.4)' },
+                        '70%': { boxShadow: '0 0 0 8px rgba(220, 38, 38, 0)' },
+                        '100%': { boxShadow: '0 0 0 0 rgba(220, 38, 38, 0)' },
+                      },
+                    }}
+                  >
+                    Acknowledge Safety Alert
+                  </Button>
+                )}
               </Box>
             )}
           </Box>

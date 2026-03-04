@@ -161,7 +161,7 @@ def build_diagnostics(
     prompt_name: str,
     temperature: float,
     max_output_tokens: int,
-    thinking_budget: Optional[int],
+    thinking_level: Optional[str],
     rag_tools: List[str],
     start_time: float,
     ttft: Optional[float],
@@ -184,7 +184,7 @@ def build_diagnostics(
         "prompt_used": prompt_name,
         "temperature": temperature,
         "max_output_tokens": max_output_tokens,
-        "thinking_budget": thinking_budget,
+        "thinking_level": thinking_level,
         "rag_tools": rag_tools,
         "latency_ms": latency_ms,
         "ttft_ms": ttft_ms,
@@ -355,41 +355,67 @@ IPT_RAG_TOOL = types.Tool(
     )
 )
 
+# ── Safety & Crisis Protocols (always included, not modality-dependent) ───────
+# C-SSRS, Stanley-Brown Safety Plan, SAMHSA crisis de-escalation, Tarasoff
+# duty-to-warn summaries, mandatory reporting guidelines, 988 Lifeline standards.
+# This RAG tool is ALWAYS added to every session — safety is not modality-specific.
+SAFETY_RAG_TOOL = types.Tool(
+    retrieval=types.Retrieval(
+        vertex_ai_search=types.VertexAISearch(
+            datastore=f"projects/{project_id}/locations/us/collections/default_collection/dataStores/safety-crisis"
+        )
+    )
+)
+
 # ── Modality → RAG Tool Mapping ────────────────────────────────────────────────
+# Simplified to 3 core therapy types per March 2026 meeting:
+#   - CBT umbrella: includes BA, Exposure, ACT techniques (ebt + cbt + ba corpora)
+#   - DBT standalone (ebt + dbt corpora)
+#   - IPT standalone (ebt + ipt corpora)
+#   - MANUAL_RAG_TOOL (ebt-corpus) + SAFETY_RAG_TOOL always included as foundation
+#   - Unrecognized types fall back to full CBT umbrella
+#
+# Values are LISTS of tools (not single tools) to support multi-corpus routing.
 MODALITY_RAG_MAP = {
-    "CBT": CBT_RAG_TOOL,
-    "BA": BA_RAG_TOOL,
-    "DBT": DBT_RAG_TOOL,
-    "IPT": IPT_RAG_TOOL,
-    # Exposure-based approaches use EBT manuals + CBT corpus (PE is in ebt-corpus)
-    "Exposure": CBT_RAG_TOOL,
-    "ACT": CBT_RAG_TOOL,  # ACT shares cognitive-behavioral evidence base
+    "CBT":  [CBT_RAG_TOOL, BA_RAG_TOOL],  # CBT umbrella: ebt + cbt + ba (includes BA, Exposure, ACT)
+    "DBT":  [DBT_RAG_TOOL],                # DBT standalone: ebt + dbt
+    "IPT":  [IPT_RAG_TOOL],                # IPT standalone: ebt + ipt
 }
 
 def get_rag_tools_for_session(session_context, is_realtime=False):
     """Select RAG tools based on the session's therapeutic modality.
 
-    Always includes MANUAL_RAG_TOOL (core EBT protocols).
-    Adds modality-specific research corpus based on session_type.
+    Always includes MANUAL_RAG_TOOL (core EBT protocols) as the foundation.
+    Adds modality-specific research corpora based on session_type.
     For comprehensive (non-realtime), also adds TRANSCRIPT_RAG_TOOL.
 
-    Returns: list of types.Tool objects
+    Returns: list of types.Tool objects (deduplicated)
     """
     session_type = session_context.get("session_type", "CBT") if session_context else "CBT"
 
-    # Core: always include EBT manuals
-    tools = [MANUAL_RAG_TOOL]
+    # Core: always include EBT manuals (core protocols) + safety crisis protocols
+    tools = [MANUAL_RAG_TOOL, SAFETY_RAG_TOOL]
 
-    # Add modality-specific research corpus
-    modality_tool = MODALITY_RAG_MAP.get(session_type, CBT_RAG_TOOL)
-    tools.append(modality_tool)
+    # Add modality-specific research corpora (now a list)
+    modality_tools = MODALITY_RAG_MAP.get(session_type, MODALITY_RAG_MAP["CBT"])
+    for tool in modality_tools:
+        if tool not in tools:
+            tools.append(tool)
 
     # For comprehensive analysis, also include transcript patterns
     if not is_realtime:
         tools.append(TRANSCRIPT_RAG_TOOL)
 
-    modality_tool_name = session_type.lower() + "-corpus" if session_type in MODALITY_RAG_MAP else "cbt-corpus"
-    logging.info(f"[RAG] Session type '{session_type}' → tools: ebt-corpus + {modality_tool_name}"
+    # Build readable names for logging
+    corpus_names = ["ebt-corpus", "safety-crisis"]
+    for tool in modality_tools:
+        # Simplified name extraction based on known tools
+        if tool is CBT_RAG_TOOL: corpus_names.append("cbt-corpus")
+        elif tool is BA_RAG_TOOL: corpus_names.append("ba-corpus")
+        elif tool is DBT_RAG_TOOL: corpus_names.append("dbt-corpus")
+        elif tool is IPT_RAG_TOOL: corpus_names.append("ipt-corpus")
+
+    logging.info(f"[RAG] Session type '{session_type}' → tools: {' + '.join(corpus_names)}"
                  f"{' + transcript-patterns' if not is_realtime else ''}")
 
     return tools
@@ -455,8 +481,10 @@ def therapy_analysis(request):
             return handle_save_session(request_json, headers)
         elif action == 'get_sessions':
             return handle_get_sessions(request_json, headers)
+        elif action == 'get_patient_summary':
+            return handle_get_patient_summary(request_json, headers)
         else:
-            return (jsonify({'error': 'Invalid action. Use "health_check", "analyze_segment", "pathway_guidance", "session_summary", "save_session", or "get_sessions"'}), 400, headers)
+            return (jsonify({'error': 'Invalid action. Use "health_check", "analyze_segment", "pathway_guidance", "session_summary", "save_session", "get_sessions", or "get_patient_summary"'}), 400, headers)
 
     except Exception as e:
         logging.exception(f"An unexpected error occurred: {str(e)}")
@@ -619,14 +647,19 @@ def handle_segment_analysis(request_json, headers):
 
         # Determine therapy phase
         phase = determine_therapy_phase(session_duration)
-        
+
         # Format transcript
         transcript_text = format_transcript_segment(transcript_segment)
-        
+
+        # ── SAFETY KEYWORD SCANNER (runs BEFORE every LLM call) ──────────
+        safety_scan = detect_safety_keywords(transcript_text)
+        if safety_scan["detected"]:
+            logging.warning(f"[SAFETY] Deterministic scanner triggered: {safety_scan['matched_categories']}")
+
         # Log timing for diagnostics
         analysis_start = datetime.now()
         logging.info(f"[TIMING] Analysis started at: {analysis_start.isoformat()}")
-        
+
         # Format previous alert context for deduplication
         if previous_alert and is_realtime:
             # Only use previous alert context for real-time analysis (where we generate alerts)
@@ -645,11 +678,14 @@ Timing: {previous_alert.get('timing', 'N/A')}
             # For realtime analysis, we'll use a retry mechanism with two different prompts
             return handle_realtime_analysis_with_retry(
                 transcript_segment, transcript_text, previous_alert_context, phase, headers, job_id,
-                session_context=session_context
+                session_context=session_context, safety_scan=safety_scan
             )
         else:
             # COMPREHENSIVE PATH: Full analysis with RAG
-            analysis_prompt = constants.COMPREHENSIVE_ANALYSIS_PROMPT.format(
+            # If safety scanner fired, inject safety context into the prompt
+            safety_prefix = safety_scan["prompt_injection"] if safety_scan["detected"] else ""
+
+            analysis_prompt = safety_prefix + constants.COMPREHENSIVE_ANALYSIS_PROMPT.format(
                 phase=phase,
                 phase_focus=constants.THERAPY_PHASES[phase]['focus'],
                 session_duration=session_duration,
@@ -661,7 +697,10 @@ Timing: {previous_alert.get('timing', 'N/A')}
 
             # Select modality-specific RAG tools
             rag_tools = get_rag_tools_for_session(session_context, is_realtime=False)
-            return handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id, rag_tools=rag_tools)
+            return handle_comprehensive_analysis(
+                analysis_prompt, phase, headers, job_id,
+                rag_tools=rag_tools, safety_scan=safety_scan
+            )
         
     except Exception as e:
         logging.exception(f"Error in handle_segment_analysis: {str(e)}")
@@ -671,33 +710,118 @@ def check_for_trigger_phrases(transcript_segment):
     """Check if the most recent transcript item contains any trigger phrases"""
     if not transcript_segment:
         return False
-    
+
     # Get the most recent item in the transcript
     latest_item = transcript_segment[-1]
     latest_text = latest_item.get('text', '').lower()
-    
+
     # Check against all trigger phrases
     for phrase in constants.TRIGGER_PHRASES:
         if phrase.lower() in latest_text:
             logging.info(f"Trigger phrase '{phrase}' found in latest transcript item")
             return True
-    
+
     return False
 
-def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, previous_alert_context, phase, headers, job_id=None, session_context=None):
-    """Handle realtime analysis with retry mechanism using different prompts"""
+
+def detect_safety_keywords(transcript_text: str) -> Dict[str, Any]:
+    """
+    Deterministic safety keyword scanner — runs BEFORE every LLM call.
+
+    Scans transcript text against hard-coded keyword lists in constants.SAFETY_KEYWORDS.
+    Returns match details if any safety keywords are found.
+
+    Returns:
+        Dict with 'detected' (bool), 'matched_categories' (list),
+        'matched_keywords' (list), 'highest_severity' (str),
+        'clinical_responses' (list of response dicts),
+        'prompt_injection' (str to prepend to LLM prompt)
+    """
+    result = {
+        "detected": False,
+        "matched_categories": [],
+        "matched_keywords": [],
+        "highest_severity": None,
+        "clinical_responses": [],
+        "prompt_injection": "",
+    }
+
+    if not transcript_text:
+        return result
+
+    text_lower = transcript_text.lower()
+
+    # Severity ranking: suicidal_ideation and violence_homicide are highest
+    SEVERITY_ORDER = [
+        "suicidal_ideation",    # Highest — immediate life threat to self
+        "violence_homicide",    # Highest — immediate life threat to others
+        "abuse_disclosure",     # High — mandatory reporting obligations
+        "self_harm",            # High — active self-injury
+        "substance_crisis",     # Moderate-High — medical risk
+    ]
+
+    for category in SEVERITY_ORDER:
+        keywords = constants.SAFETY_KEYWORDS.get(category, [])
+        matched = [kw for kw in keywords if kw.lower() in text_lower]
+
+        if matched:
+            result["detected"] = True
+            result["matched_categories"].append(category)
+            result["matched_keywords"].extend(matched)
+
+            # Add clinical response template for this category
+            clinical_response = constants.SAFETY_CLINICAL_RESPONSES.get(category, {})
+            if clinical_response:
+                result["clinical_responses"].append({
+                    "category": category,
+                    **clinical_response
+                })
+
+            # Set highest severity (first match in severity order wins)
+            if result["highest_severity"] is None:
+                result["highest_severity"] = category
+
+    # Build prompt injection string if safety detected
+    if result["detected"]:
+        result["prompt_injection"] = constants.SAFETY_CONTEXT_INJECTION.format(
+            matched_categories=", ".join(result["matched_categories"]),
+            matched_keywords=", ".join(result["matched_keywords"][:10]),  # Cap at 10 to avoid prompt bloat
+        )
+        logging.warning(
+            f"[SAFETY SCANNER] Keywords detected! Categories: {result['matched_categories']}, "
+            f"Keywords: {result['matched_keywords'][:5]}..."
+        )
+
+    return result
+
+def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, previous_alert_context, phase, headers, job_id=None, session_context=None, safety_scan=None):
+    """Handle realtime analysis with retry mechanism using different prompts.
+
+    If safety_scan detected keywords, the safety context is injected into the
+    prompt and we force non-strict mode to ensure the LLM generates a safety alert.
+    """
+    safety_scan = safety_scan or {"detected": False}
 
     # Select modality-specific RAG tools for realtime
     realtime_rag_tools = get_rag_tools_for_session(session_context, is_realtime=True)
     _session_type = (session_context or {}).get("session_type", "CBT")
-    _modality_ds = _session_type.lower() + "-corpus" if _session_type in MODALITY_RAG_MAP else "cbt-corpus"
-    _realtime_rag_tool_names = ["ebt-corpus", _modality_ds]
+    # Build tool names for logging (reflects multi-corpus routing)
+    _realtime_rag_tool_names = ["ebt-corpus", "safety-crisis"]
+    for _t in MODALITY_RAG_MAP.get(_session_type, [CBT_RAG_TOOL]):
+        if _t is CBT_RAG_TOOL: _realtime_rag_tool_names.append("cbt-corpus")
+        elif _t is BA_RAG_TOOL: _realtime_rag_tool_names.append("ba-corpus")
+        elif _t is DBT_RAG_TOOL: _realtime_rag_tool_names.append("dbt-corpus")
+        elif _t is IPT_RAG_TOOL: _realtime_rag_tool_names.append("ipt-corpus")
 
     def try_analysis_with_prompt(prompt_template, prompt_name):
         """Helper function to try analysis with a specific prompt"""
         try:
             current_approach = (session_context or {}).get('current_approach', 'Cognitive Behavioral Therapy')
-            analysis_prompt = prompt_template.format(
+
+            # If safety scanner fired, prepend safety context to the prompt
+            safety_prefix = safety_scan.get("prompt_injection", "") if safety_scan.get("detected") else ""
+
+            analysis_prompt = safety_prefix + prompt_template.format(
                 transcript_text=transcript_text,
                 previous_alert_context=previous_alert_context,
                 current_approach=current_approach
@@ -709,7 +833,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
             )]
 
             # FAST configuration for real-time guidance
-            # Note: Gemini 2.5 Pro does not support thinking_budget=0, so we omit thinking_config
+            # Note: Realtime analysis uses no thinking config for maximum speed (Gemini 3 Flash)
             config = types.GenerateContentConfig(
                 temperature=0.0,  # Deterministic for speed
                 max_output_tokens=2048,  # Sufficient for complete JSON responses
@@ -800,7 +924,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                     prompt_name=prompt_name,
                     temperature=0.0,
                     max_output_tokens=2048,
-                    thinking_budget=None,
+                    thinking_level=None,
                     rag_tools=_realtime_rag_tool_names,
                     start_time=rt_start,
                     ttft=rt_ttft,
@@ -823,7 +947,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                     prompt_name=prompt_name,
                     temperature=0.0,
                     max_output_tokens=2048,
-                    thinking_budget=None,
+                    thinking_level=None,
                     rag_tools=_realtime_rag_tool_names,
                     start_time=rt_start,
                     ttft=rt_ttft,
@@ -845,8 +969,16 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
         try:
             # Check for trigger phrases to determine prompt selection
             has_trigger_phrase = check_for_trigger_phrases(transcript_segment)
-            
-            if has_trigger_phrase:
+            has_safety_keywords = safety_scan.get("detected", False)
+
+            if has_safety_keywords:
+                # Safety keywords detected — ALWAYS use non-strict prompt to ensure alert generation
+                first_prompt = constants.REALTIME_ANALYSIS_PROMPT
+                first_prompt_name = "REALTIME_ANALYSIS_PROMPT"
+                fallback_prompt = constants.REALTIME_ANALYSIS_PROMPT_STRICT
+                fallback_prompt_name = "REALTIME_ANALYSIS_PROMPT_STRICT"
+                logging.warning("[SAFETY] Forcing non-strict prompt due to safety keyword detection")
+            elif has_trigger_phrase:
                 # Trigger phrase found - use non-strict prompt first
                 first_prompt = constants.REALTIME_ANALYSIS_PROMPT
                 first_prompt_name = "REALTIME_ANALYSIS_PROMPT"
@@ -868,12 +1000,43 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
             )
 
             if parsed_result is not None:
+                # If safety scanner fired but LLM returned empty JSON (no alert),
+                # inject a deterministic safety alert from the clinical response templates
+                if has_safety_keywords and not parsed_result.get("alert"):
+                    logging.warning("[SAFETY] LLM returned empty JSON despite safety keywords — injecting deterministic alert")
+                    primary_response = safety_scan.get("clinical_responses", [{}])[0] if safety_scan.get("clinical_responses") else {}
+                    parsed_result["alert"] = {
+                        "timing": "now",
+                        "category": "safety",
+                        "title": primary_response.get("title", "Safety Concern Detected"),
+                        "message": primary_response.get("message", "Safety keywords detected in patient speech. Conduct immediate assessment."),
+                        "evidence": safety_scan.get("matched_keywords", [])[:5],
+                        "recommendation": primary_response.get("immediate_actions", ["Conduct immediate safety assessment"]),
+                        "immediateActions": primary_response.get("immediate_actions", []),
+                        "contraindications": primary_response.get("contraindications", []),
+                        "crisis_resources": primary_response.get("crisis_resources", ["988 Suicide & Crisis Lifeline: call or text 988"]),
+                    }
+
+                # Add safety scan metadata to response
+                if has_safety_keywords:
+                    parsed_result["safety_scan"] = {
+                        "scanner_triggered": True,
+                        "categories": safety_scan.get("matched_categories", []),
+                        "keywords_matched": safety_scan.get("matched_keywords", [])[:10],
+                        "highest_severity": safety_scan.get("highest_severity"),
+                    }
+                    # Add crisis_resources to alert if present but missing the field
+                    if parsed_result.get("alert") and not parsed_result["alert"].get("crisis_resources"):
+                        primary_response = safety_scan.get("clinical_responses", [{}])[0] if safety_scan.get("clinical_responses") else {}
+                        parsed_result["alert"]["crisis_resources"] = primary_response.get("crisis_resources", [])
+
                 # Success with first prompt
                 parsed_result['timestamp'] = datetime.now().isoformat()
                 parsed_result['session_phase'] = phase
                 parsed_result['analysis_type'] = 'realtime'
-                parsed_result['prompt_used'] = 'non-strict' if has_trigger_phrase else 'strict'
+                parsed_result['prompt_used'] = 'non-strict' if (has_trigger_phrase or has_safety_keywords) else 'strict'
                 parsed_result['trigger_phrase_detected'] = has_trigger_phrase
+                parsed_result['safety_keywords_detected'] = has_safety_keywords
                 if job_id is not None:
                     parsed_result['job_id'] = job_id
                 if citations:
@@ -882,6 +1045,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                 # Add diagnostics
                 if diag:
                     diag['trigger_phrase_detected'] = has_trigger_phrase
+                    diag['safety_keywords_detected'] = has_safety_keywords
                     parsed_result['_diagnostics'] = diag
 
                 yield json.dumps(parsed_result) + "\n"
@@ -933,31 +1097,38 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
     
     return Response(generate(), mimetype='text/plain', headers=headers)
 
-def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, rag_tools=None):
+def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, rag_tools=None, safety_scan=None):
     """Handle comprehensive analysis (non-realtime)"""
-    
+    safety_scan = safety_scan or {"detected": False}
+
     def generate():
         """Generator function for comprehensive analysis streaming"""
         chunk_index = 0
         accumulated_text = ""
         grounding_chunks = []
-        
+
         try:
             contents = [types.Content(
                 role="user",
                 parts=[types.Part(text=analysis_prompt)]
             )]
-            
-            # COMPREHENSIVE configuration for full analysis — optimized for speed
-            thinking_budget = 8192  # Moderate complexity for balanced analysis
 
-            # Determine if we need more complex reasoning
-            if "suicide" in analysis_prompt.lower() or "self-harm" in analysis_prompt.lower():
-                thinking_budget = 24576  # Maximum for critical situations
+            # COMPREHENSIVE configuration for full analysis — optimized for speed
+            # gemini-2.5-pro uses thinking_budget (integer), not thinking_level (semantic)
+            thinking_budget = 16384  # Balanced reasoning for clinical analysis
+
+            # Escalate thinking budget if safety scanner detected keywords
+            if safety_scan.get("detected"):
+                thinking_budget = 24576  # Maximum reasoning for safety-critical situations
+                logging.warning(f"[SAFETY] Escalated thinking_budget to {thinking_budget} due to safety keyword detection")
+            elif "suicide" in analysis_prompt.lower() or "self-harm" in analysis_prompt.lower():
+                thinking_budget = 24576  # Maximum reasoning for critical situations (legacy fallback)
+
+            thinking_level = f"budget_{thinking_budget}"  # For diagnostics logging only
 
             config = types.GenerateContentConfig(
                 temperature=0.1,  # Near-deterministic for speed + consistency
-                max_output_tokens=4096,  # Thinking tokens count against this limit — need headroom
+                max_output_tokens=4096,  # Ample headroom for comprehensive JSON
                 thinking_config=types.ThinkingConfig(
                     thinking_budget=thinking_budget,
                     include_thoughts=False
@@ -980,7 +1151,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                         threshold="OFF"
                     )
                 ],
-                tools=rag_tools or [MANUAL_RAG_TOOL, CBT_RAG_TOOL, TRANSCRIPT_RAG_TOOL],
+                tools=rag_tools or [MANUAL_RAG_TOOL, CBT_RAG_TOOL, BA_RAG_TOOL, TRANSCRIPT_RAG_TOOL],
             )
 
             # Compute tool names for diagnostics
@@ -993,7 +1164,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     except Exception:
                         _comp_tool_names.append("unknown")
             else:
-                _comp_tool_names = ["ebt-corpus", "cbt-corpus", "transcript-patterns"]
+                _comp_tool_names = ["ebt-corpus", "cbt-corpus", "ba-corpus", "transcript-patterns"]
 
             logging.info(f"[TIMING] Calling Gemini model '{constants.MODEL_NAME_PRO}' for comprehensive analysis with RAG tools: {_comp_tool_names}")
 
@@ -1076,7 +1247,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                     temperature=0.1,
                     max_output_tokens=2048,
-                    thinking_budget=thinking_budget,
+                    thinking_level=thinking_level,
                     rag_tools=_comp_tool_names,
                     start_time=comp_start,
                     ttft=comp_ttft,
@@ -1100,7 +1271,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                         prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                         temperature=0.1,
                         max_output_tokens=2048,
-                        thinking_budget=thinking_budget,
+                        thinking_level=thinking_level,
                         rag_tools=_comp_tool_names,
                         start_time=comp_start,
                         ttft=comp_ttft,
@@ -1264,7 +1435,7 @@ def handle_session_summary(request_json, headers):
             max_output_tokens=4096,
             tools=summary_rag_tools,
             thinking_config=types.ThinkingConfig(
-                thinking_budget=8192,  # Structured extraction — optimized for speed
+                thinking_budget=16384,  # Thorough clinical analysis — prioritize quality over speed
                 include_thoughts=False
             ),
             safety_settings=[
@@ -1337,6 +1508,57 @@ def handle_session_summary(request_json, headers):
     except Exception as e:
         logging.exception(f"Error in handle_session_summary: {str(e)}")
         return (jsonify({'error': f'Session summary failed: {str(e)}'}), 500, headers)
+
+# ── Patient-facing summary (filtered subset of SessionSummary) ────────────────
+def handle_get_patient_summary(request_json, headers):
+    """
+    Return a patient-safe subset of a session summary.
+
+    Strips out clinical-internal fields that patients should not see:
+      - risk_assessment (level + factors)
+      - techniques_used (clinician metric)
+      - manual_reference on homework (EBT citations)
+      - key_moments (therapist review data)
+
+    Keeps:
+      - session_date, duration_minutes
+      - progress_indicators (positively framed)
+      - homework_assignments (task + rationale only)
+      - follow_up_recommendations
+
+    Input:  { "action": "get_patient_summary", "full_summary": { ...SessionSummary } }
+    Output: { "patient_summary": { ...filtered fields } }
+    """
+    try:
+        full_summary = request_json.get('full_summary', {})
+        if not full_summary:
+            return (jsonify({'error': 'full_summary is required'}), 400, headers)
+
+        # Build patient-safe subset
+        patient_summary = {
+            'session_date': full_summary.get('session_date', ''),
+            'duration_minutes': full_summary.get('duration_minutes', 0),
+            'progress_indicators': full_summary.get('progress_indicators', []),
+            'homework_assignments': [
+                {
+                    'task': hw.get('task', ''),
+                    'rationale': hw.get('rationale', ''),
+                    # Intentionally omit manual_reference — patient doesn't need EBT citations
+                }
+                for hw in full_summary.get('homework_assignments', [])
+            ],
+            'follow_up_recommendations': full_summary.get('follow_up_recommendations', []),
+        }
+
+        logging.info(f"Patient summary generated — {len(patient_summary['homework_assignments'])} homework items, "
+                      f"{len(patient_summary['progress_indicators'])} progress indicators")
+
+        return (jsonify({'patient_summary': patient_summary}), 200, headers)
+
+    except Exception as e:
+        logging.exception(f"Error in handle_get_patient_summary: {str(e)}")
+        return (jsonify({'error': f'Patient summary failed: {str(e)}'}), 500, headers)
+
 
 # Helper functions
 def determine_therapy_phase(duration_minutes: int) -> str:

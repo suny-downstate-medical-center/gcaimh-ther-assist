@@ -237,7 +237,8 @@ export const useTherapyAnalysis = ({
       const response = await axios.post(`${ANALYSIS_API}/therapy_analysis`, summaryReqBody, {
         headers: {
           ...(authToken && { Authorization: `Bearer ${authToken}` })
-        }
+        },
+        timeout: 300000, // 5 min — Gemini Pro with thinking + RAG grounding can take time
       });
 
       const responseTime = performance.now() - startTime;
@@ -281,9 +282,52 @@ export const useTherapyAnalysis = ({
     }
   }, [ANALYSIS_API, onSessionSummary, authToken]);
 
+  const fetchPatientSessions = useCallback(async (patientId: string) => {
+    // In mock mode, return empty array (sessions come from mockPatients)
+    if (USE_MOCK_MODE) {
+      console.log('[Sessions] 🎭 MOCK - returning empty sessions (use mockPatients data)');
+      return [];
+    }
+
+    if (!ANALYSIS_API) {
+      console.warn('[Sessions] ⚠️ VITE_ANALYSIS_API not configured - skipping');
+      return [];
+    }
+
+    const startTime = performance.now();
+
+    try {
+      console.log(`[Sessions] 📤 Fetching sessions for patient: ${patientId}`);
+      const response = await axios.post(`${ANALYSIS_API}/therapy_analysis`, {
+        action: 'get_sessions',
+        patient_id: patientId,
+      }, {
+        headers: {
+          ...(authToken && { Authorization: `Bearer ${authToken}` })
+        }
+      });
+
+      const responseTime = performance.now() - startTime;
+      const sessions = response.data?.sessions || [];
+      console.log(`[Sessions] 📥 Retrieved ${sessions.length} sessions (${responseTime.toFixed(0)}ms)`);
+
+      // Transform Firestore sessions to match SessionHistory interface
+      return sessions.map((s: any) => ({
+        id: s.id,
+        date: s.date,
+        duration: s.duration_minutes || 0,
+        summary: s.summary_text || 'Session completed',
+      }));
+    } catch (error: any) {
+      console.error('[Sessions] ❌ Failed to fetch sessions:', error?.message || error);
+      return [];
+    }
+  }, [ANALYSIS_API, authToken]);
+
   return {
     analyzeSegment,
     getPathwayGuidance,
     generateSessionSummary,
+    fetchPatientSessions,
   };
 };

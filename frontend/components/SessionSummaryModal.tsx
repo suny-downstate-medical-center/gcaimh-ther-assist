@@ -31,6 +31,8 @@ import {
   ListItemText,
   Paper,
   IconButton,
+  TextField,
+  Alert,
 } from '@mui/material';
 import {
   Close,
@@ -44,6 +46,8 @@ import {
   Print,
   Info,
   RadioButtonUnchecked,
+  AltRoute,
+  Save,
 } from '@mui/icons-material';
 import { SessionSummary } from '../types/types';
 import { formatTimestamp } from '../utils/timeUtils';
@@ -51,12 +55,13 @@ import { formatTimestamp } from '../utils/timeUtils';
 // Loading step definitions for the progress UI
 const LOADING_STEPS = [
   { label: 'Analyzing session transcript...', threshold: 0 },
-  { label: 'Identifying key therapeutic moments...', threshold: 5 },
-  { label: 'Evaluating treatment effectiveness...', threshold: 15 },
-  { label: 'Generating clinical recommendations...', threshold: 25 },
-  { label: 'Compiling homework assignments...', threshold: 40 },
+  { label: 'Identifying key therapeutic moments...', threshold: 8 },
+  { label: 'Cross-referencing clinical evidence (RAG)...', threshold: 20 },
+  { label: 'Evaluating treatment effectiveness...', threshold: 40 },
+  { label: 'Generating clinical recommendations...', threshold: 60 },
+  { label: 'Compiling homework assignments...', threshold: 90 },
 ];
-const ESTIMATED_TOTAL_SECONDS = 45;
+const ESTIMATED_TOTAL_SECONDS = 120;
 
 interface SessionSummaryModalProps {
   open: boolean;
@@ -66,6 +71,10 @@ interface SessionSummaryModalProps {
   error: string | null;
   onRetry: () => void;
   sessionId: string | null;
+  alternativePathways?: any[];
+  onSaveSession?: (patientName: string) => Promise<void>;
+  saveSessionLoading?: boolean;
+  saveSessionSuccess?: boolean;
 }
 
 const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
@@ -76,7 +85,15 @@ const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
   error,
   onRetry,
   sessionId,
+  alternativePathways = [],
+  onSaveSession,
+  saveSessionLoading = false,
+  saveSessionSuccess = false,
 }) => {
+  // Save session state
+  const [patientName, setPatientName] = useState('');
+  const [saveError, setSaveError] = useState<string | null>(null);
+
   // Loading progress state
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -141,7 +158,7 @@ const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
   };
 
   // Defensive defaults — prevents crash when backend returns incomplete summary
-  const safe = summary ? {
+  const defaults = {
     techniques_used: [] as string[],
     key_moments: [] as Array<{ time: string; description: string; significance: string }>,
     progress_indicators: [] as string[],
@@ -151,8 +168,8 @@ const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
     risk_assessment: { level: 'low', factors: [] as string[] },
     duration_minutes: 0,
     session_date: new Date().toISOString(),
-    ...summary, // real values override defaults
-  } : null;
+  };
+  const safe = summary ? { ...defaults, ...summary } : null;
 
   return (
     <Dialog
@@ -318,7 +335,7 @@ const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
                 fontStyle: 'italic',
               }}
             >
-              Analysis typically completes in 30–45 seconds. Please do not close this window.
+              Deep clinical analysis with evidence grounding typically completes in 1–2 minutes.
             </Typography>
           </Box>
         ) : safe ? (
@@ -495,6 +512,92 @@ const SessionSummaryModal: React.FC<SessionSummaryModalProps> = ({
                   ))}
                 </List>
               </Box>
+            )}
+
+            {/* Alternative Pathways (moved from Alternatives tab) */}
+            {alternativePathways.length > 0 && (
+              <>
+                <Divider />
+                <Box>
+                  <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1, fontSize: '1.35rem' }}>
+                    <AltRoute /> Alternative Therapeutic Pathways
+                  </Typography>
+                  {alternativePathways.map((pathway, index) => (
+                    <Paper key={index} sx={{
+                      p: 2,
+                      mb: 2,
+                      background: 'linear-gradient(135deg, rgba(146, 84, 234, 0.06) 0%, rgba(146, 84, 234, 0.02) 100%)',
+                      border: '1px solid rgba(146, 84, 234, 0.15)',
+                    }}>
+                      <Typography variant="body1" fontWeight={600} sx={{ fontSize: '1.1rem', color: '#1f1f1f', mb: 1 }}>
+                        {pathway.approach || `Alternative ${index + 1}`}
+                      </Typography>
+                      <Typography variant="body2" sx={{ fontSize: '0.95rem', color: '#444746', mb: 1, whiteSpace: 'pre-line' }}>
+                        {pathway.reason || 'No rationale provided.'}
+                      </Typography>
+                      {pathway.techniques && pathway.techniques.length > 0 && (
+                        <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap', mt: 1 }}>
+                          {pathway.techniques.map((technique: string, tIdx: number) => (
+                            <Chip key={tIdx} label={technique} size="small" variant="outlined" sx={{ fontSize: '0.8rem', borderColor: 'rgba(146, 84, 234, 0.4)', color: '#6b21a8' }} />
+                          ))}
+                        </Box>
+                      )}
+                    </Paper>
+                  ))}
+                </Box>
+              </>
+            )}
+
+            {/* Save Session */}
+            {onSaveSession && (
+              <>
+                <Divider />
+                <Paper sx={{
+                  p: 3,
+                  background: 'linear-gradient(135deg, rgba(11, 87, 208, 0.05) 0%, rgba(11, 87, 208, 0.02) 100%)',
+                  border: '1px solid rgba(11, 87, 208, 0.15)',
+                }}>
+                  <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1, fontSize: '1.35rem' }}>
+                    <Save /> Save Session
+                  </Typography>
+                  {saveSessionSuccess ? (
+                    <Alert severity="success" sx={{ fontSize: '0.95rem' }}>
+                      Session saved successfully for patient "{patientName}".
+                    </Alert>
+                  ) : (
+                    <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2, mt: 1 }}>
+                      <TextField
+                        label="Patient Name or ID"
+                        value={patientName}
+                        onChange={(e) => { setPatientName(e.target.value); setSaveError(null); }}
+                        size="small"
+                        fullWidth
+                        placeholder="Enter patient name..."
+                        disabled={saveSessionLoading}
+                        error={!!saveError}
+                        helperText={saveError}
+                        sx={{ maxWidth: 360 }}
+                      />
+                      <Button
+                        variant="contained"
+                        startIcon={saveSessionLoading ? <CircularProgress size={16} color="inherit" /> : <Save />}
+                        disabled={!patientName.trim() || saveSessionLoading}
+                        onClick={async () => {
+                          setSaveError(null);
+                          try {
+                            await onSaveSession(patientName.trim());
+                          } catch (err: any) {
+                            setSaveError(err?.message || 'Failed to save session');
+                          }
+                        }}
+                        sx={{ minWidth: 140, height: 40 }}
+                      >
+                        {saveSessionLoading ? 'Saving...' : 'Save Session'}
+                      </Button>
+                    </Box>
+                  )}
+                </Paper>
+              </>
             )}
           </Box>
         ) : error ? (

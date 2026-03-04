@@ -16,6 +16,15 @@ import {
   Alert as MuiAlert,
   Collapse,
   LinearProgress,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  RadioGroup,
+  Radio,
+  FormControlLabel,
+  FormControl,
+  FormLabel,
 } from '@mui/material';
 import {
   HealthAndSafety,
@@ -51,6 +60,10 @@ import {
   ContactSupport,
   Explore,
   UploadFile,
+  Phone,
+  Headphones,
+  AudioFile,
+  MusicNote,
 } from '@mui/icons-material';
 import { Alert, SessionMetrics, PathwayIndicators, SessionContext, Alert as IAlert, Citation, SessionSummary } from '../types/types';
 import { formatDuration } from '../utils/timeUtils';
@@ -89,7 +102,7 @@ interface NewTherSessionProps {
   sessionDuration?: number;
   sessionPhase?: string;
   sessionId?: string;
-  onSessionSaved?: (session: { id: string; date: string; duration: string; summary: string }) => void;
+  onSessionSaved?: (session: { id: string; date: string; duration: string; summary: string; fullSummary?: SessionSummary }) => void;
   currentGuidance?: {
     title: string;
     time: string;
@@ -126,6 +139,27 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
   });
 
+  // Session setup dialog — therapist selects modality before recording starts
+  const [showSessionSetup, setShowSessionSetup] = useState(false);
+  const [setupSelectedModality, setSetupSelectedModality] = useState<string>('CBT');
+
+  // Modality options available for therapist selection (simplified to 3 core types)
+  const MODALITY_OPTIONS = [
+    { code: 'CBT', name: 'Cognitive Behavioral Therapy', description: 'Includes standard CBT, Behavioral Activation, Exposure Therapy, and ACT techniques' },
+    { code: 'DBT', name: 'Dialectical Behavior Therapy', description: 'Mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness' },
+    { code: 'IPT', name: 'Interpersonal Psychotherapy', description: 'Interpersonal role disputes, grief, role transitions, interpersonal deficits' },
+  ];
+
+  // Example audio files for demo (served from public/audio/)
+  const EXAMPLE_AUDIO_OPTIONS = [
+    { id: '305', name: 'Session 305', file: '/audio/305_AUDIO.wav', description: 'Therapy session recording (~7 min)' },
+    { id: '307', name: 'Session 307', file: '/audio/307_AUDIO.wav', description: 'Therapy session recording (~5 min)' },
+  ];
+
+  // Word count tracking for minimum modality suggestion threshold
+  const totalWordCountRef = useRef(0);
+  const MIN_WORDS_FOR_MODALITY_SUGGESTION = 200;
+
   // Core session state
   const [isRecording, setIsRecording] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -141,6 +175,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     text: string;
     timestamp: string;
     is_interim?: boolean;
+    speaker?: string;
   }>>([]);
   const [alerts, setAlerts] = useState<IAlert[]>([]);
   const [citations, setCitations] = useState<Citation[]>([]);
@@ -148,6 +183,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     engagement_level: 0.0,
     therapeutic_alliance: 'unknown' as 'strong' | 'moderate' | 'weak' | 'unknown',
     techniques_detected: [] as string[],
+    detected_modality: undefined as { code: string; name: string; confidence: number; evidence: string[] } | undefined,
     emotional_state: 'unknown' as 'calm' | 'anxious' | 'distressed' | 'dissociated' | 'engaged' | 'unknown',
     arousal_level: 'unknown' as 'low' | 'moderate' | 'high' | 'elevated' | 'unknown',
     phase_appropriate: false,
@@ -186,8 +222,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   const [newTranscriptCount, setNewTranscriptCount] = useState(0);
   const [selectedAlertIndex, setSelectedAlertIndex] = useState<number | null>(null);
   
-  // Session context for AI analysis — derived from patient data
-  const [sessionContext] = useState<SessionContext>(() => {
+  // Session context for AI analysis — derived from patient data, updated reactively from AI detection
+  const [sessionContext, setSessionContext] = useState<SessionContext>(() => {
     if (patientId) {
       const patient = mockPatients.find(p => p.id === patientId);
       if (patient?.focusTopics) {
@@ -214,6 +250,9 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         } else if (topicsLower.includes('dbt')) {
           sessionType = 'DBT';
           currentApproach = 'Dialectical Behavior Therapy';
+        } else if (topicsLower.includes('ipt') || topicsLower.includes('interpersonal')) {
+          sessionType = 'IPT';
+          currentApproach = 'Interpersonal Psychotherapy';
         }
 
         return {
@@ -254,9 +293,12 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   const [summaryLoading, setSummaryLoading] = useState(false);
   const [summaryError, setSummaryError] = useState<string | null>(null);
   const [sessionSummaryClosed, setSessionSummaryClosed] = useState(false);
+  const [saveSessionLoading, setSaveSessionLoading] = useState(false);
+  const [saveSessionSuccess, setSaveSessionSuccess] = useState(false);
   
   // Modal state
   const [showRationaleModal, setShowRationaleModal] = useState(false);
+  const [chartExpanded, setChartExpanded] = useState(true);
   const [citationModalOpen, setCitationModalOpen] = useState(false);
   const [selectedCitationModal, setSelectedCitationModal] = useState<Citation | null>(null);
   
@@ -265,6 +307,12 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   const testIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const activeTranscriptDataRef = useRef<TestTranscriptEntry[]>(testTranscriptData);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const audioFileInputRef = useRef<HTMLInputElement | null>(null);
+  const [pendingTestScript, setPendingTestScript] = useState<TestTranscriptEntry[] | null>(null);
+  const [pendingAudioFile, setPendingAudioFile] = useState<{ name: string; url: string } | null>(null);
+
+  // Safety alert acknowledgement tracking
+  const [acknowledgedSafetyAlerts, setAcknowledgedSafetyAlerts] = useState<Set<string>>(new Set());
 
   // Error and loading state
   const [error, setError] = useState<string | null>(null);
@@ -273,6 +321,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   // Activity log state for LLM diagnostics
   const [activityLogEntries, setActivityLogEntries] = useState<ActivityLogEntry[]>([]);
   const activityLogIdCounter = useRef(0);
+  const wasEverConnectedRef = useRef(false);
 
   const addLogEntry = useCallback((
     model: string,
@@ -298,15 +347,16 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
   // Audio streaming hook with WebSocket for both microphone and file
   const { 
-    isConnected, 
-    startMicrophoneRecording, 
+    isConnected,
+    startMicrophoneRecording,
     startAudioFileStreaming,
     pauseAudioStreaming,
     resumeAudioStreaming,
-    stopStreaming, 
+    stopStreaming,
     isPlayingAudio,
     audioProgress,
-    sessionId 
+    audioLevel,
+    sessionId
   } = useAudioStreamingWebSocketTher({
     authToken,
     onTranscript: (newTranscript: any) => {
@@ -324,18 +374,68 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           return [...prev, newEntry];
         });
       } else {
+        const finalizedText = newTranscript.transcript || '';
+        const speakerLabel = newTranscript.speaker || 'conversation';
         setTranscript(prev => {
           const filtered = prev.filter(entry => !entry.is_interim);
           return [...filtered, {
-            text: newTranscript.transcript || '',
+            text: finalizedText,
             timestamp: newTranscript.timestamp || new Date().toISOString(),
             is_interim: false,
+            speaker: speakerLabel,
           }];
         });
-        
+
+        // Track cumulative word count for minimum modality suggestion threshold
+        totalWordCountRef.current += finalizedText.split(/\s+/).filter(Boolean).length;
+
         if (!transcriptOpen) {
           setNewTranscriptCount(prev => prev + 1);
         }
+      }
+    },
+    onAnalysis: (analysis: any) => {
+      // Analysis from Gemini Live API (via WebSocket) — handles both alerts and metrics
+      console.log('[Session] WebSocket analysis received:', analysis);
+
+      // Handle alerts from Gemini Live
+      if (analysis.alert) {
+        const newAlert = {
+          ...analysis.alert,
+          sessionTime: sessionDuration,
+          timestamp: new Date().toISOString(),
+        };
+
+        setAlerts(prev => {
+          const result = processNewAlert(newAlert, prev);
+          if (result.shouldAdd) {
+            const updatedAlerts = [newAlert, ...prev].slice(0, 8);
+            console.log(`[Session] WebSocket alert: ${newAlert.category} (${newAlert.timing}) - "${newAlert.title}"`);
+            return updatedAlerts;
+          }
+          return prev;
+        });
+      }
+
+      // Handle session metrics from Gemini Live
+      if (analysis.session_metrics) {
+        setSessionMetrics(prev => ({
+          ...prev,
+          ...analysis.session_metrics,
+        }));
+
+        // Detect modality suggestion
+        const detectedModality = analysis.session_metrics.detected_modality;
+        if (detectedModality && detectedModality.confidence >= 0.7) {
+          if (sessionContext.session_type !== detectedModality.code) {
+            console.log(`[Session] AI suggests modality: ${detectedModality.name} (${Math.round(detectedModality.confidence * 100)}%)`);
+          }
+        }
+      }
+
+      // Handle session phase
+      if (analysis.session_phase) {
+        console.log(`[Session] Phase: ${analysis.session_phase}`);
       }
     },
     onError: (error: string) => {
@@ -361,6 +461,20 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
     getAuthToken();
   }, [currentUser]);
+
+  // Track if WebSocket was ever connected (to distinguish "Connecting..." from "Disconnected")
+  useEffect(() => {
+    if (isConnected) {
+      wasEverConnectedRef.current = true;
+    }
+  }, [isConnected]);
+
+  // Reset wasEverConnected when recording stops
+  useEffect(() => {
+    if (!isRecording) {
+      wasEverConnectedRef.current = false;
+    }
+  }, [isRecording]);
 
   // Track logged analyses to prevent duplicate logs in Strict Mode
   const lastLoggedAnalysisRef = useRef<Set<string>>(new Set());
@@ -482,6 +596,18 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             ...analysis.session_metrics
           }));
 
+          // DISABLED: Mid-session modality auto-switching (per clinical team feedback)
+          // Instead of changing session_type, we store detected_modality in metrics for display only.
+          // The therapist explicitly selects the modality at session start — AI suggestions are informational.
+          const detectedModality = analysis.session_metrics.detected_modality;
+          if (detectedModality && detectedModality.confidence >= 0.7) {
+            if (sessionContext.session_type !== detectedModality.code) {
+              console.log(`[Session] 💡 AI suggests modality: ${detectedModality.name} (${Math.round(detectedModality.confidence * 100)}%) — displayed as suggestion only, not auto-switching`);
+            }
+            // detected_modality is already stored in sessionMetrics via the spread above
+            // It will be displayed as an informational chip in the UI
+          }
+
           if (analysis.pathway_indicators) {
             const newChartDataPoint = createChartDataPoint(
               analysis.session_metrics,
@@ -498,6 +624,31 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
             console.log(`[Session] 📊 Chart data collected - Job ID: ${jobId}, Engagement: ${Math.round(analysis.session_metrics.engagement_level * 100)}%, Alliance: ${analysis.session_metrics.therapeutic_alliance}`);
           }
+        }
+
+        // Apply speaker diarization from Gemini's contextual inference
+        const diarized = (analysis as any).diarized_transcript;
+        if (diarized && Array.isArray(diarized) && diarized.length > 0) {
+          setTranscript(prev => {
+            const updated = [...prev];
+            // Match diarized entries to transcript by text content
+            for (const entry of diarized) {
+              if (!entry.speaker || !entry.text) continue;
+              // Find the transcript entry whose text best matches (substring match)
+              const matchIdx = updated.findIndex(
+                t => !t.is_interim && (!t.speaker || t.speaker === 'conversation') &&
+                     t.text && entry.text && (
+                       t.text.includes(entry.text.substring(0, 40)) ||
+                       entry.text.includes(t.text.substring(0, 40))
+                     )
+              );
+              if (matchIdx >= 0) {
+                updated[matchIdx] = { ...updated[matchIdx], speaker: entry.speaker };
+              }
+            }
+            return updated;
+          });
+          console.log(`[Session] 🏷️ Speaker diarization applied: ${diarized.length} entries labeled`);
         }
 
         // Conditionally update pathway guidance based on job ID matching
@@ -643,42 +794,44 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     );
   }, [addLogEntry]);
 
-  // Word-based real-time analysis trigger (simplified)
+  // Word-based real-time analysis trigger
+  // Transcription comes from Gemini Live API via WebSocket; this triggers both
+  // realtime (Flash) and comprehensive (Pro + RAG) analysis on the accumulated text.
   useEffect(() => {
     if (!isRecording || transcript.length === 0) return;
-    
+
     const lastEntry = transcript[transcript.length - 1];
     if (!lastEntry || lastEntry.is_interim) return;
-    
+
     // Count words in the new entry
     const newWords = lastEntry.text.split(' ').filter(word => word.trim()).length;
-    
+
     setWordsSinceLastAnalysis(prev => {
       const updatedWordCount = prev + newWords;
-      
-      // Trigger analysis every 30 words (~1-2 sentences) for more meaningful context
+
+      // Trigger analysis every 30 words (~1-2 sentences) for meaningful context
       const WORDS_PER_ANALYSIS = 30;
       const TRANSCRIPT_WINDOW_MINUTES = 5;
-      
+
       if (updatedWordCount >= WORDS_PER_ANALYSIS) {
         // Get last 5 minutes of transcript
         const fiveMinutesAgo = new Date(Date.now() - TRANSCRIPT_WINDOW_MINUTES * 60 * 1000);
         const recentTranscript = transcript
           .filter(t => !t.is_interim && new Date(t.timestamp) > fiveMinutesAgo)
           .map(t => ({
-            speaker: 'conversation',
+            speaker: t.speaker || 'conversation',
             text: t.text,
             timestamp: t.timestamp
           }));
-        
+
         if (recentTranscript.length > 0) {
           triggerPairedAnalysis(recentTranscript, `Auto-analysis (${updatedWordCount} words)`);
         }
-        
+
         // Reset word count
         return 0;
       }
-      
+
       return updatedWordCount;
     });
   }, [transcript, isRecording, triggerPairedAnalysis]);
@@ -826,7 +979,34 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   };
 
   // Session control functions
-  const handleStartSession = async () => {
+
+  // Step 1: Show the modality selection dialog (gates recording behind therapist choice)
+  const handleStartSession = () => {
+    // Pre-select based on patient's focus topics (already parsed in sessionContext init)
+    setSetupSelectedModality(sessionContext.session_type || 'CBT');
+    setShowSessionSetup(true);
+  };
+
+  // Step 2: Therapist confirms modality → actually start recording
+  const handleConfirmSessionStart = async () => {
+    // Apply therapist's modality selection to session context
+    const selectedOption = MODALITY_OPTIONS.find(m => m.code === setupSelectedModality);
+    if (selectedOption) {
+      setSessionContext({
+        ...sessionContext,
+        session_type: selectedOption.code,
+        current_approach: selectedOption.name,
+        therapist_selected_modality: true,
+      });
+    }
+
+    // Close dialog
+    setShowSessionSetup(false);
+
+    // Reset word count tracker
+    totalWordCountRef.current = 0;
+
+    // Standard session initialization
     setSessionStartTime(new Date());
     setIsRecording(true);
     setSessionType('microphone');
@@ -838,18 +1018,29 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     setHasReceivedComprehensiveAnalysis(false);
     setTranscript([]);
     setAlerts([]);
-    
+
     // Reset job tracking state
     setDisplayedRealtimeJobId(null);
     setDisplayedComprehensiveJobId(null);
     setWaitingForComprehensiveJobId(null);
     setPathwayGuidance({});
     setCitations([]);
-    
+
     // Clear chart data for new session
     setChartDataHistory([]);
-    
-    await startMicrophoneRecording();
+
+    // Priority: audio file > test script > microphone
+    if (pendingAudioFile) {
+      setSessionType('audio');
+      await startAudioFileStreaming(pendingAudioFile.url);
+      // Don't revoke URL yet — audio element needs it during playback
+      setPendingAudioFile(null);
+    } else if (pendingTestScript) {
+      startTranscriptPlayback(pendingTestScript);
+      setPendingTestScript(null);
+    } else {
+      await startMicrophoneRecording();
+    }
   };
 
   const handlePauseResume = async () => {
@@ -913,7 +1104,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       const fullTranscript = currentTranscript
         .filter(t => !t.is_interim)
         .map(t => ({
-          speaker: 'conversation',
+          speaker: t.speaker || 'conversation',
           text: t.text,
           timestamp: t.timestamp,
         }));
@@ -929,37 +1120,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       if (result && result.summary) {
         setSessionSummary(result.summary);
         setShowSessionSummary(true);
-
-        // Fire-and-forget: persist session to Firestore via backend
-        const ANALYSIS_API = import.meta.env.VITE_ANALYSIS_API || '';
-        if (ANALYSIS_API && patientId) {
-          const durationMin = Math.floor(sessionDurationRef.current / 60);
-          axios.post(`${ANALYSIS_API}/therapy_analysis`, {
-            action: 'save_session',
-            patient_id: patientId,
-            date: new Date().toISOString().split('T')[0],
-            duration_minutes: durationMin,
-            summary_text: result.summary.overall_assessment || result.summary.session_overview || 'Session completed',
-            session_type: sessionContextRef.current?.current_approach || 'General',
-            full_summary: result.summary,
-            session_metrics: sessionMetricsRef.current,
-          }, {
-            headers: currentUser ? { Authorization: `Bearer ${currentUser}` } : {},
-          }).then(res => {
-            console.log('[Session Save] Saved to Firestore:', res.data);
-            // Notify parent so patient session list updates without a full reload
-            if (onSessionSaved && res.data?.session_id) {
-              onSessionSaved({
-                id: res.data.session_id,
-                date: new Date().toISOString().split('T')[0],
-                duration: `${durationMin} min`,
-                summary: result.summary.overall_assessment || result.summary.session_overview || 'Session completed',
-              });
-            }
-          }).catch(err => {
-            console.error('[Session Save] Failed (non-blocking):', err?.message || err);
-          });
-        }
+        setSaveSessionSuccess(false);
       } else {
         throw new Error('Invalid summary response — the AI model returned an incomplete result. Please retry.');
       }
@@ -975,6 +1136,47 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     }
   };
 
+  const handleSaveSession = async (patientName: string) => {
+    setSaveSessionLoading(true);
+    setSaveSessionSuccess(false);
+    try {
+      const ANALYSIS_API = import.meta.env.VITE_ANALYSIS_API || '';
+      if (!ANALYSIS_API) throw new Error('Analysis API not configured');
+
+      const durationMin = Math.floor(sessionDurationRef.current / 60);
+      const summaryText = sessionSummary?.overall_assessment || sessionSummary?.session_overview || 'Session completed';
+
+      const res = await axios.post(`${ANALYSIS_API}/therapy_analysis`, {
+        action: 'save_session',
+        patient_id: patientName.trim(),
+        date: new Date().toISOString().split('T')[0],
+        duration_minutes: durationMin,
+        summary_text: summaryText,
+        session_type: sessionContextRef.current?.current_approach || 'General',
+        full_summary: sessionSummary,
+        session_metrics: sessionMetricsRef.current,
+      }, {
+        headers: currentUser ? { Authorization: `Bearer ${currentUser}` } : {},
+      });
+
+      setSaveSessionSuccess(true);
+      if (onSessionSaved && res.data?.session_id) {
+        onSessionSaved({
+          id: res.data.session_id,
+          date: new Date().toISOString().split('T')[0],
+          duration: `${durationMin} min`,
+          summary: summaryText,
+          fullSummary: sessionSummary as SessionSummary,
+        });
+      }
+    } catch (err: any) {
+      console.error('[Session Save] Failed:', err?.message || err);
+      throw err;
+    } finally {
+      setSaveSessionLoading(false);
+    }
+  };
+
   // Shared function to start interval-based transcript playback
   const startTranscriptPlayback = (data: TestTranscriptEntry[]) => {
     setIsTestMode(true);
@@ -985,6 +1187,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     setPausedTime(0);
     setIsPaused(false);
     setHasReceivedComprehensiveAnalysis(false);
+    totalWordCountRef.current = 0; // Reset word count for modality threshold tracking
 
     // Reset job tracking state
     setDisplayedRealtimeJobId(null);
@@ -1001,6 +1204,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       engagement_level: 0.0,
       therapeutic_alliance: 'unknown',
       techniques_detected: [],
+      detected_modality: undefined,
       emotional_state: 'unknown',
       arousal_level: 'unknown',
       phase_appropriate: false,
@@ -1031,6 +1235,9 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         };
 
         setTranscript(prev => [...prev, formattedEntry]);
+
+        // Track cumulative word count for minimum modality suggestion threshold
+        totalWordCountRef.current += entry.text.split(/\s+/).filter(Boolean).length;
 
         if (!transcriptOpen) {
           setNewTranscriptCount(prev => prev + 1);
@@ -1086,7 +1293,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         }));
 
         setError(null);
-        startTranscriptPlayback(transcriptData);
+        // Store script for playback — don't auto-start. User clicks "Start Session" to select modality first.
+        setPendingTestScript(transcriptData);
       } catch {
         setError('Failed to parse JSON file. Please check the file format.');
       }
@@ -1095,6 +1303,29 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       setError('Failed to read the file.');
     };
     reader.readAsText(file);
+  };
+
+  const handleAudioFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    event.target.value = '';
+
+    const validTypes = ['audio/mpeg', 'audio/wav', 'audio/mp4', 'audio/x-m4a', 'audio/webm', 'audio/ogg'];
+    if (!validTypes.includes(file.type) && !file.name.match(/\.(mp3|wav|m4a|webm|ogg)$/i)) {
+      setError('Unsupported audio format. Please use MP3, WAV, M4A, WebM, or OGG.');
+      return;
+    }
+
+    // Revoke previous blob URL if one exists
+    if (pendingAudioFile?.url) {
+      URL.revokeObjectURL(pendingAudioFile.url);
+    }
+
+    const blobUrl = URL.createObjectURL(file);
+    setPendingAudioFile({ name: file.name, url: blobUrl });
+    setPendingTestScript(null); // Clear test script if audio is loaded
+    setError(null);
+    console.log('[NewTherSession] Audio file loaded:', file.name, file.type);
   };
 
   const pauseTestMode = () => {
@@ -1178,6 +1409,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       engagement_level: 0.0,
       therapeutic_alliance: 'unknown',
       techniques_detected: [],
+      detected_modality: undefined,
       emotional_state: 'unknown',
       arousal_level: 'unknown',
       phase_appropriate: false,
@@ -1207,6 +1439,18 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     setSelectedCitationModal(citation);
     setCitationModalOpen(true);
   };
+
+  // Safety alert acknowledgement — generates a stable key per alert and tracks which have been acknowledged
+  const getAlertKey = (alert: IAlert) => `${alert.category}-${alert.title}-${alert.timestamp || ''}`;
+  const handleAcknowledgeSafetyAlert = (alert: IAlert) => {
+    const key = getAlertKey(alert);
+    setAcknowledgedSafetyAlerts(prev => new Set([...prev, key]));
+  };
+
+  // Find the most urgent unacknowledged safety alert for the persistent banner
+  const activeSafetyAlert = alerts.find(
+    a => a.category === 'safety' && a.timing === 'now' && !acknowledgedSafetyAlerts.has(getAlertKey(a))
+  );
 
   const getEmotionalStateColor = (state: string) => {
     switch (state) {
@@ -1276,6 +1520,10 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       if (testIntervalRef.current) {
         clearInterval(testIntervalRef.current);
       }
+      // Revoke any pending audio blob URL to prevent memory leaks
+      if (pendingAudioFile?.url) {
+        URL.revokeObjectURL(pendingAudioFile.url);
+      }
     };
   }, [stopStreaming]);
 
@@ -1299,6 +1547,81 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         borderRadius: '8px',
         overflow: 'hidden',
       }}>
+        {/* Safety Alert Banner — full-width persistent banner for critical safety alerts */}
+        {activeSafetyAlert && (
+          <Box
+            sx={{
+              bgcolor: '#dc2626',
+              color: 'white',
+              px: 2.5,
+              py: 1.5,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 2,
+              flexShrink: 0,
+              animation: 'safetyBannerPulse 2s infinite',
+              '@keyframes safetyBannerPulse': {
+                '0%': { bgcolor: '#dc2626' },
+                '50%': { bgcolor: '#b91c1c' },
+                '100%': { bgcolor: '#dc2626' },
+              },
+            }}
+          >
+            <Shield sx={{ fontSize: 28, flexShrink: 0 }} />
+            <Box sx={{ flex: 1, minWidth: 0 }}>
+              <Typography variant="subtitle2" sx={{ fontWeight: 700, fontSize: '0.9rem', lineHeight: 1.3 }}>
+                ⚠ {activeSafetyAlert.title}
+              </Typography>
+              <Typography variant="body2" sx={{ opacity: 0.95, fontSize: '0.8rem', mt: 0.25, maxHeight: 120, overflowY: 'auto' }}>
+                {activeSafetyAlert.message}
+              </Typography>
+              {activeSafetyAlert.citation && (
+                <Typography variant="caption" sx={{ opacity: 0.75, fontSize: '0.7rem', mt: 0.5, fontStyle: 'italic', display: 'block' }}>
+                  Source: {activeSafetyAlert.citation}
+                </Typography>
+              )}
+              {activeSafetyAlert.crisis_resources && activeSafetyAlert.crisis_resources.length > 0 && (
+                <Box sx={{ display: 'flex', gap: 2, mt: 0.5, flexWrap: 'wrap' }}>
+                  {activeSafetyAlert.crisis_resources.map((resource, idx) => (
+                    <Chip
+                      key={idx}
+                      icon={<Phone sx={{ fontSize: 14, color: 'white !important' }} />}
+                      label={resource}
+                      size="small"
+                      sx={{
+                        bgcolor: 'rgba(255,255,255,0.2)',
+                        color: 'white',
+                        fontWeight: 600,
+                        fontSize: '0.75rem',
+                        '& .MuiChip-icon': { color: 'white' },
+                      }}
+                    />
+                  ))}
+                </Box>
+              )}
+            </Box>
+            <Button
+              variant="outlined"
+              size="small"
+              startIcon={<Warning />}
+              onClick={() => handleAcknowledgeSafetyAlert(activeSafetyAlert)}
+              sx={{
+                color: 'white',
+                borderColor: 'rgba(255,255,255,0.6)',
+                fontWeight: 700,
+                textTransform: 'none',
+                flexShrink: 0,
+                '&:hover': {
+                  borderColor: 'white',
+                  bgcolor: 'rgba(255,255,255,0.15)',
+                },
+              }}
+            >
+              Acknowledge
+            </Button>
+          </Box>
+        )}
+
         {/* Main Content Area */}
         <Box sx={{
           display: 'flex',
@@ -1370,8 +1693,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             {[
               { key: 'guidance', label: 'Guidance', icon: <Explore sx={{ fontSize: 24, color: '#444746' }} /> },
               { key: 'pathway', label: 'Pathway', icon: <Route sx={{ fontSize: 24, color: '#444746' }} /> },
-              { key: 'alternatives', label: 'Alternatives', icon: <CallSplit sx={{ fontSize: 24, color: '#444746' }} /> },
-            ].map((item) => (
+            ].map((item, idx, arr) => (
                 <Box
                   key={item.key}
                   sx={{
@@ -1385,7 +1707,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                     '&:hover': {
                       backgroundColor: 'rgba(0, 0, 0, 0.04)',
                     },
-                    borderBottom: item.key !== 'alternatives' ? '1px solid rgba(196, 199, 197, 0.3)' : 'none',
+                    borderBottom: idx < arr.length - 1 ? '1px solid rgba(196, 199, 197, 0.3)' : 'none',
                   }}
                   onClick={() => setActiveTab(item.key as any)}
                 >
@@ -1443,18 +1765,6 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                 pathwayIndicators={pathwayIndicators}
               />
             )}
-            {activeTab === 'alternatives' && (
-              <AlternativesTab 
-                alternativePathways={pathwayGuidance.alternative_pathways}
-                citations={citations}
-                onCitationClick={handleCitationClick}
-                hasReceivedComprehensiveAnalysis={hasReceivedComprehensiveAnalysis}
-                waitingForComprehensiveJobId={waitingForComprehensiveJobId}
-                displayedComprehensiveJobId={displayedComprehensiveJobId}
-                displayedRealtimeJobId={displayedRealtimeJobId}
-                currentAlert={getCurrentAlert()}
-              />
-            )}
           </Box>
         </Box>
 
@@ -1462,10 +1772,28 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         <Box sx={{
           backgroundColor: 'white',
           px: 2,
-          py: 1,
           borderTop: '1px solid #f0f4f9',
           flexShrink: 0,
         }}>
+          {/* Collapse toggle */}
+          <Box
+            onClick={() => setChartExpanded(!chartExpanded)}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 0.5,
+              py: 0.5,
+              cursor: 'pointer',
+              userSelect: 'none',
+            }}
+          >
+            <Typography sx={{ fontSize: '11px', fontWeight: 600, color: '#5f6368', textTransform: 'uppercase', letterSpacing: '0.3px' }}>
+              Timeline
+            </Typography>
+            {chartExpanded ? <ExpandLess sx={{ fontSize: 16, color: '#5f6368' }} /> : <ExpandMore sx={{ fontSize: 16, color: '#5f6368' }} />}
+          </Box>
+
+          <Collapse in={chartExpanded}>
           {/* Chart Grid */}
           <Box sx={{ position: 'relative', mb: 1 }}>
             <Box sx={{
@@ -1483,31 +1811,41 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             </Box>
 
             {/* Dynamic event markers from actual session alerts */}
-            {alerts.length > 0 && sessionDuration > 0 && alerts
-              .filter(a => a.sessionTime !== undefined)
-              .slice(0, 8) // Show up to 8 markers
-              .map((alert, idx) => {
-                // Position marker proportionally along the timeline
-                const position = Math.max(5, Math.min(95, ((alert.sessionTime || 0) / sessionDuration) * 100));
-                return (
-                  <Tooltip key={idx} title={`${alert.title} (${alert.category})`}>
-                    <IconButton
-                      onClick={() => setSelectedAlertIndex(idx)}
-                      sx={{
-                        position: 'absolute',
-                        bottom: -10,
-                        left: `${position}%`,
-                        transform: 'translateX(-50%)',
-                        p: 0.5,
-                      }}
-                    >
-                      {getCategoryIcon(alert.category)}
-                    </IconButton>
-                  </Tooltip>
-                );
-              })
-            }
+            {alerts.length > 0 && sessionDuration > 0 && (
+              <Box sx={{
+                display: 'flex',
+                position: 'relative',
+                height: 28,
+                mt: 0.5,
+                mx: 5.5, // Align with chart area (offset for Y-axis label width)
+              }}>
+                {alerts
+                  .filter(a => a.sessionTime !== undefined)
+                  .slice(0, 8)
+                  .map((alert, idx) => {
+                    const position = Math.max(2, Math.min(98, ((alert.sessionTime || 0) / sessionDuration) * 100));
+                    return (
+                      <Tooltip key={idx} title={`${alert.title} (${alert.category})`}>
+                        <IconButton
+                          onClick={() => setSelectedAlertIndex(idx)}
+                          sx={{
+                            position: 'absolute',
+                            top: 0,
+                            left: `${position}%`,
+                            transform: 'translateX(-50%)',
+                            p: 0.25,
+                          }}
+                        >
+                          {getCategoryIcon(alert.category)}
+                        </IconButton>
+                      </Tooltip>
+                    );
+                  })
+                }
+              </Box>
+            )}
           </Box>
+          </Collapse>
 
         </Box>
 
@@ -1532,56 +1870,69 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
               <Typography variant="h6" sx={{ fontWeight: 600, color: '#1f1f1f', fontSize: '15px' }}>
                 {sessionContext.current_approach || 'Cognitive Behavioral Therapy'}
               </Typography>
-            </Box>
-            <Box sx={{ display: 'flex', gap: 1 }}>
-              {/* Dynamic technique chips from analysis */}
-              {sessionMetrics.techniques_detected.length > 0 ? (
-                sessionMetrics.techniques_detected.slice(0, 3).map((technique, idx) => (
-                  <Chip
-                    key={idx}
-                    icon={<Check sx={{ fontSize: 18, color: '#0b57d0' }} />}
-                    label={technique}
-                    size="small"
-                    sx={{
-                      backgroundColor: 'transparent',
-                      border: '1px solid #c4c7c5',
-                      borderRadius: '8px',
-                      '& .MuiChip-icon': { color: '#0b57d0' },
-                      '& .MuiChip-label': {
-                        fontSize: '12px',
-                        fontWeight: 500,
-                        color: '#0b57d0',
-                      },
-                    }}
-                  />
-                ))
-              ) : (
+              {/* Therapist-selected badge */}
+              {sessionContext.therapist_selected_modality && (
                 <Chip
-                  label="Awaiting analysis..."
+                  icon={<Check sx={{ fontSize: 14 }} />}
+                  label="Therapist Selected"
                   size="small"
                   sx={{
-                    backgroundColor: 'transparent',
-                    border: '1px solid #e0e0e0',
+                    backgroundColor: '#e3f2fd',
+                    border: '1px solid #90caf9',
                     borderRadius: '8px',
-                    '& .MuiChip-label': {
-                      fontSize: '12px',
-                      fontWeight: 500,
-                      color: '#9e9e9e',
-                      fontStyle: 'italic',
-                    },
+                    height: '22px',
+                    '& .MuiChip-label': { fontSize: '10px', fontWeight: 500, color: '#1565c0', px: 1 },
+                    '& .MuiChip-icon': { color: '#1565c0' },
                   }}
                 />
               )}
+              {/* AI modality suggestion — informational only, requires minimum word threshold */}
+              {sessionMetrics.detected_modality && sessionMetrics.detected_modality.confidence >= 0.7
+                && sessionContext.session_type !== sessionMetrics.detected_modality.code
+                && totalWordCountRef.current >= MIN_WORDS_FOR_MODALITY_SUGGESTION && (
+                <Tooltip title={`Based on ${totalWordCountRef.current} words analyzed. Consider ${sessionMetrics.detected_modality.name} for next session.`}>
+                  <Chip
+                    icon={<Lightbulb sx={{ fontSize: 14 }} />}
+                    label={`AI suggests: ${sessionMetrics.detected_modality.code} (${Math.round(sessionMetrics.detected_modality.confidence * 100)}%)`}
+                    size="small"
+                    sx={{
+                      backgroundColor: '#fff8e1',
+                      border: '1px solid #ffe082',
+                      borderRadius: '8px',
+                      height: '22px',
+                      '& .MuiChip-label': { fontSize: '10px', fontWeight: 500, color: '#f57f17', px: 1 },
+                      '& .MuiChip-icon': { color: '#f57f17' },
+                    }}
+                  />
+                </Tooltip>
+              )}
+              {/* Gathering data placeholder — shown when recording but not enough words yet */}
+              {isRecording && totalWordCountRef.current < MIN_WORDS_FOR_MODALITY_SUGGESTION && totalWordCountRef.current > 0 && (
+                <Chip
+                  label="Gathering data..."
+                  size="small"
+                  sx={{
+                    backgroundColor: '#f5f5f5',
+                    border: '1px solid #e0e0e0',
+                    borderRadius: '8px',
+                    height: '22px',
+                    '& .MuiChip-label': { fontSize: '10px', fontWeight: 400, color: '#9e9e9e', px: 1 },
+                  }}
+                />
+              )}
+            </Box>
+            <Box sx={{ display: 'flex', gap: 1 }}>
               {/* Dynamic effectiveness chip from pathway analysis */}
               {(() => {
                 const eff = pathwayIndicators.current_approach_effectiveness;
                 const effConfig = {
-                  effective: { bg: '#ddf8d8', border: '#beefbb', color: '#128937', label: 'Effective' },
-                  struggling: { bg: '#fef3cd', border: '#fde68a', color: '#92400e', label: 'Struggling' },
-                  ineffective: { bg: '#fee2e2', border: '#fca5a5', color: '#b91c1c', label: 'Ineffective' },
-                  unknown: { bg: '#f3f4f6', border: '#e0e0e0', color: '#9e9e9e', label: 'Assessing...' },
-                }[eff] || { bg: '#f3f4f6', border: '#e0e0e0', color: '#9e9e9e', label: 'Assessing...' };
+                  effective: { bg: '#ddf8d8', border: '#beefbb', color: '#128937', label: 'Effective', tooltip: 'Current therapeutic approach is producing positive patient responses and treatment engagement.' },
+                  struggling: { bg: '#fef3cd', border: '#fde68a', color: '#92400e', label: 'Struggling', tooltip: 'Patient shows limited response to current approach; consider adjusting techniques or exploring alternative pathways.' },
+                  ineffective: { bg: '#fee2e2', border: '#fca5a5', color: '#b91c1c', label: 'Ineffective', tooltip: 'Current approach is not producing therapeutic benefit; a shift in modality or technique is recommended.' },
+                  unknown: { bg: '#f3f4f6', border: '#e0e0e0', color: '#9e9e9e', label: 'Assessing...', tooltip: 'Evaluating therapeutic approach effectiveness based on patient responses and session dynamics.' },
+                }[eff] || { bg: '#f3f4f6', border: '#e0e0e0', color: '#9e9e9e', label: 'Assessing...', tooltip: 'Evaluating therapeutic approach effectiveness.' };
                 return (
+                  <Tooltip title={effConfig.tooltip} arrow placement="top">
                   <Chip
                     icon={eff !== 'unknown' ? <Check sx={{ fontSize: 18, color: effConfig.color }} /> : undefined}
                     label={effConfig.label}
@@ -1598,6 +1949,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                       },
                     }}
                   />
+                  </Tooltip>
                 );
               })()}
             </Box>
@@ -1616,7 +1968,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
               px: 1,
               py: 1,
               borderRight: '1px solid #f0f4f9',
-              minWidth: isRecording ? 100 : 180,
+              minWidth: isRecording ? 100 : 'auto',
               flexShrink: 0,
             }}>
               {isRecording ? (
@@ -1678,7 +2030,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                 <Box sx={{
                   display: 'flex',
                   gap: 0.5,
-                  flexDirection: 'column',
+                  flexDirection: 'row',
+                  flexWrap: 'wrap',
                   alignItems: 'center',
                 }}>
                   <Button
@@ -1753,152 +2106,62 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                     onChange={handleFileUpload}
                     style={{ display: 'none' }}
                   />
+                  <Button
+                    variant="outlined"
+                    size="small"
+                    startIcon={<Headphones />}
+                    onClick={() => audioFileInputRef.current?.click()}
+                    sx={{
+                      borderColor: '#7c3aed',
+                      color: '#7c3aed',
+                      '&:hover': {
+                        borderColor: '#6d28d9',
+                        backgroundColor: 'rgba(124, 58, 237, 0.04)',
+                      },
+                      fontWeight: 600,
+                      borderRadius: '12px',
+                      px: 1.5,
+                      py: 0.25,
+                      fontSize: '11px',
+                      minWidth: 'auto',
+                    }}
+                  >
+                    Upload Audio
+                  </Button>
+                  <input
+                    type="file"
+                    accept=".mp3,.wav,.m4a,.webm,.ogg"
+                    ref={audioFileInputRef}
+                    onChange={handleAudioFileUpload}
+                    style={{ display: 'none' }}
+                  />
+                  {pendingTestScript && (
+                    <Chip
+                      label={`Script loaded (${pendingTestScript.length} entries)`}
+                      size="small"
+                      color="success"
+                      onDelete={() => setPendingTestScript(null)}
+                      sx={{ fontWeight: 600, fontSize: '10px' }}
+                    />
+                  )}
+                  {pendingAudioFile && (
+                    <Chip
+                      label={`Audio: ${pendingAudioFile.name}`}
+                      size="small"
+                      color="secondary"
+                      onDelete={() => {
+                        URL.revokeObjectURL(pendingAudioFile.url);
+                        setPendingAudioFile(null);
+                      }}
+                      sx={{ fontWeight: 600, fontSize: '10px', maxWidth: '200px' }}
+                    />
+                  )}
                 </Box>
               ) : (
                 <Typography variant="h6" sx={{ fontWeight: 500, fontSize: '24px', color: '#1e1e1e' }}>
                   {sessionId}
                 </Typography>
               )}
-            </Box>
-
-            {/* Emotional State */}
-            <Box sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 1.5,
-              py: 0.75,
-              borderRight: '1px solid #f0f4f9',
-              minWidth: 90,
-              overflow: 'hidden',
-            }}>
-              <Box sx={{
-                width: 12,
-                height: 12,
-                borderRadius: '50%',
-                backgroundColor: getEmotionalStateColor(sessionMetrics.emotional_state),
-                flexShrink: 0,
-              }} />
-              <Box sx={{ minWidth: 0 }}>
-                <Typography sx={{
-                  fontSize: '9px',
-                  color: '#5f6368',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.3px',
-                  lineHeight: 1.2,
-                  whiteSpace: 'nowrap',
-                }}>
-                  Emotional
-                </Typography>
-                <Typography sx={{ fontWeight: 600, fontSize: '12px', color: '#1f1f1f', textTransform: 'capitalize', lineHeight: 1.3, whiteSpace: 'nowrap' }}>
-                  {sessionMetrics.emotional_state}
-                </Typography>
-              </Box>
-            </Box>
-
-            {/* Engagement Level */}
-            <Box sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 1.5,
-              py: 0.75,
-              borderRight: '1px solid #f0f4f9',
-              minWidth: 90,
-              overflow: 'hidden',
-            }}>
-              <Box sx={{
-                width: 12,
-                height: 12,
-                borderRadius: '50%',
-                backgroundColor: '#0b57d0',
-                flexShrink: 0,
-              }} />
-              <Box sx={{ minWidth: 0 }}>
-                <Typography sx={{
-                  fontSize: '9px',
-                  color: '#5f6368',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.3px',
-                  lineHeight: 1.2,
-                  whiteSpace: 'nowrap',
-                }}>
-                  Engagement
-                </Typography>
-                <Typography sx={{ fontWeight: 600, fontSize: '12px', color: '#1f1f1f', lineHeight: 1.3, whiteSpace: 'nowrap' }}>
-                  {sessionMetrics.engagement_level === 0 ? '—' : `${Math.round(sessionMetrics.engagement_level * 100)}%`}
-                </Typography>
-              </Box>
-            </Box>
-
-            {/* Therapeutic Alliance */}
-            <Box sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 1.5,
-              py: 0.75,
-              borderRight: '1px solid #f0f4f9',
-              minWidth: 90,
-              overflow: 'hidden',
-            }}>
-              <Box sx={{
-                width: 12,
-                height: 12,
-                borderRadius: '50%',
-                backgroundColor: '#9254ea',
-                flexShrink: 0,
-              }} />
-              <Box sx={{ minWidth: 0 }}>
-                <Typography sx={{
-                  fontSize: '9px',
-                  color: '#5f6368',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.3px',
-                  lineHeight: 1.2,
-                  whiteSpace: 'nowrap',
-                }}>
-                  Alliance
-                </Typography>
-                <Typography sx={{ fontWeight: 600, fontSize: '12px', color: '#1f1f1f', textTransform: 'capitalize', lineHeight: 1.3, whiteSpace: 'nowrap' }}>
-                  {sessionMetrics.therapeutic_alliance}
-                </Typography>
-              </Box>
-            </Box>
-
-            {/* Arousal Level */}
-            <Box sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 1.5,
-              py: 0.75,
-              borderRight: '1px solid #f0f4f9',
-              minWidth: 90,
-              overflow: 'hidden',
-            }}>
-              <Box sx={{
-                width: 12,
-                height: 12,
-                borderRadius: '50%',
-                backgroundColor: getArousalColor(sessionMetrics.arousal_level),
-                flexShrink: 0,
-              }} />
-              <Box sx={{ minWidth: 0 }}>
-                <Typography sx={{
-                  fontSize: '9px',
-                  color: '#5f6368',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.3px',
-                  lineHeight: 1.2,
-                  whiteSpace: 'nowrap',
-                }}>
-                  Arousal
-                </Typography>
-                <Typography sx={{ fontWeight: 600, fontSize: '12px', color: '#1f1f1f', textTransform: 'capitalize', lineHeight: 1.3, whiteSpace: 'nowrap' }}>
-                  {sessionMetrics.arousal_level}
-                </Typography>
-              </Box>
             </Box>
 
             {/* Phase Indicator */}
@@ -1938,6 +2201,99 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
               px: 2,
               py: 0.75,
             }}>
+              {/* Mic / Connection Status + Voice Activity */}
+              {isRecording && (() => {
+                // Derive current speaker from most recent transcript entry
+                const recentEntries = transcript.filter(t => t.speaker && t.speaker !== 'conversation');
+                const currentSpeaker = recentEntries.length > 0 ? recentEntries[recentEntries.length - 1].speaker : null;
+                const hasInterim = transcript.some(t => t.is_interim);
+                const speakerColor = currentSpeaker === 'Therapist' ? '#0d9488' : currentSpeaker === 'Patient' ? '#6366f1' : '#059669';
+
+                return (
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                    {!isPaused ? (
+                      <>
+                        {/* Connection dot */}
+                        <Box sx={{
+                          width: 10, height: 10, borderRadius: '50%',
+                          backgroundColor: isConnected
+                            ? (hasInterim ? speakerColor : '#10b981')
+                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#f59e0b' : '#ef4444'),
+                          animation: isConnected
+                            ? (hasInterim ? 'pulse-voice 0.8s ease-in-out infinite' : 'pulse-mic 1.5s ease-in-out infinite')
+                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'pulse-mic 1.5s ease-in-out infinite' : 'none'),
+                          boxShadow: isConnected
+                            ? (hasInterim ? `0 0 8px ${speakerColor}80` : '0 0 6px rgba(16, 185, 129, 0.5)')
+                            : (!wasEverConnectedRef.current && sessionDuration < 5
+                              ? '0 0 6px rgba(245, 158, 11, 0.5)'
+                              : '0 0 6px rgba(239, 68, 68, 0.5)'),
+                          '@keyframes pulse-mic': {
+                            '0%, 100%': { opacity: 1, transform: 'scale(1)' },
+                            '50%': { opacity: 0.5, transform: 'scale(0.85)' },
+                          },
+                          '@keyframes pulse-voice': {
+                            '0%, 100%': { opacity: 1, transform: 'scale(1)' },
+                            '50%': { opacity: 0.6, transform: 'scale(1.3)' },
+                          },
+                        }} />
+                        {/* Status text */}
+                        <Typography sx={{
+                          fontSize: '10px', fontWeight: 600, letterSpacing: '0.5px', textTransform: 'uppercase',
+                          color: isConnected
+                            ? speakerColor
+                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#d97706' : '#dc2626'),
+                        }}>
+                          {!isConnected
+                            ? (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
+                            : hasInterim && currentSpeaker
+                              ? `${currentSpeaker} speaking`
+                              : sessionType === 'audio' ? 'Playing' : 'Listening'
+                          }
+                        </Typography>
+
+                        {/* Audio level bars — driven by real PCM audio level from worklet */}
+                        {isConnected && (
+                          <Box sx={{ display: 'flex', alignItems: 'center', gap: '2px', ml: 0.25 }}>
+                            {[0.6, 1.0, 0.8, 0.5, 0.9, 0.7, 0.4].map((sensitivity, i) => {
+                              const barHeight = Math.max(3, Math.min(14, 3 + audioLevel * sensitivity * 14));
+                              return (
+                                <Box
+                                  key={i}
+                                  sx={{
+                                    width: 2.5,
+                                    height: `${barHeight}px`,
+                                    borderRadius: 1,
+                                    backgroundColor: hasInterim ? speakerColor : '#10b981',
+                                    opacity: audioLevel > 0.02 ? 0.9 : 0.35,
+                                    transition: 'height 80ms ease-out, opacity 200ms ease',
+                                  }}
+                                />
+                              );
+                            })}
+                          </Box>
+                        )}
+                      </>
+                    ) : (
+                      <>
+                        <Box sx={{ width: 10, height: 10, borderRadius: '50%', backgroundColor: '#f59e0b' }} />
+                        <Typography sx={{ fontSize: '10px', fontWeight: 600, color: '#d97706', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                          Paused
+                        </Typography>
+                      </>
+                    )}
+                    <Box sx={{ width: 1, height: 16, backgroundColor: '#e8eaed', mx: 0.5 }} />
+                    {/* Speaker role indicator */}
+                    <Typography sx={{ fontSize: '9px', color: '#5f6368' }}>
+                      {sessionType === 'audio'
+                        ? 'Audio File'
+                        : currentSpeaker
+                          ? <><Box component="span" sx={{ color: '#0d9488', fontWeight: 600 }}>T</Box>=Therapist <Box component="span" sx={{ color: '#6366f1', fontWeight: 600 }}>P</Box>=Patient</>
+                          : 'Diarization: auto-detect speakers'
+                      }
+                    </Typography>
+                  </Box>
+                );
+              })()}
               <Typography variant="h6" sx={{ fontWeight: 400, fontSize: '22px', color: '#444746' }}>
                 {formatDuration(sessionDuration)}
               </Typography>
@@ -1996,6 +2352,42 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           </Box>
         </Box>
       </Box>
+
+      {/* Audio Playback Progress Bar */}
+      {isPlayingAudio && (
+        <Box sx={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 10,
+          background: 'linear-gradient(135deg, rgba(124, 58, 237, 0.95) 0%, rgba(109, 40, 217, 0.95) 100%)',
+          backdropFilter: 'blur(8px)',
+          px: 3,
+          py: 1.5,
+          display: 'flex',
+          alignItems: 'center',
+          gap: 2,
+        }}>
+          <Headphones sx={{ color: 'white', fontSize: 20 }} />
+          <Typography variant="caption" sx={{ color: 'white', fontWeight: 600, minWidth: 'fit-content', fontSize: '0.75rem' }}>
+            Playing Audio
+          </Typography>
+          <Box sx={{ flex: 1, position: 'relative', height: 6, borderRadius: 3, backgroundColor: 'rgba(255,255,255,0.25)' }}>
+            <Box sx={{
+              position: 'absolute',
+              top: 0, left: 0, bottom: 0,
+              width: `${audioProgress}%`,
+              borderRadius: 3,
+              background: 'linear-gradient(90deg, #a78bfa 0%, #c4b5fd 100%)',
+              transition: 'width 0.3s ease',
+            }} />
+          </Box>
+          <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.8)', fontWeight: 500, minWidth: 40, textAlign: 'right' }}>
+            {Math.round(audioProgress)}%
+          </Typography>
+        </Box>
+      )}
 
       {/* Floating Action Buttons */}
       <Box sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
@@ -2101,12 +2493,16 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       {/* Session Summary Modal */}
       <SessionSummaryModal
         open={showSessionSummary}
-        onClose={() => setShowSessionSummary(false)}
+        onClose={() => { setShowSessionSummary(false); if (!summaryLoading) setSummaryError(null); }}
         summary={sessionSummary}
         loading={summaryLoading}
         error={summaryError}
         onRetry={requestSummary}
         sessionId={sessionId}
+        alternativePathways={pathwayGuidance.alternative_pathways}
+        onSaveSession={handleSaveSession}
+        saveSessionLoading={saveSessionLoading}
+        saveSessionSuccess={saveSessionSuccess}
       />
 
       <RationaleModal
@@ -2127,6 +2523,185 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         }}
         citation={selectedCitationModal}
       />
+
+      {/* Session Setup Dialog — Therapist selects modality before recording starts */}
+      <Dialog
+        open={showSessionSetup}
+        onClose={() => setShowSessionSetup(false)}
+        maxWidth="sm"
+        fullWidth
+        PaperProps={{
+          sx: {
+            borderRadius: '16px',
+            background: 'linear-gradient(135deg, #ffffff 0%, #f8fafe 100%)',
+          }
+        }}
+      >
+        <DialogTitle sx={{ pb: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+            <Psychology sx={{ color: '#1565c0', fontSize: 28 }} />
+            <Box>
+              <Typography variant="h6" sx={{ fontWeight: 700, color: '#1f1f1f', fontSize: '18px' }}>
+                Session Setup
+              </Typography>
+              <Typography variant="body2" sx={{ color: '#5f6368', fontSize: '13px' }}>
+                Select the therapy modality for this session
+              </Typography>
+            </Box>
+          </Box>
+        </DialogTitle>
+        <DialogContent sx={{ pt: 1 }}>
+          <FormControl component="fieldset" sx={{ width: '100%' }}>
+            <FormLabel component="legend" sx={{ mb: 1, fontWeight: 600, fontSize: '14px', color: '#444746' }}>
+              Therapy Modality
+            </FormLabel>
+            <RadioGroup
+              value={setupSelectedModality}
+              onChange={(e) => setSetupSelectedModality(e.target.value)}
+            >
+              {MODALITY_OPTIONS.map((option) => (
+                <FormControlLabel
+                  key={option.code}
+                  value={option.code}
+                  control={<Radio size="small" sx={{ '&.Mui-checked': { color: '#1565c0' } }} />}
+                  label={
+                    <Box sx={{ py: 0.5 }}>
+                      <Typography variant="body2" sx={{ fontWeight: 600, color: '#1f1f1f', fontSize: '14px' }}>
+                        {option.name}
+                        <Chip
+                          label={option.code}
+                          size="small"
+                          sx={{ ml: 1, height: '18px', fontSize: '10px', fontWeight: 600, bgcolor: '#e3f2fd', color: '#1565c0' }}
+                        />
+                      </Typography>
+                      <Typography variant="caption" sx={{ color: '#5f6368', fontSize: '12px', lineHeight: 1.3, display: 'block', mt: 0.25 }}>
+                        {option.description}
+                      </Typography>
+                    </Box>
+                  }
+                  sx={{
+                    mx: 0,
+                    mb: 0.5,
+                    px: 1.5,
+                    py: 0.5,
+                    borderRadius: '10px',
+                    border: '1px solid',
+                    borderColor: setupSelectedModality === option.code ? '#90caf9' : '#e0e0e0',
+                    bgcolor: setupSelectedModality === option.code ? '#e3f2fd' : 'transparent',
+                    transition: 'all 0.2s ease',
+                    '&:hover': { bgcolor: setupSelectedModality === option.code ? '#e3f2fd' : '#f5f5f5' },
+                  }}
+                />
+              ))}
+            </RadioGroup>
+          </FormControl>
+          {/* Example Audio — quick-pick for demo */}
+          <Box sx={{ mt: 2.5, pt: 2, borderTop: '1px solid #e8eaed' }}>
+            <Typography variant="body2" sx={{ fontWeight: 600, fontSize: '14px', color: '#444746', mb: 1, display: 'flex', alignItems: 'center', gap: 0.75 }}>
+              <AudioFile sx={{ fontSize: 18, color: '#7c3aed' }} />
+              Example Audio (optional)
+            </Typography>
+            <Typography variant="caption" sx={{ color: '#5f6368', fontSize: '11px', mb: 1.5, display: 'block' }}>
+              Select a pre-loaded session recording for demo — or use microphone / upload your own audio above
+            </Typography>
+            <Box sx={{ display: 'flex', gap: 1 }}>
+              {EXAMPLE_AUDIO_OPTIONS.map((audio) => {
+                const isSelected = pendingAudioFile?.name === audio.file;
+                return (
+                  <Button
+                    key={audio.id}
+                    variant={isSelected ? 'contained' : 'outlined'}
+                    size="small"
+                    startIcon={<MusicNote sx={{ fontSize: 16 }} />}
+                    onClick={() => {
+                      if (isSelected) {
+                        // Deselect
+                        setPendingAudioFile(null);
+                      } else {
+                        // Select this example audio (uses public/ path — no blob URL needed)
+                        if (pendingAudioFile?.url?.startsWith('blob:')) {
+                          URL.revokeObjectURL(pendingAudioFile.url);
+                        }
+                        setPendingAudioFile({ name: audio.file, url: audio.file });
+                        setPendingTestScript(null);
+                      }
+                    }}
+                    sx={{
+                      flex: 1,
+                      textTransform: 'none',
+                      borderRadius: '10px',
+                      fontWeight: 600,
+                      fontSize: '12px',
+                      py: 1,
+                      borderColor: isSelected ? '#7c3aed' : '#d1d5db',
+                      color: isSelected ? '#fff' : '#374151',
+                      background: isSelected ? 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)' : 'transparent',
+                      '&:hover': {
+                        borderColor: '#7c3aed',
+                        backgroundColor: isSelected ? undefined : 'rgba(124, 58, 237, 0.04)',
+                      },
+                    }}
+                  >
+                    <Box sx={{ textAlign: 'left' }}>
+                      <Box>{audio.name}</Box>
+                      <Box sx={{ fontSize: '10px', fontWeight: 400, opacity: 0.8, mt: 0.25 }}>{audio.description}</Box>
+                    </Box>
+                  </Button>
+                );
+              })}
+            </Box>
+            {pendingAudioFile && (
+              <Chip
+                label={`Audio ready: ${pendingAudioFile.name.replace('/audio/', '')}`}
+                size="small"
+                color="secondary"
+                onDelete={() => {
+                  if (pendingAudioFile.url.startsWith('blob:')) {
+                    URL.revokeObjectURL(pendingAudioFile.url);
+                  }
+                  setPendingAudioFile(null);
+                }}
+                sx={{ mt: 1, fontWeight: 600, fontSize: '10px' }}
+              />
+            )}
+          </Box>
+
+          <MuiAlert severity="info" sx={{ mt: 2, borderRadius: '10px', fontSize: '12px' }}>
+            The AI assistant will provide evidence-based guidance using the selected modality's research corpus.
+            If the AI detects a different approach may be beneficial, it will display a suggestion chip — but will not auto-switch.
+          </MuiAlert>
+        </DialogContent>
+        <DialogActions sx={{ px: 3, pb: 2.5 }}>
+          <Button
+            onClick={() => setShowSessionSetup(false)}
+            sx={{ color: '#5f6368', textTransform: 'none' }}
+          >
+            Cancel
+          </Button>
+          <Button
+            variant="contained"
+            startIcon={pendingAudioFile ? <Headphones /> : pendingTestScript ? <Article /> : <Mic />}
+            onClick={handleConfirmSessionStart}
+            disabled={!setupSelectedModality}
+            sx={{
+              background: pendingAudioFile
+                ? 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)'
+                : 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+              color: 'white',
+              textTransform: 'none',
+              fontWeight: 600,
+              borderRadius: '10px',
+              '&:hover': {
+                background: pendingAudioFile
+                  ? 'linear-gradient(135deg, #6d28d9 0%, #7c3aed 100%)'
+                  : 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+              },
+            }}
+          >
+            {pendingAudioFile ? 'Start with Audio' : pendingTestScript ? 'Start with Script' : 'Start Session'}
+          </Button>
+        </DialogActions>
+      </Dialog>
 
       {/* Clinician Notes Panel - sticky at bottom */}
       <TherapistNotesPanel sessionInstanceId={sessionInstanceId} />

@@ -1,0 +1,27 @@
+# Environment files (contain secrets)
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files
+test_*.py
+
+# Logs
+*.log
+server.log
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore

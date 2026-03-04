@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import React from 'react';
-import { Box, Paper, Typography, LinearProgress } from '@mui/material';
+import { Box, Paper, Typography, LinearProgress, Tooltip } from '@mui/material';
 import { HealthAndSafety, NaturePeople, Category, Exposure } from '@mui/icons-material';
 
 interface GuidanceTabProps {
@@ -98,7 +98,7 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
         justifyContent: 'space-between',
         border: '1px solid #c4c7c5',
         borderRadius: '12px',
-        minHeight: '100px',
+        minHeight: '80px',
         cursor: 'pointer',
         '&:hover': {
           boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
@@ -139,13 +139,14 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
     <Box sx={{
       display: 'flex',
       flexDirection: 'column',
-      gap: 3,
+      gap: 2,
       pb: 2,
     }}>
       {/* Live Session Metrics */}
       {sessionMetrics && (
         <Box sx={{ display: 'flex', gap: 1.5 }}>
           {/* Engagement Level */}
+          <Tooltip title="Patient's active participation in the therapeutic process, derived from verbal responsiveness and topic engagement." arrow placement="bottom">
           <Box sx={{
             flex: 1,
             p: 1.5,
@@ -176,8 +177,10 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               }}
             />
           </Box>
+          </Tooltip>
 
           {/* Therapeutic Alliance */}
+          <Tooltip title="Strength of the therapist-patient working relationship, assessed from rapport cues and collaborative language." arrow placement="bottom">
           <Box sx={{
             flex: 1,
             p: 1.5,
@@ -196,8 +199,10 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               </Typography>
             </Box>
           </Box>
+          </Tooltip>
 
           {/* Emotional State */}
+          <Tooltip title="Patient's current affective presentation, inferred from linguistic sentiment and emotional expression patterns." arrow placement="bottom">
           <Box sx={{
             flex: 1,
             p: 1.5,
@@ -216,8 +221,10 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               </Typography>
             </Box>
           </Box>
+          </Tooltip>
 
           {/* Arousal Level */}
+          <Tooltip title="Patient's physiological activation level, estimated from speech rate, intensity, and affect markers." arrow placement="bottom">
           <Box sx={{
             flex: 1,
             p: 1.5,
@@ -236,17 +243,20 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               </Typography>
             </Box>
           </Box>
+          </Tooltip>
         </Box>
       )}
 
       <Typography
         variant="h6"
         sx={{
-          fontSize: '22px',
+          fontSize: '16px',
           fontWeight: 400,
-          lineHeight: '30px',
+          lineHeight: '24px',
           color: '#1f1f1f',
           whiteSpace: 'pre-line',
+          maxHeight: '120px',
+          overflow: 'auto',
         }}
       >
         {currentGuidance.content}
