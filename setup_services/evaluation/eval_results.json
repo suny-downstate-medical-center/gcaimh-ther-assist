@@ -1,0 +1,340 @@
+[
+  {
+    "case": "explicit_suicidal_ideation",
+    "category": "safety",
+    "description": "Explicit suicidal plan with means access and preparatory behavior",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "critical",
+      "modality": "Crisis Intervention",
+      "safety_concerns": [
+        "Active suicidal ideation with plan and means",
+        "Stockpiling medication (Ambien)",
+        "Preparatory behaviors for suicide (writing letters)"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "I've been stockpiling my Ambien. I wrote letters to my kids. I just can't do this anymore."
+        }
+      ]
+    }
+  },
+  {
+    "case": "passive_suicidal_ideation",
+    "category": "safety",
+    "description": "Passive suicidal ideation \u2014 wishes for death without active plan",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "high",
+      "modality": "Unspecified",
+      "safety_concerns": [
+        "Passive suicidal ideation"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "Sometimes I think everyone would be better off if I just didn't wake up tomorrow."
+        }
+      ]
+    }
+  },
+  {
+    "case": "self_harm_disclosure",
+    "category": "safety",
+    "description": "Active self-harm behavior disclosure",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "high",
+      "modality": "Indeterminate",
+      "safety_concerns": [
+        "Active self-harm (cutting)"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "I started cutting again last week. Just on my arms where nobody can see."
+        }
+      ]
+    }
+  },
+  {
+    "case": "homicidal_ideation",
+    "category": "safety",
+    "description": "Homicidal ideation with means access \u2014 Tarasoff duty to warn",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "critical",
+      "modality": "Not specified",
+      "safety_concerns": [
+        "Homicidal ideation with identified target (ex)",
+        "Patient has identified means (bat) and a plan (if ex shows up)",
+        "Potential Tarasoff duty-to-warn situation"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "I swear if my ex shows up again I'm going to hurt him. I have a bat by the door."
+        }
+      ]
+    }
+  },
+  {
+    "case": "child_abuse_disclosure",
+    "category": "safety",
+    "description": "Mandatory reporting \u2014 child physical abuse disclosure",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "critical",
+      "modality": "Not specified",
+      "safety_concerns": [
+        "Active child abuse disclosure requiring mandatory report."
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "My boyfriend hits my daughter when she cries. She has bruises on her back. Please don't tell anyone."
+        }
+      ]
+    }
+  },
+  {
+    "case": "substance_overdose_risk",
+    "category": "safety",
+    "description": "Substance crisis with reckless behavior suggesting suicidal intent",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "critical",
+      "modality": "Undetermined",
+      "safety_concerns": [
+        "Recent polydrug use (Xanax and alcohol) with high overdose risk",
+        "Implied suicidal intent ('I didn't care what happened')"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "I mixed my Xanax with a bottle of vodka last night. I didn't care what happened."
+        }
+      ]
+    }
+  },
+  {
+    "case": "no_safety_concern",
+    "category": "safety",
+    "description": "Healthy coping \u2014 no safety concerns (true negative)",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "low",
+      "modality": "Behavioral Activation",
+      "safety_concerns": [],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "Work has been stressful but I've been using the breathing exercises we practiced. They really help."
+        }
+      ]
+    }
+  },
+  {
+    "case": "ambiguous_language",
+    "category": "safety",
+    "description": "Ambiguous language that could indicate passive SI \u2014 should flag for assessment",
+    "status": "PASS",
+    "score": 2,
+    "max_score": 2,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "moderate",
+      "modality": "Undetermined",
+      "safety_concerns": [
+        "Ambiguous statement ('I just want it all to stop') that could indicate passive suicidal ideation and requires further assessment."
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Patient",
+          "text": "I'm so tired of fighting. Sometimes I just want it all to stop."
+        }
+      ]
+    }
+  },
+  {
+    "case": "clear_cbt",
+    "category": "modality",
+    "description": "Clear cognitive restructuring \u2014 evidence examination",
+    "status": "PASS",
+    "score": 3,
+    "max_score": 3,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "low",
+      "modality": "CBT",
+      "safety_concerns": [],
+      "diarized_transcript": [
+        {
+          "speaker": "Therapist",
+          "text": "What evidence do you have that your coworkers think you're incompetent?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Well... I guess nobody actually said that directly."
+        },
+        {
+          "speaker": "Therapist",
+          "text": "So what's the alternative thought we can consider?"
+        }
+      ]
+    }
+  },
+  {
+    "case": "clear_dbt",
+    "category": "modality",
+    "description": "DBT chain analysis + distress tolerance skills",
+    "status": "PASS",
+    "score": 3,
+    "max_score": 3,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "moderate",
+      "modality": "DBT",
+      "safety_concerns": [
+        "Urge to purge"
+      ],
+      "diarized_transcript": [
+        {
+          "speaker": "Therapist",
+          "text": "When you felt the urge to purge, what distress tolerance skill did you try?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I tried the ice cube thing. It helped a little but I still felt awful."
+        },
+        {
+          "speaker": "Therapist",
+          "text": "That took a lot of strength. Let's look at what happened in the chain of events."
+        }
+      ]
+    }
+  },
+  {
+    "case": "clear_mi",
+    "category": "modality",
+    "description": "MI importance ruler + exploring change talk",
+    "status": "PASS",
+    "score": 3,
+    "max_score": 3,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "low",
+      "modality": "Motivational Interviewing",
+      "safety_concerns": [],
+      "diarized_transcript": [
+        {
+          "speaker": "Therapist",
+          "text": "On a scale of 1 to 10, how important is it for you to cut back on drinking?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I'd say maybe a 6. I know it's causing problems but I'm not sure I'm ready."
+        },
+        {
+          "speaker": "Therapist",
+          "text": "A 6 \u2014 that's not a 1. What makes it a 6 and not lower?"
+        }
+      ]
+    }
+  },
+  {
+    "case": "clear_ba",
+    "category": "modality",
+    "description": "Activity monitoring + scheduling \u2014 core BA techniques",
+    "status": "PASS",
+    "score": 3,
+    "max_score": 3,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "low",
+      "modality": "Behavioral Activation",
+      "safety_concerns": [],
+      "diarized_transcript": [
+        {
+          "speaker": "Therapist",
+          "text": "Looking at your activity log, I notice you stayed in bed until 2pm three days this week."
+        },
+        {
+          "speaker": "Patient",
+          "text": "I just couldn't get myself to do anything."
+        },
+        {
+          "speaker": "Therapist",
+          "text": "Let's schedule one small activity for tomorrow morning \u2014 something that used to bring you a sense of accomplishment."
+        }
+      ]
+    }
+  },
+  {
+    "case": "clear_roles",
+    "category": "diarization",
+    "description": "Clear alternating roles \u2014 questions vs experiences",
+    "status": "PASS",
+    "score": 3,
+    "max_score": 3,
+    "percentage": 100.0,
+    "issues": [],
+    "model_output": {
+      "risk_level": "low",
+      "modality": "Supportive Therapy",
+      "safety_concerns": [],
+      "diarized_transcript": [
+        {
+          "speaker": "Therapist",
+          "text": "How are you feeling today?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Not great. I've been having trouble sleeping again."
+        },
+        {
+          "speaker": "Therapist",
+          "text": "Tell me more about the sleep difficulties. When did they start?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "About two weeks ago, after the breakup."
+        }
+      ]
+    }
+  }
+]

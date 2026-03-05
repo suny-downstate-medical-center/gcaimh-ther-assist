@@ -1,0 +1,116 @@
+[
+  {
+    "patient_id": "patient_001",
+    "session_date": "2025-01-06",
+    "session_number": 1,
+    "therapist_id": "therapist_A",
+    "modality": "CBT",
+    "risk_level": "moderate",
+    "safety_concerns": [
+      "Passive suicidal ideation \u2014 wishes things would stop"
+    ],
+    "key_themes": [
+      "Work stress",
+      "Sleep disturbance",
+      "Relationship conflict"
+    ],
+    "treatment_goals": [
+      "Reduce depressive symptoms (PHQ-9 from 18 to <10)",
+      "Improve sleep hygiene",
+      "Develop assertive communication skills"
+    ],
+    "goal_progress": {},
+    "homework_assigned": [
+      "Complete thought record daily",
+      "No screens 1hr before bed"
+    ],
+    "homework_completion": {},
+    "clinical_summary": "Initial assessment session. Patient presents with moderate depression and anxiety. Reports passive SI without plan or intent. Established CBT framework and psychoeducation about cognitive model.",
+    "risk_trajectory": "stable",
+    "next_session_focus": [
+      "Review thought records",
+      "Deeper exploration of automatic thoughts",
+      "Safety check-in"
+    ]
+  },
+  {
+    "patient_id": "patient_001",
+    "session_date": "2025-01-13",
+    "session_number": 2,
+    "therapist_id": "therapist_A",
+    "modality": "CBT",
+    "risk_level": "moderate",
+    "safety_concerns": [],
+    "key_themes": [
+      "Cognitive distortions identified",
+      "Sleep improving slightly",
+      "Work conflict escalated"
+    ],
+    "treatment_goals": [
+      "Reduce depressive symptoms (PHQ-9 from 18 to <10)",
+      "Improve sleep hygiene",
+      "Develop assertive communication skills"
+    ],
+    "goal_progress": {
+      "Reduce depressive symptoms (PHQ-9 from 18 to <10)": "PHQ-9 now 16 \u2014 slight improvement",
+      "Improve sleep hygiene": "Followed screen-free rule 4/7 nights"
+    },
+    "homework_assigned": [
+      "Continue thought records \u2014 focus on work situations",
+      "Practice 4-7-8 breathing before bed",
+      "Draft assertive response to supervisor (role-play next session)"
+    ],
+    "homework_completion": {
+      "Complete thought record daily": "Completed 5/7 days",
+      "No screens 1hr before bed": "Completed 4/7 nights"
+    },
+    "clinical_summary": "Session focused on cognitive restructuring. Identified all-or-nothing thinking pattern around work performance. Patient engaged well with thought records. SI not endorsed this session. Sleep showing early improvement with behavioral changes.",
+    "risk_trajectory": "improving",
+    "next_session_focus": [
+      "Role-play assertive communication with supervisor",
+      "Deepen cognitive restructuring",
+      "Introduce behavioral experiments"
+    ]
+  },
+  {
+    "patient_id": "patient_001",
+    "session_date": "2025-01-20",
+    "session_number": 3,
+    "therapist_id": "therapist_A",
+    "modality": "CBT",
+    "risk_level": "low",
+    "safety_concerns": [],
+    "key_themes": [
+      "Successful assertive communication at work",
+      "Sleep normalized",
+      "Mood noticeably improved"
+    ],
+    "treatment_goals": [
+      "Reduce depressive symptoms (PHQ-9 from 18 to <10)",
+      "Improve sleep hygiene",
+      "Develop assertive communication skills"
+    ],
+    "goal_progress": {
+      "Reduce depressive symptoms (PHQ-9 from 18 to <10)": "PHQ-9 now 12 \u2014 significant improvement",
+      "Improve sleep hygiene": "Sleeping 7hrs consistently",
+      "Develop assertive communication skills": "Successfully used assertive response with supervisor"
+    },
+    "homework_assigned": [
+      "Continue thought records",
+      "Practice assertive communication in one new situation",
+      "Begin values identification worksheet"
+    ],
+    "homework_completion": {
+      "Continue thought records \u2014 focus on work situations": "Completed daily",
+      "Practice 4-7-8 breathing before bed": "Completed nightly",
+      "Draft assertive response to supervisor (role-play next session)": "Completed \u2014 used in real situation"
+    },
+    "clinical_summary": "Significant progress this session. Patient reporting improved mood, better sleep, and successful use of assertive communication skills. PHQ-9 dropped to 12. Risk level moved from moderate to low. Transitioning to behavioral experiments and values work.",
+    "risk_trajectory": "improving",
+    "next_session_focus": [
+      "Behavioral experiments around core beliefs",
+      "Values-based activity planning",
+      "Relapse prevention planning (if progress continues)"
+    ]
+  }
+]

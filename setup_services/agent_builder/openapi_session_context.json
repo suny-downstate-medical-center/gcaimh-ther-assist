@@ -1,0 +1,102 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TherAssist Session Context Tool",
+    "version": "1.0.0",
+    "description": "Retrieves and stores multi-session patient context for therapy continuity."
+  },
+  "paths": {
+    "/": {
+      "post": {
+        "summary": "Session context operations",
+        "operationId": "sessionContext",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "action",
+                  "patient_id"
+                ],
+                "properties": {
+                  "action": {
+                    "type": "string",
+                    "enum": [
+                      "get_history",
+                      "get_risk_trajectory",
+                      "get_treatment_progress",
+                      "store_summary"
+                    ],
+                    "description": "The operation to perform"
+                  },
+                  "patient_id": {
+                    "type": "string",
+                    "description": "Anonymized patient identifier"
+                  },
+                  "limit": {
+                    "type": "integer",
+                    "default": 5,
+                    "description": "Max sessions to retrieve (for get_history)"
+                  },
+                  "session_number": {
+                    "type": "integer"
+                  },
+                  "therapist_id": {
+                    "type": "string"
+                  },
+                  "modality": {
+                    "type": "string"
+                  },
+                  "risk_level": {
+                    "type": "string"
+                  },
+                  "safety_concerns": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "key_themes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "treatment_goals": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "clinical_summary": {
+                    "type": "string"
+                  },
+                  "next_session_focus": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
