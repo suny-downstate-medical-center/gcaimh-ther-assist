@@ -2,12 +2,12 @@
 node_modules/
 */node_modules/
 
-# Environment variables
-.env
-.env.development
+# Environment variables (secrets only — project config .env files are tracked)
 .env.local
 .env.*.local
-*.env
+# Keep backend .env and frontend .env.development tracked (no secrets, just project config)
+!backend/*/.env
+!frontend/.env.development
 
 # Build outputs
 dist/

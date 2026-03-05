@@ -321,6 +321,25 @@ else
     echo "        streaming-transcription...OK!"
 fi
 
+# --- frontend env ---
+if [ ! -f "${SCRIPT_DIR}/frontend/.env.development" ]; then
+    echo "        Creating frontend config..."
+    cat > "${SCRIPT_DIR}/frontend/.env.development" << 'ENVEOF'
+# Google Cloud settings
+VITE_GOOGLE_CLOUD_PROJECT=brk-prj-salvador-dura-bern-sbx
+
+# Backend API endpoints (LOCAL DEVELOPMENT)
+VITE_ANALYSIS_API=http://localhost:8090
+VITE_STORAGE_ACCESS_URL=http://localhost:8081/storage_access
+VITE_STREAMING_API=ws://localhost:8082
+
+# Authorization Configuration
+VITE_AUTH_ALLOWED_DOMAINS=downstate.edu
+VITE_AUTH_ALLOWED_EMAILS=mohsin.sardar@downstate.edu
+ENVEOF
+    echo "        frontend config...          OK!"
+fi
+
 # --- frontend ---
 if [ -d "${SCRIPT_DIR}/frontend/node_modules" ]; then
     echo "        frontend...               already set up"

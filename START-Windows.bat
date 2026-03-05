@@ -355,6 +355,25 @@ call deactivate 2>nul
 echo        streaming-transcription...OK!
 
 :setup_frontend
+:: --- frontend env ---
+if not exist "%SCRIPT_DIR%frontend\.env.development" (
+    echo        Creating frontend config...
+    (
+        echo # Google Cloud settings
+        echo VITE_GOOGLE_CLOUD_PROJECT=brk-prj-salvador-dura-bern-sbx
+        echo.
+        echo # Backend API endpoints ^(LOCAL DEVELOPMENT^)
+        echo VITE_ANALYSIS_API=http://localhost:8090
+        echo VITE_STORAGE_ACCESS_URL=http://localhost:8081/storage_access
+        echo VITE_STREAMING_API=ws://localhost:8082
+        echo.
+        echo # Authorization Configuration
+        echo VITE_AUTH_ALLOWED_DOMAINS=downstate.edu
+        echo VITE_AUTH_ALLOWED_EMAILS=mohsin.sardar@downstate.edu
+    ) > "%SCRIPT_DIR%frontend\.env.development"
+    echo        frontend config...          OK!
+)
+
 :: --- frontend ---
 if exist "%SCRIPT_DIR%frontend\node_modules" (
     echo        frontend...               already set up
