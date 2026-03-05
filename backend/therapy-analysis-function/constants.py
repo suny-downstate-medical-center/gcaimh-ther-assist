@@ -338,13 +338,30 @@ Always refer to the patient as 'patient'"""
 COMPREHENSIVE_ANALYSIS_PROMPT = """<thinking>
 Analyze this therapy session segment step by step:
 1. Check for ANY safety concerns: suicidal ideation, self-harm, homicidal ideation, violence toward others, abuse disclosure (child/elder/DV/sexual), substance crisis, dissociation, panic
-2. If safety concern found: assess severity, identify specific risk factors, determine if duty-to-warn (Tarasoff) or mandatory reporting obligations apply
-3. DETECT the actual therapy modality being used by the therapist based on techniques and approach (CBT, DBT, IPT, BA, Exposure, ACT, MBCT, PE, EMDR, or General)
+2. If safety concern found: assess severity using RISK LEVEL DEFINITIONS below, identify specific risk factors, determine if duty-to-warn (Tarasoff) or mandatory reporting obligations apply
+3. DETECT the actual therapy modality being used by the therapist based on techniques and approach (CBT, DBT, IPT, BA, MI, Exposure, ACT, MBCT, PE, EMDR, or General)
 4. Evaluate therapeutic process metrics (engagement, alliance, techniques)
 5. Assess if current approach is effective or needs adjustment
 6. Search for similar patterns in clinical transcripts relevant to the detected therapeutic approach
 7. Reference evidence-based manuals and protocols for the detected modality
 8. Provide specific pathway guidance regardless of effectiveness
+
+RISK LEVEL DEFINITIONS (use these precisely — do NOT over-triage):
+- "low": No safety concerns. Patient is stable, engaged, and coping. Routine therapeutic work. This includes standard therapeutic conversations such as Motivational Interviewing about substance use, behavioral activation scheduling, or CBT cognitive restructuring — even when the TOPIC involves substances, distress, or negative patterns, the RISK is low if the therapist is conducting structured therapeutic work and the patient is engaged.
+- "moderate": Ambiguous or mild risk indicators that warrant monitoring but NOT immediate action. Includes: vague distress language that COULD indicate passive SI but is NOT definitive (e.g., "I want it all to stop", "I'm tired of fighting"), general hopelessness without specific suicidal content, discussing past risk behaviors in therapeutic context. KEY DISTINCTION: If the language is ambiguous and could be interpreted as either existential fatigue OR passive SI, rate as MODERATE (flag for assessment but do not over-triage).
+- "high": Active safety concerns without imminent danger. Requires CLEAR, UNAMBIGUOUS indicators: explicit passive suicidal ideation (e.g., "wish I were dead", "better off without me"), active self-harm disclosure, substance misuse with reckless disregard for safety, vague threats toward others without specific means/target. The patient must express something CLEARLY about death, self-harm, or harming others — not just general distress.
+- "critical": IMMINENT danger requiring immediate action. Includes: active suicidal ideation WITH plan AND means access, homicidal ideation WITH means AND identified target (Tarasoff), active child/elder abuse disclosure (mandatory reporting), overdose/acute intoxication with self-harm intent. ANY scenario involving plan + means + intent/target = CRITICAL.
+
+AMBIGUITY CALIBRATION:
+- "I want it all to stop" / "I'm tired of fighting" = MODERATE (ambiguous — could be existential fatigue, not necessarily SI)
+- "I wish I were dead" / "everyone would be better off without me" = HIGH (clearly references death/absence)
+- "I have a plan to kill myself" = CRITICAL (plan + intent)
+The key test: does the statement EXPLICITLY reference death, dying, or self-harm? If no, moderate. If yes, high or critical.
+
+THERAPEUTIC CONTEXT vs ACTIVE RISK (3-tier distinction):
+1. STRUCTURED THERAPEUTIC WORK (risk = LOW): Therapist guides discussion using MI importance rulers, CBT thought records, BA activity logs. Patient is engaged, topic processed therapeutically. Example: MI session exploring drinking patterns = LOW.
+2. THERAPEUTIC PROCESSING OF PAST HARMFUL BEHAVIORS (risk = MODERATE): Therapist guides review of past harmful behaviors (DBT chain analysis of urges, reviewing self-harm episodes, discussing relapse). Behavior is processed therapeutically but content involves clinically significant risk behaviors. Example: DBT chain analysis of purging urges = MODERATE.
+3. PATIENT REPORTING RECENT DANGEROUS ACTIONS (risk = HIGH or CRITICAL): Patient discloses recent life-threatening behavior NOT in a therapeutic processing frame. Example: "I mixed Xanax with vodka last night and didn't care what happened" = CRITICAL (polydrug overdose risk + implied suicidal intent). KEY: "I didn't care what happened" after dangerous substance combination = suicidal intent → CRITICAL.
 </thinking>
 
 You are an expert clinical supervisor providing real-time guidance during a therapy session. Analyze this segment comprehensively using BOTH:
@@ -374,7 +391,7 @@ Provide analysis with a JSON response only, no other text should exist besides t
         "therapeutic_alliance": "weak|moderate|strong IMPORTANT: only return one of the provided options",
         "techniques_detected": ["technique1", "technique2"],
         "detected_modality": {{
-            "code": "CBT|DBT|IPT IMPORTANT: only return one of these three codes based on the therapist's actual approach. CBT includes BA, Exposure, ACT techniques.",
+            "code": "CBT|DBT|IPT|BA|MI IMPORTANT: return the most specific modality code. Use BA (Behavioral Activation) when activity scheduling/monitoring is primary. Use MI (Motivational Interviewing) when change talk, importance rulers, or rolling with resistance is observed. Use CBT for cognitive restructuring, thought records, Socratic questioning. Use DBT for chain analysis, distress tolerance, emotion regulation. Use IPT for interpersonal disputes, role transitions, grief.",
             "name": "Full name of the detected therapy modality",
             "confidence": 0.0-1.0,
             "evidence": ["specific technique or approach observed in transcript"]
@@ -506,12 +523,12 @@ Format as structured JSON:
     ],
     "follow_up_recommendations": ["recommendation1", "recommendation2"],
     "risk_assessment": {{
-        "level": "low|moderate|high",
+        "level": "low|moderate|high|critical IMPORTANT: Use the RISK LEVEL DEFINITIONS from the thinking section. critical = imminent danger with plan+means+intent/target. high = active concerns without imminent danger. moderate = mild indicators or therapeutic processing of past risk. low = no safety concerns.",
         "factors": ["factor1", "factor2"]
     }},
     "alternate_therapy_paths": [
         {{
-            "therapy_type": "DBT|IPT|CBT (must be DIFFERENT from the current session modality)",
+            "therapy_type": "DBT|IPT|CBT|BA|MI (must be DIFFERENT from the current session modality)",
             "reason": "Why this alternate approach may benefit the patient based on observed session patterns",
             "key_indicators": ["specific observations from the session that suggest this alternate approach"],
             "techniques_to_try": ["2-3 specific techniques from the alternate modality to consider"]

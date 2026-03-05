@@ -51,11 +51,11 @@ gcloud run deploy ${SERVICE_NAME} \
     --region ${REGION} \
     --project ${PROJECT_ID} \
     --allow-unauthenticated \
-    --memory 1Gi \
-    --cpu 1 \
+    --memory 2Gi \
+    --cpu 2 \
     --timeout 3600 \
     --max-instances 100 \
-    --concurrency 1000 \
+    --concurrency 500 \
     --set-env-vars "GOOGLE_CLOUD_PROJECT=${PROJECT_ID},GOOGLE_CLOUD_LOCATION=${REGION}" \
     --ingress=${INGRESS} \
     --network=${SHARED_VPC_NETWORK} \

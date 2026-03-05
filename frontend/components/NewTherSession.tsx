@@ -809,8 +809,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     setWordsSinceLastAnalysis(prev => {
       const updatedWordCount = prev + newWords;
 
-      // Trigger analysis every 30 words (~1-2 sentences) for meaningful context
-      const WORDS_PER_ANALYSIS = 30;
+      // Trigger analysis every 15 words (~1 sentence) for responsive real-time guidance
+      const WORDS_PER_ANALYSIS = 15;
       const TRANSCRIPT_WINDOW_MINUTES = 5;
 
       if (updatedWordCount >= WORDS_PER_ANALYSIS) {

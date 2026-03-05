@@ -24,6 +24,7 @@ import re
 import time
 from typing import List, Dict, Tuple, Optional, Any
 from datetime import datetime, timedelta
+import threading
 import firebase_admin
 from firebase_admin import auth, credentials, firestore
 from dotenv import load_dotenv
@@ -173,6 +174,7 @@ def build_diagnostics(
     json_parse_success: bool,
     used_fallback: bool = False,
     trigger_phrase_detected: Optional[bool] = None,
+    context_cache_hit: Optional[bool] = None,
 ) -> Dict[str, Any]:
     """Build a standardized _diagnostics object for the frontend activity log."""
     latency_ms = round((end_time - start_time) * 1000)
@@ -207,6 +209,8 @@ def build_diagnostics(
     }
     if trigger_phrase_detected is not None:
         diag["trigger_phrase_detected"] = trigger_phrase_detected
+    if context_cache_hit is not None:
+        diag["context_cache_hit"] = context_cache_hit
     return diag
 
 def is_email_authorized(email: str) -> bool:
@@ -254,6 +258,69 @@ try:
     logging.info(f"Google GenAI initialized for project '{project_id}'")
 except Exception as e:
     logging.error(f"CRITICAL: Error initializing Google GenAI: {e}", exc_info=True)
+
+# ── Context Caching for System Prompts ───────────────────────────────────────
+# Caches the large static portion of the comprehensive analysis prompt
+# (risk definitions, calibration rules, JSON schema, diarization instructions).
+# This reduces input token costs by ~75% and improves latency for comprehensive analysis.
+# Cache TTL is 30 minutes; auto-refreshed when expired.
+_cached_content_lock = threading.Lock()
+_cached_content_resource = None  # stores the CachedContent resource name
+_cached_content_expiry = None    # datetime when the cache expires
+
+# The static system instruction portion of the comprehensive prompt
+# (everything EXCEPT the per-request variables like transcript_text, phase, etc.)
+COMPREHENSIVE_SYSTEM_INSTRUCTION = constants.COMPREHENSIVE_ANALYSIS_PROMPT.split(
+    "CURRENT SESSION CONTEXT:"
+)[0] + """CURRENT SESSION CONTEXT:
+(provided in the user message below)
+
+""" + constants.COMPREHENSIVE_ANALYSIS_PROMPT.split(
+    "Provide analysis with a JSON response only"
+)[1] if "CURRENT SESSION CONTEXT:" in constants.COMPREHENSIVE_ANALYSIS_PROMPT else None
+
+# Cache TTL in minutes (Gemini context caching minimum is 1 minute, max 60 minutes)
+CACHE_TTL_MINUTES = 30
+
+
+def _get_or_refresh_cached_content():
+    """Get existing cached content or create a new one if expired/missing.
+
+    Returns the cached content resource name, or None if caching is unavailable.
+    Thread-safe via lock.
+    """
+    global _cached_content_resource, _cached_content_expiry
+
+    if not COMPREHENSIVE_SYSTEM_INSTRUCTION:
+        return None
+
+    with _cached_content_lock:
+        now = datetime.utcnow()
+
+        # Return existing cache if still valid (with 2-minute buffer)
+        if _cached_content_resource and _cached_content_expiry and now < (_cached_content_expiry - timedelta(minutes=2)):
+            return _cached_content_resource
+
+        # Create new cached content
+        try:
+            cached = client.caches.create(
+                model=constants.MODEL_NAME_PRO,
+                config=types.CreateCachedContentConfig(
+                    system_instruction=COMPREHENSIVE_SYSTEM_INSTRUCTION,
+                    ttl=f"{CACHE_TTL_MINUTES * 60}s",
+                    display_name="therassist-comprehensive-system-prompt",
+                )
+            )
+            _cached_content_resource = cached.name
+            _cached_content_expiry = now + timedelta(minutes=CACHE_TTL_MINUTES)
+            logging.info(f"[CONTEXT CACHE] Created/refreshed cached content: {cached.name} (TTL={CACHE_TTL_MINUTES}min)")
+            return _cached_content_resource
+        except Exception as e:
+            logging.warning(f"[CONTEXT CACHE] Failed to create cached content (falling back to uncached): {e}")
+            _cached_content_resource = None
+            _cached_content_expiry = None
+            return None
+
 
 # --- Startup Credential Validation ---
 def _validate_credentials_at_startup():
@@ -1115,16 +1182,20 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
 
             # COMPREHENSIVE configuration for full analysis — optimized for speed
             # gemini-2.5-pro uses thinking_budget (integer), not thinking_level (semantic)
-            thinking_budget = 16384  # Balanced reasoning for clinical analysis
+            thinking_budget = 24576  # Deep clinical reasoning — budget allows Pro-level analysis
 
             # Escalate thinking budget if safety scanner detected keywords
             if safety_scan.get("detected"):
-                thinking_budget = 24576  # Maximum reasoning for safety-critical situations
+                thinking_budget = 32768  # Maximum reasoning for safety-critical situations
                 logging.warning(f"[SAFETY] Escalated thinking_budget to {thinking_budget} due to safety keyword detection")
             elif "suicide" in analysis_prompt.lower() or "self-harm" in analysis_prompt.lower():
-                thinking_budget = 24576  # Maximum reasoning for critical situations (legacy fallback)
+                thinking_budget = 32768  # Maximum reasoning for critical situations (legacy fallback)
 
             thinking_level = f"budget_{thinking_budget}"  # For diagnostics logging only
+
+            # ── Context Caching: try to use cached system prompt ──────────
+            cached_content_name = _get_or_refresh_cached_content()
+            using_cache = cached_content_name is not None
 
             config = types.GenerateContentConfig(
                 temperature=0.1,  # Near-deterministic for speed + consistency
@@ -1133,6 +1204,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     thinking_budget=thinking_budget,
                     include_thoughts=False
                 ),
+                cached_content=cached_content_name,
                 safety_settings=[
                     types.SafetySetting(
                         category="HARM_CATEGORY_HARASSMENT",
@@ -1166,7 +1238,8 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
             else:
                 _comp_tool_names = ["ebt-corpus", "cbt-corpus", "ba-corpus", "transcript-patterns"]
 
-            logging.info(f"[TIMING] Calling Gemini model '{constants.MODEL_NAME_PRO}' for comprehensive analysis with RAG tools: {_comp_tool_names}")
+            cache_status = f"cached={cached_content_name[:40]}..." if using_cache else "uncached"
+            logging.info(f"[TIMING] Calling Gemini model '{constants.MODEL_NAME_PRO}' for comprehensive analysis ({cache_status}) with RAG tools: {_comp_tool_names}")
 
             # Stream the response from the model
             comp_start = time.perf_counter()
@@ -1257,6 +1330,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     grounding_sources=grounding_chunks,
                     response_length=len(accumulated_text),
                     json_parse_success=True,
+                    context_cache_hit=using_cache,
                 )
 
                 yield json.dumps(parsed) + "\n"
@@ -1323,7 +1397,7 @@ def handle_pathway_guidance(request_json, headers):
             max_output_tokens=2048,
             tools=pathway_rag_tools,
             thinking_config=types.ThinkingConfig(
-                thinking_budget=8192,  # Focused clinical reasoning — optimized for speed
+                thinking_budget=16384,  # Enhanced clinical reasoning — budget allows deeper pathway analysis
                 include_thoughts=False
             ),
             safety_settings=[
@@ -1435,7 +1509,7 @@ def handle_session_summary(request_json, headers):
             max_output_tokens=4096,
             tools=summary_rag_tools,
             thinking_config=types.ThinkingConfig(
-                thinking_budget=16384,  # Thorough clinical analysis — prioritize quality over speed
+                thinking_budget=24576,  # Deep session summary analysis — maximize quality for final report
                 include_thoughts=False
             ),
             safety_settings=[

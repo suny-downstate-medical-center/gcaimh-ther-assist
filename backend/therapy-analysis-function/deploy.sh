@@ -28,11 +28,11 @@ gcloud run deploy ${SERVICE_NAME} \
     --region ${REGION} \
     --project ${PROJECT_ID} \
     --allow-unauthenticated \
-    --memory 2Gi \
-    --cpu 2 \
+    --memory 8Gi \
+    --cpu 4 \
     --timeout 300 \
     --max-instances 10 \
-    --concurrency 80 \
+    --concurrency 40 \
     --set-env-vars "GOOGLE_CLOUD_PROJECT=${PROJECT_ID},GOOGLE_CLOUD_LOCATION=${REGION}" \
     --ingress=${INGRESS} \
     --network=${SHARED_VPC_NETWORK} \

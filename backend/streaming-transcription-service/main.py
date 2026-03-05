@@ -162,6 +162,107 @@ class StreamingTranscriptionSession:
         self.main_loop = asyncio.get_event_loop()
 
     def get_streaming_config(self) -> types.StreamingRecognitionConfig:
+        # Clinical terminology phrase set for medical STT adaptation
+        # Biases recognizer toward therapy/psychiatric vocabulary
+        clinical_phrases = types.SpeechAdaptation(
+            phrase_sets=[
+                types.SpeechAdaptation.AdaptationPhraseSet(
+                    inline_phrase_set=types.PhraseSet(
+                        phrases=[
+                            # Therapy modalities
+                            types.PhraseSet.Phrase(value="cognitive behavioral therapy", boost=15),
+                            types.PhraseSet.Phrase(value="CBT", boost=18),
+                            types.PhraseSet.Phrase(value="dialectical behavior therapy", boost=15),
+                            types.PhraseSet.Phrase(value="DBT", boost=18),
+                            types.PhraseSet.Phrase(value="interpersonal therapy", boost=15),
+                            types.PhraseSet.Phrase(value="IPT", boost=15),
+                            types.PhraseSet.Phrase(value="behavioral activation", boost=15),
+                            types.PhraseSet.Phrase(value="motivational interviewing", boost=15),
+                            types.PhraseSet.Phrase(value="exposure therapy", boost=12),
+                            types.PhraseSet.Phrase(value="psychoeducation", boost=15),
+                            types.PhraseSet.Phrase(value="mindfulness", boost=10),
+                            types.PhraseSet.Phrase(value="grounding techniques", boost=12),
+                            types.PhraseSet.Phrase(value="distress tolerance", boost=15),
+                            types.PhraseSet.Phrase(value="emotion regulation", boost=12),
+                            types.PhraseSet.Phrase(value="interpersonal effectiveness", boost=12),
+                            types.PhraseSet.Phrase(value="cognitive restructuring", boost=15),
+                            types.PhraseSet.Phrase(value="thought record", boost=12),
+                            types.PhraseSet.Phrase(value="behavioral experiment", boost=12),
+                            types.PhraseSet.Phrase(value="chain analysis", boost=12),
+                            types.PhraseSet.Phrase(value="safety plan", boost=15),
+                            # Clinical assessments
+                            types.PhraseSet.Phrase(value="PHQ-9", boost=20),
+                            types.PhraseSet.Phrase(value="GAD-7", boost=20),
+                            types.PhraseSet.Phrase(value="C-SSRS", boost=20),
+                            types.PhraseSet.Phrase(value="Columbia Suicide Severity Rating Scale", boost=15),
+                            types.PhraseSet.Phrase(value="Beck Depression Inventory", boost=15),
+                            types.PhraseSet.Phrase(value="suicidal ideation", boost=18),
+                            types.PhraseSet.Phrase(value="self-harm", boost=18),
+                            types.PhraseSet.Phrase(value="homicidal ideation", boost=18),
+                            # Diagnoses
+                            types.PhraseSet.Phrase(value="major depressive disorder", boost=12),
+                            types.PhraseSet.Phrase(value="generalized anxiety disorder", boost=12),
+                            types.PhraseSet.Phrase(value="PTSD", boost=18),
+                            types.PhraseSet.Phrase(value="post-traumatic stress disorder", boost=12),
+                            types.PhraseSet.Phrase(value="borderline personality disorder", boost=12),
+                            types.PhraseSet.Phrase(value="bipolar disorder", boost=12),
+                            types.PhraseSet.Phrase(value="schizophrenia", boost=12),
+                            types.PhraseSet.Phrase(value="panic disorder", boost=12),
+                            types.PhraseSet.Phrase(value="obsessive compulsive disorder", boost=12),
+                            types.PhraseSet.Phrase(value="OCD", boost=18),
+                            types.PhraseSet.Phrase(value="ADHD", boost=18),
+                            types.PhraseSet.Phrase(value="substance use disorder", boost=12),
+                            types.PhraseSet.Phrase(value="anorexia nervosa", boost=12),
+                            types.PhraseSet.Phrase(value="bulimia nervosa", boost=12),
+                            # Medications (common psychiatric)
+                            types.PhraseSet.Phrase(value="sertraline", boost=15),
+                            types.PhraseSet.Phrase(value="fluoxetine", boost=15),
+                            types.PhraseSet.Phrase(value="escitalopram", boost=15),
+                            types.PhraseSet.Phrase(value="Lexapro", boost=15),
+                            types.PhraseSet.Phrase(value="Zoloft", boost=15),
+                            types.PhraseSet.Phrase(value="Prozac", boost=15),
+                            types.PhraseSet.Phrase(value="venlafaxine", boost=15),
+                            types.PhraseSet.Phrase(value="Effexor", boost=15),
+                            types.PhraseSet.Phrase(value="bupropion", boost=15),
+                            types.PhraseSet.Phrase(value="Wellbutrin", boost=15),
+                            types.PhraseSet.Phrase(value="quetiapine", boost=15),
+                            types.PhraseSet.Phrase(value="Seroquel", boost=15),
+                            types.PhraseSet.Phrase(value="aripiprazole", boost=15),
+                            types.PhraseSet.Phrase(value="Abilify", boost=15),
+                            types.PhraseSet.Phrase(value="lithium", boost=12),
+                            types.PhraseSet.Phrase(value="lamotrigine", boost=15),
+                            types.PhraseSet.Phrase(value="Lamictal", boost=15),
+                            types.PhraseSet.Phrase(value="clonazepam", boost=15),
+                            types.PhraseSet.Phrase(value="lorazepam", boost=15),
+                            types.PhraseSet.Phrase(value="Ativan", boost=15),
+                            types.PhraseSet.Phrase(value="benzodiazepine", boost=12),
+                            types.PhraseSet.Phrase(value="SSRI", boost=18),
+                            types.PhraseSet.Phrase(value="SNRI", boost=18),
+                            # Clinical terms
+                            types.PhraseSet.Phrase(value="therapeutic alliance", boost=15),
+                            types.PhraseSet.Phrase(value="treatment plan", boost=12),
+                            types.PhraseSet.Phrase(value="differential diagnosis", boost=12),
+                            types.PhraseSet.Phrase(value="comorbidity", boost=12),
+                            types.PhraseSet.Phrase(value="psychomotor retardation", boost=15),
+                            types.PhraseSet.Phrase(value="anhedonia", boost=18),
+                            types.PhraseSet.Phrase(value="affect", boost=8),
+                            types.PhraseSet.Phrase(value="flat affect", boost=15),
+                            types.PhraseSet.Phrase(value="labile affect", boost=15),
+                            types.PhraseSet.Phrase(value="dissociation", boost=15),
+                            types.PhraseSet.Phrase(value="hypervigilance", boost=15),
+                            types.PhraseSet.Phrase(value="flashback", boost=12),
+                            types.PhraseSet.Phrase(value="rumination", boost=12),
+                            types.PhraseSet.Phrase(value="catastrophizing", boost=15),
+                            types.PhraseSet.Phrase(value="cognitive distortion", boost=15),
+                            types.PhraseSet.Phrase(value="maladaptive", boost=12),
+                            types.PhraseSet.Phrase(value="psychosocial", boost=12),
+                            types.PhraseSet.Phrase(value="agoraphobia", boost=15),
+                        ]
+                    )
+                )
+            ]
+        )
+
         return types.StreamingRecognitionConfig(
             config=types.RecognitionConfig(
                 explicit_decoding_config=types.ExplicitDecodingConfig(
@@ -171,6 +272,7 @@ class StreamingTranscriptionSession:
                 ),
                 language_codes=["en-US"],
                 model="latest_long",
+                adaptation=clinical_phrases,
                 features=types.RecognitionFeatures(
                     enable_automatic_punctuation=True,
                     profanity_filter=False,
