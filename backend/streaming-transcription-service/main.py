@@ -119,11 +119,12 @@ app.add_middleware(
 )
 
 # --- Google Cloud Configuration ---
-project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
+# .strip() guards against CRLF-corrupted .env files on Windows
+project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "").strip()
 if not project_id:
     raise ValueError("GOOGLE_CLOUD_PROJECT environment variable must be set")
 
-location = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+location = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1").strip()
 logger.info(f"Using Google Cloud project: {project_id}, location: {location}")
 
 # Initialize Speech client with regional endpoint (required by org policy)

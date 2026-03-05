@@ -30,11 +30,10 @@ const BackendStatusIndicator: React.FC = () => {
 
     const checkConnection = async () => {
       try {
-        // Call the real health check that validates GCP auth
-        const response = await axios.post(
+        // Lightweight GET health check — fast, doesn't queue behind analysis requests
+        const response = await axios.get(
           `${apiUrl}/therapy_analysis`,
-          { action: 'health_check' },
-          { timeout: 30000, headers: { 'Content-Type': 'application/json' } }
+          { timeout: 8000 }
         );
 
         const health: HealthResponse = response.data;

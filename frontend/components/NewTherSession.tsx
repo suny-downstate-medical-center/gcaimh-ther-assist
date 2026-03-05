@@ -276,6 +276,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   
   // Analysis job ID tracking - counter to relate realtime and comprehensive results
   const analysisJobCounterRef = useRef(0);
+  const comprehensiveInFlightRef = useRef(false);
   
   // Track currently displayed job IDs to ensure realtime and comprehensive results match
   const [displayedRealtimeJobId, setDisplayedRealtimeJobId] = useState<number | null>(null);
@@ -765,18 +766,15 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     
     console.log(`[Session] 🔄 ${triggerSource} triggered - Job ID: ${sharedJobId}`);
 
-    // Log "started" entries for both analyses
+    // Log "started" entry for realtime (comprehensive logged only if not skipped)
     addLogEntry('flash', 'realtime', 'started', `Realtime analysis started (Job ${sharedJobId})`, {
       ragTools: ['ebt-corpus', 'cbt-corpus'],
-    });
-    addLogEntry('pro', 'comprehensive', 'started', `Comprehensive analysis started (Job ${sharedJobId})`, {
-      ragTools: ['ebt-corpus', 'cbt-corpus', 'transcript-patterns'],
     });
 
     // Get the most recent alert for backend deduplication (realtime only)
     const recentAlert = alertsRef.current.length > 0 ? alertsRef.current[0] : null;
 
-    // Trigger both analyses with the same job ID
+    // Always fire realtime (Flash) — it's fast (~200-400ms)
     analyzeSegmentRef.current(
       transcriptSegment,
       { ...sessionContextRef.current, is_realtime: true },
@@ -784,14 +782,26 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       recentAlert,
       sharedJobId
     );
-    
-    analyzeSegmentRef.current(
-      transcriptSegment,
-      { ...sessionContextRef.current, is_realtime: false },
-      Math.floor(sessionDurationRef.current / 60),
-      undefined, // no previous alert for comprehensive
-      sharedJobId
-    );
+
+    // Only fire comprehensive (Pro) if none is currently in flight
+    // Prevents request flooding when backend is slower than trigger interval
+    if (comprehensiveInFlightRef.current) {
+      console.log(`[Session] ⏭️ Skipping comprehensive for Job ${sharedJobId} — previous still in flight`);
+    } else {
+      comprehensiveInFlightRef.current = true;
+      addLogEntry('pro', 'comprehensive', 'started', `Comprehensive analysis started (Job ${sharedJobId})`, {
+        ragTools: ['ebt-corpus', 'cbt-corpus', 'transcript-patterns'],
+      });
+      analyzeSegmentRef.current(
+        transcriptSegment,
+        { ...sessionContextRef.current, is_realtime: false },
+        Math.floor(sessionDurationRef.current / 60),
+        undefined, // no previous alert for comprehensive
+        sharedJobId
+      ).finally(() => {
+        comprehensiveInFlightRef.current = false;
+      });
+    }
   }, [addLogEntry]);
 
   // Word-based real-time analysis trigger

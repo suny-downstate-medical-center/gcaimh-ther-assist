@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Box, Typography, IconButton, Tooltip, Badge } from '@mui/material';
-import { Lock, LockOpen, Delete, Download } from '@mui/icons-material';
+import { Box, Typography, IconButton, Tooltip, Badge, Collapse } from '@mui/material';
+import { Lock, LockOpen, Delete, Download, ExpandMore, ExpandLess } from '@mui/icons-material';
 
 export interface ActivityLogEntry {
   id: string;
@@ -43,6 +43,7 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [autoScroll, setAutoScroll] = useState(true);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
+  const [collapsed, setCollapsed] = useState(false);
 
   const handleDownloadLog = () => {
     if (entries.length === 0) return;
@@ -114,15 +115,25 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
       borderTop: '1px solid rgba(196, 199, 197, 0.3)',
       mt: 1,
     }}>
-      {/* Header */}
-      <Box sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        px: 1.5,
-        py: 0.75,
-      }}>
+      {/* Header — click to collapse/expand */}
+      <Box
+        onClick={() => setCollapsed(c => !c)}
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          px: 1.5,
+          py: 0.75,
+          cursor: 'pointer',
+          userSelect: 'none',
+          '&:hover': { backgroundColor: 'rgba(255,255,255,0.03)' },
+        }}
+      >
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          {collapsed
+            ? <ExpandMore sx={{ fontSize: 16, color: '#78909c' }} />
+            : <ExpandLess sx={{ fontSize: 16, color: '#78909c' }} />
+          }
           <Typography sx={{
             fontSize: '11px',
             fontWeight: 700,
@@ -139,7 +150,7 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
             sx={{ ml: 1.5, '& .MuiBadge-badge': { fontSize: '9px', height: 16, minWidth: 16 } }}
           />
         </Box>
-        <Box sx={{ display: 'flex', gap: 0.25 }}>
+        <Box sx={{ display: 'flex', gap: 0.25 }} onClick={(e) => e.stopPropagation()}>
           <Tooltip title={autoScroll ? 'Auto-scroll ON' : 'Auto-scroll OFF'} arrow>
             <IconButton size="small" onClick={() => setAutoScroll(!autoScroll)} sx={{ p: 0.5 }}>
               {autoScroll
@@ -161,7 +172,8 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
         </Box>
       </Box>
 
-      {/* Log entries */}
+      {/* Log entries — collapsible */}
+      <Collapse in={!collapsed}>
       <Box
         ref={scrollRef}
         sx={{
@@ -283,6 +295,7 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
           );
         })}
       </Box>
+      </Collapse>
     </Box>
   );
 };

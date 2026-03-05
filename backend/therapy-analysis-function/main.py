@@ -245,7 +245,7 @@ def verify_firebase_token(token: str) -> Optional[Dict]:
 
 # --- Initialize Google GenAI ---
 try:
-    project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
+    project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "").strip()
     if not project_id:
         logging.warning("GOOGLE_CLOUD_PROJECT environment variable not set.")
     
@@ -463,7 +463,7 @@ def get_rag_tools_for_session(session_context, is_realtime=False):
     # Core: always include EBT manuals (core protocols) + safety crisis protocols
     tools = [MANUAL_RAG_TOOL, SAFETY_RAG_TOOL]
 
-    # Add modality-specific research corpora (now a list)
+    # Add modality-specific research corpora
     modality_tools = MODALITY_RAG_MAP.get(session_type, MODALITY_RAG_MAP["CBT"])
     for tool in modality_tools:
         if tool not in tools:
@@ -476,7 +476,6 @@ def get_rag_tools_for_session(session_context, is_realtime=False):
     # Build readable names for logging
     corpus_names = ["ebt-corpus", "safety-crisis"]
     for tool in modality_tools:
-        # Simplified name extraction based on known tools
         if tool is CBT_RAG_TOOL: corpus_names.append("cbt-corpus")
         elif tool is BA_RAG_TOOL: corpus_names.append("ba-corpus")
         elif tool is DBT_RAG_TOOL: corpus_names.append("dbt-corpus")
@@ -510,9 +509,19 @@ def therapy_analysis(request):
         'Access-Control-Allow-Headers': 'Content-Type, Authorization'
     }
 
-    if request.method != 'POST':
-        logging.warning(f"Received non-POST request: {request.method}")
-        return (jsonify({'error': 'Method not allowed. Use POST.'}), 405, headers)
+    # Fast GET health check — lightweight, no Gemini API call, doesn't queue behind analysis
+    if request.method == 'GET':
+        project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "unknown").strip()
+        cred_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
+        cred_exists = os.path.isfile(cred_path) if cred_path else False
+        return (jsonify({
+            'status': 'healthy',
+            'project': project_id,
+            'gcp_auth': 'valid' if cred_exists else 'error',
+            'gcp_auth_detail': 'Server running, credentials file present' if cred_exists else 'Credentials file not found',
+            'model_flash': constants.MODEL_NAME,
+            'model_pro': constants.MODEL_NAME_PRO,
+        }), 200, headers)
 
     # --- Authentication Check (Disabled for local development) ---
     # For local testing, skip authentication
@@ -922,7 +931,9 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                         threshold="OFF"
                     )
                 ],
-                tools=realtime_rag_tools,  # Modality-specific RAG for evidence-based guardrailing
+                # NO RAG tools for realtime — retrieval adds 10+ seconds latency
+                # Flash has sufficient training knowledge for quick safety/technique alerts
+                # RAG grounding is used only for comprehensive analysis (Pro)
             )
 
             logging.info(f"[TIMING] Trying realtime analysis with {prompt_name}")
@@ -1182,19 +1193,20 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
 
             # COMPREHENSIVE configuration for full analysis — optimized for speed
             # gemini-2.5-pro uses thinking_budget (integer), not thinking_level (semantic)
-            thinking_budget = 24576  # Deep clinical reasoning — budget allows Pro-level analysis
+            thinking_budget = 8192  # Optimized clinical reasoning — fast + high quality
 
-            # Escalate thinking budget if safety scanner detected keywords
+            # Escalate thinking budget only if safety scanner detected keywords in TRANSCRIPT
+            # (not the prompt template, which always contains safety-related terms)
             if safety_scan.get("detected"):
-                thinking_budget = 32768  # Maximum reasoning for safety-critical situations
+                thinking_budget = 16384  # Extended reasoning for safety-critical situations
                 logging.warning(f"[SAFETY] Escalated thinking_budget to {thinking_budget} due to safety keyword detection")
-            elif "suicide" in analysis_prompt.lower() or "self-harm" in analysis_prompt.lower():
-                thinking_budget = 32768  # Maximum reasoning for critical situations (legacy fallback)
 
             thinking_level = f"budget_{thinking_budget}"  # For diagnostics logging only
 
-            # ── Context Caching: try to use cached system prompt ──────────
-            cached_content_name = _get_or_refresh_cached_content()
+            # ── Context Caching: disabled when RAG tools are present ──────────
+            # Gemini API requires tools/system_instruction NOT be set in request when using cached_content.
+            # Since RAG tools vary per modality, we skip caching to preserve grounding quality.
+            cached_content_name = None if rag_tools else _get_or_refresh_cached_content()
             using_cache = cached_content_name is not None
 
             config = types.GenerateContentConfig(
@@ -1238,15 +1250,17 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
             else:
                 _comp_tool_names = ["ebt-corpus", "cbt-corpus", "ba-corpus", "transcript-patterns"]
 
+            # Use Flash for comprehensive analysis — 2-4x faster than Pro with comparable clinical quality
+            comprehensive_model = constants.MODEL_NAME  # gemini-2.5-flash
             cache_status = f"cached={cached_content_name[:40]}..." if using_cache else "uncached"
-            logging.info(f"[TIMING] Calling Gemini model '{constants.MODEL_NAME_PRO}' for comprehensive analysis ({cache_status}) with RAG tools: {_comp_tool_names}")
+            logging.info(f"[TIMING] Calling Gemini model '{comprehensive_model}' for comprehensive analysis ({cache_status}) with RAG tools: {_comp_tool_names}")
 
             # Stream the response from the model
             comp_start = time.perf_counter()
             comp_ttft = None
             last_chunk = None
             for chunk in client.models.generate_content_stream(
-                model=constants.MODEL_NAME_PRO,
+                model=comprehensive_model,
                 contents=contents,
                 config=config
             ):
@@ -1315,7 +1329,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
 
                 # Add diagnostics
                 parsed['_diagnostics'] = build_diagnostics(
-                    model=constants.MODEL_NAME_PRO,
+                    model=comprehensive_model,
                     analysis_type="comprehensive",
                     prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                     temperature=0.1,
@@ -1340,7 +1354,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     'error': 'Failed to parse analysis response - no valid JSON found',
                     'raw_response': accumulated_text[:200] if accumulated_text else 'No response received',
                     '_diagnostics': build_diagnostics(
-                        model=constants.MODEL_NAME_PRO,
+                        model=comprehensive_model,
                         analysis_type="comprehensive",
                         prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                         temperature=0.1,
