@@ -104,6 +104,18 @@ export const firebaseConfig = {
 
 ### Deploy Services
 
+#### Option A: Shell Script Deployment (Recommended)
+
+See **[DEPLOY_GUIDE.md](./DEPLOY_GUIDE.md)** for the complete deployment guide, including admin prerequisites and one-command deploy via `deploy-all.sh`.
+
+```bash
+./deploy-all.sh
+```
+
+This builds and deploys all 4 services to Cloud Run with org-policy-compliant configuration.
+
+#### Option B: Terraform Deployment
+
 1. Create RAG Corpuses
 Follow the instructions in the [RAG README.MD](./setup_services/rag/README)
 
