@@ -210,11 +210,18 @@ if not exist "%LOGIN_CONFIG%" (
     exit /b 1
 )
 
+:: Set project before auth to prevent post-login validation errors
+call gcloud config set project brk-prj-salvador-dura-bern-sbx >nul 2>&1
+
 echo        A sign-in link will appear below.
 echo        Copy it and open it in any browser.
 echo.
 call gcloud auth application-default login --no-launch-browser --login-config="%LOGIN_CONFIG%"
-if %errorlevel% neq 0 (
+
+:: gcloud may return non-zero even when credentials are saved (post-login validation
+:: against core/account can fail). Check if ADC file exists instead.
+set "ADC_FILE=%APPDATA%\gcloud\application_default_credentials.json"
+if not exist "%ADC_FILE%" (
     color 0C
     echo.
     echo  ================================================
@@ -237,8 +244,6 @@ if %errorlevel% neq 0 (
     pause
     exit /b 1
 )
-
-call gcloud config set project brk-prj-salvador-dura-bern-sbx >nul 2>&1
 
 echo        OK - Signed in successfully!
 echo.

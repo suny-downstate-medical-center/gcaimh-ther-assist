@@ -200,12 +200,18 @@ if [ ! -f "$LOGIN_CONFIG" ]; then
     "MISSING-LOGIN-CONFIG"
 fi
 
+# Set project before auth to prevent post-login validation errors
+gcloud config set project brk-prj-salvador-dura-bern-sbx >/dev/null 2>&1
+
 echo "        A sign-in link will appear below."
 echo "        Copy it and open it in any browser."
 echo ""
 gcloud auth application-default login --no-launch-browser --login-config="$LOGIN_CONFIG"
-GCLOUD_EXIT=$?
-if [ $GCLOUD_EXIT -ne 0 ]; then
+
+# gcloud may return non-zero even when credentials are saved (post-login validation
+# against core/account can fail). Check if ADC file exists instead.
+ADC_FILE="$HOME/.config/gcloud/application_default_credentials.json"
+if [ ! -f "$ADC_FILE" ]; then
     show_error "SIGN-IN FAILED" \
 "  The Google Cloud sign-in did not complete.
 
@@ -222,14 +228,12 @@ if [ $GCLOUD_EXIT -ne 0 ]; then
     "AUTH-FAILED"
 fi
 
-gcloud config set project brk-prj-salvador-dura-bern-sbx >/dev/null 2>&1
-
 echo "        OK - Signed in successfully!"
 echo ""
 
 # Set environment variables
 export GOOGLE_CLOUD_PROJECT="brk-prj-salvador-dura-bern-sbx"
-export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/application_default_credentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS="$ADC_FILE"
 
 # ============================================================
 # STEP 3: FIRST-TIME SETUP
