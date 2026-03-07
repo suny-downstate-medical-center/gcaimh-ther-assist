@@ -1648,7 +1648,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           />
           {/* Sidebar */}
           <Box sx={{
-            width: 351,
+            width: { xs: '100%', md: 351 },
             display: 'flex',
             transform: (selectedAction || selectedCitation) ? 'translateX(-100%)' : 'translateX(0)',
             transition: 'transform 0.3s ease-in-out',
@@ -1657,6 +1657,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             p: 2,
             minHeight: 0,
             overflow: 'hidden',
+            flexShrink: 0,
           }}>
             {/* Title Section */}
             <Box>
@@ -2400,7 +2401,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       )}
 
       {/* Floating Action Buttons */}
-      <Box sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
+      <Box sx={{ position: 'fixed', bottom: { xs: 16, md: 24 }, right: { xs: 16, md: 24 }, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
         {/* Reopen Session Summary Button */}
         {sessionSummaryClosed && !showSessionSummary && (
           <Fab
@@ -2433,9 +2434,10 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         onClose={() => setTranscriptOpen(false)}
         sx={{
           '& .MuiDrawer-paper': {
-            width: isDesktop ? 400 : 350,
-            p: 3,
-            pt: 10,
+            width: isDesktop ? 400 : '100%',
+            maxWidth: 400,
+            p: { xs: 2, md: 3 },
+            pt: { xs: 8, md: 10 },
             background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(248, 250, 252, 0.85) 100%)',
             backdropFilter: 'blur(24px) saturate(180%)',
             WebkitBackdropFilter: 'blur(24px) saturate(180%)',
@@ -2493,7 +2495,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
       {/* Error Display */}
       {error && (
-        <Box sx={{ position: 'fixed', top: 24, left: '50%', transform: 'translateX(-50%)', zIndex: 1300 }}>
+        <Box sx={{ position: 'fixed', top: { xs: 12, md: 24 }, left: '50%', transform: 'translateX(-50%)', zIndex: 1300, width: { xs: '90%', sm: 'auto' } }}>
           <MuiAlert severity="error" onClose={() => setError(null)}>
             {error}
           </MuiAlert>

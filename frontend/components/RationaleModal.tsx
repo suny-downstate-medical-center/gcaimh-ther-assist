@@ -70,7 +70,7 @@ const RationaleModal: React.FC<RationaleModalProps> = ({
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          width: 900,
+          width: { xs: '95vw', sm: '90vw', md: 900 },
           bgcolor: 'rgba(255, 255, 255, 0.9)', // Less opaque background
           backdropFilter: 'blur(5px)', // Blur the background
           boxShadow: 24,
@@ -82,7 +82,7 @@ const RationaleModal: React.FC<RationaleModalProps> = ({
         }}
       >
         {/* Header with close button and title - fixed at top */}
-        <Box sx={{ position: 'relative', p: 4, pb: 2, flex: '0 0 auto' }}>
+        <Box sx={{ position: 'relative', p: { xs: 2, sm: 3, md: 4 }, pb: 2, flex: '0 0 auto' }}>
           <IconButton
             aria-label="close"
             onClick={onClose}
@@ -101,9 +101,9 @@ const RationaleModal: React.FC<RationaleModalProps> = ({
         </Box>
         
         {/* Scrollable content area */}
-        <Box sx={{ 
-          px: 4, 
-          pb: 4, 
+        <Box sx={{
+          px: { xs: 2, sm: 3, md: 4 },
+          pb: { xs: 2, sm: 3, md: 4 },
           flex: '1 1 auto', 
           overflowY: 'auto',
           // Custom scrollbar styling to match rounded container

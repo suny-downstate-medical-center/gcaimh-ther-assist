@@ -1,15 +1,7 @@
 [build]
+  command = "npx vite build"
   publish = "dist"
-  command = "npm run build"
 
-# Proxy API requests to GCP Cloud Function to avoid CORS
-[[redirects]]
-  from = "/api/therapy_analysis"
-  to = "https://us-central1-brk-prj-salvador-dura-bern-sbx.cloudfunctions.net/therapy-analysis"
-  status = 200
-  force = true
-
-# SPA fallback - must be last
 [[redirects]]
   from = "/*"
   to = "/index.html"

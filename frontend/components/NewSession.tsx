@@ -733,7 +733,7 @@ const NewSession: React.FC<NewSessionProps> = ({ onNavigateBack, patientId }) =>
         gap: 3, 
         p: 3, 
         overflow: 'auto', // Allow scrolling for the main content
-        pr: transcriptOpen ? '450px' : '100px', // Space for right sidebar
+        pr: transcriptOpen ? { xs: 0, md: '450px' } : { xs: 2, md: '100px' }, // Space for right sidebar
         transition: 'padding-right 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
       }}>
         {/* Content Grid - Responsive for tablets */}
@@ -997,7 +997,7 @@ const NewSession: React.FC<NewSessionProps> = ({ onNavigateBack, patientId }) =>
               </Button>
             </Paper>
 
-            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 3 }}>
+            <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: { xs: 2, md: 3 } }}>
               {/* Recommendation Section */}
               <Paper
                 sx={{
@@ -1145,7 +1145,7 @@ const NewSession: React.FC<NewSessionProps> = ({ onNavigateBack, patientId }) =>
       </Box>
 
       {/* Floating Action Buttons */}
-      <Box sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
+      <Box sx={{ position: 'fixed', bottom: { xs: 16, md: 24 }, right: { xs: 16, md: 24 }, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
         {/* Reopen Session Summary Button */}
         {sessionSummaryClosed && !showSessionSummary && (
           <Fab
@@ -1265,9 +1265,10 @@ const NewSession: React.FC<NewSessionProps> = ({ onNavigateBack, patientId }) =>
         onClose={() => setTranscriptOpen(false)}
         sx={{
           '& .MuiDrawer-paper': {
-            width: isDesktop ? 400 : 350,
-            p: 3,
-            pt: 10,
+            width: isDesktop ? 400 : '100%',
+            maxWidth: 400,
+            p: { xs: 2, md: 3 },
+            pt: { xs: 8, md: 10 },
             background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(248, 250, 252, 0.85) 100%)',
             backdropFilter: 'blur(24px) saturate(180%)',
             WebkitBackdropFilter: 'blur(24px) saturate(180%)',

@@ -102,7 +102,7 @@ const PathwayTab: React.FC<PathwayTabProps> = ({ onCitationClick, currentGuidanc
 
       {/* Pathway Indicators */}
       {pathwayIndicators && (
-        <Box sx={{ display: 'flex', gap: 2 }}>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
           {/* Approach Effectiveness */}
           {(() => {
             const style = getEffectivenessStyle(pathwayIndicators.current_approach_effectiveness);
@@ -148,7 +148,7 @@ const PathwayTab: React.FC<PathwayTabProps> = ({ onCitationClick, currentGuidanc
       )}
 
       {/* Techniques and Citations Row */}
-      <Box sx={{ display: 'flex', gap: 4, mt: 1 }}>
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: { xs: 3, md: 4 }, mt: 1 }}>
         {/* Techniques Detected */}
         <Box sx={{ flex: 1 }}>
           <Typography variant="body2" sx={{

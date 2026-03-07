@@ -247,7 +247,7 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
 
               {/* Expanded details */}
               {isExpanded && entry.details && (
-                <Box sx={{ pl: '72px', pb: 0.5 }}>
+                <Box sx={{ pl: { xs: 2, sm: '72px' }, pb: 0.5 }}>
                   {entry.details.prompt && (
                     <DetailLine label="Prompt" value={entry.details.prompt} />
                   )}

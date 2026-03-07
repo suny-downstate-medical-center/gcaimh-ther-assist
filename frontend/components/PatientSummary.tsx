@@ -148,7 +148,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
       {/* Content — single-column, card-based layout */}
       <Box
         sx={{
-          maxWidth: 720,
+          maxWidth: { xs: '100%', sm: 720 },
           width: '100%',
           mx: 'auto',
           display: 'flex',
@@ -159,7 +159,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
         {/* ── Header Card ─────────────────────────────────── */}
         <Paper
           sx={{
-            p: 4,
+            p: { xs: 2.5, md: 4 },
             borderRadius: '16px',
             boxShadow: 'none',
             border: '1px solid #e0e3e7',
@@ -169,7 +169,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
           <Typography
             variant="h5"
             sx={{
-              fontSize: '28px',
+              fontSize: { xs: '20px', md: '28px' },
               fontWeight: 600,
               color: '#1f1f1f',
               mb: 1,
@@ -178,7 +178,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
             {patientName === 'Your' ? 'Your Session Summary' : `${patientName}'s Session Summary`}
           </Typography>
 
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 3, mt: 2 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 1.5, md: 3 }, mt: 2, flexWrap: 'wrap' }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <CalendarToday sx={{ fontSize: 18, color: '#444746' }} />
               <Typography variant="body2" sx={{ fontSize: '14px', color: '#444746' }}>
@@ -200,7 +200,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
         {progressIndicators.length > 0 && (
           <Paper
             sx={{
-              p: 4,
+              p: { xs: 2.5, md: 4 },
               borderRadius: '16px',
               boxShadow: 'none',
               border: '1px solid #e0e3e7',
@@ -250,7 +250,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
         {homeworkAssignments.length > 0 && (
           <Paper
             sx={{
-              p: 4,
+              p: { xs: 2.5, md: 4 },
               borderRadius: '16px',
               boxShadow: 'none',
               border: '1px solid #e0e3e7',
@@ -361,7 +361,7 @@ const PatientSummary: React.FC<PatientSummaryProps> = ({
         {followUpRecommendations.length > 0 && (
           <Paper
             sx={{
-              p: 4,
+              p: { xs: 2.5, md: 4 },
               borderRadius: '16px',
               boxShadow: 'none',
               border: '1px solid #e0e3e7',

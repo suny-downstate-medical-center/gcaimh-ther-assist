@@ -55,7 +55,7 @@ const LoginPage: React.FC = () => {
       <Container maxWidth="sm">
         <Paper
           sx={{
-            p: 4,
+            p: { xs: 3, md: 4 },
             borderRadius: '16px',
             background: 'rgba(255, 255, 255, 0.95)',
             backdropFilter: 'blur(10px)',
@@ -70,6 +70,7 @@ const LoginPage: React.FC = () => {
               sx={{
                 color: 'var(--primary)',
                 fontWeight: 700,
+                fontSize: { xs: '1.75rem', md: '3rem' },
                 mb: 1,
               }}
             >

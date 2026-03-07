@@ -152,12 +152,12 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
       background: 'var(--background-gradient)',
     }}>
       {/* Main Content */}
-      <Box sx={{ 
-        flex: 1, 
-        display: 'flex', 
+      <Box sx={{
+        flex: 1,
+        display: 'flex',
         flexDirection: 'column',
-        p: 3,
-        pb: 4, // Add bottom padding
+        p: { xs: 1.5, sm: 2, md: 3 },
+        pb: { xs: 2, md: 4 },
       }}>
         <Paper 
           elevation={3}
@@ -189,11 +189,12 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
               >
                 <ArrowBack />
               </Fab>
-              <Typography 
-                variant="h3" 
-                sx={{ 
-                  color: 'var(--primary)', 
+              <Typography
+                variant="h3"
+                sx={{
+                  color: 'var(--primary)',
                   fontWeight: 600,
+                  fontSize: { xs: '1.5rem', sm: '2rem', md: '3rem' },
                 }}
               >
                 Patients
@@ -214,13 +215,13 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
                   </InputAdornment>
                 ),
               }}
-              sx={{ maxWidth: 400 }}
+              sx={{ maxWidth: { xs: '100%', sm: 400 } }}
             />
           </Box>
 
           {/* Patient List */}
-          <Box sx={{ flex: 1, overflow: 'auto' }}>
-            <TableContainer>
+          <Box sx={{ flex: 1, overflow: 'auto', WebkitOverflowScrolling: 'touch' }}>
+            <TableContainer sx={{ minWidth: { xs: 600, md: 'auto' } }}>
               <Table stickyHeader>
                 <TableHead>
                   <TableRow>
@@ -260,10 +261,10 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
                         Last Session
                       </TableSortLabel>
                     </TableCell>
-                    <TableCell sx={{ fontWeight: 600, minWidth: 400, width: '25%' }}>
+                    <TableCell sx={{ fontWeight: 600, minWidth: { xs: 200, md: 400 }, width: '25%', display: { xs: 'none', lg: 'table-cell' } }}>
                       Last Session Summary
                     </TableCell>
-                    <TableCell sx={{ fontWeight: 600, maxWidth: 150, width: '10%' }}>
+                    <TableCell sx={{ fontWeight: 600, maxWidth: 150, width: '10%', display: { xs: 'none', md: 'table-cell' } }}>
                       <TableSortLabel
                         active={sortColumn === 'primaryConcern'}
                         direction={sortColumn === 'primaryConcern' ? sortDirection : 'asc'}
@@ -272,7 +273,7 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
                         Focus Topics
                       </TableSortLabel>
                     </TableCell>
-                    <TableCell sx={{ fontWeight: 600 }}>
+                    <TableCell sx={{ fontWeight: 600, display: { xs: 'none', md: 'table-cell' } }}>
                       <TableSortLabel
                         active={sortColumn === 'patientSince'}
                         direction={sortColumn === 'patientSince' ? sortDirection : 'asc'}
@@ -350,19 +351,19 @@ const Patients: React.FC<PatientsProps> = ({ patients, onNavigateBack, onNavigat
                           {formatDate(patient.lastVisit)}
                         </Typography>
                       </TableCell>
-                      <TableCell sx={{ minWidth: 400, width: '25%' }}>
+                      <TableCell sx={{ minWidth: { xs: 200, md: 400 }, width: '25%', display: { xs: 'none', lg: 'table-cell' } }}>
                         <Typography variant="body2" sx={{ lineHeight: 1.4 }}>
                           {patient.sessionHistory && patient.sessionHistory.length > 0 
                             ? patient.sessionHistory[patient.sessionHistory.length - 1].summary 
                             : 'No summary available'}
                         </Typography>
                       </TableCell>
-                      <TableCell sx={{ maxWidth: 150, width: '10%' }}>
+                      <TableCell sx={{ maxWidth: 150, width: '10%', display: { xs: 'none', md: 'table-cell' } }}>
                         <Typography variant="body2">
                           {patient.focusTopics || 'Not specified'}
                         </Typography>
                       </TableCell>
-                      <TableCell>
+                      <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>
                         <Typography variant="body2">
                           {formatDate(patient.patientSince)}
                         </Typography>

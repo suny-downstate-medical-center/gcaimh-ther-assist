@@ -55,7 +55,7 @@ const AlternativesTab: React.FC<AlternativesTabProps> = ({
     }}>
       {/* Dynamic alternative pathway sections */}
       {alternativePathways.map((pathway, index) => (
-        <Box key={index} sx={{ display: 'flex', gap: 4 }}>
+        <Box key={index} sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: { xs: 2, md: 4 } }}>
           {/* Left Content — approach name + reason */}
           <Box sx={{ flex: 1 }}>
             <Typography

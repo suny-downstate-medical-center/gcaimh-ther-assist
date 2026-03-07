@@ -55,6 +55,7 @@ const SessionVitals: React.FC<SessionVitalsProps> = ({ metrics, isListening = fa
       sx={{
         p: 2,
         display: 'flex',
+        flexDirection: { xs: 'column', sm: 'row' },
         alignItems: 'center',
         justifyContent: 'space-around',
         gap: 2,

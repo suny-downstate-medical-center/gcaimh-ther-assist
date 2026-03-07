@@ -10,11 +10,14 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/runtime": "^7.28.6",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.17",
     "axios": "^1.11.0",
+    "caniuse-lite": "^1.0.30001777",
     "date-fns": "^4.1.0",
     "firebase": "^12.1.0",
     "react": "^18.2.0",

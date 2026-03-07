@@ -30,6 +30,8 @@ import PatientSummary from './PatientSummary';
 import Patients from './Patients';
 import Patient from './Patient';
 import LoginPage from './LoginPage';
+import ClientPortalManagementPage from './therapist/clientPortal/ClientPortalManagementPage';
+import SchedulePage from './SchedulePage';
 import { useAuth } from '../contexts/AuthContext';
 import { mockPatients } from '../utils/mockPatients';
 import { Patient as PatientType, SessionSummary } from '../types/types';
@@ -233,61 +235,12 @@ const App: React.FC = () => {
 
   if (currentView === 'schedule') {
     return (
-      <Box sx={{ 
-        height: '100vh', 
-        display: 'flex', 
-        flexDirection: 'column',
-        background: 'var(--background-gradient)',
-        overflow: 'hidden',
-      }}>
-        <Box sx={{ 
-          flex: 1, 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'center',
-          p: 3,
-        }}>
-          <Paper sx={{ p: 4, textAlign: 'center', maxWidth: 400 }}>
-            {/* Back Button and Title Row */}
-            <Box sx={{ display: 'flex', alignItems: 'center', mb: 3, position: 'relative' }}>
-              <Fab
-                size="medium"
-                color="primary"
-                aria-label="back"
-                onClick={handleGoBack}
-                sx={{
-                  background: 'linear-gradient(135deg, #0b57d0 0%, #00639b 100%)',
-                  '&:hover': {
-                    background: 'linear-gradient(135deg, #00639b 0%, #0b57d0 100%)',
-                    transform: 'scale(1.1)',
-                  },
-                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-                  boxShadow: '0 8px 20px -4px rgba(11, 87, 208, 0.35)',
-                }}
-              >
-                <ArrowBack />
-              </Fab>
-              <Typography 
-                variant="h4" 
-                sx={{ 
-                  color: 'var(--primary)', 
-                  fontWeight: 600,
-                  position: 'absolute',
-                  left: '50%',
-                  transform: 'translateX(-50%)',
-                  width: '100%',
-                  textAlign: 'center'
-                }}
-              >
-                Schedule
-              </Typography>
-            </Box>
-            <Typography variant="body1" color="text.secondary">
-              Schedule management functionality coming soon.
-            </Typography>
-          </Paper>
-        </Box>
-      </Box>
+      <SchedulePage
+        patients={patients}
+        onNavigateBack={handleGoBack}
+        onNavigateToPatient={handleNavigateToPatient}
+        onNavigateToNewSession={handleNavigateToNewSession}
+      />
     );
   }
 

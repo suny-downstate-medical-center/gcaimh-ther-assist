@@ -140,18 +140,20 @@ const TherSummary: React.FC<TherSummaryProps> = ({
         overflow: 'hidden',
       }}>
         {/* Main Content Area */}
-        <Box sx={{ 
-          display: 'flex', 
+        <Box sx={{
+          display: 'flex',
+          flexDirection: { xs: 'column', md: 'row' },
           flex: 1,
           overflow: 'hidden',
         }}>
           {/* Sidebar */}
-          <Box sx={{ 
-            width: 351,
+          <Box sx={{
+            width: { xs: '100%', md: 351 },
             display: 'flex',
-            flexDirection: 'column',
-            gap: 6,
-            p: 3,
+            flexDirection: { xs: 'row', md: 'column' },
+            gap: { xs: 2, md: 6 },
+            p: { xs: 2, md: 3 },
+            flexShrink: 0,
           }}>
             {/* Title Section */}
             <Box>
@@ -346,11 +348,11 @@ const TherSummary: React.FC<TherSummaryProps> = ({
                   }}>
                     HOMEWORK
                   </Typography>
-                  <Box sx={{ display: 'flex', gap: 2 }}>
+                  <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, gap: 2 }}>
                     {homeworkAssignments.map((assignment, index) => (
-                      <Paper 
+                      <Paper
                         key={index}
-                        sx={{ 
+                        sx={{
                           flex: 1,
                           p: 2,
                           border: '1px solid #c4c7c5',
@@ -413,7 +415,7 @@ const TherSummary: React.FC<TherSummaryProps> = ({
                         ALTERNATE THERAPY PATHS
                       </Typography>
                     </Box>
-                    <Box sx={{ display: 'flex', gap: 2 }}>
+                    <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, gap: 2 }}>
                       {alternateTherapyPaths.map((path, index) => (
                         <Paper
                           key={index}
@@ -485,11 +487,11 @@ const TherSummary: React.FC<TherSummaryProps> = ({
             )}
 
             {activeTab === 'key-moments' && (
-              <Box sx={{ 
-                display: 'flex', 
-                flexDirection: 'column', 
+              <Box sx={{
+                display: 'flex',
+                flexDirection: 'column',
                 gap: 0,
-                px: 4,
+                px: { xs: 2, sm: 3, md: 4 },
                 py: 0,
                 position: 'relative',
               }}>
@@ -602,10 +604,10 @@ const TherSummary: React.FC<TherSummaryProps> = ({
             )}
             
             {activeTab === 'transcript' && (
-              <Box sx={{ 
-                display: 'flex', 
+              <Box sx={{
+                display: 'flex',
                 flexDirection: 'column',
-                px: 4,
+                px: { xs: 2, sm: 3, md: 4 },
                 py: 0,
                 overflow: 'auto',
                 height: '100%',
@@ -691,7 +693,7 @@ const TherSummary: React.FC<TherSummaryProps> = ({
                     borderRadius: 2,
                     p: 3,
                     mb: 3,
-                    maxWidth: '600px',
+                    maxWidth: { xs: '100%', md: '600px' },
                   }}>
                     {/* Header with Title and View Coaching */}
                     <Box sx={{ 
@@ -1007,9 +1009,11 @@ const TherSummary: React.FC<TherSummaryProps> = ({
           borderRadius: '0 0 8px 8px',
         }}>
           {/* Session Metrics Row */}
-          <Box sx={{ 
+          <Box sx={{
             display: 'flex',
-            '& > *': { flex: 1 },
+            flexDirection: { xs: 'column', md: 'row' },
+            flexWrap: 'wrap',
+            '& > *': { flex: { xs: '1 1 50%', md: 1 } },
           }}>
             {/* Back Button and Session ID */}
             <Box sx={{ 
