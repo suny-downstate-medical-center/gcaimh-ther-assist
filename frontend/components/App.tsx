@@ -31,7 +31,7 @@ import Patients from './Patients';
 import Patient from './Patient';
 import LoginPage from './LoginPage';
 import ClientPortalManagementPage from './therapist/clientPortal/ClientPortalManagementPage';
-import SchedulePage from './SchedulePage';
+import SchedulingDashboard from './scheduling/SchedulingDashboard';
 import { useAuth } from '../contexts/AuthContext';
 import { mockPatients } from '../utils/mockPatients';
 import { Patient as PatientType, SessionSummary } from '../types/types';
@@ -235,7 +235,7 @@ const App: React.FC = () => {
 
   if (currentView === 'schedule') {
     return (
-      <SchedulePage
+      <SchedulingDashboard
         patients={patients}
         onNavigateBack={handleGoBack}
         onNavigateToPatient={handleNavigateToPatient}

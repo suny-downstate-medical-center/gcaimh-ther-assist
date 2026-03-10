@@ -81,7 +81,7 @@ const TherSummary: React.FC<TherSummaryProps> = ({
     duration: 2460, // 41 minutes
     techniquesUsed: 18,
     riskLevel: 'Low',
-    patientName: 'John Doe',
+    patientName: 'Sarah Johnson',
   },
   progressIndicators = [
     'Increased awareness of thought patterns',
@@ -162,7 +162,7 @@ const TherSummary: React.FC<TherSummaryProps> = ({
                 fontWeight: 600, 
                 color: '#1f1f1f',
               }}>
-                John Doe
+                {sessionData.patientName}
               </Typography>
               <Typography variant="body2" sx={{ 
                 fontSize: '14px', 

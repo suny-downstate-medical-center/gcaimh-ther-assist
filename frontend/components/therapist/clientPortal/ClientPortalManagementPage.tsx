@@ -18,15 +18,16 @@ import {
   Autocomplete, Stack,
 } from '@mui/material';
 import {
-  ArrowBack, Assignment, Assessment, Publish, LibraryBooks, History, Add,
+  ArrowBack, Assignment, Assessment, Publish, LibraryBooks, History, Add, Quiz,
 } from '@mui/icons-material';
 import { useTherapistBridge, TherapistClientBridgeProviderWrapper } from '../../../contexts/TherapistClientBridgeContext';
-import { BridgeClient, ModuleForAssignment, InterventionForAssignment, InterventionFrequency } from '../../../types/therapistClientBridge';
+import { BridgeClient, ModuleForAssignment, InterventionForAssignment, InterventionFrequency, QuestionnaireDefinition, QuestionnaireCadence } from '../../../types/therapistClientBridge';
 import PlanPanel from './panels/PlanPanel';
 import OutcomesPanel from './panels/OutcomesPanel';
 import PublishPanel from './panels/PublishPanel';
 import ContentPanel from './panels/ContentPanel';
 import ActivityPanel from './panels/ActivityPanel';
+import QuestionnairesPanel from './panels/QuestionnairesPanel';
 
 // ---------------------------------------------------------------------------
 // Sub-components: Assign drawers
@@ -282,6 +283,132 @@ function AssignInterventionDrawer({ open, onClose, clientId, preselectedInterven
 }
 
 // ---------------------------------------------------------------------------
+// Sub-component: Assign questionnaire drawer
+// ---------------------------------------------------------------------------
+
+interface AssignQuestionnaireDrawerProps {
+  open: boolean;
+  onClose: () => void;
+  clientId: string;
+  onSuccess: () => void;
+}
+
+function AssignQuestionnaireDrawer({ open, onClose, clientId, onSuccess }: AssignQuestionnaireDrawerProps) {
+  const bridge = useTherapistBridge();
+  const [definitions, setDefinitions] = useState<QuestionnaireDefinition[]>([]);
+  const [selected, setSelected] = useState<QuestionnaireDefinition | null>(null);
+  const [cadence, setCadence] = useState<QuestionnaireCadence | ''>('WEEKLY');
+  const [note, setNote] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (open) {
+      bridge.listQuestionnaireDefinitions().then(d => {
+        setDefinitions(d);
+        setSelected(null);
+        setCadence('WEEKLY');
+        setNote('');
+        setError(null);
+      });
+    }
+  }, [open]);
+
+  const handleSubmit = async () => {
+    if (!selected) { setError('Please select a questionnaire.'); return; }
+    if (!cadence) { setError('Please select a cadence.'); return; }
+    setSubmitting(true);
+    setError(null);
+    try {
+      await bridge.assignQuestionnaire(clientId, {
+        questionnaireId: selected.id,
+        cadence: cadence as QuestionnaireCadence,
+        note: note || undefined,
+      });
+      onSuccess();
+      onClose();
+    } catch (e: any) {
+      setError(e.message);
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  return (
+    <Drawer anchor="right" open={open} onClose={onClose} PaperProps={{ sx: { width: { xs: '100%', sm: 480 }, p: { xs: 2, md: 3 } } }}>
+      <Typography variant="h5" sx={{ fontWeight: 600, mb: 0.5 }}>Assign Questionnaire</Typography>
+      <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
+        Select a standardized measure to track client progress over time.
+      </Typography>
+
+      {error && <Alert severity="error" sx={{ mb: 2, borderRadius: 2 }}>{error}</Alert>}
+
+      <Autocomplete
+        options={definitions}
+        getOptionLabel={d => `${d.shortName} — ${d.name}`}
+        value={selected}
+        onChange={(_, v) => setSelected(v)}
+        renderOption={(props, d) => (
+          <li {...props} key={d.id}>
+            <Box>
+              <Typography sx={{ fontSize: '14px', fontWeight: 600 }}>{d.shortName}</Typography>
+              <Typography variant="caption" color="text.secondary">{d.name} · {d.itemCount} items · ~{d.estimatedMinutes} min</Typography>
+            </Box>
+          </li>
+        )}
+        renderInput={params => (
+          <TextField {...params} label="Questionnaire" size="small" placeholder="Search measures…" />
+        )}
+        sx={{ mb: 2.5 }}
+      />
+
+      {selected && (
+        <Alert severity="info" sx={{ mb: 2.5, borderRadius: 2, fontSize: '13px' }}>
+          {selected.description}
+          <br />
+          <strong>Max score:</strong> {selected.maxScore} · <strong>Category:</strong> {selected.category}
+        </Alert>
+      )}
+
+      <FormControl fullWidth size="small" sx={{ mb: 2.5 }}>
+        <InputLabel>Cadence</InputLabel>
+        <Select
+          value={cadence}
+          label="Cadence"
+          onChange={e => setCadence(e.target.value as QuestionnaireCadence | '')}
+        >
+          <MuiMenuItem value="WEEKLY">Weekly</MuiMenuItem>
+          <MuiMenuItem value="BIWEEKLY">Every 2 weeks</MuiMenuItem>
+          <MuiMenuItem value="MONTHLY">Monthly</MuiMenuItem>
+          <MuiMenuItem value="SESSION">Each session</MuiMenuItem>
+        </Select>
+        <FormHelperText>How often the client should complete this measure</FormHelperText>
+      </FormControl>
+
+      <TextField
+        label="Note (optional)"
+        multiline
+        rows={2}
+        size="small"
+        value={note}
+        onChange={e => setNote(e.target.value)}
+        placeholder="e.g. Focus on anxiety symptoms before social events…"
+        sx={{ mb: 3 }}
+        fullWidth
+      />
+
+      <Box sx={{ display: 'flex', gap: 2 }}>
+        <Button fullWidth variant="outlined" onClick={onClose} disabled={submitting}>Cancel</Button>
+        <Button fullWidth variant="contained" onClick={handleSubmit} disabled={submitting || !selected || !cadence}
+          sx={{ background: 'linear-gradient(135deg, #0b57d0 0%, #00639b 100%)' }}>
+          {submitting ? 'Assigning…' : 'Assign questionnaire'}
+        </Button>
+      </Box>
+    </Drawer>
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Main page inner (needs context)
 // ---------------------------------------------------------------------------
 
@@ -308,6 +435,8 @@ function PageInner({ clientId, clientName, onNavigateBack }: PageInnerProps) {
   const [homeworkPreselect, setHomeworkPreselect] = useState<string | undefined>();
   const [interventionDrawerOpen, setInterventionDrawerOpen] = useState(false);
   const [interventionPreselect, setInterventionPreselect] = useState<string | undefined>();
+  const [questionnaireDrawerOpen, setQuestionnaireDrawerOpen] = useState(false);
+  const [questionnaireRefreshKey, setQuestionnaireRefreshKey] = useState(0);
 
   useEffect(() => {
     bridge.listClients()
@@ -318,6 +447,15 @@ function PageInner({ clientId, clientName, onNavigateBack }: PageInnerProps) {
   const handlePlanRefresh = () => {
     setPlanRefreshKey(k => k + 1);
     setActivityRefreshKey(k => k + 1);
+  };
+
+  const handleQuestionnaireRefresh = () => {
+    setQuestionnaireRefreshKey(k => k + 1);
+    setActivityRefreshKey(k => k + 1);
+  };
+
+  const openAssignQuestionnaire = () => {
+    setQuestionnaireDrawerOpen(true);
   };
 
   const openAssignHomework = (moduleId?: string) => {
@@ -333,11 +471,12 @@ function PageInner({ clientId, clientName, onNavigateBack }: PageInnerProps) {
   };
 
   const TABS = [
-    { label: 'Plan',      icon: <Assignment sx={{ fontSize: 16 }} /> },
-    { label: 'Outcomes',  icon: <Assessment sx={{ fontSize: 16 }} /> },
-    { label: 'Publish',   icon: <Publish sx={{ fontSize: 16 }} /> },
-    { label: 'Content',   icon: <LibraryBooks sx={{ fontSize: 16 }} /> },
-    { label: 'Activity',  icon: <History sx={{ fontSize: 16 }} /> },
+    { label: 'Plan',            icon: <Assignment sx={{ fontSize: 16 }} /> },
+    { label: 'Questionnaires',  icon: <Quiz sx={{ fontSize: 16 }} /> },
+    { label: 'Outcomes',        icon: <Assessment sx={{ fontSize: 16 }} /> },
+    { label: 'Publish',         icon: <Publish sx={{ fontSize: 16 }} /> },
+    { label: 'Content',         icon: <LibraryBooks sx={{ fontSize: 16 }} /> },
+    { label: 'Activity',        icon: <History sx={{ fontSize: 16 }} /> },
   ];
 
   return (
@@ -429,16 +568,23 @@ function PageInner({ clientId, clientName, onNavigateBack }: PageInnerProps) {
               refreshKey={planRefreshKey}
             />
           )}
-          {tab === 1 && <OutcomesPanel clientId={clientId} />}
-          {tab === 2 && <PublishPanel clientId={clientId} />}
-          {tab === 3 && (
+          {tab === 1 && (
+            <QuestionnairesPanel
+              clientId={clientId}
+              onAssignQuestionnaire={openAssignQuestionnaire}
+              refreshKey={questionnaireRefreshKey}
+            />
+          )}
+          {tab === 2 && <OutcomesPanel clientId={clientId} />}
+          {tab === 3 && <PublishPanel clientId={clientId} />}
+          {tab === 4 && (
             <ContentPanel
               clientId={clientId}
               onAssignHomework={id => openAssignHomework(id)}
               onAssignIntervention={id => openAssignIntervention(id)}
             />
           )}
-          {tab === 4 && <ActivityPanel clientId={clientId} refreshKey={activityRefreshKey} />}
+          {tab === 5 && <ActivityPanel clientId={clientId} refreshKey={activityRefreshKey} />}
         </Card>
       </Box>
 
@@ -458,6 +604,14 @@ function PageInner({ clientId, clientName, onNavigateBack }: PageInnerProps) {
         clientId={clientId}
         preselectedInterventionId={interventionPreselect}
         onSuccess={handlePlanRefresh}
+      />
+
+      {/* Assign questionnaire drawer */}
+      <AssignQuestionnaireDrawer
+        open={questionnaireDrawerOpen}
+        onClose={() => setQuestionnaireDrawerOpen(false)}
+        clientId={clientId}
+        onSuccess={handleQuestionnaireRefresh}
       />
     </Box>
   );

@@ -700,7 +700,7 @@ const NewSession: React.FC<NewSessionProps> = ({ onNavigateBack, patientId }) =>
   const getPatientName = () => {
     if (patientId) {
       const patient = mockPatients.find(p => p.id === patientId);
-      return patient?.name || 'John Doe';
+      return patient?.name || 'Patient';
     }
     return 'New Session';
   };
