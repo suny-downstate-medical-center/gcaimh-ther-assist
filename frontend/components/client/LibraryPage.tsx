@@ -68,8 +68,7 @@ export const LibraryPage: React.FC<LibraryPageProps> = ({ onNavigateToModule, on
     const searchMatch =
       !searchQuery ||
       module.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      module.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      module.content.toLowerCase().includes(searchQuery.toLowerCase());
+      (module.summary || '').toLowerCase().includes(searchQuery.toLowerCase());
     return categoryMatch && tagMatch && searchMatch;
   });
 
@@ -202,7 +201,7 @@ export const LibraryPage: React.FC<LibraryPageProps> = ({ onNavigateToModule, on
                           overflow: 'hidden',
                         }}
                       >
-                        {module.description}
+                        {module.summary}
                       </Typography>
 
                       <Stack direction="row" spacing={1} flexWrap="wrap" gap={1} mb={2}>

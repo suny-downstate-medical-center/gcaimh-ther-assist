@@ -266,9 +266,6 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
               </Stack>
               <Typography variant="body2" color="text.secondary">
                 Week of {formatWeekLabel(currentWeek)}
-                {schedule?.lastCompletedWeek && (
-                  <> &nbsp;·&nbsp; Last completed: week of {formatWeekLabel(schedule.lastCompletedWeek)}</>
-                )}
               </Typography>
             </Box>
             {!allDoneThisWeek && (
@@ -314,9 +311,8 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                             {threshold && (
                               <Chip
                                 label={threshold.label}
-                                color={threshold.color}
                                 size="small"
-                                sx={{ ml: 0.5 }}
+                                sx={{ ml: 0.5, bgcolor: threshold.color, color: '#fff' }}
                               />
                             )}
                           </Stack>
@@ -392,8 +388,8 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                         </Typography>
                         <Chip
                           label={latestThreshold.label}
-                          color={latestThreshold.color}
                           size="small"
+                          sx={{ bgcolor: latestThreshold.color, color: '#fff' }}
                         />
                       </Box>
                     )}
@@ -479,9 +475,8 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                                     </Typography>
                                     <Chip
                                       label={t.label}
-                                      color={t.color}
                                       size="small"
-                                      sx={{ height: 18, fontSize: '0.6rem' }}
+                                      sx={{ height: 18, fontSize: '0.6rem', bgcolor: t.color, color: '#fff' }}
                                     />
                                   </Stack>
                                 </TableCell>
@@ -539,7 +534,7 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                     color="text.secondary"
                     sx={{ mb: 3, fontStyle: 'italic', lineHeight: 1.6 }}
                   >
-                    {activeMeasure.timeframeLabel}
+                    Over the last 2 weeks, how often have you been bothered by the following problems?
                   </Typography>
                   <Stack spacing={3}>
                     {activeMeasure.items.map((item, idx) => (
@@ -552,7 +547,7 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                           value={formAnswers[idx] >= 0 ? String(formAnswers[idx]) : ''}
                           onChange={(e) => handleAnswer(idx, Number(e.target.value))}
                         >
-                          {activeMeasure.itemOptions.map((opt) => (
+                          {item.options.map((opt) => (
                             <FormControlLabel
                               key={opt.value}
                               value={String(opt.value)}
@@ -606,10 +601,7 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
                             / {activeMeasure.maxScore}
                           </Typography>
                         </Stack>
-                        <Chip label={t.label} color={t.color} sx={{ mb: 2 }} />
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                          {t.description}
-                        </Typography>
+                        <Chip label={t.label} sx={{ mb: 2, bgcolor: t.color, color: '#fff' }} />
                         <Typography variant="caption" color="text.secondary">
                           Your therapist will see this score at your next session.
                         </Typography>

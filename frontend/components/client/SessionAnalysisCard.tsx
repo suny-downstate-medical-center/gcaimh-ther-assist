@@ -10,7 +10,6 @@ import {
   Collapse,
   Button,
   List,
-  ListItem,
   ListItemButton,
   ListItemText,
   Divider,
@@ -33,6 +32,12 @@ import { format } from 'date-fns';
 interface SessionAnalysisCardProps {
   onNavigateToIntegrativeAnalysis: () => void;
 }
+
+const getSessionNumber = (sessions: TherapySession[], session: TherapySession): number => {
+  // Sessions are ordered most-recent-first; session number = total - index
+  const idx = sessions.indexOf(session);
+  return sessions.length - idx;
+};
 
 export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
   onNavigateToIntegrativeAnalysis,
@@ -99,6 +104,7 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
   }
 
   const latestSession = selectedSession || sessions[0];
+  const latestSessionNumber = getSessionNumber(sessions, latestSession);
 
   return (
     <Card sx={{ borderLeft: 4, borderColor: 'secondary.main' }}>
@@ -122,7 +128,7 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
             <Stack direction="row" spacing={2} mb={2} flexWrap="wrap">
               <Chip
                 icon={<CalendarIcon />}
-                label={`Session ${latestSession.sessionNumber} - ${format(new Date(latestSession.date), 'MMM d, yyyy')}`}
+                label={`Session ${latestSessionNumber} - ${format(new Date(latestSession.date), 'MMM d, yyyy')}`}
                 size="small"
                 color="secondary"
                 variant="outlined"
@@ -138,10 +144,10 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <Typography variant="caption" color="text.secondary" display="block">
-                  Primary Themes
+                  Themes
                 </Typography>
                 <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5}>
-                  {latestSession.primaryThemes.slice(0, 3).map((theme) => (
+                  {latestSession.themes.slice(0, 3).map((theme) => (
                     <Chip key={theme} label={theme} size="small" />
                   ))}
                 </Stack>
@@ -149,18 +155,11 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
 
               <Grid item xs={12} sm={6}>
                 <Typography variant="caption" color="text.secondary" display="block">
-                  Engagement
+                  Emotional Shift
                 </Typography>
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <LinearProgress
-                    variant="determinate"
-                    value={latestSession.metrics.engagement}
-                    sx={{ flex: 1, height: 8, borderRadius: 4 }}
-                  />
-                  <Typography variant="body2" sx={{ fontWeight: 600 }}>
-                    {latestSession.metrics.engagement}%
-                  </Typography>
-                </Box>
+                <Typography variant="body2" sx={{ fontWeight: 600 }}>
+                  {latestSession.emotionalState?.start} &rarr; {latestSession.emotionalState?.end}
+                </Typography>
               </Grid>
             </Grid>
 
@@ -188,7 +187,7 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
                       sx={{ borderRadius: 1 }}
                     >
                       <ListItemText
-                        primary={`Session ${session.sessionNumber}`}
+                        primary={`Session ${getSessionNumber(sessions, session)}`}
                         secondary={format(new Date(session.date), 'MMM d, yyyy')}
                       />
                     </ListItemButton>
@@ -212,106 +211,93 @@ export const SessionAnalysisCard: React.FC<SessionAnalysisCardProps> = ({
                 {selectedSession && (
                   <Box>
                     <Typography variant="h6" sx={{ fontWeight: 600, mb: 2 }}>
-                      Session {selectedSession.sessionNumber} - {format(new Date(selectedSession.date), 'MMMM d, yyyy')}
+                      Session {getSessionNumber(sessions, selectedSession)} - {format(new Date(selectedSession.date), 'MMMM d, yyyy')}
                     </Typography>
 
                     <Stack spacing={2}>
-                      {/* Metrics */}
+                      {/* Summary */}
                       <Box>
                         <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-                          Key Metrics
+                          Summary
                         </Typography>
-                        <Grid container spacing={2}>
-                          <Grid item xs={6} sm={3}>
-                            <Typography variant="caption" color="text.secondary">Therapeutic Alliance</Typography>
-                            <LinearProgress variant="determinate" value={selectedSession.metrics.therapeuticAlliance} sx={{ height: 6, borderRadius: 3, mb: 0.5 }} />
-                            <Typography variant="body2">{selectedSession.metrics.therapeuticAlliance}%</Typography>
-                          </Grid>
-                          <Grid item xs={6} sm={3}>
-                            <Typography variant="caption" color="text.secondary">Engagement</Typography>
-                            <LinearProgress variant="determinate" value={selectedSession.metrics.engagement} sx={{ height: 6, borderRadius: 3, mb: 0.5 }} />
-                            <Typography variant="body2">{selectedSession.metrics.engagement}%</Typography>
-                          </Grid>
-                          <Grid item xs={6} sm={3}>
-                            <Typography variant="caption" color="text.secondary">Emotional State</Typography>
-                            <LinearProgress variant="determinate" value={selectedSession.metrics.emotionalState} sx={{ height: 6, borderRadius: 3, mb: 0.5 }} />
-                            <Typography variant="body2">{selectedSession.metrics.emotionalState}%</Typography>
-                          </Grid>
-                          <Grid item xs={6} sm={3}>
-                            <Typography variant="caption" color="text.secondary">Arousal</Typography>
-                            <LinearProgress variant="determinate" value={selectedSession.metrics.arousal} sx={{ height: 6, borderRadius: 3, mb: 0.5 }} />
-                            <Typography variant="body2">{selectedSession.metrics.arousal}%</Typography>
-                          </Grid>
-                        </Grid>
+                        <Typography variant="body2" color="text.secondary">
+                          {selectedSession.summary}
+                        </Typography>
                       </Box>
+
+                      {/* Emotional State */}
+                      {selectedSession.emotionalState && (
+                        <Box>
+                          <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
+                            Emotional State
+                          </Typography>
+                          <Stack direction="row" spacing={2} alignItems="center">
+                            <Chip label={selectedSession.emotionalState.start} size="small" variant="outlined" />
+                            <Typography variant="body2" color="text.secondary">&rarr;</Typography>
+                            <Chip label={selectedSession.emotionalState.end} size="small" variant="outlined" />
+                            <Chip
+                              label={selectedSession.emotionalState.shift}
+                              size="small"
+                              sx={{
+                                bgcolor: selectedSession.emotionalState.shift === 'Positive' ? '#059669' : '#d97706',
+                                color: '#fff',
+                              }}
+                            />
+                          </Stack>
+                        </Box>
+                      )}
 
                       <Divider />
 
                       {/* Themes */}
                       <Box>
                         <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-                          Primary Themes
+                          Themes
                         </Typography>
                         <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5}>
-                          {selectedSession.primaryThemes.map((theme) => (
+                          {selectedSession.themes.map((theme) => (
                             <Chip key={theme} label={theme} size="small" color="primary" />
                           ))}
                         </Stack>
                       </Box>
 
-                      {/* Therapeutic Moments */}
+                      {/* Key Moments */}
                       <Box>
                         <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
                           <InsightIcon sx={{ fontSize: 18, verticalAlign: 'middle', mr: 0.5 }} />
-                          Key Therapeutic Moments
+                          Key Moments
                         </Typography>
                         <Stack spacing={1}>
-                          {selectedSession.therapeuticMoments.map((moment, idx) => (
+                          {selectedSession.keyMoments.map((moment, idx) => (
                             <Card key={idx} variant="outlined" sx={{ bgcolor: 'grey.50' }}>
                               <CardContent sx={{ py: 1.5, '&:last-child': { pb: 1.5 } }}>
-                                <Stack direction="row" spacing={1} alignItems="center" mb={0.5}>
-                                  <Chip label={moment.type} size="small" sx={{ bgcolor: '#0b57d0', color: '#fff', border: 'none' }} />
-                                  <Typography variant="caption" color="text.secondary">
-                                    Intensity: {moment.intensity}/5
-                                  </Typography>
-                                </Stack>
-                                <Typography variant="body2">{moment.description}</Typography>
+                                <Typography variant="body2">{moment}</Typography>
                               </CardContent>
                             </Card>
                           ))}
                         </Stack>
                       </Box>
 
-                      {/* Clinical Summary */}
+                      {/* Techniques */}
                       <Box>
                         <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-                          Clinical Summary
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          {selectedSession.clinicalSummary}
-                        </Typography>
-                      </Box>
-
-                      {/* Strengths */}
-                      <Box>
-                        <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-                          Strengths Observed
+                          Techniques
                         </Typography>
                         <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5}>
-                          {selectedSession.strengthsObserved.map((strength) => (
-                            <Chip key={strength} label={strength} size="small" variant="outlined" color="success" />
+                          {selectedSession.techniques.map((technique) => (
+                            <Chip key={technique} label={technique} size="small" variant="outlined" />
                           ))}
                         </Stack>
                       </Box>
 
-                      {/* Skills Practiced */}
+                      {/* Insights */}
                       <Box>
                         <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-                          Skills Practiced
+                          Insights
                         </Typography>
                         <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5}>
-                          {selectedSession.skillsPracticed.map((skill) => (
-                            <Chip key={skill} label={skill} size="small" variant="outlined" />
+                          {selectedSession.insights.map((insight) => (
+                            <Chip key={insight} label={insight} size="small" variant="outlined" color="success" />
                           ))}
                         </Stack>
                       </Box>

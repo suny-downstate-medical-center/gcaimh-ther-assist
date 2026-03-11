@@ -40,9 +40,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
   const [expandedEntryId, setExpandedEntryId] = useState<string | null>(null);
   const [currentEntry, setCurrentEntry] = useState<Partial<JournalEntry>>({
     id: '',
-    learned: '',
-    meaning: '',
-    nextSessionNotes: '',
+    keyInsights: '',
+    personalApplication: '',
+    discussionTopics: '',
   });
 
   useEffect(() => {
@@ -61,11 +61,11 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
   const handleStartNewEntry = () => {
     const newEntry: Partial<JournalEntry> = {
       id: `journal-${Date.now()}`,
-      learned: '',
-      meaning: '',
-      nextSessionNotes: '',
-      linkedModuleId: contextModuleId,
-      linkedInterventionSessionId: contextInterventionId,
+      keyInsights: '',
+      personalApplication: '',
+      discussionTopics: '',
+      moduleId: contextModuleId,
+      interventionId: contextInterventionId,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     };
@@ -85,9 +85,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
       setIsEditing(false);
       setCurrentEntry({
         id: '',
-        learned: '',
-        meaning: '',
-        nextSessionNotes: '',
+        keyInsights: '',
+        personalApplication: '',
+        discussionTopics: '',
       });
       await loadEntries();
     } catch (err) {
@@ -99,9 +99,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
     setIsEditing(false);
     setCurrentEntry({
       id: '',
-      learned: '',
-      meaning: '',
-      nextSessionNotes: '',
+      keyInsights: '',
+      personalApplication: '',
+      discussionTopics: '',
     });
   };
 
@@ -183,9 +183,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
               label="What I learned"
               multiline
               rows={3}
-              value={currentEntry.learned || ''}
+              value={currentEntry.keyInsights || ''}
               onChange={(e) =>
-                setCurrentEntry({ ...currentEntry, learned: e.target.value })
+                setCurrentEntry({ ...currentEntry, keyInsights: e.target.value })
               }
               placeholder="Key insights from this session..."
               fullWidth
@@ -196,9 +196,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
               label="What it means for me"
               multiline
               rows={3}
-              value={currentEntry.meaning || ''}
+              value={currentEntry.personalApplication || ''}
               onChange={(e) =>
-                setCurrentEntry({ ...currentEntry, meaning: e.target.value })
+                setCurrentEntry({ ...currentEntry, personalApplication: e.target.value })
               }
               placeholder="How this relates to my life..."
               fullWidth
@@ -209,9 +209,9 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
               label="Notes for next session"
               multiline
               rows={2}
-              value={currentEntry.nextSessionNotes || ''}
+              value={currentEntry.discussionTopics || ''}
               onChange={(e) =>
-                setCurrentEntry({ ...currentEntry, nextSessionNotes: e.target.value })
+                setCurrentEntry({ ...currentEntry, discussionTopics: e.target.value })
               }
               placeholder="Topics to discuss..."
               fullWidth
@@ -279,35 +279,35 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
 
                       <Collapse in={expandedEntryId === entry.id} timeout="auto" unmountOnExit>
                         <Stack spacing={1} sx={{ mt: 1 }}>
-                          {entry.learned && (
+                          {entry.keyInsights && (
                             <Box>
                               <Typography variant="caption" sx={{ fontWeight: 600, display: 'block' }}>
                                 What I learned
                               </Typography>
                               <Typography variant="body2" sx={{ fontSize: '0.75rem' }}>
-                                {entry.learned}
+                                {entry.keyInsights}
                               </Typography>
                             </Box>
                           )}
 
-                          {entry.meaning && (
+                          {entry.personalApplication && (
                             <Box>
                               <Typography variant="caption" sx={{ fontWeight: 600, display: 'block' }}>
                                 What it means
                               </Typography>
                               <Typography variant="body2" sx={{ fontSize: '0.75rem' }}>
-                                {entry.meaning}
+                                {entry.personalApplication}
                               </Typography>
                             </Box>
                           )}
 
-                          {entry.nextSessionNotes && (
+                          {entry.discussionTopics && (
                             <Box>
                               <Typography variant="caption" sx={{ fontWeight: 600, display: 'block' }}>
                                 Next session
                               </Typography>
                               <Typography variant="body2" sx={{ fontSize: '0.75rem' }}>
-                                {entry.nextSessionNotes}
+                                {entry.discussionTopics}
                               </Typography>
                             </Box>
                           )}
@@ -326,7 +326,7 @@ export const JournalPanel: React.FC<JournalPanelProps> = ({
                             overflow: 'hidden',
                           }}
                         >
-                          {entry.learned || entry.meaning || entry.nextSessionNotes}
+                          {entry.keyInsights || entry.personalApplication || entry.discussionTopics}
                         </Typography>
                       )}
                     </CardContent>

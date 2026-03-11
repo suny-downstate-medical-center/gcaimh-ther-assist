@@ -12,12 +12,10 @@ import {
   Alert,
 } from '@mui/material';
 import {
-  TrendingUp as TrendingUpIcon,
   Spa as SpaIcon,
   CheckCircle as CheckCircleIcon,
   PlayArrow as PlayArrowIcon,
   Assignment as AssignmentIcon,
-  MenuBook as JournalIcon,
   BarChart as BarChartIcon,
 } from '@mui/icons-material';
 import { useClientPortal } from '../../contexts/ClientPortalContext';
@@ -25,8 +23,6 @@ import {
   HomeworkAssignment,
   PsychoeducationModule,
   Intervention,
-  ClientProgress,
-  JournalEntry,
 } from '../../types/clientPortal';
 import { SessionAnalysisCard } from './SessionAnalysisCard';
 
@@ -53,8 +49,6 @@ export const ClientHome: React.FC<ClientHomeProps> = ({
   const [assignments, setAssignments] = useState<HomeworkAssignment[]>([]);
   const [modules, setModules] = useState<Map<string, PsychoeducationModule>>(new Map());
   const [interventions, setInterventions] = useState<Intervention[]>([]);
-  const [progress, setProgress] = useState<ClientProgress | null>(null);
-  const [journalEntries, setJournalEntries] = useState<JournalEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -64,12 +58,10 @@ export const ClientHome: React.FC<ClientHomeProps> = ({
   const loadData = async () => {
     try {
       setLoading(true);
-      const [assignmentsData, modulesData, interventionsData, progressData, journalData] = await Promise.all([
+      const [assignmentsData, modulesData, interventionsData] = await Promise.all([
         portal.listHomeworkAssignments(),
         portal.listModules(),
         portal.listInterventions(),
-        portal.getClientProgress(),
-        portal.listJournalEntries(),
       ]);
 
       setAssignments(assignmentsData);
@@ -79,8 +71,6 @@ export const ClientHome: React.FC<ClientHomeProps> = ({
       setModules(moduleMap);
 
       setInterventions(interventionsData);
-      setProgress(progressData);
-      setJournalEntries(journalData);
     } catch (err) {
       console.error('[ClientHome] Error loading data:', err);
     } finally {
@@ -199,37 +189,6 @@ export const ClientHome: React.FC<ClientHomeProps> = ({
                 <Chip
                   label="Browse"
                   color="info"
-                  size="small"
-                />
-              </Stack>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Card
-            sx={{
-              height: '100%',
-              cursor: 'pointer',
-              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-              '&:hover': {
-                transform: 'translateY(-4px)',
-                boxShadow: 4,
-              },
-            }}
-            onClick={onNavigateToJournal}
-          >
-            <CardContent>
-              <Stack alignItems="center" spacing={2}>
-                <JournalIcon color="warning" sx={{ fontSize: 48 }} />
-                <Typography variant="h6" sx={{ fontWeight: 600 }}>
-                  Journal
-                </Typography>
-                <Typography variant="body2" color="text.secondary" textAlign="center">
-                  Reflect on your learning and insights
-                </Typography>
-                <Chip
-                  label={journalEntries.length > 0 ? `${journalEntries.length} entries` : 'Start writing'}
-                  color="warning"
                   size="small"
                 />
               </Stack>
@@ -380,135 +339,6 @@ export const ClientHome: React.FC<ClientHomeProps> = ({
           </Card>
         </Grid>
 
-        {/* Progress & Brain Skills */}
-        <Grid item xs={12} md={6}>
-          <Card sx={{ height: '100%', borderLeft: 4, borderColor: 'warning.main' }}>
-            <CardContent>
-              <Stack direction="row" alignItems="center" spacing={1} mb={2}>
-                <TrendingUpIcon color="warning" />
-                <Typography variant="h5" sx={{ fontWeight: 600 }}>
-                  Progress & Brain Skills
-                </Typography>
-              </Stack>
-
-              <Stack spacing={3}>
-                {/* Streak */}
-                <Box>
-                  <Typography variant="body2" color="text.secondary" gutterBottom>
-                    Current Streak
-                  </Typography>
-                  <Typography variant="h3" sx={{ fontWeight: 600, color: 'warning.main' }}>
-                    {progress?.currentStreak || 0} days
-                  </Typography>
-                </Box>
-
-                {/* Completion Rate */}
-                <Box>
-                  <Stack direction="row" justifyContent="space-between" alignItems="center" mb={0.5}>
-                    <Typography variant="body2" color="text.secondary">
-                      Weekly Completion
-                    </Typography>
-                    <Typography variant="body2" sx={{ fontWeight: 600 }}>
-                      {progress?.weeklyCompletionRate || 0}%
-                    </Typography>
-                  </Stack>
-                  <LinearProgress
-                    variant="determinate"
-                    value={Math.min(100, progress?.weeklyCompletionRate || 0)}
-                    sx={{
-                      height: 8,
-                      borderRadius: 4,
-                      bgcolor: 'grey.200',
-                      '& .MuiLinearProgress-bar': {
-                        borderRadius: 4,
-                        bgcolor: 'warning.main',
-                      },
-                    }}
-                  />
-                </Box>
-
-                {/* Brain Skills */}
-                <Box>
-                  <Typography variant="body2" color="text.secondary" gutterBottom>
-                    Brain Skills Practiced
-                  </Typography>
-                  <Stack direction="row" spacing={1} flexWrap="wrap" gap={0.5}>
-                    {progress?.skillsPracticed.slice(0, 5).map((skill) => (
-                      <Chip key={skill} label={skill} size="small" variant="outlined" />
-                    )) || (
-                      <Typography variant="caption" color="text.secondary">
-                        Complete assignments to build skills
-                      </Typography>
-                    )}
-                  </Stack>
-                </Box>
-              </Stack>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        {/* Recent Journal Entries */}
-        <Grid item xs={12} md={6}>
-          <Card sx={{ height: '100%', borderLeft: 4, borderColor: 'warning.main' }}>
-            <CardContent>
-              <Stack direction="row" alignItems="center" justifyContent="space-between" mb={2}>
-                <Stack direction="row" alignItems="center" spacing={1}>
-                  <JournalIcon color="warning" />
-                  <Typography variant="h5" sx={{ fontWeight: 600 }}>
-                    Recent Journal
-                  </Typography>
-                </Stack>
-                <Button size="small" onClick={onNavigateToJournal}>
-                  View All
-                </Button>
-              </Stack>
-
-              {journalEntries.length === 0 ? (
-                <Box sx={{ textAlign: 'center', py: 3 }}>
-                  <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                    No journal entries yet. Start reflecting on your progress!
-                  </Typography>
-                  <Button variant="outlined" size="small" onClick={onNavigateToJournal}>
-                    Write First Entry
-                  </Button>
-                </Box>
-              ) : (
-                <Stack spacing={1.5}>
-                  {journalEntries.slice(0, 3).map((entry) => (
-                    <Card
-                      key={entry.id}
-                      variant="outlined"
-                      sx={{ cursor: 'pointer', '&:hover': { bgcolor: 'grey.50' } }}
-                      onClick={onNavigateToJournal}
-                    >
-                      <CardContent sx={{ py: 1.5, '&:last-child': { pb: 1.5 } }}>
-                        <Typography variant="caption" color="text.secondary">
-                          {new Date(entry.createdAt).toLocaleDateString('en-US', {
-                            month: 'short',
-                            day: 'numeric',
-                            year: 'numeric',
-                          })}
-                        </Typography>
-                        <Typography
-                          variant="body2"
-                          sx={{
-                            mt: 0.5,
-                            display: '-webkit-box',
-                            WebkitLineClamp: 2,
-                            WebkitBoxOrient: 'vertical',
-                            overflow: 'hidden',
-                          }}
-                        >
-                          {entry.learned || entry.meaning || entry.nextSessionNotes || 'No content'}
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </Stack>
-              )}
-            </CardContent>
-          </Card>
-        </Grid>
       </Grid>
     </Box>
   );

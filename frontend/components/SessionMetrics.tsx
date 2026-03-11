@@ -133,32 +133,6 @@ const SessionMetrics: React.FC<SessionMetricsProps> = ({ metrics }) => {
           </Box>
         </Grid>
 
-        {/* Techniques Detected */}
-        <Grid item xs={12}>
-          <Box>
-            <Typography variant="caption" color="text.secondary" sx={{ mb: 1 }}>
-              Techniques Detected:
-            </Typography>
-            {metrics.techniques_detected.length > 0 ? (
-              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-                {metrics.techniques_detected.map((technique, idx) => (
-                  <Chip
-                    key={idx}
-                    label={technique}
-                    size="small"
-                    variant="outlined"
-                    sx={{ fontSize: '0.75rem' }}
-                  />
-                ))}
-              </Box>
-            ) : (
-              <Typography variant="caption" color="text.secondary">
-                No techniques detected yet
-              </Typography>
-            )}
-          </Box>
-        </Grid>
-
         {/* Phase Appropriate */}
         <Grid item xs={12}>
           <Box

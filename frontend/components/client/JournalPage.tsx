@@ -77,9 +77,9 @@ export const JournalPage: React.FC<JournalPageProps> = ({ onNavigateBack }) => {
   const handleStartNewEntry = () => {
     setEditingEntry({
       id: `journal-${Date.now()}`,
-      learned: '',
-      meaning: '',
-      nextSessionNotes: '',
+      keyInsights: '',
+      personalApplication: '',
+      discussionTopics: '',
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     });
@@ -176,36 +176,36 @@ export const JournalPage: React.FC<JournalPageProps> = ({ onNavigateBack }) => {
 
             <Stack spacing={3}>
               <TextField
-                label="What I learned"
+                label="Key Insights"
                 multiline
                 rows={4}
-                value={editingEntry.learned || ''}
+                value={editingEntry.keyInsights || ''}
                 onChange={(e) =>
-                  setEditingEntry({ ...editingEntry, learned: e.target.value })
+                  setEditingEntry({ ...editingEntry, keyInsights: e.target.value })
                 }
                 placeholder="What insights did you gain from this module or intervention?"
                 fullWidth
               />
 
               <TextField
-                label="What it means for me"
+                label="Personal Application"
                 multiline
                 rows={4}
-                value={editingEntry.meaning || ''}
+                value={editingEntry.personalApplication || ''}
                 onChange={(e) =>
-                  setEditingEntry({ ...editingEntry, meaning: e.target.value })
+                  setEditingEntry({ ...editingEntry, personalApplication: e.target.value })
                 }
                 placeholder="How does this apply to your life? What patterns do you notice?"
                 fullWidth
               />
 
               <TextField
-                label="Notes for next session"
+                label="Discussion Topics"
                 multiline
                 rows={4}
-                value={editingEntry.nextSessionNotes || ''}
+                value={editingEntry.discussionTopics || ''}
                 onChange={(e) =>
-                  setEditingEntry({ ...editingEntry, nextSessionNotes: e.target.value })
+                  setEditingEntry({ ...editingEntry, discussionTopics: e.target.value })
                 }
                 placeholder="What do you want to discuss with your therapist?"
                 fullWidth
@@ -320,9 +320,9 @@ const JournalEntryCard: React.FC<JournalEntryCardProps> = ({
 }) => {
   const [expanded, setExpanded] = useState(false);
 
-  const relatedModule = entry.linkedModuleId ? modules.get(entry.linkedModuleId) : null;
-  const relatedIntervention = entry.linkedInterventionSessionId
-    ? interventions.get(entry.linkedInterventionSessionId)
+  const relatedModule = entry.moduleId ? modules.get(entry.moduleId) : null;
+  const relatedIntervention = entry.interventionId
+    ? interventions.get(entry.interventionId)
     : null;
 
   return (
@@ -359,35 +359,35 @@ const JournalEntryCard: React.FC<JournalEntryCardProps> = ({
 
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <Stack spacing={2} sx={{ mt: 2 }}>
-            {entry.learned && (
+            {entry.keyInsights && (
               <Box>
                 <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 0.5 }}>
-                  What I learned
+                  Key Insights
                 </Typography>
                 <Typography variant="body2" sx={{ whiteSpace: 'pre-line' }}>
-                  {entry.learned}
+                  {entry.keyInsights}
                 </Typography>
               </Box>
             )}
 
-            {entry.meaning && (
+            {entry.personalApplication && (
               <Box>
                 <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 0.5 }}>
-                  What it means for me
+                  Personal Application
                 </Typography>
                 <Typography variant="body2" sx={{ whiteSpace: 'pre-line' }}>
-                  {entry.meaning}
+                  {entry.personalApplication}
                 </Typography>
               </Box>
             )}
 
-            {entry.nextSessionNotes && (
+            {entry.discussionTopics && (
               <Box>
                 <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 0.5 }}>
-                  Notes for next session
+                  Discussion Topics
                 </Typography>
                 <Typography variant="body2" sx={{ whiteSpace: 'pre-line' }}>
-                  {entry.nextSessionNotes}
+                  {entry.discussionTopics}
                 </Typography>
               </Box>
             )}
@@ -406,7 +406,7 @@ const JournalEntryCard: React.FC<JournalEntryCardProps> = ({
               overflow: 'hidden',
             }}
           >
-            {entry.learned || entry.meaning || entry.nextSessionNotes || 'No content'}
+            {entry.keyInsights || entry.personalApplication || entry.discussionTopics || 'No content'}
           </Typography>
         )}
       </CardContent>
