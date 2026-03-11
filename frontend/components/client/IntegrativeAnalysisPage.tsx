@@ -119,14 +119,14 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
               <Stack direction="row" alignItems="center" spacing={1} mb={2}>
                 <TimelineIcon color="secondary" />
                 <Typography variant="h6" sx={{ fontWeight: 600 }}>
-                  Recurring Themes
+                  Key Patterns
                 </Typography>
               </Stack>
               <Stack spacing={1}>
-                {analysis.keyThemesAcrossSessions.map((theme, idx) => (
+                {analysis.patterns.map((pattern, idx) => (
                   <Paper key={idx} variant="outlined" sx={{ p: 1.5, bgcolor: 'secondary.50' }}>
                     <Typography variant="body2" sx={{ fontWeight: 500 }}>
-                      {idx + 1}. {theme}
+                      {idx + 1}. {pattern}
                     </Typography>
                   </Paper>
                 ))}
@@ -146,7 +146,7 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
                 </Typography>
               </Stack>
               <Stack spacing={1}>
-                {analysis.recommendedFocus.map((focus, idx) => (
+                {analysis.recommendations.map((focus, idx) => (
                   <Stack key={idx} direction="row" spacing={1} alignItems="flex-start">
                     <Box
                       sx={{
@@ -174,12 +174,27 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
               <Stack direction="row" alignItems="center" spacing={1} mb={2}>
                 <TrendingUpIcon color="success" />
                 <Typography variant="h6" sx={{ fontWeight: 600 }}>
-                  Growth Trajectory
+                  Growth Areas
                 </Typography>
               </Stack>
-              <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8 }}>
-                {analysis.growthTrajectory}
-              </Typography>
+              <Stack spacing={1}>
+                {analysis.growthAreas.map((area, idx) => (
+                  <Stack key={idx} direction="row" spacing={1} alignItems="flex-start">
+                    <Box
+                      sx={{
+                        width: 6,
+                        height: 6,
+                        borderRadius: '50%',
+                        bgcolor: 'success.main',
+                        mt: 1,
+                      }}
+                    />
+                    <Typography variant="body2" color="text.secondary" sx={{ flex: 1 }}>
+                      {area}
+                    </Typography>
+                  </Stack>
+                ))}
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
@@ -195,7 +210,7 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
                 </Typography>
               </Stack>
               <Grid container spacing={2}>
-                {analysis.patternIdentification.map((pattern, idx) => (
+                {analysis.patterns.map((pattern, idx) => (
                   <Grid item xs={12} sm={6} key={idx}>
                     <Card variant="outlined" sx={{ bgcolor: 'info.50', borderColor: 'info.200' }}>
                       <CardContent sx={{ py: 2, '&:last-child': { pb: 2 } }}>
@@ -226,12 +241,19 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
               <Stack direction="row" alignItems="center" spacing={1} mb={2}>
                 <StarIcon color="success" />
                 <Typography variant="h6" sx={{ fontWeight: 600 }}>
-                  Strengths Evolution
+                  Strength Areas
                 </Typography>
               </Stack>
-              <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8 }}>
-                {analysis.strengthsEvolution}
-              </Typography>
+              <Stack spacing={1}>
+                {analysis.strengthAreas.map((strength, idx) => (
+                  <Stack key={idx} direction="row" spacing={1} alignItems="flex-start">
+                    <StarIcon sx={{ fontSize: 16, color: 'success.main', mt: 0.3 }} />
+                    <Typography variant="body2" color="text.secondary" sx={{ flex: 1 }}>
+                      {strength}
+                    </Typography>
+                  </Stack>
+                ))}
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
@@ -247,9 +269,16 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
                 </Typography>
               </Stack>
               <Divider sx={{ my: 2 }} />
-              <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
-                {analysis.clinicalInsights}
-              </Typography>
+              <Stack spacing={1}>
+                {analysis.therapeuticInsights.map((insight, idx) => (
+                  <Stack key={idx} direction="row" spacing={1} alignItems="flex-start">
+                    <PsychologyIcon sx={{ fontSize: 16, color: 'secondary.main', mt: 0.3 }} />
+                    <Typography variant="body2" color="text.secondary" sx={{ flex: 1 }}>
+                      {insight}
+                    </Typography>
+                  </Stack>
+                ))}
+              </Stack>
             </CardContent>
           </Card>
         </Grid>
@@ -271,15 +300,15 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
               </Box>
               <Box>
                 <Typography variant="h4" sx={{ fontWeight: 600, color: 'secondary.main' }}>
-                  {analysis.keyThemesAcrossSessions.length}
+                  {analysis.patterns.length}
                 </Typography>
                 <Typography variant="caption" color="text.secondary">
-                  Key Themes
+                  Patterns
                 </Typography>
               </Box>
               <Box>
                 <Typography variant="h4" sx={{ fontWeight: 600, color: 'success.main' }}>
-                  {analysis.patternIdentification.length}
+                  {analysis.patterns.length}
                 </Typography>
                 <Typography variant="caption" color="text.secondary">
                   Patterns Identified
@@ -287,7 +316,7 @@ export const IntegrativeAnalysisPage: React.FC<IntegrativeAnalysisPageProps> = (
               </Box>
               <Box>
                 <Typography variant="h4" sx={{ fontWeight: 600, color: 'warning.main' }}>
-                  {analysis.recommendedFocus.length}
+                  {analysis.recommendations.length}
                 </Typography>
                 <Typography variant="caption" color="text.secondary">
                   Focus Areas
