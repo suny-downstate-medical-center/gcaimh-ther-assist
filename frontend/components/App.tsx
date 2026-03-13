@@ -30,6 +30,8 @@ import PatientSummary from './PatientSummary';
 import Patients from './Patients';
 import Patient from './Patient';
 import LoginPage from './LoginPage';
+import { ClientApp } from './client/ClientApp';
+import SchedulingDashboard from './scheduling/SchedulingDashboard';
 import { useAuth } from '../contexts/AuthContext';
 import { mockPatients } from '../utils/mockPatients';
 import { Patient as PatientType, SessionSummary } from '../types/types';
@@ -69,11 +71,11 @@ const App: React.FC = () => {
   const [lastSessionId, setLastSessionId] = useState('');
 
   // Navigation state
-  const [currentView, setCurrentView] = useState<'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary'>('landing');
+  const [currentView, setCurrentView] = useState<'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal'>('landing');
   const [selectedPatientId, setSelectedPatientId] = useState<string | null>(null);
   const [sessionPatientId, setSessionPatientId] = useState<string | null>(null);
   const [navigationHistory, setNavigationHistory] = useState<Array<{
-    view: 'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary';
+    view: 'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal';
     patientId?: string | null;
     sessionPatientId?: string | null;
   }>>([]);
@@ -199,12 +201,18 @@ const App: React.FC = () => {
   };
 
   // Render the appropriate view based on current state
+  const handleNavigateToClientPortal = () => {
+    pushToHistory(currentView, selectedPatientId);
+    setCurrentView('clientPortal');
+  };
+
   if (currentView === 'landing') {
     return (
       <LandingPage
         onNavigateToPatients={handleNavigateToPatients}
         onNavigateToSchedule={handleNavigateToSchedule}
         onNavigateToNewSession={handleNavigateToNewSession}
+        onNavigateToClientPortal={handleNavigateToClientPortal}
       />
     );
   }
@@ -231,19 +239,43 @@ const App: React.FC = () => {
     );
   }
 
+  if (currentView === 'clientPortal') {
+    return <ClientApp />;
+  }
+
   if (currentView === 'schedule') {
     return (
-      <Box sx={{ 
-        height: '100vh', 
-        display: 'flex', 
+      <Box sx={{
+        height: '100vh',
+        display: 'flex',
         flexDirection: 'column',
         background: 'var(--background-gradient)',
         overflow: 'hidden',
       }}>
-        <Box sx={{ 
-          flex: 1, 
-          display: 'flex', 
-          alignItems: 'center', 
+        <SchedulingDashboard
+          patients={patients}
+          onNavigateBack={handleGoBack}
+          onNavigateToPatient={(id) => { setSelectedPatientId(id); pushToHistory(currentView, selectedPatientId); setCurrentView('patient'); }}
+          onNavigateToNewSession={(id) => { if (id) setSessionPatientId(id); pushToHistory(currentView, selectedPatientId); setCurrentView('newSession'); }}
+        />
+      </Box>
+    );
+  }
+
+  // Keep old schedule placeholder as fallback (unused — SchedulingDashboard above)
+  if (false) {
+    return (
+      <Box sx={{
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        background: 'var(--background-gradient)',
+        overflow: 'hidden',
+      }}>
+        <Box sx={{
+          flex: 1,
+          display: 'flex',
+          alignItems: 'center',
           justifyContent: 'center',
           p: 3,
         }}>

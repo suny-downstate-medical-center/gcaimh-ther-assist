@@ -121,16 +121,18 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
         >
           {action.title}
         </Typography>
-        <Typography
-          variant="body2"
-          sx={{
-            fontSize: '12px',
-            lineHeight: '18px',
-            color: '#444746',
-          }}
-        >
-          {action.description}
-        </Typography>
+        {action.description ? (
+          <Typography
+            variant="body2"
+            sx={{
+              fontSize: '12px',
+              lineHeight: '18px',
+              color: '#444746',
+            }}
+          >
+            {action.description}
+          </Typography>
+        ) : null}
       </Box>
     </Paper>
   );
@@ -247,20 +249,27 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
         </Box>
       )}
 
-      <Typography
-        variant="h6"
-        sx={{
-          fontSize: '16px',
-          fontWeight: 400,
-          lineHeight: '24px',
-          color: '#1f1f1f',
-          whiteSpace: 'pre-line',
-          maxHeight: '120px',
-          overflow: 'auto',
-        }}
-      >
-        {currentGuidance.content}
-      </Typography>
+      <Box sx={{
+        p: 2,
+        border: '1px solid #c4c7c5',
+        borderRadius: '12px',
+        backgroundColor: '#f8f9fa',
+      }}>
+        <Typography
+          variant="h6"
+          sx={{
+            fontSize: '16px',
+            fontWeight: 400,
+            lineHeight: '24px',
+            color: '#1f1f1f',
+            whiteSpace: 'pre-line',
+            maxHeight: '120px',
+            overflow: 'auto',
+          }}
+        >
+          {currentGuidance.content}
+        </Typography>
+      </Box>
 
       {/* Action Cards */}
       <Box sx={{ display: 'flex', gap: 3 }}>

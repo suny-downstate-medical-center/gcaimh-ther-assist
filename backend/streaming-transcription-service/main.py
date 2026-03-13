@@ -152,6 +152,9 @@ class StreamingTranscriptionSession:
     to Speech-to-Text v2, and sends transcripts back via WebSocket.
     """
 
+    # Max STT v2 streaming duration before auto-reconnect (~4.5 min, under 5-min hard limit)
+    MAX_STREAM_DURATION_SECONDS = 270
+
     def __init__(self, session_id: str, websocket: WebSocket):
         self.session_id = session_id
         self.websocket = websocket
@@ -161,6 +164,7 @@ class StreamingTranscriptionSession:
         self.response_queue = asyncio.Queue()
         self.streaming_thread = None
         self.main_loop = asyncio.get_event_loop()
+        self.stream_generation = 0  # tracks reconnect cycles
 
     def get_streaming_config(self) -> types.StreamingRecognitionConfig:
         # Clinical terminology phrase set for medical STT adaptation
@@ -286,8 +290,8 @@ class StreamingTranscriptionSession:
                 interim_results=True,
                 enable_voice_activity_events=True,
                 voice_activity_timeout=types.StreamingRecognitionFeatures.VoiceActivityTimeout(
-                    speech_start_timeout={"seconds": 30},
-                    speech_end_timeout={"seconds": 6},
+                    speech_start_timeout={"seconds": 60},
+                    speech_end_timeout={"seconds": 60},
                 ),
             ),
         )
@@ -312,22 +316,75 @@ class StreamingTranscriptionSession:
                 break
 
     def streaming_recognize_thread(self):
-        try:
-            logger.info(f"[{self.session_id}] Starting STT v2 streaming thread")
-            responses = speech_client.streaming_recognize(
-                requests=self.audio_generator(),
-            )
-            for response in responses:
-                asyncio.run_coroutine_threadsafe(
-                    self.response_queue.put(response),
-                    self.main_loop
+        """Run STT streaming with auto-reconnect on stream end or timeout.
+
+        Google STT v2 streaming has a ~5-minute hard limit and will also
+        close when voice-activity timeouts fire.  This loop transparently
+        re-establishes the stream so the caller never notices a gap.
+        """
+        import time as _time
+
+        while self.is_active:
+            self.stream_generation += 1
+            gen = self.stream_generation
+            stream_start = _time.monotonic()
+            try:
+                logger.info(
+                    f"[{self.session_id}] Starting STT v2 stream (gen {gen})"
                 )
-        except Exception as e:
-            logger.error(f"[{self.session_id}] STT streaming error: {e}", exc_info=True)
-            asyncio.run_coroutine_threadsafe(
-                self.response_queue.put({"error": str(e)}),
-                self.main_loop
-            )
+                responses = speech_client.streaming_recognize(
+                    requests=self.audio_generator(),
+                )
+                for response in responses:
+                    if not self.is_active:
+                        break
+                    asyncio.run_coroutine_threadsafe(
+                        self.response_queue.put(response),
+                        self.main_loop
+                    )
+                    # Proactive reconnect before the 5-min hard limit
+                    elapsed = _time.monotonic() - stream_start
+                    if elapsed >= self.MAX_STREAM_DURATION_SECONDS:
+                        logger.info(
+                            f"[{self.session_id}] Approaching 5-min limit "
+                            f"({elapsed:.0f}s), reconnecting..."
+                        )
+                        break
+
+                # Stream ended normally (timeout or limit) — reconnect
+                if self.is_active:
+                    logger.info(
+                        f"[{self.session_id}] STT stream ended (gen {gen}), "
+                        f"reconnecting..."
+                    )
+                    # Drain the audio queue so the new generator starts
+                    # with a fresh config request
+                    while not self.audio_queue.empty():
+                        try:
+                            self.audio_queue.get_nowait()
+                        except queue.Empty:
+                            break
+                    continue  # loop back to start a new stream
+
+            except Exception as e:
+                if not self.is_active:
+                    break
+                logger.error(
+                    f"[{self.session_id}] STT streaming error (gen {gen}): {e}",
+                    exc_info=True,
+                )
+                asyncio.run_coroutine_threadsafe(
+                    self.response_queue.put({"error": str(e)}),
+                    self.main_loop,
+                )
+                # Brief backoff before reconnect attempt
+                _time.sleep(1)
+                if self.is_active:
+                    logger.info(
+                        f"[{self.session_id}] Retrying STT stream after error..."
+                    )
+                    continue
+                break
 
     async def process_responses(self):
         try:
