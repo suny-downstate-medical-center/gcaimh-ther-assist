@@ -65,6 +65,8 @@ export const useAudioStreamingWebSocket = ({
   const sessionIdRef = useRef<string>('');
   const audioContextRef = useRef<AudioContext | null>(null);
   const workletNodeRef = useRef<AudioWorkletNode | null>(null);
+  const scriptProcessorRef = useRef<ScriptProcessorNode | null>(null);
+  const useWorkletRef = useRef<boolean>(true); // false = Safari fallback mode
   const micStreamRef = useRef<MediaStream | null>(null);
   const audioElementRef = useRef<HTMLAudioElement | null>(null);
   const audioSourceNodeRef = useRef<MediaElementAudioSourceNode | null>(null);
@@ -185,50 +187,99 @@ export const useAudioStreamingWebSocket = ({
   // ─── AudioWorklet setup ────────────────────────────────────────────
 
   /**
-   * Create an AudioContext at 16 kHz and register the PCM worklet.
-   * Returns the AudioContext ready for connecting sources.
+   * Create an AudioContext and register the PCM worklet.
+   * Falls back to ScriptProcessorNode on Safari or when AudioWorklet fails.
    */
   const ensureAudioContext = useCallback(async (): Promise<AudioContext> => {
     if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
-      // Resume if suspended (e.g. after pause)
       if (audioContextRef.current.state === 'suspended') {
         await audioContextRef.current.resume();
       }
       return audioContextRef.current;
     }
 
-    const ctx = new AudioContext({ sampleRate: TARGET_SAMPLE_RATE });
+    // Safari may not support non-standard sample rates well — use default and resample
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const ctx = new AudioContext(isSafari ? undefined : { sampleRate: TARGET_SAMPLE_RATE });
     audioContextRef.current = ctx;
 
-    // Register the PCM processor worklet
-    await ctx.audioWorklet.addModule('/audio/pcm-processor.worklet.js');
+    // Try AudioWorklet first, fall back to ScriptProcessorNode
+    try {
+      if (ctx.audioWorklet) {
+        await ctx.audioWorklet.addModule('/audio/pcm-processor.worklet.js');
+        useWorkletRef.current = true;
+        console.log('Using AudioWorklet for PCM capture');
+      } else {
+        throw new Error('AudioWorklet not available');
+      }
+    } catch (e) {
+      console.warn('AudioWorklet unavailable, falling back to ScriptProcessorNode:', e);
+      useWorkletRef.current = false;
+    }
 
     return ctx;
   }, []);
 
   /**
-   * Create an AudioWorkletNode that converts Float32 to Int16 PCM
-   * and sends it over the WebSocket.
+   * Create a processing node (AudioWorklet or ScriptProcessor fallback)
+   * that converts Float32 to Int16 PCM and sends it over the WebSocket.
+   * Returns the node to connect to — either AudioWorkletNode or ScriptProcessorNode.
    */
-  const createWorkletNode = useCallback((ctx: AudioContext): AudioWorkletNode => {
-    const node = new AudioWorkletNode(ctx, 'pcm-processor', {
-      channelCount: 1,
-      channelCountMode: 'explicit',
-    });
+  const createProcessingNode = useCallback((ctx: AudioContext): AudioNode => {
+    if (useWorkletRef.current) {
+      // AudioWorklet path (Chrome, Firefox, newer Safari)
+      const node = new AudioWorkletNode(ctx, 'pcm-processor', {
+        channelCount: 1,
+        channelCountMode: 'explicit',
+      });
 
-    node.port.onmessage = (event) => {
-      // event.data is { audio: ArrayBuffer, level: number }
-      const { audio, level } = event.data;
-      if (audio && wsRef.current?.readyState === WebSocket.OPEN) {
-        wsRef.current.send(audio);
+      node.port.onmessage = (event) => {
+        const { audio, level } = event.data;
+        if (audio && wsRef.current?.readyState === WebSocket.OPEN) {
+          wsRef.current.send(audio);
+        }
+        if (typeof level === 'number') {
+          setAudioLevel(level);
+        }
+      };
+
+      workletNodeRef.current = node;
+      return node;
+    }
+
+    // ScriptProcessorNode fallback (Safari, older browsers)
+    const bufferSize = 4096;
+    const processor = ctx.createScriptProcessor(bufferSize, 1, 1);
+    const nativeSampleRate = ctx.sampleRate;
+    const ratio = nativeSampleRate / TARGET_SAMPLE_RATE;
+
+    processor.onaudioprocess = (e) => {
+      const input = e.inputBuffer.getChannelData(0);
+
+      // Downsample if native rate differs from target
+      const outputLength = Math.floor(input.length / ratio);
+      const pcm16 = new Int16Array(outputLength);
+      let sumSquares = 0;
+
+      for (let i = 0; i < outputLength; i++) {
+        const srcIdx = Math.floor(i * ratio);
+        const sample = input[srcIdx];
+        sumSquares += sample * sample;
+        pcm16[i] = Math.max(-32768, Math.min(32767, Math.floor(sample * 32767)));
       }
-      if (typeof level === 'number') {
-        setAudioLevel(level);
+
+      // Send PCM over WebSocket
+      if (wsRef.current?.readyState === WebSocket.OPEN) {
+        wsRef.current.send(pcm16.buffer);
       }
+
+      // Calculate RMS level
+      const rms = Math.sqrt(sumSquares / outputLength);
+      setAudioLevel(Math.min(1, rms * 5));
     };
 
-    workletNodeRef.current = node;
-    return node;
+    scriptProcessorRef.current = processor;
+    return processor;
   }, []);
 
   // ─── Microphone recording ─────────────────────────────────────────
@@ -242,7 +293,7 @@ export const useAudioStreamingWebSocket = ({
       }
 
       const ctx = await ensureAudioContext();
-      const workletNode = createWorkletNode(ctx);
+      const processingNode = createProcessingNode(ctx);
 
       // Get microphone stream
       const stream = await navigator.mediaDevices.getUserMedia({
@@ -256,10 +307,13 @@ export const useAudioStreamingWebSocket = ({
       });
       micStreamRef.current = stream;
 
-      // Connect: mic → worklet → (PCM bytes posted to main thread → WebSocket)
+      // Connect: mic → processing node → (PCM bytes sent over WebSocket)
       const source = ctx.createMediaStreamSource(stream);
-      source.connect(workletNode);
-      // Do NOT connect workletNode to ctx.destination — we don't want to play mic back
+      source.connect(processingNode);
+      // ScriptProcessorNode requires connection to destination to keep processing
+      if (!useWorkletRef.current) {
+        processingNode.connect(ctx.destination);
+      }
 
       setIsRecording(true);
       isStreamingFileRef.current = false;
@@ -269,7 +323,7 @@ export const useAudioStreamingWebSocket = ({
       onErrorRef.current?.('Failed to start recording. Please check microphone permissions.');
       setIsRecording(false);
     }
-  }, [isConnected, connectWebSocket, ensureAudioContext, createWorkletNode]);
+  }, [isConnected, connectWebSocket, ensureAudioContext, createProcessingNode]);
 
   // ─── Audio file streaming ─────────────────────────────────────────
 
@@ -283,7 +337,7 @@ export const useAudioStreamingWebSocket = ({
       currentAudioUrlRef.current = audioUrl;
 
       const ctx = await ensureAudioContext();
-      const workletNode = createWorkletNode(ctx);
+      const processingNode = createProcessingNode(ctx);
 
       // Create audio element for playback
       const audioEl = new Audio(audioUrl);
@@ -303,8 +357,8 @@ export const useAudioStreamingWebSocket = ({
       const source = ctx.createMediaElementSource(audioEl);
       audioSourceNodeRef.current = source;
 
-      // Connect: audio element → worklet (captures PCM) + destination (plays through speakers)
-      source.connect(workletNode);
+      // Connect: audio element → processing node (captures PCM) + destination (plays through speakers)
+      source.connect(processingNode);
       source.connect(ctx.destination);
 
       // Handle audio end
@@ -327,7 +381,7 @@ export const useAudioStreamingWebSocket = ({
       setIsRecording(false);
       setIsPlayingAudio(false);
     }
-  }, [isConnected, connectWebSocket, ensureAudioContext, createWorkletNode]);
+  }, [isConnected, connectWebSocket, ensureAudioContext, createProcessingNode]);
 
   // ─── Pause / Resume ───────────────────────────────────────────────
 
@@ -337,11 +391,15 @@ export const useAudioStreamingWebSocket = ({
         audioElementRef.current.pause();
         setIsPlayingAudio(false);
 
-        // Stop the worklet
+        // Stop the processing node
         if (workletNodeRef.current) {
           workletNodeRef.current.port.postMessage('stop');
           workletNodeRef.current.disconnect();
           workletNodeRef.current = null;
+        }
+        if (scriptProcessorRef.current) {
+          scriptProcessorRef.current.disconnect();
+          scriptProcessorRef.current = null;
         }
 
         // Disconnect WebSocket cleanly
@@ -367,9 +425,9 @@ export const useAudioStreamingWebSocket = ({
           // Disconnect existing connections
           try { audioSourceNodeRef.current.disconnect(); } catch (e) { /* ignore */ }
 
-          // Create new worklet and reconnect
-          const workletNode = createWorkletNode(audioContextRef.current);
-          audioSourceNodeRef.current.connect(workletNode);
+          // Create new processing node and reconnect
+          const resumeNode = createProcessingNode(audioContextRef.current);
+          audioSourceNodeRef.current.connect(resumeNode);
           audioSourceNodeRef.current.connect(audioContextRef.current.destination);
 
           setIsRecording(true);
@@ -385,16 +443,20 @@ export const useAudioStreamingWebSocket = ({
       console.error('Error resuming audio streaming:', error);
       onErrorRef.current?.('Failed to resume audio streaming');
     }
-  }, [isPlayingAudio, connectWebSocket, createWorkletNode]);
+  }, [isPlayingAudio, connectWebSocket, createProcessingNode]);
 
   // ─── Stop ─────────────────────────────────────────────────────────
 
   const stopStreaming = useCallback(() => {
-    // Stop the worklet
+    // Stop the processing nodes
     if (workletNodeRef.current) {
       workletNodeRef.current.port.postMessage('stop');
       workletNodeRef.current.disconnect();
       workletNodeRef.current = null;
+    }
+    if (scriptProcessorRef.current) {
+      scriptProcessorRef.current.disconnect();
+      scriptProcessorRef.current = null;
     }
 
     // Stop microphone stream

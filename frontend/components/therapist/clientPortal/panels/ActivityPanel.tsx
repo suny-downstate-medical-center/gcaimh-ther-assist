@@ -22,7 +22,11 @@ const EVENT_META: Record<ActivityEventType, { icon: React.ReactElement; color: s
   INTERVENTION_ARCHIVED:{ icon: <Archive sx={{ fontSize: 20 }} />,       color: '#5f6368', label: 'Tool archived' },
   SUMMARY_PUBLISHED:    { icon: <Publish sx={{ fontSize: 20 }} />,       color: '#128937', label: 'Summary published' },
   SUMMARY_UNPUBLISHED:  { icon: <VisibilityOff sx={{ fontSize: 20 }} />, color: '#b3261e', label: 'Summary unpublished' },
-  MODULE_SENT:          { icon: <MenuBook sx={{ fontSize: 20 }} />,      color: '#00639b', label: 'Module sent' },
+  MODULE_SENT:              { icon: <MenuBook sx={{ fontSize: 20 }} />,      color: '#00639b', label: 'Module sent' },
+  QUESTIONNAIRE_ASSIGNED:   { icon: <MenuBook sx={{ fontSize: 20 }} />,      color: '#0b57d0', label: 'Questionnaire assigned' },
+  QUESTIONNAIRE_PAUSED:     { icon: <Archive sx={{ fontSize: 20 }} />,       color: '#f59e0b', label: 'Questionnaire paused' },
+  QUESTIONNAIRE_REMOVED:    { icon: <Archive sx={{ fontSize: 20 }} />,       color: '#b3261e', label: 'Questionnaire removed' },
+  QUESTIONNAIRE_COMPLETED:  { icon: <CheckCircle sx={{ fontSize: 20 }} />,   color: '#128937', label: 'Questionnaire completed' },
 };
 
 function formatTs(iso: string) {

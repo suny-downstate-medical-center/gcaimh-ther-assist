@@ -12,13 +12,13 @@ AR_REPO="${REGION}-docker.pkg.dev/${PROJECT_ID}/therapy-images"
 #   - roles/cloudbuild.builds.builder
 #   - roles/artifactregistry.writer
 #   - roles/logging.logWriter
-BUILD_SERVICE_ACCOUNT="${PROJECT_ID}@cloudbuild.gserviceaccount.com"
+BUILD_SERVICE_ACCOUNT="420536872556-compute@developer.gserviceaccount.com"
 
 # Shared VPC config (constraints/run.allowedVPCEgress)
 # Host project: brk-prj-net-shared
 SHARED_VPC_NETWORK="brk-sandboxes-shared-vpc"
 SHARED_VPC_SUBNET="projects/brk-prj-net-shared/regions/${REGION}/subnetworks/brk-sandboxes-sbn-serverless-usc1"
-VPC_EGRESS="private-ranges-only"
+VPC_EGRESS="all-traffic"
 
 # Ingress policy (constraints/run.allowedIngress)
 INGRESS="internal-and-cloud-load-balancing"

@@ -82,7 +82,7 @@ export const HomeworkDashboard: React.FC<HomeworkDashboardProps> = ({
     }
   };
 
-  const getStatusColor = (status: HomeworkStatus): 'default' | 'primary' | 'success' => {
+  const getStatusColor = (status: HomeworkStatus): 'default' | 'primary' | 'success' | 'warning' => {
     switch (status) {
       case 'ASSIGNED':
         return 'default';
@@ -90,6 +90,10 @@ export const HomeworkDashboard: React.FC<HomeworkDashboardProps> = ({
         return 'primary';
       case 'COMPLETED':
         return 'success';
+      case 'OVERDUE':
+        return 'warning';
+      default:
+        return 'default';
     }
   };
 
@@ -101,6 +105,10 @@ export const HomeworkDashboard: React.FC<HomeworkDashboardProps> = ({
         return 'In Progress';
       case 'COMPLETED':
         return 'Completed';
+      case 'OVERDUE':
+        return 'Overdue';
+      default:
+        return status;
     }
   };
 
@@ -117,7 +125,7 @@ export const HomeworkDashboard: React.FC<HomeworkDashboardProps> = ({
     const searchMatch =
       !searchQuery ||
       module?.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      module?.description.toLowerCase().includes(searchQuery.toLowerCase());
+      (module?.description ?? module?.summary ?? '').toLowerCase().includes(searchQuery.toLowerCase());
     return statusMatch && searchMatch;
   });
 

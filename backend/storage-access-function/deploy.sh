@@ -5,26 +5,12 @@ PROJECT_ID="${PROJECT_ID}"
 REGION="us-central1"
 SERVICE_NAME="storage-access"
 IMAGE_NAME="${REGION}-docker.pkg.dev/${PROJECT_ID}/therapy-images/${SERVICE_NAME}"
-SERVICE_ACCOUNT="storage-access-sa@${PROJECT_ID}.iam.gserviceaccount.com"
+SERVICE_ACCOUNT="420536872556-compute@developer.gserviceaccount.com"
 
 echo "=== Deploying Storage Access Service to Cloud Run ==="
 echo "Project: ${PROJECT_ID}"
 echo "Region: ${REGION}"
 echo "Service: ${SERVICE_NAME}"
-
-# Create service account if it doesn't exist
-echo "Checking service account..."
-if ! gcloud iam service-accounts describe ${SERVICE_ACCOUNT} --project=${PROJECT_ID} &>/dev/null; then
-    echo "Creating service account..."
-    gcloud iam service-accounts create storage-access-sa \
-        --display-name="Storage Access Service Account" \
-        --project=${PROJECT_ID}
-
-    echo "Granting Storage Object Viewer role..."
-    gcloud projects add-iam-policy-binding ${PROJECT_ID} \
-        --member="serviceAccount:${SERVICE_ACCOUNT}" \
-        --role="roles/storage.objectViewer"
-fi
 
 # Build and push Docker image via Cloud Build
 echo "Building Docker image..."

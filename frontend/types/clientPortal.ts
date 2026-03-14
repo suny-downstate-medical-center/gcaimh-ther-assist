@@ -10,6 +10,8 @@ export interface HomeworkAssignment {
   moduleTitle: string;
   assignedAt: string;
   dueAt?: string;
+  dueDate?: string;       // alias used by some components
+  completedAt?: string;    // top-level alias for progress.completedAt
   status: HomeworkStatus;
   note?: string;
   progress?: {
@@ -26,11 +28,13 @@ export interface PsychoeducationModule {
   title: string;
   category: string;
   summary: string;
+  description?: string;   // alias for summary (used by some components)
   estimatedMinutes: number;
   tags: string[];
   content?: string;
   sections?: { title: string; body: string }[];
   relatedInterventionIds?: string[];
+  recommendedInterventions?: string[];  // alias for relatedInterventionIds
 }
 
 // ── Interventions / Tools ───────────────────────────────────────
@@ -38,12 +42,15 @@ export interface PsychoeducationModule {
 export interface Intervention {
   id: string;
   title: string;
+  name?: string;           // alias for title (used by some components)
   type: string;
   description: string;
   durationSeconds: number;
+  durationMinutes?: number; // convenience alias (durationSeconds / 60)
   instructions?: string[];
   frequency?: string;
   recentUsageCount?: number;
+  journalPrompt?: string;  // optional prompt for post-intervention journaling
 }
 
 export interface InterventionSession {
@@ -149,6 +156,7 @@ export interface OutcomeResponse {
   responses: number[];
   score: number;
   completedAt: string;
+  createdAt?: string;  // alias for completedAt (used by some components)
 }
 
 export interface OutcomeSchedule {

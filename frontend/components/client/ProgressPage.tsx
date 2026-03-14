@@ -285,7 +285,7 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({ onNavigateBack }) =>
               const done = isCompletedThisWeek(measure.id);
               const thisWeekResponse = [...(responsesByMeasure[measure.id] || [])]
                 .filter((r) => r.weekOf === currentWeek)
-                .sort((a, b) => b.createdAt.localeCompare(a.createdAt))[0];
+                .sort((a, b) => (b.createdAt ?? b.completedAt ?? '').localeCompare(a.createdAt ?? a.completedAt ?? ''))[0];
               const threshold = thisWeekResponse
                 ? getThreshold(measure, thisWeekResponse.score)
                 : null;
