@@ -597,6 +597,9 @@ async def websocket_transcribe(websocket: WebSocket):
                         if data.get("type") == "stop":
                             logger.info(f"[{session_id}] Received stop signal")
                             break
+                        elif data.get("type") == "ping":
+                            # Heartbeat keepalive — respond with pong
+                            await websocket.send_json({"type": "pong"})
 
             except WebSocketDisconnect:
                 break
