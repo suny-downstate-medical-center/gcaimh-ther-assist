@@ -27,11 +27,11 @@ interface DeduplicationConfig {
 }
 
 const DEFAULT_CONFIG: DeduplicationConfig = {
-  titleSimilarityThreshold: 0.7,
-  messageSimilarityThreshold: 0.7,
+  titleSimilarityThreshold: 0.85,   // Raised from 0.7 — therapy alerts share vocabulary; only block near-identical
+  messageSimilarityThreshold: 0.85,  // Raised from 0.7 — same reason
   timeWindowMinutes: 5,
-  maxAlertsPerCategory: 3,
-  categoryThrottleMinutes: 1,
+  maxAlertsPerCategory: 6,          // Raised from 3 — 8-word triggers fire frequently
+  categoryThrottleMinutes: 2,       // Raised from 1 — allow more alerts per category window
 };
 
 /**
@@ -122,18 +122,20 @@ export function shouldBlockAlert(
     return alertTime > timeWindow;
   });
   
-  // 0. HARD CHECK: No alerts within the last 7 seconds (regardless of content/category)
-  const sevenSecondsAgo = new Date(now.getTime() - 7 * 1000);
+  // 0. HARD CHECK: No alerts within the last 3 seconds (regardless of content/category)
+  // Reduced from 7s — with 8-word triggers, alerts fire every ~3-5 seconds
+  const hardBlockMs = 3 * 1000;
+  const hardBlockAgo = new Date(now.getTime() - hardBlockMs);
   const veryRecentAlert = existingAlerts.find(alert => {
     const alertTime = alert.timestamp ? new Date(alert.timestamp) : new Date(0);
-    return alertTime > sevenSecondsAgo;
+    return alertTime > hardBlockAgo;
   });
-  
+
   if (veryRecentAlert) {
     const timeSinceLastAlert = now.getTime() - new Date(veryRecentAlert.timestamp || 0).getTime();
     return {
       shouldBlock: true,
-      reason: `Hard 7-second block (last alert ${(timeSinceLastAlert / 1000).toFixed(1)}s ago)`,
+      reason: `Hard 3-second block (last alert ${(timeSinceLastAlert / 1000).toFixed(1)}s ago)`,
       similarAlert: veryRecentAlert
     };
   }
@@ -184,7 +186,7 @@ export function shouldBlockAlert(
     const overlapCount = [...newAlertPhrases].filter(phrase => existingPhrases.has(phrase)).length;
     const totalPhrases = Math.max(newAlertPhrases.size, existingPhrases.size);
     
-    if (totalPhrases > 0 && overlapCount / totalPhrases >= 0.7) {
+    if (totalPhrases > 0 && overlapCount / totalPhrases >= 0.85) {
       return {
         shouldBlock: true,
         reason: `High semantic similarity (${overlapCount}/${totalPhrases} key phrases match)`,

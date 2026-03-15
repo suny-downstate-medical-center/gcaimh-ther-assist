@@ -358,8 +358,9 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   }, []);
 
   // Audio streaming hook with WebSocket for both microphone and file
-  const { 
+  const {
     isConnected,
+    isReconnecting,
     startMicrophoneRecording,
     startAudioFileStreaming,
     pauseAudioStreaming,
@@ -2265,15 +2266,21 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                           width: 10, height: 10, borderRadius: '50%',
                           backgroundColor: isConnected
                             ? (hasInterim ? speakerColor : '#10b981')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#f59e0b' : '#ef4444'),
+                            : isReconnecting
+                              ? '#f59e0b'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#f59e0b' : '#ef4444'),
                           animation: isConnected
                             ? (hasInterim ? 'pulse-voice 0.8s ease-in-out infinite' : 'pulse-mic 1.5s ease-in-out infinite')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'pulse-mic 1.5s ease-in-out infinite' : 'none'),
+                            : isReconnecting
+                              ? 'pulse-mic 1.5s ease-in-out infinite'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'pulse-mic 1.5s ease-in-out infinite' : 'none'),
                           boxShadow: isConnected
                             ? (hasInterim ? `0 0 8px ${speakerColor}80` : '0 0 6px rgba(16, 185, 129, 0.5)')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5
+                            : isReconnecting
                               ? '0 0 6px rgba(245, 158, 11, 0.5)'
-                              : '0 0 6px rgba(239, 68, 68, 0.5)'),
+                              : (!wasEverConnectedRef.current && sessionDuration < 5
+                                ? '0 0 6px rgba(245, 158, 11, 0.5)'
+                                : '0 0 6px rgba(239, 68, 68, 0.5)'),
                           '@keyframes pulse-mic': {
                             '0%, 100%': { opacity: 1, transform: 'scale(1)' },
                             '50%': { opacity: 0.5, transform: 'scale(0.85)' },
@@ -2288,10 +2295,14 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                           fontSize: '10px', fontWeight: 600, letterSpacing: '0.5px', textTransform: 'uppercase',
                           color: isConnected
                             ? speakerColor
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#d97706' : '#dc2626'),
+                            : isReconnecting
+                              ? '#d97706'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#d97706' : '#dc2626'),
                         }}>
                           {!isConnected
-                            ? (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
+                            ? isReconnecting
+                              ? 'Reconnecting...'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
                             : hasInterim && currentSpeaker
                               ? `${currentSpeaker} speaking`
                               : sessionType === 'audio' ? 'Playing' : 'Listening'

@@ -36,6 +36,7 @@ interface UseAudioStreamingProps {
 interface AudioStreamingResult {
   isRecording: boolean;
   isConnected: boolean;
+  isReconnecting: boolean;
   isPlayingAudio: boolean;
   audioProgress: number;
   audioLevel: number;
@@ -57,6 +58,7 @@ export const useAudioStreamingWebSocket = ({
 }: UseAudioStreamingProps): AudioStreamingResult => {
   const [isRecording, setIsRecording] = useState(false);
   const [isConnected, setIsConnected] = useState(false);
+  const [isReconnecting, setIsReconnecting] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [audioProgress, setAudioProgress] = useState(0);
   const [audioLevel, setAudioLevel] = useState(0);
@@ -72,6 +74,13 @@ export const useAudioStreamingWebSocket = ({
   const audioSourceNodeRef = useRef<MediaElementAudioSourceNode | null>(null);
   const isStreamingFileRef = useRef<boolean>(false);
   const currentAudioUrlRef = useRef<string>('');
+  const isRecordingRef = useRef<boolean>(false);          // stable ref for reconnect logic
+  const intentionalDisconnectRef = useRef<boolean>(false); // true when user deliberately stops/pauses
+  const heartbeatIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const reconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const reconnectAttemptsRef = useRef<number>(0);
+  const MAX_RECONNECT_ATTEMPTS = 5;
+  const HEARTBEAT_INTERVAL_MS = 25000; // 25s — under Cloud Run's typical idle timeout
 
   // Store callbacks in refs to avoid stale closures
   const onTranscriptRef = useRef(onTranscript);
@@ -80,6 +89,9 @@ export const useAudioStreamingWebSocket = ({
   useEffect(() => { onTranscriptRef.current = onTranscript; }, [onTranscript]);
   useEffect(() => { onAnalysisRef.current = onAnalysis; }, [onAnalysis]);
   useEffect(() => { onErrorRef.current = onError; }, [onError]);
+
+  // Keep isRecordingRef in sync with state (needed for reconnect logic in onclose)
+  useEffect(() => { isRecordingRef.current = isRecording; }, [isRecording]);
 
   // Get WebSocket URL from environment
   const getWebSocketUrl = () => {
@@ -91,6 +103,24 @@ export const useAudioStreamingWebSocket = ({
       .replace('https://', 'wss://')
       .replace('http://', 'ws://') + '/ws/transcribe';
   };
+
+  // ─── Heartbeat helpers ────────────────────────────────────────────
+
+  const startHeartbeat = useCallback(() => {
+    stopHeartbeat();
+    heartbeatIntervalRef.current = setInterval(() => {
+      if (wsRef.current?.readyState === WebSocket.OPEN) {
+        wsRef.current.send(JSON.stringify({ type: 'ping' }));
+      }
+    }, HEARTBEAT_INTERVAL_MS);
+  }, []);
+
+  const stopHeartbeat = useCallback(() => {
+    if (heartbeatIntervalRef.current) {
+      clearInterval(heartbeatIntervalRef.current);
+      heartbeatIntervalRef.current = null;
+    }
+  }, []);
 
   // ─── WebSocket connection ──────────────────────────────────────────
 
@@ -108,6 +138,8 @@ export const useAudioStreamingWebSocket = ({
         ws.onopen = () => {
           console.log('WebSocket connected');
           setIsConnected(true);
+          setIsReconnecting(false);
+          reconnectAttemptsRef.current = 0;
 
           // Send session initialization
           sessionIdRef.current = `session-${Date.now()}`;
@@ -120,6 +152,9 @@ export const useAudioStreamingWebSocket = ({
             },
           }));
 
+          // Start heartbeat to keep Cloud Run alive
+          startHeartbeat();
+
           resolve();
         };
 
@@ -129,6 +164,8 @@ export const useAudioStreamingWebSocket = ({
 
             if (data.type === 'ready') {
               console.log('Session ready:', data.session_id);
+            } else if (data.type === 'pong') {
+              // Heartbeat response — connection alive
             } else if (data.type === 'transcript') {
               onTranscriptRef.current({
                 transcript: data.transcript,
@@ -156,7 +193,10 @@ export const useAudioStreamingWebSocket = ({
 
         ws.onerror = (error) => {
           console.error('WebSocket error:', error);
-          onErrorRef.current?.('WebSocket connection error');
+          // Don't call onError for reconnectable situations
+          if (!isRecordingRef.current) {
+            onErrorRef.current?.('WebSocket connection error');
+          }
           reject(error);
         };
 
@@ -164,6 +204,32 @@ export const useAudioStreamingWebSocket = ({
           console.log('WebSocket disconnected');
           setIsConnected(false);
           wsRef.current = null;
+          stopHeartbeat();
+
+          // Auto-reconnect if recording is active and this wasn't an intentional disconnect
+          if (isRecordingRef.current && !intentionalDisconnectRef.current) {
+            if (reconnectAttemptsRef.current < MAX_RECONNECT_ATTEMPTS) {
+              reconnectAttemptsRef.current += 1;
+              const delay = Math.min(1000 * reconnectAttemptsRef.current, 5000);
+              console.log(`[WS] Auto-reconnecting in ${delay}ms (attempt ${reconnectAttemptsRef.current}/${MAX_RECONNECT_ATTEMPTS})`);
+              setIsReconnecting(true);
+              reconnectTimeoutRef.current = setTimeout(() => {
+                if (isRecordingRef.current && !intentionalDisconnectRef.current) {
+                  connectWebSocket().catch(err => {
+                    console.error('[WS] Reconnect failed:', err);
+                    if (reconnectAttemptsRef.current >= MAX_RECONNECT_ATTEMPTS) {
+                      setIsReconnecting(false);
+                      onErrorRef.current?.('Lost connection to transcription service. Please restart the session.');
+                    }
+                  });
+                }
+              }, delay);
+            } else {
+              console.error('[WS] Max reconnect attempts reached');
+              setIsReconnecting(false);
+              onErrorRef.current?.('Lost connection to transcription service. Please restart the session.');
+            }
+          }
         };
       } catch (error) {
         console.error('Failed to connect WebSocket:', error);
@@ -171,9 +237,15 @@ export const useAudioStreamingWebSocket = ({
         reject(error);
       }
     });
-  }, [authToken]);
+  }, [authToken, startHeartbeat, stopHeartbeat]);
 
   const disconnectWebSocket = useCallback(() => {
+    intentionalDisconnectRef.current = true;
+    stopHeartbeat();
+    if (reconnectTimeoutRef.current) {
+      clearTimeout(reconnectTimeoutRef.current);
+      reconnectTimeoutRef.current = null;
+    }
     if (wsRef.current) {
       if (wsRef.current.readyState === WebSocket.OPEN) {
         wsRef.current.send(JSON.stringify({ type: 'stop' }));
@@ -181,8 +253,9 @@ export const useAudioStreamingWebSocket = ({
       wsRef.current.close();
       wsRef.current = null;
       setIsConnected(false);
+      setIsReconnecting(false);
     }
-  }, []);
+  }, [stopHeartbeat]);
 
   // ─── AudioWorklet setup ────────────────────────────────────────────
 
@@ -286,6 +359,10 @@ export const useAudioStreamingWebSocket = ({
 
   const startMicrophoneRecording = useCallback(async () => {
     try {
+      // Mark as intentional connection (not a reconnect)
+      intentionalDisconnectRef.current = false;
+      reconnectAttemptsRef.current = 0;
+
       // Connect WebSocket if not connected
       if (!isConnected) {
         await connectWebSocket();
@@ -329,6 +406,9 @@ export const useAudioStreamingWebSocket = ({
 
   const startAudioFileStreaming = useCallback(async (audioUrl: string) => {
     try {
+      intentionalDisconnectRef.current = false;
+      reconnectAttemptsRef.current = 0;
+
       if (!isConnected) {
         await connectWebSocket();
         await new Promise(resolve => setTimeout(resolve, 500));
@@ -388,6 +468,9 @@ export const useAudioStreamingWebSocket = ({
   const pauseAudioStreaming = useCallback(() => {
     try {
       if (audioElementRef.current && isPlayingAudio) {
+        // Mark as intentional pause — prevents auto-reconnect
+        intentionalDisconnectRef.current = true;
+
         audioElementRef.current.pause();
         setIsPlayingAudio(false);
 
@@ -416,6 +499,10 @@ export const useAudioStreamingWebSocket = ({
   const resumeAudioStreaming = useCallback(async () => {
     try {
       if (audioElementRef.current && !isPlayingAudio && isStreamingFileRef.current) {
+        // Mark as intentional resume — allow auto-reconnect again
+        intentionalDisconnectRef.current = false;
+        reconnectAttemptsRef.current = 0;
+
         // Reconnect WebSocket
         console.log('Reconnecting WebSocket for resume...');
         await connectWebSocket();
@@ -448,6 +535,16 @@ export const useAudioStreamingWebSocket = ({
   // ─── Stop ─────────────────────────────────────────────────────────
 
   const stopStreaming = useCallback(() => {
+    // Mark as intentional stop — prevents auto-reconnect
+    intentionalDisconnectRef.current = true;
+    reconnectAttemptsRef.current = 0;
+
+    // Cancel any pending reconnect
+    if (reconnectTimeoutRef.current) {
+      clearTimeout(reconnectTimeoutRef.current);
+      reconnectTimeoutRef.current = null;
+    }
+
     // Stop the processing nodes
     if (workletNodeRef.current) {
       workletNodeRef.current.port.postMessage('stop');
@@ -480,6 +577,7 @@ export const useAudioStreamingWebSocket = ({
 
     setIsRecording(false);
     setIsPlayingAudio(false);
+    setIsReconnecting(false);
     setAudioProgress(0);
     isStreamingFileRef.current = false;
 
@@ -500,6 +598,7 @@ export const useAudioStreamingWebSocket = ({
   return {
     isRecording,
     isConnected,
+    isReconnecting,
     isPlayingAudio,
     audioProgress,
     audioLevel,
