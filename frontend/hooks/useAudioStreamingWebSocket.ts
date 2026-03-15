@@ -182,6 +182,11 @@ export const useAudioStreamingWebSocket = ({
               onAnalysisRef.current?.(data);
             } else if (data.type === 'speech_event') {
               console.log('Speech event:', data.event);
+            } else if (data.type === 'auth_error') {
+              // Auth/credential error — stop everything, show clear message
+              console.error('[WS] AUTH ERROR from backend:', data.error);
+              intentionalDisconnectRef.current = true; // prevent auto-reconnect
+              onErrorRef.current?.(`CONNECTION ERROR: ${data.error}`);
             } else if (data.type === 'error') {
               console.error('Transcription error:', data.error);
               onErrorRef.current?.(data.error);
