@@ -174,6 +174,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   // Core session state
   const [isRecording, setIsRecording] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
   const [sessionType, setSessionType] = useState<'microphone' | 'test' | 'audio' | null>(null);
   const [authToken, setAuthToken] = useState<string | null>(null);
   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);
@@ -452,7 +453,11 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       }
     },
     onError: (error: string) => {
-      console.error('Streaming error (not shown to user):', error);
+      console.error('Streaming error:', error);
+      // Show connection/auth errors visibly to the user
+      if (error.includes('CONNECTION ERROR') || error.includes('Lost connection') || error.includes('Failed to connect')) {
+        setConnectionError(error.replace('CONNECTION ERROR: ', ''));
+      }
     }
   });
 
@@ -479,6 +484,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   useEffect(() => {
     if (isConnected) {
       wasEverConnectedRef.current = true;
+      setConnectionError(null); // clear any previous error on successful connect
     }
   }, [isConnected]);
 
@@ -1685,6 +1691,47 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           </Box>
         )}
 
+        {/* Connection Error Banner — visible alert for auth/connection failures */}
+        {connectionError && (
+          <Box
+            sx={{
+              bgcolor: '#f97316',
+              color: 'white',
+              px: 2.5,
+              py: 1.5,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 2,
+              flexShrink: 0,
+            }}
+          >
+            <Warning sx={{ fontSize: 28, flexShrink: 0 }} />
+            <Box sx={{ flex: 1, minWidth: 0 }}>
+              <Typography variant="subtitle2" sx={{ fontWeight: 700, fontSize: '0.9rem' }}>
+                Connection Issue
+              </Typography>
+              <Typography variant="body2" sx={{ opacity: 0.95, fontSize: '0.8rem', mt: 0.25 }}>
+                {connectionError}
+              </Typography>
+            </Box>
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={() => setConnectionError(null)}
+              sx={{
+                color: 'white',
+                borderColor: 'rgba(255,255,255,0.6)',
+                fontWeight: 700,
+                textTransform: 'none',
+                flexShrink: 0,
+                '&:hover': { borderColor: 'white', bgcolor: 'rgba(255,255,255,0.15)' },
+              }}
+            >
+              Dismiss
+            </Button>
+          </Box>
+        )}
+
         {/* Main Content Area */}
         <Box sx={{
           display: 'flex',
@@ -2251,10 +2298,18 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             }}>
               {/* Mic / Connection Status + Voice Activity */}
               {isRecording && (() => {
-                // Derive current speaker from most recent transcript entry
-                const recentEntries = transcript.filter(t => t.speaker && t.speaker !== 'conversation');
-                const currentSpeaker = recentEntries.length > 0 ? recentEntries[recentEntries.length - 1].speaker : null;
+                // Derive current speaker: only show label if the CURRENT speech has been diarized
+                // (not stale label from a previous utterance)
                 const hasInterim = transcript.some(t => t.is_interim);
+                const lastEntry = transcript.length > 0 ? transcript[transcript.length - 1] : null;
+                const lastDiarizedEntry = [...transcript].reverse().find(t => t.speaker && t.speaker !== 'conversation' && !t.is_interim);
+                // Only show speaker label if the most recent final entry is diarized
+                // (i.e., the current or just-finished utterance has a known speaker)
+                const currentSpeaker = lastEntry && !lastEntry.is_interim && lastEntry.speaker && lastEntry.speaker !== 'conversation'
+                  ? lastEntry.speaker
+                  : hasInterim
+                    ? null  // Current speech not yet diarized — show neutral "Speaking..."
+                    : lastDiarizedEntry?.speaker || null;
                 const speakerColor = currentSpeaker === 'Therapist' ? '#0d9488' : currentSpeaker === 'Patient' ? '#6366f1' : '#059669';
 
                 return (
@@ -2303,8 +2358,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                             ? isReconnecting
                               ? 'Reconnecting...'
                               : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
-                            : hasInterim && currentSpeaker
-                              ? `${currentSpeaker} speaking`
+                            : hasInterim
+                              ? (currentSpeaker ? `${currentSpeaker} speaking` : 'Speaking...')
                               : sessionType === 'audio' ? 'Playing' : 'Listening'
                           }
                         </Typography>

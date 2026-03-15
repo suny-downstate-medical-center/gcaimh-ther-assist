@@ -369,12 +369,34 @@ class StreamingTranscriptionSession:
             except Exception as e:
                 if not self.is_active:
                     break
+                error_str = str(e)
                 logger.error(
                     f"[{self.session_id}] STT streaming error (gen {gen}): {e}",
                     exc_info=True,
                 )
+
+                # Detect auth/credential errors — don't retry, they won't self-heal
+                is_auth_error = any(phrase in error_str.lower() for phrase in [
+                    'invalid_grant', 'refresh token', 'credentials',
+                    'token has expired', 'unauthorized', 'permission denied',
+                ])
+
+                if is_auth_error:
+                    logger.error(
+                        f"[{self.session_id}] AUTH ERROR — credentials expired or invalid. "
+                        f"Stopping retries. Run: gcloud auth application-default login"
+                    )
+                    asyncio.run_coroutine_threadsafe(
+                        self.response_queue.put({
+                            "error": "auth_error",
+                            "message": "Your Google Cloud login has expired. Please double-click 'REFRESH-Login-Mac' on your desktop to sign in again, then restart the session.",
+                        }),
+                        self.main_loop,
+                    )
+                    break  # Do NOT retry — auth errors won't self-heal
+
                 asyncio.run_coroutine_threadsafe(
-                    self.response_queue.put({"error": str(e)}),
+                    self.response_queue.put({"error": error_str}),
                     self.main_loop,
                 )
                 # Brief backoff before reconnect attempt
@@ -395,11 +417,19 @@ class StreamingTranscriptionSession:
                     )
 
                     if isinstance(response, dict) and "error" in response:
-                        await self.websocket.send_json({
-                            "type": "error",
-                            "error": response["error"],
-                            "timestamp": datetime.now().isoformat(),
-                        })
+                        # Auth errors get a distinct type so frontend can show a clear message
+                        if response["error"] == "auth_error":
+                            await self.websocket.send_json({
+                                "type": "auth_error",
+                                "error": response.get("message", "Authentication failed"),
+                                "timestamp": datetime.now().isoformat(),
+                            })
+                        else:
+                            await self.websocket.send_json({
+                                "type": "error",
+                                "error": response["error"],
+                                "timestamp": datetime.now().isoformat(),
+                            })
                         continue
 
                     for result in response.results:
