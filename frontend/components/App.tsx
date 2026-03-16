@@ -30,6 +30,7 @@ import PatientSummary from './PatientSummary';
 import Patients from './Patients';
 import Patient from './Patient';
 import LoginPage from './LoginPage';
+import { ClientApp } from './client/ClientApp';
 import ClientPortalManagementPage from './therapist/clientPortal/ClientPortalManagementPage';
 import SchedulingDashboard from './scheduling/SchedulingDashboard';
 import { useAuth } from '../contexts/AuthContext';
@@ -71,11 +72,11 @@ const App: React.FC = () => {
   const [lastSessionId, setLastSessionId] = useState('');
 
   // Navigation state
-  const [currentView, setCurrentView] = useState<'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal'>('landing');
+  const [currentView, setCurrentView] = useState<'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal' | 'clientPortalManagement'>('landing');
   const [selectedPatientId, setSelectedPatientId] = useState<string | null>(null);
   const [sessionPatientId, setSessionPatientId] = useState<string | null>(null);
   const [navigationHistory, setNavigationHistory] = useState<Array<{
-    view: 'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal';
+    view: 'landing' | 'patients' | 'schedule' | 'newSession' | 'patient' | 'therSummary' | 'patientSummary' | 'clientPortal' | 'clientPortalManagement';
     patientId?: string | null;
     sessionPatientId?: string | null;
   }>>([]);
@@ -237,13 +238,17 @@ const App: React.FC = () => {
         onNavigateToNewSession={handleNavigateToNewSession}
         onNavigateToClientPortal={(patientId) => {
           pushToHistory(currentView, selectedPatientId);
-          setCurrentView('clientPortal');
+          setCurrentView('clientPortalManagement');
         }}
       />
     );
   }
 
   if (currentView === 'clientPortal') {
+    return <ClientApp />;
+  }
+
+  if (currentView === 'clientPortalManagement') {
     return (
       <ClientPortalManagementPage
         clientId={selectedPatientId!}
