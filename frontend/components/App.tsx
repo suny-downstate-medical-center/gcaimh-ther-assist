@@ -245,7 +245,32 @@ const App: React.FC = () => {
   }
 
   if (currentView === 'clientPortal') {
-    return <ClientApp />;
+    return (
+      <Box sx={{ position: 'relative' }}>
+        <Fab
+          size="medium"
+          color="primary"
+          aria-label="back"
+          onClick={handleGoBack}
+          sx={{
+            position: 'fixed',
+            top: 16,
+            left: 16,
+            zIndex: 9999,
+            background: 'linear-gradient(135deg, #0b57d0 0%, #00639b 100%)',
+            '&:hover': {
+              background: 'linear-gradient(135deg, #00639b 0%, #0b57d0 100%)',
+              transform: 'scale(1.1)',
+            },
+            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+            boxShadow: '0 8px 20px -4px rgba(11, 87, 208, 0.35)',
+          }}
+        >
+          <ArrowBack />
+        </Fab>
+        <ClientApp />
+      </Box>
+    );
   }
 
   if (currentView === 'clientPortalManagement') {
