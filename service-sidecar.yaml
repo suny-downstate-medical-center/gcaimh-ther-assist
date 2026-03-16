@@ -11,8 +11,7 @@ spec:
         # Total resource limits shared across all containers (max 8 vCPU / 32 GiB)
         run.googleapis.com/execution-environment: gen2
         autoscaling.knative.dev/maxScale: "10"
-        run.googleapis.com/vpc-access-connector: ""
-        run.googleapis.com/network-interfaces: '[{"network":"brk-sandboxes-shared-vpc","subnetwork":"brk-sandboxes-sbn-serverless-usc1"}]'
+        run.googleapis.com/network-interfaces: '[{"network":"projects/brk-prj-net-shared/global/networks/brk-sandboxes-shared-vpc","subnetwork":"projects/brk-prj-net-shared/regions/us-central1/subnetworks/brk-sandboxes-sbn-serverless-usc1"}]'
         run.googleapis.com/vpc-access-egress: all-traffic
     spec:
       containerConcurrency: 40
@@ -75,8 +74,7 @@ spec:
               memory: 2Gi
               cpu: "2"
           startupProbe:
-            httpGet:
-              path: /health
+            tcpSocket:
               port: 8083
             initialDelaySeconds: 5
             periodSeconds: 5
