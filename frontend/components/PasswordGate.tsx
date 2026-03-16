@@ -57,18 +57,18 @@ const PasswordGate: React.FC<PasswordGateProps> = ({ children }) => {
       <Paper
         elevation={8}
         sx={{
-          p: 5,
-          maxWidth: 420,
+          p: { xs: 3, md: 5 },
+          maxWidth: { xs: '100%', sm: 420 },
           width: '100%',
-          mx: 2,
+          mx: { xs: 1, sm: 2 },
           borderRadius: 3,
           textAlign: 'center',
         }}
       >
         <Box
           sx={{
-            width: 64,
-            height: 64,
+            width: { xs: 48, md: 64 },
+            height: { xs: 48, md: 64 },
             borderRadius: '50%',
             background: 'linear-gradient(135deg, #0b57d0 0%, #00639b 100%)',
             display: 'flex',
@@ -78,7 +78,7 @@ const PasswordGate: React.FC<PasswordGateProps> = ({ children }) => {
             mb: 3,
           }}
         >
-          <Lock sx={{ color: '#fff', fontSize: 32 }} />
+          <Lock sx={{ color: '#fff', fontSize: { xs: 24, md: 32 } }} />
         </Box>
 
         <Typography variant="h5" sx={{ fontWeight: 700, mb: 0.5 }}>

@@ -121,16 +121,18 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
         >
           {action.title}
         </Typography>
-        <Typography
-          variant="body2"
-          sx={{
-            fontSize: '12px',
-            lineHeight: '18px',
-            color: '#444746',
-          }}
-        >
-          {action.description}
-        </Typography>
+        {action.description ? (
+          <Typography
+            variant="body2"
+            sx={{
+              fontSize: '12px',
+              lineHeight: '18px',
+              color: '#444746',
+            }}
+          >
+            {action.description}
+          </Typography>
+        ) : null}
       </Box>
     </Paper>
   );
@@ -247,23 +249,30 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
         </Box>
       )}
 
-      <Typography
-        variant="h6"
-        sx={{
-          fontSize: '16px',
-          fontWeight: 400,
-          lineHeight: '24px',
-          color: '#1f1f1f',
-          whiteSpace: 'pre-line',
-          maxHeight: '120px',
-          overflow: 'auto',
-        }}
-      >
-        {currentGuidance.content}
-      </Typography>
+      <Box sx={{
+        p: 2,
+        border: '1px solid #c4c7c5',
+        borderRadius: '12px',
+        backgroundColor: '#f8f9fa',
+      }}>
+        <Typography
+          variant="h6"
+          sx={{
+            fontSize: '16px',
+            fontWeight: 400,
+            lineHeight: '24px',
+            color: '#1f1f1f',
+            whiteSpace: 'pre-line',
+            maxHeight: '120px',
+            overflow: 'auto',
+          }}
+        >
+          {currentGuidance.content}
+        </Typography>
+      </Box>
 
       {/* Action Cards */}
-      <Box sx={{ display: 'flex', gap: 3 }}>
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 3 }}>
         {/* Immediate Actions */}
         <Box sx={{ flex: 1 }}>
           <Typography variant="body2" sx={{ 
@@ -275,9 +284,9 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
           }}>
             IMMEDIATE ACTIONS
           </Typography>
-          <Box sx={{ display: 'flex', gap: 2 }}>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
             {currentGuidance.immediateActions.map((action, index) => (
-              <Box key={index} sx={{ flex: 1 }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 100%', sm: 1 } }}>
                 <ActionCard action={action} />
               </Box>
             ))}
@@ -295,9 +304,9 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
           }}>
             CONTRAINDICATIONS
           </Typography>
-          <Box sx={{ display: 'flex', gap: 2 }}>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
             {currentGuidance.contraindications.map((action, index) => (
-              <Box key={index} sx={{ flex: 1 }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 100%', sm: 1 } }}>
                 <ActionCard action={action} isContraindication />
               </Box>
             ))}

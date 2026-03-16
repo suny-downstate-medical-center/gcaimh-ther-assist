@@ -150,10 +150,21 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     { code: 'IPT', name: 'Interpersonal Psychotherapy', description: 'Interpersonal role disputes, grief, role transitions, interpersonal deficits' },
   ];
 
-  // Example audio files for demo (served from public/audio/)
+  // Example audio files for demo
+  // Local dev: served from public/audio/  |  Production: fetched from GCS via storage-access
+  const GCS_AUDIO_BUCKET = 'brk-prj-salvador-dura-bern-sbx-demo-audio';
+  const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
   const EXAMPLE_AUDIO_OPTIONS = [
-    { id: '305', name: 'Session 305', file: '/audio/305_AUDIO.wav', description: 'Therapy session recording (~7 min)' },
-    { id: '307', name: 'Session 307', file: '/audio/307_AUDIO.wav', description: 'Therapy session recording (~5 min)' },
+    {
+      id: '305', name: 'Session 305', description: 'Therapy session recording (~7 min)',
+      localFile: '/audio/305_AUDIO.wav',
+      gcsUri: `gs://${GCS_AUDIO_BUCKET}/305_AUDIO.wav`,
+    },
+    {
+      id: '307', name: 'Session 307', description: 'Therapy session recording (~5 min)',
+      localFile: '/audio/307_AUDIO.wav',
+      gcsUri: `gs://${GCS_AUDIO_BUCKET}/307_AUDIO.wav`,
+    },
   ];
 
   // Word count tracking for minimum modality suggestion threshold
@@ -163,6 +174,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   // Core session state
   const [isRecording, setIsRecording] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
   const [sessionType, setSessionType] = useState<'microphone' | 'test' | 'audio' | null>(null);
   const [authToken, setAuthToken] = useState<string | null>(null);
   const [sessionStartTime, setSessionStartTime] = useState<Date | null>(null);
@@ -347,8 +359,9 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   }, []);
 
   // Audio streaming hook with WebSocket for both microphone and file
-  const { 
+  const {
     isConnected,
+    isReconnecting,
     startMicrophoneRecording,
     startAudioFileStreaming,
     pauseAudioStreaming,
@@ -440,7 +453,11 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       }
     },
     onError: (error: string) => {
-      console.error('Streaming error (not shown to user):', error);
+      console.error('Streaming error:', error);
+      // Show connection/auth errors visibly to the user
+      if (error.includes('CONNECTION ERROR') || error.includes('Lost connection') || error.includes('Failed to connect')) {
+        setConnectionError(error.replace('CONNECTION ERROR: ', ''));
+      }
     }
   });
 
@@ -467,6 +484,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   useEffect(() => {
     if (isConnected) {
       wasEverConnectedRef.current = true;
+      setConnectionError(null); // clear any previous error on successful connect
     }
   }, [isConnected]);
 
@@ -807,11 +825,19 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   // Word-based real-time analysis trigger
   // Transcription comes from Gemini Live API via WebSocket; this triggers both
   // realtime (Flash) and comprehensive (Pro + RAG) analysis on the accumulated text.
+  const firstAnalysisFiredRef = useRef(false);
+  const firstTranscriptTimeRef = useRef<number | null>(null);
+
   useEffect(() => {
     if (!isRecording || transcript.length === 0) return;
 
     const lastEntry = transcript[transcript.length - 1];
     if (!lastEntry || lastEntry.is_interim) return;
+
+    // Track when first transcript arrives (for time-based fallback)
+    if (firstTranscriptTimeRef.current === null) {
+      firstTranscriptTimeRef.current = Date.now();
+    }
 
     // Count words in the new entry
     const newWords = lastEntry.text.split(' ').filter(word => word.trim()).length;
@@ -819,8 +845,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
     setWordsSinceLastAnalysis(prev => {
       const updatedWordCount = prev + newWords;
 
-      // Trigger analysis every 15 words (~1 sentence) for responsive real-time guidance
-      const WORDS_PER_ANALYSIS = 15;
+      // Trigger analysis every 8 words for responsive real-time guidance
+      const WORDS_PER_ANALYSIS = 8;
       const TRANSCRIPT_WINDOW_MINUTES = 5;
 
       if (updatedWordCount >= WORDS_PER_ANALYSIS) {
@@ -835,6 +861,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           }));
 
         if (recentTranscript.length > 0) {
+          firstAnalysisFiredRef.current = true;
           triggerPairedAnalysis(recentTranscript, `Auto-analysis (${updatedWordCount} words)`);
         }
 
@@ -845,6 +872,38 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       return updatedWordCount;
     });
   }, [transcript, isRecording, triggerPairedAnalysis]);
+
+  // Time-based fallback: fire first analysis after 20s if word threshold hasn't been met
+  useEffect(() => {
+    if (!isRecording) {
+      firstAnalysisFiredRef.current = false;
+      firstTranscriptTimeRef.current = null;
+      return;
+    }
+
+    const timer = setInterval(() => {
+      if (firstAnalysisFiredRef.current) {
+        clearInterval(timer);
+        return;
+      }
+      const finalTranscripts = transcript.filter(t => !t.is_interim);
+      if (finalTranscripts.length === 0) return;
+
+      // 20 seconds since first transcript with no analysis yet — fire now
+      if (firstTranscriptTimeRef.current && Date.now() - firstTranscriptTimeRef.current >= 20000) {
+        const recentTranscript = finalTranscripts.map(t => ({
+          speaker: t.speaker || 'conversation',
+          text: t.text,
+          timestamp: t.timestamp,
+        }));
+        firstAnalysisFiredRef.current = true;
+        triggerPairedAnalysis(recentTranscript, 'Time-based fallback (20s)');
+        clearInterval(timer);
+      }
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, [isRecording, transcript, triggerPairedAnalysis]);
 
   // Generate current date in the format "Month Day, Year"
   const getCurrentDate = () => {
@@ -904,7 +963,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
       const immediateActions = actionSources.map((action) => ({
         title: action,
-        description: action,
+        description: '',
         icon: 'safety' as const
       }));
 
@@ -912,7 +971,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       const backendContraindications = recentAlert.contraindications || [];
       const contraindications = backendContraindications.map((contra) => ({
         title: contra,
-        description: contra,
+        description: '',
         icon: 'cognitive' as const
       }));
 
@@ -947,12 +1006,12 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         content: pathwayGuidance.rationale,
         immediateActions: pathwayGuidance.immediate_actions?.map(action => ({
           title: action,
-          description: action,
+          description: '',
           icon: 'safety' as const
         })) || [],
         contraindications: pathwayGuidance.contraindications?.map(contra => ({
           title: contra,
-          description: contra,
+          description: '',
           icon: 'cognitive' as const
         })) || [],
         isLive: true,
@@ -1632,6 +1691,47 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           </Box>
         )}
 
+        {/* Connection Error Banner — visible alert for auth/connection failures */}
+        {connectionError && (
+          <Box
+            sx={{
+              bgcolor: '#f97316',
+              color: 'white',
+              px: 2.5,
+              py: 1.5,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 2,
+              flexShrink: 0,
+            }}
+          >
+            <Warning sx={{ fontSize: 28, flexShrink: 0 }} />
+            <Box sx={{ flex: 1, minWidth: 0 }}>
+              <Typography variant="subtitle2" sx={{ fontWeight: 700, fontSize: '0.9rem' }}>
+                Connection Issue
+              </Typography>
+              <Typography variant="body2" sx={{ opacity: 0.95, fontSize: '0.8rem', mt: 0.25 }}>
+                {connectionError}
+              </Typography>
+            </Box>
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={() => setConnectionError(null)}
+              sx={{
+                color: 'white',
+                borderColor: 'rgba(255,255,255,0.6)',
+                fontWeight: 700,
+                textTransform: 'none',
+                flexShrink: 0,
+                '&:hover': { borderColor: 'white', bgcolor: 'rgba(255,255,255,0.15)' },
+              }}
+            >
+              Dismiss
+            </Button>
+          </Box>
+        )}
+
         {/* Main Content Area */}
         <Box sx={{
           display: 'flex',
@@ -1648,7 +1748,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
           />
           {/* Sidebar */}
           <Box sx={{
-            width: 351,
+            width: { xs: '100%', md: 351 },
             display: 'flex',
             transform: (selectedAction || selectedCitation) ? 'translateX(-100%)' : 'translateX(0)',
             transition: 'transform 0.3s ease-in-out',
@@ -1657,6 +1757,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             p: 2,
             minHeight: 0,
             overflow: 'hidden',
+            flexShrink: 0,
           }}>
             {/* Title Section */}
             <Box>
@@ -1702,7 +1803,6 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             <Box>
             {[
               { key: 'guidance', label: 'Guidance', icon: <Explore sx={{ fontSize: 24, color: '#444746' }} /> },
-              { key: 'pathway', label: 'Pathway', icon: <Route sx={{ fontSize: 24, color: '#444746' }} /> },
             ].map((item, idx, arr) => (
                 <Box
                   key={item.key}
@@ -1731,11 +1831,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
               ))}
             </Box>
 
-            {/* LLM Activity Log */}
-            <ActivityLog
-              entries={activityLogEntries}
-              onClear={() => setActivityLogEntries([])}
-            />
+            {/* LLM Activity Log - hidden per Salvador's feedback */}
           </Box>
 
           {/* Main Content */}
@@ -1764,17 +1860,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                 sessionDuration={sessionDuration}
               />
             )}
-            {activeTab === 'pathway' && (
-              <PathwayTab
-                onCitationClick={handleCitationClick}
-                onActionClick={handleActionClick}
-                currentGuidance={getPathwayGuidance()}
-                citations={citations}
-                techniques={sessionMetrics.techniques_detected}
-                currentAlert={getCurrentAlert()}
-                pathwayIndicators={pathwayIndicators}
-              />
-            )}
+            {/* Pathway tab hidden per Salvador's feedback */}
           </Box>
         </Box>
 
@@ -2213,10 +2299,18 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             }}>
               {/* Mic / Connection Status + Voice Activity */}
               {isRecording && (() => {
-                // Derive current speaker from most recent transcript entry
-                const recentEntries = transcript.filter(t => t.speaker && t.speaker !== 'conversation');
-                const currentSpeaker = recentEntries.length > 0 ? recentEntries[recentEntries.length - 1].speaker : null;
+                // Derive current speaker: only show label if the CURRENT speech has been diarized
+                // (not stale label from a previous utterance)
                 const hasInterim = transcript.some(t => t.is_interim);
+                const lastEntry = transcript.length > 0 ? transcript[transcript.length - 1] : null;
+                const lastDiarizedEntry = [...transcript].reverse().find(t => t.speaker && t.speaker !== 'conversation' && !t.is_interim);
+                // Only show speaker label if the most recent final entry is diarized
+                // (i.e., the current or just-finished utterance has a known speaker)
+                const currentSpeaker = lastEntry && !lastEntry.is_interim && lastEntry.speaker && lastEntry.speaker !== 'conversation'
+                  ? lastEntry.speaker
+                  : hasInterim
+                    ? null  // Current speech not yet diarized — show neutral "Speaking..."
+                    : lastDiarizedEntry?.speaker || null;
                 const speakerColor = currentSpeaker === 'Therapist' ? '#0d9488' : currentSpeaker === 'Patient' ? '#6366f1' : '#059669';
 
                 return (
@@ -2228,15 +2322,21 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                           width: 10, height: 10, borderRadius: '50%',
                           backgroundColor: isConnected
                             ? (hasInterim ? speakerColor : '#10b981')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#f59e0b' : '#ef4444'),
+                            : isReconnecting
+                              ? '#f59e0b'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#f59e0b' : '#ef4444'),
                           animation: isConnected
                             ? (hasInterim ? 'pulse-voice 0.8s ease-in-out infinite' : 'pulse-mic 1.5s ease-in-out infinite')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'pulse-mic 1.5s ease-in-out infinite' : 'none'),
+                            : isReconnecting
+                              ? 'pulse-mic 1.5s ease-in-out infinite'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'pulse-mic 1.5s ease-in-out infinite' : 'none'),
                           boxShadow: isConnected
                             ? (hasInterim ? `0 0 8px ${speakerColor}80` : '0 0 6px rgba(16, 185, 129, 0.5)')
-                            : (!wasEverConnectedRef.current && sessionDuration < 5
+                            : isReconnecting
                               ? '0 0 6px rgba(245, 158, 11, 0.5)'
-                              : '0 0 6px rgba(239, 68, 68, 0.5)'),
+                              : (!wasEverConnectedRef.current && sessionDuration < 5
+                                ? '0 0 6px rgba(245, 158, 11, 0.5)'
+                                : '0 0 6px rgba(239, 68, 68, 0.5)'),
                           '@keyframes pulse-mic': {
                             '0%, 100%': { opacity: 1, transform: 'scale(1)' },
                             '50%': { opacity: 0.5, transform: 'scale(0.85)' },
@@ -2251,12 +2351,16 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                           fontSize: '10px', fontWeight: 600, letterSpacing: '0.5px', textTransform: 'uppercase',
                           color: isConnected
                             ? speakerColor
-                            : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#d97706' : '#dc2626'),
+                            : isReconnecting
+                              ? '#d97706'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? '#d97706' : '#dc2626'),
                         }}>
                           {!isConnected
-                            ? (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
-                            : hasInterim && currentSpeaker
-                              ? `${currentSpeaker} speaking`
+                            ? isReconnecting
+                              ? 'Reconnecting...'
+                              : (!wasEverConnectedRef.current && sessionDuration < 5 ? 'Connecting...' : 'Disconnected')
+                            : hasInterim
+                              ? (currentSpeaker ? `${currentSpeaker} speaking` : 'Speaking...')
                               : sessionType === 'audio' ? 'Playing' : 'Listening'
                           }
                         </Typography>
@@ -2400,7 +2504,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       )}
 
       {/* Floating Action Buttons */}
-      <Box sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
+      <Box sx={{ position: 'fixed', bottom: { xs: 16, md: 24 }, right: { xs: 16, md: 24 }, zIndex: 1201, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'flex-end' }}>
         {/* Reopen Session Summary Button */}
         {sessionSummaryClosed && !showSessionSummary && (
           <Fab
@@ -2433,9 +2537,10 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         onClose={() => setTranscriptOpen(false)}
         sx={{
           '& .MuiDrawer-paper': {
-            width: isDesktop ? 400 : 350,
-            p: 3,
-            pt: 10,
+            width: isDesktop ? 400 : '100%',
+            maxWidth: 400,
+            p: { xs: 2, md: 3 },
+            pt: { xs: 8, md: 10 },
             background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(248, 250, 252, 0.85) 100%)',
             backdropFilter: 'blur(24px) saturate(180%)',
             WebkitBackdropFilter: 'blur(24px) saturate(180%)',
@@ -2493,7 +2598,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
       {/* Error Display */}
       {error && (
-        <Box sx={{ position: 'fixed', top: 24, left: '50%', transform: 'translateX(-50%)', zIndex: 1300 }}>
+        <Box sx={{ position: 'fixed', top: { xs: 12, md: 24 }, left: '50%', transform: 'translateX(-50%)', zIndex: 1300, width: { xs: '90%', sm: 'auto' } }}>
           <MuiAlert severity="error" onClose={() => setError(null)}>
             {error}
           </MuiAlert>
@@ -2616,24 +2721,45 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             </Typography>
             <Box sx={{ display: 'flex', gap: 1 }}>
               {EXAMPLE_AUDIO_OPTIONS.map((audio) => {
-                const isSelected = pendingAudioFile?.name === audio.file;
+                const isSelected = pendingAudioFile?.name === `example:${audio.id}`;
                 return (
                   <Button
                     key={audio.id}
                     variant={isSelected ? 'contained' : 'outlined'}
                     size="small"
                     startIcon={<MusicNote sx={{ fontSize: 16 }} />}
-                    onClick={() => {
+                    onClick={async () => {
                       if (isSelected) {
                         // Deselect
+                        if (pendingAudioFile?.url?.startsWith('blob:')) URL.revokeObjectURL(pendingAudioFile.url);
                         setPendingAudioFile(null);
+                        return;
+                      }
+                      // Revoke previous blob URL if exists
+                      if (pendingAudioFile?.url?.startsWith('blob:')) URL.revokeObjectURL(pendingAudioFile.url);
+                      setPendingTestScript(null);
+
+                      if (isLocalDev) {
+                        // Local dev: use public/ path directly
+                        setPendingAudioFile({ name: `example:${audio.id}`, url: audio.localFile });
                       } else {
-                        // Select this example audio (uses public/ path — no blob URL needed)
-                        if (pendingAudioFile?.url?.startsWith('blob:')) {
-                          URL.revokeObjectURL(pendingAudioFile.url);
+                        // Production: fetch from GCS via storage-access
+                        try {
+                          setError(null);
+                          const storageUrl = import.meta.env.VITE_STORAGE_ACCESS_URL || '/storage_access';
+                          const baseUrl = storageUrl.replace('/storage_access', '');
+                          const resp = await fetch(
+                            `${baseUrl}/storage_access?uri=${encodeURIComponent(audio.gcsUri)}`,
+                            { headers: authToken ? { Authorization: `Bearer ${authToken}` } : {} }
+                          );
+                          if (!resp.ok) throw new Error(`Failed to fetch audio (${resp.status})`);
+                          const blob = await resp.blob();
+                          const blobUrl = URL.createObjectURL(blob);
+                          setPendingAudioFile({ name: `example:${audio.id}`, url: blobUrl });
+                        } catch (err: any) {
+                          console.error('[ExampleAudio] GCS fetch failed:', err);
+                          setError(`Could not load example audio: ${err.message}`);
                         }
-                        setPendingAudioFile({ name: audio.file, url: audio.file });
-                        setPendingTestScript(null);
                       }
                     }}
                     sx={{
@@ -2662,7 +2788,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
             </Box>
             {pendingAudioFile && (
               <Chip
-                label={`Audio ready: ${pendingAudioFile.name.replace('/audio/', '')}`}
+                label={`Audio ready: ${pendingAudioFile.name.startsWith('example:') ? `Session ${pendingAudioFile.name.split(':')[1]}` : pendingAudioFile.name.replace('/audio/', '')}`}
                 size="small"
                 color="secondary"
                 onDelete={() => {

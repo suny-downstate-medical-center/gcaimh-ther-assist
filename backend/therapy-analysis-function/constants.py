@@ -220,13 +220,16 @@ SAFETY-SPECIFIC INSTRUCTIONS:
 - If patient is in active substance crisis (intoxicated, overdose risk, withdrawal): flag as SAFETY with timing 'now'. Assess medical risk.
 - For ALL safety alerts: include the 'crisis_resources' field with relevant hotline numbers (988 Suicide & Crisis Lifeline, SAMHSA 1-800-662-4357, DV Hotline 1-800-799-7233).
 
-IMPORTANT DEDUPLICATION REQUIREMENTS:
-- The "PREVIOUS GUIDANCE" section above shows what guidance was recently displayed to the therapist
-- Do not generate duplicate, or even similar guidance as the PREVIOUS GUIDANCE. Only generate genuinely NEW or DIFFERENT guidance.
-- Do not generate new guidance with the same alert.category as PREVIOUS GUIDANCE. Select a different category.
-- Safety guidance (timing: "now") are exempt from this rule and should always be generated if needed
+DEDUPLICATION GUIDELINES:
+- The "PREVIOUS GUIDANCE" section above shows what was recently displayed to the therapist
+- Do not repeat the exact same guidance. Provide genuinely NEW content about the current transcript
+- You MAY reuse the same alert.category if the clinical content is substantially different
+- Focus on what is NEW in the latest transcript — there is almost always something worth flagging
+- Safety guidance (timing: "now") should always be generated when needed
 
-If no guidance is needed, then simply return an empty JSON. Format:
+IMPORTANT: The therapist relies on continuous guidance throughout the session. Only return empty JSON if the transcript is truly mundane small-talk with zero clinical relevance. In a therapy session, this is rare — almost every patient statement warrants guidance.
+
+If no guidance is needed, return an empty JSON. Format:
 {{}}
 
 If guidance is needed, prioritize actionable guidance and return only the MOST RELEVANT single piece of guidance. Format:
@@ -257,23 +260,20 @@ TRANSCRIPT (last few sentences):
 PREVIOUS GUIDANCE:
 {previous_alert_context}
 
-**DEFAULT RESPONSE: EMPTY JSON {{}}**
+Only provide guidance for significant therapeutic moments:
+1. A critical moment is occurring that requires intervention, exploration, or technique application
+2. The situation represents risk, a breakthrough, a therapeutic opportunity, or a technique suggestion
+3. The guidance is substantially different from PREVIOUS GUIDANCE (do not repeat the same advice)
 
-Only provide guidance if ALL of the following conditions are met:
-1. A critical therapeutic moment is occurring that requires intervention or exploration
-2. The situation represents a significant risk, breakthrough, or therapeutic opportunity
-3. No similar guidance has been provided recently (see PREVIOUS GUIDANCE above)
-
-STRICT DEDUPLICATION:
-- If PREVIOUS GUIDANCE exists with same category, return empty JSON {{}}
-- If PREVIOUS GUIDANCE addresses similar issue, return empty JSON {{}}
-- If therapist is handling situation appropriately, return empty JSON {{}}
-- Only SAFETY alerts can override this rule
+DEDUPLICATION:
+- Do not repeat the exact same guidance as PREVIOUS GUIDANCE
+- You MAY reuse the same category if the clinical content is different
+- If therapist is already handling the situation well, consider an "info" timing encouragement
+- SAFETY alerts always override deduplication rules
 
 CONFIDENCE THRESHOLD:
-- Only provide guidance if you are highly confident (80%+) it's needed
-- When in doubt, return empty JSON {{}}
-- Normal therapeutic conversation does NOT require guidance
+- Provide guidance if you are reasonably confident (60%+) it adds value
+- Most patient statements in therapy have clinical relevance worth flagging
 
 CRITICAL MOMENTS REQUIRING GUIDANCE:
 

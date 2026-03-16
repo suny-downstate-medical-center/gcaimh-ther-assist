@@ -17,23 +17,30 @@ import ReactDOM from 'react-dom/client'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import App from './components/App'
+import { ClientApp } from './components/client/ClientApp'
 import PasswordGate from './components/PasswordGate'
 import ErrorBoundary from './components/ErrorBoundary'
 import { theme } from './styles/theme'
 import { AuthProvider } from './contexts/AuthContext'
 import './styles/global.css'
 
+const isClientPortal = window.location.pathname.startsWith('/client')
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <PasswordGate>
-      <AuthProvider>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <ErrorBoundary>
-            <App />
-          </ErrorBoundary>
-        </ThemeProvider>
-      </AuthProvider>
-    </PasswordGate>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <ErrorBoundary>
+        {isClientPortal ? (
+          <ClientApp />
+        ) : (
+          <PasswordGate>
+            <AuthProvider>
+              <App />
+            </AuthProvider>
+          </PasswordGate>
+        )}
+      </ErrorBoundary>
+    </ThemeProvider>
   </React.StrictMode>,
 )

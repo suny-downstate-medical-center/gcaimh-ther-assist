@@ -60,10 +60,10 @@ Abramowitz, J. S., Deacon, B. J., & Whiteside, S. P. H. (2019). Exposure therapy
   return (
     <Paper
       sx={{
-        position: 'absolute',
+        position: { xs: 'fixed', md: 'absolute' },
         top: 0,
         right: 0,
-        width: 351,
+        width: { xs: '100%', sm: 351 },
         height: '100%',
         display: 'flex',
         flexDirection: 'column',

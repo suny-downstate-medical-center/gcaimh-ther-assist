@@ -66,8 +66,8 @@ const EvidenceTab: React.FC<EvidenceTabProps> = ({ currentAlert, sessionDuration
       }}>
         <Typography variant="h5" sx={{
           fontWeight: 400,
-          fontSize: '28px',
-          lineHeight: '36px',
+          fontSize: { xs: '20px', sm: '24px', md: '28px' },
+          lineHeight: { xs: '28px', md: '36px' },
           color: '#444746',
           textAlign: 'center',
         }}>
@@ -89,8 +89,8 @@ const EvidenceTab: React.FC<EvidenceTabProps> = ({ currentAlert, sessionDuration
       {/* Alert message as main content */}
       <Typography variant="h5" sx={{
         fontWeight: 400,
-        fontSize: '28px',
-        lineHeight: '36px',
+        fontSize: { xs: '20px', sm: '24px', md: '28px' },
+        lineHeight: { xs: '28px', md: '36px' },
         color: '#1f1f1f',
       }}>
         {currentAlert.message}
@@ -102,7 +102,7 @@ const EvidenceTab: React.FC<EvidenceTabProps> = ({ currentAlert, sessionDuration
           <Typography variant="overline" sx={{ color: '#444746', fontWeight: 'bold', fontSize: '14px' }}>
             EVIDENCE
           </Typography>
-          <Box sx={{ display: 'flex', gap: 2, mt: 1, flexWrap: 'wrap' }}>
+          <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, gap: 2, mt: 1, flexWrap: 'wrap' }}>
             {currentAlert.evidence.map((ev, idx) => (
               <QuoteCard
                 key={idx}

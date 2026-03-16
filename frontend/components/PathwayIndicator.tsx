@@ -134,7 +134,7 @@ const PathwayIndicator: React.FC<PathwayIndicatorProps> = ({
         },
         display: 'flex',
         flexDirection: 'column',
-        maxHeight: 'calc(100vh - 200px)',
+        maxHeight: { xs: 'none', md: 'calc(100vh - 200px)' },
         overflow: 'hidden',
       }}
     >
@@ -304,7 +304,7 @@ const PathwayIndicator: React.FC<PathwayIndicatorProps> = ({
           mt: 2, 
           pt: 2, 
           borderTop: '1px solid rgba(0, 0, 0, 0.08)',
-          maxHeight: '400px',
+          maxHeight: { xs: '300px', md: '400px' },
           overflow: 'auto',
           // Custom scrollbar
           '&::-webkit-scrollbar': {

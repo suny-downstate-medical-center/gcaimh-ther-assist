@@ -1056,20 +1056,19 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                 fallback_prompt = constants.REALTIME_ANALYSIS_PROMPT_STRICT
                 fallback_prompt_name = "REALTIME_ANALYSIS_PROMPT_STRICT"
                 logging.warning("[SAFETY] Forcing non-strict prompt due to safety keyword detection")
-            elif has_trigger_phrase:
-                # Trigger phrase found - use non-strict prompt first
+            else:
+                # Always use non-strict prompt first — strict was suppressing guidance
+                # after 1-2 alerts because it defaults to empty JSON and treats same-category
+                # as reason to return nothing.  Non-strict generates guidance freely;
+                # strict is kept as a safety-net fallback only.
                 first_prompt = constants.REALTIME_ANALYSIS_PROMPT
                 first_prompt_name = "REALTIME_ANALYSIS_PROMPT"
                 fallback_prompt = constants.REALTIME_ANALYSIS_PROMPT_STRICT
                 fallback_prompt_name = "REALTIME_ANALYSIS_PROMPT_STRICT"
-                logging.info("Trigger phrase detected - using non-strict prompt first")
-            else:
-                # No trigger phrase - use strict prompt first (original behavior)
-                first_prompt = constants.REALTIME_ANALYSIS_PROMPT_STRICT
-                first_prompt_name = "REALTIME_ANALYSIS_PROMPT_STRICT"
-                fallback_prompt = constants.REALTIME_ANALYSIS_PROMPT
-                fallback_prompt_name = "REALTIME_ANALYSIS_PROMPT"
-                logging.info("No trigger phrase detected - using strict prompt first")
+                if has_trigger_phrase:
+                    logging.info("Trigger phrase detected - using non-strict prompt first")
+                else:
+                    logging.info("Using non-strict prompt first for continuous guidance")
             
             # First attempt with selected prompt
             parsed_result, response_text, citations, diag = try_analysis_with_prompt(
@@ -1078,6 +1077,24 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
             )
 
             if parsed_result is not None:
+                # If first attempt returned empty JSON (no alert), try fallback
+                # before giving up — the non-strict prompt can still return {}
+                # when dedup rules suppress it, but the strict prompt with
+                # different framing may produce different guidance.
+                if not parsed_result.get("alert") and not has_safety_keywords:
+                    logging.info(f"{first_prompt_name} returned empty JSON (no alert) — trying fallback {fallback_prompt_name}")
+                    fallback_parsed, fallback_text, fallback_citations, fallback_diag = try_analysis_with_prompt(
+                        fallback_prompt,
+                        fallback_prompt_name
+                    )
+                    if fallback_parsed is not None and fallback_parsed.get("alert"):
+                        parsed_result = fallback_parsed
+                        citations = fallback_citations
+                        diag = fallback_diag
+                        if diag:
+                            diag['used_fallback'] = True
+                        logging.info(f"Fallback {fallback_prompt_name} produced alert — using it")
+
                 # If safety scanner fired but LLM returned empty JSON (no alert),
                 # inject a deterministic safety alert from the clinical response templates
                 if has_safety_keywords and not parsed_result.get("alert"):

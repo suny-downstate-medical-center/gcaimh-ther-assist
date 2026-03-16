@@ -36,6 +36,7 @@ import {
   Add,
   AccountCircle,
   Logout,
+  PersonOutline,
 } from '@mui/icons-material';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -43,12 +44,14 @@ interface LandingPageProps {
   onNavigateToPatients: () => void;
   onNavigateToSchedule: () => void;
   onNavigateToNewSession: () => void;
+  onNavigateToClientPortal?: () => void;
 }
 
 const LandingPage: React.FC<LandingPageProps> = ({
   onNavigateToPatients,
   onNavigateToSchedule,
   onNavigateToNewSession,
+  onNavigateToClientPortal,
 }) => {
   const { currentUser, logout } = useAuth();
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -73,7 +76,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
     {
       title: 'Patients',
       icon: <People sx={{ 
-        fontSize: 48, 
+        fontSize: { xs: 36, md: 48 },
         color: 'white',
         filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))',
       }} />,
@@ -84,7 +87,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
     {
       title: 'Schedule',
       icon: <CalendarToday sx={{ 
-        fontSize: 48, 
+        fontSize: { xs: 36, md: 48 },
         color: 'white',
         filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))',
       }} />,
@@ -94,14 +97,25 @@ const LandingPage: React.FC<LandingPageProps> = ({
     },
     {
       title: 'New Session',
-      icon: <Add sx={{ 
-        fontSize: 48, 
+      icon: <Add sx={{
+        fontSize: 48,
         color: 'white',
         filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))',
       }} />,
       description: 'Start a new therapy session with real-time analysis',
       onClick: onNavigateToNewSession,
       gradient: 'linear-gradient(135deg, #673ab7 0%, #512da8 100%)',
+    },
+    {
+      title: 'Client Portal',
+      icon: <PersonOutline sx={{
+        fontSize: 48,
+        color: 'white',
+        filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))',
+      }} />,
+      description: 'Client-facing portal with homework, progress tracking, and resources',
+      onClick: onNavigateToClientPortal || (() => {}),
+      gradient: 'linear-gradient(135deg, #e65100 0%, #f57c00 100%)',
     },
   ];
 
@@ -126,8 +140,8 @@ const LandingPage: React.FC<LandingPageProps> = ({
           {/* User Menu - Positioned absolutely in top right */}
           <Box sx={{ 
             position: 'absolute', 
-            top: 16, 
-            right: 16,
+            top: { xs: 8, md: 16 },
+            right: { xs: 8, md: 16 },
             display: 'flex', 
             alignItems: 'center', 
             gap: 2,
@@ -224,6 +238,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
                 color: 'white',
                 fontWeight: 700,
                 mb: 2,
+                fontSize: { xs: '2rem', sm: '2.5rem', md: '3.75rem' },
                 textShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
               }}
             >
@@ -234,6 +249,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
               sx={{
                 color: 'rgba(255, 255, 255, 0.9)',
                 fontWeight: 400,
+                fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' },
                 maxWidth: 600,
                 mx: 'auto',
               }}
@@ -245,10 +261,10 @@ const LandingPage: React.FC<LandingPageProps> = ({
       </Box>
 
       {/* Main Content */}
-      <Container maxWidth="lg" sx={{ flex: 1, py: 6 }}>
+      <Container maxWidth="lg" sx={{ flex: 1, py: { xs: 3, md: 6 } }}>
         <Grid container spacing={4} justifyContent="center">
           {tiles.map((tile, index) => (
-            <Grid item xs={12} sm={6} md={4} key={tile.title}>
+            <Grid item xs={12} sm={6} md={3} key={tile.title}>
               <Card
                 sx={{
                   height: '100%',
@@ -333,7 +349,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.3)',
               borderRadius: '16px',
-              maxWidth: 800,
+              maxWidth: { xs: '100%', md: 800 },
               mx: 'auto',
             }}
           >

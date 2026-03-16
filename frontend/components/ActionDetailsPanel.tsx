@@ -50,10 +50,10 @@ const ActionDetailsPanel: React.FC<ActionDetailsPanelProps> = ({ action, citatio
   return (
     <Paper
       sx={{
-        position: 'absolute',
+        position: { xs: 'fixed', md: 'absolute' },
         top: 0,
         left: 0,
-        width: 351,
+        width: { xs: '100%', sm: 351 },
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
