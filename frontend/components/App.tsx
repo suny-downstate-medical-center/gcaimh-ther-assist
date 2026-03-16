@@ -30,7 +30,7 @@ import PatientSummary from './PatientSummary';
 import Patients from './Patients';
 import Patient from './Patient';
 import LoginPage from './LoginPage';
-import { ClientApp } from './client/ClientApp';
+import ClientPortalManagementPage from './therapist/clientPortal/ClientPortalManagementPage';
 import SchedulingDashboard from './scheduling/SchedulingDashboard';
 import { useAuth } from '../contexts/AuthContext';
 import { mockPatients } from '../utils/mockPatients';
@@ -244,7 +244,12 @@ const App: React.FC = () => {
   }
 
   if (currentView === 'clientPortal') {
-    return <ClientApp />;
+    return (
+      <ClientPortalManagementPage
+        clientId={selectedPatientId!}
+        onNavigateBack={handleGoBack}
+      />
+    );
   }
 
   if (currentView === 'schedule') {
