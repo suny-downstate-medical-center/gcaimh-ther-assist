@@ -44,6 +44,7 @@ import {
   Add,
   Edit,
   Delete,
+  OpenInNew,
 } from '@mui/icons-material';
 import { Patient as PatientType, SessionHistory } from '../types/types';
 
@@ -52,12 +53,13 @@ interface PatientProps {
   patientId: string;
   onNavigateBack: () => void;
   onNavigateToNewSession: (patientId?: string) => void;
+  onNavigateToClientPortal?: (patientId: string) => void;
 }
 
 type SortableColumn = 'date' | 'duration' | 'summary';
 type SortDirection = 'asc' | 'desc';
 
-const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, onNavigateToNewSession }) => {
+const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, onNavigateToNewSession, onNavigateToClientPortal }) => {
   const patient = patients.find(p => p.id === patientId);
   const [sortColumn, setSortColumn] = useState<SortableColumn>('date');
   const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
@@ -227,7 +229,7 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
         {/* Patient Information Card */}
         <Paper elevation={3} sx={{ borderRadius: 2 }}>
           <Box sx={{ p: 3 }}>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 3, mb: 3 }}>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: { xs: 2, md: 3 }, mb: 3 }}>
               {/* Back Button */}
               <Fab
                 size="medium"
@@ -247,9 +249,9 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
                 <ArrowBack />
               </Fab>
               <Avatar
-                sx={{ 
-                  width: 80, 
-                  height: 80, 
+                sx={{
+                  width: { xs: 56, md: 80 },
+                  height: { xs: 56, md: 80 },
                   bgcolor: 'var(--primary)',
                   fontSize: '2rem',
                   fontWeight: 600,
@@ -258,7 +260,7 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
                 {patient.name.split(' ').map(n => n[0]).join('')}
               </Avatar>
               <Box sx={{ flex: 1 }}>
-                <Typography variant="h3" sx={{ fontWeight: 600, color: 'var(--primary)' }}>
+                <Typography variant="h3" sx={{ fontWeight: 600, color: 'var(--primary)', fontSize: { xs: '1.5rem', sm: '2rem', md: '3rem' } }}>
                   {patient.name}
                 </Typography>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mt: 1 }}>
@@ -272,6 +274,23 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
                   </Typography>
                 </Box>
               </Box>
+              {onNavigateToClientPortal && (
+                <Button
+                  variant="outlined"
+                  startIcon={<OpenInNew />}
+                  onClick={() => onNavigateToClientPortal(patientId)}
+                  sx={{
+                    borderRadius: 2,
+                    px: 2.5,
+                    py: 1.5,
+                    borderColor: '#0b57d0',
+                    color: '#0b57d0',
+                    '&:hover': { borderColor: '#00639b', bgcolor: '#e8f0fe' },
+                  }}
+                >
+                  Manage Client Portal
+                </Button>
+              )}
               <Button
                 variant="contained"
                 startIcon={<Add />}
@@ -454,7 +473,7 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
                         Duration
                       </TableSortLabel>
                     </TableCell>
-                    <TableCell sx={{ fontWeight: 600, minWidth: 400 }}>
+                    <TableCell sx={{ fontWeight: 600, minWidth: { xs: 200, md: 400 } }}>
                       <TableSortLabel
                         active={sortColumn === 'summary'}
                         direction={sortColumn === 'summary' ? sortDirection : 'asc'}
@@ -463,7 +482,7 @@ const Patient: React.FC<PatientProps> = ({ patients, patientId, onNavigateBack, 
                         Session Summary
                       </TableSortLabel>
                     </TableCell>
-                    <TableCell sx={{ fontWeight: 600, width: 120 }}>Action</TableCell>
+                    <TableCell sx={{ fontWeight: 600, width: { xs: 80, md: 120 } }}>Action</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
