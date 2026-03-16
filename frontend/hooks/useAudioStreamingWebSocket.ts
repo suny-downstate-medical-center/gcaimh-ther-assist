@@ -99,6 +99,11 @@ export const useAudioStreamingWebSocket = ({
     if (!baseUrl) {
       throw new Error('VITE_STREAMING_API is not configured');
     }
+    // Sidecar mode: derive WSS URL from current page host (nginx proxies /ws/)
+    if (baseUrl === '__USE_CURRENT_HOST__') {
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      return `${protocol}//${window.location.host}/ws/transcribe`;
+    }
     return baseUrl
       .replace('https://', 'wss://')
       .replace('http://', 'ws://') + '/ws/transcribe';

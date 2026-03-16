@@ -31,6 +31,11 @@ export const useAudioRecorderWebSocket = ({ onTranscript, onError, authToken }: 
   // Get WebSocket URL from environment
   const getWebSocketUrl = () => {
     const baseUrl = import.meta.env.VITE_STREAMING_API;
+    // Sidecar mode: derive WSS URL from current page host (nginx proxies /ws/)
+    if (baseUrl === '__USE_CURRENT_HOST__') {
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      return `${protocol}//${window.location.host}/ws/transcribe`;
+    }
     // Handle both HTTP (localhost) and HTTPS (production)
     const wsUrl = baseUrl
       .replace('https://', 'wss://')
