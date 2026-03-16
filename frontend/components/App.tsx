@@ -235,6 +235,10 @@ const App: React.FC = () => {
         patientId={selectedPatientId}
         onNavigateBack={handleGoBack}
         onNavigateToNewSession={handleNavigateToNewSession}
+        onNavigateToClientPortal={(patientId) => {
+          pushToHistory(currentView, selectedPatientId);
+          setCurrentView('clientPortal');
+        }}
       />
     );
   }
