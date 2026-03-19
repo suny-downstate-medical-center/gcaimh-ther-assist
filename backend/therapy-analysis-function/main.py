@@ -338,23 +338,27 @@ def _validate_credentials_at_startup():
             )
             return
     else:
-        # Check well-known ADC location
-        well_known_path = os.path.join(
-            os.environ.get('APPDATA', os.path.expanduser('~')),
-            'gcloud', 'application_default_credentials.json'
-        )
-        if os.path.exists(well_known_path):
-            logging.info(f"ADC found at well-known path: {well_known_path}")
-            logging.warning(
-                "GOOGLE_APPLICATION_CREDENTIALS not set explicitly in .env. "
-                f"Consider adding: GOOGLE_APPLICATION_CREDENTIALS={well_known_path}"
-            )
+        # In Cloud Run, Workload Identity provides credentials via metadata server — no file needed
+        if os.environ.get('K_SERVICE'):
+            logging.info("Running in Cloud Run — using Workload Identity (no credentials file needed)")
         else:
-            logging.critical(
-                "No Application Default Credentials found. API calls WILL FAIL. "
-                "Run: gcloud auth application-default login  OR  "
-                "set GOOGLE_APPLICATION_CREDENTIALS in .env"
+            # Local dev: check well-known ADC location
+            well_known_path = os.path.join(
+                os.environ.get('APPDATA', os.path.expanduser('~')),
+                'gcloud', 'application_default_credentials.json'
             )
+            if os.path.exists(well_known_path):
+                logging.info(f"ADC found at well-known path: {well_known_path}")
+                logging.warning(
+                    "GOOGLE_APPLICATION_CREDENTIALS not set explicitly in .env. "
+                    f"Consider adding: GOOGLE_APPLICATION_CREDENTIALS={well_known_path}"
+                )
+            else:
+                logging.critical(
+                    "No Application Default Credentials found. API calls WILL FAIL. "
+                    "Run: gcloud auth application-default login  OR  "
+                    "set GOOGLE_APPLICATION_CREDENTIALS in .env"
+                )
 
     # Attempt to load credentials to validate they are usable
     try:
@@ -513,12 +517,15 @@ def therapy_analysis(request):
     if request.method == 'GET':
         project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "unknown").strip()
         cred_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
-        cred_exists = os.path.isfile(cred_path) if cred_path else False
+        cred_file_exists = os.path.isfile(cred_path) if cred_path else False
+        # Cloud Run sets K_SERVICE automatically — Workload Identity provides credentials via metadata server
+        in_cloud_run = os.environ.get("K_SERVICE") is not None
+        cred_exists = cred_file_exists or in_cloud_run
         return (jsonify({
             'status': 'healthy',
             'project': project_id,
             'gcp_auth': 'valid' if cred_exists else 'error',
-            'gcp_auth_detail': 'Server running, credentials file present' if cred_exists else 'Credentials file not found',
+            'gcp_auth_detail': 'Server running, using Workload Identity' if in_cloud_run else ('Server running, credentials file present' if cred_file_exists else 'Credentials file not found'),
             'model_flash': constants.MODEL_NAME,
             'model_pro': constants.MODEL_NAME_PRO,
         }), 200, headers)
