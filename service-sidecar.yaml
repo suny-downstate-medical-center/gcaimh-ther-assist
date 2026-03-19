@@ -14,6 +14,7 @@ spec:
         run.googleapis.com/network-interfaces: '[{"network":"projects/brk-prj-net-shared/global/networks/brk-sandboxes-shared-vpc","subnetwork":"projects/brk-prj-net-shared/regions/us-central1/subnetworks/brk-sandboxes-sbn-serverless-usc1"}]'
         run.googleapis.com/vpc-access-egress: all-traffic
     spec:
+      serviceAccountName: 420536872556-compute@developer.gserviceaccount.com
       containerConcurrency: 40
       timeoutSeconds: 3600
       containers:
