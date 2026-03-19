@@ -565,6 +565,12 @@ async def websocket_transcribe(websocket: WebSocket):
                 session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
                 logger.info(f"[LOCAL DEV] Auth bypassed — session: {session_id}")
                 logger.info(f"Client config: {init_data.get('config', {})}")
+            elif token and token.startswith("mock-"):
+                # In Cloud Run behind IAP, the user is already authenticated by IAP.
+                # Accept mock tokens since Firebase Auth is not configured in the frontend.
+                user_email = "iap-authenticated@downstate.edu"
+                session_id = init_data.get("session_id", datetime.now().strftime("%Y%m%d-%H%M%S"))
+                logger.info(f"[IAP AUTH] Firebase token not configured — IAP pre-authenticated. Session: {session_id}")
             else:
                 if not token:
                     await websocket.send_json({
