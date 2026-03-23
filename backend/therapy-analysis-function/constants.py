@@ -203,8 +203,8 @@ PREVIOUS GUIDANCE:
 {previous_alert_context}
 
 Provide guidance based on timing priority:
-1. NOW (immediate intervention needed): suicidal ideation, self-harm, homicidal ideation, violence threats, abuse disclosure, substance overdose/crisis, catastrophic thoughts, dissociation, panic, severe distress
-2. PAUSE (wait for natural pause): exposure plan, therapeutic opportunities, technique suggestions, process observations
+1. NOW (immediate intervention needed): suicidal ideation, self-harm, homicidal ideation, threats of violence, abuse disclosure, substance overdose/crisis
+2. PAUSE (wait for natural pause): patient exhibiting: catastrophic thoughts, dissociation, panic, or severe distress, and guidance for: exposure plan, therapeutic opportunities, technique suggestions, process observations
 3. INFO (continue with current path): reinforcement of current therapeutic path, helpful observations
 
 Categories available:
@@ -237,12 +237,12 @@ If guidance is needed, prioritize actionable guidance and return only the MOST R
     "alert": {{
         "timing": "now|pause|info",
         "category": "safety|technique|pathway_change|engagement|process",
-        "title": "Brief descriptive title",
-        "message": "Specific action or observation (1-3 sentences max)",
+        "title": "Brief descriptive title (max 50 chars)",
+        "message": "Specific action or observation (1-3 sentences, max 250 chars)",
         "evidence": ["relevant quote(s) from the patient"],
-        "recommendation": ["Action 1 to take if applicable", "Action 2 to take if applicable", "Action 3 to take if applicable (max 3 items)"],
-        "immediateActions": ["Specific step the therapist should take right now"],
-        "contraindications": ["What the therapist should avoid doing in this situation"],
+        "recommendation": ["Action 1 to take if applicable (max 100 chars per item)", "Action 2 to take if applicable (max 100 chars per item)", "Action 3 to take if applicable (max 3 items)"],
+        "immediateActions": ["Specific step the therapist should take right now (max 100 chars per item)"],
+        "contraindications": ["What the therapist should avoid doing in this situation (max 100 chars per item)"],
         "crisis_resources": ["Include relevant crisis hotline numbers for safety alerts only, e.g. '988 Suicide & Crisis Lifeline: call or text 988'"]
     }}
 }}
@@ -283,12 +283,13 @@ CRITICAL MOMENTS REQUIRING GUIDANCE:
 - Homicidal ideation or threats of violence toward others (duty-to-warn/Tarasoff)
 - Disclosure of abuse: child abuse, elder abuse, domestic violence, sexual assault (mandatory reporting)
 - Substance crisis: active intoxication, overdose risk, dangerous withdrawal
-- Catastrophic cognitions or catastrophization
-- Patient is "falling apart" or feeling "physically sick"
-- Severe dissociation (patient disconnected from reality)
 - Medical emergency or physical distress
 
 **PAUSE (timing: "pause") - Only for significant therapeutic opportunities:**
+- Catastrophic cognitions or catastrophization
+- Severe dissociation (patient disconnected from reality)
+- Panic or severe distress
+- Patient is "falling apart" or feeling "physically sick"
 - Major breakthrough moment that requires specific follow-up
 - Critical resistance that's blocking all progress
 - Window for exposure that may not reoccur
@@ -319,12 +320,12 @@ If guidance is needed, prioritize actionable guidance and return only the MOST R
     "alert": {{
         "timing": "now|pause|info",
         "category": "safety|technique|pathway_change|engagement|process",
-        "title": "Brief descriptive title",
-        "message": "Specific action or observation (1-3 sentences max)",
+        "title": "Brief descriptive title (max 50 chars)",
+        "message": "Specific action or observation (1-3 sentences, max 250 chars)",
         "evidence": ["direct quote showing the critical moment"],
-        "recommendation": ["Action 1 to take if applicable", "Action 2 to take if applicable", "Action 3 to take if applicable (max 3 items)"],
-        "immediateActions": ["Specific step the therapist should take right now"],
-        "contraindications": ["What the therapist should avoid doing in this situation"],
+        "recommendation": ["Action 1 to take if applicable (max 100 chars per item)", "Action 2 to take if applicable (max 100 chars per item)", "Action 3 to take if applicable (max 3 items)"],
+        "immediateActions": ["Specific step the therapist should take right now (max 100 chars per item)"],
+        "contraindications": ["What the therapist should avoid doing in this situation (max 100 chars per item)"],
         "crisis_resources": ["Include relevant crisis hotline numbers for safety alerts only"]
     }}
 }}
@@ -407,13 +408,13 @@ Provide analysis with a JSON response only, no other text should exist besides t
     }},
     "pathway_guidance": {{
         "continue_current": true|false,
-        "rationale": "Explanation with citations [1], [2] embedded in text",
-        "immediate_actions": ["action1 with citation [3]", "action2"],
-        "contraindications": ["contraindication1 [4]", "contraindication2"],
+        "rationale": "Explanation with citations [1], [2] embedded in text (max 500 chars)",
+        "immediate_actions": ["action1 with citation [3] (max 100 chars per item)", "action2"],
+        "contraindications": ["contraindication1 [4] (max 100 chars per item)", "contraindication2"],
         "alternative_pathways": [
             {{
                 "approach": "Alternative approach name",
-                "reason": "Why this alternative with citations [5]",
+                "reason": "Why this alternative with citations [5] (max 250 chars)",
                 "techniques": ["technique1", "technique2"]
             }}
         ]
@@ -461,16 +462,16 @@ For example: "Consider graded exposure therapy [1] as outlined in the PE manual 
 Provide response in JSON format:
 {{
     "continue_current": true|false,
-    "rationale": "Explanation with citations [1], [2] embedded in text",
+    "rationale": "Explanation with citations [1], [2] embedded in text (max 500 chars)",
     "alternative_pathways": [
         {{
             "approach": "Approach name",
-            "reason": "Why this alternative with citations [3]",
+            "reason": "Why this alternative with citations [3] (max 250 chars)",
             "techniques": ["technique1", "technique2"]
         }}
     ],
-    "immediate_actions": ["action1 with citation [4]", "action2"],
-    "contraindications": ["contraindication1 [5]", "contraindication2"]
+    "immediate_actions": ["action1 with citation [4] (max 100 chars per item)", "action2"],
+    "contraindications": ["contraindication1 [5] (max 100 chars per item)", "contraindication2"]
 }}"""
 
 SESSION_SUMMARY_PROMPT = """Generate a comprehensive session summary for the therapist's records.
@@ -507,8 +508,8 @@ Format as structured JSON:
     "key_moments": [
         {{
             "time": "HH:MM:SS session time format (e.g., 00:15:30)",
-            "description": "what happened",
-            "significance": "why it matters"
+            "description": "what happened (max 150 chars)",
+            "significance": "why it matters (max 200 chars)"
         }}
     ],
     "techniques_used": ["technique1", "technique2"],
@@ -516,8 +517,8 @@ Format as structured JSON:
     "areas_for_improvement": ["area1", "area2"],
     "homework_assignments": [
         {{
-            "task": "description",
-            "rationale": "why",
+            "task": "description (max 150 chars)",
+            "rationale": "why (max 200 chars)",
             "manual_reference": "Treatment Manual p.X or protocol reference"
         }}
     ],
@@ -529,7 +530,7 @@ Format as structured JSON:
     "alternate_therapy_paths": [
         {{
             "therapy_type": "DBT|IPT|CBT|BA|MI (must be DIFFERENT from the current session modality)",
-            "reason": "Why this alternate approach may benefit the patient based on observed session patterns",
+            "reason": "Why this alternate approach may benefit the patient based on observed session patterns (max 250 chars)",
             "key_indicators": ["specific observations from the session that suggest this alternate approach"],
             "techniques_to_try": ["2-3 specific techniques from the alternate modality to consider"]
         }}
