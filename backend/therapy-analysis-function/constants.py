@@ -456,7 +456,7 @@ Based on evidence-based treatment protocols, provide specific guidance on:
 3. Specific techniques to implement
 4. Contraindications to watch for
 
-IMPORTANT: When referencing EBT manuals or research, use inline citations in the format [1], [2], etc.
+IMPORTANT: When referencing EBT manuals or research, use inline citations in the format [1], [2], etc. 
 For example: "Consider graded exposure therapy [1] as outlined in the PE manual [2]."
 
 Provide response in JSON format:
