@@ -78,6 +78,7 @@ export const useAudioStreamingWebSocket = ({
   const intentionalDisconnectRef = useRef<boolean>(false); // true when user deliberately stops/pauses
   const heartbeatIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const reconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const disconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reconnectAttemptsRef = useRef<number>(0);
   const MAX_RECONNECT_ATTEMPTS = 5;
   const HEARTBEAT_INTERVAL_MS = 25000; // 25s — under Cloud Run's typical idle timeout
@@ -256,6 +257,10 @@ export const useAudioStreamingWebSocket = ({
       clearTimeout(reconnectTimeoutRef.current);
       reconnectTimeoutRef.current = null;
     }
+    if (disconnectTimeoutRef.current) {
+      clearTimeout(disconnectTimeoutRef.current);
+      disconnectTimeoutRef.current = null;
+    }
     if (wsRef.current) {
       if (wsRef.current.readyState === WebSocket.OPEN) {
         wsRef.current.send(JSON.stringify({ type: 'stop' }));
@@ -369,6 +374,12 @@ export const useAudioStreamingWebSocket = ({
 
   const startMicrophoneRecording = useCallback(async () => {
     try {
+      // Cancel any pending disconnect from a recent stop
+      if (disconnectTimeoutRef.current) {
+        clearTimeout(disconnectTimeoutRef.current);
+        disconnectTimeoutRef.current = null;
+      }
+      
       // Mark as intentional connection (not a reconnect)
       intentionalDisconnectRef.current = false;
       reconnectAttemptsRef.current = 0;
@@ -416,6 +427,12 @@ export const useAudioStreamingWebSocket = ({
 
   const startAudioFileStreaming = useCallback(async (audioUrl: string) => {
     try {
+      // Cancel any pending disconnect from a recent stop
+      if (disconnectTimeoutRef.current) {
+        clearTimeout(disconnectTimeoutRef.current);
+        disconnectTimeoutRef.current = null;
+      }
+
       intentionalDisconnectRef.current = false;
       reconnectAttemptsRef.current = 0;
 
@@ -509,6 +526,12 @@ export const useAudioStreamingWebSocket = ({
   const resumeAudioStreaming = useCallback(async () => {
     try {
       if (audioElementRef.current && !isPlayingAudio && isStreamingFileRef.current) {
+        // Cancel any pending disconnect
+        if (disconnectTimeoutRef.current) {
+          clearTimeout(disconnectTimeoutRef.current);
+          disconnectTimeoutRef.current = null;
+        }
+
         // Mark as intentional resume — allow auto-reconnect again
         intentionalDisconnectRef.current = false;
         reconnectAttemptsRef.current = 0;
@@ -592,7 +615,10 @@ export const useAudioStreamingWebSocket = ({
     isStreamingFileRef.current = false;
 
     // Disconnect WebSocket after a short delay to receive final outputs
-    setTimeout(() => {
+    if (disconnectTimeoutRef.current) {
+      clearTimeout(disconnectTimeoutRef.current);
+    }
+    disconnectTimeoutRef.current = setTimeout(() => {
       disconnectWebSocket();
     }, 1000);
   }, [disconnectWebSocket]);
