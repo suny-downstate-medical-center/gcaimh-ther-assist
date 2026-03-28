@@ -213,6 +213,8 @@ export const useAudioStreamingWebSocket = ({
 
         ws.onclose = () => {
           console.log('WebSocket disconnected');
+          if (wsRef.current !== ws) return;
+
           setIsConnected(false);
           wsRef.current = null;
           stopHeartbeat();
@@ -385,9 +387,13 @@ export const useAudioStreamingWebSocket = ({
       reconnectAttemptsRef.current = 0;
 
       // Connect WebSocket if not connected
-      if (!isConnected) {
+      if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
         await connectWebSocket();
-        await new Promise(resolve => setTimeout(resolve, 500));
+        let retries = 0;
+        while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
+          await new Promise(resolve => setTimeout(resolve, 100));
+          retries++;
+        }
       }
 
       const ctx = await ensureAudioContext();
@@ -436,9 +442,13 @@ export const useAudioStreamingWebSocket = ({
       intentionalDisconnectRef.current = false;
       reconnectAttemptsRef.current = 0;
 
-      if (!isConnected) {
+      if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
         await connectWebSocket();
-        await new Promise(resolve => setTimeout(resolve, 500));
+        let retries = 0;
+        while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
+          await new Promise(resolve => setTimeout(resolve, 100));
+          retries++;
+        }
       }
 
       currentAudioUrlRef.current = audioUrl;
@@ -538,8 +548,14 @@ export const useAudioStreamingWebSocket = ({
 
         // Reconnect WebSocket
         console.log('Reconnecting WebSocket for resume...');
-        await connectWebSocket();
-        await new Promise(resolve => setTimeout(resolve, 500));
+        if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
+          await connectWebSocket();
+          let retries = 0;
+          while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+            retries++;
+          }
+        }
 
         if (audioContextRef.current && audioSourceNodeRef.current) {
           // Disconnect existing connections
