@@ -287,7 +287,8 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   });
   
   // Analysis tracking
-  const [wordsSinceLastAnalysis, setWordsSinceLastAnalysis] = useState(0);
+  const wordsSinceLastAnalysisRef = useRef(0);
+  const lastProcessedTranscriptIndexRef = useRef(-1);
   const [hasReceivedComprehensiveAnalysis, setHasReceivedComprehensiveAnalysis] = useState(false);
   
   // Analysis job ID tracking - counter to relate realtime and comprehensive results
@@ -841,46 +842,48 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
   useEffect(() => {
     if (!isRecording || transcript.length === 0) return;
 
-    const lastEntry = transcript[transcript.length - 1];
-    if (!lastEntry || lastEntry.is_interim) return;
-
     // Track when first transcript arrives (for time-based fallback)
     if (firstTranscriptTimeRef.current === null) {
       firstTranscriptTimeRef.current = Date.now();
     }
 
-    // Count words in the new entry
-    const newWords = lastEntry.text.split(' ').filter(word => word.trim()).length;
+    // Process all unprocessed final segments
+    const newWords = transcript.reduce((acc, entry, index) => {
+      // Only process final entries that we haven't seen yet
+      if (!entry.is_interim && index > lastProcessedTranscriptIndexRef.current) {
+        lastProcessedTranscriptIndexRef.current = index;
+        return acc + entry.text.split(' ').filter(word => word.trim()).length;
+      }
+      return acc;
+    }, 0);
 
-    setWordsSinceLastAnalysis(prev => {
-      const updatedWordCount = prev + newWords;
+    if (newWords === 0) return;
 
-      // Trigger analysis every 8 words for responsive real-time guidance
-      const WORDS_PER_ANALYSIS = 8;
-      const TRANSCRIPT_WINDOW_MINUTES = 5;
+    wordsSinceLastAnalysisRef.current += newWords;
 
-      if (updatedWordCount >= WORDS_PER_ANALYSIS) {
-        // Get last 5 minutes of transcript
-        const fiveMinutesAgo = new Date(Date.now() - TRANSCRIPT_WINDOW_MINUTES * 60 * 1000);
-        const recentTranscript = transcript
-          .filter(t => !t.is_interim && new Date(t.timestamp) > fiveMinutesAgo)
-          .map(t => ({
-            speaker: t.speaker || 'conversation',
-            text: t.text,
-            timestamp: t.timestamp
-          }));
+    // Trigger analysis every 8 words for responsive real-time guidance
+    const WORDS_PER_ANALYSIS = 8;
+    const TRANSCRIPT_WINDOW_MINUTES = 5;
 
-        if (recentTranscript.length > 0) {
-          firstAnalysisFiredRef.current = true;
-          triggerPairedAnalysis(recentTranscript, `Auto-analysis (${updatedWordCount} words)`);
-        }
+    if (wordsSinceLastAnalysisRef.current >= WORDS_PER_ANALYSIS) {
+      // Get last 5 minutes of transcript
+      const fiveMinutesAgo = new Date(Date.now() - TRANSCRIPT_WINDOW_MINUTES * 60 * 1000);
+      const recentTranscript = transcript
+        .filter(t => !t.is_interim && new Date(t.timestamp) > fiveMinutesAgo)
+        .map(t => ({
+          speaker: t.speaker || 'conversation',
+          text: t.text,
+          timestamp: t.timestamp
+        }));
 
-        // Reset word count
-        return 0;
+      if (recentTranscript.length > 0) {
+        firstAnalysisFiredRef.current = true;
+        triggerPairedAnalysis(recentTranscript, `Auto-analysis (${wordsSinceLastAnalysisRef.current} words)`);
       }
 
-      return updatedWordCount;
-    });
+      // Reset word count
+      wordsSinceLastAnalysisRef.current = 0;
+    }
   }, [transcript, isRecording, triggerPairedAnalysis]);
 
   // Time-based fallback: fire first analysis after 20s if word threshold hasn't been met
