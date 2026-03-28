@@ -329,7 +329,7 @@ const AlertDisplay: React.FC<AlertDisplayProps> = ({ alert, onDismiss, onAcknowl
             )}
 
             {/* Crisis Resources — only for safety alerts with crisis_resources */}
-            {isCriticalSafety && alert.crisis_resources && alert.crisis_resources.length > 0 && (
+            {isCriticalSafety && Array.isArray(alert.crisis_resources) && alert.crisis_resources.length > 0 && (
               <Box
                 sx={{
                   mt: 2,

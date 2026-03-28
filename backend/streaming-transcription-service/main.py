@@ -262,6 +262,62 @@ class StreamingTranscriptionSession:
                             types.PhraseSet.Phrase(value="maladaptive", boost=12),
                             types.PhraseSet.Phrase(value="psychosocial", boost=12),
                             types.PhraseSet.Phrase(value="agoraphobia", boost=15),
+                            # Additional clinical terms
+                            types.PhraseSet.Phrase(value="somatization", boost=15),
+                            types.PhraseSet.Phrase(value="derealization", boost=15),
+                            types.PhraseSet.Phrase(value="depersonalization", boost=15),
+                            types.PhraseSet.Phrase(value="alexithymia", boost=15),
+                            types.PhraseSet.Phrase(value="psychosomatic", boost=12),
+                            types.PhraseSet.Phrase(value="dysregulation", boost=12),
+                            types.PhraseSet.Phrase(value="hyperarousal", boost=15),
+                            types.PhraseSet.Phrase(value="hypoarousal", boost=15),
+                            types.PhraseSet.Phrase(value="window of tolerance", boost=15),
+                            types.PhraseSet.Phrase(value="polyvagal", boost=15),
+                            types.PhraseSet.Phrase(value="vagal tone", boost=12),
+                            types.PhraseSet.Phrase(value="somatic experiencing", boost=15),
+                            types.PhraseSet.Phrase(value="interoception", boost=15),
+                            types.PhraseSet.Phrase(value="attachment style", boost=12),
+                            types.PhraseSet.Phrase(value="secure attachment", boost=12),
+                            types.PhraseSet.Phrase(value="anxious attachment", boost=12),
+                            types.PhraseSet.Phrase(value="avoidant attachment", boost=12),
+                            types.PhraseSet.Phrase(value="transference", boost=15),
+                            types.PhraseSet.Phrase(value="countertransference", boost=15),
+                            # Commonly misrecognized patient vocabulary
+                            types.PhraseSet.Phrase(value="Xanax", boost=18),
+                            types.PhraseSet.Phrase(value="alprazolam", boost=15),
+                            types.PhraseSet.Phrase(value="Adderall", boost=18),
+                            types.PhraseSet.Phrase(value="Klonopin", boost=18),
+                            types.PhraseSet.Phrase(value="Ambien", boost=15),
+                            types.PhraseSet.Phrase(value="Trazodone", boost=15),
+                            types.PhraseSet.Phrase(value="Risperdal", boost=15),
+                            types.PhraseSet.Phrase(value="risperidone", boost=15),
+                            types.PhraseSet.Phrase(value="olanzapine", boost=15),
+                            types.PhraseSet.Phrase(value="Zyprexa", boost=15),
+                            types.PhraseSet.Phrase(value="naltrexone", boost=15),
+                            types.PhraseSet.Phrase(value="Suboxone", boost=18),
+                            types.PhraseSet.Phrase(value="buprenorphine", boost=15),
+                            types.PhraseSet.Phrase(value="methadone", boost=15),
+                            # Therapeutic techniques (patient language)
+                            types.PhraseSet.Phrase(value="grounding exercise", boost=12),
+                            types.PhraseSet.Phrase(value="breathing exercise", boost=10),
+                            types.PhraseSet.Phrase(value="coping skills", boost=10),
+                            types.PhraseSet.Phrase(value="trigger warning", boost=10),
+                            types.PhraseSet.Phrase(value="safe space", boost=10),
+                            types.PhraseSet.Phrase(value="inner child", boost=12),
+                            types.PhraseSet.Phrase(value="emotional flashback", boost=15),
+                            types.PhraseSet.Phrase(value="body scan", boost=12),
+                            types.PhraseSet.Phrase(value="progressive muscle relaxation", boost=12),
+                            types.PhraseSet.Phrase(value="DBT skills", boost=15),
+                            types.PhraseSet.Phrase(value="wise mind", boost=15),
+                            types.PhraseSet.Phrase(value="radical acceptance", boost=15),
+                            types.PhraseSet.Phrase(value="opposite action", boost=12),
+                            types.PhraseSet.Phrase(value="TIPP skills", boost=18),
+                            types.PhraseSet.Phrase(value="DEAR MAN", boost=18),
+                            types.PhraseSet.Phrase(value="Socratic questioning", boost=15),
+                            types.PhraseSet.Phrase(value="downward arrow", boost=12),
+                            types.PhraseSet.Phrase(value="core belief", boost=12),
+                            types.PhraseSet.Phrase(value="schema", boost=10),
+                            types.PhraseSet.Phrase(value="automatic thought", boost=12),
                         ]
                     )
                 )
@@ -633,6 +689,10 @@ async def websocket_transcribe(websocket: WebSocket):
                         if data.get("type") == "stop":
                             logger.info(f"[{session_id}] Received stop signal")
                             break
+                        elif data.get("type") == "pause":
+                            logger.info(f"[{session_id}] Session paused — keeping connection alive")
+                        elif data.get("type") == "resume":
+                            logger.info(f"[{session_id}] Session resumed")
                         elif data.get("type") == "ping":
                             # Heartbeat keepalive — respond with pong
                             await websocket.send_json({"type": "pong"})

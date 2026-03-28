@@ -490,6 +490,143 @@ def get_rag_tools_for_session(session_context, is_realtime=False):
 
     return tools
 
+# ── Background RAG Pre-fetch Cache ────────────────────────────────────────────
+# Queries Discovery Engine datastores in the background and caches retrieved
+# passages. Realtime (Flash) analysis injects cached passages as prompt context
+# instead of using inline RAG tools, reducing latency from ~10s to ~2-4s.
+# The corpus is static clinical documents — passages stay valid for minutes.
+
+_rag_cache_lock = threading.Lock()
+_rag_cache = {}  # key: session_type, value: {"passages": str, "timestamp": float, "transcript_hash": str}
+RAG_CACHE_TTL_SECONDS = 25  # refresh every 25 seconds
+
+
+def _query_datastore(datastore_id: str, query_text: str, max_results: int = 3) -> list:
+    """Query a single Discovery Engine datastore and return relevant passages."""
+    try:
+        from google.cloud import discoveryengine_v1 as discoveryengine
+
+        serving_config = (
+            f"projects/{project_id}/locations/us/collections/default_collection"
+            f"/dataStores/{datastore_id}/servingConfigs/default_search"
+        )
+
+        search_client = discoveryengine.SearchServiceClient(
+            client_options={"api_endpoint": "us-discoveryengine.googleapis.com"}
+        )
+
+        search_request = discoveryengine.SearchRequest(
+            serving_config=serving_config,
+            query=query_text,
+            page_size=max_results,
+            content_search_spec=discoveryengine.SearchRequest.ContentSearchSpec(
+                snippet_spec=discoveryengine.SearchRequest.ContentSearchSpec.SnippetSpec(
+                    return_snippet=True,
+                    max_snippet_count=3,
+                ),
+                extractive_content_spec=discoveryengine.SearchRequest.ContentSearchSpec.ExtractiveContentSpec(
+                    max_extractive_answer_count=2,
+                    max_extractive_segment_count=3,
+                ),
+            ),
+        )
+
+        response = search_client.search(search_request)
+        passages = []
+        for result in response.results:
+            doc = result.document
+            # Extract snippets
+            if hasattr(doc, 'derived_struct_data') and doc.derived_struct_data:
+                snippets = doc.derived_struct_data.get('snippets', [])
+                for s in snippets:
+                    if isinstance(s, dict) and s.get('snippet'):
+                        passages.append(s['snippet'])
+                # Extract extractive answers
+                answers = doc.derived_struct_data.get('extractive_answers', [])
+                for a in answers:
+                    if isinstance(a, dict) and a.get('content'):
+                        passages.append(a['content'])
+            # Also check struct_data
+            if hasattr(doc, 'struct_data') and doc.struct_data:
+                title = doc.struct_data.get('title', '')
+                if title:
+                    passages.append(f"[Source: {title}]")
+
+        return passages[:max_results * 2]  # Cap total passages
+    except Exception as e:
+        logging.warning(f"[RAG PREFETCH] Failed to query {datastore_id}: {e}")
+        return []
+
+
+def prefetch_rag_context(session_context: dict, transcript_text: str) -> str:
+    """Query all relevant datastores and return cached RAG passages as a formatted string.
+
+    Uses a cache keyed by session_type + transcript hash to avoid redundant queries.
+    """
+    session_type = (session_context or {}).get("session_type", "CBT")
+    # Simple hash of transcript to detect meaningful changes
+    transcript_hash = str(hash(transcript_text[-500:] if len(transcript_text) > 500 else transcript_text))
+
+    with _rag_cache_lock:
+        cached = _rag_cache.get(session_type)
+        if cached:
+            age = time.time() - cached["timestamp"]
+            if age < RAG_CACHE_TTL_SECONDS and cached["transcript_hash"] == transcript_hash:
+                logging.info(f"[RAG PREFETCH] Cache hit for {session_type} (age={age:.0f}s)")
+                return cached["passages"]
+
+    # Determine which datastores to query
+    datastore_ids = ["ebt-corpus", "safety-crisis"]
+    modality_map = {"CBT": ["cbt-corpus", "ba-corpus"], "DBT": ["dbt-corpus"], "IPT": ["ipt-corpus"]}
+    datastore_ids.extend(modality_map.get(session_type, modality_map["CBT"]))
+
+    # Craft a search query from the most recent transcript
+    # Use last ~200 words as the query
+    words = transcript_text.split()
+    query_text = " ".join(words[-200:]) if len(words) > 200 else transcript_text
+
+    logging.info(f"[RAG PREFETCH] Querying {len(datastore_ids)} datastores for {session_type}: {datastore_ids}")
+    prefetch_start = time.perf_counter()
+
+    # Query all datastores in parallel threads
+    results_by_store = {}
+    threads = []
+
+    def _query_thread(ds_id):
+        results_by_store[ds_id] = _query_datastore(ds_id, query_text)
+
+    for ds_id in datastore_ids:
+        t = threading.Thread(target=_query_thread, args=(ds_id,))
+        t.start()
+        threads.append(t)
+
+    for t in threads:
+        t.join(timeout=10)  # 10s max per datastore
+
+    prefetch_elapsed = (time.perf_counter() - prefetch_start) * 1000
+    logging.info(f"[RAG PREFETCH] Completed in {prefetch_elapsed:.0f}ms — {sum(len(v) for v in results_by_store.values())} passages retrieved")
+
+    # Format passages as context text
+    context_parts = []
+    for ds_id, passages in results_by_store.items():
+        if passages:
+            context_parts.append(f"\n--- Evidence from {ds_id} ---")
+            for i, passage in enumerate(passages, 1):
+                context_parts.append(f"[{ds_id}:{i}] {passage}")
+
+    formatted_context = "\n".join(context_parts) if context_parts else ""
+
+    # Cache the result
+    with _rag_cache_lock:
+        _rag_cache[session_type] = {
+            "passages": formatted_context,
+            "timestamp": time.time(),
+            "transcript_hash": transcript_hash,
+        }
+
+    return formatted_context
+
+
 @functions_framework.http
 def therapy_analysis(request):
     """
@@ -885,10 +1022,10 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
     """
     safety_scan = safety_scan or {"detected": False}
 
-    # Select modality-specific RAG tools for realtime
-    realtime_rag_tools = get_rag_tools_for_session(session_context, is_realtime=True)
+    # Pre-fetch RAG context (cached, refreshes every 25s in background threads)
+    # Injected as prompt text instead of inline tools for 2-4s latency vs 8-12s
+    _rag_context = prefetch_rag_context(session_context, transcript_text)
     _session_type = (session_context or {}).get("session_type", "CBT")
-    # Build tool names for logging (reflects multi-corpus routing)
     _realtime_rag_tool_names = ["ebt-corpus", "safety-crisis"]
     for _t in MODALITY_RAG_MAP.get(_session_type, [CBT_RAG_TOOL]):
         if _t is CBT_RAG_TOOL: _realtime_rag_tool_names.append("cbt-corpus")
@@ -904,7 +1041,12 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
             # If safety scanner fired, prepend safety context to the prompt
             safety_prefix = safety_scan.get("prompt_injection", "") if safety_scan.get("detected") else ""
 
-            analysis_prompt = safety_prefix + prompt_template.format(
+            # Inject pre-fetched RAG context (clinical evidence from corpus)
+            rag_context_section = ""
+            if _rag_context:
+                rag_context_section = f"\n\nCLINICAL EVIDENCE (from evidence-based therapy corpus — use these to ground your guidance):\n{_rag_context}\n\n"
+
+            analysis_prompt = safety_prefix + rag_context_section + prompt_template.format(
                 transcript_text=transcript_text,
                 previous_alert_context=previous_alert_context,
                 current_approach=current_approach
@@ -919,7 +1061,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
             # Note: Realtime analysis uses no thinking config for maximum speed (Gemini 3 Flash)
             config = types.GenerateContentConfig(
                 temperature=0.0,  # Deterministic for speed
-                max_output_tokens=2048,  # Sufficient for complete JSON responses
+                max_output_tokens=1024,  # Tuned for concise alert JSON — ~750 words
                 safety_settings=[
                     types.SafetySetting(
                         category="HARM_CATEGORY_HARASSMENT",
@@ -938,9 +1080,8 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                         threshold="OFF"
                     )
                 ],
-                # NO RAG tools for realtime — retrieval adds 10+ seconds latency
-                # Flash has sufficient training knowledge for quick safety/technique alerts
-                # RAG grounding is used only for comprehensive analysis (Pro)
+                # RAG context injected as prompt text (pre-fetched) — no inline tools needed
+                # This keeps Flash latency at 2-4s instead of 8-12s with tool-based retrieval
             )
 
             logging.info(f"[TIMING] Trying realtime analysis with {prompt_name}")
@@ -1008,7 +1149,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                     analysis_type="realtime",
                     prompt_name=prompt_name,
                     temperature=0.0,
-                    max_output_tokens=2048,
+                    max_output_tokens=1024,
                     thinking_level=None,
                     rag_tools=_realtime_rag_tool_names,
                     start_time=rt_start,
@@ -1031,7 +1172,7 @@ def handle_realtime_analysis_with_retry(transcript_segment, transcript_text, pre
                     analysis_type="realtime",
                     prompt_name=prompt_name,
                     temperature=0.0,
-                    max_output_tokens=2048,
+                    max_output_tokens=1024,
                     thinking_level=None,
                     rag_tools=_realtime_rag_tool_names,
                     start_time=rt_start,
@@ -1235,7 +1376,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
 
             config = types.GenerateContentConfig(
                 temperature=0.1,  # Near-deterministic for speed + consistency
-                max_output_tokens=4096,  # Ample headroom for comprehensive JSON
+                max_output_tokens=2560,  # Tuned for concise comprehensive JSON — prevents verbose sprawl
                 thinking_config=types.ThinkingConfig(
                     thinking_budget=thinking_budget,
                     include_thoughts=False
@@ -1274,8 +1415,8 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
             else:
                 _comp_tool_names = ["ebt-corpus", "cbt-corpus", "ba-corpus", "transcript-patterns"]
 
-            # Use Flash for comprehensive analysis — 2-4x faster than Pro with comparable clinical quality
-            comprehensive_model = constants.MODEL_NAME  # gemini-2.5-flash
+            # Pro model for comprehensive analysis — deeper clinical reasoning with thinking_budget
+            comprehensive_model = constants.MODEL_NAME_PRO  # gemini-2.5-pro
             cache_status = f"cached={cached_content_name[:40]}..." if using_cache else "uncached"
             logging.info(f"[TIMING] Calling Gemini model '{comprehensive_model}' for comprehensive analysis ({cache_status}) with RAG tools: {_comp_tool_names}")
 
@@ -1357,7 +1498,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                     analysis_type="comprehensive",
                     prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                     temperature=0.1,
-                    max_output_tokens=2048,
+                    max_output_tokens=2560,
                     thinking_level=thinking_level,
                     rag_tools=_comp_tool_names,
                     start_time=comp_start,
@@ -1382,7 +1523,7 @@ def handle_comprehensive_analysis(analysis_prompt, phase, headers, job_id=None, 
                         analysis_type="comprehensive",
                         prompt_name="COMPREHENSIVE_ANALYSIS_PROMPT",
                         temperature=0.1,
-                        max_output_tokens=2048,
+                        max_output_tokens=2560,
                         thinking_level=thinking_level,
                         rag_tools=_comp_tool_names,
                         start_time=comp_start,

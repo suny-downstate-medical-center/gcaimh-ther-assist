@@ -504,34 +504,39 @@ export const useAudioStreamingWebSocket = ({
 
   const pauseAudioStreaming = useCallback(() => {
     try {
+      // Pause audio file playback if active
       if (audioElementRef.current && isPlayingAudio) {
-        // Mark as intentional pause — prevents auto-reconnect
-        intentionalDisconnectRef.current = true;
-
         audioElementRef.current.pause();
         setIsPlayingAudio(false);
-
-        // Stop the processing node
-        if (workletNodeRef.current) {
-          workletNodeRef.current.port.postMessage('stop');
-          workletNodeRef.current.disconnect();
-          workletNodeRef.current = null;
-        }
-        if (scriptProcessorRef.current) {
-          scriptProcessorRef.current.disconnect();
-          scriptProcessorRef.current = null;
-        }
-
-        // Disconnect WebSocket cleanly
-        disconnectWebSocket();
-
-        setIsRecording(false);
-        console.log('Audio streaming paused — WebSocket disconnected');
       }
+
+      // Stop the processing node — stops sending audio chunks
+      if (workletNodeRef.current) {
+        workletNodeRef.current.port.postMessage('stop');
+        workletNodeRef.current.disconnect();
+        workletNodeRef.current = null;
+      }
+      if (scriptProcessorRef.current) {
+        scriptProcessorRef.current.disconnect();
+        scriptProcessorRef.current = null;
+      }
+
+      // Mute microphone tracks (don't destroy them — needed for resume)
+      if (micStreamRef.current) {
+        micStreamRef.current.getTracks().forEach(track => { track.enabled = false; });
+      }
+
+      // Send pause signal to backend — keeps WebSocket open
+      if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+        wsRef.current.send(JSON.stringify({ type: 'pause' }));
+      }
+
+      setIsRecording(false);
+      console.log('Streaming paused — WebSocket kept alive');
     } catch (error) {
       console.error('Error during pause (non-critical):', error);
     }
-  }, [isPlayingAudio, disconnectWebSocket]);
+  }, [isPlayingAudio]);
 
   const resumeAudioStreaming = useCallback(async () => {
     try {
@@ -557,23 +562,30 @@ export const useAudioStreamingWebSocket = ({
           }
         }
 
+      // Resume audio file playback
+      if (audioElementRef.current && !isPlayingAudio && isStreamingFileRef.current) {
         if (audioContextRef.current && audioSourceNodeRef.current) {
-          // Disconnect existing connections
           try { audioSourceNodeRef.current.disconnect(); } catch (e) { /* ignore */ }
-
-          // Create new processing node and reconnect
           const resumeNode = createProcessingNode(audioContextRef.current);
           audioSourceNodeRef.current.connect(resumeNode);
           audioSourceNodeRef.current.connect(audioContextRef.current.destination);
-
-          setIsRecording(true);
         }
-
-        // Resume playback
         await audioElementRef.current.play();
         setIsPlayingAudio(true);
+        setIsRecording(true);
+        console.log('Audio file resumed from:', audioElementRef.current.currentTime);
+      }
 
-        console.log('Audio streaming resumed from:', audioElementRef.current.currentTime);
+      // Resume microphone
+      if (micStreamRef.current && !isStreamingFileRef.current) {
+        micStreamRef.current.getTracks().forEach(track => { track.enabled = true; });
+        if (audioContextRef.current) {
+          const micSource = audioContextRef.current.createMediaStreamSource(micStreamRef.current);
+          const resumeNode = createProcessingNode(audioContextRef.current);
+          micSource.connect(resumeNode);
+        }
+        setIsRecording(true);
+        console.log('Microphone resumed');
       }
     } catch (error) {
       console.error('Error resuming audio streaming:', error);

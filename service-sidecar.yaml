@@ -24,8 +24,8 @@ spec:
             - containerPort: 8080
           resources:
             limits:
-              memory: 256Mi
-              cpu: "1"
+              memory: 128Mi
+              cpu: "0.5"
 
         # ── Sidecar: Therapy Analysis ──
         - image: us-central1-docker.pkg.dev/brk-prj-salvador-dura-bern-sbx/therapy-images/therapy-analysis:sidecar
@@ -38,7 +38,7 @@ spec:
               value: us-central1
           resources:
             limits:
-              memory: 8Gi
+              memory: 27Gi
               cpu: "4"
           startupProbe:
             tcpSocket:
@@ -56,8 +56,8 @@ spec:
               value: brk-prj-salvador-dura-bern-sbx
           resources:
             limits:
-              memory: 256Mi
-              cpu: "1"
+              memory: 128Mi
+              cpu: "0.5"
 
         # ── Sidecar: Streaming Transcription ──
         - image: us-central1-docker.pkg.dev/brk-prj-salvador-dura-bern-sbx/therapy-images/therapy-streaming-transcription:sidecar

@@ -1138,7 +1138,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       
       // Resume based on session type
       if (sessionType === 'microphone') {
-        await startMicrophoneRecording();
+        await resumeAudioStreaming();
       } else if (sessionType === 'audio') {
         await resumeAudioStreaming();
       } else if (sessionType === 'test') {
@@ -1151,7 +1151,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
       
       // Pause based on session type
       if (sessionType === 'microphone') {
-        await stopStreaming();
+        pauseAudioStreaming();
       } else if (sessionType === 'audio') {
         pauseAudioStreaming();
       } else if (sessionType === 'test') {
@@ -1662,7 +1662,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
                   Source: {activeSafetyAlert.citation}
                 </Typography>
               )}
-              {activeSafetyAlert.crisis_resources && activeSafetyAlert.crisis_resources.length > 0 && (
+              {Array.isArray(activeSafetyAlert.crisis_resources) && activeSafetyAlert.crisis_resources.length > 0 && (
                 <Box sx={{ display: 'flex', gap: 2, mt: 0.5, flexWrap: 'wrap' }}>
                   {activeSafetyAlert.crisis_resources.map((resource, idx) => (
                     <Chip
@@ -1811,37 +1811,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
               <BackendStatusIndicator />
             </Box>
 
-            {/* Navigation Menu */}
-            <Box>
-            {[
-              { key: 'guidance', label: 'Guidance', icon: <Explore sx={{ fontSize: 24, color: '#444746' }} /> },
-            ].map((item, idx, arr) => (
-                <Box
-                  key={item.key}
-                  sx={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    height: 44,
-                    px: 1.5,
-                    py: 0.5,
-                    cursor: 'pointer',
-                    backgroundColor: activeTab === item.key ? 'rgba(0, 0, 0, 0.04)' : 'transparent',
-                    '&:hover': {
-                      backgroundColor: 'rgba(0, 0, 0, 0.04)',
-                    },
-                    borderBottom: idx < arr.length - 1 ? '1px solid rgba(196, 199, 197, 0.3)' : 'none',
-                  }}
-                  onClick={() => setActiveTab(item.key as any)}
-                >
-                  <Box sx={{ mr: 1.5, width: 24, height: 24, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    {activeTab === item.key ? item.icon : null}
-                  </Box>
-                  <Typography variant="body1" sx={{ fontSize: '18px', color: '#1f1f1f' }}>
-                    {item.label}
-                  </Typography>
-                </Box>
-              ))}
-            </Box>
+            {/* Navigation removed — guidance shown directly */}
 
             {/* LLM Activity Log - hidden per Salvador's feedback */}
           </Box>

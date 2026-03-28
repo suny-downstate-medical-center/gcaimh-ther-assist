@@ -329,7 +329,7 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               </Box>
             ))}
           </Box>
-        </Box>
+        )}
 
         {/* Contraindications */}
         <Box>
@@ -349,8 +349,58 @@ const GuidanceTab: React.FC<GuidanceTabProps> = ({ currentGuidance, onActionClic
               </Box>
             ))}
           </Box>
-        </Box>
+        )}
       </Box>
+
+      {/* Previous Recommendations Log */}
+      {alerts && alerts.length > 1 && (
+        <Box sx={{ mt: 1 }}>
+          <Box
+            onClick={() => setHistoryExpanded(!historyExpanded)}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 1,
+              cursor: 'pointer',
+              py: 0.5,
+              userSelect: 'none',
+            }}
+          >
+            <History sx={{ fontSize: 16, color: '#5f6368' }} />
+            <Typography sx={{ fontSize: '11px', fontWeight: 600, color: '#5f6368', textTransform: 'uppercase', letterSpacing: '0.3px' }}>
+              Previous Recommendations ({alerts.length - 1})
+            </Typography>
+            {historyExpanded ? <ExpandLess sx={{ fontSize: 16, color: '#5f6368' }} /> : <ExpandMore sx={{ fontSize: 16, color: '#5f6368' }} />}
+          </Box>
+          <Collapse in={historyExpanded}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, mt: 1, maxHeight: 300, overflowY: 'auto' }}>
+              {alerts.slice(1, 11).map((alert: any, idx: number) => (
+                <Box
+                  key={idx}
+                  sx={{
+                    p: 1.5,
+                    border: '1px solid #e9ebf1',
+                    borderRadius: '8px',
+                    backgroundColor: '#fafbfd',
+                  }}
+                >
+                  <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 0.5 }}>
+                    <Typography sx={{ fontSize: '12px', fontWeight: 600, color: '#1f1f1f' }}>
+                      {alert.title || 'Recommendation'}
+                    </Typography>
+                    <Typography sx={{ fontSize: '10px', color: '#9e9e9e' }}>
+                      {alert.category || ''}
+                    </Typography>
+                  </Box>
+                  <Typography sx={{ fontSize: '12px', color: '#444746', lineHeight: 1.5 }}>
+                    {alert.message || ''}
+                  </Typography>
+                </Box>
+              ))}
+            </Box>
+          </Collapse>
+        </Box>
+      )}
     </Box>
   );
 };
