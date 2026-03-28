@@ -38,7 +38,7 @@ spec:
               value: us-central1
           resources:
             limits:
-              memory: 27Gi
+              memory: 16Gi
               cpu: "4"
           startupProbe:
             tcpSocket:
