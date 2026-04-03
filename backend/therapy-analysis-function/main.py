@@ -28,6 +28,7 @@ import threading
 import firebase_admin
 from firebase_admin import auth, credentials, firestore
 from dotenv import load_dotenv
+from google.cloud import discoveryengine_v1 as discoveryengine
 try:
     from . import constants
 except ImportError:
@@ -500,19 +501,19 @@ _rag_cache_lock = threading.Lock()
 _rag_cache = {}  # key: session_type, value: {"passages": str, "timestamp": float, "transcript_hash": str}
 RAG_CACHE_TTL_SECONDS = 25  # refresh every 25 seconds
 
+# Single shared Discovery Engine client — gRPC clients are thread-safe and
+# reusing one client avoids concurrent DNS resolution races (c-ares issue).
+_search_client = discoveryengine.SearchServiceClient(
+    client_options={"api_endpoint": "us-discoveryengine.googleapis.com"}
+)
+
 
 def _query_datastore(datastore_id: str, query_text: str, max_results: int = 3) -> list:
     """Query a single Discovery Engine datastore and return relevant passages."""
     try:
-        from google.cloud import discoveryengine_v1 as discoveryengine
-
         serving_config = (
             f"projects/{project_id}/locations/us/collections/default_collection"
             f"/dataStores/{datastore_id}/servingConfigs/default_search"
-        )
-
-        search_client = discoveryengine.SearchServiceClient(
-            client_options={"api_endpoint": "us-discoveryengine.googleapis.com"}
         )
 
         search_request = discoveryengine.SearchRequest(
@@ -531,7 +532,7 @@ def _query_datastore(datastore_id: str, query_text: str, max_results: int = 3) -
             ),
         )
 
-        response = search_client.search(search_request)
+        response = _search_client.search(search_request)
         passages = []
         for result in response.results:
             doc = result.document
