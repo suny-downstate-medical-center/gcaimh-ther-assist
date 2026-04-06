@@ -78,7 +78,6 @@ export const useAudioStreamingWebSocket = ({
   const intentionalDisconnectRef = useRef<boolean>(false); // true when user deliberately stops/pauses
   const heartbeatIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const reconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const disconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reconnectAttemptsRef = useRef<number>(0);
   const MAX_RECONNECT_ATTEMPTS = 5;
   const HEARTBEAT_INTERVAL_MS = 25000; // 25s — under Cloud Run's typical idle timeout
@@ -213,8 +212,6 @@ export const useAudioStreamingWebSocket = ({
 
         ws.onclose = () => {
           console.log('WebSocket disconnected');
-          if (wsRef.current !== ws) return;
-
           setIsConnected(false);
           wsRef.current = null;
           stopHeartbeat();
@@ -258,10 +255,6 @@ export const useAudioStreamingWebSocket = ({
     if (reconnectTimeoutRef.current) {
       clearTimeout(reconnectTimeoutRef.current);
       reconnectTimeoutRef.current = null;
-    }
-    if (disconnectTimeoutRef.current) {
-      clearTimeout(disconnectTimeoutRef.current);
-      disconnectTimeoutRef.current = null;
     }
     if (wsRef.current) {
       if (wsRef.current.readyState === WebSocket.OPEN) {
@@ -376,24 +369,14 @@ export const useAudioStreamingWebSocket = ({
 
   const startMicrophoneRecording = useCallback(async () => {
     try {
-      // Cancel any pending disconnect from a recent stop
-      if (disconnectTimeoutRef.current) {
-        clearTimeout(disconnectTimeoutRef.current);
-        disconnectTimeoutRef.current = null;
-      }
-      
       // Mark as intentional connection (not a reconnect)
       intentionalDisconnectRef.current = false;
       reconnectAttemptsRef.current = 0;
 
       // Connect WebSocket if not connected
-      if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
+      if (!isConnected) {
         await connectWebSocket();
-        let retries = 0;
-        while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
-          await new Promise(resolve => setTimeout(resolve, 100));
-          retries++;
-        }
+        await new Promise(resolve => setTimeout(resolve, 500));
       }
 
       const ctx = await ensureAudioContext();
@@ -433,22 +416,12 @@ export const useAudioStreamingWebSocket = ({
 
   const startAudioFileStreaming = useCallback(async (audioUrl: string) => {
     try {
-      // Cancel any pending disconnect from a recent stop
-      if (disconnectTimeoutRef.current) {
-        clearTimeout(disconnectTimeoutRef.current);
-        disconnectTimeoutRef.current = null;
-      }
-
       intentionalDisconnectRef.current = false;
       reconnectAttemptsRef.current = 0;
 
-      if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
+      if (!isConnected) {
         await connectWebSocket();
-        let retries = 0;
-        while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
-          await new Promise(resolve => setTimeout(resolve, 100));
-          retries++;
-        }
+        await new Promise(resolve => setTimeout(resolve, 500));
       }
 
       currentAudioUrlRef.current = audioUrl;
@@ -540,27 +513,21 @@ export const useAudioStreamingWebSocket = ({
 
   const resumeAudioStreaming = useCallback(async () => {
     try {
-      if (audioElementRef.current && !isPlayingAudio && isStreamingFileRef.current) {
-        // Cancel any pending disconnect
-        if (disconnectTimeoutRef.current) {
-          clearTimeout(disconnectTimeoutRef.current);
-          disconnectTimeoutRef.current = null;
-        }
+      // If WebSocket is still open (keepalive worked), just send resume signal
+      const wsOpen = wsRef.current && wsRef.current.readyState === WebSocket.OPEN;
 
-        // Mark as intentional resume — allow auto-reconnect again
+      if (!wsOpen) {
+        // WebSocket was lost — reconnect
         intentionalDisconnectRef.current = false;
         reconnectAttemptsRef.current = 0;
-
-        // Reconnect WebSocket
-        console.log('Reconnecting WebSocket for resume...');
-        if (!wsRef.current || wsRef.current.readyState !== WebSocket.OPEN) {
-          await connectWebSocket();
-          let retries = 0;
-          while (wsRef.current?.readyState !== WebSocket.OPEN && retries < 10) {
-            await new Promise(resolve => setTimeout(resolve, 100));
-            retries++;
-          }
-        }
+        console.log('WebSocket lost during pause — reconnecting...');
+        await connectWebSocket();
+        await new Promise(resolve => setTimeout(resolve, 500));
+      } else {
+        // Send resume signal to backend
+        wsRef.current!.send(JSON.stringify({ type: 'resume' }));
+        console.log('WebSocket still open — sent resume signal');
+      }
 
       // Resume audio file playback
       if (audioElementRef.current && !isPlayingAudio && isStreamingFileRef.current) {
@@ -643,10 +610,7 @@ export const useAudioStreamingWebSocket = ({
     isStreamingFileRef.current = false;
 
     // Disconnect WebSocket after a short delay to receive final outputs
-    if (disconnectTimeoutRef.current) {
-      clearTimeout(disconnectTimeoutRef.current);
-    }
-    disconnectTimeoutRef.current = setTimeout(() => {
+    setTimeout(() => {
       disconnectWebSocket();
     }, 1000);
   }, [disconnectWebSocket]);
