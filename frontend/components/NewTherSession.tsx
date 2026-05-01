@@ -248,7 +248,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
         const primaryConcern = topics[0] || 'General';
 
         // Infer session type / approach from focus topics
-        const topicsLower = patient.focusTopics.toLowerCase();
+        const topicsLower = patient.focusTopics?.toLowerCase() ?? '';
         let sessionType = 'CBT';
         let currentApproach = 'Cognitive Behavioral Therapy';
         if (topicsLower.includes('emdr')) {
@@ -1552,7 +1552,7 @@ const NewTherSession: React.FC<NewTherSessionProps> = ({
 
   // Get alert category icon
   const getCategoryIcon = (category: string) => {
-    switch (category.toLowerCase()) {
+    switch (category?.toLowerCase()) {
       case 'safety':
         return <Shield sx={{ fontSize: 20, color: '#dc2626' }} />;
       case 'technique':

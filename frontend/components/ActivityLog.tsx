@@ -81,8 +81,8 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
   };
 
   const getModelColor = (model: string) => {
-    if (model.toLowerCase().includes('flash')) return '#00bcd4';  // cyan
-    if (model.toLowerCase().includes('pro')) return '#ab47bc';    // purple
+    if (model?.toLowerCase().includes('flash')) return '#00bcd4';  // cyan
+    if (model?.toLowerCase().includes('pro')) return '#ab47bc';    // purple
     return '#78909c';
   };
 
@@ -101,8 +101,8 @@ const ActivityLog: React.FC<ActivityLogProps> = ({ entries, onClear }) => {
   };
 
   const getModelShort = (model: string) => {
-    if (model.toLowerCase().includes('flash')) return 'Flash';
-    if (model.toLowerCase().includes('pro')) return 'Pro';
+    if (model?.toLowerCase().includes('flash')) return 'Flash';
+    if (model?.toLowerCase().includes('pro')) return 'Pro';
     return model;
   };
 
