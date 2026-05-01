@@ -12,6 +12,31 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import configparser
+import os
+
+# --- Load Prompt Limits from .ini file ---
+config = configparser.ConfigParser()
+config_path = os.path.join(os.path.dirname(__file__), 'limits.ini')
+config.read(config_path)
+
+def get_limit_instr(section, default_char, default_word):
+    """Generate a limit instruction string from the config file including field-specific limits."""
+    char = config.get(section, 'char_limit', fallback=str(default_char))
+    word = config.get(section, 'word_limit', fallback=str(default_word))
+    instr = f"\n\nIMPORTANT LIMITS: Overall response maximum {char} characters and {word} words."
+    
+    # Check for field-specific limits (e.g., [realtime_fields])
+    field_section = f"{section}_fields"
+    if config.has_section(field_section):
+        field_constraints = []
+        for field, limit in config.items(field_section):
+            field_constraints.append(f"the '{field}' field MUST be under {limit} characters")
+        if field_constraints:
+            instr += " STRICT FIELD CONSTRAINTS: " + "; ".join(field_constraints) + "."
+            
+    return instr
+
 MODEL_NAME = "gemini-2.5-flash"  # Used for realtime analysis (speed-critical, minimal thinking)
 MODEL_NAME_PRO = "gemini-2.5-pro"  # Used for comprehensive, pathway guidance, and session summary (with thinking_budget)
 
@@ -537,3 +562,12 @@ Format as structured JSON:
 }}
 
 ALTERNATE THERAPY PATHS: Suggest 1-2 alternate therapy approaches that differ from the current session's modality. Base suggestions on observed patient patterns, emotional responses, and therapeutic needs identified during the session. Only suggest approaches with genuine clinical rationale — do not suggest alternatives just to fill the field."""
+
+# --- Inject Prompt Limits ---
+# These instructions are appended to the prompts to ensure the LLM respects character/word limits
+# as defined in the limits.ini file.
+REALTIME_ANALYSIS_PROMPT += get_limit_instr('realtime', 500, 100)
+REALTIME_ANALYSIS_PROMPT_STRICT += get_limit_instr('realtime', 500, 100)
+COMPREHENSIVE_ANALYSIS_PROMPT += get_limit_instr('comprehensive', 2000, 400)
+PATHWAY_GUIDANCE_PROMPT += get_limit_instr('pathway', 1500, 300)
+SESSION_SUMMARY_PROMPT += get_limit_instr('summary', 5000, 1000)
