@@ -214,6 +214,45 @@ This writes one JSON, Markdown, and HTML report per dialogue under separate
 `THERASSIST_MAX_DIALOGUES=2` for a small trial. The service must already be
 running; the Bash script does not start `START-Mac.command`.
 
+## Run realtime and comprehensive analyses for all dialogues
+
+To run both analysis families across every non-empty row in `test.csv`, first
+start the connected service with `START-Mac.command`, then run:
+
+```bash
+bash backend/test_RomanSept2026/run_all_analysis_tests.sh
+```
+
+This runs, in order:
+
+- realtime analysis in-process and through the service;
+- comprehensive analysis in-process and through the service.
+
+Reports are separated by analysis family and backend mode:
+
+```text
+backend/test_RomanSept2026/results/all_analysis/
+├── realtime/
+│   ├── in_process/
+│   └── service/
+└── comprehensive/
+    ├── in_process/
+    └── service/
+```
+
+Each mode contains one JSON, Markdown, and HTML report per dialogue, plus an
+aggregate summary. Use `THERASSIST_MAX_DIALOGUES=3` for a short trial. An
+alternative endpoint and output directory can be supplied as the first and
+second arguments:
+
+```bash
+bash backend/test_RomanSept2026/run_all_analysis_tests.sh \
+  https://<service-url>/therapy_analysis \
+  backend/test_RomanSept2026/results/online_all_analysis
+```
+
+Set `THERASSIST_BEARER_TOKEN` when the service endpoint requires authentication.
+
 ## Hybrid test: START-Mac service plus full visibility
 
 To exercise both paths for the same conversation checkpoints, first start the
