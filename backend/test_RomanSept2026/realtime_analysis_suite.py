@@ -59,7 +59,7 @@ class ConversationTurn:
 class RetrievalObservation:
     datastore: str
     query: str
-    duration_ms: int
+    duration_ms: int | None
     passages: list[str] = field(default_factory=list)
     source_titles: list[str] = field(default_factory=list)
     note: str = (
@@ -648,11 +648,122 @@ def step_to_dict(step: StepObservation) -> dict[str, Any]:
     return result
 
 
+def _response_alert(response: Mapping[str, Any]) -> Mapping[str, Any] | None:
+    alert = response.get("alert")
+    return alert if isinstance(alert, Mapping) else None
+
+
+def _response_list(alert: Mapping[str, Any], key: str) -> list[Any]:
+    value = alert.get(key, [])
+    if isinstance(value, list):
+        return value
+    return [value] if value else []
+
+
+def _model_output_markdown(response: Mapping[str, Any]) -> list[str]:
+    alert = _response_alert(response)
+    if not alert:
+        raw_response = response.get("raw_response")
+        if raw_response:
+            return [
+                "No structured recommendation was returned. Raw model output:",
+                "",
+                "```text",
+                str(raw_response),
+                "```",
+                "",
+            ]
+        output_fields = {
+            key: value
+            for key, value in response.items()
+            if key not in {"_diagnostics", "citations", "timestamp", "session_phase", "analysis_type", "job_id"}
+        }
+        if output_fields:
+            return [
+                "Structured model output:",
+                "",
+                "```json",
+                json.dumps(output_fields, indent=2, ensure_ascii=False),
+                "```",
+                "",
+            ]
+        return ["No model output returned for this checkpoint.", ""]
+
+    lines = [
+        f"- **Timing:** {alert.get('timing', 'not reported')}",
+        f"- **Category:** {alert.get('category', 'not reported')}",
+        f"- **Title:** {alert.get('title', 'not reported')}",
+        f"- **Message:** {alert.get('message', 'not reported')}",
+    ]
+    for label, key in (
+        ("Evidence", "evidence"),
+        ("Recommendation", "recommendation"),
+        ("Immediate actions", "immediateActions"),
+        ("Contraindications", "contraindications"),
+        ("Crisis resources", "crisis_resources"),
+    ):
+        values = _response_list(alert, key)
+        if values:
+            lines.append(f"- **{label}:**")
+            lines.extend(f"  - {value}" for value in values)
+    lines.append("")
+    return lines
+
+
+def _model_output_html(response: Mapping[str, Any]) -> str:
+    alert = _response_alert(response)
+    if not alert:
+        raw_response = response.get("raw_response")
+        if raw_response:
+            return (
+                '<div class="model-output empty-output"><strong>No structured recommendation returned.</strong>'
+                f'<pre>{_html_text(raw_response)}</pre></div>'
+            )
+        output_fields = {
+            key: value
+            for key, value in response.items()
+            if key not in {"_diagnostics", "citations", "timestamp", "session_phase", "analysis_type", "job_id"}
+        }
+        if output_fields:
+            return (
+                '<article class="model-output">'
+                '<strong>Structured comprehensive model output</strong>'
+                f'<pre>{_html_text(json.dumps(output_fields, indent=2, ensure_ascii=False))}</pre>'
+                '</article>'
+            )
+        return '<div class="model-output empty-output">No model output returned for this checkpoint.</div>'
+
+    fields = [
+        ("Timing", alert.get("timing", "not reported")),
+        ("Category", alert.get("category", "not reported")),
+        ("Title", alert.get("title", "not reported")),
+        ("Message", alert.get("message", "not reported")),
+    ]
+    field_html = "".join(
+        f'<div><strong>{_html_text(label)}</strong><br>{_html_text(value)}</div>'
+        for label, value in fields
+    )
+    lists_html = ""
+    for label, key in (
+        ("Evidence", "evidence"),
+        ("Recommendation", "recommendation"),
+        ("Immediate actions", "immediateActions"),
+        ("Contraindications", "contraindications"),
+        ("Crisis resources", "crisis_resources"),
+    ):
+        values = _response_list(alert, key)
+        if values:
+            items = "".join(f"<li>{_html_text(value)}</li>" for value in values)
+            lists_html += f'<div class="output-list"><strong>{_html_text(label)}</strong><ul>{items}</ul></div>'
+    return f'<article class="model-output">{field_html}{lists_html}</article>'
+
+
 def report_markdown(report: Mapping[str, Any]) -> str:
     """Render the JSON report as a step-by-step debrief."""
     summary = report["summary"]
+    analysis_label = "Comprehensive" if report.get("analysis_type") == "comprehensive" else "Realtime"
     lines = [
-        "# Realtime analysis debrief",
+        f"# {analysis_label} analysis debrief",
         "",
         f"Steps: {summary['steps']} | alerts: {summary['alerts']} | model attempts: {summary['model_attempts']}",
         f"RAG calls: {summary['rag_calls']} | datastores: {', '.join(summary['unique_datastores']) or 'none'}",
@@ -680,6 +791,11 @@ def report_markdown(report: Mapping[str, Any]) -> str:
             ),
             f"Token usage: `{json.dumps(step['token_usage'], ensure_ascii=False)}`",
             "",
+            "### Model output / recommendation",
+            "",
+        ])
+        lines.extend(_model_output_markdown(step["response"]))
+        lines.extend([
             "### RAG",
             "",
         ])
@@ -687,9 +803,10 @@ def report_markdown(report: Mapping[str, Any]) -> str:
             lines.append("No RAG observations captured (the backend may have failed before retrieval or instrumentation was not installed).")
         for retrieval in step["rag"]:
             lines.extend([
-                f"- **{retrieval['datastore']}** — {retrieval['duration_ms']} ms",
+                f"- **{retrieval['datastore']}** — {retrieval['duration_ms']} ms" if retrieval["duration_ms"] is not None else f"- **{retrieval['datastore']}** — inline with model request (separate latency unavailable)",
                 f"  - Trigger query: `{retrieval['query']}`",
                 f"  - Source titles: {', '.join(retrieval['source_titles']) or 'not returned'}",
+                f"  - Note: {retrieval['note']}",
             ])
             for index, passage in enumerate(retrieval["passages"], start=1):
                 lines.append(f"  - Chunk {index}: {passage}")
@@ -831,9 +948,11 @@ def report_html(report: Mapping[str, Any]) -> str:
             rag_sections.append(
                 '<article class="rag-card">'
                 f'<h4>{_html_text(retrieval.get("datastore", "Unknown datastore"))} '
-                f'<span class="muted">{_html_text(retrieval.get("duration_ms", "n/a"))} ms</span></h4>'
+                f'<span class="muted">{_html_text(retrieval.get("duration_ms") if retrieval.get("duration_ms") is not None else "inline with model request")}'
+                f'{" ms" if retrieval.get("duration_ms") is not None else ""}</span></h4>'
                 f'<p><strong>RAG trigger query</strong></p><pre>{_html_text(retrieval.get("query", ""))}</pre>'
                 f'<p><strong>Documents/source titles:</strong> {_html_text(titles)}</p>'
+                f'<p class="muted">{_html_text(retrieval.get("note", ""))}</p>'
                 f'{chunk_content}'
                 '</article>'
             )
@@ -869,7 +988,9 @@ def report_html(report: Mapping[str, Any]) -> str:
             f'<div><b>Completion</b><br>{_html_text(step.get("completion_latency_ms", "n/a"))} ms</div>'
             f'<div><b>Tokens</b><br>{_html_text(json.dumps(step.get("token_usage", {}), ensure_ascii=False))}</div>'
             '</div>'
-            '<h3>RAG step-by-step</h3>'
+            '<h3>Model output / recommendation</h3>'
+            + _model_output_html(step.get("response", {}))
+            + '<h3>RAG step-by-step</h3>'
             '<p class="muted">Each card is one datastore query. Source titles are the document metadata returned by the backend; exact document-to-chunk association is not exposed by the production helper.</p>'
             + "".join(rag_sections)
             + '<h3>Model attempts</h3>'
@@ -885,7 +1006,7 @@ def report_html(report: Mapping[str, Any]) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Realtime analysis report</title>
+<title>{_html_text("Comprehensive" if report.get("analysis_type") == "comprehensive" else "Realtime")} analysis report</title>
 <style>
 :root {{ color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f4f6fa; }}
 body {{ margin: 0; }}
@@ -912,6 +1033,11 @@ h2 {{ margin-top: 30px; }}
 .step > summary {{ cursor: pointer; font-weight: 600; padding: 17px 0; }}
 .metric-row {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 12px 0 22px; }}
 .metric-row > div {{ background: #f8fafc; border-radius: 7px; padding: 10px; font-size: .9rem; overflow-wrap: anywhere; }}
+.model-output {{ background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 14px; margin: 12px 0 22px; }}
+.model-output > div {{ margin-bottom: 10px; }}
+.model-output > div:last-child {{ margin-bottom: 0; }}
+.model-output ul {{ margin: 6px 0 0; padding-left: 22px; }}
+.empty-output {{ color: #64748b; background: #f8fafc; border-color: #dbe2ec; }}
 .rag-card, .attempt {{ padding: 14px; margin: 12px 0; box-shadow: none; }}
 .rag-card h4, .attempt h4 {{ margin: 0 0 8px; }}
 .rag-card pre, .attempt pre, pre {{ white-space: pre-wrap; overflow-wrap: anywhere; background: #f8fafc; border-radius: 6px; padding: 10px; }}
@@ -921,7 +1047,7 @@ h2 {{ margin-top: 30px; }}
 </head>
 <body>
 <main>
-<h1>Realtime analysis report</h1>
+<h1>{_html_text("Comprehensive" if report.get("analysis_type") == "comprehensive" else "Realtime")} analysis report</h1>
 <p class="meta">Backend mode: <b>{_html_text(report.get("backend_mode", "unknown"))}</b> · Generated: {_html_text(report.get("generated_at", ""))} · Metadata: {_html_text(json.dumps(metadata, ensure_ascii=False))}</p>
 <div class="summary">{summary_cards}</div>
 <p class="muted">{_html_text(summary.get("latency_note", ""))}</p>
@@ -959,12 +1085,17 @@ def run_realtime_analysis(
         )
 
 
-def write_report(report: Mapping[str, Any], output_dir: str | Path) -> tuple[Path, Path, Path]:
+def write_report(
+    report: Mapping[str, Any],
+    output_dir: str | Path,
+    *,
+    name_prefix: str = "realtime_analysis",
+) -> tuple[Path, Path, Path]:
     destination = Path(output_dir)
     destination.mkdir(parents=True, exist_ok=True)
-    json_path = destination / "realtime_analysis_report.json"
-    markdown_path = destination / "realtime_analysis_debrief.md"
-    html_path = destination / "realtime_analysis_report.html"
+    json_path = destination / f"{name_prefix}_report.json"
+    markdown_path = destination / f"{name_prefix}_debrief.md"
+    html_path = destination / f"{name_prefix}_report.html"
     json_path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     markdown_path.write_text(report_markdown(report), encoding="utf-8")
     html_path.write_text(report_html(report), encoding="utf-8")

@@ -63,7 +63,10 @@ The HTML report contains inline SVG charts, so it works without an internet
 connection or a JavaScript/charting dependency. The charts show the measured
 latency stages and prompt/completion/thinking tokens for each cumulative
 conversation step. Expand a step to inspect its transcript, each RAG datastore
-query, source titles, retrieved chunks, model prompts, and backend result.
+query, source titles, retrieved chunks, model prompts, model output, and
+recommendation. The model-output section includes the alert message, evidence,
+recommended actions, immediate actions, contraindications, and crisis resources
+when returned by the backend.
 Unavailable measurements (for example, internal prompts in HTTP mode) are
 shown as unavailable rather than inferred.
 
@@ -164,6 +167,52 @@ export the exact assembled prompt or pre-fetched RAG passages, so those fields
 are marked unavailable in HTTP reports. Use the default in-process mode, or
 the in-process half of the hybrid run, when full prompt/query/passage
 instrumentation is needed.
+
+## Comprehensive analysis pathway
+
+`comprehensive_analysis_suite.py` exercises
+`handle_comprehensive_analysis()` by sending `is_realtime=false`. Unlike the
+realtime pathway, comprehensive analysis uses Gemini's inline Vertex AI Search
+tools. The runner captures the comprehensive prompt, model timings and token
+usage, structured analysis output, and grounding queries/documents/chunks when
+they are returned by Gemini.
+
+Run the first dialogue in-process:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/comprehensive_analysis_suite.py
+```
+
+Run every dialogue in-process:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/comprehensive_analysis_suite.py \
+  --all-dialogues \
+  --output-dir backend/test_RomanSept2026/results/comprehensive/in_process
+```
+
+For the connected service, start `START-Mac.command` first and use:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/comprehensive_analysis_suite.py \
+  --all-dialogues \
+  --endpoint-url http://127.0.0.1:8090/therapy_analysis \
+  --output-dir backend/test_RomanSept2026/results/comprehensive/service
+```
+
+To run both comprehensive pathways with one Bash command:
+
+```bash
+./backend/test_RomanSept2026/run_both_comprehensive_tests.sh
+```
+
+This writes one JSON, Markdown, and HTML report per dialogue under separate
+`in_process/` and `service/` directories, plus aggregate summaries. Set
+`THERASSIST_MAX_DIALOGUES=2` for a small trial. The service must already be
+running; the Bash script does not start `START-Mac.command`.
 
 ## Hybrid test: START-Mac service plus full visibility
 

@@ -10,6 +10,7 @@ from realtime_analysis_suite import (
     FlexibleConversationAdapter,
     HttpBackendClient,
     RealtimeConversationRunner,
+    report_markdown,
     report_html,
     write_report,
 )
@@ -19,7 +20,12 @@ class FakeClient:
     def analyze(self, payload):
         return 200, {
             "analysis_type": "realtime",
-            "alert": {"category": "engagement"},
+            "alert": {
+                "category": "engagement",
+                "title": "Continue exploration",
+                "message": "The patient engaged with the discussion.",
+                "recommendation": ["Ask a follow-up question."],
+            },
             "_diagnostics": {"token_usage": {"prompt_tokens": 10, "completion_tokens": 4}},
         }
 
@@ -70,7 +76,10 @@ class RealtimeAnalysisSuiteTests(unittest.TestCase):
         self.assertIn("Token usage by cumulative conversation step", rendered)
         self.assertIn("<svg", rendered)
         self.assertIn("Step-by-step conversation and RAG", rendered)
+        self.assertIn("Model output / recommendation", rendered)
+        self.assertIn("Ask a follow-up question.", rendered)
         self.assertIn("No RAG observations captured", rendered)
+        self.assertIn("Model output / recommendation", report_markdown(report))
 
     def test_write_report_creates_html_file(self):
         report = RealtimeConversationRunner(FakeClient()).run("A short test")
