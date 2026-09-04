@@ -660,6 +660,70 @@ def _response_list(alert: Mapping[str, Any], key: str) -> list[Any]:
     return [value] if value else []
 
 
+def _token_usage_markdown(usage: Mapping[str, Any]) -> str:
+    """Render token counters as a compact Markdown sentence, not JSON."""
+    labels = (
+        ("Prompt", "prompt_tokens"),
+        ("Completion", "completion_tokens"),
+        ("Thinking", "thinking_tokens"),
+        ("Total", "total_tokens"),
+        ("Cached", "cached_tokens"),
+    )
+    values = [
+        f"{label}: **{usage[key]}**"
+        for label, key in labels
+        if usage.get(key) is not None
+    ]
+    return "; ".join(values) if values else "not reported"
+
+
+def _display_label(value: Any) -> str:
+    return str(value).replace("_", " ").replace("-", " ").title()
+
+
+def _structured_output_markdown(value: Any, indent: int = 0) -> list[str]:
+    """Render nested comprehensive output as readable Markdown bullets."""
+    prefix = "  " * indent
+    if isinstance(value, Mapping):
+        lines: list[str] = []
+        for key, item in value.items():
+            label = _display_label(key)
+            if isinstance(item, (Mapping, list)):
+                lines.append(f"{prefix}- **{label}:**")
+                lines.extend(_structured_output_markdown(item, indent + 1))
+            else:
+                lines.append(f"{prefix}- **{label}:** {item}")
+        return lines
+    if isinstance(value, list):
+        lines = []
+        for item in value:
+            if isinstance(item, (Mapping, list)):
+                lines.append(f"{prefix}-")
+                lines.extend(_structured_output_markdown(item, indent + 1))
+            else:
+                lines.append(f"{prefix}- {item}")
+        return lines
+    return [f"{prefix}- {value}"]
+
+
+def _structured_output_html(value: Any) -> str:
+    """Render nested comprehensive output as readable HTML, without JSON."""
+    if isinstance(value, Mapping):
+        parts = ['<div class="structured-group">']
+        for key, item in value.items():
+            label = _display_label(key)
+            if isinstance(item, (Mapping, list)):
+                parts.append(f'<div class="structured-field"><h4>{_html_text(label)}</h4>{_structured_output_html(item)}</div>')
+            else:
+                parts.append(f'<p><strong>{_html_text(label)}:</strong> {_html_text(item)}</p>')
+        parts.append("</div>")
+        return "".join(parts)
+    if isinstance(value, list):
+        items = "".join(f"<li>{_structured_output_html(item)}</li>" for item in value)
+        return f"<ul>{items}</ul>"
+    return _html_text(value)
+
+
 def _model_output_markdown(response: Mapping[str, Any]) -> list[str]:
     alert = _response_alert(response)
     if not alert:
@@ -676,17 +740,33 @@ def _model_output_markdown(response: Mapping[str, Any]) -> list[str]:
         output_fields = {
             key: value
             for key, value in response.items()
-            if key not in {"_diagnostics", "citations", "timestamp", "session_phase", "analysis_type", "job_id"}
+            if key not in {
+                "_diagnostics",
+                "citations",
+                "timestamp",
+                "session_phase",
+                "analysis_type",
+                "job_id",
+                # The same transcript is already shown at the beginning of
+                # each step, so do not repeat it in the model-output card.
+                "diarized_transcript",
+            }
         }
         if output_fields:
-            return [
-                "Structured model output:",
-                "",
-                "```json",
-                json.dumps(output_fields, indent=2, ensure_ascii=False),
-                "```",
-                "",
-            ]
+            preferred_order = (
+                "session_metrics",
+                "pathway_indicators",
+                "pathway_guidance",
+            )
+            ordered_keys = [key for key in preferred_order if key in output_fields]
+            ordered_keys.extend(key for key in output_fields if key not in ordered_keys)
+            lines = ["Structured model output:", ""]
+            for key in ordered_keys:
+                value = output_fields[key]
+                lines.extend([f"#### {_display_label(key)}", ""])
+                lines.extend(_structured_output_markdown(value))
+                lines.append("")
+            return lines
         return ["No model output returned for this checkpoint.", ""]
 
     lines = [
@@ -725,12 +805,11 @@ def _model_output_html(response: Mapping[str, Any]) -> str:
             if key not in {"_diagnostics", "citations", "timestamp", "session_phase", "analysis_type", "job_id"}
         }
         if output_fields:
-            return (
-                '<article class="model-output">'
-                '<strong>Structured comprehensive model output</strong>'
-                f'<pre>{_html_text(json.dumps(output_fields, indent=2, ensure_ascii=False))}</pre>'
-                '</article>'
+            sections = "".join(
+                f'<section class="structured-section"><h3>{_html_text(_display_label(key))}</h3>{_structured_output_html(value)}</section>'
+                for key, value in output_fields.items()
             )
+            return f'<article class="model-output"><strong>Structured comprehensive model output</strong>{sections}</article>'
         return '<div class="model-output empty-output">No model output returned for this checkpoint.</div>'
 
     fields = [
@@ -767,7 +846,7 @@ def report_markdown(report: Mapping[str, Any]) -> str:
         "",
         f"Steps: {summary['steps']} | alerts: {summary['alerts']} | model attempts: {summary['model_attempts']}",
         f"RAG calls: {summary['rag_calls']} | datastores: {', '.join(summary['unique_datastores']) or 'none'}",
-        f"Token totals: `{json.dumps(summary['token_totals'], sort_keys=True)}`",
+        f"Token totals: {_token_usage_markdown(summary['token_totals'])}",
         "",
         f"> {summary['latency_note']}",
         "",
@@ -789,7 +868,7 @@ def report_markdown(report: Mapping[str, Any]) -> str:
                 f"(TTFT): **{step['prompt_processing_and_thinking_latency_ms']} ms**; "
                 f"completion after TTFT: **{step['completion_latency_ms']} ms**"
             ),
-            f"Token usage: `{json.dumps(step['token_usage'], ensure_ascii=False)}`",
+            f"Token usage: {_token_usage_markdown(step['token_usage'])}",
             "",
             "### Model output / recommendation",
             "",
@@ -821,10 +900,20 @@ def report_markdown(report: Mapping[str, Any]) -> str:
                 "    ```",
             ])
         diagnostics = step["response"].get("_diagnostics", {})
+        diagnostic_lines = [
+            f"- **HTTP status:** {step.get('backend_status', 'not reported')}",
+        ]
+        if step.get("error"):
+            diagnostic_lines.append(f"- **Error:** {step['error']}")
+        if isinstance(diagnostics, Mapping):
+            for key in ("model", "analysis_type", "prompt_used", "finish_reason", "used_fallback"):
+                if diagnostics.get(key) is not None:
+                    diagnostic_lines.append(f"- **{_display_label(key)}:** {diagnostics[key]}")
         lines.extend([
             "",
-            f"Result: `{json.dumps(step['response'], ensure_ascii=False)}`",
-            f"Diagnostics: `{json.dumps(diagnostics, ensure_ascii=False)}`",
+            "### Backend result metadata",
+            "",
+            *diagnostic_lines,
             "",
         ])
     return "\n".join(lines)

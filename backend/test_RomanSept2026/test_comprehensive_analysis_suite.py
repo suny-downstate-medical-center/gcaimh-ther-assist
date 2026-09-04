@@ -5,7 +5,7 @@ from __future__ import annotations
 import unittest
 
 from comprehensive_analysis_suite import ComprehensiveConversationRunner
-from realtime_analysis_suite import report_html
+from realtime_analysis_suite import report_html, report_markdown
 
 
 class FakeComprehensiveClient:
@@ -51,6 +51,18 @@ class ComprehensiveAnalysisSuiteTests(unittest.TestCase):
         self.assertIn("Comprehensive analysis report", rendered)
         self.assertIn("Structured comprehensive model output", rendered)
         self.assertIn("Use the next open question.", rendered)
+
+    def test_comprehensive_output_is_readable_markdown_not_raw_json(self):
+        report = ComprehensiveConversationRunner(FakeComprehensiveClient()).run("A short test")
+        rendered = report_markdown(report)
+        self.assertIn("### Model output / recommendation", rendered)
+        self.assertIn("#### Session Metrics", rendered)
+        self.assertIn("#### Pathway Guidance", rendered)
+        self.assertIn("**Immediate Actions:**", rendered)
+        self.assertIn("Use the next open question.", rendered)
+        self.assertIn("### Backend result metadata", rendered)
+        self.assertNotIn('Result: `{', rendered)
+        self.assertNotIn('Token usage: `{', rendered)
 
 
 if __name__ == "__main__":
