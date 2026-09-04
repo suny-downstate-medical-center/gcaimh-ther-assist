@@ -1,1 +1,35 @@
-TherAssist Error Log - Fri 03/06/2026 15:00:54.02 
+TherAssist Error Log - Fri Sep  4 11:34:30 CDT 2026
+
+
+  VITE v5.4.19  ready in 1705 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+INFO:root:Firebase Admin SDK initialized
+2026-09-04 11:36:39,142 - __main__ - INFO - Firebase Admin SDK initialized
+2026-09-04 11:36:39,142 - __main__ - INFO - Using Google Cloud project: brk-prj-salvador-dura-bern-sbx, location: us-central1
+2026-09-04 11:36:39,615 - __main__ - INFO - Speech client initialized: us-central1-speech.googleapis.com
+INFO:root:Firebase Admin SDK initialized
+INFO:root:Firestore client initialized
+INFO:root:Google GenAI initialized for project 'brk-prj-salvador-dura-bern-sbx'
+INFO:root:GOOGLE_APPLICATION_CREDENTIALS set: /Users/romanbaravalle/.config/gcloud/application_default_credentials.json
+INFO:     Started server process [51707]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8082 (Press CTRL+C to quit)
+INFO:root:Credentials OK — project: brk-prj-salvador-dura-bern-sbx, type: Credentials
+ * Serving Flask app 'therapy_analysis'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.12.106:8090
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+INFO:root:Firebase Admin SDK initialized
+INFO:root:Firestore client initialized
+INFO:root:Google GenAI initialized for project 'brk-prj-salvador-dura-bern-sbx'
+INFO:root:GOOGLE_APPLICATION_CREDENTIALS set: /Users/romanbaravalle/.config/gcloud/application_default_credentials.json
+INFO:root:Credentials OK — project: brk-prj-salvador-dura-bern-sbx, type: Credentials
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-621-897
