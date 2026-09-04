@@ -210,19 +210,45 @@ class FlexibleConversationAdapter:
 
 def load_first_csv_dialogue(csv_path: str | Path = DEFAULT_CSV) -> dict[str, Any]:
     """Load the first dialogue and its dataset metadata."""
-    with Path(csv_path).open(newline="", encoding="utf-8") as handle:
+    csv_file = Path(csv_path)
+    with csv_file.open(newline="", encoding="utf-8") as handle:
         row = next(csv.DictReader(handle))
-    dialogue = json.loads(row["Dialogue"])
+    return _csv_row_to_dialogue(row, 1, csv_file)
+
+
+def _csv_row_to_dialogue(row: Mapping[str, str], row_number: int, csv_path: Path) -> dict[str, Any]:
+    raw_dialogue = _text(row.get("Dialogue"))
+    if not raw_dialogue:
+        raise ValueError(f"CSV row {row_number} has an empty Dialogue field")
+    try:
+        dialogue = json.loads(raw_dialogue)
+    except json.JSONDecodeError:
+        # The dataset mixes JSON turn arrays with plain text dialogues. The
+        # flexible adapter intentionally supports both representations.
+        dialogue = raw_dialogue
     return {
         "conversation": dialogue,
         "metadata": {
             "dialog_intent": row.get("Dialog Intent", ""),
             "concern_type": row.get("Concern Type", ""),
             "level": row.get("Level", ""),
-            "source_csv": str(Path(csv_path)),
-            "source_row": 1,
+            "source_csv": str(csv_path),
+            "source_row": row_number,
         },
     }
+
+
+def load_csv_dialogues(csv_path: str | Path = DEFAULT_CSV) -> list[dict[str, Any]]:
+    """Load every non-empty dialogue row and its dataset metadata."""
+    dialogues: list[dict[str, Any]] = []
+    with Path(csv_path).open(newline="", encoding="utf-8") as handle:
+        for row_number, row in enumerate(csv.DictReader(handle), start=1):
+            if not _text(row.get("Dialogue")):
+                continue
+            dialogues.append(_csv_row_to_dialogue(row, row_number, Path(csv_path)))
+    if not dialogues:
+        raise ValueError(f"No non-empty dialogues found in {csv_path}")
+    return dialogues
 
 
 def _extract_prompt(contents: Any) -> str:

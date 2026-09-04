@@ -99,6 +99,65 @@ The same switch works later with a Cloud Run URL, for example
 if authentication is enabled. The conversation adapters and report format do
 not change between local and online runs.
 
+## Run all dialogues
+
+The batch runner loops over every non-empty row in `test.csv` (currently 150
+dialogues) and writes a separate set of JSON, Markdown, and HTML reports for
+each one:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_all_realtime_tests.py \
+  --output-dir backend/test_RomanSept2026/results/all/in_process
+```
+
+Each report is stored under `dialogue_0001/`, `dialogue_0002/`, and so on.
+The batch also writes `all_dialogues_summary.json` and
+`all_dialogues_summary.md` with aggregate latency, token, RAG, alert, and
+success statistics. Use `--max-dialogues 2` for a small trial run.
+
+To run the complete dataset against the connected service, add its endpoint:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_all_realtime_tests.py \
+  --endpoint-url http://127.0.0.1:8090/therapy_analysis \
+  --output-dir backend/test_RomanSept2026/results/all/service
+```
+
+## Run both pathways with one Bash script
+
+The normal `realtime_analysis_suite.py` command runs only the in-process
+pathway. To run both the in-process and service-level tests, first start the
+application with `START-Mac.command`, then run:
+
+```bash
+bash backend/test_RomanSept2026/run_both_realtime_tests.sh
+```
+
+The script uses the `TherAssist` conda environment and loops over every
+dialogue, writing separate JSON,
+Markdown, and HTML reports to:
+
+- `backend/test_RomanSept2026/results/both/in_process/`
+- `backend/test_RomanSept2026/results/both/service/`
+
+Each pathway directory contains one subdirectory per CSV row and an aggregate
+`all_dialogues_summary.json` / `all_dialogues_summary.md`.
+
+An alternative endpoint can be supplied as the first argument, and a custom
+output directory as the second:
+
+```bash
+bash backend/test_RomanSept2026/run_both_realtime_tests.sh \
+  https://<service-url>/therapy_analysis \
+  backend/test_RomanSept2026/results/online
+```
+
+For an authenticated endpoint, set `THERASSIST_BEARER_TOKEN` before running
+the script. The service-level run requires the endpoint to already be running;
+the script does not start `START-Mac.command` itself.
+
 HTTP mode measures end-to-end request latency and consumes token/model
 diagnostics returned by the service. The current realtime response does not
 export the exact assembled prompt or pre-fetched RAG passages, so those fields
@@ -129,10 +188,6 @@ prompt/RAG tracing. It validates the real runtime and gives full internal
 visibility, but the two model calls are separate and may produce different
 outputs. The same command can target a deployed service with
 `--endpoint-url https://<service-url>/therapy_analysis`.
-
-The runner currently loads only the first CSV row. Future batch support can
-reuse `RealtimeConversationRunner` for every row without changing the backend
-adapter or instrumentation.
 
 ## Python and HTTP APIs
 
