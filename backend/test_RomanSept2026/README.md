@@ -128,6 +128,114 @@ conda run -n TherAssist python \
   --output-dir backend/test_RomanSept2026/results/all/service
 ```
 
+## Long-context stress test: concatenate test + train + val
+
+`run_concatenated_realtime_stress.py` is a separate experiment for detecting
+timeouts, context-limit failures, and latency degradation as one cumulative
+transcript grows. It normalizes every non-empty dialogue and concatenates the
+splits in this fixed order:
+
+```text
+test.csv → train.csv → val.csv
+```
+
+The dataset currently produces 1,000 source dialogues and 19,544 normalized
+turns (about 443,000 words). By default, the runner calls the same realtime
+`analyze_segment` path after every 50 source dialogues. This creates 20
+cumulative checkpoints; the final request contains the full concatenated
+transcript. That sampling keeps the experiment useful without making 19,544
+model calls.
+
+For the connected service started by `START-Mac.command`, run:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_concatenated_realtime_stress.py \
+  --endpoint-url http://127.0.0.1:8090/therapy_analysis
+```
+
+HTTP mode applies a five-minute timeout to each checkpoint by default. Change
+it with `--timeout-seconds`. A timeout is recorded as HTTP-style status 504 and
+the runner continues to later checkpoints. Omit `--endpoint-url` for the same
+in-process instrumentation used by the original realtime experiment, including
+exact prompts and RAG observations; the explicit HTTP timeout applies only to
+HTTP mode.
+
+Useful run sizes:
+
+```bash
+# Fast smoke test: two dialogues from each split and checkpoints every two dialogues
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_concatenated_realtime_stress.py \
+  --max-dialogues-per-split 2 \
+  --checkpoint-every-dialogues 2
+
+# Analyze every source-dialogue boundary (1,000 cumulative model requests)
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_concatenated_realtime_stress.py \
+  --checkpoint-every-dialogues 1
+
+# Use explicit checkpoints; the final dialogue is added automatically
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/run_concatenated_realtime_stress.py \
+  --checkpoint-dialogues 1,10,25,50,100,250,500,750
+```
+
+Outputs are written to
+`backend/test_RomanSept2026/results/concatenated_stress/`:
+
+- `concatenated_realtime_progress.jsonl` is appended after each completed
+  checkpoint, so measurements survive a later crash or interruption;
+- `concatenated_stress_summary.json` and `.md` report context size, timeout and
+  failure counts, latency/TTFT ratios, and the largest successful context;
+- `concatenated_realtime_report.json`, `_debrief.md`, and `_report.html` retain
+  the normal realtime analysis details and charts.
+
+The degradation flag is deliberately a screening heuristic: it compares each
+checkpoint's end-to-end request latency and TTFT with the median of the first
+three successful checkpoints (2× by default). It identifies where to inspect,
+but does not by itself prove that the quality of the model output degraded.
+
+## Export one dialogue's step metrics to CSV
+
+Use `export_realtime_metrics_csv.py` to turn a dialogue's JSON report into a
+flat CSV with one row per realtime analysis step:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/export_realtime_metrics_csv.py \
+  --results-dir backend/test_RomanSept2026/results/all/in_process \
+  --dialogue 7 \
+  --output backend/test_RomanSept2026/results/dialogue_7_metrics.csv
+```
+
+The exporter resolves
+`dialogue_0007/realtime_analysis_report.json` beneath the supplied batch
+directory. You can also point directly to a report:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/export_realtime_metrics_csv.py \
+  --report backend/test_RomanSept2026/results/all/in_process/dialogue_0007/realtime_analysis_report.json
+```
+
+Without `--output`, the CSV is written beside the JSON as
+`realtime_step_metrics.csv`. It contains one row per step and only these metric
+groups: request/RAG/prompt-assembly/prompt-processing-and-thinking/completion/
+model latency, plus prompt/completion/thinking/total/cached token usage.
+
+The same exporter accepts the concatenated report or compact stress summary.
+To select one of its analyzed dialogue checkpoints, add
+`--checkpoint-dialogue`:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/export_realtime_metrics_csv.py \
+  --report backend/test_RomanSept2026/results/concatenated_stress/concatenated_stress_summary.json \
+  --checkpoint-dialogue 250 \
+  --output backend/test_RomanSept2026/results/checkpoint_250_metrics.csv
+```
+
 ## Run both pathways with one Bash script
 
 The normal `realtime_analysis_suite.py` command runs only the in-process

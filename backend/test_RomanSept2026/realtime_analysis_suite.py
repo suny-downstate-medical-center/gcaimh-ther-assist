@@ -24,13 +24,14 @@ import importlib.util
 import json
 import logging
 import re
+import socket
 import sys
 import time
 import urllib.error
 import urllib.request
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from typing import Any, Iterable, Mapping, Protocol, Sequence
+from typing import Any, Callable, Iterable, Mapping, Protocol, Sequence
 
 
 LOGGER = logging.getLogger(__name__)
@@ -299,16 +300,27 @@ class BackendModuleLoader:
 
 
 class _InstrumentedModels:
-    def __init__(self, models: Any, observations: list[ModelAttemptObservation]):
+    def __init__(
+        self,
+        models: Any,
+        observations: list[ModelAttemptObservation],
+        *,
+        capture_prompts: bool = True,
+    ):
         self._models = models
         self._observations = observations
+        self._capture_prompts = capture_prompts
 
     def generate_content_stream(self, *args: Any, **kwargs: Any) -> Iterable[Any]:
-        prompt = _extract_prompt(kwargs.get("contents", args[1] if len(args) > 1 else ""))
+        prompt = (
+            _extract_prompt(kwargs.get("contents", args[1] if len(args) > 1 else ""))
+            if self._capture_prompts
+            else None
+        )
         prompt_name = "unknown"
-        if "for CRITICAL guidance only" in prompt:
+        if prompt and "for CRITICAL guidance only" in prompt:
             prompt_name = "REALTIME_ANALYSIS_PROMPT_STRICT"
-        elif "for real-time guidance" in prompt:
+        elif prompt and "for real-time guidance" in prompt:
             prompt_name = "REALTIME_ANALYSIS_PROMPT"
         observation = ModelAttemptObservation(prompt_name, prompt, time.perf_counter())
         self._observations.append(observation)
@@ -331,9 +343,19 @@ class _InstrumentedModels:
 
 
 class _InstrumentedClient:
-    def __init__(self, client: Any, observations: list[ModelAttemptObservation]):
+    def __init__(
+        self,
+        client: Any,
+        observations: list[ModelAttemptObservation],
+        *,
+        capture_prompts: bool = True,
+    ):
         self._client = client
-        self.models = _InstrumentedModels(client.models, observations)
+        self.models = _InstrumentedModels(
+            client.models,
+            observations,
+            capture_prompts=capture_prompts,
+        )
 
     def __getattr__(self, name: str) -> Any:
         return getattr(self._client, name)
@@ -413,7 +435,15 @@ class HttpBackendClient:
             status = error.code
             body = error.read().decode("utf-8", errors="replace")
         except urllib.error.URLError as error:
+            if isinstance(error.reason, (TimeoutError, socket.timeout)):
+                return 504, {
+                    "error": f"Analysis endpoint timed out after {self.timeout_seconds} seconds"
+                }
             return 503, {"error": f"Could not reach analysis endpoint: {error.reason}"}
+        except (TimeoutError, socket.timeout):
+            return 504, {
+                "error": f"Analysis endpoint timed out after {self.timeout_seconds} seconds"
+            }
 
         line = body.strip().splitlines()[-1] if body.strip() else "{}"
         try:
@@ -425,8 +455,9 @@ class HttpBackendClient:
 class BackendInstrumentation:
     """Install temporary wrappers around the backend's RAG and model calls."""
 
-    def __init__(self, backend: Any):
+    def __init__(self, backend: Any, *, capture_prompts: bool = True):
         self.backend = backend
+        self.capture_prompts = capture_prompts
         self.rag: list[RetrievalObservation] = []
         self.models: list[ModelAttemptObservation] = []
         self._original_query = None
@@ -462,7 +493,11 @@ class BackendInstrumentation:
 
         self.backend._query_datastore = query
         self.backend.prefetch_rag_context = prefetch
-        self.backend.client = _InstrumentedClient(self._original_client, self.models)
+        self.backend.client = _InstrumentedClient(
+            self._original_client,
+            self.models,
+            capture_prompts=self.capture_prompts,
+        )
         return self
 
     def __exit__(self, exc_type: Any, exc: Any, traceback: Any) -> None:
@@ -484,14 +519,34 @@ class RealtimeConversationRunner:
         *,
         session_context: Mapping[str, Any] | None = None,
         metadata: Mapping[str, Any] | None = None,
+        checkpoint_turns: Sequence[int] | None = None,
+        on_step: Callable[[StepObservation], None] | None = None,
+        retain_step_inputs: bool = True,
     ) -> dict[str, Any]:
         turns = self.adapter.adapt(conversation)
         if not turns:
             raise ValueError("Conversation contains no non-empty turns")
 
+        if checkpoint_turns is None:
+            checkpoints = list(range(1, len(turns) + 1))
+        else:
+            requested_checkpoints = list(checkpoint_turns)
+            if not requested_checkpoints:
+                raise ValueError("checkpoint_turns must contain at least one turn number")
+            if any(
+                not isinstance(value, int) or isinstance(value, bool)
+                for value in requested_checkpoints
+            ):
+                raise ValueError("checkpoint_turns must contain only integers")
+            checkpoints = sorted(set(requested_checkpoints))
+            if checkpoints[0] < 1 or checkpoints[-1] > len(turns):
+                raise ValueError(
+                    f"checkpoint_turns must be between 1 and {len(turns)} inclusive"
+                )
+
         steps: list[StepObservation] = []
         previous_alert: dict[str, Any] | None = None
-        for step_number, _turn in enumerate(turns, start=1):
+        for step_number in checkpoints:
             cumulative = turns[:step_number]
             payload = {
                 "action": "analyze_segment",
@@ -514,24 +569,37 @@ class RealtimeConversationRunner:
             if not observed_models:
                 observed_models = _attempt_from_backend_diagnostics(diagnostics)
             first_attempt = observed_models[0] if observed_models else None
-            steps.append(
-                StepObservation(
-                    step=step_number,
-                    input_turns=[turn.as_backend_turn() for turn in cumulative],
-                    transcript_text="\n".join(f"{turn.speaker}: {turn.text}" for turn in cumulative),
-                    request_latency_ms=round((ended - started) * 1000),
-                    rag_prefetch_latency_ms=_rag_prefetch_latency(self.client),
-                    prompt_assembly_latency_ms=_prompt_assembly_latency(self.client, model_start),
-                    prompt_processing_and_thinking_latency_ms=first_attempt.time_to_first_token_ms if first_attempt else None,
-                    completion_latency_ms=first_attempt.completion_after_first_token_ms if first_attempt else None,
-                    token_usage=dict(diagnostics.get("token_usage", {})),
-                    rag=_observed_rag(self.client, rag_start),
-                    model_attempts=observed_models,
-                    response=response,
-                    backend_status=status,
-                    error=response.get("error") if isinstance(response, dict) else "Invalid response",
-                )
+            observation = StepObservation(
+                step=step_number,
+                input_turns=(
+                    [turn.as_backend_turn() for turn in cumulative]
+                    if retain_step_inputs
+                    else []
+                ),
+                transcript_text=(
+                    "\n".join(f"{turn.speaker}: {turn.text}" for turn in cumulative)
+                    if retain_step_inputs
+                    else ""
+                ),
+                request_latency_ms=round((ended - started) * 1000),
+                rag_prefetch_latency_ms=_rag_prefetch_latency(self.client),
+                prompt_assembly_latency_ms=_prompt_assembly_latency(self.client, model_start),
+                prompt_processing_and_thinking_latency_ms=(
+                    first_attempt.time_to_first_token_ms if first_attempt else None
+                ),
+                completion_latency_ms=(
+                    first_attempt.completion_after_first_token_ms if first_attempt else None
+                ),
+                token_usage=dict(diagnostics.get("token_usage", {})),
+                rag=_observed_rag(self.client, rag_start),
+                model_attempts=observed_models,
+                response=response,
+                backend_status=status,
+                error=response.get("error") if isinstance(response, dict) else "Invalid response",
             )
+            steps.append(observation)
+            if on_step:
+                on_step(observation)
             alert = response.get("alert") if isinstance(response, dict) else None
             previous_alert = alert if isinstance(alert, dict) else previous_alert
 
@@ -1160,10 +1228,14 @@ def run_realtime_analysis(
     backend_path: str | Path = DEFAULT_BACKEND,
     session_context: Mapping[str, Any] | None = None,
     metadata: Mapping[str, Any] | None = None,
+    checkpoint_turns: Sequence[int] | None = None,
+    on_step: Callable[[StepObservation], None] | None = None,
+    retain_step_inputs: bool = True,
+    capture_prompts: bool = True,
 ) -> dict[str, Any]:
     """Run a real local backend experiment for any supported conversation format."""
     backend = BackendModuleLoader(backend_path).load()
-    instrumentation = BackendInstrumentation(backend)
+    instrumentation = BackendInstrumentation(backend, capture_prompts=capture_prompts)
     client = LocalBackendClient(backend)
     client.instrumentation = instrumentation
     with instrumentation:
@@ -1171,6 +1243,9 @@ def run_realtime_analysis(
             conversation,
             session_context=session_context,
             metadata=metadata,
+            checkpoint_turns=checkpoint_turns,
+            on_step=on_step,
+            retain_step_inputs=retain_step_inputs,
         )
 
 
