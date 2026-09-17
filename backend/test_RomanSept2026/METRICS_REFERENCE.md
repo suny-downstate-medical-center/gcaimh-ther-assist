@@ -102,6 +102,56 @@ subtracting or combining the stage columns.
 
 ## Service versus in-process measurements
 
+Both pathways execute the real therapy-analysis handler and make real Google
+RAG/Gemini requests. `in_process` does not mean mocked or offline. The
+difference is where the experiment runner crosses the backend boundary and how
+much internal instrumentation it can observe.
+
+### Service pathway
+
+```text
+experiment runner
+  → JSON over HTTP
+  → running Functions Framework / deployed service
+  → therapy_analysis handler
+  → Google RAG and Gemini
+  → HTTP response
+  → experiment runner
+```
+
+This pathway is the end-to-end integration test. It includes JSON encoding,
+the socket/HTTP boundary, the running server, request routing, authentication,
+response streaming/decoding, and any deployment or gateway behavior. It is the
+right pathway for answering “what latency does a caller experience?” and for
+detecting HTTP timeouts or service configuration failures.
+
+The service response exposes model/token diagnostics but does not expose the
+internal RAG timer, prompt-assembly timer, exact prompt, or retrieved passages.
+Those CSV cells are therefore blank rather than inferred. The
+`--timeout-seconds` option applies to this HTTP client pathway.
+
+### In-process pathway
+
+```text
+experiment runner
+  → Flask local test client
+  → the same therapy_analysis handler loaded into the runner process
+  → instrumented RAG and Gemini wrappers
+  → Google RAG and Gemini
+  → local handler response
+```
+
+This pathway is the diagnostic test. It removes the real socket, external HTTP
+server, gateway, and deployment boundary, but it still invokes the actual
+backend code and remote Google services. Temporary wrappers record RAG timing,
+prompt assembly, model attempts, TTFT, completion time, prompts, and retrieved
+passages. With `--compact-report`, timing remains instrumented but repeated
+prompt/transcript bodies are not retained.
+
+Instrumentation adds a small amount of local bookkeeping. There is no explicit
+per-request timeout around the in-process call, so a blocked underlying request
+can wait longer than the service test's configured HTTP timeout.
+
 | Property | Service pathway | In-process pathway |
 |---|---|---|
 | Real HTTP boundary | Yes | No; local Flask test client |
@@ -111,6 +161,14 @@ subtracting or combining the stage columns.
 | Model latency and TTFT | Based on diagnostics returned by the service | Directly observed around the Gemini stream |
 | Exact prompts/RAG passages | Not exposed | Available in a normal report; intentionally omitted with `--compact-report` |
 | Token usage | Available if Gemini returned usage metadata | Available if Gemini returned usage metadata |
+
+The two pathways make separate Gemini requests. They do not observe the same
+model execution. Even with temperature zero, their responses, fallback paths,
+thinking usage, previous-alert context, implicit-cache hits, and latency can
+differ. If the runs are executed sequentially, time-of-day load and cache state
+also differ. A small difference between pathway averages should therefore not
+be interpreted as pure HTTP overhead. Isolating HTTP overhead would require
+repeated or interleaved trials under controlled cache and backend conditions.
 
 `--compact-report` changes only report retention. It prevents the cumulative
 transcript and exact prompt from being duplicated at every step. It does not

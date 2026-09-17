@@ -2,6 +2,8 @@
 
 See [METRICS_REFERENCE.md](METRICS_REFERENCE.md) for definitions, calculations,
 and interpretation guidance for every latency and token column exported to CSV.
+The completed 50-dialogue experiment is analyzed in
+[CONCATENATED_50_RESULTS_ANALYSIS.md](CONCATENATED_50_RESULTS_ANALYSIS.md).
 
 This suite exercises the real realtime path in
 `backend/therapy-analysis-function/main.py` against a conversation and
