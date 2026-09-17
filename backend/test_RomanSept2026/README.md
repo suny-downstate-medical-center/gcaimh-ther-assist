@@ -236,6 +236,20 @@ conda run -n TherAssist python \
   --output backend/test_RomanSept2026/results/checkpoint_250_metrics.csv
 ```
 
+To export every realtime report beneath a results folder in one pass, use the
+batch exporter:
+
+```bash
+conda run -n TherAssist python \
+  backend/test_RomanSept2026/export_all_realtime_metrics_csv.py \
+  --results-root backend/test_RomanSept2026/results/concatenated_50_step_by_step
+```
+
+It writes a `metrics.csv` beside every detailed JSON report and also creates
+`all_realtime_metrics.csv` at the results root. The combined file has one extra
+`result` column identifying the source pathway/directory; all remaining columns
+are the same simplified latency and token metrics.
+
 ## Run both pathways with one Bash script
 
 The normal `realtime_analysis_suite.py` command runs only the in-process

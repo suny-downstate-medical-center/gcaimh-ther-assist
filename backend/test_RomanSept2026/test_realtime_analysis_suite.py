@@ -21,6 +21,7 @@ from run_concatenated_realtime_stress import (
     select_turn_checkpoints,
 )
 from export_realtime_metrics_csv import export_metrics_csv, resolve_dialogue_report
+from export_all_realtime_metrics_csv import export_all_realtime_metrics
 from realtime_analysis_suite import (
     FlexibleConversationAdapter,
     HttpBackendClient,
@@ -201,6 +202,26 @@ class RealtimeAnalysisSuiteTests(unittest.TestCase):
         self.assertIn("request_latency_ms", rows[0])
         self.assertIn("prompt_processing_and_thinking_latency_ms", rows[0])
         self.assertEqual(len(rows[0]), 12)
+
+    def test_exports_all_reports_and_combines_their_metrics(self):
+        report = RealtimeConversationRunner(FakeClient()).run("One step")
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            for mode in ("service", "in_process"):
+                mode_dir = root / mode
+                mode_dir.mkdir()
+                (mode_dir / "concatenated_realtime_report.json").write_text(
+                    json.dumps(report), encoding="utf-8"
+                )
+
+            individual, combined = export_all_realtime_metrics(root)
+            with combined.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+
+        self.assertEqual(len(individual), 2)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual({row["result"] for row in rows}, {"service", "in_process"})
+        self.assertEqual(rows[0]["prompt_tokens"], "10")
 
 
 if __name__ == "__main__":
