@@ -1,5 +1,8 @@
 # Realtime analysis experiment suite
 
+See [METRICS_REFERENCE.md](METRICS_REFERENCE.md) for definitions, calculations,
+and interpretation guidance for every latency and token column exported to CSV.
+
 This suite exercises the real realtime path in
 `backend/therapy-analysis-function/main.py` against a conversation and
 creates a step-by-step debrief. It does not add instrumentation to the
